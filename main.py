@@ -67,3 +67,54 @@ except Exception as e:
     import traceback
     traceback.print_exc()
     input("按Enter键退出...")
+
+# 4. 创建系统托盘
+print("\n[步骤4] 创建系统托盘...")
+try:
+    from ui.system_tray import SystemTray
+    
+    tray = SystemTray(pet_window)
+    print("✅ 系统托盘创建成功")
+    
+except Exception as e:
+    print(f"❌ 创建系统托盘失败: {e}")
+    print("将仅使用宠物窗口")
+    
+    print("\n" + "=" * 50)
+    print("🎮 宠物已就绪！")
+    print("📌 操作指南:")
+    print("  1. 点击宠物: 戳一戳互动")
+    print("  2. 按住拖动: 移动宠物位置")
+    print("  3. 关闭方法: 任务管理器")
+    print("=" * 50 + "\n")
+    
+    # 如果没有托盘，直接运行宠物窗口
+    pet_window.run()
+    exit(0)
+
+# 5. 启动程序
+print("\n" + "=" * 50)
+print("🚀 程序启动完成！")
+print("📌 使用说明:")
+print("  1. 宠物窗口: 点击拖动互动")
+print("  2. 系统托盘: 在任务栏右键图标")
+print("  3. 托盘菜单:")
+print("     • 显示/隐藏宠物")
+print("     • 戳一戳宠物")
+print("     • 移动到中心")
+print("     • 退出程序")
+print("=" * 50 + "\n")
+
+# 注意：Tkinter不能在不同线程中运行GUI
+# 我们需要在单独的线程中运行宠物窗口
+import threading
+
+def run_pet_window():
+    pet_window.run()
+
+# 在新线程中运行宠物窗口
+pet_thread = threading.Thread(target=run_pet_window, daemon=True)
+pet_thread.start()
+
+# 在主线程中运行系统托盘（Tkinter要求主线程）
+tray.run()
