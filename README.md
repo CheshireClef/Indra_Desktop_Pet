@@ -28,7 +28,7 @@
 ## 2. 项目初始化
 - [x] 在 GitHub 创建仓库（LICENSE 选 CC BY-NC）
 - [x] 在本地 `git clone` 项目
-- [ ] 创建 Python 虚拟环境：`python -m venv venv`
+- [x] 创建 Python 虚拟环境：`python -m venv venv`
 - [ ] 激活虚拟环境并安装基础依赖（如 PyQt5 / PySide6）
 - [ ] 创建基础文件结构：
   - [ ] `src/`
