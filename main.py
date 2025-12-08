@@ -1,5 +1,5 @@
 print("=" * 50)
-print("Indra 桌面宠物 v0.1")
+print("Indra 桌面宠物 v0.2")
 print("=" * 50)
 
 # 1. 检查依赖
@@ -42,39 +42,40 @@ try:
     from ui.pet_window import PetWindow
     
     print(f"创建宠物: {pet_name}")
-    pet = PetWindow()
+    pet_window = PetWindow(config)
     
-    print("\n" + "=" * 50)
-    print("✅ 宠物创建成功！")
-    print("📌 操作说明:")
-    print("  1. 窗口会出现在屏幕右上角")
-    print("  2. 点击立绘")
-    print("  3. 宠物会向右下角移动")
-    print("  4. 要关闭程序:")
-    print("     - 按 Ctrl+C 在终端")
-    print("     - 或用任务管理器")
-    print("=" * 50 + "\n")
-    
-    # 启动宠物
-    pet.run()
+    print("✅ 宠物窗口创建成功")
     
 except ImportError as e:
     print(f"❌ 导入模块失败: {e}")
     print("请确保文件结构正确")
     input("按Enter键退出...")
+    exit(1)
 except Exception as e:
     print(f"❌ 创建窗口失败: {e}")
     import traceback
     traceback.print_exc()
     input("按Enter键退出...")
+    exit(1)
 
-# 4. 创建系统托盘
+# 4. 创建系统托盘（简化版，不创建新线程）
 print("\n[步骤4] 创建系统托盘...")
 try:
     from ui.system_tray import SystemTray
     
     tray = SystemTray(pet_window)
     print("✅ 系统托盘创建成功")
+    
+    print("\n" + "=" * 50)
+    print("🚀 程序启动完成！")
+    print("📌 使用说明:")
+    print("  1. 宠物窗口: 点击拖动互动")
+    print("  2. 系统托盘: 在任务栏右键图标")
+    print("  3. 关闭程序: 从托盘菜单退出")
+    print("=" * 50 + "\n")
+    
+    # 直接运行托盘，它会管理宠物窗口
+    tray.run()
     
 except Exception as e:
     print(f"❌ 创建系统托盘失败: {e}")
@@ -90,31 +91,3 @@ except Exception as e:
     
     # 如果没有托盘，直接运行宠物窗口
     pet_window.run()
-    exit(0)
-
-# 5. 启动程序
-print("\n" + "=" * 50)
-print("🚀 程序启动完成！")
-print("📌 使用说明:")
-print("  1. 宠物窗口: 点击拖动互动")
-print("  2. 系统托盘: 在任务栏右键图标")
-print("  3. 托盘菜单:")
-print("     • 显示/隐藏宠物")
-print("     • 戳一戳宠物")
-print("     • 移动到中心")
-print("     • 退出程序")
-print("=" * 50 + "\n")
-
-# 注意：Tkinter不能在不同线程中运行GUI
-# 我们需要在单独的线程中运行宠物窗口
-import threading
-
-def run_pet_window():
-    pet_window.run()
-
-# 在新线程中运行宠物窗口
-pet_thread = threading.Thread(target=run_pet_window, daemon=True)
-pet_thread.start()
-
-# 在主线程中运行系统托盘（Tkinter要求主线程）
-tray.run()
