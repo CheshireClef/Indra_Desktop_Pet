@@ -16,18 +16,18 @@
 ---
 
 ## 1. 环境与工具准备
-~~- [✔] 安装 Python（3.10 或以上）
-- [✔] 安装 pip、venv（Python 自带）
-- [✔] 安装 Git（https://git-scm.com/）
-- [✔] 安装 VS Code
-- [✔] 在 VS Code 中安装 Python 插件
-- [✔] 在 VS Code 中安装 GitHub 扩展（可选）~~
+- [x] 安装 Python（3.10 或以上）
+- [x] 安装 pip、venv（Python 自带）
+- [x] 安装 Git（https://git-scm.com/）
+- [x] 安装 VS Code
+- [x] 在 VS Code 中安装 Python 插件
+- [x] 在 VS Code 中安装 GitHub 扩展（可选）
 
 ---
 
 ## 2. 项目初始化
-- [✔] 在 GitHub 创建仓库（LICENSE 选 CC BY-NC）
-- [✔] 在本地 `git clone` 项目
+- [x] 在 GitHub 创建仓库（LICENSE 选 CC BY-NC）
+- [x] 在本地 `git clone` 项目
 - [ ] 创建 Python 虚拟环境：`python -m venv venv`
 - [ ] 激活虚拟环境并安装基础依赖（如 PyQt5 / PySide6）
 - [ ] 创建基础文件结构：
@@ -87,3 +87,5 @@
 - [ ] 上传 Release 到 GitHub
 
 ---
+备注：
+听说屏幕图像识别可以用硅基流动Siliconflow.cn的大模型api做，用qwen_72B识别，生成的内容发送给deepseek处理
