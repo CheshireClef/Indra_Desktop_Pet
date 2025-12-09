@@ -1,3 +1,4 @@
+# main.py - 添加Windows透明模块导入检查
 print("=" * 50)
 print("Indra 桌面宠物 v0.3")
 print("=" * 50)
@@ -19,6 +20,18 @@ except ImportError:
     print("❌ Pillow 未安装，请运行: pip install Pillow")
     input("按Enter键退出...")
     exit(1)
+
+# 检查平台
+import platform
+current_os = platform.system()
+print(f"✅ 操作系统: {current_os}")
+
+if current_os == "Windows":
+    try:
+        import ctypes
+        print("✅ Windows API支持可用")
+    except:
+        print("⚠️  Windows API支持可能有问题")
 
 # 2. 读取配置
 print("\n[步骤2] 读取配置文件...")
@@ -77,24 +90,29 @@ except Exception as e:
     print(f"⚠️  创建系统托盘失败: {e}")
     print("将继续运行，但没有系统托盘功能")
 
+# main.py 的部分更新（主要在创建菜单部分）
+# ... 前面的代码保持不变 ...
+
 # 5. 创建右键菜单
 print("\n[步骤5] 创建右键菜单...")
 context_menu = None  # 先初始化为None
 try:
     from ui.context_menu import ContextMenu
     
-    context_menu = ContextMenu(pet_window, system_tray)
-    print("✅ 右键菜单创建成功")
-    
-    # 将系统托盘的状态同步到右键菜单
-    if system_tray:
-        context_menu.is_visible = system_tray.is_visible
+    # 确保宠物窗口已创建
+    if pet_window:
+        context_menu = ContextMenu(pet_window, system_tray)
+        print("✅ 右键菜单创建成功")
+    else:
+        print("❌ 无法创建右键菜单：宠物窗口未创建")
     
 except ImportError as e:
-    print(f"❌ 导入右键菜单模块失败: {e}")
+    print(f"⚠️  导入右键菜单模块失败: {e}")
     print("右键菜单功能将不可用")
+    import traceback
+    traceback.print_exc()
 except Exception as e:
-    print(f"❌ 创建右键菜单失败: {e}")
+    print(f"⚠️  创建右键菜单失败: {e}")
     import traceback
     traceback.print_exc()
 

@@ -1,215 +1,276 @@
 """
-宠物主窗口 - 显示在桌面上的宠物
-使用真实立绘图片版本
+宠物窗口类 - 支持Windows Alpha透明（修复版）
 """
 
 import tkinter as tk
 from PIL import Image, ImageTk
 import os
+import platform
+from typing import Tuple
 
 class PetWindow:
-    def __init__(self, config=None, system_tray=None):
-        """
-        初始化宠物窗口
-        config: 配置字典
-        system_tray: 系统托盘实例（可选）
-        """
-        print("正在创建宠物窗口...")
+    def __init__(self, config):
+        """初始化宠物窗口"""
+        print("正在初始化宠物窗口...")
         
-        self.config = config or {}
-        self.system_tray = system_tray
-        
-        # 创建主窗口
+        self.config = config
         self.window = tk.Tk()
-        self.window.title("因陀罗桌宠")
+        self.label = None
+        self.current_bg_color = 'black'  # 默认背景色
         
-        # 设置窗口属性
+        # 窗口设置
         self.setup_window()
         
-        # 显示宠物
-        self.show_pet()
+        # 加载宠物图片
+        self.load_pet_image()
         
-        # 上下文菜单将在外部初始化
+        # 绑定事件
+        self.bind_events()
         
+        # 设置窗口位置
+        self.set_window_position()
+        
+        print("✅ 宠物窗口初始化完成")
+    
     def setup_window(self):
         """设置窗口属性"""
-        # 1. 无边框窗口
+        # 设置窗口标题
+        self.window.title(self.config['pet']['name'])
+        
+        # 移除标题栏
         self.window.overrideredirect(True)
         
-        # 2. 始终置顶（保持在最前面）
-        self.window.wm_attributes('-topmost', True)
+        # 设置窗口置顶
+        self.window.attributes('-topmost', True)
         
-        # 3. 设置大小和位置
-        width = self.config.get('pet', {}).get('width', 150)
-        height = self.config.get('pet', {}).get('height', 150)
-        
-        pos_x = self.config.get('window', {}).get('pos_x', 500)
-        pos_y = self.config.get('window', {}).get('pos_y', 300)
-        
-        self.window.geometry(f"{width}x{height}+{pos_x}+{pos_y}")
-        
-        # 4. 设置白色背景，并让白色透明
-        self.window.config(bg='white')
-        self.window.wm_attributes('-transparentcolor', 'white')
-        
-        print(f"窗口属性设置完成: {width}x{height}, 位置({pos_x}, {pos_y})")
-        
-    def show_pet(self):
-        """显示宠物图片 - 加载真实立绘"""
-        print("正在加载宠物立绘...")
-        
-        # 尝试从不同位置加载图片
-        image_paths = [
-            'assets/images/pet.png',
-            'pet_stand.png',
-            'pet.png',
-        ]
-        
-        # 优先使用配置中的路径
-        config_path = self.config.get('pet', {}).get('image_path')
-        if config_path:
-            image_paths.insert(0, config_path)
-        
-        pet_image = None
-        used_path = None
-        
-        # 尝试每个可能的路径
-        for path in image_paths:
-            if os.path.exists(path):
+        # 检查是否为Windows系统
+        if platform.system() == 'Windows':
+            # Windows系统：尝试使用Alpha透明
+            try:
+                # 尝试导入Windows透明模块
                 try:
-                    pet_image = Image.open(path)
-                    used_path = path
-                    print(f"✅ 找到立绘文件: {path}")
-                    break
-                except Exception as e:
-                    print(f"⚠️  无法打开图片 {path}: {e}")
+                    from ui.windows_transparency import WindowsTransparency
+                except ImportError:
+                    # 尝试从根目录导入
+                    import sys
+                    sys.path.append('.')
+                    from windows_transparency import WindowsTransparency
+                
+                # 启用Alpha透明
+                if WindowsTransparency.enable_alpha_transparency(self.window):
+                    print("✅ 使用Windows API Alpha透明")
+                    # 对于Alpha透明，使用纯黑色作为背景
+                    self.current_bg_color = 'black'
+                    self.window.config(bg=self.current_bg_color)
+                else:
+                    # 回退到颜色键透明
+                    print("⚠️  Windows API透明失败，使用颜色键透明")
+                    self.setup_color_key_transparency()
+                    
+            except Exception as e:
+                print(f"⚠️  Windows透明初始化失败: {e}")
+                import traceback
+                traceback.print_exc()
+                # 回退到颜色键透明
+                self.setup_color_key_transparency()
+        else:
+            # 非Windows系统：使用颜色键透明
+            self.setup_color_key_transparency()
+    
+    def setup_color_key_transparency(self):
+        """设置颜色键透明（兼容方案）"""
+        # 设置品红色为透明色
+        self.current_bg_color = '#FF00FF'
+        self.window.config(bg=self.current_bg_color)
+        self.window.wm_attributes('-transparentcolor', self.current_bg_color)
         
-        if pet_image is None:
-            print("❌ 未找到立绘图片，将创建备用图片")
-            # 创建备用图片
-            pet_image = Image.new('RGBA', (150, 150), (200, 230, 255, 255))
-            used_path = "生成的备用图片"
-        
+        print(f"✅ 使用颜色键透明，背景色: {self.current_bg_color}")
+    
+    def load_pet_image(self):
+        """加载宠物图片"""
         try:
-            # 调整图片大小（如果需要）
-            width = self.config.get('pet', {}).get('width', 150)
-            height = self.config.get('pet', {}).get('height', 150)
+            image_path = "assets/images/pet.png"
             
-            # 保持宽高比调整大小
-            pet_image.thumbnail((width, height), Image.Resampling.LANCZOS)
+            if not os.path.exists(image_path):
+                print(f"⚠️  图片文件不存在: {image_path}")
+                # 创建默认图片
+                self.create_default_image()
+                return
             
-            # 转换成tkinter能显示的格式
-            self.pet_img = ImageTk.PhotoImage(pet_image)
+            # 使用Pillow加载图片
+            self.original_image = Image.open(image_path)
+            
+            # 检查图片模式，如果是RGBA（带Alpha通道）就保持
+            if self.original_image.mode != 'RGBA':
+                self.original_image = self.original_image.convert('RGBA')
+            
+            # 保持原始宽高比
+            self.image_width, self.image_height = self.original_image.size
+            
+            # 创建Tkinter兼容的图片
+            self.tk_image = ImageTk.PhotoImage(self.original_image)
             
             # 创建标签显示图片
-            self.label = tk.Label(self.window, image=self.pet_img, bg='white')
-            self.label.pack()
-            
-            print(f"✅ 立绘加载成功: {used_path}")
-            print(f"   图片尺寸: {pet_image.size}")
-            
-        except Exception as e:
-            # 如果处理真实图片失败，用文字代替
-            print(f"❌ 处理立绘失败: {e}")
-            print("改用文字显示宠物")
-            
             self.label = tk.Label(
-                self.window, 
-                text="🐱", 
-                font=("Arial", 50),
-                bg='white'
+                self.window,
+                image=self.tk_image,
+                bg=self.current_bg_color,
+                bd=0
             )
             self.label.pack()
-        
-        # 绑定事件：点击和拖动
-        self.setup_interaction()
-        print("事件绑定完成")
+            
+            # 设置窗口大小为图片大小
+            self.window.geometry(f"{self.image_width}x{self.image_height}")
+            
+            print(f"✅ 宠物图片加载成功: {self.image_width}x{self.image_height}")
+            print(f"图片模式: {self.original_image.mode}, 背景色: {self.current_bg_color}")
+            
+        except Exception as e:
+            print(f"❌ 加载宠物图片失败: {e}")
+            import traceback
+            traceback.print_exc()
+            self.create_default_image()
     
-    def setup_interaction(self):
-        """设置交互事件"""
-        # 绑定左键点击事件（戳一戳）
-        self.label.bind("<Button-1>", self.on_click_start)
-        self.label.bind("<ButtonRelease-1>", self.on_click_end)
+    def create_default_image(self):
+        """创建默认图片（当找不到图片时）"""
+        self.image_width = 200
+        self.image_height = 300
         
-        # 绑定拖动事件
-        self.label.bind("<B1-Motion>", self.on_drag)
+        # 创建带Alpha通道的蓝色矩形
+        self.default_image = Image.new(
+            'RGBA', 
+            (self.image_width, self.image_height), 
+            (0, 0, 255, 200)  # 半透明蓝色
+        )
         
-        # 记录拖动起始位置
-        self.drag_start_x = 0
-        self.drag_start_y = 0
+        # 转换为Tkinter格式
+        self.tk_image = ImageTk.PhotoImage(self.default_image)
         
-        # 注意：右键事件将在ContextMenu中绑定
+        # 创建标签
+        self.label = tk.Label(
+            self.window,
+            image=self.tk_image,
+            bg=self.current_bg_color,
+            bd=0
+        )
+        self.label.pack()
+        
+        # 设置窗口大小
+        self.window.geometry(f"{self.image_width}x{self.image_height}")
+        
+        print("⚠️  使用默认蓝色矩形图片")
     
-    def on_click_start(self, event):
-        """鼠标按下（开始戳）"""
-        print("😊 宠物被戳中！")
-        self.drag_start_x = event.x
-        self.drag_start_y = event.y
-        
-        # 视觉反馈：轻微放大效果
-        try:
-            original_size = (self.window.winfo_width(), self.window.winfo_height())
-            # 暂时放大5%
-            new_width = int(original_size[0] * 1.05)
-            new_height = int(original_size[1] * 1.05)
-            self.window.geometry(f"{new_width}x{new_height}")
-        except:
-            pass
+    def bind_events(self):
+        """绑定事件处理"""
+        if self.label:
+            # 绑定左键点击事件（戳一戳）
+            self.label.bind("<Button-1>", self.on_poke)
+            
+            # 绑定拖动事件
+            self.label.bind("<ButtonPress-1>", self.start_drag)
+            self.label.bind("<B1-Motion>", self.on_drag)
+            self.label.bind("<ButtonRelease-1>", self.stop_drag)
+            
+            # 绑定右键事件到标签
+            self.label.bind("<Button-3>", self.on_right_click)
+            
+            print("✅ 事件绑定完成")
+        else:
+            print("❌ 无法绑定事件：标签未创建")
     
-    def on_click_end(self, event):
-        """鼠标释放（戳完了）"""
-        print("👌 戳一戳完成")
+    def on_poke(self, event):
+        """处理戳一戳事件"""
+        print(f"🎯 戳了宠物一下！坐标: ({event.x}, {event.y})")
         
-        # 恢复原始大小
-        try:
-            width = self.config.get('pet', {}).get('width', 150)
-            height = self.config.get('pet', {}).get('height', 150)
-            self.window.geometry(f"{width}x{height}")
-        except:
-            pass
+        # 使用震动效果
+        original_x = self.window.winfo_x()
+        original_y = self.window.winfo_y()
+        
+        # 轻微震动效果
+        offsets = [(3, 0), (-3, 0), (0, 3), (0, -3), (0, 0)]
+        
+        def apply_offset(index=0):
+            if index < len(offsets):
+                offset_x, offset_y = offsets[index]
+                self.window.geometry(f"+{original_x + offset_x}+{original_y + offset_y}")
+                self.window.after(50, lambda: apply_offset(index + 1))
+        
+        apply_offset()
+    
+    def on_right_click(self, event):
+        """处理右键点击事件"""
+        print(f"🖱️  右键点击: ({event.x}, {event.y})")
+        
+        # 右键事件将传递给上下文菜单处理
+        # 这里只是确保事件被捕获
+        return
+    
+    def start_drag(self, event):
+        """开始拖动"""
+        self.drag_data = {
+            "x": event.x,
+            "y": event.y,
+            "start_x": self.window.winfo_x(),
+            "start_y": self.window.winfo_y()
+        }
     
     def on_drag(self, event):
-        """拖动宠物窗口"""
-        delta_x = event.x - self.drag_start_x
-        delta_y = event.y - self.drag_start_y
-        
-        x = self.window.winfo_x() + delta_x
-        y = self.window.winfo_y() + delta_y
-        
-        self.window.geometry(f"+{x}+{y}")
-        
-        # 确保窗口不会完全移出屏幕
-        self.keep_on_screen(x, y)
+        """处理拖动"""
+        if hasattr(self, 'drag_data'):
+            # 计算新位置
+            delta_x = event.x - self.drag_data["x"]
+            delta_y = event.y - self.drag_data["y"]
+            
+            new_x = self.drag_data["start_x"] + delta_x
+            new_y = self.drag_data["start_y"] + delta_y
+            
+            # 防止移出屏幕
+            screen_width = self.window.winfo_screenwidth()
+            screen_height = self.window.winfo_screenheight()
+            
+            new_x = max(0, min(new_x, screen_width - self.image_width))
+            new_y = max(0, min(new_y, screen_height - self.image_height))
+            
+            # 移动窗口
+            self.window.geometry(f"+{new_x}+{new_y}")
     
-    def keep_on_screen(self, x, y):
-        """确保窗口不会完全移出屏幕"""
+    def stop_drag(self, event):
+        """停止拖动"""
+        if hasattr(self, 'drag_data'):
+            delattr(self, 'drag_data')
+            print(f"宠物位置: ({self.window.winfo_x()}, {self.window.winfo_y()})")
+    
+    def set_window_position(self):
+        """设置窗口初始位置"""
         screen_width = self.window.winfo_screenwidth()
         screen_height = self.window.winfo_screenheight()
         
-        window_width = self.window.winfo_width()
-        window_height = self.window.winfo_height()
+        # 计算右下角位置（留出边距）
+        margin = 20
+        x = screen_width - self.image_width - margin
+        y = screen_height - self.image_height - margin
         
-        if x < -window_width + 20:
-            x = -window_width + 20
-        if x > screen_width - 20:
-            x = screen_width - 20
-        if y < -window_height + 20:
-            y = -window_height + 20
-        if y > screen_height - 20:
-            y = screen_height - 20
-        
-        if x != self.window.winfo_x() or y != self.window.winfo_y():
-            self.window.geometry(f"+{x}+{y}")
+        self.window.geometry(f"+{x}+{y}")
+        print(f"窗口位置设置为: ({x}, {y})")
+    
+    def show(self):
+        """显示窗口"""
+        self.window.deiconify()
+    
+    def hide(self):
+        """隐藏窗口"""
+        self.window.withdraw()
     
     def run(self):
         """运行窗口主循环"""
-        print("\n" + "=" * 50)
-        print("🎮 宠物已就绪！")
-        print("📌 操作指南:")
-        print("  1. 左键点击: 戳一戳互动")
-        print("  2. 右键点击: 显示控制菜单")
-        print("  3. 按住拖动: 移动宠物位置")
-        print("  4. 关闭方法: 右键菜单或系统托盘")
-        print("=" * 50 + "\n")
-        
         self.window.mainloop()
+        
+    # 在 PetWindow 类中添加一个退出方法
+    def quit(self):
+        """安全退出窗口"""
+        try:
+            if self.window:
+                self.window.quit()
+                self.window.destroy()
+        except:
+            pass
