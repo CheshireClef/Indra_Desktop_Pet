@@ -62,6 +62,12 @@ class PetWindow(QWidget):
         except Exception:
             scale = 1.0
 
+# --- 新增：scale 合法范围保护 ---
+        if scale <= 0 or scale > 5:   # 允许你根据需要设定最大值，比如 5 倍
+            print(f"[Warning] Invalid scale={scale}, using default 1.0")
+            scale = 1.0
+
+
         if scale != 1.0:
             w = int(pix.width() * scale)
             h = int(pix.height() * scale)
@@ -152,7 +158,7 @@ class PetWindow(QWidget):
             self.show_window()
         else:
             self.hide_window()
-            
+
     def open_settings_window(self):
         if not self.settings:
             return
