@@ -93,11 +93,12 @@ class PetWindow(QWidget):
         pass
 
     # ---------- Context menu handling ----------
-    def set_context_menu(self, menu: QMenu):
+    def set_context_menu(self, menu):
         """
-        设置右键菜单（传入由 AppTray.create_main_menu 创建并传入的同一份菜单）
+        保存 menu 引用（由 main.py 传入），便于在设置改变时更新菜单文本。
         """
         self._context_menu = menu
+
 
     def contextMenuEvent(self, event):
         """
@@ -162,13 +163,39 @@ class PetWindow(QWidget):
     def open_settings_window(self):
         if not self.settings:
             return
+        from gui.settings_dialog import SettingsDialog
         dlg = SettingsDialog(self.settings, parent=self)
         if dlg.exec():
             # 用户点击保存，重新加载会受新配置影响
             self._load_image()
-            # 如果你有 idle timer interval 等，也应该重设
+            # update idle timer interval
             try:
                 idle_s = int(self.settings.get("behavior", "idle_interval_s", default=7))
                 self.idle_timer.setInterval(max(1, idle_s) * 1000)
             except Exception:
                 pass
+
+            # --- 关键：更新菜单上屏幕监视的文本（如果菜单存在并有字典引用） ---
+            try:
+                menu = getattr(self, "_context_menu", None)
+                if menu and hasattr(menu, "_actions_refs"):
+                    sw_action = menu._actions_refs.get("screen_watch")
+                    if sw_action:
+                        enabled = bool(self.settings.get("behavior", "screen_watch_enabled", default=False))
+                        sw_action.setText("屏幕监视：开启" if enabled else "屏幕监视：关闭")
+            except Exception:
+                pass
+    def on_screen_watch_toggled(self, enabled: bool):
+        """
+        当菜单切换屏幕监视状态时，会调用此方法（如果存在）。
+        你可以在这里启/停实际的屏幕监控逻辑。
+        """
+        # 示例：如果有 self.screen_watcher，实现开启/关闭
+        try:
+            if hasattr(self, "screen_watcher") and self.screen_watcher is not None:
+                if enabled:
+                    self.screen_watcher.start()
+                else:
+                    self.screen_watcher.stop()
+        except Exception:
+            pass
