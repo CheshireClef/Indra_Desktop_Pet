@@ -1,0 +1,21 @@
+{
+  "pet": {
+    "name": "因陀罗",
+    "scale": 0.8,
+    "initial_position": "bottom-right"
+  },
+  "behavior": {
+    "idle_interval_s": 7,
+    "screen_watch_enabled": true,
+    "screen_watch_interval_s": 60
+  },
+  "user": {
+    "display_name": "御主"
+  },
+  "llm": {
+    "provider": "openai",
+    "api_key": "",
+    "model": "gpt-4o-mini",
+    "max_tokens": 512
+  }
+}

@@ -94,15 +94,11 @@ class AppTray:
         # ---- 可扩展项：打开设置 界面（示例） ----
         settings_action = QAction("设置", menu)
         def open_settings():
-            # 期望 pet_window 提供 open_settings_window() 或者你可以在这里打开自定义窗口
             try:
-                if hasattr(pet_window, "open_settings_window"):
-                    pet_window.open_settings_window()
-                else:
-                    # 如果没有实现，你可以在此处放置一个占位行为
-                    print("[Tray] open_settings requested but PetWindow has no open_settings_window() method.")
+                pet_window.open_settings_window()
             except Exception:
                 pass
+
         settings_action.triggered.connect(open_settings)
         menu.addAction(settings_action)
         menu._actions_refs.append(settings_action)

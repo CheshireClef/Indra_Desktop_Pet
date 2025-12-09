@@ -5,21 +5,22 @@ from PySide6.QtGui import QPixmap
 from PySide6.QtCore import Qt, QPoint, QTimer, Signal
 
 from .animation import AnimationDriver
+from gui.settings_dialog import SettingsDialog
 
 class PetWindow(QWidget):
     """Transparent frameless pet window that shows a PNG with alpha and supports drag/poke."""
     toggled_visibility = Signal(bool)
-# 缩放参数scale=1.0
-    def __init__(self, image_path: str, icon_path: str = None, scale: float = 0.8):
+
+    def __init__(self, image_path: str, settings_manager=None, icon_path: str = None):
         super().__init__(None, Qt.Window)
         self.image_path = image_path
         self.icon_path = icon_path
-        self._context_menu: QMenu | None = None  # 将被 set_context_menu 填入
+        self.settings = settings_manager  # 保存设置管理器
+        self._context_menu: QMenu | None = None
         self._setup_window()
-        self._load_image()
+        self._load_image()   # 会使用 settings 中的 scale
         self._setup_animation()
         self._bind_flags()
-        self.scale = scale
 
     def _setup_window(self):
         # Frameless, always on top, translucent background
@@ -43,28 +44,34 @@ class PetWindow(QWidget):
         self.setContextMenuPolicy(Qt.DefaultContextMenu)
 
     def _load_image(self):
-        # Load pixmap from file; if missing show default size
+        # load pixmap
         if not os.path.exists(self.image_path):
-            print(f"[PetWindow] image not found: {self.image_path}")
             pix = QPixmap(200, 300)
             pix.fill(Qt.transparent)
         else:
             pix = QPixmap(self.image_path)
             if pix.isNull():
-                print("[PetWindow] failed to load image (pixmap null)")
                 pix = QPixmap(200, 300)
                 pix.fill(Qt.transparent)
-        # --- 统一缩放 ---
-        if self.scale != 1.0:
-            w = int(pix.width() * self.scale)
-            h = int(pix.height() * self.scale)
+
+        # apply scale from settings if available
+        scale = 1.0
+        try:
+            if self.settings:
+                scale = float(self.settings.get("pet", "scale", default=1.0))
+        except Exception:
+            scale = 1.0
+
+        if scale != 1.0:
+            w = int(pix.width() * scale)
+            h = int(pix.height() * scale)
             pix = pix.scaled(w, h, Qt.KeepAspectRatio, Qt.SmoothTransformation)
 
         self.label.setPixmap(pix)
         self.resize(pix.width(), pix.height())
         self.label.resize(pix.width(), pix.height())
 
-        # place near bottom-right by default
+        # reposition (optional)
         screen = self.screen().availableGeometry()
         x = screen.right() - pix.width() - 30
         y = screen.bottom() - pix.height() - 30
@@ -145,3 +152,17 @@ class PetWindow(QWidget):
             self.show_window()
         else:
             self.hide_window()
+            
+    def open_settings_window(self):
+        if not self.settings:
+            return
+        dlg = SettingsDialog(self.settings, parent=self)
+        if dlg.exec():
+            # 用户点击保存，重新加载会受新配置影响
+            self._load_image()
+            # 如果你有 idle timer interval 等，也应该重设
+            try:
+                idle_s = int(self.settings.get("behavior", "idle_interval_s", default=7))
+                self.idle_timer.setInterval(max(1, idle_s) * 1000)
+            except Exception:
+                pass
