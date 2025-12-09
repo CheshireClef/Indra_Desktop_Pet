@@ -29,28 +29,35 @@
 - [x] 在 GitHub 创建仓库（LICENSE 选 CC BY-NC）
 - [x] 在本地 `git clone` 项目
 - [x] 创建 Python 虚拟环境：`python -m venv venv`
-- [ ] 激活虚拟环境并安装基础依赖（如 PyQt5 / PySide6）
+- [x] 激活虚拟环境并安装基础依赖（如 PyQt5 / PySide6）
 - [ ] 创建基础文件结构：
   - [ ] `src/`
-  - [ ] `assets/`
-  - [ ] `assets/images/`
-  - [ ] `README.md`
-  - [ ] `.gitignore`
-
+  - [x] `assets/`
+  - [x] `assets/images/`
+  - [x] `README.md`
+  - [x] `.gitignore`
+  - [x] `ui/__init__.py`
+  - [x] `ui/context_menu.py`
+  - [x] `ui/pet_window.py`
+  - [x] `ui/system_tray.py`
+  - [x] `config.yaml`
+  - [x] `main.py`
 ---
 
 ## 3. 桌宠暂用立绘准备
-- [ ] 寻找一张合适的 Q 版静态立绘作为占位皮肤  
-- [ ] 将角色图像放入 `assets/images/placeholder.png`
-- [ ] 确认图像格式与尺寸（参考下文）
+- [x] 寻找一张合适的 Q 版静态立绘作为占位皮肤  
+- [x] 将角色图像放入 `assets/images/pet.png`
+- [x] 确认图像格式与尺寸
 
 ---
 
 ## 4. 核心功能开发
 ### 4.1 基础窗口（桌宠主体）
-- [ ] 创建透明、无边框、置顶的小窗口
-- [ ] 加载并显示立绘
-- [ ] 允许拖动角色（鼠标拖拽）
+- [x] 创建透明、无边框、置顶的小窗口
+- [x] 加载并显示立绘
+- [x] 允许拖动角色（鼠标拖拽）
+- [x] 创建系统托盘图标
+- [x] 创建系统托盘右键菜单
 
 ### 4.2 行为系统（可按阶段逐步实现）
 - [ ] 角色待机动画（静态 → 简单 GIF → 多帧动画）

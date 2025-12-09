@@ -1,6 +1,5 @@
-# main.py
 print("=" * 50)
-print("Indra 桌面宠物 v0.2")
+print("Indra 桌面宠物 v0.3")
 print("=" * 50)
 
 # 1. 检查依赖
@@ -61,51 +60,66 @@ except Exception as e:
 
 # 4. 创建系统托盘
 print("\n[步骤4] 创建系统托盘...")
+system_tray = None  # 先初始化为None
 try:
     from ui.system_tray import AdvancedTray
     
-    tray = AdvancedTray(pet_window)
+    system_tray = AdvancedTray(pet_window)
     print("✅ 系统托盘创建成功")
     
     # 在后台启动托盘
-    tray.run_in_background()
-    
-    print("\n" + "=" * 50)
-    print("🚀 程序启动完成！")
-    print("📌 使用说明:")
-    print("  1. 宠物窗口: 点击拖动互动")
-    print("  2. 系统托盘: 在任务栏右键图标")
-    print("  3. 关闭程序: 从托盘菜单退出或Ctrl+C")
-    print("=" * 50 + "\n")
-    
-    # 运行宠物窗口的主循环
-    pet_window.run()
+    system_tray.run_in_background()
     
 except ImportError as e:
-    print(f"❌ 导入系统托盘模块失败: {e}")
-    print("将仅使用宠物窗口")
-    
-    print("\n" + "=" * 50)
-    print("🎮 宠物已就绪！")
-    print("📌 操作指南:")
-    print("  1. 点击宠物: 戳一戳互动")
-    print("  2. 按住拖动: 移动宠物位置")
-    print("  3. 关闭方法: 任务管理器")
-    print("=" * 50 + "\n")
-    
-    # 如果没有托盘，直接运行宠物窗口
-    pet_window.run()
+    print(f"⚠️  未找到系统托盘模块: {e}")
+    print("系统托盘功能将不可用")
 except Exception as e:
-    print(f"❌ 创建系统托盘失败: {e}")
-    print("将仅使用宠物窗口")
+    print(f"⚠️  创建系统托盘失败: {e}")
+    print("将继续运行，但没有系统托盘功能")
+
+# 5. 创建右键菜单
+print("\n[步骤5] 创建右键菜单...")
+context_menu = None  # 先初始化为None
+try:
+    from ui.context_menu import ContextMenu
     
-    print("\n" + "=" * 50)
-    print("🎮 宠物已就绪！")
-    print("📌 操作指南:")
-    print("  1. 点击宠物: 戳一戳互动")
-    print("  2. 按住拖动: 移动宠物位置")
-    print("  3. 关闭方法: 任务管理器")
-    print("=" * 50 + "\n")
+    context_menu = ContextMenu(pet_window, system_tray)
+    print("✅ 右键菜单创建成功")
     
-    # 运行宠物窗口
+    # 将系统托盘的状态同步到右键菜单
+    if system_tray:
+        context_menu.is_visible = system_tray.is_visible
+    
+except ImportError as e:
+    print(f"❌ 导入右键菜单模块失败: {e}")
+    print("右键菜单功能将不可用")
+except Exception as e:
+    print(f"❌ 创建右键菜单失败: {e}")
+    import traceback
+    traceback.print_exc()
+
+print("\n" + "=" * 50)
+print("🚀 程序启动完成！")
+print("📌 使用说明:")
+print("  1. 左键点击宠物: 戳一戳互动")
+print("  2. 右键点击宠物: 显示控制菜单")
+print("  3. 按住左键拖动: 移动宠物位置")
+print("  4. 系统托盘: 在任务栏右键图标")
+print("  5. 关闭方法: 右键菜单或系统托盘")
+print("=" * 50 + "\n")
+
+# 6. 运行宠物窗口的主循环
+try:
     pet_window.run()
+except KeyboardInterrupt:
+    print("\n检测到Ctrl+C，正在退出程序...")
+    if system_tray:
+        system_tray.quit_program(None, None)
+    else:
+        pet_window.window.quit()
+        pet_window.window.destroy()
+except Exception as e:
+    print(f"程序运行异常: {e}")
+    import traceback
+    traceback.print_exc()
+    input("按Enter键退出...")

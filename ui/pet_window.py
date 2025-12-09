@@ -8,10 +8,16 @@ from PIL import Image, ImageTk
 import os
 
 class PetWindow:
-    def __init__(self, config=None):
-        print("正在创建桌宠窗口...")
+    def __init__(self, config=None, system_tray=None):
+        """
+        初始化宠物窗口
+        config: 配置字典
+        system_tray: 系统托盘实例（可选）
+        """
+        print("正在创建宠物窗口...")
         
         self.config = config or {}
+        self.system_tray = system_tray
         
         # 创建主窗口
         self.window = tk.Tk()
@@ -23,6 +29,8 @@ class PetWindow:
         # 显示宠物
         self.show_pet()
         
+        # 上下文菜单将在外部初始化
+        
     def setup_window(self):
         """设置窗口属性"""
         # 1. 无边框窗口
@@ -32,8 +40,8 @@ class PetWindow:
         self.window.wm_attributes('-topmost', True)
         
         # 3. 设置大小和位置
-        width = self.config.get('pet', {}).get('width', 150)  # 默认150
-        height = self.config.get('pet', {}).get('height', 150)  # 默认150
+        width = self.config.get('pet', {}).get('width', 150)
+        height = self.config.get('pet', {}).get('height', 150)
         
         pos_x = self.config.get('window', {}).get('pos_x', 500)
         pos_y = self.config.get('window', {}).get('pos_y', 300)
@@ -48,15 +56,19 @@ class PetWindow:
         
     def show_pet(self):
         """显示宠物图片 - 加载真实立绘"""
-        print("正在加载立绘...")
+        print("正在加载宠物立绘...")
         
         # 尝试从不同位置加载图片
         image_paths = [
-            'images/pet_stand.png',      # 首选路径
-            'images/pet.png',            # 备选名称
-            'pet_stand.png',             # 直接在当前目录
-            'assets/images/pet.png',     # 备用路径
+            'assets/images/pet.png',
+            'pet_stand.png',
+            'pet.png',
         ]
+        
+        # 优先使用配置中的路径
+        config_path = self.config.get('pet', {}).get('image_path')
+        if config_path:
+            image_paths.insert(0, config_path)
         
         pet_image = None
         used_path = None
@@ -115,9 +127,9 @@ class PetWindow:
     
     def setup_interaction(self):
         """设置交互事件"""
-        # 绑定点击事件（戳一戳）
-        self.label.bind("<Button-1>", self.on_click_start)  # 鼠标按下
-        self.label.bind("<ButtonRelease-1>", self.on_click_end)  # 鼠标释放
+        # 绑定左键点击事件（戳一戳）
+        self.label.bind("<Button-1>", self.on_click_start)
+        self.label.bind("<ButtonRelease-1>", self.on_click_end)
         
         # 绑定拖动事件
         self.label.bind("<B1-Motion>", self.on_drag)
@@ -125,68 +137,79 @@ class PetWindow:
         # 记录拖动起始位置
         self.drag_start_x = 0
         self.drag_start_y = 0
+        
+        # 注意：右键事件将在ContextMenu中绑定
     
     def on_click_start(self, event):
         """鼠标按下（开始戳）"""
         print("😊 宠物被戳中！")
-        # 记录点击位置，用于拖动计算
         self.drag_start_x = event.x
         self.drag_start_y = event.y
         
-        # 可以在这里添加戳一戳动画效果（未来扩展）
-        # 比如改变图片或显示效果
+        # 视觉反馈：轻微放大效果
+        try:
+            original_size = (self.window.winfo_width(), self.window.winfo_height())
+            # 暂时放大5%
+            new_width = int(original_size[0] * 1.05)
+            new_height = int(original_size[1] * 1.05)
+            self.window.geometry(f"{new_width}x{new_height}")
+        except:
+            pass
     
     def on_click_end(self, event):
         """鼠标释放（戳完了）"""
         print("👌 戳一戳完成")
-        # 可以在这里添加戳完的反馈
-        # 比如恢复原图，增加好感度等
+        
+        # 恢复原始大小
+        try:
+            width = self.config.get('pet', {}).get('width', 150)
+            height = self.config.get('pet', {}).get('height', 150)
+            self.window.geometry(f"{width}x{height}")
+        except:
+            pass
     
     def on_drag(self, event):
         """拖动宠物窗口"""
-        # 计算新位置
         delta_x = event.x - self.drag_start_x
         delta_y = event.y - self.drag_start_y
         
         x = self.window.winfo_x() + delta_x
         y = self.window.winfo_y() + delta_y
         
-        # 移动到新位置
         self.window.geometry(f"+{x}+{y}")
         
-        # 可以在这里限制窗口不要移出屏幕
+        # 确保窗口不会完全移出屏幕
         self.keep_on_screen(x, y)
     
     def keep_on_screen(self, x, y):
         """确保窗口不会完全移出屏幕"""
-        # 获取屏幕尺寸（简单版本）
         screen_width = self.window.winfo_screenwidth()
         screen_height = self.window.winfo_screenheight()
         
         window_width = self.window.winfo_width()
         window_height = self.window.winfo_height()
         
-        # 确保至少有一部分在屏幕内
-        if x < -window_width + 20:  # 只留20像素在屏幕内
+        if x < -window_width + 20:
             x = -window_width + 20
-        if x > screen_width - 20:   # 只留20像素在屏幕内
+        if x > screen_width - 20:
             x = screen_width - 20
         if y < -window_height + 20:
             y = -window_height + 20
         if y > screen_height - 20:
             y = screen_height - 20
         
-        # 更新位置
-        self.window.geometry(f"+{x}+{y}")
+        if x != self.window.winfo_x() or y != self.window.winfo_y():
+            self.window.geometry(f"+{x}+{y}")
     
     def run(self):
         """运行窗口主循环"""
         print("\n" + "=" * 50)
         print("🎮 宠物已就绪！")
         print("📌 操作指南:")
-        print("  1. 点击宠物: 戳一戳互动")
-        print("  2. 按住拖动: 移动宠物位置")
-        print("  3. 关闭方法: Ctrl+C 或任务管理器")
+        print("  1. 左键点击: 戳一戳互动")
+        print("  2. 右键点击: 显示控制菜单")
+        print("  3. 按住拖动: 移动宠物位置")
+        print("  4. 关闭方法: 右键菜单或系统托盘")
         print("=" * 50 + "\n")
         
         self.window.mainloop()
