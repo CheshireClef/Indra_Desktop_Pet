@@ -29,19 +29,7 @@
 - [x] 在 GitHub 创建仓库（LICENSE 选 CC BY-NC）
 - [x] 在本地 `git clone` 项目
 - [x] 创建 Python 虚拟环境：`python -m venv venv`
-- [x] 激活虚拟环境并安装基础依赖（如 PyQt5 / PySide6）
-- [ ] 创建基础文件结构：
-  - [ ] `src/`
-  - [x] `assets/`
-  - [x] `assets/images/`
-  - [x] `README.md`
-  - [x] `.gitignore`
-  - [x] `ui/__init__.py`
-  - [x] `ui/context_menu.py`
-  - [x] `ui/pet_window.py`
-  - [x] `ui/system_tray.py`
-  - [x] `config.yaml`
-  - [x] `main.py`
+- [x] 激活虚拟环境并安装基础依赖
 ---
 
 ## 3. 桌宠暂用立绘准备
@@ -96,3 +84,24 @@
 ---
 备注：
 听说屏幕图像识别可以用硅基流动Siliconflow.cn的大模型api做，用qwen_72B识别，生成的内容发送给deepseek处理
+
+关于设置菜单：
+
+把**所有可配置项统一放到一个 JSON 配置文件**里：
+
+- 配置文件：`config/settings.json`（一份文件管理所有用户可调参数）
+- 一个小工具类 `SettingsManager` 负责读写（自动处理默认值）
+- 一个简单的 PySide6 `SettingsDialog` 用于在 GUI 里修改配置（从右键菜单「设置」打开）
+- 把 `PetWindow` 改成接收 `SettingsManager`，并在设置变更后动态应用（例如修改 `scale` 会立即重载图片）
+
+ 配置文件：`config/settings.json`
+
+`src/settings_manager.py`（读写 JSON，单一入口）
+
+`src/gui/settings_dialog.py`（简单的设置窗口，便于增删项）
+
+`src/gui/pet_window.py`：让 PetWindow 接收 `SettingsManager` 并能响应设置更改
+
+ 修改 `src/gui/tray.py`：把菜单「设置」绑定到 `pet_window.open_settings_windo`
+
+修改 `src/main.py`：创建 SettingsManager 并把它传给 PetWindow
