@@ -27,6 +27,5 @@ def main():
     tray_icon_path = resource_path("assets/images/icon.ico")
     tray = AppTray(app, pet_window=pet, icon_path=tray_icon_path, menu=menu)
     sys.exit(app.exec())
-
 if __name__ == "__main__":
     main()

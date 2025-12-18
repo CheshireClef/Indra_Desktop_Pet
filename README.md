@@ -105,3 +105,10 @@
  修改 `src/gui/tray.py`：把菜单「设置」绑定到 `pet_window.open_settings_windo`
 
 修改 `src/main.py`：创建 SettingsManager 并把它传给 PetWindow
+
+src/
+ ├─ llm/
+ │   ├─ persona.txt        # 人设 prompt（可编辑）
+ │   ├─ chat_manager.py    # 对话管理（记忆裁剪）
+ └─ memory/
+     └─ memory.json        # 长期记忆（结构化）
