@@ -1,4 +1,3 @@
-# src/gui/pet_window.py
 import os
 from PySide6.QtWidgets import QWidget, QLabel, QMenu
 from PySide6.QtGui import QPixmap
@@ -6,6 +5,11 @@ from PySide6.QtCore import Qt, QPoint, QTimer, Signal
 
 from .animation import AnimationDriver
 from gui.settings_dialog import SettingsDialog
+
+# ⭐ 新增：对话相关
+from gui.chat_bubble import ChatBubble
+from llm.chat_manager import ChatManager
+
 
 class PetWindow(QWidget):
     """Transparent frameless pet window that shows a PNG with alpha and supports drag/poke."""
@@ -15,15 +19,21 @@ class PetWindow(QWidget):
         super().__init__(None, Qt.Window)
         self.image_path = image_path
         self.icon_path = icon_path
-        self.settings = settings_manager  # 保存设置管理器
+        self.settings = settings_manager
         self._context_menu: QMenu | None = None
-        self._setup_window()
-        self._load_image()   # 会使用 settings 中的 scale
-        self._setup_animation()
-        self._bind_flags()
 
+        self._setup_window()
+        self._load_image()
+        self._setup_animation()
+        self._setup_chat()      # ⭐ 新增
+        
+        self._click_timer = QTimer(self)
+        self._click_timer.setSingleShot(True)
+        self._click_timer.timeout.connect(self._trigger_poke)
+
+
+    # ---------------- Window ----------------
     def _setup_window(self):
-        # Frameless, always on top, translucent background
         self.setWindowFlags(
             Qt.FramelessWindowHint |
             Qt.WindowStaysOnTopHint |
@@ -31,20 +41,17 @@ class PetWindow(QWidget):
         )
         self.setAttribute(Qt.WA_TranslucentBackground, True)
 
-        # Main label to display the pet pixmap
         self.label = QLabel(self)
         self.label.setAttribute(Qt.WA_TranslucentBackground, True)
         self.label.setScaledContents(True)
 
-        # Drag helpers
         self._drag_offset = QPoint()
         self._is_hidden = False
 
-        # Enable context menu policy so right-click triggers contextMenuEvent
         self.setContextMenuPolicy(Qt.DefaultContextMenu)
 
+    # ---------------- Image ----------------
     def _load_image(self):
-        # load pixmap
         if not os.path.exists(self.image_path):
             pix = QPixmap(200, 300)
             pix.fill(Qt.transparent)
@@ -54,7 +61,6 @@ class PetWindow(QWidget):
                 pix = QPixmap(200, 300)
                 pix.fill(Qt.transparent)
 
-        # apply scale from settings if available
         scale = 1.0
         try:
             if self.settings:
@@ -62,11 +68,9 @@ class PetWindow(QWidget):
         except Exception:
             scale = 1.0
 
-# --- 新增：scale 合法范围保护 ---
-        if scale <= 0 or scale > 5:   # 允许你根据需要设定最大值，比如 5 倍
+        if scale <= 0 or scale > 5:
             print(f"[Warning] Invalid scale={scale}, using default 1.0")
             scale = 1.0
-
 
         if scale != 1.0:
             w = int(pix.width() * scale)
@@ -77,47 +81,59 @@ class PetWindow(QWidget):
         self.resize(pix.width(), pix.height())
         self.label.resize(pix.width(), pix.height())
 
-        # reposition (optional)
         screen = self.screen().availableGeometry()
         x = screen.right() - pix.width() - 30
         y = screen.bottom() - pix.height() - 30
         self.move(x, y)
 
+    # ---------------- Animation ----------------
     def _setup_animation(self):
         self.animation = AnimationDriver(self.label)
         self.idle_timer = QTimer(self)
         self.idle_timer.timeout.connect(self._on_idle)
         self.idle_timer.start(7000)
 
-    def _bind_flags(self):
-        pass
+    # ---------------- Chat ----------------
+    def _setup_chat(self):
+        """初始化对话系统"""
+        persona_path = os.path.join("src", "llm", "persona.txt")
+        self.chat_manager = ChatManager(self.settings, persona_path)
 
-    # ---------- Context menu handling ----------
+        self.chat_bubble = ChatBubble()
+        self.chat_bubble.send_message.connect(self._on_user_message)
+
+    def _on_user_message(self, text: str):
+        reply = self.chat_manager.chat(text)
+        if reply:
+            self.chat_bubble.append_pet(reply)
+
+    def _show_chat_bubble(self):
+        geo = self.geometry()
+        x = geo.right() + 10
+        y = geo.top()
+
+        self.chat_bubble.move(x, y)
+        self.chat_bubble.show()
+        self.chat_bubble.raise_()
+        self.chat_bubble.activateWindow()
+        self.chat_bubble.input_edit.setFocus()
+
+    # ---------------- Context Menu ----------------
     def set_context_menu(self, menu):
-        """
-        保存 menu 引用（由 main.py 传入），便于在设置改变时更新菜单文本。
-        """
         self._context_menu = menu
 
-
     def contextMenuEvent(self, event):
-        """
-        当用户在立绘处右键时触发。我们显示同一份菜单实例（如果已设置）。
-        """
         if self._context_menu:
-            # 在鼠标位置显示（global pos）
             self._context_menu.exec(event.globalPos())
         else:
-            # 没有设置菜单时，使用默认行为（或不显示）
             event.ignore()
 
-    # ---------- Mouse events ----------
+    # ---------------- Mouse ----------------
     def mousePressEvent(self, event):
         if event.button() == Qt.LeftButton:
             self._drag_offset = event.globalPosition().toPoint() - self.frameGeometry().topLeft()
             event.accept()
         elif event.button() == Qt.RightButton:
-            # 右键由 contextMenuEvent 处理（这里忽略）
             event.ignore()
         else:
             event.ignore()
@@ -140,10 +156,15 @@ class PetWindow(QWidget):
         else:
             event.ignore()
 
+    def mouseDoubleClickEvent(self, event):
+        if event.button() == Qt.LeftButton:
+            self._show_chat_bubble()
+
+    # ---------------- Idle ----------------
     def _on_idle(self):
         self.animation.on_idle()
 
-    # ---------- Visibility helpers ----------
+    # ---------------- Visibility ----------------
     def hide_window(self):
         self.hide()
         self._is_hidden = True
@@ -160,22 +181,20 @@ class PetWindow(QWidget):
         else:
             self.hide_window()
 
+    # ---------------- Settings ----------------
     def open_settings_window(self):
         if not self.settings:
             return
-        from gui.settings_dialog import SettingsDialog
+
         dlg = SettingsDialog(self.settings, parent=self)
         if dlg.exec():
-            # 用户点击保存，重新加载会受新配置影响
             self._load_image()
-            # update idle timer interval
             try:
                 idle_s = int(self.settings.get("behavior", "idle_interval_s", default=7))
                 self.idle_timer.setInterval(max(1, idle_s) * 1000)
             except Exception:
                 pass
 
-            # --- 关键：更新菜单上屏幕监视的文本（如果菜单存在并有字典引用） ---
             try:
                 menu = getattr(self, "_context_menu", None)
                 if menu and hasattr(menu, "_actions_refs"):
@@ -185,12 +204,8 @@ class PetWindow(QWidget):
                         sw_action.setText("屏幕监视：开启" if enabled else "屏幕监视：关闭")
             except Exception:
                 pass
+
     def on_screen_watch_toggled(self, enabled: bool):
-        """
-        当菜单切换屏幕监视状态时，会调用此方法（如果存在）。
-        你可以在这里启/停实际的屏幕监控逻辑。
-        """
-        # 示例：如果有 self.screen_watcher，实现开启/关闭
         try:
             if hasattr(self, "screen_watcher") and self.screen_watcher is not None:
                 if enabled:

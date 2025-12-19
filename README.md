@@ -112,3 +112,9 @@ src/
  │   ├─ chat_manager.py    # 对话管理（记忆裁剪）
  └─ memory/
      └─ memory.json        # 长期记忆（结构化）
+
+对话数据结构：
+[
+  {"role": "user", "content": "..."},
+  {"role": "assistant", "content": "..."}
+]

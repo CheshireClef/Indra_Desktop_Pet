@@ -13,9 +13,11 @@
     "display_name": "御主"
   },
   "llm": {
-    "provider": "openai",
+    "provider": "deepseek",
     "api_key": "sk-d4d8bf9e8ede46818cbca93abff35d60",
-    "model": "gpt-4o-mini",
-    "max_tokens": 512
+    "model": "deepseek-chat",
+    "base_url": "https://api.deepseek.com",
+    "max_tokens": 512,
+    "history_rounds": 16
   }
 }
