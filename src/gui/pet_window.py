@@ -6,7 +6,7 @@ from PySide6.QtCore import Qt, QPoint, QTimer, Signal
 from .animation import AnimationDriver
 from gui.settings_dialog import SettingsDialog
 
-# ⭐ 新增：对话相关
+# 对话相关
 from gui.chat_bubble import ChatBubble
 from llm.chat_manager import ChatManager
 
@@ -25,12 +25,12 @@ class PetWindow(QWidget):
         self._setup_window()
         self._load_image()
         self._setup_animation()
-        self._setup_chat()      # ⭐ 新增
-        
+        self._setup_chat()
+
+        # ⭐ 用于区分单击 / 双击
         self._click_timer = QTimer(self)
         self._click_timer.setSingleShot(True)
         self._click_timer.timeout.connect(self._trigger_poke)
-
 
     # ---------------- Window ----------------
     def _setup_window(self):
@@ -69,7 +69,6 @@ class PetWindow(QWidget):
             scale = 1.0
 
         if scale <= 0 or scale > 5:
-            print(f"[Warning] Invalid scale={scale}, using default 1.0")
             scale = 1.0
 
         if scale != 1.0:
@@ -95,7 +94,6 @@ class PetWindow(QWidget):
 
     # ---------------- Chat ----------------
     def _setup_chat(self):
-        """初始化对话系统"""
         persona_path = os.path.join("src", "llm", "persona.txt")
         self.chat_manager = ChatManager(self.settings, persona_path)
 
@@ -131,10 +129,11 @@ class PetWindow(QWidget):
     # ---------------- Mouse ----------------
     def mousePressEvent(self, event):
         if event.button() == Qt.LeftButton:
-            self._drag_offset = event.globalPosition().toPoint() - self.frameGeometry().topLeft()
+            self._drag_offset = (
+                event.globalPosition().toPoint()
+                - self.frameGeometry().topLeft()
+            )
             event.accept()
-        elif event.button() == Qt.RightButton:
-            event.ignore()
         else:
             event.ignore()
 
@@ -151,14 +150,24 @@ class PetWindow(QWidget):
 
     def mouseReleaseEvent(self, event):
         if event.button() == Qt.LeftButton:
-            self.animation.on_poke()
+            # ⭐ 延迟触发戳一下，等待是否为双击
+            self._click_timer.start(220)
             event.accept()
         else:
             event.ignore()
 
     def mouseDoubleClickEvent(self, event):
         if event.button() == Qt.LeftButton:
+            # ⭐ 双击时取消戳一下
+            if self._click_timer.isActive():
+                self._click_timer.stop()
+
             self._show_chat_bubble()
+            event.accept()
+
+    def _trigger_poke(self):
+        """真正的单击戳一下"""
+        self.animation.on_poke()
 
     # ---------------- Idle ----------------
     def _on_idle(self):
@@ -190,7 +199,9 @@ class PetWindow(QWidget):
         if dlg.exec():
             self._load_image()
             try:
-                idle_s = int(self.settings.get("behavior", "idle_interval_s", default=7))
+                idle_s = int(
+                    self.settings.get("behavior", "idle_interval_s", default=7)
+                )
                 self.idle_timer.setInterval(max(1, idle_s) * 1000)
             except Exception:
                 pass
@@ -200,8 +211,16 @@ class PetWindow(QWidget):
                 if menu and hasattr(menu, "_actions_refs"):
                     sw_action = menu._actions_refs.get("screen_watch")
                     if sw_action:
-                        enabled = bool(self.settings.get("behavior", "screen_watch_enabled", default=False))
-                        sw_action.setText("屏幕监视：开启" if enabled else "屏幕监视：关闭")
+                        enabled = bool(
+                            self.settings.get(
+                                "behavior",
+                                "screen_watch_enabled",
+                                default=False
+                            )
+                        )
+                        sw_action.setText(
+                            "屏幕监视：开启" if enabled else "屏幕监视：关闭"
+                        )
             except Exception:
                 pass
 
