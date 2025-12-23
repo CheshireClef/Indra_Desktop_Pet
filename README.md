@@ -87,7 +87,7 @@
 - [ ] 上传 Release 到 GitHub
 
 ---
-备注：
+## 备注：
 听说屏幕图像识别可以用硅基流动Siliconflow.cn的大模型api做，用qwen_72B识别，生成的内容发送给deepseek处理
 
 又备注：用下Qwen/Qwen3-Omni-30B-A3B-Captioner试试好了，说是专门生成图像描述的，价格还便宜
@@ -125,3 +125,10 @@ src/
   {"role": "user", "content": "..."},
   {"role": "assistant", "content": "..."}
 ]
+
+src/
+ ├─ vision/
+ │   └─ screen_observer.py   # 屏幕截图 + 图像模型调用
+ │
+ ├─ llm/
+ │   └─ vision_manager.py    # 调用 Qwen/QwQ-32B
