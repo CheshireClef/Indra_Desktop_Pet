@@ -16,6 +16,7 @@ class PetWindow(QWidget):
     toggled_visibility = Signal(bool)
 
     def __init__(self, image_path: str, settings_manager=None, icon_path: str = None):
+        from vision.screen_observer import ScreenObserver
         super().__init__(None, Qt.Window)
         self.image_path = image_path
         self.icon_path = icon_path
@@ -31,6 +32,8 @@ class PetWindow(QWidget):
         self._click_timer = QTimer(self)
         self._click_timer.setSingleShot(True)
         self._click_timer.timeout.connect(self._trigger_poke)
+        self.screen_observer = ScreenObserver(self)
+
 
     # ---------------- Window ----------------
     def _setup_window(self):
