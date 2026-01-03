@@ -1,6 +1,6 @@
 # src/llm/chat_manager.py
-import os
 import requests
+
 
 class ChatManager:
     def __init__(self, settings_manager, persona_path: str):
@@ -33,17 +33,36 @@ class ChatManager:
 
     # ---------- public API ----------
     def chat(self, user_text: str) -> str:
-        """
-        用户输入一句话，返回桌宠回复
-        """
-        # add user message
         self.history.append({
             "role": "user",
             "content": user_text
         })
         self._trim_history()
 
-        # build request messages
+        messages = []
+        if self.persona_text:
+            messages.append({
+                "role": "system",
+                "content": self.persona_text
+            })
+        messages.extend(self.history)
+
+        reply = self._call_llm(messages)
+
+        if reply:
+            self.history.append({
+                "role": "assistant",
+                "content": reply
+            })
+            self._trim_history()
+
+        return reply
+
+    # ⭐ 新增：屏幕观察输入
+    def send_screen_observation(self, description: str) -> str:
+        """
+        将屏幕观察结果作为 system 事件注入对话
+        """
         messages = []
 
         if self.persona_text:
@@ -54,9 +73,23 @@ class ChatManager:
 
         messages.extend(self.history)
 
+        messages.append({
+            "role": "system",
+            "content": (
+                "你刚刚观察了用户的电脑屏幕。"
+                "下面是对屏幕内容的客观描述。"
+                "请你以角色的口吻，自然地发表评论。"
+                "不要提到截图、图像识别或任何技术细节。"
+            )
+        })
+
+        messages.append({
+            "role": "system",
+            "content": f"屏幕内容描述：{description}"
+        })
+
         reply = self._call_llm(messages)
 
-        # add assistant reply to history
         if reply:
             self.history.append({
                 "role": "assistant",
@@ -111,67 +144,65 @@ class ChatManager:
         except Exception as e:
             return f"[DeepSeek 请求失败：{e}]"
 
-def _call_openai(self, messages: list[dict]) -> str:
-    api_key = self.settings.get("llm", "api_key", default="")
-    base_url = self.settings.get("llm", "base_url", default="https://api.openai.com")
-    model = self.settings.get("llm", "model", default="gpt-4o-mini")
-    max_tokens = self.settings.get("llm", "max_tokens", default=512)
+    # ---------- OpenAI ----------
+    def _call_openai(self, messages: list[dict]) -> str:
+        api_key = self.settings.get("llm", "api_key", default="")
+        base_url = self.settings.get("llm", "base_url", default="https://api.openai.com")
+        model = self.settings.get("llm", "model", default="gpt-4o-mini")
+        max_tokens = self.settings.get("llm", "max_tokens", default=512)
 
-    if not api_key:
-        return "[未设置 OpenAI API Key]"
+        if not api_key:
+            return "[未设置 OpenAI API Key]"
 
-    url = base_url.rstrip("/") + "/v1/chat/completions"
+        url = base_url.rstrip("/") + "/v1/chat/completions"
 
-    headers = {
-        "Authorization": f"Bearer {api_key}",
-        "Content-Type": "application/json"
-    }
+        headers = {
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json"
+        }
 
-    payload = {
-        "model": model,
-        "messages": messages,
-        "max_tokens": max_tokens,
-        "temperature": 0.8
-    }
+        payload = {
+            "model": model,
+            "messages": messages,
+            "max_tokens": max_tokens,
+            "temperature": 0.8
+        }
 
-    try:
-        resp = requests.post(url, headers=headers, json=payload, timeout=30)
-        resp.raise_for_status()
-        data = resp.json()
-        return data["choices"][0]["message"]["content"]
-    except Exception as e:
-        return f"[OpenAI 请求失败：{e}]"
-
+        try:
+            resp = requests.post(url, headers=headers, json=payload, timeout=30)
+            resp.raise_for_status()
+            data = resp.json()
+            return data["choices"][0]["message"]["content"]
+        except Exception as e:
+            return f"[OpenAI 请求失败：{e}]"
 
     # ---------- Custom ----------
-def _call_custom(self, messages: list[dict]) -> str:
-    api_key = self.settings.get("llm", "api_key", default="")
-    base_url = self.settings.get("llm", "base_url", default="")
-    model = self.settings.get("llm", "model", default="")
-    max_tokens = self.settings.get("llm", "max_tokens", default=512)
+    def _call_custom(self, messages: list[dict]) -> str:
+        api_key = self.settings.get("llm", "api_key", default="")
+        base_url = self.settings.get("llm", "base_url", default="")
+        model = self.settings.get("llm", "model", default="")
+        max_tokens = self.settings.get("llm", "max_tokens", default=512)
 
-    if not base_url or not model:
-        return "[自定义 LLM 配置不完整]"
+        if not base_url or not model:
+            return "[自定义 LLM 配置不完整]"
 
-    url = base_url.rstrip("/") + "/v1/chat/completions"
+        url = base_url.rstrip("/") + "/v1/chat/completions"
 
-    headers = {
-        "Content-Type": "application/json"
-    }
-    if api_key:
-        headers["Authorization"] = f"Bearer {api_key}"
+        headers = {"Content-Type": "application/json"}
+        if api_key:
+            headers["Authorization"] = f"Bearer {api_key}"
 
-    payload = {
-        "model": model,
-        "messages": messages,
-        "max_tokens": max_tokens,
-        "temperature": 0.8
-    }
+        payload = {
+            "model": model,
+            "messages": messages,
+            "max_tokens": max_tokens,
+            "temperature": 0.8
+        }
 
-    try:
-        resp = requests.post(url, headers=headers, json=payload, timeout=30)
-        resp.raise_for_status()
-        data = resp.json()
-        return data["choices"][0]["message"]["content"]
-    except Exception as e:
-        return f"[Custom LLM 请求失败：{e}]"
+        try:
+            resp = requests.post(url, headers=headers, json=payload, timeout=30)
+            resp.raise_for_status()
+            data = resp.json()
+            return data["choices"][0]["message"]["content"]
+        except Exception as e:
+            return f"[Custom LLM 请求失败：{e}]"

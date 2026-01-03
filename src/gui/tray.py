@@ -57,10 +57,11 @@ class AppTray:
 
         def observe_once():
             try:
-                if hasattr(pet_window, "screen_observer"):
-                    pet_window.screen_observer.observe_once()
+                if hasattr(pet_window, "observe_screen_and_comment"):
+                    pet_window.observe_screen_and_comment()
             except Exception as e:
                 print("[Tray] observe_once error:", e)
+
 
         observe_action.triggered.connect(observe_once)
         menu.addAction(observe_action)

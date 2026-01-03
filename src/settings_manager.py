@@ -1,6 +1,7 @@
 # src/settings_manager.py
 import json
 import os
+import copy
 from typing import Any, Dict
 
 DEFAULTS = {
@@ -22,8 +23,16 @@ DEFAULTS = {
         "api_key": "",
         "model": "gpt-4o-mini",
         "max_tokens": 512
+    },
+    "vision": {
+        "api_url": "https://api.siliconflow.cn/v1/chat/completions",
+        "api_key": "",
+        "enabled": False,
+        "auto_interval": 0,
+        "keep_last_n_screenshots": 3
     }
 }
+
 
 class SettingsManager:
     def __init__(self, path: str):
@@ -32,28 +41,34 @@ class SettingsManager:
         self.load()
 
     def load(self):
-        """Load config from disk, create with defaults if missing."""
         if not os.path.exists(self.path):
-            # create folder if needed
             os.makedirs(os.path.dirname(self.path), exist_ok=True)
-            self._data = DEFAULTS.copy()
+            self._data = copy.deepcopy(DEFAULTS)
             self.save()
-        else:
+            return
+
+        try:
+            with open(self.path, "r", encoding="utf-8") as f:
+                self._data = json.load(f)
+        except Exception:
+            # 重要：不覆盖，先备份
+            backup = self.path + ".broken"
             try:
-                with open(self.path, "r", encoding="utf-8") as f:
-                    self._data = json.load(f)
+                os.rename(self.path, backup)
             except Exception:
-                # fallback to defaults if file corrupted
-                self._data = DEFAULTS.copy()
-                self.save()
-        # ensure defaults for any missing fields
+                pass
+            self._data = copy.deepcopy(DEFAULTS)
+            self.save()
+            return
+
         self._merge_defaults(DEFAULTS, self._data)
+        self.save()
 
     def _merge_defaults(self, defaults, target):
         for k, v in defaults.items():
             if k not in target:
-                target[k] = v
-            elif isinstance(v, dict):
+                target[k] = copy.deepcopy(v)
+            elif isinstance(v, dict) and isinstance(target.get(k), dict):
                 self._merge_defaults(v, target[k])
 
     def save(self):

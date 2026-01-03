@@ -1,30 +1,30 @@
 {
   "pet": {
     "name": "因陀罗",
-    "scale": 0.5,
+    "scale": 1.0,
     "initial_position": "bottom-right"
   },
   "behavior": {
     "idle_interval_s": 7,
-    "screen_watch_enabled": true,
+    "screen_watch_enabled": false,
     "screen_watch_interval_s": 60
   },
   "user": {
     "display_name": "主人"
   },
   "llm": {
-    "provider": "deepseek",
+    "provider": "openai",
     "api_key": "sk-e0c6f41df7cd498785ad0597b4b6dc34",
-    "model": "deepseek-chat",
-    "max_tokens": 512,
-    "base_url": "https://api.deepseek.com",
-    "history_rounds": 20
-  },
+    "model": "gpt-4o-mini",
+    "max_tokens": 512
+  }
+  
   "vision": {
+    "enabled": true,
     "api_url": "https://api.siliconflow.cn/v1/chat/completions",
     "api_key": "sk-fipprepqdmmfohtzmruwriakmfpzvwucsddzmfculgqhhlbn",
-    "enabled": false,
-    "auto_interval": 0,
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "auto_interval_s": 300,
     "keep_last_n_screenshots": 3
   }
 }

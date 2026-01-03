@@ -1,3 +1,4 @@
+# src/gui/pet_window.py
 import os
 from PySide6.QtWidgets import QWidget, QLabel, QMenu
 from PySide6.QtGui import QPixmap
@@ -18,10 +19,14 @@ class PetWindow(QWidget):
     def __init__(self, image_path: str, settings_manager=None, icon_path: str = None):
         from vision.screen_observer import ScreenObserver
         super().__init__(None, Qt.Window)
+
         self.image_path = image_path
         self.icon_path = icon_path
         self.settings = settings_manager
         self._context_menu: QMenu | None = None
+
+        # 延迟创建 vision client，避免启动阶段副作用
+        self.vision_client = None
 
         self._setup_window()
         self._load_image()
@@ -32,8 +37,32 @@ class PetWindow(QWidget):
         self._click_timer = QTimer(self)
         self._click_timer.setSingleShot(True)
         self._click_timer.timeout.connect(self._trigger_poke)
-        self.screen_observer = ScreenObserver(self)
 
+        self.screen_observer = ScreenObserver(self, self.settings)
+
+    # ---------------- Vision ----------------
+    def _ensure_vision_client(self):
+        if self.vision_client or not self.settings:
+            return
+
+        from vision.qwen_vision import QwenVisionClient
+
+        api_url = self.settings.get(
+            "vision", "api_url",
+            default="https://api.siliconflow.cn/v1/chat/completions"
+        )
+        api_key = self.settings.get("vision", "api_key", default="")
+        model = self.settings.get("vision", "model", default="Qwen/Qwen3-VL-32B-Instruct")
+
+        if not api_key:
+            print("[Vision] API key is empty, vision disabled")
+            return
+
+        self.vision_client = QwenVisionClient(
+            api_url=api_url,
+            api_key=api_key,
+            model=model
+        )
 
     # ---------------- Window ----------------
     def _setup_window(self):
@@ -153,7 +182,6 @@ class PetWindow(QWidget):
 
     def mouseReleaseEvent(self, event):
         if event.button() == Qt.LeftButton:
-            # ⭐ 延迟触发戳一下，等待是否为双击
             self._click_timer.start(220)
             event.accept()
         else:
@@ -161,15 +189,12 @@ class PetWindow(QWidget):
 
     def mouseDoubleClickEvent(self, event):
         if event.button() == Qt.LeftButton:
-            # ⭐ 双击时取消戳一下
             if self._click_timer.isActive():
                 self._click_timer.stop()
-
             self._show_chat_bubble()
             event.accept()
 
     def _trigger_poke(self):
-        """真正的单击戳一下"""
         self.animation.on_poke()
 
     # ---------------- Idle ----------------
@@ -202,37 +227,24 @@ class PetWindow(QWidget):
         if dlg.exec():
             self._load_image()
             try:
-                idle_s = int(
-                    self.settings.get("behavior", "idle_interval_s", default=7)
-                )
+                idle_s = int(self.settings.get("behavior", "idle_interval_s", default=7))
                 self.idle_timer.setInterval(max(1, idle_s) * 1000)
             except Exception:
                 pass
 
-            try:
-                menu = getattr(self, "_context_menu", None)
-                if menu and hasattr(menu, "_actions_refs"):
-                    sw_action = menu._actions_refs.get("screen_watch")
-                    if sw_action:
-                        enabled = bool(
-                            self.settings.get(
-                                "behavior",
-                                "screen_watch_enabled",
-                                default=False
-                            )
-                        )
-                        sw_action.setText(
-                            "屏幕监视：开启" if enabled else "屏幕监视：关闭"
-                        )
-            except Exception:
-                pass
-
-    def on_screen_watch_toggled(self, enabled: bool):
+    # ---------------- Vision Action ----------------
+    def observe_screen_and_comment(self):
         try:
-            if hasattr(self, "screen_watcher") and self.screen_watcher is not None:
-                if enabled:
-                    self.screen_watcher.start()
-                else:
-                    self.screen_watcher.stop()
-        except Exception:
-            pass
+            self._ensure_vision_client()
+            if not self.vision_client:
+                return
+
+            screenshot_path = self.screen_observer.observe_once()
+            description = self.vision_client.describe_image(screenshot_path)
+
+            reply = self.chat_manager.send_screen_observation(description)
+            if reply:
+                self.chat_bubble.append_pet(reply)
+
+        except Exception as e:
+            print("[PetWindow] observe_screen_and_comment error:", e)
