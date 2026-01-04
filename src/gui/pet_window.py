@@ -35,7 +35,7 @@ class TempBubble(QWidget):
     一次性临时聊天气泡
     - 不抢焦点
     - 自动大小
-    - 5 秒后淡出消失
+    - 10 秒后淡出消失
     """
 
     def __init__(self, text: str, max_width: int, parent=None):
@@ -86,7 +86,7 @@ class TempBubble(QWidget):
         self.show()
         self.raise_()
         self.activateWindow()
-        self._life_timer.start(8000)
+        self._life_timer.start(10000)
 
 
 class PetWindow(QWidget):
