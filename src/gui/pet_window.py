@@ -2,7 +2,7 @@
 import os
 from PySide6.QtWidgets import QWidget, QLabel, QMenu
 from PySide6.QtGui import QPixmap
-from PySide6.QtCore import Qt, QPoint, QTimer, Signal
+from PySide6.QtCore import Qt, QPoint, QTimer, Signal, QThread
 
 from .animation import AnimationDriver
 from gui.settings_dialog import SettingsDialog
@@ -10,6 +10,26 @@ from gui.settings_dialog import SettingsDialog
 # 对话相关
 from gui.chat_bubble import ChatBubble
 from llm.chat_manager import ChatManager
+
+
+class ScreenObserveWorker(QThread):
+    finished = Signal(str)
+
+    def __init__(self, observer, vision_client, chat_manager):
+        super().__init__()
+        self.observer = observer
+        self.vision_client = vision_client
+        self.chat_manager = chat_manager
+
+    def run(self):
+        try:
+            screenshot_path = self.observer.observe_once()
+            description = self.vision_client.describe_image(screenshot_path)
+            reply = self.chat_manager.send_screen_observation(description)
+            if reply:
+                self.finished.emit(reply)
+        except Exception as e:
+            print("[ScreenObserveWorker] error:", e)
 
 
 class PetWindow(QWidget):
@@ -25,8 +45,8 @@ class PetWindow(QWidget):
         self.settings = settings_manager
         self._context_menu: QMenu | None = None
 
-        # 延迟创建 vision client，避免启动阶段副作用
         self.vision_client = None
+        self._observe_worker: ScreenObserveWorker | None = None
 
         self._setup_window()
         self._load_image()
@@ -52,7 +72,10 @@ class PetWindow(QWidget):
             default="https://api.siliconflow.cn/v1/chat/completions"
         )
         api_key = self.settings.get("vision", "api_key", default="")
-        model = self.settings.get("vision", "model", default="Qwen/Qwen3-VL-32B-Instruct")
+        model = self.settings.get(
+            "vision", "model",
+            default="Qwen/Qwen3-VL-32B-Instruct"
+        )
 
         if not api_key:
             print("[Vision] API key is empty, vision disabled")
@@ -137,17 +160,6 @@ class PetWindow(QWidget):
         if reply:
             self.chat_bubble.append_pet(reply)
 
-    def _show_chat_bubble(self):
-        geo = self.geometry()
-        x = geo.right() + 10
-        y = geo.top()
-
-        self.chat_bubble.move(x, y)
-        self.chat_bubble.show()
-        self.chat_bubble.raise_()
-        self.chat_bubble.activateWindow()
-        self.chat_bubble.input_edit.setFocus()
-
     # ---------------- Context Menu ----------------
     def set_context_menu(self, menu):
         self._context_menu = menu
@@ -191,7 +203,7 @@ class PetWindow(QWidget):
         if event.button() == Qt.LeftButton:
             if self._click_timer.isActive():
                 self._click_timer.stop()
-            self._show_chat_bubble()
+            self.chat_bubble.show()
             event.accept()
 
     def _trigger_poke(self):
@@ -234,17 +246,19 @@ class PetWindow(QWidget):
 
     # ---------------- Vision Action ----------------
     def observe_screen_and_comment(self):
-        try:
-            self._ensure_vision_client()
-            if not self.vision_client:
-                return
+        self._ensure_vision_client()
+        if not self.vision_client:
+            return
 
-            screenshot_path = self.screen_observer.observe_once()
-            description = self.vision_client.describe_image(screenshot_path)
+        if self._observe_worker and self._observe_worker.isRunning():
+            return
 
-            reply = self.chat_manager.send_screen_observation(description)
-            if reply:
-                self.chat_bubble.append_pet(reply)
-
-        except Exception as e:
-            print("[PetWindow] observe_screen_and_comment error:", e)
+        self._observe_worker = ScreenObserveWorker(
+            self.screen_observer,
+            self.vision_client,
+            self.chat_manager
+        )
+        self._observe_worker.finished.connect(
+            lambda text: self.chat_bubble.append_pet(text)
+        )
+        self._observe_worker.start()

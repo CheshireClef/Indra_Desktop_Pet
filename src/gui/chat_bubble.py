@@ -2,15 +2,18 @@ from PySide6.QtWidgets import (
     QWidget, QVBoxLayout, QTextEdit, QLineEdit
 )
 from PySide6.QtCore import (
-    Qt, Signal, QTimer, QPropertyAnimation, QEvent
+    Qt, Signal, QTimer, QPropertyAnimation, QEvent, QRect
 )
+from PySide6.QtGui import QGuiApplication
 
 
 class ChatBubble(QWidget):
     """
     桌宠对话气泡窗口
-    - 窗口失活（切换到其他程序）后延迟淡出并隐藏
-    - 再次打开聊天记录保留
+    优化点：
+    1. append_pet() 时若窗口隐藏，自动浮现
+    2. 自动隐藏 + 淡出（失焦）
+    3. 显示时自动修正位置，保证不超出屏幕
     """
     send_message = Signal(str)
 
@@ -72,21 +75,64 @@ class ChatBubble(QWidget):
         self.send_message.emit(text)
 
     def append_user(self, text: str):
+        self._ensure_visible()
         self.chat_view.append(f"<b>你：</b>{text}")
 
     def append_pet(self, text: str):
+        # ⭐ 关键优化：桌宠说话时自动浮现
+        self._ensure_visible()
         self.chat_view.append(f"<b>因陀罗：</b>{text}")
 
-    # ---------- 窗口事件（关键修复点） ----------
+    # ---------- 可见性与位置 ----------
+    def _ensure_visible(self):
+        """
+        确保窗口显示，并修正到屏幕内
+        """
+        if not self.isVisible():
+            self.show()
+
+        self.raise_()
+        self.activateWindow()
+        self.setWindowOpacity(1.0)
+        self._hide_timer.stop()
+        self._fade_anim.stop()
+
+        self._clamp_to_screen()
+
+    def _clamp_to_screen(self):
+        """
+        防止窗口跑出屏幕
+        """
+        geo: QRect = self.frameGeometry()
+        screen = QGuiApplication.screenAt(geo.center())
+        if not screen:
+            screen = QGuiApplication.primaryScreen()
+
+        avail = screen.availableGeometry()
+
+        x = geo.x()
+        y = geo.y()
+
+        if geo.right() > avail.right():
+            x = avail.right() - geo.width() - 10
+        if geo.left() < avail.left():
+            x = avail.left() + 10
+        if geo.bottom() > avail.bottom():
+            y = avail.bottom() - geo.height() - 10
+        if geo.top() < avail.top():
+            y = avail.top() + 10
+
+        self.move(x, y)
+
+    # ---------- 窗口事件 ----------
     def event(self, event):
         if event.type() == QEvent.WindowActivate:
-            # 用户切回来了
             self._hide_timer.stop()
             self._fade_anim.stop()
             self.setWindowOpacity(1.0)
 
         elif event.type() == QEvent.WindowDeactivate:
-            # 用户切走了（切应用 / 点别处）
+            # 失焦后延迟隐藏
             self._hide_timer.start(2500)
 
         return super().event(event)
@@ -98,8 +144,11 @@ class ChatBubble(QWidget):
         super().showEvent(event)
         self.input_edit.setFocus()
 
+        # 显示时也修正一次位置
+        self._clamp_to_screen()
+
     def closeEvent(self, event):
-        # 点右上角 ❌ 时不销毁，只隐藏
+        # 右上角 ❌：只隐藏，不销毁
         event.ignore()
         self.hide()
 
