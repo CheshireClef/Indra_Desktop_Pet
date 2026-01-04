@@ -64,6 +64,18 @@ class ChatBubble(QWidget):
         self._fade_anim.setDuration(300)
         self._fade_anim.finished.connect(self._on_fade_finished)
 
+    def append_pet_silent(self, text: str):
+        """
+        只写入聊天记录，不触发窗口显示
+        """
+        was_visible = self.isVisible()
+
+        self.chat_view.append(f"<b>因陀罗：</b>{text}")
+
+        # 如果原本是隐藏的，立刻藏回去
+        if not was_visible:
+            self.hide()
+            
     # ---------- 对话 ----------
     def _on_enter(self):
         text = self.input_edit.text().strip()

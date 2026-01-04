@@ -1,4 +1,5 @@
 # src/gui/pet_window.py
+from email.mime import text
 import os
 from PySide6.QtWidgets import QWidget, QLabel, QMenu, QVBoxLayout
 from PySide6.QtGui import QPixmap
@@ -59,7 +60,6 @@ class TempBubble(QWidget):
             """
             background: rgba(40, 40, 40, 210);
             color: white;
-            border-radius: 10px;
             padding: 6px;
             """
         )
@@ -310,24 +310,22 @@ class PetWindow(QWidget):
         if self._observe_worker and self._observe_worker.isRunning():
             return
 
-        # 启动屏幕观察任务
         self._observe_worker = ScreenObserveWorker(
             self.screen_observer,
             self.vision_client,
             self.chat_manager
         )
 
-        # 一旦获得反馈，加入聊天记录并显示临时气泡
-        def on_screen_observed(text):
-            # 将屏幕评论加入到聊天记录中
-            self.chat_bubble.append_pet(text)
+        def on_screen_observed(text: str):
+            # 1️⃣ 只追加到聊天记录（不显示聊天框）
+            self.chat_bubble.append_pet_silent(text)
 
-            # 触发临时气泡的显示
+            # 2️⃣ 显示头顶临时气泡
             self._show_temp_bubble(text)
 
-        # 连接返回数据
         self._observe_worker.finished.connect(on_screen_observed)
         self._observe_worker.start()
+
 
     
     # ---------------- 临时气泡 ----------------

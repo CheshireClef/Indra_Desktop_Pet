@@ -8,6 +8,7 @@ class ChatManager:
         self.persona_path = persona_path
         self.persona_text = self._load_persona()
         self.history = []  # short-term memory
+        self.temperature = self.settings.get("llm", "temperature", default=1.0)
 
     # ---------- persona ----------
     def _load_persona(self) -> str:
@@ -102,6 +103,7 @@ class ChatManager:
     # ---------- LLM dispatch ----------
     def _call_llm(self, messages: list[dict]) -> str:
         provider = self.settings.get("llm", "provider", default="deepseek")
+        temperature = self.settings.get("llm", "temperature", default=1.0)  # 获取设置中的 temperature
 
         if provider == "deepseek":
             return self._call_deepseek(messages)

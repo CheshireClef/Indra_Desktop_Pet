@@ -4,6 +4,7 @@ from PySide6.QtWidgets import (
     QPushButton, QLineEdit, QGroupBox, QComboBox
 )
 from PySide6.QtCore import Qt
+from PySide6.QtWidgets import QDoubleSpinBox
 
 
 class SettingsDialog(QDialog):
@@ -86,8 +87,31 @@ class SettingsDialog(QDialog):
         layout.addRow("Max Tokens", self.max_tokens)
 
         self.history_spin = QSpinBox()
-        self.history_spin.setRange(1, 20)
+        self.history_spin.setRange(1, 100)
         layout.addRow("保留对话轮数", self.history_spin)
+
+        # 在设置界面添加 temperature 控制
+        self.temperature_spinbox = QDoubleSpinBox(self)
+        self.temperature_spinbox.setRange(0.0, 1.5)  # 设置合理的范围
+        self.temperature_spinbox.setValue(self.settings_manager.get("llm", "temperature", default=1.0))
+        self.temperature_spinbox.setSuffix(" 可参考deepseek文档")  # 设置单位或其他显示文字
+        layout.addWidget(self.temperature_spinbox)
+
+        # 添加 Qwen 或其他视觉模型的 API 设置
+        self.vision_api_url = QLineEdit(self)
+        self.vision_api_url.setText(self.settings_manager.get("vision", "api_url", default=""))
+        layout.addWidget(QLabel("视觉模型 API URL"))
+        layout.addWidget(self.vision_api_url)
+
+        self.vision_api_key = QLineEdit(self)
+        self.vision_api_key.setText(self.settings_manager.get("vision", "api_key", default=""))
+        layout.addWidget(QLabel("视觉模型 API Key"))
+        layout.addWidget(self.vision_api_key)
+
+        self.vision_model = QLineEdit(self)
+        self.vision_model.setText(self.settings_manager.get("vision", "model", default="Qwen/Qwen3-VL-32B-Instruct"))
+        layout.addWidget(QLabel("视觉模型"))
+        layout.addWidget(self.vision_model)
 
         self.provider_combo.currentTextChanged.connect(
             self._on_provider_changed
@@ -136,6 +160,13 @@ class SettingsDialog(QDialog):
         self.sm.set("llm", "model", value=self.model_edit.text().strip())
         self.sm.set("llm", "max_tokens", value=int(self.max_tokens.value()))
         self.sm.set("llm", "history_rounds", value=int(self.history_spin.value()))
+        # 将温度值保存在设置中
+        self.settings_manager.set("llm", "temperature", self.temperature_spinbox.value())
+
+        self.settings_manager.set("vision", "api_url", self.vision_api_url.text())
+        self.settings_manager.set("vision", "api_key", self.vision_api_key.text())
+        self.settings_manager.set("vision", "model", self.vision_model.text())
+        super()._on_save()  # 记得调用父类的保存函数
 
         self.accept()
 

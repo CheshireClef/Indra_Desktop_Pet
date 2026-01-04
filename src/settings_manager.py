@@ -22,6 +22,7 @@ DEFAULTS = {
         "provider": "openai",
         "api_key": "",
         "model": "gpt-4o-mini",
+        "temperature": 1.0,  # 默认 temperature
         "max_tokens": 512
     },
     "vision": {
