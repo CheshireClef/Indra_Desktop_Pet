@@ -1,13 +1,11 @@
 # src/gui/pet_window.py
 import os
-from PySide6.QtWidgets import QWidget, QLabel, QMenu
+from PySide6.QtWidgets import QWidget, QLabel, QMenu, QVBoxLayout
 from PySide6.QtGui import QPixmap
-from PySide6.QtCore import Qt, QPoint, QTimer, Signal, QThread
+from PySide6.QtCore import Qt, QPoint, QTimer, Signal, QThread, QPropertyAnimation
 
 from .animation import AnimationDriver
 from gui.settings_dialog import SettingsDialog
-
-# 对话相关
 from gui.chat_bubble import ChatBubble
 from llm.chat_manager import ChatManager
 
@@ -30,6 +28,65 @@ class ScreenObserveWorker(QThread):
                 self.finished.emit(reply)
         except Exception as e:
             print("[ScreenObserveWorker] error:", e)
+
+
+class TempBubble(QWidget):
+    """
+    一次性临时聊天气泡
+    - 不抢焦点
+    - 自动大小
+    - 5 秒后淡出消失
+    """
+
+    def __init__(self, text: str, max_width: int, parent=None):
+        super().__init__(parent)
+
+        self.setWindowFlags(
+            Qt.Tool |
+            Qt.FramelessWindowHint |
+            Qt.WindowStaysOnTopHint
+        )
+        self.setAttribute(Qt.WA_TransparentForMouseEvents, True)
+        self.setAttribute(Qt.WA_ShowWithoutActivating, True)
+
+        layout = QVBoxLayout(self)
+        layout.setContentsMargins(10, 8, 10, 8)
+
+        self.label = QLabel(text)
+        self.label.setWordWrap(True)
+        self.label.setAlignment(Qt.AlignLeft | Qt.AlignVCenter)
+        self.label.setStyleSheet(
+            """
+            background: rgba(40, 40, 40, 210);
+            color: white;
+            border-radius: 10px;
+            padding: 6px;
+            """
+        )
+
+        self.label.setMaximumWidth(max_width)
+        layout.addWidget(self.label)
+
+        self.adjustSize()
+
+        # --- 自动淡出 ---
+        self._fade_anim = QPropertyAnimation(self, b"windowOpacity", self)
+        self._fade_anim.setDuration(400)
+        self._fade_anim.setStartValue(1.0)
+        self._fade_anim.setEndValue(0.0)
+        self._fade_anim.finished.connect(self.hide)
+
+        self._life_timer = QTimer(self)
+        self._life_timer.setSingleShot(True)
+        self._life_timer.timeout.connect(self._fade_anim.start)
+
+    def popup(self, x: int, y: int):
+        self.move(x, y)
+        self.setWindowOpacity(1.0)
+        self.show()
+        self.raise_()
+        self.activateWindow()
+        self._life_timer.start(8000)
 
 
 class PetWindow(QWidget):
@@ -253,12 +310,40 @@ class PetWindow(QWidget):
         if self._observe_worker and self._observe_worker.isRunning():
             return
 
+        # 启动屏幕观察任务
         self._observe_worker = ScreenObserveWorker(
             self.screen_observer,
             self.vision_client,
             self.chat_manager
         )
-        self._observe_worker.finished.connect(
-            lambda text: self.chat_bubble.append_pet(text)
-        )
+
+        # 一旦获得反馈，加入聊天记录并显示临时气泡
+        def on_screen_observed(text):
+            # 将屏幕评论加入到聊天记录中
+            self.chat_bubble.append_pet(text)
+
+            # 触发临时气泡的显示
+            self._show_temp_bubble(text)
+
+        # 连接返回数据
+        self._observe_worker.finished.connect(on_screen_observed)
         self._observe_worker.start()
+
+    
+    # ---------------- 临时气泡 ----------------
+    def _show_temp_bubble(self, text: str):
+        pet_geo = self.geometry()
+        pet_width = pet_geo.width()
+
+        max_width = int(pet_width * 1.8)
+
+        bubble = TempBubble(text, max_width, parent=self)
+
+        bubble.adjustSize()
+        bw = bubble.width()
+        bh = bubble.height()
+
+        x = pet_geo.center().x() - bw // 2
+        y = pet_geo.top() - bh - 10
+
+        bubble.popup(x, y)

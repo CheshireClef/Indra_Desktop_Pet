@@ -44,7 +44,7 @@ class QwenVisionClient:
             "Content-Type": "application/json"
         }
 
-        resp = requests.post(self.api_url, json=payload, headers=headers, timeout=60)
+        resp = requests.post(self.api_url, json=payload, headers=headers, timeout=120)
         resp.raise_for_status()
 
         data = resp.json()
