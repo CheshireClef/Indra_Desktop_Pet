@@ -109,6 +109,13 @@ class PetWindow(QWidget):
         self._load_image()
         self._setup_animation()
         self._setup_chat()
+        # ---------- 主动屏幕观察 Timer ----------
+        self.screen_watch_timer = QTimer(self)
+        self.screen_watch_timer.timeout.connect(
+        self._on_screen_watch_timeout
+       )
+        self._apply_screen_watch_settings()
+
 
         # ⭐ 用于区分单击 / 双击
         self._click_timer = QTimer(self)
@@ -143,6 +150,46 @@ class PetWindow(QWidget):
             api_key=api_key,
             model=model
         )
+
+    def _apply_screen_watch_settings(self):
+        """
+        根据 settings 启动 / 停止 主动屏幕观察
+        """
+        if not self.settings:
+            return
+
+        enabled = self.settings.get(
+            "behavior",
+            "screen_watch_enabled",
+            default=False
+        )   
+        interval_s = self.settings.get(
+            "behavior",
+            "screen_watch_interval_s",
+            default=60
+        )
+        try:
+            interval_ms = max(5, int(interval_s)) * 1000
+        except Exception:
+            interval_ms = 60000
+
+        self.screen_watch_timer.stop()
+
+        if enabled:
+            self.screen_watch_timer.start(interval_ms)
+            print(f"[ScreenWatch] 已启用，间隔 {interval_ms // 1000}s")
+        else:
+            print("[ScreenWatch] 已关闭")
+   
+    def _on_screen_watch_timeout(self):
+        """
+        定时主动观察屏幕
+        """
+        # 避免叠加线程
+        if self._observe_worker and self._observe_worker.isRunning():
+            return
+
+        self.observe_screen_and_comment()
 
     # ---------------- Window ----------------
     def _setup_window(self):
@@ -300,6 +347,7 @@ class PetWindow(QWidget):
                 self.idle_timer.setInterval(max(1, idle_s) * 1000)
             except Exception:
                 pass
+            self._apply_screen_watch_settings()
 
     # ---------------- Vision Action ----------------
     def observe_screen_and_comment(self):

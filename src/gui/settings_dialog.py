@@ -34,14 +34,14 @@ class SettingsDialog(QDialog):
         form.addRow("显示缩放 (scale)", self.scale_spin)
 
         self.idle_spin = QSpinBox()
-        self.idle_spin.setRange(1, 3600)
-        form.addRow("空闲触发间隔 (秒)", self.idle_spin)
+        self.idle_spin.setRange(1, 10800)
+        form.addRow("空闲后主动行为触发间隔 (秒)", self.idle_spin) #功能还没做，后期可能会做桌宠主动在桌面移动或者主动搭话之类的功能
 
         self.screen_watch_cb = QCheckBox("启用屏幕监视")
         form.addRow(self.screen_watch_cb)
 
         self.screen_watch_interval = QSpinBox()
-        self.screen_watch_interval.setRange(5, 3600)
+        self.screen_watch_interval.setRange(5, 10800)
         form.addRow("屏幕监视间隔 (秒)", self.screen_watch_interval)
 
         self.user_name = QLineEdit()
@@ -51,6 +51,7 @@ class SettingsDialog(QDialog):
 
         # ===== LLM 设置 =====
         main_layout.addWidget(self._build_llm_group())
+        main_layout.addWidget(self._build_vision_group())
 
         # ===== 按钮 =====
         btn_layout = QHBoxLayout()
@@ -65,7 +66,7 @@ class SettingsDialog(QDialog):
         main_layout.addLayout(btn_layout)
 
     def _build_llm_group(self):
-        group = QGroupBox("语言模型（LLM）")
+        group = QGroupBox("对话语言模型（LLM）")
         layout = QFormLayout(group)
 
         self.provider_combo = QComboBox()
@@ -93,30 +94,31 @@ class SettingsDialog(QDialog):
         # 在设置界面添加 temperature 控制
         self.temperature_spinbox = QDoubleSpinBox(self)
         self.temperature_spinbox.setRange(0.0, 1.5)  # 设置合理的范围
-        self.temperature_spinbox.setValue(self.settings_manager.get("llm", "temperature", default=1.0))
-        self.temperature_spinbox.setSuffix(" 可参考deepseek文档")  # 设置单位或其他显示文字
-        layout.addWidget(self.temperature_spinbox)
-
-        # 添加 Qwen 或其他视觉模型的 API 设置
-        self.vision_api_url = QLineEdit(self)
-        self.vision_api_url.setText(self.settings_manager.get("vision", "api_url", default=""))
-        layout.addWidget(QLabel("视觉模型 API URL"))
-        layout.addWidget(self.vision_api_url)
-
-        self.vision_api_key = QLineEdit(self)
-        self.vision_api_key.setText(self.settings_manager.get("vision", "api_key", default=""))
-        layout.addWidget(QLabel("视觉模型 API Key"))
-        layout.addWidget(self.vision_api_key)
-
-        self.vision_model = QLineEdit(self)
-        self.vision_model.setText(self.settings_manager.get("vision", "model", default="Qwen/Qwen3-VL-32B-Instruct"))
-        layout.addWidget(QLabel("视觉模型"))
-        layout.addWidget(self.vision_model)
+        self.temperature_spinbox.setSingleStep(0.1)   # 👈 步长改为 0.1
+        self.temperature_spinbox.setValue(self.sm.get("llm", "temperature", default=1.0))
+        layout.addRow("对话Temperature参数", self.temperature_spinbox)
 
         self.provider_combo.currentTextChanged.connect(
             self._on_provider_changed
         )
 
+        return group
+    
+    def _build_vision_group(self):
+        group = QGroupBox("视觉模型（用于解析屏幕截图）")
+        layout = QFormLayout(group)
+        # 添加 Qwen 或其他视觉模型的 API 设置
+        self.vision_api_url = QLineEdit(self)
+        self.vision_api_url.setText(self.sm.get("vision", "api_url", default=""))
+        layout.addRow("视觉模型 API URL", self.vision_api_url)
+
+        self.vision_api_key = QLineEdit(self)
+        self.vision_api_key.setText(self.sm.get("vision", "api_key", default=""))
+        layout.addRow("视觉模型 API Key", self.vision_api_key)
+
+        self.vision_model = QLineEdit(self)
+        self.vision_model.setText(self.sm.get("vision", "model", default="Qwen/Qwen3-VL-32B-Instruct"))
+        layout.addRow("视觉模型名称", self.vision_model)
         return group
 
     # ---------- Load ----------
@@ -160,13 +162,13 @@ class SettingsDialog(QDialog):
         self.sm.set("llm", "model", value=self.model_edit.text().strip())
         self.sm.set("llm", "max_tokens", value=int(self.max_tokens.value()))
         self.sm.set("llm", "history_rounds", value=int(self.history_spin.value()))
-        # 将温度值保存在设置中
-        self.settings_manager.set("llm", "temperature", self.temperature_spinbox.value())
+        self.sm.set("llm", "temperature", value=self.temperature_spinbox.value())  # 正确保存 temperature
 
-        self.settings_manager.set("vision", "api_url", self.vision_api_url.text())
-        self.settings_manager.set("vision", "api_key", self.vision_api_key.text())
-        self.settings_manager.set("vision", "model", self.vision_model.text())
-        super()._on_save()  # 记得调用父类的保存函数
+        self.sm.set("vision", "api_url", value=self.vision_api_url.text())
+        self.sm.set("vision", "api_key", value=self.vision_api_key.text())
+        self.sm.set("vision", "model", value=self.vision_model.text())
+
+        self.sm.save()  # 正确保存设置
 
         self.accept()
 
@@ -178,3 +180,6 @@ class SettingsDialog(QDialog):
         elif provider == "openai":
             self.base_url_edit.setText("https://api.openai.com")
             self.model_edit.setText("gpt-4o-mini")
+        elif provider == "custom":
+            self.base_url_edit.setText("")
+            self.model_edit.setText("")
