@@ -7,19 +7,19 @@
   "behavior": {
     "idle_interval_s": 7,
     "screen_watch_enabled": true,
-    "screen_watch_interval_s": 180
+    "screen_watch_interval_s": 300
   },
   "user": {
     "display_name": "御主"
   },
   "llm": {
     "provider": "deepseek",
-    "api_key": "sk-e0c6f41df7cd498785ad0597b4b6dc34",
+    "api_key": "sk-e7f31fe99f3242139c676267eac25f87",
     "model": "deepseek-chat",
     "max_tokens": 512,
     "base_url": "https://api.deepseek.com",
-    "history_rounds": 20,
-    "temperature": 1.0
+    "history_rounds": 10,
+    "temperature": 1.3000000000000003
   },
   "vision": {
     "api_url": "https://api.siliconflow.cn/v1/chat/completions",

@@ -13,7 +13,6 @@ def resource_path(rel_path: str) -> str:
 
 def main():
     app = QApplication(sys.argv)
-    QApplication.setAttribute(Qt.AA_EnableHighDpiScaling, True)
 
     # settings
     settings_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "config", "settings.json"))
