@@ -70,7 +70,7 @@ class ChatBubble(QWidget):
         """
         was_visible = self.isVisible()
 
-        self.chat_view.append(f"<b>因陀罗：</b>{text}")
+        self.chat_view.append(f"<b>因陀罗：</b>{text}<br>")
 
         # 如果原本是隐藏的，立刻藏回去
         if not was_visible:
@@ -88,12 +88,12 @@ class ChatBubble(QWidget):
 
     def append_user(self, text: str):
         self._ensure_visible()
-        self.chat_view.append(f"<b>你：</b>{text}")
+        self.chat_view.append(f"<b>你：</b>{text}<br>")
 
     def append_pet(self, text: str):
         # ⭐ 关键优化：桌宠说话时自动浮现
         self._ensure_visible()
-        self.chat_view.append(f"<b>因陀罗：</b>{text}")
+        self.chat_view.append(f"<b>因陀罗：</b>{text}<br>")
 
     # ---------- 可见性与位置 ----------
     def _ensure_visible(self):
