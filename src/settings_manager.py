@@ -13,7 +13,8 @@ DEFAULTS = {
     "behavior": {
         "idle_interval_s": 7,
         "screen_watch_enabled": False,
-        "screen_watch_interval_s": 60
+        "screen_watch_interval_s": 60,
+        "temp_bubble_duration_s": 8  # 新增：临时气泡默认时长10秒
     },
     "user": {
         "display_name": "主人"

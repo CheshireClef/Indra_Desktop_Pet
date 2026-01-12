@@ -2,13 +2,12 @@
 from email.mime import text
 import os
 from PySide6.QtWidgets import QWidget, QLabel, QMenu, QVBoxLayout
-from PySide6.QtGui import QPixmap
-from PySide6.QtCore import Qt, QPoint, QTimer, Signal, QThread, QPropertyAnimation
+from PySide6.QtGui import QPixmap, QGuiApplication  # ✅ 修正 QGuiApplication 导入
+from PySide6.QtCore import Qt, QPoint, QTimer, Signal, QThread, QPropertyAnimation, QRect
 
-from .animation import AnimationDriver
-from gui.settings_dialog import SettingsDialog
-from gui.chat_bubble import ChatBubble
-from llm.chat_manager import ChatManager
+# ✅ 全局导入基础模块（避免循环导入的模块用延迟导入）
+from vision.screen_observer import ScreenObserver
+from vision.qwen_vision import QwenVisionClient  # 提前导入，避免方法内重复导入
 
 
 class ScreenObserveWorker(QThread):
@@ -36,7 +35,8 @@ class TempBubble(QWidget):
     一次性临时聊天气泡
     - 不抢焦点
     - 自动大小
-    - 10 秒后淡出消失
+    - 可配置时长后淡出消失
+    - 自动修正位置到屏幕内
     """
 
     def __init__(self, text: str, max_width: int, parent=None):
@@ -80,13 +80,39 @@ class TempBubble(QWidget):
         self._life_timer.setSingleShot(True)
         self._life_timer.timeout.connect(self._fade_anim.start)
 
+    def set_lifetime(self, seconds: int):
+        """设置气泡显示时长（秒）"""
+        self._life_timer.setInterval(seconds * 1000)
+
+    def _clamp_to_screen(self):
+        """修正位置，确保气泡完全显示在屏幕内"""
+        geo: QRect = self.frameGeometry()
+        screen = QGuiApplication.screenAt(geo.center())
+        if not screen:
+            screen = QGuiApplication.primaryScreen()
+        avail = screen.availableGeometry()
+
+        # 修正X坐标
+        if geo.left() < avail.left():
+            self.move(avail.left() + 10, geo.y())
+        elif geo.right() > avail.right():
+            self.move(avail.right() - geo.width() - 10, geo.y())
+
+        # 修正Y坐标
+        if geo.top() < avail.top():
+            self.move(geo.x(), avail.top() + 10)
+        elif geo.bottom() > avail.bottom():
+            self.move(geo.x(), avail.bottom() - geo.height() - 10)
+
     def popup(self, x: int, y: int):
         self.move(x, y)
+        # 修正位置到屏幕内
+        self._clamp_to_screen()
         self.setWindowOpacity(1.0)
         self.show()
         self.raise_()
         self.activateWindow()
-        self._life_timer.start(10000)
+        self._life_timer.start()
 
 
 class PetWindow(QWidget):
@@ -94,8 +120,13 @@ class PetWindow(QWidget):
     toggled_visibility = Signal(bool)
 
     def __init__(self, image_path: str, settings_manager=None, icon_path: str = None):
-        from vision.screen_observer import ScreenObserver
         super().__init__(None, Qt.Window)
+
+        # ✅ 延迟导入易产生循环依赖的模块（放在 __init__ 开头）
+        from .animation import AnimationDriver  # 相对导入，匹配项目结构
+        from .chat_bubble import ChatBubble     # 相对导入
+        from .settings_dialog import SettingsDialog  # 相对导入
+        from llm.chat_manager import ChatManager     # 绝对导入
 
         self.image_path = image_path
         self.icon_path = icon_path
@@ -105,6 +136,12 @@ class PetWindow(QWidget):
         self.vision_client = None
         self._observe_worker: ScreenObserveWorker | None = None
 
+        # ✅ 保存导入的类到实例属性，供其他方法调用
+        self._AnimationDriver = AnimationDriver
+        self._ChatManager = ChatManager
+        self._ChatBubble = ChatBubble
+        self._SettingsDialog = SettingsDialog
+
         self._setup_window()
         self._load_image()
         self._setup_animation()
@@ -112,10 +149,9 @@ class PetWindow(QWidget):
         # ---------- 主动屏幕观察 Timer ----------
         self.screen_watch_timer = QTimer(self)
         self.screen_watch_timer.timeout.connect(
-        self._on_screen_watch_timeout
-       )
+            self._on_screen_watch_timeout
+        )
         self._apply_screen_watch_settings()
-
 
         # ⭐ 用于区分单击 / 双击
         self._click_timer = QTimer(self)
@@ -128,8 +164,6 @@ class PetWindow(QWidget):
     def _ensure_vision_client(self):
         if self.vision_client or not self.settings:
             return
-
-        from vision.qwen_vision import QwenVisionClient
 
         api_url = self.settings.get(
             "vision", "api_url",
@@ -162,7 +196,7 @@ class PetWindow(QWidget):
             "behavior",
             "screen_watch_enabled",
             default=False
-        )   
+        )
         interval_s = self.settings.get(
             "behavior",
             "screen_watch_interval_s",
@@ -180,7 +214,7 @@ class PetWindow(QWidget):
             print(f"[ScreenWatch] 已启用，间隔 {interval_ms // 1000}s")
         else:
             print("[ScreenWatch] 已关闭")
-   
+
     def _on_screen_watch_timeout(self):
         """
         定时主动观察屏幕
@@ -246,7 +280,8 @@ class PetWindow(QWidget):
 
     # ---------------- Animation ----------------
     def _setup_animation(self):
-        self.animation = AnimationDriver(self.label)
+        # ✅ 使用实例属性中的 AnimationDriver
+        self.animation = self._AnimationDriver(self.label)
         self.idle_timer = QTimer(self)
         self.idle_timer.timeout.connect(self._on_idle)
         self.idle_timer.start(7000)
@@ -254,9 +289,10 @@ class PetWindow(QWidget):
     # ---------------- Chat ----------------
     def _setup_chat(self):
         persona_path = os.path.join("src", "llm", "persona.txt")
-        self.chat_manager = ChatManager(self.settings, persona_path)
-
-        self.chat_bubble = ChatBubble()
+        # ✅ 使用实例属性中的 ChatManager
+        self.chat_manager = self._ChatManager(self.settings, persona_path)
+        # ✅ 使用实例属性中的 ChatBubble
+        self.chat_bubble = self._ChatBubble()
         self.chat_bubble.send_message.connect(self._on_user_message)
 
     def _on_user_message(self, text: str):
@@ -339,7 +375,8 @@ class PetWindow(QWidget):
         if not self.settings:
             return
 
-        dlg = SettingsDialog(self.settings, parent=self)
+        # ✅ 使用实例属性中的 SettingsDialog
+        dlg = self._SettingsDialog(self.settings, parent=self)
         if dlg.exec():
             self._load_image()
             try:
@@ -374,8 +411,6 @@ class PetWindow(QWidget):
         self._observe_worker.finished.connect(on_screen_observed)
         self._observe_worker.start()
 
-
-    
     # ---------------- 临时气泡 ----------------
     def _show_temp_bubble(self, text: str):
         pet_geo = self.geometry()
@@ -384,6 +419,16 @@ class PetWindow(QWidget):
         max_width = int(pet_width * 1.8)
 
         bubble = TempBubble(text, max_width, parent=self)
+
+        # 从设置中读取气泡显示时长
+        duration_s = 10  # 默认10秒
+        if self.settings:
+            duration_s = self.settings.get("behavior", "temp_bubble_duration_s", default=10)
+            try:
+                duration_s = max(1, int(duration_s))  # 确保至少1秒
+            except Exception:
+                duration_s = 10
+        bubble.set_lifetime(duration_s)
 
         bubble.adjustSize()
         bw = bubble.width()

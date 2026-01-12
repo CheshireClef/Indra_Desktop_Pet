@@ -44,6 +44,11 @@ class SettingsDialog(QDialog):
         self.screen_watch_interval.setRange(5, 10800)
         form.addRow("屏幕监视间隔 (秒)", self.screen_watch_interval)
 
+        # 新增：临时气泡时长配置
+        self.temp_bubble_duration = QSpinBox()
+        self.temp_bubble_duration.setRange(1, 60)  # 1-60秒范围
+        form.addRow("临时聊天气泡显示时长 (秒)", self.temp_bubble_duration)
+
         self.user_name = QLineEdit()
         form.addRow("桌宠称呼用户为", self.user_name)
 
@@ -131,6 +136,10 @@ class SettingsDialog(QDialog):
         self.screen_watch_interval.setValue(
             self.sm.get("behavior", "screen_watch_interval_s", default=60)
         )
+        # 加载临时气泡时长配置
+        self.temp_bubble_duration.setValue(
+            self.sm.get("behavior", "temp_bubble_duration_s", default=10)
+        )
         self.user_name.setText(
             self.sm.get("user", "display_name", default="主人") or ""
         )
@@ -143,6 +152,8 @@ class SettingsDialog(QDialog):
         self.model_edit.setText(self.sm.get("llm", "model", default="") or "")
         self.max_tokens.setValue(self.sm.get("llm", "max_tokens", default=512))
         self.history_spin.setValue(self.sm.get("llm", "history_rounds", default=6))
+        # 加载temperature值
+        self.temperature_spinbox.setValue(self.sm.get("llm", "temperature", default=1.0))
 
     # ---------- Save ----------
     def _on_save(self):
@@ -153,6 +164,12 @@ class SettingsDialog(QDialog):
             "behavior",
             "screen_watch_interval_s",
             value=int(self.screen_watch_interval.value())
+        )
+        # 保存临时气泡时长配置
+        self.sm.set(
+            "behavior",
+            "temp_bubble_duration_s",
+            value=int(self.temp_bubble_duration.value())
         )
         self.sm.set("user", "display_name", value=self.user_name.text().strip())
 
