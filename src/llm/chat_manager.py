@@ -42,7 +42,7 @@ class ChatManager:
     # ---------- 新增：知识库核心逻辑 ----------
     def _init_embeddings(self):
         """初始化多语言轻量嵌入模型（支持中日文）"""
-        model_name = self.sm.get("knowledge", "embedding_model", default="all-MiniLM-L6-v2")
+        model_name = self.sm.get("knowledge", "embedding_model", default="intfloat/multilingual-e5-small")
         return SentenceTransformerEmbeddings(model_name=model_name)
 
     def _load_knowledge_documents(self) -> list[Document]:
@@ -89,8 +89,8 @@ class ChatManager:
             return None
 
         text_splitter = RecursiveCharacterTextSplitter(
-            chunk_size=int(self.sm.get("knowledge", "chunk_size", default=500)),
-            chunk_overlap=int(self.sm.get("knowledge", "chunk_overlap", default=50)),
+            chunk_size=int(self.sm.get("knowledge", "chunk_size", default=2000)),
+            chunk_overlap=int(self.sm.get("knowledge", "chunk_overlap", default=300)),
             separators=["\n\n", "\n", "。", "！", "？", "；", "，", "、", ".", "!", "?", ";", ","]  # 中日文通用分隔符
         )
         split_docs = text_splitter.split_documents(documents)
@@ -111,16 +111,27 @@ class ChatManager:
 
         # 检索配置（可通过settings调整）
         top_k = int(self.sm.get("knowledge", "top_k", default=3))
-        similarity_threshold = float(self.sm.get("knowledge", "similarity_threshold", default=0.35))
+        similarity_threshold = float(self.sm.get("knowledge", "similarity_threshold", default=0.6))
 
         # 相似性检索（过滤低相似度结果）
         results = self.vector_db.similarity_search_with_score(query, k=top_k)
-        print("\n【RAG 原始命中结果】") #调试用代码-开始
+        # 去重：按 page_content
+        seen = set()
+        deduped = []
         for doc, score in results:
-            print("{:.3f} | {}".format(
-                score,
-                doc.page_content[:80].replace("\n", " ")
-            ))
+            key = doc.page_content.strip()
+            if key not in seen:
+                seen.add(key)
+                deduped.append((doc, score))
+        results = deduped
+
+        if results: #调试
+            print("\n【RAG 原始命中结果】")
+            for doc, score in results:
+                print("{:.3f} | {}".format(
+                    score,
+                    doc.page_content[:160].replace("\n", " ")
+                ))
                 #调试用代码-结束
 
         relevant_docs = [doc for doc, score in results if score >= similarity_threshold]
@@ -197,7 +208,7 @@ class ChatManager:
     def _build_chat_messages(self):
         """微调：追加知识库检索结果到system prompt"""
         # 提取最后一条用户消息作为检索关键词
-        query = self.chat_history[-1]["content"].strip() if (self.chat_history and self.chat_history[-1]["role"] == "user") else ""
+        query = self.chat_history[-1]["content"].split("\n", 1)[0].strip() if (self.chat_history and self.chat_history[-1]["role"] == "user") else ""
         knowledge_context = self._retrieve_knowledge(query)
         # 原有persona + 参考资料（不改动原有prompt文案）
         system_content = self._build_persona() + knowledge_context
