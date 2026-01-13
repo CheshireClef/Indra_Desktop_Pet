@@ -1,13 +1,17 @@
 import requests
 import os
 from pathlib import Path
+from llama_index.core.schema import Document
+from llama_index.core import VectorStoreIndex, SimpleDirectoryReader
 
-# 替换原有LangChain导入（第5行开始）
-from langchain_community.document_loaders import TextLoader, UnstructuredEPubLoader  # 核心修改
-from langchain_text_splitters import RecursiveCharacterTextSplitter  # 分块模块（新版路径）
-from langchain_community.embeddings import SentenceTransformerEmbeddings  # 嵌入模型（新版路径）
-from langchain_chroma import Chroma  # Chroma集成（新版路径）
-from langchain_core.documents import Document
+from llama_index.core import (
+    VectorStoreIndex,
+    SimpleDirectoryReader,
+    StorageContext,
+    load_index_from_storage,
+)
+from llama_index.embeddings.huggingface import HuggingFaceEmbedding
+
 
 
 class ChatManager:
@@ -21,8 +25,8 @@ class ChatManager:
         # ========== 新增：知识库初始化 ==========
         self.knowledge_dir = Path("src/llm/knowledge")  # 知识库文件目录
         self.knowledge_db_dir = Path("src/llm/knowledge_db")  # 向量库持久化目录
-        self.embeddings = self._init_embeddings()  # 多语言嵌入模型
-        self.vector_db = self._init_vector_db()  # 初始化向量库
+        self._init_indices()
+
 
     # ---------- Persona（原有逻辑，无改动） ----------
     def _load_persona(self):
@@ -38,6 +42,59 @@ class ChatManager:
             f"{self.base_persona}\n\n"
             f"你必须始终称呼用户为「{user_name}」，不要使用其他称呼。"
         )
+    
+    def _init_indices(self):
+        embed_model = HuggingFaceEmbedding(
+            model_name=self.sm.get(
+                "knowledge", "embedding_model", default="all-MiniLM-L6-v2"
+            )
+        )
+
+        self.lore_index = self._load_or_build_index(
+            data_dir=Path("src/llm/knowledge/lore"),
+            persist_dir=Path("src/llm/knowledge_db/lore"),
+            embed_model=embed_model,
+            name="Lore"
+        )
+        self.style_index = self._load_or_build_index(
+            data_dir=Path("src/llm/knowledge/style"),
+            persist_dir=Path("src/llm/knowledge_db/style"),
+            embed_model=embed_model,
+            name="Style"
+        )
+
+    def _load_or_build_index(self, data_dir: Path, persist_dir: Path, embed_model, name: str):
+        if not data_dir.exists():
+            print(f"[ChatManager] {name} 目录不存在，跳过")
+            return None
+
+        if persist_dir.exists():
+            try:
+                storage = StorageContext.from_defaults(persist_dir=str(persist_dir))
+                index = load_index_from_storage(storage)
+                print(f"[ChatManager] 加载已有 {name} Index")
+                return index
+            except Exception:
+                pass
+
+        documents = SimpleDirectoryReader(
+            str(data_dir),
+            recursive=True,
+            encoding="utf-8"
+        ).load_data()
+
+        if not documents:
+            print(f"[ChatManager] {name} 目录为空")
+            return None
+
+        index = VectorStoreIndex.from_documents(
+            documents,
+            embed_model=embed_model
+        )
+
+        index.storage_context.persist(persist_dir=str(persist_dir))
+        print(f"[ChatManager] 构建 {name} Index，文档数 {len(documents)}")
+        return index
 
     # ---------- 新增：知识库核心逻辑 ----------
     def _init_embeddings(self):
@@ -105,46 +162,32 @@ class ChatManager:
         return vector_db
 
     def _retrieve_knowledge(self, query: str) -> str:
-        """检索知识库（返回相关文本，无结果则返回空）"""
-        if not self.vector_db or not query.strip():
+        if not query.strip():
             return ""
 
-        # 检索配置（可通过settings调整）
-        top_k = int(self.sm.get("knowledge", "top_k", default=3))
-        similarity_threshold = float(self.sm.get("knowledge", "similarity_threshold", default=0.6))
+        contexts = []
+        # 1. Lore：剧情 / 记忆（优先）
+        if self.lore_index:
+            lore_engine = self.lore_index.as_retriever(similarity_top_k=3)
+            lore_nodes = lore_engine.retrieve(query)
+            if lore_nodes:
+                contexts.append("【剧情记忆】")
+                for n in lore_nodes:
+                    contexts.append(n.get_content().strip())
 
-        # 相似性检索（过滤低相似度结果）
-        results = self.vector_db.similarity_search_with_score(query, k=top_k)
-        # 去重：按 page_content
-        seen = set()
-        deduped = []
-        for doc, score in results:
-            key = doc.page_content.strip()
-            if key not in seen:
-                seen.add(key)
-                deduped.append((doc, score))
-        results = deduped
+        # 2. Style：语料 / 说话方式（辅助）
+        if self.style_index:
+            style_engine = self.style_index.as_retriever(similarity_top_k=2)
+            style_nodes = style_engine.retrieve(query)
+            if style_nodes:
+                contexts.append("【语料参考】")
+                for n in style_nodes:
+                    contexts.append(n.get_content().strip())
 
-        if results: #调试
-            print("\n【RAG 原始命中结果】")
-            for doc, score in results:
-                print("{:.3f} | {}".format(
-                    score,
-                    doc.page_content[:160].replace("\n", " ")
-                ))
-                #调试用代码-结束
-
-        relevant_docs = [doc for doc, score in results if score >= similarity_threshold]
-        if not relevant_docs:
-            print("【RAG】命中但全部被 similarity_threshold 过滤") #调试代码
+        if not contexts:
             return ""
 
-        # 拼接检索结果（不改动原有prompt，仅追加参考资料）
-        knowledge_context = "\n\n【参考资料】\n"
-        for i, doc in enumerate(relevant_docs, 1):
-            knowledge_context += f"{i}. {doc.page_content.strip()}\n\n"
-        print("【RAG】最终注入 system prompt") #调试代码
-        return knowledge_context
+        return "\n\n".join(contexts) + "\n\n"
 
     # ---------- Public: Chat（原有逻辑，仅调整上下文构建） ----------
     def chat(self, user_text: str) -> str | None:
