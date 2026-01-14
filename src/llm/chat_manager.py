@@ -2,6 +2,7 @@ import requests
 import os
 import random
 import threading
+import json  # 新增：用于读写文件修改时间记录
 from pathlib import Path
 from llama_index.core.schema import Document
 from llama_index.core import (
@@ -74,12 +75,46 @@ class ChatManager:
             is_lore=False
         )
 
+    def _get_data_dir_mtime(self, data_dir: Path) -> float:
+        """辅助函数：计算数据目录下所有文件的最后修改时间总和（用于检测更新）"""
+        total_mtime = 0.0
+        for file in data_dir.rglob("*"):
+            if file.is_file() and not file.name.startswith("."):  # 跳过隐藏文件
+                try:
+                    total_mtime += os.path.getmtime(file)
+                except Exception:
+                    continue
+        return total_mtime
+
     def _load_or_build_index(self, data_dir: Path, persist_dir: Path, embed_model, name: str, is_lore: bool = False):
         if not data_dir.exists():
             print(f"[ChatManager] {name} 目录不存在，跳过")
             return None
 
-        # 针对Lore/Style分别优化分块（适配旧版本llama-index，仅用单个分隔符）
+        # ========== 新增：检测数据文件更新 ==========
+        mtime_file = persist_dir / "data_mtime.json"  # 记录数据文件最后修改时间的文件
+        current_mtime = self._get_data_dir_mtime(data_dir)
+        need_rebuild = False  # 是否需要重建索引
+
+        # 检查是否需要重建索引
+        if persist_dir.exists():
+            try:
+                # 读取已保存的修改时间
+                with open(mtime_file, "r", encoding="utf-8") as f:
+                    saved_mtime = json.load(f).get("total_mtime", 0.0)
+                # 对比时间：如果当前数据文件修改时间总和不同，说明有更新
+                if abs(current_mtime - saved_mtime) > 0.1:  # 浮点精度容错
+                    print(f"[ChatManager] {name} 数据文件已更新，将重建索引")
+                    need_rebuild = True
+            except (FileNotFoundError, json.JSONDecodeError):
+                # 无记录文件/文件损坏 → 重建并生成新记录
+                print(f"[ChatManager] {name} 无更新记录/记录损坏，将重建索引")
+                need_rebuild = True
+        else:
+            # 无索引目录 → 首次构建
+            need_rebuild = True
+
+        # ========== 原有分块逻辑（完全保留） ==========
         if is_lore:
             # Lore：通用剧情/事实分块，优先按空行拆分
             node_parser = SentenceSplitter(
@@ -111,7 +146,8 @@ class ChatManager:
                 encoding="utf-8"
             )
 
-        if persist_dir.exists():
+        # ========== 加载/重建索引逻辑（新增更新检测） ==========
+        if persist_dir.exists() and not need_rebuild:
             try:
                 storage = StorageContext.from_defaults(persist_dir=str(persist_dir))
                 index = load_index_from_storage(storage, embed_model=embed_model)
@@ -119,7 +155,9 @@ class ChatManager:
                 return index
             except Exception as e:
                 print(f"[ChatManager] 加载{name} Index失败：{e}，将重建")
+                need_rebuild = True
 
+        # 重建索引（首次构建/数据更新/加载失败）
         documents = reader.load_data()
         if not documents:
             print(f"[ChatManager] {name} 目录为空")
@@ -132,7 +170,14 @@ class ChatManager:
             show_progress=True
         )
 
+        # 保存索引 + 记录当前数据文件修改时间
         index.storage_context.persist(persist_dir=str(persist_dir))
+        # 确保persist_dir存在（首次构建时创建）
+        persist_dir.mkdir(parents=True, exist_ok=True)
+        # 写入修改时间记录
+        with open(mtime_file, "w", encoding="utf-8") as f:
+            json.dump({"total_mtime": current_mtime}, f, ensure_ascii=False)
+        
         print(f"[ChatManager] 构建 {name} Index，文档数 {len(documents)}")
         return index
 
