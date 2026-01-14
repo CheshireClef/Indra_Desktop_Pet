@@ -115,7 +115,7 @@ class AnimationDriver(QObject):
 
     def on_idle(self):
         """待机动画（循环）"""
-        self._play_state("idle", fps=3)
+        self._play_state("idle", fps=2)
 
     def on_move(self, x: int, y: int):
         """

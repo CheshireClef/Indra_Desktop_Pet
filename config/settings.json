@@ -1,7 +1,7 @@
 {
   "pet": {
     "name": "因陀罗",
-    "scale": 1.0000000000000002,
+    "scale": 0.8,
     "initial_position": "bottom-right"
   },
   "behavior": {
@@ -20,7 +20,7 @@
     "max_tokens": 512,
     "base_url": "https://api.deepseek.com",
     "history_rounds": 10,
-    "temperature": 1.0
+    "temperature": 1.3
   },
   "vision": {
     "api_url": "https://api.siliconflow.cn/v1/chat/completions",
