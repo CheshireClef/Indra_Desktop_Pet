@@ -1,107 +1,145 @@
 # src/gui/animation.py
 from PySide6.QtCore import QTimer, QObject
 from PySide6.QtGui import QPixmap
+from PySide6.QtCore import Qt
 import os
+
+
+BASE_SIZE = 256  # ⭐ 逻辑基准尺寸（与你原来的 pet.png 一致）
+
 
 class AnimationDriver(QObject):
     """
-    AnimationDriver is the single place to implement/replace animation logic.
-    - on_idle: called periodically for idle animations (blink, sway)
-    - on_move: called while dragging/moving (can trigger a "walking" animation)
-    - on_poke: called when user clicks/pokes the pet (play a poke animation)
-    
-    Implementation notes:
-    - For frame-based animations, keep frames list of QPixmaps and a QTimer to step frames.
-    - For smooth transforms, you can use QPropertyAnimation on the widget geometry or opacity.
+    AnimationDriver
+    - 管理所有动画帧
+    - 只负责“怎么播”，不关心“什么时候播”
     """
+
     def __init__(self, target_label):
         super().__init__()
         self.target = target_label
-        self.frames = []          # list[QPixmap]
+
+        self.animations: dict[str, list[QPixmap]] = {}
+        self.state: str | None = None
+
+        self.frames: list[QPixmap] = []
         self.frame_index = 0
+
         self.timer = QTimer(self)
-        self.timer.setInterval(80)
         self.timer.timeout.connect(self._next_frame)
-        self.playing = False
 
-        # Placeholder: you can fill self.frames from a directory when you have assets
-        # Example: self.load_frames("assets/anim/idle")
-        self._load_placeholder()
+        # ⭐ 记录当前 label 的显示尺寸（已经被 PetWindow scale 过）
+        self._target_size = self.target.size()
 
-    def _load_placeholder(self):
-        # if no frames, we keep the single pixmap already set on target
-        pass
+        # 预加载 idle 动画
+        self._load_idle_frames()
 
-    def load_frames(self, folder_path: str):
-        """Load all png frames in folder_path into self.frames (ordered)."""
-        if not os.path.isdir(folder_path):
+    # -------------------------------------------------
+    # loading
+    # -------------------------------------------------
+
+    def _load_idle_frames(self):
+        """
+        加载 idle 动画：
+        - 原始资源是 1280x1280
+        - 先缩放到 256x256
+        - 再按当前 label 尺寸等比缩放
+        """
+        folder = os.path.join("assets", "images", "idle")
+        if not os.path.isdir(folder):
             return
-        files = sorted(f for f in os.listdir(folder_path) if f.lower().endswith((".png", ".jpg", ".webp")))
-        self.frames = []
+
+        files = sorted(
+            f for f in os.listdir(folder)
+            if f.lower().endswith(".png")
+        )
+
+        frames: list[QPixmap] = []
         for f in files:
-            pix = QPixmap(os.path.join(folder_path, f))
-            if not pix.isNull():
-                self.frames.append(pix)
+            pix = QPixmap(os.path.join(folder, f))
+            if pix.isNull():
+                continue
+
+            # ① 先缩放到逻辑基准尺寸 256x256
+            pix = pix.scaled(
+                BASE_SIZE,
+                BASE_SIZE,
+                Qt.KeepAspectRatio,
+                Qt.SmoothTransformation
+            )   
+            # ② 再按当前 label 尺寸缩放（scale 已在 PetWindow 应用）
+            pix = pix.scaled(
+                self._target_size,
+                Qt.KeepAspectRatio,
+                Qt.SmoothTransformation
+            )
+            frames.append(pix)
+
+        if frames:
+            self.animations["idle"] = frames
+
+    # -------------------------------------------------
+    # playback core
+    # -------------------------------------------------
+
+    def _play_state(self, name: str, fps: int):
+        frames = self.animations.get(name)
+        if not frames:
+            return
+
+        if self.state == name and self.timer.isActive():
+            return
+
+        self.state = name
+        self.frames = frames
+        self.frame_index = 0
+
+        interval = int(1000 / max(1, fps))
+        self.timer.setInterval(interval)
+        self.timer.start()
+
+        # 立即显示第一帧，避免等待 timer
+        self.target.setPixmap(self.frames[0])
 
     def _next_frame(self):
         if not self.frames:
-            self.stop()
+            self.timer.stop()
             return
+
         self.frame_index = (self.frame_index + 1) % len(self.frames)
         self.target.setPixmap(self.frames[self.frame_index])
 
-    def play(self, fps=12):
-        if not self.frames:
-            return
-        self.timer.setInterval(int(1000 / max(1, fps)))
-        self.playing = True
-        self.timer.start()
+    # -------------------------------------------------
+    # public hooks (PetWindow 调用的接口，保持不变)
+    # -------------------------------------------------
 
-    def stop(self):
-        if self.timer.isActive():
-            self.timer.stop()
-        self.playing = False
-
-    # ---------- public hooks ----------
     def on_idle(self):
-        """
-        Called periodically to perform idle animations. By default we'll try to blink
-        if idle frames available.
-        """
-        # simple example: play idle frames folder if exists
-        if self.frames:
-            self.play(fps=8)
-            # set a timer to stop after one cycle (optional)
-            QTimer.singleShot(800, self.stop)
+        """待机动画（循环）"""
+        self._play_state("idle", fps=3)
 
     def on_move(self, x: int, y: int):
         """
-        Called when the pet is being dragged/moved. Could switch to a 'dragging' frame or play
-        a subtle effect. Default: do nothing.
+        拖动时的动画（暂时不实现，结构已预留）
         """
-        # Implement later: load drag frames and play them
         pass
 
     def on_poke(self):
         """
-        Called when user pokes (clicks). Implement a short animation:
-        - small shake: translate widget (handled at PetWindow or via QPropertyAnimation)
-        - or play poke frames
+        被戳一下的反馈（暂时仍使用抖动）
         """
-        # default behavior: small visual shake via geometry change on target's parent
         parent = self.target.parentWidget()
         if not parent:
             return
+
         orig = parent.geometry()
-        offsets = [(4,0),(-4,0),(0,4),(0,-4),(0,0)]
-        # simple non-blocking sequence via singleShot
+        offsets = [(4, 0), (-4, 0), (0, 4), (0, -4), (0, 0)]
+
         delay = 0
         for dx, dy in offsets:
-            QTimer.singleShot(delay, lambda ox=dx, oy=dy, orect=orig: parent.setGeometry(
-                orect.x()+ox, orect.y()+oy, orect.width(), orect.height()))
+            QTimer.singleShot(
+                delay,
+                lambda ox=dx, oy=dy, o=orig: parent.setGeometry(
+                    o.x() + ox, o.y() + oy, o.width(), o.height()
+                )
+            )
             delay += 40
-# 如何接入你的帧资源（后期）
-
-# 放帧序列到 assets/anim/idle/（按文件名排序），并在启动或切换状态时调用 animation.load_frames("assets/anim/idle") 然后 animation.play()。
-
-# 或者用 gif：QMovie 直接赋给 QLabel（可参考官方 QMovie API）。
