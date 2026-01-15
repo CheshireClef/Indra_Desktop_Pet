@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>FGO因陀罗-桌面宠物</title>
+    <style>
+        /* 简单美化，让手册有电子书感 */
+        body { font-family: "微软雅黑", Arial, sans-serif; max-width: 1000px; margin: 0 auto; padding: 20px; line-height: 1.6; }
+        h1 { text-align: center; color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+        h2 { color: #3498db; margin-top: 30px; }
+        h3 { color: #2980b9; }
+        .toc { background: #f8f9fa; padding: 15px; border-radius: 8px; margin-bottom: 30px; }
+        .toc h2 { margin-top: 0; }
+        .toc ul { list-style: none; padding-left: 20px; }
+        .toc li { margin: 8px 0; }
+        .toc a { color: #3498db; text-decoration: none; }
+        .toc a:hover { text-decoration: underline; }
+        .content { padding: 0 10px; }
+        .note { background: #fff3cd; padding: 10px; border-left: 4px solid #ffc107; margin: 15px 0; }
+        .manual-img {
+            display: block;        /* 居中必备 */
+            margin: 20px auto;     /* 上下间距20px，左右自动（居中） */
+            max-width: 90%;        /* 最大宽度为页面的90%，避免溢出 */
+            border: 1px solid #eee;/* 加轻微边框，更清晰 */
+            border-radius: 8px;    /* 圆角，和手册风格统一 */
+        }
+    </style>
+</head>
+<body>
+    <h1>FGO因陀罗-桌面宠物</h1>
+
+    <!-- 目录部分（点击可跳转到对应章节） -->
+    <div class="toc">
+        <h2>📚 目录</h2>
+        <ul>
+            <li><a href="#intro">1. 桌宠介绍</a></li>
+            <li><a href="#install">2. 初始设置</a></li>
+            <li><a href="#use">3. 基本操作方法</a>
+                <ul>
+                    <li><a href="#drag">3.1 拖动桌宠</a></li>
+                    <li><a href="#chat">3.2 与桌宠聊天</a></li>
+                    <li><a href="#screen">3.3 屏幕监视功能</a></li>
+                </ul>
+            </li>
+            <li><a href="#setting">4. 设置项详细说明</a></li>
+            <li><a href="#faq">5. 数据库说明</a></li>
+            <li><a href="#faq">6. 常见问题</a></li>
+            <li><a href="#thanks">7. 致谢</a></li>
+        </ul>
+    </div>
+
+    <!-- 正文部分 -->
+    <div class="content">
+        <h2 id="intro">1. 软件介绍</h2>
+        <p>这是一款基于游戏《Fate/Grand Order》中Lancer因陀罗制作的同人桌宠。桌宠无盈利，一切版权归于原版权方。</p>
+        <p>除了提交给llm api的数据之外，一切用户数据（聊天记录、屏幕截图等）存储于本地。想要使用对话功能，你需要自备deepseek、chatgpt或者硅基流动等服务商的api url和key。</p>
+        <p>神王大人亲自在电脑桌面上陪伴你，感激吧凡人！</p>
+        <p>桌宠因陀罗大人将会：</p>
+        <ul>
+            <li>威严满满地用像素风显现</li>
+            <li>在对话框里和你聊天</li>
+            <li>观察屏幕，对区区凡人正在做的事情发表评论</li>
+            <li>也许以后会学会更多电子时代的新技能吧？</li>
+        </ul>
+
+        <h2 id="install">2. 安装步骤</h2>
+        <p>步骤1：确保电脑安装 Python 3.1 及以上版本（官网：https://www.python.org/）；</p>
+        <p>步骤2：下载桌宠项目压缩包，解压到任意文件夹；</p>
+        <p>步骤3：打开终端/命令行，进入项目根目录，执行以下命令安装依赖：</p>
+        <p><code>pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple</code></p>
+        <p>步骤4：运行 <code>src/main.py</code> 启动软件。</p>
+
+        <h2 id="use">3. 基本使用</h2>
+        <h3 id="drag">3.1 拖动桌宠</h3>
+        <p>按住鼠标左键拖动桌宠，可自由调整其在屏幕上的位置。</p>
+
+        <h3 id="chat">3.2 与桌宠聊天</h3>
+        <p>双击桌宠，会弹出聊天框，输入文字后发送，桌宠会回复消息。</p>
+
+        <h3 id="screen">3.3 屏幕监视功能</h3>
+        <p>方式1：右键点击托盘图标，选择「屏幕监视：开启/关闭」，实时切换功能；</p>
+        <p>方式2：打开设置界面，勾选「启用屏幕监视」，设置间隔时间后保存；</p>
+        <p>功能说明：开启后，桌宠会按设定间隔截图，自动评论屏幕内容（需配置API密钥）。</p>
+
+        <h2 id="setting">4. 设置说明</h2>
+        <p>右键点击托盘图标，选择「设置」，可调整以下选项：</p>
+        <ul>
+            <li>桌宠缩放：调整立绘大小（0.1-5.0倍）；</li>
+            <li>待机间隔：设置多久无操作后播放待机动画；</li>
+            <li>屏幕监视：开启/关闭定时截图评论，设置间隔时间；</li>
+            <li>气泡时长：设置桌宠头顶临时消息的显示时间。</li>
+        </ul>
+
+        <h2 id="faq">5. 数据库说明</h2>
+
+
+        <h2 id="faq">6. 常见问题</h2>
+        <div class="note">
+            <strong>Q1：启动后看不到桌宠？</strong><br>
+            A1：检查 <code>assets/images/idle</code> 文件夹是否有PNG动画帧；查看终端是否有报错（如路径错误、依赖缺失）。
+        </div>
+        <div class="note">
+            <strong>Q2：屏幕监视功能不生效？</strong><br>
+            A2：确保已配置API密钥（在设置界面填写）；检查网络连接；确认功能已通过托盘或设置开启。
+        </div>
+        <div class="note">
+            <strong>Q3：桌宠大小异常？</strong><br>
+            A3：在设置中调整「桌宠缩放」参数，建议设置为0.8-1.2倍。
+        </div>
+
+        <h2 id="thanks">7. 致谢</h2>
+        <p>感谢@废料漩涡 老师赞助的超可爱神王大人像素立绘</p>
+        <p>感谢豆包和ChatGPT帮我生成这么多代码，还有感谢一下追着AI让它们修bug的我……</p>
+        <p>感谢勤勤恳恳做了读全本摩诃、总结分段、概括剧情、抽取数据库语料这些工作的DeepSeek</p>
+    </div>
+</body>
+</html>
