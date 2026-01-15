@@ -1,7 +1,7 @@
 import os
 from PySide6.QtWidgets import QSystemTrayIcon, QMenu
 from PySide6.QtGui import QIcon, QAction
-
+import webbrowser  # 新增：导入浏览器模块
 
 class AppTray:
     """
@@ -124,6 +124,30 @@ class AppTray:
 
         menu.addSeparator()
 
+         # ========== 新增：打开使用说明 ==========
+        menu.addSeparator()
+        manual_action = QAction("打开使用说明", menu)
+
+        def open_user_manual():
+            try:
+                # 1. 获取当前tray.py的绝对路径（src/gui/tray.py）
+                current_file = os.path.abspath(__file__)
+                # 2. 向上回溯3级目录：src/gui/tray.py → src/gui → src → 根目录
+                root_dir = os.path.dirname(os.path.dirname(os.path.dirname(current_file)))
+                # 3. 拼接根目录下的「用户手册.html」路径
+                manual_path = os.path.join(root_dir, "用户手册.html")
+                # 4. 转换为浏览器可识别的file协议路径（兼容Windows/macOS/Linux）
+                manual_url = f"file:///{os.path.normpath(manual_path)}"
+                # 5. 打开手册
+                webbrowser.open(manual_url)
+            except Exception as e:
+                print("[Tray] open_user_manual error:", e)
+
+        manual_action.triggered.connect(open_user_manual)
+        menu.addAction(manual_action)
+        menu._actions_refs["user_manual"] = manual_action
+        # ========== 新增结束 ==========
+        menu.addSeparator()
         # ---- 退出 ----
         quit_action = QAction("退出", menu)
 
