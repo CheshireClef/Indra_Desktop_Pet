@@ -121,7 +121,11 @@
             height: 18px;
             margin-right: 10px;
             accent-color: #3498db; /* 复选框勾选后的颜色 */
-            cursor: pointer;
+            cursor: not-allowed; /* 鼠标移上去显示“禁止”图标，提示不可点击 */
+        }
+        /* 禁用复选框的样式优化（可选，提升视觉体验） */
+        .todo-list input[type="checkbox"]:disabled {
+            opacity: 1; /* 取消默认禁用的灰色半透明，保持正常颜色 */
         }
 
         /* 勾选后文字变灰加删除线 */
@@ -260,23 +264,23 @@
         <h2 id="plan">8. 未来更新计划</h2>
         <ul class="todo-list">
             <li>
-                <input type="checkbox" id="todo1">
+                <input type="checkbox" id="todo1" disabled>
                 <span for="todo1">增加戳一戳动画？</span>
             </li>
             <li>
-                <input type="checkbox" id="todo2">
+                <input type="checkbox" id="todo2" disabled>
                 <span for="todo2">让因陀罗根据回复语气在立绘上弹出一个emoji，或者切换表情？</span>
             </li>
             <li>
-                <input type="checkbox" id="todo3">
+                <input type="checkbox" id="todo3" disabled>
                 <span for="todo3">也许添加打瞌睡动画？</span>
             </li>
             <li>
-                <input type="checkbox" id="todo4">
+                <input type="checkbox" id="todo4" disabled>
                 <span for="todo4">也许添加长时间闲置之后在桌面漫游的功能？</span>
             </li>
             <li>
-                <input type="checkbox" id="todo5">
+                <input type="checkbox" id="todo5" disabled>
                 <span for="todo5">也许让因陀罗桌宠拥有一些长期的聊天记忆？（很怕ai钻牛角尖= =）</span>
             </li>
         </ul>
