@@ -35,6 +35,10 @@
         <ul>
             <li><a href="#intro">1. 桌宠介绍</a></li>
             <li><a href="#install">2. 初始设置</a></li>
+                <ul>
+                    <li><a href="#visionintro">2.1 原理说明</a></li>
+                    <li><a href="#apisettings">2.2 api设置</a></li>
+                </ul>
             <li><a href="#use">3. 基本操作方法</a>
                 <ul>
                     <li><a href="#drag">3.1 拖动桌宠</a></li>
@@ -53,19 +57,26 @@
     <div class="content">
         <h2 id="intro">1. 软件介绍</h2>
         <p>这是一款基于游戏《Fate/Grand Order》中Lancer因陀罗制作的同人桌宠。桌宠无盈利，一切版权归于原版权方。</p>
-        <p>除了提交给llm api的数据之外，一切用户数据（聊天记录、屏幕截图等）存储于本地。想要使用对话功能，你需要自备deepseek、chatgpt或者硅基流动等服务商的api url和key。</p>
+        <p>除了提交给llm api的数据之外，一切用户数据（聊天记录、屏幕截图等）存储于本地。想要使用对话功能，你需要自备<a href="https://platform.deepseek.com/" target="_blank">deepseek</a>、chatgpt或者<a href="https://cloud.siliconflow.cn/" target="_blank">硅基流动</a>等服务商的api url和key。</p>
         <p>神王大人亲自在电脑桌面上陪伴你，感激吧凡人！</p>
+        <img 
+            src="manual_images\idle-02.png"
+            width="20%"
+        >
         <p>桌宠因陀罗大人将会：</p>
         <ul>
             <li>威严满满地用像素风显现</li>
             <li>在对话框里和你聊天</li>
             <li>观察屏幕，对区区凡人正在做的事情发表评论</li>
-            <li>也许以后会学会更多电子时代的新技能吧？</li>
+            <li>也许以后会掌握更多电子时代的新技能吧？</li>
         </ul>
+        <p>立绘@废料漩涡 程序@柴犬面包</p>
 
-        <h2 id="install">2. 安装步骤</h2>
-        <p>步骤1：确保电脑安装 Python 3.1 及以上版本（官网：https://www.python.org/）；</p>
-        <p>步骤2：下载桌宠项目压缩包，解压到任意文件夹；</p>
+        <h2 id="install">2. 初始设置</h2>
+        <h3 id="visionintro">2.1 原理说明</h3>
+        <p>桌宠的屏幕监视和评论功能基于定时截图和图像识别技术实现。实际我将这个功能拆分成了两块，分别由两个llm处理：</p>
+        <p>首先是图像识别，桌宠在截图之后将会传给第一个模型api，用于生成图像描述。</p>
+        <p>目前我使用的识图模型是SiliconFlow的Qwen/Qwen3-VL-32B-Instruct，主要是它好用的同时注册送14块钱的免费额度啊（</p>
         <p>步骤3：打开终端/命令行，进入项目根目录，执行以下命令安装依赖：</p>
         <p><code>pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple</code></p>
         <p>步骤4：运行 <code>src/main.py</code> 启动软件。</p>
