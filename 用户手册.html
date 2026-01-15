@@ -5,7 +5,15 @@
     <title>FGO因陀罗-桌面宠物</title>
     <style>
         /* 简单美化，让手册有电子书感 */
-        body { font-family: "微软雅黑", Arial, sans-serif; max-width: 1000px; margin: 0 auto; padding: 20px; line-height: 1.6; }
+        body { 
+            font-family: "微软雅黑", Arial, sans-serif; 
+            max-width: 1000px; 
+            margin: 0 auto; 
+            padding: 20px; 
+            line-height: 1.6; 
+            /* 防止页面整体被侧边栏挤压 */
+            box-sizing: border-box;
+        }
         h1 { text-align: center; color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
         h2 { color: #3498db; margin-top: 30px; }
         h3 { color: #2980b9; }
@@ -15,7 +23,16 @@
         .toc li { margin: 8px 0; }
         .toc a { color: #3498db; text-decoration: none; }
         .toc a:hover { text-decoration: underline; }
-        .content { padding: 0 10px; }
+        .content { 
+            padding: 0 10px; 
+            /* 关键：给正文留侧边栏宽度+额外间距，避免遮挡 */
+            margin-left: 290px; 
+            /* 适配小屏幕：窗口变窄时自动取消边距 */
+            @media (max-width: 900px) {
+                margin-left: 0;
+                padding-top: 20px;
+            }
+        }
         .note { background: #fff3cd; padding: 10px; border-left: 4px solid #ffc107; margin: 15px 0; }
         .manual-img {
             display: block;        /* 居中必备 */
@@ -24,32 +41,122 @@
             border: 1px solid #eee;/* 加轻微边框，更清晰 */
             border-radius: 8px;    /* 圆角，和手册风格统一 */
         }
+        /* ========== 1. 侧边导航栏样式 ========== */
+        .sidebar {
+            /* 固定在左侧，不随滚动移动 */
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 260px;          /* 侧边栏固定宽度 */
+            height: 100vh;
+            background: #f8f9fa;
+            padding: 20px 15px;
+            border-right: 1px solid #eee;
+            /* 滚动：如果目录太长，侧边栏可滚动 */
+            overflow-y: auto;
+            /* 优化：添加z-index确保侧边栏在最上层，但不影响正文 */
+            z-index: 10;
+            /* 适配小屏幕：窗口变窄时隐藏侧边栏 */
+            @media (max-width: 900px) {
+                display: none;
+            }
+        }
+
+        .sidebar h2 {
+            color: #3498db;
+            font-size: 18px;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e8f4f8;
+        }
+
+        .sidebar-nav {
+            list-style: none;
+            padding-left: 0; /* 修复原代码缩进问题 */
+        }
+
+        .sidebar-nav li {
+            margin: 8px 0;
+        }
+
+        .sidebar-nav a {
+            color: #2c3e50;
+            text-decoration: none;
+            font-size: 14px;
+            display: block;
+            padding: 6px 8px;
+            border-radius: 4px;
+            transition: background 0.2s ease;
+        }
+
+        .sidebar-nav a:hover {
+            background: #e8f4f8;
+            color: #3498db;
+        }
+        /* 二级目录缩进 */
+        .sidebar-nav .sub-nav {
+            list-style: none;
+            padding-left: 15px;
+            margin-top: 5px;
+        }
+
+        /* ========== 2. 待办列表样式 ========== */
+        .todo-list {
+            list-style: none;
+            margin: 20px 0;
+            padding: 15px;
+            background: #f0f8fc;
+            border-radius: 8px;
+        }
+
+        .todo-list li {
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+            font-size: 15px;
+        }
+        /* 美化复选框 */
+        .todo-list input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+            margin-right: 10px;
+            accent-color: #3498db; /* 复选框勾选后的颜色 */
+            cursor: pointer;
+        }
+
+        /* 勾选后文字变灰加删除线 */
+        .todo-list input[type="checkbox"]:checked + span {
+            color: #999;
+            text-decoration: line-through;
+        }
     </style>
 </head>
 <body>
     <h1>FGO因陀罗-桌面宠物</h1>
 
-    <!-- 目录部分（点击可跳转到对应章节） -->
-    <div class="toc">
+    <!-- ========== 侧边导航栏 ========== -->
+    <div class="sidebar">
         <h2>📚 目录</h2>
-        <ul>
+        <ul class="sidebar-nav">
             <li><a href="#intro">1. 桌宠介绍</a></li>
-            <li><a href="#install">2. 初始设置</a></li>
-                <ul>
+            <li><a href="#install">2. 初始设置</a>
+                <ul class="sub-nav">
                     <li><a href="#visionintro">2.1 原理说明</a></li>
                     <li><a href="#apisettings">2.2 api设置</a></li>
                 </ul>
+            </li>
             <li><a href="#use">3. 基本操作方法</a>
-                <ul>
+                <ul class="sub-nav">
                     <li><a href="#drag">3.1 拖动桌宠</a></li>
                     <li><a href="#chat">3.2 与桌宠聊天</a></li>
                     <li><a href="#screen">3.3 屏幕监视功能</a></li>
                 </ul>
             </li>
             <li><a href="#setting">4. 设置项详细说明</a></li>
-            <li><a href="#faq">5. 数据库说明</a></li>
+            <li><a href="#database">5. 数据库说明</a></li>
             <li><a href="#faq">6. 常见问题</a></li>
             <li><a href="#thanks">7. 致谢</a></li>
+            <li><a href="#plan">8. 未来更新计划</a></li>
         </ul>
     </div>
 
@@ -77,18 +184,29 @@
         <p>桌宠的屏幕监视和评论功能基于定时截图和图像识别技术实现。实际我将这个功能拆分成了两块，分别由两个llm处理：</p>
         <p>首先是图像识别，桌宠在截图之后将会传给第一个模型api，用于生成图像描述。</p>
         <p>目前我使用的识图模型是SiliconFlow的Qwen/Qwen3-VL-32B-Instruct，主要是它好用的同时注册送14块钱的免费额度啊（</p>
+        <p>当然，生成图像描述的模型使用deepseek或者chatgpt什么的应该也行得通，你可以在设置界面里自由更换。</p>
         <div class="note" style="background: #e8f4f8; border-left: 4px solid #3498db; border-radius: 8px; padding: 15px;">
             如果你要去注册硅基流动的话，可以用一下我的邀请链接吗？🙏开发因陀罗桌宠使我的api额度像干冰般蒸发（<br>
             邀请链接：https://cloud.siliconflow.cn/i/nkM72iXr <br>
             邀请码：nkM72iXr
         </div>
-        <p>当然，生成图像描述的模型使用deepseek或者chatgpt什么的应该也行得通，你可以在设置界面里自由更换。</p>
         <p>接下来是评论生成，程序会将图像描述等信息传给第二个模型api，用于生成对当前屏幕内容的评论。所以设置里会有两个填模型api的选项。两个选项填一样的也可以哦。</p>
         <h3 id="apisettings">2.2 api设置</h3>
-        <p>步骤1：注册并获取两个llm api的url和key（见上文原理说明，如果搞不懂怎么获取api的话你可以抓个ai来咨询一下）。</p>
-        <p>步骤2：打开 <code>src/settings.json</code> 文件，找到 <code>"vision_model_api"</code> 和 <code>"comment_model_api"</code> 两个字段，分别填入对应的api url和key。</p>
-        <p><code>pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple</code></p>
-        <p>步骤4：运行 <code>src/main.py</code> 启动软件。</p>
+        <p>步骤1：注册并获取两个llm api的url和key（见上文原理说明，如果搞不懂怎么获取api的话你可以抓个ai来咨询一下）；</p>
+        <p>步骤2：启动桌宠，在立绘上右键打开菜单，</p>
+        <img
+            src="manual_images\右键菜单.png"
+            width="50%"
+            class="manual-img"
+        >
+        <p>打开设置界面，切到“模型设置”选项卡；</p>
+        <img
+            src="manual_images\LLM设置页.png"
+            width="75%"
+            class="manual-img"
+        >
+        <p>步骤3：在设置界面中填写两个模型api的url和key并保存；</p>
+        <p>步骤4：双击立绘打开对话框，和因陀罗大人聊两句吧！</p>
 
         <h2 id="use">3. 基本使用</h2>
         <h3 id="drag">3.1 拖动桌宠</h3>
@@ -104,15 +222,25 @@
 
         <h2 id="setting">4. 设置说明</h2>
         <p>右键点击托盘图标，选择「设置」，可调整以下选项：</p>
+        <img
+            src="manual_images\基础设置.png"
+            class="manual-img"
+        >
         <ul>
-            <li>桌宠缩放：调整立绘大小（0.1-5.0倍）；</li>
-            <li>待机间隔：设置多久无操作后播放待机动画；</li>
-            <li>屏幕监视：开启/关闭定时截图评论，设置间隔时间；</li>
-            <li>气泡时长：设置桌宠头顶临时消息的显示时间。</li>
+            <li>显示缩放：调整立绘大小（0.1-5.0倍）；</li>
+            <li>空闲后主动行为触发间隔：设置多久无操作后播放待机动画（这个功能还没做）；</li>
+            <li>屏幕监视：开启/关闭定时截图评论功能；</li>
+            <li>屏幕监视间隔：因陀罗桌宠评论屏幕内容的间隔时长；</li>
+            <li>临时聊天气泡显示时长：设置桌宠头顶临时消息的显示时间；</li>
+            <li>桌宠称呼用户为：你希望因陀罗桌宠怎么称呼你？</li>
         </ul>
 
-        <h2 id="faq">5. 数据库说明</h2>
-
+        <h2 id="database">5. 数据库说明</h2>
+        <p>我使用了LlamaIndex来管理数据库，因为语料有日文有中文，所以使用了支持多语言的multilingual-e5-small模型来处理语料，模型已经保存在本地<code>multilingual-e5-small</code> 目录下。</code></p>
+        <p><code>src\llm\persona.txt</code>是因陀罗的基础人设和一部分对话prompt。</p>
+        <p><code>src\llm\knowledge\style</code>下存放了数据库使用的语料，里面主要是一些角色语音。每次角色说话时，数据库从语料中随机抽取几条用于随机化回复风格。</p>
+        <p><code>src\llm\knowledge\lore</code>下存放了数据库使用的剧情资料，主要包含FGO和摩诃婆罗多的一部分相关剧情梗概。由于数据库薛定谔的关键词匹配命中率，很多剧情资料采用了原文+AI总结主要情节的形式存放。</p>
+        <p>用户可以自行向资料库里添加更多资料，程序会在启动时自动更新数据库。</p>
 
         <h2 id="faq">6. 常见问题</h2>
         <div class="note">
@@ -123,15 +251,36 @@
             <strong>Q2：屏幕监视功能有时候没反应？</strong><br>
             A2：取决于网络状况和模型api的响应速度，截图之后需要一些时间才能生成评论，有时候还会碰到模型api403错误。你可以尝试检查网络状况，或者换一个响应速度更快的模型api。
         </div>
-        <div class="note">
-            <strong>Q3：桌宠大小异常？</strong><br>
-            A3：在设置中调整「桌宠缩放」参数，建议设置为0.8-1.2倍。
-        </div>
 
         <h2 id="thanks">7. 致谢</h2>
         <p>感谢@废料漩涡 老师赞助的超可爱神王大人像素立绘</p>
         <p>感谢豆包和ChatGPT帮我生成这么多代码，还有感谢一下追着AI让它们修bug的我……</p>
         <p>感谢勤勤恳恳做了读全本摩诃、总结分段、概括剧情、抽取数据库语料这些工作的DeepSeek</p>
+
+        <h2 id="plan">8. 未来更新计划</h2>
+        <ul class="todo-list">
+            <li>
+                <input type="checkbox" id="todo1">
+                <span for="todo1">增加戳一戳动画？</span>
+            </li>
+            <li>
+                <input type="checkbox" id="todo2">
+                <span for="todo2">让因陀罗根据回复语气在立绘上弹出一个emoji，或者切换表情？</span>
+            </li>
+            <li>
+                <input type="checkbox" id="todo3">
+                <span for="todo3">也许添加打瞌睡动画？</span>
+            </li>
+            <li>
+                <input type="checkbox" id="todo4">
+                <span for="todo4">也许添加长时间闲置之后在桌面漫游的功能？</span>
+            </li>
+            <li>
+                <input type="checkbox" id="todo5">
+                <span for="todo5">也许让因陀罗桌宠拥有一些长期的聊天记忆？（很怕ai钻牛角尖= =）</span>
+            </li>
+        </ul>
+
     </div>
 </body>
 </html>
