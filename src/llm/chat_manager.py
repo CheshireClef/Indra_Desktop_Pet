@@ -53,9 +53,26 @@ class ChatManager:
     def _init_indices_async(self):
         """异步初始化索引，适配中日双语Embedding（兼容旧版本依赖）"""
         # multilingual-e5-small 原生支持中日双语，移除不兼容的encode_kwargs参数
+        # ============== 第一处修改：添加禁用联网的环境变量 ==============
+        # 关键：禁用 Hugging Face 联网检查（必须在加载模型前设置）
+        os.environ["TRANSFORMERS_OFFLINE"] = "1"
+        os.environ["HF_HUB_OFFLINE"] = "1"
+        # ============== 第二处修改：适配本地模型路径（兼容开发/打包环境） ==============
+        # 新增：适配打包后的路径（pyinstaller 打包后能找到模型）
+        import sys
+        if getattr(sys, 'frozen', False):
+            # 打包后的环境（exe），读取临时目录
+            base_path = sys._MEIPASS
+        else:
+            # 开发环境，读取当前文件所在目录
+            current_file = os.path.abspath(__file__)
+            base_path = os.path.dirname(os.path.dirname(os.path.dirname(current_file)))
+        # 本地模型路径（替换为你实际下载的模型文件夹路径）
+        default_local_model = os.path.join(base_path, "multilingual-e5-small")
         embed_model = HuggingFaceEmbedding(
             model_name=self.sm.get(
-                "knowledge", "embedding_model", default="intfloat/multilingual-e5-small"
+                "knowledge", "embedding_model",
+                default=default_local_model  # 指向本地模型，而非远程地址
             )
             # 移除encode_kwargs，适配旧版本SentenceTransformer
         )
