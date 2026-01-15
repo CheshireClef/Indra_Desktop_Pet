@@ -18,7 +18,7 @@ def main():
     settings_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "config", "settings.json"))
     sm = SettingsManager(settings_path)
 
-    pet = PetWindow(image_path=resource_path("assets/images/pet.png"), settings_manager=sm)
+    pet = PetWindow(settings_manager=sm)
     pet.show()
 
     menu = AppTray.create_main_menu(app, pet)

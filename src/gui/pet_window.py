@@ -4,7 +4,8 @@ import os
 from PySide6.QtWidgets import QWidget, QLabel, QMenu, QVBoxLayout
 from PySide6.QtGui import QPixmap, QGuiApplication  # ✅ 修正 QGuiApplication 导入
 from PySide6.QtCore import Qt, QPoint, QTimer, Signal, QThread, QPropertyAnimation, QRect
-
+# 新增：导入 BASE_SIZE
+from gui.animation import BASE_SIZE
 # ✅ 全局导入基础模块（避免循环导入的模块用延迟导入）
 from vision.screen_observer import ScreenObserver
 from vision.qwen_vision import QwenVisionClient  # 提前导入，避免方法内重复导入
@@ -119,7 +120,8 @@ class PetWindow(QWidget):
     """Transparent frameless pet window that shows a PNG with alpha and supports drag/poke."""
     toggled_visibility = Signal(bool)
 
-    def __init__(self, image_path: str, settings_manager=None, icon_path: str = None):
+    # 修改：image_path 设为可选参数
+    def __init__(self, settings_manager=None, icon_path: str = None, image_path: str = ""):
         super().__init__(None, Qt.Window)
 
         # ✅ 延迟导入易产生循环依赖的模块（放在 __init__ 开头）
@@ -143,8 +145,8 @@ class PetWindow(QWidget):
         self._SettingsDialog = SettingsDialog
 
         self._setup_window()
-        self._load_image()
-        self._setup_animation()
+        self._setup_animation()  # 优先初始化动画（加载idle帧）
+        self._load_image()       # 再加载初始图（idle第一帧）
         self._setup_chat()
         # ---------- 主动屏幕观察 Timer ----------
         self.screen_watch_timer = QTimer(self)
@@ -242,17 +244,19 @@ class PetWindow(QWidget):
         self._is_hidden = False
 
         self.setContextMenuPolicy(Qt.DefaultContextMenu)
+        self.hide()  # 新增：初始隐藏窗口，等动画加载完成后显示
 
     # ---------------- Image ----------------
     def _load_image(self):
-        if not os.path.exists(self.image_path):
-            pix = QPixmap(200, 300)
-            pix.fill(Qt.transparent)
+        """修改：不再加载pet.png，改为加载idle第一帧或透明图"""
+        # 从动画驱动获取idle第一帧
+        idle_first_frame = self.animation.get_idle_first_frame()
+        if idle_first_frame:
+            pix = idle_first_frame
         else:
-            pix = QPixmap(self.image_path)
-            if pix.isNull():
-                pix = QPixmap(200, 300)
-                pix.fill(Qt.transparent)
+            # 无idle帧时显示透明占位图（尺寸与基准一致）
+            pix = QPixmap(BASE_SIZE, BASE_SIZE)
+            pix.fill(Qt.transparent)
 
         scale = 1.0
         try:
@@ -282,6 +286,11 @@ class PetWindow(QWidget):
     def _setup_animation(self):
         # ✅ 使用实例属性中的 AnimationDriver
         self.animation = self._AnimationDriver(self.label)
+        # 连接信号：idle帧加载完成后显示窗口
+        self.animation.idle_frames_loaded.connect(self.show)
+        # 启动时立即播放idle动画，无需等待idle_timer
+        self.animation.on_idle()
+        # 保留idle_timer，用于后续空闲检测（防止动画中断后恢复）
         self.idle_timer = QTimer(self)
         self.idle_timer.timeout.connect(self._on_idle)
         self.idle_timer.start(7000)
