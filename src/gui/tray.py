@@ -100,8 +100,10 @@ class AppTray:
                     "屏幕监视：开启" if new else "屏幕监视：关闭"
                 )
 
-                if hasattr(pet_window, "on_screen_watch_toggled"):
-                    pet_window.on_screen_watch_toggled(new)
+                # 核心修复：调用PetWindow的方法使配置实时生效
+                # 替代原来不存在的 on_screen_watch_toggled 方法
+                if hasattr(pet_window, "_apply_screen_watch_settings"):
+                    pet_window._apply_screen_watch_settings()
 
             except Exception as e:
                 print("[Tray] toggle_screen_watch error:", e)
