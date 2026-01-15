@@ -77,7 +77,16 @@
         <p>桌宠的屏幕监视和评论功能基于定时截图和图像识别技术实现。实际我将这个功能拆分成了两块，分别由两个llm处理：</p>
         <p>首先是图像识别，桌宠在截图之后将会传给第一个模型api，用于生成图像描述。</p>
         <p>目前我使用的识图模型是SiliconFlow的Qwen/Qwen3-VL-32B-Instruct，主要是它好用的同时注册送14块钱的免费额度啊（</p>
-        <p>步骤3：打开终端/命令行，进入项目根目录，执行以下命令安装依赖：</p>
+        <div class="note" style="background: #e8f4f8; border-left: 4px solid #3498db; border-radius: 8px; padding: 15px;">
+            如果你要去注册硅基流动的话，可以用一下我的邀请链接吗？🙏开发因陀罗桌宠使我的api额度像干冰般蒸发（<br>
+            邀请链接：https://cloud.siliconflow.cn/i/nkM72iXr <br>
+            邀请码：nkM72iXr
+        </div>
+        <p>当然，生成图像描述的模型使用deepseek或者chatgpt什么的应该也行得通，你可以在设置界面里自由更换。</p>
+        <p>接下来是评论生成，程序会将图像描述等信息传给第二个模型api，用于生成对当前屏幕内容的评论。所以设置里会有两个填模型api的选项。两个选项填一样的也可以哦。</p>
+        <h3 id="apisettings">2.2 api设置</h3>
+        <p>步骤1：注册并获取两个llm api的url和key（见上文原理说明，如果搞不懂怎么获取api的话你可以抓个ai来咨询一下）。</p>
+        <p>步骤2：打开 <code>src/settings.json</code> 文件，找到 <code>"vision_model_api"</code> 和 <code>"comment_model_api"</code> 两个字段，分别填入对应的api url和key。</p>
         <p><code>pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple</code></p>
         <p>步骤4：运行 <code>src/main.py</code> 启动软件。</p>
 
@@ -107,12 +116,12 @@
 
         <h2 id="faq">6. 常见问题</h2>
         <div class="note">
-            <strong>Q1：启动后看不到桌宠？</strong><br>
-            A1：检查 <code>assets/images/idle</code> 文件夹是否有PNG动画帧；查看终端是否有报错（如路径错误、依赖缺失）。
+            <strong>Q1：桌宠因陀罗的立绘突然消失了？</strong><br>
+            A1：我尽量修了这个bug，但至今为止也没太搞懂这个bug的原因，好在还是很好解决的！从系统托盘图标里开右键菜单，点「显示桌宠」就能让它重新出现啦！如果还是不行，先点「隐藏桌宠」再点「显示桌宠」试试。
         </div>
         <div class="note">
-            <strong>Q2：屏幕监视功能不生效？</strong><br>
-            A2：确保已配置API密钥（在设置界面填写）；检查网络连接；确认功能已通过托盘或设置开启。
+            <strong>Q2：屏幕监视功能有时候没反应？</strong><br>
+            A2：取决于网络状况和模型api的响应速度，截图之后需要一些时间才能生成评论，有时候还会碰到模型api403错误。你可以尝试检查网络状况，或者换一个响应速度更快的模型api。
         </div>
         <div class="note">
             <strong>Q3：桌宠大小异常？</strong><br>
