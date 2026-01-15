@@ -224,8 +224,12 @@ class PetWindow(QWidget):
         # 避免叠加线程
         if self._observe_worker and self._observe_worker.isRunning():
             return
-
-        self.observe_screen_and_comment()
+        try:
+            self.observe_screen_and_comment()
+        except Exception as e:
+            print(f"[ScreenWatch] 定时截图异常：{e}")
+            # 重置worker，避免后续定时器失效
+            self._observe_worker = None
 
     # ---------------- Window ----------------
     def _setup_window(self):
@@ -364,17 +368,23 @@ class PetWindow(QWidget):
 
     # ---------------- Visibility ----------------
     def hide_window(self):
+        self.setWindowOpacity(1.0)  # 恢复透明度再隐藏，避免下次显示时透明
         self.hide()
         self._is_hidden = True
         self.toggled_visibility.emit(False)
 
     def show_window(self):
         self.show()
+        self.raise_()  # 提升窗口层级，避免被遮挡
+        self.activateWindow()  # 激活窗口
+        self.setWindowOpacity(1.0)  # 强制恢复100%透明度
+        self.label.repaint()  # 强制重绘立绘
         self._is_hidden = False
         self.toggled_visibility.emit(True)
 
     def toggle_visibility(self):
-        if self._is_hidden:
+        # 增加状态校验：如果窗口可见但透明度为0，直接视为“隐藏”状态
+        if self._is_hidden or (self.isVisible() and self.windowOpacity() <= 0.05):
             self.show_window()
         else:
             self.hide_window()
