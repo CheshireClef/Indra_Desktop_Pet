@@ -45,9 +45,11 @@ class TempBubble(QWidget):
         super().__init__(parent)
 
         self.setWindowFlags(
-            Qt.Tool |
             Qt.FramelessWindowHint |
-            Qt.WindowStaysOnTopHint
+            Qt.WindowStaysOnTopHint |
+            Qt.Window |  # 替换 Qt.Tool
+            Qt.WindowDoesNotAcceptFocus |  # 新增：无焦点
+            Qt.BypassWindowManagerHint  # 新增：绕过窗口管理器特殊处理（可选，增强稳定性）
         )
         self.setAttribute(Qt.WA_TransparentForMouseEvents, True)
         self.setAttribute(Qt.WA_ShowWithoutActivating, True)
@@ -113,7 +115,6 @@ class TempBubble(QWidget):
         self.setWindowOpacity(1.0)
         self.show()
         self.raise_()
-        self.activateWindow()
         self._life_timer.start()
 
 
@@ -238,9 +239,12 @@ class PetWindow(QWidget):
         self.setWindowFlags(
             Qt.FramelessWindowHint |
             Qt.WindowStaysOnTopHint |
-            Qt.Tool
+            Qt.Window |  # 替换 Qt.Tool，使用标准顶级窗口
+            Qt.WindowDoesNotAcceptFocus  # 新增：避免窗口获取焦点（保留Qt.Tool的无焦点特性）
         )
         self.setAttribute(Qt.WA_TranslucentBackground, True)
+        # 新增：避免窗口激活时抢占焦点（保留Qt.Tool的轻量特性）
+        self.setAttribute(Qt.WA_ShowWithoutActivating, True)
 
         self.label = QLabel(self)
         self.label.setAttribute(Qt.WA_TranslucentBackground, True)
@@ -378,19 +382,18 @@ class PetWindow(QWidget):
     def show_window(self):
         self.show()
         self.raise_()  # 提升窗口层级，避免被遮挡
-        self.activateWindow()  # 激活窗口
         self.setWindowOpacity(1.0)  # 强制恢复100%透明度
         self.label.repaint()  # 强制重绘立绘
         self._is_hidden = False
         self.toggled_visibility.emit(True)
 
     def toggle_visibility(self):
-        # 增加状态校验：如果窗口可见但透明度为0，直接视为“隐藏”状态
-        if self._is_hidden or (self.isVisible() and self.windowOpacity() <= 0.05):
+        # 优化：新增窗口是否真的在屏幕上的校验（针对新窗口标志）
+        is_window_visible = self.isVisible() and self.isWindow() and not self.isMinimized()
+        if self._is_hidden or not is_window_visible or (self.isVisible() and self.windowOpacity() <= 0.05):
             self.show_window()
         else:
             self.hide_window()
-
     # ---------------- Settings ----------------
     def open_settings_window(self):
         if not self.settings:
