@@ -14,6 +14,7 @@ from utils import resource_path
 
 class ScreenObserveWorker(QThread):
     finished = Signal(str)
+    error = Signal(str)     # 新增：错误信息信号
 
     def __init__(self, observer, vision_client, chat_manager):
         super().__init__()
@@ -23,13 +24,25 @@ class ScreenObserveWorker(QThread):
 
     def run(self):
         try:
+            # 步骤1：截图（新增有效性校验）
             screenshot_path = self.observer.observe_once()
+            if not screenshot_path or not screenshot_path.exists():
+                raise Exception("截图失败：未生成有效截图文件")
+            # 步骤2：调用Qwen视觉模型（新增空值校验）
             description = self.vision_client.describe_image(screenshot_path)
+            if not description.strip():
+                raise Exception("视觉模型返回空的屏幕描述")
+            # 步骤3：生成屏幕评论（新增空值校验）
             reply = self.chat_manager.send_screen_observation(description)
-            if reply:
-                self.finished.emit(reply)
+            if not reply.strip():
+                raise Exception("未生成有效的屏幕评论")
+            # 正常流程：发送评论
+            self.finished.emit(reply)
         except Exception as e:
-            print("[ScreenObserveWorker] error:", e)
+            error_msg = f"屏幕观察出错：{str(e)}"
+            print(f"[ScreenObserveWorker] {error_msg}")
+            # 异常流程：发送错误信息
+            self.error.emit(error_msg)
 
 
 class TempBubble(QWidget):
@@ -45,9 +58,11 @@ class TempBubble(QWidget):
         super().__init__(parent)
 
         self.setWindowFlags(
-            Qt.Tool |
             Qt.FramelessWindowHint |
-            Qt.WindowStaysOnTopHint
+            Qt.WindowStaysOnTopHint |
+            Qt.Window |  # 替换 Qt.Tool
+            Qt.WindowDoesNotAcceptFocus |  # 新增：无焦点
+            Qt.BypassWindowManagerHint  # 新增：绕过窗口管理器特殊处理（可选，增强稳定性）
         )
         self.setAttribute(Qt.WA_TransparentForMouseEvents, True)
         self.setAttribute(Qt.WA_ShowWithoutActivating, True)
@@ -113,7 +128,6 @@ class TempBubble(QWidget):
         self.setWindowOpacity(1.0)
         self.show()
         self.raise_()
-        self.activateWindow()
         self._life_timer.start()
 
 
@@ -229,7 +243,9 @@ class PetWindow(QWidget):
         try:
             self.observe_screen_and_comment()
         except Exception as e:
-            print(f"[ScreenWatch] 定时截图异常：{e}")
+            error_msg = f"定时屏幕观察出错：{str(e)}"
+            print(f"[ScreenWatch] {error_msg}")
+            self._show_temp_bubble(error_msg)  # 新增：显示错误气泡
             # 重置worker，避免后续定时器失效
             self._observe_worker = None
 
@@ -238,9 +254,12 @@ class PetWindow(QWidget):
         self.setWindowFlags(
             Qt.FramelessWindowHint |
             Qt.WindowStaysOnTopHint |
-            Qt.Tool
+            Qt.Window |  # 替换 Qt.Tool，使用标准顶级窗口
+            Qt.WindowDoesNotAcceptFocus  # 新增：避免窗口获取焦点（保留Qt.Tool的无焦点特性）
         )
         self.setAttribute(Qt.WA_TranslucentBackground, True)
+        # 新增：避免窗口激活时抢占焦点（保留Qt.Tool的轻量特性）
+        self.setAttribute(Qt.WA_ShowWithoutActivating, True)
 
         self.label = QLabel(self)
         self.label.setAttribute(Qt.WA_TranslucentBackground, True)
@@ -378,19 +397,18 @@ class PetWindow(QWidget):
     def show_window(self):
         self.show()
         self.raise_()  # 提升窗口层级，避免被遮挡
-        self.activateWindow()  # 激活窗口
         self.setWindowOpacity(1.0)  # 强制恢复100%透明度
         self.label.repaint()  # 强制重绘立绘
         self._is_hidden = False
         self.toggled_visibility.emit(True)
 
     def toggle_visibility(self):
-        # 增加状态校验：如果窗口可见但透明度为0，直接视为“隐藏”状态
-        if self._is_hidden or (self.isVisible() and self.windowOpacity() <= 0.05):
+        # 优化：新增窗口是否真的在屏幕上的校验（针对新窗口标志）
+        is_window_visible = self.isVisible() and self.isWindow() and not self.isMinimized()
+        if self._is_hidden or not is_window_visible or (self.isVisible() and self.windowOpacity() <= 0.05):
             self.show_window()
         else:
             self.hide_window()
-
     # ---------------- Settings ----------------
     def open_settings_window(self):
         if not self.settings:
@@ -411,9 +429,17 @@ class PetWindow(QWidget):
     def observe_screen_and_comment(self):
         self._ensure_vision_client()
         if not self.vision_client:
+            # 新增：API密钥未配置的错误提示
+            error_msg = "屏幕观察功能未启用：未配置有效的视觉模型API密钥"
+            print(f"[Vision] {error_msg}")
+            self._show_temp_bubble(error_msg)  # 仅显示临时气泡
             return
 
         if self._observe_worker and self._observe_worker.isRunning():
+            # 新增：重复执行的错误提示
+            error_msg = "屏幕观察正在进行中，请稍候"
+            print(f"[ScreenWatch] {error_msg}")
+            self._show_temp_bubble(error_msg)  # 仅显示临时气泡
             return
 
         self._observe_worker = ScreenObserveWorker(
@@ -428,12 +454,23 @@ class PetWindow(QWidget):
 
             # 2️⃣ 显示头顶临时气泡
             self._show_temp_bubble(text)
+            self._observe_worker = None  # 重置worker
+
+        # 新增：错误回调：仅显示临时气泡（不写入聊天记录）
+        def on_screen_observe_error(error_text: str):
+            self._show_temp_bubble(error_text)
+            self._observe_worker = None  # 重置worker
 
         self._observe_worker.finished.connect(on_screen_observed)
+        self._observe_worker.error.connect(on_screen_observe_error)  # 绑定错误回调
         self._observe_worker.start()
 
     # ---------------- 临时气泡 ----------------
     def _show_temp_bubble(self, text: str):
+        # 新增：错误信息标红
+        if text.startswith("屏幕观察出错：") or text.startswith("定时屏幕观察出错：") or text.startswith("屏幕观察功能未启用："):
+            text = f"<font color='#ff4444'>{text}</font>"
+            
         pet_geo = self.geometry()
         pet_width = pet_geo.width()
 
