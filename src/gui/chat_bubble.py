@@ -5,7 +5,7 @@ from PySide6.QtCore import (
     Qt, Signal, QTimer, QPropertyAnimation, QEvent, QRect
 )
 from PySide6.QtGui import QGuiApplication
-
+from utils import resource_path
 
 class ChatBubble(QWidget):
     """

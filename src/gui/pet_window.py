@@ -4,10 +4,12 @@ import os
 from PySide6.QtWidgets import QWidget, QLabel, QMenu, QVBoxLayout
 from PySide6.QtGui import QPixmap, QGuiApplication  # ✅ 修正 QGuiApplication 导入
 from PySide6.QtCore import Qt, QPoint, QTimer, Signal, QThread, QPropertyAnimation, QRect
-
+# 新增：导入 BASE_SIZE
+from gui.animation import BASE_SIZE
 # ✅ 全局导入基础模块（避免循环导入的模块用延迟导入）
 from vision.screen_observer import ScreenObserver
 from vision.qwen_vision import QwenVisionClient  # 提前导入，避免方法内重复导入
+from utils import resource_path
 
 
 class ScreenObserveWorker(QThread):
@@ -119,7 +121,8 @@ class PetWindow(QWidget):
     """Transparent frameless pet window that shows a PNG with alpha and supports drag/poke."""
     toggled_visibility = Signal(bool)
 
-    def __init__(self, image_path: str, settings_manager=None, icon_path: str = None):
+    # 修改：image_path 设为可选参数
+    def __init__(self, settings_manager=None, icon_path: str = None, image_path: str = ""):
         super().__init__(None, Qt.Window)
 
         # ✅ 延迟导入易产生循环依赖的模块（放在 __init__ 开头）
@@ -128,8 +131,9 @@ class PetWindow(QWidget):
         from .settings_dialog import SettingsDialog  # 相对导入
         from llm.chat_manager import ChatManager     # 绝对导入
 
-        self.image_path = image_path
-        self.icon_path = icon_path
+        # 核心修改：用 resource_path 处理传入的路径
+        self.image_path = resource_path(image_path) if image_path else ""
+        self.icon_path = resource_path(icon_path) if icon_path else ""
         self.settings = settings_manager
         self._context_menu: QMenu | None = None
 
@@ -143,8 +147,8 @@ class PetWindow(QWidget):
         self._SettingsDialog = SettingsDialog
 
         self._setup_window()
-        self._load_image()
-        self._setup_animation()
+        self._setup_animation()  # 优先初始化动画（加载idle帧）
+        self._load_image()       # 再加载初始图（idle第一帧）
         self._setup_chat()
         # ---------- 主动屏幕观察 Timer ----------
         self.screen_watch_timer = QTimer(self)
@@ -222,8 +226,12 @@ class PetWindow(QWidget):
         # 避免叠加线程
         if self._observe_worker and self._observe_worker.isRunning():
             return
-
-        self.observe_screen_and_comment()
+        try:
+            self.observe_screen_and_comment()
+        except Exception as e:
+            print(f"[ScreenWatch] 定时截图异常：{e}")
+            # 重置worker，避免后续定时器失效
+            self._observe_worker = None
 
     # ---------------- Window ----------------
     def _setup_window(self):
@@ -242,17 +250,19 @@ class PetWindow(QWidget):
         self._is_hidden = False
 
         self.setContextMenuPolicy(Qt.DefaultContextMenu)
+        self.hide()  # 新增：初始隐藏窗口，等动画加载完成后显示
 
     # ---------------- Image ----------------
     def _load_image(self):
-        if not os.path.exists(self.image_path):
-            pix = QPixmap(200, 300)
-            pix.fill(Qt.transparent)
+        """修改：不再加载pet.png，改为加载idle第一帧或透明图"""
+        # 从动画驱动获取idle第一帧
+        idle_first_frame = self.animation.get_idle_first_frame()
+        if idle_first_frame:
+            pix = idle_first_frame
         else:
-            pix = QPixmap(self.image_path)
-            if pix.isNull():
-                pix = QPixmap(200, 300)
-                pix.fill(Qt.transparent)
+            # 无idle帧时显示透明占位图（尺寸与基准一致）
+            pix = QPixmap(BASE_SIZE, BASE_SIZE)
+            pix.fill(Qt.transparent)
 
         scale = 1.0
         try:
@@ -282,13 +292,18 @@ class PetWindow(QWidget):
     def _setup_animation(self):
         # ✅ 使用实例属性中的 AnimationDriver
         self.animation = self._AnimationDriver(self.label)
+        # 连接信号：idle帧加载完成后显示窗口
+        self.animation.idle_frames_loaded.connect(self.show)
+        # 启动时立即播放idle动画，无需等待idle_timer
+        self.animation.on_idle()
+        # 保留idle_timer，用于后续空闲检测（防止动画中断后恢复）
         self.idle_timer = QTimer(self)
         self.idle_timer.timeout.connect(self._on_idle)
         self.idle_timer.start(7000)
 
     # ---------------- Chat ----------------
     def _setup_chat(self):
-        persona_path = os.path.join("src", "llm", "persona.txt")
+        persona_path = resource_path("src/llm/persona.txt")  # 替换原 os.path.join 方式
         # ✅ 使用实例属性中的 ChatManager
         self.chat_manager = self._ChatManager(self.settings, persona_path)
         # ✅ 使用实例属性中的 ChatBubble
@@ -355,17 +370,23 @@ class PetWindow(QWidget):
 
     # ---------------- Visibility ----------------
     def hide_window(self):
+        self.setWindowOpacity(1.0)  # 恢复透明度再隐藏，避免下次显示时透明
         self.hide()
         self._is_hidden = True
         self.toggled_visibility.emit(False)
 
     def show_window(self):
         self.show()
+        self.raise_()  # 提升窗口层级，避免被遮挡
+        self.activateWindow()  # 激活窗口
+        self.setWindowOpacity(1.0)  # 强制恢复100%透明度
+        self.label.repaint()  # 强制重绘立绘
         self._is_hidden = False
         self.toggled_visibility.emit(True)
 
     def toggle_visibility(self):
-        if self._is_hidden:
+        # 增加状态校验：如果窗口可见但透明度为0，直接视为“隐藏”状态
+        if self._is_hidden or (self.isVisible() and self.windowOpacity() <= 0.05):
             self.show_window()
         else:
             self.hide_window()

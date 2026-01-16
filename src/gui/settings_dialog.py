@@ -225,7 +225,15 @@ class SettingsDialog(QDialog):
         self.sm.set("llm", "temperature", value=self.temperature_spinbox.value())
 
         # 保存视觉模型设置
-        self.sm.set("vision", "api_url", value=self.vision_api_url.text())
+        vision_api_url = self.vision_api_url.text().strip().rstrip("/")
+        # 补全 /v1/chat/completions 端点（兼容 openai 格式）
+        if vision_api_url and not vision_api_url.endswith("/v1/chat/completions"):
+            if vision_api_url.endswith("/v1"):
+                vision_api_url = f"{vision_api_url}/chat/completions"
+            else:
+                vision_api_url = f"{vision_api_url}/v1/chat/completions"
+        # 保存处理后的 URL
+        self.sm.set("vision", "api_url", value=vision_api_url)
         self.sm.set("vision", "api_key", value=self.vision_api_key.text())
         self.sm.set("vision", "model", value=self.vision_model.text())
 
