@@ -1,10 +1,9 @@
 import time
 from pathlib import Path
-
 import mss
 from PIL import Image
 from PySide6.QtCore import Qt
-
+from utils import resource_path
 
 class ScreenObserver:
     def __init__(self, pet_window, settings_manager):
@@ -15,8 +14,8 @@ class ScreenObserver:
         self.pet_window = pet_window
         self.sm = settings_manager
 
-        # 截图保存目录
-        self.output_dir = Path("screenshots")
+        # 调整：统一使用resource_path处理截图保存目录
+        self.output_dir = Path(resource_path("screenshots"))
         self.output_dir.mkdir(parents=True, exist_ok=True)
 
     def observe_once(self):

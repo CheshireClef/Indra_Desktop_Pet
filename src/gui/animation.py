@@ -3,7 +3,7 @@ from PySide6.QtCore import QTimer, QObject, Signal  # 新增 Signal 导入
 from PySide6.QtGui import QPixmap
 from PySide6.QtCore import Qt
 import os
-
+from utils import resource_path
 
 BASE_SIZE = 256  # ⭐ 逻辑基准尺寸（与你原来的 pet.png 一致）
 
@@ -58,7 +58,7 @@ class AnimationDriver(QObject):
         - 先缩放到 256x256
         - 再按当前 label 尺寸等比缩放
         """
-        folder = os.path.join("assets", "images", "idle")
+        folder = resource_path("assets/images/idle")
         if not os.path.isdir(folder):
             return
 
@@ -69,7 +69,8 @@ class AnimationDriver(QObject):
 
         frames: list[QPixmap] = []
         for f in files:
-            pix = QPixmap(os.path.join(folder, f))
+            pix_path = resource_path(f"assets/images/idle/{f}")
+            pix = QPixmap(pix_path)
             if pix.isNull():
                 continue
 

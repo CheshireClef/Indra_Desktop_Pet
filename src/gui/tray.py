@@ -2,6 +2,7 @@ import os
 from PySide6.QtWidgets import QSystemTrayIcon, QMenu
 from PySide6.QtGui import QIcon, QAction
 import webbrowser  # 新增：导入浏览器模块
+from utils import resource_path
 
 class AppTray:
     """
@@ -13,8 +14,13 @@ class AppTray:
         self.app = app
         self.window = pet_window
 
-        if icon_path and os.path.exists(icon_path):
-            icon = QIcon(icon_path)
+        # 核心修改：托盘图标路径改用 resource_path 处理
+        if icon_path:
+            icon_abs_path = resource_path(icon_path)  # 路径适配
+            if os.path.exists(icon_abs_path):
+                icon = QIcon(icon_abs_path)
+            else:
+                icon = app.style().standardIcon(getattr(app.style(), 'SP_ComputerIcon'))
         else:
             icon = app.style().standardIcon(getattr(app.style(), 'SP_ComputerIcon'))
 
@@ -130,15 +136,11 @@ class AppTray:
 
         def open_user_manual():
             try:
-                # 1. 获取当前tray.py的绝对路径（src/gui/tray.py）
-                current_file = os.path.abspath(__file__)
-                # 2. 向上回溯3级目录：src/gui/tray.py → src/gui → src → 根目录
-                root_dir = os.path.dirname(os.path.dirname(os.path.dirname(current_file)))
-                # 3. 拼接根目录下的「用户手册.html」路径
-                manual_path = os.path.join(root_dir, "用户手册.html")
-                # 4. 转换为浏览器可识别的file协议路径（兼容Windows/macOS/Linux）
+                # 核心修改：改用 resource_path 获取用户手册路径
+                manual_path = resource_path("用户手册.html")  # 相对根目录的路径
+                # 转换为浏览器可识别的file协议路径（兼容Windows/macOS/Linux）
                 manual_url = f"file:///{os.path.normpath(manual_path)}"
-                # 5. 打开手册
+                # 打开手册
                 webbrowser.open(manual_url)
             except Exception as e:
                 print("[Tray] open_user_manual error:", e)

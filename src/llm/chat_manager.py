@@ -13,19 +13,19 @@ from llama_index.core import (
 )
 from llama_index.core.node_parser import SentenceSplitter
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
-
+from utils import resource_path
 
 class ChatManager:
     def __init__(self, settings_manager, persona_path: str):
         self.sm = settings_manager
-        self.persona_path = persona_path
+        self.persona_path = resource_path(persona_path)
 
         self.chat_history = []
         self._load_persona()
 
         # ========== 知识库初始化 ==========
-        self.knowledge_dir = Path("src/llm/knowledge")
-        self.knowledge_db_dir = Path("src/llm/knowledge_db")
+        self.knowledge_dir = Path(resource_path("src/llm/knowledge"))
+        self.knowledge_db_dir = Path(resource_path("src/llm/knowledge_db"))
         
         # 初始化索引（异步执行，避免启动卡顿）
         self.lore_index = None
@@ -60,33 +60,30 @@ class ChatManager:
         # ============== 第二处修改：适配本地模型路径（兼容开发/打包环境） ==============
         # 新增：适配打包后的路径（pyinstaller 打包后能找到模型）
         import sys
-        if getattr(sys, 'frozen', False):
-            # 打包后的环境（exe），读取临时目录
-            base_path = sys._MEIPASS
-        else:
-            # 开发环境，读取当前文件所在目录
-            current_file = os.path.abspath(__file__)
-            base_path = os.path.dirname(os.path.dirname(os.path.dirname(current_file)))
-        # 本地模型路径（替换为你实际下载的模型文件夹路径）
-        default_local_model = os.path.join(base_path, "multilingual-e5-small")
+    
+        # 核心简化：直接用 resource_path 获取模型路径，无需区分环境
+        default_local_model = resource_path("multilingual-e5-small")
+    
         embed_model = HuggingFaceEmbedding(
             model_name=self.sm.get(
                 "knowledge", "embedding_model",
-                default=default_local_model  # 指向本地模型，而非远程地址
+                default=default_local_model
             )
-            # 移除encode_kwargs，适配旧版本SentenceTransformer
         )
-
         self.lore_index = self._load_or_build_index(
-            data_dir=Path("src/llm/knowledge/lore"),
-            persist_dir=Path("src/llm/knowledge_db/lore"),
+            # 调整3：处理lore数据目录
+            data_dir=Path(resource_path("src/llm/knowledge/lore")),
+            # 调整4：处理lore索引持久化目录
+            persist_dir=Path(resource_path("src/llm/knowledge_db/lore")),
             embed_model=embed_model,
             name="Lore",
             is_lore=True
         )
         self.style_index = self._load_or_build_index(
-            data_dir=Path("src/llm/knowledge/style"),
-            persist_dir=Path("src/llm/knowledge_db/style"),
+            # 调整5：处理style数据目录
+            data_dir=Path(resource_path("src/llm/knowledge/style")),
+            # 调整6：处理style索引持久化目录
+            persist_dir=Path(resource_path("src/llm/knowledge_db/style")),
             embed_model=embed_model,
             name="Style",
             is_lore=False

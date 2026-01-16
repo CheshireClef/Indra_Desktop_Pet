@@ -9,6 +9,7 @@ from gui.animation import BASE_SIZE
 # ✅ 全局导入基础模块（避免循环导入的模块用延迟导入）
 from vision.screen_observer import ScreenObserver
 from vision.qwen_vision import QwenVisionClient  # 提前导入，避免方法内重复导入
+from utils import resource_path
 
 
 class ScreenObserveWorker(QThread):
@@ -130,8 +131,9 @@ class PetWindow(QWidget):
         from .settings_dialog import SettingsDialog  # 相对导入
         from llm.chat_manager import ChatManager     # 绝对导入
 
-        self.image_path = image_path
-        self.icon_path = icon_path
+        # 核心修改：用 resource_path 处理传入的路径
+        self.image_path = resource_path(image_path) if image_path else ""
+        self.icon_path = resource_path(icon_path) if icon_path else ""
         self.settings = settings_manager
         self._context_menu: QMenu | None = None
 
@@ -301,7 +303,7 @@ class PetWindow(QWidget):
 
     # ---------------- Chat ----------------
     def _setup_chat(self):
-        persona_path = os.path.join("src", "llm", "persona.txt")
+        persona_path = resource_path("src/llm/persona.txt")  # 替换原 os.path.join 方式
         # ✅ 使用实例属性中的 ChatManager
         self.chat_manager = self._ChatManager(self.settings, persona_path)
         # ✅ 使用实例属性中的 ChatBubble

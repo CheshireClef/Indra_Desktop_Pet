@@ -1,7 +1,7 @@
 import base64
 import requests
 from pathlib import Path
-
+from utils import resource_path
 
 class QwenVisionClient:
     def __init__(self, api_url: str, api_key: str, model: str):
@@ -13,7 +13,9 @@ class QwenVisionClient:
         """
         将截图发送给 Qwen 视觉模型，返回文字概括
         """
-        image_b64 = self._encode_image(image_path)
+        # 调整：统一处理图片路径
+        abs_image_path = Path(resource_path(str(image_path)))
+        image_b64 = self._encode_image(abs_image_path)
 
         payload = {
             "model": self.model,

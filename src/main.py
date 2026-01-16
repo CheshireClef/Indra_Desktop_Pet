@@ -6,16 +6,13 @@ from PySide6.QtCore import Qt
 from gui.pet_window import PetWindow
 from gui.tray import AppTray
 from settings_manager import SettingsManager
-
-def resource_path(rel_path: str) -> str:
-    base = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-    return os.path.join(base, rel_path)
+from utils import resource_path
 
 def main():
     app = QApplication(sys.argv)
 
-    # settings
-    settings_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "config", "settings.json"))
+    # 优化点：复用resource_path，统一路径逻辑（功能和原来完全一致）
+    settings_path = resource_path("config/settings.json")
     sm = SettingsManager(settings_path)
 
     pet = PetWindow(settings_manager=sm)
