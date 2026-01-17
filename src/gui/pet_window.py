@@ -46,7 +46,7 @@ class ScreenObserveWorker(QThread):
 
 class TempBubble(QWidget):
     """优化后的临时聊天气泡（修复重绘/内存泄漏）"""
-    def __init__(self, text: str, max_width: int, parent=None):
+    def __init__(self, text: str, target_width: int, target_height: int, parent=None):
         super().__init__(parent)
 
         # 优化窗口标志（跨平台兼容）
@@ -63,7 +63,7 @@ class TempBubble(QWidget):
 
         # 布局与样式
         layout = QVBoxLayout(self)
-        layout.setContentsMargins(10, 8, 10, 8)
+        layout.setContentsMargins(0, 0, 0, 0)
         self.label = QLabel(text)
         self.label.setWordWrap(True)
         self.label.setAlignment(Qt.AlignLeft | Qt.AlignVCenter)
@@ -73,9 +73,11 @@ class TempBubble(QWidget):
             padding: 6px;
             border-radius: 8px;
         """)
-        self.label.setMaximumWidth(max_width)
+        # 锁定文本框核心区域宽高比 1:0.618（扣除布局边距）
+        self.label.setFixedSize(target_width - 20, target_height - 16)
         layout.addWidget(self.label)
-        self.adjustSize()
+        # 气泡整体尺寸（包含边距 + 额外16px）
+        self.setFixedSize(target_width, target_height)
 
         # 淡出动画（优化销毁逻辑）
         self._fade_anim = QPropertyAnimation(self, b"windowOpacity", self)
@@ -458,9 +460,51 @@ class PetWindow(QWidget):
             text = f"<font color='#ff4444'>{text}</font>"
 
         pet_geo = self.geometry()
-        max_width = int(pet_geo.width() * 1.8)
-        bubble = TempBubble(text, max_width, parent=self)
+        # 初始最大宽度（文本框核心区域，未包含边距和额外16px）
+        initial_max_width = int(pet_geo.width() * 1.8)
+        min_width = 80  # 最小宽度限制，防止过窄
+        golden_ratio = 0.618  # 强制锁定宽高比 1:0.618
+        best_width = initial_max_width  # 默认初始最大宽度
+        best_height = best_width * golden_ratio
 
+        # 创建临时QLabel模拟文字排版，计算真实上边距
+        temp_label = QLabel(text)
+        temp_label.setWordWrap(True)
+        temp_label.setAlignment(Qt.AlignLeft | Qt.AlignVCenter)
+        temp_label.setStyleSheet("""
+            background: rgba(40, 40, 40, 210);
+            color: white;
+            padding: 8px;
+            border-radius: 8px;
+        """)
+    
+        # 核心修复：获取QFontMetrics对象（用于计算文本排版尺寸）
+        fm = temp_label.fontMetrics()
+
+        # 从大到小逐步缩小宽度，寻找满足条件的最佳尺寸
+        for width in range(initial_max_width, min_width - 1, -1):
+            height = width * golden_ratio
+            temp_label.setFixedSize(width, height)
+            # 修复：通过QFontMetrics计算文字实际排版的矩形区域
+            text_rect = fm.boundingRect(
+                QRect(0, 0, width, height),  # 文本框尺寸
+                Qt.AlignLeft | Qt.AlignVCenter | Qt.TextWordWrap,  # 对齐+换行规则
+                text  # 要计算的文本
+            )
+            # 计算文字上边距（文字顶部到label顶部的距离）
+            top_margin = text_rect.top()
+            # 满足核心条件：上边距 > 0 且 < 8px
+            if 0 < top_margin < 8:
+                best_width = width
+                best_height = height
+                break  # 找到第一个满足条件的宽度，停止遍历
+
+        # 最终气泡尺寸：最佳宽高 + 16px（满足"宽度额外加16px"要求）
+        final_width = int(best_width + 16)
+        final_height = int(best_height + 16)
+
+        # 创建自定义尺寸的气泡
+        bubble = TempBubble(text, final_width, final_height, parent=self)
         # 读取显示时长
         duration_s = 10
         if self.settings:
