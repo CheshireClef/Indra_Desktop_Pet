@@ -1,3 +1,4 @@
+from ast import pattern
 from pydoc import text
 from pyexpat.errors import messages
 import requests
@@ -15,6 +16,7 @@ from llama_index.core import (
 )
 from llama_index.core.node_parser import SentenceSplitter
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
+from sympy import re
 from utils import resource_path
 
 class ChatManager:
@@ -30,7 +32,7 @@ class ChatManager:
             "\n\n【情绪标签输出要求】"
             "1. 请严格分析回复内容的情绪倾向，哪怕只有轻微的情绪（如一点点开心、轻微疑问），也必须选择对应情绪标签，禁止滥用「平常」；"
             "2. 仅当回复内容完全无任何情绪倾向（纯客观陈述、无主观情感）时，才能选择【平常】；"
-            "3. 标签必须从以下列表中选择：{}，格式为【标签名】，放在回复最后一行，仅含标签无其他内容；"
+            "3. 标签必须从以下列表中选择：{}，格式为【标签名】，必须放在回复最后一行，仅含标签无其他内容；"
             "4. 若回复的内容适合【平常】标签，但包含饮酒的情节，请优先选择【干杯】标签；"
             "5. 标签仅用于后台统计，不要体现在对话内容中。"
         ).format(','.join(self.VALID_EMOTION_TAGS))
@@ -67,25 +69,30 @@ class ChatManager:
             return "", "平常"
         
         # 去除回复末尾的空白字符（避免LLM加换行/空格导致匹配失败）
-        reply_stripped = reply.rstrip()
+        reply_processed = reply.strip()
         
-        # 匹配末尾的【标签】（支持标签前后有少量空格）
+        # 正则匹配：所有位置的【标签】，标签内容在VALID_EMOTION_TAGS中
         import re
-        # 正则匹配：末尾的【任意字符】，且字符在VALID_EMOTION_TAGS中
-        pattern = re.compile(r"\s*【([^】]+)】\s*$")
-        match = pattern.search(reply_stripped)
+        # 构建有效标签的正则匹配组（避免匹配无效标签）
+        valid_tags_pattern = "|".join(re.escape(tag) for tag in self.VALID_EMOTION_TAGS)
+        # 匹配【有效标签】，支持标签前后有空格
+        pattern = re.compile(r"\s*【(" + valid_tags_pattern + r")】\s*")
         
-        if match:
-            tag = match.group(1).strip()
-            # 校验标签合法性，无效则默认「平常」
-            emotion_tag = tag if tag in self.VALID_EMOTION_TAGS else "平常"
-            # 剥离标签后的纯回复内容
-            pure_reply = pattern.sub("", reply_stripped).rstrip()
-        else:
-            # LLM未按格式输出标签 → 默认「平常」，回复内容不变
+        # 提取所有匹配到的有效标签
+        matches = pattern.findall(reply_processed)
+        # 确定最终情绪标签：有匹配则取最后一个，无则默认平常
+        emotion_tag = matches[-1].strip() if matches else "平常"
+    
+        # 剥离所有【标签】格式内容，清理多余空格（多个空格合并为一个）
+        pure_reply = pattern.sub("", reply_processed)
+        # 合并连续空格/换行，保证回复格式整洁
+        pure_reply = re.sub(r"\s+", " ", pure_reply).strip()
+    
+        # 兜底：若剥离后为空，纯回复置空，标签默认平常
+        if not pure_reply:
+            pure_reply = ""
             emotion_tag = "平常"
-            pure_reply = reply_stripped
-        
+    
         return pure_reply, emotion_tag
     
     # ---------- Persona（原有逻辑，无改动） ----------
