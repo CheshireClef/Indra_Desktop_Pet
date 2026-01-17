@@ -2,21 +2,29 @@ import time
 from pathlib import Path
 import mss
 from PIL import Image
-from PySide6.QtCore import Qt
+from PySide6.QtCore import Qt, QObject, Signal, QThread  # 新增依赖
 from utils import resource_path
 
-class ScreenObserver:
+class ScreenObserver(QObject):
+    # 信号：通知主线程隐藏桌宠
+    hide_pet = Signal()
+    # 信号：通知主线程恢复桌宠
+    restore_pet = Signal()
     def __init__(self, pet_window, settings_manager):
         """
         pet_window: PetWindow 实例
         settings_manager: SettingsManager 实例
         """
+        super().__init__()
         self.pet_window = pet_window
         self.sm = settings_manager
 
         # 调整：统一使用resource_path处理截图保存目录
         self.output_dir = Path(resource_path("screenshots"))
         self.output_dir.mkdir(parents=True, exist_ok=True)
+        # 信号绑定主线程槽函数
+        self.hide_pet.connect(self.pet_window._hide_for_screenshot)
+        self.restore_pet.connect(self.pet_window._restore_after_screenshot)
 
     def observe_once(self):
         """
@@ -30,13 +38,9 @@ class ScreenObserver:
         old_mouse_transparent = self.pet_window.testAttribute(Qt.WA_TransparentForMouseEvents)
         
         try:
-            # ===== 1️⃣ 临时隐藏桌宠 =====
-            self.pet_window.setWindowOpacity(0.0)
-            self.pet_window.setAttribute(Qt.WA_TransparentForMouseEvents, True)
-            self.pet_window.repaint()
-
-            # 尽量短，低于这个容易截到桌宠
-            time.sleep(0.02)
+            # 1. 通知主线程隐藏桌宠
+            self.hide_pet.emit()
+            QThread.msleep(20)  # 子线程安全延迟，替代time.sleep
 
             # ===== 2️⃣ 截图 =====
             with mss.mss() as sct:
@@ -53,16 +57,13 @@ class ScreenObserver:
             ts = time.strftime("%Y%m%d_%H%M%S")
             path = self.output_dir / f"screen_{ts}.png"
             img.save(path)
-
             print(f"[ScreenObserver] 截图完成：{path}")
 
             # ===== 5️⃣ 自动清理旧截图 =====
             self._cleanup_old_screenshots()
         finally:
-            # ===== 4️⃣ 恢复桌宠（无论是否异常都执行）=====
-            self.pet_window.setWindowOpacity(old_opacity)
-            self.pet_window.setAttribute(Qt.WA_TransparentForMouseEvents, old_mouse_transparent)
-            self.pet_window.repaint()  # 强制重绘，避免界面卡顿
+            # 5. 通知主线程恢复桌宠（无论是否异常）
+            self.restore_pet.emit()
         return path  # 👈 给 Qwen 用
 
     def _cleanup_old_screenshots(self):
