@@ -3,14 +3,15 @@ import os
 from PySide6.QtWidgets import QWidget, QLabel, QMenu, QVBoxLayout
 from PySide6.QtGui import QPixmap, QGuiApplication
 from PySide6.QtCore import Qt, QPoint, QTimer, Signal, QThread, QPropertyAnimation, QRect
-from gui.animation import BASE_SIZE
+from sklearn.preprocessing import scale
+from gui.animation import BASE_SIZE, EMOJI_SIZE
 from vision.screen_observer import ScreenObserver
 from vision.qwen_vision import QwenVisionClient
 from utils import resource_path
 
 
 class ScreenObserveWorker(QThread):
-    finished = Signal(str)
+    finished = Signal(str, str)
     error = Signal(str)
 
     def __init__(self, observer, vision_client, chat_manager):
@@ -32,11 +33,11 @@ class ScreenObserveWorker(QThread):
                 raise Exception("视觉模型返回空描述")
             
             # 3. 生成评论
-            reply = self.chat_manager.send_screen_observation(description)
+            reply, emotion_tag = self.chat_manager.send_screen_observation_with_tag(description)
             if not reply.strip():
                 raise Exception("未生成有效评论")
 
-            self.finished.emit(reply)
+            self.finished.emit(reply, emotion_tag)  # 传递情绪标签
         except Exception as e:
             error_msg = f"屏幕观察出错：{str(e)}"
             print(f"[ScreenObserveWorker] {error_msg}")
@@ -149,6 +150,8 @@ class PetWindow(QWidget):
 
         # 初始化流程
         self._setup_window()
+        # 新增：初始化表情Label
+        self._setup_emoji_label()
         self._setup_animation()
         self._load_image()
         self._setup_chat()
@@ -161,6 +164,14 @@ class PetWindow(QWidget):
 
         # 屏幕观察器初始化
         self.screen_observer = ScreenObserver(self, self.settings)
+
+    def _setup_emoji_label(self):
+        """初始化表情显示Label（九宫格右上角）"""
+        self.emoji_label = QLabel(self)
+        self.emoji_label.setAttribute(Qt.WA_TransparentForMouseEvents, True)
+        self.emoji_label.setAttribute(Qt.WA_TranslucentBackground, True)
+        self.emoji_label.setScaledContents(True)
+        self.emoji_label.hide()  # 默认隐藏
 
     # ---------------- 新增：截图专用UI操作（主线程执行） ----------------
     def _hide_for_screenshot(self):
@@ -253,6 +264,21 @@ class PetWindow(QWidget):
         self.resize(pix.size())
         self.label.resize(pix.size())
 
+        # 调整表情Label位置（九宫格右上角）
+        # 基准尺寸256x256 → 九宫格每个格子≈85x85，右上角格子的坐标：x=171, y=0（256-85=171）
+        base_emoji_x = BASE_SIZE - EMOJI_SIZE  # 原始右上角X
+        base_emoji_y = 0                      # 原始右上角Y
+        # 计算缩放后的偏移量（30px按scale适配，避免缩放后偏移失真）
+        offset_left = int(30 * scale)
+        # 最终坐标：右上角X - 左移偏移量，Y不变
+        emoji_x = int(base_emoji_x * scale) - offset_left
+        emoji_y = int(base_emoji_y * scale)
+        # 表情尺寸仍按scale缩放（保留原有逻辑）
+        emoji_width = int(EMOJI_SIZE * scale)
+        emoji_height = int(EMOJI_SIZE * scale)
+        # 唯一一次设置位置（后续永不修改）
+        self.emoji_label.setGeometry(emoji_x, emoji_y, emoji_width, emoji_height)
+
         screen = self.screen().availableGeometry()
         self.move(
             screen.right() - pix.width() - 30,
@@ -263,6 +289,8 @@ class PetWindow(QWidget):
     # ---------------- 动画初始化 ----------------
     def _setup_animation(self):
         self.animation = self._AnimationDriver(self.label)
+        # 绑定表情Label到动画驱动
+        self.animation.emoji_label = self.emoji_label
         self.animation.idle_frames_loaded.connect(self._on_idle_frames_loaded)
         self.animation.on_idle()
 
@@ -270,6 +298,21 @@ class PetWindow(QWidget):
         self.idle_timer = QTimer(self)
         self.idle_timer.timeout.connect(lambda: (self.animation.on_idle(), self.update()))
         self.idle_timer.start(7000)
+    
+    # 新增：显示情绪表情的通用方法
+    def _show_emotion_emoji(self, emotion_tag: str):
+        """根据情绪标签显示表情，持续时间与临时气泡一致"""
+        if emotion_tag == "平常":
+            return
+        # 获取临时气泡的显示时长
+        duration_s = 10
+        if self.settings:
+            try:
+                duration_s = int(self.settings.get("behavior", "temp_bubble_duration_s", default=10))
+            except Exception:
+                pass
+        # 调用动画驱动的表情显示方法
+        self.animation.show_emoji(emotion_tag, duration_s)
 
     def _on_idle_frames_loaded(self):
         """动画帧加载完成后显示窗口并重绘"""
@@ -285,9 +328,12 @@ class PetWindow(QWidget):
         self.chat_bubble.send_message.connect(self._on_user_message)
 
     def _on_user_message(self, text: str):
-        reply = self.chat_manager.chat(text)
+        # 调用修改后的chat方法，获取纯回复 + 情绪标签
+        reply, emotion_tag = self.chat_manager.chat_with_tag(text)
         if reply:
             self.chat_bubble.append_pet(reply)
+            # 显示对应情绪表情
+            self._show_emotion_emoji(emotion_tag)
 
     # ---------------- 右键菜单 ----------------
     def set_context_menu(self, menu):
@@ -393,9 +439,10 @@ class PetWindow(QWidget):
             return
 
         self._observe_worker = ScreenObserveWorker(self.screen_observer, self.vision_client, self.chat_manager)
-        self._observe_worker.finished.connect(lambda text: (
+        self._observe_worker.finished.connect(lambda text, tag: (
             self.chat_bubble.append_pet_silent(text),
             self._show_temp_bubble(text),
+            self._show_emotion_emoji(tag),  # 显示情绪表情
             setattr(self, "_observe_worker", None)
         ))
         self._observe_worker.error.connect(lambda msg: (

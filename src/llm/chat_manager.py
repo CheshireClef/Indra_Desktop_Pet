@@ -1,3 +1,4 @@
+from pyexpat.errors import messages
 import requests
 import os
 import random
@@ -16,8 +17,23 @@ from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 from utils import resource_path
 
 class ChatManager:
-    VALID_EMOTION_TAGS = ["喜爱", "开心", "干杯", "疑问", "伤心", "无聊/瞌睡", "尴尬", "生气", "平常"]
+    VALID_EMOTION_TAGS = ["喜爱", "开心", "干杯", "疑问", "伤心", "无聊", "尴尬", "生气", "平常"]
     EMOTION_TAG_FORMAT = "【{}】"  # 标签固定包裹格式
+    # 新增：通用情绪标签 Prompt 生成方法（唯一标准）
+    def _get_emotion_tag_prompt(self) -> str:
+        """
+        生成统一的情绪标签输出要求 Prompt，所有场景共用这一套规则
+        规则优先级：完整的5条细则（以屏幕观察场景的规则为准）
+        """
+        return (
+            "\n\n【情绪标签输出要求】"
+            "1. 请严格分析回复内容的情绪倾向，哪怕只有轻微的情绪（如一点点开心、轻微疑问），也必须选择对应情绪标签，禁止滥用「平常」；"
+            "2. 仅当回复内容完全无任何情绪倾向（纯客观陈述、无主观情感）时，才能选择【平常】；"
+            "3. 标签必须从以下列表中选择：{}，格式为【标签名】，放在回复最后一行，仅含标签无其他内容；"
+            "4. 若回复的内容适合【平常】标签，但包含饮酒的情节，请优先选择【干杯】标签；"
+            "5. 标签仅用于后台统计，不要体现在对话内容中。"
+        ).format(','.join(self.VALID_EMOTION_TAGS))
+    
     def __init__(self, settings_manager, persona_path: str):
         self.sm = settings_manager
         self.persona_path = resource_path(persona_path)
@@ -297,35 +313,30 @@ class ChatManager:
             if len(word) > 1:
                 keywords.append(word)
         return list(dict.fromkeys(keywords))[:8]
-
-    # ---------- 以下所有方法完全保留原有逻辑，无改动 ----------
-    def chat(self, user_text: str) -> str | None:
+    
+    # 新增：带情绪标签返回的聊天方法
+    def chat_with_tag(self, user_text: str) -> tuple[str | None, str]:
         self._append_user(user_text)
         messages = self._build_chat_messages()
         reply = self._request_llm(messages)
         if reply:
-            # ========== 新增：提取标签+剥离内容 ==========
             pure_reply, emotion_tag = self._extract_and_strip_emotion_tag(reply)
-            # 仅将剥离标签后的纯内容存入聊天记录（避免标签显示在聊天框）
             self._append_assistant(pure_reply)
-            # 终端打印标签
             print(f"[LLM-聊天回复] 情绪标签：{emotion_tag} | 内容预览：{pure_reply[:50]}...")
-            # 返回纯内容（供聊天框显示）
-            return pure_reply
-        return None
+            return pure_reply, emotion_tag
+        return None, "平常"
 
-    def send_screen_observation(self, description: str) -> str | None:
+    # ---------- 以下所有方法完全保留原有逻辑，无改动 ----------
+    def chat(self, user_text: str) -> str | None:
+        pure_reply, _ = self.chat_with_tag(user_text)
+        return pure_reply
+
+    # 新增：带情绪标签返回的屏幕观察方法
+    def send_screen_observation_with_tag(self, description: str) -> tuple[str | None, str]:
         knowledge_context = self._retrieve_knowledge(description)
-        # ========== 新增：Prompt指令（要求输出情绪标签） ==========
-        emotion_instruction = (
-            "\n\n【情绪标签输出要求】"
-            "1. 请严格分析回复内容的情绪倾向，哪怕只有轻微的情绪（如一点点开心、轻微疑问），也必须选择对应情绪标签，禁止滥用「平常」；"
-            "2. 仅当回复内容完全无任何情绪倾向（纯客观陈述、无主观情感）时，才能选择【平常】；"
-            "3. 标签必须从以下列表中选择：{}，格式为【标签名】，放在回复最后一行，仅含标签无其他内容；"
-            "4. 若回复的内容适合【平常】标签，但包含饮酒的情节，请优先选择【干杯】标签；"
-            "5. 标签仅用于后台统计，不要体现在对话内容中。"
-        ).format(','.join(self.VALID_EMOTION_TAGS))
-        system_content = self._build_persona() + knowledge_context + emotion_instruction  # 追加指令
+        # 替换：删除原有重复的 Prompt，调用通用方法
+        emotion_instruction = self._get_emotion_tag_prompt()
+        system_content = self._build_persona() + knowledge_context + emotion_instruction
         messages = [
             {"role": "system", "content": system_content},
             {
@@ -341,15 +352,16 @@ class ChatManager:
         ]
         reply = self._request_llm(messages)
         if reply:
-            # ========== 新增：提取标签+剥离内容 ==========
             pure_reply, emotion_tag = self._extract_and_strip_emotion_tag(reply)
-            # 仅将剥离标签后的纯内容存入聊天记录
             self._append_assistant(f"【刚刚对屏幕的评论】\n{pure_reply}")
-            # 终端打印标签
             print(f"[LLM-屏幕观察] 情绪标签：{emotion_tag} | 内容预览：{pure_reply[:50]}...")
-            # 返回纯内容（供临时气泡/聊天框显示）
-            return pure_reply
-        return None
+            return pure_reply, emotion_tag
+        return None, "平常"
+
+    # 原有screen_observation方法兼容
+    def send_screen_observation(self, description: str) -> str | None:
+        pure_reply, _ = self.send_screen_observation_with_tag(description)
+        return pure_reply
 
     def _append_user(self, text: str):
         self.chat_history.append(
@@ -372,14 +384,9 @@ class ChatManager:
     def _build_chat_messages(self):
         query = self.chat_history[-1]["content"].split("\n", 1)[0].strip() if (self.chat_history and self.chat_history[-1]["role"] == "user") else ""
         knowledge_context = self._retrieve_knowledge(query)
-        # ========== 新增：Prompt指令（要求输出情绪标签） ==========
-        emotion_instruction = (
-            "\n\n【情绪标签输出要求】"
-            "请在回复的最后一行，用【】包裹一个最贴合回复情绪的标签，标签只能从以下列表中选择："
-            f"{','.join(self.VALID_EMOTION_TAGS)}；若没有贴合的标签，选择【平常】即可。"
-            "标签仅用于后台统计，不要体现在对话内容中，仅需在回复末尾按格式输出。"
-        )
-        system_content = self._build_persona() + knowledge_context + emotion_instruction  # 追加指令
+        # 替换：删除原有简化版 Prompt，调用通用方法
+        emotion_instruction = self._get_emotion_tag_prompt()
+        system_content = self._build_persona() + knowledge_context + emotion_instruction
         return [
             {"role": "system", "content": system_content},
             *self.chat_history,
