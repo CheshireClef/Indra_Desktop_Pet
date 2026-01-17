@@ -1,3 +1,4 @@
+from pydoc import text
 from pyexpat.errors import messages
 import requests
 import os
@@ -370,6 +371,13 @@ class ChatManager:
         self._trim_history()
 
     def _append_assistant(self, text: str):
+        # 新增：过滤重复的屏幕评论
+        if text.startswith("【刚刚对屏幕的评论】"):
+            # 检查历史中是否已有相同内容
+            for msg in self.chat_history:
+                if msg["role"] == "assistant" and msg["content"] == text.strip() + "\n\n":
+                    print(f"[去重] 跳过重复的屏幕评论：{text[:50]}")
+                    return
         self.chat_history.append(
             {"role": "assistant", "content": text.strip() + "\n\n"}
         )
