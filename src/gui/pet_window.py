@@ -45,11 +45,13 @@ class ScreenObserveWorker(QThread):
 
 
 class TempBubble(QWidget):
+    BUBBLE_PADDING = 16  # 文本与气泡边界的留白(可自由修改)
+    GOLDEN_RATIO = 0.618  # 黄金比例
     """优化后的临时聊天气泡（修复重绘/内存泄漏）"""
     def __init__(self, text: str, max_width: int, parent=None):
         super().__init__(parent)
 
-        # 优化窗口标志（跨平台兼容）
+        # 优化窗口标志(跨平台兼容)
         self.setWindowFlags(
             Qt.FramelessWindowHint |
             Qt.WindowStaysOnTopHint |
@@ -63,19 +65,23 @@ class TempBubble(QWidget):
 
         # 布局与样式
         layout = QVBoxLayout(self)
-        layout.setContentsMargins(10, 8, 10, 8)
+        layout.setContentsMargins(0, 0, 0, 0)  # 外层布局无边距
+        layout.setSpacing(0)
+        
         self.label = QLabel(text)
         self.label.setWordWrap(True)
-        self.label.setAlignment(Qt.AlignLeft | Qt.AlignVCenter)
-        self.label.setStyleSheet("""
+        self.label.setAlignment(Qt.AlignLeft | Qt.AlignVCenter)  # 居中对齐以适应黄金比例
+        self.label.setStyleSheet(f"""
             background: rgba(40, 40, 40, 210);
             color: white;
-            padding: 6px;
+            padding: {self.BUBBLE_PADDING}px;
             border-radius: 8px;
         """)
-        self.label.setMaximumWidth(max_width)
+        
         layout.addWidget(self.label)
-        self.adjustSize()
+        
+        # 计算并应用黄金比例尺寸
+        self._calculate_golden_size(text, max_width)
 
         # 淡出动画（优化销毁逻辑）
         self._fade_anim = QPropertyAnimation(self, b"windowOpacity", self)
@@ -87,6 +93,88 @@ class TempBubble(QWidget):
         self._life_timer = QTimer(self)
         self._life_timer.setSingleShot(True)
         self._life_timer.timeout.connect(self._fade_anim.start)
+
+    def _calculate_golden_size(self, text: str, max_width: int):
+        """
+        计算符合黄金比例的气泡尺寸（终极修复版）
+        核心改进：
+        1. 使用实际 QLabel 测量真实渲染尺寸（而非 QFontMetrics 理论值）
+        2. CSS padding 已包含在测量中，确保文本完整显示
+        3. 主动搜索最接近黄金比例的宽度
+        """
+        # 创建临时测量标签（应用相同样式）
+        temp_label = QLabel(text)
+        temp_label.setWordWrap(True)
+        temp_label.setAlignment(Qt.AlignLeft | Qt.AlignVCenter)
+        temp_label.setStyleSheet(f"""
+            background: rgba(40, 40, 40, 210);
+            color: white;
+            padding: {self.BUBBLE_PADDING}px;
+            border-radius: 8px;
+        """)
+        
+        # 定义搜索范围（注意：这里是包含 padding 的总宽度）
+        min_bubble_width = 150
+        max_bubble_width = max_width
+        
+        # 存储最优方案
+        best_width = max_bubble_width
+        best_height = 0
+        best_ratio_diff = float('inf')
+        
+        # 阶段1：粗搜索（步长 25px）
+        step = 25
+        for test_width in range(min_bubble_width, max_bubble_width + 1, step):
+            # 设置测试宽度并让 QLabel 自适应高度
+            temp_label.setFixedWidth(test_width)
+            temp_label.adjustSize()
+            
+            # 获取实际渲染后的高度（包含 padding）
+            test_height = temp_label.height()
+            
+            # 计算当前高宽比
+            current_ratio = test_height / test_width if test_width > 0 else 0
+            ratio_diff = abs(current_ratio - self.GOLDEN_RATIO)
+            
+            # 记录最接近黄金比例的配置
+            if ratio_diff < best_ratio_diff:
+                best_ratio_diff = ratio_diff
+                best_width = test_width
+                best_height = test_height
+        
+        # 阶段2：精细搜索（在最优宽度附近 ±50px，步长 5px）
+        fine_search_start = max(min_bubble_width, best_width - 50)
+        fine_search_end = min(max_bubble_width, best_width + 50)
+        
+        for test_width in range(fine_search_start, fine_search_end + 1, 5):
+            temp_label.setFixedWidth(test_width)
+            temp_label.adjustSize()
+            test_height = temp_label.height()
+            
+            current_ratio = test_height / test_width if test_width > 0 else 0
+            ratio_diff = abs(current_ratio - self.GOLDEN_RATIO)
+            
+            if ratio_diff < best_ratio_diff:
+                best_ratio_diff = ratio_diff
+                best_width = test_width
+                best_height = test_height
+        
+        # 最终验证：使用最优宽度再次测量，确保准确
+        temp_label.setFixedWidth(best_width)
+        temp_label.adjustSize()
+        final_width = best_width
+        final_height = temp_label.height()
+        
+        # 安全边界检查
+        final_width = max(150, min(final_width, max_width))
+        final_height = max(50, final_height)
+        
+        # 应用计算出的尺寸
+        self.label.setFixedSize(final_width, final_height)
+        self.setFixedSize(final_width, final_height)
+        
+        # 清理临时对象
+        temp_label.deleteLater()
 
     def _on_fade_finished(self):
         """淡出后销毁，避免内存泄漏"""

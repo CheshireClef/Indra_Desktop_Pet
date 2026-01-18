@@ -16,6 +16,7 @@ from llama_index.core import (
 )
 from llama_index.core.node_parser import SentenceSplitter
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
+from soupsieve import match
 from sympy import re
 from utils import resource_path
 
@@ -378,15 +379,36 @@ class ChatManager:
         self._trim_history()
 
     def _append_assistant(self, text: str):
-        # 新增：过滤重复的屏幕评论
-        if text.startswith("【刚刚对屏幕的评论】"):
-            # 检查历史中是否已有相同内容
-            for msg in self.chat_history:
-                if msg["role"] == "assistant" and msg["content"] == text.strip() + "\n\n":
-                    print(f"[去重] 跳过重复的屏幕评论：{text[:50]}")
-                    return
+        """
+        将助手回复添加到聊天历史，包含以下处理：
+        1. 剔除LLM幻觉产生的【刚刚对屏幕的评论】片段
+        2. 过滤重复的屏幕评论
+        """
+        import re
+        processed_text = text.strip()
+    
+        # ========== 新增：剔除【刚刚对屏幕的评论】及其后续内容 ==========
+        # 这是LLM幻觉，只应在send_screen_observation_with_tag中由程序添加
+        # 如果在普通聊天回复中出现，说明是LLM学习了历史格式产生的幻觉
+        screen_comment_pattern = r'\s*【刚刚对屏幕的评论】.*'
+        match = re.search(screen_comment_pattern, processed_text, re.DOTALL)
+    
+        if match:
+            # 检查这是否是来自屏幕观察的正常评论
+            is_screen_observation = processed_text.startswith("【刚刚对屏幕的评论】")
+        
+            if is_screen_observation:
+                # 这是正常的屏幕观察评论，保留完整内容
+                pass
+            else:
+                # 这是LLM在普通聊天中产生的幻觉，截取并剔除
+                original_text = processed_text
+                processed_text = processed_text[:match.start()].strip()
+                print(f"[过滤LLM幻觉] 剔除了聊天回复中的屏幕评论片段")
+                print(f"  原始: {original_text[:80]}...")
+                print(f"  清理后: {processed_text[:80]}...")
         self.chat_history.append(
-            {"role": "assistant", "content": text.strip() + "\n\n"}
+            {"role": "assistant", "content": processed_text + "\n\n"}
         )
         self._trim_history()
 
