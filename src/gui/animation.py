@@ -61,7 +61,7 @@ class AnimationDriver(QObject):
             return
 
         # 情绪标签与图片文件名映射（假设文件名=标签名.png）
-        emotion_tags = ["喜爱", "开心", "干杯", "疑问", "伤心", "无聊", "尴尬", "生气", "平常"]
+        emotion_tags = ["喜爱", "开心", "干杯", "疑问", "伤心", "无聊", "尴尬", "生气"]
         for tag in emotion_tags:
             # 处理特殊标签的文件名（如“无聊/瞌睡”替换为“无聊_瞌睡”）
             filename = tag.replace("/", "_") + ".png"
