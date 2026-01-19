@@ -112,70 +112,59 @@ class ChatManager:
         )
     
     def _init_indices_async(self):
-        """异步初始化索引，使用 gte-multilingual-base（560MB，支持中日双语）"""
+        """异步初始化索引，强制使用本地gte-multilingual-base离线模型"""
+        # 强制开启离线模式，禁止任何联网行为
         os.environ["TRANSFORMERS_OFFLINE"] = "1"
         os.environ["HF_HUB_OFFLINE"] = "1"
-    
-        # 使用阿里达摩院多语言模型（560MB vs 2GB）
-        model_name = "Alibaba-NLP/gte-multilingual-base"
+        os.environ["HF_DATASETS_OFFLINE"] = "1"
+
+        # 本地模型目录（固定路径）
         local_model_dir = Path(resource_path("models/gte-multilingual-base"))
-    
-        # 检查本地模型
-        if local_model_dir.exists() and list(local_model_dir.glob("*.bin")):
-            model_path = str(local_model_dir)
-            print(f"[ChatManager] 使用本地多语言模型（支持中日英70+语言）：{model_path}")
-        else:
-            # 首次运行，尝试下载
-            print("[ChatManager] 检测到首次运行，正在下载多语言模型（约560MB）...")
-            try:
-                from huggingface_hub import snapshot_download
-            
-                # 临时允许联网下载
-                os.environ.pop("TRANSFORMERS_OFFLINE", None)
-                os.environ.pop("HF_HUB_OFFLINE", None)
-            
-                snapshot_download(
-                    repo_id=model_name,
-                    local_dir=str(local_model_dir),
-                    local_dir_use_symlinks=False,
-                    ignore_patterns=["*.md", "*.txt", "*.onnx"]  # 跳过不需要的文件
-                )
-                model_path = str(local_model_dir)
-                print("[ChatManager] 模型下载完成（支持中日英等70+语言）")
-            
-                # 恢复离线模式
-                os.environ["TRANSFORMERS_OFFLINE"] = "1"
-                os.environ["HF_HUB_OFFLINE"] = "1"
-            except Exception as e:
-                print(f"[ChatManager] 模型下载失败：{e}")
-                print("[ChatManager] 将使用在线模式（需保持联网）")
-                model_path = model_name
-    
-        # 加载模型
-        # 关键修复：添加 trust_remote_code 参数
+        
+        # 校验本地模型目录是否存在且有内容
+        if not local_model_dir.exists():
+            raise FileNotFoundError(f"本地模型目录不存在：{local_model_dir}")
+        if not list(local_model_dir.glob("*.bin")) and not list(local_model_dir.glob("*.safetensors")):
+            raise FileNotFoundError(f"本地模型目录 {local_model_dir} 中未找到模型权重文件")
+        
+        # 确认配置文件和自定义代码文件存在（参考save_pretrained_alibaba_model逻辑）
+        required_files = ["config.json", "modeling.py", "configuration.py"]
+        missing_files = [f for f in required_files if not (local_model_dir / f).exists()]
+        if missing_files:
+            raise FileNotFoundError(f"本地模型目录缺少必要文件：{missing_files}，请先运行save_pretrained_alibaba_model下载完整模型")
+
+        # 加载本地模型（强制trust_remote_code=True，移除device参数）
+        print(f"[ChatManager] 使用本地多语言模型（离线模式）：{local_model_dir}")
         embed_model = HuggingFaceEmbedding(
-            model_name=model_path,
-            trust_remote_code=True  # 信任模型的自定义代码
+            model_name=str(local_model_dir),
+            trust_remote_code=True,  # 强制开启，适配阿里模型自定义代码
+            # 关键修改：移除model_kwargs={"device": "cpu"}，改为后续手动设置设备
+            embed_batch_size=16,  # 可选：添加批次大小配置，提升效率
         )
+    
+        # 手动将模型移动到CPU（解决device参数不兼容问题）
+        try:
+            import torch
+            embed_model._model = embed_model._model.to("cpu")
+            print(f"[ChatManager] 模型已手动移动到CPU设备")
+        except Exception as e:
+            print(f"[ChatManager] 手动设置模型设备失败（非致命）：{e}")
+    
         self.lore_index = self._load_or_build_index(
-            # 调整3：处理lore数据目录
             data_dir=Path(resource_path("src/llm/knowledge/lore")),
-            # 调整4：处理lore索引持久化目录
             persist_dir=Path(resource_path("src/llm/knowledge_db/lore")),
             embed_model=embed_model,
             name="Lore",
             is_lore=True
         )
         self.style_index = self._load_or_build_index(
-            # 调整5：处理style数据目录
             data_dir=Path(resource_path("src/llm/knowledge/style")),
-            # 调整6：处理style索引持久化目录
             persist_dir=Path(resource_path("src/llm/knowledge_db/style")),
             embed_model=embed_model,
             name="Style",
             is_lore=False
         )
-
+        
     def _get_data_dir_mtime(self, data_dir: Path) -> float:
         """辅助函数：计算数据目录下所有文件的最后修改时间总和（用于检测更新）"""
         total_mtime = 0.0

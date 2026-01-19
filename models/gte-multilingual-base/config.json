@@ -5,14 +5,15 @@
   ],
   "attention_probs_dropout_prob": 0.0,
   "auto_map": {
-    "AutoConfig": "Alibaba-NLP/new-impl--configuration.NewConfig",
-    "AutoModelForMaskedLM": "Alibaba-NLP/new-impl--modeling.NewForMaskedLM",
-    "AutoModel": "Alibaba-NLP/new-impl--modeling.NewModel",
-    "AutoModelForMultipleChoice": "Alibaba-NLP/new-impl--modeling.NewForMultipleChoice",
-    "AutoModelForQuestionAnswering": "Alibaba-NLP/new-impl--modeling.NewForQuestionAnswering",
-    "AutoModelForSequenceClassification": "Alibaba-NLP/new-impl--modeling.NewForSequenceClassification",
-    "AutoModelForTokenClassification": "Alibaba-NLP/new-impl--modeling.NewForTokenClassification"
+    "AutoConfig": "configuration.NewConfig",
+    "AutoModel": "modeling.NewModel",
+    "AutoModelForMaskedLM": "modeling.NewForMaskedLM",
+    "AutoModelForMultipleChoice": "modeling.NewForMultipleChoice",
+    "AutoModelForQuestionAnswering": "modeling.NewForQuestionAnswering",
+    "AutoModelForSequenceClassification": "modeling.NewForSequenceClassification",
+    "AutoModelForTokenClassification": "modeling.NewForTokenClassification"
   },
+
   "classifier_dropout": 0.0,
   "hidden_act": "gelu",
   "hidden_dropout_prob": 0.1,
