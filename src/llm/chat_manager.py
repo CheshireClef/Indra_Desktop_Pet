@@ -330,9 +330,21 @@ class ChatManager:
         reply = self._request_llm(messages)
         if reply:
             pure_reply, emotion_tag = self._extract_and_strip_emotion_tag(reply)
-            self._append_assistant(pure_reply)
-            print(f"[LLM-聊天回复] 情绪标签：{emotion_tag} | 内容预览：{pure_reply[:50]}...")
-            return pure_reply, emotion_tag
+            import re
+            screen_comment_pattern = r'\s*【刚刚对屏幕的评论】.*'
+            # 剔除所有幻觉内容（包括多行重复）
+            clean_reply = re.sub(
+                screen_comment_pattern,
+                '',
+                pure_reply,
+                flags=re.DOTALL
+            ).strip()
+        
+            # ========== 最后保存清理后的内容到聊天历史 ==========
+            self._append_assistant(clean_reply)
+        
+            print(f"[LLM-聊天回复] 情绪标签：{emotion_tag} | 内容预览：{clean_reply[:50]}...")
+            return clean_reply, emotion_tag
         return None, "平常"
 
     # ---------- 以下所有方法完全保留原有逻辑，无改动 ----------
@@ -361,10 +373,28 @@ class ChatManager:
         ]
         reply = self._request_llm(messages)
         if reply:
+            # ========== 第一步：先提取情绪标签（原始reply） ==========
             pure_reply, emotion_tag = self._extract_and_strip_emotion_tag(reply)
-            self._append_assistant(f"【刚刚对屏幕的评论】\n{pure_reply}")
+        
+            # ========== 第二步：剔除幻觉内容（仅针对非屏幕观察场景） ==========
+            # 注意：屏幕观察场景本身需要保留【刚刚对屏幕的评论】前缀，所以跳过剔除
+            if not pure_reply.startswith("【刚刚对屏幕的评论】"):
+                import re
+                screen_comment_pattern = r'\s*【刚刚对屏幕的评论】.*'
+                pure_reply = re.sub(
+                    screen_comment_pattern,
+                    '',
+                    pure_reply,
+                    flags=re.DOTALL
+                ).strip()
+        
+            # ========== 第三步：拼接前缀并保存历史 ==========
+            assistant_msg = f"【刚刚对屏幕的评论】\n{pure_reply}" if pure_reply else ""
+            self._append_assistant(assistant_msg)
+        
             print(f"[LLM-屏幕观察] 情绪标签：{emotion_tag} | 内容预览：{pure_reply[:50]}...")
             return pure_reply, emotion_tag
+    
         return None, "平常"
 
     # 原有screen_observation方法兼容
@@ -387,26 +417,22 @@ class ChatManager:
         import re
         processed_text = text.strip()
     
-        # ========== 新增：剔除【刚刚对屏幕的评论】及其后续内容 ==========
-        # 这是LLM幻觉，只应在send_screen_observation_with_tag中由程序添加
-        # 如果在普通聊天回复中出现，说明是LLM学习了历史格式产生的幻觉
-        screen_comment_pattern = r'\s*【刚刚对屏幕的评论】.*'
-        match = re.search(screen_comment_pattern, processed_text, re.DOTALL)
-    
-        if match:
-            # 检查这是否是来自屏幕观察的正常评论
-            is_screen_observation = processed_text.startswith("【刚刚对屏幕的评论】")
+        # 仅保留重复屏幕评论的去重逻辑
+        if processed_text.startswith("【刚刚对屏幕的评论】"):
+            # 提取核心评论内容（剔除前缀+清理空格）
+            core_content = re.sub(r"【刚刚对屏幕的评论】\s*", "", processed_text).strip()
+            core_content = re.sub(r"\s+", " ", core_content)
         
-            if is_screen_observation:
-                # 这是正常的屏幕观察评论，保留完整内容
-                pass
-            else:
-                # 这是LLM在普通聊天中产生的幻觉，截取并剔除
-                original_text = processed_text
-                processed_text = processed_text[:match.start()].strip()
-                print(f"[过滤LLM幻觉] 剔除了聊天回复中的屏幕评论片段")
-                print(f"  原始: {original_text[:80]}...")
-                print(f"  清理后: {processed_text[:80]}...")
+            # 检查历史中是否已有相同核心内容的屏幕评论
+            for msg in self.chat_history:
+                if msg["role"] == "assistant":
+                    # 提取历史消息的核心内容（同规则）
+                    history_core = re.sub(r"【刚刚对屏幕的评论】\s*", "", msg["content"]).strip()
+                    history_core = re.sub(r"\s+", " ", history_core)
+                    if history_core == core_content:
+                        print(f"[去重] 跳过重复的屏幕评论：{core_content[:50]}")
+                        return
+    
         self.chat_history.append(
             {"role": "assistant", "content": processed_text + "\n\n"}
         )
