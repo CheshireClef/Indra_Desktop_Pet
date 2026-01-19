@@ -5,7 +5,7 @@ from PySide6.QtWidgets import (
     QTabWidget, QWidget, QSizePolicy  # ✅ 新增导入 QSizePolicy
 )
 from PySide6.QtCore import Qt
-
+from utils import resource_path
 
 class SettingsDialog(QDialog):
     """
