@@ -112,24 +112,50 @@ class ChatManager:
         )
     
     def _init_indices_async(self):
-        """异步初始化索引，适配中日双语Embedding（兼容旧版本依赖）"""
-        # multilingual-e5-small 原生支持中日双语，移除不兼容的encode_kwargs参数
-        # ============== 第一处修改：添加禁用联网的环境变量 ==============
-        # 关键：禁用 Hugging Face 联网检查（必须在加载模型前设置）
+        """异步初始化索引，使用 gte-multilingual-base（560MB，支持中日双语）"""
         os.environ["TRANSFORMERS_OFFLINE"] = "1"
         os.environ["HF_HUB_OFFLINE"] = "1"
-        # ============== 第二处修改：适配本地模型路径（兼容开发/打包环境） ==============
-        # 新增：适配打包后的路径（pyinstaller 打包后能找到模型）
-        import sys
     
-        # 核心简化：直接用 resource_path 获取模型路径，无需区分环境
-        default_local_model = resource_path("multilingual-e5-small")
+        # 使用阿里达摩院多语言模型（560MB vs 2GB）
+        model_name = "Alibaba-NLP/gte-multilingual-base"
+        local_model_dir = Path(resource_path("models/gte-multilingual-base"))
     
+        # 检查本地模型
+        if local_model_dir.exists() and list(local_model_dir.glob("*.bin")):
+            model_path = str(local_model_dir)
+            print(f"[ChatManager] 使用本地多语言模型（支持中日英70+语言）：{model_path}")
+        else:
+            # 首次运行，尝试下载
+            print("[ChatManager] 检测到首次运行，正在下载多语言模型（约560MB）...")
+            try:
+                from huggingface_hub import snapshot_download
+            
+                # 临时允许联网下载
+                os.environ.pop("TRANSFORMERS_OFFLINE", None)
+                os.environ.pop("HF_HUB_OFFLINE", None)
+            
+                snapshot_download(
+                    repo_id=model_name,
+                    local_dir=str(local_model_dir),
+                    local_dir_use_symlinks=False,
+                    ignore_patterns=["*.md", "*.txt", "*.onnx"]  # 跳过不需要的文件
+                )
+                model_path = str(local_model_dir)
+                print("[ChatManager] 模型下载完成（支持中日英等70+语言）")
+            
+                # 恢复离线模式
+                os.environ["TRANSFORMERS_OFFLINE"] = "1"
+                os.environ["HF_HUB_OFFLINE"] = "1"
+            except Exception as e:
+                print(f"[ChatManager] 模型下载失败：{e}")
+                print("[ChatManager] 将使用在线模式（需保持联网）")
+                model_path = model_name
+    
+        # 加载模型
+        # 关键修复：添加 trust_remote_code 参数
         embed_model = HuggingFaceEmbedding(
-            model_name=self.sm.get(
-                "knowledge", "embedding_model",
-                default=default_local_model
-            )
+            model_name=model_path,
+            trust_remote_code=True  # 信任模型的自定义代码
         )
         self.lore_index = self._load_or_build_index(
             # 调整3：处理lore数据目录
@@ -329,18 +355,25 @@ class ChatManager:
         messages = self._build_chat_messages()
         reply = self._request_llm(messages)
         if reply:
-            pure_reply, emotion_tag = self._extract_and_strip_emotion_tag(reply)
             import re
-            screen_comment_pattern = r'\s*【刚刚对屏幕的评论】.*'
-            # 剔除所有幻觉内容（包括多行重复）
-            clean_reply = re.sub(
-                screen_comment_pattern,
-                '',
-                pure_reply,
-                flags=re.DOTALL
-            ).strip()
+            
+            # ========== 关键修复：剔除从第一个【刚刚对屏幕的评论】开始的所有内容 ==========
+            # 策略：找到第一个【刚刚对屏幕的评论】的位置，直接截断后面所有内容
+            hallucination_marker = '【刚刚对屏幕的评论】'
+            
+            if hallucination_marker in reply:
+                # 找到第一个标记的位置，保留之前的内容
+                first_marker_pos = reply.find(hallucination_marker)
+                reply_without_hallucination = reply[:first_marker_pos].strip()
+                print(f"[过滤LLM幻觉] 检测到幻觉标记，已截断")
+                print(f"  原始长度: {len(reply)} | 清理后长度: {len(reply_without_hallucination)}")
+            else:
+                reply_without_hallucination = reply
+            
+            # 从清理后的内容中提取情绪标签
+            clean_reply, emotion_tag = self._extract_and_strip_emotion_tag(reply_without_hallucination)
         
-            # ========== 最后保存清理后的内容到聊天历史 ==========
+            # 保存清理后的内容到聊天历史
             self._append_assistant(clean_reply)
         
             print(f"[LLM-聊天回复] 情绪标签：{emotion_tag} | 内容预览：{clean_reply[:50]}...")
