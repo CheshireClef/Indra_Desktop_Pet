@@ -45,7 +45,7 @@ class ScreenObserveWorker(QThread):
 
 
 class TempBubble(QWidget):
-    BUBBLE_PADDING = 16  # 文本与气泡边界的留白(可自由修改)
+    BUBBLE_PADDING = 25  # 文本与气泡边界的留白(可自由修改)
     GOLDEN_RATIO = 0.618  # 黄金比例
     """优化后的临时聊天气泡（修复重绘/内存泄漏）"""
     def __init__(self, text: str, max_width: int, parent=None):
@@ -63,27 +63,54 @@ class TempBubble(QWidget):
         self.setAttribute(Qt.WA_ShowWithoutActivating, True)
         self.setAttribute(Qt.WA_TranslucentBackground, True)  # 透明背景
 
-        # 布局与样式
-        layout = QVBoxLayout(self)
-        layout.setContentsMargins(0, 0, 0, 0)  # 外层布局无边距
-        layout.setSpacing(0)
+        # 加载背景图片
+        import os
+        self.bg_image_path = resource_path("assets/images/ui/temp_bubble.png")
         
-        self.label = QLabel(text)
-        self.label.setWordWrap(True)
-        self.label.setAlignment(Qt.AlignLeft | Qt.AlignVCenter)  # 居中对齐以适应黄金比例
-        self.label.setStyleSheet(f"""
-            background: rgba(40, 40, 40, 210);
-            color: white;
-            padding: {self.BUBBLE_PADDING}px;
-            border-radius: 8px;
-        """)
+        # 检查背景图片是否存在并加载
+        self.bg_pixmap = None
+        if os.path.exists(self.bg_image_path):
+            self.bg_pixmap = QPixmap(self.bg_image_path)
+            if self.bg_pixmap.isNull():
+                print(f"[TempBubble] 背景图片加载失败：{self.bg_image_path}")
+                self.bg_pixmap = None
+            else:
+                print(f"[TempBubble] 背景图片加载成功：{self.bg_image_path}")
+        else:
+            print(f"[TempBubble] 背景图片不存在：{self.bg_image_path}")
+
+        # 背景层（如果有背景图片）
+        if self.bg_pixmap:
+            self.bg_label = QLabel(self)
+            self.bg_label.setScaledContents(True)
+            # 不使用布局，直接用绝对定位
         
-        layout.addWidget(self.label)
+        # 文本层（使用绝对定位，不添加到布局）
+        self.text_label = QLabel(text, self)
+        self.text_label.setWordWrap(True)
+        self.text_label.setAlignment(Qt.AlignLeft | Qt.AlignVCenter)
+        
+        # 根据是否有背景图片设置不同样式
+        if self.bg_pixmap:
+            # 有背景图：文本层透明，只显示文字
+            self.text_label.setStyleSheet(f"""
+                background: transparent;
+                color: white;
+                padding: {self.BUBBLE_PADDING}px;
+            """)
+        else:
+            # 无背景图：纯色背景
+            self.text_label.setStyleSheet(f"""
+                background: rgba(40, 40, 40, 210);
+                color: white;
+                padding: {self.BUBBLE_PADDING}px;
+                border-radius: 8px;
+            """)
         
         # 计算并应用黄金比例尺寸
         self._calculate_golden_size(text, max_width)
 
-        # 淡出动画（优化销毁逻辑）
+        # 淡出动画(优化销毁逻辑)
         self._fade_anim = QPropertyAnimation(self, b"windowOpacity", self)
         self._fade_anim.setDuration(400)
         self._fade_anim.setStartValue(1.0)
@@ -106,12 +133,21 @@ class TempBubble(QWidget):
         temp_label = QLabel(text)
         temp_label.setWordWrap(True)
         temp_label.setAlignment(Qt.AlignLeft | Qt.AlignVCenter)
-        temp_label.setStyleSheet(f"""
-            background: rgba(40, 40, 40, 210);
-            color: white;
-            padding: {self.BUBBLE_PADDING}px;
-            border-radius: 8px;
-        """)
+        
+        # 应用相同的样式
+        if self.bg_pixmap:
+            temp_label.setStyleSheet(f"""
+                background: transparent;
+                color: white;
+                padding: {self.BUBBLE_PADDING}px;
+            """)
+        else:
+            temp_label.setStyleSheet(f"""
+                background: rgba(40, 40, 40, 210);
+                color: white;
+                padding: {self.BUBBLE_PADDING}px;
+                border-radius: 8px;
+            """)
         
         # 定义搜索范围（注意：这里是包含 padding 的总宽度）
         min_bubble_width = 150
@@ -169,9 +205,28 @@ class TempBubble(QWidget):
         final_width = max(150, min(final_width, max_width))
         final_height = max(50, final_height)
         
-        # 应用计算出的尺寸
-        self.label.setFixedSize(final_width, final_height)
+        # 设置整体窗口尺寸
         self.setFixedSize(final_width, final_height)
+        
+        # 如果有背景图片，缩放并应用到背景层（绝对定位）
+        if self.bg_pixmap:
+            scaled_bg = self.bg_pixmap.scaled(
+                final_width, final_height,
+                Qt.IgnoreAspectRatio,  # 拉伸填充
+                Qt.SmoothTransformation
+            )
+            self.bg_label.setPixmap(scaled_bg)
+            # 背景层完全覆盖整个窗口
+            self.bg_label.setGeometry(0, 0, final_width, final_height)
+            # 确保背景在底层
+            self.bg_label.lower()
+        
+        # 文本层也使用绝对定位，完全覆盖整个窗口
+        self.text_label.setGeometry(0, 0, final_width, final_height)
+        
+        # 如果有背景，确保文本层在上方
+        if self.bg_pixmap:
+            self.text_label.raise_()
         
         # 清理临时对象
         temp_label.deleteLater()
