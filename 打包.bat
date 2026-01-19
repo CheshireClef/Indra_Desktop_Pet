@@ -25,7 +25,7 @@ pyinstaller ^
   --add-data "assets;assets" ^
   --add-data "config;config" ^
   --add-data "manual_images;manual_images" ^
-  --add-data "multilingual-e5-small;multilingual-e5-small" ^
+  --add-data "models;models" ^
   --add-data "screenshots;screenshots" ^
   --add-data "src;src" ^
   ^
