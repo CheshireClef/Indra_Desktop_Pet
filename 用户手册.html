@@ -246,7 +246,7 @@
 
         <h2 id="database">5. 数据库说明</h2>
         <h3 id="dbstructure">5.1 数据库结构</h3>
-        <p>我使用了LlamaIndex来管理数据库，因为语料有日文有中文，所以使用了支持多语言的multilingual-e5-small模型来处理语料，模型已经保存在本地<code>multilingual-e5-small</code> 目录下。</code></p>
+        <p>我使用了LlamaIndex来管理数据库，因为语料有日文有中文，所以使用了支持多语言的<del>multilingual-e5-small</del>Alibaba-NLP/gte-multilingual-base模型来处理语料，模型已经保存在本地<code>models\gte-multilingual-base</code> 目录下。</code></p>
         <p><code>src\llm\persona.txt</code>是因陀罗的基础人设和一部分对话prompt。</p>
         <p><code>src\llm\knowledge\style</code>下存放了数据库使用的语料，里面主要是一些角色语音。每次角色说话时，数据库从语料中随机抽取几条用于随机化回复风格。</p>
         <p><code>src\llm\knowledge\lore</code>下存放了数据库使用的剧情资料，主要包含FGO和摩诃婆罗多的一部分相关剧情梗概。由于数据库薛定谔的关键词匹配命中率，很多剧情资料采用了原文+AI总结主要情节的形式存放。</p>
@@ -269,13 +269,14 @@
         <div class="note">
             <strong>Q3：功能这么简单为什么程序有3个G那么大啊！</strong><br>
             A3：考虑到不是谁都有科学上网的网络条件，为了让人人都能开箱即用，我把模型离线打包到程序里面去了……再加上python依赖库和编译器什么的，最后就……<br>
-            <del>因陀罗神即使在电子之海里，灵基质量也是如此的庞大！</del><br>
-            我只会用python所以对不住啦！
+            2026/1/19更新：把模型换成了<code>Alibaba-NLP/gte-multilingual-base</code>，成功把模型占用空间从2GB砍到了560MB，谢谢你阿里达摩院!<br>
+            <del>因陀罗神即使在电子之海里，灵基质量也是如此的庞大，这很正常</del>
         </div>
 
         <h2 id="thanks">7. 致谢</h2>
         <p>感谢@废料漩涡 老师赞助的超可爱神王大人像素立绘</p>
         <p>感谢豆包和ChatGPT帮我生成这么多代码，还有感谢一下追着AI让它们修bug的我……</p>
+        <p>2026/1/19更新：感谢Claude为我解决临时聊天气泡的尺寸计算和格式问题，我愿称Claude为唯一真神！<del>舍不得买会员是我的问题不是Claude的问题</del></p>
         <p>感谢勤勤恳恳做了读全本摩诃、总结分段、概括剧情、抽取数据库语料这些工作的DeepSeek</p>
 
         <h2 id="plan">8. 未来更新计划</h2>
