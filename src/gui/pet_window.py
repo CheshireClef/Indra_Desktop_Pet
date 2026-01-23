@@ -3,11 +3,9 @@ import os
 from PySide6.QtWidgets import QWidget, QLabel, QMenu, QVBoxLayout
 from PySide6.QtGui import QPixmap, QGuiApplication
 from PySide6.QtCore import Qt, QPoint, QTimer, Signal, QThread, QPropertyAnimation, QRect
-from sklearn.preprocessing import scale
 from gui.animation import BASE_SIZE, EMOJI_SIZE
-from vision.screen_observer import ScreenObserver
-from vision.qwen_vision import QwenVisionClient
 from utils import resource_path
+from .chat_bubble import TempBubble
 
 
 class ScreenObserveWorker(QThread):
@@ -44,220 +42,7 @@ class ScreenObserveWorker(QThread):
             self.error.emit(error_msg)
 
 
-class TempBubble(QWidget):
-    BUBBLE_PADDING = 25  # 文本与气泡边界的留白(可自由修改)
-    GOLDEN_RATIO = 0.618  # 黄金比例
-    """优化后的临时聊天气泡（修复重绘/内存泄漏）"""
-    def __init__(self, text: str, max_width: int, parent=None):
-        super().__init__(parent)
 
-        # 优化窗口标志(跨平台兼容)
-        self.setWindowFlags(
-            Qt.FramelessWindowHint |
-            Qt.WindowStaysOnTopHint |
-            Qt.Window |
-            Qt.WindowDoesNotAcceptFocus |
-            Qt.WindowTransparentForInput
-        )
-        self.setAttribute(Qt.WA_TransparentForMouseEvents, True)
-        self.setAttribute(Qt.WA_ShowWithoutActivating, True)
-        self.setAttribute(Qt.WA_TranslucentBackground, True)  # 透明背景
-
-        # 加载背景图片
-        import os
-        self.bg_image_path = resource_path("assets/images/ui/temp_bubble.png")
-        
-        # 检查背景图片是否存在并加载
-        self.bg_pixmap = None
-        if os.path.exists(self.bg_image_path):
-            self.bg_pixmap = QPixmap(self.bg_image_path)
-            if self.bg_pixmap.isNull():
-                print(f"[TempBubble] 背景图片加载失败：{self.bg_image_path}")
-                self.bg_pixmap = None
-            else:
-                print(f"[TempBubble] 背景图片加载成功：{self.bg_image_path}")
-        else:
-            print(f"[TempBubble] 背景图片不存在：{self.bg_image_path}")
-
-        # 背景层（如果有背景图片）
-        if self.bg_pixmap:
-            self.bg_label = QLabel(self)
-            self.bg_label.setScaledContents(True)
-            # 不使用布局，直接用绝对定位
-        
-        # 文本层（使用绝对定位，不添加到布局）
-        self.text_label = QLabel(text, self)
-        self.text_label.setWordWrap(True)
-        self.text_label.setAlignment(Qt.AlignLeft | Qt.AlignVCenter)
-        
-        # 根据是否有背景图片设置不同样式
-        if self.bg_pixmap:
-            # 有背景图：文本层透明，只显示文字
-            self.text_label.setStyleSheet(f"""
-                background: transparent;
-                color: white;
-                padding: {self.BUBBLE_PADDING}px;
-            """)
-        else:
-            # 无背景图：纯色背景
-            self.text_label.setStyleSheet(f"""
-                background: rgba(40, 40, 40, 210);
-                color: white;
-                padding: {self.BUBBLE_PADDING}px;
-                border-radius: 8px;
-            """)
-        
-        # 计算并应用黄金比例尺寸
-        self._calculate_golden_size(text, max_width)
-
-        # 淡出动画(优化销毁逻辑)
-        self._fade_anim = QPropertyAnimation(self, b"windowOpacity", self)
-        self._fade_anim.setDuration(400)
-        self._fade_anim.setStartValue(1.0)
-        self._fade_anim.setEndValue(0.0)
-        self._fade_anim.finished.connect(self._on_fade_finished)
-
-        self._life_timer = QTimer(self)
-        self._life_timer.setSingleShot(True)
-        self._life_timer.timeout.connect(self._fade_anim.start)
-
-    def _calculate_golden_size(self, text: str, max_width: int):
-        """
-        计算符合黄金比例的气泡尺寸（终极修复版）
-        核心改进：
-        1. 使用实际 QLabel 测量真实渲染尺寸（而非 QFontMetrics 理论值）
-        2. CSS padding 已包含在测量中，确保文本完整显示
-        3. 主动搜索最接近黄金比例的宽度
-        """
-        # 创建临时测量标签（应用相同样式）
-        temp_label = QLabel(text)
-        temp_label.setWordWrap(True)
-        temp_label.setAlignment(Qt.AlignLeft | Qt.AlignVCenter)
-        
-        # 应用相同的样式
-        if self.bg_pixmap:
-            temp_label.setStyleSheet(f"""
-                background: transparent;
-                color: white;
-                padding: {self.BUBBLE_PADDING}px;
-            """)
-        else:
-            temp_label.setStyleSheet(f"""
-                background: rgba(40, 40, 40, 210);
-                color: white;
-                padding: {self.BUBBLE_PADDING}px;
-                border-radius: 8px;
-            """)
-        
-        # 定义搜索范围（注意：这里是包含 padding 的总宽度）
-        min_bubble_width = 150
-        max_bubble_width = max_width
-        
-        # 存储最优方案
-        best_width = max_bubble_width
-        best_height = 0
-        best_ratio_diff = float('inf')
-        
-        # 阶段1：粗搜索（步长 25px）
-        step = 25
-        for test_width in range(min_bubble_width, max_bubble_width + 1, step):
-            # 设置测试宽度并让 QLabel 自适应高度
-            temp_label.setFixedWidth(test_width)
-            temp_label.adjustSize()
-            
-            # 获取实际渲染后的高度（包含 padding）
-            test_height = temp_label.height()
-            
-            # 计算当前高宽比
-            current_ratio = test_height / test_width if test_width > 0 else 0
-            ratio_diff = abs(current_ratio - self.GOLDEN_RATIO)
-            
-            # 记录最接近黄金比例的配置
-            if ratio_diff < best_ratio_diff:
-                best_ratio_diff = ratio_diff
-                best_width = test_width
-                best_height = test_height
-        
-        # 阶段2：精细搜索（在最优宽度附近 ±50px，步长 5px）
-        fine_search_start = max(min_bubble_width, best_width - 50)
-        fine_search_end = min(max_bubble_width, best_width + 50)
-        
-        for test_width in range(fine_search_start, fine_search_end + 1, 5):
-            temp_label.setFixedWidth(test_width)
-            temp_label.adjustSize()
-            test_height = temp_label.height()
-            
-            current_ratio = test_height / test_width if test_width > 0 else 0
-            ratio_diff = abs(current_ratio - self.GOLDEN_RATIO)
-            
-            if ratio_diff < best_ratio_diff:
-                best_ratio_diff = ratio_diff
-                best_width = test_width
-                best_height = test_height
-        
-        # 最终验证：使用最优宽度再次测量，确保准确
-        temp_label.setFixedWidth(best_width)
-        temp_label.adjustSize()
-        final_width = best_width
-        final_height = temp_label.height()
-        
-        # 安全边界检查
-        final_width = max(150, min(final_width, max_width))
-        final_height = max(50, final_height)
-        
-        # 设置整体窗口尺寸
-        self.setFixedSize(final_width, final_height)
-        
-        # 如果有背景图片，缩放并应用到背景层（绝对定位）
-        if self.bg_pixmap:
-            scaled_bg = self.bg_pixmap.scaled(
-                final_width, final_height,
-                Qt.IgnoreAspectRatio,  # 拉伸填充
-                Qt.SmoothTransformation
-            )
-            self.bg_label.setPixmap(scaled_bg)
-            # 背景层完全覆盖整个窗口
-            self.bg_label.setGeometry(0, 0, final_width, final_height)
-            # 确保背景在底层
-            self.bg_label.lower()
-        
-        # 文本层也使用绝对定位，完全覆盖整个窗口
-        self.text_label.setGeometry(0, 0, final_width, final_height)
-        
-        # 如果有背景，确保文本层在上方
-        if self.bg_pixmap:
-            self.text_label.raise_()
-        
-        # 清理临时对象
-        temp_label.deleteLater()
-
-    def _on_fade_finished(self):
-        """淡出后销毁，避免内存泄漏"""
-        self.hide()
-        self.deleteLater()
-
-    def set_lifetime(self, seconds: int):
-        self._life_timer.setInterval(max(1, int(seconds)) * 1000)
-
-    def _clamp_to_screen(self):
-        """修正位置，确保气泡在屏幕内"""
-        geo = self.frameGeometry()
-        screen = QGuiApplication.screenAt(geo.center()) or QGuiApplication.primaryScreen()
-        avail = screen.availableGeometry()
-
-        # 修正坐标
-        geo.moveLeft(max(avail.left() + 10, min(geo.left(), avail.right() - geo.width() - 10)))
-        geo.moveTop(max(avail.top() + 10, min(geo.top(), avail.bottom() - geo.height() - 10)))
-        self.setGeometry(geo)
-        self.update()  # 触发重绘
-
-    def popup(self, x: int, y: int):
-        self.move(x, y)
-        self._clamp_to_screen()
-        self.setWindowOpacity(1.0)
-        self.show()
-        self.raise_()
-        self._life_timer.start()
 
 
 class PetWindow(QWidget):
@@ -297,16 +82,18 @@ class PetWindow(QWidget):
         self._setup_emoji_label()
         self._setup_animation()
         self._load_image()
-        self._setup_chat()
-        self._setup_screen_watch()
+
+        # 优化启动速度：延迟初始化重型组件
+        QTimer.singleShot(200, self._setup_chat)
+        QTimer.singleShot(500, self._setup_screen_watch)
 
         # 单击/双击区分
         self._click_timer = QTimer(self)
         self._click_timer.setSingleShot(True)
         self._click_timer.timeout.connect(self._trigger_poke)
 
-        # 屏幕观察器初始化
-        self.screen_observer = ScreenObserver(self, self.settings)
+        # 屏幕观察器延迟初始化，此处仅占位
+        self.screen_observer = None
 
     def _setup_emoji_label(self):
         """初始化表情显示Label（九宫格右上角）"""
@@ -333,6 +120,11 @@ class PetWindow(QWidget):
 
     # ---------------- 屏幕观察定时器 ----------------
     def _setup_screen_watch(self):
+        # 懒加载 ScreenObserver
+        if self.screen_observer is None:
+            from vision.screen_observer import ScreenObserver
+            self.screen_observer = ScreenObserver(self, self.settings)
+
         self.screen_watch_timer = QTimer(self)
         self.screen_watch_timer.timeout.connect(self._on_screen_watch_timeout)
         self._apply_screen_watch_settings()
@@ -563,6 +355,10 @@ class PetWindow(QWidget):
     def _ensure_vision_client(self):
         if self.vision_client or not self.settings:
             return
+        
+        # 懒加载 QwenVisionClient
+        from vision.qwen_vision import QwenVisionClient
+
         api_url = self.settings.get("vision", "api_url", default="https://api.siliconflow.cn/v1/chat/completions")
         api_key = self.settings.get("vision", "api_key", default="")
         model = self.settings.get("vision", "model", default="Qwen/Qwen3-VL-32B-Instruct")
