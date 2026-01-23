@@ -7,13 +7,14 @@ from PySide6.QtCore import Qt
 from gui.pet_window import PetWindow
 from gui.tray import AppTray
 from settings_manager import SettingsManager
-from utils import resource_path
+from utils import resource_path, ResourceManager
 
 def main():
     app = QApplication(sys.argv)
 
     # 显示启动画面
-    splash_pix = QPixmap(resource_path("assets/images/pet.png"))
+    # 使用 ResourceManager 加载资源
+    splash_pix = ResourceManager.get_instance().get_image("assets/images/pet.png")
     if not splash_pix.isNull():
         # 稍微放大一点启动图，或者保持原样
         splash = QSplashScreen(splash_pix, Qt.WindowStaysOnTopHint)
@@ -35,7 +36,8 @@ def main():
 
     menu = AppTray.create_main_menu(app, pet)
     pet.set_context_menu(menu)
-    tray_icon_path = resource_path("assets/images/icon.ico")
+    # 传递相对路径给 AppTray，由内部 ResourceManager 处理
+    tray_icon_path = "assets/images/icon.ico"
     tray = AppTray(app, pet_window=pet, icon_path=tray_icon_path, menu=menu)
     sys.exit(app.exec())
 if __name__ == "__main__":

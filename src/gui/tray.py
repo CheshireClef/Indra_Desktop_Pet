@@ -2,7 +2,7 @@ import os
 from PySide6.QtWidgets import QSystemTrayIcon, QMenu
 from PySide6.QtGui import QIcon, QAction
 import webbrowser  # 新增：导入浏览器模块
-from utils import resource_path
+from utils import resource_path, ResourceManager
 from PySide6.QtWidgets import QStyle
 
 class AppTray:
@@ -15,12 +15,11 @@ class AppTray:
         self.app = app
         self.window = pet_window
 
-        # 核心修改：托盘图标路径改用 resource_path 处理
+        # 核心修改：使用 ResourceManager 加载图标
         if icon_path:
-            icon_abs_path = resource_path(icon_path)
-            if os.path.exists(icon_abs_path):
-                icon = QIcon(icon_abs_path)
-            else:
+            icon = ResourceManager.get_instance().get_icon(icon_path)
+            # 如果加载失败（返回空图标），使用默认图标
+            if icon.isNull():
                 icon = app.style().standardIcon(QStyle.SP_DesktopIcon)
         else:
             icon = app.style().standardIcon(QStyle.SP_DesktopIcon)
