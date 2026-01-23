@@ -40,6 +40,7 @@ class ChatBubble(QWidget):
             "background: rgba(30,30,30,200);"
             "color: white;"
             "border-radius: 8px;"
+            "font-size: 13px;"
         )
 
         self.input_edit = QLineEdit()
@@ -48,6 +49,8 @@ class ChatBubble(QWidget):
             "background: rgba(255,255,255,230);"
             "border-radius: 6px;"
             "padding: 6px;"
+            "color: #000000;"
+            "font-size: 13px;"
         )
 
         layout.addWidget(self.chat_view)

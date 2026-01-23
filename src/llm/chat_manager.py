@@ -182,53 +182,49 @@ class ChatManager:
             return None
 
         # ========== 新增：检测数据文件更新 ==========
-        mtime_file = persist_dir / "data_mtime.json"  # 记录数据文件最后修改时间的文件
+        mtime_file = persist_dir / "data_mtime.json"
         current_mtime = self._get_data_dir_mtime(data_dir)
-        need_rebuild = False  # 是否需要重建索引
+        need_rebuild = False
 
-        # 检查是否需要重建索引
         if persist_dir.exists():
             try:
-                # 读取已保存的修改时间
                 with open(mtime_file, "r", encoding="utf-8") as f:
                     saved_mtime = json.load(f).get("total_mtime", 0.0)
-                # 对比时间：如果当前数据文件修改时间总和不同，说明有更新
-                if abs(current_mtime - saved_mtime) > 0.1:  # 浮点精度容错
+                if abs(current_mtime - saved_mtime) > 0.1:
                     print(f"[ChatManager] {name} 数据文件已更新，将重建索引")
                     need_rebuild = True
             except (FileNotFoundError, json.JSONDecodeError):
-                # 无记录文件/文件损坏 → 重建并生成新记录
                 print(f"[ChatManager] {name} 无更新记录/记录损坏，将重建索引")
                 need_rebuild = True
         else:
-            # 无索引目录 → 首次构建
             need_rebuild = True
 
-        # ========== 原有分块逻辑（完全保留） ==========
+        # ========== 优化分块策略（核心改进）==========
         if is_lore:
-            # Lore：通用剧情/事实分块，优先按空行拆分
+            # Lore：针对长篇故事优化
             node_parser = SentenceSplitter(
-                chunk_size=1000,
-                chunk_overlap=150,
-                # 仅用单个字符串（旧版本要求）
+                chunk_size=800,      # 调小chunk，提高精度（原1000）
+                chunk_overlap=200,   # 增大overlap，保留上下文（原150）
                 paragraph_separator="\n\n",
-                separator="。"  # 中文核心句子分隔符（单个字符串）
+                separator="。"
             )
             reader = SimpleDirectoryReader(
                 str(data_dir),
                 recursive=True,
                 encoding="utf-8",
-                # 关键修正：将字符串路径转Path对象后再取name
-                file_metadata=lambda file_path: {"file_name": Path(file_path).name}
+                # 🔥 关键改进：标记文件类型
+                file_metadata=lambda file_path: {
+                    "file_name": Path(file_path).name,
+                    "file_type": "facts" if Path(file_path).name.endswith(".facts.txt") else "story"
+                }
             )
         else:
-            # Style：日文语料分块，适配短台词
+            # Style：保持原有策略
             node_parser = SentenceSplitter(
                 chunk_size=300,
                 chunk_overlap=50,
-                # 仅用单个字符串（旧版本要求）
                 paragraph_separator="\n",
-                separator="、"  # 日文核心句子分隔符（单个字符串）
+                separator="。"
             )
             reader = SimpleDirectoryReader(
                 str(data_dir),
@@ -236,7 +232,7 @@ class ChatManager:
                 encoding="utf-8"
             )
 
-        # ========== 加载/重建索引逻辑（新增更新检测） ==========
+        # ========== 加载/重建索引逻辑（新增更新检测）==========
         if persist_dir.exists() and not need_rebuild:
             try:
                 storage = StorageContext.from_defaults(persist_dir=str(persist_dir))
@@ -262,9 +258,7 @@ class ChatManager:
 
         # 保存索引 + 记录当前数据文件修改时间
         index.storage_context.persist(persist_dir=str(persist_dir))
-        # 确保persist_dir存在（首次构建时创建）
         persist_dir.mkdir(parents=True, exist_ok=True)
-        # 写入修改时间记录
         with open(mtime_file, "w", encoding="utf-8") as f:
             json.dump({"total_mtime": current_mtime}, f, ensure_ascii=False)
         
@@ -276,27 +270,55 @@ class ChatManager:
             return ""
 
         contexts = []
-        # 1. Lore：纯向量检索（优化参数适配旧版本）
+        
+        # 1. Lore：混合检索策略（优化后）
         if self.lore_index:
+            # 🔥 策略1：向量检索（语义相似）
             lore_engine = self.lore_index.as_retriever(
-                similarity_top_k=8,
-                similarity_cutoff=0.2
+                similarity_top_k=12,     # 增加召回数量（原8）
+                similarity_cutoff=0.15   # 降低阈值，提高召回（原0.2）
             )
             lore_nodes = lore_engine.retrieve(query)
             
-            unique_nodes = []
-            seen_content = set()
+            # 🔥 策略2：优先选择facts文件的结果
+            facts_nodes = []
+            story_nodes = []
+            
             for node in lore_nodes:
+                metadata = node.metadata or {}
+                file_type = metadata.get("file_type", "story")
+                
+                if file_type == "facts":
+                    facts_nodes.append(node)
+                else:
+                    story_nodes.append(node)
+            
+            # 🔥 策略3：智能组合（facts提供关键信息，story提供细节）
+            selected_nodes = []
+            
+            # 优先取facts节点（结构化，准确度高）
+            for node in facts_nodes[:2]:
                 content = node.get_content().strip()
-                if content not in seen_content and len(content) > 50:
-                    seen_content.add(content)
-                    unique_nodes.append(node)
-
-            if unique_nodes:
+                if len(content) > 30:
+                    selected_nodes.append(node)
+                    print(f"[RAG-Lore-Facts] 匹配结果：{node.score:.3f} | {content[:50]}...")
+            
+            # 补充story节点（提供细节）
+            for node in story_nodes[:2]:
+                content = node.get_content().strip()
+                if len(content) > 50:
+                    selected_nodes.append(node)
+                    print(f"[RAG-Lore-Story] 匹配结果：{node.score:.3f} | {content[:50]}...")
+            
+            # 去重并拼接
+            if selected_nodes:
                 contexts.append("【剧情记忆】")
-                for n in unique_nodes[:3]:
-                    contexts.append(n.get_content().strip())
-                    print(f"[RAG-Lore] 匹配结果：{n.score:.3f} | {n.get_content()[:50]}...")
+                seen_content = set()
+                for n in selected_nodes:
+                    content = n.get_content().strip()
+                    if content not in seen_content:
+                        seen_content.add(content)
+                        contexts.append(content)
 
         # 2. Style：降低重复频率（核心逻辑保留）
         if self.style_index:
