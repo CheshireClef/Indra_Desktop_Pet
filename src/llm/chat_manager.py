@@ -38,8 +38,13 @@ class ChatManager:
             "5. 标签仅用于后台统计，不要体现在对话内容中。"
         ).format(','.join(self.VALID_EMOTION_TAGS))
     
-    def __init__(self, settings_manager, persona_path: str):
-        self.sm = settings_manager
+    def __init__(self, settings_manager=None, persona_path: str = ""):
+        if settings_manager:
+            self.sm = settings_manager
+        else:
+            from settings_manager import SettingsManager
+            self.sm = SettingsManager.get_instance()
+            
         self.persona_path = resource_path(persona_path)
 
         self.chat_history = []

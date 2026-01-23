@@ -3,6 +3,7 @@ import json
 import os
 import copy
 from typing import Any, Dict
+from PySide6.QtCore import QObject, Signal
 
 DEFAULTS = {
     "pet": {
@@ -36,11 +37,21 @@ DEFAULTS = {
 }
 
 
-class SettingsManager:
-    def __init__(self, path: str):
-        self.path = path
-        self._data: Dict[str, Any] = {}
-        self.load()
+class SettingsManager(QObject):
+    _instance = None
+    settings_changed = Signal()
+
+    def __init__(self, path: str = None):
+        super().__init__()
+        if path:
+            self.path = path
+            self._data: Dict[str, Any] = {}
+            self.load()
+            SettingsManager._instance = self
+
+    @classmethod
+    def get_instance(cls):
+        return cls._instance
 
     def load(self):
         if not os.path.exists(self.path):
@@ -76,6 +87,7 @@ class SettingsManager:
     def save(self):
         with open(self.path, "w", encoding="utf-8") as f:
             json.dump(self._data, f, ensure_ascii=False, indent=2)
+        self.settings_changed.emit()
 
     def get(self, *keys, default=None):
         d = self._data

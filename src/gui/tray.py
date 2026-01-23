@@ -36,6 +36,24 @@ class AppTray:
         self.tray.activated.connect(self._on_activated)
         self.tray.show()
 
+        # 绑定配置变更信号，实现菜单文字实时刷新
+        from settings_manager import SettingsManager
+        self.sm = SettingsManager.get_instance()
+        if self.sm:
+            self.sm.settings_changed.connect(self._update_menu_status)
+
+    def _update_menu_status(self):
+        """配置变更时刷新菜单项文本"""
+        if not self.menu or "screen_watch" not in self.menu._actions_refs:
+            return
+        
+        try:
+            enabled = self.sm.get("behavior", "screen_watch_enabled", default=False)
+            action = self.menu._actions_refs["screen_watch"]
+            action.setText("屏幕监视：开启" if enabled else "屏幕监视：关闭")
+        except Exception:
+            pass
+
     @staticmethod
     def create_main_menu(app, pet_window):
         menu = QMenu()
@@ -102,15 +120,12 @@ class AppTray:
                 )
                 new = not current
                 sm.set("behavior", "screen_watch_enabled", value=new)
-
-                screen_watch_action.setText(
-                    "屏幕监视：开启" if new else "屏幕监视：关闭"
-                )
-
-                # 核心修复：调用PetWindow的方法使配置实时生效
-                # 替代原来不存在的 on_screen_watch_toggled 方法
-                if hasattr(pet_window, "_apply_screen_watch_settings"):
-                    pet_window._apply_screen_watch_settings()
+                
+                # 注意：
+                # 1. sm.set 会触发 settings_changed 信号
+                # 2. AppTray._update_menu_status 会响应信号更新菜单文字
+                # 3. PetWindow._on_settings_changed 会响应信号更新功能状态
+                # 因此无需手动更新 text 或调用 _apply_screen_watch_settings
 
             except Exception as e:
                 print("[Tray] toggle_screen_watch error:", e)

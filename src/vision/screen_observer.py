@@ -10,15 +10,21 @@ class ScreenObserver(QObject):
     hide_pet = Signal()
     # 信号：通知主线程恢复桌宠
     restore_pet = Signal()
-    def __init__(self, pet_window, settings_manager):
+    def __init__(self, pet_window, settings_manager=None):
         """
         pet_window: PetWindow 实例
-        settings_manager: SettingsManager 实例
+        settings_manager: SettingsManager 实例 (可选，默认使用单例)
         """
         super().__init__()
         self.pet_window = pet_window
-        self.sm = settings_manager
-
+        
+        # 优化：使用单例模式获取 SettingsManager
+        if settings_manager:
+            self.sm = settings_manager
+        else:
+            from settings_manager import SettingsManager
+            self.sm = SettingsManager.get_instance()
+        
         # 调整：统一使用resource_path处理截图保存目录
         self.output_dir = Path(resource_path("screenshots"))
         self.output_dir.mkdir(parents=True, exist_ok=True)

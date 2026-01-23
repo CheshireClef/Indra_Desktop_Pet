@@ -60,7 +60,18 @@ class PetWindow(QWidget):
         # 路径处理
         self.image_path = resource_path(image_path) if image_path else ""
         self.icon_path = resource_path(icon_path) if icon_path else ""
-        self.settings = settings_manager
+        
+        # 优化：使用单例模式获取 SettingsManager（如果未传入）
+        if settings_manager:
+            self.settings = settings_manager
+        else:
+            from settings_manager import SettingsManager
+            self.settings = SettingsManager.get_instance()
+
+        if self.settings:
+            # 绑定配置变更信号，实现实时刷新
+            self.settings.settings_changed.connect(self._on_settings_changed)
+
         self._context_menu = None
 
         # 截图用临时属性（主线程存储，避免跨线程访问）
@@ -81,7 +92,7 @@ class PetWindow(QWidget):
         # 新增：初始化表情Label
         self._setup_emoji_label()
         self._setup_animation()
-        self._load_image()
+        self._load_image(reset_pos=True)
 
         # 优化启动速度：延迟初始化重型组件
         QTimer.singleShot(200, self._setup_chat)
@@ -173,7 +184,7 @@ class PetWindow(QWidget):
         self.hide()  # 初始隐藏，等动画加载
 
     # ---------------- 图片加载 ----------------
-    def _load_image(self):
+    def _load_image(self, reset_pos=False):
         """加载动画帧或透明占位图"""
         idle_first_frame = self.animation.get_idle_first_frame()
         pix = idle_first_frame if idle_first_frame else QPixmap(BASE_SIZE, BASE_SIZE)
@@ -214,11 +225,12 @@ class PetWindow(QWidget):
         # 唯一一次设置位置（后续永不修改）
         self.emoji_label.setGeometry(emoji_x, emoji_y, emoji_width, emoji_height)
 
-        screen = self.screen().availableGeometry()
-        self.move(
-            screen.right() - pix.width() - 30,
-            screen.bottom() - pix.height() - 30
-        )
+        if reset_pos:
+            screen = self.screen().availableGeometry()
+            self.move(
+                screen.right() - pix.width() - 30,
+                screen.bottom() - pix.height() - 30
+            )
         self.update()  # 确保图片显示完整
 
     # ---------------- 动画初始化 ----------------
@@ -336,20 +348,42 @@ class PetWindow(QWidget):
         else:
             self.hide_window()
 
+    def _on_settings_changed(self):
+        """配置变更时的自动刷新逻辑"""
+        print("[PetWindow] 检测到配置变更，正在刷新...")
+        
+        # 1. 刷新外观（缩放/图片），不重置位置
+        self._load_image(reset_pos=False)
+        
+        # 2. 刷新定时器间隔
+        try:
+            idle_s = int(self.settings.get("behavior", "idle_interval_s", default=7))
+            current_interval = self.idle_timer.interval()
+            new_interval = max(1, idle_s) * 1000
+            if current_interval != new_interval:
+                self.idle_timer.setInterval(new_interval)
+        except Exception:
+            pass
+            
+        # 3. 刷新屏幕观察设置
+        self._apply_screen_watch_settings()
+        
+        # 4. 刷新视觉模型配置（如果在运行时修改了API Key）
+        if self.vision_client:
+             # 如果需要支持热更新 Vision Client，可以在这里重新初始化
+             # 目前暂且保留现有实例，下次调用 _ensure_vision_client 时若为None会重建
+             pass
+             
+        self.update()
+
     # ---------------- 设置窗口 ----------------
     def open_settings_window(self):
         if not self.settings:
             return
+        # 设置窗口只需负责修改 SettingsManager，保存时会自动触发 settings_changed 信号
+        # 从而调用上面的 _on_settings_changed 方法
         dlg = self._SettingsDialog(self.settings, parent=self)
-        if dlg.exec():
-            self._load_image()
-            try:
-                idle_s = int(self.settings.get("behavior", "idle_interval_s", default=7))
-                self.idle_timer.setInterval(max(1, idle_s) * 1000)
-            except Exception:
-                pass
-            self._apply_screen_watch_settings()
-            self.update()
+        dlg.exec()
 
     # ---------------- 视觉功能 ----------------
     def _ensure_vision_client(self):
