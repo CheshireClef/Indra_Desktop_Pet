@@ -1,0 +1,815 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna, Yudhishthira, Kripa, and the other four Pandava brothers travel to Kurukshetra in grand chariots.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira",
+        "Kripa",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "action": "Travel",
+      "location": "Kurukshetra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "They arrive at Kurukshetra, which is described as a gruesome battlefield filled with remains of warriors, elephants, horses, and haunted by rakshasas and ghosts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira",
+        "Kripa",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "action": "Arrival/Observation",
+      "location": "Kurukshetra",
+      "supernatural_elements": [
+        "Rakshasas",
+        "Ghosts"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna tells Yudhishthira about the valor of Parashurama, pointing out the 'Rama lakes' filled with Kshatriya blood, and mentions Parashurama had exterminated Kshatriyas from the earth twenty-one times.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira",
+        "Parashurama"
+      ],
+      "action": "Narration/Explanation",
+      "topic": "Parashurama's deeds"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira expresses doubt to Krishna about how Kshatriyas could have been exterminated twenty-one times yet still exist, especially after the recent mass deaths in the Kurukshetra war.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Krishna"
+      ],
+      "action": "Question/Doubt",
+      "topic": "Paradox of Kshatriya extermination and revival"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna begins to explain to Yudhishthira how the earth became repopulated with Kshatriyas after Parashurama's exterminations, drawing from stories heard from sages.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira"
+      ],
+      "action": "Explanation/Narration",
+      "topic": "Revival of Kshatriyas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna narrates the lineage: Jahnu had a son Aja-jahnu, who had a son Prabha, who had a son Kushika, a righteous king.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira",
+        "Jahnu",
+        "Aja-jahnu",
+        "Prabha",
+        "Kushika"
+      ],
+      "action": "Lineage narration",
+      "relationships": [
+        "Father-son: Jahnu -> Aja-jahnu -> Prabha -> Kushika"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Kushika performed severe austerities to obtain an invincible son who would be lord of the three worlds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kushika"
+      ],
+      "action": "Austerities",
+      "goal": "Obtain a powerful son"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra, seeing Kushika's austerities, incarnated as his son, named Gathi.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Kushika",
+        "Gathi"
+      ],
+      "action": "Divine incarnation",
+      "relationships": [
+        "Father-son: Kushika -> Gathi (Indra incarnate)"
+      ],
+      "supernatural_elements": [
+        "Divine incarnation by Indra"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gathi had a daughter named Satyavati, who was married to Rishika, son of the poet.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gathi",
+        "Satyavati",
+        "Rishika"
+      ],
+      "action": "Marriage",
+      "relationships": [
+        "Father-daughter: Gathi -> Satyavati",
+        "Marriage: Satyavati -> Rishika"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rijika, descendant of Bhrigu, prepared milk porridge to grant his wife a son and his mother-in-law a son.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rijika",
+        "Satyavati"
+      ],
+      "action": "Preparation of magical milk porridge",
+      "purpose": "To grant sons with specific qualities"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rijika instructed Satyavati to consume one portion of the porridge herself and give the other to her mother.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rijika",
+        "Satyavati"
+      ],
+      "instruction": "Distribution of porridge portions",
+      "expected_outcome": "Satyavati would bear a Brahmin son; her mother would bear a Kshatriya son"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Gadhi arrived at Rijika's hermitage with his wife while Rijika was away.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Gadhi",
+        "Satyavati's mother"
+      ],
+      "context": "Pilgrimage visit"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyavati's mother unknowingly swapped the porridge portions, taking her daughter's portion and giving her own to Satyavati.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyavati's mother",
+        "Satyavati"
+      ],
+      "action": "Accidental swap of porridge portions",
+      "consequence": "Reversal of intended fates"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rijika, through meditation, discovered the swap and informed Satyavati that she would now bear a cruel Kshatriya son while her brother would be a Brahmin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rijika",
+        "Satyavati"
+      ],
+      "revelation": "Porridge swap consequences",
+      "supernatural_element": "Divine insight through meditation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyavati pleaded with Rijika to ensure her son would be peaceful and righteous, leading to a compromise about their grandson.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyavati",
+        "Rijika"
+      ],
+      "negotiation": "Compromise about grandson's nature",
+      "agreement": "Grandson would be peaceful instead"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyavati gave birth to Jamadagni, a peaceful ascetic Brahmin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyavati",
+        "Jamadagni"
+      ],
+      "relationship": "Mother and son",
+      "qualities": "Peaceful, ascetic, Brahmin"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Gadhi's wife gave birth to Vishvamitra, who possessed cosmic Brahman qualities like a Brahma-rishi.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Gadhi's wife",
+        "Vishvamitra"
+      ],
+      "relationship": "Mother and son",
+      "qualities": "Cosmic Brahman, Brahma-rishi status"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Jamadagni later fathered Parashurama, a terrifying son skilled in all knowledge and archery, destined to exterminate Kshatriyas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jamadagni",
+        "Parashurama"
+      ],
+      "relationship": "Father and son",
+      "destiny": "Exterminator of Kshatriyas",
+      "fulfillment": "Of the porridge swap prophecy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna (Kartavirya Arjuna) used his power and weapons to burn the entire earth, including the seven continents and towns.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna (Kartavirya Arjuna)"
+      ],
+      "action": "Destruction by fire",
+      "supernatural_elements": "Use of divine weapons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Agni (Fire God), hungry and thirsty, asked for alms, and Arjuna gave alms to Agni.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna (Kartavirya Arjuna)",
+        "Agni"
+      ],
+      "action": "Almsgiving",
+      "relationship": "Arjuna helps Agni"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Agni, desiring to burn, used Arjuna's arrows to burn villages, cities, pastures, and towns.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Agni",
+        "Arjuna (Kartavirya Arjuna)"
+      ],
+      "action": "Destruction by fire",
+      "supernatural_elements": "Agni uses Arjuna's arrows"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Agni, with Arjuna's power, burned mountains and forests.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Agni",
+        "Arjuna (Kartavirya Arjuna)"
+      ],
+      "action": "Destruction by fire"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Agni, with Arjuna and wind, burned the hermitage of Varuna's son (Apava's hermitage).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Agni",
+        "Arjuna (Kartavirya Arjuna)",
+        "Apava (Vasistha)"
+      ],
+      "action": "Destruction by fire",
+      "relationship": "Apava's hermitage destroyed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Apava (Vasistha), seeing his hermitage burned by Arjuna, angrily cursed Arjuna that Rama (Parashurama) would cut off his thousand arms in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Apava (Vasistha)",
+        "Arjuna (Kartavirya Arjuna)",
+        "Rama (Parashurama)"
+      ],
+      "action": "Curse",
+      "relationship": "Apava curses Arjuna, foretelling Rama's action"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna's sons stole the calf of Apava's son (Jamadagni), and Arjuna did not know.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna's sons",
+        "Apava's son (Jamadagni)",
+        "Arjuna (Kartavirya Arjuna)"
+      ],
+      "action": "Theft",
+      "relationship": "Arjuna's sons antagonize Jamadagni"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rama (Parashurama), son of Jamadagni, cut off Arjuna's thousand arms and brought the crying calf back to his hermitage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rama (Parashurama)",
+        "Arjuna (Kartavirya Arjuna)",
+        "Jamadagni"
+      ],
+      "action": "Violent retribution",
+      "relationship": "Rama avenges the theft, fulfilling Apava's curse"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna's foolish sons gathered and went to Jamadagni's hermitage, cutting off Jamadagni's head with crescent arrows while Rama was out gathering firewood.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna's sons",
+        "Jamadagni",
+        "Rama (Parashurama)"
+      ],
+      "action": "Murder",
+      "relationship": "Arjuna's sons kill Jamadagni, escalating conflict"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rama, unable to bear his father's death, became extremely angry, took up weapons, and vowed to exterminate all Kshatriyas on earth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rama (Parashurama)"
+      ],
+      "action": "Vow of genocide",
+      "relationship": "Rama seeks revenge for Jamadagni's death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rama killed all of Arjuna's sons and grandsons, then killed thousands of Haihayas and covered the earth with blood and mud.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rama (Parashurama)",
+        "Arjuna's sons and grandsons",
+        "Haihayas"
+      ],
+      "action": "Mass killing",
+      "relationship": "Rama executes his vow against Kshatriyas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After exterminating Kshatriyas on earth, Rama returned to his hermitage with compassion.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rama (Parashurama)"
+      ],
+      "action": "Return",
+      "relationship": "Rama temporarily ends his campaign"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After thousands of years, Rama was severely attacked by Richika's grandson, son of Chyavana, the great ascetic Aurva, who publicly accused Rama of making a false vow and hiding from Kshatriya heroes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rama (Parashurama)",
+        "Aurva"
+      ],
+      "action": "Accusation",
+      "relationship": "Aurva challenges Rama's vow"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Hearing Aurva's words, Rama again took up weapons and killed hundreds of Kshatriyas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rama (Parashurama)"
+      ],
+      "action": "Mass killing",
+      "relationship": "Rama resumes his extermination campaign"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Later, hundreds of surviving Kshatriyas multiplied and became valiant kings, and Rama quickly killed them, including children, leaving only Kshatriya fetuses on earth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rama (Parashurama)"
+      ],
+      "action": "Genocide",
+      "relationship": "Rama repeatedly kills Kshatriyas to prevent their resurgence"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Whenever fetuses were born, Rama killed them again.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rama (Parashurama)"
+      ],
+      "action": "Continuous killing",
+      "relationship": "Rama maintains his vow by killing newborn Kshatriyas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rama (Parashurama) eliminated the Kshatriyas from the earth twenty-one times and performed the Ashvamedha sacrifice, then donated the earth to Kashyapa.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rama (Parashurama)",
+        "Kashyapa"
+      ],
+      "action": "Mass elimination of Kshatriyas and donation of earth",
+      "supernatural_elements": "Ashvamedha sacrifice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kashyapa, to protect the remaining Kshatriyas, ordered Rama to go to the southern shore of the ocean, and the ocean created a region named Shurparaka for him out of fear.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kashyapa",
+        "Rama (Parashurama)",
+        "Ocean"
+      ],
+      "action": "Exile of Rama and creation of new land",
+      "relationships": "Kashyapa protects Kshatriyas from Rama"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kashyapa accepted the earth, gave it to Brahmins to inhabit, and then entered the great forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kashyapa",
+        "Brahmins"
+      ],
+      "action": "Distribution of earth and retirement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Without a king, Shudras and Vaishyas acted arbitrarily, living with Brahmin wives, and the weak were oppressed by the strong, causing the earth to sink into hell.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shudras",
+        "Vaishyas",
+        "Brahmins"
+      ],
+      "action": "Social disorder and earth's decline",
+      "consequences": "Earth sinking due to lack of protection"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kashyapa supported the sinking earth with his thigh, giving it the name Urvi.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kashyapa",
+        "Earth Goddess"
+      ],
+      "action": "Physical support of earth",
+      "supernatural_elements": "Earth sinking and being propped up"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Earth Goddess appealed to Kashyapa for protection, revealing hidden Kshatriyas from the Haihaya family and others in various locations.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Earth Goddess",
+        "Kashyapa"
+      ],
+      "action": "Plea for Kshatriya protectors",
+      "revealed_characters": [
+        "Viduratha's son (raised by bears)",
+        "Shodasha's son (protected by Parashara)",
+        "Shivi's son (protected by cattle)",
+        "Tundikera's son (raised with calves)",
+        "Anga (protected by Gautama)",
+        "Great-armed Riksha (protected by monkeys)",
+        "Three Kshatriyas of Durvasu (protected by ocean)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kashyapa found these heroic Kshatriyas and anointed them as kings according to Earth Goddess's wish.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kashyapa",
+        "Hidden Kshatriyas"
+      ],
+      "action": "Coronation of new kings",
+      "relationships": "Kashyapa establishes new ruling lineage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "These Kshatriyas maintained their families thereafter, as narrated by Vaishampayana to Janamejaya.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kshatriyas",
+        "Vaishampayana",
+        "Janamejaya"
+      ],
+      "action": "Continuation of Kshatriya lineage",
+      "narrative_context": "Historical account"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna finished speaking to Yudhishthira and swiftly drove his chariot forward like the sun entering the three worlds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira"
+      ],
+      "action": "Conclusion of discourse and departure",
+      "supernatural_elements": "Solar simile for Krishna's movement"
+    },
+    "_token_interval": null
+  }
+]

@@ -1,0 +1,605 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi addresses Yudhishthira, questioning why Dharma has not protected him despite his devotion to it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "Yudhishthira"
+      ],
+      "type": "Dialogue/Questioning",
+      "relationships": [
+        "Wife addressing husband",
+        "Questioning Dharma's protection"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi lists Yudhishthira's virtues: devotion to Dharma, generosity, humility, and regular performance of sacrifices.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "Yudhishthira"
+      ],
+      "type": "Character Description",
+      "virtues": [
+        "Devotion to Dharma",
+        "Generosity to Brahmins",
+        "Humility",
+        "Regular sacrifices"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi recounts Yudhishthira's loss of kingdom, property, weapons, brothers, and herself in an unjust dice game.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Draupadi",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "type": "Past Event Reference",
+      "action": "Loss in dice game",
+      "relationships": [
+        "Brothers (Pandavas)",
+        "Wife"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi expresses confusion and distress over Yudhishthira's suffering despite his righteousness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "Yudhishthira"
+      ],
+      "type": "Emotional Expression",
+      "emotions": [
+        "Confusion",
+        "Distress",
+        "Anxiety"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi explains that all beings are under the control of Ishvara (the Supreme Lord), not their own control, using the analogy of puppets on a stage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi"
+      ],
+      "type": "Philosophical Explanation",
+      "concept": "Divine control over destiny",
+      "supernatural_elements": [
+        "Ishvara's omnipresence and control"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi references an ancient legend about Vishnu (the Sustainer) predetermining happiness, pain, joy, and sorrow for all beings before sowing seeds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "Vishnu"
+      ],
+      "type": "Mythological Reference",
+      "divine_intervention": [
+        "Vishnu's predetermination of fate"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi criticizes the Lord of Creation (Ishvara/Maintainer) for perceived injustice in the world, citing examples of good people suffering and wicked people prospering.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi"
+      ],
+      "action": "Criticism/Philosophical Complaint",
+      "target": "Ishvara (Lord of Creation/Maintainer)",
+      "key_points": [
+        "Compares humans to bound birds, pearls on a string, and trees in a river, all controlled by Ishvara.",
+        "States that Ishvara uses his power of illusion (maya) to delude beings into fighting each other.",
+        "Questions why the wicked Duryodhana prospers while the virtuous Yudhishthira suffers.",
+        "Suggests that if karma follows the doer, then the consequences of evil should fall upon Ishvara himself."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira responds to Draupadi, rebuking her for her disrespectful words toward the divine.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Draupadi"
+      ],
+      "action": "Rebuke/Correction",
+      "relationship": "Husband and wife; Yudhishthira is the eldest Pandava, Draupadi is their shared wife.",
+      "key_points": [
+        "Acknowledges that Draupadi's speech was eloquent.",
+        "States that he performs his duties (giving, sacrificing, following dharma) because it is right, not for reward.",
+        "Emphasizes that his nature is inclined toward righteousness (dharma)."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Morgan Deva, the great ascetic with infinite soul, has just departed after being seen by the speaker.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Morgan Deva"
+      ],
+      "action": "Departure after being witnessed",
+      "supernatural_elements": "Achieved immortality through Dharma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa, Vasistha, Maitreya, Narada, Maumi, Suka, and other excellent-minded sages have achieved accomplishments through Dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Vasistha",
+        "Maitreya",
+        "Narada",
+        "Maumi",
+        "Suka"
+      ],
+      "action": "Achievement through Dharma",
+      "supernatural_elements": "Possess supernatural powers, more powerful than gods in curses and blessings"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker addresses Draupadi, warning against doubt in Dharma and criticizing those who doubt it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Speaker",
+        "Draupadi"
+      ],
+      "action": "Admonition against doubting Dharma",
+      "relationships": "Speaker advising Draupadi"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker explains that Dharma is the only vehicle to heaven, like a ship for merchants crossing the ocean.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Speaker"
+      ],
+      "action": "Explanation of Dharma's importance",
+      "metaphor": "Dharma as ship to heaven"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker questions why sages, gods, Gandharvas, Asuras, and Rakshasas would follow Dharma if it had no results.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Speaker"
+      ],
+      "action": "Rhetorical question about universal adherence to Dharma",
+      "entities_mentioned": [
+        "Sages",
+        "Gods",
+        "Gandharvas",
+        "Asuras",
+        "Rakshasas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text discusses the concept of karma (action and its results), stating that dharma (righteousness) has visible results through learning and asceticism.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Philosophical discourse",
+      "key_points": [
+        "Dharma yields results",
+        "Examples given: Draupadi's birth and King Drupada's birth",
+        "Wise people are satisfied with little while ignorant people remain unsatisfied with much",
+        "Karmic results are secret knowledge guarded by gods"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi responds to the philosophical discourse, stating she does not disrespect dharma or the creator god Ishvara.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi"
+      ],
+      "type": "Defense/Clarification",
+      "key_points": [
+        "Draupadi claims her previous words came from suffering, not disrespect",
+        "She acknowledges she should not criticize Vishnu, the sustainer god"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi argues that all beings must perform actions (karma) to survive, from infancy to deathbed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi"
+      ],
+      "type": "Philosophical argument",
+      "key_points": [
+        "Only inanimate objects exist without action",
+        "Humans and animals perform actions expecting rewards in this life and the next",
+        "All beings live through their own efforts",
+        "Action is necessary for survival and wealth preservation"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi uses the example of herons in water to illustrate how all beings, including gods, rely on their own efforts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi"
+      ],
+      "type": "Analogy",
+      "key_points": [
+        "Even Vishnu (the sustainer) and Brahma (the creator) act",
+        "People should act diligently without slackening",
+        "Wealth requires action to grow and protect"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text discusses different perspectives on the causes of success and failure in human endeavors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Philosophical discourse",
+      "key_points": [
+        "Criticism of those who rely solely on fate or luck",
+        "Praise for those who take action through their own efforts",
+        "Discussion of various causes for outcomes: fate, luck, human effort, or natural occurrence"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text explains that all outcomes (whether from fate, luck, human effort, or natural occurrence) are actually the results of past actions (karma).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Karmic explanation",
+      "key_points": [
+        "All results are fruits of previous deeds",
+        "Maintainer God (Ishvara) arranges work and distributes karma",
+        "Both good and evil deeds are arranged by the Maintainer God as results of past actions"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The human body is described as an instrument through which the Maintainer God acts, making people act involuntarily according to divine will.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Divine agency",
+      "key_points": [
+        "Body is God's tool for various actions",
+        "People act involuntarily under divine influence",
+        "Ishvara arranges what all beings should do"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Strong people with firm resolve are praised as being the cause of their own success through determined action.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Human agency",
+      "key_points": [
+        "Strong people first determine goals in their minds, then act",
+        "They themselves are the cause of success",
+        "Numerous human achievements (houses, cities) demonstrate human capability"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text argues for the necessity of human action, stating that without human agency, there would be no religious rituals, charity, teachers, or students.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Argument for action",
+      "key_points": [
+        "If humans weren't causes of success, there would be no ritual fruits",
+        "People are praised for success and blamed for failure",
+        "How can one not act in this world?"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Different philosophical views are presented: some believe everything depends on luck, some on fate, some on human effort.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Philosophical debate",
+      "key_points": [
+        "Three views: luck, fate, human effort",
+        "Others reject these views since fate and luck are invisible",
+        "Wise people recognize three causes: fate, luck, human effort (no fourth cause)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Maintainer God gives beings results according to their wishes or contrary to their wishes as karmic fruits.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Divine justice",
+      "key_points": [
+        "Ishvara gives appropriate results to all beings",
+        "This explains why some beings suffer",
+        "If past actions had no effect, all efforts would succeed"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker (Karna) discusses the importance of action and perseverance in achieving success, using agricultural metaphors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "type": "Philosophical discourse",
+      "key_points": [
+        "Action leads to results",
+        "Laziness leads to poverty",
+        "Success depends on multiple factors",
+        "One should not blame oneself for failures if effort was made"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna encourages Yudhishthira to take action in their current difficult situation, stating that success would bring glory to all the Pandava brothers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "action": "Encouragement to act",
+      "relationships": [
+        "Karna advising Yudhishthira",
+        "Reference to Pandava brothers"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna recalls his father (Adhiratha) hosting a Brahmin sage in their home who taught these principles.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Adhiratha",
+        "Unnamed Brahmin sage"
+      ],
+      "type": "Flashback/recollection",
+      "relationships": [
+        "Adhiratha is Karna's father",
+        "Brahmin sage taught Adhiratha and Karna's brothers"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin sage taught Karna's brothers the teachings of Brihaspati (Guru of the gods) on righteous conduct.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unnamed Brahmin sage",
+        "Karna's brothers",
+        "Brihaspati"
+      ],
+      "action": "Teaching of righteous principles",
+      "supernatural_elements": [
+        "Reference to Brihaspati, divine preceptor"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna, as a child, sat on his father's lap and listened to the conversation, and the Brahmin kindly explained the teachings to him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Adhiratha",
+        "Unnamed Brahmin sage"
+      ],
+      "action": "Childhood learning experience",
+      "relationships": [
+        "Father-son bond between Adhiratha and Karna",
+        "Brahmin as teacher to young Karna"
+      ]
+    },
+    "_token_interval": null
+  }
+]

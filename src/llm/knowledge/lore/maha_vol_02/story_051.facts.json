@@ -1,0 +1,1057 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Moudgalya (毛密) guides Yudhishthira (坚战) through various sacred sites along the Ganges (恒河) and other locations, explaining their mythological significance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Moudgalya",
+        "Yudhishthira"
+      ],
+      "type": "Guided Tour/Exposition",
+      "locations": [
+        "Shamanga River (沙门伽河)",
+        "Matauvira River (摩吐维罗河)",
+        "Kartamira (迦尔陀弥罗)",
+        "Menaka Mountain (美那迦山)",
+        "Kanakara Mountains (迦纳喀罗山脉)",
+        "Ganges (恒河)",
+        "Punya Lake (补尼耶湖)",
+        "Bhrigu Peak (婆利古峰)",
+        "Mahashira's Ashram (巨首仙人净修林)",
+        "Vamadeva's Ashram (吟赞仙人净修林)"
+      ],
+      "divine_elements": [
+        "Indra (因陀罗) bathing to cleanse sins after killing Vritra (弗栗多)",
+        "Aditi (阿底提) performing rituals for a son",
+        "Narada (永童尊者) attaining supreme achievement"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Moudgalya about the story of the sage Vamadeva (吟赞) and how his son Garga (谷购) was destroyed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Moudgalya"
+      ],
+      "type": "Inquiry",
+      "topic": "Fate of Garga, son of Bharadvaja (婆罗堕遮)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Moudgalya begins recounting the story: Bharadvaja and Vamadeva were close friends living together in the forest. Vamadeva had two scholarly sons, Upamanyu (近财) and Aranyaka (远财), while Bharadvaja had one ascetic son, Garga.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bharadvaja",
+        "Vamadeva",
+        "Upamanyu",
+        "Aranyaka",
+        "Garga"
+      ],
+      "type": "Background/Exposition",
+      "relationships": [
+        "Bharadvaja and Vamadeva are close friends",
+        "Vamadeva is father to Upamanyu and Aranyaka",
+        "Bharadvaja is father to Garga"
+      ],
+      "character_traits": [
+        "Vamadeva and his sons are scholars",
+        "Bharadvaja is an ascetic"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Garga becomes distressed and resentful because his ascetic father Bharadvaja is not respected by the Brahmins, while Vamadeva and his sons are highly respected.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Garga",
+        "Bharadvaja",
+        "Vamadeva",
+        "Upamanyu",
+        "Aranyaka"
+      ],
+      "type": "Emotional Conflict",
+      "action": "Garga feels humiliation and anger",
+      "motivation": "Desire for respect and Vedic knowledge equal to Vamadeva's family"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Garga undertakes severe austerities, placing himself in a blazing fire to torment his body, seeking Vedic knowledge through penance rather than traditional study, causing even Indra to feel the heat.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Garga",
+        "Indra"
+      ],
+      "type": "Austerity/Supernatural",
+      "action": "Extreme tapas (苦行)",
+      "goal": "To acquire all Vedic knowledge",
+      "divine_intervention": "Indra is affected by the heat of Garga's penance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra appears before Garga and questions why he is performing such severe austerities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Garga"
+      ],
+      "type": "Divine Inquiry",
+      "dialogue_initiator": "Indra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Garga explains to Indra that he seeks Vedic knowledge unattained by other Brahmins and wishes to acquire all knowledge through austerities, believing traditional study under a teacher takes too long.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Garga",
+        "Indra"
+      ],
+      "type": "Explanation/Motivation",
+      "goal": "Acquire complete Vedic knowledge swiftly through tapas",
+      "method_rejection": "Rejects traditional guru-disciple learning as too slow"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra advises Garga that his chosen path is not advisable, warns against self-torture, and recommends learning through a teacher instead.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Garga"
+      ],
+      "type": "Divine Advice/Warning",
+      "advice": "Abandon severe austerities, learn Vedas traditionally from a teacher",
+      "tone": "Cautionary"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra (also referred to as Sakra, King of Gods) left after speaking, and Goutama (also referred to as the great ascetic, the bull among sages) continued his severe austerities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Goutama"
+      ],
+      "action": "Departure and continuation of austerities",
+      "relationships": "Indra (King of Gods) is concerned about Goutama's austerities"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Goutama's austerities became so intense that they caused Indra physical discomfort (heating his body).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Goutama",
+        "Indra"
+      ],
+      "action": "Intense austerities causing divine discomfort",
+      "supernatural_elements": "Ascetic power affecting a god"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra approached Goutama again to dissuade him, stating that such austerities would not help Goutama or his father gain Vedic knowledge.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Goutama"
+      ],
+      "action": "Attempted dissuasion",
+      "relationships": "Indra tries to counsel Goutama"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Goutama threatened to perform even more severe austerities, including cutting off his own limbs and offering them into fire, if Indra did not grant his wishes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Goutama",
+        "Indra"
+      ],
+      "action": "Threat of extreme self-sacrifice",
+      "relationships": "Goutama pressures Indra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra, to cleverly stop Goutama's austerities, transformed into a very old, sickly Brahmin ascetic.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra"
+      ],
+      "action": "Divine transformation/disguise",
+      "supernatural_elements": "Shape-shifting"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Disguised Indra went to the holy site where Goutama bathed and began building a bridge across the Ganges using sand.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra (disguised as Brahmin)",
+        "Goutama"
+      ],
+      "action": "Performing a futile task (building sand bridge)",
+      "relationships": "Disguised Indra interacts with Goutama"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Goutama saw him and questioned the purpose of building a sand bridge, calling it meaningless.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Goutama",
+        "Indra (disguised as Brahmin)"
+      ],
+      "action": "Questioning and criticism",
+      "relationships": "Goutama engages with the disguised ascetic"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Disguised Indra explained he wanted to build the bridge to help people cross the Ganges easily, comparing his task to Goutama's austerities for gaining Vedas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra (disguised as Brahmin)",
+        "Goutama"
+      ],
+      "action": "Drawing a parallel to illustrate futility",
+      "relationships": "Disguised Indra indirectly critiques Goutama's goal"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Goutama, realizing the implied critique, asked Indra (acknowledging his identity) to grant him the boon of superior Vedic knowledge for himself and his father.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Goutama",
+        "Indra"
+      ],
+      "action": "Request for boon",
+      "relationships": "Goutama directly appeals to Indra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra granted the boon, promising Goutama and his father would gain Vedic knowledge surpassing others, and that Goutama's other wishes would be fulfilled.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Goutama"
+      ],
+      "action": "Granting of boon",
+      "supernatural_elements": "Divine boon granting",
+      "relationships": "Indra fulfills Goutama's request, resolving the conflict"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Goutama, satisfied, returned to his father and reported receiving the boon.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Goutama",
+        "Bharadvaja (father)"
+      ],
+      "action": "Return and report",
+      "relationships": "Son reports to father"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bharadvaja warned Goutama that gaining the boon might lead to pride and subsequent destruction, and began narrating a past story about a sage named Parvata as an example.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bharadvaja",
+        "Goutama"
+      ],
+      "action": "Warning and beginning of a cautionary tale",
+      "relationships": "Father counsels son"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A man, grieving the loss of his son, performed severe austerities and prayed for an immortal son, and thus obtained a son.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Barati (implied father)",
+        "Sage unspecified (implied)"
+      ],
+      "action": "Austerities and prayer for an immortal son",
+      "type": "Divine boon"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The gods did not grant him an immortal son like themselves, as mortals have fixed lifespans.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gods"
+      ],
+      "action": "Denial of immortality",
+      "type": "Divine limitation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Barati requested that his son's lifespan be marked by a mountain, so it would be long-lasting like the mountain.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Barati"
+      ],
+      "action": "Request for mountain-marked lifespan",
+      "type": "Divine boon modification"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "His son was born, named Juhu (具慧), and became arrogant and disrespectful towards sages after hearing about his father's wish for immortality.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Juhu (具慧)",
+        "Barati"
+      ],
+      "action": "Birth and development of arrogance",
+      "type": "Character introduction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Juhu insulted the sage Gomin (弓目), who cursed him to turn to ashes, but the curse initially had no effect.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Juhu (具慧)",
+        "Gomin (弓目)"
+      ],
+      "action": "Insult and curse",
+      "type": "Conflict and supernatural"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gomin, seeing Juhu unharmed, used water buffaloes to destroy the mountain symbolizing Juhu's lifespan, causing Juhu to die instantly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gomin (弓目)",
+        "Juhu (具慧)"
+      ],
+      "action": "Destruction of lifespan symbol and death",
+      "type": "Supernatural punishment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Barati retrieved his son's corpse and wept, and sages consoled him with a Vedic verse about fate being unchangeable.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Barati",
+        "Sages"
+      ],
+      "action": "Grieving and consolation",
+      "type": "Moral lesson"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sages warned that arrogance leads to destruction and advised caution towards the powerful sage Yajnavalkya (吟赞仙人).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sages",
+        "Yajnavalkya (吟赞仙人)"
+      ],
+      "action": "Warning and advice",
+      "type": "Foreshadowing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gugou (谷购) promised his father to respect Yajnavalkya but later became fearless and insulted other sages.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gugou (谷购)",
+        "Unnamed father"
+      ],
+      "action": "Promise and subsequent disrespect",
+      "type": "Character development"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In spring, Gugou arrived at Yajnavalkya's hermitage and saw Yajnavalkya's daughter-in-law walking like an apsara.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gugou (谷购)",
+        "Yajnavalkya (吟赞仙人)",
+        "Yajnavalkya's daughter-in-law"
+      ],
+      "action": "Arrival and observation",
+      "type": "Setting encounter"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Driven by lust, Gugou shamelessly propositioned Yajnavalkya's daughter-in-law, who, fearing his curse and knowing Yajnavalkya's power, complied.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gugou (谷购)",
+        "Yajnavalkya's daughter-in-law"
+      ],
+      "action": "Proposition and compliance",
+      "type": "Conflict initiation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gugou took her to a secluded place and assaulted her, and Yajnavalkya returned to his hermitage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gugou (谷购)",
+        "Yajnavalkya's daughter-in-law",
+        "Yajnavalkya (吟赞仙人)"
+      ],
+      "action": "Assault and return",
+      "type": "Conflict escalation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yajnavalkya found his daughter-in-law crying, comforted her, and inquired, and she truthfully reported Gugou's actions and her response.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yajnavalkya (吟赞仙人)",
+        "Yajnavalkya's daughter-in-law",
+        "Gugou (谷购)"
+      ],
+      "action": "Discovery and report",
+      "type": "Revelation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "吟赞听说了谷购的行为，勃然大怒，怒火仿佛燃烧他的心。",
+    "char_interval": {
+      "start_pos": 2979,
+      "end_pos": 3005
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "吟赞"
+      ],
+      "action": "愤怒反应",
+      "emotion": "愤怒"
+    },
+    "_token_interval": {
+      "start_index": 834,
+      "end_index": 840
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "吟赞扯下一绺头发，当作祭品，投入了准备好的祭火中，从火中出来一个和他的儿媳一样美貌的女子。",
+    "char_interval": {
+      "start_pos": 3029,
+      "end_pos": 3072
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "吟赞"
+      ],
+      "action": "祭祀创造",
+      "supernatural": "从祭火中创造女子",
+      "result": "创造美貌女子"
+    },
+    "_token_interval": {
+      "start_index": 846,
+      "end_index": 858
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "吟赞又扯下一绺头发投入祭火，火中又出现一个眼光凶恶、形貌可怕的罗刹。",
+    "char_interval": {
+      "start_pos": 3074,
+      "end_pos": 3112
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "吟赞"
+      ],
+      "action": "祭祀创造",
+      "supernatural": "从祭火中创造罗刹",
+      "result": "创造可怕罗刹"
+    },
+    "_token_interval": {
+      "start_index": 859,
+      "end_index": 869
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "吟赞命令女子和罗刹去把谷购杀了，他俩遵命前去。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "吟赞",
+        "女子",
+        "罗刹",
+        "谷购"
+      ],
+      "action": "下达杀人命令",
+      "relationship": "吟赞创造并命令女子和罗刹"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "女子迷惑谷购，偷走他的水罐，谷购失去水罐成为不洁的人。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "女子",
+        "谷购"
+      ],
+      "action": "迷惑和偷窃",
+      "result": "谷购失去水罐，变得不洁"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "罗刹高举三叉戟冲向谷购，谷购看见后朝池塘跑去。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "罗刹",
+        "谷购"
+      ],
+      "action": "追杀与逃跑",
+      "weapon": "三叉戟"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "池塘里没有水，谷购又朝河流跑去，但所有的河流也都枯竭无水。",
+    "char_interval": {
+      "start_pos": 3287,
+      "end_pos": 3318
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "谷购"
+      ],
+      "action": "寻找水源失败",
+      "supernatural": "水源枯竭"
+    },
+    "_token_interval": {
+      "start_index": 925,
+      "end_index": 931
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "谷购被罗刹追赶，惊恐万状，急冲冲跑到他父亲燃着祭火的屋子。",
+    "char_interval": {
+      "start_pos": 3325,
+      "end_pos": 3363
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "谷购",
+        "罗刹",
+        "婆罗堕遮"
+      ],
+      "action": "逃往父亲屋子",
+      "relationship": "谷购是婆罗堕遮的儿子"
+    },
+    "_token_interval": {
+      "start_index": 936,
+      "end_index": 942
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "谷购刚要进去，一个守门的瞎眼首陀罗用力拽住他，把他拦在门口。",
+    "char_interval": {
+      "start_pos": 3371,
+      "end_pos": 3400
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "谷购",
+        "瞎眼首陀罗"
+      ],
+      "action": "阻拦进入",
+      "result": "谷购被拦在门口"
+    },
+    "_token_interval": {
+      "start_index": 947,
+      "end_index": 953
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "罗刹看见谷购被首陀罗拽住，就用三叉戟刺他，谷购被刺穿心脏，栽倒在地死亡。",
+    "char_interval": {
+      "start_pos": 3404,
+      "end_pos": 3424
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "罗刹",
+        "谷购",
+        "瞎眼首陀罗"
+      ],
+      "action": "刺杀",
+      "result": "谷购死亡"
+    },
+    "_token_interval": {
+      "start_index": 956,
+      "end_index": 959
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "罗刹杀死谷购后，回到吟赞跟前，向吟赞告别，和那个女子一道漫游去了。",
+    "char_interval": {
+      "start_pos": 3441,
+      "end_pos": 3474
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "罗刹",
+        "吟赞",
+        "女子"
+      ],
+      "action": "复命与告别",
+      "relationship": "任务完成"
+    },
+    "_token_interval": {
+      "start_index": 967,
+      "end_index": 975
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "婆罗堕遮完成一天的吠陀诵习，背着一捆柴，回到自己的净修林，发现所有的火没有像往常一样迎接他。",
+    "char_interval": {
+      "start_pos": 3549,
+      "end_pos": 3577
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "婆罗堕遮"
+      ],
+      "action": "返回净修林",
+      "observation": "异常情况，火没有迎接"
+    },
+    "_token_interval": {
+      "start_index": 1003,
+      "end_index": 1008
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "婆罗堕遮觉察到点燃祭火的屋里情况异常，询问瞎眼首陀罗。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "婆罗堕遮",
+        "瞎眼首陀罗"
+      ],
+      "action": "询问情况",
+      "concern": "担心儿子谷购"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "瞎眼首陀罗告诉婆罗堕遮，谷购被一个强壮有力的罗刹杀死了，躺在这里。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "瞎眼首陀罗",
+        "婆罗堕遮",
+        "谷购"
+      ],
+      "action": "报告噩耗",
+      "information": "谷购死亡详情"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "婆罗堕遮从首陀罗嘴里听到这个噩耗，抱起儿子尸体，悲痛地哭泣。",
+    "char_interval": {
+      "start_pos": 3882,
+      "end_pos": 3906
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "婆罗堕遮",
+        "谷购"
+      ],
+      "action": "发现儿子死亡",
+      "emotion": "悲痛",
+      "relationship": "父子关系"
+    },
+    "_token_interval": {
+      "start_index": 1093,
+      "end_index": 1097
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A virtuous Brahmin's son was killed by a person named Chyavana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin (father)",
+        "Son",
+        "Chyavana"
+      ],
+      "action": "Killing",
+      "type": "Conflict"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The father had warned his son not to go to Chyavana's residence, but the son went anyway.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin (father)",
+        "Son",
+        "Chyavana"
+      ],
+      "action": "Disobedience/Warning",
+      "type": "Foreshadowing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The father, grieving his son's death, curses Chyavana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin (father)",
+        "Chyavana"
+      ],
+      "action": "Curse",
+      "type": "Supernatural/Divine Intervention"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The curse states that Chyavana's eldest son will suddenly kill the innocent Chyavana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Chyavana",
+        "Chyavana's eldest son"
+      ],
+      "action": "Prophetic Curse",
+      "type": "Supernatural/Divine Intervention"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin father, after mourning, cremates his son and then jumps into the funeral pyre himself.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin (father)"
+      ],
+      "action": "Suicide/Cremation",
+      "type": "Tragedy"
+    },
+    "_token_interval": null
+  }
+]

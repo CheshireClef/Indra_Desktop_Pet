@@ -1,0 +1,299 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Teru comments on the wind feeling more real.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Teru"
+      ],
+      "action": "Observation",
+      "details": "Teru remarks that the wind feels more authentic."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vritra and Karna sense a powerful presence.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vritra",
+        "Karna"
+      ],
+      "action": "Sensing/Detection",
+      "details": "Both characters react with surprise and note their weapons (Vajra) trembling, indicating the approach of something significant."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna confirms the arrival based on his Vajra's reaction.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "action": "Confirmation",
+      "details": "Karna states that his Vajra is trembling, confirming that the anticipated entity has arrived."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vritra corroborates Karna's observation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vritra"
+      ],
+      "action": "Agreement/Corroboration",
+      "details": "Vritra confirms that his Vajra is also trembling, reinforcing the detection of the approaching presence."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vritra begins to act violently, prompting Indra to intervene.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vritra",
+        "Indra"
+      ],
+      "action": "Conflict initiation",
+      "relationships": [
+        "Adversaries"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra confronts Vritra, dismissing the dragon as insignificant.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Vritra"
+      ],
+      "action": "Verbal confrontation",
+      "relationships": [
+        "Adversaries"
+      ],
+      "dialogue": "Indra: 'Do not be arrogant, evil dragon. This time you are irrelevant.'"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima expresses honor in accompanying Indra and readiness to fight as the son of Vayu.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Indra"
+      ],
+      "action": "Declaration of allegiance",
+      "relationships": [
+        "Allies",
+        "Bhima is son of Vayu"
+      ],
+      "dialogue": "Bhima: 'It's an honor to accompany Lord Indra. As the son of Vayu, I'll make a good fight!'"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra reflects on a myth where a single god devoured all other gods to gain power.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra"
+      ],
+      "action": "Reflection/Narration",
+      "supernatural_elements": "Mythological god consuming other gods"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra speculates that this god might have believed they were acting to correct the world and save people.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra"
+      ],
+      "action": "Speculation",
+      "belief": "Gods should save people"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra asserts his identity as the King of Gods who understands the true nature of other gods.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra"
+      ],
+      "action": "Declaration",
+      "identity": "King of Gods",
+      "knowledge": "Understands the imperfections of other gods"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra acknowledges that gods are not necessarily capable of saving the world and people.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra"
+      ],
+      "action": "Acknowledgment",
+      "limitation": "Gods' inability to guarantee salvation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra declares he cannot deny what his son believed in, even if it was a mistake.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra"
+      ],
+      "action": "Declaration",
+      "relationship": "Father-son (Indra and his son)",
+      "motivation": "Protecting his son's beliefs"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra asserts that as the King of Gods who rules over other gods, he cannot deny their existence before his eyes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra"
+      ],
+      "action": "Assertion",
+      "role": "Ruler of gods",
+      "determination": "Will not deny other gods"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra declares his intention to show the form of God that people seek.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra"
+      ],
+      "action": "Declaration",
+      "supernatural_elements": [
+        "Divine intervention"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra proclaims and demonstrates the divine thunder and salvation of God.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra"
+      ],
+      "action": "Proclamation and demonstration",
+      "supernatural_elements": [
+        "Divine thunder",
+        "Divine salvation",
+        "Lightning effects"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Scene transitions with visual effects including lightning and character adjustments.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra"
+      ],
+      "action": "Scene transition",
+      "supernatural_elements": [
+        "Lightning effects",
+        "Visual transformations"
+      ]
+    },
+    "_token_interval": null
+  }
+]

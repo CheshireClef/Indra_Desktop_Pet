@@ -1,3 +1,9 @@
+# src/gui/settings_dialog.py
+"""
+设置对话框模块
+提供用户友好的 GUI 界面来修改 SettingsManager 中的配置。
+支持多标签页分类显示 (基础设置 / 模型设置)。
+"""
 from PySide6.QtWidgets import (
     QDialog, QVBoxLayout, QFormLayout, QHBoxLayout,
     QLabel, QDoubleSpinBox, QSpinBox, QCheckBox,
@@ -9,7 +15,8 @@ from utils import resource_path
 
 class SettingsDialog(QDialog):
     """
-    桌宠设置对话框（标签页版，支持手动调整大小）
+    桌宠设置对话框类（模态窗口）
+    使用 QTabWidget 组织不同类型的设置项。
     """
     def __init__(self, settings_manager, parent=None):
         super().__init__(parent)
@@ -27,6 +34,7 @@ class SettingsDialog(QDialog):
 
     # ---------- UI 构建（核心修改：修复 QSizePolicy 调用） ----------
     def _build_ui(self):
+        """构建对话框界面布局"""
         main_layout = QVBoxLayout(self)
 
         # 1. 创建标签页控件

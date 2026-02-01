@@ -1,0 +1,519 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Bhishma how a person who commits sins out of ignorance can atone for them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Question",
+      "relationship": "Yudhishthira seeks wisdom from Bhishma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma begins to narrate an ancient story about King Janamejaya and the Brahmin Indrota.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Janamejaya",
+        "Indrota"
+      ],
+      "type": "Narration",
+      "relationship": "Bhishma recounts a moral tale to Yudhishthira"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Janamejaya, out of ignorance, commits the sin of killing a Brahmin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Janamejaya"
+      ],
+      "type": "Sin/Transgression",
+      "action": "Killing a Brahmin"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "All Brahmins and priests abandon Janamejaya, causing him great distress.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Janamejaya",
+        "Brahmins"
+      ],
+      "type": "Social Ostracism",
+      "relationship": "Brahmins reject Janamejaya due to his sin"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Janamejaya, filled with remorse, goes to the forest to perform severe penances.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Janamejaya"
+      ],
+      "type": "Penance/Repentance",
+      "action": "Undertakes ascetic practices"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Janamejaya approaches the strict ascetic Indrota, son of Shunaka, and clasps his feet.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Janamejaya",
+        "Indrota"
+      ],
+      "type": "Seeking Guidance",
+      "relationship": "Janamejaya humbles himself before Indrota"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indrota, alarmed, harshly rebukes Janamejaya for his sin and questions his presence.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indrota",
+        "Janamejaya"
+      ],
+      "type": "Rebuke/Condemnation",
+      "action": "Indrota chastises Janamejaya"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indrota describes Janamejaya as spiritually dead, impure, and doomed to hell, causing his ancestors to suffer.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indrota",
+        "Janamejaya"
+      ],
+      "type": "Divine Judgment",
+      "supernatural_elements": [
+        "Hell",
+        "Ancestors' fate",
+        "Yama's messengers"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Janamejaya responds, acknowledging his guilt and fear of Yama, and pleads for Indrota's mercy and guidance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Janamejaya",
+        "Indrota"
+      ],
+      "type": "Plea for Redemption",
+      "relationship": "Janamejaya seeks forgiveness and a path to atonement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Janamejaya expresses a desire to become a generous patron of Brahmins and ensure his lineage's survival.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Janamejaya"
+      ],
+      "type": "Resolution",
+      "goal": "Restore his status and family legacy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shunaka's son (likely referring to a sage or teacher) advises King Janamejaya (Zhen Qun) on dharma (righteousness) and the consequences of not performing sacrifices.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shunaka's son",
+        "King Janamejaya"
+      ],
+      "type": "Dialogue/Instruction",
+      "relationships": [
+        "Teacher-student",
+        "Brahmin-king"
+      ],
+      "key_points": [
+        "Critique of non-sacrificers",
+        "Emphasis on wisdom and dharma"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Janamejaya expresses remorse for his sins and vows to no longer violate dharma, seeking to regain his prosperity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Janamejaya"
+      ],
+      "type": "Confession/Resolution",
+      "relationships": [
+        "Self-reflection"
+      ],
+      "key_points": [
+        "Repentance",
+        "Commitment to dharma"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shunaka's son urges King Janamejaya to abandon stubbornness and pride, remember dharma, and work for the welfare of all beings, swearing his advice is given out of brahmin duty, not fear or greed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shunaka's son",
+        "King Janamejaya"
+      ],
+      "type": "Exhortation/Oath",
+      "relationships": [
+        "Mentor-protégé"
+      ],
+      "key_points": [
+        "Call to humility and dharma",
+        "Divine and brahmin witnesses invoked"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Janamejaya vows never to harm brahmins in thought, word, or deed, and pays homage to Shunaka's son.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Janamejaya",
+        "Shunaka's son"
+      ],
+      "type": "Vow/Homage",
+      "relationships": [
+        "King-brahmin reconciliation"
+      ],
+      "key_points": [
+        "Solemn pledge of non-harm",
+        "Gesture of respect"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shunaka's son acknowledges King Janamejaya's transformed mind and explains the importance of dharma, especially for the powerful, highlighting the shift from cruelty to righteousness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shunaka's son",
+        "King Janamejaya"
+      ],
+      "type": "Instruction/Reflection",
+      "relationships": [
+        "Continued guidance"
+      ],
+      "key_points": [
+        "Praise for transformation",
+        "Dharma linked to power and contentment"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shunaka's son lists five purification means—sacrifice, charity, compassion, Veda, and truth—with asceticism as the sixth, emphasizing it as the best purification for kings to achieve dharma and happiness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shunaka's son"
+      ],
+      "type": "Doctrinal Teaching",
+      "relationships": [
+        "Instruction to King Janamejaya"
+      ],
+      "key_points": [
+        "Purification methods",
+        "Asceticism as key for kings",
+        "Mention of pilgrimage to holy places"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yayati (迅行王) recites verses about gaining life again, performing sacrifices, practicing asceticism, and visiting sacred places.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yayati"
+      ],
+      "action": "Recitation of teachings",
+      "type": "Instruction/Advice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yayati is advised to worship sacred rivers, study Vedas, bathe in holy places, and practice renunciation as the highest purification.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yayati"
+      ],
+      "action": "Spiritual guidance",
+      "type": "Instruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yayati is told to win heaven through strength and charity, rule the earth, and ensure the welfare of Brahmins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yayati"
+      ],
+      "action": "Royal duties and spiritual goals",
+      "type": "Instruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yayati is advised to pacify those he previously harmed, control anger, and perform his duties diligently.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yayati"
+      ],
+      "action": "Reconciliation and self-control",
+      "type": "Instruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Instructions on repentance and purification from sins through specific rituals and serving sacrificial fires.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yayati"
+      ],
+      "action": "Purification rituals",
+      "type": "Instruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gods and Asuras consult Brihaspati (毗诃波提) about the balance of good and evil deeds and how to eliminate sins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brihaspati",
+        "Gods",
+        "Asuras"
+      ],
+      "action": "Consultation on karma",
+      "type": "Divine Consultation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brihaspati explains that sins committed in ignorance can be purified through subsequent wise and virtuous actions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brihaspati"
+      ],
+      "action": "Teaching on sin purification",
+      "type": "Instruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "修那迦之子因陀罗多对镇群王说完这些话，协助他按照仪式举行马祭。",
+    "char_interval": {
+      "start_pos": 3031,
+      "end_pos": 3062
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "因陀罗多",
+        "镇群王"
+      ],
+      "action": "举行马祭",
+      "relationship": "因陀罗多协助镇群王举行仪式"
+    },
+    "_token_interval": {
+      "start_index": 905,
+      "end_index": 909
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "镇群王消除罪孽，光辉灿烂，犹如燃烧的火焰。",
+    "char_interval": {
+      "start_pos": 3066,
+      "end_pos": 3087
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "镇群王"
+      ],
+      "action": "消除罪孽",
+      "result": "变得光辉灿烂"
+    },
+    "_token_interval": {
+      "start_index": 912,
+      "end_index": 918
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "这位粉碎敌人者进入自己的王国，犹如一轮圆月升入天空。",
+    "char_interval": {
+      "start_pos": 3087,
+      "end_pos": 3113
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "镇群王"
+      ],
+      "action": "返回王国",
+      "description": "被比喻为圆月升空"
+    },
+    "_token_interval": {
+      "start_index": 918,
+      "end_index": 922
+    }
+  }
+]

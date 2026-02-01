@@ -1,0 +1,936 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "闻业在交战中向大地之主奇军连放五十支利箭",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "闻业",
+        "奇军"
+      ],
+      "action": "闻业攻击奇军",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿毗沙罗国王向闻业射出九支锋利的箭，又向其车夫射了五支",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿毗沙罗国王",
+        "闻业"
+      ],
+      "action": "阿毗沙罗国王反击闻业",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "闻业向奇军射出一支锐利的铁箭，正中要害部位",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "闻业",
+        "奇军"
+      ],
+      "action": "闻业重伤奇军",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "闻称连发九十支羽毛箭，将奇军覆盖",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "闻称",
+        "奇军"
+      ],
+      "action": "闻称攻击奇军",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "奇军用一支月牙箭射断闻业的弓，又连发七箭",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "奇军",
+        "闻业"
+      ],
+      "action": "奇军反击闻业",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "闻业取出另一张弓，射出潮水般的箭流覆盖奇军",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "闻业",
+        "奇军"
+      ],
+      "action": "闻业再次攻击奇军",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "奇军用一支铁箭射中闻业的胸膛",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "奇军",
+        "闻业"
+      ],
+      "action": "奇军重伤闻业",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "闻业将奇军的弓弩劈作两半",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "闻业",
+        "奇军"
+      ],
+      "action": "闻业破坏奇军的武器",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "闻业向折了弓的奇军连射三百支铁箭",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "闻业",
+        "奇军"
+      ],
+      "action": "闻业猛烈攻击奇军",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "闻业砍下奇军的戴着头盔的头颅",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "闻业",
+        "奇军"
+      ],
+      "action": "闻业杀死奇军",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "奇军的大队人马狂暴地冲了过来",
+    "char_interval": {
+      "start_pos": 592,
+      "end_pos": 606
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "奇军的军队"
+      ],
+      "action": "军队冲锋",
+      "type": "Combat"
+    },
+    "_token_interval": {
+      "start_index": 150,
+      "end_index": 151
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "闻业迅速放箭驱逐敌军",
+    "char_interval": {
+      "start_pos": 657,
+      "end_pos": 667
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "闻业",
+        "奇军的军队"
+      ],
+      "action": "闻业击退敌军",
+      "type": "Combat"
+    },
+    "_token_interval": {
+      "start_index": 169,
+      "end_index": 170
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "向山向奇异连射五箭，又对他的车夫射了三箭，对他的旗帜射了一箭",
+    "char_interval": {
+      "start_pos": 681,
+      "end_pos": 711
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "向山",
+        "奇异"
+      ],
+      "action": "向山攻击奇异",
+      "type": "Combat"
+    },
+    "_token_interval": {
+      "start_index": 178,
+      "end_index": 183
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "奇异向向山连发九支箭，射中他的双臂和胸口",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "奇异",
+        "向山"
+      ],
+      "action": "奇异反击向山",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "向山放箭射断奇异的弓，后又射出五支锐利的箭",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "向山",
+        "奇异"
+      ],
+      "action": "向山破坏奇异的武器并攻击",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "奇异向向山投来一支金柄标枪",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "奇异",
+        "向山"
+      ],
+      "action": "奇异用标枪攻击向山",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "向山将那标枪劈作两半",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "向山",
+        "奇异"
+      ],
+      "action": "向山防御并破坏标枪",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "奇异举起大棒槌向向山掷去，杀死了向山的马匹与车夫，击碎了他的战车",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "奇异",
+        "向山"
+      ],
+      "action": "奇异用大棒槌摧毁向山的战车",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "向山从战车上跳下，向奇异掷去一支缀着金铃铛的标枪。",
+    "char_interval": {
+      "start_pos": 1011,
+      "end_pos": 1036
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "向山",
+        "奇异"
+      ],
+      "action": "投掷标枪攻击",
+      "type": "战斗"
+    },
+    "_token_interval": {
+      "start_index": 256,
+      "end_index": 260
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "奇异抓住标枪，又将它向向山掷了回去。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "奇异",
+        "向山"
+      ],
+      "action": "反击",
+      "type": "战斗"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "标枪刺穿向山的右臂，坠落地上。",
+    "char_interval": {
+      "start_pos": 1118,
+      "end_pos": 1139
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "向山"
+      ],
+      "action": "受伤",
+      "type": "战斗"
+    },
+    "_token_interval": {
+      "start_index": 279,
+      "end_index": 284
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "向山怒不可遏，向奇异掷去一支镶金长矛。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "向山",
+        "奇异"
+      ],
+      "action": "投掷长矛攻击",
+      "type": "战斗"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "长矛穿透奇异的铠甲和心窝，奇异倒地身亡。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "奇异"
+      ],
+      "action": "死亡",
+      "type": "战斗"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "目睹奇异被杀，武士们从四面八方冲向向山。",
+    "char_interval": {
+      "start_pos": 1255,
+      "end_pos": 1262
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "向山",
+        "武士们"
+      ],
+      "action": "围攻",
+      "type": "战斗"
+    },
+    "_token_interval": {
+      "start_index": 316,
+      "end_index": 318
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "向山撒开箭网，驱逐军队。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "向山",
+        "军队"
+      ],
+      "action": "反击并击退",
+      "type": "战斗"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "军队遭到般度诸子杀戮，四散而逃。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般度诸子",
+        "军队"
+      ],
+      "action": "杀戮和溃逃",
+      "type": "战斗"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "德罗纳之子（马嘶）冲向大力士怖军。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "马嘶",
+        "怖军"
+      ],
+      "action": "发起挑战",
+      "type": "战斗"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "马嘶和怖军展开一场酷烈的鏖战。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "马嘶",
+        "怖军"
+      ],
+      "action": "激烈战斗",
+      "type": "战斗"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "马嘶展示娴熟的武艺，将箭射向怖军。",
+    "char_interval": {
+      "start_pos": 1605,
+      "end_pos": 1620
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "马嘶",
+        "怖军"
+      ],
+      "action": "射箭攻击",
+      "type": "战斗"
+    },
+    "_token_interval": {
+      "start_index": 417,
+      "end_index": 421
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "怖军遍体布满马嘶放出的利箭。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "怖军"
+      ],
+      "action": "受伤",
+      "type": "战斗"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "怖军射出一千支箭覆盖马嘶，又发出一声狮子吼。",
+    "char_interval": {
+      "start_pos": 1726,
+      "end_pos": 1743
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "怖军",
+        "马嘶"
+      ],
+      "action": "反击和威慑",
+      "type": "战斗"
+    },
+    "_token_interval": {
+      "start_index": 450,
+      "end_index": 454
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "马嘶微微一笑，挡住箭雨，又用一支铁箭射中怖军的额头。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "马嘶",
+        "怖军"
+      ],
+      "action": "防御和反击",
+      "type": "战斗"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "怖军用三支铁箭射中马嘶的前额。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "怖军",
+        "马嘶"
+      ],
+      "action": "反击",
+      "type": "战斗"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "怖军又向马嘶连发数百支箭，却无法将他摇撼。",
+    "char_interval": {
+      "start_pos": 1955,
+      "end_pos": 1974
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "怖军",
+        "马嘶"
+      ],
+      "action": "持续攻击但无效",
+      "type": "战斗"
+    },
+    "_token_interval": {
+      "start_index": 504,
+      "end_index": 509
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "德罗纳之子（阿周那）与般度之子（怖军）在激战中相互发射数百支利箭，但都无法动摇对方。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "怖军"
+      ],
+      "action": "箭战交锋",
+      "outcome": "势均力敌，双方均未被撼动"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "两位英雄继续激烈交战，相互用利箭覆盖对方，战况激烈如猛虎相斗。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "怖军"
+      ],
+      "action": "持续箭战",
+      "description": "战斗达到白热化程度，双方时进时退，沿不同方向绕圈"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那将怖军置于右方并发射数百支利箭攻击。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "怖军"
+      ],
+      "action": "针对性攻击",
+      "tactical_move": "将对手置于右方进行集中射击"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "怖军进行反击，也将阿周那置于右方。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "怖军",
+        "阿周那"
+      ],
+      "action": "反击",
+      "response": "不容忍敌手势占上风，采取对等战术"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "双方展开武器大战，阿周那使用大量精良武器，怖军一一击回。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "怖军"
+      ],
+      "action": "武器对决",
+      "supernatural_elements": "武器碰撞产生光芒和火焰，照亮战场，烧灼双方军队"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "悉陀们观战并赞叹这场战斗超越一切，认为过去和未来都不会再有这样的战斗。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "悉陀们"
+      ],
+      "action": "神圣评价",
+      "divine_intervention": "悉陀们作为神圣观察者评论战斗",
+      "praise": "称赞双方英勇绝伦、武艺高强，将怖军和阿周那比作毁灭一切的阎摩、楼陀罗和太阳"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The assembled gods (Devas) witnessed the incredible feats and heroic deeds of two warriors in a great battle and roared like lions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Devas"
+      ],
+      "action": "Witnessing and roaring in approval",
+      "context": "Divine observation of a mortal battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The two warriors, having wounded each other in combat, glared at each other with furious, bloodshot eyes, trembling lips, and clenched teeth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Arjuna"
+      ],
+      "action": "Mutual glaring and intense confrontation",
+      "relationships": "Rival warriors engaged in direct combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The two great warriors covered each other with dense showers of arrows, like two storm clouds on the battlefield raining arrows as downpours and weapons as lightning.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Arjuna"
+      ],
+      "action": "Exchange of arrow barrages",
+      "supernatural_elements": "Simile comparing warriors to storm clouds with supernatural imagery"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The two great warriors broke each other's banners, struck down each other's charioteers, and killed each other's horses, then continued fighting.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Arjuna"
+      ],
+      "action": "Mutual destruction of chariot components and continued combat",
+      "plot_point": "Escalation of battle with destruction of support elements"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In the fierce battle, both warriors angrily drew their bows and shot arrows, eager to kill their opponent.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Arjuna"
+      ],
+      "action": "Simultaneous arrow shots with lethal intent",
+      "relationships": "Mortal enemies attempting to kill each other"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Two shining arrows with thunderous, irresistible force struck both warriors who stood at the forefront of their armies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Arjuna"
+      ],
+      "action": "Mutual arrow strikes",
+      "supernatural_elements": "Arrows described with divine/extraordinary qualities (shining, thunderous force)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Both great heroes, deeply wounded by each other's arrows, fell from their chariot seats.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Arjuna"
+      ],
+      "action": "Mutual incapacitation and falling from chariots",
+      "plot_point": "Climactic moment where both combatants are simultaneously defeated"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing that Ashwatthama had lost consciousness, his charioteer drove him away from the battlefield in view of all armies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Ashwatthama's charioteer"
+      ],
+      "action": "Retreat/removal from battlefield",
+      "relationships": "Charioteer rescues unconscious master",
+      "plot_point": "Ashwatthama's exit from the battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Similarly, Arjuna's charioteer also carried away the warrior who had tormented his enemies but was now unconscious.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Arjuna's charioteer (likely Krishna)"
+      ],
+      "action": "Retreat/removal from battlefield",
+      "relationships": "Charioteer rescues unconscious master",
+      "plot_point": "Arjuna's exit from the battle",
+      "note": "While not explicitly named here, Arjuna's charioteer in the Mahabharata is typically Krishna"
+    },
+    "_token_interval": null
+  }
+]

@@ -1,3 +1,11 @@
+"""
+聊天气泡模块
+负责显示桌宠与用户的对话界面。
+特点：
+1. 独立的悬浮窗口 (Qt.Tool | Qt.WindowStaysOnTopHint)
+2. 支持自动隐藏和淡出动画 (Auto Hide & Fade Out)
+3. 智能浮现 (Smart Pop-up)：当桌宠说话时自动显示
+"""
 from PySide6.QtWidgets import (
     QWidget, QVBoxLayout, QTextEdit, QLineEdit, QLabel
 )
@@ -10,11 +18,7 @@ import os
 
 class ChatBubble(QWidget):
     """
-    桌宠对话气泡窗口
-    优化点：
-    1. append_pet() 时若窗口隐藏，自动浮现
-    2. 自动隐藏 + 淡出（失焦）
-    3. 显示时自动修正位置，保证不超出屏幕
+    桌宠对话气泡窗口类
     """
     send_message = Signal(str)
 
@@ -82,6 +86,7 @@ class ChatBubble(QWidget):
             
     # ---------- 对话 ----------
     def _on_enter(self):
+        """用户输入回车处理"""
         text = self.input_edit.text().strip()
         if not text:
             return
@@ -91,10 +96,12 @@ class ChatBubble(QWidget):
         self.send_message.emit(text)
 
     def append_user(self, text: str):
+        """显示用户消息"""
         self._ensure_visible()
         self.chat_view.append(f"<b>你：</b>{text}<br>")
 
     def append_pet(self, text: str):
+        """显示桌宠消息，并确保窗口可见"""
         # ⭐ 关键优化：桌宠说话时自动浮现
         self._ensure_visible()
         self.chat_view.append(f"<b>因陀罗：</b>{text}<br>")

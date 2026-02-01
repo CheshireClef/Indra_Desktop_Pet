@@ -1,0 +1,2244 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国 describes the strengths and qualities of his army, including their training, equipment, and support from renowned warriors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国"
+      ],
+      "type": "Description/Army Assessment",
+      "details": "持国 lists the army's advantages: well-trained soldiers, diverse weapon mastery, support from famous warriors like 德罗纳, 毗湿摩, 成铠, 慈悯, 难降, 胜车, 福授, 毗迦尔纳, 德罗纳之子 (马嘶), 妙力之子 (沙恭尼), and 波力迦."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国 compares his army to a vast, roaring sea, protected by many heroes, but laments its destruction in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国"
+      ],
+      "type": "Metaphor/Lament",
+      "details": "持国 uses sea imagery to describe the army's might, noting its protection by warriors like 德罗纳 and 毗湿摩, yet acknowledges its defeat."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国 questions the reason for his army's defeat, considering it unprecedented and possibly due to divine intervention favoring the 般度族.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国"
+      ],
+      "type": "Reflection/Questioning",
+      "details": "持国 wonders if the defeat is fated or caused by gods (众天神) helping the 般度族, referencing an unseen battle scale."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国 recalls 维杜罗's wise advice that his son 难敌 ignored, suggesting 维杜罗 foresaw these events.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国",
+        "维杜罗",
+        "难敌"
+      ],
+      "type": "Recollection/Regret",
+      "relationships": "持国 is father to 难敌; 维杜罗 is a wise figure whose counsel was disregarded by 难敌."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国 concludes that the events might be preordained by the creator (创造主), implying inevitability.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国"
+      ],
+      "type": "Philosophical Conclusion",
+      "details": "持国 suggests fate or divine will as the cause, accepting no other outcome."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya tells Dhritarashtra that the calamity is his own fault due to unrighteous actions, and that Dhritarashtra, unlike Duryodhana, understood this.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Dhritarashtra",
+        "Duryodhana"
+      ],
+      "action": "Accusation/Explanation",
+      "relationships": [
+        "Sanjaya (narrator) to Dhritarashtra (listener/king)",
+        "Dhritarashtra (father) to Duryodhana (son)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya states that Dhritarashtra's faults led to the dice game and the war with the Pandavas, and he must now accept the consequences.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Dhritarashtra"
+      ],
+      "action": "Cause and Effect",
+      "relationships": [
+        "Sanjaya (advisor) to Dhritarashtra (king)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima, after scattering the Kaurava army with arrows, attacks all of Duryodhana's brothers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Duryodhana",
+        "Duryodhana's brothers (including Dushasana, Durmukha, Durjaya, Jalasandha, Saha, etc.)"
+      ],
+      "action": "Attack",
+      "relationships": [
+        "Bhima (Pandava) vs. Duryodhana and his brothers (Kauravas)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima, surrounded by his determined cousins, enters their ranks fearlessly, compared to Indra entering the ranks of the Danavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Duryodhana's brothers"
+      ],
+      "action": "Heroic Entry",
+      "relationships": [
+        "Bhima (Pandava) vs. his Kaurava cousins"
+      ],
+      "supernatural_elements": [
+        "Simile comparing Bhima to Indra (king of gods) fighting Danavas (demons)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima rains down terrible arrows while being surrounded by hundreds of thousands of chariot warriors, but he ignores the Kaurava princes and kills their soldiers instead.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Kaurava army"
+      ],
+      "action": "Mass Combat",
+      "relationships": [
+        "Bhima (Pandava warrior) vs. Kaurava army"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima, realizing the Kauravas are determined to kill him, decides to kill them all, abandons his chariot, and charges into the Kaurava army with his mace.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "action": "Decision and Charge",
+      "relationships": [
+        "Bhima (Pandava) vs. Kaurava army"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandi, grandson of Prishata, leaves Drona and swiftly attacks Shakuni, son of Subala.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandi",
+        "Drona",
+        "Shakuni"
+      ],
+      "action": "Attack",
+      "relationships": [
+        "Shikhandi (Pandava ally) vs. Shakuni (Kaurava ally)",
+        "Shikhandi leaves Drona (Kaurava commander)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandi cuts through the Kaurava army and finds Bhima's empty chariot, then asks Bhima's charioteer, Vishoka, where Bhima is.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandi",
+        "Bhima",
+        "Vishoka"
+      ],
+      "action": "Search and Inquiry",
+      "relationships": [
+        "Shikhandi (ally) concerned for Bhima (Pandava)",
+        "Vishoka (charioteer) to Bhima"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vishoka tells Shikhandi that Bhima ordered him to wait, then charged into the Kaurava army alone with his mace, saying he would quickly destroy those who wanted to kill him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishoka",
+        "Shikhandi",
+        "Bhima"
+      ],
+      "action": "Report",
+      "relationships": [
+        "Vishoka (charioteer) reporting to Shikhandi (ally)",
+        "Bhima's heroic intent"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Meng Guang (猛光), grandson of King Shuidi (水滴王), heard the words of his charioteer Chu You (除忧) and responded in the middle of the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Meng Guang",
+        "Chu You"
+      ],
+      "action": "Dialogue/Response",
+      "relationships": [
+        "Charioteer and warrior"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Meng Guang declared his loyalty to Bhima (怖军), stating he would not abandon his friend and relative in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Meng Guang",
+        "Bhima"
+      ],
+      "action": "Declaration of loyalty",
+      "relationships": [
+        "Friends and relatives",
+        "Allies in battle"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Meng Guang charged into the Bharata (婆罗多族) army, following Bhima's path marked by elephants felled by Bhima's mace.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Meng Guang",
+        "Bhima"
+      ],
+      "action": "Charge into battle",
+      "relationships": [
+        "Following ally's path"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Meng Guang saw Bhima burning the enemy army and routing kings in battle like a gale wind breaking trees.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Meng Guang",
+        "Bhima"
+      ],
+      "action": "Observation of battle",
+      "relationships": [
+        "Ally observing ally"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The enemy army surrounded Bhima from all sides, showering him with arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Bharata army"
+      ],
+      "action": "Surround and attack",
+      "relationships": [
+        "Enemies in battle"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Meng Guang saw Bhima, the best warrior, charging forward while the terrible army and world-famous heroes attacked Bhima from all sides.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Meng Guang",
+        "Bhima",
+        "Bharata army heroes"
+      ],
+      "action": "Observation of intense battle",
+      "relationships": [
+        "Ally observing ally under attack",
+        "Enemies attacking"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Meng Guang approached the wounded Bhima, who was fighting on foot with his mace despite arrow wounds, to console him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Meng Guang",
+        "Bhima"
+      ],
+      "action": "Approach and console wounded ally",
+      "relationships": [
+        "Ally aiding ally"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Meng Guang quickly removed arrows from Bhima, placed him on his own chariot, embraced him warmly, and comforted him while surrounded by enemies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Meng Guang",
+        "Bhima"
+      ],
+      "action": "Rescue and comfort",
+      "relationships": [
+        "Ally rescuing ally"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In the fierce battle, Duryodhana (your son) approached his brothers and ordered them to kill Meng Guang, who had joined Bhima, to prevent him from harming their army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Meng Guang",
+        "Bhima",
+        "Duryodhana's brothers"
+      ],
+      "action": "Order to kill enemy",
+      "relationships": [
+        "Enemies in battle",
+        "Brothers following elder brother's command"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Hearing this, the sons of Dhritarashtra (持国之子们) became furious and charged forward with raised weapons, following their elder brother's command.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sons of Dhritarashtra",
+        "Duryodhana"
+      ],
+      "action": "Charge into battle",
+      "relationships": [
+        "Brothers following elder brother's command"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The heroes tightened their bows, with bowstring and chariot wheel sounds shaking the earth, and showered Meng Guang with arrows like clouds covering a mountain with rain.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sons of Dhritarashtra",
+        "Meng Guang"
+      ],
+      "action": "Attack with arrows",
+      "relationships": [
+        "Enemies in battle"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Meng Guang, unafraid in battle, also killed them with sharp arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Meng Guang",
+        "Sons of Dhritarashtra"
+      ],
+      "action": "Counterattack",
+      "relationships": [
+        "Enemies in battle"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing Duryodhana's sons surging forward, the young Meng Guang became extremely angry and wanted to kill the heroes before him, striking them with the powerful 'Mihun' (迷魂) weapon like Indra (因陀罗) striking the Danavas (提迭).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Meng Guang",
+        "Sons of Dhritarashtra",
+        "Indra",
+        "Danavas"
+      ],
+      "action": "Use of supernatural weapon",
+      "relationships": [
+        "Enemies in battle",
+        "Divine comparison"
+      ],
+      "supernatural_elements": [
+        "'Mihun' weapon causing confusion"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The wisdom and courage of these human heroes were struck by the 'Mihun' weapon, leaving them confused and unconscious in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sons of Dhritarashtra"
+      ],
+      "action": "Effect of supernatural weapon",
+      "supernatural_elements": [
+        "'Mihun' weapon causing confusion and unconsciousness"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing Duryodhana's sons dazed and unconscious as if their time had come, all Kuru (俱卢族) warriors fled in all directions with elephants, horses, and chariots.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kuru warriors",
+        "Sons of Dhritarashtra"
+      ],
+      "action": "Retreat/flee",
+      "relationships": [
+        "Army fleeing after leaders are incapacitated"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona encountered King Drupada and shot three sharp arrows at him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "King Drupada"
+      ],
+      "action": "Battle encounter",
+      "relationship": "Teacher-student turned enemies (due to past enmity)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Drupada was hit by Drona in battle and remembered their old enmity, then left the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Drupada",
+        "Drona"
+      ],
+      "action": "Withdrawal from battle",
+      "reason": "Old enmity and being wounded"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona defeated King Drupada and blew his conch, terrifying all the Somakas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Somakas (army)"
+      ],
+      "action": "Victory and psychological warfare",
+      "supernatural_element": "Conch sound causing fear"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona heard that the sons of Dhritarashtra (the Kauravas) were rendered unconscious by the 'Mohanastra' (delusion weapon) in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Kauravas (sons of Dhritarashtra)"
+      ],
+      "action": "Weapon effect",
+      "supernatural_element": "Mohanastra (delusion weapon)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona wanted to rescue the princes and quickly left that part of the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Kauravas"
+      ],
+      "action": "Rescue mission",
+      "relationship": "Teacher protecting his students"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona saw Bhima and Shikhandin (son of Drupada) roaming the vast battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Bhima",
+        "Shikhandin"
+      ],
+      "action": "Observation",
+      "relationship": "Enemies in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona saw the Kauravas unconscious, took out the 'Prajna' weapon (wisdom weapon), and neutralized the 'Mohanastra'.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Kauravas"
+      ],
+      "action": "Counter-weapon use",
+      "supernatural_element": "Prajnastra (wisdom weapon) countering Mohanastra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Kauravas regained consciousness and re-entered battle, attacking Bhima and Shikhandin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kauravas",
+        "Bhima",
+        "Shikhandin"
+      ],
+      "action": "Renewed attack",
+      "relationship_change": "Kauravas recovered and resumed fighting"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira called his army and instructed them to follow the battle tracks of Bhima and Shikhandin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Shikhandin",
+        "Pandava army"
+      ],
+      "action": "Military command",
+      "relationship": "Commander ordering troops"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira sent twelve warriors led by Abhimanyu (son of Subhadra) to investigate the situation because he felt uneasy.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Abhimanyu",
+        "Twelve warriors"
+      ],
+      "action": "Scouting mission",
+      "relationship": "Uncle sending nephew on mission"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The warriors including Kekayas, sons of Draupadi, and Satyaki, with Abhimanyu at the front, broke through the Kaurava chariot formation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Abhimanyu",
+        "Kekayas",
+        "Sons of Draupadi",
+        "Satyaki",
+        "Kaurava army"
+      ],
+      "action": "Battle breakthrough",
+      "formation": "Needle-point array"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The great archers with Abhimanyu at the front charged forward, while the Kaurava army, fearful of Bhima and stunned by Shikhandin, was unable to resist.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Abhimanyu",
+        "Kaurava army",
+        "Bhima",
+        "Shikhandin"
+      ],
+      "action": "Charge and defense collapse",
+      "psychological_state": "Fear and confusion in Kaurava army"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The great archers with golden banners charged forward to rescue Shikhandin and Bhima.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Abhimanyu's force",
+        "Shikhandin",
+        "Bhima"
+      ],
+      "action": "Rescue charge",
+      "relationship": "Allies coming to aid"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing the great archers led by Abhimanyu, Shikhandin and Bhima were filled with joy and continued killing the Kaurava army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Bhima",
+        "Abhimanyu's force",
+        "Kaurava army"
+      ],
+      "action": "Renewed slaughter",
+      "emotional_state": "Joy at reinforcement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandin suddenly saw his teacher Drona charging and stopped killing the Kauravas to focus on Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Drona",
+        "Kauravas"
+      ],
+      "action": "Change of target",
+      "relationship": "Student confronting teacher in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandin placed Bhima on a Kekaya chariot and angrily charged at Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Bhima",
+        "Drona"
+      ],
+      "action": "Chariot transfer and charge",
+      "emotional_state": "Anger"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona, enraged, quickly cut Shikhandin's bow with a crescent-headed arrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Shikhandin"
+      ],
+      "action": "Weapon destruction",
+      "supernatural_element": "Crescent-headed arrow"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Remembering he ate his master's food, Drona shot hundreds of arrows at Shikhandin to repay Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Shikhandin",
+        "Duryodhana"
+      ],
+      "action": "Intense attack",
+      "motivation": "Repaying debt to Duryodhana"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandin took another bow and shot seventy gold-feathered arrows sharpened on stone at Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Drona"
+      ],
+      "action": "Counter-attack",
+      "weapon_detail": "Gold-feathered arrows"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona again cut his bow and quickly shot four sharp arrows at his four horses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 20,
+    "group_index": 19,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Shikhandin"
+      ],
+      "action": "Horse attack",
+      "tactical_move": "Disabling chariot"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona killed the horses and then killed Shikhandin's charioteer with a crescent-headed arrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 21,
+    "group_index": 20,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Shikhandin's horses",
+        "Shikhandin's charioteer"
+      ],
+      "action": "Complete chariot destruction",
+      "supernatural_element": "Crescent-headed arrow killing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandin quickly jumped from his destroyed chariot and boarded Abhimanyu's great chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 22,
+    "group_index": 21,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Abhimanyu"
+      ],
+      "action": "Chariot transfer",
+      "relationship": "Allies helping each other"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona's army, along with chariots, elephants, and horses, trembled before Bhima and Shikhandin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Shikhandin",
+        "Drona"
+      ],
+      "action": "Intimidation/Show of force",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona, with his immense power, routed the army, and all the great warriors were unable to stop him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Rout/Defeat",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana regained consciousness and covered the unshakable Bhima with a shower of arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhima"
+      ],
+      "action": "Attack",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana's brothers, remembering their previous strategy to subdue the fearsome Bhima, resolved to subdue him again.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana's brothers",
+        "Bhima"
+      ],
+      "action": "Strategy/Resolution",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima, in great anger, attacked Duryodhana's brothers, shooting arrows at Chitrasena and others.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Chitrasena",
+        "Duryodhana's brothers"
+      ],
+      "action": "Counterattack",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Twelve great warriors led by Abhimanyu, following Yudhishthira's orders, pursued Duryodhana's brothers, causing them to abandon Bhima.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Abhimanyu",
+        "Yudhishthira",
+        "Duryodhana's brothers",
+        "Bhima"
+      ],
+      "action": "Pursuit/Rescue",
+      "relationships": "Abhimanyu leads warriors under Yudhishthira's command; Duryodhana's brothers retreat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima continued to pursue Duryodhana's brothers, unwilling to let them escape alive.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Duryodhana's brothers"
+      ],
+      "action": "Pursuit",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana and his warriors attacked Bhima, Shikhandin, and Abhimanyu together.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhima",
+        "Shikhandin",
+        "Abhimanyu"
+      ],
+      "action": "Group battle",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Abhimanyu killed Vikarna's horses and shot twenty-five small arrows at him, forcing Vikarna to abandon his chariot and board Chitrasena's.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Abhimanyu",
+        "Vikarna",
+        "Chitrasena"
+      ],
+      "action": "Attack/Chariot destruction",
+      "relationships": "Vikarna and Chitrasena are brothers; Abhimanyu attacks both"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dushasana (难胜) and Vikarna (毗迦尔纳) fired five iron arrows at Abhimanyu (迦尔希尼/激昂), who remained unmoved like Mount Meru.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dushasana",
+        "Vikarna",
+        "Abhimanyu"
+      ],
+      "action": "Archery attack",
+      "supernatural_element": "Abhimanyu's steadfastness compared to Mount Meru"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana (难降) fought against the five Kekaya brothers in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Five Kekaya brothers"
+      ],
+      "action": "Combat",
+      "relationship": "Enemies in the Kurukshetra War"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sons of Draupadi (德罗波蒂) angrily intercepted Duryodhana, each firing three arrows at him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Upapandavas (Sons of Draupadi)",
+        "Duryodhana"
+      ],
+      "action": "Archery attack",
+      "relationship": "Draupadi's sons seeking revenge for their mother's humiliation by Duryodhana"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana, though wounded, retaliated by firing sharp arrows at Draupadi's sons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Upapandavas (Sons of Draupadi)"
+      ],
+      "action": "Counterattack",
+      "description": "Duryodhana bled brilliantly like mountain streams carrying minerals"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma (毗湿摩) drove back the Pandava army in battle like a herdsman driving cattle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Pandava army"
+      ],
+      "action": "Military advance",
+      "relationship": "Bhishma as Kaurava commander fighting against his grandsons, the Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna (普利塔之子/阿周那) sounded the Gandiva bow and slaughtered enemies on the right side of the army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Archery slaughter",
+      "supernatural_element": "Sound of divine Gandiva bow"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Fierce battle resulted in headless torsos, blood like ocean water, and warriors crossing the army ocean using chariots as boats.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kaurava army",
+        "Pandava army"
+      ],
+      "action": "Mass combat",
+      "description": "Graphic depiction of war carnage with supernatural comparisons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "As sunset approached, Duryodhana charged forward eager to kill Bhima in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhima"
+      ],
+      "action": "Charge",
+      "relationship": "Longstanding enemies, with Bhima having vowed to kill Duryodhana"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima confronted Duryodhana, declaring his long-awaited moment to kill him and end the suffering of Kunti and Draupadi.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Duryodhana"
+      ],
+      "action": "Confrontation",
+      "relationship": "Bhima seeks revenge for Draupadi's humiliation and the Pandavas' exile"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima accused Duryodhana of being a gambler who insulted the Pandavas, following Karna and Shakuni's advice, and ignoring Krishna's pleas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Duryodhana",
+        "Karna",
+        "Shakuni",
+        "Krishna"
+      ],
+      "action": "Accusation",
+      "relationship": "Bhima recounts Duryodhana's offenses against the Pandavas and Krishna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima vowed to kill Duryodhana and his friends to avenge past crimes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Duryodhana"
+      ],
+      "action": "Vow",
+      "relationship": "Final confrontation between sworn enemies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima fired twenty-six fiery arrows at Duryodhana, hitting his bow, charioteer, horses, and canopy.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Duryodhana"
+      ],
+      "action": "Archery attack",
+      "description": "Bhima's powerful attack with arrows compared to thunderbolts"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima shot three arrows and cut off the shining, high-quality banner.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "action": "Cutting the banner",
+      "target": "Duryodhana's banner"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After cutting it, he roared in front of Duryodhana's son.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Duryodhana's son"
+      ],
+      "action": "Roaring/taunting"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The auspicious banner studded with various gems suddenly fell from the chariot to the ground, like lightning separating from a cloud.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Banner falling",
+      "supernatural_element": "Simile of lightning"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "All the kings saw the beautiful, jewel-studded banner of King Duryodhana of the Kuru dynasty broken.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "All kings",
+        "Duryodhana"
+      ],
+      "action": "Witnessing the broken banner"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Then the great warrior Bhima, as if laughing, shot ten arrows at Duryodhana in battle, like attacking an elephant with a goad.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Duryodhana"
+      ],
+      "action": "Shooting arrows",
+      "relationship": "Enemies in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The best charioteer of the Sindhu clan, King Shalya, closely followed Duryodhana, taking on the important task of rear guard.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Duryodhana"
+      ],
+      "action": "Guarding the rear",
+      "relationship": "Shalya protects Duryodhana"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The immensely powerful Kuru descendant Duryodhana could not withstand the attack, and the best charioteer Kripa placed him on his chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Kripa"
+      ],
+      "action": "Rescuing from battle",
+      "relationship": "Kripa rescues Duryodhana"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Duryodhana, struck by Bhima's iron club in battle, sat on the chariot seat in pain.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhima"
+      ],
+      "action": "Injuring with club",
+      "relationship": "Bhima injures Duryodhana"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya wanted to kill Bhima, surrounded him with several chariots, and blocked his path.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Bhima"
+      ],
+      "action": "Surrounding and blocking",
+      "relationship": "Shalya attacks Bhima"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The brave Abhimanyu, Yudhamanyu, the Kekaya brothers, and the sons of Draupadi fought with your sons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Abhimanyu",
+        "Yudhamanyu",
+        "Kekaya brothers",
+        "Sons of Draupadi",
+        "Duryodhana's brothers"
+      ],
+      "action": "Engaging in battle",
+      "relationship": "Pandava allies vs. Kaurava princes"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Eight famous excellent princes and great archers surrounded Abhimanyu's chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Abhimanyu",
+        "Eight Kaurava princes"
+      ],
+      "action": "Surrounding chariot"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The noble-minded Abhimanyu quickly attacked, shooting five straight arrows at each of them; these arrows were like thunderbolts, like Death, shot from his wonderful bow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Abhimanyu",
+        "Eight Kaurava princes"
+      ],
+      "action": "Shooting arrows",
+      "supernatural_element": "Arrows compared to thunderbolts and Death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "They could not endure it and showered sharp arrows on the excellent charioteer Abhimanyu, like clouds raining on Mount Meru.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Eight Kaurava princes",
+        "Abhimanyu"
+      ],
+      "action": "Showering arrows",
+      "supernatural_element": "Simile of clouds raining"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Abhimanyu, skilled in warfare, fought fiercely, and though attacked, he still shook your army, like Indra shaking the great Asuras in the battle between gods and Asuras.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Abhimanyu",
+        "Kaurava army"
+      ],
+      "action": "Shaking the army",
+      "supernatural_element": "Comparison to Indra vs. Asuras"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Then this best charioteer, as if dancing on the battlefield, shot fourteen terrible crescent-shaped arrows like snakes, shattering Vikarna's banner, charioteer, and horses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Abhimanyu",
+        "Vikarna"
+      ],
+      "action": "Shattering chariot components",
+      "supernatural_element": "Arrows compared to snakes"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The mighty son of Subhadra shot other yellow arrows sharpened on stone at Vikarna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Abhimanyu",
+        "Vikarna"
+      ],
+      "action": "Shooting arrows"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "These heron-feathered arrows struck Vikarna, pierced his body, and fell to the ground, shining like snakes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Abhimanyu",
+        "Vikarna"
+      ],
+      "action": "Piercing body",
+      "supernatural_element": "Arrows shining like snakes"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing Vikarna struck by arrows, his brothers rushed toward the warriors led by Abhimanyu.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vikarna's brothers",
+        "Abhimanyu"
+      ],
+      "action": "Rushing to attack",
+      "relationship": "Brothers defending Vikarna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Filled with anger, they fought fiercely, quickly approaching these warriors standing on chariots, shining like the sun, and killing each other.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vikarna's brothers",
+        "Pandava allies"
+      ],
+      "action": "Mutual combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shrutakarma shot seven fast arrows at Shrutakirti, cut off his banner with one arrow, and shot seven arrows at his charioteer.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 20,
+    "group_index": 19,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shrutakarma",
+        "Shrutakirti"
+      ],
+      "action": "Attacking chariot"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "He rushed forward, killed six horses clad in golden armor, swift as the wind, with arrows, and struck down the charioteer.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 21,
+    "group_index": 20,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shrutakarma"
+      ],
+      "action": "Killing horses and charioteer"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The great warrior Shrutakirti, standing on a chariot with dead horses, filled with anger, threw a discus like a burning great comet.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 22,
+    "group_index": 21,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shrutakirti"
+      ],
+      "action": "Throwing discus",
+      "supernatural_element": "Discus compared to comet"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "This shining discus pierced the famous Shrutakarma's broad armor and went into the ground.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 23,
+    "group_index": 22,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shrutakirti",
+        "Shrutakarma"
+      ],
+      "action": "Piercing armor"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The mighty Satyaki saw Shrutakirti's chariot disabled and, in front of all the armies, placed him on his own chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 24,
+    "group_index": 23,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Shrutakirti"
+      ],
+      "action": "Rescuing from disabled chariot",
+      "relationship": "Satyaki rescues Shrutakirti"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "英雄闻称在战斗中冲向胜军，想要杀死他。",
+    "char_interval": {
+      "start_pos": 7338,
+      "end_pos": 7357
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "闻称",
+        "胜军"
+      ],
+      "action": "战斗攻击",
+      "relationship": "敌对"
+    },
+    "_token_interval": {
+      "start_index": 2153,
+      "end_index": 2157
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "胜军用锋利的剃刀箭射断闻称挽开的弓。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "胜军",
+        "闻称"
+      ],
+      "action": "射断武器",
+      "relationship": "敌对"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "百军看见同胞兄弟闻称的弓被射断，冲到那里，像狮子那样连声吼叫。",
+    "char_interval": {
+      "start_pos": 7010,
+      "end_pos": 7042
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "百军",
+        "闻称"
+      ],
+      "action": "支援兄弟",
+      "relationship": "同胞兄弟"
+    },
+    "_token_interval": {
+      "start_index": 2064,
+      "end_index": 2070
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "百军挽开硬弓，迅速向胜军发射四支箭。",
+    "char_interval": {
+      "start_pos": 7046,
+      "end_pos": 7068
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "百军",
+        "胜军"
+      ],
+      "action": "弓箭攻击",
+      "relationship": "敌对"
+    },
+    "_token_interval": {
+      "start_index": 2073,
+      "end_index": 2077
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "百军又搭上一支能穿透一切铠甲的利箭，用力射击胜军的心窝。",
+    "char_interval": {
+      "start_pos": 7072,
+      "end_pos": 7100
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "百军",
+        "胜军"
+      ],
+      "action": "致命攻击",
+      "relationship": "敌对"
+    },
+    "_token_interval": {
+      "start_index": 2080,
+      "end_index": 2084
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "丑耳就在兄弟胜军身边，愤怒至极，在战斗中射断百军的弓。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "丑耳",
+        "百军",
+        "胜军"
+      ],
+      "action": "射断武器",
+      "relationship": "丑耳与胜军是兄弟，与百军敌对"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "百军取出另一张良弓，搭上锋利的箭，招呼丑耳并射出箭。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "百军",
+        "丑耳"
+      ],
+      "action": "弓箭攻击",
+      "relationship": "敌对"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "百军用一支箭射断丑耳的弓，用两支箭射击御者，又向丑耳射出七支箭。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "百军",
+        "丑耳"
+      ],
+      "action": "多重攻击",
+      "relationship": "敌对"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "百军用十二支锋利的箭全歼丑耳的黑斑马。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "百军",
+        "丑耳"
+      ],
+      "action": "消灭战马",
+      "relationship": "敌对"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "愤怒的百军用力发射一支月牙箭，击中丑耳的心窝。",
+    "char_interval": {
+      "start_pos": 7294,
+      "end_pos": 7322
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "百军",
+        "丑耳"
+      ],
+      "action": "致命攻击",
+      "relationship": "敌对"
+    },
+    "_token_interval": {
+      "start_index": 2142,
+      "end_index": 2146
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "看到丑耳受伤，五位大勇士从四面包围百军，想要杀死他。",
+    "char_interval": {
+      "start_pos": 7327,
+      "end_pos": 7334
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "五位大勇士（羯迦夜族五兄弟）",
+        "百军",
+        "丑耳"
+      ],
+      "action": "围攻",
+      "relationship": "羯迦夜族兄弟与百军敌对"
+    },
+    "_token_interval": {
+      "start_index": 2149,
+      "end_index": 2151
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "著名的百军被箭雨覆盖，羯迦夜族五兄弟满腔愤怒，冲了过去。",
+    "char_interval": {
+      "start_pos": 7361,
+      "end_pos": 7389
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "百军",
+        "羯迦夜族五兄弟"
+      ],
+      "action": "集体攻击",
+      "relationship": "敌对"
+    },
+    "_token_interval": {
+      "start_index": 2160,
+      "end_index": 2166
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "丑面、难胜、难耐、胜敌和御敌这些著名的勇士满腔愤怒，一起冲向羯迦夜族兄弟。",
+    "char_interval": {
+      "start_pos": 7431,
+      "end_pos": 7434
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "丑面",
+        "难胜",
+        "难耐",
+        "胜敌",
+        "御敌",
+        "羯迦夜族五兄弟"
+      ],
+      "action": "反冲锋",
+      "relationship": "般度族方与羯迦夜族敌对"
+    },
+    "_token_interval": {
+      "start_index": 2180,
+      "end_index": 2182
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "英雄们手持弓箭，铠甲和旗帜美丽，冲入敌方军队，犹如狮子从一座森林进入另一座森林。",
+    "char_interval": {
+      "start_pos": 7520,
+      "end_pos": 7561
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般度族方英雄",
+        "羯迦夜族方英雄"
+      ],
+      "action": "激烈交战",
+      "relationship": "敌对"
+    },
+    "_token_interval": {
+      "start_index": 2204,
+      "end_index": 2212
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "战斗激烈，战车和大象碰撞，场面极其恐怖，互相残杀，互相施暴，扩充阎摩的王国。",
+    "char_interval": {
+      "start_pos": 7571,
+      "end_pos": 7609
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "双方军队"
+      ],
+      "action": "大规模混战",
+      "relationship": "敌对"
+    },
+    "_token_interval": {
+      "start_index": 2216,
+      "end_index": 2229
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "太阳落山，战斗依然激烈，车兵和马兵成千成千倒下。",
+    "char_interval": {
+      "start_pos": 7616,
+      "end_pos": 7640
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "双方军队"
+      ],
+      "action": "持续战斗",
+      "relationship": "敌对"
+    },
+    "_token_interval": {
+      "start_index": 2234,
+      "end_index": 2240
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "愤怒的福身王之子毗湿摩用笔直的箭歼灭般度族军队，用箭把般遮罗军队送往阎摩殿。",
+    "char_interval": {
+      "start_pos": 7644,
+      "end_pos": 7687
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "毗湿摩",
+        "般度族军队",
+        "般遮罗军队"
+      ],
+      "action": "大规模杀伤",
+      "relationship": "毗湿摩（俱卢族方）与般度族方敌对"
+    },
+    "_token_interval": {
+      "start_index": 2243,
+      "end_index": 2247
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "大弓箭手毗湿摩击溃般度族军队，下令收兵，返回自己的营地。",
+    "char_interval": {
+      "start_pos": 7695,
+      "end_pos": 7722
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "毗湿摩",
+        "般度族军队"
+      ],
+      "action": "结束战斗",
+      "relationship": "敌对"
+    },
+    "_token_interval": {
+      "start_index": 2252,
+      "end_index": 2257
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "法王坚战见到猛光和狼腹怖军，亲吻他俩的头，也高兴地返回营地。",
+    "char_interval": {
+      "start_pos": 7747,
+      "end_pos": 7765
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "猛光",
+        "怖军"
+      ],
+      "action": "战后团聚",
+      "relationship": "兄弟（般度五子）"
+    },
+    "_token_interval": {
+      "start_index": 2270,
+      "end_index": 2276
+    }
+  }
+]

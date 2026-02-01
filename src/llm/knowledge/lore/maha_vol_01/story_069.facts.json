@@ -1,0 +1,1029 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "隐娘在森林道院里生下了儿子，延续了沙迦提的家族。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "隐娘",
+        "波罗奢罗"
+      ],
+      "action": "Birth",
+      "relationships": [
+        "Mother-Son"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "尊者极裕亲自为孙子的出生礼等事体妥善操办。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "极裕",
+        "波罗奢罗"
+      ],
+      "action": "Ritual Performance",
+      "relationships": [
+        "Grandfather-Grandson"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "因为极裕正执意轻生，有波罗奢罗怀在胎中那时才保住了仙人的性命，所以世人将波罗奢罗称做波罗奢罗（破灭）。",
+    "char_interval": {
+      "start_pos": 132,
+      "end_pos": 142
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "极裕",
+        "波罗奢罗"
+      ],
+      "action": "Name Origin",
+      "supernatural_elements": [
+        "Life Preservation through Pregnancy"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 36,
+      "end_index": 38
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "波罗奢罗把极裕认作是父亲，一直生活在极裕身边。",
+    "char_interval": {
+      "start_pos": 209,
+      "end_pos": 231
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "波罗奢罗",
+        "极裕"
+      ],
+      "action": "Misidentification of Relationship",
+      "relationships": [
+        "Grandfather mistaken as Father"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 53,
+      "end_index": 58
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "波罗奢罗在母亲隐娘面前呼唤极裕为爸爸。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "波罗奢罗",
+        "极裕",
+        "隐娘"
+      ],
+      "action": "Addressing",
+      "relationships": [
+        "Son calls Grandfather 'Father'"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "隐娘满眼泪水，告诉波罗奢罗他的爸爸被罗刹吃掉了，而极裕是他父亲的父亲。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "隐娘",
+        "波罗奢罗",
+        "极裕"
+      ],
+      "action": "Revelation of True Parentage",
+      "relationships": [
+        "Mother reveals Grandfather's true identity"
+      ],
+      "supernatural_elements": [
+        "Father killed by Rakshasa"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "波罗奢罗听罢此言之后痛不欲生，心中产生了毁灭全世界的念头。",
+    "char_interval": {
+      "start_pos": 429,
+      "end_pos": 453
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "波罗奢罗"
+      ],
+      "action": "Emotional Reaction and Destructive Intent",
+      "type": "Conflict"
+    },
+    "_token_interval": {
+      "start_index": 127,
+      "end_index": 131
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "苦行法力广大无边的极裕阻止了波罗奢罗，并援引理由讲述故事。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "极裕",
+        "波罗奢罗"
+      ],
+      "action": "Intervention and Storytelling",
+      "relationships": [
+        "Grandfather prevents Grandson's destructive plan"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "极裕讲述成勇王的故事：成勇王是王中雄牛，精通吠陀的婆利古族的祭主。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "成勇王",
+        "婆利古族"
+      ],
+      "action": "Introduction of Historical Figure",
+      "relationships": [
+        "King as Priest of Brahmin Clan"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "在一次苏摩祭结束的时候，成勇王以丰厚的珍宝钱财为谢仪，使婆利古族的众位婆罗门十分满意。",
+    "char_interval": {
+      "start_pos": 559,
+      "end_pos": 571
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "成勇王",
+        "婆利古族"
+      ],
+      "action": "Reward for Ritual",
+      "type": "Ritual"
+    },
+    "_token_interval": {
+      "start_index": 156,
+      "end_index": 158
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "成勇王宾天之后，他的家族后人们钱财之事迫在眉睫。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "成勇王的后人"
+      ],
+      "action": "Financial Crisis",
+      "type": "Conflict"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "诸位王子拥向婆利古族的大德大贤家里，向他们讨取钱财。",
+    "char_interval": {
+      "start_pos": 679,
+      "end_pos": 704
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "诸位王子",
+        "婆利古族"
+      ],
+      "action": "Demand for Wealth",
+      "relationships": [
+        "Kshatriyas demand from Brahmins"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 182,
+      "end_index": 186
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "婆利古族对刹帝利十分恐惧，有些人把钱财埋入地里，有些人送给了别家婆罗门，有些人按照刹帝利的愿望给他们钱财。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "婆利古族",
+        "刹帝利"
+      ],
+      "action": "Wealth Concealment and Distribution",
+      "relationships": [
+        "Brahmins fear Kshatriyas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "有个刹帝利在地上挖来挖去，在婆利古家族的房子里发现了一堆钱财，其他刹帝利也看见了。",
+    "char_interval": {
+      "start_pos": 813,
+      "end_pos": 826
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "刹帝利",
+        "婆利古族"
+      ],
+      "action": "Discovery of Hidden Wealth",
+      "type": "Conflict"
+    },
+    "_token_interval": {
+      "start_index": 213,
+      "end_index": 215
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "婆利古族人请求饶恕，那群刹帝利根本不屑一顾，在盛怒之下用利箭把婆利古族人都屠杀了，连胎儿也要斩尽杀绝。",
+    "char_interval": {
+      "start_pos": 879,
+      "end_pos": 900
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "婆利古族",
+        "刹帝利"
+      ],
+      "action": "Massacre",
+      "relationships": [
+        "Kshatriyas slaughter Brahmins"
+      ],
+      "type": "Violence"
+    },
+    "_token_interval": {
+      "start_index": 226,
+      "end_index": 229
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "婆利古家族的男子都被这样屠戮净尽了。",
+    "char_interval": {
+      "start_pos": 963,
+      "end_pos": 981
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "婆利古族"
+      ],
+      "action": "Annihilation of Clan",
+      "type": "Tragedy"
+    },
+    "_token_interval": {
+      "start_index": 247,
+      "end_index": 249
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Women of the Bhrigu clan fled in terror to the Snowy Mountains (Himalayas).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Women of the Bhrigu clan"
+      ],
+      "action": "Fleeing from persecution",
+      "location": "Snowy Mountains (Himalayas)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A beautiful Bhrigu woman, fearing the Kshatriyas, concealed her radiant fetus in her thigh to preserve her husband's lineage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhrigu woman (mother of Aurva)"
+      ],
+      "action": "Concealing fetus",
+      "reason": "Preserve lineage, avoid detection"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Kshatriyas discovered the radiant Bhrigu woman.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kshatriyas",
+        "Bhrigu woman (mother of Aurva)"
+      ],
+      "action": "Discovery",
+      "conflict": "Persecution of Bhrigu clan"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The fetus tore open the Bhrigu woman's thigh and was born, radiating blinding light like the midday sun that blinded the Kshatriyas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Aurva (child)",
+        "Kshatriyas"
+      ],
+      "action": "Supernatural birth",
+      "supernatural_element": "Blinding divine light",
+      "consequence": "Kshatriyas blinded"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The blinded Kshatriyas wandered helplessly in the treacherous Snowy Mountains.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kshatriyas"
+      ],
+      "action": "Wandering blindly",
+      "consequence": "Suffering and fear"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Kshatriyas, terrified and in pain, begged the pure Bhrigu woman for mercy and restoration of their sight.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kshatriyas",
+        "Bhrigu woman (mother of Aurva)"
+      ],
+      "action": "Pleading for mercy",
+      "promise": "To cease wrongdoing and return home"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Bhrigu woman explained that her son Aurva, enraged by the massacre of the Bhrigu clan, had blinded them and intended to kill them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhrigu woman (mother of Aurva)",
+        "Aurva",
+        "Kshatriyas"
+      ],
+      "explanation": "Aurva's anger due to clan massacre, his divine power from Vedas",
+      "supernatural_element": "Divine light as weapon"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Bhrigu woman advised the Kshatriyas to beg Aurva for mercy at his feet.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhrigu woman (mother of Aurva)",
+        "Kshatriyas",
+        "Aurva"
+      ],
+      "action": "Advice to seek forgiveness",
+      "relationship": "Mother mediating for son's mercy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The princes begged Aurva for mercy, and he granted them an boon, restoring their sight.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kshatriyas",
+        "Aurva"
+      ],
+      "action": "Granting boon",
+      "result": "Sight restored"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Aurva became renowned in all worlds as 'Aurva' (thigh-born) due to his birth from the thigh.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Aurva"
+      ],
+      "action": "Gaining fame",
+      "name_origin": "Born from thigh (Aurva)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After the princes regained their sight and left, Aurva resolved to destroy the entire world to avenge the Bhrigu clan.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Aurva"
+      ],
+      "action": "Vow of destruction",
+      "motivation": "Revenge for Bhrigu clan massacre",
+      "supernatural_element": "Plan for universal annihilation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Aurva began performing severe austerities (tapas) to gain the power to destroy all worlds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Aurva"
+      ],
+      "action": "Practicing tapas",
+      "goal": "Acquire power for universal destruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A sage from the Bhṛgu lineage performed severe austerities to please his ancestors, causing distress to the worlds of gods, asuras, and humans.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage from Bhṛgu lineage (likely Jamadagni or Parashurama based on context)"
+      ],
+      "action": "Performing severe austerities",
+      "effect": "Caused distress to multiple worlds"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The ancestors of the Bhṛgu lineage, perceiving his intentions, came from the ancestral world and spoke to him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ancestors of Bhṛgu lineage",
+        "Sage from Bhṛgu lineage"
+      ],
+      "action": "Divine intervention/communication",
+      "purpose": "To dissuade him from his vow"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "revelation",
+    "extraction_text": "The ancestors revealed that they had deliberately hidden wealth in Bhṛgu houses to provoke the Kshatriyas into violence, as they wished to be killed to ascend to heaven, having grown weary of their long lives.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ancestors of Bhṛgu lineage"
+      ],
+      "true_intent": "Provoked Kshatriyas to kill them for heavenly ascent",
+      "method": "Hidden wealth as bait"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The ancestors urged the sage to abandon his vow to destroy all worlds, explaining that the Kshatriyas and the seven worlds had not harmed their austerities or power.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ancestors of Bhṛgu lineage",
+        "Sage from Bhṛgu lineage"
+      ],
+      "action": "Persuasion",
+      "reason": "To prevent destruction of worlds"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "conflict",
+    "extraction_text": "The sage (identified as Jamadagni or Parashurama) insisted his vow of destroying all worlds must be fulfilled, as unfulfilled anger would consume him like fire.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage from Bhṛgu lineage (likely Jamadagni or Parashurama)"
+      ],
+      "vow": "To destroy all worlds",
+      "reason": "Anger must be expressed to protect righteousness"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sage recounted hearing the wails of Bhṛgu women, including his pregnant mother, during the Kshatriya massacre, and that his mother carried him in her thigh for protection.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage from Bhṛgu lineage",
+        "Bhṛgu women",
+        "Kshatriyas"
+      ],
+      "action": "Narration of past trauma",
+      "effect": "Fueled his enduring anger"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "He argued that punishing the wicked protects the virtuous, and kings seeking heaven should direct anger appropriately.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage from Bhṛgu lineage"
+      ],
+      "philosophy": "Righteous anger as protection",
+      "target": "Kshatriyas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A character expresses anger that crimes go unpunished in the world and that kings and gods failed to protect their ancestors, despite having the power to do so.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unnamed Speaker (later identified as Parashara)"
+      ],
+      "action": "Expression of righteous anger and intent to punish evil",
+      "conflict": "Conflict between duty to punish evil and the potential destruction of the worlds"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker declares they will become the lord of the worlds to punish evil, but vows not to disobey their ancestors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unnamed Speaker (later identified as Parashara)"
+      ],
+      "action": "Declaration of intent and assumption of a cosmic role",
+      "relationship": "Speaker shows deference to ancestors"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker reveals their anger has manifested as a fire capable of destroying all worlds, which will consume them if restrained.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unnamed Speaker (later identified as Parashara)"
+      ],
+      "action": "Revelation of supernatural power (fire born of anger)",
+      "supernatural_element": "Fire born of anger with destructive cosmic power"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker asks their ancestors for a solution to punish evil without destroying the worlds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unnamed Speaker (later identified as Parashara)",
+        "Ancestors"
+      ],
+      "action": "Appeal for guidance",
+      "relationship": "Speaker seeks counsel from ancestors"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The ancestors instruct the speaker to cast the fire of their anger into the water, as all worlds are founded upon water.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ancestors"
+      ],
+      "action": "Providing a solution",
+      "supernatural_element": "Cosmological principle that worlds are made of/rest on water"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker (identified as Parashara) casts the fire of his anger into the water realm of Varuna, where it resides in the ocean, consuming seawater and taking the form of a horse's head.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Parashara",
+        "Varuna"
+      ],
+      "action": "Disposal of destructive fire",
+      "supernatural_element": "Fire becomes a horse-headed entity (Vadavamukha/Hayashiras) in the ocean"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vasistha blesses Parashara, praising his wisdom and righteousness, and advises him not to destroy the worlds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vasistha",
+        "Parashara"
+      ],
+      "action": "Blessing and counsel",
+      "relationship": "Vasistha acts as a guide or elder to Parashara"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Gandharva narrates that Parashara, hearing Vasistha's words, restrained his anger and instead performed a Rakshasa-sacrifice (Rakshasa Yajna) to avenge his father Shakti.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Parashara",
+        "Vasistha",
+        "Shakti"
+      ],
+      "action": "Restraint of anger and performance of a sacrificial rite",
+      "relationship": "Parashara is the son of Shakti; the sacrifice is an act of filial vengeance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Many Rakshasas, young and old, were burned to death in Parashara's sacrifice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Parashara",
+        "Rakshasas"
+      ],
+      "action": "Destruction of Rakshasas through sacrificial fire",
+      "supernatural_element": "Ritualistic destruction of demons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vasistha decided not to obstruct Parashara's second vow (the sacrifice), having not stopped the killing of the Rakshasas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vasistha",
+        "Parashara"
+      ],
+      "action": "Decision of non-interference",
+      "relationship": "Vasistha permits Parashara's act of vengeance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Parashara, shining brilliantly, sat before the three sacrificial fires during the rite, appearing like a fourth fire.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Parashara"
+      ],
+      "action": "Conducting the sacrifice",
+      "description": "Parashara's radiant presence during the ritual"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Parashara's divine light illuminated the heavens, and the sages led by Vasistha considered him like a second sun.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Parashara",
+        "Vasistha",
+        "Other sages"
+      ],
+      "action": "Divine illumination",
+      "supernatural_elements": "Divine light comparable to the sun"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The wise sage Atri, wanting to stop the Rakshasa sacrifice, went with other sages to the difficult-to-access sacrificial ground.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Atri",
+        "Other sages"
+      ],
+      "action": "Journey to stop sacrifice",
+      "purpose": "Stop the Rakshasa sacrifice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pulastya, Pulaha, and Kratu also came to the great sacrifice to save the lives of the Rakshasas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pulastya",
+        "Pulaha",
+        "Kratu"
+      ],
+      "action": "Arrival at sacrifice",
+      "purpose": "Save Rakshasas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Because many Rakshasas were being killed, Pulastya spoke to the valiant Parashara, questioning his actions and urging him to stop.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pulastya",
+        "Parashara"
+      ],
+      "action": "Confrontation and appeal",
+      "arguments": [
+        "Questioning the killing of innocent Rakshasas",
+        "Calling it unlawful killing",
+        "Mentioning that Vasistha's sons (Shakti and brothers) are happy in heaven",
+        "Urging Parashara to abandon the sacrifice"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After hearing Pulastya's words and being guided by the wise Vasistha, Parashara (son of Shakti) ended the sacrifice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Parashara",
+        "Pulastya",
+        "Vasistha"
+      ],
+      "action": "Ending of sacrifice",
+      "influences": [
+        "Pulastya's appeal",
+        "Vasistha's guidance"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The fire accumulated for the entire Rakshasa sacrifice was thrown into the great forest on the northern slope of the Himalayas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Parashara"
+      ],
+      "action": "Disposal of sacrificial fire",
+      "location": "Northern slope of Himalayas",
+      "supernatural_elements": "Sacrificial fire with destructive power"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Until today, on lunar phase change days (new moon, full moon), that fire can be seen consuming Rakshasas, trees, and rocks.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Continuing destruction",
+      "time": "Lunar phase change days",
+      "supernatural_elements": "Eternal fire that consumes Rakshasas and natural elements"
+    },
+    "_token_interval": null
+  }
+]

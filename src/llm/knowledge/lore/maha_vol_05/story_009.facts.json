@@ -1,0 +1,1386 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira advises against desire and attachment to kingdom",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Philosophical teaching",
+      "theme": "Renunciation and detachment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira explains the futility of worldly desires",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Teaching about desire",
+      "key_points": [
+        "Desires are insatiable",
+        "Even ruling entire earth doesn't satisfy hunger",
+        "Fire analogy for controlling desires"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira contrasts kings and ascetics",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Comparison",
+      "contrast": [
+        "Kings who pursue power and pleasure",
+        "Ascetics who renounce and achieve higher states"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira describes two paths: ancestors' path and gods' path",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Teaching spiritual paths",
+      "paths": [
+        "Ancestors' path (through sacrifices)",
+        "Gods' path (through liberation-seeking)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira quotes King Janaka's wisdom",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "King Janaka"
+      ],
+      "action": "Quoting wisdom",
+      "quote": "\"My wealth is infinite, yet I have nothing; even if Mithila burns, I have lost nothing.\"",
+      "theme": "Detachment from possessions"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira explains the nature of true wisdom",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Defining wisdom",
+      "key_points": [
+        "Seeing what should be seen",
+        "Understanding the unknown",
+        "Recognizing unity in diversity",
+        "Root of everything is wisdom"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "护民子讲述毗提诃国王和王后的对话传说",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "护民子",
+        "阿周那",
+        "国王"
+      ],
+      "type": "Narration",
+      "context": "护民子向阿周那讲述古老传说"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "毗提诃国王抛弃王国，决定乞食为生，削发出家",
+    "char_interval": {
+      "start_pos": 1104,
+      "end_pos": 1121
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "毗提诃国王"
+      ],
+      "action": "放弃王位出家",
+      "details": "抛弃财富、儿子、朋友、珍宝和祭祀净化之路"
+    },
+    "_token_interval": {
+      "start_index": 325,
+      "end_index": 329
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "王后看见毗提诃国王过乞食生活，一无所有，每天以一把粮食维生",
+    "char_interval": {
+      "start_pos": 1167,
+      "end_pos": 1195
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "王后",
+        "毗提诃国王"
+      ],
+      "relationship": "夫妻",
+      "observation": "王后目睹国王的苦行生活"
+    },
+    "_token_interval": {
+      "start_index": 347,
+      "end_index": 352
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "王后在僻静地方生气地质问毗提诃国王",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "王后",
+        "毗提诃国王"
+      ],
+      "action": "质问",
+      "tone": "生气而有道理"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "王后质问国王为何抛弃富饶王国，在森林里以一把粮食维生",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "王后",
+        "毗提诃国王"
+      ],
+      "argument": "国王的誓愿与行为矛盾",
+      "concerns": [
+        "无法供奉客人、天神、仙人和祖先",
+        "被所有天神、客人和祖先抛弃"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "王后指出国王的行为导致母亲失去儿子，憍萨罗公主成为寡妇",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "王后",
+        "毗提诃国王"
+      ],
+      "impact": [
+        "国王的母亲",
+        "憍萨罗公主"
+      ],
+      "consequences": "家庭破碎"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "王后提到八十位热爱正法的刹帝利女子侍奉国王，如今失望",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "王后",
+        "毗提诃国王"
+      ],
+      "affected_parties": [
+        "八十位刹帝利女子"
+      ],
+      "concern": "国王使她们失望，解脱可疑"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "王后质问国王为何抛弃花环、香料、装饰品和各种衣服",
+    "char_interval": {
+      "start_pos": 1617,
+      "end_pos": 1638
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "王后",
+        "毗提诃国王"
+      ],
+      "contrast": "从荣华富贵到一无所有",
+      "metaphor": "从纯洁大湖、繁茂大树变成乞求别人"
+    },
+    "_token_interval": {
+      "start_index": 480,
+      "end_index": 485
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "王后警告国王可能面临的危险：托钵被打碎，三杖被夺，衣服被抢",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "王后",
+        "毗提诃国王"
+      ],
+      "warning": "出家生活的脆弱性",
+      "metaphor": "像倒下的大象被食肉兽撕吃"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "王后质问国王关于施舍与接受的差别",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "王后",
+        "毗提诃国王"
+      ],
+      "philosophical_question": "始终接受与始终施舍哪个更好",
+      "context": "国王从施舍者变成接受者"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text presents a philosophical debate about dharma, charity, and renunciation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unnamed Speaker(s)"
+      ],
+      "type": "Philosophical Discourse",
+      "key_points": [
+        "Critique of perpetual beggars and false renunciates",
+        "Importance of charity (dana) and householder life",
+        "Definition of true liberation vs. external appearances"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Janaka, a king renowned for wisdom, is cited as an example of someone who can still become confused.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Janaka"
+      ],
+      "action": "Cautionary reference",
+      "purpose": "To warn the listener (presumably a king) not to become confused about dharma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira responds to Arjuna's arguments about dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Arjuna"
+      ],
+      "type": "Dialogue/Response",
+      "relationship": "Brothers (Pandavas)",
+      "key_points": [
+        "Yudhishthira claims deeper knowledge of the Vedas and scriptures",
+        "He acknowledges Arjuna's expertise in warfare and brotherly intent",
+        "He asserts his own wisdom in understanding the conclusions of the wise"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira states that wise men confirm three ways of life are ranked in order of merit: asceticism (tapas), renunciation (sannyasa), and householder life (garhasthya).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Doctrinal statement",
+      "conclusion": "Presents a hierarchical view of spiritual lifestyles"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna (also called Partha, Kunti's son) expresses the view that wealth is the highest priority.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "type": "Philosophical Statement",
+      "context": "Dialogue from the Mahabharata, Shanti Parva"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "An unnamed speaker (likely Yudhishthira or another sage) refutes Arjuna, arguing that dharma (righteousness), not wealth, is primary.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unnamed Speaker (likely Yudhishthira or a Sage)"
+      ],
+      "type": "Philosophical Refutation",
+      "arguments": [
+        "Those who follow dharma practice austerity (tapas) and study the Vedas",
+        "Ascetics who renounce wealth reach heaven",
+        "The path of liberation is superior to the path of action aimed at worldly gains"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker describes various spiritual paths: the northern path (for renunciates) and the southern path (for action-oriented people destined for mortality).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unnamed Speaker"
+      ],
+      "type": "Spiritual Teaching",
+      "elements": [
+        "Divine/supernatural elements: Paths to different afterlife realms"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker criticizes learned people who, despite knowledge, cling to conventional views and deny the highest spiritual state.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unnamed Speaker",
+        "Learned Critics"
+      ],
+      "type": "Critique",
+      "action": "Condemnation of materialistic philosophy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sage Devasthana (narrated by Vaishampayana) responds to Yudhishthira after Arjuna's speech, advising that dharma-backed action is essential.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Devasthana",
+        "Yudhishthira"
+      ],
+      "type": "Advisory",
+      "relationships": "Sage advising king",
+      "arguments": [
+        "Yudhishthira won the earth through dharma and should not abandon it",
+        "Four stages of life require action",
+        "One should perform great sacrifices and charity"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Devasthana states that non-pursuit of wealth is higher than its pursuit, as wealth leads to many evils.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Devasthana"
+      ],
+      "type": "Moral Conclusion",
+      "action": "Condemnation of wealth-seeking"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "People toil to accumulate wealth out of ignorance, not realizing they commit sins like abortion in the process.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "People (general)"
+      ],
+      "type": "Moral teaching",
+      "action": "Accumulation of wealth through sinful means"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person gives to those who should not receive and does not give to those who should receive, making the law of charity difficult to master.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "A person (generic)"
+      ],
+      "type": "Moral teaching",
+      "action": "Improper charity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Creator created wealth for sacrifice, and people should protect wealth for sacrifice, with all wealth ultimately meant for sacrifice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Creator",
+        "People (general)"
+      ],
+      "type": "Divine instruction",
+      "action": "Purpose of wealth"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra performed abundant sacrifices with various foods, surpassed all gods, obtained the nature of Indra, and became radiant.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra"
+      ],
+      "type": "Divine example",
+      "action": "Performance of sacrifices"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The great god Shiva, wearing animal skins, offered himself as the sacrifice in all rituals, becoming the god of gods, winning all worlds, supporting all worlds, with renowned glory and brilliance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shiva"
+      ],
+      "type": "Divine example",
+      "action": "Self-sacrifice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Manu, son of Avikshit, as a mortal, defeated Indra through abundant wealth, with all vessels in his sacrifice being golden and the goddess of fortune herself arriving.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Manu (son of Avikshit)",
+        "Indra"
+      ],
+      "type": "Mortal achievement",
+      "action": "Defeating Indra through sacrifice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Harishchandra, through performing sacrifices, accumulated merit and dispelled sorrow, as a mortal defeating Indra through wealth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Harishchandra",
+        "Indra"
+      ],
+      "type": "Mortal achievement",
+      "action": "Defeating Indra through sacrifice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Devastana narrates an ancient conversation where sage Vrihaspati tells Indra that contentment is the highest heaven and happiness, with nothing more important than contentment.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Devastana",
+        "Vrihaspati",
+        "Indra"
+      ],
+      "type": "Philosophical teaching",
+      "action": "Teaching about contentment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person who controls desires like a turtle withdrawing its limbs automatically manifests the radiance of the soul, fears no one and is feared by none, conquers love and hate, and sees the Self.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "A person (generic)"
+      ],
+      "type": "Philosophical teaching",
+      "action": "Self-control and realization"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "One who does not get angry or offend any being in action, thought, or speech attains Brahman.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "A person (generic)"
+      ],
+      "type": "Philosophical teaching",
+      "action": "Attaining Brahman through non-violence"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Beings view various dharmas differently: some praise tranquility, some praise struggle, some praise both, some praise neither; some praise sacrifice, some praise renunciation, some praise giving, some praise receiving, some abandon everything and meditate silently.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Beings (general)"
+      ],
+      "type": "Philosophical observation",
+      "action": "Different views on dharma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Some praise kingdoms and protecting all beings, some live alone after killing, cutting, or splitting enemies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Some people (generic)"
+      ],
+      "type": "Philosophical observation",
+      "action": "Different approaches to life"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Wise people conclude that non-injury to beings is the dharma acknowledged by good people.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Wise people"
+      ],
+      "type": "Philosophical conclusion",
+      "action": "Establishing non-injury as supreme dharma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Manu Svayambhu declared non-injury, truthfulness, fairness, steadfastness, tolerance, procreation with one's own wife, gentleness, modesty, non-frivolity, and wealth as the most excellent dharmas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Manu Svayambhu"
+      ],
+      "type": "Divine declaration",
+      "action": "Listing excellent dharmas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A Kshatriya well-versed in the essence of statecraft, established in the kingdom, always controls the self, views pleasure and pain, love and hate equally, and eats food left from sacrifices.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "A Kshatriya (generic)"
+      ],
+      "type": "Prescribed conduct",
+      "action": "Ideal Kshatriya behavior"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A king (identity unspecified from this text alone) is described as punishing the wicked, protecting the good, knowing dharma, and guiding his subjects.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "A King"
+      ],
+      "action": "Ruling justly according to dharma",
+      "type": "Description of Rule"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The king hands over prosperity to his son and retires to the forest to live on wild food, performing rites diligently.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "A King",
+        "His Son"
+      ],
+      "action": "Retirement to forest asceticism",
+      "relationship": "Father-Son (succession)",
+      "type": "Life Stage Transition"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "It is stated that a king who acts according to statecraft attains rewards in this life and the next, but nirvana is hard to reach.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "A King"
+      ],
+      "action": "Philosophical discourse on karma and liberation",
+      "type": "Philosophical Statement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "It is described that following dharma with truth, charity, austerity, compassion, and by protecting subjects leads to the highest goal. Rudras, Vasus, Adityas, Sadhyas, and royal sages rely on this dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rudras",
+        "Vasus",
+        "Adityas",
+        "Sadhyas",
+        "Royal Sages"
+      ],
+      "action": "Collective adherence to dharma",
+      "type": "Cosmic Principle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After the narration, Arjuna speaks to his elder brother Yudhishthira, who is dejected.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Yudhishthira"
+      ],
+      "action": "Dialogue initiation",
+      "relationship": "Brothers (Pandavas)",
+      "type": "Character Interaction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna questions why Yudhishthira, who knows dharma, is agitated after winning heaven through Kshatriya dharma by defeating enemies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Yudhishthira"
+      ],
+      "action": "Questioning dejection",
+      "reason": "Yudhishthira's post-war grief/conflict",
+      "type": "Moral Inquiry"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna reminds Yudhishthira that for a Kshatriya, dying in battle is more glorious than many sacrifices; austerity and renunciation are the dharma of Brahmins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Exposition of Kshatriya dharma (svadharma)",
+      "type": "Philosophical Counsel"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna praises Yudhishthira as a wise king who knows all dharma and has insight into past and future, urging him to abandon sorrow and act.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Yudhishthira"
+      ],
+      "action": "Encouragement to rule",
+      "type": "Exhortation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna cites the example of Indra, who became lord of heaven through action (killing 99 wicked relatives) and urges Yudhishthira to perform sacrifices and charity like him to overcome烦恼 (distress).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Yudhishthira",
+        "Indra"
+      ],
+      "action": "Using Indra as a role model",
+      "relationship": "Exemplar (Indra) for king (Yudhishthira)",
+      "type": "Mythological Analogy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna concludes by telling Yudhishthira not to grieve for the past, as those who die following Kshatriya dharma attain the highest goal, and fate is inevitable.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Yudhishthira"
+      ],
+      "action": "Final counsel on acceptance and duty",
+      "type": "Philosophical Resolution"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna (the curly-haired one) spoke to Yudhishthira (son of Kunti), and Yudhishthira (descendant of Kuru) remained silent.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Yudhishthira"
+      ],
+      "type": "Dialogue/Conflict",
+      "relationships": [
+        "Brothers (Pandavas)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa (Island-born) intervened and told Yudhishthira that Arjuna's words were correct, and the highest dharma according to scriptures is household life.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Yudhishthira"
+      ],
+      "type": "Divine/Spiritual Guidance",
+      "relationships": [
+        "Vyasa is the sage and grandfather of the Pandavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa advised Yudhishthira to follow his dharma as a householder and ruler, not to renounce and enter the forest, as gods, ancestors, sages, servants, birds, animals, and all beings depend on householders.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Yudhishthira"
+      ],
+      "type": "Moral Instruction",
+      "relationships": [
+        "Sage advising a king"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa explained the duties of a Kshatriya (warrior/ruler): sacrifice, study, effort, insatiable desire for wealth, wielding the rod of punishment, severity, protecting subjects, complete Vedic knowledge, asceticism, acquiring wealth, and generosity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa"
+      ],
+      "type": "Exposition of Dharma",
+      "relationships": [
+        "Sage instructing on royal duties"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa cited a verse by Brihaspati: 'The earth swallows a king who does not resist and a Brahmin who does not wander, as a snake swallows a mouse.'",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Brihaspati"
+      ],
+      "type": "Citation/Proverb",
+      "relationships": [
+        "Vyasa quoting the sage Brihaspati"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa mentioned that King Shveta (also known as Shvetaketu or Shvetashva in some texts, but here referred to as Shveta) achieved the highest success by wielding the rod of punishment, like Daksha, son of Prachetas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "King Shveta",
+        "Daksha"
+      ],
+      "type": "Exemplar/Example",
+      "relationships": [
+        "Vyasa citing historical/mythical kings as examples"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asked Vyasa about what deeds King Shveta performed to achieve the highest success.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Vyasa"
+      ],
+      "type": "Inquiry",
+      "relationships": [
+        "King seeking wisdom from sage"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa began to narrate an ancient tale about two brothers, Shankha and Richika, who were vow-keepers, living near the Bahuda River in beautiful hermitages with trees always in bloom and fruit.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Shankha",
+        "Richika"
+      ],
+      "type": "Story Introduction",
+      "relationships": [
+        "Sage narrating a story",
+        "Shankha and Richika are brothers"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Richika visited Shankha's hermitage when Shankha was away, shook down many ripe fruits, and began eating them without concern.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Richika",
+        "Shankha"
+      ],
+      "type": "Action/Conflict Setup",
+      "relationships": [
+        "Brothers",
+        "Richika trespassing in Shankha's hermitage"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shankha returned, saw Richika eating the fruits, and questioned him about where the fruits came from and by what right he was eating them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shankha",
+        "Richika"
+      ],
+      "type": "Confrontation",
+      "relationships": [
+        "Brothers in conflict over property/fruits"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Richika approached Shankha, paid respects, and as if smiling, said he had collected the fruits there.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Richika",
+        "Shankha"
+      ],
+      "type": "Response/Defense",
+      "relationships": [
+        "Brothers",
+        "Richika justifying his action"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "商佉 (Shanka) became angry with 利奇多 (Rishidatta) for taking fruit without permission and accused him of theft.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shanka",
+        "Rishidatta"
+      ],
+      "action": "Accusation/Theft",
+      "relationship": "Brothers (Shanka is the elder)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shanka commanded Rishidatta to go to King 妙光 (Mriganka) and confess his crime.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shanka",
+        "Rishidatta",
+        "Mriganka"
+      ],
+      "action": "Command/Confession"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rishidatta, being true to his vow, went to Mriganka and confessed to taking the fruit without permission.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rishidatta",
+        "Mriganka"
+      ],
+      "action": "Confession",
+      "type": "Legal/Confession"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Mriganka offered forgiveness to Rishidatta, praising his vows and purity, but Rishidatta insisted on punishment.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mriganka",
+        "Rishidatta"
+      ],
+      "action": "Offer of Forgiveness/Insistence on Punishment",
+      "type": "Legal/Mercy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Mriganka ordered Rishidatta's hands to be cut off as punishment, which Rishidatta accepted.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mriganka",
+        "Rishidatta"
+      ],
+      "action": "Punishment/Amputation",
+      "type": "Legal/Punishment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rishidatta returned to Shanka with severed hands, seeking forgiveness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rishidatta",
+        "Shanka"
+      ],
+      "action": "Seeking Forgiveness",
+      "relationship": "Brothers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shanka explained he was not angry, as Rishidatta had not harmed him but violated his own dharma, and instructed him to go to the Bahuda River for purification rituals.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shanka",
+        "Rishidatta"
+      ],
+      "action": "Instruction/Purification",
+      "supernatural_elements": "Implied spiritual cleansing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rishidatta bathed in the Bahuda River, performed water offerings, and miraculously grew new lotus-like hands.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rishidatta"
+      ],
+      "action": "Purification/Miracle",
+      "supernatural_elements": "Divine intervention/miracle (regrowth of hands)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shanka revealed that the miracle was achieved through his own ascetic power (tapas) and attributed it to fate.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shanka",
+        "Rishidatta"
+      ],
+      "action": "Revelation",
+      "supernatural_elements": "Ascetic power (tapas)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rishidatta questioned why Shanka did not purify him earlier, and Shanka explained he could not, as he was not the king (the punisher).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rishidatta",
+        "Shanka"
+      ],
+      "action": "Question/Explanation",
+      "relationship": "Brothers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The narrator 毗耶娑 (Vyasa) concluded that King Mriganka became the best through this action, and emphasized that protecting subjects and wielding the rod of punishment is the dharma of a Kshatriya, not renunciation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Mriganka"
+      ],
+      "action": "Moral/Lesson",
+      "type": "Narration/Dharma Instruction"
+    },
+    "_token_interval": null
+  }
+]

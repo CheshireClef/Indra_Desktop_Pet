@@ -1,0 +1,573 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦德卢和毗娜达看见神马高耳后，迦德卢提议打赌猜测神马的颜色。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦德卢",
+        "毗娜达"
+      ],
+      "action": "提议打赌",
+      "relationship": "姊妹",
+      "supernatural_element": "神马高耳"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "毗娜达声称神马全身白色，迦德卢声称神马尾巴毛是黑色的，并约定输者成为奴隶。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "毗娜达",
+        "迦德卢"
+      ],
+      "action": "下赌注",
+      "condition": "输者成为奴隶"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦德卢吩咐一千个儿子变成乌亮的毛附到神马尾巴上，以确保自己不会输。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦德卢",
+        "迦德卢的一千个儿子（众蛇）"
+      ],
+      "action": "作弊指令",
+      "relationship": "母子",
+      "supernatural_element": "蛇变成毛"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "有些蛇拒绝听从迦德卢的命令，迦德卢诅咒他们将在般度族后裔镇群王举办的蛇祭上被火神烧死。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦德卢",
+        "拒绝服从的蛇"
+      ],
+      "action": "诅咒",
+      "consequence": "未来蛇祭上的死亡",
+      "supernatural_element": "诅咒生效"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "大梵天和诸位天神听到诅咒后，尽管认为诅咒残忍，仍答应了她，并因众蛇毒性猛烈，向迦叶波传授疗毒之术以保护众生。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大梵天",
+        "诸位天神",
+        "迦叶波",
+        "众蛇"
+      ],
+      "action": "传授疗毒术",
+      "reason": "保护众生免受蛇毒",
+      "divine_intervention": "天神介入"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "第二天日出时，迦德卢和毗娜达动身前去近处观察神马高耳，以确定赌局结果。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦德卢",
+        "毗娜达"
+      ],
+      "action": "前往验证赌注",
+      "setting": "前往大海途中"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "途中，她们看见大海，描述为水神伐楼拿的居处、龙蛇洞府、充满水族和神秘生物的地方。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦德卢",
+        "毗娜达"
+      ],
+      "setting_description": "大海作为神圣、恐怖且不可度量的场所",
+      "supernatural_elements": [
+        "水神伐楼拿",
+        "龙蛇",
+        "阿修罗",
+        "长生诸神"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text describes the terrifying and majestic nature of the ocean, referencing its deep whirlpools, roaring aquatic life, and its role in various myths.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ocean"
+      ],
+      "type": "Description",
+      "supernatural_elements": [
+        "Ocean as a divine entity, birthplace of divine conches, treasure trove"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vishnu, in his boar incarnation (Varaha), churned the ocean, making its waters turbid.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu (as Varaha)"
+      ],
+      "action": "Churning the ocean",
+      "type": "Divine Intervention"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Atri searched for the ocean's bottom for a hundred years but could not find it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Atri"
+      ],
+      "action": "Searching",
+      "type": "Quest"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vishnu uses the ocean as his bed for yogic sleep at the beginning of each age.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu"
+      ],
+      "action": "Resting",
+      "type": "Divine Activity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The two sisters, Kadru and Vinata, see the ocean with its rivers, whirlpools, and sea creatures as they travel.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kadru",
+        "Vinata"
+      ],
+      "action": "Observing",
+      "type": "Journey",
+      "relationships": [
+        "Sisters"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kadru and Vinata cross the ocean and reach the divine horse Uchchaihshravas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kadru",
+        "Vinata",
+        "Uchchaihshravas"
+      ],
+      "action": "Arrival",
+      "type": "Journey"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kadru wins a bet against Vinata by proving the divine horse has black hairs on its tail, making Vinata her slave.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kadru",
+        "Vinata"
+      ],
+      "action": "Bet and enslavement",
+      "type": "Conflict",
+      "relationships": [
+        "Sisters, now master-slave"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Garuda is born from his egg, shining like fire, and grows to a massive size, terrifying all beings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Garuda"
+      ],
+      "action": "Birth and growth",
+      "type": "Supernatural Birth",
+      "relationships": [
+        "Son of Vinata"
+      ],
+      "supernatural_elements": [
+        "Divine birth, fiery appearance, rapid growth"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "All beings, terrified by Garuda's appearance, seek protection from Agni (the fire god), asking him not to expand and burn them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "All beings",
+        "Agni"
+      ],
+      "action": "Seeking protection",
+      "type": "Divine Intervention",
+      "supernatural_elements": [
+        "Fear of divine fire"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "火神向众神解释那团巨大的火焰不是灾难，而是大鹏金翅鸟的神光。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "火神",
+        "众神",
+        "大鹏金翅鸟"
+      ],
+      "action": "解释/澄清",
+      "supernatural_elements": [
+        "神光"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "众神和仙人们来到大鹏金翅鸟面前，用赞歌歌颂他。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "众神",
+        "仙人们",
+        "大鹏金翅鸟"
+      ],
+      "action": "歌颂/赞美",
+      "relationships": [
+        "大鹏金翅鸟被尊为鸟禽之主、庇护者"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "大鹏金翅鸟受到歌颂后，收敛了自己的神光。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大鹏金翅鸟"
+      ],
+      "action": "收敛神光"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "大鹏金翅鸟飞越大海，来到母亲毗娜达身边。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大鹏金翅鸟",
+        "毗娜达"
+      ],
+      "action": "飞行/团聚",
+      "relationships": [
+        "母子"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "毗娜达在赌博中输给迦德卢，沦为奴隶，痛苦不堪。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "毗娜达",
+        "迦德卢"
+      ],
+      "action": "赌博失败/沦为奴隶",
+      "relationships": [
+        "对手/主奴关系"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦德卢命令毗娜达背她去大海中央的快乐岛，大鹏金翅鸟在母亲催促下背起众蛇。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦德卢",
+        "毗娜达",
+        "大鹏金翅鸟",
+        "众蛇"
+      ],
+      "action": "命令/背负",
+      "relationships": [
+        "迦德卢（众蛇之母）命令毗娜达，大鹏金翅鸟协助母亲"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "大鹏金翅鸟靠近太阳飞行，太阳光芒使众蛇变得僵硬，迦德卢向天帝释求救。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大鹏金翅鸟",
+        "众蛇",
+        "迦德卢",
+        "天帝释"
+      ],
+      "action": "飞行/受困/祈祷",
+      "supernatural_elements": [
+        "太阳神光的影响"
+      ],
+      "relationships": [
+        "迦德卢为众蛇之母，向天帝释求助"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The poet praises the divine figure with multiple attributes and names.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra"
+      ],
+      "action": "Poetic praise",
+      "divine_elements": [
+        "Rain god",
+        "Cloud",
+        "Wind",
+        "Fire",
+        "Lightning",
+        "Creator",
+        "Destroyer",
+        "Light of all beings",
+        "Sun",
+        "Great elements",
+        "King",
+        "Deva",
+        "Vishnu",
+        "Nectar",
+        "Soma",
+        "Time periods",
+        "Earth",
+        "Sky",
+        "Ocean",
+        "Recipient of sacrifices"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra, pleased by Kadru's praise, covers the entire sky with dark blue clouds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Kadru"
+      ],
+      "action": "Cloud creation",
+      "divine_intervention": "Indra responds to praise by creating weather phenomena"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The clouds release abundant rain with bright lightning and continuous thunder.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra"
+      ],
+      "action": "Rainfall",
+      "supernatural_elements": [
+        "Heavy rain",
+        "Lightning",
+        "Thunder",
+        "Clouds filling the sky"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sky appears to dance with surging cloud waves and thunder resounds throughout.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra"
+      ],
+      "action": "Atmospheric display",
+      "description": "Dramatic weather spectacle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra showers rain, bringing great joy to the snakes (Nagas) and filling the earth with streams.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Nagas (snakes)"
+      ],
+      "action": "Beneficial rainfall",
+      "relationships": "Indra provides rain that pleases the Nagas",
+      "result": "Earth covered with flowing streams"
+    },
+    "_token_interval": null
+  }
+]

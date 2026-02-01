@@ -1,0 +1,1242 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战与难敌进行赌博，坚战输掉王国和王位。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "难敌",
+        "沙恭尼"
+      ],
+      "action": "赌博",
+      "reason": "坚战想从难敌手中夺取王位和王国",
+      "outcome": "坚战赌输，失去王国和王位",
+      "supernatural_elements": "沙恭尼擅长赌博，骰子顺从他的心意"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "沙恭尼施展诡计，在赌博中捉弄坚战。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "沙恭尼",
+        "坚战"
+      ],
+      "action": "施展诡计",
+      "relationship": "沙恭尼为难敌的利益与坚战作对",
+      "details": "沙恭尼来自山区，精通诡计，骰子无论奇数偶数都顺从他的心意"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战在会堂上再次与难敌赌博，并接受流放条件。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "难敌",
+        "阿周那",
+        "怖军"
+      ],
+      "action": "赌博并立下誓约",
+      "conditions": "坚战和兄弟们要在森林住12年（姓名公开），第13年隐姓埋名；如果被发现需重新流放；如果成功隐藏则归还五河地区",
+      "witnesses": "俱卢族众人"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战和兄弟们因赌输而流放森林，到处流浪。",
+    "char_interval": {
+      "start_pos": 706,
+      "end_pos": 719
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "怖军",
+        "阿周那",
+        "其他兄弟"
+      ],
+      "action": "流放",
+      "duration": "12年森林生活加1年隐姓埋名",
+      "condition": "艰苦的森林生活，像可怜的受苦人"
+    },
+    "_token_interval": {
+      "start_index": 199,
+      "end_index": 203
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌继续鼓动俱卢人与坚战兄弟作对。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌",
+        "俱卢人",
+        "坚战兄弟"
+      ],
+      "action": "鼓动对抗",
+      "motive": "难敌的愤怒和控制欲",
+      "result": "一些人俯首听命于难敌"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "德罗波蒂救了坚战兄弟。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "德罗波蒂",
+        "坚战兄弟"
+      ],
+      "action": "救援",
+      "context": "难敌想加害坚战兄弟，让他们变成奴隶",
+      "relationship": "德罗波蒂是祭军之女"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "怖军在赌博时想烧掉坚战的双手，被阿周那拦住。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "怖军",
+        "坚战",
+        "阿周那"
+      ],
+      "action": "试图伤害并被阻止",
+      "weapon": "铁闩",
+      "motive": "怖军对赌博结果的愤怒",
+      "prevention": "阿周那拦住怖军"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战忍受德罗波蒂受人欺凌的痛苦。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "德罗波蒂"
+      ],
+      "emotion": "痛苦，仿佛吞下毒药",
+      "situation": "只能忍气吞声",
+      "relationship": "德罗波蒂是祭军之女"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战反思自己的失策和骄傲导致灾难。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战"
+      ],
+      "self_criticism": "失策、受大丈夫气概、骄傲和勇气束缚",
+      "consequences": "连累兄弟们遭受灾难",
+      "philosophy": "高贵的人认为违背正法比死去更坏"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A character (likely Yudhishthira) declares that his words spoken before the Kuru heroes cannot be retracted and advises waiting for happiness like waiting for a harvest after sowing seeds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Declaration and advice to wait",
+      "type": "Dialogue/Resolution"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The character states that a person deceived in the past, knowing hatred bears fruit, becomes a true hero with doubled valor.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Philosophical statement on heroism and vengeance",
+      "type": "Dialogue/Philosophy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The character asserts that such a hero gains all worldly prosperity, with enemies bowing and friends loving him like gods依附 Indra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Prediction of future success",
+      "type": "Dialogue/Prophecy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The character swears his oath is true, loving dharma more than nectar or life, valuing his oath above kingdom, sons, fame, and wealth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Oath declaration",
+      "type": "Dialogue/Vow"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima criticizes Yudhishthira, saying he has made a pact with Time, the winged destroyer, and as a mortal bound by time, he cannot directly confront it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Yudhishthira"
+      ],
+      "action": "Critique and philosophical argument",
+      "type": "Dialogue/Conflict"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima argues that waiting thirteen years will reduce their lifespan and lead to death, so they should strive for the kingdom before death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Yudhishthira"
+      ],
+      "action": "Urging action over waiting",
+      "type": "Dialogue/Exhortation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima states that a king who is muddle-headed, doesn't pursue fame, or doesn't take revenge will sink like a cow in mud, and a person lacking courage to avenge is a wretch.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "action": "Condemnation of inaction",
+      "type": "Dialogue/Moral Judgment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima urges Yudhishthira to use his golden arms to kill enemies in war and enjoy the wealth won by them, saying even hell would be like heaven if one kills a vile enemy.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Yudhishthira"
+      ],
+      "action": "Call to arms",
+      "type": "Dialogue/Exhortation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima describes his own suffering from anger, Arjuna's pain like a lion in a cave, Nakula and Sahadeva's silent suffering, and Draupadi's anger, while others suffer but agree with his words.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Draupadi",
+        "Yudhishthira",
+        "Kunti",
+        "Shalya (Srinjaya)"
+      ],
+      "action": "Description of collective suffering and support for war",
+      "type": "Dialogue/Emotional Appeal"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima criticizes Yudhishthira for being virtuous, compassionate, and silently enduring suffering while vile enemies enjoy their stolen kingdom, saying no one will praise him for it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Yudhishthira"
+      ],
+      "action": "Final critique of Yudhishthira's passivity",
+      "type": "Dialogue/Conflict"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima criticizes Yudhishthira for inaction and hiding in the forest, questioning why he, born as a Kshatriya, does not act according to his duty.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Yudhishthira"
+      ],
+      "type": "Criticism/Challenge",
+      "relationships": [
+        "Brothers (Pandavas)"
+      ],
+      "key_points": [
+        "Bhima questions Yudhishthira's Kshatriya identity and duty",
+        "He argues hiding is impossible due to their fame",
+        "He warns of threats from enemies loyal to Dhritarashtra"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima suggests treating the thirteen months spent in the forest as thirteen years to fulfill their exile vow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "type": "Proposal",
+      "supernatural_elements": [
+        "Reference to wise men saying a month can represent a year like Putika represents Soma"
+      ],
+      "key_points": [
+        "Proposes symbolic fulfillment of exile",
+        "Cites traditional wisdom"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima urges Yudhishthira to prepare for battle, stating fighting is the highest dharma for Kshatriyas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Yudhishthira"
+      ],
+      "type": "Exhortation",
+      "key_points": [
+        "Encourages elimination of enemies",
+        "Emphasizes Kshatriya duty to fight"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira, after sighing and contemplating, responds to Bhima, criticizing impulsive violence and advocating careful planning.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima"
+      ],
+      "type": "Response/Counter-argument",
+      "relationships": [
+        "Brothers (Pandavas)"
+      ],
+      "key_points": [
+        "Yudhishthira warns against rash violence leading to sin and suffering",
+        "Advocates deliberation and strategy",
+        "Acknowledges Bhima's strength but questions his impulsiveness"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira lists powerful enemies aligned with the Kauravas who pose significant threats.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma",
+        "Drona",
+        "Karna",
+        "Ashwatthama",
+        "Duryodhana",
+        "Other Kaurava princes",
+        "Kings and princes formerly defeated by Pandavas"
+      ],
+      "type": "Assessment of Threats",
+      "relationships": [
+        "Enemies of Pandavas",
+        "Allies of Kauravas"
+      ],
+      "key_points": [
+        "Identifies key warriors: Bhishma, Drona, Karna, Ashwatthama",
+        "Notes Duryodhana's leadership of formidable Kaurava princes",
+        "Mentions defeated kings now loyal to Dhritarashtra seeking revenge"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira expresses concern about the Kaurava army's strength and loyalty, specifically mentioning Duryodhana, Bhishma, Drona, Kripa, and Karna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Duryodhana",
+        "Bhishma",
+        "Drona",
+        "Kripa",
+        "Karna"
+      ],
+      "action": "Expression of concern and fear",
+      "relationships": "Yudhishthira (Pandava) fears the Kaurava army led by Duryodhana, which includes respected warriors Bhishma, Drona, and Kripa, and the formidable Karna."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima becomes enraged, fearful, and despondent upon hearing Yudhishthira's words and remains silent.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "action": "Emotional reaction (rage, fear, despondency)",
+      "relationships": "Bhima (Pandava) reacts to his brother Yudhishthira's assessment of their enemies."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa, the son of Satyavati, arrives where the two sons of Pandu (Yudhishthira and Bhima) are conversing.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Yudhishthira",
+        "Bhima"
+      ],
+      "action": "Arrival and greeting",
+      "relationships": "Vyasa (sage, grandfather figure) arrives to counsel the Pandava brothers Yudhishthira and Bhima."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa, knowing Yudhishthira's thoughts, addresses him, acknowledging his fear of Bhishma, Drona, Kripa, Karna, and Ashwatthama, and promises to find a solution according to dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Yudhishthira",
+        "Bhishma",
+        "Drona",
+        "Kripa",
+        "Karna",
+        "Ashwatthama"
+      ],
+      "action": "Divine insight and promise of aid",
+      "relationships": "Vyasa offers guidance to Yudhishthira against the feared Kaurava warriors.",
+      "supernatural_elements": "Vyasa's ability to know thoughts through divine insight or yoga."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa takes Yudhishthira aside and tells him that Arjuna will overpower the enemies in war and instructs him on the 'Smriti' (Recollection) spell for success, which requires Arjuna to obtain divine weapons from gods like Indra, Rudra, Varuna, Kubera, and Yama.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Yudhishthira",
+        "Arjuna",
+        "Indra",
+        "Rudra",
+        "Varuna",
+        "Kubera",
+        "Yama"
+      ],
+      "action": "Revelation of divine plan and instruction",
+      "relationships": "Vyasa advises Yudhishthira that Arjuna (Pandava) must seek divine weapons from major deities to ensure victory.",
+      "supernatural_elements": "Mention of the 'Smriti' spell, Arjuna's destined success, and his need to obtain celestial weapons from gods."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa describes Arjuna as a powerful sage, part of the eternal Vishnu (Narayana), and aided by Narayana, capable of performing great deeds after obtaining the divine weapons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Vishnu",
+        "Narayana"
+      ],
+      "action": "Divine characterization",
+      "relationships": "Arjuna is revealed to have a divine nature as part of Vishnu/Narayana.",
+      "supernatural_elements": "Arjuna's divine essence and connection to Vishnu/Narayana."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa advises Yudhishthira to leave their current forest for another suitable one, as prolonged stay causes discomfort and disturbs ascetics.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Yudhishthira"
+      ],
+      "action": "Practical advice for relocation",
+      "relationships": "Vyasa counsels Yudhishthira on living arrangements during exile."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Vyasa taught the unparalleled yoga technique to the pure and flawless Dharma King Yudhishthira who sought his refuge.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Yudhishthira"
+      ],
+      "action": "Teaching yoga",
+      "relationship": "Teacher-student"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa, the wise son of Satyavati, bid farewell to Yudhishthira, son of Kunti, and disappeared.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Yudhishthira"
+      ],
+      "action": "Departure",
+      "supernatural_element": "Disappearance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira, with his soul devoted to Dharma, remembered the divine technique taught by Vyasa and practiced it regularly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Practice and remembrance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira left the forest named Dvaita and went to the forest named Kamyaka near the Sarasvati River, followed by Brahmanas who practiced austerities and knew the Vedas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Brahmanas"
+      ],
+      "action": "Journey to Kamyaka forest",
+      "relationship": "Leader-followers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The heroic bulls of the Bharata race, along with ministers and attendants, settled in the Kamyaka forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas (implied)",
+        "Ministers",
+        "Attendants"
+      ],
+      "action": "Settlement in forest"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The heroes lived there for some time, devoted to learning archery and listening to the highest Vedas, and regularly hunted, offering the pure game to ancestors, gods, and Brahmanas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas (implied)"
+      ],
+      "action": "Learning, hunting, and offerings"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After some time, Yudhishthira remembered the message conveyed by the sage Vyasa and spoke privately with Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Arjuna"
+      ],
+      "action": "Private conversation",
+      "relationship": "Brothers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira informed Arjuna that Bhishma, Drona, Karna, and Ashwatthama had mastered the four archery Vedas and knew the use of all divine, celestial, and demonic weapons, and that Duryodhana treated them like teachers and satisfied them, gaining their loyalty.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Arjuna",
+        "Bhishma",
+        "Drona",
+        "Karna",
+        "Ashwatthama",
+        "Duryodhana"
+      ],
+      "action": "Strategic assessment",
+      "relationship": "Adversaries and alliances"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira told Arjuna that the entire earth now belonged to Duryodhana and that Arjuna, as their reliance, must undertake a task.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Arjuna",
+        "Duryodhana"
+      ],
+      "action": "Assignment of responsibility",
+      "relationship": "Brothers, with Arjuna as key protector"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira revealed that he received a divine technique from Vyasa that would illuminate the world if used correctly and instructed Arjuna to master it to gain the favor of the gods.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Arjuna",
+        "Vyasa"
+      ],
+      "action": "Revelation of divine technique",
+      "supernatural_element": "Divine technique"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira instructed Arjuna to undertake severe austerities, travel north with bow, sword, and armor like an accomplished sage, yielding to no one, to seek Indra and obtain all divine weapons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Arjuna",
+        "Indra"
+      ],
+      "action": "Quest assignment",
+      "supernatural_element": "Divine weapons with Indra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira told Arjuna that all divine weapons were with Indra, as the gods, fearing Vritra, gave their powers to him, and that Arjuna should request them from Indra after purification.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Arjuna",
+        "Indra",
+        "Gods",
+        "Vritra"
+      ],
+      "action": "Instruction for divine quest",
+      "supernatural_element": "Divine weapons and mythological context"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "法王坚战向阿周那传授梵术，然后向他道别。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "法王坚战",
+        "阿周那"
+      ],
+      "action": "传授梵术与道别",
+      "relationship": "兄弟关系（坚战为兄长，阿周那为弟弟）"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那奉法王坚战之命，带着甘狄拨神弓和两个取之不尽的箭囊，去见因陀罗。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "法王坚战",
+        "因陀罗"
+      ],
+      "action": "奉命出发",
+      "supernatural_elements": [
+        "甘狄拨神弓",
+        "取之不尽的箭囊"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那准备出发：穿上铠甲，戴上护掌护指的皮套，向火中投放祭品，拿金币赏赐众婆罗门，得到他们的祝福。",
+    "char_interval": {
+      "start_pos": 5018,
+      "end_pos": 5068
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "众婆罗门"
+      ],
+      "action": "祭祀与准备",
+      "relationship": "阿周那接受婆罗门祝福"
+    },
+    "_token_interval": {
+      "start_index": 1397,
+      "end_index": 1409
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那紧握神弓，动身出发，目的是杀死持国的儿子们。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那"
+      ],
+      "action": "出发执行任务",
+      "goal": "杀死持国的儿子们"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "众婆罗门、悉陀和隐身不见的生灵祝福阿周那，预言他心想事成。",
+    "char_interval": {
+      "start_pos": 5132,
+      "end_pos": 5137
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "众婆罗门",
+        "悉陀",
+        "隐身不见的生灵"
+      ],
+      "action": "祝福与预言",
+      "supernatural_elements": [
+        "隐身生灵",
+        "预言能力"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 1427,
+      "end_index": 1429
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑公主向阿周那道别，表达她的担忧、祝福和依赖。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑公主",
+        "阿周那"
+      ],
+      "action": "道别与祝福",
+      "relationship": "黑公主依赖阿周那，视他为家族支柱",
+      "emotional_tone": "担忧、祝福、依赖"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那向兄弟们和烟氏仙人右绕致敬，然后动身出发。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "兄弟们",
+        "烟氏仙人"
+      ],
+      "action": "致敬与出发",
+      "relationship": "阿周那尊敬兄弟和仙人"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那凭借因陀罗瑜伽之力，快速行进，一天就到达圣洁的雪山。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那"
+      ],
+      "action": "快速旅行",
+      "supernatural_elements": [
+        "因陀罗瑜伽",
+        "瑜伽之力使行动像风一样快速"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那翻过雪山和香醉山，日夜兼程，越过险关，到达因陀罗吉罗山。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那"
+      ],
+      "action": "长途跋涉",
+      "locations": [
+        "雪山",
+        "香醉山",
+        "因陀罗吉罗山"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那在因陀罗吉罗山听见空中传来话音命令他停下，于是停下。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那"
+      ],
+      "action": "服从神秘命令",
+      "supernatural_elements": [
+        "空中传来话音"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那看见一个瘦瘦的苦行者，黄色皮肤，盘着发髻，周身闪耀梵光。",
+    "char_interval": {
+      "start_pos": 5704,
+      "end_pos": 5743
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "苦行者"
+      ],
+      "action": "相遇",
+      "description": "苦行者具有超凡外貌（闪耀梵光）"
+    },
+    "_token_interval": {
+      "start_index": 1584,
+      "end_index": 1592
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "苦行者质问阿周那的身份和目的，指出这里是和平的婆罗门苦行者聚集地，不需要武器和战斗。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "苦行者",
+        "阿周那"
+      ],
+      "action": "质问与劝诫",
+      "conflict": "苦行者反对阿周那携带武器进入圣地",
+      "setting": "和平的苦行者聚集地"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A Brahmin repeatedly speaks to the mighty hero as if he were someone other than Arjuna, but Arjuna remains resolute and unwavering.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Brahmin"
+      ],
+      "action": "Testing resolve",
+      "relationships": "Arjuna is being tested by the disguised Brahmin."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin, pleased, reveals himself as Indra (Sakra) and offers Arjuna a boon.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Arjuna"
+      ],
+      "action": "Revelation and boon offering",
+      "supernatural_elements": "Divine revelation (Brahmin is actually Indra).",
+      "relationships": "Indra, king of gods, tests and addresses Arjuna."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna, upon hearing Indra, bows respectfully and requests to learn all divine weapons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Indra"
+      ],
+      "action": "Request for divine knowledge",
+      "relationships": "Arjuna seeks power from Indra to fulfill his duty."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra, pleased, questions why Arjuna needs weapons when he has reached the supreme goal, and offers him heavenly pleasures instead.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Arjuna"
+      ],
+      "action": "Counter-offer and questioning",
+      "relationships": "Indra tries to dissuade Arjuna from his quest for weapons."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna refuses heavenly pleasures and kingship over gods, stating he cannot abandon his brothers in the forest without avenging their wrongs.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Refusal and declaration of purpose",
+      "relationships": "Arjuna prioritizes duty to his brothers (the Pandavas) over divine rewards."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra, the slayer of Vritra, comforts Arjuna and instructs him to seek Shiva, the three-eyed god, to obtain all divine weapons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Arjuna",
+        "Shiva"
+      ],
+      "action": "Guidance and instruction",
+      "supernatural_elements": "Divine instruction involving another major deity (Shiva).",
+      "relationships": "Indra directs Arjuna to Shiva for the fulfillment of his quest."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra disappears, and Arjuna remains there to practice yoga.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Arjuna"
+      ],
+      "action": "Departure and meditation",
+      "supernatural_elements": "Divine disappearance.",
+      "relationships": "Arjuna prepares spiritually as instructed by Indra."
+    },
+    "_token_interval": null
+  }
+]

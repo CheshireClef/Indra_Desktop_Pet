@@ -1,0 +1,2148 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "摩德罗国王拿起另一张强劲有力的弓，射击坚战，同时发出一声狮子般的怒吼。",
+    "char_interval": {
+      "start_pos": 30,
+      "end_pos": 65
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "摩德罗国王",
+        "坚战"
+      ],
+      "action": "射击",
+      "type": "战斗"
+    },
+    "_token_interval": {
+      "start_index": 10,
+      "end_index": 16
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "他向萨谛奇射出十支箭后，又向怖军射出三支，向偕天射出三支，并使坚战陷入困境。",
+    "char_interval": {
+      "start_pos": 107,
+      "end_pos": 145
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "摩德罗国王",
+        "萨谛奇",
+        "怖军",
+        "偕天",
+        "坚战"
+      ],
+      "action": "射击",
+      "type": "战斗"
+    },
+    "_token_interval": {
+      "start_index": 26,
+      "end_index": 34
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "他射倒了许多大弓箭手，连同他们的马匹、战车和大象，射倒了许多大象和象兵、马匹和骑兵、战车和战车手。",
+    "char_interval": {
+      "start_pos": 148,
+      "end_pos": 207
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "摩德罗国王"
+      ],
+      "action": "大规模杀伤",
+      "type": "战斗"
+    },
+    "_token_interval": {
+      "start_index": 37,
+      "end_index": 49
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "他砍断了许多旗幡和举着武器的手臂。他使敌军尸横遍野，就像祭坛上铺排的拘舍草。",
+    "char_interval": {
+      "start_pos": 210,
+      "end_pos": 248
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "摩德罗国王"
+      ],
+      "action": "破坏与杀戮",
+      "type": "战斗"
+    },
+    "_token_interval": {
+      "start_index": 52,
+      "end_index": 58
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "般度族人、般遮罗人和苏摩迦人怒火冲天，一齐奋力将他围住。",
+    "char_interval": {
+      "start_pos": 271,
+      "end_pos": 299
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般度族人",
+        "般遮罗人",
+        "苏摩迦人",
+        "摩德罗国王"
+      ],
+      "action": "围攻",
+      "type": "战斗"
+    },
+    "_token_interval": {
+      "start_index": 65,
+      "end_index": 71
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "怖军、悉尼之孙（萨谛奇）和玛德利两个勇敢非凡的儿子冲到正与力量骇人的国王（坚战）交手的沙利耶面前，双方彼此发出挑战。",
+    "char_interval": {
+      "start_pos": 302,
+      "end_pos": 360
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "怖军",
+        "萨谛奇",
+        "无种",
+        "偕天",
+        "坚战",
+        "沙利耶"
+      ],
+      "action": "挑战与对峙",
+      "type": "战斗",
+      "relationships": [
+        "沙利耶即摩德罗国王"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 74,
+      "end_index": 88
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "在怖军、玛德利的两个儿子和摩豆后裔（黑天）的共同卫护下，法王坚战瞄准摩德罗国王的胸口，也射出快速强劲的羽毛箭。",
+    "char_interval": {
+      "start_pos": 417,
+      "end_pos": 472
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "怖军",
+        "无种",
+        "偕天",
+        "黑天",
+        "坚战",
+        "摩德罗国王"
+      ],
+      "action": "射击",
+      "type": "战斗"
+    },
+    "_token_interval": {
+      "start_index": 104,
+      "end_index": 116
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "你方优秀的战车手们发现摩德罗国王遭到利箭的攻击。他们在难敌的命令下，从四面八方围拢过来保护他。",
+    "char_interval": {
+      "start_pos": 476,
+      "end_pos": 523
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "摩德罗国王",
+        "难敌"
+      ],
+      "action": "保护",
+      "type": "战斗"
+    },
+    "_token_interval": {
+      "start_index": 119,
+      "end_index": 125
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "在喧嚣与混乱中，摩德罗国王迅速向坚战射出七支利箭。国王啊，伟大的普利塔之子（坚战）也立刻回敬了他九支。",
+    "char_interval": {
+      "start_pos": 527,
+      "end_pos": 578
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "摩德罗国王",
+        "坚战"
+      ],
+      "action": "互射",
+      "type": "战斗"
+    },
+    "_token_interval": {
+      "start_index": 128,
+      "end_index": 140
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "两位伟大的战车手，坚战和摩德罗国王，将弓拉满到耳边，互相用涂过油的利箭笼罩对方。",
+    "char_interval": {
+      "start_pos": 582,
+      "end_pos": 622
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "摩德罗国王"
+      ],
+      "action": "激烈对射",
+      "type": "战斗"
+    },
+    "_token_interval": {
+      "start_index": 143,
+      "end_index": 151
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "这两个伟大的战士，英勇的摩德罗国王和般度之子，互相泼洒箭雨。他们的弓、弓弦和手掌发出的巨响，犹如因陀罗大神的雷霆。",
+    "char_interval": {
+      "start_pos": 677,
+      "end_pos": 734
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "摩德罗国王",
+        "坚战"
+      ],
+      "action": "箭雨对攻",
+      "type": "战斗",
+      "supernatural_elements": [
+        "因陀罗大神"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 167,
+      "end_index": 179
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "他们往来奔突，就像两只幼虎在树林里为了一块肉食而彼此争斗。他们由于饱经战阵而傲视群雄，像两头挺着长鼻的大象互相搏杀。",
+    "char_interval": {
+      "start_pos": 738,
+      "end_pos": 796
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "摩德罗国王",
+        "坚战"
+      ],
+      "action": "激烈搏杀",
+      "type": "战斗"
+    },
+    "_token_interval": {
+      "start_index": 182,
+      "end_index": 190
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "伟大的摩德罗国王逼住坚战，然后朝着那勇猛暴烈，力量骇人的英雄，对准心窝，就是一箭。那箭光芒四射，堪比烈火，犹如太阳。",
+    "char_interval": {
+      "start_pos": 800,
+      "end_pos": 858
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "摩德罗国王",
+        "坚战"
+      ],
+      "action": "致命射击",
+      "type": "战斗",
+      "supernatural_elements": [
+        "箭光芒四射，堪比烈火，犹如太阳"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 193,
+      "end_index": 209
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "虽遭严重刺伤，国王啊，伟大的俱卢族雄牛坚战还是准确地还给摩德罗国王一支利箭，同时心中感到一阵欢欣。",
+    "char_interval": {
+      "start_pos": 862,
+      "end_pos": 911
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "摩德罗国王"
+      ],
+      "action": "反击",
+      "type": "战斗"
+    },
+    "_token_interval": {
+      "start_index": 212,
+      "end_index": 220
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "不过，那豪勇不让千眼（因陀罗）的大地之主（沙利耶）很快就回过神来。他瞪着气得发红的双眼，朝普利塔之子迅速射去百箭。",
+    "char_interval": {
+      "start_pos": 916,
+      "end_pos": 973
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "沙利耶",
+        "坚战"
+      ],
+      "action": "猛烈射击",
+      "type": "战斗",
+      "supernatural_elements": [
+        "因陀罗"
+      ],
+      "relationships": [
+        "沙利耶即摩德罗国王",
+        "普利塔之子即坚战"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 223,
+      "end_index": 239
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira shot nine arrows at Shalya's chest and six more at his golden armor.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Shalya"
+      ],
+      "type": "Combat",
+      "action": "Arrow attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya cut Yudhishthira's bow with two razor-sharp arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Yudhishthira"
+      ],
+      "type": "Combat",
+      "action": "Destroying weapon"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira grabbed another powerful bow and shot sharp arrows at Shalya.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Shalya"
+      ],
+      "type": "Combat",
+      "action": "Counterattack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya shot nine arrows that pierced Bhima and Yudhishthira's armor and hit their arms.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Bhima",
+        "Yudhishthira"
+      ],
+      "type": "Combat",
+      "action": "Armor-piercing attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya destroyed Yudhishthira's bow with a fiery arrow, and Kripa killed Yudhishthira's charioteer with six arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Kripa",
+        "Yudhishthira"
+      ],
+      "type": "Combat",
+      "action": "Weapon destruction and charioteer killing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya killed Yudhishthira's horses with four arrows and began attacking Yudhishthira's army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Yudhishthira"
+      ],
+      "type": "Combat",
+      "action": "Horse killing and army attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima broke Shalya's bow with a swift arrow and shot two more arrows at him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Shalya"
+      ],
+      "type": "Combat",
+      "action": "Weapon destruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima killed Shalya's charioteer and four horses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Shalya"
+      ],
+      "type": "Combat",
+      "action": "Charioteer and horse killing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima shot one hundred arrows at Shalya, and Nakula also attacked him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Nakula",
+        "Shalya"
+      ],
+      "type": "Combat",
+      "action": "Multiple arrow attacks"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima broke Shalya's armor with arrows, forcing Shalya to grab a thousand-star shield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Shalya"
+      ],
+      "type": "Combat",
+      "action": "Armor destruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya jumped from his chariot with a sword and charged at Yudhishthira, breaking Nakula's chariot pole.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Yudhishthira",
+        "Nakula"
+      ],
+      "type": "Combat",
+      "action": "Direct charge"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drishtadyumna, Shikhandin, Satyaki, and Draupadi's sons surrounded Shalya as he charged at Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drishtadyumna",
+        "Shikhandin",
+        "Satyaki",
+        "Draupadi's sons",
+        "Shalya",
+        "Yudhishthira"
+      ],
+      "type": "Combat",
+      "action": "Surrounding enemy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima shattered Shalya's shield with ten arrows and broke his sword with a crescent-headed arrow, then shouted triumphantly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Shalya"
+      ],
+      "type": "Combat",
+      "action": "Shield and sword destruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandava warriors cheered, laughed, roared, and blew conches at Bhima's display of valor.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava warriors",
+        "Bhima"
+      ],
+      "type": "Morale",
+      "action": "Celebration"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Kaurava army became terrified, sweating, bleeding, and demoralized upon hearing the Pandavas' roars.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kaurava army",
+        "Pandava warriors"
+      ],
+      "type": "Morale",
+      "action": "Demoralization"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Despite being surrounded, Shalya charged at Yudhishthira like a lion attacking prey.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Yudhishthira"
+      ],
+      "type": "Combat",
+      "action": "Determined charge"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira remembered Krishna's words, focused his mind to kill Shalya, and sought a spear while standing on his disabled chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Krishna",
+        "Shalya"
+      ],
+      "type": "Preparation",
+      "action": "Mental focus and weapon seeking"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira observed Shalya's exceptional performance on the battlefield and remembered his unfulfilled task to kill Shalya, as instructed by Krishna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Shalya",
+        "Krishna"
+      ],
+      "action": "Decision to fulfill duty",
+      "relationships": [
+        "Yudhishthira (Pandava) vs. Shalya (Kaurava ally)",
+        "Krishna (adviser to Yudhishthira)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira seized a divine spear adorned with gold and gems, his anger rising as he fixed his gaze on Shalya.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Shalya"
+      ],
+      "action": "Preparation for attack",
+      "supernatural_elements": [
+        "Divine spear crafted by Tvashtri for Shiva"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira chanted mantras to empower the spear with terrible spells and hurled it with great force at Shalya, shouting a death warning.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Shalya"
+      ],
+      "action": "Magical attack",
+      "supernatural_elements": [
+        "Mantra-empowered spear",
+        "Comparison to Rudra's wrath"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya attempted to catch the unstoppable spear but was pierced through his chest and armor, falling from his chariot like a thunderstruck mountain peak.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Yudhishthira"
+      ],
+      "action": "Fatal strike",
+      "relationships": [
+        "Mortal combat outcome"
+      ],
+      "supernatural_elements": [
+        "Spear's destructive power compared to cosmic fire"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya died with blood flowing from multiple wounds, his reputation destroyed along with his life.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya"
+      ],
+      "action": "Death",
+      "relationships": [
+        "End of Shalya's role in Kurukshetra War"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Shalya of Madra falls in battle before King Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Shalya",
+        "King Yudhishthira"
+      ],
+      "action": "Death in battle",
+      "relationship": "Opponents in war",
+      "supernatural_elements": "Earth receives Shalya's body like a wife embracing her husband"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yudhishthira continues attacking the enemy army with his powerful bow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira"
+      ],
+      "action": "Battle attack",
+      "effect": "Causes chaos and casualties in the enemy army"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya's younger brother attacks Yudhishthira to avenge his brother's death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya's brother",
+        "King Yudhishthira"
+      ],
+      "action": "Revenge attack",
+      "relationship": "Shalya's brother seeks vengeance for Shalya"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira kills Shalya's brother in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira",
+        "Shalya's brother"
+      ],
+      "action": "Battle kill",
+      "method": "Arrow decapitation",
+      "effect": "Demoralizes the Kaurava army"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki attacks the fleeing Kaurava army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki"
+      ],
+      "action": "Battle pursuit",
+      "target": "Kaurava army"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kritavarma appears and engages Satyaki in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kritavarma",
+        "Satyaki"
+      ],
+      "action": "Duel begins",
+      "relationship": "Both from the Vrishni clan, now opponents",
+      "description": "Fierce battle between two powerful warriors"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Hārtīka's son (Kritavarma) shot ten arrows at Satyaki, three at his horses, and broke his bow with a smooth-shafted arrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kritavarma",
+        "Satyaki"
+      ],
+      "action": "Archery attack",
+      "outcome": "Satyaki's bow broken"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki discarded his broken bow and quickly took up another more powerful weapon, then shot ten arrows at Kritavarma's chest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Kritavarma"
+      ],
+      "action": "Counterattack",
+      "weapon": "Best bow"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki destroyed Kritavarma's chariot and yoke with crescent-headed arrows, killing his horses and charioteers on both sides.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Kritavarma"
+      ],
+      "action": "Chariot destruction",
+      "weapons": "Crescent-headed arrows"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King of Madra (Shalya) was already dead, Kritavarma lost his chariot, and Duryodhana's army fled the battlefield again.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Kritavarma",
+        "Duryodhana"
+      ],
+      "action": "Army retreat",
+      "casualties": "Shalya dead, Kritavarma chariotless"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After dust settled, Duryodhana saw his army scattered and faced the rapidly advancing forces of Pritha's sons (Pandavas) alone.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Pandavas"
+      ],
+      "situation": "Duryodhana isolated",
+      "army_status": "Scattered"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana shot a shower of arrows at the approaching Pandavas, Shikhandin, and the invincible Anarta (Satyaki).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Pandavas",
+        "Shikhandin",
+        "Satyaki"
+      ],
+      "action": "Defensive attack",
+      "targets": "Multiple enemies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kritavarma returned on another chariot, but King Yudhishthira quickly arrived and shot four arrows killing Kritavarma's horses, then six sharp crescent arrows hitting Gautama's grandson (Kripa).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kritavarma",
+        "Yudhishthira",
+        "Kripa"
+      ],
+      "action": "Chariot attack",
+      "outcome": "Kritavarma's horses killed, Kripa wounded"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama saw Kritavarma's situation and had him board his own chariot, then drove away from Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Kritavarma",
+        "Yudhishthira"
+      ],
+      "action": "Rescue",
+      "relationship": "Allies protecting each other"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kripa shot eight arrows in retaliation at Yudhishthira and killed his horses with eight sharp arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripa",
+        "Yudhishthira"
+      ],
+      "action": "Counterattack",
+      "outcome": "Yudhishthira's horses killed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas gathered together, blew their conches, and were overjoyed seeing Shalya dead, praising Yudhishthira like gods praised Indra for killing Vritra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Shalya",
+        "Yudhishthira"
+      ],
+      "action": "Victory celebration",
+      "divine_comparison": "Compared to Indra's victory"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A young monkey made a bet with Arjuna that if the monkey could collapse his arrow bridge, Arjuna would die by fire; if not, the monkey would become his slave.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Hanuman (disguised as a monkey)"
+      ],
+      "action": "Bet/Wager",
+      "stakes": "Arjuna's life vs. monkey's servitude"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The monkey won twice, making Arjuna face death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hanuman (disguised as a monkey)",
+        "Arjuna"
+      ],
+      "outcome": "Monkey victory, Arjuna's impending death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A young Brahmin boy arrived, proposed a new bet, and acted as arbitrator.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna (disguised as a Brahmin boy)",
+        "Arjuna",
+        "Hanuman (disguised as a monkey)"
+      ],
+      "action": "Intervention/Arbitration"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The monkey lost this time and, on the Brahmin's suggestion, became the emblem on Arjuna's banner.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hanuman (disguised as a monkey)",
+        "Krishna (disguised as a Brahmin boy)",
+        "Arjuna"
+      ],
+      "outcome": "Monkey becomes banner emblem",
+      "resolution": "Conflict resolved through divine intervention"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "revelation",
+    "extraction_text": "The Brahmin boy was actually Krishna, and the monkey was actually Hanuman.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Hanuman"
+      ],
+      "true_identities": "Krishna (Vishnu avatar), Hanuman (divine monkey god)",
+      "supernatural_elements": "Divine disguises and intervention"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pandu and Kunti had three sons: Yudhishthira, Bhima, and Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandu",
+        "Kunti",
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna"
+      ],
+      "relationships": "Parents and children",
+      "family_structure": "Pandavas lineage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama, son of Drona, is described in detail.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Drona"
+      ],
+      "relationships": "Father and son",
+      "note": "Ashvatthama is a key warrior in the Kurukshetra War"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna and Arjuna are referenced as key figures.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna"
+      ],
+      "relationships": "Divine guide and warrior",
+      "significance": "Central partnership in the Mahabharata"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula and Sahadeva, sons of Madri, are mentioned.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Sahadeva"
+      ],
+      "relationships": "Twin brothers, Pandavas",
+      "family_structure": "Complete Pandava brothers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yama, Shiva, Skanda (Kartikeya), and other deities are referenced in mythological contexts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yama",
+        "Shiva",
+        "Skanda (Kartikeya)",
+        "Kubera"
+      ],
+      "supernatural_elements": "Gods and divine beings",
+      "context": "Mythological descriptions and symbolism"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Alaka is the capital city of Kubera.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kubera"
+      ],
+      "location": "Alaka",
+      "type": "Description/Setting"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kubera is also known as 'Bestower of Wealth'.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kubera"
+      ],
+      "epithet": "Bestower of Wealth",
+      "type": "Description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kuhika (also translated as Secret Traces Deva) is a type of minor spirit, skilled in invisibility, who serves as an attendant to Kubera and is responsible for protecting his treasures.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kubera",
+        "Kuhika"
+      ],
+      "relationship": "Master and attendant/protector",
+      "supernatural_elements": [
+        "Minor spirit",
+        "Invisibility"
+      ],
+      "type": "Description/Relationship"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text references the 'kalpa fire' that destroys the world.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "supernatural_elements": [
+        "Kalpa fire (world-destroying fire)"
+      ],
+      "type": "Mythological Reference"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana is referenced.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "type": "Mention"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pradyumna is a warrior of the Vrishni clan and a member of the Pandava allied forces.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pradyumna"
+      ],
+      "affiliation": [
+        "Vrishni clan",
+        "Pandava allies"
+      ],
+      "type": "Description/Affiliation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text describes 'parshni' soldiers who run alongside chariots in battle to protect them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Military tactic description",
+      "type": "Description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra is referred to by the epithet 'Slayer of Vritra'. The asura Jambha, who was an enemy of the gods, was killed by Indra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Jambha (asura)"
+      ],
+      "action": "Killing",
+      "epithet": "Slayer of Vritra (for Indra)",
+      "relationship": "Enemies",
+      "type": "Mythological Event"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Siddhas are described as a type of semi-divine being, pure and sacred, said to number 88,000, living in the sky between the sun and the earth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Siddhas (collective)"
+      ],
+      "supernatural_elements": [
+        "Semi-divine beings"
+      ],
+      "type": "Description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya, King of Madra, is described as fighting fiercely like a spear-tip or arrowhead.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya"
+      ],
+      "title": "King of Madra",
+      "type": "Description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya is the brother of Madri, the mother of Nakula and Sahadeva.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Madri",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "relationship": "Maternal uncle (Shalya to Nakula & Sahadeva)",
+      "type": "Relationship"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna and Arjuna are referenced together.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna"
+      ],
+      "type": "Mention"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Reference to the end of a kalpa when the kalpa fire burns everything in the universe, after which a new universe is born.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "supernatural_elements": [
+        "Cosmic cycle (kalpa)",
+        "Kalpa fire"
+      ],
+      "type": "Mythological Reference"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna learned martial arts from Drona, therefore Drona's son (Ashwatthama) is like the son of his teacher to him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Drona",
+        "Ashwatthama"
+      ],
+      "relationship": "Teacher-student (Arjuna-Drona), Respectful familial bond (Arjuna-Ashwatthama)",
+      "type": "Relationship/Background"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Reference to the 'Lord of Mountains', often referring to the Himalayas or Mount Kailash.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "location_reference": "Lord of Mountains (Himalayas/Kailash)",
+      "type": "Geographical/Mythological Reference"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Reference to Yama, king of the underworld, in the context of many deaths.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yama"
+      ],
+      "context": "Death in battle",
+      "type": "Mythological Reference"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Reference to Nakula and Sahadeva.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Sahadeva"
+      ],
+      "type": "Mention"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In Vedic myth, the asura Shambara was the enemy of King Divodasa. Lord Indra defeated and killed him, and destroyed his city.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Shambara (asura)",
+        "Divodasa"
+      ],
+      "action": "Defeat, killing, city destruction",
+      "relationship": "Enemies (Indra-Shambara)",
+      "type": "Mythological Event"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Clarification that 'son of Pritha' here refers to Arjuna, not Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "epithet": "Son of Pritha (Kunti)",
+      "type": "Clarification"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya is the maternal uncle of Nakula and Sahadeva. His relationship as uncle to Yudhishthira is determined through Yudhishthira's non-birth mother Madri (mother of Nakula and Sahadeva).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 20,
+    "group_index": 19,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Yudhishthira",
+        "Nakula",
+        "Sahadeva",
+        "Madri"
+      ],
+      "relationship": "Maternal uncle (Shalya to Nakula & Sahadeva), Extended familial relation (Shalya to Yudhishthira via Madri)",
+      "type": "Relationship Clarification"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Reference to the Pandava princes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 21,
+    "group_index": 20,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas (collective)"
+      ],
+      "type": "Mention"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Reference to the legendary divine mountains: one in the west where the sun and moon set behind it, and one in the east where the sun and moon rise from it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 22,
+    "group_index": 21,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "supernatural_elements": [
+        "Divine mountains"
+      ],
+      "type": "Mythological Reference"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona was the martial arts teacher to both the Kauravas (Duryodhana's brothers) and the Pandavas (Yudhishthira's brothers).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 23,
+    "group_index": 22,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Kauravas (collective)",
+        "Pandavas (collective)"
+      ],
+      "relationship": "Teacher to both factions",
+      "type": "Background/Relationship"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rudra (i.e., Shiva) will destroy all beasts at the end of the universe.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 24,
+    "group_index": 23,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rudra (Shiva)"
+      ],
+      "action": "Destruction",
+      "supernatural_elements": [
+        "Cosmic destruction"
+      ],
+      "type": "Mythological Reference"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The asura Namuchi once defeated and captured Indra, then released him on the condition that Indra would not kill him during day or night, nor with anything wet or dry. After his release, Indra killed him with foam at twilight.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 25,
+    "group_index": 24,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Namuchi (asura)"
+      ],
+      "action": "Capture, conditional release, clever killing",
+      "relationship": "Enemies",
+      "supernatural_elements": [
+        "Conditional boon/loophole"
+      ],
+      "type": "Mythological Event"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Reference to Tvashtri, the divine artisan from Rigvedic myth who crafted Indra's vajra (thunderbolt). He is the inventor and creator of the prototypes of all things in the world, the inspirer of life, and the bestower of longevity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 26,
+    "group_index": 25,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Tvashtri",
+        "Indra"
+      ],
+      "action": "Crafting the vajra",
+      "supernatural_elements": [
+        "Divine artisan",
+        "Creator of prototypes"
+      ],
+      "type": "Mythological Description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Reference to bodies of water like rivers, lakes, and oceans.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 27,
+    "group_index": 26,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Reference to the asura Kalanja.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 28,
+    "group_index": 27,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kalanja (asura)"
+      ],
+      "type": "Mention"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "沙利耶死后，他的七百位英勇的战车手追随者，不顾难敌的劝阻，带着巨大的勇气投入战斗，一心要杀坚战。",
+    "char_interval": {
+      "start_pos": 7223,
+      "end_pos": 7229
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "沙利耶的追随者（七百位战车手）",
+        "难敌",
+        "坚战"
+      ],
+      "action": "冲锋/战斗",
+      "relationships": "沙利耶的追随者要为沙利耶报仇，攻击坚战；难敌试图劝阻他们"
+    },
+    "_token_interval": {
+      "start_index": 1903,
+      "end_index": 1905
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌坐在大象背上，试图阻止这些摩德罗人，喊着“不要去！不要去！”，但劝阻无效。",
+    "char_interval": {
+      "start_pos": 7283,
+      "end_pos": 7349
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌",
+        "摩德罗人（沙利耶的追随者）"
+      ],
+      "action": "劝阻/命令",
+      "relationships": "难敌作为统帅试图控制军队"
+    },
+    "_token_interval": {
+      "start_index": 1919,
+      "end_index": 1939
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "听到沙利耶战死且坚战正遭受攻击，普利塔之子（阿周那）挥动甘狄拨神弓疾速赶来救援。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那（普利塔之子）",
+        "坚战",
+        "沙利耶的追随者"
+      ],
+      "action": "救援/支援",
+      "relationships": "阿周那作为坚战的兄弟前来救援"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那、怖军、无种、偕天、萨谛奇、德罗波蒂的所有儿子、猛光、束发、般遮罗人和苏摩迦人从四面八方将坚战团团围住保护。",
+    "char_interval": {
+      "start_pos": 7496,
+      "end_pos": 7503
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "怖军",
+        "无种",
+        "偕天",
+        "萨谛奇",
+        "德罗波蒂的儿子们",
+        "猛光",
+        "束发",
+        "般遮罗人",
+        "苏摩迦人",
+        "坚战"
+      ],
+      "action": "保护/防御",
+      "relationships": "般度族联盟成员保护坚战"
+    },
+    "_token_interval": {
+      "start_index": 1979,
+      "end_index": 1983
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "沙利耶的追随者遭到般度族人的围攻，开始扰乱敌军，犹如摩伽罗搅动大海。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "沙利耶的追随者",
+        "般度族军队"
+      ],
+      "action": "战斗/扰乱",
+      "supernatural_elements": "比喻为摩伽罗（神话中的海兽）搅动大海"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "沙利耶的追随者大声叫喊寻找坚战及其兄弟们，同时德罗波蒂的儿子们对他们发动猛烈攻击。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "沙利耶的追随者",
+        "德罗波蒂的儿子们"
+      ],
+      "action": "叫喊/攻击",
+      "relationships": "敌对双方激烈交战"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌的人马惨遭敌人杀戮，有的被飞离的车轮碾死，有的被折断的旗杆捅死。",
+    "char_interval": {
+      "start_pos": 7798,
+      "end_pos": 7861
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌的军队",
+        "般度族军队"
+      ],
+      "action": "杀戮/战斗",
+      "outcome": "难敌军伤亡惨重"
+    },
+    "_token_interval": {
+      "start_index": 2063,
+      "end_index": 2077
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana's warriors ignored his orders and charged toward the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Duryodhana's warriors",
+        "Pandavas"
+      ],
+      "action": "Disobedience and charge",
+      "relationship": "Duryodhana as commander, warriors as subordinates"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shakuni advised Duryodhana to rally the entire army to rescue Madra's followers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shakuni",
+        "Duryodhana",
+        "Madra's followers"
+      ],
+      "action": "Strategic advice",
+      "relationship": "Shakuni as advisor to Duryodhana"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana's entire army advanced forward with war cries.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Duryodhana's army"
+      ],
+      "action": "Full army advance",
+      "supernatural_elements": "Lion's roar that shook the earth"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pandavas formed a mixed formation and engaged in hand-to-hand combat.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Madra's followers"
+      ],
+      "action": "Formation and combat",
+      "outcome": "Madra's followers suffered heavy casualties"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pandavas defeated Madra's followers and celebrated with cheers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Madra's followers"
+      ],
+      "action": "Victory and celebration",
+      "supernatural_elements": "Meteors falling from the sun's disc"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Battlefield described with carnage - headless bodies, broken chariots, dead warriors, and horses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Various warriors"
+      ],
+      "action": "Battlefield devastation",
+      "imagery": "Warriors falling like sages falling from heaven"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pandavas saw Duryodhana's army charging toward them and prepared to fight.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Duryodhana's army"
+      ],
+      "action": "Preparation for battle",
+      "atmosphere": "Arrows flying, conches blowing, warriors roaring"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Madra army was completely defeated and the heroic King of Madra lay dead on the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King of Madra"
+      ],
+      "action": "Defeat and death in battle",
+      "location": "Battlefield"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana's army once again turned and fled.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Retreat/flee from battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The brave Pandava archers mercilessly slaughtered the enemy, causing them to tremble in confusion and flee in all directions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas"
+      ],
+      "action": "Merciless slaughter causing enemy panic and rout"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "context",
+    "extraction_text": "This passage is from Chapter 17 of the Shalya Parva in the sacred Mahabharata.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "source": "Mahabharata",
+      "section": "Shalya Parva",
+      "chapter": 17
+    },
+    "_token_interval": null
+  }
+]

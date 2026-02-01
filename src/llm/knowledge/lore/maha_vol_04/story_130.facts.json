@@ -1,0 +1,1465 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna encouraged Arjuna to kill Karna on the seventeenth day of the Kurukshetra War.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna",
+        "Karna"
+      ],
+      "type": "Encouragement/Motivation",
+      "context": "Seventeenth day of the war"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna described the massive losses suffered by both armies after many battles.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "action": "Description of war devastation",
+      "details": "Both armies greatly reduced in numbers, many horses and elephants destroyed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna praised Arjuna's protection of the Pandava allies who remained on the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna"
+      ],
+      "protected_allies": [
+        "Panchalas",
+        "Srinjayas",
+        "Pandavas",
+        "Matsyas",
+        "Karushas",
+        "Chedis",
+        "Kekayas"
+      ],
+      "relationship": "Krishna as charioteer and guide to Arjuna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna stated that only Arjuna could defeat the Kaurava army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna"
+      ],
+      "claim": "Arjuna could defeat even gods, demons, and humans combined",
+      "supernatural_element": "Comparison to divine capabilities"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna reminded Arjuna that Bhima and Shikhandi killed Bhishma and Drona under his protection.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna",
+        "Bhima",
+        "Shikhandi",
+        "Bhishma",
+        "Drona"
+      ],
+      "previous_events": "Bhima and Shikhandi killed Bhishma and Drona",
+      "relationship": "Arjuna's protection enabled these victories"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna listed the formidable Kaurava warriors that Arjuna had faced.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna"
+      ],
+      "kaurava_warriors": [
+        "Bhishma",
+        "Drona",
+        "Karna",
+        "Kripa",
+        "Ashwatthama",
+        "Bhurishravas",
+        "Shalya",
+        "Duryodhana",
+        "Jayadratha"
+      ],
+      "description": "All skilled, fierce, and relentless in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna described how Arjuna had destroyed numerous enemy forces from various regions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "destroyed_forces": [
+        "Kshudrakas",
+        "Malavas",
+        "Mavellakas",
+        "Madrakas",
+        "Dravidas",
+        "Yavanas",
+        "Khasas",
+        "Daradas",
+        "Abhisaras",
+        "Chinas",
+        "Shakas",
+        "Ramathas",
+        "Harahunas",
+        "Andhras",
+        "Pulindas",
+        "Kiratas",
+        "Mlecchas",
+        "mountain tribes",
+        "coastal tribes"
+      ],
+      "action": "Mass destruction of enemy armies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna emphasized that only Arjuna could defeat the fierce warriors fighting for Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna",
+        "Duryodhana"
+      ],
+      "conclusion": "Arjuna is uniquely capable of defeating the remaining Kaurava forces",
+      "relationship": "Arjuna as the key to Pandava victory"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna's protection enabled the Pandavas to face the Kaurava army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Pandavas",
+        "Kaurava army"
+      ],
+      "action": "Military protection and enabling attack",
+      "relationship": "Arjuna as protector of the Pandavas against the Kauravas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Abhimanyu killed King Shalya of Magadha in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Abhimanyu",
+        "Shalya"
+      ],
+      "action": "Killing in battle",
+      "relationship": "Abhimanyu (Pandava side) vs. Shalya (Kaurava ally)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima killed thousands of elephants and hundreds of chariots belonging to Shalya's forces.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Shalya's forces"
+      ],
+      "action": "Mass destruction of war elephants and chariots",
+      "relationship": "Bhima (Pandava) attacking Kaurava allies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma fought fiercely for ten days, killing many warriors from the Pandava side including kings of Chedi, Panchala, and Kekaya.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Pandava army",
+        "Kings of Chedi",
+        "Kings of Panchala",
+        "Kings of Kekaya"
+      ],
+      "action": "Mass slaughter in battle",
+      "supernatural": "Bhishma appeared like Rudra and Upendra during battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandi, protected by Arjuna, ambushed and killed Bhishma with arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandi",
+        "Arjuna",
+        "Bhishma"
+      ],
+      "action": "Ambush and killing",
+      "relationship": "Shikhandi (Pandava side) kills Bhishma (Kaurava commander) with Arjuna's protection"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma fell on a bed of arrows and called Arjuna to his side.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Arjuna"
+      ],
+      "action": "Dying request/summon",
+      "relationship": "Bhishma (grandfather) calls Arjuna (grandson) while dying"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona fought fiercely for five days, protecting Duryodhana and killing many warriors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Duryodhana",
+        "Pandava army"
+      ],
+      "action": "Military command and slaughter",
+      "relationship": "Drona as protector of Duryodhana (Kaurava prince)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona was killed by Dhrishtadyumna after two days of fighting.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Dhrishtadyumna"
+      ],
+      "action": "Killing in battle",
+      "relationship": "Dhrishtadyumna (Pandava commander) kills Drona (Kaurava commander)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna prevented Karna from reaching Drona, which enabled Drona's death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Karna",
+        "Drona"
+      ],
+      "action": "Blocking/Interference in battle",
+      "relationship": "Arjuna prevents Karna (Kaurava warrior) from protecting Drona"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna intercepted the entire army of Dhritarashtra's sons, enabling Drona to be killed by Dhrishtadyumna in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Drona",
+        "Dhrishtadyumna"
+      ],
+      "action": "Interception enabling killing",
+      "relationships": [
+        "Arjuna (Pandava) vs. Drona (Kaurava commander)",
+        "Dhrishtadyumna (Pandava ally) kills Drona"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna killed King Jayadratha (Sindhu king) in battle, which was considered a miracle by other kings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Jayadratha"
+      ],
+      "action": "Killing in battle",
+      "supernatural_elements": "Considered miraculous"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna destroyed large portions of the Kaurava army, killing many brave kings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Mass destruction of army",
+      "scale": "Large-scale battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma and Drona have been killed, leading to the destruction of Dhritarashtra's army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Drona"
+      ],
+      "action": "Deaths of key commanders",
+      "consequence": "Kaurava army destruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Kaurava army has been devastated with heavy losses of warriors, horses, and elephants.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kaurava army"
+      ],
+      "action": "Army devastation",
+      "metaphor": "Like sky without sun, moon, and stars"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Only five great Kaurava warriors remain alive: Ashvatthama, Kritavarma, Karna, Shalya, and Kripa.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Kritavarma",
+        "Karna",
+        "Shalya",
+        "Kripa"
+      ],
+      "status": "Surviving warriors",
+      "relationship": "Remaining Kaurava commanders"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna urges Arjuna to kill the five remaining warriors and present the entire earth to King Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna",
+        "Yudhishthira"
+      ],
+      "action": "Exhortation to complete victory",
+      "divine_comparison": "Like Vishnu giving heaven to Indra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna acknowledges Arjuna might show mercy to Ashvatthama (out of respect for Drona), Kripa (respect for teacher), Kritavarma (maternal relative), and Shalya (maternal uncle).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Ashvatthama",
+        "Kripa",
+        "Kritavarma",
+        "Shalya"
+      ],
+      "relationship_dynamics": [
+        "Teacher-student respect",
+        "Maternal family ties"
+      ],
+      "potential_conflict": "Mercy vs. duty"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna specifically urges Arjuna to kill Karna, who is described as malicious, the instigator of Duryodhana's evil deeds including the attempted burning of Kunti and the dice game.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Karna",
+        "Duryodhana",
+        "Kunti"
+      ],
+      "action": "Exhortation to kill",
+      "justification": [
+        "Instigator of evil deeds",
+        "Supported Duryodhana's arrogance"
+      ],
+      "historical_context": [
+        "Attempted burning of Kunti and sons",
+        "Dice game conspiracy"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna reveals that Duryodhana, protected by Karna, was arrogant and even attempted to imprison Krishna when he went as an envoy.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Duryodhana",
+        "Karna"
+      ],
+      "action": "Diplomatic confrontation",
+      "relationship": "Duryodhana's dependence on Karna's protection"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana believes Karna will defeat all the Pandavas in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Karna",
+        "Pandavas"
+      ],
+      "type": "Belief/Confidence",
+      "relationships": "Duryodhana relies on Karna's strength for the war."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna boasts in Kuru assemblies that he will defeat the Pandavas, Krishna, and Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Pandavas",
+        "Krishna",
+        "Yudhishthira"
+      ],
+      "type": "Boasting/Provocation",
+      "relationships": "Karna is antagonistic towards the Pandavas and their allies."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Abhimanyu is killed by six cruel warriors from Duryodhana's army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Abhimanyu",
+        "Six Kuru Warriors"
+      ],
+      "type": "Battle/Death",
+      "relationships": "Abhimanyu is the son of Arjuna and Subhadra, fighting against the Kauravas."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Abhimanyu causes havoc in the Kaurava army, terrifying Drona, Ashwatthama, and Kripa.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Abhimanyu",
+        "Drona",
+        "Ashwatthama",
+        "Kripa"
+      ],
+      "type": "Battle/Valor",
+      "relationships": "Abhimanyu demonstrates exceptional prowess against key Kaurava commanders."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna is unable to face Abhimanyu directly in battle, is wounded by his arrows, and flees.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Abhimanyu"
+      ],
+      "type": "Battle/Retreat",
+      "relationships": "Karna is shown as inferior to Abhimanyu in direct combat."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna breaks Abhimanyu's bow on Drona's command, enabling five warriors to kill him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Abhimanyu",
+        "Drona",
+        "Five Warriors"
+      ],
+      "type": "Battle/Treachery",
+      "relationships": "Karna participates in the unfair killing of Abhimanyu."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna insults Draupadi in the Kuru assembly hall, telling her to become a slave to Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Draupadi",
+        "Duryodhana",
+        "Pandavas"
+      ],
+      "type": "Insult/Humiliation",
+      "relationships": "Karna publicly humiliates Draupadi, deepening the enmity with the Pandavas."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker urges Arjuna to kill Karna to avenge these wrongs.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Karna"
+      ],
+      "type": "Exhortation/Revenge",
+      "relationships": "Arjuna is called upon to exact vengeance for Karna's actions against his family."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna (referred to as '胜财') is urged to kill Karna in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Karna"
+      ],
+      "action": "Battle confrontation",
+      "supernatural_elements": "Mentions of divine weapons like Gandiva bow"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna is described as killing many Panchalas and other warriors with his arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Panchalas",
+        "Satyaki",
+        "Nakula",
+        "Sahadeva",
+        "Shikhandi",
+        "Dhrishtadyumna",
+        "Sutasoma",
+        "others"
+      ],
+      "action": "Mass slaughter in battle",
+      "relationships": "Karna as enemy of Pandavas and their allies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Panchalas and other warriors continue fighting bravely despite heavy casualties from Karna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Panchalas",
+        "Pandavas",
+        "Allies"
+      ],
+      "action": "Persistent battle engagement",
+      "relationships": "Allies fighting together against Karna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna uses a powerful weapon obtained from Parashurama.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Parashurama"
+      ],
+      "action": "Deployment of divine weapon",
+      "supernatural_elements": "Divine weapon from Parashurama",
+      "relationships": "Parashurama as Karna's teacher"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana is mentioned as losing hope if Karna is killed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Karna"
+      ],
+      "action": "Psychological impact",
+      "relationships": "Karna as Duryodhana's key ally and friend"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna encourages Arjuna to fight Karna, warning that Karna's weapons are devastating the Panchalas and could destroy the Pandavas, Shrinjayas, and Panchalas if ignored.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna",
+        "Karna"
+      ],
+      "type": "Encouragement/Warning",
+      "relationships": [
+        "Krishna advises Arjuna",
+        "Arjuna is the only one capable of defeating Karna"
+      ],
+      "supernatural_elements": [
+        "Karna's powerful weapons compared to Indra's vajra"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna, encouraged by Krishna, becomes determined to kill Karna, declaring his confidence with Krishna's protection.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna"
+      ],
+      "type": "Determination/Declaration",
+      "relationships": [
+        "Arjuna expresses faith in Krishna's support"
+      ],
+      "supernatural_elements": [
+        "Arjuna claims he could defeat the three worlds with Krishna's help"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna observes the Panchala army fleeing and Karna dominating the battlefield with his divine weapon.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Karna",
+        "Panchala Army"
+      ],
+      "type": "Observation",
+      "relationships": [
+        "Arjuna witnesses Karna's prowess"
+      ],
+      "supernatural_elements": [
+        "Karna's Bhargava weapon compared to Indra's vajra"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna vows to kill Karna with his Gandiva bow, predicting dire consequences for Dhritarashtra and Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Karna",
+        "Dhritarashtra",
+        "Duryodhana"
+      ],
+      "type": "Vow/Prediction",
+      "relationships": [
+        "Arjuna targets Karna",
+        "Dhritarashtra and Duryodhana will suffer from Karna's death"
+      ],
+      "supernatural_elements": [
+        "Arjuna's Gandiva bow and arrows"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna metaphorically threatens Shakuni, comparing his arrows to dice and his bow to a dice box.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Shakuni"
+      ],
+      "type": "Threat",
+      "relationships": [
+        "Arjuna targets Shakuni for his role in the dice game"
+      ],
+      "supernatural_elements": [
+        "Metaphorical use of Arjuna's weapons"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna vows to kill Karna in battle to avenge past insults and fulfill his debts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Karna"
+      ],
+      "action": "Vow/Declaration",
+      "relationships": [
+        "Rivalry",
+        "Enmity"
+      ],
+      "supernatural_elements": [
+        "Gandiva bow (divine weapon)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna references Karna's past insults against Draupadi and the Pandavas in the assembly hall.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Draupadi",
+        "Pandavas"
+      ],
+      "action": "Reference to past offense",
+      "relationships": [
+        "Insulted",
+        "Victims"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna states that killing Karna will make the Pandavas respected (like full sesame seeds instead of empty ones).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Karna",
+        "Pandavas"
+      ],
+      "action": "Symbolic restoration of honor",
+      "relationships": [
+        "Brothers (Pandavas)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna mentions Karna's promise to protect the Kauravas from the Pandavas, which will be broken.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Kauravas",
+        "Pandavas"
+      ],
+      "action": "Broken promise",
+      "relationships": [
+        "Protector (Karna to Kauravas)",
+        "Enemies (to Pandavas)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna vows to kill Karna along with his sons and friends in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Karna"
+      ],
+      "action": "Threat of annihilation",
+      "relationships": [
+        "Mortal enemies"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna predicts that after Karna's death, the Kauravas will panic and flee like deer before a lion.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Karna",
+        "Kauravas",
+        "Duryodhana"
+      ],
+      "action": "Prediction of enemy collapse",
+      "relationships": [
+        "Leader (Duryodhana of Kauravas)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna claims to be the best archer and vows to prove it by killing Karna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Boast/Declaration of superiority",
+      "relationships": [
+        "Self-proclaimed champion"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna states that killing Karna will repay debts to allies, weapons, and his own anger.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna",
+        "Somakas",
+        "Shikhandin",
+        "Panchalas"
+      ],
+      "action": "Fulfillment of obligations",
+      "relationships": [
+        "Charioteer/Guide (Krishna to Arjuna)",
+        "Allies (Somakas, etc.)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna compares killing Karna to Indra killing Shambara, claiming it will end 13 years of suffering.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Karna",
+        "Indra"
+      ],
+      "action": "Mythological comparison",
+      "supernatural_elements": [
+        "Divine parallel (Indra vs. Shambara)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna predicts that killing Karna will bring joy to Bhima, Nakula, Sahadeva, and Satyaki.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Karna",
+        "Bhima",
+        "Nakula",
+        "Sahadeva",
+        "Satyaki"
+      ],
+      "action": "Prediction of ally satisfaction",
+      "relationships": [
+        "Brothers (Pandavas)",
+        "Friend/Ally (Satyaki)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna boasts that no warrior can match him in archery, bravery, generosity, or anger, claiming he could defeat all gods and demons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Ultimate boast",
+      "supernatural_elements": [
+        "Claim of superiority over gods and demons"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandava armies march to battle with high morale, accompanied by loud music and war cries.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava armies"
+      ],
+      "action": "Marching to battle",
+      "description": "Armies are described with banners, music, and thunderous noise"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The battle begins with fierce fighting, causing heavy casualties among Kshatriyas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava armies",
+        "Kaurava armies"
+      ],
+      "action": "Battle commencement",
+      "description": "Intense fighting with flashing swords and flowing blood"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna (referred to as 'Son of Pritha') rains arrows, sending enemies to Yama's realm.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Kaurava warriors"
+      ],
+      "action": "Mass destruction",
+      "description": "Arjuna kills charioteers, horses, elephants, and infantry"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kripa fights Shikhandin, Satyaki attacks Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripa",
+        "Shikhandin",
+        "Satyaki",
+        "Duryodhana"
+      ],
+      "action": "Individual combat",
+      "relationships": "Kripa vs Shikhandin, Satyaki vs Duryodhana"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama (referred to as 'Son of Drona') fights Yudhamanyu, and Uttamaujas fights Shrutakarman.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Yudhamanyu",
+        "Uttamaujas",
+        "Shrutakarman"
+      ],
+      "action": "Individual combat",
+      "relationships": "Ashvatthama vs Yudhamanyu, Uttamaujas vs Shrutakarman"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vrishasena (referred to as 'Son of Karna') attacks the Srinjayas, and Uttamaujas counters him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vrishasena",
+        "Uttamaujas"
+      ],
+      "action": "Combat initiation",
+      "relationships": "Vrishasena vs Uttamaujas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sahadeva attacks Shakuni (referred to as 'King of Gandhara').",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sahadeva",
+        "Shakuni"
+      ],
+      "action": "Attack",
+      "description": "Compared to a hungry lion attacking a bull"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Prativindhya (referred to as 'Son of Yudhishthira') exchanges arrows with Vrishasena.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Prativindhya",
+        "Vrishasena"
+      ],
+      "action": "Arrow exchange",
+      "relationships": "Son of Yudhishthira vs Son of Karna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula attacks Shalya, and Dhrishtadyumna (referred to as 'Son of Drupada') attacks Karna and his army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Shalya",
+        "Dhrishtadyumna",
+        "Karna"
+      ],
+      "action": "Simultaneous attacks",
+      "relationships": "Nakula vs Shalya, Dhrishtadyumna vs Karna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dushasana leads Kaurava forces against Bhima.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dushasana",
+        "Bhima"
+      ],
+      "action": "Mass attack",
+      "description": "Dushasana leads suicide squads against Bhima"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttamaujas beheads Vrishasena, causing his head to fall to the ground.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttamaujas",
+        "Vrishasena"
+      ],
+      "action": "Beheading",
+      "consequence": "Vrishasena killed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna becomes grief-stricken and enraged upon seeing his son Vrishasena killed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "action": "Emotional reaction",
+      "description": "Karna is filled with sorrow and anger"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna retaliates by destroying Uttamaujas's horses, chariot, and banner with arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Uttamaujas"
+      ],
+      "action": "Retaliation",
+      "description": "Karna attacks Uttamaujas's equipment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttamaujas kills Kripa's chariot guards and horses, then boards Shikhandin's chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttamaujas",
+        "Kripa",
+        "Shikhandin"
+      ],
+      "action": "Chariot destruction and transfer",
+      "description": "Uttamaujas moves to Shikhandin's chariot"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama rescues Kripa, who is now chariotless, without Shikhandin attacking him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Kripa",
+        "Shikhandin"
+      ],
+      "action": "Rescue",
+      "description": "Compared to rescuing a bull from mud"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima (referred to as 'Son of Vayu') fiercely attacks Duryodhana's army with arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Duryodhana's army"
+      ],
+      "action": "Mass attack",
+      "description": "Compared to the summer sun scorching everything"
+    },
+    "_token_interval": null
+  }
+]

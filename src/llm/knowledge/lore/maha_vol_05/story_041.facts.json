@@ -1,0 +1,700 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Bhishma about the duties of a king and what brings happiness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Question",
+      "relationship": "Grandson (Yudhishthira) seeks wisdom from grandfather (Bhishma)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma agrees to explain the duties of a king and warns Yudhishthira not to act like a certain camel.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Yudhishthira"
+      ],
+      "type": "Instruction",
+      "action": "Bhishma begins teaching with a parable"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma narrates the story of a camel born in the era of Prajapati who remembered his past life and performed severe austerities in the forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Camel",
+        "Brahma"
+      ],
+      "type": "Backstory",
+      "supernatural_elements": [
+        "Reincarnation/memory of past life",
+        "Severe austerities (tapas)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahma, pleased with the camel's austerities, grants him a boon.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma",
+        "Camel"
+      ],
+      "type": "Divine Intervention",
+      "action": "Boon granting"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The camel asks for and receives a boon: a neck that can stretch one hundred yojanas (a vast distance).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Camel",
+        "Brahma"
+      ],
+      "type": "Wish Fulfillment",
+      "supernatural_elements": [
+        "Granting of a physical boon"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The camel becomes lazy and corrupt after receiving the boon, ceasing to move and hunt for food.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Camel"
+      ],
+      "type": "Character Flaw",
+      "action": "Moral decline due to laziness"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "One day, the camel stretches its long neck to eat easily, but a great storm arises.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Camel"
+      ],
+      "type": "Inciting Incident",
+      "action": "Use of boon leads to vulnerability"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The camel hides its head and neck in a cave; heavy rain floods the land.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Camel"
+      ],
+      "type": "Action",
+      "action": "Seeking shelter"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A hungry jackal, cold from the rain, enters the same cave with its wife.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jackal",
+        "Jackal's Wife"
+      ],
+      "type": "Introduction",
+      "relationship": "Married couple"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The jackal, driven by hunger, begins to bite the camel's neck.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jackal",
+        "Camel"
+      ],
+      "type": "Conflict",
+      "action": "Attack/Predation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The camel, in agony, tries to shake off the jackals by moving its neck, but they hold on.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Camel",
+        "Jackal",
+        "Jackal's Wife"
+      ],
+      "type": "Struggle",
+      "action": "Failed defense"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The jackal kills and eats the camel; after the storm ends, the jackal leaves the cave.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jackal",
+        "Camel"
+      ],
+      "type": "Climax",
+      "action": "Death of the camel"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma concludes the parable, emphasizing the great fault of laziness and advising Yudhishthira to avoid such behavior.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Yudhishthira"
+      ],
+      "type": "Moral",
+      "action": "Lesson on the dangers of laziness"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma instructs Yudhishthira to control his senses, act diligently, and cites Manu that intelligence is the root of victory, describing four grades of action.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Yudhishthira"
+      ],
+      "type": "Instruction",
+      "action": "Teaching on kingship and action"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma states that a king who is controlled, capable, secretive, learned, and has good assistants will have a stable kingdom, and with careful action, can rule the entire earth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Yudhishthira"
+      ],
+      "type": "Advice",
+      "action": "Qualities of a successful king"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks a new question: how a weak king should deal with strong enemies after gaining a kingdom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Question",
+      "action": "Continuation of dialogue"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma responds by introducing another ancient tale: a dialogue between a river and the ocean.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Yudhishthira"
+      ],
+      "type": "Introduction",
+      "action": "Setting up the next parable"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The eternal ocean, lord of rivers and refuge of the enemies of the gods, questions all rivers about why they uproot mighty trees but not the reeds growing on their banks.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Ocean"
+      ],
+      "action": "Questioning",
+      "supernatural_elements": "The Ocean is personified as a sentient being, lord of rivers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Ganga explains to the Ocean that trees are uprooted because they stubbornly resist the flood, while reeds survive by bending with the current and then recovering.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ganga",
+        "The Ocean"
+      ],
+      "action": "Explanation",
+      "relationships": "Ganga responds to the Ocean's question, illustrating wisdom through natural analogy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text concludes that when facing powerful, cruel enemies, one should adopt the reed's method of flexibility and tolerance to avoid destruction, which is a mark of wisdom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "theme": "Moral lesson",
+      "key_plot_point": "Introduction of the reed metaphor for strategic tolerance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Bhishma what a gentle, wise person should do when insulted by arrogant, rude fools in an assembly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "action": "Question",
+      "relationships": "Yudhishthira seeks advice from Bhishma, his elder and mentor"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma advises that the wise should always tolerate fools, as enduring insults without anger transfers the insulter's good karma to the victim and the victim's bad karma to the insulter.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Advice",
+      "key_plot_point": "Expansion on the tolerance theme with karmic consequences"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma describes fools who boast about insulting respected figures, comparing them to crows cawing in the forest or peacocks dancing to expose themselves—their words are empty and reveal low birth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Characterization",
+      "relationships": "Bhishma contrasts fools with wise, self-restrained people"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma warns against those who praise to one's face but criticize behind one's back, likening them to dogs who lose worldly protection and instantly lose any merit from sacrifices or charity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Warning",
+      "key_plot_point": "Condemnation of hypocrisy and its spiritual consequences"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma concludes that the wise should immediately avoid such evil-minded people, just as good people avoid dog meat.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Conclusion",
+      "theme": "Practical wisdom on dealing with toxic individuals"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Soul-evil people accuse soul-noble people, exposing their own baseness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Soul-evil people",
+        "Soul-noble people"
+      ],
+      "type": "Accusation/Conflict",
+      "description": "A metaphorical description of how evil people behave by accusing the noble, revealing their own nature."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "One should avoid habitual slanderers, like avoiding active jackals, mad elephants with raised tusks, and fierce dogs.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Habitual slanderers"
+      ],
+      "type": "Advice/Warning",
+      "description": "Advice to stay away from those who slander others, using animal metaphors for danger."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira expresses a great doubt to Bhishma about governance, family happiness, prosperity, and how a king should please his subjects.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Question/Inquiry",
+      "relationships": [
+        "Grandson (Yudhishthira) asks grandfather (Bhishma) for wisdom on kingship."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks about which attendants to trust, their virtues, and how to rely on them to govern the kingdom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "type": "Specific Inquiry",
+      "description": "Yudhishthira seeks practical advice on selecting and managing royal attendants for effective governance."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma responds that a king can enjoy the fruits of the kingdom if all attendants are knowledgeable, wise, high-born, friendly, and well-intentioned.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Answer/Advice",
+      "description": "Bhishma outlines the ideal qualities of royal attendants for successful kingship."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma adds that ministers should be high-born, loyal, harmonious, strategic, knowledgeable about relationships, forward-looking, and timely.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Elaboration",
+      "description": "Further advice on the specific traits ministers should possess for a king to thrive."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text describes qualities that enable a king to enjoy the fruits of his kingdom and righteousness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King (generic)"
+      ],
+      "type": "Instruction/Advice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "condition",
+    "extraction_text": "If the king's assistants share his joys and sorrows, keep their word, and work wholeheartedly for his benefit, the king can enjoy the fruits of the kingdom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "proposer": "Text (narrator)",
+      "accepter": "King (generic)",
+      "requirements": [
+        "Loyal assistants",
+        "Shared burdens",
+        "Honesty",
+        "Dedicated service"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "condition",
+    "extraction_text": "If the people are not distressed, not vulgar, united with each other, and always adhere to the right path, the king can enjoy the fruits of the kingdom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "proposer": "Text (narrator)",
+      "accepter": "King (generic)",
+      "requirements": [
+        "Content populace",
+        "Unity",
+        "Moral conduct"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "condition",
+    "extraction_text": "If a person who is capable, content, promotes wealth growth, and always supervises the treasury is appointed, the king can become an excellent ruler.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "proposer": "Text (narrator)",
+      "accepter": "King (generic)",
+      "requirements": [
+        "Competent treasurer",
+        "Wealth promotion",
+        "Constant supervision"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "condition",
+    "extraction_text": "If a person who is capable, loyal, trustworthy, focused on collection, and not greedy is appointed to manage the storehouse, the king can become virtuous.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "proposer": "Text (narrator)",
+      "accepter": "King (generic)",
+      "requirements": [
+        "Honest storekeeper",
+        "Non-greediness",
+        "Dedication"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "condition",
+    "extraction_text": "If in his city, the law reflects the consequences of actions, like in the cases of Shankha and Likhita, the king can enjoy the fruits of righteousness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "proposer": "Text (narrator)",
+      "accepter": "King (generic)",
+      "requirements": [
+        "Just laws",
+        "Example of Shankha and Likhita"
+      ],
+      "reference": "Shankha and Likhita (mythological/legendary figures known for justice)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "condition",
+    "extraction_text": "If the king is knowledgeable about royal law, treats the people well, and overcomes the six enemies, he can enjoy the fruits of righteousness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "proposer": "Text (narrator)",
+      "accepter": "King (generic)",
+      "requirements": [
+        "Knowledge of law",
+        "Good governance",
+        "Overcoming six enemies"
+      ],
+      "reference": "Six enemies (likely refers to internal vices like lust, anger, greed, etc.)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text concludes by stating this is from the Shanti Parva (Book of Peace), Chapter 116 of the Mahabharata.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Citation",
+      "source": "Mahabharata, Shanti Parva, Chapter 116"
+    },
+    "_token_interval": null
+  }
+]

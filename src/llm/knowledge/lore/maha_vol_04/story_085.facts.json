@@ -1,0 +1,970 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona was killed by Dhrishtadyumna using illegal means during battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Dhrishtadyumna"
+      ],
+      "action": "Killing",
+      "method": "Illegal means",
+      "context": "Battlefield"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama learned of his father Drona's death and was filled with tears and hatred.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Drona"
+      ],
+      "emotional_state": "Grief and rage",
+      "relationship": "Father-son"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama confronted Duryodhana about the killing, expressing his knowledge of the circumstances.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Duryodhana"
+      ],
+      "action": "Confrontation",
+      "content": "Accusation of illegal killing and Yudhishthira's role"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama expressed philosophical acceptance of death in battle but anguish over the dishonorable method.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama"
+      ],
+      "philosophical_position": "Acceptance of battlefield death, rejection of dishonorable killing",
+      "specific_grievance": "Drona was seized by the hair in front of the army"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama was prophesied to become Dhrishtadyumna's killer, mirroring Dhrishtadyumna's role as Drona's killer.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Dhrishtadyumna"
+      ],
+      "type": "Prophetic foreshadowing",
+      "relationship": "Fated adversaries"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona's son (Aswatthaman) vows to avenge his father's death by killing the Pandavas and their allies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Aswatthaman",
+        "Drona",
+        "Pandavas"
+      ],
+      "action": "Vow of revenge",
+      "relationships": [
+        "Father-son (Aswatthaman-Drona)",
+        "Enmity (Aswatthaman-Pandavas)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Aswatthaman expresses shame that his father Drona was killed while he, as a son, remains alive.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Aswatthaman",
+        "Drona"
+      ],
+      "action": "Expression of grief and shame",
+      "relationships": [
+        "Father-son (Aswatthaman-Drona)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Aswatthaman claims he possesses the supreme Narayana weapon given to his father by Lord Narayana in disguise as a Brahmin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Aswatthaman",
+        "Drona",
+        "Narayana (Vishnu)"
+      ],
+      "action": "Revelation of divine weapon",
+      "supernatural_elements": [
+        "Divine weapon (Narayana weapon)",
+        "Narayana in disguise as Brahmin"
+      ],
+      "relationships": [
+        "Father-son (Aswatthaman-Drona)",
+        "Divine boon (Narayana to Drona)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Aswatthaman declares he will use the Narayana weapon to destroy the Pandava armies, claiming neither the Pandavas nor Krishna know about this weapon.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Aswatthaman",
+        "Pandavas",
+        "Krishna"
+      ],
+      "action": "Declaration of battle intent",
+      "supernatural_elements": [
+        "Narayana weapon"
+      ],
+      "relationships": [
+        "Enmity (Aswatthaman-Pandavas/Krishna)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Aswatthaman mentions specific enemies he will target: Dhrishtadyumna (son of Drupada), Shikhandi, Satyaki, and the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Aswatthaman",
+        "Dhrishtadyumna",
+        "Shikhandi",
+        "Satyaki",
+        "Pandavas"
+      ],
+      "action": "Identification of targets",
+      "relationships": [
+        "Enmity (Aswatthaman with all named)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama (Drona's son) received the Narayana weapon from his father, who had obtained it from Narayana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Drona",
+        "Narayana"
+      ],
+      "action": "Weapon transfer/Receipt",
+      "relationships": [
+        "Father-Son (Drona-Ashwatthama)",
+        "Divine bestowal (Narayana-Drona)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama declared his intention to use the Narayana weapon against the Pandavas, Panchalas, Matsyas, and Kekayas in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama"
+      ],
+      "targets": [
+        "Pandavas",
+        "Panchalas",
+        "Matsyas",
+        "Kekayas"
+      ],
+      "intention": "Battle declaration/Threat",
+      "relationships": [
+        "Enmity (Ashwatthama vs. Pandavas alliance)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama specifically condemned Shikhandin (the Panchala) as despicable and vowed he would not escape.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Shikhandin"
+      ],
+      "action": "Condemnation/Vow",
+      "relationships": [
+        "Targeted enmity"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Upon hearing Ashwatthama's words, the Kaurava army rallied, with heroes blowing conches and thousands of drums beaten, creating an uproar that reached the sky.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kaurava army"
+      ],
+      "action": "Army rally/Preparation for battle",
+      "effect": "Morale boost, atmospheric disturbance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas heard the thunderous noise and gathered to consult together.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas"
+      ],
+      "action": "Council/Consultation",
+      "response": "Strategic planning"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama, after speaking, purified his hands with water and manifested the Narayana weapon.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama"
+      ],
+      "action": "Weapon manifestation/Activation",
+      "method": "Ritual purification"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Upon manifestation of the Narayana weapon, violent winds arose, rain fell from a clear sky, lightning flashed, thunder roared, the earth shook, oceans surged, rivers reversed flow, mountain peaks split, deer circled the Pandavas leftwards, darkness spread, the sun dimmed, and carnivorous beasts arrived joyfully.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Supernatural atmospheric and geological disturbances",
+      "type": "Divine weapon effect",
+      "elements": [
+        "Wind",
+        "Rain",
+        "Lightning",
+        "Thunder",
+        "Earthquakes",
+        "Tidal changes",
+        "River reversal",
+        "Mountain splitting",
+        "Animal behavior changes",
+        "Celestial darkness"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gods, Danavas, and Gandharvas trembled with fear, and people asked what was happening upon seeing the chaos.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gods",
+        "Danavas",
+        "Gandharvas",
+        "People"
+      ],
+      "reaction": "Fear/Inquiry",
+      "effect": "Cosmic disturbance affecting divine and mortal realms"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "All kings became terrified upon seeing Ashwatthama's fearsome and dreadful weapon.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kings (presumably on both sides)"
+      ],
+      "reaction": "Terror",
+      "cause": "Sight of the manifested weapon"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra noted that Ashwatthama, overcome with grief and unable to bear his father's death, had now rallied the army on the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Ashwatthama",
+        "Drona"
+      ],
+      "observation": "Motivation analysis",
+      "relationships": [
+        "Father-Son (Drona-Ashwatthama)",
+        "Grief as motivator"
+      ],
+      "context": "Drona was killed by Dhrishtadyumna (referred to as '猛光' in text)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra asked Sanjaya what plan the Pandavas devised to protect Dhrishtadyumna upon seeing the Kauravas charging.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Sanjaya",
+        "Pandavas",
+        "Dhrishtadyumna"
+      ],
+      "action": "Inquiry about enemy plans",
+      "concern": "Protection of Dhrishtadyumna (Drona's killer)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira, having previously seen Dhritarashtra's sons fleeing and now hearing the uproar, spoke to Arjuna, comparing Drona's death at Dhrishtadyumna's hands to Vritra's death at Indra's.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Arjuna",
+        "Drona",
+        "Dhrishtadyumna",
+        "Indra",
+        "Vritra"
+      ],
+      "action": "Speech/Comparison",
+      "relationships": [
+        "Brothers (Yudhishthira-Arjuna)",
+        "Teacher-student (Drona-Pandavas)",
+        "Enmity (Dhrishtadyumna-Drona)",
+        "Mythological parallel (Indra-Vritra)"
+      ],
+      "context": "Acknowledgment of Drona's death and Kaurava demoralization"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After Drona was killed, the Kuru army fled in disarray.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Kuru army"
+      ],
+      "action": "Retreat/Chaos",
+      "relationships": [
+        "Drona was the teacher/commander of the Kuru army"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A great noise arose from the Kuru army, mixing horse neighs, elephant roars, and chariot sounds, terrifying the Pandava forces.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kuru army",
+        "Pandava army"
+      ],
+      "type": "Battle chaos",
+      "supernatural_elements": "The noise was described as terrifying enough to make hair stand on end"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna identified the warrior who rallied the fleeing Kuru army as Ashvatthaman.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Ashvatthaman"
+      ],
+      "action": "Identification",
+      "relationships": [
+        "Ashvatthaman is Drona's son",
+        "Arjuna was Drona's student"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthaman was born with a cry that shook the earth and three worlds, and an invisible being named him 'Ashvatthaman'.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthaman"
+      ],
+      "type": "Birth/Origin story",
+      "supernatural_elements": "Born with powerful cry, named by invisible being"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhrishtadyumna killed Drona by grabbing his hair while Drona was weaponless.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "Drona"
+      ],
+      "action": "Killing",
+      "relationships": [
+        "Dhrishtadyumna is the Panchala prince",
+        "Drona was the teacher"
+      ],
+      "conflict": "Dhrishtadyumna killed Drona despite Drona having protection nearby"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira lied to Drona about Ashvatthaman's death to cause Drona to lose will to fight.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Drona"
+      ],
+      "action": "Deception",
+      "relationships": [
+        "Yudhishthira was Drona's student",
+        "Yudhishthira is known for righteousness"
+      ],
+      "moral_conflict": "Yudhishthira, who knows dharma, committed an adharmic act"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona trusted Yudhishthira's word because Yudhishthira was his student and known for righteousness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Yudhishthira"
+      ],
+      "type": "Trust/Deception",
+      "relationships": [
+        "Teacher-student relationship",
+        "Drona's fatal trust in Yudhishthira"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A student (implied to be Drona) is killed by his own student (implied to be Dhrishtadyumna) after being deceived into laying down his weapons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Dhrishtadyumna"
+      ],
+      "action": "Deception and killing",
+      "relationship": "Teacher-student relationship broken",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna expresses deep remorse and guilt over Drona's death, blaming himself and others for allowing the killing of their unarmed teacher for the sake of the kingdom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Expression of guilt and remorse",
+      "relationship": "Arjuna was Drona's beloved student",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna describes Drona's exceptional qualities: his fatherly love, his unwavering strength (even Indra couldn't kill him in battle), and his generosity in treating Arjuna better than his own son.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Drona",
+        "Indra"
+      ],
+      "action": "Character description and praise",
+      "relationship": "Drona treated Arjuna as his favorite student",
+      "supernatural_elements": "Mention of Indra's inability to kill Drona in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna predicts that Ashwatthama, Drona's son, will burn them all in battle upon hearing of his father's death, despite normally being friendly to all beings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Drona"
+      ],
+      "action": "Prediction of future vengeance",
+      "relationship": "Father-son relationship",
+      "supernatural_elements": "Prediction of destructive wrath"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna declares that he will go to hell for his inaction during Drona's killing, and that living after such an adharmic act is worse than death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Self-condemnation and declaration of damnation",
+      "relationship": "Arjuna's relationship with dharma (righteousness)",
+      "supernatural_elements": "Belief in afterlife consequences (hell)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After Arjuna's speech, the great warriors remain silent, neither approving nor disapproving his words.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Other warriors (unspecified)"
+      ],
+      "action": "Collective silence",
+      "relationship": "Uncertain agreement among warriors",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima angrily mocks Arjuna, accusing him of speaking like a forest-dwelling sage or a Brahmin who has renounced violence, rather than a Kshatriya warrior.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Arjuna"
+      ],
+      "action": "Mockery and criticism",
+      "relationship": "Brothers in conflict over dharma",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima criticizes Yudhishthira for speaking like a fool and not upholding Kshatriya dharma despite his qualities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Yudhishthira"
+      ],
+      "type": "Criticism/Conflict",
+      "relationships": [
+        "Brothers",
+        "Pandavas"
+      ],
+      "key_points": [
+        "Bhima reminds Yudhishthira of his Kshatriya duties",
+        "References their 13-year exile and Draupadi's humiliation"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima declares he will punish the illegal acts, kill those who stole the kingdom, and fight with full force.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "type": "Declaration/Challenge",
+      "action": "Vow to fight and kill enemies",
+      "targets": [
+        "Those who stole the kingdom (Kauravas and followers)"
+      ],
+      "supernatural_elements": [
+        "Claims ability to shatter earth and split mountains when angry"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima boasts about his strength and ability to defeat Ashwatthama alone with his mace.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Ashwatthama"
+      ],
+      "type": "Boast/Challenge",
+      "action": "Claims he can defeat Ashwatthama single-handedly",
+      "weapon": [
+        "Heavy gold-studded iron mace"
+      ],
+      "relationships": [
+        "Bhima as brother of Arjuna",
+        "Ashwatthama as son of Drona"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhrishtadyumna defends his killing of Drona to Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "Arjuna",
+        "Drona"
+      ],
+      "type": "Justification/Argument",
+      "action": "Dhrishtadyumna justifies killing Drona",
+      "reason": "Drona abandoned Brahmin duties and performed Kshatriya duties, used powerful weapons unfairly",
+      "relationships": [
+        "Dhrishtadyumna as brother of Draupadi",
+        "Arjuna as Pandava brother",
+        "Drona as teacher of both"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhrishtadyumna dismisses Ashwatthama's threats and predicts the destruction of the Kaurava army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "Ashwatthama"
+      ],
+      "type": "Dismissal/Prediction",
+      "action": "Dismisses Ashwatthama's roar as insignificant",
+      "prediction": "Will lead to destruction of Kauravas",
+      "relationships": [
+        "Dhrishtadyumna as killer of Drona",
+        "Ashwatthama as Drona's son seeking revenge"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker explains they were born from sacrificial fire as the son of King Drupada of Panchala.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The speaker (implied to be Dhrishtadyumna)",
+        "King Drupada"
+      ],
+      "action": "Birth explanation",
+      "relationship": "Father-son",
+      "supernatural_elements": "Born from sacrificial fire"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker argues that killing Drona in battle was justified because Drona was angry, used divine weapons against those who didn't understand them, and was like poison for violating dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The speaker (implied to be Dhrishtadyumna)",
+        "Drona"
+      ],
+      "action": "Justification for killing",
+      "relationship": "Student-teacher turned enemies",
+      "conflict": "Dharma violation debate"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker states they cut off Drona's head in battle, comparing Drona to fire, sun, and poison.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The speaker (implied to be Dhrishtadyumna)",
+        "Drona"
+      ],
+      "action": "Decapitation in battle",
+      "relationship": "Enemies in war"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker expresses that killing Drona didn't satisfy their anger because Drona killed their relatives but spared others' relatives.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The speaker (implied to be Dhrishtadyumna)",
+        "Drona"
+      ],
+      "action": "Expression of unresolved anger",
+      "relationship": "Personal vendetta"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker compares their killing of Drona to Arjuna killing his grandfather Bhishma and friend King Bhagadatta, arguing both were according to dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The speaker (implied to be Dhrishtadyumna)",
+        "Arjuna",
+        "Drona",
+        "Bhishma",
+        "King Bhagadatta"
+      ],
+      "action": "Comparison of battlefield killings",
+      "relationship": "Parallel justifications",
+      "theme": "Kshatriya dharma debate"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker declares that neither Yudhishthira nor they acted fraudulently or against dharma, and that Drona was a sinner who hated his students.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The speaker (implied to be Dhrishtadyumna)",
+        "Yudhishthira",
+        "Drona"
+      ],
+      "action": "Final defense of actions",
+      "relationship": "Allies vs. enemy",
+      "conclusion": "Justification complete"
+    },
+    "_token_interval": null
+  }
+]

@@ -1,0 +1,1522 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Gandharvas (celestial musicians) defeat the great warrior Karna and cause all of King Dhritarashtra's soldiers to flee in the presence of his son Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Duryodhana",
+        "Gandharvas"
+      ],
+      "action": "Defeat and rout",
+      "supernatural_elements": "Gandharvas (celestial beings)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana remains standing his ground as his brothers flee, and showers the advancing Gandharva army with arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Gandharvas"
+      ],
+      "action": "Standing ground and counter-attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Gandharvas surround Duryodhana's chariot, destroy it completely, and capture Duryodhana after he falls to the ground.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Gandharvas",
+        "Chitrasena (leader of Gandharvas)"
+      ],
+      "action": "Capture",
+      "relationships": "Chitrasena leads the Gandharvas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Gandharvas capture Dushasana and surround other Kaurava princes including Durdharsha, Durmukha, Durjaya, and the queens.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dushasana",
+        "Durdharsha",
+        "Durmukha",
+        "Durjaya",
+        "Gandharvas",
+        "Kaurava Queens"
+      ],
+      "action": "Capture"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The defeated soldiers of Duryodhana, along with the chariots, horses, and courtesans, flee to seek refuge with the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana's soldiers",
+        "Pandavas"
+      ],
+      "action": "Seeking refuge",
+      "relationships": "Enemies seeking help"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana's ministers, distressed about their captured king, come to Yudhishthira with anguished cries for help.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana's ministers",
+        "Yudhishthira"
+      ],
+      "action": "Pleading for assistance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima tells the ministers that Duryodhana's capture by the Gandharvas is deserved karma for his evil deeds and deceit during the dice game, and that the Pandavas are blameless.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Duryodhana's ministers"
+      ],
+      "action": "Accusation and justification",
+      "relationships": "Bhima expresses resentment toward Duryodhana"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira rebukes Bhima for his angry speech, stating it's not the time for anger when their Kaurava relatives come to them in distress seeking shelter.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima"
+      ],
+      "action": "Rebuke and counsel",
+      "relationships": "Yudhishthira as elder brother and moral guide"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana was forcibly captured by Gandharvas on the battlefield, and the women of the Kuru family were assaulted by outsiders, causing harm to the family.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Gandharvas"
+      ],
+      "action": "Capture and assault",
+      "type": "Conflict"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira urged his brothers to protect those seeking help and their family, commanding them to rescue Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Bhima",
+        "Duryodhana"
+      ],
+      "action": "Command to rescue",
+      "relationships": [
+        "Brothers (Pandavas)",
+        "Cousins (Pandavas and Duryodhana)"
+      ],
+      "type": "Moral duty"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira instructed Bhima to first attempt peaceful means to rescue Duryodhana, then use mild combat if necessary, and finally all means if Gandharva king refused.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Gandharva king",
+        "Duryodhana"
+      ],
+      "action": "Rescue strategy",
+      "type": "Instruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna, after hearing Yudhishthira's words, obeyed his elder brother and went to rescue the Kurus, promising that if Gandharvas refused peaceful release, the earth would drink their blood.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Yudhishthira",
+        "Gandharvas",
+        "Duryodhana"
+      ],
+      "action": "Promise and obedience",
+      "relationships": [
+        "Elder brother (Yudhishthira) and younger brother (Arjuna)"
+      ],
+      "type": "Resolution"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Kuru people felt reassured upon hearing Arjuna's promise, as he was known to be true to his word.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Kuru people"
+      ],
+      "action": "Reassurance",
+      "type": "Emotional response"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After hearing Yudhishthira's words, the Pandava brothers, led by Bhima, set out joyfully, fully armed with chariots, flags, and bows, appearing like burning flames.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Yudhishthira"
+      ],
+      "action": "Departure for rescue",
+      "relationships": [
+        "Brothers (Pandavas)"
+      ],
+      "type": "Preparation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kuru soldiers shouted loudly upon seeing the mighty Pandava brothers approaching together.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava brothers",
+        "Kuru soldiers"
+      ],
+      "action": "Recognition and rallying",
+      "type": "Support"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Four Pandava heroes encountered the Gandharvas in the forest, and both sides faced each other fearlessly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Gandharvas"
+      ],
+      "type": "Confrontation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Gandharvas turned around upon seeing the four Pandava heroes arriving at the battlefield in their chariots.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandharvas",
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "action": "Observation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Gandharvas, residents of Mount Gandhamadana, saw the radiant Pandavas and arranged themselves in formation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandharvas",
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "action": "Battle formation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Following the command of the wise Yudhishthira, the Pandavas initially engaged in gentle combat.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Pandavas"
+      ],
+      "action": "Initial combat strategy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Gandharva soldiers, being dull-witted, did not understand that gentle treatment was the best policy.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandharva soldiers"
+      ],
+      "character_trait": "Dull-witted"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna, the left-handed archer and unconquerable enemy-subduer, gently admonished the Gandharvas on the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Gandharvas"
+      ],
+      "dialogue": "Admonishment about improper behavior"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna told the Gandharvas that seizing others' wives and associating with mortals was unbecoming of the Gandharva king, and asked them to release the Kaurava princes and their wives as commanded by Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Gandharvas",
+        "Kauravas",
+        "Yudhishthira"
+      ],
+      "demand": "Release of captives"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Gandharvas smiled upon hearing Arjuna's words and replied that they only obey one person on earth and execute his commands without hesitation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandharvas",
+        "Arjuna"
+      ],
+      "response": "Refusal to obey Yudhishthira's command"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Gandharvas stated that only Indra's commands they obey, and no one else is their ruler.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandharvas",
+        "Indra"
+      ],
+      "allegiance": "To Indra only"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna, also known as Kunti's son Vijaya, told the Gandharvas that if they wouldn't release the Kaurava princes peacefully, he would have to rescue Duryodhana by force.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Gandharvas",
+        "Duryodhana"
+      ],
+      "ultimatum": "Forceful rescue threat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna began shooting sharp arrows at the Gandharvas one by one.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Gandharvas"
+      ],
+      "action": "Initiation of combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The powerful Gandharvas showered arrows on the Pandava brothers, who retaliated against these celestial beings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandharvas",
+        "Pandavas"
+      ],
+      "action": "Exchange of arrows"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A fierce battle ensued between the swift Gandharvas and the terrifyingly fast Pandava brothers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandharvas",
+        "Pandavas"
+      ],
+      "type": "Intense battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Gandharvas, wearing golden garlands and equipped with divine weapons, surrounded the Pandavas from all sides and shot burning arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandharvas",
+        "Pandavas"
+      ],
+      "tactics": "Surround and attack with divine weapons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The four Pandava heroes struck down thousands of Gandharvas in battle, which seemed like a miracle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Gandharvas"
+      ],
+      "action": "Massive Gandharva casualties"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Just as the Gandharvas had crushed the chariots of Karna and Duryodhana, the Pandavas now crushed the Gandharvas' chariots.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Gandharvas",
+        "Karna",
+        "Duryodhana"
+      ],
+      "action": "Chariot destruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandava heroes, tigers among men, fought with hundreds of Gandharvas on the battlefield, shooting countless showers of arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Gandharvas"
+      ],
+      "scale": "Large-scale battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arrow showers poured from all directions, preventing the Gandharvas from approaching the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Gandharvas"
+      ],
+      "tactical_advantage": "Pandavas' defensive position"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing the Gandharvas' anger, Arjuna aimed and used a large divine weapon.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Gandharvas"
+      ],
+      "action": "Use of divine weapon"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The powerful Arjuna sent thousands of Gandharvas to Yama's abode using the Agneya (fire god) weapon in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 20,
+    "group_index": 19,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Gandharvas"
+      ],
+      "supernatural_element": "Divine weapon causing mass death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima, the great archer and excellent strongman, killed thousands of Gandharvas with sharp arrows on the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 21,
+    "group_index": 20,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Gandharvas"
+      ],
+      "action": "Mass killing with arrows"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Madri's twin sons Nakula and Sahadeva, brave and powerful warriors charging ahead, also killed hundreds of enemies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 22,
+    "group_index": 21,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Sahadeva",
+        "Gandharvas"
+      ],
+      "action": "Twin warriors' combat effectiveness"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gandharvas captured the Kaurava princes and flew into the sky with them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandharvas",
+        "Duryodhana",
+        "Kaurava Princes"
+      ],
+      "action": "Capture and Abduction",
+      "supernatural_elements": "Gandharvas (celestial beings) flying"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna saw them flying away and surrounded them with a vast net of arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Gandharvas",
+        "Duryodhana",
+        "Kaurava Princes"
+      ],
+      "action": "Confrontation and Encirclement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Gandharvas, trapped like birds in a cage, rained down clubs, spears, and swords on Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandharvas",
+        "Arjuna"
+      ],
+      "action": "Battle and Weapon Attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna blocked their weapons and destroyed the Gandharvas' bodies with crescent-headed arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Gandharvas"
+      ],
+      "action": "Defense and Counterattack",
+      "supernatural_elements": "Use of divine weapons (crescent-headed arrows)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna used various divine weapons (Indra's net, weapons of Surya, Agni, and Soma) to burn the Gandharvas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Gandharvas"
+      ],
+      "action": "Divine Weapon Assault",
+      "supernatural_elements": "Use of multiple divine weapons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing the Gandharvas terrified, Chitrasena picked up a club and charged at Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Chitrasena",
+        "Arjuna"
+      ],
+      "action": "Direct Confrontation",
+      "relationships": "Chitrasena (Gandharva king) vs. Arjuna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna shattered Chitrasena's iron club into seven pieces with his arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Chitrasena"
+      ],
+      "action": "Weapon Destruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Chitrasena used illusion to become invisible and fought Arjuna from the air with divine weapons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Chitrasena",
+        "Arjuna"
+      ],
+      "action": "Illusionary Combat",
+      "supernatural_elements": "Invisibility and aerial combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna used incantation-charged divine weapons and the 'Shabdavedi' technique to prevent Chitrasena from disappearing.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Chitrasena"
+      ],
+      "action": "Countering Illusion",
+      "supernatural_elements": "Magical weapons and techniques"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Chitrasena, struck by Arjuna's weapons, revealed himself as Arjuna's old friend.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Chitrasena",
+        "Arjuna"
+      ],
+      "action": "Identity Revelation",
+      "relationships": "Friendship revealed between Chitrasena and Arjuna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna withdrew his weapons upon recognizing his exhausted friend, and the Pandava brothers ceased fighting.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Chitrasena",
+        "Pandava Brothers"
+      ],
+      "action": "Cessation of Hostilities",
+      "relationships": "Reconciliation between friends"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Chitrasena, Bhima, Arjuna, and the twins (Nakula and Sahadeva) exchanged greetings and remained in their chariots.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Chitrasena",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "action": "Peaceful Interaction",
+      "relationships": "Restored amity among characters"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna asked Chitrasena why he captured the Kauravas, and Chitrasena explained that the gods knew of Duryodhana and Karna's evil intentions against the Pandavas in the forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Chitrasena",
+        "Duryodhana",
+        "Karna",
+        "Pandavas"
+      ],
+      "action": "Explanation and Revelation",
+      "relationships": "Chitrasena acting on divine knowledge to protect the Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "奇军（健达缚首领）奉天王（因陀罗）之命来到人间，抓住了难敌及其大臣。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "奇军",
+        "天王（因陀罗）",
+        "难敌"
+      ],
+      "action": "Capture",
+      "reason": "因陀罗命令奇军保护阿周那并惩罚难敌的恶行"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那请求奇军释放难敌，称这是法王（坚战）的命令。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "奇军",
+        "坚战",
+        "难敌"
+      ],
+      "action": "Plea for release",
+      "relationship": "兄弟关系（阿周那与难敌是堂兄弟）"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "奇军拒绝释放难敌，指出难敌曾欺侮法王和黑公主。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "奇军",
+        "难敌",
+        "坚战",
+        "黑公主"
+      ],
+      "action": "Refusal",
+      "reason": "难敌作恶多端"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "健达缚们向坚战报告难敌的恶行。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "健达缚们",
+        "坚战",
+        "难敌"
+      ],
+      "action": "Report",
+      "content": "告知难敌的企图和恶行"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战命令健达缚们释放难敌，并称赞他们没有杀死难敌。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "健达缚们",
+        "难敌"
+      ],
+      "action": "Order release",
+      "reason": "维护家族荣誉，避免暴力"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "健达缚们告别阿周那，在奇军率领下返回天界。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "健达缚们",
+        "奇军",
+        "阿周那"
+      ],
+      "action": "Departure",
+      "destination": "天界"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "天王（因陀罗）降下甘露雨，复活了在战斗中被俱卢族人杀死的健达缚们。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "天王（因陀罗）",
+        "健达缚们"
+      ],
+      "action": "Divine intervention",
+      "supernatural_element": "甘露雨复活死者"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "般度族兄弟释放了所有亲族和王后，俱卢族人向他们致敬。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般度族兄弟",
+        "俱卢族人"
+      ],
+      "action": "Release and homage",
+      "relationship_change": "暂时和解"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战释放难敌及其弟兄们，劝诫难敌不要使用暴力。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "难敌"
+      ],
+      "action": "Release and admonition",
+      "advice": "施暴者不能得到幸福"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌满怀羞愧地回城，坚战和弟兄们在双林中接受婆罗门致敬。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌",
+        "坚战",
+        "般度族兄弟",
+        "婆罗门"
+      ],
+      "action": "Return and homage",
+      "emotional_state": "难敌羞愧，坚战愉快"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana was released by Yudhishthira and returned to his capital with his four armies, feeling ashamed and distressed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Yudhishthira"
+      ],
+      "action": "Release and return",
+      "relationships": "Duryodhana (son of Dhritarashtra) was released by Yudhishthira (Pandava brother, known as Dharma Raja)",
+      "emotional_state": "Ashamed, distressed, humiliated"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana stopped at a beautiful place with grass and water, ordered his armies to camp there, and sat on a radiant couch looking dejected.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Camping during journey",
+      "emotional_state": "Dejected, ashamed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "At dawn, Karna arrived and praised Duryodhana, saying how fortunate it was that he was alive, they could meet again, and that he had defeated the Gandharvas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Duryodhana"
+      ],
+      "action": "Meeting and praise",
+      "relationships": "Karna (also called Radheya) is Duryodhana's close friend and ally",
+      "dialogue": "Karna praises Duryodhana's victory over Gandharvas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna described his own failure in battle against the Gandharvas, his arrow wounds, and expressed amazement at seeing Duryodhana and his brothers return unharmed with their wives and property.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "action": "Describing battle experience",
+      "battle_outcome": "Karna failed to prevent his army's defeat, suffered arrow wounds, fled battlefield",
+      "supernatural_elements": "Battle with Gandharvas (celestial beings)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana responded to Karna, explaining that Karna misunderstood the situation - Duryodhana did not defeat the Gandharvas through his own power.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Karna"
+      ],
+      "action": "Clarification of events",
+      "relationships": "Duryodhana corrects Karna's misunderstanding",
+      "dialogue": "Duryodhana explains true nature of battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana described how he and his brothers fought the Gandharvas for a long time with casualties on both sides, but when the Gandharvas used illusions and flew into the sky, the battle changed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Gandharvas"
+      ],
+      "action": "Battle description",
+      "supernatural_elements": "Gandharvas using illusions and flying abilities",
+      "battle_progression": "Initial ground battle followed by aerial combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana and his entire party - including brothers, ministers, sons, wives, property, and vehicles - were defeated, captured, and taken into the sky by the Gandharvas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Gandharvas"
+      ],
+      "action": "Capture and abduction",
+      "supernatural_elements": "Taken into sky/air by Gandharvas",
+      "captives": "Duryodhana, his brothers, ministers, sons, wives, and all possessions"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Some soldiers and ministers escaped and sought protection from the Pandava brothers, informing them that Duryodhana and his party had been captured by Gandharvas and taken to heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Escaped soldiers/ministers",
+        "Pandava brothers"
+      ],
+      "action": "Seeking help and reporting",
+      "relationships": "Escaped Kaurava supporters seeking help from Pandavas",
+      "plea": "Request to save Duryodhana and prevent dishonor to Kuru women"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira, after hearing the report, calmed his brothers and ordered them to rescue Duryodhana and his party.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Pandava brothers"
+      ],
+      "action": "Ordering rescue mission",
+      "relationships": "Yudhishthira (eldest Pandava) commanding his brothers",
+      "character_trait": "Yudhishthira described as '法为魂' (soul of dharma)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandava brothers came to the location where Duryodhana had been captured, described as mighty heroes and bulls among men.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava brothers"
+      ],
+      "action": "Arriving for rescue",
+      "description": "Mighty heroes, capable, bulls among men"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "他们先是请求和平解决。",
+    "char_interval": {
+      "start_pos": 5915,
+      "end_pos": 5926
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般度族兄弟",
+        "健达缚们"
+      ],
+      "action": "和平谈判",
+      "relationships": [
+        "敌对双方"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 1678,
+      "end_index": 1680
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "虽经好言相劝，健达缚们仍不肯释放我们。",
+    "char_interval": {
+      "start_pos": 5929,
+      "end_pos": 5948
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般度族兄弟",
+        "健达缚们"
+      ],
+      "action": "拒绝释放",
+      "relationships": [
+        "俘虏关系"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 1683,
+      "end_index": 1687
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那、怖军和自恃有力的双生子向健达缚们倾泻无数箭雨。",
+    "char_interval": {
+      "start_pos": 5951,
+      "end_pos": 5978
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "怖军",
+        "无种",
+        "偕天",
+        "健达缚们"
+      ],
+      "action": "发起攻击",
+      "relationships": [
+        "兄弟",
+        "敌对双方"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 1689,
+      "end_index": 1693
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "那些天行者全都撤离战场，心里乐滋滋的，拽着我们这些不幸的人，飞上天空。",
+    "char_interval": {
+      "start_pos": 5982,
+      "end_pos": 6017
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "健达缚们",
+        "般度族兄弟"
+      ],
+      "action": "撤离并带走俘虏",
+      "supernatural_elements": [
+        "飞行能力"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 1696,
+      "end_index": 1704
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "我看见胜财（阿周那）施展他的非凡武器，用箭网笼罩四面八方。",
+    "char_interval": {
+      "start_pos": 6024,
+      "end_pos": 6053
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那"
+      ],
+      "action": "施展非凡武器",
+      "supernatural_elements": [
+        "非凡武器",
+        "箭网"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 1709,
+      "end_index": 1717
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "奇军看到般度之子用无数利箭罩住天空，便显示自己是胜财（阿周那）的朋友。",
+    "char_interval": {
+      "start_pos": 6057,
+      "end_pos": 6092
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "奇军",
+        "阿周那"
+      ],
+      "action": "表明身份",
+      "relationships": [
+        "朋友关系"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 1720,
+      "end_index": 1728
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "折磨敌人的奇军和般度之子拥抱，互相问候请安。",
+    "char_interval": {
+      "start_pos": 6096,
+      "end_pos": 6118
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "奇军",
+        "阿周那"
+      ],
+      "action": "友好相认",
+      "relationships": [
+        "朋友关系"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 1731,
+      "end_index": 1735
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "他们相遇后，互相都脱去铠甲。当奇军和胜财（阿周那）互相致敬时，健达缚英雄们和般度族兄弟混为一体了。",
+    "char_interval": {
+      "start_pos": 6122,
+      "end_pos": 6171
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "奇军",
+        "阿周那",
+        "健达缚们",
+        "般度族兄弟"
+      ],
+      "action": "和解与融合",
+      "relationships": [
+        "化敌为友",
+        "联盟形成"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 1738,
+      "end_index": 1750
+    }
+  }
+]

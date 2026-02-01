@@ -58,6 +58,10 @@ class KnowledgeBase:
         # 加载本地模型
         print(f"[KnowledgeBase] 使用本地多语言模型（离线模式）：{local_model_dir}")
         try:
+            # 抑制 transformers 的权重未加载警告（这是正常的，因为我们只需要embedding层）
+            from transformers import logging as transformers_logging
+            transformers_logging.set_verbosity_error()
+
             embed_model = HuggingFaceEmbedding(
                 model_name=str(local_model_dir),
                 trust_remote_code=True,
@@ -133,7 +137,7 @@ class KnowledgeBase:
                 encoding="utf-8",
                 file_metadata=lambda file_path: {
                     "file_name": Path(file_path).name,
-                    "file_type": "facts" if Path(file_path).name.endswith(".facts.txt") else "story"
+                    "file_type": "facts" if Path(file_path).name.endswith(".facts.json") or Path(file_path).name.endswith(".facts.txt") else "story"
                 }
             )
         else:

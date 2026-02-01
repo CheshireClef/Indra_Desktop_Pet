@@ -1,0 +1,1492 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "全胜描述般度族阵容被搅乱，普利塔之子们、般遮罗人和苏摩迦人已经退到很远的地方。",
+    "char_interval": {
+      "start_pos": 32,
+      "end_pos": 67
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "全胜",
+        "普利塔之子们",
+        "般遮罗人",
+        "苏摩迦人"
+      ],
+      "action": "Retreat",
+      "context": "Battle situation"
+    },
+    "_token_interval": {
+      "start_index": 14,
+      "end_index": 20
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "勇猛的德罗纳在战场上不时发出怒吼，般遮罗人和般度人惨遭杀戮。",
+    "char_interval": {
+      "start_pos": 108,
+      "end_pos": 138
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "德罗纳",
+        "般遮罗人",
+        "般度人"
+      ],
+      "action": "Combat/Killing",
+      "context": "Intense battle"
+    },
+    "_token_interval": {
+      "start_index": 36,
+      "end_index": 40
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "法王坚战左顾右盼，寻不到保护者，在思考怎么办。",
+    "char_interval": {
+      "start_pos": 141,
+      "end_pos": 157
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战"
+      ],
+      "action": "Searching/Worrying",
+      "context": "Leadership concern"
+    },
+    "_token_interval": {
+      "start_index": 43,
+      "end_index": 47
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战的目光寻遍四面八方，希望看到左手开弓者（阿周那）的身影，但他既没有看到普利塔之子（阿周那），也没有见到摩豆族后裔。",
+    "char_interval": {
+      "start_pos": 174,
+      "end_pos": 233
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "阿周那"
+      ],
+      "action": "Searching",
+      "context": "Missing ally"
+    },
+    "_token_interval": {
+      "start_index": 54,
+      "end_index": 69
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "他看不到以猿猴为幢徽的人中之虎，听不到甘狄拨神弓的声响，六神不安。",
+    "char_interval": {
+      "start_pos": 236,
+      "end_pos": 269
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "阿周那"
+      ],
+      "action": "Anxiety",
+      "context": "Missing ally's presence"
+    },
+    "_token_interval": {
+      "start_index": 72,
+      "end_index": 78
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "他也看不到苾湿尼族首屈一指的战车勇士萨谛奇，满怀焦虑的法王坚战看不到这两个人中雄牛，无法平静。",
+    "char_interval": {
+      "start_pos": 272,
+      "end_pos": 319
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "萨谛奇"
+      ],
+      "action": "Anxiety",
+      "context": "Missing ally"
+    },
+    "_token_interval": {
+      "start_index": 81,
+      "end_index": 87
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战害怕遭到世人谴责，思念起悉尼之孙（萨谛奇）的战车。",
+    "char_interval": {
+      "start_pos": 344,
+      "end_pos": 387
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "萨谛奇"
+      ],
+      "action": "Worry about reputation",
+      "context": "Ethical dilemma"
+    },
+    "_token_interval": {
+      "start_index": 95,
+      "end_index": 114
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战派遣萨谛奇去接应阿周那，现在担忧萨谛奇的安危。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "萨谛奇",
+        "阿周那"
+      ],
+      "action": "Strategic decision",
+      "context": "Chain of command"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战决定派遣普利塔之子狼腹（怖军）去追随萨谛奇，以避免世人非议。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "怖军",
+        "萨谛奇"
+      ],
+      "action": "Strategic deployment",
+      "context": "Ethical decision-making"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战认为怖军能够抵御所有骁勇的弓箭手，依靠他的臂力，般度族才得以从林居地返回并在战斗中立于不败之地。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "怖军"
+      ],
+      "action": "Assessment of capability",
+      "context": "Military strength"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战相信如果怖军到达萨谛奇身边，那么萨谛奇和阿周那在战斗中便有了保护者。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "怖军",
+        "萨谛奇",
+        "阿周那"
+      ],
+      "action": "Strategic planning",
+      "context": "Protection chain"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira expresses concern for Satyaki and Arjuna, who are protected by Krishna and skilled in warfare, but decides to send Bhima to follow Satyaki.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Satyaki",
+        "Arjuna",
+        "Krishna",
+        "Bhima"
+      ],
+      "action": "Decision to send Bhima",
+      "relationships": "Yudhishthira is concerned for his brothers and allies; Bhima is his brother and subordinate"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira, driven by anxiety, goes to Bhima in his chariot and expresses his distress over not seeing Arjuna's banner on the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna"
+      ],
+      "action": "Yudhishthira seeks Bhima",
+      "emotion": "Anxiety and distress"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima reassures Yudhishthira, reminding him of his role as their pillar in past hardships and offering to do anything commanded.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Yudhishthira"
+      ],
+      "action": "Bhima offers support",
+      "relationships": "Bhima shows loyalty and deference to his elder brother Yudhishthira"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira explains his fear that Arjuna has been killed, as he hears Krishna's conch and sees no sign of Arjuna, and that Krishna must be fighting alone.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Arjuna",
+        "Krishna"
+      ],
+      "action": "Expression of fear and speculation",
+      "supernatural_elements": "Reference to Krishna's divine conch and protection"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira describes Arjuna's physical and heroic attributes, emphasizing his importance to the Pandavas' survival.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Arjuna"
+      ],
+      "action": "Description of Arjuna",
+      "relationships": "Arjuna is crucial to the Pandavas' success"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira orders Bhima to go to Arjuna and Satyaki, prioritizing Satyaki's safety, and describes the path as perilous.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Satyaki"
+      ],
+      "action": "Command to Bhima",
+      "relationships": "Yudhishthira asserts his authority as elder brother; emphasizes duty to ally Satyaki"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima addresses Yudhishthira, reassuring him about the safety of the two dark princes (Krishna and Arjuna) who departed on a divine chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Yudhishthira"
+      ],
+      "action": "Reassurance and acceptance of orders",
+      "relationships": "Brothers (both are sons of Kunti)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima entrusts Yudhishthira to Dhrishtadyumna and his friends before departing.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Yudhishthira",
+        "Dhrishtadyumna"
+      ],
+      "action": "Entrusting protection",
+      "relationships": "Bhima and Yudhishthira are brothers; Dhrishtadyumna is their ally and commander"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima warns Dhrishtadyumna that Drona is determined to capture Yudhishthira alive in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Dhrishtadyumna",
+        "Drona",
+        "Yudhishthira"
+      ],
+      "action": "Warning about enemy strategy",
+      "relationships": "Drona is the enemy commander; Yudhishthira is the Pandava king"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhrishtadyumna vows to protect Yudhishthira, stating that Drona cannot capture Yudhishthira as long as Dhrishtadyumna is alive.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "Drona",
+        "Yudhishthira"
+      ],
+      "action": "Vow of protection",
+      "relationships": "Dhrishtadyumna is Yudhishthira's protector; Drona is the enemy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima bids farewell to Yudhishthira and sets out to find Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Yudhishthira",
+        "Arjuna"
+      ],
+      "action": "Departure on a mission",
+      "relationships": "All three are brothers (sons of Kunti)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira embraces Bhima, kisses his head, and gives him blessings before his departure.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima"
+      ],
+      "action": "Emotional farewell and blessing",
+      "relationships": "Elder brother blessing younger brother"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima arms himself with armor, ornaments, shield, and arrows, and prepares for battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "action": "Preparation for combat",
+      "supernatural_elements": "Description of his majestic appearance compared to natural phenomena (clouds, lightning, rainbow)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A conch shell is blown, identified as belonging to a Vrishni hero (Krishna), signaling distress.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna"
+      ],
+      "action": "Signal of distress in battle",
+      "supernatural_elements": "Sound that shakes the three worlds",
+      "relationships": "Krishna is Arjuna's charioteer and close friend"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira, alarmed by the conch sound, fears Arjuna is in peril and urges Bhima to hurry to his aid.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna"
+      ],
+      "action": "Urgent command to rescue",
+      "relationships": "Brotherly concern for Arjuna's safety"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima, eager to please his elder brother, accepts the command, sounds war drums and conches, and charges toward the enemy with a roar.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "action": "Fierce charge into battle",
+      "relationships": "Obedience to Yudhishthira's command"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima, son of Kunti, rides in a chariot driven by charioteer Chyavana, engaging in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Chyavana"
+      ],
+      "type": "Battle Preparation",
+      "relationships": [
+        "Charioteer and Warrior"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima fights fiercely, disturbing the enemy's front lines with his bow, followed by Panchala and Somaka warriors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Panchala Warriors",
+        "Somaka Warriors"
+      ],
+      "type": "Battle Engagement",
+      "relationships": [
+        "Allies"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kaurava brothers and warriors surround Bhima in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Durmukha",
+        "Jaya",
+        "Kumbha",
+        "Vivimsati",
+        "Durjaya",
+        "Vikarna",
+        "Sala",
+        "Vinda",
+        "Anuvinda",
+        "Sulocana",
+        "Dirghalocana",
+        "Dirghabahu",
+        "Pramatha",
+        "Ugrakarma",
+        "Bhimakarma",
+        "Virabahu",
+        "Durmarsha"
+      ],
+      "type": "Encircling Maneuver",
+      "relationships": [
+        "Enemies"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima charges through the surrounding warriors like a lion, heading toward Drona's army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Drona"
+      ],
+      "type": "Battle Charge",
+      "relationships": [
+        "Enemies"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima attacks Drona's elephant army with arrows, scattering them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "type": "Battle Action",
+      "supernatural_elements": [
+        "Compared to wind god's son"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona intercepts Bhima and strikes his forehead with an iron arrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Bhima"
+      ],
+      "type": "Divine Intervention/Battle",
+      "relationships": [
+        "Teacher and Student turned Enemies"
+      ],
+      "supernatural_elements": [
+        "Bhima glows like sun after being struck"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona tells Bhima he cannot enter the enemy army without defeating him, unlike Arjuna who entered with permission.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Bhima"
+      ],
+      "type": "Dialogue/Challenge",
+      "relationships": [
+        "Teacher challenging Student"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima angrily rejects Drona's claim, declaring himself Drona's enemy and vowing to fight him as such.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Drona"
+      ],
+      "type": "Declaration of Hostility",
+      "relationships": [
+        "Former Student renounces Teacher"
+      ],
+      "key_plot_points": [
+        "Relationship rupture between teacher and student"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima hurls his mace at Drona, who jumps from his chariot to avoid it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Drona"
+      ],
+      "type": "Battle Action",
+      "supernatural_elements": [
+        "Mace compared to Death's rod"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima destroyed Drona's chariot, horses, charioteer, and banner with his mace, killing many warriors like wind breaking trees.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Drona"
+      ],
+      "action": "Destruction of chariot and killing warriors",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana's sons surrounded Bhima, but Drona mounted another chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana's sons",
+        "Bhima",
+        "Drona"
+      ],
+      "action": "Surrounding and chariot mounting",
+      "relationships": "Duryodhana's sons vs. Bhima (enemies), Drona vs. Bhima (enemies)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima angrily showered arrows on the chariot forces ahead.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "action": "Arrow attack",
+      "type": "Battle action"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana's sons were killed but continued fighting Bhima, desiring victory.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana's sons",
+        "Bhima"
+      ],
+      "action": "Continued battle despite losses",
+      "relationships": "Enemies in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duhshasana tried to kill Bhima by throwing a sharp iron chariot spear, but Bhima cut it in two.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duhshasana",
+        "Bhima"
+      ],
+      "action": "Spear attack and defense",
+      "supernatural_elements": "Remarkable feat of cutting spear"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima killed Kumbha, Sushena, and Dirghalochana with three arrows each.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Kumbha",
+        "Sushena",
+        "Dirghalochana"
+      ],
+      "action": "Killing with arrows",
+      "relationships": "Bhima vs. Kaurava warriors (enemies)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima killed Vrindaraka, a hero who brought glory to the Kuru clan.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Vrindaraka"
+      ],
+      "action": "Killing",
+      "relationships": "Bhima vs. Kaurava ally (enemies)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima killed Abhaya, Karmajit, and Durjaya with three arrows each.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Abhaya",
+        "Karmajit",
+        "Durjaya"
+      ],
+      "action": "Killing with arrows"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima killed Vinda, Anuvinda, and Shrutakarma with arrows, sending them to Yama's abode.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Vinda",
+        "Anuvinda",
+        "Shrutakarma"
+      ],
+      "action": "Killing with arrows",
+      "supernatural_elements": "Reference to Yama's abode (afterlife)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima quickly shot and killed Shrutasena on the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Shrutasena"
+      ],
+      "action": "Killing with arrow"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima scattered the chariot forces in all directions with arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "action": "Scattering enemy forces",
+      "type": "Battle victory"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana's sons were killed and terrified by Bhima, fleeing in all directions with their chariots.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana's sons",
+        "Bhima"
+      ],
+      "action": "Fleeing in terror",
+      "relationships": "Bhima dominating enemies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima pursued Duryodhana's army, attacking the Kurus on all sides in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Duryodhana's army"
+      ],
+      "action": "Pursuit and attack",
+      "relationships": "Bhima vs. Kaurava forces (enemies)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana's forces avoided Bhima and fled on horses, chased by him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana's forces",
+        "Bhima"
+      ],
+      "action": "Fleeing and chasing",
+      "type": "Rout"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima defeated them, roared like a lion, clapped his arms, and rushed toward Drona's army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Drona's army"
+      ],
+      "action": "Victory roar and advance",
+      "supernatural_elements": "Lion roar (symbolic strength)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima emerged from the chariot forces like the sun from darkness, and Drona showered him with arrows to intercept him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Drona"
+      ],
+      "action": "Emergence and arrow attack",
+      "supernatural_elements": "Simile of sun from darkness"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima seemed to drink the arrow streams from Drona's superior bow, rushed toward his cousins, and bewildered the army with illusion power.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Drona",
+        "Bhima's cousins (Kauravas)"
+      ],
+      "action": "Arrow defense and illusion attack",
+      "supernatural_elements": "Illusion power (maya), metaphorical drinking of arrows"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Urged by Duryodhana's sons, the best archers surrounded Bhima from all sides at high speed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana's sons",
+        "Best archers",
+        "Bhima"
+      ],
+      "action": "Surrounding",
+      "relationships": "Coordinated attack on Bhima"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima, though surrounded, smiled, raised his terrible mace, roared like a lion, and quickly hurled it at them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "action": "Mace attack while surrounded",
+      "supernatural_elements": "Lion roar (symbolic strength)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima threw his iron mace with great force, terrifying the Kaurava army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "action": "Attack with mace",
+      "effect": "Caused panic and casualties in the Kaurava army"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona intercepted Bhima on the battlefield and engaged him in combat.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Bhima"
+      ],
+      "action": "Battle engagement",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona released a flood of arrows, killing hundreds of heroes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Arrow attack",
+      "effect": "Mass casualties"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima jumped from his chariot, charged through the arrow rain, and overturned Drona's chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Drona"
+      ],
+      "action": "Physical attack on chariot",
+      "result": "Drona thrown from chariot"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona quickly mounted another chariot and retreated to the army formation entrance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Retreat and reposition"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima returned to his chariot and charged into the Kaurava army, causing massive destruction.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "action": "Army assault",
+      "effect": "Widespread destruction of Kaurava forces"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima fought through the Bhoja army guarded by Shalya, then passed through the Kamboja and Mleccha armies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Shalya"
+      ],
+      "action": "Multiple army engagements",
+      "enemies_defeated": [
+        "Bhoja army",
+        "Kamboja army",
+        "Mleccha warriors"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima saw Satyaki fighting and drove his chariot quickly forward.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Satyaki"
+      ],
+      "action": "Movement toward ally"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima finally saw Arjuna fighting fiercely to kill the King of Sindhu.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Arjuna",
+        "King of Sindhu"
+      ],
+      "action": "Visual contact",
+      "context": "Arjuna engaged in separate battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima roared loudly upon seeing Arjuna, and Arjuna responded with his own roar, followed by Krishna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Arjuna",
+        "Krishna"
+      ],
+      "action": "Roaring communication",
+      "relationship": "Pandava brothers and their ally"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima roared in battle, and Krishna and Arjuna heard his roar and responded with their own roars.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Krishna",
+        "Arjuna"
+      ],
+      "action": "Roaring in battle",
+      "type": "Battle communication"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira heard the roars of Bhima and Arjuna and felt joy, with his sorrow disappearing.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna"
+      ],
+      "action": "Hearing and emotional response",
+      "type": "Emotional relief"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira blessed Arjuna for victory in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Arjuna"
+      ],
+      "action": "Blessing",
+      "type": "Spiritual support"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira reflected on Bhima's successful message delivery and execution of elders' words.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima"
+      ],
+      "action": "Reflection and acknowledgment",
+      "type": "Internal monologue"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira expressed relief and fortune that Arjuna, Krishna, and Satyaki were alive and victorious in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Arjuna",
+        "Krishna",
+        "Satyaki"
+      ],
+      "action": "Expressing relief and gratitude",
+      "type": "Emotional reflection"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira recounted Arjuna's past victories, including defeating Indra, satisfying Agni, destroying the Nivatakavacha demons, defeating the Kuru army at Matsya, killing 14,000 Kalakeya demons, and defeating Gandharva king Chitrasena for Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Arjuna",
+        "Indra",
+        "Agni",
+        "Duryodhana",
+        "Chitrasena"
+      ],
+      "action": "Recounting past heroic deeds",
+      "type": "Flashback/Reflection",
+      "supernatural_elements": [
+        "Defeating gods and demons"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira described Arjuna's appearance with a crown, strong build, white horses, and Krishna as charioteer.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Arjuna",
+        "Krishna"
+      ],
+      "action": "Describing appearance",
+      "type": "Character description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira noted Arjuna's grief over his son's death but determination to complete his difficult vow to kill King Shalya.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Arjuna",
+        "Shalya"
+      ],
+      "action": "Acknowledging vow and grief",
+      "type": "Character motivation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira wondered if Arjuna would kill Shalya before sunset and if he would reunite with Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Arjuna",
+        "Shalya",
+        "Krishna"
+      ],
+      "action": "Speculating about battle outcome",
+      "type": "Anticipation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira questioned whether Duryodhana would seek peace after seeing Shalya killed by Arjuna, his brothers killed by Bhima, and many warriors dead.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Duryodhana",
+        "Arjuna",
+        "Shalya",
+        "Bhima"
+      ],
+      "action": "Questioning peace prospects",
+      "type": "Strategic reflection"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira wondered if the enmity would end with Bhishma's death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "action": "Questioning conflict resolution",
+      "type": "Philosophical reflection"
+    },
+    "_token_interval": null
+  }
+]

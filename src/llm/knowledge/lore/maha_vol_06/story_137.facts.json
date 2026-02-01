@@ -1,0 +1,1037 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Janamejaya asks about the afterlife of his ancestors, the Pandavas and Kauravas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Janamejaya",
+        "Sauti (Narrator)"
+      ],
+      "type": "Inquiry"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sauti begins describing the events after Yudhishthira enters heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sauti",
+        "Janamejaya"
+      ],
+      "type": "Narration"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira sees Duryodhana in heaven, radiant and seated among gods.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Duryodhana"
+      ],
+      "type": "Observation",
+      "relationship": "Cousins, former enemies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira becomes angry and refuses to stay with Duryodhana, citing past wrongs.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Refusal/Protest",
+      "reasons": [
+        "Draupadi's humiliation",
+        "War suffering",
+        "Duryodhana's greed"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Narada advises Yudhishthira to let go of earthly enmity in heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narada",
+        "Yudhishthira"
+      ],
+      "type": "Divine counsel",
+      "message": "Heaven requires forgiveness; Duryodhana earned his place through heroic death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks about the whereabouts of his brothers and other fallen heroes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Narada"
+      ],
+      "type": "Inquiry",
+      "characters_mentioned": [
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Karna",
+        "Shikhandin",
+        "Satyaki",
+        "Shikhandin's sons"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira expresses his desire to see his fallen relatives and allies in the afterlife.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "type": "Lament/Request",
+      "relationships": [
+        "Brother to the Pandavas",
+        "Son of Kunti"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira specifically names Karna, Yudhamanyu, Uttamaujas, the Kshatriyas led by Yuyudhana (Satyaki), Shikhandin, the sons of Draupadi, and Abhimanyu as those he wishes to see.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Karna",
+        "Yudhamanyu",
+        "Uttamaujas",
+        "Satyaki (Yuyudhana)",
+        "Shikhandin",
+        "Sons of Draupadi",
+        "Abhimanyu"
+      ],
+      "type": "Enumeration",
+      "relationships": [
+        "Karna is his half-brother",
+        "Yudhamanyu and Uttamaujas are allies",
+        "Satyaki is a Yadava ally",
+        "Shikhandin is an ally",
+        "Sons of Draupadi are his nephews",
+        "Abhimanyu is his nephew"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira expresses deep regret and guilt over Karna's death, revealing he did not know Karna was his brother when Arjuna killed him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Karna",
+        "Arjuna",
+        "Kunti"
+      ],
+      "type": "Revelation/Guilt",
+      "action": "Confession of ignorance and remorse",
+      "relationships": [
+        "Karna is the secret elder brother of the Pandavas",
+        "Arjuna is Yudhishthira's brother",
+        "Kunti is their mother"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira states he does not wish to stay in heaven without his brothers Bhima, Arjuna, Nakula, and Sahadeva, and Draupadi.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Draupadi"
+      ],
+      "type": "Declaration",
+      "action": "Refusal of heavenly reward without family",
+      "relationships": [
+        "Brothers (the Pandavas)",
+        "Draupadi is their shared wife"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The gods grant Yudhishthira's wish and order a divine messenger to take him to meet his friends.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Gods",
+        "Yudhishthira",
+        "Divine Messenger"
+      ],
+      "type": "Divine Intervention",
+      "action": "Command and guidance granted"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The divine messenger leads Yudhishthira on a difficult, terrifying journey through a hellish landscape filled with gore, decay, and evil spirits.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Divine Messenger",
+        "Yudhishthira"
+      ],
+      "type": "Journey",
+      "action": "Descent into a horrific realm",
+      "supernatural_elements": [
+        "Hellish terrain",
+        "Presence of evil spirits and scavengers",
+        "Atmosphere of decay and torment"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira walks on a foul-smelling, ominous path and sees various torturous landscapes including a boiling river, a forest of sharp blades, hot sand, iron stones, and boiling oil cauldrons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Observation of torturous afterlife realm",
+      "supernatural_elements": "Afterlife punishment realm"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks the divine messenger how far they must travel and where his brothers are, questioning what region this is.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Divine Messenger"
+      ],
+      "action": "Inquiry about location and family",
+      "relationships": "Yudhishthira seeking his Pandava brothers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The divine messenger tells Yudhishthira his journey ends here and offers to return with him if he's tired.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Divine Messenger",
+        "Yudhishthira"
+      ],
+      "action": "Journey termination announcement",
+      "relationships": "Messenger delivering divine command"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira, disheartened and overwhelmed by the stench, decides to turn back.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Decision to retreat",
+      "emotional_state": "Discouraged, confused"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "As Yudhishthira prepares to leave, he hears pitiful cries begging him to stay, saying his presence brings relief from their suffering.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Unidentified Sufferers"
+      ],
+      "action": "Appeal for mercy",
+      "supernatural_elements": "Voices from suffering souls"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks who the sufferers are and why they're there, to which they identify themselves as Karna, Bhima, Arjuna, Nakula, Sahadeva, Shikhandin, Draupadi, and Draupadi's sons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Karna",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Shikhandin",
+        "Draupadi",
+        "Draupadi's Sons"
+      ],
+      "action": "Identification of suffering souls",
+      "relationships": "Pandava brothers, allies, and family in torment",
+      "plot_point": "Revelation that Yudhishthira's loved ones are suffering in hell"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira questions why these virtuous people are suffering while the wicked Duryodhana enjoys prosperity and honor like Indra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Duryodhana"
+      ],
+      "action": "Moral questioning of divine justice",
+      "conflict": "Injustice of virtuous suffering vs. wicked prospering"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira questions why righteous warriors have fallen into hell, expressing confusion and distress.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "type": "Internal Conflict",
+      "action": "Questioning and lamentation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira angrily condemns the gods and Dharma, then refuses to return from hell, choosing to stay with his brothers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Deva Messenger"
+      ],
+      "type": "Defiance",
+      "action": "Refusal to leave hell"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The messenger reports Yudhishthira's words and decision to Indra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Deva Messenger",
+        "Indra"
+      ],
+      "type": "Report",
+      "action": "Messenger delivers message"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra and other gods, including Dharma himself, arrive in hell to visit Yudhishthira, dispelling the darkness and horrors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Dharma",
+        "Yudhishthira",
+        "Various Gods"
+      ],
+      "type": "Divine Intervention",
+      "action": "Gods appear and transform the environment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra comforts Yudhishthira, explaining that all kings must see hell, and that experiencing it is part of cleansing sins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Yudhishthira"
+      ],
+      "type": "Revelation",
+      "action": "Explanation of cosmic justice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra reveals that Yudhishthira was brought to hell due to his deception of Drona (regarding Ashwatthama), and that his brothers and Draupadi also experienced hell for their deceptions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Yudhishthira",
+        "Bhima",
+        "Nakula",
+        "Sahadeva",
+        "Draupadi",
+        "Drona",
+        "Ashwatthama"
+      ],
+      "type": "Explanation",
+      "action": "Revealing the reason for hell experience"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra states that Yudhishthira and his family have now been cleansed of their sins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Yudhishthira"
+      ],
+      "type": "Resolution",
+      "action": "Purification and completion of punishment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra (also referred to as '天王因陀罗') addresses Yudhishthira (referred to as '坚战', '人中雄牛', '般度之子', '普利塔之子', '婆罗多后裔', '民众之主', '婆罗多族俊杰') in the afterlife, telling him to look upon the kings who died for him in battle, who have now attained heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Yudhishthira"
+      ],
+      "action": "Address/Revelation",
+      "relationships": "Indra (king of gods) is speaking to the deceased king Yudhishthira.",
+      "supernatural_elements": "Afterlife setting, attainment of heaven."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra specifically mentions Karna (referred to as '迦尔纳', '太阳之子'), saying Yudhishthira had grieved for him, but he has now achieved the highest attainment.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Yudhishthira",
+        "Karna"
+      ],
+      "action": "Consolation/Revelation",
+      "relationships": "Karna was a warrior and half-brother to the Pandavas (including Yudhishthira).",
+      "supernatural_elements": "Karna's posthumous fate."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra tells Yudhishthira that his other brothers and the kings who followed him have all attained their respective places, urging him to abandon his sorrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Yudhishthira"
+      ],
+      "action": "Consolation/Instruction",
+      "relationships": "Refers to Yudhishthira's brothers (the Pandavas) and allies.",
+      "supernatural_elements": "Afterlife destinations."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra invites Yudhishthira to enjoy the fruits of his own asceticism, good deeds, and sacrifices, and to be served by gods, Gandharvas, and Apsaras.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Yudhishthira"
+      ],
+      "action": "Invitation/Promise",
+      "relationships": "Indra as a divine host.",
+      "supernatural_elements": "Divine rewards, celestial beings."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra tells Yudhishthira his world is higher than other kings', comparable to that of King Harishchandra, and he will enjoy himself there among great kings like Mandhata, Bhagiratha, and Bharata (son of Dushyanta).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Yudhishthira"
+      ],
+      "action": "Revelation of Status",
+      "relationships": "Compares Yudhishthira to legendary righteous kings.",
+      "supernatural_elements": "Hierarchy in the afterlife."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra points to the celestial Ganga river (referred to as '恒河'), which purifies the three worlds, and instructs Yudhishthira to bathe in it to become free from sorrow,烦恼, and hatred.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Yudhishthira"
+      ],
+      "action": "Instruction for Purification",
+      "relationships": "Indra as guide.",
+      "supernatural_elements": "Celestial river with purifying powers."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After Indra speaks, Dharma (referred to as '正法之神') appears and addresses Yudhishthira as his son, expressing affection and approval.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dharma",
+        "Yudhishthira"
+      ],
+      "action": "Divine Appearance/Address",
+      "relationships": "Dharma is Yudhishthira's divine father.",
+      "supernatural_elements": "God of righteousness manifesting."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dharma reveals that this was Yudhishthira's third test. The first was in the Dvaita forest when he went to fetch firesticks. The second was when Dharma, disguised as a dog, tested him after his brothers and Draupadi (referred to as '德罗波蒂') fell dead. This third test was his willingness to stay in the afterlife for his brothers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dharma",
+        "Yudhishthira"
+      ],
+      "action": "Revelation of Tests",
+      "relationships": "Father testing his son's righteousness.",
+      "supernatural_elements": "Divinely orchestrated trials, disguise."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dharma declares that Yudhishthira has been purified, become happy, and that his brothers will not remain in hell—the vision of hell was an illusion created by Indra. All kings must see hell briefly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dharma",
+        "Yudhishthira",
+        "Indra"
+      ],
+      "action": "Revelation/Consolation",
+      "relationships": "Clarifies the fate of Yudhishthira's brothers (Arjuna, Bhima, Nakula, Sahadeva, Karna) and Draupadi.",
+      "supernatural_elements": "Divine illusion (maya), temporary hell vision."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Hearing this, Yudhishthira (referred to as '你的祖先王仙(坚战)') goes with Dharma and the gods to the Ganga river.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Dharma",
+        "众天神 (the gods)"
+      ],
+      "action": "Journey",
+      "relationships": "Yudhishthira accompanied by his father and deities.",
+      "supernatural_elements": "Procession of divine beings."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yudhishthira enters the celestial Ganga river, praised by sages, sheds his mortal body, and is freed from it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Transcendence",
+      "relationships": "Final transformation.",
+      "supernatural_elements": "Shedding mortal form, entering celestial realm."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira arrives at the location of the Kuru heroes, accompanied by gods, sages, and Maruts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Arrival in the divine realm",
+      "location": "Location of the Kuru heroes"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira sees Krishna in his divine form as Brahman, with his celestial weapons in human form and Arjuna serving him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Krishna",
+        "Arjuna"
+      ],
+      "action": "Vision of divine forms",
+      "divine_elements": "Krishna as Brahman, celestial weapons personified"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira sees Karna with the twelve Adityas (solar deities).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Karna"
+      ],
+      "action": "Vision of Karna in divine company",
+      "divine_elements": "Karna with the twelve Adityas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira sees Bhima surrounded by Maruts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima"
+      ],
+      "action": "Vision of Bhima in divine company",
+      "divine_elements": "Bhima with Maruts"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira sees Nakula and Sahadeva with the Ashvins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "action": "Vision of Nakula and Sahadeva in divine company",
+      "divine_elements": "Nakula and Sahadeva with the Ashvins"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira sees Draupadi in heaven, beautiful and adorned with lotus garlands.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Draupadi"
+      ],
+      "action": "Vision of Draupadi in heaven",
+      "divine_elements": "Draupadi in celestial form"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra explains to Yudhishthira that Draupadi is the goddess Shri who incarnated for him, created by Shiva, born in the Drupada family, and not from a womb.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Yudhishthira",
+        "Draupadi",
+        "Shiva"
+      ],
+      "action": "Divine revelation",
+      "divine_elements": "Draupadi's true identity as goddess Shri, creation by Shiva",
+      "relationships": "Draupadi as divine consort created for Yudhishthira and the Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra reveals that the five Gandharvas are the sons of Draupadi and the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Yudhishthira",
+        "Draupadi",
+        "Pandavas"
+      ],
+      "action": "Divine revelation",
+      "divine_elements": "Sons as Gandharvas",
+      "relationships": "Parentage of Draupadi and Pandavas' sons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra points out Dhritarashtra as a wise Gandharva king.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Yudhishthira",
+        "Dhritarashtra"
+      ],
+      "action": "Identification in divine realm",
+      "relationships": "Dhritarashtra as Yudhishthira's paternal uncle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra identifies Karna as Yudhishthira's elder brother, son of Kunti and Surya, known as 'Radheya', walking with the sun.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Yudhishthira",
+        "Karna",
+        "Kunti",
+        "Surya"
+      ],
+      "action": "Divine revelation of lineage",
+      "divine_elements": "Karna with Surya",
+      "relationships": "Karna as Yudhishthira's secret elder brother, son of Kunti and Surya"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra shows Yudhishthira the great warriors of Vrishni, Andhaka, and Bhoja clans, including Satyaki, among gods.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Yudhishthira",
+        "Satyaki"
+      ],
+      "action": "Vision of warriors in divine company",
+      "divine_elements": "Warriors among gods"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra shows Yudhishthira Abhimanyu, son of Subhadra, with Soma (moon).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Yudhishthira",
+        "Abhimanyu",
+        "Subhadra",
+        "Soma"
+      ],
+      "action": "Vision of Abhimanyu in divine company",
+      "divine_elements": "Abhimanyu with Soma",
+      "relationships": "Abhimanyu as Subhadra's son, Yudhishthira's nephew"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra shows Yudhishthira Pandu with Kunti and Madri, who often visits Indra in his flying chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Yudhishthira",
+        "Pandu",
+        "Kunti",
+        "Madri"
+      ],
+      "action": "Vision of Pandu in divine realm",
+      "divine_elements": "Pandu with flying chariot",
+      "relationships": "Pandu as Yudhishthira's father"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra shows Yudhishthira Bhishma, son of Shantanu, with the Vasus, and Drona with Brihaspati.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Yudhishthira",
+        "Bhishma",
+        "Shantanu",
+        "Drona",
+        "Brihaspati"
+      ],
+      "action": "Vision of Bhishma and Drona in divine company",
+      "divine_elements": "Bhishma with Vasus, Drona with Brihaspati",
+      "relationships": "Bhishma as grandfather figure, Drona as teacher"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra explains that many kings who were Yudhishthira's warriors now walk with Gandharvas, Yakshas, and sages, having become Vidyadharas after abandoning their bodies and attaining heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Yudhishthira"
+      ],
+      "action": "Divine explanation of afterlife",
+      "divine_elements": "Warriors as Vidyadharas in heaven",
+      "relationships": "Yudhishthira's former warriors in divine state"
+    },
+    "_token_interval": null
+  }
+]

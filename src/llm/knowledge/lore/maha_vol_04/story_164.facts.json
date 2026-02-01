@@ -1,0 +1,651 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra asks Sanjaya about his son Duryodhana's reaction to being criticized by the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Sanjaya",
+        "Duryodhana",
+        "Pandavas"
+      ],
+      "type": "Inquiry",
+      "relationships": "Dhritarashtra is father of Duryodhana; Sanjaya is narrator/reporter; Pandavas are enemies/cousins of Duryodhana"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya describes Duryodhana hiding in water while enduring harsh accusations from Yudhishthira and his brothers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Duryodhana",
+        "Yudhishthira",
+        "Pandavas"
+      ],
+      "type": "Observation",
+      "action": "Enduring criticism while hidden",
+      "emotional_state": "Distressed, sighing repeatedly"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana emerges from the water, resolves to fight, and addresses Yudhishthira with a challenge.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Yudhishthira",
+        "Pandavas"
+      ],
+      "type": "Declaration/Challenge",
+      "action": "Issuing combat challenge",
+      "conditions": "Duryodhana is alone, weaponless, without chariot; Pandavas are well-equipped with friends, chariots, weapons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana argues for fair one-on-one combat rather than facing all Pandavas simultaneously.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Yudhishthira",
+        "Pandavas"
+      ],
+      "type": "Argument",
+      "reasoning": "Unfair for single warrior to face multiple armed opponents",
+      "mentions": "Krishna, Bhima, Arjuna, Nakula, Sahadeva, Satyaki, Panchalas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana declares he will fight all Pandavas despite his disadvantages to uphold dharma and honor.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Pandavas"
+      ],
+      "type": "Vow/Resolution",
+      "action": "Determination to fight against odds",
+      "motivation": "To repay debt to fallen warriors (Bhishma, Drona, Karna, etc.) and restore honor"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira responds, expressing relief that Duryodhana still remembers Kshatriya dharma and is willing to fight.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Duryodhana"
+      ],
+      "type": "Response/Acknowledgement",
+      "tone": "Respectful despite conflict",
+      "significance": "Recognition of shared warrior code"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana challenges the Pandavas to single combat with a mace.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Pandavas"
+      ],
+      "action": "Challenge",
+      "weapon": "Iron mace",
+      "terms": "Winner takes the kingdom, loser goes to heaven"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana specifies he wants a mace duel on foot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "type": "Combat specification",
+      "details": "One-on-one mace fight, on foot, instead of chariot warfare"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira accepts the challenge and taunts Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Duryodhana"
+      ],
+      "action": "Acceptance and taunt",
+      "dialogue": "Rise up and fight me! You won't survive today even if you were Indra."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana emerges from the water with his mace, enraged by the taunts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Emergence from water",
+      "emotional_state": "Enraged",
+      "description": "Like an elephant king, like the sun, like Shiva, like Death with his rod"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Panchalas and Pandavas rejoice and clap at Duryodhana's emergence.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Panchalas",
+        "Pandavas"
+      ],
+      "action": "Rejoicing",
+      "interpretation": "Duryodhana perceives this as mockery"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana vows to kill all Pandavas and Panchalas in response to their mockery.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Pandavas",
+        "Panchalas",
+        "Krishna"
+      ],
+      "action": "Vow of destruction",
+      "threat": "You will die today and go to Yama's abode"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana emerged from the pool covered in blood, holding an iron mace, and challenged the Pandavas to single combat.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Yudhishthira",
+        "Bhima",
+        "Nakula",
+        "Sahadeva",
+        "Arjuna"
+      ],
+      "action": "Challenge to single combat",
+      "supernatural_elements": "Duryodhana's appearance compared to Yama (god of death)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira offered Duryodhana armor, weapons, and the choice to fight any one of the Pandavas, with the kingdom as the prize.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Duryodhana"
+      ],
+      "action": "Offer of terms for combat",
+      "relationships": "Yudhishthira acknowledges Duryodhana's fatigue and offers fair conditions despite their enmity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana donned golden armor and helmet, then reissued his challenge to the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Yudhishthira",
+        "Bhima",
+        "Nakula",
+        "Sahadeva",
+        "Arjuna"
+      ],
+      "action": "Preparation for battle",
+      "supernatural_elements": "Duryodhana's appearance compared to the golden mountain king"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna became angry at Yudhishthira's offer and warned him about Duryodhana's expertise with the mace.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira",
+        "Duryodhana"
+      ],
+      "action": "Warning and criticism",
+      "relationships": "Krishna advises Yudhishthira about the strategic mistake",
+      "key_plot_point": "Revelation that Duryodhana trained for 13 years specifically to kill Bhima"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna expresses concern that only Bhima can match Duryodhana in battle, but Duryodhana's skill may give him an advantage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Bhima",
+        "Duryodhana"
+      ],
+      "action": "Strategic assessment",
+      "relationships": "Arjuna (brother) expresses concern for Bhima (brother) facing Duryodhana (cousin/enemy)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna criticizes Yudhishthira for making an unfair agreement with Shakuni in the past and now agreeing to a one-on-one duel with Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Yudhishthira",
+        "Shakuni",
+        "Duryodhana"
+      ],
+      "action": "Criticism of past decisions",
+      "relationships": "Arjuna (brother) criticizes Yudhishthira (brother/king) for decisions benefiting Duryodhana (enemy)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna doubts the Pandavas' ability to defeat Duryodhana in a mace duel, listing himself, Yudhishthira, and Nakula/Sahadeva as inferior to Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Yudhishthira",
+        "Nakula",
+        "Sahadeva",
+        "Duryodhana"
+      ],
+      "action": "Expression of doubt",
+      "relationships": "Arjuna assesses Pandava brothers as weaker than Duryodhana (cousin/enemy) in mace combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima confidently declares he will kill Duryodhana and end the feud, stating his mace is heavier and he's ready to fight any warrior including gods.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Duryodhana",
+        "Krishna"
+      ],
+      "action": "Declaration of intent",
+      "relationships": "Bhima (Pandava) vows to kill Duryodhana (Kaurava enemy) to please Krishna (ally/guide)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna expresses joy at Bhima's confidence, praises him, and recounts Bhima's previous battlefield achievements against various warriors and armies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Bhima",
+        "Yudhishthira"
+      ],
+      "action": "Encouragement and praise",
+      "relationships": "Krishna (divine guide) supports Bhima (Pandava warrior) to help Yudhishthira (Pandava king) regain kingdom"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna predicts Duryodhana will provoke his own destruction and Bhima will break his legs, fulfilling a vow, but warns Bhima to be cautious of Duryodhana's skill.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Bhima",
+        "Duryodhana"
+      ],
+      "action": "Prophetic warning",
+      "relationships": "Krishna (divine) foretells Bhima's victory over Duryodhana but cautions about Duryodhana's abilities"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki joins in praising Bhima and expressing admiration for him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Bhima"
+      ],
+      "action": "Praise and support",
+      "relationships": "Satyaki (Yadava warrior/ally) shows support for Bhima (Pandava warrior)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira (Dharma Raja) stood among the Srinjayas, praised by the Panchalas and Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Panchalas",
+        "Pandavas",
+        "Srinjayas"
+      ],
+      "action": "Praise/Recognition",
+      "relationships": [
+        "Leader of Pandavas",
+        "Allied with Panchalas and Srinjayas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima declared his intention to fight and kill Duryodhana, vowing to avenge past wrongs.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Duryodhana"
+      ],
+      "action": "Declaration of War/Vow",
+      "relationships": [
+        "Enemies",
+        "Cousins"
+      ],
+      "supernatural_elements": "Compared Bhima to Indra challenging Vritra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima confronted Duryodhana, recounting the injustices suffered by the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Duryodhana"
+      ],
+      "action": "Confrontation/Accusation",
+      "specific_wrongs": [
+        "Exile in Varanavata",
+        "Draupadi's humiliation in assembly",
+        "Shakuni's dice game deceit",
+        "Deaths of Bhishma, Drona, Karna, Shalya, Shakuni"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima blamed Duryodhana for the deaths of Bhishma, Drona, Karna, Shalya, Shakuni, Duryodhana's brothers, sons, and warriors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Duryodhana",
+        "Bhishma",
+        "Drona",
+        "Karna",
+        "Shalya",
+        "Shakuni"
+      ],
+      "action": "Accusation of Responsibility",
+      "relationships": [
+        "Duryodhana caused deaths through his actions"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana challenged Bhima to fight instead of speaking insults, confident in his mace-fighting ability.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhima"
+      ],
+      "action": "Challenge/Response",
+      "supernatural_elements": "Duryodhana claimed even Indra couldn't defeat him in fair mace combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna (referred to as 'Son of Kunti' in the text) is mocked by Duryodhana for his empty threats.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Duryodhana"
+      ],
+      "action": "Mocking/Provocation",
+      "relationship": "Allies (Kauravas), but with underlying tension and rivalry",
+      "context": "Duryodhana compares Karna's threats to 'autumn clouds that thunder but give no rain' and tells him to prove his power in battle instead."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya narrates that the Panchalas and Srinjayas, eager for victory, applaud Duryodhana's words.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Panchalas",
+        "Srinjayas",
+        "Duryodhana"
+      ],
+      "action": "Narration and audience reaction",
+      "relationship": "Sanjaya is the narrator reporting to Dhritarashtra; Panchalas and Srinjayas are allies of the Pandavas but here they appreciate Duryodhana's taunt against Karna",
+      "context": "The warriors cheer Duryodhana's mockery of Karna, showing complex battlefield alliances."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The warriors encourage Duryodhana like people clapping to incite a mad elephant.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified warriors (likely Kaurava allies)",
+        "Duryodhana"
+      ],
+      "action": "Encouragement/Inciting",
+      "relationship": "Duryodhana as leader receiving support from his troops",
+      "context": "Metaphorical description of warriors rousing Duryodhana for battle."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "War elephants roar, horses neigh, and the Pandavas' weapons gleam as they yearn for victory.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas"
+      ],
+      "action": "Battle preparation",
+      "relationship": "Pandavas as the opposing force to Duryodhana's Kauravas",
+      "context": "Atmospheric description of the battlefield intensifying before combat."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Conclusion of Chapter 32 of the Shalya Parva in the Mahabharata.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Narrative marker",
+      "context": "Textual reference to the source chapter ending."
+    },
+    "_token_interval": null
+  }
+]

@@ -1,0 +1,1466 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira instructs Sanjaya to deliver messages to the Kuru court.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Sanjaya"
+      ],
+      "type": "Instruction/Dispatch",
+      "purpose": "To negotiate for peace and the return of the Pandavas' share of the kingdom."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira instructs Sanjaya to convey a respectful message to King Dhritarashtra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Sanjaya",
+        "Dhritarashtra"
+      ],
+      "message_content": "Acknowledge Dhritarashtra's past support, request he not let the Pandavas be destroyed, and remind him he established their kingdom.",
+      "relationship": "Nephew (Yudhishthira) to Uncle (Dhritarashtra); King to subject (Sanjaya to Dhritarashtra)."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira instructs Sanjaya to convey a respectful plea to Bhishma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Sanjaya",
+        "Bhishma"
+      ],
+      "message_content": "Request Bhishma use his wisdom to ensure his grandsons (the Kauravas and Pandavas) live together in harmony.",
+      "relationship": "Grandson (Yudhishthira) to Grandfather (Bhishma)."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira instructs Sanjaya to ask Vidura to counsel against war.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Sanjaya",
+        "Vidura"
+      ],
+      "message_content": "Request Vidura advocate for peace, noting Yudhishthira is focused on righteous gain (dharma and artha).",
+      "relationship": "Nephew to Uncle; implied trust and respect."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira instructs Sanjaya to deliver a conciliatory yet firm message to Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Sanjaya",
+        "Duryodhana"
+      ],
+      "message_content": "Remind Duryodhana of past injustices suffered by the Pandavas (exile, the disrobing of Draupadi), which they tolerated to avoid killing kin. Demand the return of their rightful share of the kingdom, offering a minimal settlement of five villages.",
+      "relationship": "Cousins and rivals; Pandava leader to Kaurava leader.",
+      "key_plot_points": [
+        "Reference to Draupadi's humiliation",
+        "Pandavas' past suffering and restraint",
+        "Final peace offer of five villages"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira expresses his desire for peace and unity among all relatives.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "stated_goal": "Peaceful coexistence between the Kauravas and Pandavas, and between the Kurus and Panchalas.",
+      "self_description": "Capable of both war and peace, focused on both righteousness (dharma) and gain (artha), able to be both soft and hard."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya completed his mission for Dhritarashtra and bid farewell to the Pandava sons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Dhritarashtra",
+        "Pandava sons"
+      ],
+      "action": "Mission completion and departure",
+      "relationships": [
+        "Messenger (Sanjaya) to King (Dhritarashtra)",
+        "Messenger (Sanjaya) to Pandavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya arrived at Hastinapura and stood at the entrance to the inner apartments, requesting the doorkeeper to announce his return from the Pandava sons to Dhritarashtra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Doorkeeper",
+        "Dhritarashtra",
+        "Pandava sons"
+      ],
+      "action": "Arrival and request for audience",
+      "location": "Hastinapura, entrance to inner apartments"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The doorkeeper informed Dhritarashtra that Sanjaya had returned from the Pandava sons and was at the door seeking an audience.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Doorkeeper",
+        "Dhritarashtra",
+        "Sanjaya",
+        "Pandava sons"
+      ],
+      "action": "Message relay",
+      "relationships": [
+        "Servant (Doorkeeper) to King (Dhritarashtra)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra expressed eagerness to see Sanjaya and ordered him to be admitted immediately.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Sanjaya",
+        "Doorkeeper"
+      ],
+      "action": "Granting audience",
+      "relationships": [
+        "King (Dhritarashtra) to Messenger (Sanjaya)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya entered the hall guarded by clever and brave Aryas and approached Dhritarashtra, son of Vichitravirya, who was seated on a lion-throne, with folded hands.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Dhritarashtra",
+        "Aryas (guards)"
+      ],
+      "action": "Formal audience",
+      "relationships": [
+        "Son (Dhritarashtra) of Vichitravirya"
+      ],
+      "setting": "Hall with lion-throne"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya paid respects to Dhritarashtra and conveyed Yudhishthira's greetings and well-wishes to Dhritarashtra, his sons, grandsons, friends, ministers, and dependents.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Dhritarashtra",
+        "Yudhishthira",
+        "Dhritarashtra's sons",
+        "Dhritarashtra's grandsons",
+        "Dhritarashtra's friends",
+        "Dhritarashtra's ministers",
+        "Dhritarashtra's dependents"
+      ],
+      "action": "Formal greetings and message delivery",
+      "relationships": [
+        "King (Yudhishthira) to King (Dhritarashtra)",
+        "Messenger (Sanjaya) as intermediary"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra inquired about the welfare of Yudhishthira, his sons, ministers, and brothers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Yudhishthira",
+        "Yudhishthira's sons",
+        "Yudhishthira's ministers",
+        "Yudhishthira's brothers"
+      ],
+      "action": "Inquiry about well-being",
+      "relationships": [
+        "Uncle (Dhritarashtra) to Nephew (Yudhishthira)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya reported that Yudhishthira and his ministers were well, better than Dhritarashtra had imagined, and described Yudhishthira's virtues including adherence to dharma and artha, thoughtfulness, learning, insight, and good conduct.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Dhritarashtra",
+        "Yudhishthira",
+        "Yudhishthira's ministers"
+      ],
+      "action": "Status report and character assessment",
+      "qualities": [
+        "Adherence to dharma and artha",
+        "Thoughtfulness",
+        "Learning",
+        "Insight",
+        "Good conduct"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya explained Yudhishthira's principles: humility above dharma, dharma above wealth accumulation, and that Yudhishthira would not abandon dharma for pleasure.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Yudhishthira"
+      ],
+      "action": "Philosophical exposition",
+      "principles": [
+        "Humility > Dharma",
+        "Dharma > Wealth",
+        "Dharma over pleasure"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya reflected on human actions being controlled by others like puppets by strings, and seeing Yudhishthira in adversity, concluded that karma/destiny is superior to human effort.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Yudhishthira"
+      ],
+      "action": "Philosophical reflection",
+      "theme": "Karma/destiny vs. human effort",
+      "metaphor": "Puppets controlled by strings"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya criticized Dhritarashtra's evil deeds causing terrible sins, stating that only reasonable desires earn praise.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Dhritarashtra"
+      ],
+      "action": "Accusation and moral criticism",
+      "accusation": "Evil deeds causing terrible sins",
+      "moral_lesson": "Reasonable desires earn praise"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya declared that Yudhishthira had discarded sin like a snake shedding old skin and through steadfast action had won glory, throwing the sin back to Dhritarashtra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Yudhishthira",
+        "Dhritarashtra"
+      ],
+      "action": "Moral judgment",
+      "metaphor": "Snake shedding skin",
+      "accusation": "Dhritarashtra bears the sin"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya warned Dhritarashtra that his own actions were ignoble,背离 dharma and利益, bringing condemnation in this world and potential sin in the next if he remained inattentive.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Dhritarashtra"
+      ],
+      "action": "Warning and prophecy",
+      "consequences": [
+        "Condemnation in this world",
+        "Potential sin in next world"
+      ],
+      "faults": [
+        "Ignoble actions",
+        "背离 dharma and利益"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya accused Dhritarashtra of being controlled by his sons, neglecting others, coveting questionable wealth, and gaining ill repute on earth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Dhritarashtra",
+        "Dhritarashtra's sons"
+      ],
+      "action": "Accusation of misconduct",
+      "accusations": [
+        "Controlled by sons",
+        "Neglecting others",
+        "Coveting questionable wealth",
+        "Ill repute"
+      ],
+      "relationships": [
+        "Father (Dhritarashtra) dominated by sons"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya described characteristics leading to disaster: lack of wisdom, low birth, roughness, vengefulness, neglect of Kshatriya learning, lack of courage, and lack of culture.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya"
+      ],
+      "action": "Moral teaching",
+      "negative_qualities": [
+        "Lack of wisdom",
+        "Low birth",
+        "Roughness",
+        "Vengefulness",
+        "Neglect of Kshatriya learning",
+        "Lack of courage",
+        "Lack of culture"
+      ],
+      "consequence": "Disaster"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya described the virtuous person: high birth, adherence to dharma, renowned, learned, living pleasantly, self-controlled, fulfilling dual duties of dharma and利益, and bound by fate with no other choice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya"
+      ],
+      "action": "Moral teaching",
+      "positive_qualities": [
+        "High birth",
+        "Adherence to dharma",
+        "Renowned",
+        "Learned",
+        "Pleasant living",
+        "Self-control",
+        "Fulfills dharma and利益 duties"
+      ],
+      "condition": "Bound by fate with no choice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A speaker (likely Vidura) addresses King Dhritarashtra, condemning his actions and judgment.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vidura",
+        "King Dhritarashtra"
+      ],
+      "action": "Condemnation/Accusation",
+      "relationships": "Vidura is a minister and advisor to Dhritarashtra, and is also his half-brother."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker argues that Yudhishthira (referred to as 'the invincible one' or 'Ajatashatru') is wise and righteous and would not act cruelly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Defense of character",
+      "relationships": "Yudhishthira is Dhritarashtra's nephew and the Pandava heir."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker warns that Dhritarashtra's actions (listening to his sons, favoring the untrustworthy) will lead to the destruction of the Kuru clan.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra",
+        "Duryodhana (implied as 'sons')"
+      ],
+      "action": "Prophecy of doom",
+      "relationships": "Dhritarashtra is the father of Duryodhana and the Kaurava brothers."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker references Arjuna (referred to as 'son of Pritha') as a divine warrior destined for heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Acknowledgment of divine status",
+      "relationships": "Arjuna is Yudhishthira's brother and a Pandava warrior."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker cites philosophical debates about the nature of action (karma) and fate, suggesting Dhritarashtra's current path is the cause of impending disaster.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra"
+      ],
+      "action": "Philosophical admonishment",
+      "supernatural_elements": "Discussion of karma and divine worlds."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker, fatigued, requests to rest and states that the Kurus will assemble tomorrow to hear Yudhishthira's reply.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vidura",
+        "King Dhritarashtra",
+        "Yudhishthira"
+      ],
+      "action": "Conclusion of discourse and setup for future event",
+      "relationships": "Sets the stage for the next diplomatic exchange."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In the following chapter, King Dhritarashtra summons his minister Vidura to the palace.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra",
+        "Vidura"
+      ],
+      "action": "Royal summons",
+      "relationships": "King summoning his advisor/brother."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vidura arrives at the palace and the doorkeeper announces his arrival to Dhritarashtra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vidura",
+        "Doorkeeper",
+        "King Dhritarashtra"
+      ],
+      "action": "Arrival and announcement",
+      "relationships": "Formal court protocol."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra orders the doorkeeper to admit Vidura, expressing he is always pleased to see him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra",
+        "Vidura"
+      ],
+      "action": "Granting audience",
+      "relationships": "Shows Dhritarashtra's reliance on Vidura despite the prior criticism."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vidura enters the inner chambers of King Dhritarashtra's palace as invited.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vidura",
+        "King Dhritarashtra"
+      ],
+      "type": "Dialogue Initiation",
+      "relationship": "Vidura is a minister and half-brother to Dhritarashtra."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vidura respectfully greets the troubled King Dhritarashtra and offers his service.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vidura",
+        "King Dhritarashtra"
+      ],
+      "action": "Formal Greeting and Offer of Assistance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra expresses anxiety about Sanjaya's return from the Pandavas and the impending message from Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra",
+        "Sanjaya",
+        "Yudhishthira"
+      ],
+      "action": "Expression of Anxiety",
+      "reason": "Awaiting Yudhishthira's response, conveyed by Sanjaya, regarding the Kurukshetra conflict."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra, suffering from fever and insomnia due to worry, seeks Vidura's counsel on righteous conduct and welfare.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra",
+        "Vidura"
+      ],
+      "action": "Request for Counsel",
+      "reason": "Distress over potential conflict with the Pandavas."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vidura questions if Dhritarashtra's insomnia stems from coveting others' wealth (the Pandavas' kingdom).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vidura",
+        "King Dhritarashtra"
+      ],
+      "action": "Moral Inquiry",
+      "implication": "Suggests Dhritarashtra's distress may be due to unjust desires."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra reaffirms his trust in Vidura's wisdom and requests advice aligned with righteousness and supreme good.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra",
+        "Vidura"
+      ],
+      "action": "Reiteration of Trust",
+      "relationship": "Dhritarashtra acknowledges Vidura as the most respected wise man in the royal family."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vidura delivers an extensive discourse on the qualities of a wise person, emphasizing righteousness, self-control, discernment, and steadfastness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vidura"
+      ],
+      "action": "Moral Instruction",
+      "key_themes": [
+        "Righteous conduct",
+        "Emotional control",
+        "Strategic wisdom",
+        "Pursuit of welfare over desire",
+        "Steadfastness in adversity"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text describes characteristics of foolish people through multiple verses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator"
+      ],
+      "type": "Moral Instruction",
+      "relationships": "The narrator is imparting wisdom about human behavior."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text contrasts foolish behavior with wise behavior.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator"
+      ],
+      "type": "Contrast",
+      "relationships": "The narrator distinguishes between wisdom and folly."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text discusses the consequences of actions, particularly for kings and leaders.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator"
+      ],
+      "type": "Warning",
+      "relationships": "The narrator warns about the destructive power of leaked secrets and poor leadership."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text presents various dualities and classifications of human behavior.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator"
+      ],
+      "type": "Classification",
+      "relationships": "The narrator categorizes behaviors and their outcomes."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text presents a classification of people into three categories (upper, middle, lower) who should be assigned duties according to regulations.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Classification/Instruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "It states that three types of people should not own property: wives, slaves, and sons, as any property they acquire belongs to their master.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Legal/Social Rule"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "It advises that a wise and powerful king should avoid four types of people: the unintelligent, the procrastinator, the lazy, and the flattering singer, and not consult them on state affairs.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Advice for Rulers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "It recommends that in a wealthy household, four types of people should be allowed to live: elderly relatives, high-born people who have fallen on hard times, poor friends, and childless sisters.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Social/Familial Duty"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "It mentions that Brihaspati (Vrihaspati) answered the questions of Indra (Sakra) of the Thirty-Three Gods, speaking of four current matters: the intentions of the gods, the intuition of the wise, the humility of scholars, and the destruction of evildoers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brihaspati",
+        "Indra"
+      ],
+      "type": "Divine Discourse",
+      "relationship": "Priest (Brihaspati) advising King of Gods (Indra)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "It instructs that a person should strive to serve the five fires: father, mother, fire (Agni), self, and teacher.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Religious/Social Duty"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "It states that one can only gain reputation in the world by offering to five types of people: gods, ancestors, humans, ascetics, and guests.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Religious/Social Duty"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "It notes that wherever one goes, five types of people follow: friends, enemies, neutrals, dependents, and seekers of refuge.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Observation on Human Relations"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "It uses an analogy that if one of a person's five senses is damaged, wisdom leaks out like water from a hole in a water bag.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Philosophical Analogy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "It advises that a person aspiring for prosperity should abandon six vices: sleepiness, slackness, fear, anger, laziness, and procrastination.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Moral Instruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "It advises to abandon six types of people like a leaking boat in the ocean: a teacher who does not teach, a priest who does not study, a king who does not protect, a wife who speaks harshly, a herdsman who desires a village, and a barber who desires a forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Social Advice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "It advises never to lose six virtues: truthfulness, charity, diligence, non-envy, tolerance, and steadfastness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Moral Instruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "It states that six types of people depend on six others for survival: a thief depends on the negligent, a doctor on the sick, a wayward woman on the lustful, a priest on the sacrificer, a king on litigants, and a wise person always on the foolish.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Observation on Dependencies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "It warns that a king should forever abandon seven vices that bring disaster and can destroy even a well-established king: women, dice, hunting, drinking, harsh speech (fifth), severe punishment, and squandering wealth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Advice for Rulers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "It lists eight precursors to a person's destruction: hating Brahmins, quarreling with Brahmins, taking Brahmin property, attempting to murder Brahmins, liking to blame them, disliking to praise them, not seeking them for matters, and envying their requests.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Moral/Social Warning"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text lists eight sources of happiness that bring joy upon sight.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Philosophical Teaching",
+      "elements": [
+        "Meeting friends",
+        "Acquiring wealth",
+        "Embracing a son",
+        "Sexual intercourse",
+        "Timely pleasant conversation",
+        "Respect within one's family",
+        "Achieving desired goals",
+        "Honor in assemblies"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A wise person understands the body as a house with nine gates, three pillars, five witnesses, and governed by the soul.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Spiritual Teaching",
+      "audience": "Dhritarashtra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ten things contrary to dharma are listed: addiction to alcohol, negligence, arrogance, laziness, anger, hunger and thirst, haste, cowardice, greed, and lust.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Moral Instruction",
+      "audience": "Dhritarashtra",
+      "source": "Ancient history recited by Asura King Shukra to his son"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A king who abandons desire and anger, gives to the deserving, distinguishes right from wrong, is learned, acts swiftly, and serves as a model for people.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Royal Conduct",
+      "qualities": [
+        "Charitable",
+        "Discerning",
+        "Learned",
+        "Efficient",
+        "Exemplary"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A king who knows how to appease subjects, punish the wicked, and exercise moderation and tolerance attracts all prosperity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Governance",
+      "actions": [
+        "Appeasement",
+        "Punishment",
+        "Moderation",
+        "Tolerance"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A wise person does not despise weak enemies, uses intelligence against enemies, avoids fighting the strong, shows courage at the right time.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Strategic Wisdom",
+      "principles": [
+        "Respect for all enemies",
+        "Use of intelligence",
+        "Avoidance of unnecessary conflict",
+        "Timely courage"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A leader who does not grieve in misfortune, remains diligent, perseveres, controls self, and endures suffering will conquer enemies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Leadership",
+      "qualities": [
+        "Resilience",
+        "Diligence",
+        "Self-control",
+        "Endurance"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person who avoids wandering blindly, associating with wicked people, touching others' wives, pride, theft, slander, and intoxication remains happy.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Moral Conduct",
+      "prohibitions": [
+        "Wandering",
+        "Bad company",
+        "Adultery",
+        "Pride",
+        "Theft",
+        "Slander",
+        "Intoxication"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person who is not fanatical about goals, answers truthfully when asked, avoids petty quarrels, and does not get angry over lack of respect.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Personal Conduct",
+      "qualities": [
+        "Moderation",
+        "Truthfulness",
+        "Avoidance of conflict",
+        "Humility"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person free from envy, compassionate, not resentful even when weak, not gossipy, and tolerant of differences is praised everywhere.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Virtuous Behavior",
+      "qualities": [
+        "Non-envious",
+        "Compassionate",
+        "Non-resentful",
+        "Discreet",
+        "Tolerant"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person who is not arrogant, does not boast of heroism, is not haughty or abusive, remains always likable.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Humility",
+      "qualities": [
+        "Modest",
+        "Non-boastful",
+        "Courteous"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person who does not revive settled enmities, is neither arrogant nor self-deprecating, does not angrily complain about misfortune, is praised as the best among the virtuous.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Conflict Resolution",
+      "qualities": [
+        "Peaceful",
+        "Balanced",
+        "Resilient"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A virtuous person does not exult in own fortune, does not rejoice in others' suffering, does not regret or boast after giving.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Ethical Conduct",
+      "principles": [
+        "Modesty in success",
+        "Compassion in others' suffering",
+        "Selfless charity"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person who understands social hierarchy, follows local customs and caste duties, rises above others wherever they go.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Social Conduct",
+      "actions": [
+        "Understanding hierarchy",
+        "Following customs",
+        "Adhering to caste duties"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A wise person abandons pride, delusion, envy, wickedness, hostility toward the king, slander, and public offense, and avoids conversation with drunkards, madmen, and wicked people.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Wisdom",
+      "avoidances": [
+        "Negative traits",
+        "Harmful associations"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person who practices self-control, purity, devotion, auspicious rites, expiatory rites, and follows public opinion is favored by gods who elevate their status.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Religious Practice",
+      "elements": [
+        "Self-control",
+        "Purity",
+        "Devotion",
+        "Rituals",
+        "Social conformity"
+      ],
+      "supernatural": "Gods favor and elevate such a person"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A cultured wise person marries an equal, not an inferior; befriends, associates, and converses with equals; and places virtue first.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Social Wisdom",
+      "principles": [
+        "Marital equality",
+        "Social equality",
+        "Primacy of virtue"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Pandu, afflicted by a curse, gave birth to five sons in the forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Pandu",
+        "Five Pandava Sons"
+      ],
+      "action": "Birth under curse",
+      "supernatural_elements": "Curse"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker (likely Vidura or Bhishma) instructs Dhritarashtra to raise and educate these five sons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Five Pandava Sons"
+      ],
+      "action": "Instruction to raise/educate",
+      "relationships": "Dhritarashtra (uncle/guardian) to Pandavas (nephews/wards)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker urges Dhritarashtra to happily restore the Pandavas' rightful share of the kingdom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Five Pandava Sons"
+      ],
+      "action": "Urging restoration of kingdom",
+      "relationships": "Dhritarashtra (current ruler) to Pandavas (rightful claimants)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker assures Dhritarashtra that by doing so, he can live happily with his own sons without fear.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Dhritarashtra's Sons (Kauravas)"
+      ],
+      "action": "Promise of peaceful coexistence",
+      "relationships": "Father to his sons (Kauravas)"
+    },
+    "_token_interval": null
+  }
+]

@@ -1,0 +1,2270 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Bhishma for wisdom on how to handle future and sudden events, especially when surrounded by enemies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Question/Advice-seeking",
+      "relationships": "Yudhishthira (speaker) seeks guidance from Bhishma (advisor)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma responds, stating the question is meaningful and begins explaining strategies for handling crises.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Yudhishthira"
+      ],
+      "type": "Instruction",
+      "relationships": "Bhishma (advisor) provides wisdom to Yudhishthira (learner)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma advises considering place and time before deciding actions, and that one should unite with wise people who work for their benefit.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Strategic advice",
+      "key_points": [
+        "Consider location and timing",
+        "Unite with beneficial allies"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma states it's not wise to never make peace with enemies, and one should make peace with enemies or oppose friends based on need for benefit.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Political strategy",
+      "key_points": [
+        "Make peace with enemies when beneficial",
+        "Oppose friends when necessary for gain"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma introduces an ancient story about a conversation between a cat and a mouse under a banyan tree.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Story introduction",
+      "purpose": "Illustrate strategic wisdom through parable"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Description of a large banyan tree in a forest near Vairantya, inhabited by various animals and birds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "setting": "Forest with banyan tree near Vairantya",
+      "elements": [
+        "Large banyan tree",
+        "Vines",
+        "Birds",
+        "Beasts"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A highly intelligent mouse named Palita lives in the tree roots with a hundred exits.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Palita (mouse)"
+      ],
+      "type": "Character introduction",
+      "traits": [
+        "Highly intelligent",
+        "Lives in tree roots",
+        "Has 100 exits"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A cat named Lomasa lives comfortably on the tree branches, busy catching birds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Lomasa (cat)"
+      ],
+      "type": "Character introduction",
+      "traits": [
+        "Lives on branches",
+        "Catches birds"
+      ],
+      "relationships": "Natural enemy of Palita (mouse)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A Chandala (hunter) comes to Vairantya, sets leather noose traps at sunset, and returns at dawn.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Chandala (hunter)"
+      ],
+      "type": "Character introduction",
+      "action": "Sets traps daily",
+      "pattern": "Sets at sunset, checks at dawn"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Many beasts get caught in the traps each night. One day, the cat Lomasa accidentally gets caught in a trap.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Lomasa (cat)"
+      ],
+      "type": "Conflict",
+      "action": "Gets trapped",
+      "significance": "Changes power dynamic between cat and mouse"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The mouse Palita sees his eternal enemy trapped, recognizes this as a good opportunity, and comes out fearlessly to wander.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Palita (mouse)",
+        "Lomasa (cat)"
+      ],
+      "type": "Strategic opportunity",
+      "action": "Palita emerges fearlessly",
+      "relationships": "Palita recognizes advantage over trapped enemy Lomasa"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The mouse roamed freely in the forest and found a piece of meat to eat.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mouse"
+      ],
+      "action": "Finding and eating meat",
+      "location": "Forest"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The mouse climbed onto a snare to eat the meat while mocking an enemy caught in the snare above it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mouse",
+        "Cat (enemy in snare)"
+      ],
+      "action": "Eating while mocking trapped enemy",
+      "relationship": "Enemies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The mouse saw another enemy approaching - a mongoose named Harika.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mouse",
+        "Harika (mongoose)"
+      ],
+      "action": "Enemy approaching",
+      "description": "Harika is a mongoose living in a burrow, resembling reed flowers, with brown-red eyes and swift movements",
+      "relationship": "Enemies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Harika smelled the mouse, approached quickly, stood on the ground, licked its lips, and wanted to eat the mouse.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Harika",
+        "Mouse"
+      ],
+      "action": "Predator preparing to attack",
+      "intent": "Wants to eat the mouse"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The mouse saw a third enemy on a tree branch - an owl named Chandrak.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mouse",
+        "Chandrak (owl)"
+      ],
+      "action": "Discovery of third enemy",
+      "description": "Chandrak is an owl living in a tree hollow, a night creature with sharp beak corners",
+      "relationship": "Enemies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The mouse found itself in the sight of both Harika the mongoose and Chandrak the owl, becoming extremely frightened.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mouse",
+        "Harika",
+        "Chandrak"
+      ],
+      "action": "Mouse trapped between two predators",
+      "emotional_state": "Extreme fear",
+      "situation": "Surrounded by enemies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The mouse contemplated its dire situation and considered survival strategies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mouse"
+      ],
+      "action": "Strategic thinking",
+      "dilemma": "If it goes down, Harika catches it; if it stays, Chandrak catches it; if the cat escapes, the cat catches it",
+      "conclusion": "Must use wisdom to survive"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The mouse decided to rely on the cat as an ally despite being enemies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mouse",
+        "Cat"
+      ],
+      "action": "Decision to form alliance",
+      "reasoning": "The cat is in distress and might cooperate for mutual benefit; wise enemies are better than foolish friends; can use Kshatriya strategy",
+      "relationship_change": "From enemies to potential allies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The mouse spoke to the cat in a comforting tone, offering friendship and a plan for mutual survival.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mouse",
+        "Cat"
+      ],
+      "action": "Proposing alliance",
+      "offer": "Will save the cat's life; has a good plan for both their safety; willing to sacrifice own life to save the cat",
+      "tone": "Comforting, friendly"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The mouse explained the threat from Harika the mongoose and Chandrak the owl.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mouse",
+        "Cat",
+        "Harika",
+        "Chandrak"
+      ],
+      "action": "Explaining the danger",
+      "threats": "Harika and Chandrak are nearby with ill intentions; Chandrak is watching from the tree branch",
+      "goal": "Mutual protection against common enemies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Polido (the mouse) proposes friendship and mutual aid to the cat, arguing that they should help each other survive.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Polido",
+        "Lomasa"
+      ],
+      "action": "Proposal for alliance",
+      "relationship_change": "From predator-prey to proposed allies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Lomasa (the cat) agrees to the proposal, acknowledging its own desperate situation and promising loyalty.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Lomasa",
+        "Polido"
+      ],
+      "action": "Acceptance of alliance",
+      "relationship_change": "Formation of temporary alliance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Polido outlines the plan: it will hide near Lomasa for protection from mongoose and owl, and in return will gnaw through Lomasa's snare.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Polido",
+        "Lomasa"
+      ],
+      "action": "Detailed plan proposal",
+      "conditions": "Mutual protection and rescue"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Lomasa accepts the plan, welcomes Polido, and promises future benefits once free.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Lomasa",
+        "Polido"
+      ],
+      "action": "Final agreement",
+      "relationship_change": "Confirmed partnership with specific terms"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The mouse Hiranyaka convinces the cat Lomasa of mutual benefit and gains its trust.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hiranyaka",
+        "Lomasa"
+      ],
+      "action": "Negotiation/Trust-building",
+      "relationship": "Formation of temporary alliance based on mutual interest"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Hiranyaka stays safely in Lomasa's embrace, while the mongoose and owl retreat in despair.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hiranyaka",
+        "Lomasa",
+        "Mongoose",
+        "Owl"
+      ],
+      "action": "Strategic positioning",
+      "relationship": "Hiranyaka gains protection from Lomasa against other predators"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Hiranyaka slowly gnaws at the snare trapping Lomasa, who grows impatient.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hiranyaka",
+        "Lomasa"
+      ],
+      "action": "Deliberate delay in rescue",
+      "relationship": "Tension in alliance due to conflicting immediate interests"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Lomasa urges Hiranyaka to hurry, fearing the hunter's return.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Lomasa",
+        "Hiranyaka"
+      ],
+      "action": "Plea for faster action",
+      "relationship": "Lomasa's desperation contrasts with Hiranyaka's calculated approach"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Hiranyaka explains his strategy: he will only fully free Lomasa when the hunter arrives, ensuring both escape safely without betrayal.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hiranyaka",
+        "Lomasa"
+      ],
+      "action": "Strategic explanation",
+      "relationship": "Hiranyaka asserts self-preservation as priority over friendship"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Lomasa appeals to friendship and asks forgiveness for past wrongs, urging mutual protection.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Lomasa",
+        "Hiranyaka"
+      ],
+      "action": "Emotional appeal and apology",
+      "relationship": "Lomasa attempts to reinforce alliance through remorse and shared danger"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Hiranyaka responds with wisdom, stating that alliances are based on interest, not inherent friendship, and self-protection is paramount.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hiranyaka",
+        "Lomasa"
+      ],
+      "action": "Philosophical discourse",
+      "relationship": "Hiranyaka defines the relationship as transactional, emphasizing caution with stronger allies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Two victims (Lomasa and Palita) converse as night passes, with fear overwhelming Lomasa.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Lomasa",
+        "Palita"
+      ],
+      "type": "Dialogue",
+      "relationship": "Temporary allies in distress"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "At dawn, a hunter named Palaka arrives, described as ugly, dark-skinned, bald, rude, with dogs, large ears, a big mouth, and carrying weapons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Palaka"
+      ],
+      "type": "Arrival",
+      "description": "Hunter with fearsome appearance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The cat (Lomasa), terrified as if seeing Yama's messengers, asks Palita what to do now.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Lomasa",
+        "Palita"
+      ],
+      "type": "Fear/Question",
+      "emotional_state": "Terror"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A mongoose and an owl see the fearsome hunter and, filled with fear, despairingly leave.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mongoose",
+        "Owl"
+      ],
+      "type": "Retreat",
+      "reason": "Fear of hunter"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The mongoose and owl, though strong and intelligent, cannot attack due to the close proximity of the hunter.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mongoose",
+        "Owl"
+      ],
+      "type": "Restraint",
+      "reason": "Hunter's presence prevents attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing the cat and mouse allied, the mongoose and owl quickly return to their respective homes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mongoose",
+        "Owl",
+        "Lomasa",
+        "Palita"
+      ],
+      "type": "Observation/Retreat",
+      "relationship_change": "Alliance between cat and mouse deters predators"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The mouse (Palita) bites through the cat's last rope, freeing Lomasa, who then leaps up a tree.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Palita",
+        "Lomasa"
+      ],
+      "type": "Rescue/Escape",
+      "action": "Mouse frees cat, cat escapes to tree"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Freed from terror and enemies, Palita hides in a hole and Lomasa climbs a branch.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Palita",
+        "Lomasa"
+      ],
+      "type": "Safety",
+      "location": "Hole and tree branch"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The hunter (Palaka), witnessing this, loses hope, picks up his snare, and returns home.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Palaka"
+      ],
+      "type": "Departure",
+      "emotional_state": "Disappointment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Lomasa, safe on the treetop, speaks to Palita in the hole, expressing gratitude and offering friendship, wealth, and position.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Lomasa",
+        "Palita"
+      ],
+      "type": "Persuasion/Offer",
+      "relationship": "Cat offers rewards to mouse for rescue"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Palita responds, stating he has heard Lomasa's words and shares his own thoughts on friendship and enmity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Palita",
+        "Lomasa"
+      ],
+      "type": "Response/Wisdom",
+      "theme": "Nature of friendship and enmity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker explains that relationships are based on practical interests, not permanent friendship or enmity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Speaker",
+        "Listener"
+      ],
+      "type": "Philosophical discourse",
+      "relationships": "Friendship and enmity are temporary and interest-based"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker warns against blind trust, stating that even family relationships are governed by self-interest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Speaker"
+      ],
+      "type": "Warning",
+      "relationships": "Family ties can be broken for self-preservation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker recounts how the listener was previously caught in a snare due to lack of caution.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Listener"
+      ],
+      "action": "Caught in snare",
+      "reason": "Lack of vigilance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker questions the listener's motives for friendship, suspecting it's to eat him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Speaker",
+        "Listener"
+      ],
+      "type": "Accusation",
+      "relationships": "Friendship is predatory"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker declares that their friendship was temporary and based on mutual need, and now they are enemies again.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Speaker",
+        "Listener"
+      ],
+      "type": "Declaration",
+      "relationships": "Friendship ended, enmity resumed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker claims to be knowledgeable in scriptures and questions how he could be caught in the listener's snare.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Speaker"
+      ],
+      "action": "Self-defense",
+      "reason": "Claims wisdom prevents capture"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker acknowledges they saved each other through mutual courage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Speaker",
+        "Listener"
+      ],
+      "type": "Reciprocal action",
+      "relationships": "Mutual rescue based on temporary alliance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The mouse (Polidota) rejects the cat's (Lomasa) proposal for continued association.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Polidota",
+        "Lomasa"
+      ],
+      "action": "Rejection of alliance",
+      "relationship_change": "Polidota asserts independence and distrust"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Polidota explains the relationship is now one of predator and prey (food and eater).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Polidota",
+        "Lomasa"
+      ],
+      "type": "Power dynamic declaration",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Polidota refuses to care for Lomasa's wife and children, fearing they would eat him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Polidota",
+        "Lomasa's family"
+      ],
+      "action": "Refusal of responsibility",
+      "relationship": "Distrust between species"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Polidota advises self-preservation above all else, even abandoning family and wealth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Polidota"
+      ],
+      "type": "Philosophical advice",
+      "key_plot_point": "Theme of survival wisdom"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Lomasa responds with praise for Polidota's wisdom and professes friendship and gratitude.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Lomasa",
+        "Polidota"
+      ],
+      "action": "Attempted reconciliation",
+      "relationship_change": "Lomasa tries to maintain bond"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Lomasa claims to understand righteousness, virtue, and gratitude, and offers to sacrifice his life for their union.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Lomasa"
+      ],
+      "type": "Declaration of loyalty",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Polidota acknowledges Lomasa's words but maintains distrust, stating no amount of praise or gifts can make him believe the cat.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Polidota",
+        "Lomasa"
+      ],
+      "action": "Final rejection",
+      "key_plot_point": "Irreconcilable difference due to natural roles"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The mouse Polidha (also called 'the mouse' or 'the wise one') advises the cat on statecraft principles, citing the sage Ushanas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Polidha",
+        "The cat"
+      ],
+      "action": "Advice/Instruction",
+      "relationships": [
+        "Advisor and listener",
+        "Potential enemies"
+      ],
+      "key_points": [
+        "Alliance with the strong against a common enemy requires caution and no trust afterwards",
+        "Self-preservation is paramount",
+        "The supreme principle of statecraft is distrust"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Polidha warns the cat to protect itself from the cruel Chandala (a person of low caste or an executioner).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Polidha",
+        "The cat",
+        "Chandala"
+      ],
+      "action": "Warning",
+      "relationships": [
+        "Advisor and listener",
+        "Potential threat from Chandala"
+      ],
+      "key_points": [
+        "The weak (mouse) protects itself from the strong (cat)",
+        "The strong (cat) must protect itself from the cruel (Chandala)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The cat becomes frightened and quickly runs back to its den.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The cat"
+      ],
+      "action": "Flight/Fear",
+      "relationships": [
+        "Listener affected by advice"
+      ],
+      "key_points": [
+        "The cat is alarmed by the warning"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The wise Polidha, having demonstrated his wisdom, enters his hole.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Polidha"
+      ],
+      "action": "Withdrawal/Safety",
+      "relationships": [
+        "Advisor secures himself"
+      ],
+      "key_points": [
+        "Polidha uses wisdom to secure his safety"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The narrator (likely a sage like Bhishma) summarizes the lesson for King Yudhishthira (also called 'Earth Lord', 'King', 'Son of Pandu').",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator (likely Bhishma)",
+        "King Yudhishthira"
+      ],
+      "action": "Moral Summary/Instruction",
+      "relationships": [
+        "Teacher and student"
+      ],
+      "key_points": [
+        "A weak one (Polidha) can defeat many strong ones through wisdom alone",
+        "Wise ones can make peace with powerful enemies",
+        "Mutual dependence saved both mouse and cat",
+        "Detailed explanation of Kshatriya duty (statecraft) given"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The narrator elaborates on principles of statecraft for Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator (likely Bhishma)",
+        "King Yudhishthira"
+      ],
+      "action": "Doctrine Exposition",
+      "relationships": [
+        "Teacher and student"
+      ],
+      "key_points": [
+        "Enemies may show affection but remain watchful",
+        "Wisdom brings success; carelessness brings defeat",
+        "Appear fearless while being fearful, appear trusting while distrusting",
+        "Sometimes make peace with enemies, sometimes fight friends",
+        "Fear and caution produce wisdom",
+        "Consult the knowledgeable",
+        "Act with great responsibility, avoiding false actions",
+        "Work together with Brahmins"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira expresses confusion about the balance between trust and distrust in ruling, asking Bhishma for clarification.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Philosophical Inquiry",
+      "relationships": [
+        "Grandson (Yudhishthira) seeks wisdom from grandfather (Bhishma)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma narrates a story from the past involving King Brahmadatta and a female bird named Bhujani.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Yudhishthira",
+        "King Brahmadatta",
+        "Bhujani"
+      ],
+      "type": "Narration",
+      "relationships": [
+        "Bhishma recounts a parable to Yudhishthira"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhujani, a wise bird living in King Brahmadatta's palace, gives birth to a beautiful son at the same time the Queen gives birth to a Prince.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhujani",
+        "King Brahmadatta",
+        "Queen (unnamed)",
+        "Bhujani's Son",
+        "Prince"
+      ],
+      "type": "Birth/Parallel Lives",
+      "relationships": [
+        "Bhujani and the Queen are mothers to sons born simultaneously"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhujani daily fetches two ambrosia-like fruits from the sea, feeding one to her son and one to the Prince, nourishing them both.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhujani",
+        "Bhujani's Son",
+        "Prince"
+      ],
+      "type": "Caregiving/Nourishment",
+      "relationships": [
+        "Bhujani acts as a provider and caretaker for both children"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Prince, while playing, intentionally kills Bhujani's son.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Prince",
+        "Bhujani's Son"
+      ],
+      "type": "Murder/Betrayal",
+      "action": "The Prince kills his companion and beneficiary."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhujani returns, discovers her dead son, and grieves deeply. She condemns Kshatriyas (the warrior/ruling class) as untrustworthy, cruel, and exploitative.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhujani"
+      ],
+      "type": "Grief/Accusation",
+      "relationships": [
+        "Bhujani's trust and service are betrayed by the royal family."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Declaring the Prince's act a triple sin (killing one born with him, fed by him, and under his protection), Bhujani vows revenge.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhujani",
+        "Prince"
+      ],
+      "type": "Vow/Justice",
+      "supernatural_elements": "Moral law of karma and retribution is invoked."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhujani blinds the Prince by tearing out his eyes with her claws, then proclaims the inevitability of retribution for evil deeds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhujani",
+        "Prince"
+      ],
+      "type": "Revenge/Retribution",
+      "action": "Bhujani exacts immediate, proportional revenge."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Brahmadatta acknowledges the revenge as settling the score and asks Bhujani to stay.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Brahmadatta",
+        "Bhujani"
+      ],
+      "type": "Resolution Attempt",
+      "relationships": [
+        "King attempts to restore peace after the cycle of violence."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "布阇尼 (Bujani) expresses his intention to leave after offending someone, stating that wise people do not approve of staying in such a situation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "布阇尼"
+      ],
+      "action": "Decision to leave",
+      "reason": "Offended someone and believes staying is unwise"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "布阇尼 advises against trusting the comforting words of an enemy, warning that fools are quickly killed because grudges are not easily settled.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "布阇尼"
+      ],
+      "action": "Warning/Advice",
+      "theme": "Distrust of enemies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "布阇尼 explains that grudges extend to descendants and even to the afterlife, and that happiness comes from not trusting those with enmity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "布阇尼"
+      ],
+      "action": "Philosophical explanation",
+      "theme": "Persistence of enmity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "布阇尼 states that parents are the closest relatives, a wife signifies old age, a son is just a seed, a brother becomes an enemy, companions always ask for things, and only oneself knows one's own joys and sorrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "布阇尼"
+      ],
+      "action": "Reflection on relationships",
+      "theme": "Self-reliance and familial bonds"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "布阇尼 reiterates his decision to leave, noting that the reason for staying no longer exists after offending someone.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "布阇尼"
+      ],
+      "action": "Reaffirmation of departure",
+      "reason": "Loss of trust and fear"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "布阇尼 explains that even if offended and then given gifts and respect, trust does not arise, and one remains fearful.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "布阇尼"
+      ],
+      "action": "Explanation of distrust",
+      "theme": "Irreparable breach of trust"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "布阇尼 concludes that he has lived long in the palace without harm, but now with this enmity, he must leave, wishing happiness to the other.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "布阇尼"
+      ],
+      "action": "Final farewell",
+      "relationship_change": "Departure due to enmity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "梵授 (Brahmadatta) responds that taking corresponding retaliatory action is not wrong, as it balances things, and urges 布阇尼 to stay and not leave.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "梵授",
+        "布阇尼"
+      ],
+      "action": "Persuasion to stay",
+      "argument": "Retaliation balances offenses"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "布阇尼 argues that evildoers and avengers do not reconcile, as both remember the past.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "布阇尼",
+        "梵授"
+      ],
+      "action": "Counter-argument",
+      "theme": "Irreconcilability of enmity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "梵授 claims that evildoers and avengers do reconcile, and once enmity subsides, no further offenses occur.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "梵授",
+        "布阇尼"
+      ],
+      "action": "Counter-argument",
+      "theme": "Possibility of reconciliation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "布阇尼 insists that enmity does not disappear, one cannot trust being pacified, fools trust and are killed, and it is better not to see each other.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "布阇尼",
+        "梵授"
+      ],
+      "action": "Rejection of reconciliation",
+      "theme": "Danger of false pacification"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "布阇尼 notes that some can withstand sharp weapons but not pacification, like wild elephants lured by tame ones.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "布阇尼"
+      ],
+      "action": "Analogy",
+      "theme": "Vulnerability to pacification"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "梵授 argues that living together generates affection even among plotters, like dogs and Chandala, and mutual trust develops.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "梵授",
+        "布阇尼"
+      ],
+      "action": "Argument for cohabitation",
+      "theme": "Affection through proximity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "梵授 adds that enmity between people living together softens, and hostility does not last, like water droplets on a lotus.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "梵授"
+      ],
+      "action": "Metaphorical argument",
+      "theme": "Temporary nature of hostility"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "布阇尼 states that wise people know five causes of enmity: women, dwelling, speech, hostility, and fault.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "布阇尼"
+      ],
+      "action": "Listing causes",
+      "theme": "Roots of conflict"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "布阇尼 advises that understanding the reality, especially as a Kshatriya, one should not kill an avenger openly or secretly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "布阇尼"
+      ],
+      "action": "Moral advice",
+      "theme": "Restraint in retaliation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "布阇尼 warns not to trust someone with enmity, even if a friend, as hidden hostility is like fire in a woodpile.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "布阇尼"
+      ],
+      "action": "Warning",
+      "theme": "Hidden dangers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "布阇尼 asserts that wealth, punishment, pacification, or knowledge cannot extinguish the fire of enmity, like the undying fire in the ocean.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "布阇尼"
+      ],
+      "action": "Philosophical assertion",
+      "theme": "Inextinguishable enmity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "布阇尼 explains that once the fire of enmity is lit and harm is done, it does not go out until one side is destroyed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "布阇尼"
+      ],
+      "action": "Explanation",
+      "theme": "Permanent conflict"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "布阇尼 reiterates that offending and then receiving gifts and respect brings no peace or trust, only continued fear.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 20,
+    "group_index": 19,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "布阇尼"
+      ],
+      "action": "Reiteration",
+      "theme": "Unresolvable offense"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "布阇尼 concludes that in the past, there was no harm between them and they lived together in trust, but now he no longer trusts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 21,
+    "group_index": 20,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "布阇尼",
+        "梵授"
+      ],
+      "action": "Final statement",
+      "relationship_change": "Loss of trust leading to departure"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "梵授 responds that everyone acts according to time, all things operate by time, and in this world, who offends whom?",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 22,
+    "group_index": 21,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "梵授"
+      ],
+      "action": "Philosophical conclusion",
+      "theme": "Relativity of offenses and time"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Shantanu saw the beautiful Ganga by the river and fell in love.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Shantanu",
+        "Ganga"
+      ],
+      "type": "Romance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "condition",
+    "extraction_text": "She agreed to marry him on the condition that he never question her actions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "proposer": "Ganga",
+      "accepter": "King Shantanu"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "They had seven sons, but she drowned each one immediately after birth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ganga",
+        "Seven Vasus (Sons)"
+      ],
+      "action": "Drowning/Killing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "conflict",
+    "extraction_text": "When the eighth son was born, Shantanu could not bear it and stopped her.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "initiator": "King Shantanu",
+      "reason": "Save the child"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "revelation",
+    "extraction_text": "Ganga revealed her identity, explained the curse of the Vasus, and left with the child",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "true_identity": "River Goddess Ganga",
+      "child": "Bhishma (Devavrata)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhojani (likely a sage or wise figure) delivers teachings about wisdom and practical living.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhojani"
+      ],
+      "type": "Philosophical Discourse",
+      "action": "Teaching/Advising"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhojani explains that ignoring injuries or limitations leads to worsening conditions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhojani"
+      ],
+      "type": "Analogy/Wisdom",
+      "examples": [
+        "Walking on wounded feet worsens injury",
+        "Looking with inflamed eyes in wind causes pain"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhojani teaches about the importance of knowing one's strength and choosing the right path.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhojani"
+      ],
+      "type": "Wisdom",
+      "message": "Choosing wrong path without self-awareness leads to death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhojani discusses the interdependence of fate and human effort.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhojani"
+      ],
+      "type": "Philosophical Principle",
+      "message": "Noble people rely on action, incompetent people rely on fate"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhojani identifies five innate friends: knowledge, courage, talent, strength, and determination.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhojani"
+      ],
+      "type": "Wisdom",
+      "elements": [
+        "Knowledge",
+        "Courage",
+        "Talent",
+        "Strength",
+        "Determination"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhojani criticizes those who are foolishly attached to family.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhojani"
+      ],
+      "type": "Warning",
+      "analogy": "Evil wife eats his flesh like mother crab eats young crabs"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhojani declares he cannot stay in the current place and must migrate elsewhere.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhojani"
+      ],
+      "type": "Decision",
+      "reason": "The king's son did something that should not have been done"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhojani advises to stay away from six bad things: bad wife, bad son, bad king, bad friend, bad relative, and bad country.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhojani"
+      ],
+      "type": "Advice",
+      "list": [
+        "Bad wife",
+        "Bad son",
+        "Bad king",
+        "Bad friend",
+        "Bad relative",
+        "Bad country"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhojani describes ideal qualities: sweet-talking wife, joyful son, trustworthy friend, and livable country.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhojani"
+      ],
+      "type": "Ideal Standards",
+      "qualities": [
+        "Sweet-talking wife",
+        "Joyful son",
+        "Trustworthy friend",
+        "Livable country"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhojani teaches about the duties and qualities of a king.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhojani"
+      ],
+      "type": "Political Philosophy",
+      "king_duties": [
+        "Rule strictly without force",
+        "Care for the poor without favoritism",
+        "Have virtue and follow dharma",
+        "Protect all beings diligently"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhojani warns that a king who collects taxes but doesn't protect people is a thief.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhojani"
+      ],
+      "type": "Warning",
+      "message": "King who takes one-sixth tax without protection is a national thief"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhojani concludes that a king who grants fearlessness but doesn't establish rules bears the sins of all worlds and falls into hell.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhojani"
+      ],
+      "type": "Consequence",
+      "message": "King without dharma bears world's sins and goes to hell"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The king grants fearlessness, establishes rules, protects beings according to law, and is called the creator of all happiness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King"
+      ],
+      "type": "Description of royal duties"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Manu, the progenitor, states that father, mother, teacher, protector, Agni (fire god), Kubera (god of wealth), and Yama (god of death) are the seven attributes of a king.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Manu"
+      ],
+      "type": "Philosophical teaching"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The king shows compassion to all beings like a father; whoever deceives the king will be reborn as an animal.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King"
+      ],
+      "type": "Moral instruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The king cares for the suffering like a mother; punishes the wicked like Agni; controls beings like Yama.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King"
+      ],
+      "type": "Description of royal roles"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The king gives wealth to beloved people like Kubera; teaches dharma like a teacher; protects beings like a protector.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King"
+      ],
+      "type": "Description of royal roles"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The king pleases urban and rural residents with virtue; maintains virtue and dharma, preventing the kingdom's decline.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King"
+      ],
+      "type": "Governance principle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The king personally understands urban and rural affairs, achieving happiness in this life and the next.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King"
+      ],
+      "type": "Governance principle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "If subjects are constantly fearful, impoverished, and overburdened, the king declines.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King"
+      ],
+      "type": "Warning"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "If subjects prosper like lotuses in a pond, the king gains all sacrificial merits and enjoys glory in the world.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King"
+      ],
+      "type": "Promise of prosperity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Disputing with the strong is never praised; disputing with the strong brings no peace or happiness to the kingdom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King"
+      ],
+      "type": "Political advice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma says: After speaking these words to King Brahmadatta, the female bird took leave and flew to her desired destination.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "King Brahmadatta",
+        "Female bird (Bujani)"
+      ],
+      "type": "Narrative conclusion",
+      "relationships": "Bhishma is narrating the story of King Brahmadatta and the female bird Bujani"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma states he has narrated the dialogue between King Brahmadatta and Bujani, and asks what else the listener wants to hear.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Narrative transition"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "This concludes Chapter 137 of the Shanti Parva in the Mahabharata.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Textual reference"
+    },
+    "_token_interval": null
+  }
+]

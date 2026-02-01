@@ -1,0 +1,212 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "摩根德耶讲述优腾迦与王仙的对话，王仙推荐儿子古婆罗娑帮助优腾迦。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "摩根德耶",
+        "优腾迦",
+        "王仙",
+        "古婆罗娑"
+      ],
+      "type": "Dialogue/Recommendation",
+      "relationships": "王仙是古婆罗娑的父亲；摩根德耶是叙述者；优腾迦是寻求帮助者"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战询问摩根德耶关于提迭的身份和背景。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "摩根德耶"
+      ],
+      "type": "Inquiry",
+      "relationships": "坚战是提问者；摩根德耶是知识提供者"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "摩根德耶描述世界毁灭后毗湿奴躺在蛇冠水床上，从肚脐莲花中诞生梵天。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "毗湿奴",
+        "湿舍",
+        "梵天"
+      ],
+      "type": "Cosmological/Creation",
+      "supernatural_elements": "世界毁灭成汪洋；毗湿奴作为永恒原人；蛇冠床；莲花诞生梵天；梵天有四部吠陀、四形体、四张脸"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "檀那婆摩图和盖达跋看到毗湿奴，吓唬梵天，梵天摇醒毗湿奴。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "摩图",
+        "盖达跋",
+        "梵天",
+        "毗湿奴"
+      ],
+      "type": "Conflict/Intervention",
+      "relationships": "摩图和盖达跋是檀那婆（阿修罗）；毗湿奴被梵天摇醒",
+      "supernatural_elements": "梵天在莲花中；毗湿奴被描述为眼似莲花、头戴宝石冠、身穿黄衣、光辉如千阳"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "毗湿奴赐予摩图和盖达跋恩惠，但两人反要求毗湿奴接受他们的恩惠。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "毗湿奴",
+        "摩图",
+        "盖达跋"
+      ],
+      "type": "Boon Exchange",
+      "relationships": "毗湿奴是赐予者；摩图和盖达跋是接受者但角色反转",
+      "supernatural_elements": "恩惠赐予；角色权力动态反转"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna (Vishnu) requests a boon to kill Madhu and Kaitabha for the world's benefit.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Madhu",
+        "Kaitabha"
+      ],
+      "type": "Request/Challenge",
+      "divine_intervention": "Krishna as Vishnu seeks to eliminate demons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Madhu and Kaitabha agree to grant the boon, emphasizing their commitment to truth and dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Madhu",
+        "Kaitabha",
+        "Krishna"
+      ],
+      "type": "Agreement",
+      "relationships": "Demons acknowledging Krishna's authority"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Madhu and Kaitabha set conditions: they must be killed in an unshaded place and become Krishna's sons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Madhu",
+        "Kaitabha",
+        "Krishna"
+      ],
+      "type": "Condition",
+      "relationships": "Request for rebirth as Krishna's sons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna accepts their conditions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Madhu",
+        "Kaitabha"
+      ],
+      "type": "Acceptance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna searches but cannot find an unshaded place on earth or in heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "type": "Search",
+      "divine_intervention": "Supernatural challenge"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna discovers his own thighs are unshaded and beheads Madhu and Kaitabha with his sharp discus.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Madhu",
+        "Kaitabha"
+      ],
+      "type": "Execution",
+      "action": "Beheading",
+      "divine_intervention": "Use of divine weapon (discus)"
+    },
+    "_token_interval": null
+  }
+]

@@ -1,0 +1,2245 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Janamejaya requests information about the kings of the Puru lineage, their qualities, and their deeds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Janamejaya"
+      ],
+      "action": "Request for narrative",
+      "type": "Dialogue/Inquiry"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vaishampayana agrees to narrate the history of the heroic kings of the Puru lineage who rivaled Indra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vaishampayana"
+      ],
+      "action": "Agreement to narrate",
+      "type": "Narrative setup"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Puru and Kausalya have three sons: Prachinvat, Ishvara, and Raudrashva, all chariot-warriors, with Prachinvat inheriting the royal lineage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Puru",
+        "Kausalya",
+        "Prachinvat",
+        "Ishvara",
+        "Raudrashva"
+      ],
+      "relationships": "Puru and Kausalya are parents; Prachinvat is the heir",
+      "type": "Genealogy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Prachinvat and Shyeni have a son named Manasyu, a powerful warrior and protector of the earth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Prachinvat",
+        "Shyeni",
+        "Manasyu"
+      ],
+      "relationships": "Parents and son",
+      "type": "Genealogy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Manasyu has three sons: Shubhanu, Shuchishnu, and Kalyana, all heroic chariot-warriors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Manasyu",
+        "Shubhanu",
+        "Shuchishnu",
+        "Kalyana"
+      ],
+      "relationships": "Father and sons",
+      "type": "Genealogy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Raudrashva and the Apsara Ghritachi have ten sons, all great archers, sacrificers, and warriors, known for their progeny and mastery of weapons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Raudrashva",
+        "Ghritachi",
+        "Riteyu",
+        "Kaksheyu",
+        "Sthanandayu",
+        "Dhirghayu",
+        "Vanaayu",
+        "Kritayu",
+        "Satayu",
+        "Dharmaayu",
+        "Samnataayu",
+        "Vrihadashva"
+      ],
+      "relationships": "Raudrashva and Ghritachi are parents; the ten are their sons",
+      "type": "Genealogy with divine element (Apsara)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Riteyu has a learned son, King Matinara.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Riteyu",
+        "Matinara"
+      ],
+      "relationships": "Father and son",
+      "type": "Genealogy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Matinara has four sons: Tansu, Mahana, Atiratha, and Druhyu, with Tansu being the most valiant and inheriting the Puru lineage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Matinara",
+        "Tansu",
+        "Mahana",
+        "Atiratha",
+        "Druhyu"
+      ],
+      "relationships": "Father and sons; Tansu is the heir",
+      "type": "Genealogy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Tansu conquers the earth and gains great honor.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Tansu"
+      ],
+      "action": "Conquest",
+      "type": "Achievement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Tansu has a son named Ilina, who also conquers the entire earth and becomes foremost among victors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Tansu",
+        "Ilina"
+      ],
+      "relationships": "Father and son",
+      "action": "Conquest",
+      "type": "Genealogy and achievement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ilina and Rathantara have five sons, led by Dushyanta, who are like the five elements.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ilina",
+        "Rathantara",
+        "Dushyanta",
+        "Shura",
+        "Bhima",
+        "Prabhu",
+        "Vasu"
+      ],
+      "relationships": "Parents and sons; Dushyanta is the eldest",
+      "type": "Genealogy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dushyanta has a learned son, King Bharata, born of Shakuntala, from whom the great glory of the Bharata lineage arises.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dushyanta",
+        "Shakuntala",
+        "Bharata"
+      ],
+      "relationships": "Parents and son; Bharata is the progenitor of the Bharata lineage",
+      "type": "Genealogy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bharata has nine sons with several women but disowns them, thinking they are not like him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bharata"
+      ],
+      "action": "Disowning sons",
+      "type": "Conflict/Rejection"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bharata performs many great sacrifices and obtains a son, Bhumanyu, from the sage Bharadvaja.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bharata",
+        "Bharadvaja",
+        "Bhumanyu"
+      ],
+      "relationships": "Bharata is the father; Bhumanyu is the son through divine intervention (sage)",
+      "type": "Divine intervention/Genealogy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bharata, recognizing Bhumanyu as his true heir, performs his consecration and installs him as crown prince.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bharata",
+        "Bhumanyu"
+      ],
+      "action": "Consecration and installation as crown prince",
+      "type": "Succession"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Suhotra (Suhotra) became king and ruled prosperously, performing many sacrifices.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Suhotra"
+      ],
+      "action": "Coronation and prosperous rule",
+      "relationships": "Son of Pramati (Pramati) and Riksha (Riksha)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Suhotra married a woman from the Ikshvaku (Sugarcane) dynasty and had three sons: Ajamidha, Sumidha, and Purumidha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Suhotra",
+        "Ajamidha",
+        "Sumidha",
+        "Purumidha"
+      ],
+      "action": "Marriage and birth of sons",
+      "relationships": "Father-son relationships established"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ajamidha, the most distinguished son, had six sons with three women: Riksha from Dhumini, Dushyanta and Parameshthin from Nili, and Jahnu and the twins Jala and Rupina from Kesini.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ajamidha",
+        "Riksha",
+        "Dushyanta",
+        "Parameshthin",
+        "Jahnu",
+        "Jala",
+        "Rupina"
+      ],
+      "action": "Birth of descendants",
+      "relationships": "Lineage branching: Panchalas from Dushyanta and Parameshthin, Kushikas from Jahnu"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Riksha became king and his son Samvarana (Samvarana) continued the lineage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Riksha",
+        "Samvarana"
+      ],
+      "action": "Succession to kingship",
+      "relationships": "Father-son succession"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "During Samvarana's rule, a great calamity struck: famine, drought, plagues, and an invasion by the Panchala king defeated Samvarana's forces.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Samvarana",
+        "Panchala King"
+      ],
+      "action": "Defeat and calamity",
+      "relationships": "Conflict between kingdoms"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Samvarana fled with his family and followers to the banks of the Sindhu River, where they lived for a thousand years.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Samvarana"
+      ],
+      "action": "Exile and settlement",
+      "relationships": "Isolation of the Bharata lineage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Vasistha (Vasistha) visited the exiled Bharatas, and after eight years, Samvarana appointed him as royal priest (Purohita).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Samvarana",
+        "Vasistha"
+      ],
+      "action": "Appointment of royal priest",
+      "relationships": "King-sage alliance formed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vasistha performed Samvarana's coronation as emperor of all Kshatriyas, restoring his rule over the earth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vasistha",
+        "Samvarana"
+      ],
+      "action": "Coronation and restoration",
+      "relationships": "Divine-sanctioned kingship reestablished"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "广覆王建立最美丽的城市，让所有国王恢复进贡，重新收复大地，力量十分强大。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "广覆王"
+      ],
+      "action": "建立城市、收复大地、恢复进贡",
+      "relationships": "羊斗王之孙",
+      "supernatural_elements": "无"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "广覆王多次举办盛大祭祀，布施丰厚。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "广覆王"
+      ],
+      "action": "举办祭祀、布施",
+      "relationships": "无",
+      "supernatural_elements": "无"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "太阳神之女炎娃和广覆王生下俱卢，俱卢因明了正法被人民选为国王。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "炎娃",
+        "广覆王",
+        "俱卢"
+      ],
+      "action": "生子、继承王位",
+      "relationships": "炎娃（太阳神之女）与广覆王是夫妻，俱卢是他们的儿子",
+      "supernatural_elements": "炎娃是太阳神之女"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "俱卢广修苦行，使俱卢之野变为圣地，俱卢疆伽国以他的名字命名。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "俱卢"
+      ],
+      "action": "苦行、圣地化",
+      "relationships": "无",
+      "supernatural_elements": "苦行使土地神圣化"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "俱卢与伐醯尼生下五个儿子：马有、阿毗首、奇车、牟尼、镇群。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "俱卢",
+        "伐醯尼",
+        "马有",
+        "阿毗首",
+        "奇车",
+        "牟尼",
+        "镇群"
+      ],
+      "action": "生子",
+      "relationships": "俱卢与伐醯尼是夫妻，马有、阿毗首、奇车、牟尼、镇群是他们的儿子",
+      "supernatural_elements": "无"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿毗首生下八个儿子：环住、花马、光耀、辉耀、沙尔摩罗、高耳、造福、克敌。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿毗首",
+        "环住",
+        "花马",
+        "光耀",
+        "辉耀",
+        "沙尔摩罗",
+        "高耳",
+        "造福",
+        "克敌"
+      ],
+      "action": "生子",
+      "relationships": "阿毗首是父亲，环住、花马、光耀、辉耀、沙尔摩罗、高耳、造福、克敌是他的儿子",
+      "supernatural_elements": "无"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "环住有几个精通法、利的儿子：林军、厉军、奇军、天帝军、妙军、怖军。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "环住",
+        "林军",
+        "厉军",
+        "奇军",
+        "天帝军",
+        "妙军",
+        "怖军"
+      ],
+      "action": "生子",
+      "relationships": "环住是父亲，林军、厉军、奇军、天帝军、妙军、怖军是他的儿子",
+      "supernatural_elements": "无"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "镇群有八个精通法、利的儿子：持国、般度、波力迦、尼奢陀、瞻部那陀、瓮腹、波达提、婆娑提。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "镇群",
+        "持国",
+        "般度",
+        "波力迦",
+        "尼奢陀",
+        "瞻部那陀",
+        "瓮腹",
+        "波达提",
+        "婆娑提"
+      ],
+      "action": "生子",
+      "relationships": "镇群是父亲，持国、般度、波力迦、尼奢陀、瞻部那陀、瓮腹、波达提、婆娑提是他的儿子",
+      "supernatural_elements": "无"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国成为国王，有八个儿子：恭黎迦、诃斯丁、毗多尔迦、迦罗特、恭吒罗、诃毗湿罗婆、天帝光、盛怒、无敌。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国",
+        "恭黎迦",
+        "诃斯丁",
+        "毗多尔迦",
+        "迦罗特",
+        "恭吒罗",
+        "诃毗湿罗婆",
+        "天帝光",
+        "盛怒",
+        "无敌"
+      ],
+      "action": "继承王位、生子",
+      "relationships": "持国是国王和父亲，恭黎迦、诃斯丁、毗多尔迦、迦罗特、恭吒罗、诃毗湿罗婆、天帝光、盛怒、无敌是他的儿子",
+      "supernatural_elements": "无"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "波罗底波有三个儿子：天友、福身、波力迦。天友致力于正法，福身和波力迦得到大地。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "波罗底波",
+        "天友",
+        "福身",
+        "波力迦"
+      ],
+      "action": "生子、分治",
+      "relationships": "波罗底波是父亲，天友、福身、波力迦是他的儿子",
+      "supernatural_elements": "无"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "婆罗多族世系中诞生许多坚毅果敢的战车武士和贤明君王，摩奴家族也诞生天神般的战车武士，繁荣伊罗之子的世系。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "婆罗多族",
+        "摩奴",
+        "伊罗之子"
+      ],
+      "action": "世系繁荣",
+      "relationships": "婆罗多族和摩奴家族是世系来源",
+      "supernatural_elements": "天神般的战车武士"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "镇群请求讲述从生主摩奴起的神圣故事，强调其降福、带来欢乐、昌隆和显赫殊荣。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "镇群"
+      ],
+      "action": "请求讲述故事",
+      "relationships": "无",
+      "supernatural_elements": "故事具有神圣性，能降福于人"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "护民子（Shounaka）请求国王（Janamejaya）听一听自己家族诞生的美好故事，并说明故事来源是岛生（Vyasa）。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "护民子",
+        "国王"
+      ],
+      "type": "Narrative Introduction",
+      "relationships": [
+        "护民子 narrates to 国王"
+      ],
+      "context": "Storytelling framework"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "从陀刹（Daksha）到迅行（Yayati）的祖先世系：陀刹→阿提底（Aditi）→毗婆薮（Vivasvat）→摩奴（Manu）→伊罗（Ila）→补卢罗婆娑（Pururavas）→阿优私（Ayus）→友邻（Nahusha）→迅行（Yayati）。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "陀刹",
+        "阿提底",
+        "毗婆薮",
+        "摩奴",
+        "伊罗",
+        "补卢罗婆娑",
+        "阿优私",
+        "友邻",
+        "迅行"
+      ],
+      "type": "Genealogy",
+      "relationships": [
+        "Parent-child lineage"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迅行（Yayati）有两个妻子：天乘（Devayani，太白/Shukra的女儿）和多福（Sharmishtha，牛节王/Vrishaparvan的女儿）。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迅行",
+        "天乘",
+        "多福",
+        "太白",
+        "牛节王"
+      ],
+      "type": "Marriage",
+      "relationships": [
+        "迅行 married to 天乘",
+        "迅行 married to 多福",
+        "天乘 is daughter of 太白",
+        "多福 is daughter of 牛节王"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "天乘（Devayani）生了雅度（Yadu）和杜尔婆薮（Turvasu）；多福（Sharmishtha）生了德卢修（Druhyu）、阿奴（Anu）和补卢（Puru）。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "天乘",
+        "雅度",
+        "杜尔婆薮",
+        "多福",
+        "德卢修",
+        "阿奴",
+        "补卢"
+      ],
+      "type": "Birth",
+      "relationships": [
+        "天乘 mother of 雅度 and 杜尔婆薮",
+        "多福 mother of 德卢修, 阿奴, and 补卢",
+        "雅度, 杜尔婆薮, 德卢修, 阿奴, 补卢 are sons of 迅行"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "从雅度（Yadu）有了雅度族（Yadava clan）；从补卢（Puru）有了补卢族（Paurava clan）。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "雅度",
+        "补卢"
+      ],
+      "type": "Clan Foundation",
+      "relationships": [
+        "雅度 founder of 雅度族",
+        "补卢 founder of 补卢族"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "补卢（Puru）娶了憍萨厘雅（Kausalya），生了儿子镇群（Janamejaya）。镇群举行了三次马祭（Ashvamedha）和全胜祭（Rajasuya），然后住进森林。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "补卢",
+        "憍萨厘雅",
+        "镇群"
+      ],
+      "type": "Marriage and Birth",
+      "relationships": [
+        "补卢 married to 憍萨厘雅",
+        "镇群 is son of 补卢 and 憍萨厘雅"
+      ],
+      "supernatural_elements": [
+        "马祭 (Ashvamedha sacrifice)",
+        "全胜祭 (Rajasuya sacrifice)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "镇群（Janamejaya）娶了无垠（Ananta，青春之女），生了有东（Prachinvat）。有东征服了东方，因此得名。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "镇群",
+        "无垠",
+        "有东"
+      ],
+      "type": "Marriage, Birth, and Conquest",
+      "relationships": [
+        "镇群 married to 无垠",
+        "有东 is son of 镇群 and 无垠"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "有东（Prachinvat）娶了石姑（Ashmaki），生了同行（Samyati）。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "有东",
+        "石姑",
+        "同行"
+      ],
+      "type": "Marriage and Birth",
+      "relationships": [
+        "有东 married to 石姑",
+        "同行 is son of 有东 and 石姑"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "同行（Samyati）娶了秀美（Varangi，有岩之女），生了阿亨波提（Ahamyati）。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "同行",
+        "秀美",
+        "阿亨波提",
+        "有岩"
+      ],
+      "type": "Marriage and Birth",
+      "relationships": [
+        "同行 married to 秀美",
+        "阿亨波提 is son of 同行 and 秀美",
+        "秀美 is daughter of 有岩"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿亨波提（Ahamyati）娶了有光（Bhanumati，成勇之女），生了盖世（Sarvabhauma）。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿亨波提",
+        "有光",
+        "盖世",
+        "成勇"
+      ],
+      "type": "Marriage and Birth",
+      "relationships": [
+        "阿亨波提 married to 有光",
+        "盖世 is son of 阿亨波提 and 有光",
+        "有光 is daughter of 成勇"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "盖世（Sarvabhauma）征服并娶了妙喜（Sunanda，羯迦夜国公主），生了胜军（Jayatsena）。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "盖世",
+        "妙喜",
+        "胜军"
+      ],
+      "type": "Conquest, Marriage, and Birth",
+      "relationships": [
+        "盖世 married to 妙喜",
+        "胜军 is son of 盖世 and 妙喜"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "胜军（Jayatsena）娶了美日（Suvira，毗达尔跋国公主），生了阿罗支那（Arachina）。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "胜军",
+        "美日",
+        "阿罗支那"
+      ],
+      "type": "Marriage and Birth",
+      "relationships": [
+        "胜军 married to 美日",
+        "阿罗支那 is son of 胜军 and 美日"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿罗支那（Arachina）娶了摩尔耶达（Maryada，毗达尔跋国公主），生了广土（Mahabhuma）。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿罗支那",
+        "摩尔耶达",
+        "广土"
+      ],
+      "type": "Marriage and Birth",
+      "relationships": [
+        "阿罗支那 married to 摩尔耶达",
+        "广土 is son of 阿罗支那 and 摩尔耶达"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "广土（Mahabhuma）娶了妙祭（Satyasri，胜幻之女），生了万举（Ayutanayi）。万举举行了一万次人祭，因此得名。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "广土",
+        "妙祭",
+        "万举",
+        "胜幻"
+      ],
+      "type": "Marriage, Birth, and Ritual",
+      "relationships": [
+        "广土 married to 妙祭",
+        "万举 is son of 广土 and 妙祭",
+        "妙祭 is daughter of 胜幻"
+      ],
+      "supernatural_elements": [
+        "人祭 (human sacrifices)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "万举（Ayutanayi）娶了光华（Kambalabarhi，广闻之女），生了无嗔（Akrodhana）。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "万举",
+        "光华",
+        "无嗔",
+        "广闻"
+      ],
+      "type": "Marriage and Birth",
+      "relationships": [
+        "万举 married to 光华",
+        "无嗔 is son of 万举 and 光华",
+        "光华 is daughter of 广闻"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "无嗔（Akrodhana）娶了迦兰露（Karandu，羯陵伽国公主），生了天宾（Devatithi）。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "无嗔",
+        "迦兰露",
+        "天宾"
+      ],
+      "type": "Marriage and Birth",
+      "relationships": [
+        "无嗔 married to 迦兰露",
+        "天宾 is son of 无嗔 and 迦兰露"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "天宾（Devatithi）娶了摩尔耶达（Maryada，毗提诃公主），生了圣歌（Riksha）。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "天宾",
+        "摩尔耶达",
+        "圣歌"
+      ],
+      "type": "Marriage and Birth",
+      "relationships": [
+        "天宾 married to 摩尔耶达",
+        "圣歌 is son of 天宾 and 摩尔耶达"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "圣歌（Riksha）娶了妙天（Jvala，盎伽国公主），生了熊罴（Riksharaja）。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "圣歌",
+        "妙天",
+        "熊罴"
+      ],
+      "type": "Marriage and Birth",
+      "relationships": [
+        "圣歌 married to 妙天",
+        "熊罴 is son of 圣歌 and 妙天"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "熊罴（Riksharaja）娶了光辉（Jvala，多刹迦之女），生了摩底那罗（Matinara）。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "熊罴",
+        "光辉",
+        "摩底那罗",
+        "多刹迦"
+      ],
+      "type": "Marriage and Birth",
+      "relationships": [
+        "熊罴 married to 光辉",
+        "摩底那罗 is son of 熊罴 and 光辉",
+        "光辉 is daughter of 多刹迦"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "摩底那罗（Matinara）在娑罗私婆蒂河（Sarasvati River）畔举行了十二年的祭祀。祭祀完成时，娑罗私婆蒂河女神（辩才天女/Sarasvati）走向他，选他为丈夫，生了儿子登苏（Tansu）。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 20,
+    "group_index": 19,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "摩底那罗",
+        "娑罗私婆蒂河女神",
+        "登苏"
+      ],
+      "type": "Ritual and Divine Marriage",
+      "relationships": [
+        "摩底那罗 married to 娑罗私婆蒂河女神",
+        "登苏 is son of 摩底那罗 and 娑罗私婆蒂河女神"
+      ],
+      "supernatural_elements": [
+        "Twelve-year sacrifice",
+        "娑罗私婆蒂河女神 (river goddess) intervenes"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "从登苏（Tansu）到豆扇陀（Dushyanta）的世系：登苏由迦蒂河女神（Gautami）生了伊利那（Ilina）；伊利那由罗陀德丽（Rathantari）生了豆扇陀为首的五个儿子。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 21,
+    "group_index": 20,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "登苏",
+        "迦蒂河女神",
+        "伊利那",
+        "罗陀德丽",
+        "豆扇陀"
+      ],
+      "type": "Genealogy",
+      "relationships": [
+        "登苏 father of 伊利那 (by 迦蒂河女神)",
+        "伊利那 father of 豆扇陀 (by 罗陀德丽)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "豆扇陀（Dushyanta）娶了沙恭达罗（Shakuntala，众友/Kaushika的女儿），生了婆罗多（Bharata）。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 22,
+    "group_index": 21,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "豆扇陀",
+        "沙恭达罗",
+        "婆罗多",
+        "众友"
+      ],
+      "type": "Marriage and Birth",
+      "relationships": [
+        "豆扇陀 married to 沙恭达罗",
+        "婆罗多 is son of 豆扇陀 and 沙恭达罗",
+        "沙恭达罗 is daughter of 众友"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Two verses of poetry are presented, explaining that a son is born from the father's own essence and can rescue ancestors from Yama's realm.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dushyanta",
+        "Shakuntala"
+      ],
+      "type": "Poetic Revelation/Explanation",
+      "key_point": "Establishes the importance of a son and validates Shakuntala's claim about their son."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The son is named Bharata (meaning 'nurtured' or 'cherished').",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bharata"
+      ],
+      "action": "Naming",
+      "parentage": "Son of Dushyanta and Shakuntala"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bharata marries Princess Subahu of Kashi, daughter of the King of Kashi, and they have a son named Sumati.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bharata",
+        "Subahu",
+        "Sumati"
+      ],
+      "type": "Marriage and Progeny",
+      "relationships": "Bharata and Subahu are husband and wife; Sumati is their son."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sumati marries Princess Vijaya of the Dasharna kingdom, and they have a son named Suhotra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sumati",
+        "Vijaya",
+        "Suhotra"
+      ],
+      "type": "Marriage and Progeny",
+      "relationships": "Sumati and Vijaya are husband and wife; Suhotra is their son."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Suhotra marries a girl from the Ikshvaku (Sugarcane) clan named Suvarna, and they have a son named Hasti (meaning 'elephant'), who builds the city of Hastinapura.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Suhotra",
+        "Suvarna",
+        "Hasti"
+      ],
+      "type": "Marriage, Progeny, and Founding",
+      "relationships": "Suhotra and Suvarna are husband and wife; Hasti is their son.",
+      "key_point": "Hasti founds the city of Hastinapura."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Hasti marries Princess Yashodhara of the Trikuta kingdom, and they have a son named Vikunthana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hasti",
+        "Yashodhara",
+        "Vikunthana"
+      ],
+      "type": "Marriage and Progeny",
+      "relationships": "Hasti and Yashodhara are husband and wife; Vikunthana is their son."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vikunthana marries Princess Sudeva of the Dasharna kingdom, and they have a son named Ajamidha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vikunthana",
+        "Sudeva",
+        "Ajamidha"
+      ],
+      "type": "Marriage and Progeny",
+      "relationships": "Vikunthana and Sudeva are husband and wife; Ajamidha is their son."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ajamidha has 2,400 sons from multiple wives (princesses from Kekaya, Gandhara, and others), who establish their own lineages. The main heir in this lineage is Samvarana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ajamidha",
+        "Samvarana"
+      ],
+      "type": "Prolific Progeny and Succession",
+      "relationships": "Samvarana is the designated heir among Ajamidha's many sons."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Samvarana marries Tapati, daughter of Surya (the Sun God), and they have a son named Kuru.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Samvarana",
+        "Tapati",
+        "Kuru"
+      ],
+      "type": "Marriage and Progeny",
+      "relationships": "Samvarana and Tapati are husband and wife; Kuru is their son.",
+      "divine_element": "Tapati is the daughter of the Sun God Surya."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kuru marries Princess Subhangi of the Dasharna kingdom, and they have a son named Viduratha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kuru",
+        "Subhangi",
+        "Viduratha"
+      ],
+      "type": "Marriage and Progeny",
+      "relationships": "Kuru and Subhangi are husband and wife; Viduratha is their son."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Viduratha marries Princess Sampri of Magadha, and they have a son named Anashva.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Viduratha",
+        "Sampri",
+        "Anashva"
+      ],
+      "type": "Marriage and Progeny",
+      "relationships": "Viduratha and Sampri are husband and wife; Anashva is their son."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Anashva marries Princess Amrita of Magadha, and they have a son named Parikshit.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Anashva",
+        "Amrita",
+        "Parikshit"
+      ],
+      "type": "Marriage and Progeny",
+      "relationships": "Anashva and Amrita are husband and wife; Parikshit is their son."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Parikshit marries Princess Suvasa, daughter of the King of Udayana, and they have a son named Bhimasena.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Parikshit",
+        "Suvasa",
+        "Bhimasena"
+      ],
+      "type": "Marriage and Progeny",
+      "relationships": "Parikshit and Suvasa are husband and wife; Bhimasena is their son."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhimasena marries Princess Kumari of Kekaya, and they have a son named Pratisravas, who is also known as Pratipa.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhimasena",
+        "Kumari",
+        "Pratipa (Pratisravas)"
+      ],
+      "type": "Marriage and Progeny",
+      "relationships": "Bhimasena and Kumari are husband and wife; Pratipa is their son."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pratipa marries Princess Sunanda of Shibi, and they have several sons: Devapi, Shantanu, and Bahlika.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pratipa",
+        "Sunanda",
+        "Devapi",
+        "Shantanu",
+        "Bahlika"
+      ],
+      "type": "Marriage and Progeny",
+      "relationships": "Pratipa and Sunanda are husband and wife; Devapi, Shantanu, and Bahlika are their sons."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Devapi retires to the forest at a young age, and Shantanu becomes king. A verse describes how Shantanu rejuvenates the elderly with his touch, earning him the name Shantanu (meaning 'one with a beneficent body').",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Devapi",
+        "Shantanu"
+      ],
+      "type": "Succession and Divine Attribute",
+      "action": "Devapi renounces the throne; Shantanu becomes king and demonstrates a divine power.",
+      "divine_element": "Shantanu's touch rejuvenates the elderly."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shantanu marries Ganga, the river goddess and daughter of King Bhagiratha, and they have a son named Devavrata, who becomes known as Bhishma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shantanu",
+        "Ganga",
+        "Bhishma (Devavrata)"
+      ],
+      "type": "Marriage and Progeny",
+      "relationships": "Shantanu and Ganga are husband and wife; Bhishma is their son.",
+      "divine_element": "Ganga is the river goddess."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma, wanting to please his father, brings Satyavati (also known as Gandhakali or 'the fragrant dark one') to be his stepmother.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Shantanu",
+        "Satyavati (Gandhakali)"
+      ],
+      "type": "Filial Act",
+      "action": "Bhishma arranges for his father to marry Satyavati.",
+      "relationships": "Satyavati becomes Shantanu's wife and Bhishma's stepmother."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyavati, while still a maiden, had a son named Krishna Dvaipayana (also known as Vyasa or 'the island-born') with the sage Parashara. Later, with Shantanu, she has two sons: Chitrangada and Vichitravirya.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyavati",
+        "Parashara",
+        "Vyasa (Krishna Dvaipayana)",
+        "Shantanu",
+        "Chitrangada",
+        "Vichitravirya"
+      ],
+      "type": "Progeny from Different Unions",
+      "relationships": "Vyasa is Satyavati's son with sage Parashara; Chitrangada and Vichitravirya are her sons with Shantanu."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Chitrangada dies young, killed by a Gandharva. Vichitravirya becomes king.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 20,
+    "group_index": 19,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Chitrangada",
+        "Vichitravirya"
+      ],
+      "type": "Death and Succession",
+      "action": "Chitrangada is killed; Vichitravirya ascends the throne."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vichitravirya marries Ambika and Ambalika, the two daughters of the King of Kashi, born to the princess of Kosala. However, he dies without producing an heir.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 21,
+    "group_index": 20,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vichitravirya",
+        "Ambika",
+        "Ambalika"
+      ],
+      "type": "Marriage and Tragedy",
+      "relationships": "Vichitravirya marries Ambika and Ambalika.",
+      "key_point": "Vichitravirya dies childless, threatening the lineage."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyavati, distressed that the lineage of Dushyanta might end, remembers the sage Vyasa (her son from Parashara).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 22,
+    "group_index": 21,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyavati",
+        "Vyasa"
+      ],
+      "type": "Crisis and Contemplation",
+      "action": "Satyavati considers invoking Vyasa to continue the lineage.",
+      "key_point": "Sets up the next major plot point to resolve the succession crisis."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa appeared before Satyavati and asked what she wanted.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Satyavati"
+      ],
+      "type": "Divine Intervention/Summoning"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyavati requested Vyasa to father sons for her deceased son Vichitravirya, who died without heirs.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyavati",
+        "Vyasa",
+        "Vichitravirya"
+      ],
+      "action": "Request for Progeny",
+      "relationship": "Satyavati is Vichitravirya's mother; Vyasa is her son from a previous union with Parashara"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa agreed and fathered three sons: Dhritarashtra, Pandu, and Vidura.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Dhritarashtra",
+        "Pandu",
+        "Vidura"
+      ],
+      "action": "Birth of Sons",
+      "relationship": "Dhritarashtra, Pandu, and Vidura are half-brothers, sons of Vyasa"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Through the grace of Vyasa, Dhritarashtra and Gandhari had one hundred sons, with Duryodhana, Dushasana, Vikarna, and Chitrasena being the most prominent.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Gandhari",
+        "Duryodhana",
+        "Dushasana",
+        "Vikarna",
+        "Chitrasena"
+      ],
+      "action": "Birth of the Kaurava Brothers",
+      "relationship": "Dhritarashtra and Gandhari are parents to the Kauravas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pandu had two wives: Kunti and Madri.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandu",
+        "Kunti",
+        "Madri"
+      ],
+      "type": "Marriage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "While hunting, Pandu shot a sage who was in the form of a deer during intercourse, cursing Pandu to die if he ever engaged in sexual pleasure.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandu",
+        "Sage Kindama"
+      ],
+      "action": "Curse",
+      "supernatural_element": "Curse from a sage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pandu, fearing the curse, abstained from sexual relations with his wives and asked Kunti to bear sons for him using a boon she possessed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandu",
+        "Kunti"
+      ],
+      "action": "Request for Progeny via Divine Means"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti invoked gods to father sons: Yudhishthira with Dharma, Bhima with Vayu, and Arjuna with Indra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Dharma",
+        "Vayu",
+        "Indra"
+      ],
+      "action": "Divine Births",
+      "supernatural_element": "Invocation of gods for conception"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "At Pandu's request, Kunti shared her boon with Madri, who invoked the Ashvins to father Nakula and Sahadeva.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Madri",
+        "Nakula",
+        "Sahadeva",
+        "Ashvins"
+      ],
+      "action": "Divine Births",
+      "relationship": "Nakula and Sahadeva are twins, sons of Madri and the Ashvins"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pandu, overcome with desire for Madri, touched her and died immediately due to the curse.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandu",
+        "Madri"
+      ],
+      "action": "Death",
+      "supernatural_element": "Fulfillment of the curse"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Madri ascended the funeral pyre with Pandu, entrusting her twin sons to Kunti's care.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Madri",
+        "Pandu",
+        "Kunti",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "action": "Sati and Entrustment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The five Pandava brothers and Kunti were taken to Hastinapura by ascetics and entrusted to Bhishma and Vidura.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Kunti",
+        "Bhishma",
+        "Vidura"
+      ],
+      "action": "Relocation to Hastinapura",
+      "relationship": "Bhishma and Vidura become guardians of the Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas were placed in a lacquer house to be burned alive, but they escaped due to Vidura's warning.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Vidura"
+      ],
+      "action": "Escape from Assassination Attempt",
+      "relationship": "Vidura protects the Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas killed the demon Hidimba and moved to Ekachakra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Hidimba"
+      ],
+      "action": "Demon Slaying"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In Ekachakra, they killed the demon Bakasura and then traveled to Kampilya, the capital of Panchala.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Bakasura"
+      ],
+      "action": "Demon Slaying and Travel"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In Kampilya, Arjuna won Draupadi at her swayamvara, and all five Pandavas married her, then returned safely to their kingdom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Draupadi",
+        "Pandavas"
+      ],
+      "action": "Marriage and Return",
+      "relationship": "Draupadi becomes the shared wife of the five Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Each Pandava had sons: Yudhishthira with Prativindhya, Bhima with Sutasoma, Arjuna with Shrutakirti, Nakula with Satanika, and Sahadeva with Shrutasena.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Prativindhya",
+        "Sutasoma",
+        "Shrutakirti",
+        "Satanika",
+        "Shrutasena"
+      ],
+      "action": "Birth of Sons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira married Devika, daughter of King Shibi, and had a son named Yaudheya.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Devika",
+        "Yaudheya"
+      ],
+      "action": "Marriage and Birth"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima married Valandhara, princess of Kashi, as a reward for his valor, and had a son named Sarvaga.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Valandhara",
+        "Sarvaga"
+      ],
+      "action": "Marriage and Birth"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna arrived at Dvaraka and married Subhadra, the sister of Vasudeva's son (Krishna).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Subhadra",
+        "Krishna"
+      ],
+      "action": "Marriage",
+      "relationships": [
+        "Arjuna marries Subhadra (Krishna's sister)"
+      ],
+      "result": "They had a son named Abhimanyu"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula married Karenumati, the princess of Chedi.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Karenumati"
+      ],
+      "action": "Marriage",
+      "result": "They had a son named Satanika"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sahadeva obtained Vijaya, the princess of Madra, at a svayamvara (self-choice ceremony).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sahadeva",
+        "Vijaya"
+      ],
+      "action": "Marriage",
+      "result": "They had a son named Suhotra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima previously had a son named Ghatotkacha with the rakshasi Hidimba.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Hidimba",
+        "Ghatotkacha"
+      ],
+      "action": "Birth of son",
+      "relationships": [
+        "Bhima's son with rakshasi Hidimba"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "These eleven are the sons of the five Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas (Yudhishthira, Bhima, Arjuna, Nakula, Sahadeva)",
+        "Their eleven sons"
+      ],
+      "type": "Summary"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Abhimanyu married Uttara, the daughter of King Virata, and she gave birth to a stillborn child.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Abhimanyu",
+        "Uttara",
+        "King Virata"
+      ],
+      "action": "Marriage and stillbirth",
+      "relationships": [
+        "Abhimanyu marries Uttara (Virata's daughter)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Following Krishna's instructions, Kunti (Pritha) held the stillborn child, and Krishna revived the six-month-old infant.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Kunti",
+        "The stillborn child"
+      ],
+      "action": "Divine intervention",
+      "type": "Supernatural",
+      "result": "Child revived"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna named the revived child Parikshit, meaning 'born when the family was about to be destroyed'.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Parikshit"
+      ],
+      "action": "Naming",
+      "meaning": "Name reflects circumstances of birth"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Later, Parikshit married Madravati and they had a son named Janamejaya.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Parikshit",
+        "Madravati",
+        "Janamejaya"
+      ],
+      "action": "Marriage and birth",
+      "result": "Birth of Janamejaya"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Janamejaya and Vapushtama had two sons: Shatani and Ugra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Janamejaya",
+        "Vapushtama",
+        "Shatani",
+        "Ugra"
+      ],
+      "action": "Birth of sons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shatani married the princess of Videha and they had a son named Ashvamedhadatta.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shatani",
+        "Princess of Videha",
+        "Ashvamedhadatta"
+      ],
+      "action": "Marriage and birth"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "This concludes the lineage of the Puru dynasty and the genealogy of the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Puru dynasty",
+        "Pandavas"
+      ],
+      "type": "Conclusion",
+      "note": "Hearing this lineage eliminates all sins"
+    },
+    "_token_interval": null
+  }
+]

@@ -1,0 +1,723 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uma asks Mahadeva about the origins and changes of the four varnas (social classes).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uma",
+        "Mahadeva"
+      ],
+      "type": "Dialogue/Question",
+      "relationships": [
+        "Goddess and God",
+        "Questioner and Answerer"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mahadeva explains that Brahmin, Kshatriya, Vaishya, and Shudra statuses are primarily determined by birth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mahadeva"
+      ],
+      "type": "Explanation",
+      "key_point": "Birth determines initial varna status"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mahadeva states that a Brahmin can fall from their status due to wicked behavior.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mahadeva"
+      ],
+      "type": "Rule/Consequence",
+      "action": "Status degradation",
+      "cause": "Wicked behavior"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mahadeva explains that a Kshatriya or Vaishya who lives according to Brahmin dharma can become a Brahmin in the next life.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mahadeva"
+      ],
+      "type": "Rule/Transformation",
+      "transformation": "Upward mobility through dharma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mahadeva describes how a Brahmin who follows Kshatriya dharma will be reborn as a Kshatriya.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mahadeva"
+      ],
+      "type": "Rule/Transformation",
+      "transformation": "Downward mobility through improper dharma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mahadeva explains that a Brahmin who adopts Vaishya behavior will become a Vaishya, and similarly, a Vaishya adopting Shudra ways becomes a Shudra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mahadeva"
+      ],
+      "type": "Rule/Consequence",
+      "action": "Status degradation through improper conduct"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mahadeva warns that a Brahmin who abandons their dharma not only becomes a Shudra but also falls into hell and misses Brahmaloka.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mahadeva"
+      ],
+      "type": "Warning/Consequence",
+      "supernatural_elements": [
+        "Hell",
+        "Brahmaloka"
+      ],
+      "severity": "Extreme consequences for dharma abandonment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mahadeva states that Kshatriyas or Vaishyas who behave like Shudras will be reborn as mixed-caste individuals.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mahadeva"
+      ],
+      "type": "Rule/Consequence",
+      "result": "Mixed-caste rebirth"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mahadeva concludes that those who maintain purity through proper dharma, knowledge, and wisdom will attain the fruits of righteousness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mahadeva"
+      ],
+      "type": "Conclusion",
+      "key_message": "Dharma observance leads to positive outcomes"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text presents a discourse by Brahma (大梵天) to the Goddess, outlining dharma (正法) principles regarding food consumption, caste status, and moral conduct.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma",
+        "Goddess"
+      ],
+      "type": "Discourse/Instruction",
+      "relationships": "Brahma is instructing the Goddess on dharma."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahma prohibits eating food from barbarians (野蛮卑劣者), food from public gatherings (属于众人的食物), food from the first ancestral rites for the dead (为死者所行的第一次祖祭上的食物), announced food (宣布的食物), and food from Shudras (首陀罗).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma"
+      ],
+      "action": "Prohibition",
+      "supernatural_elements": "Divine instruction on dharma."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahma states that a Brahmin who dies with Shudra food in his stomach will be reborn as a Shudra, and one's rebirth caste is determined by whose food remains in the stomach at death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma"
+      ],
+      "action": "Explanation of karmic consequence",
+      "supernatural_elements": "Rebirth based on actions."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahma lists behaviors that cause a Brahmin to lose their status: drinking alcohol, killing a Brahmin, vile conduct, theft, breaking vows, impurity, abandoning Vedic study, sinfulness, greed, deceit, treachery, breaking oaths, marrying a Shudra woman, living off prostitution, selling soma, serving lower castes, defiling the guru's bed, mistreating the guru, insulting the guru, hating the Vedas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma"
+      ],
+      "action": "Enumeration of transgressions",
+      "relationships": "Rules governing Brahmin conduct."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahma explains that a Shudra can rise to become a Brahmin, and a Vaishya can rise to become a Kshatriya, through good conduct.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma"
+      ],
+      "action": "Explanation of social mobility",
+      "relationships": "Potential for caste elevation through dharma."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahma instructs that a Shudra should follow dharma, serve higher castes, revere gods and twice-born, practice hospitality, self-restraint, fasting, observe rules regarding his wife's menstrual cycle, serve holy people, eat only leftovers, and avoid meat from arbitrary slaughter to be reborn as a Vaishya.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma"
+      ],
+      "action": "Prescription of Shudra duties",
+      "supernatural_elements": "Rebirth reward for following dharma."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text describes the ideal conduct and duties for a Vaishya (merchant/farmer class) to achieve upward mobility in future lives.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vaishya"
+      ],
+      "type": "Instruction/Description",
+      "action": "Following prescribed duties and virtues"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A Vaishya who follows these rules can be reborn as a Kshatriya (warrior/ruler class) in the next life.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vaishya",
+        "Kshatriya"
+      ],
+      "type": "Rebirth/Transmigration",
+      "relationship_change": "Social mobility through rebirth"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A Kshatriya who cultivates himself through education, rituals, and vows can be reborn as a Brahmin (priestly class) in the next life.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kshatriya",
+        "Brahmin"
+      ],
+      "type": "Rebirth/Transmigration",
+      "relationship_change": "Social mobility through rebirth"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A Kshatriya who desires heaven should practice generosity, study the Vedas, maintain sacred fires, perform rituals, protect subjects, help the unfortunate, and govern justly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kshatriya"
+      ],
+      "type": "Instruction/Description",
+      "action": "Prescribed duties for spiritual merit"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A Kshatriya should face death bravely in battle for cows and Brahmins, or enter purified fire to be reborn as a Brahmin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kshatriya",
+        "Brahmin"
+      ],
+      "type": "Sacrifice/Rebirth",
+      "action": "Martyrdom or self-immolation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A Shudra (laborer class) of low birth can rise to become a cultivated Brahmin through noble actions and accumulated merit.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shudra",
+        "Brahmin"
+      ],
+      "type": "Rebirth/Transmigration",
+      "relationship_change": "Social mobility through rebirth"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A Brahmin who behaves badly and violates dietary rules can fall from their superior position and become a Shudra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin",
+        "Shudra"
+      ],
+      "type": "Rebirth/Transmigration",
+      "relationship_change": "Social demotion through rebirth"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A discourse on the nature of Brahminhood and social status is presented, emphasizing that behavior, not birth, defines a Brahmin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator (implied from text context)"
+      ],
+      "action": "Philosophical discourse",
+      "key_points": [
+        "A Shudra with pure heart and controlled senses should be treated like a Brahmin.",
+        "Behavior is the sole standard for determining a Brahmin, not birth, rituals, or Vedic knowledge.",
+        "Anyone with virtuous conduct qualifies as a Brahmin.",
+        "The nature of Brahman is pure and universal; whoever has Brahman within is a Brahmin.",
+        "Brahma, the creator, said people are born according to karma, determining their status.",
+        "A Brahmin must maintain rituals, study Vedas, give alms, and follow the righteous path.",
+        "A Shudra can become a Brahmin by following Dharma, and a Brahmin can fall to become a Shudra."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uma (also known as Parvati) asks Mahadeva (Shiva) about Dharma and Adharma, and how humans can attain heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uma",
+        "Mahadeva (Shiva)"
+      ],
+      "action": "Question and preparation for answer",
+      "relationships": [
+        "Uma is the consort of Mahadeva.",
+        "Uma addresses Mahadeva as 'Lord of all beings', 'object of worship by Devas and Asuras', and 'Great God'."
+      ],
+      "key_points": [
+        "Uma asks what constitutes Dharma (righteousness) and Adharma (unrighteousness) for humans.",
+        "She notes that actions, thoughts, and speech can bind or liberate humans.",
+        "She inquires about the virtues, behaviors, habits, qualities, and speech that lead to heaven."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mahadeva (Shiva) praises Uma's question and agrees to answer it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mahadeva (Shiva)",
+        "Uma"
+      ],
+      "action": "Praise and agreement to answer",
+      "relationships": [
+        "Mahadeva addresses Uma as 'Goddess who understands the truth of Dharma and Artha', 'always devoted to truth', 'self-controlled', and 'cheerful'."
+      ],
+      "key_points": [
+        "Mahadeva states that Uma's question benefits all beings and increases their knowledge.",
+        "He prepares to provide an answer."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text describes the qualities of virtuous people who achieve liberation or enter heaven after death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Philosophical description",
+      "supernatural_elements": "Mention of heaven and liberation from bondage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uma asks Mahadeva about proper speech and its role in liberation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uma",
+        "Mahadeva"
+      ],
+      "type": "Dialogue initiation",
+      "relationships": "Uma seeks guidance from Mahadeva"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mahadeva explains the principles of truthful and kind speech that lead to heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mahadeva"
+      ],
+      "type": "Divine teaching",
+      "supernatural_elements": "Divine guidance on spiritual attainment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shiva explains the principles of righteous speech that lead to heaven after death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shiva",
+        "Uma"
+      ],
+      "type": "Teaching/Dialogue",
+      "relationships": "Shiva (teacher) instructing Uma (student) about dharma",
+      "supernatural_elements": "Divine revelation about afterlife consequences"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uma asks Shiva about the thoughts and actions that determine a person's destiny.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uma",
+        "Shiva"
+      ],
+      "type": "Question/Inquiry",
+      "relationships": "Uma seeking deeper understanding from Shiva",
+      "action": "Uma requests clarification on karmic principles"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shiva explains righteous thoughts that lead to heaven after death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shiva",
+        "Uma"
+      ],
+      "type": "Teaching/Instruction",
+      "relationships": "Shiva continuing his instruction to Uma",
+      "key_points": [
+        "Not coveting others' property even in deserted places",
+        "Not being tempted by others' wives",
+        "Treating friends and enemies equally",
+        "Being learned, pure, compassionate, and content"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uma asks Shiva about factors affecting human lifespan and longevity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uma",
+        "Shiva"
+      ],
+      "type": "Question/Inquiry",
+      "relationships": "Uma seeking practical guidance from Shiva",
+      "action": "Uma requests information about lifespan determinants"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The goddess asks Mahadeva about the relationship between actions and their consequences regarding lifespan and destiny.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Goddess",
+        "Mahadeva"
+      ],
+      "type": "Philosophical inquiry",
+      "relationships": [
+        "Teacher-student",
+        "Divine beings"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mahadeva explains that in the mortal world, all beings experience the consequences of their own actions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mahadeva"
+      ],
+      "action": "Teaching cosmic law of karma",
+      "supernatural_elements": [
+        "Law of karma",
+        "Rebirth"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mahadeva describes cruel people who kill living beings and lack compassion.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mahadeva"
+      ],
+      "action": "Describing negative behavior patterns",
+      "consequences": [
+        "Rebirth in hell",
+        "Short lifespan in human form"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mahadeva explains that people with righteous conduct who avoid harming living beings will be reborn with beauty.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mahadeva"
+      ],
+      "action": "Describing positive behavior patterns",
+      "consequences": [
+        "Rebirth in heaven",
+        "Attractive appearance",
+        "Potential for divine status"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mahadeva describes non-violent people who protect all living beings and treat others as themselves.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mahadeva"
+      ],
+      "action": "Describing ideal behavior",
+      "consequences": [
+        "Divine status",
+        "Long life in human form",
+        "Happiness"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mahadeva concludes that this is the path of virtuous action taught by Brahma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mahadeva",
+        "Brahma"
+      ],
+      "action": "Revealing divine teaching",
+      "relationships": [
+        "Divine authority reference"
+      ],
+      "supernatural_elements": [
+        "Divine revelation"
+      ]
+    },
+    "_token_interval": null
+  }
+]

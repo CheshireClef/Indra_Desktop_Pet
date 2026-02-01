@@ -1,0 +1,1263 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Janamejaya asks the sage Vaishampayana to narrate the story of the disastrous dice game that caused the misfortunes of his grandfathers, the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Janamejaya",
+        "Vaishampayana"
+      ],
+      "type": "Narrative Request",
+      "relationships": [
+        "King Janamejaya is the listener/audience",
+        "Vaishampayana is the narrator"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vaishampayana, the disciple of Vyasa, begins to narrate the story as requested.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vaishampayana"
+      ],
+      "type": "Narration Start"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra, after hearing Vidura's opinion, privately advises his son Duryodhana against gambling with dice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra",
+        "Duryodhana",
+        "Vidura"
+      ],
+      "type": "Advice/Warning",
+      "relationships": [
+        "King Dhritarashtra is father to Duryodhana",
+        "Vidura is advisor to King Dhritarashtra"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra praises Vidura's wisdom, comparing him to Brihaspati (teacher of Indra) and Uddhava (respected in the Vrishni clan).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra",
+        "Vidura",
+        "Brihaspati",
+        "Indra",
+        "Uddhava"
+      ],
+      "type": "Character Praise",
+      "relationships": [
+        "Vidura is highly respected in the Kuru clan"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra warns that dice gambling causes division and destruction of the kingdom, and urges Duryodhana to abandon the idea.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra",
+        "Duryodhana"
+      ],
+      "type": "Parental Warning",
+      "action": "Advice against gambling"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra questions why Duryodhana is unhappy despite having education, kingdom, wealth, and position as eldest brother.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra",
+        "Duryodhana"
+      ],
+      "type": "Parental Concern",
+      "reason": "Duryodhana's apparent unhappiness"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana explains his suffering stems from seeing the dazzling prosperity of Yudhishthira and the Pandavas, and the entire earth submitting to them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Yudhishthira"
+      ],
+      "type": "Confession of Envy",
+      "relationships": [
+        "Duryodhana and Yudhishthira are cousins/rivals"
+      ],
+      "reason": "Jealousy of Pandavas' wealth and power"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana describes various clans (Chatorajis, Gokulas, Karaskaras, and Tittiris) serving obediently in Yudhishthira's court.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "type": "Description of Pandava Power",
+      "action": "Listing subservient clans"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana complains about the overwhelming wealth in Yudhishthira's palace, mentioning treasures from Himalayas, oceans, and shores.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Yudhishthira"
+      ],
+      "type": "Wealth Description",
+      "supernatural_elements": [
+        "Mention of mythical treasures"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana describes his exhaustion from receiving endless gifts and jewels in Yudhishthira's court, where he was given the duty of accepting offerings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Yudhishthira"
+      ],
+      "type": "Personal Complaint",
+      "action": "Receiving gifts for Yudhishthira",
+      "relationships": [
+        "Yudhishthira shows respect to Duryodhana as elder"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana fell into a lotus pond thinking it was paved with stones, after previously encountering a stone pond that looked like water.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Accidental fall",
+      "supernatural_elements": "Maya's illusionary architecture",
+      "relationships": "Duryodhana is humiliated"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima, Krishna, Arjuna, Draupadi, and other women laughed at Duryodhana when he fell into the water.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhima",
+        "Krishna",
+        "Arjuna",
+        "Draupadi"
+      ],
+      "action": "Mockery/humiliation",
+      "relationships": "Duryodhana feels deeply insulted by his cousins (Pandavas) and their allies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana injured his forehead by hitting a stone slab while passing through what looked like a doorway but wasn't.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Physical injury",
+      "supernatural_elements": "Maya's deceptive palace architecture"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula and Sahadeva saw Duryodhana injured and comforted him, with Sahadeva showing him the correct door.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "action": "Comfort and guidance",
+      "relationships": "Nakula and Sahadeva show compassion to their cousin Duryodhana despite rivalry"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana describes the immense wealth and tributes brought to Yudhishthira by various kings from different regions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Yudhishthira"
+      ],
+      "action": "Listing tributes",
+      "relationships": "Duryodhana is envious of Yudhishthira's prosperity and status"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Various kings including the King of Kamboja, King Bhagadatta, King Suvira, and others brought valuable tributes but were initially stopped at the gate until offering proper gifts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King of Kamboja",
+        "King Bhagadatta",
+        "King Suvira",
+        "Yudhishthira"
+      ],
+      "action": "Tribute offering",
+      "relationships": "Subordinate kings paying homage to Emperor Yudhishthira"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Various tribes and peoples (including those with unusual physical features) brought gold, silver, and other tributes but were turned away at the door.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Tribes and peoples (Oshnishas, Anivashas, Bahukas, Purushadrakas, One-legged people, etc.)"
+      ],
+      "action": "Bringing tribute, being turned away",
+      "location": "Door of the sacrifice assembly"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Chinese, Huns, Sakas, Odras, mountain-dwellers, Vrishnis, Harahunas, black people, and snow-mountain people brought various goods and animals as tribute but were also turned away.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Chinese",
+        "Huns",
+        "Sakas",
+        "Odras",
+        "Mountain-dwellers",
+        "Vrishnis",
+        "Harahunas",
+        "Black people",
+        "Snow-mountain people"
+      ],
+      "action": "Bringing tribute, being turned away",
+      "items": [
+        "Donkeys",
+        "Woolens",
+        "Silks",
+        "Swords",
+        "Spears",
+        "Food",
+        "Jewelry"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sakas, Dugalas, Gangas, Ramathas, and Shringins brought fast horses and gold as tribute but were turned away.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sakas",
+        "Dugalas",
+        "Gangas",
+        "Ramathas",
+        "Shringins"
+      ],
+      "action": "Bringing tribute, being turned away",
+      "items": [
+        "Horses",
+        "Gold"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Eastern kings brought lavish tributes including thrones, chariots, weapons, and entered Yudhishthira's great sacrifice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Eastern kings",
+        "Yudhishthira"
+      ],
+      "action": "Bringing tribute, entering sacrifice",
+      "items": [
+        "Ivory thrones",
+        "Chariots",
+        "Weapons",
+        "Jewelry"
+      ],
+      "event": "Yudhishthira's great sacrifice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana describes how kings brought various tributes to Yudhishthira for his sacrifice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Yudhishthira"
+      ],
+      "action": "Describing tribute collection",
+      "relationship": "Duryodhana reporting to someone (possibly Sanjaya or Dhritarashtra)",
+      "context": "Duryodhana's narration"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kings from between Meru and Mandara mountains brought gold called 'ant-gold' and other tributes but were turned away.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kings from between Meru and Mandara mountains",
+        "Yudhishthira"
+      ],
+      "action": "Bringing tribute, being turned away",
+      "items": [
+        "Ant-gold",
+        "Yak-tail fans",
+        "Honey",
+        "Herbs"
+      ],
+      "location": "Door of Yudhishthira's palace"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kirata kings from various mountain regions brought sandalwood, aloe wood, animal skins, gems, gold, and spices as tribute.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kirata kings"
+      ],
+      "action": "Bringing tribute",
+      "items": [
+        "Sandalwood",
+        "Aloe wood",
+        "Animal skins",
+        "Gems",
+        "Gold",
+        "Spices"
+      ],
+      "location": "Mountain regions"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Various kings and peoples bring tribute to Yudhishthira for his sacrifice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Receiving tribute",
+      "relationships": "Yudhishthira is the recipient of tribute from various kings and peoples."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Guards block the tribute bearers at the door, demanding full payment of tribute before entry.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Guards"
+      ],
+      "action": "Blocking entry",
+      "relationships": "Guards enforce Yudhishthira's command to collect tribute."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kings from various regions (e.g., Kashi, Madra, Kalinga) bring hundreds of valuables, including elephants, horses, silk, and clothes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kings of Kashi, Madra, Kalinga, etc."
+      ],
+      "action": "Bringing tribute",
+      "relationships": "These kings are tributaries to Yudhishthira."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A Gandharva named Pushpaka, follower of Indra, brings four hundred swift horses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pushpaka",
+        "Indra"
+      ],
+      "action": "Bringing horses",
+      "relationships": "Pushpaka is a Gandharva follower of Indra; brings tribute to Yudhishthira.",
+      "supernatural_elements": "Gandharva (celestial musician) involvement."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A Gandharva named Tumburu happily brings one hundred horses, colored like mango leaves and wearing gold garlands.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Tumburu"
+      ],
+      "action": "Bringing horses",
+      "relationships": "Tumburu is a Gandharva; brings tribute to Yudhishthira.",
+      "supernatural_elements": "Gandharva involvement."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Shalya of Madra sends two thousand elephants in heat, wearing gold garlands, as tribute.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya"
+      ],
+      "action": "Sending elephants",
+      "relationships": "Shalya is a king; sends tribute to Yudhishthira."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Shishupala sends ten thousand female slaves, ten thousand slaves with wives, twenty-six chariots yoked with elephants, and offers his entire kingdom for the Pandavas' sacrifice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shishupala"
+      ],
+      "action": "Offering tribute and kingdom",
+      "relationships": "Shishupala is a king; offers extensive tribute and his kingdom to Yudhishthira and the Pandavas."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "People from Sri Lanka bring island treasures like lapis lazuli, pearls, conches, and hundreds of saddle cloths.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sri Lankans"
+      ],
+      "action": "Bringing treasures",
+      "relationships": "Sri Lankans bring tribute to Yudhishthira."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahmins, conquered Kshatriyas, obedient Vaishyas, and Shudras joyfully bring tribute to Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmins",
+        "Kshatriyas",
+        "Vaishyas",
+        "Shudras"
+      ],
+      "action": "Bringing tribute",
+      "relationships": "Various social classes bring tribute to Yudhishthira."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana expresses distress and a desire to die upon seeing the diverse gifts given to his enemies (the Pandavas).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Expressing distress",
+      "relationships": "Duryodhana is an enemy of the Pandavas; feels jealous and anguished.",
+      "plot_points": "Highlights the rivalry and Duryodhana's emotional reaction to the Pandavas' success."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira provides food and supplies to his vast army and attendants.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Provisioning army",
+      "details": "His forces include 30,010,000 mounted troops, 10 million chariots, and many foot soldiers. Food is prepared and distributed to all."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira supports 88,000 learned Brahmins, each with thirty female servants.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Patronage of Brahmins",
+      "details": "The Brahmins are satisfied and wish for the destruction of Yudhishthira's enemies."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi personally ensures everyone, including the disabled, is fed before she eats.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi"
+      ],
+      "action": "Overseeing welfare",
+      "details": "She checks on all attendants, even the hunchbacks and dwarfs."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana lists the kingdoms that do not pay tribute to the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Political observation",
+      "relationships": "The Panchalas (through marriage), Andhakas, and Vrishnis (through friendship) are allied with the Pandavas and do not pay tribute."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Various kings bring gifts for Yudhishthira's consecration ceremony.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Various Kings (including Bahlika, Sunitha, Shalya, Kashi)",
+        "Yudhishthira"
+      ],
+      "action": "Bringing tribute/gifts",
+      "details": "Gifts include a golden chariot, an elephant king, armor, crowns, swords, water, and other ceremonial items."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sages, including Vamadeva, Vyasa, Narada, Devala, and Asita, begin the consecration ceremony.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vamadeva",
+        "Vyasa",
+        "Narada",
+        "Devala",
+        "Asita",
+        "Yudhishthira"
+      ],
+      "action": "Consecration ritual",
+      "details": "The sages perform the ceremony with joy."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki holds the umbrella, Arjuna and Bhima wave fans for Yudhishthira during the ceremony.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Arjuna",
+        "Bhima",
+        "Yudhishthira"
+      ],
+      "action": "Honoring Yudhishthira",
+      "relationships": "Satyaki, Arjuna, and Bhima are loyal supporters and relatives of Yudhishthira."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna consecrates Yudhishthira using a divine conch shell originally from Varuna, given by the ocean.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira"
+      ],
+      "action": "Divine consecration",
+      "supernatural_elements": "The conch shell was crafted by Vishvakarma, adorned with gold, and previously owned by Varuna and Indra.",
+      "relationships": "Krishna, an ally and divine figure, performs the ritual."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana expresses his sorrow and envy upon witnessing Yudhishthira's prosperity and consecration.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Emotional reaction",
+      "details": "He is 'sad at heart' while describing the scene to his father, Dhritarashtra, highlighting his growing resentment."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "People traveled from the eastern ocean to the western and southern oceans, but the northern ocean could only be reached by birds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "People (unspecified)"
+      ],
+      "type": "Geographical description",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Hundreds of conch shells were blown for celebration, causing the speaker's hair to stand on end.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "People (unspecified)"
+      ],
+      "type": "Celebration",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kings with insufficient courage fainted, but eight heroes remained steadfast: Shikhandin, the five Pandavas, Satyaki, and Krishna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Satyaki",
+        "Krishna"
+      ],
+      "type": "Demonstration of courage",
+      "relationships": "The Pandavas (Yudhishthira, Bhima, Arjuna, Nakula, Sahadeva) are brothers; Krishna is their cousin and ally; Shikhandin and Satyaki are allies.",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna (referred to as Vibhatsu) joyfully gifted five hundred golden-horned bulls to leading Brahmins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Brahmins (unspecified)"
+      ],
+      "type": "Generosity/ritual offering",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker compares Arjuna's fortune to legendary kings like Indra (who killed Shambara), Mandhata, Manu, Prithu, and Bhagiratha, noting none had luck like Kunti's son (Arjuna) in performing the Rajasuya sacrifice like Harishchandra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Indra",
+        "Mandhata",
+        "Manu",
+        "Prithu",
+        "Bhagiratha",
+        "Harishchandra"
+      ],
+      "type": "Comparison/boast",
+      "relationships": "Arjuna is Kunti's son; Indra is a deity; others are legendary kings.",
+      "supernatural_elements": "Mythological references to deities and legendary figures."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker expresses despair and physical decline upon seeing Arjuna's prosperity, questioning their own happiness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Speaker (implied as Duryodhana from context)",
+        "Arjuna"
+      ],
+      "type": "Emotional reaction",
+      "relationships": "Duryodhana and Arjuna are cousins and rivals.",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra advises his son Duryodhana not to feud with the Pandavas, warning that hatred brings pain like death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Duryodhana"
+      ],
+      "type": "Parental advice",
+      "relationships": "Dhritarashtra is Duryodhana's father; Duryodhana is Dhritarashtra's son.",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra argues that Yudhishthira shares equal wealth and friends, so Duryodhana should not envy him, and priests could perform grand sacrifices for Duryodhana instead.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Duryodhana",
+        "Yudhishthira"
+      ],
+      "type": "Counsel against envy",
+      "relationships": "Dhritarashtra is father to Duryodhana and uncle to Yudhishthira; Duryodhana and Yudhishthira are cousins and rivals.",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra emphasizes contentment with one's own property, diligence, and self-control as paths to happiness and prosperity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Duryodhana"
+      ],
+      "type": "Moral instruction",
+      "relationships": "Father advising son.",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana accuses Dhritarashtra of deceiving him, endangering the Kauravas, and being misguided in his advice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Dhritarashtra"
+      ],
+      "type": "Conflict/accusation",
+      "relationships": "Son confronts father.",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌 (Duryodhana) expresses his distress at seeing the prosperity of the Pandavas and his desire for their wealth and power.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌 (Duryodhana)"
+      ],
+      "action": "Expression of distress and ambition",
+      "relationships": [
+        "难敌 (Duryodhana) is envious of the Pandavas' prosperity"
+      ],
+      "supernatural_elements": null
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "沙恭尼 (Shakuni) proposes to win the Pandavas' prosperity through gambling instead of warfare, boasting of his expertise.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "沙恭尼 (Shakuni)",
+        "难敌 (Duryodhana)"
+      ],
+      "action": "Proposal to use gambling as a strategy",
+      "relationships": [
+        "沙恭尼 (Shakuni) is advising 难敌 (Duryodhana)"
+      ],
+      "supernatural_elements": null
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌 (Duryodhana) presents 沙恭尼 (Shakuni)'s gambling plan to his father, 持国 (Dhritarashtra), seeking approval.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌 (Duryodhana)",
+        "持国 (Dhritarashtra)"
+      ],
+      "action": "Seeking parental approval for a plan",
+      "relationships": [
+        "难敌 (Duryodhana) is son of 持国 (Dhritarashtra)"
+      ],
+      "supernatural_elements": null
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国 (Dhritarashtra) states he will consult with his brother 维杜罗 (Vidura) before deciding on the matter.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国 (Dhritarashtra)",
+        "维杜罗 (Vidura)"
+      ],
+      "action": "Decision to seek counsel",
+      "relationships": [
+        "持国 (Dhritarashtra) and 维杜罗 (Vidura) are brothers"
+      ],
+      "supernatural_elements": null
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana expresses his distrust of Vidura and argues for pursuing his own interests, advocating for building an assembly hall and gambling with the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "type": "Argument/Plotting",
+      "relationships": [
+        "Duryodhana distrusts Vidura",
+        "Duryodhana desires conflict with Pandavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra expresses his dislike for conflict with stronger opponents and warns Duryodhana about the dangers of hatred and disputes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra"
+      ],
+      "type": "Warning/Advice",
+      "relationships": [
+        "Dhritarashtra is father to Duryodhana",
+        "Dhritarashtra fears conflict with Pandavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana persists, citing ancient gambling traditions and claiming it won't lead to destruction, urging Dhritarashtra to order the construction of an assembly hall.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "type": "Persuasion",
+      "relationships": [
+        "Duryodhana manipulates Dhritarashtra"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra reluctantly agrees to Duryodhana's plan, believing fate is unavoidable, and orders the construction of a magnificent assembly hall.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra"
+      ],
+      "type": "Decision/Order",
+      "relationships": [
+        "Dhritarashtra yields to Duryodhana's pressure"
+      ],
+      "supernatural_elements": [
+        "Dhritarashtra believes in unavoidable fate/destiny"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The assembly hall is quickly constructed by skilled craftsmen and reported complete to Dhritarashtra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Craftsmen"
+      ],
+      "type": "Construction/Completion"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra orders Vidura to invite Yudhishthira and his brothers to see the new hall and play dice there.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Vidura",
+        "Yudhishthira"
+      ],
+      "type": "Command/Invitation",
+      "relationships": [
+        "Dhritarashtra commands Vidura",
+        "Vidura serves Dhritarashtra",
+        "Yudhishthira is leader of Pandavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vidura objects to the mission, warning that it will lead to family destruction and conflict among the cousins during gambling.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vidura"
+      ],
+      "type": "Warning/Objection",
+      "relationships": [
+        "Vidura is advisor to Dhritarashtra",
+        "Vidura foresees disaster"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra dismisses Vidura's concerns, citing fate and the will of the Creator, and insists Vidura bring Yudhishthira as commanded.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Vidura"
+      ],
+      "type": "Conflict/Insistence",
+      "relationships": [
+        "Dhritarashtra overrules Vidura"
+      ],
+      "supernatural_elements": [
+        "Dhritarashtra references fate and the Creator's will"
+      ]
+    },
+    "_token_interval": null
+  }
+]

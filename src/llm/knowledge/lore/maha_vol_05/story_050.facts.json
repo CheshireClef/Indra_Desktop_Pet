@@ -1,0 +1,1256 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma narrated a parable about three fish to illustrate the importance of timely action and foresight.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Yudhishthira"
+      ],
+      "type": "Narration/Teaching",
+      "relationships": "Bhishma (granduncle/advisor) advises Yudhishthira (grandnephew/king)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In the parable, three fish (Foresighted Fish, Timely Fish, and Hesitant Fish) lived in a shallow pond.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Foresighted Fish",
+        "Timely Fish",
+        "Hesitant Fish"
+      ],
+      "type": "Parable Setup",
+      "relationships": "Three fish friends"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Fishermen arrived, drained the pond, and the Foresighted Fish immediately escaped to a deeper pond.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Foresighted Fish",
+        "Fishermen"
+      ],
+      "action": "Escape",
+      "reason": "Proactive foresight"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Hesitant Fish was caught and killed by the fishermen due to inaction.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hesitant Fish",
+        "Fishermen"
+      ],
+      "action": "Capture/Death",
+      "reason": "Lack of timely response"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Timely Fish pretended to be caught, then escaped when washed in clean water.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Timely Fish",
+        "Fishermen"
+      ],
+      "action": "Deceptive Escape",
+      "reason": "Opportunistic timing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma concluded the parable with teachings on wisdom, time, place, and proper action.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Moral Lesson",
+      "teachings": [
+        "Foresight prevents danger",
+        "Hesitation leads to destruction",
+        "Timely action ensures survival"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira acknowledged Bhishma's wisdom and requested further teachings on handling emergencies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Dialogue",
+      "relationships": "Student-teacher dynamic",
+      "request": "Guidance on maintaining clarity under pressure"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Bhishma about strategies for a king surrounded by enemies and how to handle friends and enemies in crisis.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Question/Advice",
+      "relationships": [
+        "Bhishma is the grandfather and advisor to Yudhishthira"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma responds to Yudhishthira, explaining that decisions should be based on time, place, and circumstances, and that one should ally with wise people who offer benefits, even making peace with enemies if necessary.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Yudhishthira"
+      ],
+      "type": "Teaching/Advice",
+      "relationships": [
+        "Bhishma is imparting wisdom to Yudhishthira"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma cites an ancient tale about a cat and a mouse under a banyan tree to illustrate his points.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Story Introduction",
+      "relationships": [
+        "Bhishma is the narrator of the story"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In a large forest near the Vairantya region, there is a huge banyan tree where a clever mouse named Palita lives in the roots with a hundred exits, and a cat named Lomasha lives comfortably on the branches, busy catching birds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Palita (mouse)",
+        "Lomasha (cat)"
+      ],
+      "type": "Setting/Introduction",
+      "relationships": [
+        "Palita and Lomasha are enemies"
+      ],
+      "supernatural_elements": [
+        "None"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A Chandala (hunter) arrives, lives in Vairantya, sets leather noose traps at sunset, and returns at dawn, catching many animals each night.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Chandala (hunter)"
+      ],
+      "type": "Conflict Setup",
+      "relationships": [
+        "The Chandala poses a threat to animals in the forest"
+      ],
+      "supernatural_elements": [
+        "None"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The cat Lomasha accidentally gets caught in one of the Chandala's noose traps.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Lomasha (cat)"
+      ],
+      "type": "Conflict",
+      "relationships": [
+        "Lomasha is trapped by the Chandala's device"
+      ],
+      "supernatural_elements": [
+        "None"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The mouse Palita, seeing his eternal enemy Lomasha trapped, realizes it's a good opportunity and comes out fearlessly to wander and search for food.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Palita (mouse)",
+        "Lomasha (cat)"
+      ],
+      "type": "Opportunity/Exploration",
+      "relationships": [
+        "Palita takes advantage of Lomasha's predicament"
+      ],
+      "supernatural_elements": [
+        "None"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Palita finds a piece of meat, climbs the noose to eat it, and mocks the trapped Lomasha above him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Palita (mouse)",
+        "Lomasha (cat)"
+      ],
+      "type": "Action/Mockery",
+      "relationships": [
+        "Palita taunts Lomasha while he is helpless"
+      ],
+      "supernatural_elements": [
+        "None"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "While eating the meat, Palita suddenly sees another terrible enemy approaching: a mongoose named Harika, who lives in a burrow, is ash-colored with reddish-brown eyes, and moves swiftly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Palita (mouse)",
+        "Harika (mongoose)"
+      ],
+      "type": "New Threat",
+      "relationships": [
+        "Harika is a natural predator and enemy of Palita"
+      ],
+      "supernatural_elements": [
+        "None"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A mongoose smelled a mouse and approached, standing on the ground, looking up and licking its lips, wanting to eat the mouse.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mongoose",
+        "Mouse"
+      ],
+      "action": "Predatory approach",
+      "type": "Conflict initiation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The mouse saw another enemy on a branch - an owl named Chandrak living in a tree hole, a nocturnal creature with a sharp beak.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mouse",
+        "Chandrak (Owl)"
+      ],
+      "action": "Discovery of second enemy",
+      "type": "Increased threat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The mouse, trapped between the mongoose and owl, became extremely fearful and contemplated survival strategies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mouse",
+        "Mongoose",
+        "Chandrak (Owl)"
+      ],
+      "action": "Strategic thinking",
+      "type": "Crisis assessment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The mouse realized the cat (previously trapped) could be an ally and decided to form an alliance with this enemy.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mouse",
+        "Cat"
+      ],
+      "action": "Strategic alliance formation",
+      "type": "Political maneuver"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The mouse spoke to the cat in a comforting tone, offering to save it by gnawing through its bonds in exchange for protection.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mouse",
+        "Cat"
+      ],
+      "action": "Negotiation and offer",
+      "type": "Diplomatic exchange",
+      "terms": "Mouse will free cat if cat protects mouse from mongoose and owl"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The mouse emphasized their shared residence in the tree and proposed mutual benefit through cooperation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mouse",
+        "Cat"
+      ],
+      "action": "Building rapport",
+      "type": "Relationship establishment",
+      "basis": "Neighbors in same tree, mutual survival interest"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pulinda the mouse proposes a mutual rescue plan to Lomasha the cat, using the analogy of two people crossing a river together on a log.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pulinda",
+        "Lomasha"
+      ],
+      "action": "Proposal of alliance",
+      "relationship_change": "From enemies to potential allies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Lomasha the cat, recognizing the wisdom in Pulinda's words and considering their shared desperate situation, agrees to the alliance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Lomasha",
+        "Pulinda"
+      ],
+      "action": "Acceptance of proposal",
+      "relationship_change": "Formation of temporary alliance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pulinda explains the specific plan: he will hide near Lomasha for protection from the mongoose and owl, and in return will chew through Lomasha's snare.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pulinda",
+        "Lomasha"
+      ],
+      "action": "Detailed plan explanation",
+      "conditions": "Mutual protection and rescue"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Lomasha welcomes Pulinda, expresses friendship, and promises future rewards once they are both safe.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Lomasha",
+        "Pulinda"
+      ],
+      "action": "Formal alliance agreement",
+      "relationship_change": "Establishment of trust"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pulinda approaches Lomasha and stays safely in the cat's embrace, implementing their plan.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pulinda",
+        "Lomasha"
+      ],
+      "action": "Plan implementation",
+      "result": "Mouse gains protection from cat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The mongoose and owl, seeing Pulinda protected by Lomasha, give up and return to their nests.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mongoose",
+        "Owl",
+        "Pulinda",
+        "Lomasha"
+      ],
+      "action": "Threat neutralization",
+      "result": "Immediate danger averted for both characters"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Polidota (the mouse) stayed in Lomasha's (the cat's) embrace, slowly gnawing the noose while waiting for the right time.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Polidota",
+        "Lomasha"
+      ],
+      "action": "Gnawing noose",
+      "relationship": "Temporary alliance under duress",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Lomasha, suffering in the noose, grew impatient with Polidota's slow progress and urged him to hurry.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Lomasha",
+        "Polidota"
+      ],
+      "action": "Urging to hurry",
+      "conflict": "Impatience vs. strategic delay",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Polidota explained his strategy: he would wait until the Chandala hunter arrived with weapons, creating mutual fear, before finishing the noose.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Polidota"
+      ],
+      "action": "Explaining timing strategy",
+      "reason": "To ensure his own safety by creating a distraction",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Lomasha appealed to Polidota's sense of friendship and asked for forgiveness for past wrongs, urging faster action.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Lomasha",
+        "Polidota"
+      ],
+      "action": "Appeal and apology",
+      "relationship_dynamic": "Attempt to invoke friendship/guilt",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Polidota responded that friendship is based on mutual interest and fear, and he must protect himself.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Polidota"
+      ],
+      "action": "Philosophical discourse on friendship",
+      "key_point": "Alliances are temporary and interest-based",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Polidota assured Lomasha he would finish gnawing the last rope when the time was right, as night passed and fear grew.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Polidota",
+        "Lomasha"
+      ],
+      "action": "Final assurance",
+      "tension": "Impending hunter arrival",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "At dawn, the hunter named Palita (a Chandala) arrived with his dogs, causing fear among the animals.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Palita (Hunter)"
+      ],
+      "action": "Arrival of hunter",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The cat (Lomasa) saw Palita and became terrified, asking the mouse (Paridhvamsin) what to do.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Lomasa (Cat)",
+        "Paridhvamsin (Mouse)"
+      ],
+      "action": "Cat expresses fear and seeks mouse's help",
+      "relationships": "Cat and mouse are in an alliance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The mongoose and owl saw the hunter and left in fear, unable to attack despite being strong and intelligent.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mongoose",
+        "Owl"
+      ],
+      "action": "Mongoose and owl retreat",
+      "relationships": "Mongoose and owl are enemies of cat and mouse"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing the cat and mouse working together, the mongoose and owl quickly returned to their respective homes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mongoose",
+        "Owl",
+        "Lomasa (Cat)",
+        "Paridhvamsin (Mouse)"
+      ],
+      "action": "Enemies retreat due to alliance",
+      "relationships": "Alliance between cat and mouse prevents attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The mouse bit through the cat's rope, freeing the cat who then climbed a tree.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Paridhvamsin (Mouse)",
+        "Lomasa (Cat)"
+      ],
+      "action": "Mouse frees cat, cat escapes to tree",
+      "relationships": "Mouse saves cat's life"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Both cat and mouse escaped danger - the mouse went into its hole and the cat climbed the tree.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Paridhvamsin (Mouse)",
+        "Lomasa (Cat)"
+      ],
+      "action": "Both animals find safety",
+      "relationships": "Mutual survival achieved"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The hunter Palita witnessed this, became disappointed, picked up his rope, and returned home.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Palita (Hunter)"
+      ],
+      "action": "Hunter leaves empty-handed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The cat Lomasa, now safe in the tree, called out to the mouse Paridhvamsin in the hole, expressing gratitude and offering friendship.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Lomasa (Cat)",
+        "Paridhvamsin (Mouse)"
+      ],
+      "action": "Cat offers friendship and rewards",
+      "relationships": "Cat proposes permanent alliance",
+      "changes_in_relationships": "Cat offers to elevate mouse's status"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The mouse Paridhvamsin responded with wisdom about the nature of friendship and enmity, explaining they are based on practical needs rather than permanent bonds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Paridhvamsin (Mouse)"
+      ],
+      "action": "Mouse explains philosophy of relationships",
+      "relationships": "Mouse maintains pragmatic view of alliance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A character (likely a wise being or narrator) delivers philosophical teachings about trust, relationships, and self-interest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator/Wise Being"
+      ],
+      "action": "Philosophical discourse",
+      "key_points": [
+        "Blind trust in friends and distrust of enemies is dangerous",
+        "Pure-heartedness without practical consideration leads to confusion",
+        "Excessive trust in anyone can be harmful",
+        "Even family relationships are based on practical interests"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The narrator addresses another character (likely an animal or being caught in a trap), analyzing their previous actions and current situation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator/Wise Being",
+        "Trapped Being"
+      ],
+      "action": "Analysis of past events",
+      "key_points": [
+        "The trapped being was previously rescued but then carelessly pursued prey and got caught",
+        "The trapped being lacked vigilance and acted impulsively",
+        "Impulsive action endangers oneself and others"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The narrator explains the nature of relationships and affection in the world.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator/Wise Being"
+      ],
+      "action": "Explanation of worldly relationships",
+      "key_points": [
+        "Sweet words and declarations of kinship are often deceptive",
+        "Affection and hatred both have causes",
+        "The world is driven by self-interest",
+        "Even love between siblings or spouses has underlying causes",
+        "People become close for practical reasons like gifts, kind words, or rituals"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The narrator addresses the specific relationship between themselves and the trapped being.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator/Wise Being",
+        "Trapped Being"
+      ],
+      "action": "Analysis of their relationship",
+      "key_points": [
+        "Their closeness was conditional and temporary",
+        "The narrator understands the trapped being's true motive is to eat them",
+        "Time and circumstances change relationships",
+        "The trapped being approached the narrator for its own purposes",
+        "Their friendship has ended as the circumstances that created it have passed"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The narrator declares their philosophical stance and strategic approach to relationships.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator/Wise Being"
+      ],
+      "action": "Declaration of principles",
+      "key_points": [
+        "They balance peace and war while pursuing self-interest",
+        "They adapt like changing clouds",
+        "Enemies and friends can change rapidly based on strategy",
+        "They are knowledgeable about various scriptures and strategies"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The narrator explains why they wouldn't fall into the trapped being's snare and concludes their interaction.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator/Wise Being",
+        "Trapped Being"
+      ],
+      "action": "Conclusion and parting",
+      "key_points": [
+        "The narrator is too knowledgeable to be caught in traps",
+        "They saved each other through mutual courage",
+        "Their mutual obligations are now fulfilled",
+        "Their purposes have been achieved",
+        "The narrator acknowledges they are now just potential food for the trapped being",
+        "They recognize the power imbalance between them"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The mouse (Polidota) refuses to form an alliance with the cat (Lomasa) after saving it, citing fear and self-preservation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Polidota",
+        "Lomasa"
+      ],
+      "action": "Refusal of alliance",
+      "reason": "Fear of being eaten, self-preservation",
+      "relationship_change": "Distrust established"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Polidota explains that enemies driven by hunger cannot be trusted, and one should protect oneself even by abandoning family and wealth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Polidota"
+      ],
+      "action": "Philosophical argument",
+      "key_points": [
+        "Self-preservation over alliances",
+        "Distrust of hungry enemies",
+        "Wealth can be regained but not life"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Lomasa responds by praising Polidota's wisdom and expressing gratitude for being saved, claiming to be virtuous and trustworthy.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Lomasa"
+      ],
+      "action": "Persuasion attempt",
+      "key_points": [
+        "Acknowledges Polidota's wisdom",
+        "Claims gratitude and virtue",
+        "Offers friendship and loyalty"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Polidota remains unconvinced, citing that wise people should not trust enemies without cause and quotes teachings about caution with strong allies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Polidota"
+      ],
+      "action": "Final refusal",
+      "key_points": [
+        "Rejects persuasion",
+        "Quotes teachings on caution",
+        "Maintains distrust"
+      ],
+      "relationship_change": "Alliance definitively rejected"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The mouse (Politoda) advises the cat about the supreme principle of statecraft being distrust, and warns both to protect themselves from each other and from a cruel Chandala.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Politoda (mouse)",
+        "Cat"
+      ],
+      "action": "Advice/Warning",
+      "relationships": [
+        "Advisor-advisee",
+        "Potential enemies"
+      ],
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The cat becomes fearful and quickly runs back to its nest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Cat"
+      ],
+      "action": "Flight/Fear",
+      "relationships": [
+        "Responds to warning"
+      ],
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Politoda, wise and knowledgeable in scriptures, demonstrates his intelligence and enters his hole.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Politoda (mouse)"
+      ],
+      "action": "Demonstration of wisdom",
+      "relationships": [
+        "Self-preservation"
+      ],
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The narrator explains that Politoda, though weak, defeated many strong ones through wisdom alone, and that wise ones can make peace with powerful enemies, as the mouse and cat saved each other through mutual dependence.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Politoda (mouse)",
+        "Cat"
+      ],
+      "action": "Moral/Lesson",
+      "relationships": [
+        "Mutual dependence for survival"
+      ],
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The narrator addresses Yudhishthira, summarizing the Kshatriya dharma: maintain vigilance despite apparent friendliness, rely on wisdom, be cautious, make peace or fight as needed, and always be prepared and fearful to generate wisdom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator",
+        "Yudhishthira"
+      ],
+      "action": "Instruction/Summary",
+      "relationships": [
+        "Teacher-student"
+      ],
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The narrator advises Yudhishthira to apply the wisdom from this tale, distinguish friends from enemies, know the time for peace and war, unite with the strong against common enemies cautiously, and not trust the strong afterward.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator",
+        "Yudhishthira"
+      ],
+      "action": "Practical application advice",
+      "relationships": [
+        "Advisor-advisee"
+      ],
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The narrator concludes by urging Yudhishthira to follow this strategy for the three aims of life, rise again, consult with Brahmins, and notes that Brahmins are the highest happiness and are grateful and pure.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator",
+        "Yudhishthira"
+      ],
+      "action": "Concluding exhortation",
+      "relationships": [
+        "Advisor-advisee"
+      ],
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text describes the benefits a king will obtain by following the teachings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King (generic)"
+      ],
+      "action": "Receiving benefits (kingdom, honor, fame, progeny, supreme happiness)",
+      "type": "Instruction/Promise"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text references a story about a cat and a mouse concerning peace and war.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Cat (generic)",
+        "Mouse (generic)"
+      ],
+      "action": "Story about peace and war strategies",
+      "type": "Analogy/Instruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The king is advised to remember these teachings to navigate among enemies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King (generic)"
+      ],
+      "action": "Advised to remember teachings for strategy",
+      "type": "Instruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text concludes by identifying its source as the Mahabharata, specifically the Shanti Parva (Book of Peace), Chapter 136.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Source citation",
+      "type": "Meta-information"
+    },
+    "_token_interval": null
+  }
+]

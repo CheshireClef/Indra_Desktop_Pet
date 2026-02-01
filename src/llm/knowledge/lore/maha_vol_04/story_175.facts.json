@@ -1,0 +1,922 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Janamejaya (镇群) expresses his delight and curiosity about the story of Kumara's consecration and asks about how the gods and asuras consecrated Varuna as the lord of waters.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Janamejaya",
+        "Suta (护民子)"
+      ],
+      "type": "Dialogue/Inquiry"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Suta narrates that in a previous age, all the gods gathered and approached Varuna, asking him to become the lord of rivers like Indra protects the gods.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Varuna",
+        "All Gods"
+      ],
+      "type": "Divine Appointment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Varuna agrees, and the gods consecrate him as the lord of waters, after which he protects rivers, lakes, seas, and other waters.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Varuna",
+        "All Gods"
+      ],
+      "action": "Consecration",
+      "result": "Varuna becomes protector of waters"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Janamejaya asks why Agni disappeared and how he was found by the gods.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Janamejaya",
+        "Suta"
+      ],
+      "type": "Dialogue/Inquiry"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Suta explains that Agni, cursed by Bhrigu, hid inside a Sami tree out of fear, causing the world to lose light.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Agni",
+        "Bhrigu"
+      ],
+      "action": "Hiding/Disappearance",
+      "reason": "Curse by Bhrigu"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The gods, including Indra, became anxious and searched for Agni, eventually finding him in the Sami tree at the Agni tirtha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Agni",
+        "Indra",
+        "All Gods",
+        "Brihaspati"
+      ],
+      "action": "Search and Discovery",
+      "result": "Agni found"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The gods, led by Brihaspati and Indra, were delighted to see Agni and returned, with Agni becoming omnivorous.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Agni",
+        "Indra",
+        "Brihaspati",
+        "All Gods"
+      ],
+      "type": "Resolution",
+      "result": "Agni's nature changes to omnivorous"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Balarama visited the Brahma's Womb (梵胎) holy site where Brahma created the world and performed rituals with the gods.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Balarama",
+        "Brahma"
+      ],
+      "action": "Bathing and giving alms",
+      "location": "Brahma's Womb holy site"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Balarama visited the Kubera (俱比罗) holy site where Kubera performed severe austerities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Balarama",
+        "Kubera"
+      ],
+      "action": "Bathing, giving alms, and visiting the site",
+      "location": "Kubera holy site"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kubera performed severe austerities at the site, gaining wealth, friendship with Rudra, divine status, and a son named Nalakubara.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kubera",
+        "Rudra"
+      ],
+      "action": "Performing austerities and receiving boons",
+      "supernatural_elements": "Gained divine status, friendship with Rudra, and a son"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Maruts performed coronation for Kubera, giving him a celestial chariot and sovereignty over the Ninetas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kubera",
+        "Maruts"
+      ],
+      "action": "Coronation and bestowing gifts",
+      "supernatural_elements": "Celestial chariot and sovereignty"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Balarama visited the Cooking Dates (烹枣) holy site, a place frequented by ascetics and perfected beings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Balarama"
+      ],
+      "action": "Visiting the holy site",
+      "location": "Cooking Dates holy site"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sarujavati, daughter of sage Bharadvaja, performed severe austerities to make Indra her husband.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sarujavati",
+        "Indra"
+      ],
+      "action": "Performing austerities",
+      "relationship": "Sarujavati desires Indra as husband"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra, pleased with Sarujavati's austerities, visited her hermitage disguised as sage Vasistha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Sarujavati",
+        "Vasistha"
+      ],
+      "action": "Disguised visit",
+      "supernatural_elements": "Indra disguises as Vasistha"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sarujavati worshiped Indra (disguised as Vasistha) according to sage customs.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sarujavati",
+        "Indra"
+      ],
+      "action": "Worshiping",
+      "relationship": "Sarujavati shows reverence to Indra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The beautiful woman, who knows the rules, speaks respectfully to the sage, addressing him as 'Bhagavan' and 'Tiger among Munis', and asks for his instructions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage (likely Indra in disguise)",
+        "The woman (later identified as Sarujjhavati)"
+      ],
+      "type": "Dialogue/Request"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "condition",
+    "extraction_text": "The woman states she will do everything for the sage today, but cannot give him her hand, as she must maintain her devotion to Sakra (Indra).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "proposer": "Sarujjhavati",
+      "limitation": "Cannot give her hand",
+      "reason": "Devotion to Indra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The woman explains she practices severe austerities and restrains herself strictly to please Indra, the lord of the three worlds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sarujjhavati"
+      ],
+      "action": "Explaining her austerities",
+      "purpose": "To please Indra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The great sage (Indra in disguise) smiles upon hearing her words and speaks to comfort her, acknowledging her severe penances and her hidden purpose.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra (as the sage)",
+        "Sarujjhavati"
+      ],
+      "action": "Acknowledgment and comfort",
+      "type": "Divine interaction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra (as the sage) praises the power of austerities, stating that through penance one can achieve any goal, even the status of a god, and that it is the foundation of supreme bliss.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra"
+      ],
+      "action": "Teaching/Praise of austerities",
+      "theme": "Power of penance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "instruction",
+    "extraction_text": "Indra (as the sage) instructs the woman to cook some red dates (jujubes), emphasizing she must cook them, before leaving.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "instructor": "Indra",
+      "recipient": "Sarujjhavati",
+      "task": "Cook red dates"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After leaving the woman, Indra (now revealed as the slayer of Bala) chants prayers at a spot near her hermitage, which becomes famous as the Indra Tirtha (sacred ford).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra"
+      ],
+      "action": "Chanting prayers",
+      "result": "Creation of Indra Tirtha",
+      "type": "Divine act/Site creation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra, wishing to test the woman, uses his power to prevent the dates from cooking.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Sarujjhavati"
+      ],
+      "action": "Divine obstruction",
+      "purpose": "Test her resolve",
+      "type": "Divine test"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sarujjhavati, wearing clean clothes, places the dates on the fire to cook. She remains silent, restrained, focused, and untiring in her effort.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sarujjhavati"
+      ],
+      "action": "Attempting to cook the dates",
+      "qualities": "Restraint, focus, perseverance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "She cooks for a very long time, until the day is nearly over, but the dates do not cook. All the firewood is exhausted.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sarujjhavati"
+      ],
+      "action": "Persistent but failed cooking",
+      "challenge": "Dates won't cook, fuel runs out"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "With no more wood, Sarujjhavati begins to burn her own body in the fire, starting with her feet.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sarujjhavati"
+      ],
+      "action": "Self-immolation (using her body as fuel)",
+      "demonstration": "Extreme devotion and austerity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Despite the burning pain in her feet, the lotus-eyed woman pays no heed, determined to please the great sage (Indra).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sarujjhavati"
+      ],
+      "action": "Enduring pain",
+      "motive": "To please Indra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra, the lord of the three worlds, seeing this, is greatly pleased and reveals his true form to her.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Sarujjhavati"
+      ],
+      "action": "Divine revelation",
+      "reason": "Pleased with her devotion",
+      "type": "Divine appearance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra addresses the vow-keeping woman, expressing his satisfaction with her devotion, austerities, and observance of vows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Sarujjhavati"
+      ],
+      "action": "Divine praise",
+      "qualities praised": "Devotion, penance, vow-keeping"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "boon",
+    "extraction_text": "Indra grants her a boon: her long-held wish will be fulfilled. After she leaves her body, she will come to dwell in his heaven, Indraloka. Her hermitage will become an eternal, extraordinary sacred site that removes all sins, known as the 'Pacala Tirtha' (Cooking Dates Ford), famous in the three worlds and favored by Brahma-sages.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "grantor": "Indra",
+      "recipient": "Sarujjhavati",
+      "boons": [
+        "Wish fulfillment",
+        "Ascension to Indraloka after death",
+        "Hermitage becomes eternal sacred site (Pacala Tirtha)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "note",
+    "extraction_text": "The text concludes by noting that in this very site, the seven sages (Saptarishis) once placed Arundhati (likely a reference to a star or another figure), but the sentence is cut off.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Seven Sages (Saptarishis)",
+        "Arundhati"
+      ],
+      "context": "Historical/legendary association with the site"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seven sages (Saptarishi) left their hermitage to go to the Himalayas to collect fruits and roots for sustenance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Seven Sages (Saptarishi)"
+      ],
+      "action": "Departure for sustenance gathering",
+      "location": "Himalayas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A severe twelve-year drought occurred in the world.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "type": "Natural calamity",
+      "duration": "Twelve years"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sages built their hermitage in the Himalayas and settled there, while Arundhati practiced severe austerities at the sacred site.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Seven Sages (Saptarishi)",
+        "Arundhati"
+      ],
+      "action": "Separation and individual practices",
+      "relationship": "Arundhati is wife of one of the sages (typically Vasistha)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shiva, pleased with Arundhati's austerities, disguised himself as a Brahmin and approached her asking for alms.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shiva",
+        "Arundhati"
+      ],
+      "action": "Divine test/disguise",
+      "supernatural": "Shiva's transformation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arundhati offered to cook dates for the Brahmin since she had no other food.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arundhati",
+        "Shiva (as Brahmin)"
+      ],
+      "action": "Offering hospitality"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arundhati cooked dates while listening to the Brahmin's sacred stories, and the twelve-year drought passed unnoticed for her.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arundhati",
+        "Shiva (as Brahmin)"
+      ],
+      "action": "Simultaneous cooking and listening",
+      "supernatural": "Time perception altered"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "When the seven sages returned, Shiva revealed his true form to Arundhati and praised her austerities to the sages.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shiva",
+        "Arundhati",
+        "Seven Sages (Saptarishi)"
+      ],
+      "action": "Divine revelation and praise",
+      "relationship": "Shiva acknowledges Arundhati's superior penance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shiva granted Arundhati a boon, and she requested that the place become a sacred pilgrimage site called 'Khalaprishtha' (Cooking Dates Site).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arundhati",
+        "Shiva"
+      ],
+      "action": "Boon granting",
+      "result": "Creation of sacred site"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shiva decreed that three nights of purification at this site would yield the same merit as twelve years of fasting.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shiva"
+      ],
+      "action": "Establishing sacred power",
+      "supernatural": "Divine blessing on location"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sages were amazed to find Arundhati unchanged despite her long austerities without food or water.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Seven Sages (Saptarishi)",
+        "Arundhati"
+      ],
+      "action": "Recognition of spiritual achievement",
+      "relationship": "Sages acknowledge Arundhati's spiritual strength"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra (Thousand-eyed god) appears before the pure Sarujavati and expresses satisfaction with her severe austerities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Sarujavati"
+      ],
+      "action": "Divine appearance and declaration",
+      "supernatural_elements": [
+        "Divine appearance"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra grants Sarujavati a boon: anyone who spends a night at this holy site, restrains their senses, and bathes in the water will, upon abandoning their body, go to a world difficult for ordinary people to reach.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Sarujavati"
+      ],
+      "action": "Granting of a divine boon",
+      "supernatural_elements": [
+        "Divine boon"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After speaking to Sarujavati, the mighty Indra returns to the heaven of Trāyastriṃśa.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra"
+      ],
+      "action": "Return to heaven",
+      "supernatural_elements": [
+        "Divine departure"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "As Indra (Vajra-holder) departs, a rain of heavenly flowers falls, celestial drums sound from all directions, and fragrant breezes blow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra"
+      ],
+      "action": "Celestial signs accompany departure",
+      "supernatural_elements": [
+        "Heavenly flowers",
+        "Celestial drums",
+        "Fragrant breezes"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sarujavati abandons her beautiful body, ascends to heaven, and becomes the consort of Indra, attaining a status to sport with him in heaven through her severe austerities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sarujavati",
+        "Indra"
+      ],
+      "action": "Ascension and union",
+      "relationship_change": "Sarujavati becomes Indra's consort",
+      "supernatural_elements": [
+        "Ascension to heaven",
+        "Transformation of status"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Janamejaya asks the sage Vaishampayana who Sarujavati's mother was and where the fortunate girl was raised.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Janamejaya",
+        "Vaishampayana"
+      ],
+      "action": "Question about origins",
+      "relationship": "King questioning sage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vaishampayana explains that once, the great sage Bharadvaja saw the large-eyed celestial nymph Haritaki passing by and involuntarily emitted semen.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bharadvaja",
+        "Haritaki"
+      ],
+      "action": "Involuntary emission triggered by sight",
+      "supernatural_elements": [
+        "Celestial nymph"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bharadvaja catches the semen in his hand, places it in a leaf-cup, and from it the beautiful girl is born.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bharadvaja",
+        "Sarujavati"
+      ],
+      "action": "Miraculous birth",
+      "relationship": "Bharadvaja is the progenitor/father",
+      "supernatural_elements": [
+        "Miraculous birth from semen"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The great sage Bharadvaja performs her birth rites and other rituals, names her Sarujavati in the presence of assembled sages, leaves her in the hermitage, and departs for the forests of the Himalayas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bharadvaja",
+        "Sarujavati"
+      ],
+      "action": "Naming and abandonment",
+      "relationship": "Father names and leaves daughter"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The mighty hero of the Vrishni clan (Rama) bathes at the holy site of Kārapācana, gives gifts to the great twice-born ones, restrains his senses, concentrates his mind, and sets out for the holy site of Indra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rama (Balarama)"
+      ],
+      "action": "Pilgrimage and rituals",
+      "supernatural_elements": [
+        "Holy site bathing"
+      ]
+    },
+    "_token_interval": null
+  }
+]

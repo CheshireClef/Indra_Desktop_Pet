@@ -1,0 +1,1238 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "德罗纳在战场上杀戮马匹、车夫、车兵和大象，般度族人没有惊慌，从四面八方包围德罗纳。",
+    "char_interval": {
+      "start_pos": 28,
+      "end_pos": 67
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "德罗纳",
+        "般度族人"
+      ],
+      "action": "战斗包围",
+      "type": "军事冲突"
+    },
+    "_token_interval": {
+      "start_index": 10,
+      "end_index": 20
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "国王坚战命令猛光和胜财（阿周那）挡住德罗纳，努力从四面包围他。",
+    "char_interval": {
+      "start_pos": 80,
+      "end_pos": 145
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "猛光",
+        "阿周那",
+        "德罗纳"
+      ],
+      "action": "战略指挥",
+      "relationships": [
+        "坚战是般度族国王",
+        "猛光是般遮罗王子",
+        "阿周那是坚战的弟弟",
+        "德罗纳是敌方统帅"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 24,
+      "end_index": 50
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "众多勇士包括羯迦夜族王子们、怖军、激昂、瓶首、坚战、双生子、摩差王和木柱王的儿子们、黑公主的五个儿子等一起围截德罗纳。",
+    "char_interval": {
+      "start_pos": 155,
+      "end_pos": 262
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "羯迦夜族王子们",
+        "怖军",
+        "激昂",
+        "瓶首",
+        "坚战",
+        "无种",
+        "偕天",
+        "摩差王儿子们",
+        "木柱王儿子们",
+        "黑公主儿子们",
+        "勇旗",
+        "萨谛奇",
+        "显光",
+        "尚武"
+      ],
+      "action": "集体围攻",
+      "relationships": [
+        "这些勇士都属于般度族阵营"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 54,
+      "end_index": 90
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "德罗纳看到军队遭到阻击，怒目圆睁，怒火中烧，挺立在战车上勇猛作战，横扫般度族军队。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "德罗纳"
+      ],
+      "action": "愤怒反击",
+      "type": "战斗高潮"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "德罗纳东奔西突，冲向车、马、人和象，虽已年迈却勇猛如少年，他的枣红色驷马迅疾如风。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "德罗纳"
+      ],
+      "action": "勇猛冲锋",
+      "supernatural_elements": "虽年迈却如少年般勇猛"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "般度族战士看见德罗纳冲来犹如看见愤怒的死神，纷纷夺路而逃，战场上充满恐怖呼喊。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般度族战士",
+        "德罗纳"
+      ],
+      "action": "恐慌逃散",
+      "emotional_impact": "恐惧"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "德罗纳在战斗中通报自己，变得凶狠暴戾，向敌人射去数百支箭，像死神一般杀戮坚战的军队。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "德罗纳",
+        "坚战"
+      ],
+      "action": "大规模杀戮",
+      "type": "战斗升级"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "德罗纳射落许多头颅和臂膀，让许多战车空了车座，战士们受不了他的吼叫和箭的威力。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "德罗纳"
+      ],
+      "action": "精准杀戮",
+      "weapons": "弓箭"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "德罗纳战车的隆隆声、弓弦声、弓的振动声形成巨大共鸣响彻天穹，他射出成千上万支箭击中各方目标。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "德罗纳"
+      ],
+      "action": "全面攻击",
+      "sensory_details": "声音效果"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "般遮罗人和般度族人一起逼近德罗纳，但德罗纳用威力无穷的弓将他们连同车、象和马一起送往阎摩殿，使大地布满血的泥浆。",
+    "char_interval": {
+      "start_pos": 804,
+      "end_pos": 821
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "德罗纳",
+        "般遮罗人",
+        "般度族人"
+      ],
+      "action": "大规模歼灭",
+      "aftermath": "大地布满血泥"
+    },
+    "_token_interval": {
+      "start_index": 244,
+      "end_index": 246
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "德罗纳不断投掷兵器和发射利箭，织出箭网覆盖四面八方，他的幡幢穿行在军队中犹如闪电穿行云雾。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "德罗纳"
+      ],
+      "action": "持续攻击",
+      "imagery": "箭网、闪电比喻"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "德罗纳斗志昂扬，用箭消灭了羯迦夜国的五个王子和般遮罗国王。",
+    "char_interval": {
+      "start_pos": 966,
+      "end_pos": 995
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "德罗纳",
+        "羯迦夜国王子们",
+        "般遮罗国王"
+      ],
+      "action": "击杀重要人物",
+      "casualties": "五位王子和一位国王"
+    },
+    "_token_interval": {
+      "start_index": 286,
+      "end_index": 290
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona fought fiercely against the Pandava army, killing many warriors including Shibi's grandson, Abhimanyu, and the king of Kashi.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Shibi's grandson",
+        "Abhimanyu",
+        "King of Kashi",
+        "Pandava army"
+      ],
+      "action": "Battle and killing",
+      "type": "Warfare"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona was killed by Dhrishtadyumna, the son of Drupada, on the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Dhrishtadyumna"
+      ],
+      "action": "Killing",
+      "type": "Warfare"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After Drona's death, the Pandavas achieved victory and celebrated with lion-like roars.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas"
+      ],
+      "action": "Victory celebration",
+      "type": "Warfare outcome"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra questioned how Drona, the most skilled warrior, could be killed in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra"
+      ],
+      "action": "Questioning",
+      "type": "Dialogue"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra concluded that fate is more powerful than human effort, as even Drona was killed by Dhrishtadyumna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Drona",
+        "Dhrishtadyumna"
+      ],
+      "action": "Philosophical reflection",
+      "type": "Moral conclusion"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona was killed in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Death in battle",
+      "narrator": "The speaker (likely Dhritarashtra or another grieving character)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker expresses profound grief and disbelief over Drona's death, comparing it to impossible natural events.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The speaker"
+      ],
+      "emotion": "Grief, disbelief",
+      "comparisons": [
+        "Ocean drying up",
+        "Mount Meru moving",
+        "Sun falling"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona is described as a teacher of Brahmanas and princes in sacred knowledge, Vedas, and military science.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "role": "Teacher",
+      "students": [
+        "Brahmanas",
+        "Princes"
+      ],
+      "subjects": [
+        "Sacred knowledge",
+        "Vedas",
+        "Military science"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona is praised as a punisher of the arrogant, protector of the lawful, and tormentor of enemies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "qualities": [
+        "Punisher of arrogant",
+        "Protector of lawful",
+        "Tormentor of enemies"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona fought from a golden chariot drawn by strong, swift Sindhu horses adorned with golden garlands.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "equipment": [
+        "Golden chariot",
+        "Sindhu horses with golden garlands"
+      ],
+      "battle_capabilities": [
+        "Swift",
+        "Enduring",
+        "Fearless in battle"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker questions how Drona, with his wisdom comparable to Brihaspati and Ushanas, could be killed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "comparison": [
+        "Brihaspati",
+        "Ushanas"
+      ],
+      "action": "Questioning his death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas, led by Yudhishthira and his brothers with support from Dhrishtadyumna, surrounded Drona with their armies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Pandava brothers",
+        "Dhrishtadyumna"
+      ],
+      "action": "Surrounding Drona",
+      "alliance": "Pandavas and Dhrishtadyumna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna held off other chariot warriors, allowing Dhrishtadyumna to attack and kill Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Dhrishtadyumna",
+        "Drona"
+      ],
+      "action": "Arjuna protects Dhrishtadyumna who kills Drona",
+      "relationship": "Arjuna enables Dhrishtadyumna's attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhrishtadyumna, supported by various kings, swarmed and killed Drona like ants attacking a snake.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "Drona",
+        "Kings of Kekaya, Chedi, Karusha, Matsya"
+      ],
+      "action": "Swarming and killing",
+      "comparison": "Ants attacking a snake"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona is honored as master of the four Vedas and the fifth Veda, and a refuge for all Brahmanas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "knowledge": [
+        "Four Vedas",
+        "Fifth Veda"
+      ],
+      "role": "Refuge for Brahmanas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra, overwhelmed by grief and despair over his sons' hopeless situation, collapses unconscious.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra"
+      ],
+      "action": "Collapse due to grief",
+      "context": "After questioning Sanjaya about Drona's death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Servants and women of the Bharata clan attend to the unconscious King Dhritarashtra, fanning him and sprinkling him with cool, scented water.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra",
+        "Servants",
+        "Women of the Bharata clan"
+      ],
+      "action": "Medical care/revival attempt",
+      "relationships": "Clan members caring for their king"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The women slowly help King Dhritarashtra up from the ground and seat him on a chair, all while weeping and choked with emotion.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra",
+        "Women of the Bharata clan"
+      ],
+      "action": "Physical assistance and emotional support",
+      "relationships": "Clan's concern for their ruler"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra gradually regains consciousness, trembles, and resumes questioning Sanjaya about the details of the battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra",
+        "Sanjaya"
+      ],
+      "action": "Inquiry resumption",
+      "relationships": "King seeking report from his charioteer/messenger"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra asks Sanjaya who protected Drona by withstanding Yudhishthira's attack, comparing Yudhishthira to a rising sun and a raging bull elephant.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra",
+        "Sanjaya",
+        "Drona",
+        "Yudhishthira"
+      ],
+      "action": "Specific battle inquiry",
+      "relationships": "Dhritarashtra concerned about Drona's protection; Yudhishthira as formidable opponent",
+      "supernatural_elements": "Metaphorical descriptions of Yudhishthira's power"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra describes Yudhishthira as invincible, wise, truthful, and capable of destroying Duryodhana's entire army with his fierce gaze alone.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra",
+        "Yudhishthira",
+        "Duryodhana"
+      ],
+      "action": "Character description",
+      "relationships": "Yudhishthira as Dhritarashtra's nephew and enemy; Duryodhana as Dhritarashtra's son",
+      "supernatural_elements": "Attribution of deadly gaze to Yudhishthira"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira, the son of Kunti, is described as an excellent archer and a tiger among men who never retreats.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "type": "Character Description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima fiercely charges toward Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Drona"
+      ],
+      "type": "Battle Action"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna, also known as Partha, Vijaya, and Phalguna, charges like a storm cloud, releasing arrows like rain and thunder, with his chariot making terrifying sounds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "type": "Battle Action",
+      "supernatural_elements": "Comparison to storm god Indra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna aims directly at Duryodhana with his mace, drenching the earth with blood and covering it with corpses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Duryodhana"
+      ],
+      "type": "Battle Action",
+      "relationships": "Arjuna targets his cousin and rival Duryodhana"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna wields the Gandiva bow and scatters the army with his arrows, except for Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Drona"
+      ],
+      "type": "Battle Action",
+      "relationships": "Arjuna spares his teacher Drona"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The army becomes terrified and some warriors flee, while others bravely face death against Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "type": "Battle Reaction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna's chariot has Krishna as the charioteer and Arjuna as the warrior, making it invincible even against gods and demons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna"
+      ],
+      "type": "Divine Intervention",
+      "relationships": "Krishna serves as Arjuna's charioteer and guide"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula, the son of Pandu, is described as handsome, intelligent, and brave, whose roar terrifies the Kaurava army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula"
+      ],
+      "type": "Character Description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sahadeva charges forward like an angry serpent, upholding noble vows and shooting arrows accurately.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sahadeva"
+      ],
+      "type": "Battle Action"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki, also known as Yuyudhana, previously defeated King Shalya's army and married the beautiful Bhoja princess.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki"
+      ],
+      "type": "Character Background"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki is described as truthful, steadfast, brave, and comparable to Krishna in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Krishna"
+      ],
+      "type": "Character Description",
+      "relationships": "Satyaki is compared to and devoted to Krishna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki obeys Arjuna, treats him with respect as a teacher, and has martial skills equal to Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Arjuna"
+      ],
+      "type": "Relationship",
+      "relationships": "Satyaki is loyal to and learns from Arjuna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki, a hero of the Vrishni clan and an excellent archer, possesses martial skills, honor, and courage comparable to Rama.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Rama"
+      ],
+      "type": "Character Description",
+      "relationships": [
+        "Satyaki is a Vrishni hero, comparable to Rama in valor."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki is truthful, resolute, self-controlled, brave, and maintains supreme celibacy, embodying virtues like Krishna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Krishna"
+      ],
+      "type": "Character Description",
+      "relationships": [
+        "Satyaki's virtues are likened to Krishna's."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttamaujas, a noble hero of the Panchalas, beloved by all nobles, is eternally victorious in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttamaujas"
+      ],
+      "type": "Character Description",
+      "relationships": [
+        "Uttamaujas is a Panchala hero."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttamaujas opposes the speaker while serving Arjuna, with power comparable to Yama, Kubera, Surya, Indra, and Varuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttamaujas",
+        "Arjuna"
+      ],
+      "type": "Conflict",
+      "relationships": [
+        "Uttamaujas serves Arjuna and opposes the speaker."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhrishtadyumna, who killed Bhishma in battle, rushes toward Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "Bhishma",
+        "Drona"
+      ],
+      "type": "Conflict",
+      "relationships": [
+        "Dhrishtadyumna killed Bhishma and now attacks Drona."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Abhimanyu, son of Subhadra, possesses all virtues, surpassing even Arjuna, and is armed, truthful, and celibate.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Abhimanyu",
+        "Arjuna",
+        "Subhadra"
+      ],
+      "type": "Character Description",
+      "relationships": [
+        "Abhimanyu is Subhadra's son and surpasses Arjuna in virtues."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Abhimanyu's courage compares to Krishna, strength to Arjuna, radiance to Surya, and wisdom to Brihaspati.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Abhimanyu",
+        "Krishna",
+        "Arjuna",
+        "Surya",
+        "Brihaspati"
+      ],
+      "type": "Character Description",
+      "relationships": [
+        "Abhimanyu is likened to Krishna, Arjuna, Surya, and Brihaspati."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The five sons of Draupadi, having abandoned twelve years of play to serve Bhishma and learn martial arts, rush toward Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi's Sons",
+        "Bhishma",
+        "Drona"
+      ],
+      "type": "Conflict",
+      "relationships": [
+        "Draupadi's sons served Bhishma and now attack Drona."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The five Kekaya brothers, maternal cousins of the Pandavas, rush to kill Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kekaya Brothers",
+        "Pandavas",
+        "Drona"
+      ],
+      "type": "Conflict",
+      "relationships": [
+        "Kekaya brothers are Pandavas' maternal cousins and attack Drona."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尸王子在波罗奈城的战斗中，因对美女垂涎欲滴，被尚武用月牙箭从战车上射落。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尸王子",
+        "尚武"
+      ],
+      "action": "战斗/射落",
+      "relationships": [
+        "敌对"
+      ],
+      "supernatural_elements": "无"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "猛光作为普利塔之子们的军师，专与难敌作对，为杀死德罗纳而生，在战场上能杀光所有武士。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "猛光",
+        "德罗纳",
+        "难敌",
+        "普利塔之子们"
+      ],
+      "action": "敌对/战斗准备",
+      "relationships": [
+        "猛光与难敌敌对",
+        "猛光与德罗纳敌对",
+        "猛光支持普利塔之子们"
+      ],
+      "supernatural_elements": "无"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "束发之子武天精通诸般武艺，冲向德罗纳时，被英雄阻截。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "武天",
+        "德罗纳"
+      ],
+      "action": "战斗/阻截",
+      "relationships": [
+        "敌对"
+      ],
+      "supernatural_elements": "无"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "优湿那罗王子（尸毗王）以美味肴馔和丰厚酬礼完成十次马祭，施舍无数奶牛，被天神们赞颂为前无古人后无来者。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "优湿那罗王子（尸毗王）"
+      ],
+      "action": "祭祀/布施",
+      "relationships": [
+        "天神们赞颂"
+      ],
+      "supernatural_elements": "天神们介入赞颂"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "优湿那罗王子的孙子尸毗王如同死神冲向德罗纳时，被英雄阻截。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "尸毗王",
+        "德罗纳"
+      ],
+      "action": "战斗/阻截",
+      "relationships": [
+        "敌对"
+      ],
+      "supernatural_elements": "无"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "摩差国毗罗吒王的车队在战斗中企图接近德罗纳时，被英雄上前阻截。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "毗罗吒王",
+        "德罗纳"
+      ],
+      "action": "战斗/阻截",
+      "relationships": [
+        "敌对"
+      ],
+      "supernatural_elements": "无"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "瓶首（狼腹之子）经过一天孕育便出生，力大无比，是善于变幻的罗刹，盼望般度族获胜，成为难敌之子们的障碍。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "瓶首",
+        "难敌之子们",
+        "般度族"
+      ],
+      "action": "敌对/威胁",
+      "relationships": [
+        "瓶首与难敌之子们敌对",
+        "瓶首支持般度族"
+      ],
+      "supernatural_elements": "瓶首是罗刹（恶魔），具有变幻能力"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天（那罗延）作为持沙楞伽神弓的人中之虎，庇护普利塔之子们，为他们谋求利益，被描述为世界之师、世界之主和战争的保护神。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天（那罗延）",
+        "普利塔之子们"
+      ],
+      "action": "庇护/支持",
+      "relationships": [
+        "黑天庇护普利塔之子们"
+      ],
+      "supernatural_elements": "黑天是神圣人物，具有神弓和神圣灵魂"
+    },
+    "_token_interval": null
+  }
+]

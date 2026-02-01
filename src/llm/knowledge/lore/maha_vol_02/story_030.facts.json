@@ -1,0 +1,224 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Janamejaya asks about his great-grandfather Arjuna's absence and how the Pandavas managed without him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Janamejaya",
+        "Arjuna",
+        "Pandavas"
+      ],
+      "type": "Inquiry",
+      "relationships": [
+        "Janamejaya is great-grandson of Arjuna",
+        "Arjuna is one of the Pandavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sauti describes the Pandavas' sorrow and hardship in the Kamyaka forest after Arjuna's departure.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sauti",
+        "Pandavas"
+      ],
+      "type": "Narration",
+      "action": "Living in grief and performing duties"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas hunt deer with pure arrows for Brahmin sacrifices and gather forest food for Brahmins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Brahmins"
+      ],
+      "type": "Ritual duty",
+      "relationships": [
+        "Pandavas serve Brahmins"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi expresses her deep longing for Arjuna to Yudhishthira, describing the forest as lifeless without him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "Yudhishthira",
+        "Arjuna"
+      ],
+      "type": "Emotional expression",
+      "relationships": [
+        "Draupadi is wife of Arjuna and other Pandavas",
+        "Yudhishthira is eldest Pandava brother"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima responds to Draupadi, agreeing with her and praising Arjuna's strength and importance to their family.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Draupadi",
+        "Arjuna"
+      ],
+      "type": "Agreement and praise",
+      "relationships": [
+        "Bhima is brother of Arjuna"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula recalls Arjuna's past victory in the north where he defeated powerful warriors and obtained hundreds of Gandharva horses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Arjuna"
+      ],
+      "type": "Flashback/recollection",
+      "action": "Military victory and acquisition",
+      "relationships": [
+        "Nakula is brother of Arjuna"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula mentions Arjuna presenting these horses to his elder brother during the Rajasuya sacrifice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Yudhishthira"
+      ],
+      "type": "Gift-giving",
+      "relationships": [
+        "Arjuna is younger brother of Yudhishthira"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "怖军之弟（阿周那）手持可怕的神弓，如同天神，现在缺了他，坚战也不愿意住在迦摩耶迦林。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "坚战"
+      ],
+      "action": "坚战因阿周那缺席而不愿留在迦摩耶迦林",
+      "relationship": "兄弟（怖军与阿周那同为坚战的弟弟）",
+      "supernatural_elements": "阿周那被描述为手持神弓、如同天神"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "偕天（Nakula）回忆阿周那从前在战争中打败很多大勇士，获得钱财和姑娘，在盛大的王祭中献给国王。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "偕天",
+        "坚战（国王）"
+      ],
+      "action": "阿周那在战争中获胜并献上战利品",
+      "relationship": "兄弟（偕天与阿周那同为坚战的弟弟）"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那得到黑天（Krishna）同意，独自战胜雅度族所有的人，掠走妙贤公主（Subhadra）。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "黑天",
+        "雅度族",
+        "妙贤公主"
+      ],
+      "action": "阿周那战胜雅度族并掠走妙贤公主",
+      "relationship": "黑天同意阿周那的行动（暗示联盟或友谊）",
+      "supernatural_elements": "阿周那被描述为具有无限光辉"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "看到阿周那的座位空着，坚战的心不得安宁，决定离开森林，因为缺了英雄阿周那，森林不再可爱。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "阿周那"
+      ],
+      "action": "坚战因阿周那缺席而决定离开森林",
+      "relationship": "兄弟（坚战为阿周那的兄长）",
+      "plot_point": "推动故事从《森林篇》转向《登帝释天宫篇》"
+    },
+    "_token_interval": null
+  }
+]

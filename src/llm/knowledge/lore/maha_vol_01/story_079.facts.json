@@ -1,0 +1,302 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna, accompanied by many learned Brahmins, ascetics, and storytellers, departed for his forest exile.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Departure for exile",
+      "type": "Journey",
+      "supernatural_elements": "Comparison of the procession to Maruts (storm gods) following Indra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna and his followers arrived at Gangadvara (the Gate of the Ganges), a holy place, and settled there.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "location": "Gangadvara",
+      "action": "Settlement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna and the Brahmins performed rituals, offering ghee and oblations into sacred fires and bathing in the Ganges.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Ritual performance",
+      "type": "Religious ceremony"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "While Arjuna was bathing in the Ganges, Ulupi, the daughter of the Naga King Kauravya, pulled him underwater, driven by love.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Ulupi"
+      ],
+      "action": "Abduction",
+      "type": "Supernatural encounter",
+      "relationships": "Ulupi is the daughter of Naga King Kauravya",
+      "supernatural_elements": "Ulupi is a Naga (serpent-being)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna found himself in the palace of Naga King Kauravya, where he saw a sacred fire and made offerings to it, pleasing the fire god.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Kauravya"
+      ],
+      "action": "Fire offering",
+      "type": "Divine interaction",
+      "supernatural_elements": "Presence in the underwater Naga palace, interaction with fire god"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna questioned Ulupi about her identity and her bold action.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Ulupi"
+      ],
+      "action": "Dialogue",
+      "type": "Introduction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ulupi revealed herself as the daughter of Naga King Kauravya, explained she fell in love with Arjuna upon seeing him, and asked him to make her happy as she was unmarried.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ulupi",
+        "Arjuna"
+      ],
+      "action": "Confession of love",
+      "type": "Romantic proposal",
+      "relationships": "Ulupi is in love with Arjuna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna explained he was bound by a vow of celibacy for twelve years, ordered by King Yudhishthira, and expressed his dilemma of wanting to give her love without breaking his vow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Ulupi"
+      ],
+      "action": "Explanation of vow",
+      "type": "Conflict",
+      "relationships": "Arjuna is bound to Yudhishthira's command",
+      "conflict": "Desire vs. vow of celibacy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uloopi (Snake Princess) addresses Arjuna, revealing she knows why he wanders the earth and why his brothers made him live a celibate life.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uloopi",
+        "Arjuna"
+      ],
+      "action": "Revelation/Explanation",
+      "relationships": [
+        "Uloopi loves Arjuna",
+        "Arjuna is bound by vow with brothers"
+      ],
+      "supernatural_elements": "Uloopi is a snake princess (naga)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uloopi explains the vow among the Pandava brothers regarding Draupadi: if any brother intrudes when another is with Draupadi, he must live in the forest for twelve years in celibacy.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uloopi",
+        "Arjuna",
+        "Pandava brothers",
+        "Draupadi"
+      ],
+      "action": "Explanation of vow",
+      "relationships": [
+        "Brotherly vow",
+        "Shared wife arrangement"
+      ],
+      "key_plot_point": "Reason for Arjuna's exile"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uloopi argues that loving her would not violate dharma since Arjuna is already fulfilling his vow by being in exile.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uloopi",
+        "Arjuna"
+      ],
+      "action": "Persuasion/Argument",
+      "relationships": [
+        "Uloopi desires Arjuna"
+      ],
+      "theme": "Dharma debate"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uloopi appeals to Arjuna's duty to protect the suffering, claiming she suffers from love for him and protecting her would not violate dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uloopi",
+        "Arjuna"
+      ],
+      "action": "Appeal to duty",
+      "relationships": [
+        "Protector-protected dynamic"
+      ],
+      "moral_argument": "Protecting life as highest dharma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uloopi pleads desperately for Arjuna's love, threatening to die if he refuses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uloopi",
+        "Arjuna"
+      ],
+      "action": "Desperate plea",
+      "emotional_state": "Uloopi's distress",
+      "relationships": [
+        "Uloopi's unrequited love"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna, after hearing Uloopi's arguments, decides her words are in accordance with dharma and fulfills all her desires.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Uloopi"
+      ],
+      "action": "Consent/Union",
+      "relationships": [
+        "Temporary romantic relationship established"
+      ],
+      "moral_decision": "Arjuna's dharma judgment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna spends one night in Uloopi's palace in Kaurava and leaves at sunrise the next day.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Uloopi"
+      ],
+      "action": "Departure",
+      "relationships": [
+        "Temporary encounter ends"
+      ],
+      "location": "Kaurava palace",
+      "key_plot_point": "Continues Arjuna's exile journey"
+    },
+    "_token_interval": null
+  }
+]

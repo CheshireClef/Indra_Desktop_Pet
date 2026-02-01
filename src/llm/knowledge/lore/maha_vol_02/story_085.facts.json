@@ -1,0 +1,839 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "摩根德耶讲述迦吉夜的出生故事，提到他是阿德菩多的神奇儿子，由七位仙人的妻子所生。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "摩根德耶",
+        "迦吉夜",
+        "阿德菩多",
+        "七位仙人的妻子"
+      ],
+      "type": "Narration/Introduction",
+      "relationships": [
+        "迦吉夜是阿德菩多的儿子",
+        "迦吉夜由七位仙人的妻子所生"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "因陀罗因天神军队被檀那婆击败，寻求一位军队统帅，前往摩那娑山。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "因陀罗",
+        "檀那婆"
+      ],
+      "type": "Quest",
+      "relationships": [
+        "因陀罗与檀那婆敌对"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "因陀罗在摩那娑山听到提婆犀那的呼救声，发现盖辛正在骚扰她。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "因陀罗",
+        "提婆犀那",
+        "盖辛"
+      ],
+      "type": "Conflict/Rescue",
+      "relationships": [
+        "盖辛骚扰提婆犀那",
+        "因陀罗介入保护提婆犀那"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "因陀罗与盖辛发生战斗，因陀罗用金刚杵击退盖辛的攻击，盖辛受伤逃跑。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "因陀罗",
+        "盖辛"
+      ],
+      "type": "Battle",
+      "action": "因陀罗用金刚杵劈开盖辛的棍棒和山峰，盖辛被击中后逃跑",
+      "supernatural_elements": [
+        "金刚杵",
+        "山峰投掷"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "因陀罗询问提婆犀那的身份，她揭示自己是生主的女儿，姐姐提迭犀那已被盖辛抢走。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "因陀罗",
+        "提婆犀那",
+        "生主",
+        "提迭犀那",
+        "盖辛"
+      ],
+      "type": "Revelation",
+      "relationships": [
+        "提婆犀那是生主的女儿",
+        "提迭犀那是提婆犀那的姐姐",
+        "盖辛抢走了提迭犀那"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "提婆犀那请求因陀罗为她指定一个战无不胜的丈夫。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "提婆犀那",
+        "因陀罗"
+      ],
+      "type": "Request",
+      "relationships": [
+        "提婆犀那向因陀罗求助"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "因陀罗揭示提婆犀那是他的姨母女儿，因陀罗的母亲是陀刹耶尼。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "因陀罗",
+        "提婆犀那",
+        "陀刹耶尼"
+      ],
+      "type": "Relationship_Revelation",
+      "relationships": [
+        "提婆犀那是因陀罗的姨母女儿（表妹）",
+        "陀刹耶尼是因陀罗的母亲"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "提婆犀那描述她未来的丈夫应强壮有力，并依靠她父亲的恩惠受到尊敬。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "提婆犀那",
+        "生主"
+      ],
+      "type": "Prophecy/Condition",
+      "relationships": [
+        "提婆犀那的父亲生主将赐予恩惠"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Princess Devasena describes her ideal husband as powerful, heroic, and capable of defeating gods, demons, and other beings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Devasena"
+      ],
+      "type": "Declaration"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra hears Devasena's description and worries that no such husband exists.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra"
+      ],
+      "action": "Concern/Contemplation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra observes celestial phenomena: the sun on the sunrise mountain, the moon entering the sun, the Rudra moment, gods and asuras fighting.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra"
+      ],
+      "type": "Observation",
+      "supernatural_elements": [
+        "Celestial alignments",
+        "Divine battles"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra sees the moon and sun uniting during the Rudra moment and considers that a son born from this union could be Devasena's husband.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra"
+      ],
+      "action": "Hypothesis",
+      "supernatural_elements": [
+        "Celestial union"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra also considers that Agni (fire) could father a suitable husband for Devasena.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Agni"
+      ],
+      "action": "Alternative consideration"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra takes Devasena to Brahma's realm and requests Brahma to designate a heroic husband for her.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Devasena",
+        "Brahma"
+      ],
+      "action": "Divine petition",
+      "relationships": [
+        "Indra as petitioner",
+        "Brahma as authority"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahma confirms that a powerful child is being conceived from the celestial union and will become both Devesena's husband and Indra's army commander.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma",
+        "Indra",
+        "Devasena"
+      ],
+      "type": "Prophecy/Revelation",
+      "relationships": [
+        "Future husband-wife",
+        "Future commander-king"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra returns with Devesena to where sages led by Vasistha are performing rituals.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Devasena",
+        "Vasistha",
+        "Other sages"
+      ],
+      "action": "Return to earthly realm"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gods led by Indra come to the sages' sacrifice to share the soma obtained through their austerities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Other gods",
+        "Sages"
+      ],
+      "type": "Ritual participation",
+      "relationships": [
+        "Gods as recipients",
+        "Sages as performers"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sages invoke Agni to transport offerings; Agni emerges from the solar disc and enters the ritual fire.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Agni",
+        "Sages"
+      ],
+      "action": "Ritual invocation",
+      "supernatural_elements": [
+        "Agni's manifestation"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Agni transports the offerings to the gods.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Agni",
+        "Gods"
+      ],
+      "action": "Divine messenger duty"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Agni sees the beautiful wives of the sages bathing and becomes filled with desire for them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Agni",
+        "Sages' wives"
+      ],
+      "action": "Temptation",
+      "relationships": [
+        "Agni's inappropriate desire"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Agni recognizes his desire is improper since these wives are chaste and devoted to their ascetic husbands.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Agni"
+      ],
+      "type": "Moral conflict",
+      "action": "Self-restraint attempt"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Agni (the fire god) entered the household fire of the seven sages to secretly watch and touch their beautiful wives, with whom he fell in love.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Agni",
+        "Seven Sages' Wives (collective)"
+      ],
+      "action": "Observing/Desiring",
+      "type": "Divine Intervention/Desire"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Unable to obtain the sages' wives, Agni suffered from love's torment and decided to abandon his body and go to the forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Agni"
+      ],
+      "action": "Departure/Suffering",
+      "reason": "Unrequited love"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Svaha, daughter of Daksha, who had long loved Agni, learned he went to the forest and devised a plan to take the form of the seven sages' wives to unite with him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Svaha",
+        "Agni"
+      ],
+      "action": "Deception/Plan",
+      "type": "Divine Intervention/Deception"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Svaha first took the form of Shiba, wife of Angiras, approached Agni, declared her love, and claimed the other wives sent her.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Svaha (as Shiba)",
+        "Agni",
+        "Shiba",
+        "Angiras"
+      ],
+      "action": "Deceptive Approach",
+      "relationships": [
+        "Svaha impersonates Shiba",
+        "Shiba is wife of Angiras"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Agni accepted Svaha (as Shiba), and she received his semen, then transformed into a golden-winged bird to fly away and avoid detection.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Svaha",
+        "Agni"
+      ],
+      "action": "Union/Escape",
+      "type": "Supernatural Transformation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Svaha flew to a remote mountain peak, poured the semen into a golden vessel, then repeated the deception by taking the forms of the other sages' wives to unite with Agni.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Svaha",
+        "Agni",
+        "Other Sages' Wives (collective)"
+      ],
+      "action": "Continued Deception/Collection",
+      "note": "Excludes Arundhati due to her ascetic power and fidelity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Svaha could not take the form of Arundhati, wife of Vasistha, because of Arundhati's ascetic power and fidelity to her husband.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Svaha",
+        "Arundhati",
+        "Vasistha"
+      ],
+      "action": "Limitation/Respect",
+      "relationships": [
+        "Arundhati is wife of Vasistha",
+        "Arundhati possesses divine protection"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "On the new moon day, Svaha deposited Agni's semen six times into a golden vessel.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Svaha",
+        "Agni"
+      ],
+      "action": "Depositing semen",
+      "supernatural_elements": [
+        "Divine semen"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The collected semen, which was powerful, gave birth to a son who was worshipped by sages. This son was Skanda (Kumara).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Skanda (Kumara)"
+      ],
+      "action": "Birth from divine semen",
+      "relationships": [
+        "Son of Agni (through Svaha's action)"
+      ],
+      "supernatural_elements": [
+        "Miraculous birth"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Skanda had a six-headed, multi-limbed form and manifested over four days, growing his limbs and organs.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Skanda"
+      ],
+      "action": "Manifestation and growth",
+      "supernatural_elements": [
+        "Supernatural form",
+        "Rapid divine growth"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "He appeared amidst red clouds and lightning, shining like the sun, and wielded a great bow placed by Shiva to destroy the enemies of the gods.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Skanda",
+        "Shiva"
+      ],
+      "action": "Appearance and arming",
+      "relationships": [
+        "Armed by Shiva"
+      ],
+      "supernatural_elements": [
+        "Divine appearance",
+        "Weapon from Shiva"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Skanda roared powerfully, frightening all beings. The great serpents Citra and Airāvata were startled and fell.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Skanda",
+        "Citra",
+        "Airāvata"
+      ],
+      "action": "Roaring and startling serpents",
+      "supernatural_elements": [
+        "Powerful roar affecting beings"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Skanda caught the two serpents with his hands, held a spear in another, and tucked a red-crested rooster under his arm. He then blew a conch and played, slapping the air and sucking in the three worlds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Skanda"
+      ],
+      "action": "Playing with serpents, rooster, and conch",
+      "supernatural_elements": [
+        "Multi-armed actions",
+        "Cosmic play"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Frightened by his roar, many people sought his refuge. Brahmins called them a powerful congregation. Skanda rose and reassured them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Skanda",
+        "People",
+        "Brahmins"
+      ],
+      "action": "People seeking refuge and Skanda reassuring them",
+      "relationships": [
+        "Skanda as protector"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Skanda shot many arrows from his bow at the great White Mountain (Himavat), splitting the mountain Krauñca, son of the Snowy Mountain. This caused swans and vultures to go to Mount Meru.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Skanda",
+        "Himavat (White Mountain)",
+        "Krauñca"
+      ],
+      "action": "Shooting arrows and splitting a mountain",
+      "relationships": [
+        "Krauñca as son of Himavat"
+      ],
+      "supernatural_elements": [
+        "Mountain-splitting power"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The split mountain fell with a cry of agony, causing other mountains to cry out in fear.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krauñca",
+        "Other mountains"
+      ],
+      "action": "Mountain falling and causing fear",
+      "supernatural_elements": [
+        "Mountains reacting emotionally"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Skanda, unperturbed, raised his spear and roared, then threw it, violently splitting the terrible peak of the White Mountain.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Skanda",
+        "Himavat"
+      ],
+      "action": "Throwing spear and splitting mountain peak",
+      "supernatural_elements": [
+        "Spear-splitting mountain"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Stricken and fearful of Skanda, the White Mountain fled the earth with other mountains.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Himavat",
+        "Skanda",
+        "Other mountains"
+      ],
+      "action": "Mountains fleeing earth",
+      "relationships": [
+        "Mountains fearful of Skanda"
+      ],
+      "supernatural_elements": [
+        "Mountains fleeing"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The earth trembled and split everywhere until, in pain, it paid homage to Skanda and regained strength. The mountains then returned to earth after honoring Skanda.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Earth",
+        "Skanda",
+        "Mountains"
+      ],
+      "action": "Earth trembling, paying homage, and mountains returning",
+      "relationships": [
+        "Earth and mountains submitting to Skanda"
+      ],
+      "supernatural_elements": [
+        "Earth reacting to events",
+        "Divine homage"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Therefore, people worship Skanda on the fifth day of the bright fortnight.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "People",
+        "Skanda"
+      ],
+      "action": "Establishment of worship practice",
+      "relationships": [
+        "Skanda as object of worship"
+      ]
+    },
+    "_token_interval": null
+  }
+]

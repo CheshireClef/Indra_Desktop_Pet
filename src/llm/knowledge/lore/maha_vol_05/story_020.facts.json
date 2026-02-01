@@ -1,0 +1,442 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira expresses amazement to Krishna after hearing about Rama's deeds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Krishna"
+      ],
+      "action": "Dialogue/Reaction",
+      "context": "Yudhishthira reacts to stories about Rama's past exploits."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna and Yudhishthira, along with others, travel to see Bhishma lying on his bed of arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira",
+        "Bhishma",
+        "The Pandava brothers",
+        "Kripa"
+      ],
+      "action": "Travel/Visit",
+      "location": "Near the Oghavati River"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The group approaches Bhishma with reverence, controlling their emotions and senses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira",
+        "The Pandava brothers",
+        "Kripa",
+        "Satyaki",
+        "Bhishma",
+        "Sage Vyasa",
+        "Other sages"
+      ],
+      "action": "Approach/Pay Respects",
+      "mood": "Reverent, controlled"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna, seeing Bhishma weakened, speaks to him with concern and praise.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Bhishma"
+      ],
+      "action": "Dialogue/Inquiry",
+      "content": "Krishna asks about Bhishma's mental clarity, physical pain, and praises his virtues, knowledge, and control over death."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna addresses Bhishma, praising his virtues and comparing him to Indra, then asks him to relieve Yudhishthira's distress.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Bhishma",
+        "Yudhishthira"
+      ],
+      "action": "Praise and Request",
+      "relationships": [
+        "Krishna (divine) requests Bhishma (mortal sage/warrior) to counsel Yudhishthira (king)"
+      ],
+      "supernatural_elements": [
+        "Bhishma compared to deities (Vasus, Indra)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma, after hearing Krishna's words, slightly raises his head, joins his palms, and offers a prayer of reverence to Krishna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Krishna"
+      ],
+      "action": "Prayer/Recognition",
+      "relationships": [
+        "Bhishma acknowledges Krishna's divine nature"
+      ],
+      "supernatural_elements": [
+        "Bhishma perceives Krishna's cosmic form and divine attributes"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna explains that he revealed his divine form to Bhishma because of Bhishma's devotion, righteousness, and self-control.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Bhishma"
+      ],
+      "action": "Divine Revelation Explanation",
+      "relationships": [
+        "Krishna (divine) grants vision to Bhishma (devotee)"
+      ],
+      "supernatural_elements": [
+        "Krishna's selective revelation of his divine form based on devotion and virtue"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna (Keshava) revealed to Bhishma that he would live for 35 more days, after which he would attain the fruits of his good deeds and go to a world from which the wise do not return.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Bhishma"
+      ],
+      "type": "Divine Revelation",
+      "supernatural_elements": [
+        "Prophecy of Bhishma's death and afterlife",
+        "Protection by gods and Vasus until the sun moves north"
+      ],
+      "relationships": [
+        "Krishna (divine guide) to Bhishma (dying warrior)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna urged Bhishma to teach Yudhishthira about dharma, artha, and meditation to relieve his grief and restore his knowledge before Bhishma's death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Bhishma",
+        "Yudhishthira"
+      ],
+      "type": "Instruction",
+      "relationships": [
+        "Krishna (advisor) to Bhishma (teacher)",
+        "Bhishma (teacher) to Yudhishthira (student/king)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma, in great physical pain from arrow wounds, expressed his inability to speak and requested Krishna to teach Yudhishthira himself.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Krishna"
+      ],
+      "type": "Dialogue/Request",
+      "action": "Bhishma pleads incapacity due to injuries",
+      "relationships": [
+        "Bhishma (supplicant) to Krishna (divine authority)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna granted Bhishma a boon, relieving him of pain, fatigue, confusion, fever, thirst, and hunger, and restoring clarity to all his knowledge.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Bhishma"
+      ],
+      "type": "Divine Intervention",
+      "action": "Krishna bestows a boon",
+      "supernatural_elements": [
+        "Supernatural relief from physical and mental afflictions"
+      ],
+      "relationships": [
+        "Krishna (boon-giver) to Bhishma (recipient)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "All the great sages and Vyasa praised Krishna with Rig, Yajur, and Sama hymns.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "All the great sages",
+        "Vyasa",
+        "Krishna"
+      ],
+      "action": "Praise/Hymn recitation",
+      "supernatural_elements": "Divine praise"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A shower of seasonal flowers fell from the sky upon Krishna, Bhishma, and the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Bhishma",
+        "Pandavas"
+      ],
+      "action": "Divine blessing",
+      "supernatural_elements": "Flower rain from sky"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Heavenly music played, celestial nymphs sang, and auspicious signs appeared with fragrant breezes and peaceful surroundings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Divine celebration",
+      "supernatural_elements": "Heavenly music, celestial nymphs, auspicious signs"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sun appeared with thousand rays as if burning forests at the western horizon.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Celestial phenomenon",
+      "supernatural_elements": "Sun with thousand rays"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "All the great sages stood up, bowed to Krishna, Bhishma, and King Yudhishthira, and took leave.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "All the great sages",
+        "Krishna",
+        "Bhishma",
+        "Yudhishthira"
+      ],
+      "action": "Farewell/Departure",
+      "relationships": "Respectful parting"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna, the Pandavas, Satyaki, Sanjaya, and Kripa also bowed to the sages.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Pandavas",
+        "Satyaki",
+        "Sanjaya",
+        "Kripa",
+        "All the great sages"
+      ],
+      "action": "Mutual respect",
+      "relationships": "Reciprocal honor"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sages, honored appropriately, said 'We will meet tomorrow' and returned to their respective abodes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "All the great sages"
+      ],
+      "action": "Departure",
+      "relationships": "Promise of future meeting"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna and the Pandavas took leave of Bhishma, circumambulated him, and boarded their magnificent chariots.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Pandavas",
+        "Bhishma"
+      ],
+      "action": "Departure",
+      "relationships": "Respectful farewell to Bhishma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The army moved rapidly with chariots, elephants, horses, and infantry, compared to the Narmada river splitting around a mountain.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Pandavas",
+        "Army"
+      ],
+      "action": "Journey/Procession",
+      "relationships": "Military escort"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The moon rose ahead of the cheerful army, reviving herbs dried by the sun.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Natural phenomenon",
+      "supernatural_elements": "Moon's restorative power"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna and the Pandavas entered the city that shone like heaven, going to their respective residences like tired lions entering caves.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Pandavas"
+      ],
+      "action": "Arrival/Return",
+      "relationships": "Return to dwelling"
+    },
+    "_token_interval": null
+  }
+]

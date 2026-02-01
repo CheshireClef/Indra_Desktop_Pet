@@ -1,0 +1,492 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Bhishma which among dharma (righteousness), artha (wealth), and kama (desire) is superior.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Philosophical Question",
+      "relationships": "Yudhishthira is the student/questioner; Bhishma is the teacher/respondent."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma begins to narrate an ancient story to answer the question.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Narrative Introduction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A poor Brahmin, desiring wealth to perform a sacrifice, undertakes severe austerities and worships various gods, but does not gain wealth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Poor Brahmin"
+      ],
+      "type": "Austerity & Frustration",
+      "action": "Performs tapas (austerities) and puja (worship)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin sees the cloud deity Pravara (also called '持罐' or 'Pot-holder') nearby and decides to worship him, hoping for swift favor.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Poor Brahmin",
+        "Pravara (Cloud Deity)"
+      ],
+      "type": "Divine Encounter",
+      "action": "Brahmin worships Pravara with offerings"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pleased, Pravara grants the Brahmin a boon and delivers teachings on sins, stating that ingratitude is the worst, unforgivable sin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pravara (Cloud Deity)",
+        "Poor Brahmin"
+      ],
+      "type": "Divine Boon & Teaching",
+      "supernatural_elements": "Deity granting boon and wisdom",
+      "key_teaching": "Ingratitude destroys progeny and is beyond atonement."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Through Pravara's power, the Brahmin has a dream vision where he sees all beings and the assembly of gods, including the radiant Manibhadra issuing commands.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Poor Brahmin",
+        "Pravara (Cloud Deity)",
+        "Manibhadra",
+        "Assembly of Gods"
+      ],
+      "type": "Supernatural Vision",
+      "supernatural_elements": "Dream vision granted by deity's power",
+      "action": "Brahmin observes divine court"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In the vision, Pravara kneels before the gods, and Manibhadra, on their behalf, asks what Pravara desires.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pravara (Cloud Deity)",
+        "Manibhadra",
+        "Assembly of Gods"
+      ],
+      "type": "Divine Dialogue",
+      "relationships": "Pravara is subordinate to the assembly of gods; Manibhadra acts as their spokesman."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pravara requests a boon for the Brahmin, not for wealth, but for the Brahmin to become a follower of dharma (righteousness).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pravara (Cloud Deity)",
+        "Poor Brahmin",
+        "Manibhadra"
+      ],
+      "type": "Boon Request",
+      "action": "Pravara asks that the Brahmin be granted adherence to dharma instead of material wealth.",
+      "key_decision": "Prioritizes spiritual merit over material gain."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Manibhadra grants the Brahmin kingdom and various pleasures, freeing him from physical pains.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Manibhadra",
+        "Brahmin"
+      ],
+      "action": "Granting boon",
+      "type": "Divine intervention"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritakalasha repeatedly insists on begging for dharma for the Brahmin, satisfying the gods.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritakalasha",
+        "Brahmin",
+        "Gods"
+      ],
+      "action": "Pleading",
+      "relationships": [
+        "Dhritakalasha advocates for Brahmin"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Manibhadra declares the gods are satisfied with both Dhritakalasha and the Brahmin, who will become dharma-focused.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Manibhadra",
+        "Dhritakalasha",
+        "Brahmin",
+        "Gods"
+      ],
+      "action": "Divine approval",
+      "type": "Blessing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin awakens to find scattered fine clothes and becomes disheartened.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin"
+      ],
+      "action": "Disappointment",
+      "emotional_state": "Despondent"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin decides to go to the forest and sustain life through dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin"
+      ],
+      "action": "Renunciation",
+      "decision": "Forest retreat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin enters the forest and practices severe austerities, gradually reducing sustenance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin"
+      ],
+      "action": "Austerities",
+      "progression": [
+        "Fruits/roots",
+        "Leaves",
+        "Water",
+        "Wind"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin gains divine sight (divyacakshus) after prolonged austerities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin"
+      ],
+      "action": "Acquisition of power",
+      "supernatural_element": "Divine sight"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin realizes he can grant wealth and kingdoms through his words.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin"
+      ],
+      "action": "Self-realization",
+      "power": "Word becomes reality"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritakalasha appears to the Brahmin due to his yoga of austerities and friendship.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritakalasha",
+        "Brahmin"
+      ],
+      "action": "Divine appearance",
+      "reason": "Friendship and austerities"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritakalasha shows the Brahmin thousands of kings suffering in hell and people trapped in worldly obstacles.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritakalasha",
+        "Brahmin"
+      ],
+      "action": "Revelation",
+      "vision_content": [
+        "Kings in hell",
+        "People hindered by passions"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritakalasha explains that gods fear such people and place obstacles, and only with divine permission can one follow dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritakalasha",
+        "Gods"
+      ],
+      "action": "Explanation",
+      "divine_rule": "Gods control dharma adherence"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritakalasha acknowledges the Brahmin's unique ability to grant kingdoms and wealth through austerities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritakalasha",
+        "Brahmin"
+      ],
+      "action": "Recognition",
+      "unique_ability": "Granting boons through tapas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin (Sage Vasistha) prostrated himself before the Cloud God (Indra) and acknowledged the great favor bestowed upon him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Vasistha",
+        "Indra"
+      ],
+      "action": "Prostration and acknowledgment of favor",
+      "relationship": "Devotee and deity; the Brahmin expresses gratitude and repentance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin confessed that he was previously bound by greed, failed to understand the favor, and instead complained, asking for forgiveness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Vasistha",
+        "Indra"
+      ],
+      "action": "Confession and request for forgiveness",
+      "relationship": "Repentant devotee seeks pardon from the deity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra (referred to as '持罐' or 'Pot-holder') forgave the Brahmin, embraced him with both arms, and then disappeared.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Sage Vasistha"
+      ],
+      "action": "Forgiveness, embrace, and disappearance",
+      "relationship": "Deity grants forgiveness and shows divine affection before vanishing",
+      "supernatural_elements": "Divine disappearance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Thereafter, the Brahmin roamed all worlds by the favor of Indra and the power of his austerities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Vasistha"
+      ],
+      "action": "Roaming all worlds",
+      "relationship": "Brahmin empowered by divine favor and personal penance",
+      "supernatural_elements": "Ability to traverse all worlds through divine and ascetic power"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Through righteousness (Dharma) and yoga, one gains the ability to fly through the sky, fulfill desires, and attain the supreme goal.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Attainment of supernatural abilities and ultimate goal",
+      "supernatural_elements": "Flying through the sky, wish-fulfillment, and spiritual attainment via Dharma and yoga"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "All gods, Brahmins, good people, and Charanas revere those in the world who follow Dharma, not those with great wealth and full of desires.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Statement on reverence",
+      "relationship": "Divine and virtuous beings honor the righteous over the wealthy and desire-driven"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Because you love Dharma, the gods are pleased with you. Happiness derived from wealth is minimal, while that from Dharma is incomparable.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Moral teaching directed at the listener (likely Bhishma)",
+      "relationship": "Divine approval for the righteous; contrast between material and spiritual happiness"
+    },
+    "_token_interval": null
+  }
+]

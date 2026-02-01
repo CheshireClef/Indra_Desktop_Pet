@@ -1,0 +1,262 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战王跳下战车，流着喜悦的泪水，拥抱两位黑王子。",
+    "char_interval": {
+      "start_pos": 35,
+      "end_pos": 43
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战王",
+        "黑天",
+        "阿周那"
+      ],
+      "action": "拥抱",
+      "emotion": "喜悦"
+    },
+    "_token_interval": {
+      "start_index": 12,
+      "end_index": 14
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战王对黑天和阿周那说，他亲眼目睹两位大勇士在战斗中完成使命，信度王被杀死。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战王",
+        "黑天",
+        "阿周那",
+        "信度王"
+      ],
+      "action": "赞美",
+      "outcome": "信度王被杀死"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战王赞美黑天是一切世界的导师，得到黑天护佑就能战胜敌人。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战王",
+        "黑天"
+      ],
+      "action": "赞美",
+      "relationship": "坚战王寻求黑天的庇护"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战王赞美黑天是世界的创造者，永恒不变，虔诚者没有渡不过的难关。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战王",
+        "黑天"
+      ],
+      "action": "赞美",
+      "supernatural_elements": "黑天是世界的创造者"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战王说黑天是阿周那的朋友、保护者，为阿周那谋利益。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战王",
+        "黑天",
+        "阿周那"
+      ],
+      "action": "陈述",
+      "relationship": "黑天是阿周那的朋友和保护者"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天和阿周那对坚战王说，罪人胜车王被坚战王的怒火焚毁，俱卢族人因为坚战王的愤怒而灭亡。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天",
+        "阿周那",
+        "坚战王",
+        "胜车王",
+        "俱卢族人"
+      ],
+      "action": "预言",
+      "outcome": "胜车王被焚毁，俱卢族人将灭亡"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天和阿周那说难敌已经激怒坚战王，将与众亲友一起在战斗中丢掉性命。",
+    "char_interval": {
+      "start_pos": 970,
+      "end_pos": 1000
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天",
+        "阿周那",
+        "坚战王",
+        "难敌"
+      ],
+      "action": "预言",
+      "outcome": "难敌将战死"
+    },
+    "_token_interval": {
+      "start_index": 288,
+      "end_index": 292
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma, the ancestor of the Kuru dynasty, was killed by your (Arjuna's) anger. Previously, even the gods could not defeat him, but now he lies on a bed of arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Arjuna"
+      ],
+      "action": "Death in battle",
+      "supernatural_element": "Bhishma was previously invincible to even the gods",
+      "relationship_change": "Bhishma, the revered elder and commander, is slain by Arjuna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker (likely Yudhishthira) declares that anyone who angers Arjuna faces destruction in battle, loss of kingdom, life, sons, and all happiness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Yudhishthira"
+      ],
+      "action": "Declaration of Arjuna's power",
+      "relationship": "Yudhishthira praises and acknowledges Arjuna's formidable prowess"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima and Satyaki, both wounded by arrows, pay homage to their elder Yudhishthira. They stand surrounded by the Panchalas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Satyaki",
+        "Yudhishthira"
+      ],
+      "action": "Post-battle homage",
+      "relationship": "Bhima and Satyaki show respect to their elder and king, Yudhishthira"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira congratulates Bhima and Satyaki, expressing his joy at seeing them survive the battle against formidable foes like Drona and Kritavarma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Satyaki",
+        "Drona",
+        "Kritavarma"
+      ],
+      "action": "Congratulation and relief",
+      "relationship": "Yudhishthira expresses deep familial and comradely relief for their survival"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira embraces Bhima and Satyaki, shedding tears of joy.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Satyaki"
+      ],
+      "action": "Emotional reunion",
+      "relationship": "Strong emotional bond and relief among the Pandava brothers and their ally"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing their side victorious, the entire Pandava army rejoices and wholeheartedly resumes fighting.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava Army"
+      ],
+      "action": "Resumption of battle with renewed morale",
+      "relationship_change": "The army's morale is boosted by the victory and the leaders' survival"
+    },
+    "_token_interval": null
+  }
+]

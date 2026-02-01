@@ -1,0 +1,958 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "德罗纳在战场上深入般度族军队中，东奔西突，般度族人开始围堵他。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "德罗纳"
+      ],
+      "action": "深入敌军，被围堵",
+      "type": "战斗"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那和萨谛奇杀死信度王后，与坚战会合，冲向德罗纳。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "萨谛奇",
+        "信度王",
+        "坚战",
+        "德罗纳"
+      ],
+      "action": "击杀信度王，会合后进攻德罗纳",
+      "type": "战斗"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战、怖军、无种、偕天、猛光、百军、毗罗吒、羯迦夜人、摩差人、沙鲁瓦王的军队向德罗纳发起进攻。",
+    "char_interval": {
+      "start_pos": 243,
+      "end_pos": 245
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "怖军",
+        "无种",
+        "偕天",
+        "猛光",
+        "百军",
+        "毗罗吒",
+        "羯迦夜人",
+        "摩差人",
+        "沙鲁瓦王",
+        "德罗纳"
+      ],
+      "action": "多方军队集结进攻德罗纳",
+      "type": "战斗"
+    },
+    "_token_interval": {
+      "start_index": 68,
+      "end_index": 69
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "木柱王在般遮罗人护卫下向德罗纳挺进。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "木柱王",
+        "般遮罗人",
+        "德罗纳"
+      ],
+      "action": "率军进攻德罗纳",
+      "type": "战斗"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "德罗波蒂的五个儿子和瓶首率军冲向德罗纳。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "德罗波蒂的儿子们",
+        "瓶首",
+        "德罗纳"
+      ],
+      "action": "率军进攻德罗纳",
+      "type": "战斗"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "六千名钵罗跋德罗迦和般遮罗族战士以束发为前锋，向德罗纳发起攻势。",
+    "char_interval": {
+      "start_pos": 415,
+      "end_pos": 447
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "钵罗跋德罗迦战士",
+        "般遮罗族战士",
+        "束发",
+        "德罗纳"
+      ],
+      "action": "大规模军队进攻德罗纳",
+      "type": "战斗"
+    },
+    "_token_interval": {
+      "start_index": 117,
+      "end_index": 121
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "夜晚降临，战场环境变得恐怖凶险，伴有各种凶兆。",
+    "char_interval": {
+      "start_pos": 847,
+      "end_pos": 852
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "环境变化，凶兆出现",
+      "type": "超自然/环境",
+      "details": "夜色恐怖，豺狼号叫，猫头鹰出现，预示俱卢族军队大难临头"
+    },
+    "_token_interval": {
+      "start_index": 239,
+      "end_index": 241
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "战场上传来巨大声响，包括鼓声、象吼、马嘶等，德罗纳与斯楞遮耶人之间爆发激烈大战。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "德罗纳",
+        "斯楞遮耶人"
+      ],
+      "action": "夜间激战",
+      "type": "战斗",
+      "details": "黑暗笼罩，尘土弥漫，鲜血流淌，武器碰撞声如燃烧竹林"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "鲜血遏止尘土飞扬，金甲和饰物驱除黑暗，军队如群星璀璨的夜空。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "战场视觉变化",
+      "type": "环境/描述",
+      "details": "鲜血与金光改变战场视觉效果"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The battlefield is described with terrifying sights and sounds, including banners, weapons, animal cries, and warrior shouts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Battlefield Description",
+      "supernatural_elements": "The noise is compared to Indra's thunderbolt."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The armies shine at night with ornaments and weapons, with elephants and chariots compared to lightning-filled clouds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Visual Description",
+      "setting": "Night battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Weapons fly everywhere like brilliant flames.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Battle Action"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana is compared to a gale wind, with chariots and elephants as clouds, drumbeats as thunder, and bows and banners as lightning.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "type": "Metaphorical Description",
+      "relationships": "Duryodhana leads the Kaurava army"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona and the Pandavas are compared to clouds, with swords, spears, and maces as thunder, arrows as heavy rain, and other weapons as gusts of wind.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Pandavas"
+      ],
+      "type": "Metaphorical Description",
+      "relationships": "Drona fights against the Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas and Srinjayas join forces and fiercely attack Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Srinjayas",
+        "Drona"
+      ],
+      "type": "Battle Action",
+      "relationships": "Alliance between Pandavas and Srinjayas against Drona"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Those who rush at Drona either flee or are killed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "type": "Battle Outcome",
+      "action": "Drona defeats attackers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra asks Sanjaya about the battle events involving Drona after the deaths of Jayadratha and Shrutayu.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Sanjaya",
+        "Drona",
+        "Jayadratha",
+        "Shrutayu"
+      ],
+      "type": "Narrative Inquiry",
+      "relationships": "Dhritarashtra is king and father of Duryodhana; Sanjaya is his charioteer and narrator; Drona is the Kaurava commander; Jayadratha and Shrutayu are slain warriors"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra asks how Arjuna responded when Drona, after speaking to Duryodhana, entered the enemy ranks.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Arjuna",
+        "Drona",
+        "Duryodhana"
+      ],
+      "type": "Narrative Inquiry",
+      "relationships": "Arjuna is a Pandava warrior; Drona is his former teacher fighting for the Kauravas; Duryodhana is the Kaurava prince"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra inquires about Drona's attack on the Panchalas after Jayadratha and Shrutayu were killed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Drona",
+        "Jayadratha",
+        "Shrutayu",
+        "Panchalas"
+      ],
+      "type": "Narrative Inquiry",
+      "relationships": "Panchalas are allies of the Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra asks what Arjuna thought and what Duryodhana planned when Drona entered the enemy forces.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Arjuna",
+        "Duryodhana",
+        "Drona"
+      ],
+      "type": "Narrative Inquiry",
+      "relationships": "Arjuna and Duryodhana are opposing commanders"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra asks who fought alongside, in front of, and behind Drona in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Drona"
+      ],
+      "type": "Narrative Inquiry"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra imagines the Pandavas trembling under Drona's arrows like weak cattle in winter.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Drona",
+        "Pandavas"
+      ],
+      "type": "Metaphorical Description",
+      "relationships": "Drona is overpowering the Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra asks how Drona died after attacking the Panchalas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Drona",
+        "Panchalas"
+      ],
+      "type": "Narrative Inquiry",
+      "key_plot_point": "Foreshadows Drona's death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra asks about the wise observers present during the night battle and how Sanjaya distinguished between the armies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Sanjaya"
+      ],
+      "type": "Narrative Inquiry",
+      "setting": "Night battle confusion"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In the night, a fierce night battle begins as the five Pandavas and various armies charge toward Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas (Five)",
+        "Drona"
+      ],
+      "type": "Battle Initiation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona kills the Kekayas and the sons of Shikhandin with arrows, sending them to the world of Death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Kekayas",
+        "Sons of Shikhandin"
+      ],
+      "action": "Mass Killing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Shibi, enraged, charges at Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Shibi",
+        "Drona"
+      ],
+      "action": "Charge"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona shoots ten iron arrows at King Shibi, who retaliates with thirty arrows and kills Drona's charioteer with a crescent-headed arrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "King Shibi"
+      ],
+      "action": "Archery Duel"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona kills King Shibi's horses and charioteer, then beheads him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "King Shibi"
+      ],
+      "action": "Killing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The prince of Kalinga, angry over his father's death by Bhima, charges at Bhima with the Kalinga army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Prince of Kalinga",
+        "Bhima"
+      ],
+      "type": "Revenge Charge"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The prince of Kalinga shoots arrows at Bhima, Shikhandin, and their banner.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Prince of Kalinga",
+        "Bhima",
+        "Shikhandin"
+      ],
+      "action": "Archery Attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima jumps from his chariot, rushes to the prince's chariot, and kills him with his fists, shattering his bones.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Prince of Kalinga"
+      ],
+      "action": "Fistfight Killing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna and the prince's brothers, enraged, shoot snake-like iron arrows at Bhima.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Brothers of Prince of Kalinga",
+        "Bhima"
+      ],
+      "action": "Archery Attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima leaves his opponents' chariot, goes to Darava's chariot, and kills Darava with his fists.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Darava"
+      ],
+      "action": "Fistfight Killing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima charges at Shrutakarman's chariot, roaring like a lion.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Shrutakarman"
+      ],
+      "action": "Charge"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima grabs Shrutakarman's left arm and kills him with a slap in front of Karna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Shrutakarman",
+        "Karna"
+      ],
+      "action": "Killing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna throws a gold-embellished spear at Bhima, who catches it smiling.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Bhima"
+      ],
+      "action": "Spear Throw"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima throws the spear back at Karna, but Shakuni breaks it mid-air with an oil-soaked arrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Karna",
+        "Shakuni"
+      ],
+      "action": "Spear Counter"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana's sons charge at Bhima's chariot, covering him with arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sons of Duryodhana",
+        "Bhima"
+      ],
+      "action": "Archery Attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima kills the charioteer and horses of Durmukha, who then boards Durjaya's chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Durmukha",
+        "Durjaya"
+      ],
+      "action": "Chariot Destruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Durmukha and Durjaya, riding together, charge at Bhima like Varuna and Mitra charging at the demon Taraka.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Durmukha",
+        "Durjaya",
+        "Bhima"
+      ],
+      "type": "Charge",
+      "supernatural_elements": "Divine comparison"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Durmukha and Durjaya shoot many arrows at Bhima.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Durmukha",
+        "Durjaya",
+        "Bhima"
+      ],
+      "action": "Archery Attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima kicks their chariot into the ground in front of Karna, Ashwatthama, Duryodhana, Kripa, Shalya, and Vrishaka.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Durmukha",
+        "Durjaya",
+        "Karna",
+        "Ashwatthama",
+        "Duryodhana",
+        "Kripa",
+        "Shalya",
+        "Vrishaka"
+      ],
+      "action": "Chariot Destruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima killed the two powerful sons of Dhritarashtra, Chitrasena and Dushkarna, by striking them with his fists and trampling them underfoot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Chitrasena",
+        "Dushkarna"
+      ],
+      "action": "Killing in battle",
+      "relationships": [
+        "Bhima is the killer",
+        "Chitrasena and Dushkarna are sons of Dhritarashtra"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The army raised a loud cry of grief, and the kings, seeing Bhima, speculated that he was Rudra (Shiva) disguised as Bhima fighting the sons of Dhritarashtra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Kings (unspecified)",
+        "Rudra (Shiva)"
+      ],
+      "action": "Speculation and fear",
+      "supernatural_elements": [
+        "Perception of Bhima as a divine incarnation of Rudra"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The kings, bewildered and terrified, fled in all directions, each driving their chariots and horses, not even staying in pairs.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kings (unspecified)"
+      ],
+      "action": "Rout and flight",
+      "relationships": [
+        "Kings are allies or subjects of Dhritarashtra"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "At night, after the army was shattered, the mighty-armed Bhima, praised by the bull-like kings, approached King Yudhishthira and paid homage to him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Yudhishthira",
+        "Bull-like kings (unspecified)"
+      ],
+      "action": "Homage and praise",
+      "relationships": [
+        "Bhima and Yudhishthira are brothers, with Yudhishthira as the elder and king"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The twins (Nakula and Sahadeva), Drupada, Virata, the Kekayas, and Yudhishthira, overjoyed, paid high homage to Bhima, just as the gods paid homage to Hara (Shiva) after the killing of Andhaka.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Sahadeva",
+        "Drupada",
+        "Virata",
+        "Kekayas",
+        "Yudhishthira",
+        "Bhima",
+        "Hara (Shiva)",
+        "Andhaka"
+      ],
+      "action": "Homage and celebration",
+      "relationships": [
+        "Nakula and Sahadeva are the Pandava twins, brothers of Bhima and Yudhishthira",
+        "Drupada, Virata, and the Kekayas are allies of the Pandavas"
+      ],
+      "supernatural_elements": [
+        "Comparison to divine homage to Shiva"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sons of Dhritarashtra, filled with rage and eager for battle, along with the great-souled preceptor (Drona), quickly surrounded Bhima with chariots, infantry, and elephants.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sons of Dhritarashtra (unspecified)",
+        "Drona",
+        "Bhima"
+      ],
+      "action": "Surrounding in battle",
+      "relationships": [
+        "Drona is the preceptor and commander of the Kaurava army",
+        "Sons of Dhritarashtra are the Kauravas, enemies of Bhima"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In the dark and dreadful night, a terrible and astonishing battle broke out among the great-souled, excellent Kshatriya warriors, delighting jackals, crows, and vultures.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kshatriya warriors (unspecified from both sides)"
+      ],
+      "action": "Night battle",
+      "relationships": [
+        "Warriors are from both Pandava and Kaurava sides"
+      ]
+    },
+    "_token_interval": null
+  }
+]

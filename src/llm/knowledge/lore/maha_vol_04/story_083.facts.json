@@ -1,0 +1,2442 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana and Shikhandin engaged in battle during the massacre of men, horses, and elephants.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Shikhandin"
+      ],
+      "type": "Combat",
+      "action": "Initial engagement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandin, enraged by Duryodhana's arrows, showered arrows on Duryodhana's horses from his golden chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Duryodhana"
+      ],
+      "action": "Arrow attack",
+      "emotion": "Rage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandin's arrows covered Duryodhana's chariot, banner, and charioteer, making them invisible.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Duryodhana"
+      ],
+      "action": "Overwhelming attack",
+      "effect": "Duryodhana unable to face Shikhandin"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After repelling Duryodhana, Shikhandin charged toward Drona and showered him with thousands of arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Drona"
+      ],
+      "action": "Charge and attack",
+      "target_change": "From Duryodhana to Drona"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kritavarma and his three brothers intervened to intercept Shikhandin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kritavarma",
+        "Shikhandin"
+      ],
+      "action": "Interception",
+      "relationship": "Opponents in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The twin brothers Nakula and Sahadeva protected Shikhandin from behind as he charged toward Drona like a burning fire.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Sahadeva",
+        "Shikhandin",
+        "Drona"
+      ],
+      "action": "Protection and charge",
+      "relationship": "Pandava allies protecting Shikhandin"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seven great warriors fought fiercely with courage and rage, abandoning thoughts of life and death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified seven warriors"
+      ],
+      "type": "Group combat",
+      "emotion": "Courage and rage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The warriors fought a noble battle using pure and lawful weapons, avoiding prohibited arrows and seeking victory through righteous combat.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "All combatants"
+      ],
+      "type": "Righteous warfare",
+      "rules": "Avoiding prohibited weapons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandin, seeing the twins blocking the four heroes, broke away and charged toward Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Nakula",
+        "Sahadeva",
+        "Drona"
+      ],
+      "action": "Strategic maneuver",
+      "tactic": "Breaking through to reach Drona"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana rushed between the combatants when he saw the fierce Shikhandin charging toward Drona and the twins engaging the four heroes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Shikhandin",
+        "Drona",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "action": "Intervention",
+      "motivation": "Protect Drona"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki quickly charged toward Duryodhana when he saw Duryodhana shooting blood-sucking arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Duryodhana"
+      ],
+      "action": "Counter-charge",
+      "trigger": "Duryodhana's arrow attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana and Satyaki met as tigers among men, smiling at each other and approaching without fear.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Satyaki"
+      ],
+      "type": "Confrontation",
+      "emotion": "Respectful acknowledgment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana recalled their childhood friendship and joyful memories while facing Satyaki in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Satyaki"
+      ],
+      "type": "Reflection",
+      "relationship": "Former childhood friends",
+      "emotion": "Nostalgia and regret"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana condemned anger, greed, ignorance, impatience, Kshatriya duty, strength, and courage while addressing Satyaki.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Satyaki"
+      ],
+      "type": "Speech",
+      "content": "Rejection of warrior values",
+      "relationship": "Friend addressing friend"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana acknowledged that Satyaki was once dearer than his own life, but now they must aim at each other in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Satyaki"
+      ],
+      "type": "Declaration",
+      "relationship_change": "From friends to enemies",
+      "action": "Acceptance of combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki (摩豆族后裔) spoke to King Duryodhana (你的儿子) about their past friendship and current battle situation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "King Duryodhana"
+      ],
+      "action": "Dialogue about past friendship and current conflict",
+      "relationships": "Former friends now enemies in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki charged forward fearlessly toward Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "King Duryodhana"
+      ],
+      "action": "Charge/Attack",
+      "relationships": "Enemies engaging in combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana met Satyaki's charge and showered him with arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Duryodhana",
+        "Satyaki"
+      ],
+      "action": "Counterattack with arrows",
+      "relationships": "Mutual combat between warriors"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana shot ten sharp arrows at Satyaki, who responded with ten arrows of his own.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Duryodhana",
+        "Satyaki"
+      ],
+      "action": "Exchange of arrow volleys",
+      "relationships": "Intense one-on-one combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki broke Duryodhana's bow and showered him with arrows, forcing Duryodhana to retreat to another chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "King Duryodhana"
+      ],
+      "action": "Breaking enemy's weapon and forcing retreat",
+      "relationships": "Satyaki gaining advantage in combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After resting briefly, Duryodhana returned to attack Satyaki with a net of arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Duryodhana",
+        "Satyaki"
+      ],
+      "action": "Renewed attack with arrow net",
+      "relationships": "Continued combat with changing fortunes"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna (迦尔纳) saw Satyaki's skill and rushed to help Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Satyaki",
+        "King Duryodhana"
+      ],
+      "action": "Intervention to assist ally",
+      "relationships": "Karna supporting Duryodhana against Satyaki"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima (怖军) could not tolerate this and attacked Karna with many arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Karna"
+      ],
+      "action": "Intervention to counter Karna",
+      "relationships": "Bhima protecting Satyaki by engaging Karna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna defended against Bhima's arrows, broke his bow, and killed his charioteer.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Bhima"
+      ],
+      "action": "Counterattack with lethal efficiency",
+      "relationships": "Karna gaining advantage over Bhima"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Enraged, Bhima took up his mace and destroyed Karna's banner, bow, and charioteer.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Karna"
+      ],
+      "action": "Mace attack destroying enemy equipment",
+      "relationships": "Bhima retaliating against Karna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna became furious and attacked Bhima with various arrow nets and weapons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Bhima"
+      ],
+      "action": "Intense counterattack with multiple weapons",
+      "relationships": "Escalating combat between powerful warriors"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira (坚战) urged the Panchalas and Matsyas to go help their warriors who were fighting.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Panchalas",
+        "Matsyas"
+      ],
+      "action": "Command to support allies",
+      "relationships": "Yudhishthira directing reinforcements to critical battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna advises Arjuna to use deceit to defeat Drona, suggesting they falsely report Ashwatthama's death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna"
+      ],
+      "action": "Strategic advice",
+      "relationship": "Charioteer and warrior counsel",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira reluctantly agrees to the plan, while Arjuna initially disapproves.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Arjuna",
+        "Bhima",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "action": "Decision-making",
+      "relationship": "Pandava brothers in conflict over strategy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima kills an elephant named Ashwatthama in his own army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "action": "Deceptive killing",
+      "relationship": "Bhima carries out the deceitful plan"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima shouts 'Ashwatthama is dead!' in battle, referring to the elephant but implying Drona's son.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Drona"
+      ],
+      "action": "Deceptive announcement",
+      "relationship": "Bhima attempts to deceive Drona"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona hears the announcement, is shaken but doubts its truth knowing his son's valor.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Emotional reaction and suspicion",
+      "relationship": "Father's concern for son Ashwatthama"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona fights fiercely against the Panchalas and Srinjayas, causing heavy casualties.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Panchalas",
+        "Srinjayas",
+        "Dhrishtadyumna"
+      ],
+      "action": "Battle slaughter",
+      "relationship": "Drona as enemy commander",
+      "supernatural_elements": "Compared to Indra fighting demons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas become fearful as Drona devastates their allies, questioning if even Arjuna can stop him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Arjuna",
+        "Drona"
+      ],
+      "action": "Moral and strategic crisis",
+      "relationship": "Pandavas facing their former teacher"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona heard about his son's death but remained calm and composed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Receiving news, emotional control"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona regained composure, convinced his son could not be defeated by enemies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Recovery, conviction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona attacked his enemy Shikhandin (grandson of King Drupada) with thousands of sharp arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Shikhandin"
+      ],
+      "action": "Attack, arrow barrage",
+      "relationship": "Enemies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Twenty thousand Panchala warriors surrounded Drona and shot arrows at him from all sides.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Panchala warriors"
+      ],
+      "action": "Surround, counterattack",
+      "relationship": "Battle opponents"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Enraged Drona used the Brahmastra weapon, slaughtering Panchala warriors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Panchala warriors"
+      ],
+      "action": "Divine weapon usage, mass killing",
+      "supernatural": "Brahmastra weapon"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona killed all Somakas, beheaded Panchalas, and slaughtered kings on the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Somakas",
+        "Panchalas",
+        "various kings"
+      ],
+      "action": "Mass slaughter, beheading"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona killed 20,000 Panchala charioteers, 500 Matsyas, 6,000 Srinjayas, 10,000 elephants, and 10,000 horses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Panchala charioteers",
+        "Matsyas",
+        "Srinjayas"
+      ],
+      "action": "Mass destruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sages led by Agni arrived to stop Drona from exterminating Kshatriyas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Agni",
+        "various sages"
+      ],
+      "action": "Divine intervention",
+      "supernatural": "Sage intervention"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sages told Drona his fighting was unrighteous, his time had come, and he should abandon weapons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "various sages"
+      ],
+      "action": "Admonishment, spiritual guidance",
+      "relationship": "Sages advising warrior"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After hearing Bhima's words and seeing Shikhandin, Drona became dispirited.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Bhima",
+        "Shikhandin"
+      ],
+      "action": "Psychological impact, demoralization"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona asked Yudhishthira if his son was truly dead, trusting Yudhishthira's truthfulness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Yudhishthira"
+      ],
+      "action": "Verification request",
+      "relationship": "Teacher-student trust"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna warned Yudhishthira that Drona could exterminate the Pandavas if he fought half a day more.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira",
+        "Drona"
+      ],
+      "action": "Warning, strategic advice",
+      "relationship": "Allies strategizing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna advised Yudhishthira that lying to save lives was not sinful in this situation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira"
+      ],
+      "action": "Moral guidance, tactical deception"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima spoke to Yudhishthira during this conversation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Yudhishthira"
+      ],
+      "action": "Communication",
+      "relationship": "Brothers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima revealed the method to kill Drona by telling him his son Ashvatthama (the elephant) was dead.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Drona",
+        "Ashvatthama"
+      ],
+      "action": "Deception strategy",
+      "relationships": [
+        "Bhima advises deception to defeat Drona",
+        "Drona is Ashvatthama's father"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna encouraged Yudhishthira to use this deception for victory.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira"
+      ],
+      "action": "Encouragement to deceive",
+      "relationships": [
+        "Krishna advises Yudhishthira"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira reluctantly told Drona that Ashvatthama (the elephant) was dead, adding a vague qualification.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Drona"
+      ],
+      "action": "Deceptive statement",
+      "supernatural_elements": [
+        "Yudhishthira's chariot lowered to the ground as punishment for lying"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona, believing his son was dead, became grief-stricken, lost his will to fight, and felt guilty about wronging the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Emotional collapse",
+      "relationships": [
+        "Drona's paternal grief overwhelms him"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhrishtadyumna, born from sacrificial fire to kill Drona, attacked the distracted Drona with a powerful bow and arrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "Drona"
+      ],
+      "action": "Attack initiation",
+      "supernatural_elements": [
+        "Dhrishtadyumna was created from fire to kill Drona",
+        "His arrow shone like the sun"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona's weapons failed him as his arrows were exhausted and divine weapons became ineffective.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Weapon failure",
+      "supernatural_elements": [
+        "Divine weapons stopped working"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona, urged by Brahmin sages to lay down arms but still fighting with another divine bow, attacked Dhrishtadyumna fiercely.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Dhrishtadyumna"
+      ],
+      "action": "Final battle",
+      "supernatural_elements": [
+        "Drona used a bow given by sage Angiras"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona destroyed Dhrishtadyumna's arrows, banner, bow, and charioteer in his final assault.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Dhrishtadyumna"
+      ],
+      "action": "Combat destruction",
+      "relationships": [
+        "Drona's last offensive against his fated killer"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "猛光用利箭射中德罗纳的胸膛。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "猛光",
+        "德罗纳"
+      ],
+      "action": "箭射",
+      "type": "战斗攻击"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "德罗纳用月牙箭射断了猛光的大弓。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "德罗纳",
+        "猛光"
+      ],
+      "action": "破坏武器",
+      "type": "战斗反击"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "德罗纳射断了猛光的弓、箭、铁杵和剑。",
+    "char_interval": {
+      "start_pos": 5036,
+      "end_pos": 5088
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "德罗纳",
+        "猛光"
+      ],
+      "action": "全面武器破坏",
+      "type": "战斗压制"
+    },
+    "_token_interval": {
+      "start_index": 1462,
+      "end_index": 1476
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "德罗纳向猛光射出九支致人死命的利箭。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "德罗纳",
+        "猛光"
+      ],
+      "action": "致命箭击",
+      "type": "战斗攻击"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "德罗纳使用梵武器让双方战车马匹连在一起。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "德罗纳",
+        "猛光"
+      ],
+      "action": "使用梵武器",
+      "supernatural_elements": [
+        "梵武器"
+      ],
+      "type": "超自然战斗"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "德罗纳摧毁猛光的辕榫、轮榫和车榫。",
+    "char_interval": {
+      "start_pos": 5210,
+      "end_pos": 5234
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "德罗纳",
+        "猛光"
+      ],
+      "action": "破坏战车结构",
+      "type": "战斗破坏"
+    },
+    "_token_interval": {
+      "start_index": 1502,
+      "end_index": 1506
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "猛光在武器被毁后拿起铁杵。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "猛光"
+      ],
+      "action": "更换武器",
+      "type": "战斗调整"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "德罗纳用利箭摧毁猛光投掷的铁杵。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "德罗纳",
+        "猛光"
+      ],
+      "action": "远程防御",
+      "type": "战斗防御"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "猛光拿起宝剑和百月盾，认定杀死德罗纳的时刻到了。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "猛光",
+        "德罗纳"
+      ],
+      "action": "决意击杀",
+      "relationships": [
+        "师生关系（猛光为般遮罗王子，德罗纳为老师）"
+      ],
+      "type": "战斗决心"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "猛光以灵活身法冲向德罗纳，德罗纳难以找到下手机会。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "猛光",
+        "德罗纳"
+      ],
+      "action": "近身攻击",
+      "type": "战斗机动"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "德罗纳用旗杆杀死猛光的鸽色马。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "德罗纳",
+        "猛光"
+      ],
+      "action": "杀死战马",
+      "type": "战斗攻击"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "猛光失去战车后持剑冲向德罗纳。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "猛光",
+        "德罗纳"
+      ],
+      "action": "徒步冲锋",
+      "type": "战斗冲锋"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "猛光施展二十一种步法和动作攻击德罗纳。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "猛光"
+      ],
+      "action": "武艺展示",
+      "type": "战斗技巧"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "德罗纳用一千支箭击落猛光的宝剑和百月盾。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "德罗纳",
+        "猛光"
+      ],
+      "action": "远程武器破坏",
+      "type": "战斗终结"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki rescued Dhrishtadyumna by shooting ten sharp arrows that cut off Drona's arrow aimed at Dhrishtadyumna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Drona",
+        "Dhrishtadyumna"
+      ],
+      "action": "Rescue",
+      "context": "Drona attempted to kill his student-like Dhrishtadyumna with a sharp arrow, but Satyaki intervened and saved him in front of Duryodhana and Karna."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna and Arjuna praised Satyaki for his bravery and skill in battle against Drona, Karna, and Kripa.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna",
+        "Satyaki"
+      ],
+      "action": "Praise",
+      "context": "They observed Satyaki maneuvering skillfully among Drona, Karna, and Kripa, and commended his fearlessness and ability to destroy magical weapons."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna expressed his joy and admiration for Satyaki's valor to Krishna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna",
+        "Satyaki"
+      ],
+      "action": "Admiration",
+      "context": "Arjuna noted that Satyaki's bravery pleased him, as well as the sons of Madri (Nakula and Sahadeva), Bhima, and King Yudhishthira."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Siddhas and soldiers on both sides praised Satyaki, exclaiming 'Excellent! Excellent!' as they witnessed his invincibility in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki"
+      ],
+      "action": "Universal Praise",
+      "context": "Both sides were amazed and applauded Satyaki, a descendant of the Vrishni and Shatvat clans, for his martial prowess without arrogance."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya described the brutal and intense battle between kings, comparing it to Rudra's wrathful slaughter of cattle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya"
+      ],
+      "action": "Narration",
+      "context": "The battlefield was littered with severed limbs, heads, bows, scattered canopies, chowries, broken chariot wheels, fallen flags, and dead cavalry, resembling the battle between Devas and Asuras."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira urged the Kshatriyas to charge at Drona, predicting that Dhrishtadyumna would kill Drona in battle that day.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Dhrishtadyumna",
+        "Drona"
+      ],
+      "action": "Command",
+      "context": "Yudhishthira, seeing Dhrishtadyumna fighting Drona with full effort, ordered the warriors to collectively attack Drona, foreseeing Drona's death at Dhrishtadyumna's hands."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Srinjaya warriors charged forward to kill Drona upon Yudhishthira's command.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Srinjaya Warriors",
+        "Drona"
+      ],
+      "action": "Charge",
+      "context": "They advanced with the intent to slay Drona, responding to Yudhishthira's orders."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona, knowing his inevitable death, rushed toward the advancing warriors, causing the earth to shake, winds to blow fiercely, and panic in the armies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Counter-Charge",
+      "supernatural_elements": [
+        "Earth shaking",
+        "Fierce winds",
+        "Meteor-like omens",
+        "Burning weapons",
+        "Chariot creaking",
+        "Horses weeping"
+      ],
+      "context": "Drona's advance was accompanied by terrifying omens: the earth trembled, winds roared, a meteor seemed to fall from the sun with burning heat, his weapons blazed, his chariot creaked, and his horses shed tears, indicating his impending doom."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona seemed to lose his power, remembered the words of the sages calling him to heaven, and prepared to abandon his life through a beautiful battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Preparation for death",
+      "supernatural_elements": "Sages calling him to heaven"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The army of Dhrishtadyumna, son of Drupada, surrounded Drona from all sides, and Drona roamed the battlefield, burning groups of Kshatriyas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Dhrishtadyumna"
+      ],
+      "action": "Battle engagement",
+      "relationships": "Dhrishtadyumna is son of Drupada"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona killed twenty thousand Kshatriyas and then another hundred thousand with sharp-tipped arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Mass killing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhrishtadyumna lost his chariot and all weapons were destroyed, but he remained undaunted. Bhima quickly went to him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "Bhima"
+      ],
+      "action": "Rescue/support"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima saw Dhrishtadyumna near Drona, made him board his chariot, and told him that only he could fight Drona and must kill him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Dhrishtadyumna",
+        "Drona"
+      ],
+      "action": "Strategic instruction",
+      "relationships": "Bhima encourages Dhrishtadyumna to confront Drona"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhrishtadyumna took a new hard bow and rushed at Drona, showering him with arrows to restrain him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "Drona"
+      ],
+      "action": "Direct attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhrishtadyumna and Drona fought fiercely, repeatedly using divine and celestial weapons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "Drona"
+      ],
+      "action": "Intense duel",
+      "supernatural_elements": "Use of divine weapons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhrishtadyumna destroyed all of Drona's weapons and covered him with many weapons, also defeating the Vasatis, Shibis, Paulikas, and Kurus protecting Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "Drona"
+      ],
+      "action": "Weapon destruction and attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona again broke Dhrishtadyumna's bow with an arrow and struck his vital points, causing great pain.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Dhrishtadyumna"
+      ],
+      "action": "Counterattack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima angrily approached Drona's chariot and spoke to him, criticizing him for abandoning his Brahmin duties to fight for wealth and family, and informing him that his son was dead as confirmed by Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Drona"
+      ],
+      "action": "Confrontation and accusation",
+      "relationships": "Bhima confronts Drona about his actions and informs him of his son's death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Upon hearing Bhima's words, Drona, devoted to dharma, decided to lay down his bow and all weapons, addressing Karna, Ashwatthama, Kripa, and Duryodhana, wishing them safety and announcing his surrender.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Karna",
+        "Ashwatthama",
+        "Kripa",
+        "Duryodhana"
+      ],
+      "action": "Decision to surrender",
+      "relationships": "Drona addresses his allies before surrendering"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona sat on his chariot seat, performed yoga, and granted fearlessness to all beings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Performing yoga and granting fearlessness",
+      "supernatural_elements": [
+        "Yoga",
+        "Granting fearlessness to all beings"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhrishtadyumna, knowing the opportunity had come, rose with his sword, jumped from his chariot, and swiftly rushed toward Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "Drona"
+      ],
+      "action": "Attack initiation",
+      "relationships": [
+        "Dhrishtadyumna is the son of Drupada",
+        "Drona is the teacher of the Pandavas and Kauravas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing Drona under Dhrishtadyumna's control, the people and all other beings cried out in alarm.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Dhrishtadyumna",
+        "People and beings"
+      ],
+      "action": "Collective outcry",
+      "emotional_state": "Alarm and distress"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Amid cries and shouts, Drona laid down his weapons and entered a state of supreme tranquility.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Laying down weapons and entering tranquility",
+      "spiritual_state": "Supreme tranquility"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The great ascetic performed yoga, emitted light from his entire body, and traveled with the sages to the difficult-to-reach heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Sages"
+      ],
+      "action": "Ascension to heaven",
+      "supernatural_elements": [
+        "Yoga",
+        "Emitting light",
+        "Travel to heaven with sages"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "When Drona reached heaven, the sky appeared to be filled with light, and then the luminous body disappeared as Drona entered the realm of Brahma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Entering Brahma's realm",
+      "supernatural_elements": [
+        "Sky filled with light",
+        "Disappearance of luminous body",
+        "Entry into Brahma's realm"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Only five mortals saw Drona's soul travel to the supreme heaven: Sanjaya, Arjuna, Kripa, Krishna, and Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Arjuna",
+        "Kripa",
+        "Krishna",
+        "Yudhishthira",
+        "Drona"
+      ],
+      "action": "Witnessing spiritual ascension",
+      "relationships": [
+        "Arjuna and Yudhishthira are Pandavas",
+        "Kripa is a teacher",
+        "Krishna is Arjuna's charioteer and guide",
+        "Sanjaya is the narrator"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhrishtadyumna attacked Drona, who had laid down his weapons and was covered with hundreds of arrows and blood, despite being cursed by all beings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "Drona"
+      ],
+      "action": "Attack on defenseless Drona",
+      "moral_context": "Attack despite curses from all beings"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhrishtadyumna seized Drona's head and cut it off with his sword.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "Drona"
+      ],
+      "action": "Decapitation",
+      "violence_level": "Fatal"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna and all the kings shouted for Dhrishtadyumna to spare Drona, but Dhrishtadyumna killed Drona while he sat on his chariot seat.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Dhrishtadyumna",
+        "Drona",
+        "Kings"
+      ],
+      "action": "Failed intervention and killing",
+      "relationships": [
+        "Arjuna is Drona's student",
+        "Dhrishtadyumna is Arjuna's brother-in-law"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhrishtadyumna threw Drona's large head before the army, causing the soldiers to flee in all directions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "Drona",
+        "Soldiers"
+      ],
+      "action": "Display of head and army rout",
+      "psychological_impact": "Terror and flight"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona ascended to heaven and entered the orbit of the stars, witnessed by Sanjaya through the grace of Vyasa.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Sanjaya",
+        "Vyasa"
+      ],
+      "action": "Final ascension witnessed",
+      "supernatural_elements": [
+        "Ascension to heaven",
+        "Entry into star orbit",
+        "Vision granted by Vyasa's grace"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "德罗纳被杀死后，般度族人和斯楞遮耶人快速冲向失去勇气的俱卢族人，导致俱卢族军队溃散。",
+    "char_interval": {
+      "start_pos": 8895,
+      "end_pos": 8926
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "德罗纳",
+        "般度族人",
+        "斯楞遮耶人",
+        "俱卢族人"
+      ],
+      "action": "冲锋与溃败",
+      "relationships": [
+        "敌对关系"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 2555,
+      "end_index": 2558
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "怖军和水滴王之孙猛光在军队中互相拥抱跳舞庆祝胜利。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "怖军",
+        "猛光"
+      ],
+      "action": "庆祝胜利",
+      "relationships": [
+        "盟友关系"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "怖军对猛光说，等到迦尔纳和难敌被杀死后，将再次拥抱得胜的猛光。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "怖军",
+        "猛光",
+        "迦尔纳",
+        "难敌"
+      ],
+      "action": "誓言",
+      "relationships": [
+        "盟友关系",
+        "敌对关系"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "俱卢族人失去将帅德罗纳后，备受武器折磨，溃不成军，陷入忧愁之中。",
+    "char_interval": {
+      "start_pos": 9318,
+      "end_pos": 9346
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "德罗纳",
+        "俱卢族人"
+      ],
+      "action": "士气崩溃",
+      "relationships": [
+        "将帅与军队关系"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 2673,
+      "end_index": 2681
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "犍陀罗王沙恭尼、迦尔纳、摩德罗王沙利耶、慈悯、成铠、优楼迦、难降、难敌等俱卢族将领纷纷恐惧逃跑。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "沙恭尼",
+        "迦尔纳",
+        "沙利耶",
+        "慈悯",
+        "成铠",
+        "优楼迦",
+        "难降",
+        "难敌"
+      ],
+      "action": "溃逃",
+      "relationships": [
+        "俱卢族阵营"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kaurava army was defeated and scattered, with soldiers fleeing in disarray on elephants, chariots, and horses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kaurava army"
+      ],
+      "action": "Rout and retreat",
+      "description": "Complete collapse of Kaurava forces with soldiers abandoning weapons and armor"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama (Drona's son) fought fiercely against Pandava forces and managed to break through their lines.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Pandava army"
+      ],
+      "action": "Combat breakthrough",
+      "description": "Ashvatthama fought like a crocodile swimming against the current, destroying multiple Pandava divisions"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama approached Duryodhana and questioned him about the army's panic and retreat.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Duryodhana"
+      ],
+      "action": "Confrontation",
+      "relationships": [
+        "Ashvatthama is Drona's son",
+        "Duryodhana is Kaurava leader"
+      ],
+      "dialogue": "Ashvatthama asks why the army is fleeing and who has been killed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana was overwhelmed with grief and unable to speak, looking at Ashvatthama with tears.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Ashvatthama"
+      ],
+      "action": "Emotional breakdown",
+      "description": "Duryodhana sank into an ocean of sorrow, unable to utter the terrible news"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana asked Kripa (son of Sharadvata) to explain the reason for the army's flight.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Kripa"
+      ],
+      "action": "Request for explanation",
+      "relationships": [
+        "Kripa is Drona's brother-in-law and teacher"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kripa, filled with pain, told Ashvatthama about Drona's death in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripa",
+        "Ashvatthama"
+      ],
+      "action": "Revelation of death",
+      "relationships": [
+        "Kripa is informing Ashvatthama about his father's death"
+      ],
+      "key_information": "Drona has been killed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kripa described the battle where Drona fought against Panchalas and other forces.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Panchalas",
+        "Pandavas",
+        "Kekayas",
+        "Matsyas"
+      ],
+      "action": "Battle description",
+      "description": "Drona used divine weapons (Brahmastra) to kill thousands of enemies including chariot warriors and elephants"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona fought fiercely despite his age (85 years old), appearing like a 16-year-old youth on the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Heroic combat",
+      "description": "Drona, with dark complexion and white hair, fought with youthful vigor using celestial weapons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Panchalas turned to flee despite their fury, and Drona pursued them like the rising sun.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Panchalas"
+      ],
+      "action": "Pursuit and attack",
+      "description": "Drona attacked the retreating Panchalas with divine weapons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona charged into the midst of Pandava forces, shooting arrows like sun rays.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Pandava army"
+      ],
+      "action": "Final assault",
+      "description": "Drona's magnificent attack before his death, shining like the midday sun"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona's army was burned by Drona's weapons, causing them to lose courage, vitality, and consciousness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Drona's army"
+      ],
+      "action": "Attack with divine weapons",
+      "supernatural_elements": "Divine weapons causing mass incapacitation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna, seeing Drona's devastating attack, advised the Pandavas to abandon dharma (righteous conduct) to secure victory, suggesting they deceive Drona by falsely claiming his son Ashwatthama had been killed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Pandavas",
+        "Drona",
+        "Ashwatthama"
+      ],
+      "action": "Strategic deception proposal",
+      "relationships": "Krishna as advisor to Pandavas, Drona as father of Ashwatthama"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna disapproved of the deception, but all others including Yudhishthira reluctantly agreed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Yudhishthira",
+        "Pandavas"
+      ],
+      "action": "Decision-making conflict",
+      "relationships": "Brothers with differing moral stances"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima shamefully told Drona that Ashwatthama had been killed, but Drona was skeptical and asked Yudhishthira for confirmation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Drona",
+        "Yudhishthira",
+        "Ashwatthama"
+      ],
+      "action": "Deceptive statement and verification request",
+      "relationships": "Teacher-student relationship between Drona and Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira, torn between fear of lying and desire for victory, said 'Ashwatthama is dead' but added 'the elephant is dead', referring to an elephant named Ashwatthama killed by Bhima.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Drona",
+        "Bhima",
+        "Ashwatthama"
+      ],
+      "action": "Ambiguous truth-telling",
+      "relationships": "Moral conflict for Yudhishthira"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira approached Drona and declared that his son Ashwatthama was forever dead.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Drona",
+        "Ashwatthama"
+      ],
+      "action": "Final deceptive statement",
+      "relationships": "Breaking of trust between teacher and student"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Upon hearing this news, Drona became despondent, lost his spirit, and laid down his divine weapons, becoming unable to fight as before.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Psychological collapse",
+      "supernatural_elements": "Abandonment of divine weapons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhrishtadyumna, seeing Drona's vulnerable state, charged forward to kill him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "Drona"
+      ],
+      "action": "Attack initiation",
+      "relationships": "Dhrishtadyumna as fated killer of Drona"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona, understanding Dhrishtadyumna was his destined killer, laid down his weapons and sat in meditation awaiting death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Dhrishtadyumna"
+      ],
+      "action": "Acceptance of fate",
+      "supernatural_elements": "Divine prophecy fulfillment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhrishtadyumna grabbed Drona's hair with his left hand and beheaded him despite protests from warriors including Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "Drona",
+        "Arjuna"
+      ],
+      "action": "Execution",
+      "relationships": "Violation of warrior codes, teacher-student bond"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The entire army panicked and fled after Drona's death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kaurava army"
+      ],
+      "action": "Mass retreat",
+      "relationships": "Loss of leadership"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama, upon learning of his father's death, became enraged like a wounded snake.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Drona"
+      ],
+      "action": "Emotional reaction",
+      "relationships": "Father-son bond, motivation for future revenge"
+    },
+    "_token_interval": null
+  }
+]

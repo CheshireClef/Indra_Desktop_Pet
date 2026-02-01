@@ -1,0 +1,965 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yudhishthira (also referred to as Dharmaraja, son of Pandu) and the sages sit together after defeating King Jayadratha and rescuing Draupadi.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira",
+        "Draupadi",
+        "King Jayadratha",
+        "Sages"
+      ],
+      "type": "Post-battle gathering",
+      "relationships": [
+        "Yudhishthira is husband to Draupadi",
+        "Jayadratha is enemy who abducted Draupadi"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira expresses his sorrow and questions why such suffering befell Draupadi, who is righteous, and recounts their hardships in exile.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira",
+        "Draupadi"
+      ],
+      "type": "Lamentation",
+      "relationships": [
+        "Yudhishthira is protective of Draupadi"
+      ],
+      "key_points": [
+        "Draupadi was abducted by Jayadratha",
+        "Pandavas rescued her after battle",
+        "They are in exile due to relatives"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Markandeya consoles Yudhishthira by telling him that Rama also suffered greatly when his wife Sita was abducted by the rakshasa Ravana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Markandeya",
+        "King Yudhishthira",
+        "Rama",
+        "Sita",
+        "Ravana"
+      ],
+      "type": "Consolation through parallel story",
+      "relationships": [
+        "Markandeya is sage advising Yudhishthira",
+        "Rama is husband to Sita",
+        "Ravana is enemy who abducted Sita"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Markandeya narrates how Ravana abducted Sita, killed Jatayu, and how Rama rescued her with help from Sugriva and by building a bridge to Lanka.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ravana",
+        "Sita",
+        "Jatayu",
+        "Rama",
+        "Sugriva"
+      ],
+      "type": "Abduction and rescue",
+      "relationships": [
+        "Ravana is rakshasa king enemy of Rama",
+        "Jatayu is bird ally of Rama",
+        "Sugriva is monkey king ally of Rama"
+      ],
+      "supernatural_elements": [
+        "Ravana uses illusion",
+        "Bridge built to Lanka"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks about Rama's lineage, his valor, Ravana's origin, and their enmity, requesting details of Rama's deeds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira",
+        "Markandeya",
+        "Rama",
+        "Ravana"
+      ],
+      "type": "Inquiry for story",
+      "relationships": [
+        "Yudhishthira seeks wisdom from Markandeya"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Markandeya begins explaining Rama's lineage: King Aja, his son Dasharatha, and Dasharatha's four sons including Rama, Lakshmana, Bharata, and Shatrughna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Aja",
+        "King Dasharatha",
+        "Rama",
+        "Lakshmana",
+        "Bharata",
+        "Shatrughna",
+        "Kausalya",
+        "Kaikeyi",
+        "Sumitra"
+      ],
+      "type": "Lineage exposition",
+      "relationships": [
+        "Dasharatha is father of Rama, Lakshmana, Bharata, Shatrughna",
+        "Kausalya is mother of Rama",
+        "Kaikeyi is mother of Bharata",
+        "Sumitra is mother of Lakshmana and Shatrughna"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Markandeya mentions Sita as daughter of King Janaka and wife of Rama, created by Brahma, and starts explaining Ravana's origin from Prajapati.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sita",
+        "King Janaka",
+        "Rama",
+        "Brahma",
+        "Ravana",
+        "Prajapati",
+        "Pulastya"
+      ],
+      "type": "Character origins",
+      "relationships": [
+        "Sita is wife of Rama",
+        "Janaka is father of Sita",
+        "Brahma created Sita",
+        "Prajapati is grandfather of Ravana",
+        "Pulastya is father of Ravana's lineage"
+      ],
+      "supernatural_elements": [
+        "Divine creation of Sita"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pulastya had a son named Vaishravana, born from a cow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pulastya",
+        "Vaishravana"
+      ],
+      "action": "Birth",
+      "relationship": "Father and son"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vaishravana left his father Pulastya and went to his grandfather.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vaishravana",
+        "Pulastya"
+      ],
+      "action": "Departure",
+      "reason": "Left father for grandfather"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pulastya became angry and created a Brahmin named Vishrava from half of himself.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pulastya",
+        "Vishrava"
+      ],
+      "action": "Creation",
+      "supernatural_element": "Creation from self"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vishrava harbored hatred for Vaishravana and sought revenge.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishrava",
+        "Vaishravana"
+      ],
+      "action": "Hatred and revenge plot",
+      "relationship": "Hostile"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The grandfather (likely Brahma) granted Vaishravana immortality, making him the god of wealth and world protector.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma",
+        "Vaishravana"
+      ],
+      "action": "Divine boon",
+      "supernatural_element": "Immortality and divine status"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vaishravana befriended Shiva, fathered a son named Nalakubara, and established Lanka as his capital filled with Rakshasas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vaishravana",
+        "Shiva",
+        "Nalakubara"
+      ],
+      "action": "Friendship, fatherhood, and establishment",
+      "relationship": "Friends, father-son"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pulastya angrily created the sage Vishrava from half his body to glare at Vaishravana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pulastya",
+        "Vishrava",
+        "Vaishravana"
+      ],
+      "action": "Creation and confrontation",
+      "supernatural_element": "Creation from body"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vaishravana (Kubera) tried to appease his angry father Pulastya by sending three Rakshasi women as servants.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vaishravana (Kubera)",
+        "Pulastya",
+        "Malini",
+        "Raka",
+        "Pushpotkata"
+      ],
+      "action": "Gift offering",
+      "relationship": "Son appeasing father"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pulastya was pleased and granted each Rakshasi a boon to bear king-like sons as desired.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pulastya",
+        "Malini",
+        "Raka",
+        "Pushpotkata"
+      ],
+      "action": "Divine boon",
+      "supernatural_element": "Granting offspring"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pushpotkata gave birth to Kumbhakarna and Ravana; Malini to Vibhishana; Raka to Khara and Shurpanakha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pushpotkata",
+        "Kumbhakarna",
+        "Ravana",
+        "Malini",
+        "Vibhishana",
+        "Raka",
+        "Khara",
+        "Shurpanakha"
+      ],
+      "action": "Births",
+      "relationship": "Mother and children"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The five siblings saw Vaishravana (Kubera) sitting with their father in splendor and resolved to perform austerities to surpass him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ravana",
+        "Kumbhakarna",
+        "Vibhishana",
+        "Khara",
+        "Shurpanakha",
+        "Vaishravana (Kubera)",
+        "Vishrava"
+      ],
+      "action": "Decision to perform austerities",
+      "motivation": "Rivalry and ambition"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ravana, Kumbhakarna, and Vibhishana performed severe austerities that pleased Brahma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ravana",
+        "Kumbhakarna",
+        "Vibhishana",
+        "Brahma"
+      ],
+      "action": "Austerities",
+      "supernatural_element": "Divine approval"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kumbhakarna, Vibhishana, and Surpanakha served and protected their elder brothers during their austerities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kumbhakarna",
+        "Vibhishana",
+        "Surpanakha"
+      ],
+      "action": "Service and Protection",
+      "relationships": "Siblings serving elder brothers (Ravana and others)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After completing a thousand years of austerities, Ravana cut off his own heads and offered them into the sacrificial fire, pleasing Brahma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ravana",
+        "Brahma"
+      ],
+      "action": "Self-sacrifice/Austerity",
+      "supernatural_elements": "Divine intervention by Brahma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahma appeared before them, stopped their austerities, and granted them boons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma",
+        "Ravana",
+        "Kumbhakarna",
+        "Vibhishana"
+      ],
+      "action": "Granting of Boons",
+      "relationships": "Deity granting favors to devotees"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "condition",
+    "extraction_text": "Brahma offered any wish except immortality.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "proposer": "Brahma",
+      "limitation": "Cannot grant immortality"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahma restored Ravana's heads and granted him invincibility in battle, ability to change form at will, and immunity from defeat by all except humans.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma",
+        "Ravana"
+      ],
+      "action": "Granting of Powers",
+      "supernatural_elements": "Restoration of heads, shape-shifting ability, conditional invincibility"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kumbhakarna, whose mind was clouded by darkness, asked for the boon of sleep.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kumbhakarna",
+        "Brahma"
+      ],
+      "action": "Request for Sleep",
+      "character_trait": "Clouded judgment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vibhishana asked for unwavering adherence to dharma (righteousness) and mastery of divine weapons without study.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vibhishana",
+        "Brahma"
+      ],
+      "action": "Request for Righteousness and Knowledge",
+      "character_trait": "Virtuous nature"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahma granted Vibhishana immortality for his righteous disposition.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma",
+        "Vibhishana"
+      ],
+      "action": "Granting of Immortality",
+      "relationships": "Reward for virtue"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After receiving boons, Ravana defeated Kubera in battle and drove him out of Lanka.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ravana",
+        "Kubera"
+      ],
+      "action": "Battle and Conquest",
+      "relationships": "Ravana defeats his half-brother Kubera"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kubera retreated to Mount Kailash with his followers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kubera"
+      ],
+      "action": "Retreat/Exile",
+      "location_change": "From Lanka to Mount Kailash"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ravana forcibly took Kubera's aerial chariot, Pushpaka.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ravana",
+        "Kubera"
+      ],
+      "action": "Theft of Divine Vehicle",
+      "supernatural_elements": "Magical chariot"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kubera cursed Ravana that the chariot would not serve him and would pass to his slayer.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kubera",
+        "Ravana"
+      ],
+      "action": "Curse",
+      "supernatural_elements": "Prophetic curse",
+      "relationships": "Brotherly conflict and curse"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kubera, pleased with Vibhishana's righteousness, appointed him commander of the Yaksha and Rakshasa armies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kubera",
+        "Vibhishana"
+      ],
+      "action": "Appointment to Command",
+      "relationships": "Brother rewards virtuous brother"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rakshasas and Pisachas gathered and anointed Ravana as their king.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ravana"
+      ],
+      "action": "Coronation",
+      "relationships": "Ravana becomes king of Rakshasas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ravana, with his new powers, began attacking gods and demons, plundering jewels and causing widespread suffering.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ravana"
+      ],
+      "action": "Tyrannical Reign and Conquest",
+      "supernatural_elements": "Shape-shifting and aerial abilities",
+      "consequence": "Terrorizing of all worlds"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ravana earned his name ('one who causes crying') from the suffering he inflicted.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ravana"
+      ],
+      "action": "Etymology of Name",
+      "meaning": "\"Ravana\" means \"one who causes crying\""
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Devas, Brahmarshis, Rajarshis, and Siddhas approached Brahma for protection against Ravana, led by Agni.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Devas",
+        "Brahmarshis",
+        "Rajarshis",
+        "Siddhas",
+        "Agni",
+        "Brahma",
+        "Ravana"
+      ],
+      "action": "Seeking divine protection",
+      "relationships": [
+        "Agni as spokesperson for the group",
+        "Ravana as the threat"
+      ],
+      "supernatural_elements": [
+        "Divine beings gathering",
+        "Brahma as creator god"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Agni explained to Brahma that Ravana, son of Vishrava, was invincible due to Brahma's boon and was oppressing all beings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Agni",
+        "Brahma",
+        "Ravana",
+        "Vishrava"
+      ],
+      "action": "Explaining the threat",
+      "relationships": [
+        "Ravana as son of Vishrava",
+        "Brahma as boon-giver to Ravana"
+      ],
+      "supernatural_elements": [
+        "Divine boon making Ravana unkillable"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahma declared that neither Asuras nor Devas could defeat Ravana in battle, but a solution had been arranged.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma",
+        "Ravana",
+        "Asuras",
+        "Devas"
+      ],
+      "action": "Divine proclamation",
+      "relationships": [
+        "Brahma as authority figure"
+      ],
+      "supernatural_elements": [
+        "Divine prophecy/plan"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahma announced that Vishnu would incarnate with four arms to accomplish the task of defeating Ravana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma",
+        "Vishnu",
+        "Ravana"
+      ],
+      "action": "Divine incarnation announcement",
+      "relationships": [
+        "Vishnu as chosen destroyer of Ravana"
+      ],
+      "supernatural_elements": [
+        "Vishnu's avatar plan",
+        "Four-armed form"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahma commanded all Devas to descend to earth and beget sons through female bears and monkeys.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma",
+        "Devas"
+      ],
+      "action": "Divine command for earthly incarnation",
+      "relationships": [
+        "Brahma as commander",
+        "Devas as followers"
+      ],
+      "supernatural_elements": [
+        "Divine beings taking earthly forms",
+        "Supernatural births"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Devas, Gandharvas, and Danavas joyfully incarnated on earth using portions of themselves.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Devas",
+        "Gandharvas",
+        "Danavas"
+      ],
+      "action": "Mass incarnation",
+      "relationships": [
+        "All divine beings participating"
+      ],
+      "supernatural_elements": [
+        "Partial incarnations",
+        "Divine beings becoming earthly beings"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahma commanded the Gandharvi Dundubhi to incarnate on earth as the hunchbacked woman Manthara.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma",
+        "Dundubhi",
+        "Manthara"
+      ],
+      "action": "Specific incarnation command",
+      "relationships": [
+        "Dundubhi becomes Manthara",
+        "Brahma as instigator"
+      ],
+      "supernatural_elements": [
+        "Divine being becoming human",
+        "Transformation"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Led by Indra, all eminent Devas descended and fathered sons through excellent female monkeys and bears.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Devas"
+      ],
+      "action": "Procreation of divine helpers",
+      "relationships": [
+        "Indra as leader",
+        "Devas as fathers"
+      ],
+      "supernatural_elements": [
+        "Hybrid divine-animal offspring",
+        "Supernatural strength inheritance"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sons born had fame and strength like their fathers, could cut mountains, used trees and stones as weapons, and had bodies strong as thunderbolts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sons of Devas"
+      ],
+      "action": "Description of capabilities",
+      "relationships": [
+        "Sons inheriting divine qualities"
+      ],
+      "supernatural_elements": [
+        "Superhuman strength",
+        "Mountain-cutting ability",
+        "Divine weapon use"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahma instructed Manthara on what she should do, and the hunchbacked woman spread discord and sowed hatred everywhere.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma",
+        "Manthara"
+      ],
+      "action": "Instruction and implementation of discord",
+      "relationships": [
+        "Brahma as manipulator",
+        "Manthara as agent"
+      ],
+      "supernatural_elements": [
+        "Divine manipulation of events",
+        "Rapid movement like thought"
+      ]
+    },
+    "_token_interval": null
+  }
+]

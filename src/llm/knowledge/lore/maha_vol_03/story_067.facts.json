@@ -1,0 +1,877 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna (Vasudeva's son) reports to the Pandavas about the failed negotiations in the Kuru assembly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira",
+        "Bhishma",
+        "Drona",
+        "Vidura",
+        "Gandhari",
+        "Dhritarashtra",
+        "Duryodhana",
+        "Karna",
+        "Shakuni"
+      ],
+      "action": "Report/Failed Negotiation",
+      "relationships": "Krishna as mediator between Pandavas and Kauravas; Duryodhana as leader of Kauravas rejecting peace"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana angrily rejects all peace proposals and leaves the assembly with his kings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhishma",
+        "Kaurava Kings"
+      ],
+      "action": "Rejection/Departure",
+      "relationships": "Duryodhana defying elders (Bhishma, Drona, Vidura, Gandhari, Dhritarashtra)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana orders his army to march to Kurukshetra with Bhishma as commander.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhishma",
+        "Kaurava Army"
+      ],
+      "action": "Military Mobilization",
+      "relationships": "Bhishma reluctantly leading Kaurava forces despite opposing war"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna describes his threefold peace strategy: conciliation, sowing dissension, and threats.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Duryodhana",
+        "Karna",
+        "Shakuni"
+      ],
+      "action": "Diplomatic Strategy",
+      "relationships": "Krishna attempting to divide Kaurava allies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna offers a final compromise: Pandavas would accept five villages instead of the kingdom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Duryodhana",
+        "Pandavas"
+      ],
+      "action": "Final Peace Offer",
+      "relationships": "Krishna as Pandava representative; Duryodhana rejecting even minimal compromise"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna concludes that war is inevitable as Duryodhana refuses all peaceful solutions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Duryodhana",
+        "Pandavas"
+      ],
+      "action": "Declaration of War",
+      "relationships": "Complete breakdown between Pandavas and Kauravas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya narrates Yudhishthira's response after hearing Krishna's report.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Yudhishthira",
+        "Krishna",
+        "Pandava Brothers"
+      ],
+      "action": "Narrative Transition",
+      "relationships": "Sanjaya as narrator; Yudhishthira as Pandava leader considering next steps"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks the Pandavas to organize seven armies and appoint a commander-in-chief who can withstand Bhishma in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Pandavas"
+      ],
+      "type": "Military Planning",
+      "key_plot_point": "Preparation for war against the Kauravas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira lists seven army commanders: Drupada, Virata, Dhrishtadyumna, Shikhandin, Satyaki, Chekitana, and Bhima.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Drupada",
+        "Virata",
+        "Dhrishtadyumna",
+        "Shikhandin",
+        "Satyaki",
+        "Chekitana",
+        "Bhima"
+      ],
+      "type": "Character Introduction",
+      "relationships": "All are Pandava allies and army leaders"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Sahadeva for his opinion on who should be commander-in-chief.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Sahadeva"
+      ],
+      "type": "Council Discussion"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sahadeva recommends King Virata as commander-in-chief, praising his strength, martial skills, and ability to fight Bhishma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sahadeva",
+        "Virata",
+        "Bhishma"
+      ],
+      "type": "Nomination",
+      "reasoning": "Virata is powerful, skilled, and can withstand Bhishma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula speaks after Sahadeva and recommends Drupada as commander-in-chief.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Drupada"
+      ],
+      "type": "Nomination"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula praises Drupada's qualifications: age, learning, firmness, family, birth, nobility, knowledge, martial training from Drona, ability to withstand Drona and Bhishma, and his status among kings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Drupada",
+        "Drona",
+        "Bhishma"
+      ],
+      "type": "Character Description",
+      "relationships": "Drupada trained under Drona but became his enemy; Drupada is father-in-law to the Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula mentions Drupada performed severe austerities with his wife to kill Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drupada",
+        "Drona"
+      ],
+      "type": "Background Information",
+      "supernatural_elements": "Austerities for divine power",
+      "relationships": "Deep enmity between Drupada and Drona"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula states Drupada has always cared for the Pandavas like a father.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drupada",
+        "Pandavas"
+      ],
+      "type": "Relationship Description",
+      "relationships": "Fatherly care from Drupada to Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula concludes Drupada should be commander because he knows divine weapons and is a friend of Angiras.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drupada",
+        "Angiras"
+      ],
+      "type": "Supporting Argument",
+      "supernatural_elements": "Knowledge of divine weapons, connection to sage Angiras"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After the twins speak, Arjuna gives his opinion.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "type": "Council Discussion"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna recommends Dhrishtadyumna as commander-in-chief.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Dhrishtadyumna"
+      ],
+      "type": "Nomination"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna describes Dhrishtadyumna's supernatural origin: born from a fire altar, with ascetic power, pleasing to sages, fiery complexion.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna"
+      ],
+      "type": "Character Description",
+      "supernatural_elements": "Born from fire altar, ascetic power"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna describes Dhrishtadyumna's martial appearance: armored, armed with bow and sword, riding a divine chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna"
+      ],
+      "type": "Character Description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna compares Dhrishtadyumna to a lion in courage, chest, roar, and shoulders.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna"
+      ],
+      "type": "Character Description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna states Dhrishtadyumna is invulnerable to weapons, controls his senses, speaks truthfully, and was born to kill Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "Drona"
+      ],
+      "type": "Character Description",
+      "supernatural_elements": "Invulnerability, divine purpose to kill Drona",
+      "relationships": "Dhrishtadyumna destined to kill Drona"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna concludes Dhrishtadyumna can withstand Bhishma's arrows, which are compared to Indra's thunderbolt and fire-breathing snakes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "Bhishma",
+        "Indra"
+      ],
+      "type": "Supporting Argument",
+      "supernatural_elements": "Comparison to divine weapons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Characters debate who should be the army commander for the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Krishna"
+      ],
+      "type": "Discussion/Planning"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira suggests that Krishna should decide the commander, as Krishna knows everything about the worlds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Krishna"
+      ],
+      "action": "Delegation of decision",
+      "relationship": "Yudhishthira acknowledges Krishna's supreme wisdom and authority."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna addresses the assembly, praising the proposed commanders and stating that the Pandavas have done everything possible for peace.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira",
+        "Duryodhana"
+      ],
+      "action": "Speech/Declaration",
+      "relationship": "Krishna confirms the Pandavas' righteousness and Duryodhana's foolishness."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna predicts the defeat of Duryodhana's army when they face the Pandava warriors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Duryodhana",
+        "Arjuna",
+        "Bhima",
+        "Nakula",
+        "Sahadeva",
+        "Satyaki",
+        "Dhrishtadyumna",
+        "Abhimanyu",
+        "Draupadi's sons",
+        "Virata",
+        "Drupada"
+      ],
+      "action": "Prophecy/Warning",
+      "supernatural_element": "Krishna's foresight and confidence in victory."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The assembly becomes enthusiastic and shouts to prepare the horses for battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava army",
+        "Krishna"
+      ],
+      "action": "Mobilization",
+      "relationship": "Collective readiness for war following Krishna's speech."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandava army, led by Yudhishthira, departs for battle with great fanfare.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Nakula",
+        "Sahadeva",
+        "Abhimanyu",
+        "Sons of Draupadi",
+        "Shikhandin"
+      ],
+      "action": "Army departure",
+      "relationships": [
+        "Pandava brothers",
+        "Allies"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi and other women remain in the city of Upaplavya under guard.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi"
+      ],
+      "action": "Remaining behind",
+      "relationships": [
+        "Wife of Pandavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The army, blessed by Brahmins and having made donations, sets out in full regalia.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Brahmins"
+      ],
+      "action": "Ritual departure",
+      "supernatural_elements": [
+        "Blessings"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Various allies and kings join Yudhishthira's procession to the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Kekaya princes",
+        "Virata",
+        "Drupada",
+        "Shikhandin's sons"
+      ],
+      "action": "Alliance gathering",
+      "relationships": [
+        "Allies of Pandavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The massive Pandava army arrives at Kurukshetra and arrays itself for battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Krishna",
+        "Arjuna"
+      ],
+      "action": "Arrival at battlefield",
+      "relationships": [
+        "Commanders"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna and Arjuna blow their conches, rallying the troops with divine sound.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna"
+      ],
+      "action": "Battle rally",
+      "supernatural_elements": [
+        "Divine conch sounds"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira establishes camp in a sacred, pure location by the Hiranyavati River.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Camp establishment",
+      "supernatural_elements": [
+        "Sacred ground selection"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna and Arjuna scout ahead, driving back advance forces of the Kauravas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna",
+        "Kaurava soldiers"
+      ],
+      "action": "Scouting and skirmish",
+      "relationships": [
+        "Enemies"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna (Keshava) established a camp here, dug a moat, and arranged an army to guard it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "action": "Establishing fortified camp",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna set up tents for the kings similar to those of the noble Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Pandavas"
+      ],
+      "action": "Setting up royal tents",
+      "relationships": "Krishna supporting Pandavas and their allies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Hundreds of luxurious camps were established with abundant supplies and strong defenses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kings (allied to Pandavas)"
+      ],
+      "action": "Establishing fortified camps",
+      "military_preparations": "Well-supplied and defensible positions"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Hundreds of skilled craftsmen and excellent doctors were hired and equipped with all instruments.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Hiring support personnel",
+      "logistical_preparations": "Medical and technical support"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Weapons, armor, and supplies were stockpiled in mountains.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Stockpiling military supplies",
+      "military_preparations": "Massive accumulation of war materials"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira distributed water, fine fodder, chaff, and charcoal to each camp.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Distributing supplies",
+      "logistical_preparations": "Systematic supply distribution"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Large machines, iron arrows, javelins, spears, axes, bows, armor, and breastplates were prepared.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Preparing advanced weaponry",
+      "military_preparations": "Comprehensive arms preparation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Elephants were equipped with caparisons and iron armor, tall as mountains, capable of fighting hundreds of enemies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Equipping war elephants",
+      "military_preparations": "Heavily armored elephant corps"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Upon learning the Pandavas had camped here, allies arrived with armies and horses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Allied kings"
+      ],
+      "action": "Allies gathering",
+      "relationships": "Allies rallying to support Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "These kings, who observed religious vows, drank Soma, and were generous, gathered for the victory of the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Allied kings",
+        "Pandavas"
+      ],
+      "action": "Allies pledging support",
+      "relationships": "Religious and military alliance for Pandava victory"
+    },
+    "_token_interval": null
+  }
+]

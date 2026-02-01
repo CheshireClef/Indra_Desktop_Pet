@@ -1,0 +1,359 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ganesha complains about lacking calories and getting thin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ganesha"
+      ],
+      "action": "Complaint",
+      "type": "Dialogue"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Parvati tells Ganesha this is a good opportunity to reform his lazy lifestyle and work hard.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Parvati",
+        "Ganesha"
+      ],
+      "action": "Admonishment/Encouragement",
+      "relationship": "Mother-son",
+      "type": "Dialogue"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ganesha laments that fighting alongside his mother means he can't slack off.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ganesha",
+        "Parvati"
+      ],
+      "action": "Lamentation",
+      "relationship": "Mother-son",
+      "type": "Dialogue"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rama declares he will fully wield his demon-slaying blade and fight alongside them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rama"
+      ],
+      "action": "Declaration of battle readiness",
+      "type": "Dialogue"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna remarks that on the battlefield, one sometimes fights alongside unexpected allies, calling it 'interesting'.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "action": "Philosophical observation",
+      "type": "Dialogue"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Lakshmi questions whether the opponent is desirable or if this is the current misfortune.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Lakshmi"
+      ],
+      "type": "Internal Monologue/Questioning"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana (Duryodhana) appears and aggressively addresses Lakshmi, calling her a queen who seems serious but is attracted to dangerous scents.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Lakshmi"
+      ],
+      "action": "Confrontation/Insult",
+      "relationship": "Duryodhana addresses Lakshmi disrespectfully"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana boasts that Lakshmi should properly witness his heroic figure, then jokes that he might be too cool to look at directly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Boasting/Self-Promotion"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Battle scene setup with multiple characters appearing and positioning on screen.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Durga",
+        "Vritra",
+        "Kama",
+        "Muniel"
+      ],
+      "action": "Character deployment and scene arrangement",
+      "type": "Battle preparation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Characters fade out and new characters are set up with specific visual layers and filters.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Durga",
+        "Vritra",
+        "Kama",
+        "Muniel"
+      ],
+      "action": "Visual transition and layer organization",
+      "type": "Scene transition"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Muniel and another character (Y) appear in a specific sub-layer with edge mask filter.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Muniel",
+        "Y"
+      ],
+      "action": "Character fade-in with visual effects",
+      "type": "Character entrance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "V and Durga appear in another sub-layer with normal filter and scaling.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "V",
+        "Durga"
+      ],
+      "action": "Character fade-in with scaling effects",
+      "type": "Character entrance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Final positioning of characters with depth ordering and picture frame display.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kama",
+        "Vritra",
+        "Durga"
+      ],
+      "action": "Depth arrangement and scene finalization",
+      "type": "Scene composition"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sound effects play as the scene is established.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "action": "Audio playback",
+      "type": "Audio setup"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna reassures the first person that they were not late.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Person 1"
+      ],
+      "action": "Reassurance",
+      "relationship": "Karna shows patience and understanding toward Person 1."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna reassures the second person, stating he would have waited patiently.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Person 2"
+      ],
+      "action": "Reassurance",
+      "relationship": "Karna shows patience and understanding toward Person 2."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ganesha expresses happiness at their arrival but reports that the enemy numbers are not decreasing.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ganesha",
+        "Karna",
+        "Person 1",
+        "Person 2"
+      ],
+      "action": "Report/Concern",
+      "relationship": "Ganesha is coordinating with the group and expresses concern about the battle situation.",
+      "supernatural_elements": "Mentions '神サマ混じりの神将たち' (god-mixed divine generals/humans) are fighting elsewhere."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Parvati states that everything is fine and that a request has been made.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Parvati"
+      ],
+      "action": "Assurance/Report",
+      "relationship": "Parvati responds to Ganesha's concern, indicating she has taken action.",
+      "supernatural_elements": "Parvati is a goddess."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Parvati declares that if there is something to be defeated or annihilated, she will certainly appear.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Parvati"
+      ],
+      "action": "Declaration",
+      "type": "Dialogue/Character Statement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Parvati explains that 'she' (referring to herself) is that kind of goddess.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Parvati"
+      ],
+      "action": "Self-identification",
+      "type": "Character Revelation"
+    },
+    "_token_interval": null
+  }
+]

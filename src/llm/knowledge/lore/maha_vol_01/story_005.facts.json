@@ -1,0 +1,723 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "The singer's son, a bard named 厉声 (Lìshēng), arrives at the Sounaka's twelve-year sacrificial assembly in the floating forest and serves the approaching sages.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "厉声 (Lìshēng)",
+        "众仙人 (Sages)",
+        "寿那迦 (Sounaka)"
+      ],
+      "type": "Arrival and Service",
+      "location": "飘忽林中 (Floating Forest)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "厉声 (Lìshēng) offers to tell stories to the sages, who request him to wait until the chief sage 寿那迦 (Sounaka) is seated.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "厉声 (Lìshēng)",
+        "众仙人 (Sages)"
+      ],
+      "action": "Storytelling Offer and Deferral",
+      "reason": "Await 寿那迦 (Sounaka)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "寿那迦 (Sounaka) completes rituals, offers words to gods and water to ancestors, and joins the assembly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "寿那迦 (Sounaka)"
+      ],
+      "action": "Ritual Completion and Arrival",
+      "type": "Divine and Ancestral Offerings"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "寿那迦 (Sounaka) asks 厉声 (Lìshēng) to narrate the lineage of the Bhrigu clan, noting his father's expertise.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "寿那迦 (Sounaka)",
+        "厉声 (Lìshēng)"
+      ],
+      "action": "Request for Narration",
+      "topic": "Bhrigu Clan Lineage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "厉声 (Lìshēng) agrees, stating that sages like 护民子 (Hùmínzǐ) and his father knew it well, and gods like Indra revere it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "厉声 (Lìshēng)",
+        "护民子 (Hùmínzǐ)",
+        "Indra"
+      ],
+      "action": "Acknowledgement and Praise",
+      "divine_elements": [
+        "Indra",
+        "火神 (Fire God)",
+        "风神 (Wind God)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "厉声 (Lìshēng) begins the Bhrigu lineage: Bhrigu has a son named 行落 (Xíngluò), who has a son named 谋远 (Móuyuǎn).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhrigu",
+        "行落 (Xíngluò)",
+        "谋远 (Móuyuǎn)"
+      ],
+      "action": "Lineage Narration Start",
+      "relationships": "Father-Son (Bhrigu -> 行落 -> 谋远)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mouyuan (谋远) has a son named Lingyang (羚羊) born to his wife Lunong (露浓).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mouyuan",
+        "Lunong",
+        "Lingyang"
+      ],
+      "relationships": [
+        "Mouyuan and Lunong are husband and wife",
+        "Lingyang is their son"
+      ],
+      "type": "Family lineage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Lingyang has a son named Xiunajia (修那迦) born to Xigu (嬉姑), who is proficient in the Vedas and surpasses the ancestors in righteousness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Lingyang",
+        "Xiunajia",
+        "Xigu"
+      ],
+      "relationships": [
+        "Lingyang and Xigu are husband and wife",
+        "Xiunajia is their son"
+      ],
+      "type": "Family lineage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Xiunajia practices asceticism, is renowned, learned, and self-controlled.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Xiunajia"
+      ],
+      "type": "Character description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shounajia (寿那迦) requests the bard to narrate the deeds of Bhrigu's son, Chyavana (行落).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shounajia",
+        "Bard (歌人)",
+        "Chyavana"
+      ],
+      "relationships": [
+        "Chyavana is Bhrigu's son"
+      ],
+      "type": "Request for story"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhrigu (婆利古) has a beloved wife named Buluoma (布罗玛), and she becomes pregnant after he impregnates her.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhrigu",
+        "Buluoma"
+      ],
+      "relationships": [
+        "Bhrigu and Buluoma are husband and wife"
+      ],
+      "type": "Family event"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "While Bhrigu is away bathing, a rakshasa named Buluoman (布罗曼) arrives at his forest hermitage and sees Buluoma, becoming infatuated with her.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhrigu",
+        "Buluoma",
+        "Buluoman"
+      ],
+      "action": "Rakshasa's arrival and infatuation",
+      "type": "Conflict initiation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Buluoma hospitably receives Buluoman with wild fruits and roots.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Buluoma",
+        "Buluoman"
+      ],
+      "action": "Hospitality",
+      "type": "Interaction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Buluoman, tormented by desire, decides to take Buluoma away, claiming he chose her first before Bhrigu married her.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Buluoman",
+        "Buluoma",
+        "Bhrigu"
+      ],
+      "action": "Intent to abduct",
+      "type": "Conflict escalation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Buluoman sees the sacred fire altar and questions Agni (火神) about Buluoma's marital status, demanding the truth to justify taking her.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Buluoman",
+        "Agni",
+        "Buluoma",
+        "Bhrigu"
+      ],
+      "action": "Divine inquiry",
+      "type": "Supernatural element"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Agni, distressed by the rakshasa's pleas, secretly tells Buluoman he fears falsehood and Bhrigu's curse.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Agni",
+        "Buluoman",
+        "Bhrigu"
+      ],
+      "action": "Divine response",
+      "type": "Supernatural element"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Rakshasa (demon) abducted the woman (Brahmi) in the form of a wild boar.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rakshasa",
+        "Brahmi"
+      ],
+      "action": "Abduction",
+      "supernatural_elements": [
+        "Shape-shifting into wild boar"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "During the abduction, the fetus (Chyavana) fell from the mother's womb, earning the name 'Chyavana' (meaning 'fallen').",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Chyavana",
+        "Brahmi"
+      ],
+      "action": "Birth/Name origin",
+      "supernatural_elements": [
+        "Radiating divine light"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Rakshasa saw the infant's divine light, released Brahmi, fell to the ground, and turned to ashes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rakshasa",
+        "Chyavana",
+        "Brahmi"
+      ],
+      "action": "Rescue/Destruction",
+      "supernatural_elements": [
+        "Divine light destroys demon",
+        "Transformation to ashes"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahmi gave birth to Chyavana, fainted from distress, and was comforted by Brahma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmi",
+        "Chyavana",
+        "Brahma"
+      ],
+      "action": "Birth/Divine intervention",
+      "relationships": [
+        "Mother-son",
+        "Divine protector"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahmi's tears formed a river named 'Woman's Tears River' (Stri-ashru) by Brahma, flowing toward Chyavana's hermitage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmi",
+        "Brahma"
+      ],
+      "action": "Miraculous creation",
+      "supernatural_elements": [
+        "Tears forming river",
+        "Divine naming"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhrigu discovered his wife and son, became enraged, and demanded to know who revealed Brahmi's identity to the Rakshasa.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhrigu",
+        "Brahmi"
+      ],
+      "action": "Investigation/Conflict",
+      "relationships": [
+        "Husband-wife",
+        "Father-son (implied)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahmi revealed that Agni (fire god) told the Rakshasa about her, leading to her abduction.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmi",
+        "Agni",
+        "Rakshasa"
+      ],
+      "action": "Revelation",
+      "relationships": [
+        "Accuser-accused"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhrigu cursed Agni: 'You will consume everything!'",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhrigu",
+        "Agni"
+      ],
+      "action": "Curse",
+      "supernatural_elements": [
+        "Divine curse"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Agni defended himself, stating he spoke truth when asked and that withholding truth would destroy generations.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Agni"
+      ],
+      "action": "Defense/Philosophical argument",
+      "relationships": [
+        "Cursed-curser"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "火神 (Agni) explains his role in sacrifices and consumption of offerings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "火神 (Agni)"
+      ],
+      "action": "Explanation of divine function",
+      "supernatural_elements": "Divine explanation of sacrificial processes"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "火神 (Agni) extinguishes himself from all sacrifices after being cursed by 婆利古 (Bhrigu).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "火神 (Agni)",
+        "婆利古 (Bhrigu)"
+      ],
+      "action": "Self-extinguishing/Withdrawal",
+      "relationships": "Conflict between 火神 (Agni) and 婆利古 (Bhrigu)",
+      "supernatural_elements": "Divine curse affecting cosmic order"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sacrificial rituals cease, causing universal suffering and darkness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "众位仙人 (Sages)",
+        "一切众生 (All beings)"
+      ],
+      "action": "Ritual cessation",
+      "consequences": "Universal suffering and darkness"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "众位仙人 (Sages) report the crisis to 天上诸神 (Celestial Gods).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "众位仙人 (Sages)",
+        "天上诸神 (Celestial Gods)"
+      ],
+      "action": "Reporting crisis",
+      "purpose": "Seek solution for ritual restoration"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "天上诸神 (Celestial Gods) and 众仙 (Sages) approach 大梵天 (Brahma) about 火神 (Agni)'s curse.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "天上诸神 (Celestial Gods)",
+        "众仙 (Sages)",
+        "大梵天 (Brahma)",
+        "火神 (Agni)",
+        "婆利古 (Bhrigu)"
+      ],
+      "action": "Appeal to supreme deity",
+      "relationships": "Hierarchical divine consultation",
+      "supernatural_elements": "Divine council addressing cosmic disruption"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "大梵天 (Brahma) summons 火神 (Agni) and instructs him to resume duties.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大梵天 (Brahma)",
+        "火神 (Agni)"
+      ],
+      "action": "Summons and instruction",
+      "relationships": "Supreme deity commanding subordinate deity",
+      "supernatural_elements": "Divine authority restoring cosmic order"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "大梵天 (Brahma) explains that 火神 (Agni)'s flames purify everything they touch.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大梵天 (Brahma)",
+        "火神 (Agni)"
+      ],
+      "action": "Explanation of purifying power",
+      "supernatural_elements": "Divine purification through fire"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "大梵天 (Brahma) instructs 火神 (Agni) to manifest his radiant power and make the curse real.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大梵天 (Brahma)",
+        "火神 (Agni)"
+      ],
+      "action": "Command to manifest power",
+      "purpose": "Transform curse into reality through divine power",
+      "supernatural_elements": "Divine transformation of curse"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The gods and sages were pleased and departed as they came, then resumed their usual sacrifices and rituals.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The gods",
+        "The sages"
+      ],
+      "action": "Departure and resumption of rituals",
+      "relationships": "Collaborative divine and sage community",
+      "supernatural_elements": "Divine beings and sages performing rituals"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The gods in heaven were joyful, all beings in the worlds were happy, and Agni (the fire god) who dispels darkness also obtained great happiness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Agni",
+        "The gods",
+        "All beings"
+      ],
+      "action": "Universal joy and happiness",
+      "relationships": "Agni as part of the divine pantheon",
+      "supernatural_elements": "Divine beings, universal beings"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "This ancient legend originated from Agni's curse, with the rakshasa Bhrāman perishing and the sage Śṛṅga being born.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Agni",
+        "Bhrāman",
+        "Śṛṅga"
+      ],
+      "action": "Curse origin, death of rakshasa, birth of sage",
+      "relationships": "Agni's curse leads to transformation",
+      "supernatural_elements": "Curse, rakshasa death, sage birth"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "This concludes Chapter 7 of the Ādi Parva in the Mahābhārata.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Chapter conclusion",
+      "relationships": "Textual structure",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  }
+]

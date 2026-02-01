@@ -1,0 +1,1375 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国询问全胜关于萨谛奇与德罗纳的战斗详情。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国",
+        "全胜"
+      ],
+      "type": "询问/对话",
+      "relationships": "持国是询问者，全胜是叙述者"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "全胜开始叙述德罗纳与萨谛奇之间的战斗。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "全胜",
+        "德罗纳",
+        "萨谛奇"
+      ],
+      "type": "战斗叙述",
+      "relationships": "德罗纳与萨谛奇是敌对战士"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "德罗纳看到军队遭萨谛奇杀戮，亲自冲向萨谛奇。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "德罗纳",
+        "萨谛奇"
+      ],
+      "action": "冲锋攻击",
+      "reason": "报复军队损失"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "萨谛奇以二十五支箭袭击德罗纳，德罗纳以五支金羽毛箭还击。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "萨谛奇",
+        "德罗纳"
+      ],
+      "action": "箭术交锋",
+      "details": "箭穿透铠甲，如蛇入地"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "萨谛奇被激怒，以五十支铁箭射中德罗纳，德罗纳迅速还击。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "萨谛奇",
+        "德罗纳"
+      ],
+      "action": "激烈对射",
+      "emotional_state": "萨谛奇愤怒"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "德罗纳以一百支箭射击萨谛奇，萨谛奇遭受沉重打击，不知所措。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "德罗纳",
+        "萨谛奇"
+      ],
+      "action": "压倒性攻击",
+      "result": "萨谛奇陷入困境"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国的儿子们和武士们看到萨谛奇受挫，发出欢呼。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国的儿子们",
+        "武士们",
+        "萨谛奇"
+      ],
+      "action": "欢呼",
+      "relationships": "持国一方支持德罗纳"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战听到吼叫，得知萨谛奇受打击，命令武士们救援。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "萨谛奇",
+        "武士们"
+      ],
+      "action": "下达救援命令",
+      "reason": "萨谛奇是重要盟友"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战对猛光说德罗纳构成巨大威胁，命令他进攻德罗纳。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "猛光",
+        "德罗纳"
+      ],
+      "action": "战略指令",
+      "metaphor": "德罗纳戏耍萨谛奇如童子戏鸟"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战命令以怖军为首的所有战车勇士救援萨谛奇，自己率军跟随。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "怖军",
+        "萨谛奇",
+        "德罗纳"
+      ],
+      "action": "全面救援部署",
+      "urgency": "萨谛奇已掉进阎摩牙缝"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战率领般度族军队冲向德罗纳，准备围攻。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "德罗纳",
+        "般度人",
+        "斯楞遮耶人"
+      ],
+      "action": "大规模进攻",
+      "tactic": "围攻"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "般度人和斯楞遮耶人接近德罗纳，泼洒箭雨，德罗纳微笑迎战。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般度人",
+        "斯楞遮耶人",
+        "德罗纳"
+      ],
+      "action": "集体攻击",
+      "德罗纳的反应": "微笑迎战，如迎宾客"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona (Dronacharya) fought fiercely on the battlefield, showering arrows like the sun's rays.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Combat",
+      "supernatural_elements": "Comparisons to the sun and Death personified"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona killed twenty-five Panchala warriors who were respected by Shikhandi.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Twenty-five Panchala warriors"
+      ],
+      "action": "Killing",
+      "relationships": "Drona as enemy of Panchala warriors"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona killed hundreds and thousands of Panchalas, Srinjayas, Matsyas, Kekayas, and Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Mass slaughter",
+      "affected_groups": [
+        "Panchalas",
+        "Srinjayas",
+        "Matsyas",
+        "Kekayas",
+        "Pandavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The gods, Gandharvas, and ancestors observed that the Panchalas, Pandavas, and their armies began to flee.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gods",
+        "Gandharvas",
+        "Ancestors"
+      ],
+      "action": "Observation",
+      "supernatural_elements": "Divine beings witnessing the battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira heard five conch shell sounds amidst the chaos.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Hearing conch shells",
+      "significance": "Signal in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna blew his divine conch shell Panchajanya loudly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "action": "Blowing conch shell",
+      "supernatural_elements": "Divine conch shell Panchajanya"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira became anxious, wondering if Arjuna was in trouble due to the loud conch and excited Kaurava shouts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Arjuna"
+      ],
+      "action": "Anxiety and concern",
+      "relationships": "Yudhishthira as brother of Arjuna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira, tearful and dizzy but determined, spoke to Satyaki about needing help in difficult times.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Satyaki"
+      ],
+      "action": "Conversation/Request for help",
+      "relationships": "Yudhishthira as friend/ally of Satyaki"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira praised Satyaki's loyalty and bravery, comparing him to Krishna as a protector of the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Satyaki",
+        "Krishna"
+      ],
+      "action": "Praise and comparison",
+      "relationships": "Satyaki as loyal friend to Pandavas, Krishna as divine protector"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira entrusted Satyaki with an important task, confident in his ability to handle it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Satyaki"
+      ],
+      "action": "Entrusting mission",
+      "relationships": "Yudhishthira delegating responsibility to Satyaki"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker praises Satyaki's loyalty and abilities, urging him to help Arjuna in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Arjuna",
+        "Speaker (likely Yudhishthira)"
+      ],
+      "action": "Exhortation/Persuasion",
+      "relationships": [
+        "Satyaki is Arjuna's friend and student",
+        "Satyaki is loyal to Arjuna and the Pandavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker recounts Arjuna's past praise of Satyaki's skills and character.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Satyaki"
+      ],
+      "action": "Recollection/Testimonial",
+      "relationships": [
+        "Arjuna considers Satyaki his best possible assistant in battle"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker reminds Satyaki of his past loyalty demonstrated in Dvaraka and Vrikasthala.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Arjuna",
+        "Pandavas"
+      ],
+      "action": "Reminder of Past Loyalty",
+      "relationships": [
+        "Satyaki has shown unwavering loyalty to Arjuna and the Pandavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker emphasizes that only a hero like Satyaki can assist Arjuna in this critical moment.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Arjuna"
+      ],
+      "action": "Appeal to Honor",
+      "relationships": [
+        "Satyaki is uniquely qualified to help Arjuna"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana arrives with Drona's armor, while other Kaurava warriors have already gathered.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Drona",
+        "Kaurava warriors"
+      ],
+      "action": "Battle Preparation",
+      "relationships": [
+        "Duryodhana is being equipped by Drona",
+        "Kaurava forces are assembling"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker urges Satyaki (grandson of Shini) to go quickly to Arjuna's aid.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Arjuna"
+      ],
+      "action": "Urging to provide aid",
+      "relationship": "Allies in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker states that if Drona attacks Satyaki, he and Bhima will lead their army to block Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Satyaki",
+        "Bhima"
+      ],
+      "action": "Defensive strategy",
+      "relationship": "Opponents in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker describes the chaotic battlefield where warriors are fleeing and the Kaurava army is collapsing.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Kaurava army"
+      ],
+      "action": "Battle chaos",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna is causing turmoil in Duryodhana's army like a storm agitating the ocean at high tide.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Duryodhana"
+      ],
+      "action": "Battlefield disruption",
+      "metaphor": "Storm and ocean"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna is surrounded by Sindhu and Sauvira warriors who are fighting fiercely for King Jayadratha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Jayadratha",
+        "Sindhu warriors",
+        "Sauvira warriors"
+      ],
+      "action": "Surrounded in battle",
+      "relationship": "Enemies in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker explains that Jayadratha cannot be killed unless this army is intercepted.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jayadratha"
+      ],
+      "action": "Strategic necessity",
+      "relationship": "Target of Arjuna's mission"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker describes the impenetrable formation of Duryodhana's army with arrows, spears, banners, elephants and horses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Army description",
+      "military_tactics": "Dense formation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker describes the overwhelming sounds of battle - drums, conches, lion roars, chariot wheels.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Sensory description",
+      "battle_atmosphere": "Chaotic and loud"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna is trapped between Jayadratha's army in front and Drona's army behind, a force that could challenge even Indra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Jayadratha",
+        "Drona",
+        "Indra"
+      ],
+      "action": "Surrounded by enemies",
+      "supernatural_reference": "Comparison to challenging Indra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker expresses fear that Arjuna might not survive being trapped in this vast army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Expression of concern",
+      "emotional_state": "Fear and anxiety"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker describes Arjuna's qualities - young, handsome, dark-skinned, skilled with all weapons, and tactical.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Character description",
+      "qualities": "Warrior skills and appearance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker notes that a day has passed and he doesn't know if Arjuna is still alive against the ocean-like Kuru army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Kuru army"
+      ],
+      "action": "Time passage concern",
+      "metaphor": "Army compared to ocean"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker admits his mind has become dull in battle today and describes how Drona is attacking his forces.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Self-admission of mental state",
+      "battle_situation": "Under attack by Drona"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker emphasizes that protecting Arjuna is the most urgent task among all priorities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Priority setting",
+      "strategic_importance": "Highest priority"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker expresses no worry for Krishna as he is the protector of worlds who could defeat even the three worlds combined.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "action": "Expression of confidence",
+      "divine_status": "World protector with supreme power"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker is anxious that Arjuna, being attacked by many, might lose his life in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Expression of anxiety",
+      "emotional_state": "Worry for Arjuna's survival"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker finally urges Satyaki to go follow and protect Arjuna in this critical moment.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Arjuna"
+      ],
+      "action": "Final urging for protection",
+      "relationship": "Request for ally to protect ally"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "法王坚战对悉尼族雄牛萨谛奇发表长篇激励性讲话，派遣他前往战场支援阿周那。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "萨谛奇"
+      ],
+      "action": "派遣/激励",
+      "relationships": [
+        "国王与将领",
+        "派遣者与被派遣者"
+      ],
+      "key_plot_points": [
+        "坚战在战场上向萨谛奇下达关键指令"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战在讲话中高度赞扬萨谛奇的武艺、力量与勇气，将其与那罗延、商迦尔舍那（大力罗摩）、胜财（阿周那）、毗湿摩和德罗纳等伟大英雄相提并论。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "萨谛奇",
+        "那罗延",
+        "商迦尔舍那",
+        "阿周那",
+        "毗湿摩",
+        "德罗纳"
+      ],
+      "action": "赞扬/比较",
+      "relationships": [
+        "坚战认可萨谛奇的战力"
+      ],
+      "supernatural_elements": [
+        "提及天神那罗延（毗湿奴的称号）"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战强调萨谛奇与阿周那在世人中享有崇高威望，并提醒他不要做出与这声望不符的事情，应像英雄那样行动，不要顾忌生命。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "萨谛奇",
+        "阿周那"
+      ],
+      "action": "道德劝诫/激励",
+      "relationships": [
+        "坚战以国王和老师的老师身份进行教导"
+      ],
+      "key_plot_points": [
+        "强调荣誉与勇敢的价值观"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战指出，以法为魂的阿周那是萨谛奇的老师，而婆薮提婆之子（黑天）既是萨谛奇的老师，也是阿周那的老师。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "萨谛奇",
+        "阿周那",
+        "黑天"
+      ],
+      "action": "阐明师徒关系",
+      "relationships": [
+        "阿周那是萨谛奇的老师",
+        "黑天是萨谛奇和阿周那共同的老师",
+        "坚战是老师的老师（黑天的老师）"
+      ],
+      "key_plot_points": [
+        "揭示人物间的师徒传承链"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战说明派遣萨谛奇是婆薮提婆之子（黑天）、他自己和阿周那的共同想法，命令萨谛奇闯入持国之子（难敌）的大军，与敌方勇士交战，展示威力。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "萨谛奇",
+        "黑天",
+        "阿周那",
+        "难敌"
+      ],
+      "action": "联合命令/战略部署",
+      "relationships": [
+        "坚战、黑天、阿周那意见一致",
+        "萨谛奇奉命对抗难敌军"
+      ],
+      "key_plot_points": [
+        "揭示高层战略共识"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "悉尼族雄牛萨谛奇回应坚战，表示听到了坚战为阿周那所说的每一句话，认为这些话美妙、合情合理且能带来荣誉。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "萨谛奇",
+        "坚战",
+        "阿周那"
+      ],
+      "action": "接受命令/表达忠诚",
+      "relationships": [
+        "萨谛奇对坚战表示忠诚",
+        "萨谛奇承诺为阿周那行动"
+      ],
+      "key_plot_points": [
+        "萨谛奇正式接受使命"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "萨谛奇向坚战承诺，为了阿周那和坚战的指令，他根本不在乎性命，受派遣甚至可以与天神、阿修罗和人三界战斗，更何况难敌的残兵败将。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "萨谛奇",
+        "坚战",
+        "阿周那",
+        "难敌"
+      ],
+      "action": "宣誓/表达决心",
+      "relationships": [
+        "萨谛奇宣誓效忠",
+        "萨谛奇准备对抗难敌军"
+      ],
+      "supernatural_elements": [
+        "提及与天神、阿修罗战斗的可能性"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "萨谛奇承诺即刻就去与难敌的军队战斗并赢得胜利，将平安与阿周那会合，杀死胜车后再回到坚战身边。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "萨谛奇",
+        "难敌",
+        "阿周那",
+        "胜车",
+        "坚战"
+      ],
+      "action": "具体任务承诺",
+      "relationships": [
+        "萨谛奇接受具体作战目标"
+      ],
+      "key_plot_points": [
+        "明确任务目标：与阿周那会合、杀死胜车"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "萨谛奇表示，在出发前必须告诉坚战婆薮提婆之子（黑天）和智慧的阿周那嘱咐过的所有话。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "萨谛奇",
+        "坚战",
+        "黑天",
+        "阿周那"
+      ],
+      "action": "信息传递/铺垫",
+      "relationships": [
+        "萨谛奇作为信使传递黑天和阿周那的话"
+      ],
+      "key_plot_points": [
+        "为后续对话或情节发展埋下伏笔"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna repeatedly instructed Krishna to protect King Yudhishthira while he goes to kill King Shalya.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna",
+        "Yudhishthira",
+        "Shalya"
+      ],
+      "action": "Instruction/Delegation",
+      "reason": "Arjuna must kill Shalya but fears Drona will capture Yudhishthira in his absence."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna states that only Krishna or Satyaki can protect Yudhishthira from Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna",
+        "Satyaki",
+        "Yudhishthira",
+        "Drona"
+      ],
+      "action": "Assessment of capabilities",
+      "relationship": "Drona is identified as the primary threat to Yudhishthira."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna explains the consequences if Drona captures Yudhishthira: failure to kill Shalya and potential exile to the forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Drona",
+        "Yudhishthira",
+        "Shalya"
+      ],
+      "action": "Explanation of stakes",
+      "consequences": [
+        "Mission failure",
+        "Return to exile"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna recounts Arjuna's request to Yudhishthira, emphasizing Arjuna's trust in him to counter Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira",
+        "Arjuna",
+        "Drona"
+      ],
+      "action": "Recounting/Reassurance",
+      "relationship": "Arjuna's trust in Krishna's combat ability."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna states he cannot abandon Yudhishthira to join Arjuna, as it would ruin his reputation and violate his duty.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira",
+        "Arjuna"
+      ],
+      "action": "Declaration of loyalty",
+      "conflict": "Duty to protect Yudhishthira vs. potential desire to aid Arjuna."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna suggests that if Satyaki were present, he could entrust Yudhishthira to him and then join Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Satyaki",
+        "Yudhishthira",
+        "Arjuna"
+      ],
+      "action": "Hypothetical solution",
+      "reason": "Satyaki is considered capable of protecting Yudhishthira from Drona."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna reassures Yudhishthira that Arjuna is invincible and need not be worried about, as no warrior or even all beings combined can match him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira",
+        "Arjuna"
+      ],
+      "action": "Reassurance/Praise",
+      "supernatural_element": "Statement that gods, demons, and all creatures cannot withstand Arjuna."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna concludes by praising both Arjuna and himself as truly heroic archers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna"
+      ],
+      "action": "Self-praise/Conclusion",
+      "relationship": "Mutual respect and shared prowess as warriors."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna advises Yudhishthira about protecting himself while Krishna goes to support Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira"
+      ],
+      "action": "Strategic advice",
+      "relationships": [
+        "Krishna is advisor/protector to Yudhishthira",
+        "Yudhishthira is king and leader of Pandavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna expresses concern that Drona will try to capture Yudhishthira if Krishna leaves.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira",
+        "Drona"
+      ],
+      "action": "Warning about enemy strategy",
+      "relationships": [
+        "Drona is enemy commander trying to capture Yudhishthira"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna insists he won't leave until Yudhishthira is properly protected.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira"
+      ],
+      "action": "Condition for departure",
+      "relationships": [
+        "Krishna prioritizes Yudhishthira's safety"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira acknowledges his worry for Arjuna but agrees to let Krishna go.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Krishna",
+        "Arjuna"
+      ],
+      "action": "Permission granted",
+      "relationships": [
+        "Yudhishthira is brother to Arjuna",
+        "Yudhishthira trusts Krishna's judgment"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira lists the warriors who will protect him in Krishna's absence.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Dhrishtadyumna",
+        "Satyaki",
+        "Shikhandi",
+        "Nakula",
+        "Sahadeva",
+        "Draupadi's sons",
+        "Kekaya brothers",
+        "Ghatotkacha",
+        "Virata",
+        "Drupada",
+        "Yudhamanyu",
+        "Uttamaujas",
+        "Panchalas",
+        "Srinjayas"
+      ],
+      "action": "Defensive arrangement",
+      "relationships": [
+        "All are allies/protectors of Yudhishthira",
+        "Bhima is brother to Yudhishthira",
+        "Dhrishtadyumna is commander-in-chief"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira specifically mentions Dhrishtadyumna's capability to counter Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Dhrishtadyumna",
+        "Drona"
+      ],
+      "action": "Strategic confidence",
+      "relationships": [
+        "Dhrishtadyumna is fated to kill Drona",
+        "Dhrishtadyumna was born from fire to destroy Drona"
+      ],
+      "supernatural_elements": [
+        "Dhrishtadyumna born from fire with destiny to kill Drona"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira assures Krishna that Dhrishtadyumna can withstand Drona's army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Krishna",
+        "Dhrishtadyumna",
+        "Drona"
+      ],
+      "action": "Final reassurance",
+      "relationships": [
+        "Yudhishthira has confidence in Dhrishtadyumna's abilities"
+      ]
+    },
+    "_token_interval": null
+  }
+]

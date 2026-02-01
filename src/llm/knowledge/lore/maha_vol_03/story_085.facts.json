@@ -1,0 +1,679 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国请求全胜详细描述婆罗多国、雪山国和诃利国的地域、寿命、果实、优缺点以及过去、现在和未来的情况。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国",
+        "全胜"
+      ],
+      "type": "Inquiry",
+      "relationship": "持国是俱卢族国王，全胜是持国的御者和侍臣"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "全胜向持国解释婆罗多国的四个时代：圆满时代、三分时代、二分时代和争斗时代。",
+    "char_interval": {
+      "start_pos": 96,
+      "end_pos": 182
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "全胜",
+        "持国"
+      ],
+      "type": "Explanation",
+      "details": "描述了每个时代的寿命、人物特征和道德状况"
+    },
+    "_token_interval": {
+      "start_index": 35,
+      "end_index": 63
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "全胜说明在争斗时代，人的寿命没有定数，有的在胎中或生下就死去，人们精力衰微、易怒、贪婪、欺诳、妒忌、骄傲、粗暴、虚妄、愤怒、激动。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "全胜"
+      ],
+      "type": "Description",
+      "context": "二分时代即将结束，争斗时代的特点"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "全胜比较各国状况：雪山国优于婆罗多国，诃利国优于雪山国。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "全胜"
+      ],
+      "type": "Comparison",
+      "ranking": "诃利国 > 雪山国 > 婆罗多国"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra requests Sanjaya to describe the continents, oceans, and celestial bodies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra",
+        "Sanjaya"
+      ],
+      "action": "Request for information",
+      "relationship": "King and advisor"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya begins describing the continents, starting with Jambudvipa.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya"
+      ],
+      "action": "Description of geography",
+      "details": "Jambudvipa's size is 18,600 yojanas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya describes the salty ocean surrounding Jambudvipa.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya"
+      ],
+      "action": "Description of geography",
+      "details": "Ocean is twice the size of Jambudvipa, contains various countries, jewels, corals, and minerals"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya describes Shakadvipa, the second continent.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya"
+      ],
+      "action": "Description of geography",
+      "details": "Shakadvipa is twice the size of Jambudvipa, surrounded by the Kshiroda (Milky Ocean), its inhabitants are immortal and never experience hunger"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra requests more detailed information about Shakadvipa.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra",
+        "Sanjaya"
+      ],
+      "action": "Request for elaboration",
+      "relationship": "King and advisor"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya describes the seven mountains of Shakadvipa, starting with Mount Meru.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya"
+      ],
+      "action": "Description of geography",
+      "details": "Mount Meru is inhabited by gods, sages, and Gandharvas; Mount Malaya is where clouds originate; Mount Jaradhara is where Indra draws water for rains; Mount Naivataka corresponds to the Naivati constellation; Mount Shyama causes dark skin in northern inhabitants"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya explains the characteristics of the people and the origin of the Black Mountain's name to Dhritarashtra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Dhritarashtra"
+      ],
+      "action": "Explanation/Description",
+      "relationships": [
+        "Sanjaya is the narrator and advisor to King Dhritarashtra."
+      ],
+      "supernatural_elements": [
+        "The mountain is black due to the presence and radiance of Lord Krishna."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya describes the geographical features of the region, including mountains and countries.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Dhritarashtra"
+      ],
+      "action": "Geographical Description",
+      "relationships": [
+        "Sanjaya is informing Dhritarashtra."
+      ],
+      "supernatural_elements": [
+        "Mention of sacred rivers and the divine presence of Lord Krishna."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya details the sacred rivers and the four holy countries in the region.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Dhritarashtra"
+      ],
+      "action": "Description of Sacred Places",
+      "relationships": [
+        "Sanjaya is the narrator."
+      ],
+      "supernatural_elements": [
+        "Rivers are described as sacred; Indra (Vasava) draws water from them to create rain."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya describes the social and moral order in the four holy countries, where each caste performs its duty without kings or punishment.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Dhritarashtra"
+      ],
+      "action": "Social Description",
+      "relationships": [
+        "Sanjaya is explaining the societal structure to Dhritarashtra."
+      ],
+      "supernatural_elements": [
+        "The region is depicted as an ideal, divinely blessed society."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya concludes his description of the Shaka continent and begins to describe the northern continents, mentioning various seas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Dhritarashtra"
+      ],
+      "action": "Transition/Narrative Continuation",
+      "relationships": [
+        "Sanjaya continues his narration to Dhritarashtra."
+      ],
+      "supernatural_elements": [
+        "Mention of mythical seas: Ocean of Ghee, Ocean of Curds, Ocean of Wine, Ocean of Dharma."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Description of the continents and their geographical features",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Geographical description",
+      "details": "The text describes multiple continents with mountains and countries, each continent being twice the size of the previous one."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Description of the white mountain Manasila in the central continent",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Geographical feature",
+      "details": "Manasila is a white mountain in the central continent."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Description of the black mountain in the west resembling Narayana",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narayana"
+      ],
+      "type": "Geographical feature",
+      "details": "A black mountain in the west that resembles Narayana."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Keshava (Krishna) personally protects the miraculous gem there",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Keshava (Krishna)"
+      ],
+      "type": "Divine protection",
+      "details": "Keshava (Krishna) protects a miraculous gem while sitting beside Prajapati, granting happiness to all beings."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Description of Kusha grass in Kusha continent and cotton trees in Salmali continent",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Cultural/religious feature",
+      "details": "Kusha grass is present in Kusha continent, and cotton trees are worshipped in Salmali continent."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Description of the great Krauncha mountain in Krauncha continent",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Geographical feature",
+      "details": "The great Krauncha mountain in Krauncha continent is rich in gems and worshipped by all four castes."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Description of the Gomanta mountain and the residence of Narayana",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narayana (Hari)"
+      ],
+      "type": "Divine residence",
+      "details": "The Gomanta mountain contains all minerals, and Narayana (also known as Hari) resides there eternally, praised by the liberated ones."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Description of the six main mountains in Kusha continent",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Geographical description",
+      "details": "The six main mountains are Sudama (golden mountain), Dyutiman (lotus mountain), Pushpavan, Kusheshaya, and Hari mountain, with distances between them doubling successively."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Description of the seven countries in Kusha continent",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Geographical description",
+      "details": "The seven countries are Audvita, Venumandala, Rathakara, Parana, Daritiman, Parabhakara, and Kapila."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Description of the inhabitants and activities in these countries",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Devas",
+        "Gandharvas"
+      ],
+      "type": "Cultural description",
+      "details": "Devas, Gandharvas, and all beings play and enjoy here; people never die, there are no Dasayus or Mlechhas, and most people are fair and delicate."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Description of mountains in Krauncha continent",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Geographical description",
+      "details": "Mountains include Krauncha, Vamanaka, Andakaraka, Menaka, Govinda, and Nivrita, with distances doubling successively."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Description of countries in Krauncha continent",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Geographical description",
+      "details": "Countries include Kushala, Manonuga, Ushna, Paravaraka, Andakaraka, Munidesha, and Dundubhisvana."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Description of inhabitants in Krauncha continent",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Siddhas",
+        "Charanas",
+        "Devas",
+        "Gandharvas"
+      ],
+      "type": "Cultural description",
+      "details": "Siddhas and Charanas are everywhere, skin color is predominantly white, and Devas and Gandharvas frequently appear in these countries."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Description of Pushkara mountain in Pushkara continent",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Prajapati"
+      ],
+      "type": "Divine residence",
+      "details": "Pushkara mountain contains Mani gems and jewels, and Prajapati himself frequently resides there, served by all Devas and great sages."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Description of gems in all continents originating from Jambudvipa",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Resource description",
+      "details": "All continents have various gems originating from Jambudvipa."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya describes the continents, their characteristics, and the righteous conduct of Brahmins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Dhritarashtra"
+      ],
+      "type": "Cosmological description",
+      "relationships": [
+        "Sanjaya is the narrator",
+        "Dhritarashtra is the listener/king"
+      ],
+      "supernatural_elements": [
+        "Reference to divine protection by Lord Vishnu (referred to as 'Isvara' or 'Prajapati')"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya describes the Sama world with its four corners, thirty-three territories, and four directional elephants.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Dhritarashtra"
+      ],
+      "type": "Cosmological description",
+      "relationships": [
+        "Sanjaya is the narrator",
+        "Dhritarashtra is the listener/king"
+      ],
+      "supernatural_elements": [
+        "Description of mythical elephants (Vamana, Airavata, etc.) whose breath creates winds that sustain life"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra praises Sanjaya's detailed account and asks him to continue.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Sanjaya"
+      ],
+      "type": "Dialogue",
+      "relationships": [
+        "Dhritarashtra acknowledges Sanjaya's knowledge",
+        "Sanjaya is the trusted advisor"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya describes the measurements of celestial bodies: Rahu, Moon, Sun, and their eclipses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Dhritarashtra"
+      ],
+      "type": "Astronomical description",
+      "relationships": [
+        "Sanjaya is the narrator",
+        "Dhritarashtra is the listener/king"
+      ],
+      "supernatural_elements": [
+        "Descriptions of Rahu eclipsing the Moon and Sun"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya concludes his account, advising Dhritarashtra to pacify his son Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Dhritarashtra",
+        "Duryodhana"
+      ],
+      "type": "Advisory",
+      "relationships": [
+        "Sanjaya advises Dhritarashtra",
+        "Dhritarashtra is father of Duryodhana",
+        "Duryodhana is Dhritarashtra's son"
+      ],
+      "plot_points": [
+        "Implicit reference to the ongoing Mahabharata conflict involving Duryodhana"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya mentions the benefits of listening to this account, especially for kings and on auspicious days.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya"
+      ],
+      "type": "Moral/Instructional",
+      "relationships": [
+        "Sanjaya addresses Dhritarashtra as a king"
+      ],
+      "supernatural_elements": [
+        "Spiritual benefits: longevity, power, courage, glory, and ancestral satisfaction"
+      ]
+    },
+    "_token_interval": null
+  }
+]

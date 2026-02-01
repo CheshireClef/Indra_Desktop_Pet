@@ -1,0 +1,778 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gandhari speaks to Krishna about Abhimanyu's death and his wife's grief.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandhari",
+        "Krishna"
+      ],
+      "type": "Lamentation/Dialogue"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gandhari describes Abhimanyu breaking through the Kaurava army and being killed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Abhimanyu"
+      ],
+      "action": "Battle death",
+      "context": "Kurukshetra War"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttara (daughter of Virata) mourns her husband Abhimanyu, touching his body and kissing his face.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttara",
+        "Abhimanyu"
+      ],
+      "relationship": "Husband and wife",
+      "action": "Mourning"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttara removes Abhimanyu's golden armor and sees his bloodied body.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttara",
+        "Abhimanyu"
+      ],
+      "action": "Preparation for funeral rites"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttara addresses Krishna, noting Abhimanyu's resemblance to him in eyes, strength, courage, and beauty.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttara",
+        "Krishna",
+        "Abhimanyu"
+      ],
+      "relationship": "Krishna is Abhimanyu's uncle",
+      "type": "Comparison"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttara laments Abhimanyu's death, questioning how he could die despite having protectors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttara",
+        "Abhimanyu"
+      ],
+      "emotion": "Grief and confusion"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttara identifies the warriors who killed Abhimanyu: Shalya, Karna, Shalva, and Drona with his son Ashwatthama.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttara",
+        "Abhimanyu",
+        "Shalya",
+        "Karna",
+        "Shalva",
+        "Drona",
+        "Ashwatthama"
+      ],
+      "action": "Accusation of collective killing",
+      "context": "Violation of war rules"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttara questions how Arjuna can live after seeing his son die helplessly in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttara",
+        "Arjuna",
+        "Abhimanyu"
+      ],
+      "relationship": "Arjuna is Abhimanyu's father",
+      "emotion": "Empathetic grief"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttara declares she will follow Abhimanyu to the afterlife through righteousness and self-control.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttara",
+        "Abhimanyu"
+      ],
+      "action": "Vow of sati (self-immolation)",
+      "type": "Divine resolution"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttara imagines Abhimanyu in the ancestral world, charming celestial nymphs with his beauty and words.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttara",
+        "Abhimanyu"
+      ],
+      "type": "Afterlife vision"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Virata was killed by Drona's weapons and arrows, lying bloodied on the battlefield with vultures, jackals, and crows attacking his body.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Virata",
+        "Drona"
+      ],
+      "action": "Killing in battle",
+      "supernatural_elements": "None",
+      "relationship_change": "King Virata's death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttara, Abhimanyu, and other young warriors from the Kamboja and Matsya clans lay dead on the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttara",
+        "Abhimanyu",
+        "Kamboja warriors",
+        "Matsya warriors"
+      ],
+      "action": "Death in battle",
+      "supernatural_elements": "None",
+      "relationship_change": "Deaths of young warriors"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna, the great archer and warrior, was killed by Arjuna in battle, lying on the ground covered in blood.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Arjuna"
+      ],
+      "action": "Killing in battle",
+      "supernatural_elements": "None",
+      "relationship_change": "Karna's death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna's wife, the mother of Vrishasena, lamented over his body, blaming Drona's curse for his death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna's wife",
+        "Karna",
+        "Drona",
+        "Arjuna"
+      ],
+      "action": "Lamentation and accusation",
+      "supernatural_elements": "Drona's curse mentioned",
+      "relationship_change": "Reveals Karna's family relationship"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gandhari described how Karna protected Duryodhana's sons in battle and how Yudhishthira feared him for thirteen years.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandhari",
+        "Karna",
+        "Duryodhana",
+        "Yudhishthira"
+      ],
+      "action": "Narration of past events",
+      "supernatural_elements": "None",
+      "relationship_change": "Highlights Karna's protective role and Yudhishthira's fear"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "甘陀利描述阿凡提王被怖军杀死后，遗体正被兀鹰和豺狼吞噬。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿凡提王",
+        "怖军"
+      ],
+      "action": "战斗中被杀，遗体被野兽吞噬",
+      "relationships": "敌对关系（般度族与俱卢族阵营）",
+      "supernatural_elements": "无"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那在战斗中杀死胜车王，以履行誓言并报丧子之仇。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "胜车王"
+      ],
+      "action": "阿周那杀死胜车王",
+      "relationships": "敌对关系（般度族与信度族等联盟），胜车王曾劫走黑公主",
+      "supernatural_elements": "无"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "胜车王的遗体被豺狼和兀鹰吞噬，尽管有他的妻子们保护。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "胜车王"
+      ],
+      "action": "遗体被野兽吞噬",
+      "relationships": "胜车王的妻子们试图保护遗体",
+      "supernatural_elements": "无"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "甘陀利哀叹女儿杜沙罗成为寡妇，并质问般度族为何未因杜沙罗而再次宽恕胜车王。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "甘陀利",
+        "杜沙罗",
+        "胜车王",
+        "般度族"
+      ],
+      "action": "甘陀利表达悲痛并质问",
+      "relationships": "甘陀利是杜沙罗的母亲，杜沙罗是胜车王的妻子，般度族是敌对阵营",
+      "supernatural_elements": "无"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战在战斗中杀死沙利耶。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "沙利耶"
+      ],
+      "action": "坚战杀死沙利耶",
+      "relationships": "敌对关系（般度族与俱卢族阵营），沙利耶是无种的舅舅，曾为迦尔纳驾车但暗中破坏其威力",
+      "supernatural_elements": "无"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "沙利耶的遗体被乌鸦和飞禽吞噬，摩德罗王族的妇女们围着他哭泣。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "沙利耶"
+      ],
+      "action": "遗体被鸟类吞噬",
+      "relationships": "摩德罗王族的妇女们哀悼沙利耶",
+      "supernatural_elements": "无"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kaurava women approach King Shalya of Madra, mourning his death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Shalya of Madra",
+        "Kaurava women"
+      ],
+      "action": "Mourning death",
+      "relationships": [
+        "King Shalya is a Kaurava ally"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Shalya is described as killed by arrows, lying on a hero's bed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Shalya of Madra"
+      ],
+      "action": "Death in battle",
+      "supernatural_elements": "Heroic death imagery"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Bhagadatta, a mountainous king and elephant warrior, is killed and lies dead with animals consuming him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Bhagadatta"
+      ],
+      "action": "Death in battle",
+      "details": "Golden garland still shines on his head"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhagadatta fought fiercely with Arjuna (son of Pritha/Kunti) and was ultimately killed by him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Bhagadatta",
+        "Arjuna"
+      ],
+      "action": "Battle and death",
+      "relationships": [
+        "Enemies in battle"
+      ],
+      "comparison": "Fight compared to Indra vs. Bali"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma (son of Shantanu) is killed in battle and lies dead.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Death in battle",
+      "description": "His valor was unparalleled in the world"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma is described with solar imagery, having burned enemies with his weapons before falling like the setting sun.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "imagery": "Solar metaphors, comparison to setting sun",
+      "divine_elements": "Heroic, almost divine status"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma lies on a bed of arrows, with three arrows from Arjuna's Gandiva bow serving as his pillow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Arjuna"
+      ],
+      "action": "Post-death scene",
+      "relationships": [
+        "Arjuna killed Bhishma"
+      ],
+      "symbolism": "Arrow bed as hero's resting place"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma remained celibate lifelong to uphold his father's authority and was invincible in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Shantanu"
+      ],
+      "relationships": [
+        "Son-father loyalty"
+      ],
+      "character_traits": [
+        "Celibacy",
+        "Dharma-following",
+        "Invincibility"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma, knowing dharma, told the Pandavas how to kill him in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Pandavas"
+      ],
+      "action": "Revealing weakness",
+      "relationships": [
+        "Teacher-student (indirect)",
+        "Enemies in battle"
+      ],
+      "significance": "Self-sacrifice for dharma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "With Bhishma's death, the Kaurava clan is saved from destruction but loses its guide to dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Kauravas"
+      ],
+      "action": "Clan salvation through sacrifice",
+      "consequence": "Kauravas lose dharma guide"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona, teacher of Arjuna and Satyaki, lies dead.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Arjuna",
+        "Satyaki"
+      ],
+      "relationships": [
+        "Teacher of Arjuna and Satyaki",
+        "Kaurava commander"
+      ],
+      "action": "Death in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona, master of four weapons, helped Arjuna achieve difficult feats but was killed in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Arjuna"
+      ],
+      "relationships": [
+        "Teacher-student turned enemies"
+      ],
+      "action": "Death after being pushed forward by Kauravas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona burned enemy armies like fire in battle but now lies dead like extinguished flames.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "imagery": "Fire metaphors",
+      "action": "Death ending his destructive power"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona was killed by Dhrishtadyumna, son of Drupada.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Dhrishtadyumna"
+      ],
+      "action": "Killing in battle",
+      "relationship": "Drona was the teacher of the Kuru princes; Dhrishtadyumna was born to kill Drona as per a boon."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kripi, Drona's wife, mourns beside his body, disheveled and in pain.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripi",
+        "Drona"
+      ],
+      "action": "Mourning",
+      "relationship": "Husband and wife; Kripi is a devoted ascetic woman."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kripi performs funeral rites for Drona with dedication and sorrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripi",
+        "Drona"
+      ],
+      "action": "Funeral rites",
+      "relationship": "Widow performing rites for her husband."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Priests versed in the Samaveda place Drona on the funeral pyre, light it with fire, and chant three Saman hymns.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Priests",
+        "Drona"
+      ],
+      "action": "Cremation ceremony",
+      "supernatural_elements": "Ritual chanting of Saman hymns."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ascetic women (likely Kripi and others) build the pyre with weapons, chariot parts, and place Drona on it for cremation, praising and lamenting him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ascetic women",
+        "Drona"
+      ],
+      "action": "Building pyre and cremation",
+      "relationship": "Devotees or followers honoring Drona."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Others chant three Saman hymns, and Drona is cremated, described as 'fire cremating fire'.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Others",
+        "Drona"
+      ],
+      "action": "Chanting and cremation",
+      "supernatural_elements": "Symbolic description of cremation."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona's Brahmin students pay respects by circumambulating the pyre, then proceed to the Ganges River with Kripi leading.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona's Brahmin students",
+        "Kripi"
+      ],
+      "action": "Post-cremation rituals and journey",
+      "relationship": "Students and widow of Drona; ritual journey to the Ganges."
+    },
+    "_token_interval": null
+  }
+]

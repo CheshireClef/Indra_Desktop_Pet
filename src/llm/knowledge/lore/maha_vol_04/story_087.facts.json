@@ -1,0 +1,1346 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "德罗纳之子（马嘶）对敌人进行大屠杀，犹如世界末日死神毁灭一切众生。",
+    "char_interval": {
+      "start_pos": 35,
+      "end_pos": 68
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "马嘶"
+      ],
+      "action": "大屠杀",
+      "description": "马嘶对敌人进行大规模屠杀，场面如同世界末日"
+    },
+    "_token_interval": {
+      "start_index": 14,
+      "end_index": 22
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "马嘶发出誓言，要当着坚战的面击溃他的军队，并杀死猛光。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "马嘶",
+        "坚战",
+        "猛光"
+      ],
+      "action": "发誓/宣战",
+      "relationships": "马嘶为德罗纳之子，要为父亲报仇；坚战为般度族首领；猛光为般遮罗王子"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "俱卢族和般度族军队再次激烈交战，如同两个涨潮的大海交汇。",
+    "char_interval": {
+      "start_pos": 347,
+      "end_pos": 363
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "俱卢族军队",
+        "般度族军队"
+      ],
+      "action": "大规模战斗",
+      "description": "双方军队激烈交战，场面宏大"
+    },
+    "_token_interval": {
+      "start_index": 114,
+      "end_index": 116
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "马嘶祭起那罗延法宝，攻击般度族和般遮罗族军队。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "马嘶"
+      ],
+      "action": "使用法宝",
+      "supernatural_elements": "那罗延法宝（神圣武器）",
+      "effects": "产生无数利箭、黑铁球、喷火武器等"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "那罗延法宝威力巨大，般度族人、般遮罗族人和斯楞遮耶族人都惊恐不安。",
+    "char_interval": {
+      "start_pos": 758,
+      "end_pos": 792
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般度族人",
+        "般遮罗族人",
+        "斯楞遮耶族人"
+      ],
+      "action": "恐慌/逃跑",
+      "description": "面对法宝攻击，军队陷入混乱和恐惧"
+    },
+    "_token_interval": {
+      "start_index": 217,
+      "end_index": 223
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战看到军队失魂落魄，命令猛光带领般遮罗族军队逃跑。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "猛光"
+      ],
+      "action": "下令撤退",
+      "relationships": "坚战为般度族首领，猛光为般遮罗王子",
+      "reason": "军队遭到法宝攻击，损失惨重"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战（贡蒂之子）决定停止战斗并进入火中，命令萨谛奇带领苾湿尼族人和安陀迦族人回家。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "萨谛奇"
+      ],
+      "action": "Decision to stop fighting and enter fire",
+      "relationships": [
+        "坚战 commands 萨谛奇"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战表达对黑天（婆薮提婆之子）的信心，认为黑天能保护自己并指导世界。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "黑天"
+      ],
+      "action": "Expression of trust",
+      "relationships": [
+        "坚战 trusts 黑天"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战列举自己的痛苦和失败：杀死了友好的老师德罗纳，激昂（妙贤之子）被众多武士杀死，黑公主在大会堂受辱时阿周那（毗跋蔟）默不作声，阿周那曾帮助难敌（持国之子）保护胜车（信度王），德罗纳用梵武器杀死了以真胜为首的般遮罗人，坚战被非法逐出王国时黑天希望他们去森林。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "德罗纳",
+        "激昂",
+        "黑公主",
+        "阿周那",
+        "难敌",
+        "胜车",
+        "真胜",
+        "般遮罗人",
+        "黑天"
+      ],
+      "action": "Recounting of grievances and failures",
+      "relationships": [
+        "坚战 killed 德罗纳 (teacher)",
+        "激昂 was killed by warriors",
+        "阿周那 failed to protect 黑公主",
+        "阿周那 helped 难敌 protect 胜车",
+        "德罗纳 killed 般遮罗人 including 真胜",
+        "黑天 advised 坚战 to go to forest"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战宣布因为对他们极其友好的人被杀，他和亲属将走向死亡。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战"
+      ],
+      "action": "Declaration of intent to die",
+      "relationships": [
+        "坚战 and relatives will die"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天（陀沙诃族后裔）用双臂挡住军队，命令战士们放下武器，从战车、大象和马匹上下来，以避免被马嘶（德罗纳之子）的法宝杀死。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天",
+        "马嘶",
+        "战士们"
+      ],
+      "action": "Intervention and command to disarm",
+      "supernatural_elements": [
+        "马嘶's法宝 (divine weapon)"
+      ],
+      "relationships": [
+        "黑天 commands 战士们"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "战士们听从黑天的话，愿意放下武器。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "战士们",
+        "黑天"
+      ],
+      "action": "Compliance with command",
+      "relationships": [
+        "战士们 obey 黑天"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "怖军（般度之子）反对放下武器，宣称要用箭和铁杵抵挡马嘶的法宝，并展示自己的威力。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "怖军",
+        "马嘶"
+      ],
+      "action": "Defiance and declaration of battle intent",
+      "supernatural_elements": [
+        "马嘶's法宝 (divine weapon)"
+      ],
+      "relationships": [
+        "怖军 opposes disarmament"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima declares he will resist the Narayana weapon in front of both the Kuru and Pandava armies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "action": "Declaration of intent",
+      "context": "Battlefield confrontation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima charges his chariot towards Ashvatthama.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Ashvatthama"
+      ],
+      "action": "Chariot charge",
+      "conflict": "Direct attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima shoots a net of arrows at Ashvatthama.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Ashvatthama"
+      ],
+      "action": "Archery attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama responds by smiling, speaking politely, and showering Bhima with enchanted arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Bhima"
+      ],
+      "action": "Counterattack with magical weapons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama unleashes his divine weapon (Narayana weapon) upon Bhima, which grows in intensity like fire fanned by wind.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Bhima"
+      ],
+      "action": "Divine weapon deployment",
+      "supernatural_element": "Narayana weapon's growing power"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandava army, except Bhima, becomes terrified and abandons their weapons and mounts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava Army",
+        "Bhima"
+      ],
+      "action": "Panic and retreat",
+      "effect": "Army demoralization"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The weapon's power descends upon Bhima, covering him and his chariot in brilliant light.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Ashvatthama"
+      ],
+      "action": "Weapon impact",
+      "supernatural_element": "Divine weapon manifestation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "All beings, especially the Pandavas, cry out in alarm seeing Bhima enveloped.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Bhima"
+      ],
+      "action": "Collective distress",
+      "relationship": "Brotherly concern"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna quickly covers Bhima with the Varuna weapon to counter the Narayana weapon's power, but this goes unnoticed due to the brilliance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Bhima",
+        "Ashvatthama"
+      ],
+      "action": "Divine countermeasure",
+      "supernatural_element": "Varuna weapon",
+      "relationship": "Brother protecting brother"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama's weapon envelops Bhima, his horses, charioteer, and chariot in a great fire.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Bhima"
+      ],
+      "action": "Weapon fully engulfs target",
+      "supernatural_element": "Fiery destruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing the weapon's effect and the Pandava army's disarray, Ashvatthama appears invincible on the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Pandava Army"
+      ],
+      "action": "Display of dominance",
+      "effect": "Moral victory"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna and Krishna jump from their chariot and rush to Bhima's location.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna",
+        "Bhima"
+      ],
+      "action": "Rescue attempt",
+      "relationship": "Allies aiding comrade"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna and Krishna use their divine power (maya) to enter the brilliance created by Ashvatthama's weapon.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna",
+        "Ashvatthama"
+      ],
+      "action": "Supernatural intervention",
+      "supernatural_element": "Divine illusion power (maya)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Narayana weapon's flames did not burn Bhima and his weapons because they had laid down their weapons, due to the Varuna weapon, and because of the heroic nature of the two dark princes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Krishna"
+      ],
+      "action": "Weapon effect neutralized",
+      "reason": "Weapons laid down, Varuna weapon influence, heroic nature"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nara and Narayana forcefully pulled Bhima and all his weapons to pacify the Narayana weapon.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nara",
+        "Narayana",
+        "Bhima"
+      ],
+      "action": "Physical restraint",
+      "purpose": "Pacify the Narayana weapon"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima, being pulled, roared, causing Ashwatthama's terrible and hard-to-conquer weapon to intensify.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Ashwatthama"
+      ],
+      "action": "Weapon intensification",
+      "trigger": "Bhima's roar"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna admonished Bhima for not stopping the fight despite being warned, explaining that if battle could conquer the Kauravas, they and other heroes would have fought.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Bhima"
+      ],
+      "action": "Admonishment",
+      "relationship": "Krishna as advisor to Bhima"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna pulled Bhima down from his chariot after noting that all his men had jumped down, and Bhima became enraged, breathing like a snake with red eyes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Bhima"
+      ],
+      "action": "Removal from chariot",
+      "result": "Bhima's rage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After pulling Bhima down and throwing his weapons to the ground, the Narayana weapon that scorches enemies subsided.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Bhima"
+      ],
+      "action": "Weapon pacification",
+      "method": "Removing Bhima and weapons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "With the weapon's power pacified according to rules, the atmosphere cleared, cool winds blew, animals were peaceful, and warriors rejoiced.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Environmental restoration",
+      "supernatural": "Weapon effects on nature"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima shone brilliantly as the terrible weapon power was removed, like the sun rising after a dark night.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "action": "Transformation",
+      "metaphor": "Sun rising after darkness"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The remaining Pandava army, seeing the weapon pacified, rejoiced, prepared, and wanted to kill Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava Army",
+        "Duryodhana"
+      ],
+      "action": "Military preparation",
+      "intent": "Kill Duryodhana"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana urged Ashwatthama to use the weapon again as the Panchalas were preparing to defeat them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Ashwatthama"
+      ],
+      "action": "Urge to reuse weapon",
+      "relationship": "Duryodhana as king to Ashwatthama"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama explained to Duryodhana that the weapon cannot be recalled or used twice, and that recalling it would kill the user, noting Krishna used rules to subdue it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Duryodhana",
+        "Krishna"
+      ],
+      "action": "Weapon limitation explanation",
+      "supernatural": "Weapon rules and dangers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana urged Ashwatthama to use other divine weapons to kill the teacher-killer, praising his power like Shiva's, saying even Indra couldn't escape if he used them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Ashwatthama"
+      ],
+      "action": "Urge to use other weapons",
+      "supernatural": "Comparison to Shiva and Indra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama, after Drona was killed by deceit and his weapon subdued, saw the Pandavas free from the Narayana weapon and leading the army, ready for battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Pandavas"
+      ],
+      "action": "Observation of enemy",
+      "emotional_state": "After loss and weapon failure"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama, filled with rage upon learning of his father Drona's death, fearlessly charged toward Shikhandi's grandson (Dhrishtadyumna).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Dhrishtadyumna"
+      ],
+      "action": "Charge/Attack",
+      "relationship": "Ashwatthama seeks revenge for his father Drona's death, who was killed by Dhrishtadyumna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama rapidly shot twenty-five small arrows at Dhrishtadyumna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Dhrishtadyumna"
+      ],
+      "action": "Arrow attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhrishtadyumna shot sixty-three feathered arrows at Ashwatthama.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "Ashwatthama"
+      ],
+      "action": "Arrow attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhrishtadyumna shot twenty sharp gold-feathered arrows at Ashwatthama's charioteer and four sharp arrows at his four horses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "Ashwatthama"
+      ],
+      "action": "Arrow attack on charioteer and horses"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama roared loudly, shaking the earth, as if to deprive all worlds of life in the great battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama"
+      ],
+      "action": "Roaring/Intimidation",
+      "supernatural_element": "Roar shakes the earth"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhrishtadyumna, skilled in warfare and ready to die, charged toward Ashwatthama.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "Ashwatthama"
+      ],
+      "action": "Charge/Attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhrishtadyumna poured a shower of arrows on Ashwatthama's head.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "Ashwatthama"
+      ],
+      "action": "Arrow shower attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama, remembering his father's death, angrily covered Dhrishtadyumna with feathered arrows and shot ten sharp arrows at him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Dhrishtadyumna"
+      ],
+      "action": "Arrow attack",
+      "relationship": "Revenge for father Drona's death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama cut Dhrishtadyumna's banner and bow with two sharp razor arrows and tormented him with other arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Dhrishtadyumna"
+      ],
+      "action": "Destruction of weapons and banner"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama deprived Dhrishtadyumna of his chariot, horses, and charioteer, and angrily covered all his followers with arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Dhrishtadyumna"
+      ],
+      "action": "Disabling chariot and attacking followers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Panchala army, assaulted by arrow showers, fled in pain and confusion.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Panchala Army"
+      ],
+      "action": "Retreat/Flee"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki, seeing the warriors flee and Dhrishtadyumna tormented, quickly drove his chariot toward Ashwatthama's chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Ashwatthama"
+      ],
+      "action": "Intervention/Charge",
+      "relationship": "Satyaki comes to Dhrishtadyumna's aid"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki shot eight sharp arrows at Ashwatthama, twenty arrows of various shapes, and four sharp arrows at his charioteer and four horses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Ashwatthama"
+      ],
+      "action": "Arrow attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama, enraged by Satyaki's arrows, laughed and spoke, accusing Satyaki of favoring Drona's killer and declaring he could save neither Dhrishtadyumna nor himself.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Satyaki"
+      ],
+      "action": "Verbal confrontation",
+      "relationship": "Ashwatthama accuses Satyaki of partiality"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama shot a brilliant arrow at Satyaki, like Indra hurling his vajra at Vritra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Satyaki"
+      ],
+      "action": "Arrow attack",
+      "supernatural_element": "Comparison to Indra's vajra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The arrow pierced Satyaki's armor and body, entering the ground like a snake entering a hole.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Ashwatthama"
+      ],
+      "action": "Arrow penetration",
+      "supernatural_element": "Arrow movement compared to snake"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki, with armor pierced, lost his bow, bled, and collapsed on his chariot seat; his charioteer quickly drove him away from Ashwatthama.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Ashwatthama"
+      ],
+      "action": "Injury and retreat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama shot another straight feathered arrow that struck Dhrishtadyumna's forehead.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Dhrishtadyumna"
+      ],
+      "action": "Arrow attack to forehead"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhrishtadyumna, already severely wounded, collapsed and leaned against his flagpole.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna"
+      ],
+      "action": "Collapse/Incapacitation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Five chariot warriors from the Pandava army—Arjuna, Bhima, Purujit, the young prince of Chedi, and Malava king Shrutakarma—rushed to Dhrishtadyumna, each shooting five sharp arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 20,
+    "group_index": 19,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Bhima",
+        "Purujit",
+        "Young Prince of Chedi",
+        "Shrutakarma",
+        "Dhrishtadyumna"
+      ],
+      "action": "Rescue/Reinforcement",
+      "relationship": "Allies come to Dhrishtadyumna's aid"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama simultaneously shot and broke twenty-five arrows coming at him with twenty-five snake-like arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama"
+      ],
+      "action": "Defensive arrow shooting",
+      "supernatural_elements": "Snake-like arrows"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama shot seven arrows at King Puru, three at King Malava, one at Arjuna, and six at Bhima.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "King Puru",
+        "King Malava",
+        "Arjuna",
+        "Bhima"
+      ],
+      "action": "Multiple targeted attacks",
+      "relationships": "Combat between warriors"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The great warriors collectively attacked Ashwatthama, firing many sharp golden-feathered arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Multiple warriors"
+      ],
+      "action": "Collective assault",
+      "relationships": "Group combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The young prince of Chedi fired twenty arrows at Ashwatthama, Arjuna fired eight, and everyone fired three more each.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Young Prince of Chedi",
+        "Arjuna",
+        "Multiple warriors"
+      ],
+      "action": "Coordinated arrow attacks"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama fired six arrows at Arjuna, ten at Krishna, five at Bhima, four at the young prince, broke a bow and flag with two arrows, showered arrows on Arjuna again, and roared like a lion.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Arjuna",
+        "Krishna",
+        "Bhima",
+        "Young Prince of Chedi"
+      ],
+      "action": "Multi-target offensive and intimidation",
+      "supernatural_elements": "Lion roar"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama's terrible yellow-bladed arrows covered all directions, sky, earth, and space.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama"
+      ],
+      "action": "Area-of-effect attack",
+      "supernatural_elements": "Omnidirectional arrow coverage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama shot three arrows through the head and arms of the handsome-faced warrior sitting in a chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Unnamed warrior (handsome-faced)"
+      ],
+      "action": "Lethal precision shooting",
+      "relationships": "Killing of opponent"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama attacked King Puru with a chariot weapon, destroyed his chariot with many arrows, cut off his sandalwood-smeared arms, and beheaded him with a crescent-headed arrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "King Puru"
+      ],
+      "action": "Complete destruction and killing",
+      "relationships": "Death of King Puru"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama smiled and quickly shot flame-like arrows at the lotus-complexioned young prince of Chedi, sending him along with horses and charioteer to the god of death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Young Prince of Chedi"
+      ],
+      "action": "Killing with supernatural arrows",
+      "supernatural_elements": "Flame-like arrows",
+      "relationships": "Death of the young prince"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After killing them, Ashwatthama happily blew his great conch.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama"
+      ],
+      "action": "Victory celebration",
+      "relationships": "Triumph over opponents"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "All the Panchalas and Bhima fled in fear, abandoning Shikhandi's chariot and scattering in all directions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Panchalas",
+        "Bhima",
+        "Shikhandi"
+      ],
+      "action": "Mass retreat",
+      "relationships": "Panic and abandonment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama chased the fleeing people, showering arrows from behind and striking the Pandava army like the god of death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Fleeing warriors",
+        "Pandava army"
+      ],
+      "action": "Pursuit and slaughter",
+      "supernatural_elements": "Comparison to death god"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kshatriyas were slaughtered by Ashwatthama on the battlefield, and out of fear, they felt he was everywhere.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Kshatriyas"
+      ],
+      "action": "Mass killing causing terror",
+      "relationships": "Psychological warfare effect"
+    },
+    "_token_interval": null
+  }
+]

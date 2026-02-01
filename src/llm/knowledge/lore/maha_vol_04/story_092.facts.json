@@ -1,0 +1,1604 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "安必迦之子持国想象着难敌已经死亡，悲痛到极点，精神恍惚倒在地上。",
+    "char_interval": {
+      "start_pos": 38,
+      "end_pos": 55
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国",
+        "难敌"
+      ],
+      "action": "悲痛昏厥",
+      "relationship": "父子",
+      "context": "持国得知儿子难敌可能死亡的消息后反应"
+    },
+    "_token_interval": {
+      "start_index": 14,
+      "end_index": 16
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "王室女眷们发出凄厉哭喊，甘陀利也昏倒在地，后宫女眷们同样如此。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "甘陀利",
+        "王室女眷们"
+      ],
+      "action": "集体悲痛昏厥",
+      "relationship": "夫妻/王室成员",
+      "context": "对难敌可能死亡消息的集体反应"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "全胜开始安慰那些心受熬煎、神志不清、泪如雨下的妇女。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "全胜",
+        "妇女们"
+      ],
+      "action": "安慰劝解",
+      "relationship": "御者与王室成员",
+      "context": "试图平息悲痛场面"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "维杜罗用水洒在俱卢王身上，安慰这位'慧眼者'。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "维杜罗",
+        "持国"
+      ],
+      "action": "物理唤醒与安慰",
+      "relationship": "大臣与国王",
+      "context": "帮助持国恢复意识"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国恢复意识后，久久沉思，连声长叹，指责自己的儿子们，却对般度五子百般夸赞。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国",
+        "难敌等儿子们",
+        "般度五子"
+      ],
+      "action": "反思与评价",
+      "relationship": "父亲对儿子们的批评，对侄子的赞扬",
+      "context": "持国对战争结果的反思"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国责怪自己与妙力之子沙恭尼愚笨，沉思良久后浑身发抖。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国",
+        "沙恭尼"
+      ],
+      "action": "自责与颤抖",
+      "relationship": "国王与谋士",
+      "context": "承认战略错误"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国重新控制头脑后，向全胜询问难敌是否真的死亡，请求重新讲述事情经过。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国",
+        "全胜"
+      ],
+      "action": "询问确认",
+      "relationship": "国王与御者",
+      "context": "寻求事实确认"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "全胜向持国确认：日神之子迦尔纳、难降等俱卢族勇士均被杀害，难降的鲜血还被怖军喝下。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "全胜",
+        "持国",
+        "迦尔纳",
+        "难降",
+        "怖军"
+      ],
+      "action": "战况报告",
+      "relationship": "御者向国王报告，兄弟被杀",
+      "context": "详细描述俱卢族战损"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国听到迦尔纳殒命的消息后心如刀割，承认自己策略不当导致此结果。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国",
+        "迦尔纳"
+      ],
+      "action": "悲痛自责",
+      "relationship": "国王与将领",
+      "context": "对迦尔纳死亡的直接反应"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国询问全胜，在毗湿摩、德罗纳、迦尔纳相继阵亡后，俱卢族与斯楞遮耶族中还有谁活着。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国",
+        "全胜",
+        "毗湿摩",
+        "德罗纳",
+        "迦尔纳"
+      ],
+      "action": "询问幸存者",
+      "relationship": "国王询问战况",
+      "context": "了解军队现状"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "全胜报告：福身王之子毗湿摩在十天激战后倒下；德罗纳歼灭般遮罗大军后阵亡；迦尔纳消灭了残存敌军的半数。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "全胜",
+        "毗湿摩",
+        "德罗纳",
+        "迦尔纳"
+      ],
+      "action": "将领阵亡报告",
+      "relationship": "俱卢族主要将领",
+      "context": "描述俱卢族主要将领的阵亡顺序和战绩"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "毗文沙提王子在杀死数以百计阿那罗多国武士后战死沙场。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "毗文沙提"
+      ],
+      "action": "战死",
+      "context": "力大过人，杀死众多敌人后阵亡"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "毗迦尔纳王子丧失坐骑与武器后，铭记刹帝利誓言，勇敢挺立在敌人阵前。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "毗迦尔纳"
+      ],
+      "action": "勇敢坚守",
+      "context": "德罗波蒂之子，坚守誓言"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "怖军为报复难敌造成的痛苦往事，牢记誓言，杀死难敌。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "怖军",
+        "难敌"
+      ],
+      "action": "杀死",
+      "relationships": "敌对关系，怖军为般度五子之一，难敌为持国百子之首",
+      "context": "复仇行动"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "文陀和阿奴文陀两位阿凡提国王子在建立奇功伟业后战死。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "文陀",
+        "阿奴文陀"
+      ],
+      "action": "战死",
+      "context": "孔武有力，建立功业后阵亡"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "胜车王统治十个王国但听从持国命令，被阿周那用利箭杀害。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "胜车",
+        "阿周那"
+      ],
+      "action": "杀害",
+      "relationships": "敌对关系",
+      "context": "阿周那击溃十一支大军后杀死胜车"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌之子被激昂杀死。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌之子",
+        "激昂"
+      ],
+      "action": "杀死",
+      "relationships": "敌对关系，激昂为妙贤之子",
+      "context": "难敌之子剽悍凶狂，对父亲惟命是从"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难降之子被德罗波蒂之子杀死。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难降之子",
+        "德罗波蒂之子"
+      ],
+      "action": "杀死",
+      "context": "难降之子臂力超凡，作战凶猛"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "福授王被阿周那杀死。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "福授王",
+        "阿周那"
+      ],
+      "action": "杀死",
+      "context": "福授王为吉罗陀人首领，因陀罗的至爱好友，恪守刹帝利之道"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "广声被萨谛奇杀死。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "广声",
+        "萨谛奇"
+      ],
+      "action": "杀死",
+      "relationships": "敌对关系，广声为月授之子，俱卢族亲属",
+      "context": "交战中被杀"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "闻寿被阿周那杀死。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "闻寿",
+        "阿周那"
+      ],
+      "action": "杀死",
+      "context": "闻寿为安波私吒国王，刹帝利弓箭手，英勇无畏"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难降被怖军杀死。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难降",
+        "怖军"
+      ],
+      "action": "杀死",
+      "relationships": "敌对关系，难降为持国之子",
+      "context": "难降武艺高强，作战凶狂"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "善巧被阿周那杀死。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "善巧",
+        "阿周那"
+      ],
+      "action": "杀死",
+      "context": "善巧拥有无数神奇象军"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "憍萨罗统治者被激昂杀死。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "憍萨罗统治者",
+        "激昂"
+      ],
+      "action": "杀死",
+      "context": "憍萨罗统治者歼灭成千上万敌人后被杀"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "奇军被怖军杀死。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "奇军",
+        "怖军"
+      ],
+      "action": "杀死",
+      "relationships": "敌对关系，奇军为持国之子",
+      "context": "多次交锋后最终被杀"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "摩德罗国王子被激昂杀死。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "摩德罗国王子",
+        "激昂"
+      ],
+      "action": "杀死",
+      "context": "摩德罗国王子令敌人闻风丧胆，佩剑执盾"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "牛军（迦尔纳之子）被阿周那杀死。",
+    "char_interval": {
+      "start_pos": 1722,
+      "end_pos": 1731
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "牛军",
+        "阿周那"
+      ],
+      "action": "杀死",
+      "relationships": "敌对关系，牛军为迦尔纳之子",
+      "context": "牛军武艺高超，英勇绝伦，在迦尔纳眼皮底下被杀，阿周那为报复儿子激昂被杀"
+    },
+    "_token_interval": {
+      "start_index": 472,
+      "end_index": 476
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "闻寿王被阿周那杀死。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "闻寿",
+        "阿周那"
+      ],
+      "action": "杀死",
+      "context": "闻寿一贯仇视般度五子，阿周那提醒其敌意后杀害"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "金车被偕天杀死。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "金车",
+        "偕天"
+      ],
+      "action": "杀死",
+      "relationships": "表兄弟关系（金车为偕天舅父之子），敌对关系",
+      "context": "沙利耶之子，骁勇善战"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "跋吉罗陀老王和羯迦夜国王巨武双双殉难。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "跋吉罗陀",
+        "巨武"
+      ],
+      "action": "殉难",
+      "context": "两人皆骁勇强悍过人"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "福授之子被无种杀死。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 20,
+    "group_index": 19,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "福授之子",
+        "无种"
+      ],
+      "action": "杀死",
+      "context": "福授之子大智大勇，无种鹰隼般驰骋疆场"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "波力迦王与其全体部下被怖军发威送往阎摩府。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "波力迦王",
+        "怖军"
+      ],
+      "action": "杀戮",
+      "relationship": "敌对"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "摩揭陀国王妖连之子大力士胜军被灵魂伟大的妙贤之子在交战中杀死。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "胜军",
+        "妙贤之子"
+      ],
+      "action": "交战杀戮",
+      "relationship": "敌对"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "丑面和难偕两位英雄王子双双死在怖军的铁杵下。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "丑面",
+        "难偕",
+        "怖军"
+      ],
+      "action": "杀戮",
+      "relationship": "敌对"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难耐、难拒以及大勇士难胜在建立了难以建立的功勋之后前往阎摩府。",
+    "char_interval": {
+      "start_pos": 2109,
+      "end_pos": 2112
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难耐",
+        "难拒",
+        "难胜"
+      ],
+      "action": "战死",
+      "relationship": "战士"
+    },
+    "_token_interval": {
+      "start_index": 577,
+      "end_index": 579
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "英勇绝伦的御者牛铠被怖军发威送往阎摩府。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "牛铠",
+        "怖军"
+      ],
+      "action": "杀戮",
+      "relationship": "敌对"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "具有万象之力的伟大国王也与他的部下一起被般度之子左手开弓者阿周那杀死。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "伟大国王",
+        "阿周那"
+      ],
+      "action": "杀戮",
+      "relationship": "敌对"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "婆娑提的两千名精壮攻击手以及英勇的苏罗塞那国将士全部捐躯沙场。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "婆娑提攻击手",
+        "苏罗塞那国将士"
+      ],
+      "action": "战死",
+      "relationship": "战士"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "身披铠甲凶狂无比的阿毗沙诃国攻击手、尸毗国武艺超群的战车武士与羯陵伽国战士们一起遭到杀害。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿毗沙诃国攻击手",
+        "尸毗国战车武士",
+        "羯陵伽国战士"
+      ],
+      "action": "杀戮",
+      "relationship": "战士"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "生长于戈拘罗能征惯战的英雄成千上万支敢死队一旦遭遇普利塔之子阿周那全部前往阎摩府。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "戈拘罗英雄",
+        "敢死队",
+        "阿周那"
+      ],
+      "action": "杀戮",
+      "relationship": "敌对"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "英勇绝伦的雄牛王和不摇王为了您的利益皆被左手开弓者阿周那杀死。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "雄牛王",
+        "不摇王",
+        "阿周那"
+      ],
+      "action": "杀戮",
+      "relationship": "敌对"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "威风凛凛的沙鲁瓦王被怖军杀死。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "沙鲁瓦王",
+        "怖军"
+      ],
+      "action": "杀戮",
+      "relationship": "敌对"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "勇武过人并肩作战的奥伽凡王与毗含多王为了同盟者的利益双双前往阎摩府。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "奥伽凡王",
+        "毗含多王"
+      ],
+      "action": "战死",
+      "relationship": "同盟战士"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "优秀的战车武士忏摩杜尔提王战死在怖军的铁杵之下。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "忏摩杜尔提王",
+        "怖军"
+      ],
+      "action": "杀戮",
+      "relationship": "敌对"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "大弓箭手大力士水连王在杀得敌人尸横遍野之后战死在萨谛奇手下。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "水连王",
+        "萨谛奇"
+      ],
+      "action": "交战杀戮",
+      "relationship": "敌对"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "驾驭着一辆怪异驴车的罗刹王阿罗瑜达被瓶首发威送往阎摩府。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿罗瑜达",
+        "瓶首"
+      ],
+      "action": "杀戮",
+      "relationship": "敌对"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "车夫和罗陀之子迦尔纳和他的兄弟们以及羯迦夜国的武士们都被左手开弓者阿周那杀死。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "阿周那"
+      ],
+      "action": "杀戮",
+      "relationship": "敌对"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "玛罗婆人、摩德罗人、勇猛的达罗毗荼人、约泰耶人、罗利特人、克苏德罗迦人、优湿那罗人、摩吠罗人、敦离羯罗人、莎维德丽补多罗人、甘遮罗人以及东方人、西方人、南方人、北方人也被阿周那杀死。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "玛罗婆人等各族战士",
+        "阿周那"
+      ],
+      "action": "大规模杀戮",
+      "relationship": "敌对"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "大群步兵、成万骑兵、大批车兵、许多强壮无比的大象阵亡牺牲倒下。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "步兵",
+        "骑兵",
+        "车兵",
+        "大象"
+      ],
+      "action": "大规模战死",
+      "relationship": "战士"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "许多英雄战死在不倦征战的普利塔之子阿周那手下。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "众多英雄",
+        "阿周那"
+      ],
+      "action": "杀戮",
+      "relationship": "敌对"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "这些以及其他许多国王与所率的大军一起皆战死疆场数目成千上万。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 20,
+    "group_index": 19,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "众多国王",
+        "大军"
+      ],
+      "action": "大规模战死",
+      "relationship": "战士"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "当迦尔纳与阿周那交锋时也发生同样的杀戮。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 21,
+    "group_index": 20,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "阿周那"
+      ],
+      "action": "交战杀戮",
+      "relationship": "敌对"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳与自己的亲友一起进行了一场三界闻名的可怕大战，在一对一的决战中被阿周那杀死。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "阿周那"
+      ],
+      "action": "战斗与死亡",
+      "relationships": [
+        "敌对关系（迦尔纳是般度族的头号敌人）"
+      ],
+      "supernatural_elements": "无"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国询问全胜关于般度族一方被消灭的人员名单。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国",
+        "全胜"
+      ],
+      "action": "询问战况",
+      "relationships": [
+        "君臣关系"
+      ],
+      "supernatural_elements": "无"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "全胜报告贡提人、真胜、毗罗吒、木柱王等被毗湿摩和德罗纳杀死。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "全胜",
+        "毗湿摩",
+        "德罗纳",
+        "真胜",
+        "毗罗吒",
+        "木柱王"
+      ],
+      "action": "报告战况与死亡",
+      "relationships": [
+        "敌对关系（般度族与俱卢族）"
+      ],
+      "supernatural_elements": "无"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "激昂被六名大勇士围杀，后被难降之子杀死。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "激昂",
+        "难降之子",
+        "六名大勇士"
+      ],
+      "action": "围杀与死亡",
+      "relationships": [
+        "父子关系（激昂是阿周那之子）"
+      ],
+      "supernatural_elements": "无"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "毗含多被难降杀死，佩珠与执杖被德罗纳杀死。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "毗含多",
+        "难降",
+        "佩珠",
+        "执杖",
+        "德罗纳"
+      ],
+      "action": "战斗与死亡",
+      "relationships": [
+        "敌对关系"
+      ],
+      "supernatural_elements": "无"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "安乐国王有辉被德罗纳杀死，花械与花武被迦尔纳杀死。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "安乐国王有辉",
+        "德罗纳",
+        "花械",
+        "花武",
+        "迦尔纳"
+      ],
+      "action": "战斗与死亡",
+      "relationships": [
+        "敌对关系"
+      ],
+      "supernatural_elements": "无"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "羯迦夜人兄弟相残，镇群王被丑面杀死，娄遮摩那兄弟被德罗纳杀死。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "羯迦夜人",
+        "镇群王",
+        "丑面",
+        "娄遮摩那兄弟",
+        "德罗纳"
+      ],
+      "action": "战斗与死亡",
+      "relationships": [
+        "兄弟相残（羯迦夜人）",
+        "敌对关系"
+      ],
+      "supernatural_elements": "无"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Many heroic kings fought valiantly and achieved great feats before going to Yama's abode.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Various Kings"
+      ],
+      "action": "Fighting and dying in battle",
+      "supernatural_elements": "Yama's abode (afterlife)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kuntibhoja and Purujit were killed by Drona's arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kuntibhoja",
+        "Purujit",
+        "Drona"
+      ],
+      "action": "Killed in battle",
+      "relationships": "Kuntibhoja is Arjuna's maternal uncle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kashiraja Suparshva was killed by Vasudana's son.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kashiraja Suparshva",
+        "Vasudana's son"
+      ],
+      "action": "Killed in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhamanyu and Uttamaujas killed hundreds of warriors before being killed by enemies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhamanyu",
+        "Uttamaujas"
+      ],
+      "action": "Killed many warriors then died in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shatradharman and Shatravarman were killed by Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shatradharman",
+        "Shatravarman",
+        "Drona"
+      ],
+      "action": "Killed in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shatradeva was killed by Lakshmana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shatradeva",
+        "Lakshmana"
+      ],
+      "action": "Killed in battle",
+      "relationships": "Lakshmana is Dhritarashtra's grandson"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vrika and Kshemadhurti were killed by Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vrika",
+        "Kshemadhurti",
+        "Drona"
+      ],
+      "action": "Killed in battle",
+      "relationships": "Vrika and Kshemadhurti are father and son"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vriddhakshatra was killed by King Bahlika.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vriddhakshatra",
+        "King Bahlika"
+      ],
+      "action": "Killed in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhrishtaketu was killed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtaketu"
+      ],
+      "action": "Killed in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Susharma was killed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Susharma"
+      ],
+      "action": "Killed in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandin's son was killed by Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin's son",
+        "Drona"
+      ],
+      "action": "Killed in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Susharma, Satyavrata, and Satyadhriti were killed by Drona's arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Susharma",
+        "Satyavrata",
+        "Satyadhriti",
+        "Drona"
+      ],
+      "action": "Killed in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shrinjaya was killed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shrinjaya"
+      ],
+      "action": "Killed in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Magadha king was killed by Bhishma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Magadha king",
+        "Bhishma"
+      ],
+      "action": "Killed in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vasudana was killed by Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vasudana",
+        "Drona"
+      ],
+      "action": "Killed in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra asks Sanjaya who remains alive among his army's heroes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Sanjaya"
+      ],
+      "action": "Inquiry about surviving warriors",
+      "relationships": "Dhritarashtra is the Kuru king, Sanjaya is his charioteer and narrator"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya reports that Ashwatthama, Kritavarma, and Kripa remain alive and ready to fight.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Ashwatthama",
+        "Kritavarma",
+        "Kripa"
+      ],
+      "action": "Reporting surviving warriors",
+      "relationships": "Ashwatthama is Drona's son, Kritavarma is Hridika's son, Kripa is Gautama's son"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya, son of Artayani, abandoned his nephews the Pandavas to fulfill his vow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Pandavas"
+      ],
+      "action": "Abandonment",
+      "relationships": "Shalya is maternal uncle to the Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya vowed before Yudhishthira to humble Karna in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Yudhishthira",
+        "Karna"
+      ],
+      "action": "Vow",
+      "type": "Challenge"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gandhara king leads his army with various allies still on battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandhara King (Shakuni)",
+        "Ajaneyas",
+        "Sindhus",
+        "Mountain Dwellers",
+        "River Dwellers",
+        "Kambojas",
+        "Vanayus",
+        "Paulikas"
+      ],
+      "action": "Military leadership",
+      "type": "Battle preparation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana's son Lakshmana stands ready on battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Lakshmana",
+        "Duryodhana"
+      ],
+      "action": "Battle readiness",
+      "relationships": "Lakshmana is son of Duryodhana"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana stands ready with his elephant army and allies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Sushena",
+        "Chitrasena",
+        "Jaya",
+        "Shala",
+        "Satyasena",
+        "Durmukha"
+      ],
+      "action": "Battle formation",
+      "type": "Military deployment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna's sons Vrishasena and others stand ready with their armies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vrishasena",
+        "Karna"
+      ],
+      "action": "Battle preparation",
+      "relationships": "Vrishasena is son of Karna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra learns about survivors from his army and becomes distressed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Sanjaya"
+      ],
+      "action": "Information reception",
+      "emotional_state": "Distress and fainting"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra faints upon hearing about the decimation of his army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra"
+      ],
+      "action": "Fainting",
+      "reason": "Grief over army losses"
+    },
+    "_token_interval": null
+  }
+]

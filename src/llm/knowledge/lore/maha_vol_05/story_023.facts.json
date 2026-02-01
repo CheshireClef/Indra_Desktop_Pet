@@ -1,0 +1,1442 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma addresses Yudhishthira about the principles of kingship (Rajadharma).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Yudhishthira"
+      ],
+      "type": "Instruction/Teaching",
+      "relationship": "Bhishma (granduncle) advises Yudhishthira (grandnephew) on governance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma lists ancient sages and deities who established the principles of kingship.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brihaspati",
+        "Ushanas (Shukracharya)",
+        "Indra",
+        "Manu (son of Prajapati)",
+        "Bharadvaja",
+        "Shukra"
+      ],
+      "type": "Reference/Historical Context",
+      "note": "These are cited as authorities on Rajadharma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma explains key duties of a king: rewarding spies, collecting taxes moderately, supporting the virtuous, and protecting subjects.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Yudhishthira"
+      ],
+      "type": "Governance Principles",
+      "key_points": [
+        "Espionage management",
+        "Fair taxation",
+        "Support for nobility",
+        "Public welfare"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma emphasizes diligence (utsaha) as the foundation of kingship, citing Indra's achievements through effort.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Yudhishthira",
+        "Indra"
+      ],
+      "type": "Moral Lesson",
+      "example": "Indra gained heaven and earth through diligence"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma warns against underestimating weak enemies and advises constant vigilance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Yudhishthira"
+      ],
+      "type": "Strategic Advice",
+      "analogy": "A small spark can cause a great fire; a drop of poison can kill"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma advises using mixed methods (including secrecy and strategy) for statecraft, always under lawful pretexts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Yudhishthira"
+      ],
+      "type": "Political Strategy",
+      "principle": "Kings must protect subjects even through cunning means"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma concludes his discourse and invites further questions from Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Yudhishthira"
+      ],
+      "type": "Dialogue Conclusion",
+      "relationship": "Teacher-student interaction continues"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The narrator Vaishampayana (referred to as '护民子' or protector of people) indicates a transition in the narrative.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vaishampayana"
+      ],
+      "type": "Narrative Frame",
+      "role": "Chronicler of the Mahabharata"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "尊者毗耶娑、提婆斯塔纳、阿湿摩、黑天、慈悯、萨谛奇和全胜赞美毗湿摩，坚战向毗湿摩辞别，众人返回象城。",
+    "char_interval": {
+      "start_pos": 951,
+      "end_pos": 973
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "毗耶娑",
+        "提婆斯塔纳",
+        "阿湿摩",
+        "黑天",
+        "慈悯",
+        "萨谛奇",
+        "全胜",
+        "坚战",
+        "毗湿摩"
+      ],
+      "type": "对话与告别",
+      "relationships": [
+        "毗湿摩是坚战的祖父",
+        "众人尊敬毗湿摩"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 266,
+      "end_index": 276
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "下一天，般度族人和雅度族人起床完成祭祀，前往俱卢之野会见毗湿摩和众仙人。",
+    "char_interval": {
+      "start_pos": 1267,
+      "end_pos": 1271
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般度族人",
+        "雅度族人",
+        "坚战",
+        "毗湿摩",
+        "毗耶娑"
+      ],
+      "type": "集会准备",
+      "relationships": [
+        "坚战是般度族领袖",
+        "毗耶娑是众仙人首领"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 382,
+      "end_index": 384
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战向毗湿摩提问关于国王统治的起源和原理。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "毗湿摩"
+      ],
+      "type": "哲学提问",
+      "relationships": [
+        "坚战向祖父毗湿摩请教"
+      ],
+      "question": "国王统治的起源、正当性和原理"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "毗湿摩开始讲述王国最初出现在圆满时代，最初没有王国、国王或刑罚，众生依法互相保护。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "毗湿摩"
+      ],
+      "type": "历史叙述",
+      "setting": "圆满时代",
+      "initial_state": "无王国、无国王、无刑罚，众生依法互相保护"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "后来人们感到疲劳，痴迷侵入，正法消失，理智丧失，陷入贪欲控制。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "人类"
+      ],
+      "type": "道德堕落",
+      "process": [
+        "疲劳",
+        "痴迷侵入",
+        "正法消失",
+        "理智丧失",
+        "贪欲控制"
+      ],
+      "narrative_flow": "从和谐状态到堕落的过程"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "People desire what they do not have, leading to the emergence of greed called Kama (desire).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "People"
+      ],
+      "type": "Philosophical concept emergence",
+      "concept": "Kama (desire)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Passion (Rajas) overcomes those obsessed with desire, causing confusion about right and wrong actions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "People"
+      ],
+      "type": "Spiritual decline",
+      "effect": "Loss of moral discernment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "When humanity falls into chaos, Brahman (spiritual essence) disappears, leading to the destruction of Dharma (righteousness).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Humanity"
+      ],
+      "type": "Cosmic imbalance",
+      "consequences": [
+        "Brahman disappears",
+        "Dharma destroyed"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The gods become fearful when Brahman and Dharma disappear and seek refuge with Brahma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The gods",
+        "Brahma"
+      ],
+      "type": "Divine intervention request",
+      "relationship": "Gods seek protection from Brahma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The gods explain to Brahma that due to greed and delusion, eternal Brahman has disappeared from humanity, making the gods fearful and vulnerable like mortals.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The gods",
+        "Brahma"
+      ],
+      "type": "Divine plea",
+      "reason": "Humans have stopped sacrifices, endangering the gods"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahma assures the gods he will consider their supreme welfare and tells them to eliminate their fear.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma",
+        "The gods"
+      ],
+      "type": "Divine reassurance",
+      "action": "Brahma promises to address the crisis"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahma uses his wisdom to create 100,000 chapters discussing Dharma (righteousness), Artha (prosperity), and Kama (desire).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma"
+      ],
+      "type": "Divine creation",
+      "creation": "Text on Dharma, Artha, Kama",
+      "supernatural_element": "Divine wisdom manifestation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahma names this collection 'Trivarga' (three aims), with Moksha (liberation) as the fourth aim, each with distinct meanings and qualities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma"
+      ],
+      "type": "Philosophical framework establishment",
+      "framework": "Trivarga + Moksha",
+      "elements": [
+        "Dharma",
+        "Artha",
+        "Kama",
+        "Moksha"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Another set of three elements related to liberation is described as Sattva (goodness), Rajas (passion), and Tamas (darkness).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma"
+      ],
+      "type": "Philosophical elaboration",
+      "concepts": [
+        "Sattva",
+        "Rajas",
+        "Tamas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahma elaborates on various topics including statecraft, governance, military strategy, alliances, and punishment methods.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma"
+      ],
+      "type": "Comprehensive teaching",
+      "topics": [
+        "Statecraft",
+        "Military strategy",
+        "Alliances",
+        "Punishment"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text describes various military strategies and tactics including formations, assaults, retreats, and weapon maintenance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Military Strategy",
+      "action": "Description of warfare techniques"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Discusses psychological warfare including demoralizing enemies, creating panic, and using spies, arsonists, and poisoners.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Psychological Warfare",
+      "action": "Undermining enemy morale and using covert tactics"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Explains statecraft including managing the seven elements of a kingdom, sending competent envoys, and expanding territory.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Statecraft",
+      "action": "Kingdom management and expansion"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Describes judicial administration, eliminating hidden dangers, accumulating resources, and caring for orphans and employees.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Governance",
+      "action": "Judicial and social welfare"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Lists qualities of kings and commanders, discusses vices arising from anger and desire, and mentions ten types of vices.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Character Analysis",
+      "action": "Description of leadership qualities and vices"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mentions mechanical devices, cutting down trees, disrupting enemy fortifications, and gathering supplies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Military Engineering",
+      "action": "Use of technology and logistics"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Discusses accumulating drums and conches, stabilizing territory, respecting good people, and assimilating the wise.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Cultural Practices",
+      "action": "Military and cultural preparations"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Describes personal conduct including self-reliance, honesty, sweet speech, and managing festivals and household affairs.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Personal Conduct",
+      "action": "Ethical and social behavior"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Explains judicial procedures, protecting citizens, and considering twelve types of neighboring kings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Judicial and Diplomatic",
+      "action": "Legal administration and foreign relations"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mentions Brahma (Ishvara) describing vices from desire including hunting, gambling, drinking, and lust.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma (Ishvara)"
+      ],
+      "type": "Divine Teaching",
+      "action": "Description of vices"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Discusses dharma (righteousness), artha (wealth), kama (desire), and moksha (liberation), along with means of acquiring wealth and generosity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Philosophical Teachings",
+      "action": "Explanation of life goals"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mentions magical practices using tree roots and the deterioration of stagnant water.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Supernatural Elements",
+      "action": "Magical and natural phenomena"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Describes methods to keep the world from deviating from the right path.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Moral Guidance",
+      "action": "Maintaining righteousness"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahma created the brilliant classic Arthashastra and explained its purpose to the gods led by Indra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma",
+        "Indra",
+        "Other Gods"
+      ],
+      "action": "Creation and proclamation",
+      "supernatural_elements": "Divine creation of sacred text"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shiva first mastered this classic, then compressed it into a 10,000-chapter version called 'The Great-Eyed Treatise' for the declining human lifespans across ages.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shiva"
+      ],
+      "action": "Compression and transmission",
+      "relationships": "Shiva as receiver and transmitter of knowledge"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra further compressed the text to 5,000 chapters, naming it 'The Indra Treatise'.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra"
+      ],
+      "action": "Further compression",
+      "relationships": "Indra as successor in transmission chain"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brihaspati compressed it to 3,000 chapters as 'The Brihaspati Treatise'.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brihaspati"
+      ],
+      "action": "Compression",
+      "relationships": "Brihaspati continues knowledge transmission"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sage Kavya compressed it to 1,000 chapters, and other sages further compressed it for world benefit.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kavya",
+        "Other Sages"
+      ],
+      "action": "Successive compressions",
+      "relationships": "Sages as knowledge preservers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The gods approached Vishnu to appoint an excellent human ruler, so Vishnu mentally created a son named Anirdesha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu",
+        "Anirdesha",
+        "Gods"
+      ],
+      "action": "Divine appointment and creation",
+      "relationships": "Vishnu as creator, Anirdesha as his son",
+      "supernatural_elements": "Mental creation of a being"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Anirdesha renounced worldly rule, his son Prithu performed great austerities, and Prithu's son Aja became a righteous protector proficient in Arthashastra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Anirdesha",
+        "Prithu",
+        "Aja"
+      ],
+      "action": "Renunciation and succession",
+      "relationships": "Father-son lineage: Anirdesha → Prithu → Aja"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Aja's son Bala gained a vast kingdom but fell under control of his senses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Aja",
+        "Bala"
+      ],
+      "action": "Rule and moral decline",
+      "relationships": "Father-son: Aja → Bala",
+      "changes": "Bala's moral downfall"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Death (Yama) mentally created a daughter named Sunida, who bore a son named Vena.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yama",
+        "Sunida",
+        "Vena"
+      ],
+      "action": "Creation and birth",
+      "relationships": "Yama as creator of Sunida, Sunida as mother of Vena",
+      "supernatural_elements": "Mental creation by Yama"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "维那陷入愤怒和仇恨的控制，对众生不行正法，宣梵的仙人们用念过咒语的拘舍草打击他。",
+    "char_interval": {
+      "start_pos": 4910,
+      "end_pos": 4950
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "维那",
+        "宣梵的仙人们"
+      ],
+      "action": "仙人们用咒语草打击维那",
+      "reason": "维那陷入愤怒仇恨，不行正法"
+    },
+    "_token_interval": {
+      "start_index": 1594,
+      "end_index": 1600
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "仙人们依靠咒语，刺穿维那的右腿。从他的右腿中，一个矮小的畸形人降生大地。",
+    "char_interval": {
+      "start_pos": 4955,
+      "end_pos": 4963
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "维那",
+        "宣梵的仙人们",
+        "尼奢陀人（从右腿诞生）"
+      ],
+      "action": "刺穿右腿诞生畸形人",
+      "supernatural": "咒语创造生命"
+    },
+    "_token_interval": {
+      "start_index": 1603,
+      "end_index": 1605
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "他的模样像烧焦的木桩，黑头发，红眼睛。宣梵的仙人们对他说道：“坐下！”从此，出现野蛮的尼奢陀人，生活在山林中，另外有成百成千的弥戾车人生活在文底耶山。",
+    "char_interval": {
+      "start_pos": 4995,
+      "end_pos": 5030
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "尼奢陀人",
+        "宣梵的仙人们",
+        "弥戾车人"
+      ],
+      "action": "仙人们命名并安置新种族",
+      "result": "诞生尼奢陀人和弥戾车人两个种族"
+    },
+    "_token_interval": {
+      "start_index": 1614,
+      "end_index": 1626
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "大仙们又刺穿维那的右手，从那里出现一个人，模样犹如另一位因陀罗。",
+    "char_interval": {
+      "start_pos": 5083,
+      "end_pos": 5115
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "维那",
+        "大仙们",
+        "维那之子（从右手诞生）"
+      ],
+      "action": "刺穿右手诞生英雄",
+      "description": "模样犹如因陀罗"
+    },
+    "_token_interval": {
+      "start_index": 1642,
+      "end_index": 1648
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "维那之子身穿铠甲，佩戴弓、箭和刀，精通吠陀和吠陀支，也精通弓箭术。所有的刑杖政事论都依附这位人中俊杰。",
+    "char_interval": {
+      "start_pos": 5124,
+      "end_pos": 5172
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "维那之子"
+      ],
+      "description": "全副武装，精通知识",
+      "special_status": "刑杖政事论依附于他"
+    },
+    "_token_interval": {
+      "start_index": 1652,
+      "end_index": 1666
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "维那之子双手合十对众大仙说道：“我已获得洞察正法和利益的微妙智慧。请如实告诉我，我应该用它做什么？”",
+    "char_interval": {
+      "start_pos": 5172,
+      "end_pos": 5187
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "维那之子",
+        "众大仙"
+      ],
+      "action": "维那之子寻求指导",
+      "relationship": "学生向老师请教"
+    },
+    "_token_interval": {
+      "start_index": 1666,
+      "end_index": 1668
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "众天神和众大仙对他说道：“凡是正法所在之处，你就毫不迟疑地执行正法。摒弃好恶，平等对待一切众生，远离爱欲、愤怒、贪欲和骄傲。你要永远关注正法，用双臂惩处世界上背离正法的人。”",
+    "char_interval": {
+      "start_pos": 5262,
+      "end_pos": 5296
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "众天神",
+        "众大仙",
+        "维那之子"
+      ],
+      "instruction": "教导执行正法的原则",
+      "duties": "平等对待众生，惩处背离正法者"
+    },
+    "_token_interval": {
+      "start_index": 1689,
+      "end_index": 1696
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "维那之子对以众仙人为首的众天神说道：“神中雄牛啊！让婆罗门们成为我的同伴吧！”宣梵者们对维那之子说道：“就这样吧！”",
+    "char_interval": {
+      "start_pos": 5494,
+      "end_pos": 5533
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "维那之子",
+        "众仙人",
+        "众天神",
+        "宣梵者们"
+      ],
+      "action": "维那之子请求婆罗门同伴",
+      "response": "请求被批准"
+    },
+    "_token_interval": {
+      "start_index": 1761,
+      "end_index": 1769
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "梵之宝库金星仙人成为他的祭司。矮仙们成为他的大臣，娑罗湿婆多成为他的随从，尊敬的大仙人伽尔伽成为他的占星家。苏多和摩揭陀成为他的歌手。",
+    "char_interval": {
+      "start_pos": 5561,
+      "end_pos": 5576
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "维那之子",
+        "金星仙人",
+        "矮仙们",
+        "娑罗湿婆多",
+        "伽尔伽",
+        "苏多",
+        "摩揭陀"
+      ],
+      "relationships": "建立完整的宫廷班子",
+      "roles": [
+        "祭司",
+        "大臣",
+        "随从",
+        "占星家",
+        "歌手"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 1780,
+      "end_index": 1782
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "他使大地变得平坦。我们听说过去大地是崎岖不平的。",
+    "char_interval": {
+      "start_pos": 5668,
+      "end_pos": 5692
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "维那之子"
+      ],
+      "action": "平整大地",
+      "result": "改变大地地形"
+    },
+    "_token_interval": {
+      "start_index": 1808,
+      "end_index": 1812
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "毗湿奴、帝释天、众天神、众仙人和梵天为他灌顶，以保护众生。",
+    "char_interval": {
+      "start_pos": 5697,
+      "end_pos": 5726
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "维那之子",
+        "毗湿奴",
+        "帝释天",
+        "众天神",
+        "众仙人",
+        "梵天"
+      ],
+      "action": "众神灌顶",
+      "purpose": "保护众生",
+      "divine_intervention": "多位主神参与"
+    },
+    "_token_interval": {
+      "start_index": 1815,
+      "end_index": 1825
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "大地女神亲自显身，还有众河之主大海和众山之王雪山，赐给种种宝石。帝释天赐给他无穷无尽的财富，金山弥卢亲自赐给他金子。",
+    "char_interval": {
+      "start_pos": 5737,
+      "end_pos": 5769
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "维那之子",
+        "大地女神",
+        "大海",
+        "雪山",
+        "帝释天",
+        "金山弥卢"
+      ],
+      "action": "众神赐予宝物财富",
+      "gifts": [
+        "宝石",
+        "财富",
+        "金子"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 1830,
+      "end_index": 1836
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "药叉和罗刹之主、以人为坐骑的尊神（财神）赐给他财富，足够他用于正法、利益和爱欲。马、车、象和人，数以千万计，维那之子想要多少，就会有多少。",
+    "char_interval": {
+      "start_pos": 5809,
+      "end_pos": 5849
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "维那之子",
+        "财神"
+      ],
+      "action": "财神赐予无尽财富和军队",
+      "resources": "用于正法、利益和爱欲"
+    },
+    "_token_interval": {
+      "start_index": 1848,
+      "end_index": 1860
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A king rules a perfect kingdom without aging, hunger, sorrow, or disease, where there is no fear of snakes, thieves, or mutual fear.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The King"
+      ],
+      "type": "Description of ideal rule"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The earth provides seventeen kinds of grains for the king, which are favored by yakshas, rakshasas, and snakes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The King"
+      ],
+      "action": "Earth's provision"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The king makes the world righteous and is called 'rājan' because all beings are satisfied (rañjita).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The King"
+      ],
+      "title": "Rājan (King)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "He is called 'kshatriya' because he heals the wounds of brahmins (kshatatrāna).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The King"
+      ],
+      "title": "Kshatriya"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The earth is called 'Prithivi' because wealth grows (prathita).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Earth"
+      ],
+      "title": "Prithivi"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The eternal Vishnu personally assures the king that no one will surpass him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu",
+        "The King"
+      ],
+      "action": "Divine assurance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vishnu enters the king's body through ascetic power, and the whole world worships him like a god among kings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu",
+        "The King"
+      ],
+      "action": "Divine possession"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The king is advised to protect the kingdom always according to the science of punishment and to rely on spies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The King"
+      ],
+      "action": "Advice on governance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A golden lotus emerges from Vishnu's forehead, and from it emerges the goddess Shri (Lakshmi), who becomes the wise wife of Dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu",
+        "Shri (Lakshmi)",
+        "Dharma"
+      ],
+      "action": "Divine creation",
+      "relationship": "Marriage of Dharma and Shri"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dharma and Shri give birth to Artha (Material Gain), establishing Dharma, Artha, and Shri in heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dharma",
+        "Shri (Lakshmi)",
+        "Artha"
+      ],
+      "action": "Birth",
+      "relationship": "Parents and child"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "One who exhausts merit descends from heaven to earth, reborn as a king versed in the science of punishment.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The King"
+      ],
+      "action": "Rebirth",
+      "type": "Karmic explanation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Such a king possesses great Vishnu-like divinity on earth, is wise, and attains the highest status.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The King"
+      ],
+      "action": "Divine status"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "No one can surpass the arrangements of the gods; all must submit to the rule of this one king.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The King"
+      ],
+      "action": "Divine mandate"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Good deeds lead to goodness, and all people in the world listen to this one king's words.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The King"
+      ],
+      "action": "Moral authority"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Upon seeing his face, people obey him, considering him auspicious, wealthy, and handsome.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The King"
+      ],
+      "action": "Charismatic effect"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "From then on, wise men in the world always proclaim, 'The king is equal to the gods.'",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The King"
+      ],
+      "action": "Proclamation of divinity"
+    },
+    "_token_interval": null
+  }
+]

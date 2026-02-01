@@ -1,0 +1,1448 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira expresses confusion about trust and distrust in ruling, asking Bhishma to clarify.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Philosophical Inquiry",
+      "relationships": [
+        "Grandson-Grandfather",
+        "Student-Teacher"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma recounts a conversation between King Brihadratha and the bird Bujani that took place in King Brihadratha's palace in Kampilya.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Yudhishthira",
+        "King Brihadratha",
+        "Bujani"
+      ],
+      "type": "Narration",
+      "context": "Bhishma begins telling a story to answer Yudhishthira's question."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bujani, a female bird living in King Brihadratha's harem, gives birth to a beautiful son at the same time the Queen gives birth to a Prince.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bujani",
+        "King Brihadratha's Queen",
+        "Bujani's Son",
+        "Prince (King Brihadratha's Son)"
+      ],
+      "type": "Birth",
+      "relationships": [
+        "Mother-Son (Bujani)",
+        "Mother-Son (Queen)",
+        "Foster Care (Bujani to Prince)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bujani daily fetches two ambrosia-like fruits from the sea, feeding one to her own son and one to the Prince, nourishing them both.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bujani",
+        "Bujani's Son",
+        "Prince"
+      ],
+      "type": "Caregiving",
+      "action": "Feeding/Nourishing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Prince, while playing, secretly kills Bujani's son by crushing it, then returns to his nurse's arms.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Prince",
+        "Bujani's Son"
+      ],
+      "type": "Conflict",
+      "action": "Killing",
+      "relationships": [
+        "Foster Brother (implied) to Victim"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bujani returns, finds her son dead, and grieves deeply, lamenting the untrustworthiness and cruelty of Kshatriyas (the warrior/ruling class).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bujani",
+        "Bujani's Son",
+        "Prince"
+      ],
+      "type": "Lamentation/Accusation",
+      "emotion": "Grief, Anger"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bujani declares revenge for this triple crime (killing a co-born, co-fed, and dependent being) and claws out the Prince's eyes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bujani",
+        "Prince"
+      ],
+      "type": "Revenge",
+      "action": "Blinding",
+      "supernatural_elements": "Bujani speaks while flying in the air, declaring that evil deeds bring retribution either upon the doer or their descendants."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Brihadratha tells Bujani that since she has taken revenge, they are even, and asks her to stay.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Brihadratha",
+        "Bujani"
+      ],
+      "type": "Dialogue",
+      "relationships": [
+        "Host-Guest (formerly)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bujani refuses, stating the wise do not stay where they have been wronged, and delivers teachings on distrust, vengeance, and the dangers of trusting enemies or the untrustworthy.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bujani",
+        "King Brihadratha"
+      ],
+      "type": "Moral Teaching",
+      "key_lesson": "Do not trust enemies or the untrustworthy; vengeance spans generations; it is better to be trusted than to trust."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bujani expresses reasons for leaving, citing broken trust and irreconcilable enmity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bujani",
+        "Brahmadatta"
+      ],
+      "action": "Declaration of departure",
+      "relationships": "Bujani no longer trusts Brahmadatta due to perceived enmity",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahmadatta urges Bujani to stay, arguing that appropriate retaliation balances the scales and reconciliation is possible.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmadatta",
+        "Bujani"
+      ],
+      "action": "Persuasion to remain",
+      "relationships": "Brahmadatta attempts to mend the relationship",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bujani counters that enmity between wrongdoer and avenger cannot be healed, as past actions are remembered.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bujani",
+        "Brahmadatta"
+      ],
+      "action": "Argument against reconciliation",
+      "relationships": "Bujani insists enmity is permanent",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahmadatta argues that enmity can be resolved and wrongs forgiven once grievances are settled.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmadatta",
+        "Bujani"
+      ],
+      "action": "Argument for forgiveness",
+      "relationships": "Brahmadatta advocates for peace",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bujani warns that enmity never truly disappears and distrust remains, comparing it to fire hidden in wood.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bujani",
+        "Brahmadatta"
+      ],
+      "action": "Warning about enduring hostility",
+      "relationships": "Bujani emphasizes lasting suspicion",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahmadatta suggests that living together fosters affection even between former adversaries, like dogs and Chandala.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmadatta",
+        "Bujani"
+      ],
+      "action": "Argument for cohabitation healing wounds",
+      "relationships": "Brahmadatta believes proximity breeds trust",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bujani lists five causes of enmity: women, dwelling, speech, hostility, and fault, and advises against trusting former enemies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bujani",
+        "Brahmadatta"
+      ],
+      "action": "Exposition on enmity's roots",
+      "relationships": "Bujani provides philosophical reasoning for distrust",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahmadatta argues that time dictates all actions and sufferings, suggesting neither is personally responsible for the other's woes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmadatta",
+        "Bujani"
+      ],
+      "action": "Philosophical appeal to fate/time",
+      "relationships": "Brahmadatta attributes conflict to cosmic forces",
+      "supernatural_elements": "Metaphorical reference to time as a destructive fire"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahmadatta declares he has forgiven Bujani and asks for mutual forgiveness, urging her to stay as time will foster affection.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmadatta",
+        "Bujani"
+      ],
+      "action": "Final plea for reconciliation",
+      "relationships": "Brahmadatta offers forgiveness and seeks the same",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bujani begins to respond (cut off at end of text).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bujani"
+      ],
+      "action": "Initiates reply",
+      "relationships": "Continuing the debate",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A philosophical debate about the role of time (kāla) as the cause of all events, questioning why people act if time determines everything.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unnamed Speaker"
+      ],
+      "type": "Philosophical Argument",
+      "action": "Questioning the concept of time as the sole determinant of events, using examples like revenge, divine battles, medical treatment, and lawful conduct."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker declares that the king's son killed his son, so he harmed the king's son in return, and thus deserves imprisonment or death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unnamed Speaker",
+        "King (implied)"
+      ],
+      "type": "Conflict Declaration",
+      "action": "Justifying revenge for a son's death, stating mutual actions create irreparable enmity.",
+      "relationships": "Establishes a cycle of vengeance between the speaker and the king over their sons' deaths."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker argues that enmity, once created, cannot be reconciled, using analogies like a broken pot and the danger of trusting enemies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unnamed Speaker"
+      ],
+      "type": "Argument on Enmity",
+      "action": "Explaining that hatred persists across generations and that distrust is necessary for survival, citing Ushanas's teachings to Prahlada.",
+      "supernatural_elements": "Reference to the sage Ushanas (Shukracharya) and the demon king Prahlada from mythology."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Brahmadatta (梵授) counters that without trust, one cannot accumulate wealth or achieve anything, and living in constant fear is like death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Brahmadatta"
+      ],
+      "type": "Counter-Argument",
+      "action": "Advocating for trust as essential for prosperity and meaningful life, opposing the speaker's view of perpetual distrust.",
+      "relationships": "King Brahmadatta is engaged in debate with the speaker (possibly Bhojani)."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhojani (布阇尼) responds with analogies about consequences of unwise actions, such as worsening wounds, eye pain from wind, or farming without rain, emphasizing the need for proper effort and nourishment.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhojani"
+      ],
+      "type": "Philosophical Response",
+      "action": "Using metaphors to argue that actions have direct consequences and that success requires knowledge, effort, and care (e.g., eating nutritious food for longevity).",
+      "relationships": "Bhojani is debating with King Brahmadatta, presenting a pragmatic view contrasting the king's emphasis on trust."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person eats beyond normal diet, disregarding consequences, and ultimately loses their life.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified Person"
+      ],
+      "action": "Overeating leading to death",
+      "type": "Moral Lesson"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Discussion on the interdependence of destiny and human effort, with virtuous people relying on action and the incompetent resigning to fate.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified Narrator"
+      ],
+      "action": "Philosophical discourse",
+      "type": "Wisdom Teaching"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Advice to pursue beneficial actions regardless of difficulty, warning that idleness leads to poverty.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified Narrator"
+      ],
+      "action": "Moral instruction",
+      "type": "Guidance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Encouragement to face risks courageously and prioritize beneficial actions even at great cost.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified Narrator"
+      ],
+      "action": "Exhortation to bravery",
+      "type": "Virtue Promotion"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Description of five innate friends: knowledge, courage, talent, strength, and steadfastness, which wise people rely on for survival.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified Narrator"
+      ],
+      "action": "Listing virtues",
+      "type": "Wisdom Teaching"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Statement that one can acquire home, wealth, land, wife, and friends anywhere.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified Narrator"
+      ],
+      "action": "Assertion about human capability",
+      "type": "Encouragement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Description of the wise person who is content everywhere, shines everywhere, neither threatens nor fears threats.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified Wise Person"
+      ],
+      "action": "Exemplification of wisdom",
+      "type": "Character Portrait"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Observation that the wise person's modest wealth grows through capability and self-restraint.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified Wise Person"
+      ],
+      "action": "Description of prosperity",
+      "type": "Wisdom Teaching"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Criticism of those with shallow wisdom who are attached to family, with evil wives consuming them like mother crabs eat their young.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified Person with Shallow Wisdom",
+        "Evil Wife"
+      ],
+      "action": "Metaphorical warning",
+      "type": "Cautionary Tale"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Description of people whose wisdom is lost, preoccupied only with family, land, friends, and country, becoming dispirited.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified People with Lost Wisdom"
+      ],
+      "action": "Portrayal of spiritual decline",
+      "type": "Warning"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Advice to leave homeland suffering from disease and hunger, either living with dignity or migrating elsewhere.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified Narrator"
+      ],
+      "action": "Practical guidance",
+      "type": "Survival Advice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Declaration of intent to migrate elsewhere due to the king's son doing something improper.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified Speaker",
+        "Unspecified King",
+        "King's Son"
+      ],
+      "action": "Decision to leave",
+      "type": "Personal Resolution"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Instruction to avoid bad wives, sons, kings, friends, relatives, and countries.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified Narrator"
+      ],
+      "action": "List of harmful relationships",
+      "type": "Practical Wisdom"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Explanations of why various bad relationships are harmful: untrustworthy sons, unloving wives, unhappy kingdoms, unlivable countries, unstable friendships, and cold relatives.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified Narrator"
+      ],
+      "action": "Elaboration on relationship dangers",
+      "type": "Social Guidance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Description of ideal relationships: sweet-talking wife, joyful son, trustworthy friend, and livable country.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified Narrator"
+      ],
+      "action": "Portrayal of ideal social bonds",
+      "type": "Aspirational Teaching"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Description of the ideal king who governs strictly without force, cares for the poor, and shows no favoritism.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ideal King"
+      ],
+      "action": "Portrayal of just rule",
+      "type": "Political Philosophy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Statement that when the king possesses virtue and sees with Dharma, everything including wife, son, relatives, friends, and country becomes peaceful.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Virtuous King"
+      ],
+      "action": "Description of harmonious rule",
+      "type": "Political Ideal"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Warning about kings who don't understand Dharma, oppressing beings and causing destruction, as kings are the foundation of life's three essentials.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ignorant King"
+      ],
+      "action": "Caution against poor rule",
+      "type": "Political Warning"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Assertion that kings who collect one-sixth tax but don't protect beings are thieves of the state.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Tax-Collecting King"
+      ],
+      "action": "Condemnation of irresponsible rule",
+      "type": "Political Ethics"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Warning about kings who grant protection but don't establish rules, bearing the sins of all worlds and falling into hell.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 20,
+    "group_index": 19,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ineffective King"
+      ],
+      "action": "Description of karmic consequences",
+      "type": "Divine Justice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Praise for kings who grant protection, establish rules, protect beings according to Dharma, and are called creators of all happiness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 21,
+    "group_index": 20,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Righteous King"
+      ],
+      "action": "Description of ideal rulership",
+      "type": "Political Ideal"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Revelation that Prajapati Manu identified seven attributes of a king: father, mother, teacher, protector, Agni (fire god), Kubera (god of wealth), and Yama (god of death).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 22,
+    "group_index": 21,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Prajapati Manu"
+      ],
+      "action": "Divine teaching about kingship",
+      "type": "Revelation",
+      "supernatural_elements": [
+        "Divine wisdom from Prajapati Manu"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Description of how kings embody these seven attributes: compassionate like a father (with warning of rebirth as animal for deceiving king), caring like a mother, punishing like Agni, controlling like Yama, giving like Kubera, teaching like a teacher, and protecting like a protector.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 23,
+    "group_index": 22,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Righteous King"
+      ],
+      "action": "Elaboration of kingly virtues",
+      "type": "Political Theology",
+      "supernatural_elements": [
+        "Metaphorical identification with gods Agni, Kubera, and Yama",
+        "Rebirth consequences"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Shantanu saw the beautiful Ganga by the river and fell in love.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Shantanu",
+        "Ganga"
+      ],
+      "type": "Romance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "condition",
+    "extraction_text": "She agreed to marry him on the condition that he never question her actions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "proposer": "Ganga",
+      "accepter": "King Shantanu"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "They had seven sons, but she drowned each one immediately after birth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ganga",
+        "Seven Vasus (Sons)"
+      ],
+      "action": "Drowning/Killing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "conflict",
+    "extraction_text": "When the eighth son was born, Shantanu could not bear it and stopped her.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "initiator": "King Shantanu",
+      "reason": "Save the child"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "revelation",
+    "extraction_text": "Ganga revealed her identity, explained the curse of the Vasus, and left with the child",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "true_identity": "River Goddess Ganga",
+      "child": "Bhishma (Devavrata)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text presents a collection of proverbs and strategic advice for a king, primarily addressing King Indra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra"
+      ],
+      "type": "Instruction/Advice",
+      "narrative_flow": "The text is not a narrative with a sequence of events, but a didactic passage offering wisdom on statecraft, warfare, and personal conduct."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Advises crushing enemies when the time is right, like smashing a clay pot on a stone.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra"
+      ],
+      "type": "Strategic Advice",
+      "action": "Timely aggression"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Advises against associating with ungrateful people who use you and then despise you.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra"
+      ],
+      "type": "Interpersonal Advice",
+      "action": "Caution in alliances"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Advises the king to emulate various animals (cuckoo, boar, snake, etc.) and an actor in behavior.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra"
+      ],
+      "type": "Behavioral Advice",
+      "action": "Strategic mimicry"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Advises vigilance, courage, and moderation in pleasures like drinking and gambling.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra"
+      ],
+      "type": "Personal Conduct Advice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Advises on espionage: using spies, infiltrating enemy territory with ascetics, and being wary of enemy spies in public places.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra"
+      ],
+      "type": "Espionage Advice",
+      "action": "Intelligence gathering and counter-intelligence"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Concludes with a warning about trust: not to trust the untrustworthy, not to over-trust the trustworthy, as trust brings danger.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra"
+      ],
+      "type": "Final Advice",
+      "action": "Cautious trust"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text provides strategic and moral advice on dealing with enemies, allies, and governance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified Ruler/Strategist"
+      ],
+      "type": "Instructional Discourse"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Advises to trust enemies when there is reason, but strike them when opportunity arises.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified Ruler/Strategist"
+      ],
+      "action": "Strategic Advice",
+      "relationships": "Enemy management"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Recommends eternal vigilance against suspicious individuals, even doubting the unsuspicious.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified Ruler/Strategist"
+      ],
+      "action": "Cautionary Advice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Suggests disguising oneself (e.g., as an ascetic) to gain enemy trust, then attacking like a wolf.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified Ruler/Strategist"
+      ],
+      "action": "Deceptive Strategy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "States that even family members (son, brother, father, friend) should be eliminated if they obstruct one's prosperity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified Ruler/Strategist"
+      ],
+      "action": "Ruthless Pragmatism",
+      "relationships": "Family as potential obstacle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Advises punishing even a teacher if arrogant, misguided, or走上邪路 (deviant).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified Ruler/Strategist"
+      ],
+      "action": "Disciplinary Action",
+      "relationships": "Teacher-student dynamic"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Recommends being courteous and giving gifts to enemies before stripping them of everything, like a bird destroying all fruits on a tree.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified Ruler/Strategist"
+      ],
+      "action": "Deceptive Courtesy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Asserts that至高富贵 (supreme prosperity) cannot be achieved without致命打击 (fatal blows),暴烈行动 (violent actions), or杀生 (killing), unlike a fisherman.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified Ruler/Strategist"
+      ],
+      "action": "Justification of Violence"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Claims there are no天生的敌人 (natural enemies) or天生的朋友 (natural friends); relationships are based on practical needs.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified Ruler/Strategist"
+      ],
+      "action": "Philosophical Assertion",
+      "relationships": "Friendship and enmity as pragmatic"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Advises not to spare enemies even if they beg for mercy, and not to feel remorse for killing offenders.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified Ruler/Strategist"
+      ],
+      "action": "Ruthless Enforcement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Recommends speaking kindly before and after打击 (striking), and weeping after砍头 (beheading) to show sorrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified Ruler/Strategist"
+      ],
+      "action": "Hypocritical Display"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Suggests winning people over through安抚 (appeasement),尊敬 (respect), and容忍 (tolerance) to achieve desires.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified Ruler/Strategist"
+      ],
+      "action": "Diplomatic Strategy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Warns against unnecessary enmity, crossing rivers by arms alone, or啃牛角 (gnawing a cow's horn) which harms without benefit.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified Ruler/Strategist"
+      ],
+      "action": "Cautionary Metaphors"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mentions人生三要 (three essentials of life) with three阻碍 (obstacles) and three结果 (results), understanding which removes obstacles.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified Ruler/Strategist"
+      ],
+      "action": "Philosophical Teaching"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Compares residual debt, unextinguished fire, and uneliminated enemies to things that grow back.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified Ruler/Strategist"
+      ],
+      "action": "Analogical Warning"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Advises eternal caution, as even a poorly removed splinter can cause long-lasting trouble.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified Ruler/Strategist"
+      ],
+      "action": "Prudence Advice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Recommends杀戮敌军 (killing enemy troops),破坏道路 (destroying roads),摧毁房屋 (destroying houses), and毁灭敌人的王国 (destroying enemy kingdoms).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified Ruler/Strategist"
+      ],
+      "action": "Total Warfare"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Describes ideal qualities: eyes like a vulture, calm like a heron, active like a dog, majestic like a lion, alert like a crow, and行动似蛇 (moving like a snake).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified Ruler/Strategist"
+      ],
+      "action": "Character Portrayal"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Advises preventing ministers from分裂 (splitting) or勾结 (colluding),煽动将领 (inciting generals), or结党营私 (forming factions).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified Ruler/Strategist"
+      ],
+      "action": "Governance Strategy",
+      "relationships": "Ruler-minister dynamics"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "States that温和 (gentleness) leads to轻视 (contempt), while严厉 (severity) causes人人自危 (universal fear); one should be gentle or severe as needed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 20,
+    "group_index": 19,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified Ruler/Strategist"
+      ],
+      "action": "Leadership Balance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Concludes that all this advice is for危难时 (times of crisis), not for everyday practice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 21,
+    "group_index": 20,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified Ruler/Strategist"
+      ],
+      "action": "Contextual Clarification"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person should consider how to deal with enemies, therefore, for your benefit, I have told all this.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified Narrator"
+      ],
+      "action": "Giving advice",
+      "purpose": "Benefit the listener"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Shouvira, having heard these beneficial words from the Brahmin, became invigorated in spirit, acted accordingly, and together with his relatives, enjoyed illustrious prosperity and wealth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Shouvira",
+        "Unspecified Brahmin"
+      ],
+      "action": "Receiving advice, implementing it, and prospering",
+      "result": "Enjoyment of prosperity with relatives"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "This concludes the auspicious one hundred and thirty-eighth chapter (138) of the 'Peace Section' in the Mahabharata.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Chapter conclusion",
+      "source": "Mahabharata, Shanti Parva, Chapter 138"
+    },
+    "_token_interval": null
+  }
+]

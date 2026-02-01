@@ -1,0 +1,773 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国询问全胜关于战场上是否还有人出来迎战德罗纳",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国",
+        "全胜",
+        "德罗纳"
+      ],
+      "action": "询问战况",
+      "context": "般度人和般遮罗人被德罗纳击溃后"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国描述德罗纳的英勇和战场上的形势",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国",
+        "德罗纳"
+      ],
+      "action": "描述战场",
+      "details": "德罗纳全身披甲，谙熟兵器，如同猛虎，为刹帝利争得荣誉"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "全胜描述德罗纳以箭驱散般遮罗人、般度人、摩差人、斯楞遮耶人和车底人",
+    "char_interval": {
+      "start_pos": 315,
+      "end_pos": 355
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "全胜",
+        "德罗纳",
+        "般遮罗人",
+        "般度人",
+        "摩差人",
+        "斯楞遮耶人",
+        "车底人"
+      ],
+      "action": "战斗描述",
+      "details": "德罗纳的箭流剥夺性命，犹如信度河激流卷走小船"
+    },
+    "_token_interval": {
+      "start_index": 92,
+      "end_index": 99
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "俱卢人发出狮子吼，鼓乐齐鸣，车兵、象兵、步兵和马兵从四面八方围堵敌人",
+    "char_interval": {
+      "start_pos": 396,
+      "end_pos": 405
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "俱卢人"
+      ],
+      "action": "战场氛围",
+      "details": "军队围堵敌人，营造胜利氛围"
+    },
+    "_token_interval": {
+      "start_index": 112,
+      "end_index": 114
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌看到战场形势，高兴地对迦尔纳说话",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌",
+        "迦尔纳",
+        "德罗纳"
+      ],
+      "action": "对话",
+      "details": "难敌位于军队中央，看到德罗纳驱散敌人，十分高兴"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌比喻德罗纳像狮子驱散鹿群，认为敌人不会再回来战斗",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌",
+        "德罗纳"
+      ],
+      "action": "比喻评价",
+      "details": "德罗纳击溃敌人，如同风吹倒大树"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌描述敌人被德罗纳的箭袭击，蒙头转向，夺路而逃",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌",
+        "德罗纳"
+      ],
+      "action": "战况描述",
+      "details": "敌人受到金羽毛箭袭击，挤成一团，犹如遭遇大火的大象"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌提到怒气冲天的怖军被武士们团团围住，仿佛在咒骂他",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌",
+        "怖军",
+        "迦尔纳"
+      ],
+      "action": "战场观察",
+      "details": "怖军身边没有般度人和斯楞遮耶人，被围住"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌断言今天世界上只有德罗纳，般度之子无望保住性命和王国",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌",
+        "德罗纳",
+        "般度之子"
+      ],
+      "action": "预言",
+      "details": "认为般度之子今天一定失败"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳回应难敌，认为大臂英雄（指般度之子）不会放弃战斗",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "难敌",
+        "般度之子"
+      ],
+      "action": "反驳预言",
+      "details": "迦尔纳认为般度人不会被摧毁，他们强壮有力，谙熟兵器"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳提到般度之子们牢记过去的苦难，不会离开战场",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "般度之子"
+      ],
+      "action": "解释动机",
+      "details": "般度之子们因下毒、纵火、掷骰子赌博和流亡森林的苦难而坚持战斗"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳断言大臂狼腹（怖军）将消灭众多战车勇士",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "怖军"
+      ],
+      "action": "预言反击",
+      "details": "怖军受到欺辱，作为贡蒂之子，将消灭敌人"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna warns Duryodhana that the Pandavas, led by Bhima and supported by Satyaki, Panchalas, Kekayas, and Matsyas, are preparing to attack the isolated Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Duryodhana",
+        "Bhima",
+        "Satyaki",
+        "Drona"
+      ],
+      "supporting_characters": [
+        "Panchalas",
+        "Kekayas",
+        "Matsyas",
+        "Pandavas"
+      ],
+      "type": "Warning/Strategy",
+      "relationships": "Karna advises Duryodhana; Pandavas alliance targets Drona"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana, heeding Karna's advice, leads his brothers to Drona's chariot to provide support.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Drona"
+      ],
+      "supporting_characters": [
+        "Kauravas (brothers)"
+      ],
+      "type": "Military Movement",
+      "relationships": "Duryodhana protects Drona; Kauravas unite"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas, with Bhima at the forefront, launch a fierce assault on Drona, supported by their allies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Drona"
+      ],
+      "supporting_characters": [
+        "Satyaki",
+        "Nakula",
+        "Sahadeva",
+        "Yudhishthira",
+        "Drupada",
+        "Shikhandin",
+        "Virata",
+        "Uttara",
+        "Kekaya brothers",
+        "Panchala warriors"
+      ],
+      "type": "Battle Assault",
+      "relationships": "Pandavas alliance attacks Drona; Bhima leads the charge"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya describes the chariots and warriors of the Pandava alliance as they advance toward Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Dhritarashtra"
+      ],
+      "mentioned_characters": [
+        "Bhima",
+        "Satyaki",
+        "Nakula",
+        "Sahadeva",
+        "Yudhishthira",
+        "Drupada",
+        "Shikhandin",
+        "Virata",
+        "Uttara",
+        "Kekaya brothers",
+        "Panchala warriors"
+      ],
+      "type": "Narration/Description",
+      "relationships": "Sanjaya reports to Dhritarashtra; details the Pandava forces"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "勇旗驾驶着甘波阁花斑马奔赴战场。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "勇旗"
+      ],
+      "action": "奔赴战场",
+      "description": "车底族雄牛，力大无穷，难以战胜"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "羯迦夜王子巨武驾驶着信度骏马奔赴战场。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "巨武"
+      ],
+      "action": "奔赴战场",
+      "description": "羯迦夜王子"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "束发之子武天驾驶着波力迦骏马奔赴战场。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "武天"
+      ],
+      "action": "奔赴战场",
+      "description": "英勇的束发之子"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尸王阿比菩的儿子驾驶着麻鹬色骏马奔赴战场。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿比菩之子"
+      ],
+      "action": "奔赴战场",
+      "description": "年轻娇嫩的大勇士"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "王子向山驾驶着黑颈白身骏马奔赴战场。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "向山"
+      ],
+      "action": "奔赴战场"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "子月驾驶着豌豆花色骏马奔赴战场。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "子月"
+      ],
+      "action": "奔赴战场",
+      "description": "普利塔之子（怖军）从烟氏仙人那里求得的儿子，诞生于榨取苏摩汁的过程中"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "无种之子百军驾驶着娑罗树花色骏马奔赴战场。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "百军"
+      ],
+      "action": "奔赴战场",
+      "description": "值得称赞的无种之子"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑公主之子闻业驾驶着孔雀颈项色骏马奔赴战场。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "闻业"
+      ],
+      "action": "奔赴战场",
+      "description": "黑公主之子，人中之虎"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑公主之子闻称驾驶着青鸟色骏马奔赴战场。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "闻称"
+      ],
+      "action": "奔赴战场",
+      "description": "黑公主之子，博学多闻，仿佛是阿周那的化身"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "少年激昂驾驶着红褐色战马奔赴战场。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "激昂"
+      ],
+      "action": "奔赴战场",
+      "description": "在战场上甚至超过黑天和阿周那一倍半"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "尚武驾驶着高头大马奔赴战场。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "尚武"
+      ],
+      "action": "奔赴战场",
+      "description": "持国的儿子中惟一站在般度族一边的"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "晚福驾驶着稻草秆色骏马奔赴战场。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "晚福"
+      ],
+      "action": "奔赴战场",
+      "description": "敏捷"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "妙思王子驾驶着白蹄马奔赴战场。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "妙思"
+      ],
+      "action": "奔赴战场"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "有序驾驶着素绢色骏马奔赴战场。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "有序"
+      ],
+      "action": "奔赴战场"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尸王驾驶着黄金色骏马奔赴战场。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尸王"
+      ],
+      "action": "奔赴战场",
+      "description": "人们交口称颂"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "真坚驾驶着红色骏马奔赴战场。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "真坚"
+      ],
+      "action": "奔赴战场",
+      "description": "精通诸般武艺和吠陀梵学"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "猛光驾驶着鸽色骏马奔赴战场。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "猛光"
+      ],
+      "action": "奔赴战场",
+      "description": "般遮罗军队的首领，担负着杀死德罗纳的使命"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "真坚、妙思、有序和施财跟随猛光奔赴战场。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "真坚",
+        "妙思",
+        "有序",
+        "施财"
+      ],
+      "action": "跟随猛光奔赴战场",
+      "description": "驾驭甘波阇优等快马，令敌军闻风丧胆"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "六千名钵罗跋德罗迦人和般遮罗人跟随猛光奔赴战场。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "钵罗跋德罗迦人",
+        "般遮罗人"
+      ],
+      "action": "跟随猛光奔赴战场",
+      "description": "高擎武器，驾驭不同颜色骏马，战车和幡幢绚丽多彩，挽弓释放箭雨，驱散敌人，决意共同迎接死亡"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "显光驾驶着黄绢色骏马奔赴战场。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 20,
+    "group_index": 19,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "显光"
+      ],
+      "action": "奔赴战场"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "贡提婆阁王布卢吉多驾驶着彩虹色骏马奔赴战场。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 21,
+    "group_index": 20,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "布卢吉多"
+      ],
+      "action": "奔赴战场",
+      "description": "阿周那的舅舅"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text describes a grand procession of warriors arriving at the battlefield, each with distinctively described horses and chariots.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Shalya",
+        "Sahadeva (son of Jarasandha)",
+        "Sudaman",
+        "Shatanika (son of Virata)",
+        "King Janamejaya",
+        "King Drupada",
+        "King Dhrishtadyumna",
+        "Prince Ketumat",
+        "King Shishupala",
+        "King Shalva",
+        "King Chitraratha",
+        "King Rukmaratha",
+        "King Shikhandin",
+        "King Nila",
+        "King Vrihadkshatra",
+        "King Shrutakarman",
+        "King Dandadhara",
+        "King Bhagadatta",
+        "King Yudhishthira",
+        "Bhima",
+        "Drona"
+      ],
+      "type": "Military Assembly"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The warriors are assembled with their armies, ready for battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "All listed warriors"
+      ],
+      "action": "Military preparation",
+      "relationships": "All are warriors or kings assembled for a conflict, likely the Kurukshetra War from the Mahabharata."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The passage concludes by stating this is from Chapter 22 of the Drona Parva in the Mahabharata.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Narrative citation",
+      "note": "This situates the events within the larger epic of the Mahabharata, specifically during the segment focused on the warrior Drona."
+    },
+    "_token_interval": null
+  }
+]

@@ -1,0 +1,642 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国 (Dhritarashtra) asks 全胜 (Sanjaya) to describe the names of regions, mountains, and their inhabitants.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Sanjaya"
+      ],
+      "type": "Inquiry/Description",
+      "relationships": "Dhritarashtra is the king and Sanjaya is his advisor/charioteer."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya describes several regions: 罗摩那迦 (Ramanaka), 亥伦婆多 (Hairanyavata), and 爱罗婆多 (Airavata), including their locations, inhabitants, and divine features.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya"
+      ],
+      "type": "Geographical/Divine Description",
+      "supernatural_elements": "Mention of self-luminous goddess 香底利 (Shandili), divine inhabitants with long lifespans, and regions where sun doesn't heat and people don't age."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya describes 主神诃利/毗恭吒 (Hari/Vikuntha, i.e., Vishnu) residing in a golden chariot in the northern part of the Milk Ocean, as the creator, sustainer, and destroyer.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu (Hari/Vikuntha)"
+      ],
+      "type": "Divine Description",
+      "supernatural_elements": "Vishnu as the supreme deity controlling creation, preservation, and destruction; associated with elements and sacrifice."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra reflects on Sanjaya's words, thinks of his sons, and comments on the impermanence of the world and the role of time and deities like Nara-Narayana and Vishnu.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra"
+      ],
+      "type": "Reflection/Philosophical",
+      "relationships": "Dhritarashtra is father to the Kauravas, including Duryodhana."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra expresses concern about the military gathering in Bharata, blaming both his son Duryodhana's ambition and the Pandavas' greed, and asks Sanjaya for the truth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Sanjaya",
+        "Duryodhana",
+        "Pandavas"
+      ],
+      "type": "Conflict Inquiry",
+      "relationships": "Dhritarashtra is father to Duryodhana (Kaurava) and uncle to the Pandavas; tension between Kauravas and Pandavas over the kingdom."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya corrects Dhritarashtra, stating that the Pandavas are not greedy; instead, Duryodhana and Shakuni (son of Subala) are greedy, along with other kings coveting the Bharata kingdom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Dhritarashtra",
+        "Duryodhana",
+        "Shakuni",
+        "Pandavas"
+      ],
+      "type": "Clarification/Accusation",
+      "relationships": "Sanjaya advises Dhritarashtra; Duryodhana and Shakuni are allies against the Pandavas; conflict involves multiple kings."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The narrator addresses the listener as a descendant of Bharata and states he will tell about the beloved land of Bharata.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator",
+        "Listener (descendant of Bharata)"
+      ],
+      "type": "Introduction",
+      "relationships": [
+        "Narrator addressing a descendant of Bharata"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The narrator lists divine and royal figures who loved the land of Bharata.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Manu (son of Vivasvat)",
+        "Prithu (son of Vena)",
+        "King Sharyati",
+        "King Yayati",
+        "Ambarisha",
+        "Mandhatri",
+        "Nahusha",
+        "Muchukunda",
+        "King Shibi (son of Ushinara)",
+        "Rishabha",
+        "Dilipa",
+        "Nriga"
+      ],
+      "type": "Historical/Divine Reference",
+      "relationships": [
+        "All are described as lovers of the land of Bharata"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The narrator mentions many other powerful Kshatriyas who also loved the land of Bharata.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Many powerful Kshatriyas"
+      ],
+      "type": "General Reference",
+      "relationships": [
+        "Collective love for Bharata"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The narrator states he will describe the country based on what he has heard, in response to the listener's question.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator",
+        "Listener (King, enemy-subduer)"
+      ],
+      "type": "Narrative Setup",
+      "relationships": [
+        "Narrator responding to a king's query"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The narrator lists the seven main mountains of the land.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator"
+      ],
+      "type": "Geographical Description",
+      "locations": [
+        "Mahendra",
+        "Malaya",
+        "Sahya",
+        "Shuktimat",
+        "Rikshavan",
+        "Vindhya",
+        "Pariyatra"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The narrator mentions thousands of other mountains, some famous and majestic, some small and unnamed, inhabited by various peoples including Aryans and Mlecchas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator"
+      ],
+      "type": "Geographical and Cultural Description",
+      "details": [
+        "Describes diverse inhabitants and landscapes"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The narrator lists numerous rivers of the land.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator"
+      ],
+      "type": "Geographical Description",
+      "locations": [
+        "Ganga",
+        "Sindhu",
+        "Sarasvati",
+        "Godavari",
+        "Narmada",
+        "Bahuda",
+        "Shatadru",
+        "Chandrabhaga",
+        "Yamuna",
+        "Drishadvati",
+        "Vipasha",
+        "Vipapa",
+        "Sutudri",
+        "Vetravati",
+        "Krishnaveni",
+        "Iravati",
+        "Vitasta",
+        "Payoshni",
+        "Devika",
+        "Vedasmriti",
+        "Vetashini",
+        "Tridiva",
+        "Ikshumalini",
+        "Karishini",
+        "Chitravaha",
+        "Chitrasena",
+        "Gomati",
+        "Dhutapapa",
+        "Vandana",
+        "Kaushiki",
+        "Chitya",
+        "Vijitara",
+        "Rahadini",
+        "Rathastha",
+        "Shatakumbha",
+        "Sarayu",
+        "Charmanvati",
+        "Vetravati",
+        "Hastisoma",
+        "Disha",
+        "Shadavali",
+        "Payoshni",
+        "Para",
+        "Vimalodaka",
+        "Kaveri",
+        "Chuluka",
+        "Vapi",
+        "Shataprabha",
+        "Nikira",
+        "Mahida",
+        "Suprayoga",
+        "Pavitra",
+        "Kundala",
+        "Sindhu",
+        "Vagini",
+        "Brahmalini",
+        "Purvavira",
+        "Vira",
+        "Vima",
+        "Okavati",
+        "Parashini",
+        "Papahara",
+        "Mahendra",
+        "Pippalavati",
+        "Parishna",
+        "Ashikni",
+        "Sarola",
+        "Brahmarudhini",
+        "Brushi",
+        "Prabhara",
+        "Mena",
+        "Moka",
+        "Kritavati",
+        "Tumadiya",
+        "Adhikrishna",
+        "Suki",
+        "Chavi"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text lists numerous sacred rivers and regions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Geographical/Descriptive",
+      "action": "Listing of sacred rivers and regions"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text lists numerous names of kings, tribes, regions, and countries from ancient Indian epics.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Avanti",
+        "Apollokunti",
+        "Jovinda",
+        "Mandaka",
+        "Shanta",
+        "Vidhava",
+        "Ashmaka",
+        "Bangsurashtra",
+        "Goparashtra",
+        "Panitaka",
+        "Atirashtra",
+        "Sukuta",
+        "Parirashtra",
+        "Vanarahiya",
+        "Paravaha",
+        "Vakara",
+        "Vakarabhaya",
+        "Shaka",
+        "Videha",
+        "Magadha",
+        "Suhama",
+        "Vijaya",
+        "Anga",
+        "Vanga",
+        "Kalinga",
+        "Yakrilamaya",
+        "Mala",
+        "Sudaishuna",
+        "Parahuta",
+        "Mahishakarshika",
+        "Vashika",
+        "Vatadana",
+        "Abhira",
+        "Karatayaka",
+        "Apolundara",
+        "Shudra",
+        "Baharava",
+        "Charmakandika",
+        "Atavishabara",
+        "Marubhuma",
+        "Upavarishicha",
+        "Anupavarishicha",
+        "Surashtra",
+        "Kekaya",
+        "Kutaparanta",
+        "Dvaitaya",
+        "Kaksha",
+        "Samudranishikuta",
+        "Andhra",
+        "Angamarada",
+        "Magadha",
+        "Manavarichaka",
+        "Mahiyutara",
+        "Paravariseya",
+        "Bargava",
+        "Pundra",
+        "Barga",
+        "Kirata",
+        "Sudaushuna",
+        "Paramuda",
+        "Shaka",
+        "Nishada",
+        "Nishada",
+        "Anarta",
+        "Nairita",
+        "Dugula",
+        "Pratimacha",
+        "Kushala",
+        "Kunata",
+        "Tilagaraha",
+        "Taradoya",
+        "Rajika",
+        "Rahiyakagana",
+        "Tilaka",
+        "Parashika",
+        "Matuman",
+        "Paraguchaka",
+        "Kashmira",
+        "Sindhushauvira",
+        "Gandhara",
+        "Darshaka",
+        "Abhishara",
+        "Kuruta",
+        "Shevara",
+        "Vahala",
+        "Darvika",
+        "Sakacha",
+        "Darva",
+        "Vatacha",
+        "Amarata",
+        "Uraga",
+        "Bahuvadiya",
+        "Sudamana",
+        "Somarika",
+        "Badara",
+        "Karishaka",
+        "Kurinda",
+        "Upadiyaka",
+        "Vanayu",
+        "Dashaparshva",
+        "Laumana",
+        "Kushabindu",
+        "Kacha",
+        "Gopalakacha",
+        "Langala",
+        "Paravaraka",
+        "Kirata",
+        "Parpara",
+        "Siddha",
+        "Videha",
+        "Tamralingaka",
+        "Oshidra",
+        "Pundra",
+        "Serendra",
+        "Parvatiya",
+        "Dravida",
+        "Karola",
+        "Parajiya",
+        "Pushika",
+        "Vanavasin",
+        "Unatiyaka",
+        "Mahishaka",
+        "Vikarpa",
+        "Musaka",
+        "Karnika",
+        "Kuntika",
+        "Shauvita",
+        "Narakaraka",
+        "Gankutaka",
+        "Chola",
+        "Kongana",
+        "Maravanaka",
+        "Samanga",
+        "Gopana",
+        "Gugula",
+        "Angada",
+        "Marisha",
+        "Dhavagini",
+        "Uchchava",
+        "Shanketa",
+        "Trigarta",
+        "Sarvaseni",
+        "Trianga",
+        "Gaikaraka",
+        "Palaustha",
+        "Parashancharaka",
+        "Vindhyapuraka",
+        "Pulinda",
+        "Karkara",
+        "Maraka",
+        "Maraka",
+        "Apolavartaka",
+        "Kurinda",
+        "Kulaka",
+        "Karunda",
+        "Gulaka",
+        "Musaka",
+        "Sitanapara",
+        "Sadi",
+        "Patibanchaka",
+        "Atidaya",
+        "Shirale",
+        "Situpaka",
+        "Sitanapa",
+        "Harishividarbha",
+        "Kantika",
+        "Dongana",
+        "Paradongana"
+      ],
+      "type": "Geographical and Tribal Listing",
+      "context": "The passage appears to be an exhaustive enumeration of kings, tribes, and regions, likely from an epic like the Mahabharata, describing the extent of a kingdom or participants in a grand assembly."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text lists various northern peoples and regions, including Mleccha, Yavana, Kamboja, Daruna, Saka, Drāvida, Gondhāra, Hūna, Parada, Maratha, Cīna, and others, describing them as inhabited by Kshatriyas, Vaishyas, and Shudras.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Various Northern Peoples"
+      ],
+      "type": "Geographical and Social Description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The earth, when well-treated, yields the three fruits of Dharma, Artha, and Kama according to its nature and strength, like the wish-fulfilling cow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Earth"
+      ],
+      "action": "Yielding Fruits",
+      "supernatural_elements": [
+        "Wish-fulfilling cow comparison"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Valiant kings, proficient in Dharma and Artha, crave the earth and sacrifice their lives in battle, as the earth is the refuge for divine and human bodies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Valiant Kings"
+      ],
+      "action": "Craving and Sacrificing for Earth"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kings fight over the earth like dogs over meat, with insatiable desires, leading to the conflict between the Kauravas and Pandavas for possession of the earth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kauravas",
+        "Pandavas"
+      ],
+      "action": "Conflict over Earth",
+      "relationships": [
+        "Rivalry between Kauravas and Pandavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The earth, when well-treated, becomes father, mother, son, sky, and heaven for all beings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Earth"
+      ],
+      "action": "Transformation into Various Roles"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "This concludes Chapter 10 of the Bhishma Parva in the Mahabharata.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Textual Reference"
+    },
+    "_token_interval": null
+  }
+]

@@ -1,0 +1,239 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Bhishma about the characteristics of men and women favored by Lakshmi.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Question/Inquiry",
+      "relationships": [
+        "Grandson (Yudhishthira) asks Grandfather (Bhishma)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma recalls that Satyabhama once asked Krishna the same question.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Satyabhama",
+        "Krishna"
+      ],
+      "type": "Recollection",
+      "relationships": [
+        "Bhishma remembers past event",
+        "Satyabhama is Krishna's wife"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyabhama sees Lakshmi and approaches Krishna to ask her question.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyabhama",
+        "Lakshmi",
+        "Krishna"
+      ],
+      "type": "Divine Encounter",
+      "supernatural_elements": [
+        "Appearance of Lakshmi (Goddess of Fortune)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Lakshmi describes the qualities of men she favors and avoids.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Lakshmi"
+      ],
+      "type": "Divine Revelation",
+      "description": "Lakshmi favors truthful, gentle, brave, diligent men; avoids lazy, dishonest, ungrateful, fickle, thieving, disrespectful men and those lacking energy, courage, or ambition."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Lakshmi describes the qualities of women she favors and avoids.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Lakshmi"
+      ],
+      "type": "Divine Revelation",
+      "description": "Lakshmi favors patient, self-controlled, pious, truthful, content women devoted to husbands; avoids disorganized, argumentative, gossipy, shameless, unclean, lazy, quarrelsome women."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker expresses a desire to frequently see various natural, social, and spiritual phenomena.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Speaker"
+      ],
+      "type": "Aspiration/Desire",
+      "elements": [
+        "Chariots",
+        "Young women",
+        "Ornaments",
+        "Sacrificial rites",
+        "Rain clouds",
+        "Blooming lotuses",
+        "Autumn night stars",
+        "Hills",
+        "Cattle pens",
+        "Groves",
+        "Lakes",
+        "Ponds with blue lotuses",
+        "Rivers with waterfowl",
+        "Broad slopes",
+        "Beautiful ponds",
+        "Ascetics",
+        "Vast waters",
+        "Rivers with bathing animals",
+        "Happy elephants",
+        "Strong cattle",
+        "Lion thrones",
+        "Good people"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker states a preference for dwelling in houses where the hosts perform fire sacrifices and honor cows, Brahmins, and deities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Speaker"
+      ],
+      "type": "Preference/Residence",
+      "conditions": [
+        "Hosts perform fire sacrifices",
+        "Hosts honor cows, Brahmins, and deities",
+        "Hosts offer flowers to deities in season"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker expresses willingness to associate with individuals from the four varnas who fulfill their respective duties.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Speaker"
+      ],
+      "type": "Social Association",
+      "varnas_and_duties": [
+        "Brahmins who study the Vedas",
+        "Kshatriyas devoted to dharma",
+        "Vaishyas diligent in agriculture",
+        "Shudras faithfully serving higher varnas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker declares that their embodied existence remains united with Narayana, who embodies dharma, Brahminical devotion, and endearing qualities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Speaker",
+        "Narayana"
+      ],
+      "type": "Spiritual Union/Declaration",
+      "relationship": "The Speaker's existence is united with Narayana.",
+      "divine_element": "Narayana embodies dharma, Brahminical devotion, and endearing qualities."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker explains that while their physical body may not be with the mentioned phenomena and people, their spirit is with them, and all who can be with them gain nourishment from dharma, fame, wealth, and other desired things.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Speaker"
+      ],
+      "type": "Spiritual Presence/Explanation",
+      "explanation": "Spiritual presence transcends physical absence.",
+      "benefits": [
+        "Nourishment from dharma",
+        "Fame",
+        "Wealth",
+        "Other desired things"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text concludes by stating it is from the Shanti Parva, Chapter 11 of the Mahabharata.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Source Attribution",
+      "source": "Mahabharata, Shanti Parva, Chapter 11"
+    },
+    "_token_interval": null
+  }
+]

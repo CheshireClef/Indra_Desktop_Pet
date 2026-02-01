@@ -1,0 +1,197 @@
+[charaShake H 0.05 3 3 1.5]
+[wt 1.5]
+
+[cueSe Battle ba6]
+[charaEffect P bit_talk_atomization_gra]
+[charaEffect Q bit_talk_atomization_gra]
+[charaEffect R bit_talk_atomization_gra]
+[charaEffect G bit_talk_atomization_gra]
+[charaEffect H bit_talk_atomization_gra]
+[charaSpecialEffect P enemyErasure 1 1.5]
+[charaSpecialEffect Q enemyErasure 1 1.5]
+[charaSpecialEffect R enemyErasure 1 1.5]
+[charaSpecialEffect G enemyErasure 1 1.5]
+[charaSpecialEffect H enemyErasure 1 1.5]
+[wait charaSpecialEffect H]
+[seStop ad42 0.5]
+[wt 1.2]
+[effectStop bit_talk_thunder_08]
+[charaFadeout P 0]
+[charaFadeout Q 0]
+[charaFadeout R 0]
+[charaFadeout G 0]
+[charaFadeout H 0]
+
+[bgm BGM_BATTLE_117 1.0 0.5]
+
+[charaScale O 1.4]
+[charaTalk on]
+[charaTalk O]
+[charaFace O 7]
+[charaFadein O 0.7 0,-20]
+[subRenderFadein #B 0.7 0,0]
+[wt 0.7]
+[charaFadein L 0 1]
+
+＠O：インドラ
+（あちらの喰われた[#神:オレ]は……[r]　神の責から、逃げたのか。あるいは[line 3]）
+[k]
+
+[messageOff]
+[wt 1.0]
+
+＠O：インドラ
+（[line 3]託したのか？）
+[k]
+
+[messageOff]
+[bgm BGM_BATTLE_117 1.0 1.0]
+
+[charaTalk L,O]
+[charaFace L 7]
+[charaFadeout O 1.0]
+[subRenderFadeout #B 1.0]
+[subRenderFadeout #A 1.0]
+[wt 2.5]
+[charaFaceFade L 13 0.3]
+[wt 0.3]
+[charaFadeTime Y 0.2 0.5]
+[wt 0.2]
+
+＠インドラ
+（……フン。親馬鹿なことだ……）
+[k]
+
+[messageOff]
+[wipeout rectangleStripRightToLeft 0.7 1.0]
+[wait wipe]
+
+[cameraHome]
+
+[charaFadeout Y 0.1]
+[charaFadeout L 0.1]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[charaFadeout N 0.1]
+
+[subCameraFilter #B normal]
+
+[charaScale V 1.2]
+[charaScale M 1.2]
+
+[charaFadein M 0.1 20,-25]
+[charaFadein V 0.1 0,-270]
+
+
+[subCameraFilter #C maskEdge cut359_mask10 4 255,0,0,255 0]
+
+[charaScale A 1.2]
+[charaDepth A 3]
+
+[charaFadeinFSL A 0.1 0,250]
+[charaFadein W 0.1 300,100]
+
+[charaFadeout J 0.1]
+[charaFadeout K 0.1]
+
+[subCameraFilter #D maskEdge cut359_mask16 4 255,20,147,255 0]
+
+[charaScale D 1.2]
+[charaDepth D 4]
+
+[charaFadeinFSR D 0.1 -30,250]
+[charaFadein X 0.1 -200,200]
+
+
+[wt 1.0]
+[wipein rectangleStripLeftToRight 0.7 1.0]
+[wait wipe]
+
+？1：インドラ様も来てくれた……！
+？！
+
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠パールヴァティー
+いろいろ複雑なところはあるでしょうけれど……[r]さすが神々の王、ですね。
+[k]
+
+[charaFace E 1]
+
+＠パールヴァティー
+まあ、我が夫には少しだけ[#敵:かな]わないかもしれませんが。
+[k]
+
+[charaFadeout E 0.1]
+[wt 0.1]
+
+[charaScale I 1.0]
+[charaTalk I]
+[charaFace I 16]
+[charaFadein I 0.1 1]
+
+＠ドゥルガー
+（無[charaMoveReturn I 0,-5 0.5]言で頷いている）
+[k]
+
+
+[messageOff]
+[charaFadeout I 0.1]
+[wt 0.8]
+
+
+[charaTalk D]
+[charaFace D 1]
+[subRenderFadeinFSR #D 0.3 370,-280]
+[subRenderMoveFSR #D 350,-330 0.3]
+[wt 0.3]
+
+
+＠カルナ
+よし。他の場所にもはや憂いはない。[r]オレは目の前の敵を倒し続けるだけだ。
+[k]
+
+[messageOff]
+[charaTalk A]
+[charaFace A 6]
+[subRenderFadeinFSL #C 0.3 -370,-280]
+[subRenderMoveFSL #C -350,-330 0.3]
+[wt 0.3]
+
+＠アシュヴァッターマン
+アイツらに負けるわけにはいかねえなぁ！[r]もっともっとブチ切れていくぜ！
+[k]
+
+[messageOff]
+[charaScale M 1.2]
+[charaTalk M]
+[charaFace M 12]
+[subRenderFadein #B 0.3 0,30]
+[subRenderMove #B 0,0 0.3]
+[wt 0.3]
+
+＠ビーマ
+いいねぇ、ここばかりは[r]かつての敵も味方も関係なしだ！
+[k]
+
+＠ビーマ
+全力で大暴れして腹を減らすとしようぜ！
+[k]
+
+？1：よし[line 3]
+？2：片っ端から援護していく！
+？！
+
+[messageOff]
+[charaTalk off]
+[wt 0.5]
+[fadeout black 2.0]
+[bgmStop BGM_BATTLE_117 2.0]
+[wait fade]
+[wt 0.5]
+[soundStopAll]
+[end]

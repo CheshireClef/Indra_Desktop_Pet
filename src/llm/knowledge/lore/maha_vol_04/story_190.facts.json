@@ -1,0 +1,2085 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国询问全胜关于德罗纳之子（马嘶）、慈悯和博遮王（成铠）在营地的情况。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国",
+        "全胜",
+        "马嘶",
+        "慈悯",
+        "成铠"
+      ],
+      "type": "Inquiry",
+      "relationships": [
+        "持国询问全胜",
+        "马嘶是德罗纳之子",
+        "成铠是博遮王"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "全胜描述马嘶、慈悯和成铠在营地门口会合。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "马嘶",
+        "慈悯",
+        "成铠"
+      ],
+      "action": "会合",
+      "location": "营地门口"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "马嘶鼓励慈悯和成铠消灭入睡的残兵，声称自己将像死神一样行动。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "马嘶",
+        "慈悯",
+        "成铠"
+      ],
+      "speaker": "马嘶",
+      "intent": "鼓励战斗",
+      "supernatural_elements": "自比死神"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "马嘶从无门处进入普利塔之子们（般度族人）的大营地。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "马嘶"
+      ],
+      "action": "潜入营地",
+      "location": "般度族营地"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "马嘶进入猛光的住处，发现猛光在床上睡觉。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "马嘶",
+        "猛光"
+      ],
+      "action": "发现目标",
+      "location": "猛光的住处"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "马嘶用脚踢醒猛光，猛光认出马嘶。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "马嘶",
+        "猛光"
+      ],
+      "action": "冲突开始",
+      "relationships": [
+        "敌对"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "马嘶揪住猛光的发髻将他摔倒在地，并猛踹他的脖子和胸脯。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "马嘶",
+        "猛光"
+      ],
+      "action": "暴力攻击",
+      "description": "像宰杀牲畜"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "猛光请求马嘶用武器杀死他，以进入善人的世界。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "猛光",
+        "马嘶"
+      ],
+      "speaker": "猛光",
+      "request": "求死",
+      "reason": "希望进入善人世界"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "马嘶拒绝用武器杀死猛光，称杀害老师的人没有世界可去。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "马嘶",
+        "猛光"
+      ],
+      "speaker": "马嘶",
+      "accusation": "猛光杀害老师（德罗纳）",
+      "reason": "不配武器杀死"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "马嘶用脚跟猛踹猛光的致命部位，杀死猛光。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "马嘶",
+        "猛光"
+      ],
+      "action": "致命攻击",
+      "description": "像雄狮杀死疯象",
+      "outcome": "猛光死亡"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "猛光的女人和卫兵们醒来，但被马嘶的勇敢吓住，不敢吱声。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "马嘶",
+        "猛光的女人",
+        "猛光的卫兵"
+      ],
+      "reaction": "恐惧",
+      "description": "以为是怪物"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "马嘶杀死猛光后，离开营地登上战车。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "马嘶"
+      ],
+      "action": "离开",
+      "outcome": "任务完成"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama emerged from Shikhandin's residence, roared, entered the camp in his chariot, and intended to kill enemies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama"
+      ],
+      "action": "Emergence and entry into camp",
+      "intent": "Kill enemies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After Ashwatthama left, all the women and guards cried out.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Women",
+        "Guards"
+      ],
+      "action": "Crying out in distress"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing the king killed, Shikhandin's Kshatriya women wailed in grief.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Kshatriya women"
+      ],
+      "action": "Wailing",
+      "reason": "King's death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nearby Kshatriya bulls heard the cries, donned armor, and inquired about the situation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kshatriya bulls"
+      ],
+      "action": "Inquiry and preparation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The women, fearful and choked, urged them to chase Ashwatthama, unsure if he was a Rakshasa or human, after he killed the Panchala king and boarded a chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Women",
+        "Ashwatthama",
+        "Panchala king"
+      ],
+      "action": "Urging pursuit",
+      "ambiguity": "Ashwatthama's nature"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Excellent warriors surrounded Ashwatthama, who used the Rudra weapon to strike down and kill them all.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Excellent warriors"
+      ],
+      "action": "Battle with Rudra weapon",
+      "supernatural": "Rudra weapon"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After killing Shikhandin and his followers, Ashwatthama saw Uttamaujas sleeping nearby and kicked his neck and chest, killing him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Shikhandin",
+        "Uttamaujas"
+      ],
+      "action": "Killing by kicking"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhamanyu arrived, thinking Uttamaujas was killed by a Rakshasa, struck Ashwatthama's heart with an iron club, but Ashwatthama rushed forward, threw him down, and killed him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Yudhamanyu",
+        "Uttamaujas"
+      ],
+      "action": "Counterattack and killing",
+      "misconception": "Rakshasa involvement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After killing Yudhamanyu, Ashwatthama ran around killing other sleeping great warriors like sacrificial animals.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Great warriors"
+      ],
+      "action": "Mass killing of sleepers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama, skilled in swordsmanship, killed many more along each camp road with his sword.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama"
+      ],
+      "action": "Sword-based killing spree"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "He searched barracks, instantly killing all soldiers who had laid down weapons and were resting.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Soldiers"
+      ],
+      "action": "Barrack massacre"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama slaughtered soldiers, horses, and elephants with his sharp sword, covered in blood like Death sent by Time.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama"
+      ],
+      "action": "Large-scale slaughter",
+      "imagery": "Death personified"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "He struck each struggling soldier three times with his raised sword, covered in blood.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama"
+      ],
+      "action": "Repeated strikes"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama, with burning sword, engaged in battle, covered in blood, appearing terrifying and non-human.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama"
+      ],
+      "appearance": "Terrifying and supernatural"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Soldiers awoke to the noise, looked at each other, and upon seeing Ashwatthama, became frightened.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Soldiers"
+      ],
+      "reaction": "Fear and confusion"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Enemy-tormenting Kshatriyas saw his form, thought he was a Rakshasa, and closed their eyes in fear.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Kshatriyas"
+      ],
+      "misconception": "Rakshasa identity",
+      "reaction": "Fear-induced blindness"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama, terrifying like Death, wandered the camp and saw Draupadi's sons and the remaining Somaka troops.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Draupadi's sons",
+        "Somaka troops"
+      ],
+      "action": "Observation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi's sons, hearing the noise and learning of Shikhandin's death, fearlessly shot arrow streams at Ashwatthama.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Draupadi's sons",
+        "Shikhandin"
+      ],
+      "action": "Arrow attack",
+      "motivation": "Revenge for Shikhandin"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Prabhadrakas awoke to the noise and, with Shikhandin, shot sharp arrows at Ashwatthama.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Prabhadrakas",
+        "Shikhandin"
+      ],
+      "action": "Coordinated arrow attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama, seeing the arrow showers, roared with intent to kill these invincible warriors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 20,
+    "group_index": 19,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Invincible warriors"
+      ],
+      "action": "Roaring with intent"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Remembering his father's death, Ashwatthama became extremely angry, jumped from his chariot seat, and rushed forward quickly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 21,
+    "group_index": 20,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama"
+      ],
+      "action": "Charge",
+      "motivation": "Revenge for Drona's death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama, holding a broad thousand-moon shield and a broad gold-inlaid divine sword, charged at Draupadi's sons in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 22,
+    "group_index": 21,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Draupadi's sons"
+      ],
+      "action": "Charge with weapons",
+      "supernatural": "Divine sword"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama struck Shikhandin in the abdomen during battle, causing Shikhandin to fall and die.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Shikhandin"
+      ],
+      "action": "Killing in battle",
+      "relationship": "Enemies in war"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki struck Ashvatthama with a spear and charged at him with a sword.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Ashvatthama"
+      ],
+      "action": "Attack in battle",
+      "relationship": "Enemies in war"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama cut off Satyaki's arm along with the sword and struck his side, causing Satyaki to die from a broken heart.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Satyaki"
+      ],
+      "action": "Killing in battle",
+      "relationship": "Enemies in war"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shatanika lifted a chariot wheel and attacked Ashvatthama's chest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shatanika",
+        "Ashvatthama"
+      ],
+      "action": "Attack in battle",
+      "relationship": "Enemies in war"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama struck Shatanika, who fell in confusion, and then cut off his head.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Shatanika"
+      ],
+      "action": "Killing in battle",
+      "relationship": "Enemies in war"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttamaujas rushed at Ashvatthama with an iron club and struck his left shoulder.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttamaujas",
+        "Ashvatthama"
+      ],
+      "action": "Attack in battle",
+      "relationship": "Enemies in war"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama's arrow struck Uttamaujas in the face, causing him to lose consciousness and die.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Uttamaujas"
+      ],
+      "action": "Killing in battle",
+      "relationship": "Enemies in war"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttara, a great archer, confronted Ashvatthama and showered him with arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttara",
+        "Ashvatthama"
+      ],
+      "action": "Attack in battle",
+      "relationship": "Enemies in war"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama blocked the arrows with his shield and cut off Uttara's head along with his earrings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Uttara"
+      ],
+      "action": "Killing in battle",
+      "relationship": "Enemies in war"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandin and all the Prabhadrakas attacked Ashvatthama from all sides with various weapons, and an arrow struck his forehead.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Prabhadrakas",
+        "Ashvatthama"
+      ],
+      "action": "Group attack in battle",
+      "relationship": "Enemies in war"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama, filled with anger, confronted Shikhandin and cut him in two with his sword.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Shikhandin"
+      ],
+      "action": "Killing in battle",
+      "relationship": "Enemies in war"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After killing Shikhandin, Ashvatthama quickly charged at all the Prabhadrakas and the remnants of King Virata's forces.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Prabhadrakas",
+        "Virata's forces"
+      ],
+      "action": "Mass attack in battle",
+      "relationship": "Enemies in war"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama gave terrible blows to the sons, grandsons, and friends of King Drupada whenever he saw them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Drupada's family and allies"
+      ],
+      "action": "Targeted killing in battle",
+      "relationship": "Enemies in war"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama, skilled in swordsmanship, chased others and cut them down with his sword repeatedly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Pandava army soldiers"
+      ],
+      "action": "Mass killing in battle",
+      "relationship": "Enemies in war"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The warriors saw the dark goddess of death, Kali, smiling and dragging away dead men, horses, and elephants with her noose.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kali (goddess of death)",
+        "Warriors"
+      ],
+      "action": "Supernatural vision",
+      "supernatural_element": "Goddess of death appears during battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The excellent warriors often saw Kali dragging away sleeping people in their night dreams, and Ashvatthama killed sleeping people.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kali (goddess of death)",
+        "Warriors",
+        "Ashvatthama"
+      ],
+      "action": "Dream vision and real killing",
+      "supernatural_element": "Dreams foretelling death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Since the war between the Kaurava and Pandava armies began, they often dreamed of Kali and Ashvatthama.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kali (goddess of death)",
+        "Ashvatthama",
+        "Kaurava and Pandava warriors"
+      ],
+      "action": "Recurring dreams",
+      "supernatural_element": "Dreams as omens of death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama killed these heroes struck by fate, letting out terrible roars that frightened all beings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Pandava army heroes"
+      ],
+      "action": "Killing in battle with terrifying roars",
+      "relationship": "Enemies in war"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The heroes struck by fate remembered the dream visions and believed what was happening now was just like that.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava army heroes"
+      ],
+      "action": "Realization of fate",
+      "supernatural_element": "Dreams coming true"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Hundreds and thousands of Pandava archers woke up in the camp amidst the noise.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 20,
+    "group_index": 19,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava archers"
+      ],
+      "action": "Awakening to battle chaos",
+      "relationship": "Soldiers in war"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama, like Death dispatched by Time, cut off someone's legs, sliced off someone's hips, and pierced someone's sides.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 21,
+    "group_index": 20,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Pandava soldiers"
+      ],
+      "action": "Mass killing and maiming in battle",
+      "relationship": "Enemies in war"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The earth was filled with severely wounded people crying out in pain under the trampling of elephants and horses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 22,
+    "group_index": 21,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Wounded Pandava soldiers"
+      ],
+      "action": "Suffering and chaos in battle",
+      "relationship": "Casualties of war"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The wounded cried out questions in confusion, and Ashvatthama became their Death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 23,
+    "group_index": 22,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Wounded Pandava soldiers",
+        "Ashvatthama"
+      ],
+      "action": "Chaos and realization of death",
+      "relationship": "Victims and killer in war"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama attacked the sleeping Pandava and Srijaya camps at night.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama"
+      ],
+      "action": "Night attack",
+      "targets": [
+        "Pandavas",
+        "Srijayas"
+      ],
+      "state_of_targets": "Unarmed, unarmored, asleep, panicked"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama used his weapons to kill many warriors, sending them to Yama's abode.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama"
+      ],
+      "action": "Mass killing with bow and arrows",
+      "supernatural_elements": "Reference to Yama (god of death)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama rode his chariot through the camp, wielding sword and shield, causing chaos.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama"
+      ],
+      "action": "Chaotic assault",
+      "weapons": [
+        "Chariot",
+        "bow",
+        "arrows",
+        "sword",
+        "shield"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Panic and confusion spread through the camp; warriors woke disoriented, could not find weapons, and ran blindly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava warriors",
+        "Srijaya warriors"
+      ],
+      "action": "Panic and disarray",
+      "details": "Warriors screamed, lost control, could not recognize each other, some lost bodily functions"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Horses and elephants broke free, trampling people and adding to the chaos.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Animal stampede",
+      "consequences": "Increased casualties and darkness from dust"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rakshasas (demons) appeared, filled with joy, and their loud cries frightened the animals further.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rakshasas"
+      ],
+      "action": "Supernatural intervention",
+      "effect": "Increased terror and stampede"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In the darkness and confusion, people killed each other, unable to recognize family or friends.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Camp inhabitants"
+      ],
+      "action": "Fratricide and chaos",
+      "supernatural_elements": "Mention of being incited by Death (Yama)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Guards abandoned posts, soldiers fled the camp in all directions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Camp guards",
+        "soldiers"
+      ],
+      "action": "Desertion and flight"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama continued to identify and kill warriors amidst the chaos.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama"
+      ],
+      "action": "Targeted killing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kritavarma and Kripa waited at the camp gates, killing those who tried to flee.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kritavarma",
+        "Kripa"
+      ],
+      "action": "Blocking escape and killing",
+      "targets": [
+        "Fleeing warriors"
+      ],
+      "state_of_targets": "Unarmed, terrified, begging for mercy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama and Kripacharya prevent anyone from escaping the camp.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Kripacharya"
+      ],
+      "action": "Blocking escape",
+      "relationship": "Allies in the night raid"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama and Kripacharya set three fires in the camp to please Ashvatthama.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Kripacharya"
+      ],
+      "action": "Arson",
+      "motive": "To please Ashvatthama"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama, skilled in weapons, roams the bright camp with sharp arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama"
+      ],
+      "action": "Patrolling/attacking",
+      "supernatural_elements": "Night raid described with intense violence"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama wields sword and spear against warriors who charge or flee.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Pandava warriors"
+      ],
+      "action": "Combat",
+      "type": "Massacre"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama angrily cuts warriors in half with his sword.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama"
+      ],
+      "action": "Killing",
+      "description": "Violent slaughter"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The ground is covered with fallen men, horses, and elephants, groaning in agony.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava army"
+      ],
+      "action": "Mass casualties",
+      "setting": "Battlefield aftermath"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama cuts off arms, legs, heads, and other body parts of warriors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama"
+      ],
+      "action": "Dismemberment",
+      "brutality_level": "Extreme"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama intercepts fleeing people, crushing their backs, heads, and sides.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama"
+      ],
+      "action": "Preventing escape",
+      "tactics": "Brutal interception"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama kills many people, making the night terrifying.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama"
+      ],
+      "action": "Mass killing",
+      "atmosphere": "Terror-filled night"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The ground is covered with thousands of dead and dying, creating a horrifying scene.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava army"
+      ],
+      "state": "Mass death",
+      "supernatural_elements": "Presence of yakshas and rakshasas mentioned"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dying warriors call out for their mothers, fathers, or brothers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava warriors"
+      ],
+      "action": "Lamenting",
+      "emotional_state": "Despair"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Warriors claim that the sons of Dhritarashtra couldn't do this in battle, blaming rakshasas for killing sleeping people.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava warriors"
+      ],
+      "belief": "Supernatural attackers",
+      "contrast": "Compared to Dhritarashtra's sons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Warriors state that Arjuna, protected by Krishna, couldn't be defeated by gods, asuras, or other beings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna"
+      ],
+      "relationship": "Protected/protector",
+      "divine_protection": "Krishna's protection makes Arjuna invincible"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Warriors describe Arjuna as truthful, self-controlled, and merciful, who wouldn't kill sleeping, unarmed, surrendering, fleeing, or disheveled people.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "character_traits": [
+        "Truthful",
+        "Self-controlled",
+        "Merciful"
+      ],
+      "warrior_code": "Ethical combat principles"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Many people are comforted by these words and lie down to die.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava warriors"
+      ],
+      "action": "Accepting death",
+      "psychological_state": "Resigned to fate"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After a while, groaning and crying stop, and the great noise subsides.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava army"
+      ],
+      "state": "Silence after massacre",
+      "atmosphere": "Eerie calm"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The earth is soaked with blood, and the muddy dust disappears instantly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "setting": "Battlefield",
+      "description": "Blood-soaked ground",
+      "supernatural_elements": "Rapid environmental change"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama kills thousands of terrified, lifeless people, like the angry Rudra killing animals.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama"
+      ],
+      "action": "Mass slaughter",
+      "divine_comparison": "Compared to Rudra (Shiva)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama kills all people whether they embrace each other, flee, hide, or resist.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama"
+      ],
+      "action": "Comprehensive killing",
+      "thoroughness": "No survivors among targeted groups"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Warriors are either burned by fire or killed by Ashvatthama, sending each other to Yama's abode.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 20,
+    "group_index": 19,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava warriors",
+        "Ashvatthama"
+      ],
+      "causes_of_death": [
+        "Fire",
+        "Violence"
+      ],
+      "afterlife": "Sent to Yama's realm"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After half the night, Ashvatthama sends the entire Pandava army to Yama's abode.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 21,
+    "group_index": 20,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Pandava army"
+      ],
+      "outcome": "Complete destruction of Pandava camp",
+      "timeframe": "Half a night"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The terrifying night destroys men, elephants, and horses, bringing joy to night-roaming creatures.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 22,
+    "group_index": 21,
+    "description": null,
+    "attributes": {
+      "setting": "Night",
+      "destruction": "Complete carnage",
+      "supernatural_elements": "Night creatures rejoice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Various rakshasas and pisachas devour human flesh and drink blood during a massacre.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rakshasas",
+        "Pisachas"
+      ],
+      "action": "Massacre and consumption of humans",
+      "supernatural_elements": "Supernatural beings (rakshasas, pisachas)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama (son of Drona) leaves the camp at dawn, covered in blood, having slaughtered everyone in their sleep.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama"
+      ],
+      "action": "Nocturnal massacre of sleeping warriors",
+      "relationships": "Son of Drona, fulfills his vow"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama meets two companions who also killed thousands of Panchalas and Srinjayas at the gate.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Two unnamed companions (likely Kripa and Kritavarma)"
+      ],
+      "action": "Reunion and sharing of successful killings",
+      "relationships": "Allies in the night massacre"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra questions why Ashwatthama did not achieve such a feat earlier to help his sons (the Kauravas) win.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Ashwatthama"
+      ],
+      "action": "Questioning of timing and loyalty",
+      "relationships": "Dhritarashtra is father of the Kauravas; Ashwatthama was an ally"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya explains that Ashwatthama was previously afraid and only acted when key warriors (sons of Pritha, Krishna, Satyaki) were absent.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Ashwatthama",
+        "Sons of Pritha (Pandavas)",
+        "Krishna",
+        "Satyaki"
+      ],
+      "action": "Explanation of strategic timing",
+      "relationships": "Sanjaya is narrator; Ashwatthama avoided confrontation with powerful enemies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama embraces his companions, celebrates victory, and declares he has killed all Panchalas, Draupadi's sons, Somakas, and remaining Matsyas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Two unnamed companions",
+        "Panchalas",
+        "Draupadi's sons",
+        "Somakas",
+        "Matsyas"
+      ],
+      "action": "Declaration of completed massacre",
+      "relationships": "Ashwatthama as leader of the attack; victims are allies of the Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The warriors (Ashvatthaman, Kripa, and Kritavarman) killed all the Panchalas and Draupadi's sons, then proceeded to the injured Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthaman",
+        "Kripa",
+        "Kritavarman",
+        "Panchalas",
+        "Draupadi's sons",
+        "Duryodhana"
+      ],
+      "action": "Massacre and movement to battlefield",
+      "relationships": "Ashvatthaman, Kripa, and Kritavarman are the three remaining Kaurava warriors; Duryodhana is their king and leader"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "They found Duryodhana barely alive, lying on the ground with a broken thigh, bleeding, surrounded by predatory animals waiting to devour him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Ashvatthaman",
+        "Kripa",
+        "Kritavarman"
+      ],
+      "action": "Discovery of dying king",
+      "supernatural_elements": "Ominous presence of predatory animals",
+      "relationships": "Duryodhana is the Kuru king whom the three warriors serve"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The three blood-stained warriors surrounded Duryodhana, weeping and wiping blood from his face, mourning their fallen king.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthaman",
+        "Kripa",
+        "Kritavarman",
+        "Duryodhana"
+      ],
+      "action": "Mourning and care for dying king",
+      "emotional_state": "Grief, sorrow",
+      "relationships": "Warriors' loyalty and devotion to their king"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kripa lamented Duryodhana's fate, noting how the mighty king who once commanded eleven armies now lay dying, with his golden mace fallen beside him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripa",
+        "Duryodhana"
+      ],
+      "action": "Lamentation over fallen king",
+      "symbolism": "Golden mace represents Duryodhana's power and identity",
+      "theme": "The power of fate/time over human achievements"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthaman mourned Duryodhana, questioning how Bhima could have defeated the superior warrior, attributing it to the overwhelming power of time.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthaman",
+        "Duryodhana",
+        "Bhima"
+      ],
+      "action": "Lamentation and philosophical reflection",
+      "conflict": "Bhima's defeat of Duryodhana through trickery",
+      "theme": "Time/fate as supreme power, injustice in Duryodhana's defeat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima illegally killed Duryodhana by breaking his thigh with a mace in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Duryodhana"
+      ],
+      "action": "Illegal killing in battle",
+      "relationship": "Enemies (Pandava vs Kaurava)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima further dishonored Duryodhana by trampling his head after his death, with Yudhishthira's tacit approval.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Duryodhana",
+        "Yudhishthira"
+      ],
+      "action": "Dishonoring the dead",
+      "relationship": "Pandava brothers against Kaurava prince"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama laments Duryodhana's death and praises his achievements, including his skill in mace fighting praised by Balarama.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Duryodhana",
+        "Balarama"
+      ],
+      "action": "Praise and lamentation",
+      "relationship": "Ashwatthama as loyal friend to Duryodhana, Balarama as Duryodhana's teacher"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama expresses sorrow not for Duryodhana (who achieved warrior's heaven) but for Gandhari and Dhritarashtra who will suffer from losing their son.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Duryodhana",
+        "Gandhari",
+        "Dhritarashtra"
+      ],
+      "action": "Expression of grief",
+      "relationship": "Parents mourning son's death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama condemns Krishna and Arjuna for allowing Duryodhana's illegal killing despite claiming to uphold dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Krishna",
+        "Arjuna",
+        "Duryodhana"
+      ],
+      "action": "Accusation of hypocrisy",
+      "relationship": "Ashwatthama defending Duryodhana against Pandava allies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama expresses shame that he, Kripa, and Kritavarma didn't follow Duryodhana to heaven, acknowledging their dependence on his patronage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Kripa",
+        "Kritavarma",
+        "Duryodhana"
+      ],
+      "action": "Expression of loyalty and regret",
+      "relationship": "Warriors indebted to Duryodhana's generosity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama asks Duryodhana to convey messages to fallen warriors in heaven, including Drona, Bhurishrava, Jayadratha, Shalya, and others.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Duryodhana",
+        "Drona",
+        "Bhurishrava",
+        "Jayadratha",
+        "Shalya"
+      ],
+      "action": "Final messages to the dead",
+      "relationship": "Ashwatthama as Drona's son, Duryodhana as messenger to fallen allies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama reveals that only seven Pandavas and three Kauravas (himself, Kripa, and Kritavarma) remain alive after the war.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Pandavas",
+        "Kripa",
+        "Kritavarma"
+      ],
+      "action": "Revelation of survivors",
+      "relationship": "Remaining warriors after Kurukshetra war"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthaman, Kripa, and Kritavarman (the three survivors) report to Duryodhana about their night raid on the Pandava camp.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthaman",
+        "Kripa",
+        "Kritavarman",
+        "Duryodhana"
+      ],
+      "action": "Reporting the night raid",
+      "relationships": "Ashvatthaman, Kripa, and Kritavarman are allies of Duryodhana; they report their actions to him."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthaman describes killing Dhrishtadyumna (the Pandava army commander) and others in the camp while they slept.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthaman",
+        "Dhrishtadyumna"
+      ],
+      "action": "Killing in the night raid",
+      "relationships": "Ashvatthaman kills Dhrishtadyumna, avenging his father Drona's death."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana expresses satisfaction, stating that Ashvatthaman, Kripa, and Kritavarman achieved what Bhishma, Karna, and Drona could not.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Ashvatthaman",
+        "Kripa",
+        "Kritavarman",
+        "Bhishma",
+        "Karna",
+        "Drona"
+      ],
+      "action": "Praise and acknowledgment",
+      "relationships": "Duryodhana acknowledges the trio's success over his other key warriors."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana dies after speaking these words, ascending to heaven, causing grief among his friends.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Death and ascension to heaven",
+      "relationships": "Duryodhana's death marks the end of the Kurukshetra War's main conflict."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya reports Duryodhana's death to Dhritarashtra, losing his divine sight granted by Vyasa due to grief.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Dhritarashtra",
+        "Vyasa"
+      ],
+      "action": "Reporting and loss of divine ability",
+      "relationships": "Sanjaya, as Dhritarashtra's charioteer and advisor, informs him of his son's death."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra hears of his son's death and falls into deep sorrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra"
+      ],
+      "action": "Grieving",
+      "relationships": "Dhritarashtra mourns the loss of his son Duryodhana."
+    },
+    "_token_interval": null
+  }
+]

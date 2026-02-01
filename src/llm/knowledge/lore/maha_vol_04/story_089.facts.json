@@ -1,0 +1,2001 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandava army was routed and dispersed on the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava Army"
+      ],
+      "type": "Military Defeat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna, son of Kunti, decided to kill Ashvatthaman and rallied his army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Rallying Troops",
+      "goal": "Kill Ashvatthaman"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna and Arjuna worked together to reform the Pandava army on the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna",
+        "Pandava Army"
+      ],
+      "type": "Military Reorganization",
+      "relationship": "Allies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna led the Somakas and Matsyas to resist the Kaurava forces.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Somakas",
+        "Matsyas",
+        "Kaurava Army"
+      ],
+      "type": "Military Engagement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna confronted Ashvatthaman, son of Drona, and challenged him to a duel.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Ashvatthaman"
+      ],
+      "type": "Confrontation",
+      "dialogue": "Arjuna taunts Ashvatthaman, referencing Drona's death at the hands of Dhrishtadyumna and challenges him to fight."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra expressed surprise at Arjuna's harsh words, noting their past friendship and mutual respect.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Arjuna",
+        "Ashvatthaman"
+      ],
+      "type": "Narration",
+      "relationship": "Former friends now enemies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya explained that Arjuna's anger stemmed from recent defeats, the killing of allies, and taunts from Yudhishthira, causing him to speak harshly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Arjuna",
+        "Yudhishthira",
+        "Dhrishtadyumna",
+        "Satyaki",
+        "Bhima"
+      ],
+      "action": "Explanation of Motivation",
+      "reason": "Anger from losses and provocation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthaman became enraged upon hearing Arjuna's words, especially angry at Krishna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthaman",
+        "Arjuna",
+        "Krishna"
+      ],
+      "type": "Emotional Reaction",
+      "emotion": "Rage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthaman invoked the Agneyastra (fire weapon), a divine weapon difficult for even gods to withstand.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthaman"
+      ],
+      "action": "Divine Weapon Invocation",
+      "weapon": "Agneyastra (Fire Weapon)",
+      "supernatural_element": "Divine weapon from the gods"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthaman fired enchanted arrows that burned like smokeless fire in all directions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthaman"
+      ],
+      "action": "Attack",
+      "weapon": "Enchanted Arrows",
+      "supernatural_element": "Magical fire arrows"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Agneyastra caused catastrophic environmental effects: arrow rain, cold winds, dimmed sun, blood rain, thunder, terrified animals, chaotic elements, and burning waters.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthaman"
+      ],
+      "type": "Supernatural Cataclysm",
+      "effects": [
+        "Arrow rain",
+        "Cold winds",
+        "Dimmed sun",
+        "Blood rain",
+        "Thunder",
+        "Terrified animals",
+        "Chaotic elements",
+        "Burning waters"
+      ],
+      "supernatural_element": "Divine weapon causing widespread destruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama unleashed his divine weapon, causing a rain of arrows and fiery destruction on the Pandava army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama"
+      ],
+      "action": "Divine weapon attack",
+      "target": "Pandava army",
+      "supernatural_elements": "Weapon creates darkness, fire, and destruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna countered Ashwatthama's weapon with his own Brahma weapon, dispelling the darkness and protecting the Pandava army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Counter divine weapon",
+      "target": "Ashwatthama's weapon",
+      "supernatural_elements": "Brahma weapon created by Vishnu, dispels darkness and nullifies damage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna and Arjuna emerged unharmed from the darkness, causing fear in the Kaurava army and joy in the Pandava army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna"
+      ],
+      "action": "Reappearance after battle",
+      "relationships": "Krishna is Arjuna's charioteer and guide",
+      "effect": "Morale shift in both armies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama, confused and distressed by the failure of his weapon, abandoned his bow and fled the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama"
+      ],
+      "action": "Fleeing battle",
+      "emotional_state": "Confused, distressed, defeated"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama encountered the sage Vyasa and questioned him about the events, seeking understanding of what happened.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Vyasa"
+      ],
+      "action": "Seeking explanation",
+      "relationships": "Vyasa is a sage and compiler of Vedas, Ashwatthama approaches him as a student to a teacher",
+      "dialogue": "Ashwatthama questions whether what happened was illusion or accident"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "An unnamed speaker questions why their divine weapon (法宝) is ineffective against the two dark princes (黑王子), specifically against Krishna (盖娑婆/黑天) and Arjuna (阿周那).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unnamed Speaker",
+        "Krishna",
+        "Arjuna"
+      ],
+      "action": "Questioning the failure of a divine weapon",
+      "supernatural_elements": "Ineffective divine weapon"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa (毗耶娑) responds, explaining the significance of the question and begins to narrate the origin of Narayana (那罗延).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Unnamed Speaker"
+      ],
+      "action": "Explanation and narration",
+      "relationships": "Vyasa is the narrator/wise sage answering the question."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Narayana (identified as older than the oldest) was born as a son of Dharma (正法) for a mission by the Creator (创世主).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narayana"
+      ],
+      "action": "Divine birth for a mission",
+      "supernatural_elements": "Divine origin, mission from the Creator"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Narayana performed severe austerities (苦行) on Mount Mainaka (美那迦山) for 66,000 years, followed by another period twice as long, filling heaven and earth with his power.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narayana"
+      ],
+      "action": "Performing austerities",
+      "supernatural_elements": "Long-term austerities generating immense power"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Through the power of his austerities, Narayana became one with Brahman (梵) and beheld the Lord of the Universe (宇宙之神), who is difficult even for gods to see.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narayana",
+        "Lord of the Universe (identified as Shiva/Rudra)"
+      ],
+      "action": "Vision of the supreme deity",
+      "supernatural_elements": "Union with Brahman, vision of the cosmic lord",
+      "relationships": "Narayana attains a vision of the supreme deity through penance."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A detailed description of the Lord of the Universe (identified as Rudra, Ishana, etc.) is given, highlighting his attributes, weapons, and supreme nature.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Lord of the Universe (Shiva/Rudra)"
+      ],
+      "action": "Description of the deity",
+      "supernatural_elements": "Divine form, attributes, and weapons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Narayana, with lotus eyes, bows to and praises this Lord (the destroyer of Andhaka), who is the creator of all worlds and gods.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narayana",
+        "Lord of the Universe (Shiva/Rudra)"
+      ],
+      "action": "Homage and praise",
+      "relationships": "Narayana shows reverence to the supreme lord, acknowledging him as the source of all creation."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker praises and worships the deity, acknowledging their role as creator of all beings and elements in the universe.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Speaker",
+        "Deity (addressed as 'you')"
+      ],
+      "action": "Praise and worship",
+      "relationships": "Devotee and deity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The deity (identified as Shiva, also called Nilakantha or 'Blue-throated One') grants the speaker a boon, making them invincible against various beings and elements.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shiva (Nilakantha)",
+        "Speaker (addressed as Narayana)"
+      ],
+      "action": "Granting boon",
+      "supernatural_elements": "Divine boon granting invincibility"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa narrates that Narayana received these boons in the past and then wandered the world using his powers of illusion.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Narayana"
+      ],
+      "action": "Narration of past events",
+      "supernatural_elements": "Use of illusion (maya)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "From Narayana's ascetic practices was born a great sage named Nara, who is identified as Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narayana",
+        "Nara (Arjuna)"
+      ],
+      "action": "Birth from asceticism",
+      "relationships": "Nara is born from Narayana's tapas",
+      "supernatural_elements": "Divine birth"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nara and Narayana are described as two ancient, accomplished sages who incarnate in every age to sustain worldly life.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nara (Arjuna)",
+        "Narayana"
+      ],
+      "description": "They are ancient sages who incarnate repeatedly",
+      "relationships": "Paired sages/incarnations"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker (addressed as a wise one) is identified as an incarnation of Rudra (Shiva), possessing power and anger from sacrifices and asceticism.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Speaker",
+        "Rudra (Shiva)"
+      ],
+      "action": "Identification",
+      "relationships": "Speaker is an incarnation of Rudra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker, knowing the world was created by Bhava (Shiva), seeks to please this great deity through self-restraint, self-mortification, and worship with offerings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Speaker",
+        "Bhava (Shiva)"
+      ],
+      "action": "Ascetic practices and worship",
+      "relationships": "Devotee and deity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The ancient deity (Shiva), pleased by the worship, grants the speaker many desired boons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shiva",
+        "Speaker"
+      ],
+      "action": "Granting boons in response to worship",
+      "supernatural_elements": "Divine boon granting"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona was killed by Drupada's grandson (Dhrishtadyumna) in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Dhrishtadyumna"
+      ],
+      "action": "Killing in battle",
+      "consequences": "Kaurava army becomes dispirited and scatters"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona fought for five days, killed many soldiers, and then went to the Brahma world after death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "duration": "Five days",
+      "outcome": "Achieved Brahmaloka after death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After Drona's death, both Pandavas and Kauravas withdrew their armies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Kauravas"
+      ],
+      "action": "Withdrawal of armies",
+      "context": "Post-Drona's death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama (Drona's son) heard Vyasa's words, honored Rudra, and considered Krishna worthy of worship.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Vyasa",
+        "Rudra (Shiva)",
+        "Krishna"
+      ],
+      "action": "Spiritual realization and reverence",
+      "relationships": "Ashwatthama as Drona's son; Vyasa as sage; Rudra as Shiva; Krishna as divine figure"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna observed a miraculous phenomenon during battle: a flame-like being wielding a trident who destroyed enemies ahead of him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "supernatural_element": "Divine intervention",
+      "description": "Flame-like being with trident destroying enemies, not touching ground, releasing thousands of tridents"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna asked Vyasa about the identity of this being.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Vyasa"
+      ],
+      "action": "Inquiry about divine vision",
+      "context": "Seeking explanation for supernatural helper"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa revealed the being as Ishvara (Shiva), the primordial creator, source of all beings, and world ruler.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Shiva"
+      ],
+      "revelation": "Divine identity",
+      "attributes": "First among progenitors, lord of worlds, three-eyed, trident-wielder, benevolent to devotees"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa advised Arjuna to seek refuge in this great god (Shiva).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Arjuna",
+        "Shiva"
+      ],
+      "action": "Spiritual guidance",
+      "relationship": "Vyasa as spiritual guide to Arjuna; Shiva as protector"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text describes Lord Shiva's divine attributes, forms, and powers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shiva"
+      ],
+      "type": "Divine Description",
+      "supernatural_elements": [
+        "Multiple forms (thousand heads, eyes, arms, feet)",
+        "Various names (Mahadeva, Rudra, Shankara, Sharva)",
+        "Ability to cause enemies to faint and die in battle",
+        "Worshiped by gods and seekers of heaven"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shiva is described as walking ahead in battle out of grace.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shiva"
+      ],
+      "action": "Divine protection in battle",
+      "beneficiary": "Arjuna (referred to as 'Son of Pritha'/'Son of Kunti')"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text questions who could resist an army protected by great warriors like Drona, Karna, and Kripa.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Karna",
+        "Kripa"
+      ],
+      "context": "Military strength",
+      "relationship": "Protectors of the army"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker urges Arjuna to seek Shiva's shelter and always honor him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Shiva"
+      ],
+      "action": "Exhortation to worship",
+      "relationship": "Divine protector and devotee"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text describes the attributes and epithets of the god Shiva, including being a friend of Kubera, a strict vow-keeper, an excellent archer, and having many forms.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shiva"
+      ],
+      "type": "Description/Introduction",
+      "relationships": [
+        "Friend of Kubera"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shiva becomes angry, causing unrest among gods (Devas), demons (Asuras), Gandharvas, and Rakshasas, even if they hide in caves.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shiva"
+      ],
+      "action": "Anger causing universal unrest",
+      "supernatural_elements": "Divine power affecting all beings"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In his anger, Shiva (as Bhava) roars, draws his bow, shoots arrows, and disrupts a sacrifice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shiva"
+      ],
+      "action": "Disrupting a sacrifice",
+      "type": "Divine intervention"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shiva (as Maheshvara) angrily chases the sacrifice, which flees; gods seek shelter but find no peace.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shiva"
+      ],
+      "action": "Chasing the sacrifice",
+      "effect": "Gods become fearful and restless"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The world fills with the sound of bowstrings and clapping; rivers churn, earth shakes, mountains split, directions become confused, and darkness envelops everything, including the sun.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shiva"
+      ],
+      "action": "Causing cosmic disturbances",
+      "supernatural_elements": "Worldwide cataclysmic events"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sages, filled with fear, cry out and pray for peace for all beings and their own welfare.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sages"
+      ],
+      "action": "Praying for peace",
+      "reason": "Fear of Shiva's wrath"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shiva (as Shankara) laughs and rushes at Pushan, who is eating the sacrificial offering, and breaks his teeth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shiva",
+        "Pushan"
+      ],
+      "action": "Breaking Pushan's teeth",
+      "relationships": [
+        "Shiva attacks Pushan"
+      ],
+      "type": "Divine conflict"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gods tremble, bow to Shiva, and flee; he aims burning arrows at them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shiva",
+        "Gods (Devas)"
+      ],
+      "action": "Gods flee from Shiva's arrows",
+      "relationships": [
+        "Shiva threatens the gods"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Out of fear, the gods give the best portion of the sacrifice to Rudra (Shiva), gaining his protection.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gods (Devas)",
+        "Shiva"
+      ],
+      "action": "Gods offer sacrifice to Shiva",
+      "relationships": [
+        "Gods seek Shiva's protection"
+      ],
+      "change": "Shiva becomes protector after receiving offering"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Even though angry, Shiva allows the sacrifice to continue; gods remain cautious of him to this day.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shiva",
+        "Gods (Devas)"
+      ],
+      "action": "Shiva permits sacrifice to resume",
+      "relationships": [
+        "Gods remain wary of Shiva"
+      ],
+      "lasting_effect": "Gods' continued caution"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Powerful Asuras have three cities in heaven: one of iron, one of silver, and one of gold, belonging to Tarakaksha, Kamalaksha, and Vidyunmali respectively.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Asuras",
+        "Tarakaksha",
+        "Kamalaksha",
+        "Vidyunmali"
+      ],
+      "action": "Possession of three celestial cities",
+      "supernatural_elements": "Flying cities of precious metals"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra (as Mahendra) cannot breach these cities with any weapon; tormented gods seek refuge with Rudra (Shiva).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Gods (Devas)",
+        "Shiva"
+      ],
+      "action": "Gods seek Shiva's help",
+      "reason": "Indra's weapons fail against Asura cities",
+      "relationships": [
+        "Gods depend on Shiva for aid"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gods, led by Indra (as Vasava), tell Shiva that the Asuras' actions are cruel and terrible, and ask him to destroy them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Gods (Devas)",
+        "Shiva",
+        "Asuras"
+      ],
+      "action": "Gods request Shiva destroy Asuras",
+      "relationships": [
+        "Gods appeal to Shiva as destroyer"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "For the benefit of the gods, Shiva agrees, transforms into a pillar (Stambha), and stands for a thousand years.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shiva"
+      ],
+      "action": "Shiva becomes a pillar and stands for a millennium",
+      "supernatural_elements": "Divine transformation and endurance",
+      "purpose": "Preparing to destroy the three cities"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "When the three cities align in the sky, Shiva fires a triple-jointed arrow that shatters them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shiva",
+        "Asuras"
+      ],
+      "action": "Shiva destroys the three cities with a single arrow",
+      "supernatural_elements": "Divine arrow destroying celestial cities",
+      "result": "Defeat of the Asuras"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Danavas (Asuras) cannot bear to look at the cities or the arrow, which is composed of Vishnu and Soma and burns with the fire of death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Asuras (Danavas)",
+        "Shiva",
+        "Vishnu",
+        "Soma"
+      ],
+      "action": "Asuras are overwhelmed by the arrow's power",
+      "supernatural_elements": "Arrow fused with Vishnu and Soma, bearing death-fire"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A child with five locks of hair appeared on Uma's lap.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uma",
+        "Shiva (child form)"
+      ],
+      "action": "Appearance/Manifestation",
+      "supernatural_element": "Divine child manifestation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uma asked the gods who the child was.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uma",
+        "Devas (gods)"
+      ],
+      "action": "Inquiry",
+      "relationship": "Uma seeks identification of mysterious child"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra (Sakra) angrily raised his vajra (thunderbolt) against the child.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Shiva (child form)"
+      ],
+      "action": "Attack/Threat",
+      "conflict": "Indra's aggression toward mysterious child"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The child paralyzed Indra's arm.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shiva (child form)",
+        "Indra"
+      ],
+      "action": "Divine power display",
+      "supernatural_element": "Paralyzing Indra's arm",
+      "relationship_change": "Shiva demonstrates superiority over Indra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The gods and Prajapatis did not recognize the child as the Lord of All Worlds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Devas (gods)",
+        "Prajapatis",
+        "Shiva"
+      ],
+      "action": "Failure of recognition",
+      "theme": "Divine mystery and hidden identity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahma arrived, recognized Shiva as the Supreme God, and paid homage to him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma",
+        "Shiva"
+      ],
+      "action": "Recognition and worship",
+      "relationship": "Brahma acknowledges Shiva's supremacy",
+      "divine_intervention": "Brahma's divine insight"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The gods appeased Uma and Rudra (Shiva), and Indra's arm was restored.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Devas (gods)",
+        "Uma",
+        "Shiva",
+        "Indra"
+      ],
+      "action": "Reconciliation and healing",
+      "relationship_change": "Gods submit to Shiva's authority",
+      "supernatural_element": "Restoration of Indra's arm"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shiva is described with multiple names, forms, and divine attributes throughout the text.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shiva"
+      ],
+      "action": "Divine description",
+      "supernatural_elements": [
+        "Multiple identities (Rudra, Agni, Indra, etc.)",
+        "Cosmic powers",
+        "Formless yet form-giving",
+        "Wish-fulfiller",
+        "Judge of good and evil"
+      ],
+      "relationships": [
+        "Husband of Uma",
+        "Lord of all gods",
+        "Protector of cattle",
+        "Destroyer of Daksha's sacrifice"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shiva is worshipped as Mahadeva (Great God) and Pashupati (Lord of Animals).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shiva"
+      ],
+      "action": "Worship and reverence",
+      "relationship": "Object of devotion by humans and sages"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "仙人、天神、健达缚和天女们崇拜他的向上挺立的林伽。",
+    "char_interval": {
+      "start_pos": 7863,
+      "end_pos": 7888
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "仙人",
+        "天神",
+        "健达缚",
+        "天女们"
+      ],
+      "action": "崇拜林伽",
+      "supernatural_elements": [
+        "林伽（神圣象征）"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 2486,
+      "end_index": 2492
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "林伽受到崇拜，大自在天商迦罗感到高兴，愉快，喜悦，欢喜。",
+    "char_interval": {
+      "start_pos": 7892,
+      "end_pos": 7920
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大自在天商迦罗"
+      ],
+      "action": "感到喜悦",
+      "supernatural_elements": [
+        "大自在天商迦罗（神）"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 2495,
+      "end_index": 2505
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "他存在于过去、现在和未来，有许多动和不动的形体，所以，他被称作多种形象者。",
+    "char_interval": {
+      "start_pos": 7924,
+      "end_pos": 7961
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大自在天商迦罗"
+      ],
+      "description": "描述其永恒性和多形态",
+      "supernatural_elements": [
+        "永恒存在",
+        "多种形象"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 2508,
+      "end_index": 2518
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "他有一只闪耀光焰的眼睛，或者说，他的周身都由眼睛组成。由于发怒，他进入世界，所以，他被称作沙尔婆（“伤害者”）。",
+    "char_interval": {
+      "start_pos": 7965,
+      "end_pos": 8021
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大自在天商迦罗"
+      ],
+      "description": "描述其外貌和愤怒形态",
+      "supernatural_elements": [
+        "光焰眼睛",
+        "周身眼睛",
+        "愤怒进入世界"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 2521,
+      "end_index": 2540
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "他的形体呈现烟色，所以，他被称作烟髻。一切神都在他之中，所以，他被称作一切形象者。",
+    "char_interval": {
+      "start_pos": 8025,
+      "end_pos": 8066
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大自在天商迦罗"
+      ],
+      "description": "描述其烟色形体和包容性",
+      "supernatural_elements": [
+        "烟色形体",
+        "包容一切神"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 2543,
+      "end_index": 2555
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "这位世界之主敬重天空、水和大地三位女神，所以，他被称作三眼神。",
+    "char_interval": {
+      "start_pos": 8070,
+      "end_pos": 8101
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大自在天商迦罗",
+        "天空女神",
+        "水女神",
+        "大地女神"
+      ],
+      "description": "描述其敬重三位女神",
+      "relationships": [
+        "敬重关系"
+      ],
+      "supernatural_elements": [
+        "三眼神称号"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 2558,
+      "end_index": 2566
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "他总是在一切事业中增长各种幸福，盼望人们吉祥平安，所以，他被称作湿婆（“吉祥平安”）。",
+    "char_interval": {
+      "start_pos": 8106,
+      "end_pos": 8149
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大自在天商迦罗"
+      ],
+      "description": "描述其赐福特性",
+      "supernatural_elements": [
+        "增长幸福",
+        "赐予吉祥平安"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 2569,
+      "end_index": 2582
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "他有千眼，万眼，周身都由眼睛组成，保护大宇宙，所以，他被称作大神。",
+    "char_interval": {
+      "start_pos": 8153,
+      "end_pos": 8186
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大自在天商迦罗"
+      ],
+      "description": "描述其保护宇宙的能力",
+      "supernatural_elements": [
+        "千眼万眼",
+        "保护宇宙"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 2585,
+      "end_index": 2597
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "他产生和维持生命，林伽永远挺立，保持向上燃烧，所以，他被称作斯塔奴（“挺立者”）。",
+    "char_interval": {
+      "start_pos": 8190,
+      "end_pos": 8231
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大自在天商迦罗"
+      ],
+      "description": "描述其创造和维持生命的能力",
+      "supernatural_elements": [
+        "产生生命",
+        "维持生命",
+        "林伽挺立"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 2600,
+      "end_index": 2615
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "他是人体中的失调和平衡。他是失调的生命、呼吸和身体中的风。",
+    "char_interval": {
+      "start_pos": 8235,
+      "end_pos": 8264
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大自在天商迦罗"
+      ],
+      "description": "描述其在人体内的作用",
+      "supernatural_elements": [
+        "控制人体失调与平衡"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 2618,
+      "end_index": 2624
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "应该崇拜和供奉林伽形象。林伽崇拜者永远获得吉祥富贵。",
+    "char_interval": {
+      "start_pos": 8268,
+      "end_pos": 8294
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "崇拜者"
+      ],
+      "action": "崇拜林伽",
+      "supernatural_elements": [
+        "林伽崇拜带来吉祥富贵"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 2627,
+      "end_index": 2631
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "他的双股一半是火，一半是月亮，身体吉祥。同样，他的灵魂一半是火，一半是月亮。",
+    "char_interval": {
+      "start_pos": 8298,
+      "end_pos": 8336
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大自在天商迦罗"
+      ],
+      "description": "描述其身体和灵魂的构成",
+      "supernatural_elements": [
+        "火与月亮构成"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 2634,
+      "end_index": 2646
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "他的身体闪发大光辉，比天神还要吉祥。在凡人中间，他的发光的身体被称作可怕的火。",
+    "char_interval": {
+      "start_pos": 8340,
+      "end_pos": 8379
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大自在天商迦罗"
+      ],
+      "description": "描述其光辉和可怕形态",
+      "supernatural_elements": [
+        "大光辉",
+        "可怕的火"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 2649,
+      "end_index": 2657
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "这位大自在天用这个吉祥的身体实施梵行，用另一个可怕的形体吞噬一切。",
+    "char_interval": {
+      "start_pos": 8383,
+      "end_pos": 8416
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大自在天商迦罗"
+      ],
+      "description": "描述其双重形态和行为",
+      "supernatural_elements": [
+        "吉祥身体实施梵行",
+        "可怕形体吞噬一切"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 2660,
+      "end_index": 2664
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "他燃烧，他凶猛，他暴烈，他威武，吞噬血、肉和筋，所以，他被称作楼陀罗。",
+    "char_interval": {
+      "start_pos": 8420,
+      "end_pos": 8455
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大自在天商迦罗"
+      ],
+      "description": "描述其凶猛形态",
+      "supernatural_elements": [
+        "燃烧",
+        "凶猛",
+        "吞噬血肉",
+        "楼陀罗称号"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 2667,
+      "end_index": 2683
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "普利塔之子啊！就是这位大神，你看到他在你的前面，手持三叉戟，在战场上消灭敌人。",
+    "char_interval": {
+      "start_pos": 8460,
+      "end_pos": 8499
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大自在天商迦罗",
+        "普利塔之子"
+      ],
+      "action": "在战场上消灭敌人",
+      "relationships": [
+        "神与信徒"
+      ],
+      "supernatural_elements": [
+        "手持三叉戟",
+        "战场现身"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 2686,
+      "end_index": 2696
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "就是这位在战场上行走在你前面的尊神，他曾经赐给你武器，你用那些武器杀死檀那婆。",
+    "char_interval": {
+      "start_pos": 8503,
+      "end_pos": 8542
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大自在天商迦罗",
+        "普利塔之子",
+        "檀那婆"
+      ],
+      "action": "赐予武器并杀死敌人",
+      "relationships": [
+        "神赐武器",
+        "敌对关系"
+      ],
+      "supernatural_elements": [
+        "赐予武器",
+        "杀死檀那婆（恶魔）"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 2699,
+      "end_index": 2705
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "普利塔之子啊！吠陀中著名的“百楼陀罗”颂诗赞美神中之神楼陀罗赐予财富、名誉、寿命和福德，我已经向你说明。",
+    "char_interval": {
+      "start_pos": 8547,
+      "end_pos": 8599
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大自在天商迦罗",
+        "普利塔之子"
+      ],
+      "action": "说明颂诗内容",
+      "relationships": [
+        "教导关系"
+      ],
+      "supernatural_elements": [
+        "百楼陀罗颂诗",
+        "赐予财富名誉寿命福德"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 2708,
+      "end_index": 2722
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "它圣洁，能实现一切目的，涤除一切污垢，消除一切罪孽，驱除一切痛苦和恐惧。",
+    "char_interval": {
+      "start_pos": 8604,
+      "end_pos": 8640
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大自在天商迦罗"
+      ],
+      "description": "描述颂诗的功效",
+      "supernatural_elements": [
+        "实现目的",
+        "涤除污垢",
+        "消除罪孽",
+        "驱除痛苦恐惧"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 2725,
+      "end_index": 2735
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "一个人经常聆听这首由四部分组成的颂诗，就能战胜一切敌人，在楼陀罗世界受到敬重。",
+    "char_interval": {
+      "start_pos": 8645,
+      "end_pos": 8684
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 20,
+    "group_index": 19,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "聆听者"
+      ],
+      "action": "聆听颂诗",
+      "supernatural_elements": [
+        "战胜敌人",
+        "在楼陀罗世界受敬重"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 2738,
+      "end_index": 2744
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "“百楼陀罗”颂诗涉及这位灵魂伟大者在战场上的神圣和吉祥的行为，一个人经常专心念诵和聆听，经常虔诚崇拜这位宇宙之主，那么，一旦三眼神感到满意，他就能得到一切愿望的恩惠。",
+    "char_interval": {
+      "start_pos": 8689,
+      "end_pos": 8733
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 21,
+    "group_index": 20,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大自在天商迦罗",
+        "崇拜者"
+      ],
+      "action": "念诵、聆听和崇拜",
+      "relationships": [
+        "神与崇拜者"
+      ],
+      "supernatural_elements": [
+        "颂诗内容",
+        "三眼神满意",
+        "赐予愿望恩惠"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 2747,
+      "end_index": 2754
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "贡蒂之子啊！去吧！战斗吧！你不会失败，你有遮那陀那（黑天）在身边担任参谋和卫士。",
+    "char_interval": {
+      "start_pos": 8782,
+      "end_pos": 8822
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 22,
+    "group_index": 21,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "贡蒂之子",
+        "遮那陀那（黑天）"
+      ],
+      "action": "鼓励战斗",
+      "relationships": [
+        "战友关系",
+        "参谋和卫士"
+      ],
+      "supernatural_elements": [
+        "战斗鼓励",
+        "黑天支持"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 2768,
+      "end_index": 2782
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "全胜说：",
+    "char_interval": {
+      "start_pos": 8828,
+      "end_pos": 8832
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 23,
+    "group_index": 22,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "全胜"
+      ],
+      "action": "叙述结束",
+      "description": "叙述者标识"
+    },
+    "_token_interval": {
+      "start_index": 2785,
+      "end_index": 2787
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa, son of Parashara, finished speaking to Arjuna on the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Arjuna"
+      ],
+      "action": "Conversation conclusion",
+      "location": "Battlefield",
+      "relationships": [
+        "Vyasa is the son of Parashara",
+        "Arjuna is a Pandava warrior"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa departed along the same path he came.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa"
+      ],
+      "action": "Departure",
+      "context": "End of conversation with Arjuna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "context",
+    "extraction_text": "Textual markers indicating the conclusion of sections in the Mahabharata.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "sections_ending": [
+        "Drona Parva Chapter 173",
+        "Narayana Astra Parva",
+        "Drona Parva"
+      ],
+      "source": "Mahabharata"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "context",
+    "extraction_text": "Annotations providing explanatory notes about terms and characters mentioned.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "notes": [
+        "Thin Horse's Son is a divine arrow name",
+        "High-neighing Horse is Indra's mount",
+        "Three virtuous beings refer to gods, Brahmins, and teachers",
+        "Nishada people are low-caste hunters and fishermen",
+        "Kimpurusha (Kinnara) has a human head and horse body",
+        "The following narration is clearly sarcasm",
+        "Nara and Narayana refer to Arjuna and Krishna",
+        "Rudra (Shiva) has three eyes",
+        "Linga is the male phallus, symbol of Shiva"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "structural_marker",
+    "extraction_text": "Transition to the next section of the Mahabharata.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": null,
+    "_token_interval": null
+  }
+]

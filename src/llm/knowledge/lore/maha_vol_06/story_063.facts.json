@@ -1,0 +1,762 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Bhishma to explain more about the merits of rituals like offering flowers, incense, and lamps, and why household offerings are placed on the ground.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Dialogue/Inquiry",
+      "relationship": "Grandson and grandfather, student and teacher"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma begins explaining by citing an ancient conversation between the sages Agastya and Bhrigu about King Nahusha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Agastya",
+        "Bhrigu",
+        "Nahusha"
+      ],
+      "type": "Narration/Teaching",
+      "context": "Bhishma uses this story to illustrate his teachings to Yudhishthira"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nahusha, a royal sage and great ascetic, attained heaven through his virtuous conduct and resides in the third heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nahusha"
+      ],
+      "type": "Background/Character Introduction",
+      "qualities": [
+        "Royal sage",
+        "Great ascetic",
+        "Resides in third heaven",
+        "Exhibits both divine and human behavior"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nahusha performs various rituals in heaven including collecting firewood, lighting sacrificial fires, preparing kusha grass, incense, lamps, and offerings of roasted rice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nahusha"
+      ],
+      "type": "Ritual Performance",
+      "actions": [
+        "Performs rituals",
+        "Maintains worship practices"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Even after becoming chief of the gods, Nahusha continues to worship gods according to rituals and maintains his disciplined conduct.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nahusha"
+      ],
+      "type": "Character Development",
+      "status": "Chief of gods",
+      "behavior": "Initially maintains virtuous conduct"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nahusha becomes arrogant about his position as chief of gods and abandons his previous virtuous conduct.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nahusha"
+      ],
+      "type": "Character Transformation",
+      "change": "From virtuous to arrogant",
+      "action": "Abandons good behavior"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nahusha forces sages who previously granted him boons to carry him on their shoulders, humiliating them and causing himself to become weak.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nahusha",
+        "Various sages"
+      ],
+      "type": "Conflict/Antagonistic Action",
+      "action": "Forces sages to carry him",
+      "consequence": "Nahusha becomes weak, sages are humiliated"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The turn comes for sage Agastya to carry Nahusha, and at this time, Bhrigu arrives at Agastya's hermitage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Agastya",
+        "Bhrigu",
+        "Nahusha"
+      ],
+      "type": "Plot Development",
+      "situation": "Agastya's turn to carry Nahusha, Bhrigu's arrival"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhrigu asks Agastya why they should tolerate Nahusha's wicked behavior as chief of gods.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhrigu",
+        "Agastya"
+      ],
+      "type": "Dialogue/Challenge",
+      "question": "Why tolerate Nahusha's behavior?"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Agastya explains they cannot curse or defeat Nahusha because he received a boon from the great god that anyone who enters his sight comes under his control, and he drank nectar from Brahma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Agastya",
+        "Bhrigu",
+        "Nahusha"
+      ],
+      "type": "Explanation/Divine Intervention",
+      "supernatural_elements": [
+        "Boon from great god",
+        "Nectar from Brahma"
+      ],
+      "limitation": "Cannot curse or defeat Nahusha due to divine protections"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Agastya concludes that the boon seems given to make beings miserable, and Nahusha has committed many unlawful acts against twice-born ones.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Agastya",
+        "Nahusha"
+      ],
+      "type": "Moral Judgment",
+      "assessment": "Boon causes misery, Nahusha commits unlawful acts"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhrigu reveals his mission to defeat the arrogant and disrespectful Indra (referred to as '友邻' or 'neighbor') and restore dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhrigu",
+        "Indra"
+      ],
+      "action": "Declaration of intent to curse",
+      "relationships": [
+        "Bhrigu opposes Indra's arrogance"
+      ],
+      "supernatural_elements": [
+        "Bhrigu plans to use his power to curse Indra"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhrigu declares he will strip Indra of his position as chief of gods and install Vasava (another name for Indra, but here likely refers to a replacement) in his place.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhrigu",
+        "Indra",
+        "Vasava"
+      ],
+      "action": "Plan to depose and replace",
+      "relationships": [
+        "Bhrigu seeks to remove Indra from power"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhrigu curses Indra to become an earthworm ('土蛇') for his sins and arrogance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhrigu",
+        "Indra"
+      ],
+      "action": "Curse",
+      "relationships": [
+        "Bhrigu punishes Indra"
+      ],
+      "supernatural_elements": [
+        "Transformation curse"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Agastya (referred to as '投山仙人' or 'Mitra-Varuna's son') is relieved and happy after hearing Bhrigu's plan.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Agastya",
+        "Bhrigu"
+      ],
+      "action": "Emotional relief",
+      "relationships": [
+        "Agastya is reassured by Bhrigu"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Bhishma to explain how Indra was defeated, deprived of his kingdom, and brought down.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "action": "Inquiry",
+      "relationships": [
+        "Yudhishthira seeks knowledge from Bhishma"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma describes Indra's past virtuous actions, including charity, sacrifices, and worship, which made him powerful and chief of gods.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Indra"
+      ],
+      "action": "Narration of past deeds",
+      "relationships": [
+        "Bhishma recounts Indra's history"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nahusha's good fortune began to fade as he neglected sacrifices and charity, eventually stopping them completely.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nahusha"
+      ],
+      "action": "Neglect of religious duties",
+      "consequence": "Loss of divine favor"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Due to the cessation of offerings, Nahusha's sacrificial arena was occupied by Rakshasas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nahusha"
+      ],
+      "action": "Abandonment of sacrificial site",
+      "consequence": "Takeover by Rakshasas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nahusha summoned the great sage Agastya to pull his chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nahusha",
+        "Agastya"
+      ],
+      "action": "Summoning and command",
+      "relationship": "King orders sage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhrigu appeared and instructed Agastya to close his eyes while Bhrigu hid in his hair.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhrigu",
+        "Agastya"
+      ],
+      "action": "Concealment",
+      "purpose": "To defeat Nahusha"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nahusha prepared to mount the chariot, and Agastya offered to pull him wherever directed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nahusha",
+        "Agastya"
+      ],
+      "action": "Chariot preparation",
+      "relationship": "Sage submits to king's command"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nahusha yoked Agastya to the chariot, which pleased the hidden Bhrigu.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nahusha",
+        "Agastya",
+        "Bhrigu"
+      ],
+      "action": "Yoking sage to chariot",
+      "reaction": "Bhrigu's hidden satisfaction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhrigu remained concealed, knowing Nahusha had received boons from Brahma and possessed great power.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhrigu",
+        "Nahusha"
+      ],
+      "action": "Strategic concealment",
+      "reason": "Fear of Nahusha's divine boons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nahusha, angered by Agastya's pace, struck him with a goad and kicked his head with his left foot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nahusha",
+        "Agastya"
+      ],
+      "action": "Physical abuse",
+      "relationship_change": "King violates sage's dignity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhrigu, enraged by the kick to Agastya's head, cursed Nahusha to become an earth-crawling serpent.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhrigu",
+        "Nahusha"
+      ],
+      "action": "Curse",
+      "supernatural_element": "Divine curse",
+      "consequence": "Transformation into serpent"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nahusha immediately fell to the ground and transformed into a serpent, unaware of Bhrigu's location.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nahusha"
+      ],
+      "action": "Transformation",
+      "supernatural_element": "Curse takes effect"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nahusha, retaining consciousness due to his past virtues, begged Bhrigu to set a limit to the curse.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nahusha",
+        "Bhrigu"
+      ],
+      "action": "Plea for mercy",
+      "reason": "Nahusha's accumulated merits"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Agastya felt compassion and joined in pleading for Nahusha, leading Bhrigu to set a condition for the curse's removal.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Agastya",
+        "Bhrigu",
+        "Nahusha"
+      ],
+      "action": "Intercession and conditional mercy",
+      "relationship": "Sages show compassion"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhrigu declared that King Yudhishthira of the Kuru dynasty would release Nahusha from the curse, then disappeared.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhrigu",
+        "Nahusha"
+      ],
+      "action": "Prophecy",
+      "condition": "Future release by Yudhishthira"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Agastya completed his duty to Indra and returned to his hermitage, honored by the twice-born.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Agastya",
+        "Indra"
+      ],
+      "action": "Return to hermitage",
+      "relationship": "Sage fulfills divine duty"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nahusha was later released from the curse by Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nahusha",
+        "Yudhishthira"
+      ],
+      "action": "Curse removal",
+      "fulfillment": "Prophecy realized"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "友邻升入了梵天所在的天庭。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "友邻",
+        "梵天"
+      ],
+      "action": "升天",
+      "location": "梵天的天庭"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "婆利古将友邻诅咒在地之后，回到梵天所在的天庭，向梵天汇报了此事。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "婆利古",
+        "友邻",
+        "梵天"
+      ],
+      "action": "诅咒与汇报",
+      "result": "友邻被诅咒堕地"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "梵天召来天帝释（因陀罗），对众天神说友邻因触犯投山而堕地成蛇，天国无首，提议让天帝释重新灌顶为王。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "梵天",
+        "天帝释（因陀罗）",
+        "众天神",
+        "友邻",
+        "投山"
+      ],
+      "action": "提议重立天国之主",
+      "reason": "友邻堕地成蛇，天国无首",
+      "supernatural_elements": [
+        "诅咒",
+        "堕地成蛇"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "众神高兴地同意梵天的提议。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "众天神",
+        "梵天"
+      ],
+      "action": "同意",
+      "response": "异口同声回答'好啊'"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "天帝释（因陀罗）在梵天为他行礼灌顶之后，重新成为天国的主宰，并发出夺目光彩。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "天帝释（因陀罗）",
+        "梵天"
+      ],
+      "action": "灌顶为王",
+      "result": "重掌天国，恢复光彩",
+      "relationships": [
+        "梵天为天帝释灌顶"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "叙述友邻过去曾通过僭越方式取得天国王位，但靠的是自己的功德。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "友邻"
+      ],
+      "action": "僭越取得王位",
+      "note": "靠自身功德"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "教诫：家居者应在夜间施舍灯火，施灯者死后可获得天眼并放射光芒。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "道德教诫",
+      "benefit": "获得天眼，放射光芒",
+      "type": "Supernatural Reward"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "教诫：施舍灯火者能长久保持美好容貌和丰盈财富，年数等于灯火眨眼次数。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "道德教诫",
+      "benefit": "保持容貌与财富",
+      "type": "Supernatural Reward"
+    },
+    "_token_interval": null
+  }
+]

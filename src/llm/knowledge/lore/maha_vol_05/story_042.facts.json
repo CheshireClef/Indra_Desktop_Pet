@@ -1,0 +1,553 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma narrates an ancient legend about a sage in a forest to illustrate the conduct of virtuous people.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Narration/Introduction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A sage lives in a remote forest, subsisting on roots and fruits, controlling his senses, and practicing austerities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage"
+      ],
+      "type": "Character Introduction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "All forest creatures, including lions, tigers, elephants, and bears, approach the sage respectfully to seek happiness and then return to their homes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage",
+        "Forest Creatures"
+      ],
+      "type": "Interaction",
+      "relationship": "Sage is revered by all creatures"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A domestic dog remains with the sage, becoming devoted, emaciated from fasting, and eating roots and fruits like the sage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage",
+        "Dog"
+      ],
+      "type": "Bond Formation",
+      "relationship": "Dog becomes the sage's loyal companion"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A bloodthirsty leopard arrives, intending to kill the dog.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Leopard",
+        "Dog"
+      ],
+      "type": "Conflict",
+      "relationship": "Leopard is natural enemy of dog"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The dog, fearing for its life, begs the sage for protection from the leopard.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dog",
+        "Sage"
+      ],
+      "type": "Plea for Help"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sage uses his power to transform the dog into a leopard, removing its fear.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage",
+        "Dog/Leopard"
+      ],
+      "type": "Supernatural Transformation",
+      "relationship": "Sage protects his companion through divine power"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The transformed creature lives happily as a leopard until a hungry tiger approaches, threatening it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Tiger",
+        "Dog/Leopard"
+      ],
+      "type": "New Conflict"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The leopard-turned creature again seeks the sage's protection from the tiger.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dog/Leopard",
+        "Sage"
+      ],
+      "type": "Plea for Help"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Due to their long companionship, the sage transforms the creature into a tiger, stronger than its enemy.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage",
+        "Dog/Leopard/Tiger"
+      ],
+      "type": "Supernatural Transformation",
+      "relationship": "Sage continues to protect through transformations"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The creature, now a tiger, becomes carnivorous and king of beasts, staying near the sage's hut and preying on animals.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dog/Leopard/Tiger"
+      ],
+      "type": "Behavior Change",
+      "relationship": "Transformation changes dietary habits and status"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A mad elephant arrives, frightening the tiger.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Elephant",
+        "Dog/Leopard/Tiger"
+      ],
+      "type": "Conflict"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The tiger seeks the sage's protection from the elephant.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dog/Leopard/Tiger",
+        "Sage"
+      ],
+      "type": "Plea for Help"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sage transforms the tiger into an elephant.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage",
+        "Dog/Leopard/Tiger/Elephant"
+      ],
+      "type": "Supernatural Transformation",
+      "relationship": "Sage continues protective transformations"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The elephant saw another elephant resembling a towering dark cloud and felt fear.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Elephant"
+      ],
+      "action": "Observation and emotional reaction",
+      "relationships": "Fear towards another elephant"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The elephant roamed joyfully among lotus ponds and fragrant woodlands, covered in lotus pollen.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Elephant"
+      ],
+      "action": "Peaceful roaming",
+      "setting": "Lotus ponds and fragrant woodlands"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The elephant stayed near a sage's hut. A fearsome lion with a red mane, born in a cave and enemy of elephants, arrived.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Elephant",
+        "Lion",
+        "Sage"
+      ],
+      "action": "Encounter with predator",
+      "relationships": "Lion as natural enemy of elephants"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing the lion approach, the elephant trembled in fear and begged the sage for protection.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Elephant",
+        "Sage"
+      ],
+      "action": "Seeking protection",
+      "emotional_state": "Fear"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sage transformed the elephant into a lion.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage",
+        "Elephant"
+      ],
+      "action": "Divine transformation",
+      "result": "Elephant becomes lion",
+      "supernatural_element": "Transformation by sage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "As a lion, it no longer feared the forest lion. The forest lion saw it and became fearful and submissive.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Transformed Lion",
+        "Forest Lion"
+      ],
+      "action": "Role reversal in predator-prey relationship",
+      "relationships": "Transformed lion becomes dominant"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The transformed lion lived happily in the hermitage. Other small animals feared to live there and fled in terror.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Transformed Lion",
+        "Small animals"
+      ],
+      "action": "Establishing dominance in hermitage",
+      "relationships": "Predator-prey dynamic"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A blood-drinking, eight-legged beast came to the sage's dwelling wanting to kill the lion.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Eight-legged beast",
+        "Transformed Lion",
+        "Sage"
+      ],
+      "action": "New predator threat",
+      "description": "Creature that kills all life, causes panic"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sage transformed the lion into a powerful eight-legged beast.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage",
+        "Transformed Lion"
+      ],
+      "action": "Second transformation",
+      "result": "Lion becomes eight-legged beast",
+      "supernatural_element": "Transformation by sage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The forest eight-legged beast saw the transformed one's great power and fled in fear.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Transformed Eight-legged beast",
+        "Forest Eight-legged beast"
+      ],
+      "action": "Dominance established",
+      "relationships": "Transformed creature becomes superior"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The transformed eight-legged beast stayed near the sage, enjoying its status. All forest animals fled in fear.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Transformed Eight-legged beast",
+        "Forest animals",
+        "Sage"
+      ],
+      "action": "Reign of terror",
+      "relationships": "Predator instilling fear in all animals"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The eight-legged beast became malicious,热衷杀戮生命, ate meat instead of roots and fruits, and lost its peaceful nature.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Transformed Eight-legged beast"
+      ],
+      "action": "Moral degeneration",
+      "change": "From peaceful to violent, meat-eating nature"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The creature, originally a dog, became bloodthirsty and ungrateful, wanting to kill the sage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Transformed Eight-legged beast",
+        "Sage"
+      ],
+      "action": "Betrayal plot",
+      "relationships": "Ungrateful creature turns against benefactor",
+      "revelation": "Original form was a dog"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sage, with his ascetic power and wisdom, perceived everything and addressed the dog.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage",
+        "Transformed Eight-legged beast"
+      ],
+      "action": "Confrontation",
+      "supernatural_element": "Sage's divine perception"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sage recounted the transformations: dog to leopard, leopard to tiger, tiger to elephant, elephant to lion, lion to eight-legged beast.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage"
+      ],
+      "action": "Revelation of transformation history",
+      "transformations": "Dog → Leopard → Tiger → Elephant → Lion → Eight-legged beast"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sage cursed the creature for wanting to kill an innocent person, saying it would return to its original form as a dog.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage",
+        "Transformed Eight-legged beast"
+      ],
+      "action": "Curse pronounced",
+      "punishment": "Return to original dog form",
+      "reason": "Ingratitude and murderous intent"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The eight-legged beast, with evil soul and foolish mind, hostile to the sage, was cursed and returned to being a dog.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Transformed Eight-legged beast"
+      ],
+      "action": "Transformation reversal",
+      "result": "Returns to original dog form",
+      "moral": "Consequences of ingratitude and evil intentions"
+    },
+    "_token_interval": null
+  }
+]

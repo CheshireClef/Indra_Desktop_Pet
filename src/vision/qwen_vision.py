@@ -1,9 +1,18 @@
+# src/vision/qwen_vision.py
+"""
+Qwen 视觉模型客户端
+负责调用 Qwen-VL (或兼容的 Vision API) 对图片内容进行描述。
+"""
 import base64
 import requests
 from pathlib import Path
 from utils import resource_path
 
 class QwenVisionClient:
+    """
+    Qwen 视觉客户端类
+    封装了 API 请求构建、图片 Base64 编码和响应解析。
+    """
     def __init__(self, api_url: str, api_key: str, model: str):
         self.api_url = api_url
         self.api_key = api_key
@@ -54,5 +63,6 @@ class QwenVisionClient:
 
     @staticmethod
     def _encode_image(path: Path) -> str:
+        """读取图片文件并转换为 Base64 编码字符串"""
         with open(path, "rb") as f:
             return base64.b64encode(f.read()).decode("utf-8")

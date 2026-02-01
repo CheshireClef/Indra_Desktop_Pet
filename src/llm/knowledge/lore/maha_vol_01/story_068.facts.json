@@ -1,0 +1,794 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Pāṇḍu (斑足) went hunting in the forest and killed many deer and wild boars.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Pāṇḍu"
+      ],
+      "action": "Hunting",
+      "location": "Forest"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Pāṇḍu encountered Sage Śakti (沙迦提), the eldest son of Sage Vasistha (极裕仙人), on a narrow path.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Pāṇḍu",
+        "Śakti"
+      ],
+      "relationship": "Strangers meeting",
+      "conflict_setup": "Path confrontation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "conflict",
+    "extraction_text": "Both refused to yield the path; King Pāṇḍu, arrogant and angry, whipped Sage Śakti.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "initiator": "King Pāṇḍu",
+      "action": "Physical assault",
+      "reason": "Pride and anger"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Śakti cursed King Pāṇḍu to become a man-eating demon (Rākṣasa) for harming an ascetic.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Śakti",
+        "King Pāṇḍu"
+      ],
+      "action": "Curse",
+      "supernatural_element": "Transformation into demon",
+      "consequence": "King Pāṇḍu to wander Earth eating human flesh"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Viśvāmitra (众友), an enemy of Sage Vasistha, secretly observed the confrontation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Viśvāmitra",
+        "Śakti",
+        "King Pāṇḍu"
+      ],
+      "relationship": "Viśvāmitra is Vasistha's rival",
+      "action": "Spying"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Viśvāmitra, seeing King Pāṇḍu cursed, commanded a demon named Kimī (何为) to possess the king.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Viśvāmitra",
+        "Kimī",
+        "King Pāṇḍu"
+      ],
+      "action": "Supernatural possession",
+      "supernatural_element": "Demon possession",
+      "motive": "Viśvāmitra's opportunism"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Śakti and Viśvāmitra departed, leaving King Pāṇḍu possessed and tormented by the demon.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Śakti",
+        "Viśvāmitra",
+        "King Pāṇḍu"
+      ],
+      "state": "King Pāṇḍu transformed into a demonic being"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A Brahmin encountered the transformed King Pāṇḍu and begged for meaty food.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin",
+        "King Pāṇḍu"
+      ],
+      "action": "Encounter and request",
+      "implication": "Potential danger due to king's demonic nature"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "斑足王安慰婆罗门，承诺取食物给他，然后离开。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "斑足王",
+        "婆罗门"
+      ],
+      "action": "承诺取食物",
+      "relationship": "国王与婆罗门"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "斑足王忘记承诺，进入后宫睡觉，半夜醒来才记起。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "斑足王"
+      ],
+      "action": "忘记承诺后记起",
+      "supernatural_elements": "罗刹附体"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "斑足王命厨师给婆罗门送有肉的食物，厨师找不到肉。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "斑足王",
+        "厨师"
+      ],
+      "action": "命令送肉食"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "斑足王因罗刹附体，允许厨师使用人肉。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "斑足王",
+        "厨师"
+      ],
+      "action": "允许使用人肉",
+      "supernatural_elements": "罗刹附体影响"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "厨师从刑场取人肉烹饪后送给婆罗门。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "厨师",
+        "婆罗门"
+      ],
+      "action": "送人肉食物"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "婆罗门识破食物是人肉，愤怒诅咒斑足王。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "婆罗门",
+        "斑足王"
+      ],
+      "action": "诅咒",
+      "curse_details": "斑足王将嗜食人肉，众生恐惧，游荡大地"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "斑足王遭受诅咒和罗刹魔力，丧失理智。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "斑足王"
+      ],
+      "action": "丧失理智",
+      "supernatural_elements": "诅咒与罗刹魔力叠加"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "斑足王遇见沙迦提，指责其诅咒，并吃掉沙迦提。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "斑足王",
+        "沙迦提"
+      ],
+      "action": "食人",
+      "relationship_change": "斑足王成为食人者"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "众友引导斑足王吃掉极裕仙人的一百个儿子。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "众友",
+        "斑足王",
+        "极裕仙人"
+      ],
+      "action": "引导食人",
+      "relationship": "众友与极裕仙人的敌对"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "极裕仙人闻知儿子们被害，忧愁至极，试图自杀但未成功。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "极裕仙人"
+      ],
+      "action": "自杀未遂",
+      "supernatural_elements": "从山顶倒栽未受伤"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "极裕仙人（Vasistha）试图用坠崖的方式自杀，但未能成功。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "极裕仙人 (Vasistha)"
+      ],
+      "action": "自杀尝试（坠崖）",
+      "outcome": "失败"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "极裕仙人（Vasistha）在大森林里跳入熊熊烈火，但烈火不焚烧他且变冷。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "极裕仙人 (Vasistha)"
+      ],
+      "action": "自杀尝试（跳入烈火）",
+      "supernatural_element": "烈火不焚烧他且变冷",
+      "outcome": "失败"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "极裕仙人（Vasistha）绑石跳海，但大海将他推回海岸。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "极裕仙人 (Vasistha)"
+      ],
+      "action": "自杀尝试（跳海）",
+      "supernatural_element": "大海将他推回",
+      "outcome": "失败"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "极裕仙人（Vasistha）返回森林道院，发现儿子们已离去，痛苦离开。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "极裕仙人 (Vasistha)"
+      ],
+      "action": "发现儿子们离去",
+      "emotional_state": "痛苦"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "极裕仙人（Vasistha）绑绳沉河，河流切断绳索将他抛出，他命名河流为“断索河”。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "极裕仙人 (Vasistha)"
+      ],
+      "action": "自杀尝试（沉河）",
+      "supernatural_element": "河流切断绳索",
+      "outcome": "失败",
+      "result": "命名河流为“断索河”"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "极裕仙人（Vasistha）跳入有鳄鱼的河流，河流女神分百条溪流避开他，河流得名“百溪河”。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "极裕仙人 (Vasistha)",
+        "河流女神"
+      ],
+      "action": "自杀尝试（跳入鳄鱼河）",
+      "supernatural_element": "河流女神分溪流避开",
+      "outcome": "失败",
+      "result": "河流得名“百溪河”"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "极裕仙人（Vasistha）返回森林道院，儿媳隐娘（Arundhati）跟随，他听到背后吟诵吠陀的声音。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "极裕仙人 (Vasistha)",
+        "隐娘 (Arundhati)"
+      ],
+      "action": "返回道院，发现跟随者",
+      "relationship": "公公与儿媳",
+      "supernatural_element": "听到吟诵吠陀声"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "隐娘（Arundhati）解释吟诵声来自她腹中怀了十二年的孩子，是沙迦提（Sakti）的儿子。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "隐娘 (Arundhati)",
+        "沙迦提 (Sakti)"
+      ],
+      "action": "揭示怀孕",
+      "relationship": "夫妻（沙迦提与隐娘），父子（沙迦提与未出生孩子）",
+      "details": "怀孕十二年，孩子学习吠陀"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "极裕仙人（Vasistha）得知有后代，心花怒放。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "极裕仙人 (Vasistha)"
+      ],
+      "action": "情绪转变",
+      "emotional_state": "心花怒放",
+      "reason": "得知有孙子后代"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A man (implied to be the king's son or relative) gave up thoughts of suicide and went to the forest hermitage with his daughter-in-law.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unnamed Man",
+        "Unnamed Daughter-in-law"
+      ],
+      "type": "Decision/Departure"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sage saw King Kalmashapada (斑足王) sitting in a desolate part of the forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Vasistha (极裕)",
+        "King Kalmashapada"
+      ],
+      "type": "Observation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Kalmashapada, possessed by a fierce Rakshasa, rose angrily upon seeing the sage and intended to eat him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Kalmashapada",
+        "Sage Vasistha"
+      ],
+      "action": "Aggression/Threat",
+      "supernatural_element": "Rakshasa possession"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The daughter-in-law (隐娘), terrified by the king's appearance, pleaded with Sage Vasistha for protection, believing him to be a Rakshasa.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unnamed Daughter-in-law",
+        "Sage Vasistha",
+        "King Kalmashapada"
+      ],
+      "action": "Plea for protection",
+      "relationship": "Daughter-in-law seeks sage's aid"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Vasistha calmed the daughter-in-law, identifying the figure as the renowned King Kalmashapada, not a Rakshasa.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Vasistha",
+        "Unnamed Daughter-in-law",
+        "King Kalmashapada"
+      ],
+      "action": "Reassurance/Identification"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Vasistha chanted the 'Hum' mantra and sprinkled sanctified water, freeing King Kalmashapada from the Rakshasa's control after twelve years of possession.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Vasistha",
+        "King Kalmashapada"
+      ],
+      "action": "Exorcism/Liberation",
+      "supernatural_element": "Mantra and ritual to dispel possession"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Kalmashapada regained his senses, paid homage to Sage Vasistha, and identified himself as the son of Sudasa (苏陀娑), offering to serve as the sage's disciple.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Kalmashapada",
+        "Sage Vasistha"
+      ],
+      "action": "Gratitude/Submission",
+      "relationship": "King becomes sage's disciple"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Vasistha instructed the king to return and rule his kingdom, advising him never to disrespect Brahmins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Vasistha",
+        "King Kalmashapada"
+      ],
+      "action": "Instruction/Admonition"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Kalmashapada vowed to always revere Brahmins and requested a boon from Sage Vasistha to father a son through the sage's intervention with his queen, to ensure the prosperity of the Ikshvaku (甘蔗) dynasty.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Kalmashapada",
+        "Sage Vasistha"
+      ],
+      "action": "Vow/Request for boon",
+      "relationship": "King seeks sage's aid for progeny"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Vasistha granted the boon to King Kalmashapada.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Vasistha",
+        "King Kalmashapada"
+      ],
+      "action": "Boon granted"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Vasistha agreed to accompany the king to Ayodhya.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Vasistha",
+        "King (likely King Kalmashapada/Prabandha)"
+      ],
+      "action": "Agreement to accompany",
+      "relationship": "Sage advising/assisting the king"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The king, accompanied by Sage Vasistha, entered the city of Ayodhya.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King (likely King Kalmashapada/Prabandha)",
+        "Sage Vasistha"
+      ],
+      "location": "Ayodhya",
+      "action": "Entry into city",
+      "reception": "Citizens welcomed them joyfully"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The king returned to the capital city and the queen came before Sage Vasistha as commanded by the king.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King (likely King Kalmashapada/Prabandha)",
+        "Queen",
+        "Sage Vasistha"
+      ],
+      "action": "Royal command and compliance",
+      "relationship": "King commanding queen to meet sage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Vasistha united with the queen during her menstrual period, following sacred rules.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Vasistha",
+        "Queen"
+      ],
+      "action": "Union for conception",
+      "method": "Following sacred rules during menstrual period",
+      "supernatural": "Divine conception ritual"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The queen became pregnant, Sage Vasistha was deeply honored by the king, and then returned to his forest hermitage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Queen",
+        "Sage Vasistha",
+        "King (likely King Kalmashapada/Prabandha)"
+      ],
+      "action": "Pregnancy, honor, departure",
+      "relationship_change": "King shows deep respect to sage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The queen carried the pregnancy for twelve years without giving birth, then cut open her own womb with a rock.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Queen"
+      ],
+      "action": "Self-cesarean",
+      "duration": "12-year pregnancy",
+      "reason": "Anxiety and prolonged pregnancy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The child was born and named Ashmaka (Rock), who later founded the city of Potala.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashmaka"
+      ],
+      "action": "Birth and city founding",
+      "name_origin": "Named after rock used in birth",
+      "accomplishment": "Founded Potala city"
+    },
+    "_token_interval": null
+  }
+]

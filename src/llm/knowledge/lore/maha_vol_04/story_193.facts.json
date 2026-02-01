@@ -1,0 +1,257 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Three warriors killed the entire sleeping army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Three warriors"
+      ],
+      "action": "Massacre of sleeping army",
+      "type": "Violence"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira lamented to Krishna about Ashwatthama killing his sons and other warriors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Krishna"
+      ],
+      "action": "Lamentation and questioning",
+      "relationships": [
+        "Yudhishthira seeks explanation from Krishna"
+      ],
+      "type": "Dialogue"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna explained that Ashwatthama sought Shiva's protection and gained power to kill many.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Ashwatthama",
+        "Shiva"
+      ],
+      "action": "Explanation of divine empowerment",
+      "relationships": [
+        "Ashwatthama under Shiva's protection"
+      ],
+      "supernatural_elements": [
+        "Shiva's blessing grants power"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna narrated Shiva's origin story: Brahma first saw Shiva and asked him to create beings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma",
+        "Shiva"
+      ],
+      "action": "Creation command",
+      "relationships": [
+        "Brahma as creator, Shiva as potential creator"
+      ],
+      "type": "Mythological narrative"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shiva submerged in water for ascetic practice instead of creating.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shiva"
+      ],
+      "action": "Ascetic practice",
+      "type": "Divine action"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahma created another creator (Daksha and seven Prajapatis) who created all four classes of beings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma",
+        "Daksha",
+        "Seven Prajapatis"
+      ],
+      "action": "Creation of beings",
+      "relationships": [
+        "Daksha as chief creator under Brahma"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The created beings became hungry and tried to devour their creator.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Created beings",
+        "Creator (likely Daksha)"
+      ],
+      "action": "Attempted cannibalism",
+      "type": "Conflict"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The creator sought Brahma's protection, and Brahma arranged food and sustenance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma",
+        "Creator (likely Daksha)"
+      ],
+      "action": "Provision of sustenance",
+      "relationships": [
+        "Brahma as protector and provider"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shiva emerged from water, saw the proliferating beings, and in anger castrated himself.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shiva"
+      ],
+      "action": "Self-castration",
+      "reason": "Anger at creation's proliferation",
+      "supernatural_elements": [
+        "Divine self-mutilation"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahma questioned Shiva about his long submersion and self-castration.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma",
+        "Shiva"
+      ],
+      "action": "Divine inquiry",
+      "type": "Dialogue",
+      "relationships": [
+        "Brahma questions Shiva's actions"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shiva angrily responds to Brahma about creation and food.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shiva",
+        "Brahma"
+      ],
+      "action": "Dialogue/Argument",
+      "relationships": "Shiva (the destroyer/ascetic) disagrees with Brahma (the creator) about the purpose of creation and sustenance.",
+      "supernatural_elements": "Mention of divine beings (Shiva, Brahma) and their roles in cosmic functions (creation, providing sustenance through asceticism)."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shiva declares he will use asceticism to create food for beings, like herbs that grow perpetually.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shiva"
+      ],
+      "action": "Declaration/Vow",
+      "relationships": "Shiva asserts his role as provider through ascetic power, contrasting with Brahma's creative role.",
+      "supernatural_elements": "Reference to asceticism (tapas) as a creative/sustaining force and the perpetual nature of herbs."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shiva, filled with anger and dejection, goes to the foothills of Mount Mandara to practice asceticism.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shiva"
+      ],
+      "action": "Departure/Ascetic Practice",
+      "relationships": "Shiva withdraws from the argument to engage in tapas, indicating a shift from dialogue to solitary spiritual practice.",
+      "supernatural_elements": "Mention of a sacred mountain (Mandara) as a site for asceticism."
+    },
+    "_token_interval": null
+  }
+]

@@ -1,0 +1,342 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Janamejaya asks about the importance of sacrifices and questions why a mongoose criticized Yudhishthira's Ashvamedha sacrifice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Janamejaya",
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna"
+      ],
+      "type": "Question/Dialogue",
+      "relationships": [
+        "Janamejaya is questioning a story about his ancestors"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vaishampayana begins to explain the supreme rules and fruits of sacrifice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vaishampayana",
+        "Janamejaya"
+      ],
+      "type": "Narration",
+      "relationships": [
+        "Vaishampayana is narrating to Janamejaya"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra (also called Sakra, Thousand-eyed) once performed a sacrifice with priests arranging various rituals.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra"
+      ],
+      "type": "Sacrifice",
+      "supernatural_elements": [
+        "Divine sacrifice"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage priests offered ghee into the sacrificial fire and sages made offerings to the gods.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage priests",
+        "Sages"
+      ],
+      "type": "Ritual",
+      "relationships": [
+        "Priests and sages performing rituals for Indra"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "When it came time to bind and slaughter animals, the sages felt compassion for the pitiable state of the animals.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sages"
+      ],
+      "type": "Conflict",
+      "action": "Compassion for animals"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sages approached Indra and told him this method of sacrifice was inauspicious and harmed dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sages",
+        "Indra"
+      ],
+      "type": "Confrontation",
+      "relationships": [
+        "Sages advising Indra"
+      ],
+      "key_points": [
+        "Sages argue killing is not dharma"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sages suggested using grain seeds preserved for three years instead of animals for the sacrifice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sages",
+        "Indra"
+      ],
+      "type": "Proposal",
+      "action": "Suggest plant-based sacrifice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra, filled with pride and delusion, did not accept the sages' words.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra"
+      ],
+      "type": "Rejection",
+      "character_trait": [
+        "Pride",
+        "Delusion"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A great debate arose between Indra and the sages about whether to use animals or plants for sacrifice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Sages"
+      ],
+      "type": "Debate",
+      "conflict": "Animal vs plant sacrifice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sages, exhausted from debate, agreed with Indra to go ask King Vasu for judgment.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sages",
+        "Indra",
+        "King Vasu"
+      ],
+      "type": "Resolution",
+      "action": "Seek third-party judgment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "They asked King Vasu whether pure animals or non-embryonic grain seeds should be used for sacrifice according to scriptures.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sages",
+        "Indra",
+        "King Vasu"
+      ],
+      "type": "Question",
+      "relationships": [
+        "King Vasu as arbitrator"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Vasu, without considering the gravity of the question, replied 'Use whatever is prepared.'",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Vasu"
+      ],
+      "type": "Judgment",
+      "action": "Ambiguous ruling"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After saying this, King Vasu fell into hell for speaking falsehood.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Vasu"
+      ],
+      "type": "Consequence",
+      "action": "Divine punishment",
+      "supernatural_elements": [
+        "Descent to hell"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The narrator concludes that foolish people who perform sacrifices with unlawfully obtained wealth cannot attain the fruits of dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator"
+      ],
+      "type": "Moral",
+      "key_points": [
+        "Importance of lawful means for sacrifices"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text describes the consequences of different types of behavior and giving (dāna).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Moral teaching",
+      "description": "It explains that gifts given by those who are greedy, foolish, evil-minded, or who acquire wealth through unrighteous means are useless and lead to destruction. Conversely, those who practice austerity (tapas), follow dharma, and give according to their means attain heaven."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ancient sages and kings are cited as examples of righteous givers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Viśvāmitra",
+        "Asita",
+        "Janaka",
+        "Ṛtuparṇa",
+        "Ariṣṭanemi",
+        "Sindhudvīpa"
+      ],
+      "type": "Exemplification",
+      "description": "These figures, along with many other kings, are mentioned as having attained the highest state through austerity, honesty, and giving gifts acquired through righteous means."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text concludes by stating the eternal foundations of dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Doctrinal summary",
+      "description": "It lists non-violence, charity, compassion for all beings, brahmacarya (celibacy/study), truth, kindness, steadfastness, and forgiveness as the eternal foundations of the eternal dharma."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The passage is identified as a chapter from the Mahābhārata.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Source attribution",
+      "description": "The text is identified as Chapter 94 of the Aśvamedhika Parva (The Book of the Horse Sacrifice) of the Mahābhārata."
+    },
+    "_token_interval": null
+  }
+]

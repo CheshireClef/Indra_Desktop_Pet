@@ -1,0 +1,963 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uma asks Mahadeva about the moral conduct and actions that lead to ascension to heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uma",
+        "Mahadeva"
+      ],
+      "type": "Question",
+      "relationships": [
+        "Uma asks Mahadeva"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mahadeva explains that generous people who give to Brahmins and the needy, such as food, water, clothing, housing, wells, ponds, and various items, will go to heaven after death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mahadeva"
+      ],
+      "type": "Explanation",
+      "action": "Describing righteous actions and their rewards",
+      "supernatural_elements": [
+        "Afterlife rewards in heaven"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mahadeva describes the heavenly rewards: long life, supreme pleasures, and companionship with celestial nymphs in beautiful gardens.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mahadeva"
+      ],
+      "type": "Description",
+      "action": "Detailing heavenly existence",
+      "supernatural_elements": [
+        "Heavenly pleasures",
+        "Celestial nymphs"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mahadeva states that after leaving heaven, such generous people will be reborn into wealthy, prosperous families on earth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mahadeva"
+      ],
+      "type": "Explanation",
+      "action": "Describing reincarnation outcomes",
+      "supernatural_elements": [
+        "Reincarnation into prosperity"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mahadeva references Brahma's ancient words affirming that generous people attain great merit and have pleasing appearances.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mahadeva",
+        "Brahma"
+      ],
+      "type": "Reference",
+      "action": "Citing divine authority",
+      "relationships": [
+        "Mahadeva references Brahma's teachings"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mahadeva explains that miserly, ignorant people who ignore the needy and Brahmins, despite having wealth, will go to hell after death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mahadeva"
+      ],
+      "type": "Explanation",
+      "action": "Describing unrighteous actions and their punishments",
+      "supernatural_elements": [
+        "Afterlife punishment in hell"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mahadeva describes that after suffering in hell, such people may be reborn as foolish individuals into poor families, living in misery without enjoyment.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mahadeva"
+      ],
+      "type": "Explanation",
+      "action": "Detailing reincarnation into suffering",
+      "supernatural_elements": [
+        "Reincarnation into poverty and misery"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mahadeva adds that arrogant, disrespectful people who refuse basic courtesies like offering seats, clearing paths, or serving guests and teachers will also face negative consequences due to their pride and greed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mahadeva"
+      ],
+      "type": "Explanation",
+      "action": "Describing social misconduct and its effects"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text describes the fate of arrogant people who disrespect those who are widely respected and esteemed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arrogant people",
+        "Widely respected people",
+        "Elderly people"
+      ],
+      "action": "Disrespect and contempt",
+      "consequence": "Rebirth in hell, then in low-caste families"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text describes the fate of humble people who worship gods and Brahmins, are polite to all, and serve their teachers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Humble people",
+        "Gods",
+        "Brahmins",
+        "Teachers",
+        "Guests"
+      ],
+      "action": "Worship, politeness, service",
+      "consequence": "Rebirth in heaven, then in noble families"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text describes the fate of violent people who terrorize living beings with various means.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Violent people",
+        "Living beings"
+      ],
+      "action": "Terrorizing and harming",
+      "consequence": "Rebirth in hell, then in low-status families"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text describes the fate of compassionate people who treat all beings with kindness and avoid harming them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Compassionate people",
+        "All beings"
+      ],
+      "action": "Kindness and non-violence",
+      "consequence": "Rebirth in heaven, then in comfortable human lives"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uma asks Mahadeva about the causes of differences in wisdom, health, and virtue among people.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uma",
+        "Mahadeva"
+      ],
+      "action": "Question about karma and rebirth",
+      "relationships": "Goddess Uma seeks wisdom from Mahadeva (Shiva)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mahadeva explains that those who consult virtuous Brahmins about dharma and avoid evil deeds gain happiness, rebirth in heaven, and later rebirth as wise humans.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mahadeva"
+      ],
+      "action": "Explanation of positive karma",
+      "supernatural_elements": "Rebirth, heaven"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mahadeva states that those who lustfully gaze at others' wives are reborn blind, those who peek at naked women become diseased, and those who consort with low women become impotent.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mahadeva"
+      ],
+      "action": "Explanation of negative karma consequences",
+      "supernatural_elements": "Rebirth with physical afflictions"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mahadeva adds that animal killers, those who defile their guru's bed, and promiscuous people also become impotent in next life.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mahadeva"
+      ],
+      "action": "Further explanation of negative karma",
+      "supernatural_elements": "Karmic retribution"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uma asks about blameworthy vs. blameless actions and how to elevate one's status.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uma"
+      ],
+      "action": "Follow-up question about dharma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mahadeva explains that studying dharma, performing meritorious deeds, and consulting Brahmins leads to heaven and rebirth as wise humans.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mahadeva"
+      ],
+      "action": "Guidance on righteous path",
+      "relationships": "Mahadeva teaches Uma the path to human welfare"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uma asks why some people hate dharma and avoid Brahmins while others maintain vows and worship properly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uma"
+      ],
+      "action": "Question about behavioral differences"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mahadeva explains that dharma's boundaries were established long ago through Vedas, and those who follow authoritative teachings are considered vow-keepers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mahadeva"
+      ],
+      "action": "Explanation of dharma tradition",
+      "supernatural_elements": "Vedic authority"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "大自在天向乌玛提问关于女性的法",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大自在天",
+        "乌玛"
+      ],
+      "action": "提问",
+      "relationship": "夫妻（根据文本暗示大自在天与乌玛分享身体）",
+      "supernatural_elements": "大自在天是神明，乌玛是女神"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "大自在天列举多位神明及其妻子",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "莎维德丽",
+        "梵天",
+        "沙姬",
+        "憍湿迦（因陀罗）",
+        "突莫纳",
+        "太阳神之子（阎摩）",
+        "利蒂",
+        "毗湿罗瓦那",
+        "憍利",
+        "伐楼拿",
+        "苏伐罗吉罗",
+        "太阳神",
+        "卢醯尼",
+        "兔宫",
+        "娑婆诃",
+        "火神",
+        "阿提底",
+        "迦叶波"
+      ],
+      "action": "列举神明夫妻关系",
+      "relationships": "夫妻关系：莎维德丽与梵天、沙姬与憍湿迦（因陀罗）、突莫纳与太阳神之子（阎摩）、利蒂与毗湿罗瓦那、憍利与伐楼拿、苏伐罗吉罗与太阳神、卢醯尼与兔宫、娑婆诃与火神、阿提底与迦叶波"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "大自在天说明乌玛与其他女神关系密切",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "乌玛",
+        "其他女神（莎维德丽、沙姬等）"
+      ],
+      "action": "说明关系",
+      "relationship": "乌玛与其他女神常相闻问，过从甚密"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "大自在天解释为何向乌玛询问女性之法",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大自在天",
+        "乌玛"
+      ],
+      "action": "解释提问理由",
+      "reasons": [
+        "乌玛与大自在天遵守相同的正法、戒律和誓愿",
+        "乌玛的能力和勇气与大自在天相当",
+        "乌玛曾修炼严厉的苦行",
+        "乌玛能道出非同小可之理",
+        "乌玛所宣说的将成为权威标准",
+        "女性总是特别愿意从女性那里寻求庇护",
+        "大自在天与乌玛分享身体（一半身体造就了乌玛）",
+        "乌玛了如指掌全部女性永恒的法"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "乌玛回应大自在天",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "乌玛",
+        "大自在天"
+      ],
+      "action": "回应提问",
+      "relationship": "乌玛尊重大自在天为世尊、众生之主、过去现在未来一切的源泉",
+      "supernatural_elements": "乌玛依靠大自在天的威力产生语言"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "乌玛提及将与河流女神商议",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "乌玛",
+        "娑罗私婆蒂",
+        "其他河流女神"
+      ],
+      "action": "计划商议",
+      "relationship": "乌玛将与河流女神商议后再回答",
+      "supernatural_elements": "娑罗私婆蒂是众河中的魁首，河流女神具有神圣地位"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The goddess Uma (also known as Parvati), wife of Shiva, consults with the sacred rivers about female dharma (righteous duty).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uma (Parvati)",
+        "Ganga",
+        "Other sacred rivers"
+      ],
+      "type": "Divine consultation",
+      "relationships": [
+        "Uma is Shiva's wife",
+        "Ganga is a sacred river goddess",
+        "Rivers are knowledgeable beings"
+      ],
+      "supernatural_elements": [
+        "Divine beings discussing dharma"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ganga is chosen to respond to Uma's inquiry and praises Uma's humility in seeking counsel.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ganga",
+        "Uma (Parvati)"
+      ],
+      "action": "Response and praise",
+      "relationships": [
+        "Ganga shows respect to Uma",
+        "Uma seeks wisdom from Ganga"
+      ],
+      "key_points": [
+        "Ganga acknowledges Uma's superior status but praises her humility",
+        "Ganga emphasizes the value of seeking knowledge from others"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uma begins to explain female dharma, stating it is established at marriage through family and wedding rituals.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uma (Parvati)"
+      ],
+      "action": "Teaching/explanation",
+      "subject": "Female dharma",
+      "key_points": [
+        "Female dharma is determined at marriage",
+        "It involves shared righteous duty with husband",
+        "Established through wedding rituals and family"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A woman who follows dharma should have virtuous character, dignified demeanor, pleasant appearance, sweet speech, no other thoughts, and obey only her husband's will.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Woman (generic)"
+      ],
+      "type": "Dharma description",
+      "action": "Description of ideal female conduct"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A woman who upholds morality, regards her husband as a deity, cares about dharma, and devotes herself entirely to dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Woman (generic)"
+      ],
+      "type": "Dharma description",
+      "action": "Description of devotion to husband and dharma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A woman who serves her husband like a deity, keeps vows, remains faithful, always appears happy, looks at her husband's face with the same joy as looking at her son's face, behaves properly, and follows rules.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Woman (generic)"
+      ],
+      "type": "Dharma description",
+      "action": "Description of service and devotion to husband"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A woman who understands the duties of householder and wife, joyfully performs these duties with her husband, follows his will without improper thoughts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Woman (generic)"
+      ],
+      "type": "Dharma description",
+      "action": "Description of marital duty fulfillment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A woman who smiles in response when her husband speaks harshly or looks at her with anger.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Woman (generic)"
+      ],
+      "type": "Dharma description",
+      "action": "Description of patience and loyalty"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A woman with graceful appearance who, besides her husband, does not look at the moon, sun, trees, or anything with masculine names.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Woman (generic)"
+      ],
+      "type": "Dharma description",
+      "action": "Description of exclusive devotion"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A woman who treats her husband the same as her son when he is poor, sick, or exhausted from long journeys.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Woman (generic)"
+      ],
+      "type": "Dharma description",
+      "action": "Description of compassionate care"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A woman who restrains herself, is capable and intelligent, bears children, loves her husband as her own life.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Woman (generic)"
+      ],
+      "type": "Dharma description",
+      "action": "Description of self-control and love"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A woman who is humble, joyful, and serves her husband wholeheartedly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Woman (generic)"
+      ],
+      "type": "Dharma description",
+      "action": "Description of humble service"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A woman who focuses all her emotions on her husband, with little concern for personal enjoyment, happiness, prominence, or desire fulfillment.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Woman (generic)"
+      ],
+      "type": "Dharma description",
+      "action": "Description of emotional devotion"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A woman who obeys elders' requests, rises at dawn, cleans house inside and out with cow dung daily, maintains household sacrificial fire, worships deities with flowers and offerings, serves food to deities, guests, and servants with her husband according to rules, watches them eat with satisfaction, then eats the remainder.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Woman (generic)"
+      ],
+      "type": "Dharma description",
+      "action": "Description of household and religious duties"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A virtuous woman who satisfies her parents-in-law and serves her own parents diligently.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Woman (generic)"
+      ],
+      "type": "Dharma description",
+      "action": "Description of filial piety"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A woman who regularly provides food to Brahmins who are weak, blind, helpless, or unfortunate.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Woman (generic)"
+      ],
+      "type": "Dharma description",
+      "action": "Description of charity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A female describes the duties and virtues of a wife according to dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Parvati (Shailaja/Snow Mountain Goddess)"
+      ],
+      "action": "Teaching/Explaining",
+      "subject": "Female dharma (Stridharma)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Parvati states that a wife who serves her husband selflessly shares in his merit.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Parvati"
+      ],
+      "action": "Declaring",
+      "key_point": "Wife's devotion leads to shared spiritual merit"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Parvati declares the husband as the wife's god, friend, and ultimate refuge.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Parvati"
+      ],
+      "action": "Affirming",
+      "relationship": "Husband as supreme authority"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Parvati states she would not want heaven if it displeases her husband (Shiva).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Parvati",
+        "Shiva (Mahadeva/Great God)"
+      ],
+      "action": "Professing loyalty",
+      "relationship": "Wife's ultimate devotion to husband"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Parvati explains that a wife must obey her husband even in dangerous or unlawful situations according to crisis dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Parvati"
+      ],
+      "action": "Instructing",
+      "principle": "Apaddharma (crisis dharma) overrides normal rules"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Parvati concludes her teaching on female dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Parvati"
+      ],
+      "action": "Concluding",
+      "subject": "Complete exposition of stridharma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma narrates that the Lord of Gods (Indra) honored Parvati after her speech.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Indra (Lord of Gods)",
+        "Parvati"
+      ],
+      "action": "Narrating",
+      "relationship": "Indra shows respect to Parvati"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The assembly disperses after paying homage to Shiva.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "All beings",
+        "Rivers",
+        "Gandharvas",
+        "Apsaras",
+        "Shiva (Bhava)"
+      ],
+      "action": "Dispersing",
+      "supernatural_elements": "Divine beings and natural entities present"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma identifies this as Chapter 134 of the Shanti Parva in the Mahabharata.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Identifying text",
+      "source": "Mahabharata, Shanti Parva, Chapter 134"
+    },
+    "_token_interval": null
+  }
+]

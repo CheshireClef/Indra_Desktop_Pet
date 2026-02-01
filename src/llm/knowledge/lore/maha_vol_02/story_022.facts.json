@@ -1,0 +1,939 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nala lost his kingdom and all his property to Pushkara in gambling after Varshneya's departure.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nala",
+        "Pushkara"
+      ],
+      "action": "Gambling loss",
+      "outcome": "Nala loses kingdom and property"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pushkara mocked Nala, suggesting he wager Damayanti as his last remaining possession.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pushkara",
+        "Nala"
+      ],
+      "action": "Mockery/Provocation",
+      "relationship": "Brothers (Pushkara is Nala's brother)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nala, filled with rage, removed all his ornaments and left with only one garment covering his body.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nala"
+      ],
+      "action": "Departure in disgrace",
+      "state": "Impoverished and humiliated"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti, also wearing only one garment, followed Nala and stayed with him in the wilderness for three nights.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti",
+        "Nala"
+      ],
+      "action": "Loyal companionship",
+      "relationship": "Husband and wife"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pushkara threatened to kill anyone who offered hospitality to Nala, causing people to avoid helping him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pushkara",
+        "Nala"
+      ],
+      "action": "Threat/Intimidation",
+      "consequence": "Nala receives no assistance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nala and Damayanti survived on only water for three days in the outskirts of the city.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nala",
+        "Damayanti"
+      ],
+      "action": "Suffering hunger and deprivation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After many days of hunger, Nala saw birds with golden feathers and tried to catch them for food using his last garment as a net.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nala"
+      ],
+      "action": "Attempt to catch birds",
+      "motivation": "Hunger and desperation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The birds flew away with Nala's garment, revealing they were dice in disguise who spoke to him in human language.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nala",
+        "Dice (supernatural beings)"
+      ],
+      "action": "Supernatural theft and revelation",
+      "supernatural_element": "Dice transformed into birds, speaking human language"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The dice-birds explained they took Nala's garment because they wouldn't be happy while he wore clothes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dice (supernatural beings)",
+        "Nala"
+      ],
+      "action": "Explanation of supernatural action",
+      "relationship": "Persecutors (dice) and victim (Nala)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nala, now naked and in despair, advised Damayanti to travel to the distant southern country, crossing the Avanti river and Vindhya mountains.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nala",
+        "Damayanti"
+      ],
+      "action": "Advice for separation",
+      "reason": "Nala's extreme misfortune and mental distress"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nala describes the route through the Vindhya mountains and Payoshni river to reach Vidarbha and Kosala, indicating the southern direction.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nala"
+      ],
+      "type": "Route description",
+      "action": "Describing travel path"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti, distressed and tearful, expresses her anguish to Nala about his plan to send her away.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti",
+        "Nala"
+      ],
+      "type": "Emotional conflict",
+      "action": "Expressing fear of abandonment",
+      "relationship": "Husband and wife"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti refuses to leave Nala despite his loss of kingdom, wealth, and current suffering in the forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti",
+        "Nala"
+      ],
+      "type": "Loyalty declaration",
+      "action": "Refusing separation",
+      "relationship": "Wife's devotion to husband"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti argues that a wife's presence is the best medicine for suffering, especially for a husband in distress.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti"
+      ],
+      "type": "Philosophical statement",
+      "action": "Asserting wife's role",
+      "relationship": "Wife as healer"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nala reassures Damayanti that he has no intention of abandoning her, comparing her to his own self.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nala",
+        "Damayanti"
+      ],
+      "type": "Reassurance",
+      "action": "Denying abandonment plans",
+      "relationship": "Husband's commitment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti questions why Nala described the route to Vidarbha if he doesn't plan to send her away, suspecting his troubled state of mind.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti",
+        "Nala"
+      ],
+      "type": "Suspicion",
+      "action": "Questioning motives",
+      "relationship": "Wife detecting husband's distress"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti suggests they both go to Vidarbha where her father King Bhima will honor Nala and they can live comfortably.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti",
+        "Nala",
+        "King Bhima"
+      ],
+      "type": "Proposal",
+      "action": "Suggesting refuge",
+      "relationship": "Daughter suggesting return to father's kingdom"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nala refuses to go to Vidarbha in his current wretched state, having lost his kingdom and wealth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nala"
+      ],
+      "type": "Refusal",
+      "action": "Rejecting refuge offer",
+      "reason": "Pride/shame in current condition"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nala continues to comfort the half-clothed Damayanti as they wander together.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nala",
+        "Damayanti"
+      ],
+      "type": "Comfort",
+      "action": "Mutual support in hardship",
+      "relationship": "Shared suffering"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nala and Damayanti, exhausted, hungry, and thirsty, arrive at a rest house (福舍) and enter it together.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nala",
+        "Damayanti"
+      ],
+      "type": "Journey milestone",
+      "action": "Finding shelter",
+      "condition": "Fatigued and destitute"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Nala and Princess Damayanti entered the shelter and lay down exhausted on the ground.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Nala",
+        "Princess Damayanti"
+      ],
+      "action": "Resting in shelter",
+      "state": "Exhausted, dirty, distressed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti fell asleep, but Nala remained awake, tormented by worries about losing his kingdom and being abandoned.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Nala",
+        "Princess Damayanti"
+      ],
+      "action": "Internal conflict",
+      "emotions": [
+        "Worry",
+        "Torment"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nala contemplated whether separation would bring Damayanti happiness, deciding it would be best to leave her.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Nala"
+      ],
+      "decision": "To leave Damayanti",
+      "reason": "Believes separation will bring her happiness"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nala found a sword outside the shelter and used it to cut half of Damayanti's single garment to wear himself.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Nala",
+        "Princess Damayanti"
+      ],
+      "action": "Taking half of garment",
+      "method": "Using found sword"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nala left the sleeping Damayanti but immediately felt remorse and returned to the shelter.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Nala"
+      ],
+      "action": "Leaving and returning",
+      "emotions": [
+        "Remorse",
+        "Guilt"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nala wept at seeing Damayanti alone on the ground and worried about her waking without him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Nala",
+        "Princess Damayanti"
+      ],
+      "action": "Emotional outburst",
+      "emotions": [
+        "Grief",
+        "Concern"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nala was driven by the demon Kali to leave repeatedly but pulled back by love, creating internal conflict.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Nala",
+        "Kali (demon)"
+      ],
+      "action": "Supernatural influence",
+      "conflict": "Kali's drive vs. Nala's love"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nala, tormented by Kali, spoke sweet words to Damayanti but ultimately abandoned her in the forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Nala",
+        "Princess Damayanti",
+        "Kali (demon)"
+      ],
+      "action": "Final abandonment",
+      "supernatural_element": "Kali's torment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nala leaves while Damayanti is sleeping in the forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nala",
+        "Damayanti"
+      ],
+      "action": "Abandonment",
+      "relationship": "Husband abandons wife"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti wakes up to find herself alone in the desolate forest and becomes terrified.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti"
+      ],
+      "action": "Discovery of abandonment",
+      "emotional_state": "Fear, distress"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti searches for Nala, calling out to him in anguish and questioning why he left her.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti"
+      ],
+      "action": "Search and lamentation",
+      "themes": [
+        "Betrayal",
+        "Broken promises"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti recalls Nala's past vows of loyalty made before the Lokapalas (guardian deities) and pleads for him to fulfill them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti",
+        "Nala"
+      ],
+      "action": "Appeal to past oaths",
+      "supernatural_elements": [
+        "Lokapalas (guardian deities)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti, in her distress, imagines seeing Nala hiding behind trees and bushes, but he does not respond.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti"
+      ],
+      "action": "Hallucination/desperate hope",
+      "emotional_state": "Delusion, desperation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti expresses more concern for Nala's well-being (hungry, thirsty, weak, alone in the dark) than for her own.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti"
+      ],
+      "action": "Selfless concern",
+      "relationship": "Wife's devotion to husband"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti, tormented by sorrow, runs around the forest searching and calling out, repeatedly falling and fainting.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti"
+      ],
+      "action": "Frenzied search",
+      "physical_state": "Exhaustion, collapse"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti, filled with anger, curses whoever caused Nala's suffering to endure even greater pain and misfortune.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti"
+      ],
+      "action": "Curse",
+      "target": "Unknown causer of Nala's suffering",
+      "supernatural_elements": [
+        "Curse invocation"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti continues her desperate search through the beast-infested forest, crying out like a distressed owl.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti"
+      ],
+      "action": "Persistent search",
+      "environment": "Dangerous forest",
+      "emotional_state": "Madness, despair"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A giant python, hungry and searching for food, encountered Bhima's daughter wandering nearby and tightly coiled around her body.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima's daughter",
+        "Giant python"
+      ],
+      "action": "Attack/Entanglement",
+      "type": "Conflict"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti, distressed by the python's attack, expressed her anguish and concern for her husband Nala instead of herself.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti",
+        "Nala"
+      ],
+      "action": "Emotional distress",
+      "relationship": "Wife-Husband",
+      "type": "Emotional expression"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A wandering hunter in the deep forest heard Damayanti's cries and rushed to her aid.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hunter",
+        "Damayanti"
+      ],
+      "action": "Rescue attempt",
+      "type": "Intervention"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The hunter saw Damayanti, a beautiful woman with large eyes, being coiled by the python and swiftly approached.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hunter",
+        "Damayanti",
+        "Giant python"
+      ],
+      "action": "Observation and approach",
+      "type": "Discovery"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The hunter raised his sharp hunting knife and forcefully struck the python's head, killing it instantly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hunter",
+        "Giant python"
+      ],
+      "action": "Killing",
+      "type": "Conflict resolution"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The hunter freed Damayanti from the python, brought her water to wash, comforted her, gave her food, and asked about her identity and reason for being in the forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hunter",
+        "Damayanti"
+      ],
+      "action": "Aid and inquiry",
+      "type": "Assistance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti, wearing only half a garment that couldn't conceal her full figure, with a beautiful face and sweet voice, told the hunter everything that had happened.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti",
+        "Hunter"
+      ],
+      "action": "Revelation of circumstances",
+      "type": "Explanation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The hunter, upon seeing the flawless Damayanti, became consumed by lustful desires.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hunter",
+        "Damayanti"
+      ],
+      "action": "Lustful attraction",
+      "type": "Emotional change"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The hunter tried to conceal his intentions with gentle and comforting words to the beautiful woman.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hunter",
+        "Damayanti"
+      ],
+      "action": "Deception attempt",
+      "type": "Manipulation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti, faithful to her husband, saw through the villain's scheme and was deeply angered by the hunter's malicious intent.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti",
+        "Hunter"
+      ],
+      "action": "Recognition of evil intent",
+      "relationship": "Victim-Predator",
+      "type": "Realization"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The evil-minded short hunter, despite sensing her righteous and unapproachable nature like a burning flame, remained deluded and attempted to use violence against Damayanti.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hunter",
+        "Damayanti"
+      ],
+      "action": "Attempted assault",
+      "type": "Conflict escalation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti, already suffering from losing her husband and kingdom, encountered this evil villain and, speechless with anger, cursed him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti",
+        "Hunter"
+      ],
+      "action": "Curse invocation",
+      "type": "Supernatural intervention"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti cursed: 'Except for King Nala of Nishadha, my heart never thinks of anyone else. By this truth, let this despicable hunter fall dead immediately!'",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti",
+        "Hunter",
+        "Nala"
+      ],
+      "action": "Verbal curse",
+      "relationship": "Wife-Husband (Damayanti-Nala), Victim-Curser (Damayanti-Hunter)",
+      "type": "Supernatural power"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "As soon as Damayanti finished her curse, the hunter fell to the ground like a tree burned by fire.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hunter",
+        "Damayanti"
+      ],
+      "action": "Death by curse",
+      "type": "Supernatural consequence"
+    },
+    "_token_interval": null
+  }
+]

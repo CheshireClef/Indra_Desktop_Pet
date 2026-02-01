@@ -1,3 +1,7 @@
+"""
+系统托盘模块
+负责管理任务栏托盘图标 (System Tray Icon) 及其右键菜单。
+"""
 import os
 from PySide6.QtWidgets import QSystemTrayIcon, QMenu
 from PySide6.QtGui import QIcon, QAction
@@ -32,6 +36,7 @@ class AppTray:
             self.menu = menu
 
         self.tray.setContextMenu(self.menu)
+        # 处理托盘图标点击事件 (例如点击恢复窗口)
         self.tray.activated.connect(self._on_activated)
         self.tray.show()
 
@@ -42,7 +47,7 @@ class AppTray:
             self.sm.settings_changed.connect(self._update_menu_status)
 
     def _update_menu_status(self):
-        """配置变更时刷新菜单项文本"""
+        """配置变更时刷新菜单项文本 (如：屏幕监视开启/关闭状态)"""
         if not self.menu or "screen_watch" not in self.menu._actions_refs:
             return
         
@@ -55,7 +60,9 @@ class AppTray:
 
     @staticmethod
     def create_main_menu(app, pet_window):
+        """创建右键菜单"""
         menu = QMenu()
+        # 用于存储 action 引用，方便后续修改（如更改文本）
         menu._actions_refs = {}
 
         # ---- 显示桌宠 ----

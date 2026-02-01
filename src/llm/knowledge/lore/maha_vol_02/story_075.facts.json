@@ -1,0 +1,312 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "众仙人和般度族兄弟问摩根德耶谁比他活得更长。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "众仙人",
+        "般度族兄弟",
+        "摩根德耶"
+      ],
+      "action": "询问",
+      "type": "对话"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "摩根德耶告诉众人，王仙帝释光功德耗尽后从天上降下，名声灭绝，来到他面前询问是否认得他。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "摩根德耶",
+        "帝释光"
+      ],
+      "action": "讲述与询问",
+      "type": "叙事"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "摩根德耶说自己不是炼丹术士，只是苦行者，并建议帝释光去雪山询问猫头鹰钵罗迦罗迦尔纳。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "摩根德耶",
+        "帝释光",
+        "钵罗迦罗迦尔纳"
+      ],
+      "action": "建议",
+      "type": "指引"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "帝释光变成一匹马，驮着摩根德耶到雪山猫头鹰的住处。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "帝释光",
+        "摩根德耶",
+        "钵罗迦罗迦尔纳"
+      ],
+      "action": "变形与旅行",
+      "type": "超自然事件"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "帝释光询问猫头鹰钵罗迦罗迦尔纳是否认得他，猫头鹰回答不认识。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "帝释光",
+        "钵罗迦罗迦尔纳"
+      ],
+      "action": "询问与否认",
+      "type": "对话"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "帝释光问猫头鹰谁比它活得更长，猫头鹰提到水池帝释光中的仙鹤那提占伽。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "帝释光",
+        "钵罗迦罗迦尔纳",
+        "那提占伽"
+      ],
+      "action": "询问与指引",
+      "type": "对话"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "帝释光带着摩根德耶和猫头鹰到水池，询问仙鹤那提占伽是否认得帝释光国王，仙鹤回答不认得。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "帝释光",
+        "摩根德耶",
+        "钵罗迦罗迦尔纳",
+        "那提占伽"
+      ],
+      "action": "旅行与询问",
+      "type": "对话"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "帝释光问仙鹤谁比它活得更长，仙鹤提到水池中的乌龟阿古波罗。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "帝释光",
+        "那提占伽",
+        "阿古波罗"
+      ],
+      "action": "询问与指引",
+      "type": "对话"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "仙鹤叫唤乌龟阿古波罗，乌龟爬出水池来到岸边。",
+    "char_interval": {
+      "start_pos": 554,
+      "end_pos": 603
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "那提占伽",
+        "阿古波罗"
+      ],
+      "action": "召唤与回应",
+      "type": "互动"
+    },
+    "_token_interval": {
+      "start_index": 205,
+      "end_index": 222
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "帝释光询问乌龟阿古波罗是否认得他，乌龟激动地表示认得，并讲述帝释光过去一千次把它放在祭坛前，水池是帝释光施舍的牛踏出来的。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "帝释光",
+        "阿古波罗"
+      ],
+      "action": "询问与确认",
+      "type": "情感揭示",
+      "relationship": "阿古波罗记得帝释光的善行"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "一辆天车从天而降，传达消息让帝释光返回天国，称赞他的善业声誉。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "帝释光",
+        "天车使者"
+      ],
+      "action": "神圣干预",
+      "type": "超自然事件",
+      "message": "鼓励行善避恶，遵行正法"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "帝释光请求稍等，先送摩根德耶和猫头鹰回住处，然后乘坐天车返回天国。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "帝释光",
+        "摩根德耶",
+        "钵罗迦罗迦尔纳"
+      ],
+      "action": "护送与返回",
+      "type": "旅程结束"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "摩根德耶向般度族兄弟讲述了他见到的跟他一样长寿的人的故事。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "摩根德耶",
+        "般度族兄弟"
+      ],
+      "action": "讲述故事",
+      "type": "对话/叙述"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "般度族兄弟称赞摩根德耶做了一件好事，因为国王帝释光从天国降下，摩根德耶让他又回到了自己的天国住处。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般度族兄弟",
+        "摩根德耶",
+        "帝释光"
+      ],
+      "action": "称赞/解释事件",
+      "type": "对话/解释"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "摩根德耶以提婆吉的儿子黑天为例回应，指出黑天把堕入地狱的王仙尼伽从苦难中解救出来，让他返回天国。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "摩根德耶",
+        "黑天",
+        "尼伽"
+      ],
+      "action": "类比/回应",
+      "type": "对话/类比",
+      "relationships": "黑天是提婆吉的儿子"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "context",
+    "extraction_text": "以上是吉祥的《摩诃婆罗多》中《森林篇》第一百九十一章（191）。",
+    "char_interval": {
+      "start_pos": 1143,
+      "end_pos": 1175
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "source": "《摩诃婆罗多》",
+      "section": "《森林篇》",
+      "chapter": "第一百九十一章（191）"
+    },
+    "_token_interval": {
+      "start_index": 382,
+      "end_index": 395
+    }
+  }
+]

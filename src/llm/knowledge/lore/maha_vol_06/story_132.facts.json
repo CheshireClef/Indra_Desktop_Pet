@@ -1,0 +1,639 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "镇群王听了祖父们去而复来的故事，很高兴，并针对返回人世的问题高兴地询问道：“抛弃肉体的人怎么还会显现原貌呢？”",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "镇群王"
+      ],
+      "type": "Question/Inquiry",
+      "topic": "Reincarnation/Return of the dead"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "护民子（毗耶娑的学生）回答镇群王，解释业（karma）不灭、身体由业产生、灵魂永恒、形体随业而变等道理。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "护民子",
+        "镇群王"
+      ],
+      "type": "Philosophical Explanation",
+      "key_points": [
+        "Karma is indestructible",
+        "Body is formed by karma",
+        "Soul is eternal",
+        "Form changes with karma"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "护民子进一步阐述祭祀中祭马的生命永存、天神主宰祭牲去路、五大元素和灵魂永恒等观念，并讨论结合与分离的痛苦。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "护民子"
+      ],
+      "type": "Philosophical Discourse",
+      "divine_elements": [
+        "Gods (天神)",
+        "Sacrificial horse (祭马)"
+      ],
+      "supernatural_elements": [
+        "Eternal life after sacrifice",
+        "Gods controlling sacrificial paths"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "护民子讲述持国王原本看不见自己的儿子们，由于仙人毗耶娑的恩惠，他看到了貌似自己的儿子们。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国王",
+        "毗耶娑"
+      ],
+      "type": "Divine Intervention",
+      "action": "Vision restoration through sage's grace",
+      "relationships": [
+        "毗耶娑 grants vision to 持国王",
+        "持国王 sees his sons (implied: the Kauravas)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "镇群王请求如果毗耶娑能让他见到父亲（持国王？）容貌、服装和年龄一如既往，他就会相信护民子所说的一切。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "镇群王",
+        "毗耶娑"
+      ],
+      "type": "Request/Wish",
+      "action": "Request for divine vision of father",
+      "relationships": [
+        "镇群王 seeks proof through 毗耶娑's power"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Janamejaya completed the snake sacrifice and performed post-sacrificial rituals.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Janamejaya"
+      ],
+      "action": "Completion of sacrifice and rituals",
+      "relationships": []
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa granted a boon, bringing Parikshit back to life.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Parikshit"
+      ],
+      "action": "Divine intervention/Resurrection",
+      "relationships": [
+        "Vyasa is a sage; Parikshit is Janamejaya's father"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Janamejaya saw his father Parikshit descend from heaven, restored to his former appearance and age.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Janamejaya",
+        "Parikshit"
+      ],
+      "action": "Vision/Reunion",
+      "relationships": [
+        "Father-son"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Janamejaya also saw Sage Samika, his son Shringin, and his father's ministers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Janamejaya",
+        "Sage Samika",
+        "Shringin"
+      ],
+      "action": "Vision",
+      "relationships": [
+        "Samika and Shringin are father-son; both are sages"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Janamejaya expressed gratitude to Astika, acknowledging the miraculous nature of the sacrifice and his reunion with his father.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Janamejaya",
+        "Astika"
+      ],
+      "action": "Expression of gratitude",
+      "relationships": [
+        "Astika is a sage who assisted in the sacrifice"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Astika praised Vyasa's power and explained the outcomes: snakes turned to ash, Takshaka was spared, and Janamejaya saw his father's fate.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Astika",
+        "Janamejaya",
+        "Vyasa",
+        "Takshaka"
+      ],
+      "action": "Explanation of events",
+      "relationships": [
+        "Vyasa's intervention saved Takshaka; snakes were punished"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Janamejaya honored Astika and then asked Vaishampayana about the conclusion of Dhritarashtra's forest life.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Janamejaya",
+        "Astika",
+        "Vaishampayana",
+        "Dhritarashtra"
+      ],
+      "action": "Inquiry",
+      "relationships": [
+        "Vaishampayana is the narrator; Dhritarashtra is a former king"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After witnessing the miracle and seeing his sons, Dhritarashtra returned to the hermitage, free from sorrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra"
+      ],
+      "action": "Return to hermitage",
+      "relationships": [
+        "Dhritarashtra is the father of the Kauravas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "With Dhritarashtra's permission, all sages and others departed as they wished.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra"
+      ],
+      "action": "Granting permission for departure",
+      "relationships": []
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas, with few soldiers, followed Dhritarashtra and his wife back to the hermitage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Dhritarashtra",
+        "Gandhari"
+      ],
+      "action": "Accompanying",
+      "relationships": [
+        "Pandavas are Dhritarashtra's nephews; Gandhari is Dhritarashtra's wife"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa advised Dhritarashtra to stop grieving, reminding him that his sons achieved a warrior's honorable end and that Yudhishthira obeys him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Dhritarashtra",
+        "Yudhishthira"
+      ],
+      "action": "Counsel/Advice",
+      "relationships": [
+        "Vyasa is a sage; Yudhishthira is Dhritarashtra's nephew and king"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa instructed Dhritarashtra to send Yudhishthira back to rule his kingdom, as they had stayed in the forest over a month.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Dhritarashtra",
+        "Yudhishthira"
+      ],
+      "action": "Instruction to return",
+      "relationships": [
+        "Dhritarashtra has authority over Yudhishthira in this context"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa spoke wise words to Dhritarashtra about protecting the kingdom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Dhritarashtra"
+      ],
+      "type": "Advice/Conversation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra summoned Yudhishthira and expressed gratitude, stating his sorrows had ended due to Yudhishthira's kindness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Yudhishthira"
+      ],
+      "relationship": "Uncle and nephew (Dhritarashtra is Yudhishthira's paternal uncle)",
+      "action": "Expression of gratitude and farewell"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra explained that through Vyasa's ascetic power and Yudhishthira's visit, he had seen his deceased sons led by Duryodhana in the other world.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Vyasa",
+        "Yudhishthira",
+        "Duryodhana"
+      ],
+      "supernatural_element": "Vision of deceased sons through ascetic power",
+      "relationship": "Father and sons (Dhritarashtra and Duryodhana)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra declared his purpose in living long was fulfilled and requested permission to undertake severe ascetic practices.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Yudhishthira"
+      ],
+      "action": "Request for permission to pursue asceticism"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira responded that he was without fault and should not be abandoned, offering to stay with Dhritarashtra and the two vow-keeping mothers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Dhritarashtra",
+        "Gandhari",
+        "Kunti"
+      ],
+      "relationship": "Yudhishthira is son of Kunti and nephew of Dhritarashtra and Gandhari",
+      "action": "Offer to remain and serve"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gandhari told Yudhishthira he could not stay, as the Kuru lineage and ancestral rites now depended on him, urging him to obey his uncle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandhari",
+        "Yudhishthira",
+        "Dhritarashtra"
+      ],
+      "relationship": "Aunt and nephew (Gandhari is Yudhishthira's paternal aunt)",
+      "action": "Persuasion to leave"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira, with tearful eyes, told Kunti he could not leave her but also could not obstruct her ascetic practices.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Kunti"
+      ],
+      "relationship": "Mother and son",
+      "emotional_state": "Distress and conflict"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira expressed that his mind was no longer attached to the kingdom but to asceticism, and lamented the devastation of their families and allies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Reflection on losses and shift in priorities",
+      "mentioned_characters": [
+        "Drona",
+        "Ashwatthama",
+        "Krishna"
+      ],
+      "losses": "Panchalas nearly extinct, Chedis and Matsyas devastated, only Vrishnis protected by Krishna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战 expresses his desire to live for dharma and asks for blessings before departure.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战"
+      ],
+      "action": "Expression of purpose and farewell request",
+      "relationships": [
+        "坚战 as son of 贡蒂 and brother to others"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "偕天 declares he will stay in the forest to perform austerities and serve 持国王 and the mothers.",
+    "char_interval": {
+      "start_pos": 3176,
+      "end_pos": 3178
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "偕天",
+        "坚战"
+      ],
+      "action": "Decision to stay and perform austerities",
+      "relationships": [
+        "偕天 as son of 贡蒂, brother to 坚战"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 946,
+      "end_index": 947
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "贡蒂 persuades 偕天 and 坚战 to leave, explaining their presence hinders her austerities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "贡蒂",
+        "偕天",
+        "坚战"
+      ],
+      "action": "Persuasion and farewell",
+      "relationships": [
+        "贡蒂 as mother of 偕天 and 坚战"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Kuru heroes receive blessings and permission from 持国王 and 贡蒂 to depart.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "怖军",
+        "阿周那",
+        "孪生子",
+        "持国王",
+        "贡蒂"
+      ],
+      "action": "Farewell and blessings",
+      "relationships": [
+        "持国王 as father figure/uncle, 贡蒂 as mother"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "They bid farewell to 甘陀利 and 贡蒂, then depart with their wives and army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "怖军",
+        "阿周那",
+        "孪生子",
+        "德罗波蒂",
+        "甘陀利",
+        "贡蒂"
+      ],
+      "action": "Final farewell and departure",
+      "relationships": [
+        "甘陀利 as wife of 持国王, 德罗波蒂 as wife of the Pandavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战 returns to Hastinapura with his family and army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战"
+      ],
+      "action": "Return journey",
+      "relationships": [
+        "坚战 as king returning to capital"
+      ]
+    },
+    "_token_interval": null
+  }
+]

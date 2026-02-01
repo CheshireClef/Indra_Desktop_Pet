@@ -1,0 +1,1193 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "清晨，太阳升起，铜鼓、大鼓和小鼓一齐敲响，奶白色的螺号一齐吹响，般度族将束发放在前面，出发战斗。",
+    "char_interval": {
+      "start_pos": 71,
+      "end_pos": 92
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "束发",
+        "般度族"
+      ],
+      "action": "般度族军队在清晨吹响号角，以束发为先锋开始战斗",
+      "type": "军事部署"
+    },
+    "_token_interval": {
+      "start_index": 25,
+      "end_index": 33
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "般度族排定消灭一切敌人的阵容，束发位于全军之前，怖军和阿周那保护他的车轮，德罗波蒂之子们和激昂殿后，萨谛奇和显光保护，后面是猛光由般遮罗人保护。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "束发",
+        "怖军",
+        "阿周那",
+        "德罗波蒂之子们",
+        "激昂",
+        "萨谛奇",
+        "显光",
+        "猛光",
+        "般遮罗人"
+      ],
+      "action": "般度族军队排定战斗阵容，束发为先锋，其他英雄担任保护和后卫",
+      "type": "军事部署"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战王和双生子在前进中发出狮子吼，毗罗吒和木柱王带领军队前进，羯迦夜族五兄弟和勇旗担任般度族军队的后卫。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战王",
+        "无种",
+        "偕天",
+        "毗罗吒",
+        "木柱王",
+        "羯迦夜族五兄弟",
+        "勇旗"
+      ],
+      "action": "般度族军队继续前进，坚战王和双生子发出吼声，其他部队担任后卫",
+      "type": "军事行动"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "俱卢族将毗湿摩放在全军之前，向般度族挺进，持国的儿子们保护毗湿摩，德罗纳和马嘶跟随。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "毗湿摩",
+        "持国的儿子们",
+        "德罗纳",
+        "马嘶"
+      ],
+      "action": "俱卢族军队以毗湿摩为先锋，持国的儿子们保护他，德罗纳父子跟随",
+      "type": "军事部署"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "福授由象军环绕，慈悯和成铠伴随，甘波阇王善巧、摩揭陀王胜军、沙恭尼和巨力跟随，以善佑为首的国王们担任俱卢族军队的后卫。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "福授",
+        "慈悯",
+        "成铠",
+        "甘波阇王善巧",
+        "摩揭陀王胜军",
+        "沙恭尼",
+        "巨力",
+        "善佑"
+      ],
+      "action": "俱卢族军队的其他将领跟随，福授带领象军，其他国王担任后卫",
+      "type": "军事部署"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "毗湿摩在战斗中排定阿修罗阵容、毕舍遮阵容或罗刹阵容。",
+    "char_interval": {
+      "start_pos": 549,
+      "end_pos": 583
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "毗湿摩"
+      ],
+      "action": "毗湿摩在战斗中排定各种战斗阵容",
+      "type": "军事战术"
+    },
+    "_token_interval": {
+      "start_index": 166,
+      "end_index": 170
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "双方战斗开始，互相杀戮，壮大阎摩王国。",
+    "char_interval": {
+      "start_pos": 601,
+      "end_pos": 669
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般度族",
+        "俱卢族"
+      ],
+      "action": "双方军队开始激烈战斗，造成大量伤亡",
+      "type": "战斗开始"
+    },
+    "_token_interval": {
+      "start_index": 176,
+      "end_index": 194
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "以阿周那为首的普利塔之子们将束发放在前面，在战斗中冲向毗湿摩，发射各种各样的箭。",
+    "char_interval": {
+      "start_pos": 629,
+      "end_pos": 669
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "束发",
+        "毗湿摩"
+      ],
+      "action": "阿周那带领兄弟们以束发为先锋，向毗湿摩发起攻击",
+      "type": "战斗行动"
+    },
+    "_token_interval": {
+      "start_index": 188,
+      "end_index": 194
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "怖军的利箭袭击俱卢族战士，造成血流如注，无种、偕天和萨谛奇勇猛拦截和打击俱卢族军队。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "怖军",
+        "无种",
+        "偕天",
+        "萨谛奇",
+        "俱卢族战士"
+      ],
+      "action": "怖军、无种、偕天和萨谛奇猛烈攻击俱卢族军队，造成重大伤亡",
+      "type": "战斗行动"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "俱卢族军队遭到般度族和斯楞遮耶族利箭的杀戮，纷纷逃向四面八方，找不到保护者。",
+    "char_interval": {
+      "start_pos": 791,
+      "end_pos": 979
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "俱卢族军队",
+        "般度族",
+        "斯楞遮耶族"
+      ],
+      "action": "俱卢族军队被般度族和斯楞遮耶族击败，士兵溃逃",
+      "type": "战斗结果"
+    },
+    "_token_interval": {
+      "start_index": 225,
+      "end_index": 276
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国询问全胜，看到军队遭到普利塔之子们打击，毗湿摩怎样战斗，怎样迎战般度族，杀戮苏摩迦族英雄们。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国",
+        "全胜",
+        "毗湿摩",
+        "普利塔之子们",
+        "苏摩迦族英雄们"
+      ],
+      "action": "持国询问全胜关于毗湿摩在军队受挫后的战斗情况",
+      "type": "询问战况"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "全胜告诉持国，他将讲述毗湿摩在俱卢族军队遭到般度族和斯楞遮耶族打击后怎样战斗。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "全胜",
+        "持国",
+        "毗湿摩",
+        "般度族",
+        "斯楞遮耶族"
+      ],
+      "action": "全胜回应持国，将讲述毗湿摩的战斗情况",
+      "type": "叙述开始"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma fought alone against the combined forces of the Pandavas, Panchalas, and Srinjayas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Pandavas",
+        "Panchalas",
+        "Srinjayas"
+      ],
+      "action": "Battle",
+      "description": "Bhishma, described as an invincible great archer, single-handedly attacked the enemy armies, killing numerous soldiers, elephants, and horses, and causing panic."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas surrounded Bhishma in battle, comparing him to Indra surrounded by Asuras.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Pandavas"
+      ],
+      "action": "Surrounding in battle",
+      "description": "The Pandava forces besieged Bhishma, who was fighting valiantly alone, likening the scene to the Asuras surrounding Indra."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma's combat prowess amazed Duryodhana and his brothers, filling them with reverence.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Duryodhana"
+      ],
+      "action": "Reaction to battle",
+      "description": "Witnessing Bhishma's feats in battle, Duryodhana and his brothers were astonished and filled with respect for their grandfather."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "On the tenth day, Bhishma burned Shikhandi's chariot division with arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Shikhandi"
+      ],
+      "action": "Attack",
+      "description": "Bhishma used sharp arrows to destroy Shikhandi's chariot forces, likened to a fire consuming a forest."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandi struck Bhishma in the chest with three arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandi",
+        "Bhishma"
+      ],
+      "action": "Attack",
+      "description": "Shikhandi, enraged, hit Bhishma with three arrows, wounding him severely."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma refused to fight back against Shikhandi, citing Shikhandi's origin as a woman created by the Creator.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Shikhandi"
+      ],
+      "action": "Refusal to fight",
+      "description": "Despite being wounded, Bhishma looked at Shikhandi with anger but smiled and declared he would not fight back, as Shikhandi was originally a woman."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandi, infuriated by Bhishma's words, vowed to kill him and attacked with five straight arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandi",
+        "Bhishma"
+      ],
+      "action": "Vow and attack",
+      "description": "Enraged, Shikhandi swore to kill Bhishma to please the Pandavas and for himself, then shot five arrows at Bhishma."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna, seeing the opportunity, encouraged Shikhandi to advance toward Bhishma while he provided cover.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Shikhandi",
+        "Bhishma"
+      ],
+      "action": "Strategy and encouragement",
+      "description": "Arjuna, the left-handed archer, urged Shikhandi to press forward against Bhishma, promising to support him by dispersing enemies with arrows, noting Bhishma would not attack Shikhandi."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna (Vibhatsu) charges forward on the tenth day of battle, terrifying the Kaurava army with his roar and arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna (Vibhatsu)",
+        "Kaurava army"
+      ],
+      "type": "Battle action",
+      "supernatural_elements": "Compared to Death and a lion"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana, distressed by Arjuna's assault, appeals to Bhishma (Ganga's son) for help.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhishma (Ganga's son)"
+      ],
+      "type": "Appeal/Request",
+      "relationship": "Grandson (Duryodhana) appeals to grandfather (Bhishma)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana describes Arjuna's destructive power, comparing him to a fire burning a forest and a hunter slaughtering animals.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Arjuna"
+      ],
+      "type": "Description of battle",
+      "action": "Metaphorical comparison of destruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma fights fiercely on the tenth day, slaughtering enemies with arrows and compared to Death with a noose.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma (Ganga's son)"
+      ],
+      "type": "Battle action",
+      "supernatural_elements": "Compared to Death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Kaurava army, led by Bhishma, charges forward against the Pandava and Srinjaya forces.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma (Ganga's son)",
+        "Kaurava army",
+        "Pandava army",
+        "Srinjaya army"
+      ],
+      "type": "Battle formation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandin (of Panchala) charges against Bhishma in battle, protected by Pandava warriors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Bhishma (Ganga's son)",
+        "Pandava warriors"
+      ],
+      "type": "Confrontation",
+      "relationship": "Shikhandin challenges Bhishma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra expresses distress about Shikhandin confronting Bhishma and Bhishma's potential defeat.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Shikhandin",
+        "Bhishma (Ganga's son)"
+      ],
+      "type": "Emotional reaction",
+      "relationship": "Father (Dhritarashtra) concerned about father figure (Bhishma)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya reports that Bhishma's bow remains unbroken and his chariot undamaged despite the battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Bhishma (Ganga's son)"
+      ],
+      "type": "Battle report"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna's arrows rout Duryodhana's army, and Bhima also disperses it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Duryodhana",
+        "Bhima"
+      ],
+      "action": "Rout and disperse army",
+      "relationship": "Arjuna and Bhima are Pandavas; Duryodhana is their Kaurava cousin and enemy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki, Yuyudhana, Nakula, Sahadeva, and Abhimanyu burn Duryodhana's army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Yuyudhana",
+        "Nakula",
+        "Sahadeva",
+        "Abhimanyu",
+        "Duryodhana"
+      ],
+      "action": "Burn army",
+      "relationship": "Satyaki and Yuyudhana are allies of Pandavas; Nakula and Sahadeva are Pandavas; Abhimanyu is Arjuna's son"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandin and Ghatotkacha drive Duryodhana's army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Ghatotkacha",
+        "Duryodhana"
+      ],
+      "action": "Drive army",
+      "relationship": "Shikhandin is a Pandava ally; Ghatotkacha is Bhima's son"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana, seeing his army slaughtered, appeals to Bhishma for help.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhishma"
+      ],
+      "action": "Appeal for help",
+      "relationship": "Duryodhana is Kaurava prince; Bhishma is his grand-uncle and Kaurava commander"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma reassures Duryodhana, recalling his promise to kill ten thousand noble Kshatriyas daily or be killed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Duryodhana"
+      ],
+      "action": "Reassure and recall promise",
+      "relationship": "Bhishma is bound by duty to Duryodhana's side"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma vows to either kill the Pandavas or be killed in battle that day to repay his debt to Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Duryodhana",
+        "Pandavas"
+      ],
+      "action": "Vow to fight to the death",
+      "relationship": "Bhishma is fighting against the Pandavas, his grandsons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma engages the Pandava army, tormenting Kshatriyas with sharp arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Pandavas"
+      ],
+      "action": "Engage and torment army",
+      "relationship": "Bhishma is fighting his grandsons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "On the tenth day, Bhishma displays great prowess, killing tens of thousands of enemies, including elephants, horsemen, and foot soldiers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Mass slaughter",
+      "supernatural_elements": "Compared to sun absorbing water with rays and smokeless fire"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas and Srinjayas, enraged, charge forward to kill Bhishma, but Duryodhana's army surrounds and protects him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Srinjayas",
+        "Bhishma",
+        "Duryodhana"
+      ],
+      "action": "Charge and protect",
+      "relationship": "Pandavas and Srinjayas are allies against Bhishma and Duryodhana"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna, witnessing Bhishma's might, urges Shikhandin to attack Bhishma, promising to shoot Bhishma down with arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Shikhandin",
+        "Bhishma"
+      ],
+      "action": "Urge attack and promise support",
+      "relationship": "Arjuna is Pandava; Shikhandin is ally; Bhishma is Arjuna's grand-uncle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandin, heeding Arjuna, charges at Bhishma, joined by Shikhandin and Abhimanyu.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Arjuna",
+        "Bhishma",
+        "Abhimanyu"
+      ],
+      "action": "Charge at Bhishma",
+      "relationship": "Shikhandin and Abhimanyu are allies of Arjuna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna (also referred to as Pritha's son, Phalguna, and Dhananjaya) spoke, inspiring his allies to charge at Bhishma (also referred to as Ganga's son).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Bhishma"
+      ],
+      "action": "Inspiring a charge",
+      "relationship": "Opponents in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Virata, Drupada, and Kuntibhoja, along with Nakula, Sahadeva, and Yudhishthira (also referred to as Dharma's son), and their armies charged at Bhishma's chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Virata",
+        "Drupada",
+        "Kuntibhoja",
+        "Nakula",
+        "Sahadeva",
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "action": "Mass charge",
+      "relationship": "Pandava allies vs. Bhishma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kaurava warriors intercepted the charging Pandava allies to protect Bhishma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kaurava warriors",
+        "Pandava allies",
+        "Bhishma"
+      ],
+      "action": "Interception/Defense",
+      "interceptions": [
+        {
+          "interceptor": "Shikhandin",
+          "target": "Bhishma"
+        },
+        {
+          "interceptor": "Kripa (also referred to as Sharadvat's son)",
+          "target": "Satyaki"
+        },
+        {
+          "interceptor": "Bhurishrava (also referred to as Somadatta's son)",
+          "target": "Satyaki"
+        },
+        {
+          "interceptor": "Drona (also referred to as Bharadvaja's son)",
+          "target": "Yudhishthira"
+        },
+        {
+          "interceptor": "Duryodhana",
+          "target": "Arjuna"
+        },
+        {
+          "interceptor": "Bhagadatta",
+          "target": "Abhimanyu"
+        },
+        {
+          "interceptor": "Ashvatthama",
+          "target": [
+            "Virata",
+            "Drupada"
+          ]
+        },
+        {
+          "interceptor": "Kritavarma",
+          "target": "Dhrishtadyumna"
+        },
+        {
+          "interceptor": "Vikarna",
+          "target": "Nakula"
+        },
+        {
+          "interceptor": "Jalasandha",
+          "target": "Bhima's son (Ghatotkacha)"
+        }
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhrishtadyumna, the Pandava army commander, rallied his troops to charge at Bhishma, claiming even Indra (also referred to as Vasava) would not fight Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "Arjuna",
+        "Indra",
+        "Bhishma"
+      ],
+      "action": "Rallying speech",
+      "supernatural_element": "Comparison to the god Indra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Inspired, the Pandava warriors charged again, but were blocked by the Kaurava warriors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava warriors",
+        "Kaurava warriors"
+      ],
+      "action": "Charge and counter-block",
+      "metaphor": "Like blocking a flood"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana, fearing for Bhishma's life, charged at Arjuna to intercept him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Arjuna",
+        "Bhishma"
+      ],
+      "action": "Interception",
+      "motive": "Protect Bhishma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna reached Duryodhana's chariot but was stopped, creating a stalemate described as a miraculous sight.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Duryodhana"
+      ],
+      "action": "Confrontation/Stalemate",
+      "metaphor": "Like a shore holding back the ocean",
+      "supernatural_element": "Described as a wondrous miracle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana and Arjuna became equally enraged and desired to kill each other, like Maya and Indra meeting in battle long ago.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Arjuna"
+      ],
+      "action": "Mutual enragement and desire to kill",
+      "supernatural_element": "Comparison to the ancient battle between Maya and Indra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana shot three arrows at Arjuna and twenty arrows at Krishna in the battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Arjuna",
+        "Krishna"
+      ],
+      "action": "Arrow attack",
+      "relationships": "Duryodhana (Kaurava) attacks Arjuna (Pandava) and Krishna (Arjuna's charioteer and ally)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing Krishna afflicted, Arjuna became furious and shot one hundred iron arrows at Duryodhana, which pierced his armor and drank his blood.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Duryodhana",
+        "Krishna"
+      ],
+      "action": "Retaliatory arrow attack",
+      "relationships": "Arjuna defends Krishna, his close friend and divine guide"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The angry Duryodhana shot five straight arrows that struck Arjuna's forehead.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Arjuna"
+      ],
+      "action": "Arrow attack hitting forehead"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna, with arrows stuck in his forehead, shone brilliantly like the high peaks of Mount Meru and like a flowering Kinshuka tree.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Display of radiant splendor despite injury",
+      "supernatural_element": "Divine or heroic radiance compared to natural wonders"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The furious Arjuna attacked Duryodhana like the demon Rahu tormenting the moon on a full moon day.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Duryodhana"
+      ],
+      "action": "Fierce assault",
+      "supernatural_element": "Comparison to the celestial conflict between Rahu and the moon"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana, attacked by the mighty warrior, shot sharp heron-feathered arrows at Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Arjuna"
+      ],
+      "action": "Arrow attack with special arrows"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The valiant Arjuna quickly cut off Duryodhana's bow and then shot nine arrows at him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Duryodhana"
+      ],
+      "action": "Destroying opponent's weapon and counter-attacking"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana, standing before Bhishma, took another bow and shot twenty-five arrows that struck Arjuna's arms and chest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Arjuna",
+        "Bhishma"
+      ],
+      "action": "Resuming attack with new weapon",
+      "relationships": "Duryodhana fights near Bhishma, the Kaurava commander and his grandsire"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna angrily shot many terrible arrows like Yama's staff at Duryodhana, but Duryodhana miraculously cut them all down before they reached him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Duryodhana"
+      ],
+      "action": "Powerful arrow attack and miraculous defense",
+      "supernatural_element": "Comparison to Yama's (god of death) staff; miraculous interception of arrows"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna then shot sharp gold-feathered arrows that pierced Duryodhana's body like swans diving into a pond.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Duryodhana"
+      ],
+      "action": "Penetrating arrow attack",
+      "supernatural_element": "Poetic comparison to swans"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Struck by Arjuna, Duryodhana left Arjuna and quickly fled to Bhishma's chariot, with Bhishma becoming his safe island in the deep.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Arjuna",
+        "Bhishma"
+      ],
+      "action": "Retreat and seeking protection",
+      "relationships": "Duryodhana seeks refuge with Bhishma, highlighting Bhishma's role as protector and commander"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After regaining consciousness, the strong warrior Duryodhana again intercepted Arjuna, showing no fear and shooting sharp arrows at him like Vritra attacking Indra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Arjuna"
+      ],
+      "action": "Resuming combat after recovery",
+      "supernatural_element": "Comparison to the mythical battle between Vritra and Indra"
+    },
+    "_token_interval": null
+  }
+]

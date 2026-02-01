@@ -1,0 +1,1417 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "护民子讲述雅度族和补卢族（婆罗多族）的世系，称其神圣、洪福齐天，能赐人钱财、荣誉、长寿。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "护民子"
+      ],
+      "type": "Narration/Introduction",
+      "relationships": [
+        "护民子向听者（无咎的人）讲述世系"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "波罗支多有十个儿子，被称为先民，但遭乌云生出的电火焚烧。",
+    "char_interval": {
+      "start_pos": 139,
+      "end_pos": 149
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "波罗支多",
+        "波罗支多的十个儿子"
+      ],
+      "type": "Catastrophe",
+      "supernatural_elements": [
+        "电火焚烧"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 48,
+      "end_index": 50
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "波罗支多族的后代陀刹（生主陀刹）与毗梨尼结合，生下一千个儿子，都恪守戒行。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "陀刹",
+        "毗梨尼"
+      ],
+      "type": "Procreation",
+      "relationships": [
+        "陀刹与毗梨尼是夫妻"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "陀刹的一千个儿子由那罗陀讲授解脱之道和僧怯（数论）智。",
+    "char_interval": {
+      "start_pos": 341,
+      "end_pos": 349
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "陀刹的一千个儿子",
+        "那罗陀"
+      ],
+      "type": "Teaching",
+      "relationships": [
+        "那罗陀是导师"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 94,
+      "end_index": 100
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "生主陀刹创造众生，将五十个女孩作为招赘女儿，分别给予正法神十个、迦叶波十三个、月神二十七个。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "陀刹",
+        "正法神",
+        "迦叶波",
+        "月神"
+      ],
+      "type": "Creation/Marriage Arrangement",
+      "relationships": [
+        "陀刹是众生的创造者",
+        "正法神、迦叶波、月神是女婿"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦叶波与陀刹耶尼（迦叶波的十三个妻子之一）生下因陀罗为首的众位阿提迭。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦叶波",
+        "陀刹耶尼",
+        "因陀罗",
+        "众位阿提迭"
+      ],
+      "type": "Procreation",
+      "relationships": [
+        "迦叶波与陀刹耶尼是夫妻",
+        "因陀罗是阿提迭之首"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "毗婆薮生下儿子阎摩，阎摩生下儿子摩尔登罗，摩尔登罗生下儿子摩奴。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "毗婆薮",
+        "阎摩",
+        "摩尔登罗",
+        "摩奴"
+      ],
+      "type": "Lineage",
+      "relationships": [
+        "毗婆薮是阎摩的父亲",
+        "阎摩是摩尔登罗的父亲",
+        "摩尔登罗是摩奴的父亲"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "摩奴的宗族（摩奴的后代）繁衍不息，生出婆罗门、刹帝利等凡人，婆罗门和刹帝利结盟，婆罗门传下吠陀及其分支。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "摩奴"
+      ],
+      "type": "Procreation/Social Structure",
+      "relationships": [
+        "摩奴是人类宗族之祖"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "摩奴有十个儿子（维那、陀哩湿奴、那黎湿耶、那跋伽、甘蔗、迦卢沙、沙尔耶提、伊罗、波哩沙陀罗、那跋伽黎湿吒），力量非凡；另有五十个儿子，但因分裂而毁灭。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "摩奴",
+        "维那",
+        "陀哩湿奴",
+        "那黎湿耶",
+        "那跋伽",
+        "甘蔗",
+        "迦卢沙",
+        "沙尔耶提",
+        "伊罗",
+        "波哩沙陀罗",
+        "那跋伽黎湿吒"
+      ],
+      "type": "Procreation/Conflict",
+      "relationships": [
+        "摩奴是这些儿子的父亲"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "伊罗生下补卢罗婆娑（洪呼），她既是母亲又是父亲。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "伊罗",
+        "补卢罗婆娑"
+      ],
+      "type": "Procreation",
+      "supernatural_elements": [
+        "伊罗兼具父母角色"
+      ],
+      "relationships": [
+        "伊罗是补卢罗婆娑的母亲/父亲"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "补卢罗婆娑统治大海的十三个岛屿，被非人类生物包围，因迷醉于勇力向婆罗门发动战争，抢走珍宝。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "补卢罗婆娑",
+        "婆罗门"
+      ],
+      "type": "Conflict",
+      "relationships": [
+        "补卢罗婆娑与婆罗门敌对"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "永童从梵天神界开导补卢罗婆娑，但补卢罗婆娑拒不接受，众位大仙震怒并诅咒他。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "永童",
+        "补卢罗婆娑",
+        "众位大仙"
+      ],
+      "type": "Divine Intervention/Curse",
+      "supernatural_elements": [
+        "永童来自梵天神界",
+        "大仙的诅咒"
+      ],
+      "relationships": [
+        "永童试图教导补卢罗婆娑",
+        "大仙与补卢罗婆娑敌对"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The greedy king was destroyed instantly due to arrogance and loss of reason.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Pururavas"
+      ],
+      "action": "Destruction",
+      "cause": "Arrogance and greed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Pururavas lived in Gandharva world with Urvashi and brought three ritual fires to earth for sacrifices.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Pururavas",
+        "Urvashi"
+      ],
+      "location": "Gandharva world",
+      "action": "Ritual preparation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ila's son (Pururavas) had six sons with Urvashi: Ayu, Amavasu, Vishvayu, Shrutayu, Shatayu, and Dridhayu.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pururavas",
+        "Urvashi",
+        "Ayu",
+        "Amavasu",
+        "Vishvayu",
+        "Shrutayu",
+        "Shatayu",
+        "Dridhayu"
+      ],
+      "relationship": "Father-son, Mother-son",
+      "action": "Procreation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ayu had five sons with Sunitha: Yadu, Turvasu, Druhyu, Anu, and Puru.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ayu",
+        "Sunitha",
+        "Yadu",
+        "Turvasu",
+        "Druhyu",
+        "Anu",
+        "Puru"
+      ],
+      "relationship": "Father-son, Mother-son",
+      "action": "Procreation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yadu, wise and brave, ruled a vast kingdom righteously and protected various beings including ancestors, gods, sages, and different castes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yadu"
+      ],
+      "action": "Righteous rule and protection",
+      "qualities": "Wise, brave, righteous"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yadu killed groups of Dasas and forced sages to carry him like beasts, then conquered heaven and attained Indra's position through his power and austerities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yadu"
+      ],
+      "action": "Conquest and ascension",
+      "supernatural": "Attained Indra's position through power and austerities"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yadu and Sharmishtha had six sons: Yayati, Sanyati, Ayati, Viyati, Kriti, and Uddhava.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yadu",
+        "Sharmishtha",
+        "Yayati",
+        "Sanyati",
+        "Ayati",
+        "Viyati",
+        "Kriti",
+        "Uddhava"
+      ],
+      "relationship": "Father-son, Mother-son",
+      "action": "Procreation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yayati, son of Yadu, became a great emperor who protected earth, performed various sacrifices, honored ancestors and gods, and bestowed favors on subjects.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yayati"
+      ],
+      "action": "Righteous rule and sacrifices",
+      "qualities": "Great emperor, truthful, brave, self-controlled"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yayati had sons with Devayani and Sharmishtha: Yadu and Turvasu from Devayani; Druhyu, Anu, and Puru from Sharmishtha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yayati",
+        "Devayani",
+        "Sharmishtha",
+        "Yadu",
+        "Turvasu",
+        "Druhyu",
+        "Anu",
+        "Puru"
+      ],
+      "relationship": "Father-son, Mother-son",
+      "action": "Procreation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yayati was conquered by old age and asked his sons to exchange their youth for his old age so he could enjoy sensual pleasures again.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yayati",
+        "Yadu",
+        "Turvasu",
+        "Druhyu",
+        "Anu",
+        "Puru"
+      ],
+      "action": "Request for youth exchange",
+      "reason": "Cursed by Shukracharya (Venus) during long sacrifice, lost sensual pleasures"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "All sons except Puru refused to exchange their youth for Yayati's old age.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yadu",
+        "Turvasu",
+        "Druhyu",
+        "Anu",
+        "Puru"
+      ],
+      "action": "Refusal of exchange",
+      "exception": "Puru agreed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Puru agreed to exchange his youth for Yayati's old age, allowing Yayati to enjoy sensual pleasures with a new body.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Puru",
+        "Yayati"
+      ],
+      "action": "Youth-old age exchange",
+      "relationship_change": "Puru demonstrates exceptional devotion to father"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yayati (迅行王) exchanged his old age with his son Puru (补卢) to regain youth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yayati",
+        "Puru"
+      ],
+      "action": "Age exchange through ascetic power",
+      "relationships": "Father-son relationship; Puru becomes heir",
+      "supernatural_elements": "Ascetic power enabling age transfer"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Puru ruled the kingdom for a thousand years while Yayati enjoyed youth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Puru",
+        "King Yayati"
+      ],
+      "action": "Puru governs kingdom",
+      "relationships": "Puru acts as regent for Yayati"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yayati, unsatisfied with pleasures after a millennium, formally established Puru as his successor and performed his coronation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yayati",
+        "Puru"
+      ],
+      "action": "Coronation and succession",
+      "relationships": "Puru officially becomes king; establishes Puru dynasty"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Janamejaya (镇群) asks about how his ancestor Yayati obtained Sharmishtha (天乘), daughter of Shukracharya (太白仙人).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Janamejaya",
+        "Vaishampayana (护民子)"
+      ],
+      "action": "Inquiry about ancestral history",
+      "relationships": "Janamejaya is descendant of Yayati; Vaishampayana is narrator"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vaishampayana begins recounting the story of Yayati and Sharmishtha, starting with the war between Devas (天神) and Asuras (阿修罗).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vaishampayana",
+        "King Janamejaya"
+      ],
+      "action": "Narrative transition to flashback",
+      "relationships": "Teacher-student relationship"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Devas and Asuras fought for control of the three worlds, with Brihaspati (毗诃波提) as Deva priest and Shukracharya as Asura priest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brihaspati",
+        "Shukracharya"
+      ],
+      "action": "Priestly rivalry in divine war",
+      "relationships": "Adversaries representing opposing factions"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shukracharya used resurrection magic (Sanjivani) to revive slain Asuras, while Brihaspati lacked this ability, giving Asuras advantage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shukracharya",
+        "Brihaspati"
+      ],
+      "action": "Magical resurrection of Asuras",
+      "supernatural_elements": "Sanjivani resurrection magic",
+      "relationships": "Shukracharya's superiority in magic"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Devas, fearing Shukracharya, approached Brihaspati's son Kacha (云发) to infiltrate Shukracharya and steal the resurrection secret.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Devas",
+        "Kacha",
+        "Shukracharya"
+      ],
+      "action": "Espionage mission",
+      "relationships": "Kacha as Brihaspati's son sent to deceive Shukracharya"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Devas instructed Kacha to gain Shukracharya's favor through his daughter Sharmishtha to acquire the resurrection magic.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kacha",
+        "Sharmishtha",
+        "Shukracharya"
+      ],
+      "action": "Plan to use romantic approach for espionage",
+      "relationships": "Kacha to befriend Sharmishtha to access her father's secrets"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shukra (Kavi) promises to satisfy Sharmishtha to obtain the magical art.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shukra (Kavi)",
+        "Sharmishtha"
+      ],
+      "type": "Agreement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shukra travels to King Vrishaparva's presence as sent by the gods.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shukra",
+        "King Vrishaparva"
+      ],
+      "type": "Journey"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shukra meets Shukracharya (Ushanas) in the Asura capital and requests to become his disciple.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shukra",
+        "Shukracharya (Ushanas)"
+      ],
+      "type": "Request"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shukracharya accepts Shukra as his disciple for one thousand years of strict celibacy.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shukracharya",
+        "Shukra"
+      ],
+      "type": "Acceptance",
+      "relationship": "Teacher-Disciple"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shukra begins to win the favor of both his teacher and Sharmishtha through strict discipline.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shukra",
+        "Shukracharya",
+        "Sharmishtha"
+      ],
+      "type": "Bonding"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shukra entertains and pleases Sharmishtha with singing, dancing, music, flowers, and fruits.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shukra",
+        "Sharmishtha"
+      ],
+      "type": "Courtship"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sharmishtha secretly follows the disciplined Shukra, and they sing together.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sharmishtha",
+        "Shukra"
+      ],
+      "type": "Attachment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After five hundred years, Danavas discover Shukra's identity and kill him in the forest out of hatred for his father Brihaspati.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shukra",
+        "Danavas"
+      ],
+      "type": "Murder",
+      "reason": "Hatred for Brihaspati and to protect the magical art"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sharmishtha notices the cattle returning without Shukra and informs her father Shukracharya, expressing distress.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sharmishtha",
+        "Shukracharya"
+      ],
+      "type": "Discovery"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shukracharya uses a resurrection spell to revive Shukra, who returns unharmed and explains he was killed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shukracharya",
+        "Shukra"
+      ],
+      "type": "Divine Intervention",
+      "supernatural": "Resurrection spell"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sharmishtha sends Shukra to gather flowers, and he is discovered again by Danavas in the forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sharmishtha",
+        "Shukra",
+        "Danavas"
+      ],
+      "type": "Peril"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Asuras killed Ushanas (Shukracharya's student) for the second time, burned him, ground him into powder, mixed the ashes into wine, and gave it to Brahmin Shukracharya to drink.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Asuras",
+        "Ushanas",
+        "Shukracharya"
+      ],
+      "action": "Killing and deception through poison/wine",
+      "type": "Conflict/Supernatural"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sharmishtha reported Ushanas' disappearance to her father Shukracharya.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sharmishtha",
+        "Shukracharya",
+        "Ushanas"
+      ],
+      "action": "Reporting disappearance",
+      "relationships": [
+        "Father-daughter",
+        "Teacher-student"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shukracharya explained to Sharmishtha that he had revived Ushanas once before using his powers, but now Ushanas was killed again, and he didn't know what to do.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shukracharya",
+        "Sharmishtha",
+        "Ushanas"
+      ],
+      "action": "Explanation of previous revival and current dilemma",
+      "supernatural_elements": [
+        "Revival through divine powers"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sharmishtha expressed deep grief over Ushanas' death, describing his noble lineage and virtues, and declared she would fast to death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sharmishtha",
+        "Ushanas"
+      ],
+      "action": "Expression of grief and vow to fast",
+      "relationships": [
+        "Romantic interest"
+      ],
+      "emotional_state": "Deep sorrow"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shukracharya became angry at the Asuras for killing his innocent student and attempting to destroy his Brahmin status, declaring their crimes had reached their limit.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shukracharya",
+        "Asuras",
+        "Ushanas"
+      ],
+      "action": "Anger and condemnation",
+      "relationships": [
+        "Teacher-student",
+        "Enmity with Asuras"
+      ],
+      "conflict": "Asuras vs. Brahmin"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Urged by Sharmishtha and angered, Shukracharya used his powers to summon Ushanas again.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shukracharya",
+        "Sharmishtha",
+        "Ushanas"
+      ],
+      "action": "Supernatural summoning",
+      "supernatural_elements": [
+        "Divine summoning spell"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ushanas responded from within Shukracharya's stomach, explaining how the Asuras killed him, burned him, ground him to powder, mixed him in wine, and made Shukracharya drink it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ushanas",
+        "Shukracharya",
+        "Asuras"
+      ],
+      "action": "Explanation of death method and current location",
+      "location": "Inside Shukracharya's stomach"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shukracharya told Sharmishtha that Ushanas could only be reborn if he (Shukracharya) died, as Ushanas was inside his stomach.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shukracharya",
+        "Sharmishtha",
+        "Ushanas"
+      ],
+      "action": "Revelation of rebirth condition",
+      "dilemma": "Teacher's death required for student's rebirth"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sharmishtha expressed double grief - for Ushanas' destruction and Shukracharya's potential death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sharmishtha",
+        "Ushanas",
+        "Shukracharya"
+      ],
+      "action": "Expression of compounded grief",
+      "emotional_state": "Torn between love for Ushanas and father"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shukracharya promised Ushanas would regain his form because of Sharmishtha's love, and offered him the resurrection spell, provided he wasn't Indra in disguise.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shukracharya",
+        "Ushanas",
+        "Sharmishtha",
+        "Indra"
+      ],
+      "action": "Promise of resurrection with conditions",
+      "supernatural_elements": [
+        "Resurrection spell",
+        "Possibility of divine disguise"
+      ],
+      "relationships": [
+        "Romantic love as catalyst for resurrection"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shukra (also known as Ushanas or Kavi) instructs his unborn son to be born from him, save him after birth, and show him proper respect after learning divine arts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shukra",
+        "Kacha"
+      ],
+      "type": "Birth instruction",
+      "supernatural_elements": [
+        "Unusual birth method"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kacha emerges from Shukra's right side after learning divine arts, appearing handsome like the full moon.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kacha",
+        "Shukra"
+      ],
+      "action": "Birth/emergence",
+      "relationships": [
+        "Teacher-student",
+        "Father-son"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kacha revives Shukra after finding him dead, having mastered the miraculous art of reviving the dead.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kacha",
+        "Shukra"
+      ],
+      "action": "Revival",
+      "supernatural_elements": [
+        "Life-restoring art"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shukra, deceived by wine and having lost his senses, realizes he had swallowed Kacha while intoxicated.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shukra",
+        "Kacha"
+      ],
+      "type": "Realization",
+      "relationships": [
+        "Teacher-student conflict"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shukra declares a prohibition against Brahmins drinking wine, stating it leads to loss of dharma and the sin of Brahminicide.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shukra"
+      ],
+      "action": "Proclamation",
+      "type": "Moral decree"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shukra announces to the Danavas that Kacha has succeeded in mastering the life-restoring art comparable to Brahma's and will continue living with him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shukra",
+        "Kacha",
+        "Danavas"
+      ],
+      "type": "Announcement",
+      "relationships": [
+        "Teacher-student",
+        "Allies against Danavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kacha lives with Shukra for a thousand years, then prepares to return to the heaven of the thirty-three gods with his teacher's permission.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kacha",
+        "Shukra"
+      ],
+      "action": "Departure preparation",
+      "relationships": [
+        "Teacher-student"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After completing his studies, Shukra sends Kacha on his way back to heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shukra",
+        "Kacha"
+      ],
+      "action": "Farewell",
+      "relationships": [
+        "Teacher-student"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Devayani (daughter of Shukra) praises Kacha for his noble birth, knowledge, austerity, and self-control, and declares her love for him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Devayani",
+        "Kacha"
+      ],
+      "type": "Romantic declaration",
+      "relationships": [
+        "Potential romantic interest"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "天乘向云发求婚，要求他牵住她的手成婚，先诵咒语，一切如仪。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "天乘",
+        "云发"
+      ],
+      "action": "求婚",
+      "relationships": "天乘爱慕云发，云发拒绝"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "云发拒绝天乘的求婚，表示他深深崇拜和敬仰她的父亲太白仙人，并依据正法，天乘作为老师的女儿，永远受到他的尊重。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "云发",
+        "天乘",
+        "太白仙人"
+      ],
+      "action": "拒绝求婚",
+      "relationships": "云发视太白仙人为老师，视天乘为老师的女儿/姐姐"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "天乘再次表达对云发的爱慕之情，提到云发三番两次受到阿修罗的谋害，从那时起，她一直钟情于他。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "天乘",
+        "云发"
+      ],
+      "action": "表白",
+      "relationships": "天乘单方面爱慕云发"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "云发再次拒绝天乘，表示天乘命令他做的是不应该做的事，并指出天乘是他的姐姐（因为两人都从迦毗之子的肚子生出来），因此不能成婚。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "云发",
+        "天乘"
+      ],
+      "action": "拒绝并解释",
+      "relationships": "云发视天乘为姐姐，拒绝基于正法"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "天乘诅咒云发，说如果他在法、欲、利方面还拒绝她，那么他的法术将不会灵验。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "天乘",
+        "云发"
+      ],
+      "action": "诅咒",
+      "supernatural_elements": "诅咒法术失效"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "云发回应诅咒，表示他拒绝天乘是因为她是老师的女儿，并非因为她有缺点，并说即使法术失效，他也可以把它传授给别人，法术在别人手里也可以有效果。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "云发",
+        "天乘"
+      ],
+      "action": "回应诅咒",
+      "relationships": "云发坚持正法，不屈服于威胁"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "云发向天乘道别，返回三十三天之主的天宫。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "云发",
+        "天乘"
+      ],
+      "action": "道别并离开",
+      "relationships": "云发结束对话，返回天界"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "因陀罗为首的众位天神看见云发归来，都去拜见毗诃波提，兴高采烈地对云发说，他为了他们的利益成就了一件崇高又神奇的功业，光荣长存不灭，将与他们共享一切。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "云发",
+        "因陀罗",
+        "众位天神",
+        "毗诃波提"
+      ],
+      "action": "欢迎和赞扬",
+      "relationships": "云发受到天神们的尊敬和感谢"
+    },
+    "_token_interval": null
+  }
+]

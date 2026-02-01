@@ -1,0 +1,520 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Bhishma how to understand people who appear warm but are not, and those who appear cold but are warm.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Philosophical Question"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma responds by citing an ancient dialogue between a tiger and a jackal.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Narrative Introduction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In the city of Bhrigu, a cruel king named Paulika, who loved killing people, died and was reborn as a jackal due to his evil deeds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Paulika"
+      ],
+      "action": "Death and Rebirth",
+      "supernatural_elements": "Rebirth due to karma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The jackal, remembering its past life, felt infinite sorrow, refused to eat meat brought by other jackals, and lived in a cremation ground.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Paulika (as jackal)"
+      ],
+      "action": "Ascetic Lifestyle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Other jackals tried to persuade Paulika to abandon his purity and eat meat like them, but he refused, arguing that behavior determines one's family and future reputation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Paulika (as jackal)",
+        "Other jackals"
+      ],
+      "action": "Moral Debate",
+      "relationships": "Conflict between ascetic and worldly jackals"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A tiger, known for its ferocity, recognized Paulika's wisdom and purity, appointed him as a minister, and offered him shared rule and enjoyments.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Tiger",
+        "Paulika (as jackal)"
+      ],
+      "action": "Appointment as Minister",
+      "relationships": "Ruler-minister relationship established"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Paulika declined the tiger's offer, stating he was content without power or enjoyments, and advised the tiger to respect loyal, wise ministers like teachers or fathers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Paulika (as jackal)",
+        "Tiger"
+      ],
+      "action": "Refusal and Advice",
+      "relationships": "Minister advises ruler on governance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The jackal expresses concerns about the king's old ministers having bad character and potentially causing discord.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jackal",
+        "Tiger (King)"
+      ],
+      "type": "Dialogue/Condition Setting",
+      "relationships": "Potential advisor to king"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The jackal praises the tiger king's virtues but explains his own preference for free forest life over royal service.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jackal",
+        "Tiger (King)"
+      ],
+      "type": "Philosophical Statement",
+      "relationships": "Subject addressing ruler"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The jackal agrees to become minister only if specific conditions are met regarding his treatment and working arrangements.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jackal",
+        "Tiger (King)"
+      ],
+      "type": "Agreement/Condition",
+      "conditions": [
+        "Respect for jackal's followers",
+        "Private consultations only",
+        "No involvement in royal family matters",
+        "No punishment of old ministers after jackal's advice",
+        "No anger toward jackal's followers"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The tiger king accepts the conditions and appoints the jackal as his minister.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Tiger (King)",
+        "Jackal"
+      ],
+      "type": "Appointment",
+      "relationships": "King appoints minister",
+      "change": "Jackal becomes royal advisor"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The old ministers become jealous and conspire against the jackal because they can no longer steal under his governance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Old Ministers",
+        "Jackal"
+      ],
+      "type": "Conspiracy",
+      "motivation": "Jealousy and loss of corrupt income",
+      "relationships": "Hostile colleagues"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The old ministers steal the king's favorite meat and plant it in the jackal's house to frame him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Old Ministers",
+        "Jackal"
+      ],
+      "type": "Framing/Deception",
+      "action": "Theft and false evidence planting"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The jackal knows about the conspiracy but remains silent, trusting his prior agreement with the king.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jackal"
+      ],
+      "type": "Strategic Silence",
+      "reason": "Relies on king's promise of trust"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The tiger king discovers the missing meat and orders the thief to be found.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Tiger (King)"
+      ],
+      "type": "Investigation Order",
+      "action": "Search for thief"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The old ministers falsely accuse the jackal of stealing the meat and being arrogant.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Old Ministers",
+        "Jackal",
+        "Tiger (King)"
+      ],
+      "type": "False Accusation",
+      "accusation": "Theft by jackal"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The tiger king becomes furious and wants to execute the jackal based on the accusation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Tiger (King)",
+        "Jackal"
+      ],
+      "type": "Judgment",
+      "emotional_state": "King's anger",
+      "potential_action": "Execution"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The old ministers reinforce their accusation, claiming the jackal wants to destroy everyone's livelihood and is actually cruel despite appearing virtuous.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Old Ministers",
+        "Jackal"
+      ],
+      "type": "Character Assassination",
+      "claims": [
+        "Jackal is destructive",
+        "Jackal is hypocritically cruel"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Tiger orders execution of jackal based on accusations of meat theft.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Tiger",
+        "Jackal"
+      ],
+      "action": "Death sentence",
+      "reason": "Accusations of theft"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Tiger's mother advises Tiger against hasty judgment, warning about false accusations from envy and competition.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Tiger's mother",
+        "Tiger"
+      ],
+      "relationship": "Mother-son",
+      "advice_type": "Caution against injustice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Tiger's mother urges careful investigation, noting appearances can be deceptive and that true strength lies in forgiveness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Tiger's mother",
+        "Tiger"
+      ],
+      "key_points": [
+        "Need for thorough investigation",
+        "Value of forgiveness",
+        "Deceptive appearances"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A noble soul from enemy camp reveals the conspiracy, exposing the truth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Noble soul (from enemy camp)",
+        "Tiger",
+        "Jackal"
+      ],
+      "action": "Truth revelation",
+      "outcome": "Conspiracy exposed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Jackal is freed and honored by Tiger with repeated embraces.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Tiger",
+        "Jackal"
+      ],
+      "action": "Reconciliation and honor",
+      "change": "From condemned to honored"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Jackal, knowledgeable in statecraft, decides to leave and fast to death, expressing deep hurt over the betrayal.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jackal",
+        "Tiger"
+      ],
+      "action": "Resignation and planned suicide",
+      "emotion": "Betrayal, sorrow"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Tiger, moved to tears, tries to persuade Jackal to stay, showing respect for his adherence to dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Tiger",
+        "Jackal"
+      ],
+      "action": "Persuasion to stay",
+      "emotion": "Remorse, respect"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Jackal explains he cannot stay due to lost trust and honor, highlighting the instability of a relationship marred by suspicion and insult.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jackal",
+        "Tiger"
+      ],
+      "key_points": [
+        "Broken trust",
+        "Impossibility of reconciliation",
+        "Dangers of mutual suspicion"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The jackal spoke affectionate words in accordance with dharma and artha, pleasing the king of beasts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jackal",
+        "King of beasts"
+      ],
+      "action": "Speech/Advice",
+      "relationships": "Advisor to ruler",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The wise jackal did not accept the king's favor, continued fasting, abandoned his body, and went to heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jackal",
+        "King of beasts"
+      ],
+      "action": "Renunciation/Death",
+      "relationships": "Rejection of royal favor",
+      "supernatural_elements": "Ascension to heaven"
+    },
+    "_token_interval": null
+  }
+]

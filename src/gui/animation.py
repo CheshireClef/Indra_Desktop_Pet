@@ -1,4 +1,8 @@
 # src/gui/animation.py
+"""
+动画驱动模块
+负责加载和管理桌宠的帧动画 (Frame Animation) 和表情图标 (Emoji)。
+"""
 from PySide6.QtCore import QTimer, QObject, Signal  # 新增 Signal 导入
 from PySide6.QtGui import QPixmap
 from PySide6.QtCore import Qt
@@ -11,8 +15,9 @@ EMOJI_SIZE = 64  # 表情在基准尺寸下的固定大小（九宫格右上角�
 class AnimationDriver(QObject):
     """
     AnimationDriver
-    - 管理所有动画帧
-    - 只负责“怎么播”，不关心“什么时候播”
+    - 管理所有动画帧 (Frames)
+    - 管理表情资源 (Emojis)
+    - 负责定时触发下一帧信号，不直接操作 UI 组件，只发送信号
     """
     idle_frames_loaded = Signal()
     # 新增：表情加载完成信号
@@ -54,7 +59,7 @@ class AnimationDriver(QObject):
         return None
 
     def _load_all_emojis(self):
-        """预加载所有情绪标签对应的表情图片"""
+        """预加载所有情绪标签对应的表情图片，并缩放到标准尺寸"""
         emoji_dir = resource_path("assets/images/emoji")
         if not os.path.isdir(emoji_dir):
             print(f"[AnimationDriver] 表情目录不存在：{emoji_dir}")

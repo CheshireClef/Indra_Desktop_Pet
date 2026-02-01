@@ -1,0 +1,1524 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Bhishma to explain the difference between Sankhya and Yoga.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Philosophical Inquiry",
+      "relationship": "Grandson asks grandfather for wisdom"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma explains that both Sankhya and Yoga are praised by their respective followers and lead to liberation when practiced according to their scriptures.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Philosophical Explanation",
+      "key_points": [
+        "Sankhya praised by Sankhya followers",
+        "Yoga praised by Yoga practitioners",
+        "Both lead to liberation when properly practiced"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira questions how there can be different views if both require purity, compassion, and vow-keeping.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "type": "Philosophical Question",
+      "relationship": "Student seeking clarification"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma explains that Yoga requires eliminating five defects (passion, ignorance, affection, desire, anger) to achieve liberation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Philosophical Instruction",
+      "key_points": [
+        "Yoga eliminates five defects",
+        "Leads to liberation"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma uses analogies to explain the power of Yoga: fish breaking nets, beasts breaking bonds, birds escaping traps, fire burning everything, elephants blocking water.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Philosophical Analogy",
+      "key_points": [
+        "Powerful yogis break free like animals",
+        "Weak ones perish like trapped creatures",
+        "Yogis can control senses and resist temptations"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma describes how powerful yogis can enter various beings and cannot be controlled by death gods.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Supernatural Description",
+      "key_points": [
+        "Yogis can enter beings",
+        "Immune to control by Yama, Rudra, or Mrityu"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "瑜伽行者获得力量，可以化出数以千计的自己，与它们一起行走在大地上。",
+    "char_interval": {
+      "start_pos": 1002,
+      "end_pos": 1035
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "瑜伽行者"
+      ],
+      "action": "获得分身力量",
+      "supernatural_elements": "分身术"
+    },
+    "_token_interval": {
+      "start_index": 287,
+      "end_index": 293
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "瑜伽行者具有力量，不受束缚，能够获得解脱。",
+    "char_interval": {
+      "start_pos": 1093,
+      "end_pos": 1113
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "瑜伽行者"
+      ],
+      "action": "获得解脱",
+      "type": "Spiritual Achievement"
+    },
+    "_token_interval": {
+      "start_index": 311,
+      "end_index": 316
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "瑜伽行者专心致志，迅速达到至高境界，犹如飞箭迅速命中目标。",
+    "char_interval": {
+      "start_pos": 1405,
+      "end_pos": 1423
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "瑜伽行者"
+      ],
+      "action": "专注修行达到至高境界",
+      "type": "Spiritual Practice"
+    },
+    "_token_interval": {
+      "start_index": 412,
+      "end_index": 416
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "瑜伽行者进入灵魂，寂然不动，肯定达到不朽的境界。",
+    "char_interval": {
+      "start_pos": 1442,
+      "end_pos": 1465
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "瑜伽行者"
+      ],
+      "action": "灵魂入定达到不朽",
+      "type": "Spiritual Achievement"
+    },
+    "_token_interval": {
+      "start_index": 423,
+      "end_index": 428
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "瑜伽行者恪守大誓愿，沉思入定，将微妙的灵魂安置在身体各处。",
+    "char_interval": {
+      "start_pos": 1517,
+      "end_pos": 1532
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "瑜伽行者"
+      ],
+      "action": "灵魂安置修行",
+      "type": "Spiritual Practice"
+    },
+    "_token_interval": {
+      "start_index": 457,
+      "end_index": 461
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "瑜伽行者智慧纯净，依靠至高的瑜伽，迅速焚毁一切善业和恶业，如愿获得解脱。",
+    "char_interval": {
+      "start_pos": 1556,
+      "end_pos": 1589
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "瑜伽行者"
+      ],
+      "action": "焚毁业力获得解脱",
+      "type": "Spiritual Achievement"
+    },
+    "_token_interval": {
+      "start_index": 468,
+      "end_index": 476
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战询问瑜伽行者平时吃些什么和需要克服什么。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战"
+      ],
+      "action": "询问修行细节",
+      "type": "Dialogue"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "毗湿摩回答瑜伽行者吃碎米、油饼，戒绝油腻，获得力量。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "毗湿摩"
+      ],
+      "action": "说明饮食戒律",
+      "type": "Instruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "瑜伽行者需要克服爱欲、愤怒、冷热晴雨、恐惧、昏睡、呼吸、雄性和各种感官对象。",
+    "char_interval": {
+      "start_pos": 1777,
+      "end_pos": 1809
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "瑜伽行者"
+      ],
+      "action": "克服各种障碍",
+      "type": "Spiritual Practice"
+    },
+    "_token_interval": {
+      "start_index": 544,
+      "end_index": 558
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "智慧的婆罗门的这条道路崎岖难行，犹如进入一座可怕的森林，充满毒蛇和爬虫，到处是陷阱和荆棘。",
+    "char_interval": {
+      "start_pos": 1898,
+      "end_pos": 1914
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "智慧的婆罗门"
+      ],
+      "action": "描述修行道路的艰难",
+      "type": "Metaphorical Description"
+    },
+    "_token_interval": {
+      "start_index": 581,
+      "end_index": 583
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text describes the dangers and difficulties of the yoga path, comparing it to a wilderness after a forest fire, with no food, bandits, and only the strong able to pass.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Metaphorical Description",
+      "action": "Warning about the yoga path"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "It states that a Brahmin who starts on the yoga path and then stops is considered to have committed a serious fault.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Moral Instruction",
+      "action": "Condemnation of abandoning yoga"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yoga practice is likened to a sharp razor's edge, difficult for those with imperfect souls to stand upon.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Metaphorical Description",
+      "action": "Illustrating the difficulty of yoga"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "If yoga practice deviates, it brings severe consequences, like a ship on the sea losing its helmsman, leading to disaster.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Warning",
+      "action": "Consequences of improper yoga"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Whoever practices yoga according to the rules can be freed from the cycle of birth, death, pleasure, and pain.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Promise",
+      "action": "Benefit of proper yoga practice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker claims to have described the supreme yoga confirmed among the twice-born, based on various scriptures.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Conclusion",
+      "action": "Affirmation of yoga teachings"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A list of divine beings and concepts is mentioned, including Brahma, Vishnu, Shiva, and various gods, as well as the three gunas (sattva, rajas, tamas).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma",
+        "Vishnu",
+        "Shiva"
+      ],
+      "type": "Divine Enumeration",
+      "action": "Listing divine entities and qualities"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "It is said that a noble yogi, with Narayana as their soul, practicing yoga, surpasses all ordinary humans.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narayana"
+      ],
+      "type": "Divine Achievement",
+      "action": "Yogi's transcendence"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira praises Bhishma for his truthful explanation of the yoga path recognized by sages and requests a complete account of Samkhya principles.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Dialogue",
+      "action": "Request for further teaching",
+      "relationship": "Student-teacher (Yudhishthira is student, Bhishma is teacher)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma agrees to explain the pure principles of Samkhya, established by sages like Kapila, which are free from error and full of merits.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Kapila"
+      ],
+      "type": "Instruction",
+      "action": "Introduction to Samkhya",
+      "relationship": "Teacher-student (Bhishma teaching Yudhishthira)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma begins to describe the knowledge that understands all objects as having defects, including difficult-to-control beings, demons, and various celestial and earthly entities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Philosophical Teaching",
+      "action": "Explaining Samkhya knowledge"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "He mentions understanding the highest limits of lifespan, the nature of happiness, and the suffering of those chasing sensory objects, leading to rebirth as animals or falling into hell.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Moral and Cosmological Teaching",
+      "action": "Describing consequences of actions"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma speaks of understanding the merits and demerits of heaven, Vedic doctrines, yoga, and Samkhya, as well as the qualities of the three gunas and the intellect.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Philosophical Analysis",
+      "action": "Comparing spiritual paths and qualities"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Understanding the qualities of emptiness (six qualities), mind (five qualities), consciousness (four qualities), and dark nature (three qualities).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Philosophical teaching",
+      "concepts": [
+        "emptiness",
+        "mind",
+        "consciousness",
+        "dark nature"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Understanding the qualities of sorrowful nature (two qualities) and virtuous nature (one quality), and the path followed during destruction.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Philosophical teaching",
+      "concepts": [
+        "sorrowful nature",
+        "virtuous nature",
+        "destruction path"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Those with knowledge and experience, purifying their souls through various virtuous deeds, attain pure liberation, ascending like subtle light and wind to the celestial summit.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Spiritual attainment",
+      "concepts": [
+        "liberation",
+        "purification",
+        "ascent"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Description of various attachments: eyes to form, nose to smell, ears to sound, tongue to taste, body to touch, wind to emptiness, ignorance to dark nature, desire to sense objects.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Philosophical teaching",
+      "concepts": [
+        "attachment",
+        "senses",
+        "desire",
+        "ignorance"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Description of divine attachments: Vishnu to strides, Indra to strength, fire to stomach, earth to water, water to fire, fire to wind, wind to emptiness, emptiness to the great, the great to consciousness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu",
+        "Indra"
+      ],
+      "type": "Philosophical teaching",
+      "concepts": [
+        "divine attachments",
+        "cosmic order"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Consciousness attaches to dark nature, dark nature to sorrowful nature, sorrowful nature to virtuous nature, virtuous nature to soul, soul to the great god Narayana, the great god to liberation, and liberation attaches to nothing.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narayana"
+      ],
+      "type": "Philosophical teaching",
+      "concepts": [
+        "soul",
+        "liberation",
+        "cosmic hierarchy"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Understanding that the body contains virtuous nature with sixteen qualities, and that nature and mind are attached to the body.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Philosophical teaching",
+      "concepts": [
+        "body",
+        "nature",
+        "mind"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The soul remains neutral in the body, untainted by sin, and understanding the actions of those chasing sense objects.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Philosophical teaching",
+      "concepts": [
+        "soul neutrality",
+        "sin",
+        "sense objects"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Understanding the attachments of various senses and sense objects to the soul, and the vital breaths: prana, apana, samana, vyana, udana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Philosophical teaching",
+      "concepts": [
+        "vital breaths",
+        "senses",
+        "soul"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Description of seven winds and seven qualities, understanding many Prajapatis, exalted paths, seven sages, and royal sages.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Philosophical teaching",
+      "concepts": [
+        "winds",
+        "Prajapatis",
+        "sages"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Many great gods and sages, radiant like the sun, fall from high positions after a long time.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Philosophical teaching",
+      "concepts": [
+        "fall from grace",
+        "divine beings"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Hearing about the destruction of great beings and understanding the miserable fate of evildoers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Philosophical teaching",
+      "concepts": [
+        "destruction",
+        "evil consequences"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Understanding the suffering of falling into Yama's Vaitarani river and miserable rebirths in various wombs.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yama"
+      ],
+      "type": "Philosophical teaching",
+      "concepts": [
+        "hell",
+        "rebirth",
+        "suffering"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Description of dwelling in impure wombs filled with blood and water, emitting foul smells of mucus and feces.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Philosophical teaching",
+      "concepts": [
+        "impurity",
+        "womb",
+        "suffering"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Understanding one's own formation from sperm and blood, with marrow and tendons, filled with hundreds of blood vessels, residing in the impure nine-gated city (body).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Philosophical teaching",
+      "concepts": [
+        "body composition",
+        "impurity"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Understanding one's unfavorable situation and various relationships, with dark-natured people indulging in pleasant sense objects.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Philosophical teaching",
+      "concepts": [
+        "relationships",
+        "dark nature",
+        "indulgence"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Even virtuous-natured people have suffering, and Sankhya philosophers who know the soul condemn sense objects.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Philosophical teaching",
+      "concepts": [
+        "suffering",
+        "virtuous nature",
+        "Sankhya philosophy"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Observation of terrifying lunar and solar eclipses, falling meteors, and disappearing constellations.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Cosmic phenomena",
+      "concepts": [
+        "eclipses",
+        "meteors",
+        "constellations"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing pairs tragically separated and beings cruelly devouring each other.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Observation of suffering",
+      "concepts": [
+        "separation",
+        "cruelty"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Understanding childhood ignorance, miserable bodily decay, entanglement in passion and ignorance, with few relying on virtuous nature.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 20,
+    "group_index": 19,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Philosophical teaching",
+      "concepts": [
+        "ignorance",
+        "decay",
+        "passion"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Among thousands, only one pursues the wisdom of liberation, showing how rare it is to attain liberation through scriptures.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 21,
+    "group_index": 20,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Philosophical teaching",
+      "concepts": [
+        "liberation",
+        "rarity",
+        "wisdom"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Praising those who haven't attained liberation while disregarding those who have - this is the evil nature of sense objects.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 22,
+    "group_index": 21,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Philosophical teaching",
+      "concepts": [
+        "misplaced values",
+        "sense objects"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing the ugly bodies of those who have lost life and understanding the suffering of household life.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 23,
+    "group_index": 22,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Observation of suffering",
+      "concepts": [
+        "death",
+        "household suffering"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Understanding the miserable fate of evildoers who commit Brahminicide, and of evil-natured Brahmins who drink alcohol and defile their teacher's wife.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 24,
+    "group_index": 23,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Philosophical teaching",
+      "concepts": [
+        "evil consequences",
+        "Brahminicide",
+        "defilement"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Some people do not treat their mothers well, nor do they treat devout people well.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 25,
+    "group_index": 24,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Moral teaching",
+      "concepts": [
+        "filial piety",
+        "respect",
+        "devotion"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Bhishma about the defects of the human body.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Philosophical Inquiry",
+      "relationship": "Grandson seeks wisdom from grandfather/teacher"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma explains that the Sankhya philosophers identify five defects of the body: desire, anger, fear, sleepiness, and breath.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Philosophical Teaching",
+      "source": "Sankhya philosophers/Kapila"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma describes remedies for each defect: generosity for anger, abandoning desire for lust, maintaining goodness for sleepiness, carefulness for fear, and measured eating for breath.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Spiritual Instruction",
+      "audience": "Yudhishthira"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma teaches that one should understand hundreds of virtues, defects, and causes through knowledge.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Philosophical Teaching",
+      "theme": "Discernment through knowledge"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma describes the world as transient and illusory like water bubbles, foam, paintings, or hollow reeds, filled with Vishnu's illusions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Metaphysical Description",
+      "supernatural_elements": [
+        "Vishnu's illusions (Maya)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma explains that Sankhya philosophers use the sword of knowledge and staff of asceticism to eliminate the odors of passion (rajas), darkness (tamas), and goodness (sattva) produced by bodily contact.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Spiritual Practice",
+      "method": "Knowledge and asceticism"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma describes life as a terrible ocean to be crossed with wisdom, using extended metaphors for various aspects of existence.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Allegorical Teaching",
+      "metaphor": "Ocean of life with various symbolic elements"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text describes the journey of successful ascetics (Munis and Yatis) across the metaphorical ocean of life to reach the Supreme Soul (Paramatman).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Munis",
+        "Yatis"
+      ],
+      "action": "Spiritual journey and liberation",
+      "supernatural_elements": [
+        "Yoga",
+        "Sun's rays",
+        "Wind (Maruts)",
+        "Ether (Akasha)",
+        "Gunas (Sattva, Rajas, Tamas)",
+        "Lord Narayana"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira (referred to as 'King', 'Son of Kunti', 'Son of Pritha') questions Bhishma (referred to as 'Kuru descendant', 'Bull of the Bharata race') about whether liberated souls retain memory of past lives.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "relationship": "Grandson and grandfather; student and teacher",
+      "type": "Philosophical inquiry"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma acknowledges the difficulty of the question and explains the nature of the soul (Atman) according to the Kapila school (Sankhya philosophy).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Teaching spiritual doctrine",
+      "philosophical_concepts": [
+        "Atman (soul)",
+        "Indriyas (senses)",
+        "Gunas",
+        "Elements (earth, water, fire, wind, ether)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma describes the soul as subtle, awake, and pervading all elements and qualities, while the senses are its instruments that become inert without it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Explaining soul's supremacy",
+      "key_point": "Soul is eternal and conscious; senses are temporary tools"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text describes the philosophical doctrine of Samkhya (Sankhya) and its relationship to the soul (Atman), the primordial nature (Prakriti), and the supreme soul (Paramatman or Narayana).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Soul (Atman)",
+        "The Supreme Soul (Narayana/Paramatman)",
+        "Primordial Nature (Prakriti)"
+      ],
+      "action": "Philosophical exposition on liberation",
+      "relationships": "The soul transcends Prakriti to merge with the eternal, unchanging Narayana, achieving liberation (moksha)."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The soul, freed from good and evil, enters the supreme soul, becoming free from disease and gender, and does not return to the cycle of rebirth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Soul (Atman)",
+        "The Supreme Soul"
+      ],
+      "action": "Achievement of final liberation",
+      "supernatural_elements": "Transcendental state beyond rebirth."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The mind and senses, like obedient students, return (to their source) at the proper time.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Mind",
+        "The Senses"
+      ],
+      "action": "Dissolution of mental and sensory faculties",
+      "relationships": "Implied submission to a higher principle (the soul or supreme soul)."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A wise Samkhya follower, through this knowledge, attains the highest goal. No other knowledge compares to this Samkhya knowledge, which is identified with the eternal, imperishable, unmanifest Brahman.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Samkhya Follower",
+        "Brahman"
+      ],
+      "action": "Attainment of supreme knowledge and goal",
+      "relationships": "Samkhya knowledge is the path to realizing Brahman."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Calm-souled beings praise this (Samkhya/Brahman) as the creator, without beginning, end, or middle, free from opposites, eternally established.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Calm-souled Beings",
+        "The Creator (identified with Samkhya/Brahman/Narayana)"
+      ],
+      "action": "Praise and identification of the supreme principle",
+      "supernatural_elements": "Description of the absolute, transcendental reality."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Creation, destruction, and all change originate from it (Samkhya/Brahman). Sages praise it in various scriptures.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Sages"
+      ],
+      "action": "Attribution of cosmic functions",
+      "relationships": "Sages are authorities who recognize and teach this truth."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "All Brahmins, gods, and those learned in scriptures praise it as lofty, sacred, infinite, and never falling.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmins",
+        "Gods",
+        "The Learned"
+      ],
+      "action": "Universal praise",
+      "relationships": "Various exalted beings acknowledge the supremacy of this knowledge/reality."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahmins aspire to it and praise it. Correctly practicing Yogis and far-seeing Samkhya followers also praise it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmins",
+        "Yogis",
+        "Samkhya Followers"
+      ],
+      "action": "Aspiration and practice",
+      "relationships": "Different spiritual paths (Brahminical, Yoga, Samkhya) converge in praising this supreme knowledge."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "It is said that Samkhya is the form of the formless, and its characteristic is knowledge of Brahman.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Definitional statement",
+      "relationships": "Equates Samkhya philosophy with the knowledge of the ultimate reality (Brahman)."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "On earth, there are two kinds of beings: moving and non-moving (animate and inanimate), with the animate being superior.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Cosmological classification"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Great knowledge exists in the Vedas, Samkhya, and Yoga. Complete Samkhya is also found in various Puranas, the great historical legends (Itihasas like the Mahabharata), texts on statecraft, and even worldly knowledge.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Assertion of Samkhya's pervasiveness",
+      "relationships": "Posits Samkhya as the foundational wisdom underlying all sacred and secular knowledge systems."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Inner peace, supreme power, subtle knowledge, subtle asceticism, and happiness are all contained within Samkhya.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Enumeration of benefits"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Even if a Samkhya follower's progress is interrupted, they go to heaven, dwell with the gods, enjoy long happiness, and are later reborn as a Brahmin or Yati (ascetic).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Samkhya Follower",
+        "The Gods"
+      ],
+      "action": "Intermediate reward for partial practice",
+      "supernatural_elements": "Heavenly afterlife and favorable rebirth.",
+      "relationships": "The Samkhya follower gains a positive relationship with the gods."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ultimately, the Samkhya follower leaves the body and achieves liberation, rising into the sky like the gods.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Samkhya Follower"
+      ],
+      "action": "Final liberation",
+      "supernatural_elements": "Soul's ascent to liberation."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Therefore, Brahmins are especially devoted to the valuable Samkhya, beloved of sages. A Brahmin devoted to this knowledge is never seen reborn as an animal or falling into the base state of a foolish evildoer.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmins"
+      ],
+      "action": "Endorsement and guarantee",
+      "relationships": "Brahmins have a special affinity for Samkhya, which protects them from low rebirths."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Samkhya is vast, lofty, ancient, pure, and lovely like the ocean. The great-souled Narayana sustains all of immeasurable Samkhya.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narayana"
+      ],
+      "action": "Final glorification",
+      "relationships": "Narayana is the sustainer and essence of Samkhya philosophy."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker concludes by stating they have told this truth: it is Narayana, the ancient universe. In creation, Narayana creates everything; in destruction, he swallows everything.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narayana"
+      ],
+      "action": "Cosmic summary",
+      "supernatural_elements": "Narayana as the source and end of all cosmic cycles (creation and destruction)."
+    },
+    "_token_interval": null
+  }
+]

@@ -1,0 +1,816 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma narrates an ancient legend about a battle between King Shantanu and King Janaka of Mithila.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "King Shantanu",
+        "King Janaka"
+      ],
+      "type": "Narration",
+      "relationships": "Bhishma is advising Yudhishthira; King Shantanu and King Janaka are historical kings mentioned in the legend"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Janaka performs the sacred thread ceremony for his warriors before battle and shows them visions of heaven and hell.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Janaka"
+      ],
+      "action": "Motivational speech and divine vision",
+      "supernatural_elements": "Display of heavenly and hellish realms"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Janaka encourages his warriors to fight bravely to attain heaven and avoid the shame of hell.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Janaka"
+      ],
+      "message": "Warriors should be fearless and dedicated to avoid dishonor"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The inspired warriors defeat their enemies and please King Janaka.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Janaka",
+        "Warriors of Mithila"
+      ],
+      "outcome": "Victory in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma describes the ideal battlefield formation with charioteers among elephants, cavalry behind them, and infantry at the rear.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Military strategy advice",
+      "relationships": "Bhishma is teaching Yudhishthira"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma advises Yudhishthira to maintain confidence, protect conquered land, and not pursue fleeing enemies excessively.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Yudhishthira"
+      ],
+      "advice": "Strategic restraint and protection of gains"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma explains that the world depends on warriors, and courage is the highest virtue in the three worlds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "philosophical_point": "The importance of warriors in society"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks how a king can lead an army to victory while maintaining dharma, even with minor compromises.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Question about ethics in warfare",
+      "relationships": "Yudhishthira seeks guidance from his elder"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma responds that dharma is based on truth, with different interpretations, and advises using both straightforward and cunning wisdom against enemies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "advice": "Adaptive approach to dharma in conflict",
+      "key_concept": "Dharma can be achieved through various means including strategic cunning against adversaries"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "敌人对国王施展离间计，国王懂得这种诡诈，也用它对付敌人。",
+    "char_interval": {
+      "start_pos": 995,
+      "end_pos": 1023
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "敌人",
+        "国王"
+      ],
+      "action": "施展离间计",
+      "type": "军事策略"
+    },
+    "_token_interval": {
+      "start_index": 307,
+      "end_index": 313
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "列举大象的护腹、公牛、蟒蛇、箭镞、盔甲、铁器和胸甲等军事装备。",
+    "char_interval": {
+      "start_pos": 1027,
+      "end_pos": 1051
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "军队"
+      ],
+      "action": "装备列举",
+      "type": "军事准备"
+    },
+    "_token_interval": {
+      "start_index": 316,
+      "end_index": 328
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "描述锋利发亮的武器，黄色或赤色的铠甲，染有各种色彩的旗杆和旗帜。",
+    "char_interval": {
+      "start_pos": 1054,
+      "end_pos": 1084
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "军队"
+      ],
+      "action": "武器和旗帜描述",
+      "type": "军事准备"
+    },
+    "_token_interval": {
+      "start_index": 331,
+      "end_index": 337
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "描述锋利的长矛、刀剑和斧子，各种精制的盾牌和武器，英勇的士兵。",
+    "char_interval": {
+      "start_pos": 1087,
+      "end_pos": 1116
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "军队"
+      ],
+      "action": "武器和士兵描述",
+      "type": "军事准备"
+    },
+    "_token_interval": {
+      "start_index": 340,
+      "end_index": 348
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "制怛罗月和末伽始罗月适宜军队行动，因为大地上谷物成熟，水源充足。",
+    "char_interval": {
+      "start_pos": 1119,
+      "end_pos": 1151
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "军队"
+      ],
+      "action": "选择适宜月份",
+      "reason": "谷物成熟，水源充足",
+      "type": "军事时机"
+    },
+    "_token_interval": {
+      "start_index": 351,
+      "end_index": 357
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "这时既不太冷，也不太热，军队可以采取行动，婆罗多子孙啊！如果敌人遭遇灾难，那么军队可以随时采取行动，打击敌人。",
+    "char_interval": {
+      "start_pos": 1154,
+      "end_pos": 1209
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "军队",
+        "敌人"
+      ],
+      "action": "选择适宜气候和时机",
+      "type": "军事时机"
+    },
+    "_token_interval": {
+      "start_index": 360,
+      "end_index": 374
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "道路应该平坦通畅，有水有草，应该由熟悉林区、经验丰富的探子探明情况。",
+    "char_interval": {
+      "start_pos": 1213,
+      "end_pos": 1247
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "军队",
+        "探子"
+      ],
+      "action": "道路选择和侦察",
+      "type": "军事准备"
+    },
+    "_token_interval": {
+      "start_index": 377,
+      "end_index": 385
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "军队不能像林中的野兽那样行走，因此，想要取胜的国王为军队确定行军路线。",
+    "char_interval": {
+      "start_pos": 1251,
+      "end_pos": 1286
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "国王",
+        "军队"
+      ],
+      "action": "确定行军路线",
+      "type": "军事策略"
+    },
+    "_token_interval": {
+      "start_index": 388,
+      "end_index": 394
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "营地应该有水源，堡垒周围应该空旷，便于打击来犯的敌军。",
+    "char_interval": {
+      "start_pos": 1291,
+      "end_pos": 1318
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "军队"
+      ],
+      "action": "选择营地位置",
+      "type": "军事准备"
+    },
+    "_token_interval": {
+      "start_index": 397,
+      "end_index": 403
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "树林附近的空旷地带最为适宜，具有许多优点。士兵们个个善于战斗。",
+    "char_interval": {
+      "start_pos": 1322,
+      "end_pos": 1353
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "军队"
+      ],
+      "action": "选择战斗地点",
+      "type": "军事准备"
+    },
+    "_token_interval": {
+      "start_index": 406,
+      "end_index": 412
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "步兵注意隐蔽，以便在危急关头，突袭敌人。",
+    "char_interval": {
+      "start_pos": 1357,
+      "end_pos": 1377
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "步兵",
+        "敌人"
+      ],
+      "action": "隐蔽和突袭",
+      "type": "军事策略"
+    },
+    "_token_interval": {
+      "start_index": 415,
+      "end_index": 421
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "让七仙人星宿保持在身后，士兵们在战斗中会坚定不移，如同山岳。依据这种规则，有望战胜难以战胜的敌人。",
+    "char_interval": {
+      "start_pos": 1381,
+      "end_pos": 1430
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "军队",
+        "敌人"
+      ],
+      "action": "遵循星宿规则",
+      "type": "军事策略",
+      "supernatural_elements": "星宿影响"
+    },
+    "_token_interval": {
+      "start_index": 424,
+      "end_index": 434
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "有风，有太阳，有太白金星，便有胜利。而它们之中，前者依次优于后者，坚战啊！",
+    "char_interval": {
+      "start_pos": 1434,
+      "end_pos": 1471
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战"
+      ],
+      "action": "描述胜利征兆",
+      "type": "军事策略",
+      "supernatural_elements": "自然征兆"
+    },
+    "_token_interval": {
+      "start_index": 437,
+      "end_index": 451
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "精通战争的人们认为没有泥沼，没有水洼，没有障碍，没有乱石，这样的地面适合马兵。",
+    "char_interval": {
+      "start_pos": 1475,
+      "end_pos": 1514
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "马兵"
+      ],
+      "action": "选择适合地形",
+      "type": "军事策略"
+    },
+    "_token_interval": {
+      "start_index": 454,
+      "end_index": 464
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "平坦开阔，没有水洼，这样的地面适合车兵。灌木丛，树林，水洼，这样的地面适合象兵。",
+    "char_interval": {
+      "start_pos": 1518,
+      "end_pos": 1558
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "车兵",
+        "象兵"
+      ],
+      "action": "选择适合地形",
+      "type": "军事策略"
+    },
+    "_token_interval": {
+      "start_index": 467,
+      "end_index": 481
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "崎岖难行，遍布蔓藤和竹子的树林，这样的地面和山林适合步兵。",
+    "char_interval": {
+      "start_pos": 1562,
+      "end_pos": 1591
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "步兵"
+      ],
+      "action": "选择适合地形",
+      "type": "军事策略"
+    },
+    "_token_interval": {
+      "start_index": 484,
+      "end_index": 490
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "有大量步兵的军队强大有力，婆罗多子孙啊！有大量车兵和马兵的军队适合晴天作战。",
+    "char_interval": {
+      "start_pos": 1595,
+      "end_pos": 1633
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "婆罗多子孙"
+      ],
+      "action": "军队组成建议",
+      "type": "军事策略"
+    },
+    "_token_interval": {
+      "start_index": 493,
+      "end_index": 499
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "有大量步兵和象兵的军队适合雨天作战。确认了这些特点，国王应该把握地理和时间。",
+    "char_interval": {
+      "start_pos": 1637,
+      "end_pos": 1675
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "国王"
+      ],
+      "action": "军队组成和时机把握",
+      "type": "军事策略"
+    },
+    "_token_interval": {
+      "start_index": 502,
+      "end_index": 508
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "就这样，经过思考，尊重星宿的预兆，选择吉日出发，正确部署军队，就能经常获取胜利。",
+    "char_interval": {
+      "start_pos": 1679,
+      "end_pos": 1719
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "军队"
+      ],
+      "action": "综合军事策略",
+      "type": "军事策略",
+      "supernatural_elements": "星宿预兆"
+    },
+    "_token_interval": {
+      "start_index": 511,
+      "end_index": 523
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "不应该打击睡着的人，饥渴的人，疲倦的人，失败的人，释放的人，行走的人，颤抖的人，或正在吃喝的人。",
+    "char_interval": {
+      "start_pos": 1724,
+      "end_pos": 1771
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 20,
+    "group_index": 19,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "军队"
+      ],
+      "action": "规定不打击对象",
+      "type": "战争规则"
+    },
+    "_token_interval": {
+      "start_index": 526,
+      "end_index": 541
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "不应该打击失去装备的人，惊慌失措的人，受伤的人，衰弱的人，值得信任的人，任务尚未完成的人，痛苦烦恼的人，在外执勤的人，扎下营地准备休息的人。",
+    "char_interval": {
+      "start_pos": 1782,
+      "end_pos": 1866
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 21,
+    "group_index": 20,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "军队"
+      ],
+      "action": "规定不打击对象",
+      "type": "战争规则"
+    },
+    "_token_interval": {
+      "start_index": 546,
+      "end_index": 570
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "不应该打击在门前侍候的随从，阻止人们随意行动的骑警。",
+    "char_interval": {
+      "start_pos": 1845,
+      "end_pos": 1866
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 22,
+    "group_index": 21,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "军队"
+      ],
+      "action": "规定不打击对象",
+      "type": "战争规则"
+    },
+    "_token_interval": {
+      "start_index": 566,
+      "end_index": 570
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "冲破敌人的军队，阻截溃散的军队，这样的勇士应该获得双份俸禄，享受与国王同样的食物和饮料。",
+    "char_interval": {
+      "start_pos": 1871,
+      "end_pos": 1915
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 23,
+    "group_index": 22,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "勇士",
+        "国王"
+      ],
+      "action": "奖励勇士",
+      "type": "军事奖励"
+    },
+    "_token_interval": {
+      "start_index": 573,
+      "end_index": 581
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "应该让吃苦耐劳的勇士从十兵之长升成百兵之长，从百兵之长升成千兵之长。",
+    "char_interval": {
+      "start_pos": 1919,
+      "end_pos": 1953
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 24,
+    "group_index": 23,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "勇士"
+      ],
+      "action": "晋升勇士",
+      "type": "军事奖励"
+    },
+    "_token_interval": {
+      "start_index": 584,
+      "end_index": 588
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker (unnamed leader) gathered warriors and delivered a speech about courage, victory, and the disgrace of fleeing in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unnamed Leader",
+        "Warriors"
+      ],
+      "type": "Speech/Motivation",
+      "key_points": [
+        "Vow not to abandon each other in battle",
+        "Condemnation of cowardice",
+        "Emphasis on victory as fundamental to dharma and happiness",
+        "Declaration that warriors seek heaven through battle"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The warriors took an oath and fearlessly charged into the enemy army, ready to sacrifice their lives.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Warriors"
+      ],
+      "action": "Battle charge",
+      "motivation": "Oath and speech"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Description of battle formation and tactics: front lines with swords and shields, chariot troops behind, dependents in the middle, hidden infantry for ambushes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Warriors"
+      ],
+      "type": "Military strategy",
+      "elements": [
+        "Layered formation",
+        "Ambush tactics",
+        "Psychological warfare (shouts, noise-making)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Instructions for psychological warfare: shouting about enemy defeat, announcing reinforcements, making loud noises with instruments.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Warriors"
+      ],
+      "type": "Psychological tactics",
+      "methods": [
+        "False announcements",
+        "Noise intimidation",
+        "Morale boosting"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text concludes as Chapter 101 of the Shanti Parva (Peace Book) of the Mahabharata.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "source": "Mahabharata, Shanti Parva, Chapter 101",
+      "type": "Textual reference"
+    },
+    "_token_interval": null
+  }
+]

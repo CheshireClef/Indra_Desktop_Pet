@@ -1,0 +1,300 @@
+
+[cueSe SE_23 23_ade904]
+[cueSeVolume 23_ade904 0 0]
+[charaPut Z -100,0]
+
+[wt 1.0]
+[cueSeVolume 23_ade904 1.0 1.0]
+[wipein rectangleStripRightToLeft 0.7 1.0]
+[wait wipe]
+
+[wt 1.0]
+[charaTalk C]
+[charaFace C 1]
+[subRenderFadeinFSSideL #C 0.3 -370,-150]
+[subRenderMoveFSSideL #C -350,-200 0.3]
+[wt 0.3]
+
+＠テル
+おお。この風は……へっへ。[r]より本物に近い風だなぁ？
+[k]
+
+[messageOff]
+[cueSeStop 23_ade904 2.0]
+[charaEffectStop Z bit_talk_wind_aura_bma]
+[wt 0.5]
+[subRenderMoveFSSideL #C -330,-250 0.3]
+[subRenderFadeout #C 0.3]
+[wt 0.5]
+[charaMoveEase S -100,-270 1.0 easeInOutCubic]
+[wt 1.0]
+[charaFadeout C 0]
+[charaLayer C normal]
+
+[charaPut Z 1]
+[charaEffect Z bit_talk_anger_electricity]
+[se ad626]
+[seVolume ad626 0 0.3]
+[wt 0.5]
+
+[charaTalk K,J]
+[charaFace K 4]
+[charaFace J 8]
+[subRenderFadeinFSSideR #D 0.3 220,-150]
+[subRenderMoveFSSideR #D 200,-200 0.3]
+[wt 0.3]
+
+＠ヴリトラ＆カーマ=spot[K,J]
+……！
+[k]
+
+[charaFace K 24]
+
+＠カーマ
+私のヴァジュラが震えていますね。[r]来ましたか。
+[k]
+
+[charaFace J 16]
+
+＠ヴリトラ
+ふん。わえのヴァジュラもじゃ。[wt 1.0][charaFace J 1][r]……ま、だからこそ、というのもあるがの？
+[k]
+
+[charaFace J 15]
+
+＠ヴリトラ
+わえが暴れ始めたのなら、[r]あやつとて来ずにはいられまい。
+[k]
+
+[messageOff]
+[seStop ad626 0.5]
+[charaEffectStop Z bit_talk_anger_electricity]
+[subRenderMoveFSSideR #D 180,-250 0.3]
+[subRenderFadeout #D 0.3]
+[wt 0.5]
+
+[subRenderFadein #B 0.5 0,0]
+[wt 0.8]
+[charaFadeout S 0]
+[charaFadein L 0.1 1]
+
+[se ad627]
+[se ad842]
+[se ade346]
+[fowardEffect bit_talk_thunder_08]
+[wt 0.2]
+[fadeout white 0.3]
+[wait fade]
+
+[charaTalk N]
+[charaFace N 13]
+[charaFadein N 0.1 1]
+[wt 1.0]
+
+[fadein white 2.5]
+[wait fade]
+
+[charaFaceFade N 1 0.2]
+[wt 0.5]
+
+＠N：インドラ
+[#自惚:うぬぼ]れるな、邪竜ごときが。[r]今回は貴様なぞ関係ない。
+[k]
+
+[messageOff]
+[charaFadeout N 0.2]
+[wt 0.2]
+
+[charaTalk M]
+[charaFace M 1]
+[charaFadein M 0.4 1]
+[wt 0.4]
+
+＠ビーマ
+インドラ様のお供ができるたぁ光栄だなぁ。[r][#風神:ヴァーユ]の息子として、一暴れするとすっか！
+[k]
+
+
+[messageOff]
+[charaTalk L,M]
+[charaFace L 7]
+[subRenderFadeout #B 0.4]
+[bgmStop BGM_BATTLE_223 2.0]
+[wt 2.0]
+[charaFadeout M 0]
+[charaFadein N 0 0,20]
+[charaMove V 0,-260 0.1]
+
+[charaTalk B,L]
+[charaFace B 0]
+[subRenderFadein #A 0.8 250,-330]
+[wt 0.2]
+[blur lens 1.0 2 5]
+[wt 2.5]
+[charaFace L 13]
+
+[subRenderFadeout #A 1.0]
+[blurOff lens 1.0]
+[wt 2.5]
+
+[bgm BGM_BATTLE_117 0.1]
+[charaFace L 7]
+
+＠インドラ
+この異聞には、ただ一柱の神がいたという。[r]その他全ての神を喰らい、力を欲した神が。
+[k]
+
+＠インドラ
+世界を正すため、人を救うために[r]そうしたというのであれば[line 3]
+[k]
+
+[charaFace L 2]
+
+＠インドラ
+その者は、根本的に、信じていたのであろうな。
+[k]
+
+＠インドラ
+[#神とは人を救うものなのだと]。[r]でなくば、救済の道具として神を選びなどせん。
+[k]
+
+[messageOff]
+[charaFace L 13]
+[wt 1.0]
+
+[charaTalk L,N]
+[charaScale N 1.2]
+[charaFace N 13]
+[charaMove N 0,-20 15.0]
+[charaMove V 0,-300 15.0]
+[subRenderFadein #B 0.5 0,0]
+[wt 0.5]
+[charaFadeout L 0]
+
+＠N：インドラ
+[#神:オレ]は、この神々の王である[#神:オレ]以外の[line 3][r][#有象無象:う ぞ う む ぞ う]の神というものの実情を知る。
+[k]
+
+＠N：インドラ
+その力足らずを、不合理を、不誠実を、不完全を、[r]必ずしも世界と人を救えるものではないというのを知る。
+[k]
+
+
+[charaFace N 1]
+
+＠N：インドラ
+……だが！
+[k]
+
+
+＠N：インドラ
+たとえ過ちであろうとも、息子がそう信じたものを。
+[k]
+
+[charaFace N 4]
+
+＠N：インドラ
+その神らを統べる神々の王が、[r]目の前で否定なぞできるものか！
+[k]
+
+[cueSe SE_22 22_ad1179]
+[se ad626 0]
+[seVolume ad626 0 0]
+[charaFace N 0]
+[charaEffectEdgeBlur N ffffff 000000 4 1.5]
+
+＠N：インドラ
+であれば。今この場においては、世界に等しき重みで[r]信じたそれを真としてやる他あるまい。
+[k]
+
+[seVolume ad626 0.1 0.5]
+[fowardEffect bit_talk_anger_electricity]
+
+＠N：インドラ
+人が求めた神の姿を見せてやらねばなるまい！
+[k]
+
+[messageOff]
+[charaFace N 10]
+[subRenderMoveScaleEase #B 1.2 0.6 easeInOutExpo]
+[subRenderMoveEase #B 0,-30 0.6 easeInOutExpo]
+[wt 0.6]
+
+＠N：インドラ
+見よ[line 3]これが神の雷、[r]そして神の救いである！
+[k]
+
+[messageOff]
+[charaTalk off]
+[seStop ad626 0.5]
+[cueSeStop 22_ad1179 0.5]
+[wipeout leftDownToRightUp 0.6 1.0]
+[wait wipe]
+[subRenderFadeout #B 0.1]
+[fowardEffectDestroy bit_talk_anger_electricity]
+[charaEffectEdgeBlurDestroy N]
+[scene 10000]
+[wt 0.1]
+[wipein rightUpToLeftDown 0.1 1.0]
+[wait wipe]
+
+[se ade347]
+[wt 0.2]
+[se ade346]
+[effect bit_talk_lightning_08w 300,0]
+[wt 0.2]
+[effect bit_talk_lightning_08w -400,0]
+[wt 0.2]
+[effect bit_talk_lightning_08w]
+[wt 0.5]
+
+[wipeout leftDownToRightUp 0.1 1.0]
+[wait wipe]
+
+[sceneSet C 10000 1]
+[charaScale C 1.1]
+
+[charaFadeout B 0]
+[charaFadeout U 0]
+[charaLayer B normal]
+[charaLayer O sub #A]
+
+[subCameraFilter #A through]
+
+[subRenderFadein #A 0 0,0]
+[charaFadeout V 0]
+
+[subRenderScale #B 1.0]
+
+[charaFadeout N 0]
+
+
+[scene 274003]
+[charaDepth C 12]
+
+[charaScale P 1.0]
+[charaScale Q 0.9]
+[charaScale R 0.9]
+[charaScale G 0.8]
+[charaScale H 0.8]
+
+[charaFadein P 0 0,0]
+[charaFadein Q 0 -250,-20]
+[charaFadein R 0 250,-20]
+[charaFadein G 0 -500,-50]
+[charaFadein H 0 500,-50]
+
+[wt 0.5]
+[wipein rightUpToLeftDown 0.6 1.0]
+[wait wipe]
+
+[cueSe Servants_305900 m65720]
+[cueSe Servants_305900 m65943]
+[flashin once 0.2 0.2 FFFFFFFA FFFFFF00]
+[effect bit_talk_thunder_08]
+[wt 0.5]
+[shake 0.05 5 4 1.5]
+[charaShake P 0.05 3 3 1.5]
+[charaShake Q 0.05 3 3 1.5]
+[charaShake R 0.05 3 3 1.5]
+[charaShake G 0.05 3 3 1.5]

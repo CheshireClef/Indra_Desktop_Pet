@@ -1,4 +1,9 @@
 # src/gui/pet_window.py
+"""
+主窗口模块
+定义了 PetWindow 类，即桌宠的实体窗口。
+包含窗口初始化、动画驱动、交互事件处理 (点击、拖拽)、以及与其他模块 (聊天、设置、视觉) 的集成。
+"""
 import os
 from PySide6.QtWidgets import QWidget, QLabel, QMenu, QVBoxLayout
 from PySide6.QtGui import QPixmap, QGuiApplication
@@ -10,6 +15,11 @@ from workers.screen_observer_worker import ScreenObserveWorker
 
 
 class PetWindow(QWidget):
+    """
+    桌宠主窗口类
+    继承自 QWidget，设置为无边框、透明背景、置顶显示。
+    """
+    # 窗口可见性切换信号
     toggled_visibility = Signal(bool)
 
     def __init__(self, settings_manager=None, icon_path: str = None, image_path: str = ""):
@@ -73,6 +83,7 @@ class PetWindow(QWidget):
     def _setup_emoji_label(self):
         """初始化表情显示Label（九宫格右上角）"""
         self.emoji_label = QLabel(self)
+        # 鼠标穿透：确保表情不会阻挡对宠物的点击
         self.emoji_label.setAttribute(Qt.WA_TransparentForMouseEvents, True)
         self.emoji_label.setAttribute(Qt.WA_TranslucentBackground, True)
         self.emoji_label.setScaledContents(True)
@@ -80,7 +91,7 @@ class PetWindow(QWidget):
 
     # ---------------- 新增：截图专用UI操作（主线程执行） ----------------
     def _hide_for_screenshot(self):
-        """隐藏桌宠（主线程）"""
+        """隐藏桌宠（主线程），用于在截图前将自己隐身"""
         self._old_opacity = self.windowOpacity()
         self._old_mouse_transparent = self.testAttribute(Qt.WA_TransparentForMouseEvents)
         self.setWindowOpacity(0.0)
@@ -88,7 +99,7 @@ class PetWindow(QWidget):
         self.update()  # 替代repaint，高效重绘
 
     def _restore_after_screenshot(self):
-        """恢复桌宠（主线程）"""
+        """恢复桌宠（主线程），截图完成后现身"""
         self.setWindowOpacity(self._old_opacity)
         self.setAttribute(Qt.WA_TransparentForMouseEvents, self._old_mouse_transparent)
         self.update()

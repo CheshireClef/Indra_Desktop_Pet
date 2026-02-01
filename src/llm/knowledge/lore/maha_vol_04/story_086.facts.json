@@ -1,0 +1,796 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "全胜向持国王转述阿周那在会议上的发言后，在场的大勇士们沉默不语，既不赞同也不反对阿周那的话。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "全胜",
+        "持国王",
+        "阿周那",
+        "在场的大勇士们"
+      ],
+      "action": "叙述与沉默反应",
+      "relationships": [
+        "全胜是叙述者",
+        "持国王是听众",
+        "阿周那是被讨论者"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "怖军愤怒地反驳阿周那，指责他说话像隐士或婆罗门，不符合刹帝利的职责。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "怖军",
+        "阿周那"
+      ],
+      "action": "愤怒反驳与批评",
+      "relationships": [
+        "兄弟关系",
+        "怖军批评阿周那的言论"
+      ],
+      "type": "冲突"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "怖军列举阿周那的英勇品质（如媲美帝释天），但强调他因坚守正法而忍受了非法夺国、德罗波蒂受辱和十三年流亡的苦难。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "怖军",
+        "阿周那",
+        "德罗波蒂"
+      ],
+      "action": "列举苦难与赞美品质",
+      "relationships": [
+        "怖军为阿周那的遭遇鸣不平",
+        "德罗波蒂是受辱者"
+      ],
+      "supernatural_elements": [
+        "帝释天（天神）作为比喻"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "怖军宣称要与阿周那一起惩治非法行为，杀死夺国者及其追随者，并责备阿周那现在退缩违背了过去的誓言。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "怖军",
+        "阿周那"
+      ],
+      "action": "宣战与责备",
+      "relationships": [
+        "怖军敦促阿周那履行职责",
+        "冲突加剧"
+      ],
+      "type": "动员"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "怖军强调自己的勇力，声称发怒时能击碎大地、劈开高山，用铁杵摧毁敌人，并鼓励阿周那不要惧怕德罗纳之子马嘶。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "怖军",
+        "阿周那",
+        "马嘶"
+      ],
+      "action": "展示武力与鼓舞士气",
+      "relationships": [
+        "怖军试图消除阿周那对马嘶的恐惧",
+        "马嘶是敌方关键人物"
+      ],
+      "supernatural_elements": [
+        "夸张的勇力描述"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "般遮罗王子猛光对阿周那发言，比喻为毗湿奴对希罗尼耶格西布说话，暗示神圣干预或重要劝诫。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "猛光",
+        "阿周那"
+      ],
+      "action": "劝诫与比喻",
+      "relationships": [
+        "猛光是般遮罗族代表",
+        "支持阿周那但方式不同"
+      ],
+      "supernatural_elements": [
+        "毗湿奴与希罗尼耶格西布的神话比喻"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona, a Brahmin, performed the duties of a Kshatriya in battle, using divine weapons and illusions to kill enemies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Violation of dharma (performing Kshatriya duties as a Brahmin)",
+      "supernatural_elements": "Use of divine weapons (Brahmastra) and illusions"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhrishtadyumna killed Drona in battle, justifying it as punishment for Drona's violation of dharma and use of unfair tactics.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "Drona"
+      ],
+      "action": "Killing of teacher/commander",
+      "justification": "Drona violated his Brahmin duties, used divine weapons against those who didn't know them, and was cruel"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "conflict",
+    "extraction_text": "Arjuna criticizes Dhrishtadyumna for killing their teacher Drona, but Dhrishtadyumna defends his actions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Dhrishtadyumna"
+      ],
+      "relationship": "Brothers-in-law (both married to Draupadi's sisters), allies in Pandava army",
+      "issue": "Ethics of killing a teacher in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhrishtadyumna explains he was born from sacrificial fire specifically to kill Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna"
+      ],
+      "supernatural_elements": "Born from sacrificial fire",
+      "purpose": "Destined to kill Drona"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama (Drona's son) becomes enraged after his father's death and vows revenge.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama"
+      ],
+      "action": "Vows revenge",
+      "relationship": "Son of Drona"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "comparison",
+    "extraction_text": "Dhrishtadyumna compares his killing of Drona to Arjuna's killing of Bhishma (his grandfather) and King Bhagadatta (friend of his father).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "Arjuna",
+        "Bhishma",
+        "Bhagadatta"
+      ],
+      "argument": "If Arjuna's killings were justified by dharma, then Dhrishtadyumna's killing of Drona is also justified"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra laments Drona's death, praising Drona's knowledge of Vedas and archery, and condemning his killer as base and cruel.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Drona",
+        "Dhrishtadyumna"
+      ],
+      "action": "Lamentation and condemnation",
+      "relationship": "Dhritarashtra was Drona's patron/employer as Kuru king"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona was publicly rebuked by evil-doers, and no one expressed anger.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Public rebuke",
+      "reaction": "No anger shown by others"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya was asked to report what the sons of Pritha (Pandavas) and all royal archers said after hearing the words of the Panchala prince (Dhrishtadyumna).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Dhrishtadyumna",
+        "Pandavas",
+        "Royal archers"
+      ],
+      "type": "Inquiry"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya reported that all kings remained silent after hearing Dhrishtadyumna's words.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Dhrishtadyumna",
+        "All kings"
+      ],
+      "action": "Silence",
+      "speaker": "Sanjaya"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna looked askance at Dhrishtadyumna, sighed with tears, and repeatedly said 'Fie, fie, fie!'",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Dhrishtadyumna"
+      ],
+      "action": "Expression of distress",
+      "emotional_state": "Anguish"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira, Bhima, the twins (Nakula and Sahadeva), Krishna, and others stood ashamed, while Satyaki spoke.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Nakula",
+        "Sahadeva",
+        "Krishna",
+        "Satyaki"
+      ],
+      "action": "Shame and speech",
+      "relationships": [
+        "Pandavas and allies"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki condemned Dhrishtadyumna for killing Drona through unlawful means and then rebuking him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Dhrishtadyumna",
+        "Drona"
+      ],
+      "action": "Condemnation",
+      "accusation": "Unlawful killing and disrespect"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki accused Dhrishtadyumna and his brother Shikhandi of evil deeds, including killing Bhishma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Dhrishtadyumna",
+        "Shikhandi",
+        "Bhishma",
+        "Arjuna"
+      ],
+      "action": "Accusation",
+      "details": "Shikhandi killed Bhishma with Arjuna's protection"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki threatened to smash Dhrishtadyumna's head with his mace if he spoke such words again.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Dhrishtadyumna"
+      ],
+      "action": "Threat",
+      "weapon": "Mace"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhrishtadyumna, angered by Satyaki's rebuke, responded with harsh words, defending his killing of Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "Satyaki",
+        "Drona"
+      ],
+      "action": "Defense",
+      "justification": "Drona was using divine weapons and had laid down his arms"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhrishtadyumna accused Satyaki of the grave crime of killing Bhurishrava after his arm was cut off and he sat in meditation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "Satyaki",
+        "Bhurishrava"
+      ],
+      "action": "Counter-accusation",
+      "details": "Satyaki killed Bhurishrava despite劝阻 (dissuasion)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaaki (Satyaki) accuses Bhima of cowardice for not killing the warrior who knocked him down earlier.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaaki",
+        "Bhima"
+      ],
+      "action": "Accusation",
+      "relationship": "Allies in conflict"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaaki criticizes Bhima for killing the warrior Ghatotkacha's son (Ghatotkacha's son) after Arjuna defeated him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaaki",
+        "Bhima",
+        "Arjuna",
+        "Ghatotkacha's son"
+      ],
+      "action": "Criticism",
+      "relationship": "Allies with tension"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaaki recounts his own heroic deeds, such as firing thousands of arrows when Drona routed the Pandava army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaaki",
+        "Drona"
+      ],
+      "action": "Recollection of heroism",
+      "relationship": "Opponents in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaaki denounces Bhima's actions as despicable and akin to a Chandala, urging him to stop speaking harsh words.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaaki",
+        "Bhima"
+      ],
+      "action": "Denunciation",
+      "relationship": "Escalating conflict"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaaki threatens to kill Bhima with arrows if he continues to speak harshly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaaki",
+        "Bhima"
+      ],
+      "action": "Threat",
+      "relationship": "Hostile confrontation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaaki argues that righteousness (Dharma) alone is insufficient, citing past injustices against the Pandavas, such as the deceit of Yudhishthira and the humiliation of Draupadi.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaaki",
+        "Yudhishthira",
+        "Draupadi"
+      ],
+      "action": "Philosophical argument",
+      "relationship": "Allies referencing shared grievances"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaaki lists other instances of unethical acts, including the killing of Bhishma and Ghatotkacha's son, to justify his stance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaaki",
+        "Bhishma",
+        "Ghatotkacha's son"
+      ],
+      "action": "Justification of means",
+      "relationship": "Historical references"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaaki concludes that both righteousness and unrighteousness are complex, and urges Satyaaki to fight the Kauravas instead of returning home.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaaki"
+      ],
+      "action": "Exhortation to battle",
+      "relationship": "Self-motivation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaaki becomes enraged upon hearing these harsh words, with red eyes and heavy breathing, and prepares to attack Bhima with a mace.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaaki",
+        "Bhima"
+      ],
+      "action": "Rage and preparation for attack",
+      "relationship": "Imminent violence"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima, urged by Krishna, jumps from his chariot and physically restrains the enraged Satyaaki.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Krishna",
+        "Satyaaki"
+      ],
+      "action": "Physical intervention",
+      "relationship": "Allies preventing internal conflict"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sahadeva intervenes with calming words, emphasizing the strong friendship between the Vrishni, Andhaka, and Panchala clans, and between the Pandavas and Vrishnis.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sahadeva",
+        "Satyaaki",
+        "Krishna"
+      ],
+      "action": "Diplomatic intervention",
+      "relationship": "Reaffirmation of alliances"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki (Sātyaki) was angered by Shikhandin (Śikhaṇḍin), and Bhima (Bhīma) restrained Satyaki.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Shikhandin",
+        "Bhima"
+      ],
+      "action": "Restraint/Conflict",
+      "relationships": [
+        "Satyaki is angry at Shikhandin",
+        "Bhima physically holds Satyaki back"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sahadeva (Sahadeva) tried to calm Satyaki, urging forgiveness and reconciliation with Shikhandin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sahadeva",
+        "Satyaki",
+        "Shikhandin"
+      ],
+      "action": "Persuasion/Mediation",
+      "relationships": [
+        "Sahadeva appeals to Satyaki as a friend",
+        "Sahadeva references dharma and forgiveness"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandin taunted Satyaki, challenging him to fight and claiming he would defeat him with arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Satyaki"
+      ],
+      "action": "Provocation/Challenge",
+      "relationships": [
+        "Shikhandin mocks Satyaki's anger",
+        "Shikhandin boasts of his combat skills"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki became even more enraged, struggling violently against Bhima's restraint.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Bhima"
+      ],
+      "action": "Struggle/Intensified Anger",
+      "relationships": [
+        "Satyaki resists Bhima's hold",
+        "Satyaki's anger escalates"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna (Kṛṣṇa) and Yudhishthira (Yudhiṣṭhira) intervened with great effort to calm both Satyaki and Shikhandin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira",
+        "Satyaki",
+        "Shikhandin"
+      ],
+      "action": "Divine/Moral Intervention",
+      "relationships": [
+        "Krishna and Yudhishthira act as peacemakers",
+        "They address both angry warriors"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After being calmed, the heroes turned their focus to battle against the Kauravas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Shikhandin",
+        "Pandava warriors"
+      ],
+      "action": "Resolution/Redirected Focus",
+      "relationships": [
+        "Internal conflict resolved",
+        "Unity restored against common enemy (Kauravas)"
+      ]
+    },
+    "_token_interval": null
+  }
+]

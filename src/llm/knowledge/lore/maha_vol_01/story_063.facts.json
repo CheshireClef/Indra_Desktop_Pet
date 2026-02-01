@@ -1,0 +1,439 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Drupada (木柱王) harbors intense anger and seeks a Brahmin to help him have a son who can kill Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Drupada",
+        "Drona"
+      ],
+      "type": "Quest for Revenge",
+      "relationships": "Drupada seeks revenge against Drona, considering his existing sons inadequate for this purpose."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drupada travels along the Ganges River and reaches a sacred Brahmin settlement.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Drupada"
+      ],
+      "type": "Journey",
+      "location": "Sacred Brahmin settlement near Ganges and Yamuna rivers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drupada encounters two ascetic Brahmins, Yaja and Upayaja, who are studying the Vedas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Drupada",
+        "Yaja",
+        "Upayaja"
+      ],
+      "type": "Encounter",
+      "relationships": "Yaja and Upayaja are brothers from the Kashyapa lineage, both are learned Brahmins."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drupada approaches the younger brother Upayaja, serves him diligently, and flatters him to gain his favor.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Drupada",
+        "Upayaja"
+      ],
+      "type": "Persuasion",
+      "action": "Drupada follows Upayaja, speaks pleasing words, and fulfills his desires to gain his help."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drupada asks Upayaja what sacrifice he should perform to have a son who can kill Drona, offering ten million cows and other desired items as reward.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Drupada",
+        "Upayaja"
+      ],
+      "type": "Request",
+      "offer": "Ten million cows and any other desired items in exchange for performing the sacrifice."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Upayaja initially refuses Drupada's request, but Drupada continues to serve him for a year.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Drupada",
+        "Upayaja"
+      ],
+      "type": "Perseverance",
+      "duration": "One year of continued service by Drupada"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After a year, Upayaja explains to Drupada why he refused, citing his brother Yaja's impurity from picking up fallen fruit without checking cleanliness and eating leftover food without discrimination.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Upayaja",
+        "Yaja"
+      ],
+      "type": "Revelation",
+      "reason": "Upayaja considers Yaja impure due to his actions, implying this affects their suitability for the sacrifice."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Drupada (referred to as '国王' or '木柱王') approached Yaja (耶阇) for help after being defeated by Drona (德罗纳).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Drupada",
+        "Yaja"
+      ],
+      "action": "Request for assistance",
+      "reason": "Defeat by Drona, desire for revenge"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Drupada explained his defeat by Drona, describing Drona's unmatched skills and power.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Drupada",
+        "Drona"
+      ],
+      "relationship": "Former friends turned enemies",
+      "details": "Drona is the chief teacher of the Kuru clan, possesses Brahmin power, and uses powerful weapons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Drupada requested Yaja to perform a sacrifice to grant him a son who could kill Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Drupada",
+        "Yaja"
+      ],
+      "offer": "Eight thousand cows initially, then ten million cows",
+      "purpose": "To obtain a son capable of killing Drona"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yaja agreed to perform the sacrifice and forced his younger brother Upayaja (小耶阇) to assist, despite Upayaja's reluctance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yaja",
+        "Upayaja"
+      ],
+      "relationship": "Brothers (Yaja is older)",
+      "action": "Yaja compelled Upayaja to help with the sacrifice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Upayaja informed King Drupada that the sacrifice would grant him a son with extraordinary qualities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Upayaja",
+        "King Drupada"
+      ],
+      "promise": "The son would be heroic, radiant, and powerful, shaped as the king desired"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Drupada specified his desire for a son who could kill Drona and provided all necessary items for the sacrifice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Drupada"
+      ],
+      "action": "Prepared for the sacrifice",
+      "specific_wish": "A son to kill Drona"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "During the sacrifice, Yaja called for the queen (王后), wife of King Drupada, to come forward.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yaja",
+        "Queen (wife of King Drupada)"
+      ],
+      "summons": "Yaja summoned the queen to receive the fruit of the sacrifice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The queen hesitated, citing she was still adorned and needed time, but Yaja insisted the sacrifice was ready.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Queen (wife of King Drupada)",
+        "Yaja"
+      ],
+      "interaction": "The queen delayed, Yaja urged her to come immediately"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yaja performed a sacrifice by offering cooked oblations into the sacrificial fire.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yaja"
+      ],
+      "action": "Sacrifice",
+      "supernatural_elements": [
+        "Divine birth from fire"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A divine-looking boy emerged from the sacrificial fire, with fiery complexion, fierce appearance, wearing celestial crown and armor, carrying weapons, and riding a chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna (later named)"
+      ],
+      "action": "Divine birth",
+      "supernatural_elements": [
+        "Born from sacrificial fire",
+        "Divine appearance"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "An invisible great spirit in the sky proclaimed that this prince would dispel fear, win glory for the Panchalas, remove the king's sorrow, and was born to kill Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "Drona"
+      ],
+      "action": "Divine prophecy",
+      "supernatural_elements": [
+        "Voice from sky",
+        "Prophecy"
+      ],
+      "relationships": [
+        "Dhrishtadyumna destined to kill Drona"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A princess of Panchala emerged from the center of the altar, with dark complexion, lotus-like eyes, beautiful form, and divine fragrance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi (later named)"
+      ],
+      "action": "Divine birth",
+      "supernatural_elements": [
+        "Born from sacrificial altar",
+        "Divine beauty"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "An invisible voice proclaimed that this dark beauty would cause the destruction of Kshatriyas and fulfill the gods' mission, bringing great terror upon Kshatriyas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi"
+      ],
+      "action": "Divine prophecy",
+      "supernatural_elements": [
+        "Voice from sky",
+        "Prophecy"
+      ],
+      "relationships": [
+        "Draupadi destined to cause Kshatriya destruction"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The daughter-in-law of King Drupada saw the children and asked Yaja to let them know she was their only mother.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Drupada's daughter-in-law",
+        "Yaja"
+      ],
+      "action": "Claiming motherhood",
+      "relationships": [
+        "Adoptive mother relationship established"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yaja agreed to please the king, and learned Brahmins gave names to the children: the boy was named Dhrishtadyumna and the girl was named Draupadi.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yaja",
+        "King Drupada",
+        "Dhrishtadyumna",
+        "Draupadi"
+      ],
+      "action": "Naming ceremony",
+      "relationships": [
+        "Father: King Drupada",
+        "Son: Dhrishtadyumna",
+        "Daughter: Draupadi"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona, son of Bharadvaja, took Dhrishtadyumna to his palace to teach him martial arts, considering fate unavoidable and to preserve his own reputation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Dhrishtadyumna"
+      ],
+      "action": "Martial training",
+      "relationships": [
+        "Teacher-student relationship",
+        "Despite prophecy of Dhrishtadyumna killing Drona"
+      ]
+    },
+    "_token_interval": null
+  }
+]

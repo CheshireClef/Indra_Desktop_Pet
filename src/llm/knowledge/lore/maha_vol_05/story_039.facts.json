@@ -1,0 +1,600 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Bhishma about the behavior and management of subordinates to prevent division and ensure victory.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Dialogue/Question",
+      "relationships": [
+        "Yudhishthira is the student/king seeking advice",
+        "Bhishma is the teacher/elder providing guidance"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma explains that greed and anger cause hatred and division among subordinates, family, and kings, leading to decline and destruction.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Teaching/Explanation",
+      "key_points": [
+        "Greed and anger are interconnected",
+        "They cause hatred and division",
+        "Result in decline and destruction"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma lists methods to manage subordinates: spies, strategy, force, conciliation, gifts, and sowing dissension, noting unequal distribution of gifts causes division.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Instruction",
+      "methods": [
+        "Spies",
+        "Strategy",
+        "Force",
+        "Conciliation",
+        "Gifts",
+        "Sowing dissension"
+      ],
+      "warning": "Unequal gifts cause division"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma emphasizes that division leads to confusion, fear, and defection to enemies, making subordinates vulnerable to enemy manipulation and destruction.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Warning",
+      "consequences": [
+        "Confusion",
+        "Fear",
+        "Defection to enemies",
+        "Vulnerability to manipulation",
+        "Destruction"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma advises that unity brings strength, courage, and success; internal unity attracts external goodwill.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Advice",
+      "benefits_of_unity": [
+        "Strength",
+        "Courage",
+        "Success",
+        "External goodwill"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma outlines qualities of excellent subordinates: praising the learned, mutual respect, unity, discipline, adherence to dharma, use of spies and strategy, wealth accumulation, and respect for the wise and brave.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Description",
+      "qualities": [
+        "Praise the learned",
+        "Mutual respect",
+        "Unity",
+        "Discipline",
+        "Adherence to dharma",
+        "Use of spies and strategy",
+        "Wealth accumulation",
+        "Respect for the wise and brave"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma warns that anger, division, fear, punishment, torment, chastisement, and killing can cause subordinates to suddenly defect to enemies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Warning",
+      "negative_factors": [
+        "Anger",
+        "Division",
+        "Fear",
+        "Punishment",
+        "Torment",
+        "Chastisement",
+        "Killing"
+      ],
+      "consequence": "Sudden defection to enemies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma concludes that outstanding subordinates should be respected as they handle worldly affairs, and confidentiality should be maintained through key subordinates, not all, to prevent division and loss.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Conclusion",
+      "key_advice": [
+        "Respect outstanding subordinates",
+        "Maintain confidentiality through key subordinates",
+        "Prevent division to avoid loss"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Bhishma about which dharmas (duties) are especially important to follow in the long and branching path of dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Philosophical Inquiry",
+      "relationship": "Grandson (Yudhishthira) seeks wisdom from grandfather (Bhishma)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma states that honoring parents and teachers is most important, as it wins many worlds and great fame.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Moral Teaching",
+      "key_principle": "Reverence for parents and teachers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma explains that actions approved by parents and teachers, whether strictly legal or not, should be followed, and their permission constitutes dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Authority and Obedience",
+      "hierarchy": "Parents and teachers as ultimate authorities on dharma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma allegorically identifies father with the householder's fire, mother with the southern fire, and teacher with the eastern fire—three important sacred fires.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Symbolic Teaching",
+      "symbolism": "Parents and teachers equated to sacred Vedic fires"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma teaches that serving these three wins the three worlds: father wins this world, mother wins the other world, and teacher wins the eternal Brahma-world.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Spiritual Reward",
+      "benefits": "Worldly and otherworldly rewards through service"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma warns that disrespecting these three elders nullifies all religious rites and denies one both this world and the next.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Warning",
+      "consequence": "Loss of merit and worlds through disrespect"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma shares his personal testimony that his devotion to these three has yielded hundredfold and thousandfold returns, revealing the three worlds to him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Personal Revelation",
+      "supernatural_element": "Vision of three worlds as reward for devotion"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma establishes a hierarchy: one teacher surpasses ten Brahmins, one master surpasses ten teachers, one father surpasses ten masters, and one mother surpasses ten fathers or even the whole earth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Hierarchical Teaching",
+      "ranking": "Mother > Father > Master > Teacher > Brahmin"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma concludes that while mother is supreme in importance, he personally considers the teacher even more important than parents, as parents give the physical body, but the teacher gives the sacred, immortal life.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Final Judgment",
+      "key_distinction": "Physical birth (parents) vs. spiritual awakening (teacher)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Bhishma about how to uphold dharma and the nature of truth and falsehood.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Philosophical inquiry",
+      "relationships": "Yudhishthira (grandson) seeks wisdom from Bhishma (grandfather/elder)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma explains that truth is supreme but complex, and that sometimes falsehood may be appropriate and truth inappropriate.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Teaching",
+      "action": "Explaining the nuanced nature of truth and dharma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma states that discerning truth from falsehood is the mark of one who knows dharma, unlike fools who are confused.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Philosophical principle",
+      "action": "Distinguishing wisdom from ignorance regarding dharma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma cites the example of Prahlada (or a similar figure, likely a typo or variant; context suggests a lowly person) who gained great merit by killing a blind beast.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Prahlada (or similar figure)"
+      ],
+      "type": "Exemplary story",
+      "action": "Killing a blind beast",
+      "supernatural_elements": "Attainment of great merit (spiritual reward)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma mentions the foolish Kashika who, despite loving dharma, committed a great sin on the banks of the Ganges due to ignorance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kashika"
+      ],
+      "type": "Cautionary tale",
+      "action": "Committing a sin out of ignorance",
+      "location": "Banks of the Ganges"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma concludes that dharma is declared for the prosperity of all beings, with non-injury (ahimsa) being a key principle, and that dharma arises from sustenance, as beings depend on it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Philosophical conclusion",
+      "principles": [
+        "Dharma promotes prosperity",
+        "Non-injury (ahimsa) is dharma",
+        "Dharma is based on sustenance"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text presents a discourse on dharma (righteousness) from the Mahabharata, discussing when falsehood is permissible and how to deal with wicked people.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator (from Mahabharata)"
+      ],
+      "type": "Philosophical Discourse",
+      "key_points": [
+        "Falsehood is acceptable in life-threatening situations, marriage, protecting property, or upholding dharma",
+        "Wealth should not be given to wicked people",
+        "Wicked people are compared to demons and birds of prey",
+        "Killing wicked people is not a sin as they are already dead by their own evil deeds"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Bhishma how one overcomes difficulties in life.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Question",
+      "relationship": "Grandson asks grandfather for wisdom"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma explains that twice-born people (regenerated classes) overcome difficulties by following prescribed life stages, controlling themselves, avoiding fraud, restraining desires, being hospitable, studying Vedas, serving parents, maintaining proper marital relations, and kings avoiding greed and fighting bravely in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Instruction",
+      "key_points": [
+        "Follow prescribed life stages (ashramas)",
+        "Control self and avoid fraud",
+        "Restrain worldly desires",
+        "Be hospitable and non-envious",
+        "Study Vedas regularly",
+        "Serve parents diligently",
+        "Maintain proper marital relations",
+        "Kings should avoid greed and fight bravely"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text describes the qualities and behaviors of virtuous individuals (referred to as 'they' or 'those Brahmanas') who overcome difficulties.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Virtuous Individuals"
+      ],
+      "type": "Description of Virtues"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "These individuals are described as truthful even in danger, not reciting Vedas in improper places, practicing austerities, speaking kindly, acquiring wealth righteously, and maintaining celibacy.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Virtuous Individuals"
+      ],
+      "action": "Adherence to Dharma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "They are said to worship Narayana, described as the origin and destroyer of the world, the lord of all beings, with lotus-like eyes, wearing yellow garments, and as the brother, friend, and relative of the listener.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Virtuous Individuals",
+        "Narayana"
+      ],
+      "action": "Worship",
+      "divine_element": "Description of Narayana's attributes and power"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Narayana is identified as Kishnu (Arjuna) and Vikunta, and is said to work for the benefit of the listener and Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narayana",
+        "Arjuna"
+      ],
+      "relationship": "Narayana acts for the benefit of Arjuna and the listener (implied to be a king, possibly Yudhishthira)."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text concludes by stating that reciting these verses about overcoming difficulties and explaining them to Brahmins is beneficial, and that the speaker has explained how one can overcome difficulties in this life and the next.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Speaker (Sanjaya or Vyasa)",
+        "The Listener (King)"
+      ],
+      "action": "Instruction and Conclusion"
+    },
+    "_token_interval": null
+  }
+]

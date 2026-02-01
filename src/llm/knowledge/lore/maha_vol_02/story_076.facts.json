@@ -1,0 +1,530 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "法王坚战询问摩根德耶关于古婆罗娑改名为敦杜摩罗的原因。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "法王坚战",
+        "摩根德耶"
+      ],
+      "type": "Inquiry",
+      "topic": "古婆罗娑改名敦杜摩罗的原因"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "摩根德耶开始讲述敦杜摩罗的故事。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "摩根德耶",
+        "法王坚战"
+      ],
+      "type": "Narration",
+      "context": "故事开端"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "大仙优腾迦在沙地净修林修炼苦行取悦毗湿奴。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "优腾迦",
+        "毗湿奴"
+      ],
+      "type": "Asceticism",
+      "duration": "许多年",
+      "location": "沙地净修林"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "毗湿奴满意优腾迦的苦行，向他显身。",
+    "char_interval": {
+      "start_pos": 373,
+      "end_pos": 385
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "毗湿奴",
+        "优腾迦"
+      ],
+      "type": "Divine Manifestation",
+      "reason": "苦行取悦"
+    },
+    "_token_interval": {
+      "start_index": 109,
+      "end_index": 113
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "优腾迦见到毗湿奴后俯首行礼并用赞辞称颂。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "优腾迦",
+        "毗湿奴"
+      ],
+      "type": "Worship",
+      "actions": [
+        "俯首行礼",
+        "称颂赞美"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "优腾迦赞美毗湿奴是创造者、世界之主，描述其宇宙形态。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "优腾迦",
+        "毗湿奴"
+      ],
+      "type": "Cosmological Praise",
+      "elements": [
+        "天空为头",
+        "日月为眼",
+        "风为呼吸",
+        "火为精力",
+        "四方为臂",
+        "大海为腹",
+        "山岳为腿",
+        "洞穴为脐",
+        "大地为脚",
+        "药草为毛发"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "优腾迦描述众天神侍奉毗湿奴，毗湿奴掌控世界安宁与恐怖。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "优腾迦",
+        "毗湿奴",
+        "因陀罗",
+        "苏摩",
+        "火神",
+        "伐楼拿",
+        "众天神",
+        "阿修罗",
+        "大蛇"
+      ],
+      "type": "Divine Hierarchy",
+      "relationships": "众天神侍奉毗湿奴"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "毗湿奴听了赞美后允诺赐予优腾迦一个恩惠。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "毗湿奴",
+        "优腾迦"
+      ],
+      "type": "Divine Boon",
+      "condition": "因坚定和虔诚"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "优腾迦表示见到毗湿奴本身就是恩惠。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "优腾迦",
+        "毗湿奴"
+      ],
+      "type": "Humility",
+      "response": "婉拒具体恩惠"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "毗湿奴坚持要赐予恩惠，故事在此暂停。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "毗湿奴",
+        "优腾迦"
+      ],
+      "type": "Cliffhanger",
+      "status": "恩惠未具体化"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Utanka chose a boon from Vishnu, requesting eternal adherence to dharma, truth, self-control, and devotion.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Utanka",
+        "Vishnu"
+      ],
+      "type": "Divine boon",
+      "relationships": [
+        "Utanka receives boon from Vishnu"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vishnu granted Utanka's boon and revealed that a great Asura named Dunduha, practicing severe austerities to destroy the world, would be killed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu",
+        "Utanka",
+        "Dunduha"
+      ],
+      "type": "Prophecy/revelation",
+      "relationships": [
+        "Vishnu reveals future events to Utanka"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vishnu revealed that King Ghritasva's son, the pure and self-controlled Kupalashva, would become Dundumara (slayer of Dunduha) using Vishnu's yogic power at Utanka's command.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu",
+        "Utanka",
+        "King Ghritasva",
+        "Kupalashva (future Dundumara)",
+        "Dunduha"
+      ],
+      "type": "Prophecy/revelation",
+      "relationships": [
+        "Vishnu reveals Kupalashva's future role",
+        "Kupalashva is son of King Ghritasva"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vishnu disappeared after speaking to Utanka.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu"
+      ],
+      "type": "Divine departure"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Markandeya narrated the lineage from King Ikshvaku: Sashada, Kakshasena, Anenas, Prithu, Vishvagashva, Ardra, Upanasha, Shravastha (who built Shravasti city), Ghritasva, and Kupalashva.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Markandeya",
+        "Ikshvaku",
+        "Sashada",
+        "Kakshasena",
+        "Anenas",
+        "Prithu",
+        "Vishvagashva",
+        "Ardra",
+        "Upanasha",
+        "Shravastha",
+        "Ghritasva",
+        "Kupalashva"
+      ],
+      "type": "Genealogy narration",
+      "relationships": [
+        "Royal lineage from Ikshvaku to Kupalashva"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kupalashva had twenty-one thousand sons, all learned and strong, and surpassed his father in virtue.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kupalashva"
+      ],
+      "type": "Character description",
+      "relationships": [
+        "Kupalashva has many sons"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Ghritasva performed the coronation for Kupalashva, transferring kingship to him, then went to the forest for austerities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Ghritasva",
+        "Kupalashva"
+      ],
+      "type": "Succession",
+      "relationships": [
+        "King Ghritasva abdicates in favor of son Kupalashva"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Utanka heard that King Ghritasva had gone to the forest and came to dissuade him, arguing that a king's duty is protection, not forest life.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Utanka",
+        "King Ghritasva"
+      ],
+      "type": "Persuasion/conflict",
+      "relationships": [
+        "Utanka challenges King Ghritasva's decision"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Utanka explained he cannot practice austerities peacefully because near his hermitage, in the sandy desert Ujjanaka, lives the powerful Danava king Dunduha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Utanka",
+        "Dunduha"
+      ],
+      "type": "Exposition of threat",
+      "relationships": [
+        "Utanka identifies Dunduha as threat"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A demon, the son of Madhu and Kaitabha, is described as cruel, violent, and living underground.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Demon (Son of Madhu and Kaitabha)"
+      ],
+      "action": "Description of the demon's nature and location",
+      "relationships": [
+        "Son of Madhu and Kaitabha"
+      ],
+      "supernatural_elements": [
+        "Demon"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The demon is performing severe austerities with the goal of destroying the world and the realm of the gods (Trivarga or Tridasha).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Demon (Son of Madhu and Kaitabha)"
+      ],
+      "action": "Performing austerities for destructive purpose",
+      "supernatural_elements": [
+        "Austerities with world-destroying intent"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "It is stated that gods, demons (Daityas), Rakshasas, Nagas, Yakshas, and Gandharvas cannot kill him because he has received a boon from the World Ancestor (likely Brahma).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Demon (Son of Madhu and Kaitabha)",
+        "World Ancestor (likely Brahma)"
+      ],
+      "action": "Revelation of invulnerability",
+      "relationships": [
+        "Boon recipient from World Ancestor"
+      ],
+      "supernatural_elements": [
+        "Divine boon granting invulnerability"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker urges the king to kill the demon, promising great and lasting fame, and states that Vishnu will transfer his power to the king for this purpose.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King (addressed)",
+        "Vishnu"
+      ],
+      "action": "Exhortation to kill the demon with divine assistance",
+      "relationships": [
+        "Vishnu as power granter"
+      ],
+      "supernatural_elements": [
+        "Vishnu transferring power"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The demon's breath causes earthquakes and obscures the sun with dust for seven days when he exhales once a year.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Demon (Son of Madhu and Kaitabha)"
+      ],
+      "action": "Description of destructive breath",
+      "supernatural_elements": [
+        "Breath causing earthquakes and atmospheric disturbances"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker explains they had to leave their hermitage due to the demon's disturbances and urges the king to kill the demon for the world's welfare.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Speaker (likely a sage)",
+        "King (addressed)",
+        "Demon (Son of Madhu and Kaitabha)"
+      ],
+      "action": "Plea for demon's elimination",
+      "relationships": [
+        "Speaker advising king"
+      ],
+      "supernatural_elements": [
+        "Demon's power forcing hermitage abandonment"
+      ]
+    },
+    "_token_interval": null
+  }
+]

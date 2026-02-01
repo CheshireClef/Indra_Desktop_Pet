@@ -1,0 +1,1856 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战询问毗湿摩关于维卢波和婆罗门或国王的对话、归宿和后续事件。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "毗湿摩"
+      ],
+      "type": "Inquiry"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "婆罗门敬拜正法之神、阎摩、时神、死神、天国和所有聚集的婆罗门，然后告诉国王带着他的功果去圣洁的地方，自己继续默诵。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "婆罗门",
+        "国王"
+      ],
+      "action": "敬拜与告别",
+      "relationships": "婆罗门分享功果给国王"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "国王提议与婆罗门共享默诵的功果。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "国王",
+        "婆罗门"
+      ],
+      "action": "提议共享功果",
+      "relationships": "国王慷慨分享"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "婆罗门同意与国王带着同样的功果前往归宿。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "婆罗门",
+        "国王"
+      ],
+      "action": "同意共享功果",
+      "relationships": "共同追求解脱"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "天国之主偕同众天神、护世神、沙提耶、毗奢、摩录多、行星、山岳、大海、圣地、苦行、瑜伽规则、吠陀、赞叹声、辩才女神、那罗陀、波尔伐多、毗首婆薮、诃诃、呼呼、健达缚奇军、蛇、悉陀、牟尼、生主和毗湿奴来到现场。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "天国之主",
+        "众天神",
+        "护世神",
+        "沙提耶",
+        "毗奢",
+        "摩录多",
+        "行星",
+        "山岳",
+        "大海",
+        "圣地",
+        "苦行",
+        "瑜伽规则",
+        "吠陀",
+        "赞叹声",
+        "辩才女神",
+        "那罗陀",
+        "波尔伐多",
+        "毗首婆薮",
+        "诃诃",
+        "呼呼",
+        "健达缚奇军",
+        "蛇",
+        "悉陀",
+        "牟尼",
+        "生主",
+        "毗湿奴"
+      ],
+      "type": "Divine Intervention",
+      "supernatural_elements": "众神齐聚"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "空中奏起鼓乐，天国花雨洒向灵魂高尚的人们，天女翩翩起舞。",
+    "char_interval": {
+      "start_pos": 518,
+      "end_pos": 525
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "天女"
+      ],
+      "type": "Supernatural Event",
+      "supernatural_elements": "天国景象"
+    },
+    "_token_interval": {
+      "start_index": 174,
+      "end_index": 176
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "有形的天国祝贺婆罗门和国王获得成功。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "有形的天国",
+        "婆罗门",
+        "国王"
+      ],
+      "action": "祝贺成功",
+      "relationships": "天国认可"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "婆罗门和国王一起将感官从感官对象撤回，将元气、下气、上气、中气和行气固定在心思中，集中在元气和下气。",
+    "char_interval": {
+      "start_pos": 626,
+      "end_pos": 671
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "婆罗门",
+        "国王"
+      ],
+      "action": "瑜伽修行",
+      "relationships": "共同修行"
+    },
+    "_token_interval": {
+      "start_index": 205,
+      "end_index": 221
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "婆罗门和国王运用心思将元气和下气固定在鼻尖和双眉之下，渐渐固定在双眉之间，身体寂然不动，目光坚定，入定控制坐姿，将灵魂安放在头部。",
+    "char_interval": {
+      "start_pos": 658,
+      "end_pos": 744
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "婆罗门",
+        "国王"
+      ],
+      "action": "深度入定",
+      "relationships": "同步修行"
+    },
+    "_token_interval": {
+      "start_index": 218,
+      "end_index": 241
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "一道闪亮的强烈光芒突破婆罗门的上颚升向天国，进入梵天。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "婆罗门",
+        "梵天"
+      ],
+      "action": "灵魂升天",
+      "supernatural_elements": "光芒升天"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "梵天欢迎光芒，说默诵者获得与瑜伽行者相同的功果，但瑜伽行者能亲眼目睹功果，而默诵者在入定中上升，并邀请光芒居住在他之中。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "梵天",
+        "婆罗门"
+      ],
+      "action": "梵天接纳",
+      "supernatural_elements": "梵天对话"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "梵天让婆罗门恢复思考能力，婆罗门进入梵天嘴中，摆脱烦恼。",
+    "char_interval": {
+      "start_pos": 968,
+      "end_pos": 986
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "梵天",
+        "婆罗门"
+      ],
+      "action": "解脱",
+      "relationships": "梵天赐予解脱"
+    },
+    "_token_interval": {
+      "start_index": 315,
+      "end_index": 321
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yudhishthira asks Bhishma about the fruits of Jnana Yoga (Path of Knowledge) and Vedic rituals, and how to perceive the soul of beings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Philosophical Inquiry",
+      "relationship": "Grandson (Yudhishthira) seeks wisdom from grandfather (Bhishma)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma references an ancient dialogue between Manu (the progenitor) and the sage Brihaspati to answer the question.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Manu",
+        "Brihaspati"
+      ],
+      "type": "Narrative Framing",
+      "relationship": "Bhishma recounts a teaching dialogue"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sage Brihaspati, as a student, bows to his teacher Manu and asks profound questions about the origin of all things, the fruits of knowledge and ritual, the nature of the soul, and the ultimate goal.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brihaspati",
+        "Manu"
+      ],
+      "type": "Dialogue Initiation",
+      "relationship": "Student (Brihaspati) seeks knowledge from teacher (Manu)",
+      "questions": [
+        "Origin of all things",
+        "Fruits of knowledge and ritual",
+        "Nature of the soul and rebirth",
+        "Ultimate goal beyond Vedic rituals"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Manu begins his reply by distinguishing between the paths of ritual (with desire) and knowledge (without attachment), stating that Vedic rituals are full of desires and one must transcend them to reach the Supreme (Brahman).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Manu"
+      ],
+      "type": "Philosophical Teaching",
+      "key_concepts": [
+        "Jnana Yoga (Path of Knowledge)",
+        "Karma Yoga (Path of Ritual/Action)",
+        "Brahman (the Supreme)"
+      ],
+      "action": "Contrasts attachment-based ritual with detachment-based knowledge"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Various paths of sacrifice seeking happiness cannot lead to the Supreme Being, as the Supreme Brahman transcends sacrificial paths and is without desire.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Philosophical teaching",
+      "key_concepts": [
+        "Sacrificial paths",
+        "Supreme Brahman",
+        "Desirelessness"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Beings are created by thought and action; people follow these two proper paths.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Cosmological teaching",
+      "key_concepts": [
+        "Thought",
+        "Action",
+        "Creation of beings"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing that even eternal actions (sacrifices) have an end, one must rely on thought to renounce everything.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Spiritual teaching",
+      "key_concepts": [
+        "Renunciation",
+        "Limits of action",
+        "Thought as refuge"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Knowledge, through its own cognitive power, sees the evil deeds that should be abandoned, just as eyes guide after darkness passes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Epistemological teaching",
+      "key_concepts": [
+        "Knowledge",
+        "Discernment of evil",
+        "Cognitive power"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "People avoid snakes, sharp grass tips, or wells and go around them; only ignorant fools step on them, demonstrating the superiority of knowledge.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Metaphorical teaching",
+      "key_concepts": [
+        "Knowledge vs. ignorance",
+        "Practical wisdom",
+        "Avoidance of harm"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mastering all mantras according to rules, performing sacrifices according to scriptures, giving rewards, distributing food, and meditating are said to be the five fruits of action.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Ritual teaching",
+      "key_concepts": [
+        "Five fruits of action",
+        "Mantras",
+        "Sacrifices",
+        "Meditation"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Vedas indicate that actions have attributes; mantras have attributes because action is the basis of mantras; rituals are established by thought and should be followed; embodied beings enjoy the results.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Vedic teaching",
+      "key_concepts": [
+        "Attributes of action",
+        "Mantras",
+        "Rituals",
+        "Embodied beings"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pure sound, color, taste, touch, and smell are results obtained in the world of action, which living people can control.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Sensory teaching",
+      "key_concepts": [
+        "Five senses",
+        "Results of action",
+        "Control"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Actions performed with the body yield results related to the body; actions performed with speech yield results related to speech; actions performed with the mind yield results related to the mind.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Karmic teaching",
+      "key_concepts": [
+        "Body, speech, and mind actions",
+        "Corresponding results"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Those who pursue and cling to the results of actions engage in various actions and enjoy the fruits of good or evil deeds according to the nature of their actions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Ethical teaching",
+      "key_concepts": [
+        "Attachment to results",
+        "Karmic fruits",
+        "Good and evil deeds"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Past deeds follow the doer like fish following water; the Supreme Soul is pleased with good deeds and displeased with evil deeds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Karmic teaching",
+      "key_concepts": [
+        "Karmic retribution",
+        "Supreme Soul",
+        "Good and evil deeds"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Supreme Being is the source of everything in the world, not described by Vedic words; knowing it leads to soul perfection and transcendence.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Metaphysical teaching",
+      "key_concepts": [
+        "Supreme Being",
+        "Transcendence",
+        "Soul perfection"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Supreme Being is free from various tastes, smells, sounds, touches, and colors; ungraspable, unmanifest, colorless, unique; it created the five great elements for all beings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Ontological teaching",
+      "key_concepts": [
+        "Five great elements",
+        "Transcendent qualities",
+        "Creation"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Supreme Being is not male, female, or neuter; not existent, not non-existent, nor both; only those who know Brahman can see it; it is imperishable and does not dissipate.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Theological teaching",
+      "key_concepts": [
+        "Brahman",
+        "Beyond gender and existence",
+        "Imperishable"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Manu states: From the Imperishable comes space, from space comes wind, from wind comes light, from light comes water, from water comes the world, from the world comes all things.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Manu"
+      ],
+      "type": "Cosmological teaching",
+      "key_concepts": [
+        "Cosmogony",
+        "Five elements",
+        "Creation sequence"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After death, embodied beings first return to water, then to light, then to wind, then to space; those who reach the Supreme Being attain liberation and do not return from space.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Manu"
+      ],
+      "type": "Soteriological teaching",
+      "key_concepts": [
+        "Afterlife journey",
+        "Liberation",
+        "Non-rebirth"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Supreme Nature is not hot, cold, soft, hard, sour, astringent, sweet, bitter, soundless, scentless, colorless.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Manu"
+      ],
+      "type": "Metaphysical teaching",
+      "key_concepts": [
+        "Supreme Nature",
+        "Beyond qualities"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The body feels touch, the tongue tastes, the nose smells, the ears hear, the eyes see colors; those who know the inner soul do not accept these but accept the Supreme Being.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Manu"
+      ],
+      "type": "Spiritual teaching",
+      "key_concepts": [
+        "Sensory perception",
+        "Inner soul",
+        "Acceptance of Supreme Being"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text describes the process of sensory withdrawal and the nature of the Supreme Self (Atman/Brahman).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Practitioner (implied)"
+      ],
+      "action": "Withdrawal of senses from their objects (taste, smell, sound, touch, sight) and realization of the Supreme as one's own nature.",
+      "type": "Philosophical/Spiritual Instruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text explains creation, cause and effect, and the relationship between the Supreme, knowledge, action, and the senses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Supreme Self (Atman/Brahman)"
+      ],
+      "action": "The Supreme is described as the sole cause from which everything is drawn, created, and within which everything operates.",
+      "type": "Cosmological/Philosophical Exposition"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text uses analogies (lamp, ministers, fire, wind, sun, rivers) to describe the senses, the body, and the process of perception and rebirth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Soul (Atman)"
+      ],
+      "action": "The soul is described as unchanging, unseen, and transmigrating from one body to another, with the body being temporary like the phenomena described.",
+      "type": "Analogical Explanation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text details the relationship between the soul, the five elements (space, air, fire, water, earth), the five senses, and the mind.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Soul (Atman)",
+        "The Mind",
+        "The Intellect"
+      ],
+      "action": "The soul enters the elements; senses derive from elements; senses, mind, and intellect operate in a hierarchy, all ultimately subordinate to the soul.",
+      "type": "Metaphysical Description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text concludes by stating that good and bad karma from past and present lives follow the mind and are acquired in the body, and describes how wisdom grasps the Supreme.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Practitioner (implied)"
+      ],
+      "action": "Accumulation of karma and the path to realizing the Supreme through wisdom.",
+      "type": "Karmic and Soteriological Instruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The chapter is identified as Chapter 195 of the 'Shanti Parva' (Book of Peace) from the Mahabharata, and the next chapter (196) begins with 'Manu said:'.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Manu"
+      ],
+      "action": "Citation of source and transition to a new speaker/narrative.",
+      "type": "Textual Framework"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The supreme self-nature (soul) remembers past characteristics when combined with senses, and manifests as wisdom when senses are abandoned.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Supreme Self (Soul)"
+      ],
+      "type": "Philosophical exposition",
+      "supernatural_elements": "Metaphysical nature of soul"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The soul acts as a witness, observing all sensory objects simultaneously or sequentially, making it the sole supreme entity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Soul"
+      ],
+      "type": "Philosophical exposition",
+      "relationships": "Soul as witness to sensory experiences"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The three gunas (qualities) are rajas (passion), tamas (ignorance), and sattva (goodness). The soul takes formless intelligence and enters senses like wind enters fire in burning wood.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Soul"
+      ],
+      "type": "Philosophical exposition",
+      "supernatural_elements": "Soul entering senses, three gunas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The soul cannot be perceived by eyes, touch, or hearing. If senses could perceive the soul, they would cease to be senses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Soul"
+      ],
+      "type": "Philosophical exposition",
+      "relationships": "Soul's imperceptibility to senses"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Five senses cannot perceive themselves, but the soul knows everything, sees all senses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Soul"
+      ],
+      "type": "Philosophical exposition",
+      "relationships": "Soul's omniscience versus sensory limitations"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The soul in beings is subtle, intelligent, and invisible to the eye but exists, like unseen sides of mountains or moon's far side.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Soul"
+      ],
+      "type": "Analogy",
+      "supernatural_elements": "Subtle existence of soul"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The soul is the supreme abode, even if unknown, like moon spots being world reflections.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Soul"
+      ],
+      "type": "Philosophical exposition",
+      "relationships": "Soul as ultimate reality"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Wise perceive the formless through wisdom based on birth and death, like perceiving sun's path from sunrise and sunset.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Wise"
+      ],
+      "type": "Philosophical exposition",
+      "relationships": "Wise perceiving soul through indirect means"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Wise use wisdom-lamp to bring distant things near for knowledge, like using nets for fish, hounds for animals, hawks for birds, or trained elephants for elephants.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Wise"
+      ],
+      "type": "Analogy",
+      "relationships": "Wisdom as tool for perception"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Snake seeing its own feet is an example; people see soul in form through knowledge.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "People"
+      ],
+      "type": "Analogy",
+      "relationships": "Knowledge enabling soul perception"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Supreme wisdom cannot know the supreme (soul) through wisdom, as senses cannot know senses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Supreme Wisdom",
+        "Soul"
+      ],
+      "type": "Philosophical exposition",
+      "relationships": "Limits of wisdom in knowing soul"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Soul is like new moon invisible but not destroyed; it does not manifest when formless.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Soul"
+      ],
+      "type": "Analogy",
+      "supernatural_elements": "Soul's persistence despite invisibility"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Soul enters another form and shines again, like moon gaining another form and shining.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Soul"
+      ],
+      "type": "Analogy",
+      "supernatural_elements": "Soul's reincarnation/transformation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Moon's phases are perceptible, but soul is not; from phases, one perceives moon's form as same as new moon.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Soul"
+      ],
+      "type": "Analogy",
+      "relationships": "Soul's continuity despite imperceptibility"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rahu's chasing and releasing of moon is unseen, like soul's entry and exit from body.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Soul"
+      ],
+      "type": "Analogy",
+      "supernatural_elements": "Soul's unseen transitions, Rahu (eclipse demon)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rahu's relation to moon and sun is perceptible, like soul's relation to body.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Soul"
+      ],
+      "type": "Analogy",
+      "relationships": "Soul-body relationship"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rahu cannot be perceived apart from moon and sun, nor soul apart from body.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Soul"
+      ],
+      "type": "Philosophical exposition",
+      "relationships": "Soul's dependence on form for perception"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "New moon relates to constellations, as soul without body relates to karmic fruits.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Soul"
+      ],
+      "type": "Analogy",
+      "supernatural_elements": "Soul's connection to karma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "This is Chapter 196 of the Shanti Parva in the Mahabharata.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Text"
+      ],
+      "type": "Citation",
+      "relationships": "Source attribution"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Manu speaks (beginning of Chapter 197).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 20,
+    "group_index": 19,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Manu"
+      ],
+      "type": "Narrative transition",
+      "relationships": "Speaker introduction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person sleeps, and their perception connected to the senses becomes active in dreams; similarly, after death, existence and non-existence occur.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Generic Person"
+      ],
+      "type": "Philosophical Explanation",
+      "supernatural_elements": "Afterlife states"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In calm water, one sees their reflection; a person with calm senses sees the object (soul) through knowledge.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Generic Person"
+      ],
+      "type": "Analogy",
+      "relationships": "Senses to soul perception"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In disturbed water, one cannot see their reflection; a person with agitated senses cannot see the soul through knowledge.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Generic Person"
+      ],
+      "type": "Analogy",
+      "relationships": "Senses to soul perception"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ignorance causes foolishness, which distorts the mind, which in turn distorts the five senses dependent on the mind.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Generic Person"
+      ],
+      "type": "Cause and Effect",
+      "relationships": "Ignorance to sensory distortion"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person content with ignorance is deeply immersed in sensory objects and cannot see the soul; thus, even a pure soul cannot abandon sensory objects.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Generic Person"
+      ],
+      "type": "Philosophical Statement",
+      "relationships": "Ignorance to soul perception"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person stained with impurity cannot cut off desires; only by eliminating sin can desires be abandoned.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Generic Person"
+      ],
+      "type": "Moral Instruction",
+      "relationships": "Sin to desire control"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Without relying on the Eternal, indulging in sensory objects, and desiring other things in the heart, one cannot reach the Supreme.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Generic Person"
+      ],
+      "type": "Spiritual Guidance",
+      "relationships": "Sensory indulgence to spiritual attainment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "By clearing sinful karma, knowledge arises, and one sees the soul in the self, which is as clear as a mirror.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Generic Person"
+      ],
+      "type": "Spiritual Process",
+      "supernatural_elements": "Karma and soul perception"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indulging the senses makes one suffer; controlling the senses makes one happy; therefore, one should cut off the various manifestations of the senses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Generic Person"
+      ],
+      "type": "Moral Instruction",
+      "relationships": "Sensory control to happiness"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Above the senses is the mind, above the mind is intellect, above intellect is knowledge, and above knowledge is the Supreme (soul).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Generic Person"
+      ],
+      "type": "Hierarchical Explanation",
+      "relationships": "Senses to Supreme soul hierarchy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Unmanifest (soul) produces knowledge, knowledge produces intellect, intellect produces mind, and the mind combines with senses like the ear to perceive objects like sound.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Generic Person"
+      ],
+      "type": "Cosmological Process",
+      "relationships": "Soul to sensory perception chain"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "By abandoning sensory objects like sound and all manifestations, and freeing oneself from various primal natures, one attains immortality.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Generic Person"
+      ],
+      "type": "Spiritual Goal",
+      "supernatural_elements": "Immortality attainment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "When the sun rises, it releases light; when it sets, it withdraws light into itself.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sun"
+      ],
+      "type": "Analogy",
+      "relationships": "Sun to light cycle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Similarly, the inner soul enters the body with the light of the senses, acquires five sensory natures, and then departs with them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Generic Person"
+      ],
+      "type": "Analogy",
+      "supernatural_elements": "Soul and sensory light"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person with a soul repeatedly walks the path of action, enjoys the fruits of karma, and increases dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Generic Person"
+      ],
+      "type": "Karmic Process",
+      "supernatural_elements": "Karma and dharma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sensory objects leave a fasting person; seeing the Supreme (soul) free from taste, one also abandons taste.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Generic Person"
+      ],
+      "type": "Spiritual Practice",
+      "relationships": "Fasting to sensory abandonment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Intellect freed from action, fixed in the heart, one attains Brahman and dissolves there.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Generic Person"
+      ],
+      "type": "Spiritual Attainment",
+      "supernatural_elements": "Brahman attainment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Touch, hearing, taste, sight, smell, and speculation cannot enter the Supreme.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Generic Person"
+      ],
+      "type": "Philosophical Statement",
+      "relationships": "Senses to Supreme limitation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Various forms enter the mind, the mind enters intellect, intellect enters knowledge, and knowledge proceeds to the Supreme.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Generic Person"
+      ],
+      "type": "Hierarchical Process",
+      "relationships": "Forms to Supreme progression"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The senses do not aid the mind, the mind does not understand intellect, intellect does not understand the Unmanifest (soul), but the subtle (soul) witnesses all.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 20,
+    "group_index": 19,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Generic Person"
+      ],
+      "type": "Philosophical Explanation",
+      "relationships": "Hierarchical limitations and soul's omniscience"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "This concludes Chapter 197 of the Shanti Parva in the Mahabharata.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 21,
+    "group_index": 20,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator"
+      ],
+      "type": "Textual Reference",
+      "relationships": "Context setting"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Manu explains that knowledge faces cognitive objects, the mind is the function of knowledge, connected to intellect, and thus intellect operates.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 22,
+    "group_index": 21,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Manu"
+      ],
+      "type": "Philosophical Teaching",
+      "relationships": "Manu as teacher"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Intellect freed from action, operating in the mind, cognizes Brahman through meditation yoga concentration.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 23,
+    "group_index": 22,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Manu"
+      ],
+      "type": "Spiritual Practice",
+      "supernatural_elements": "Brahman cognition"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "If intellect is tainted with material nature and tends toward various material natures, it flows like water gushing from a mountaintop.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 24,
+    "group_index": 23,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Manu"
+      ],
+      "type": "Analogy",
+      "relationships": "Intellect to material nature"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "If intellect is fixed in the mind, achieving meditation free from material nature, it cognizes Brahman, like gold touching a touchstone.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 25,
+    "group_index": 24,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Manu"
+      ],
+      "type": "Analogy",
+      "supernatural_elements": "Brahman cognition"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The mind under intellect's control sees sensory objects; the mind focused on immediate material nature cannot see that which is without material nature.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 26,
+    "group_index": 25,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Manu"
+      ],
+      "type": "Philosophical Explanation",
+      "relationships": "Mind to sensory perception limitation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Manu explains that when the five senses and mind are free from the five elements, one can perceive Brahman like a thread through pearls.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Manu"
+      ],
+      "type": "Philosophical Teaching",
+      "supernatural_elements": [
+        "Perception of Brahman"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Manu uses analogies of thread through various materials to illustrate how the soul enters different beings according to their karma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Manu"
+      ],
+      "type": "Philosophical Teaching",
+      "relationships": [
+        "Soul's connection to karma and reincarnation"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Manu explains the chain of causation: knowledge leads to desire, desire to intention, intention to action, and action to results.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Manu"
+      ],
+      "type": "Philosophical Teaching"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Manu describes how when knowledge, results, knowables, and actions cease, one attains divine results through knowledge based in Brahman.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Manu"
+      ],
+      "type": "Philosophical Teaching",
+      "supernatural_elements": [
+        "Attainment of divine results"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Manu contrasts yogis who see the supreme existence with fools whose wisdom is directed toward materiality.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Manu"
+      ],
+      "type": "Philosophical Teaching",
+      "relationships": [
+        "Contrast between yogis and materialistic fools"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Manu presents a hierarchy: water's form is greater than earth's, light greater than water, wind greater than light, space greater than wind, mind greater than space, intelligence greater than mind, time greater than intelligence.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Manu"
+      ],
+      "type": "Philosophical Teaching"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Manu declares Lord Vishnu is greater than time, is everything in this world, and is without beginning, end, or middle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Manu",
+        "Vishnu"
+      ],
+      "type": "Philosophical Teaching",
+      "supernatural_elements": [
+        "Divine nature of Vishnu"
+      ],
+      "relationships": [
+        "Vishnu as supreme deity"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Manu states that because Vishnu is without beginning, end, or middle, he is eternal, unchanging, and beyond all suffering.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Manu",
+        "Vishnu"
+      ],
+      "type": "Philosophical Teaching",
+      "supernatural_elements": [
+        "Eternal nature of Vishnu"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text describes the nature of Brahman (the Supreme Being) and contrasts it with the Vedas and material existence.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahman"
+      ],
+      "type": "Philosophical exposition",
+      "supernatural_elements": "Description of the eternal, unchanging, supreme, and attributeless nature of Brahman."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Vedas (Rigveda, Yajurveda, Samaveda) are described as having a beginning and an end, dependent on the body and effort, and ultimately subject to destruction.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rigveda",
+        "Yajurveda",
+        "Samaveda"
+      ],
+      "action": "Contrast with Brahman",
+      "relationships": "The Vedas are presented as inferior, transient teachings compared to the eternal Brahman."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "People fail to find the path to the Supreme due to fate, lack of method, attachment to actions, attachment to sense objects, desire for heaven, or attachment to material nature (Prakriti).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "People (generic)"
+      ],
+      "action": "Obstruction from spiritual realization",
+      "relationships": "People are depicted as being separated from Brahman by their attachments and desires."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The path to realizing Brahman is described: purifying the intellect through knowledge, the mind through intellect, and the senses through the mind, leading to the Infinite.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The seeker"
+      ],
+      "action": "Spiritual purification process",
+      "relationships": "A prescribed method for the seeker to attain union with Brahman."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A sage (Muni), by abandoning attachment to differences and material nature, enters the attributeless, eternal, unchanging Brahman, just as the sun withdraws its rays.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "A sage (Muni)"
+      ],
+      "action": "Attainment of liberation",
+      "relationships": "The sage achieves oneness with Brahman.",
+      "supernatural_elements": "Metaphor of the sun and its rays to illustrate renunciation and merging with the Supreme."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Recognizing Brahman as the unborn, supreme abode of the virtuous, self-born, origin and end, and eternal immutable state of immortality, one attains that tranquil immortality.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The realized being"
+      ],
+      "action": "Final realization and liberation",
+      "relationships": "The culmination of the spiritual journey is union with Brahman and attainment of immortality."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The passage is identified as Chapter 199 of the Shanti Parva (Book of Peace) from the Mahabharata.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Text attribution",
+      "relationships": "This philosophical discourse is part of the larger Mahabharata epic."
+    },
+    "_token_interval": null
+  }
+]

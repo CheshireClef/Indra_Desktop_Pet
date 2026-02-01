@@ -1,0 +1,1122 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "The heroic chariot warriors (Pandavas) leave one forest and enter another, hunting many deer while traveling quickly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Kunti"
+      ],
+      "action": "Traveling and hunting",
+      "locations": [
+        "Forests",
+        "Matsya",
+        "Trigarta",
+        "Panchala",
+        "Kurukshetra"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas and Kunti disguise themselves as ascetics, wearing bark and deer skin garments with matted hair.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Kunti"
+      ],
+      "action": "Disguise",
+      "purpose": "Conceal identity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "They study the Vedas, Vedangas, and Nyaya (logic) while traveling.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas"
+      ],
+      "action": "Education",
+      "subjects": [
+        "Vedas",
+        "Vedangas",
+        "Nyaya"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas meet their grandfather Vyasa (also known as Krishna Dvaipayana).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Kunti",
+        "Vyasa"
+      ],
+      "action": "Meeting",
+      "relationships": [
+        "Grandfather-grandsons",
+        "Mother-in-law/son-in-law"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa reveals he anticipated their exile by the Kauravas (Duryodhana and his brothers) and has come to help them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Pandavas",
+        "Kauravas"
+      ],
+      "action": "Divine foresight",
+      "conflict": "Exile imposed by Kauravas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa comforts the Pandavas and Kunti, promising future happiness and advising them to wait in a nearby safe city.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Pandavas",
+        "Kunti"
+      ],
+      "action": "Guidance and reassurance",
+      "promise": "Future prosperity and rule"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa prophesies that Yudhishthira will rule all kings on earth through dharma, supported by Bhima and Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna"
+      ],
+      "action": "Prophecy",
+      "future_event": "Yudhishthira's rule through righteousness"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa foretells the Pandavas will perform major sacrifices like Rajasuya and Ashvamedha after conquering the earth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Pandavas"
+      ],
+      "action": "Prophecy",
+      "future_events": [
+        "Rajasuya sacrifice",
+        "Ashvamedha sacrifice"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa leads them to Ekachakra city and places them in a Brahmin's household.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Pandavas",
+        "Kunti"
+      ],
+      "action": "Relocation",
+      "location": "Ekachakra city",
+      "accommodation": "Brahmin household"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa instructs them to wait for his return and departs according to his wishes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Pandavas"
+      ],
+      "action": "Departure",
+      "instruction": "Await Vyasa's return"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas (sons of Kunti) arrived in Ekacakra city and stayed in a Brahmin's house for a short time.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Kunti",
+        "Brahmin (landlord)"
+      ],
+      "action": "Arrival and residence",
+      "location": "Ekacakra city"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas moved around begging for alms, sharing the food with Kunti, with Bhima eating half and the others sharing the other half.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Kunti",
+        "Bhima"
+      ],
+      "action": "Begging and food distribution",
+      "relationships": "Family sharing resources"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "One day, while the other Pandavas were out begging, Kunti and Bhima remained at home and heard loud, sorrowful crying from the Brahmin's family.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Bhima",
+        "Brahmin (landlord)",
+        "Brahmin's wife",
+        "Brahmin's children"
+      ],
+      "action": "Hearing distress",
+      "emotional_state": "Distress and compassion"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti expressed her concern to Bhima, wanting to repay the Brahmin's kindness by helping with their misfortune.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Bhima"
+      ],
+      "action": "Conversation about gratitude",
+      "theme": "Repaying kindness"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima promised to investigate and help the Brahmin's family, regardless of difficulties.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Kunti"
+      ],
+      "action": "Promise to assist",
+      "character_trait": "Bhima's valor and willingness to help"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti entered the Brahmin's house and saw the Brahmin, his wife, and their children in deep sorrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Brahmin (landlord)",
+        "Brahmin's wife",
+        "Brahmin's children"
+      ],
+      "action": "Investigation of distress",
+      "emotional_state": "Sorrow and despair"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin lamented about the misery and suffering of human life.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin (landlord)"
+      ],
+      "action": "Lamentation",
+      "theme": "Suffering of existence"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker expresses profound suffering from the conflicts between dharma (righteousness), artha (wealth), and kama (pleasure), and the impossibility of achieving all three simultaneously.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Speaker"
+      ],
+      "action": "Philosophical lamentation",
+      "theme": "Suffering of existence"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker considers fleeing to a safe place with his family to escape disaster.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Speaker"
+      ],
+      "action": "Contemplating escape",
+      "plan": "Take wife and children to safety"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker rebukes his wife for previously refusing to leave, citing her attachment to her birthplace and deceased family.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Speaker",
+        "The Wife"
+      ],
+      "action": "Rebuke/Argument",
+      "conflict": "Wife's refusal to relocate due to familial ties",
+      "wife_attachment": "To birthplace and deceased parents/relatives"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker declares he cannot abandon his wife, praising her virtues, their lawful marriage, and her role as mother and loyal companion.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Speaker",
+        "The Wife"
+      ],
+      "action": "Declaration of loyalty",
+      "relationship": "Husband and wife, bound by dharma and marriage rites",
+      "wife_qualities": "High-born, gentle, mother of his children, chaste, kind, loyal"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker declares he cannot abandon his young daughter, describing her as a trust from the Creator and a hope for future lineage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Speaker",
+        "The Daughter"
+      ],
+      "action": "Declaration of paternal duty",
+      "relationship": "Father and daughter",
+      "daughter_status": "Young, unmarried, a hope for grandsons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker expresses equal love for sons and daughters and states the world depends on children.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Speaker"
+      ],
+      "action": "Philosophical statement",
+      "theme": "Equal parental love, importance of progeny"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker despairs that abandoning any family member is cruel and would lead to their death, and that his own death would also doom them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Speaker"
+      ],
+      "action": "Expression of despair",
+      "dilemma": "Cannot save himself without dooming family, cannot save family by sacrificing himself"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker concludes in utter despair, seeing no escape from the disaster and contemplating collective death as the only solution.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Speaker"
+      ],
+      "action": "Conclusion of lament",
+      "resolution": "Considers death for all as the only path"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A Brahmin woman addresses her husband, urging him not to grieve for her as she is mortal and all beings are destined for destruction.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin woman",
+        "Brahmin husband"
+      ],
+      "action": "Speech/Consolation",
+      "relationships": [
+        "Married couple"
+      ],
+      "key_points": [
+        "She emphasizes the inevitability of death",
+        "She tells him not to grieve like an ordinary person"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin woman declares it is a woman's eternal duty to safeguard her husband's interests, even at the cost of her own life.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin woman"
+      ],
+      "action": "Declaration of duty",
+      "relationships": [
+        "Wife to husband"
+      ],
+      "key_points": [
+        "She states this is the highest dharma (righteous duty)",
+        "She claims this will preserve his interests and dharma"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin woman states she has fulfilled her marital duties by bearing him a daughter and a son, and no longer owes him conjugal debt.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin woman",
+        "Brahmin husband"
+      ],
+      "action": "Assessment of marital obligations",
+      "relationships": [
+        "Married couple",
+        "Parents to children"
+      ],
+      "key_points": [
+        "She has given birth to two children",
+        "She considers her marital debt paid"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin woman expresses concern about her ability to protect and raise their children without her husband.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin woman",
+        "Brahmin husband",
+        "Daughter",
+        "Son"
+      ],
+      "action": "Expression of vulnerability",
+      "relationships": [
+        "Widow to children",
+        "Mother to children"
+      ],
+      "key_points": [
+        "She fears she cannot protect the children alone",
+        "She worries about maintaining their upbringing in dharma"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin woman describes the dangers she and her daughter would face as unprotected women, comparing them to meat pursued by birds or ghee stolen by crows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin woman",
+        "Daughter"
+      ],
+      "action": "Description of social vulnerability",
+      "relationships": [
+        "Mother to daughter"
+      ],
+      "key_points": [
+        "Unprotected women are pursued by unscrupulous men",
+        "She fears being forced from the righteous path",
+        "She worries her daughter might be taken by force"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin woman concludes that without her husband, she and both children will perish, and therefore he should abandon her.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin woman",
+        "Brahmin husband",
+        "Daughter",
+        "Son"
+      ],
+      "action": "Conclusion and plea",
+      "relationships": [
+        "Family unit facing destruction"
+      ],
+      "key_points": [
+        "She predicts death for all three without him",
+        "She asks him to sacrifice her to save the children",
+        "She frames this as necessary for their survival"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A Brahmin woman addresses her husband, explaining why she should be sacrificed to save the family from a Rakshasa (demon).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin woman",
+        "Brahmin husband"
+      ],
+      "action": "Argument for self-sacrifice",
+      "relationships": [
+        "Husband and wife",
+        "Parents of two children"
+      ],
+      "supernatural_elements": [
+        "Mention of a Rakshasa who knows dharma (righteous law)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin woman cites dharma, stating that a wife's highest duty is to her husband, and that sacrificing herself is righteous and beneficial for the family.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin woman"
+      ],
+      "action": "Moral argument",
+      "key_points": [
+        "Wife's duty to husband surpasses rituals and charity",
+        "Self-sacrifice is lawful and respected",
+        "Children, wealth, and relatives exist to avert calamity",
+        "The individual should not be equated with the whole family"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin woman urges her husband to let her go, protect their two children, and remarry to continue his dharma, while she faces the Rakshasa.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin woman",
+        "Brahmin husband"
+      ],
+      "action": "Plea and instruction",
+      "relationships": [
+        "Parents concerned for children's safety"
+      ],
+      "reasoning": [
+        "Women should not be harmed (per dharma)",
+        "The Rakshasa knows dharma and might spare her",
+        "Her death is uncertain, while his is assured if he goes"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After her speech, the husband embraces her, and both weep in sorrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin husband",
+        "Brahmin woman"
+      ],
+      "action": "Emotional reaction",
+      "relationships": [
+        "Mutual grief and affection"
+      ],
+      "narrator": "Vaishampayana (the narrator within the text)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Their daughter, hearing the parents' painful argument, intervenes, stating that she should be the one sacrificed to save the family.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Daughter (of the Brahmin couple)",
+        "Brahmin woman",
+        "Brahmin husband"
+      ],
+      "action": "Intervention and offer of self-sacrifice",
+      "relationships": [
+        "Daughter to parents"
+      ],
+      "reasoning": [
+        "Children exist to save parents in times of calamity",
+        "She should be sacrificed like a boat to rescue them"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A daughter pleads with her father to sacrifice her instead of himself to save the family from a crisis.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Daughter",
+        "Father",
+        "Mother",
+        "Younger Brother"
+      ],
+      "action": "Plea for self-sacrifice",
+      "relationships": [
+        "Father-Daughter",
+        "Mother-Daughter",
+        "Siblings"
+      ],
+      "key_points": [
+        "Daughter argues her sacrifice will save the father, mother, younger brother, family lineage, and ancestral rites.",
+        "She emphasizes a son's role as a rescuer (pūtrela) and her own expendability."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The younger brother, a small boy, interrupts the sorrow with innocent, playful words.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Younger Brother",
+        "Father",
+        "Mother",
+        "Daughter"
+      ],
+      "action": "Comic relief / Interruption",
+      "relationships": [
+        "Siblings",
+        "Parent-Child"
+      ],
+      "key_points": [
+        "The boy tells his family not to cry and claims he will kill the man-eating Rakshasa with a straw.",
+        "His actions briefly lift the family's spirits despite their distress."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti arrives, recognizing the opportune moment to intervene.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti"
+      ],
+      "action": "Arrival / Observation",
+      "relationships": [
+        "Unknown relationship to the family (context suggests she is an external observer/helper)"
+      ],
+      "key_points": [
+        "Kunti's arrival marks a turning point.",
+        "She is described as about to speak words as revitalizing as nectar."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text concludes as a chapter from the Mahabharata's Adi Parva.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Narrative frame",
+      "relationships": [],
+      "key_points": [
+        "This is the end of Chapter 147.",
+        "The scene is part of the larger Mahabharata epic."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A Brahmin explains the source of his people's suffering to a visitor.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin"
+      ],
+      "action": "Explanation of a curse",
+      "supernatural_elements": [
+        "Rakshasa named Bagha"
+      ],
+      "relationships": [
+        "Brahmin is a subject of a weak king"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin describes the Rakshasa Bagha, who rules the area and demands a tribute of food, cattle, and a human being.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bagha (Rakshasa)",
+        "Brahmin"
+      ],
+      "action": "Imposition of a tribute/demand",
+      "supernatural_elements": [
+        "Man-eating demon (Rakshasa)"
+      ],
+      "relationships": [
+        "Bagha terrorizes and rules over the local people"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin laments the absence of a strong king, stating that the current king is weak and lives elsewhere, leaving the people unprotected.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin"
+      ],
+      "action": "Lamentation/Complaint",
+      "relationships": [
+        "Brahmin and his people are subjects of a negligent king"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin reveals that the duty to provide the human tribute has now fallen upon his family, and he sees no way to save them, planning to offer his entire family to the Rakshasa.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin"
+      ],
+      "action": "Revelation of impending doom/Decision",
+      "relationships": [
+        "Brahmin is responsible for his family's safety"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti (the visitor) offers to help, stating she has found a way to defeat the Rakshasa and will send one of her five sons with the tribute instead.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Brahmin"
+      ],
+      "action": "Offer of assistance/Intervention",
+      "relationships": [
+        "Kunti is a guest of the Brahmin and offers to protect his family"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin refuses Kunti's offer, stating he would never sacrifice a Brahmin guest to save his own life, as it would be an unrighteous act.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin",
+        "Kunti"
+      ],
+      "action": "Refusal on ethical grounds",
+      "relationships": [
+        "Brahmin upholds dharma (righteous duty) over personal survival"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A Brahmin and his wife are in distress, fearing a Rakshasa (demon) will kill them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin",
+        "Brahmin's Wife"
+      ],
+      "action": "Fear of being killed by a Rakshasa",
+      "relationships": [
+        "Married couple in danger"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin expresses his moral dilemma: he believes it is better for him to be killed than to allow a Brahmin (himself or another) to be harmed, as killing a Brahmin is the greatest sin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin"
+      ],
+      "action": "Moral reasoning and self-sacrifice",
+      "relationships": [
+        "Brahmin's ethical stance"
+      ],
+      "supernatural_elements": [
+        "Moral law (dharma) regarding sin"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti (also referred to as Pritha) intervenes, stating she agrees a Brahmin should be protected, but she is confident her son can handle the Rakshasa without being harmed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti (Pritha)",
+        "Brahmin"
+      ],
+      "action": "Kunti offers her son's help",
+      "relationships": [
+        "Kunti as protector, mother of the son"
+      ],
+      "supernatural_elements": [
+        "Mention of her son's prowess with mantras and supernatural powers"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti reveals that her son has previously defeated a group of powerful Rakshasas single-handedly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti (Pritha)",
+        "Bhima (implied as her son, referred to as 'son of the Wind God')"
+      ],
+      "action": "Revelation of past heroic deed",
+      "relationships": [
+        "Mother-son relationship, Kunti as proud mother"
+      ],
+      "supernatural_elements": [
+        "Bhima's supernatural strength and combat skills"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti warns the Brahmin not to tell anyone about her son's abilities, as it could bring misfortune to her sons, and that sharing such knowledge without a teacher's permission renders it ineffective.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti (Pritha)",
+        "Brahmin"
+      ],
+      "action": "Warning and instruction",
+      "relationships": [
+        "Kunti as guardian of her sons' secrets"
+      ],
+      "supernatural_elements": [
+        "Rules about secrecy and efficacy of supernatural knowledge"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin and his wife are overjoyed and thank Kunti profusely for her comforting words.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin",
+        "Brahmin's Wife",
+        "Kunti (Pritha)"
+      ],
+      "action": "Gratitude and relief",
+      "relationships": [
+        "Kunti as benefactor to the Brahmin couple"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti, accompanied by the Brahmin, instructs her son Bhima (referred to as 'son of the Wind God') to take action, and he agrees.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti (Pritha)",
+        "Brahmin",
+        "Bhima"
+      ],
+      "action": "Kunti commands Bhima to deal with the Rakshasa",
+      "relationships": [
+        "Mother-son relationship, Kunti as commander, Bhima as obedient son"
+      ],
+      "supernatural_elements": [
+        "Bhima's divine parentage as son of the Wind God"
+      ]
+    },
+    "_token_interval": null
+  }
+]

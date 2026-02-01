@@ -1,3 +1,8 @@
+# src/vision/screen_observer.py
+"""
+屏幕观察者模块
+负责实现屏幕截图功能，并提供与主窗口的信号同步机制。
+"""
 import time
 from pathlib import Path
 import mss
@@ -6,10 +11,16 @@ from PySide6.QtCore import Qt, QObject, Signal, QThread  # 新增依赖
 from utils import resource_path
 
 class ScreenObserver(QObject):
+    """
+    屏幕观察者类
+    使用 mss 库进行跨平台屏幕截图。
+    通过信号 (Signal) 与主线程通信，确保在截图时隐藏桌宠窗口。
+    """
     # 信号：通知主线程隐藏桌宠
     hide_pet = Signal()
     # 信号：通知主线程恢复桌宠
     restore_pet = Signal()
+    
     def __init__(self, pet_window, settings_manager=None):
         """
         pet_window: PetWindow 实例
@@ -36,6 +47,7 @@ class ScreenObserver(QObject):
         """
         手动触发一次屏幕观察：
         截图 -> 保存 -> 自动清理旧截图
+        返回截图文件路径。
         """
         print("[ScreenObserver] 开始截图")
 
@@ -100,6 +112,5 @@ class ScreenObserver(QObject):
         for p in excess:
             try:
                 p.unlink()
-                print(f"[ScreenObserver] 已删除旧截图：{p.name}")
-            except Exception as e:
-                print(f"[ScreenObserver] 删除失败 {p}: {e}")
+            except Exception:
+                pass

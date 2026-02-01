@@ -1,0 +1,366 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira requests Bhishma to narrate the detailed story of Krishna's past deeds and incarnations.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Dialogue/Request",
+      "relationships": "Yudhishthira is Bhishma's grandson"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma recounts a story he heard from sage Kashyapa at Markandeya's hermitage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Kashyapa",
+        "Markandeya"
+      ],
+      "type": "Narration/Flashback",
+      "relationships": "Bhishma received the story from sage Kashyapa"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Daityas (demons) led by Naraka, filled with anger and greed, torment the gods and sages, causing distress on Earth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Daityas",
+        "Naraka",
+        "Devas (gods)",
+        "Sages"
+      ],
+      "type": "Conflict",
+      "relationships": "Daityas are enemies of the Devas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Adityas (gods) approach Brahma, seeking relief from the Daityas' torment.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Adityas",
+        "Brahma"
+      ],
+      "type": "Divine Intervention Request",
+      "relationships": "Brahma is the creator god"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahma reveals that Vishnu will incarnate as a boar to subdue the Daityas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma",
+        "Vishnu",
+        "Adityas"
+      ],
+      "type": "Prophecy/Divine Plan",
+      "relationships": "Vishnu is the preserver god who will incarnate"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vishnu incarnates as a boar (Varaha) and enters the underworld to confront the Daityas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu",
+        "Daityas"
+      ],
+      "type": "Divine Incarnation/Action",
+      "supernatural_elements": "Vishnu's incarnation as a boar"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Daityas, under the influence of Time (Kala), attack the boar but fail to overpower it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Daityas",
+        "Vishnu"
+      ],
+      "type": "Battle",
+      "supernatural_elements": "Influence of Time (Kala) on the Daityas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vishnu emits a mighty roar that terrifies the Daityas and shakes all worlds, causing even Indra and other gods to tremble.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu",
+        "Daityas",
+        "Indra",
+        "Devas"
+      ],
+      "type": "Divine Power Display",
+      "supernatural_elements": "World-shaking roar"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Daityas fall dead, confused by Vishnu's power, and the boar crushes the enemies of the gods with its tusks.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu",
+        "Daityas"
+      ],
+      "type": "Victory/Defeat",
+      "action": "Slaughter of Daityas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vishnu earns the name 'Eternal One' (or a similar epithet) from this roar.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu"
+      ],
+      "type": "Epithet Acquisition",
+      "relationships": "Vishnu is identified by a new name due to his action"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "众天神询问老祖宗（梵天）这是什么声音，这人是谁，因为这种声音使整个世界陷入瘫痪。",
+    "char_interval": {
+      "start_pos": 1031,
+      "end_pos": 1043
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "众天神",
+        "梵天"
+      ],
+      "action": "询问声音来源",
+      "supernatural_elements": [
+        "声音使世界瘫痪"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 304,
+      "end_index": 308
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "化身野猪的毗湿奴大神站起来，受到大仙们赞颂。",
+    "char_interval": {
+      "start_pos": 1090,
+      "end_pos": 1112
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "毗湿奴",
+        "大仙们"
+      ],
+      "action": "毗湿奴以野猪化身现身并受赞颂",
+      "supernatural_elements": [
+        "毗湿奴化身野猪"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 326,
+      "end_index": 330
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "梵天向众天神描述这位天神是大瑜伽行者、众生之灵魂、众生之源泉，身材魁梧，力大无穷，杀死这些檀那婆王。",
+    "char_interval": {
+      "start_pos": 1127,
+      "end_pos": 1169
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "梵天",
+        "众天神"
+      ],
+      "action": "梵天描述天神的身份和能力",
+      "relationships": [
+        "梵天向众天神解释"
+      ],
+      "supernatural_elements": [
+        "天神杀死檀那婆王"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 339,
+      "end_index": 351
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "梵天继续描述这位天神是一切众生之主、瑜伽行者、母胎、灵魂之灵魂，黑天消灭一切罪恶。",
+    "char_interval": {
+      "start_pos": 1181,
+      "end_pos": 1215
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "梵天",
+        "黑天"
+      ],
+      "action": "梵天进一步描述天神的特性和身份",
+      "relationships": [
+        "梵天揭示黑天的身份"
+      ],
+      "supernatural_elements": [
+        "黑天消灭罪恶"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 355,
+      "end_index": 366
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "梵天描述这位天神完成了别人不能完成的善举，回到自我，具有无限的光辉，大福大德，以莲花为肚脐，是众生的灵魂和源泉。",
+    "char_interval": {
+      "start_pos": 1219,
+      "end_pos": 1275
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "梵天"
+      ],
+      "action": "梵天描述天神的功德和特征",
+      "supernatural_elements": [
+        "莲花为肚脐",
+        "无限光辉"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 369,
+      "end_index": 381
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "梵天安慰众天神不必烦恼、害怕、忧虑，因为他是法则、源泉、毁灭一切的时间，维持一切世界，灵魂伟大，这吼声由他发出。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "梵天",
+        "众天神"
+      ],
+      "action": "梵天安慰众天神并解释吼声来源",
+      "relationships": [
+        "梵天安抚众天神"
+      ],
+      "supernatural_elements": [
+        "天神是法则、时间、世界维持者"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "梵天描述这位大福大德者永不退却，是一切众生的源泉，莲花眼受到一切世界崇敬。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "梵天"
+      ],
+      "action": "梵天总结天神的永恒性和崇敬地位",
+      "supernatural_elements": [
+        "莲花眼",
+        "受一切世界崇敬"
+      ]
+    },
+    "_token_interval": null
+  }
+]

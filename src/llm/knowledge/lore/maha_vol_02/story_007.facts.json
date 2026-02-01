@@ -1,0 +1,1764 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra asks Vidura to narrate the story of how Baka was killed by Bhima.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Vidura"
+      ],
+      "type": "Narrative Request",
+      "relationships": [
+        "Brothers (Dhritarashtra and Vidura)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vidura begins the story, describing the Pandavas' journey after losing the dice game.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vidura",
+        "Pandavas"
+      ],
+      "type": "Story Introduction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas (Yudhishthira, Bhima, Arjuna, Nakula, Sahadeva) and Draupadi travel for three days and nights after the dice game and reach the Kamyaka Forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Draupadi"
+      ],
+      "type": "Journey",
+      "relationships": [
+        "Pandava brothers",
+        "Draupadi (wife of Pandavas)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A terrifying, man-eating rakshasa named Baka (also called Baka's brother) appears, blocking the Pandavas' path in the Kamyaka Forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Baka (Rakshasa)",
+        "Pandavas",
+        "Draupadi"
+      ],
+      "type": "Supernatural Encounter",
+      "action": "Confrontation",
+      "supernatural_elements": [
+        "Rakshasa",
+        "Illusion magic",
+        "Shape-shifting ability"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The rakshasa creates terrifying illusions with loud roars that scare animals and create storms, causing Draupadi to faint in fear.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Baka (Rakshasa)",
+        "Draupadi",
+        "Pandavas"
+      ],
+      "type": "Supernatural Display",
+      "action": "Intimidation through magic"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sage Lomasa (烟氏仙人) recites mantras that destroy the rakshasa's illusions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Lomasa",
+        "Baka (Rakshasa)",
+        "Pandavas"
+      ],
+      "type": "Divine Intervention",
+      "action": "Counter-magic",
+      "supernatural_elements": [
+        "Protective mantras"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks the rakshasa to identify himself and state his purpose.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Baka (Rakshasa)"
+      ],
+      "type": "Dialogue",
+      "action": "Questioning"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The rakshasa reveals he is Baka's brother, lives in Kamyaka Forest, eats humans he defeats in battle, and threatens to eat the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Baka (Rakshasa)",
+        "Pandavas"
+      ],
+      "type": "Revelation",
+      "action": "Threat",
+      "relationships": [
+        "Brother of Baka"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira reveals his identity and family to the rakshasa",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bakasura (rakshasa)"
+      ],
+      "action": "Declaration/Confrontation",
+      "relationships": [
+        "Yudhishthira identifies himself as son of Pandu, brother of Bhima and Arjuna"
+      ],
+      "supernatural_elements": null
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bakasura expresses his desire for revenge against Bhima for killing his brother Baka and friend Hidimba",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bakasura",
+        "Bhima",
+        "Baka",
+        "Hidimba"
+      ],
+      "action": "Threat/Declaration of vengeance",
+      "relationships": [
+        "Bakasura seeks revenge for his brother Baka and friend Hidimba killed by Bhima"
+      ],
+      "supernatural_elements": [
+        "Rakshasa nature"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira angrily rejects Bakasura's threat",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bakasura"
+      ],
+      "action": "Defiance/Protection",
+      "relationships": [
+        "Yudhishthira defends his brother Bhima"
+      ],
+      "supernatural_elements": null
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima uproots a large tree as weapon and rushes toward Bakasura",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Bakasura",
+        "Arjuna"
+      ],
+      "action": "Preparation for battle",
+      "relationships": [
+        "Bhima takes lead in combat, Arjuna prepares his bow"
+      ],
+      "supernatural_elements": null
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima attacks Bakasura with the tree",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Bakasura"
+      ],
+      "action": "Physical combat",
+      "relationships": [
+        "Direct confrontation between Bhima and Bakasura"
+      ],
+      "supernatural_elements": [
+        "Comparison to Indra with vajra"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bakasura counterattacks with flaming torches",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bakasura",
+        "Bhima"
+      ],
+      "action": "Supernatural combat",
+      "relationships": [
+        "Exchange of attacks"
+      ],
+      "supernatural_elements": [
+        "Flaming torches like lightning"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima kicks away the torches and continues fighting",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Bakasura"
+      ],
+      "action": "Defense and counterattack",
+      "relationships": [
+        "Bhima shows superior combat skills"
+      ],
+      "supernatural_elements": null
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Both combatants fight with trees, destroying the forest",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Bakasura"
+      ],
+      "action": "Intense tree combat",
+      "relationships": [
+        "Fierce battle between human and rakshasa"
+      ],
+      "supernatural_elements": [
+        "Comparison to battle between monkey kings Vali and Sugriva"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bakasura throws a stone that makes Bhima unsteady",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bakasura",
+        "Bhima"
+      ],
+      "action": "Critical attack",
+      "relationships": [
+        "Bakasura gains temporary advantage"
+      ],
+      "supernatural_elements": null
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The rakshasa (demon) struck Bhima with a stone and then rushed at him with outstretched arms.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Baka (the rakshasa)"
+      ],
+      "action": "Initial attack",
+      "supernatural_elements": "Rakshasa (demon)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima and the rakshasa Baka wrestled fiercely, with Bhima gaining strength from thoughts of Duryodhana's insults and Draupadi watching.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Baka"
+      ],
+      "action": "Intense wrestling",
+      "relationships": "Bhima motivated by past wrongs from Duryodhana and desire to protect/prove himself to Draupadi"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima overpowered Baka, shook him violently, and then strangled him to death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Baka"
+      ],
+      "action": "Killing",
+      "outcome": "Baka is killed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima declared to the dying Baka that he would join his siblings Hidimba and Hidimbi in Yama's abode.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Baka"
+      ],
+      "action": "Final declaration",
+      "relationships": "Reveals Baka is sibling to Hidimba and Hidimbi"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After killing Baka, the Pandava princes praised Bhima's virtues and proceeded happily to the Kamyaka Forest with Draupadi leading.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Yudhishthira",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Draupadi"
+      ],
+      "action": "Journey continuation",
+      "relationships": "Pandava brothers united, Draupadi protected"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yudhishthira, with Draupadi, cleared obstacles and settled in the Kamyaka Forest, where the Pandavas comforted Draupadi and praised Bhima.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Draupadi",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "action": "Settlement",
+      "relationships": "Yudhishthira as leader, Pandavas as protectors of Draupadi"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The narrator (Vaishampayana) explains he saw Baka's body and heard this story from Brahmins, concluding the episode of Baka's death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vaishampayana",
+        "Baka"
+      ],
+      "action": "Narrative framing",
+      "supernatural_elements": "Story transmission"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra heard the story and fell into thoughtful, pained silence.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra"
+      ],
+      "action": "Reaction",
+      "relationships": "Dhritarashtra as listener, connected to Pandavas' fate"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "博遮族、苾湿尼族和安陀迦族人听说般度五子忍受痛苦去了森林，他们也一同出发前往森林。",
+    "char_interval": {
+      "start_pos": 2978,
+      "end_pos": 2982
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "博遮族",
+        "苾湿尼族",
+        "安陀迦族",
+        "般度五子"
+      ],
+      "action": "前往森林会合",
+      "relationship": "盟友/支持者"
+    },
+    "_token_interval": {
+      "start_index": 844,
+      "end_index": 846
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "般遮罗族王子们、车底王英勇的羯迦夜族众兄弟来到森林与般度五子相会。",
+    "char_interval": {
+      "start_pos": 3024,
+      "end_pos": 3032
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般遮罗族王子们",
+        "羯迦夜族众兄弟",
+        "般度五子"
+      ],
+      "action": "会面",
+      "relationship": "盟友/支持者"
+    },
+    "_token_interval": {
+      "start_index": 857,
+      "end_index": 859
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "这些刹帝利雄牛让婆薮提婆之子黑天走在前面，围住法王坚战坐了下来。",
+    "char_interval": {
+      "start_pos": 3099,
+      "end_pos": 3120
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天",
+        "坚战",
+        "刹帝利雄牛们"
+      ],
+      "action": "集会商议",
+      "relationship": "黑天是领导者，坚战是核心人物"
+    },
+    "_token_interval": {
+      "start_index": 881,
+      "end_index": 883
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天预言大地将要饮下难敌、迦尔纳、沙恭尼和难降的血，并提议给坚战灌顶登基。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天",
+        "难敌",
+        "迦尔纳",
+        "沙恭尼",
+        "难降",
+        "坚战"
+      ],
+      "action": "预言与提议",
+      "relationship": "黑天支持坚战，反对难敌一方",
+      "supernatural_elements": "预言"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天非常愤怒，阿周那连忙加以抚慰。",
+    "char_interval": {
+      "start_pos": 3232,
+      "end_pos": 3238
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天",
+        "阿周那"
+      ],
+      "action": "安抚情绪",
+      "relationship": "阿周那安抚黑天"
+    },
+    "_token_interval": {
+      "start_index": 916,
+      "end_index": 917
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那赞美黑天，讲述他前生的事迹和神圣身份。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "黑天"
+      ],
+      "action": "赞美与讲述",
+      "relationship": "阿周那崇敬黑天",
+      "supernatural_elements": "黑天的神圣起源和事迹（牟尼、苦行、祭祀、杀死妖魔那罗迦、三步跨越世界等）"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那描述黑天曾是那罗延、诃利、梵天、月亮、太阳、正法等多种神祇和元素的化身。",
+    "char_interval": {
+      "start_pos": 3162,
+      "end_pos": 3814
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "黑天"
+      ],
+      "action": "描述神圣本质",
+      "relationship": "阿周那揭示黑天的神性",
+      "supernatural_elements": "黑天是多种神祇和宇宙元素的化身，无生无始，是创造者和导师"
+    },
+    "_token_interval": {
+      "start_index": 895,
+      "end_index": 1103
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那提到黑天在奇车林里举行祭祀，慷慨布施，是女神阿底提的儿子，以毗湿奴闻名，是因陀罗的弟弟。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "黑天",
+        "因陀罗"
+      ],
+      "action": "描述祭祀和神圣关系",
+      "relationship": "黑天是因陀罗的弟弟，毗湿奴的化身",
+      "supernatural_elements": "神圣祭祀、神族关系"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna arrives in the sky, enters the palace of the sun, and illuminates it with his own radiance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "type": "Divine action",
+      "supernatural_elements": [
+        "Illumination of the sun palace"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna clears the noose of Mura, destroys Nishunda and Naraka, and restores safety on the road to Pragjyotisha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Mura",
+        "Nishunda",
+        "Naraka"
+      ],
+      "type": "Battle/victory",
+      "relationships": [
+        "Krishna defeats enemies"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna defeats Ahuti, Karala, Shishupala, Bhima, Shibi, and Shatadhanvan in Charuthi city.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Ahuti",
+        "Karala",
+        "Shishupala",
+        "Bhima",
+        "Shibi",
+        "Shatadhanvan"
+      ],
+      "type": "Battle/victory"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna mounts a chariot that roars like a rain cloud and shines like the sun, defeats Shrutakirti in battle, and takes the princess of Bhoja as his queen.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Shrutakirti",
+        "Princess of Bhoja"
+      ],
+      "type": "Battle/victory and marriage",
+      "relationships": [
+        "Krishna marries the Bhoja princess"
+      ],
+      "supernatural_elements": [
+        "Divine chariot"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna kills Digvijaya and Yavana king Kaseruman in anger, kills Shalva king of Shalva, and captures Shalva city.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Digvijaya",
+        "Kaseruman",
+        "Shalva"
+      ],
+      "type": "Battle/victory"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna kills the heroic Bhoja king (like Kartavirya Arjuna) in battle at the Iravati river, and also kills Gavipati and Taragadhu.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Bhoja king",
+        "Gavipati",
+        "Taragadhu"
+      ],
+      "type": "Battle/victory"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna occupies the holy and prosperous Dvaraka city, favored by sages, and plans to submerge it in the ocean.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "type": "Divine action",
+      "supernatural_elements": [
+        "Future submergence of Dvaraka"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna is praised as free from deceit, anger, jealousy, hypocrisy, and cruelty.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "type": "Divine attribute"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna sits in the heart, illuminated by his own radiance, with all sages coming to him seeking fearlessness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "type": "Divine presence",
+      "supernatural_elements": [
+        "Inner illumination"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "At the end of the world, Krishna absorbs all beings into himself and preserves the world.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "type": "Cosmic action",
+      "supernatural_elements": [
+        "World preservation"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna acted with Balarama in childhood and once lived with Brahma in Brahma's palace.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Balarama",
+        "Brahma"
+      ],
+      "type": "Divine association",
+      "relationships": [
+        "Krishna-Balarama partnership",
+        "Krishna-Brahma association"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna (as Krishna's soul) finishes speaking and remains silent. Krishna then speaks to Arjuna (son of Pritha).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna"
+      ],
+      "type": "Dialogue",
+      "relationships": [
+        "Krishna-Arjuna spiritual connection"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna declares to Arjuna: 'You are mine and I am yours. All that is mine is yours. Those who hate you hate me, those who follow you follow me.'",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna"
+      ],
+      "type": "Divine revelation",
+      "relationships": [
+        "Krishna-Arjuna unity"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna reveals that Arjuna is Nara and he is Hari Narayana, and that the two sages Nara and Narayana have come to this world from another world.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna"
+      ],
+      "type": "Divine identity revelation",
+      "relationships": [
+        "Arjuna as Nara",
+        "Krishna as Narayana"
+      ],
+      "supernatural_elements": [
+        "Divine incarnations"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna states that Arjuna cannot be separated from him, nor he from Arjuna, and no one knows any difference between them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna"
+      ],
+      "type": "Divine unity declaration"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi (daughter of Drupada) seeks refuge and approaches Krishna (who is sitting with the Yadus), addressing him with various divine epithets.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "Krishna"
+      ],
+      "type": "Seeking refuge",
+      "relationships": [
+        "Draupadi seeks Krishna's protection"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi praises Krishna as the creator of all beings (Prajapati), identified by various sages as Vishnu, sacrifice, truth, and the supreme lord of Satyas, Adityas, and Vasus.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "Krishna"
+      ],
+      "type": "Divine praise",
+      "supernatural_elements": [
+        "Krishna's cosmic nature"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi describes Krishna as the eternal Purusha whose head fills the sky, feet fill the earth, and belly fills the worlds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "Krishna"
+      ],
+      "type": "Cosmic description",
+      "supernatural_elements": [
+        "Krishna's cosmic form"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi (also known as Krishnaa, wife of the Pandavas, sister of Dhrishtadyumna) is lamenting to Krishna about her humiliation in the Kuru assembly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "Krishna"
+      ],
+      "action": "Lamentation/Complaint",
+      "relationships": [
+        "Draupadi is Krishna's friend and the wife of the Pandavas",
+        "Draupadi is the sister of Dhrishtadyumna"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi describes being dragged into the Kuru assembly while menstruating, wearing only a single garment, and being mocked by the sons of Dhritarashtra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "Sons of Dhritarashtra (Duryodhana and others)"
+      ],
+      "action": "Humiliation/Public Shaming",
+      "relationships": [
+        "Draupadi is the daughter-in-law of Dhritarashtra and Bhishma",
+        "Sons of Dhritarashtra are her cousins-in-law"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sons of Dhritarashtra attempted to make Draupadi their slave while the Pandavas, Panchalas, and Vrishnis were still alive.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sons of Dhritarashtra",
+        "Draupadi",
+        "Pandavas",
+        "Panchalas",
+        "Vrishnis"
+      ],
+      "action": "Attempted Enslavement",
+      "relationships": [
+        "Draupadi is married to the Pandavas",
+        "Panchalas are her natal family",
+        "Vrishnis are Krishna's clan"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi condemns the Pandava brothers (Yudhishthira, Bhima, Arjuna, Nakula, Sahadeva) for failing to protect her despite being great warriors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "action": "Condemnation/Accusation",
+      "relationships": [
+        "Draupadi is the wife of all five Pandava brothers"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi lists the five powerful sons she bore to each of her five husbands: Prativindhya (by Yudhishthira), Sutasoma (by Bhima), Shrutakarma (by Arjuna), Shatanika (by Nakula), and Shrutasena (by Sahadeva).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "Prativindhya",
+        "Sutasoma",
+        "Shrutakarma",
+        "Shatanika",
+        "Shrutasena",
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "action": "Listing of Offspring",
+      "relationships": [
+        "Each son is the child of Draupadi and a specific Pandava brother"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi recounts how the sons of Dhritarashtra unlawfully took the Pandavas' kingdom, made them live in exile, and dragged her to the assembly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sons of Dhritarashtra",
+        "Pandavas",
+        "Draupadi"
+      ],
+      "action": "Usurpation and Exile",
+      "relationships": [
+        "The Pandavas and sons of Dhritarashtra are cousins"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi praises Krishna, Arjuna, and Bhima as the only ones capable of stringing the Gandiva bow, and expresses her despair that Duryodhana remains alive.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "Krishna",
+        "Arjuna",
+        "Bhima",
+        "Duryodhana"
+      ],
+      "action": "Praise and Despair",
+      "relationships": [
+        "Krishna is a close friend and ally of the Pandavas",
+        "Duryodhana is the eldest son of Dhritarashtra and main antagonist"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana exiled the Pandavas and their mother Kunti from the kingdom while they were still minors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Pandavas (Yudhishthira, Bhima, Arjuna, Nakula, Sahadeva)",
+        "Kunti"
+      ],
+      "action": "Exile",
+      "relationship_change": "Hostility established between Duryodhana and the Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana put a powerful, freshly collected poison in Bhima's food.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhima"
+      ],
+      "action": "Poisoning attempt",
+      "supernatural_element": "Bhima's lifespan was not yet complete, so he digested the poison without harm"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana bound the sleeping Bhima and threw him into the Ganges river.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhima"
+      ],
+      "action": "Attempted drowning",
+      "result": "Bhima woke up, broke the bonds, and emerged"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana set many black snakes upon the sleeping Bhima to bite him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhima"
+      ],
+      "action": "Snake attack attempt",
+      "result": "Bhima did not die; upon waking, he killed all the snakes and also killed Duryodhana's beloved charioteer with a slap"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana attempted to burn the young Pandavas and Kunti alive in the city of Varanavata by setting their house on fire.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Pandavas",
+        "Kunti"
+      ],
+      "action": "Arson/attempted murder",
+      "result": "Bhima rescued everyone by carrying them out of the fire"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima carried Kunti and his brothers out of the burning house: Kunti on his left, Yudhishthira on his right, Nakula and Sahadeva on his shoulders, and Arjuna on his back.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Kunti",
+        "Yudhishthira",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "action": "Rescue",
+      "relationship": "Brotherly and filial bonds demonstrated through protection"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas and Kunti, now famous, traveled at night and arrived at a large forest near the forest of the Rakshasa Hidimba.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Kunti"
+      ],
+      "action": "Journey/escape",
+      "location_change": "From Varanavata to Hidimba's forest"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Rakshasi Hidimba came upon the sleeping Pandavas and Kunti, and she took Bhima's feet into her lap, massaging them with affection.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hidimba",
+        "Bhima"
+      ],
+      "action": "Initial encounter",
+      "relationship_development": "Hidimba shows immediate attraction/affection for Bhima"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima woke and asked Hidimba what she wanted.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Hidimba"
+      ],
+      "action": "Dialogue initiation",
+      "relationship_development": "Direct interaction begins"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Rakshasa Hidimba, Hidimba's brother, arrived, demanding to know who she was speaking with so they could eat them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hidimba (Rakshasa)",
+        "Hidimba (Rakshasi)",
+        "Bhima"
+      ],
+      "action": "Confrontation",
+      "relationship": "Sibling conflict; Hidimba (Rakshasi) feels compassion and affection for Bhima and does not reveal the truth"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The man-eating Rakshasa Hidimba rushed toward Bhima with a terrible roar, grabbed Bhima's hand, and struck him with his diamond-hard fist.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hidimba (Rakshasa)",
+        "Bhima"
+      ],
+      "action": "Physical attack",
+      "result": "Bhima became enraged, unable to tolerate being grabbed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima and Hidimba engaged in a fierce battle, with Bhima ultimately killing Hidimba.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Hidimba"
+      ],
+      "action": "Battle and killing",
+      "type": "Conflict"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Hidimbi (Hidimba's sister) walked ahead with the Pandavas after the battle and later gave birth to Bhima's son, Ghatotkacha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hidimbi",
+        "Bhima",
+        "Pandavas"
+      ],
+      "action": "Birth of child",
+      "relationships": [
+        "Hidimbi becomes Bhima's wife",
+        "Ghatotkacha is born"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas, their mother Kunti, and accompanying Brahmins left the forest and traveled to Ekachakra city.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Kunti",
+        "Brahmins"
+      ],
+      "action": "Journey",
+      "type": "Travel"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa became an advisor to the Pandavas during their journey, providing beneficial counsel.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Pandavas"
+      ],
+      "action": "Advisory role",
+      "relationships": [
+        "Vyasa advises Pandavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas encountered and Bhima killed the man-eating Rakshasa named Baka in Ekachakra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Baka",
+        "Pandavas"
+      ],
+      "action": "Killing of Rakshasa",
+      "type": "Conflict"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas traveled to King Drupada's capital city after killing Baka.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "King Drupada"
+      ],
+      "action": "Journey",
+      "type": "Travel"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna won Draupadi's hand in marriage at her swayamvara (self-choice ceremony) by accomplishing a feat no one else could.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Draupadi"
+      ],
+      "action": "Marriage",
+      "type": "Romance/Competition",
+      "relationships": [
+        "Arjuna marries Draupadi"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi left her mother-in-law and lived an ascetic forest life with Sage Yajnavalkya, enduring much suffering.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "Sage Yajnavalkya"
+      ],
+      "action": "Forest exile",
+      "type": "Suffering"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi lamented her suffering and humiliation, questioning why her powerful husbands allowed her to be mistreated by inferior enemies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "Pandavas"
+      ],
+      "action": "Lamentation",
+      "type": "Emotional distress",
+      "relationships": [
+        "Draupadi is wife of Pandavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna comforted Draupadi, vowing that her tormentors would be killed in battle and she would become queen of five kings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Draupadi"
+      ],
+      "action": "Promise of vengeance",
+      "type": "Divine assurance",
+      "relationships": [
+        "Krishna promises protection"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandin declared future battle outcomes: he would kill Drona, Shikhandi would kill Bhishma, Bhima would kill Duryodhana, and Arjuna would kill Karna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Drona",
+        "Shikhandi",
+        "Bhishma",
+        "Bhima",
+        "Duryodhana",
+        "Arjuna",
+        "Karna"
+      ],
+      "action": "Prophetic declarations",
+      "type": "Future predictions"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandin addresses his sister with encouragement about their strength in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin"
+      ],
+      "action": "Encouragement",
+      "relationships": [
+        "Siblings (Shikhandin and his sister)"
+      ],
+      "supernatural_elements": null
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandin states that with Balarama and Krishna supporting them, even Indra (who killed Vritra) could not defeat them in war, let alone the sons of Dhritarashtra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Balarama",
+        "Krishna",
+        "Indra",
+        "Vritra",
+        "Dhritarashtra's sons"
+      ],
+      "action": "Declaration of strength and divine support",
+      "relationships": [
+        "Allies (Balarama and Krishna supporting Shikhandin's side)",
+        "Enemies (Indra, Dhritarashtra's sons)"
+      ],
+      "supernatural_elements": [
+        "Reference to Indra's mythological victory over Vritra"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After Shikhandin finishes speaking, the heroes present turn their faces toward Krishna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Krishna",
+        "Other heroes present"
+      ],
+      "action": "Attention shift",
+      "relationships": [
+        "Focus on Krishna as key figure"
+      ],
+      "supernatural_elements": null
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In front of everyone, the mighty-armed Krishna begins to speak.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "action": "Beginning of speech",
+      "relationships": [
+        "Krishna as central speaker"
+      ],
+      "supernatural_elements": null
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "This concludes Chapter 13 of the Aranyaka Parva (Forest Book) in the Mahabharata.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Textual conclusion",
+      "relationships": [],
+      "supernatural_elements": null
+    },
+    "_token_interval": null
+  }
+]

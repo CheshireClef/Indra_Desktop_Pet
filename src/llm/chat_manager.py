@@ -1,3 +1,11 @@
+"""
+对话管理模块
+负责处理与 LLM 的交互，包括：
+1. 构建 Prompt (System Persona + User Input)
+2. 调用 RAG 检索知识库 (KnowledgeBase)
+3. 提取和处理情绪标签 (Emotion Tag)
+4. 管理对话历史 (History)
+"""
 from ast import pattern
 from pydoc import text
 from pyexpat.errors import messages
@@ -9,8 +17,13 @@ from utils import resource_path
 from .knowledge_base import KnowledgeBase
 
 class ChatManager:
+    """
+    对话管理器
+    整合了人设 (Persona)、知识库 (RAG) 和 LLM API 调用。
+    """
     VALID_EMOTION_TAGS = ["喜爱", "开心", "干杯", "疑问", "伤心", "无聊", "尴尬", "生气", "平常"]
     EMOTION_TAG_FORMAT = "【{}】"  # 标签固定包裹格式
+    
     # 新增：通用情绪标签 Prompt 生成方法（唯一标准）
     def _get_emotion_tag_prompt(self) -> str:
         """
@@ -83,6 +96,7 @@ class ChatManager:
     
     # ---------- Persona（原有逻辑，无改动） ----------
     def _load_persona(self):
+        """从文件加载基础人设"""
         try:
             with open(self.persona_path, "r", encoding="utf-8") as f:
                 self.base_persona = f.read().strip()
@@ -90,6 +104,7 @@ class ChatManager:
             self.base_persona = ""
 
     def _build_persona(self) -> str:
+        """构建完整的 System Prompt，包含用户昵称"""
         user_name = self.sm.get("user", "display_name", default="主人")
         return (
             f"{self.base_persona}\n\n"
@@ -97,6 +112,7 @@ class ChatManager:
         )
     
     def _retrieve_knowledge(self, query: str) -> str:
+        """检索知识库，返回相关片段"""
         return self.knowledge_base.retrieve(query)
     
     # 新增：带情绪标签返回的聊天方法

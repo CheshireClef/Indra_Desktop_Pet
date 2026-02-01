@@ -1,0 +1,1013 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "护民子 narrates to 镇群 about 大力罗摩's pilgrimage to various holy sites.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "护民子",
+        "镇群",
+        "大力罗摩"
+      ],
+      "action": "Narration",
+      "relationships": [
+        "护民子 is narrating to 镇群"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "大力罗摩 stays overnight at a hermitage, shows respect to the residents and 曼迦纳迦, gives alms to Brahmins, and receives homage from sages.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大力罗摩",
+        "曼迦纳迦",
+        "众牟尼 (sages)"
+      ],
+      "action": "Pilgrimage activities",
+      "relationships": [
+        "大力罗摩 shows respect to 曼迦纳迦 and sages"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "大力罗摩 travels to the holy site 奥沙那 (also called 伽波罗末遮那).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大力罗摩"
+      ],
+      "action": "Travel to holy site",
+      "supernatural_elements": [
+        "Holy site with healing properties"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "镇群 asks how the great sage 巨腹 came to 伽波罗末遮那, how the head got stuck, and how it was removed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "镇群",
+        "护民子",
+        "巨腹"
+      ],
+      "action": "Question about past event",
+      "relationships": [
+        "镇群 questions 护民子 about 巨腹's story"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "护民子 narrates that in the past, 罗摩 (Rama) lived in 弹吒迦林 to destroy Rakshasas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "护民子",
+        "罗摩"
+      ],
+      "action": "Background narration",
+      "supernatural_elements": [
+        "Rakshasas (demons)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "罗摩 cut off the head of an evil Rakshasa in 阇那私陀那 with a sharp arrow, and the head fell into a dense forest.",
+    "char_interval": {
+      "start_pos": 231,
+      "end_pos": 233
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "罗摩"
+      ],
+      "action": "Beheading of Rakshasa",
+      "supernatural_elements": [
+        "Rakshasa beheading"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 67,
+      "end_index": 68
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sage 巨腹 was walking in the forest when the head accidentally bounced onto his leg, piercing skin and bone, and stuck there.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "巨腹"
+      ],
+      "action": "Accidental injury",
+      "relationships": [
+        "巨腹 gets injured by the Rakshasa head"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "巨腹, despite pain and a festering leg, visited many holy sites, rivers, and seas, telling his story to pure-souled sages.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "巨腹",
+        "众牟尼 (sages)"
+      ],
+      "action": "Pilgrimage with suffering",
+      "relationships": [
+        "巨腹 shares his plight with sages"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "巨腹 learned from sages about the holy site 奥沙那 on the 娑罗私婆蒂河, which could cure any ailment.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "巨腹",
+        "众牟尼 (sages)"
+      ],
+      "action": "Discovery of cure",
+      "supernatural_elements": [
+        "Healing holy site"
+      ],
+      "relationships": [
+        "Sages inform 巨腹 about 奥沙那"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "巨腹 went to 奥沙那, bathed in its waters, and the head detached from his leg and sank to the bottom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "巨腹"
+      ],
+      "action": "Healing at holy site",
+      "supernatural_elements": [
+        "Miraculous healing at 奥沙那"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "巨腹 was freed from pain, purified, and returned happily to his hermitage, where he told everything to the pure-souled sages.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "巨腹",
+        "众牟尼 (sages)"
+      ],
+      "action": "Return and narration",
+      "relationships": [
+        "巨腹 shares his recovery with sages"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sages gathered there, after hearing his narration, gave this sacred place the name 'Kapalomochan'.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The sages"
+      ],
+      "action": "Naming a sacred place",
+      "location": "The sacred place"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The descendant of Madhu (Rama) bestowed abundant wealth upon the Brahmins to honor them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rama (Balarama)"
+      ],
+      "action": "Bestowing wealth upon Brahmins",
+      "recipients": [
+        "The Brahmins"
+      ],
+      "relationship": "Reverence shown by Rama towards Brahmins"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rama, the hero of the Vrishni clan, proceeded to the hermitage of Rushangu.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rama (Balarama)"
+      ],
+      "action": "Traveling to a hermitage",
+      "destination": "Rushangu's hermitage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In this hermitage, Arishtasena had practiced severe austerities, and here the great sage Vishvamitra attained Brahminhood.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arishtasena",
+        "Vishvamitra"
+      ],
+      "action": "Practicing austerities and attaining Brahminhood",
+      "location": "Rushangu's hermitage",
+      "supernatural_elements": "Transformation through austerities"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Here, Rushangu abandoned his physical body. The auspicious Rama (Balarama), holding the plow, arrived at this hermitage surrounded by Brahmins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rushangu",
+        "Rama (Balarama)"
+      ],
+      "action": "Abandoning physical body and arriving at hermitage",
+      "location": "Rushangu's hermitage",
+      "relationship": "Rama's pilgrimage to sacred sites"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rushangu, an elderly Brahmin, after long years of practicing austerities and contemplation, resolved to abandon his body.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rushangu"
+      ],
+      "action": "Resolving to abandon body after austerities",
+      "reason": "Advanced age and spiritual attainment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The great ascetic gathered his sons and instructed them to take him to the 'Broad Waters'.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rushangu",
+        "Rushangu's sons"
+      ],
+      "action": "Instructing sons for final journey",
+      "relationship": "Father-son, spiritual guidance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The ascetics, knowing Rushangu was aged, brought him to this sacred place by the Sarasvati River.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The ascetics",
+        "Rushangu"
+      ],
+      "action": "Bringing Rushangu to sacred place",
+      "location": "Sacred place by Sarasvati River"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The wise Rushangu was brought by his sons to the Sarasvati River, where hundreds of auspicious sacred places frequented by Brahmins were located.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rushangu",
+        "Rushangu's sons"
+      ],
+      "action": "Journey to river with sacred sites",
+      "location": "Sarasvati River banks"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The great ascetic bathed there according to ritual, then joyfully told his attending sons about the merit of pilgrimage and the liberation from death for those who abandon their body at the Broad Waters while reciting prayers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rushangu",
+        "Rushangu's sons"
+      ],
+      "action": "Ritual bathing and spiritual teaching",
+      "teaching": "Liberation through specific ritual death",
+      "supernatural_elements": "Promise of freedom from death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rama (Balarama), whose soul was Dharma and who held deep affection for Brahmins, touched the sacred waters, bathed, and bestowed abundant wealth upon the Brahmins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rama (Balarama)"
+      ],
+      "action": "Ritual bathing and charity",
+      "recipients": [
+        "The Brahmins"
+      ],
+      "character_trait": "Deep devotion to Dharma and Brahmins"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "At this sacred place, the honorable Creator of the Worlds created various worlds, and Arishtasena attained Brahminhood through great austerities, becoming an excellent sage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Creator (Brahma)",
+        "Arishtasena"
+      ],
+      "action": "Creation and spiritual transformation",
+      "location": "The sacred place",
+      "supernatural_elements": "Cosmic creation and ascetic attainment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "This was also where King Sindhudvipa, the great ascetic Devasharma, and the great sage Vishvamitra attained Brahminhood.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Sindhudvipa",
+        "Devasharma",
+        "Vishvamitra"
+      ],
+      "action": "Attaining Brahminhood",
+      "location": "The sacred place",
+      "relationship": "Multiple figures achieving spiritual status"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Thus, the mighty Balarama arrived at this sacred place.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Balarama"
+      ],
+      "action": "Arrival at sacred place",
+      "location": "The sacred place"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Janamejaya asked why Arishtasena practiced severe austerities, how Sindhudvipa attained Brahminhood, and how Devasharma and Vishvamitra became Brahmins, expressing his curiosity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Janamejaya"
+      ],
+      "action": "Inquiring about spiritual histories",
+      "questions": [
+        "Arishtasena's austerities",
+        "Sindhudvipa's transformation",
+        "Devasharma and Vishvamitra's Brahminhood"
+      ],
+      "relationship": "Student seeking knowledge from sage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sage Vaishampayana began narrating that in the Krita Yuga, the excellent Brahmin Arishtasena long resided in his teacher's house, daily delighting in study, but despite long residence, did not fully master the Vedas or other knowledge.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vaishampayana",
+        "Arishtasena"
+      ],
+      "action": "Beginning narration of past events",
+      "time_period": "Krita Yuga",
+      "situation": "Student living with teacher but incomplete learning"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A great ascetic practiced severe austerities and acquired supreme Vedic knowledge.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "A great ascetic (unnamed)"
+      ],
+      "action": "Practicing austerities, acquiring knowledge"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The great ascetic went to a holy place and declared three boons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "A great ascetic (unnamed)"
+      ],
+      "action": "Declaring boons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The ascetic went to Trayastrimsa Heaven (忉利天).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "A great ascetic (unnamed)"
+      ],
+      "action": "Ascending to heaven"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sindhudvipa and Devamitra attained great Brahmin status at this holy place.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sindhudvipa",
+        "Devamitra"
+      ],
+      "action": "Attaining Brahmin status"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kushika's grandson (Vishvamitra) practiced austerities and obtained Brahmin status.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishvamitra"
+      ],
+      "action": "Practicing austerities, obtaining Brahmin status"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Gathi had a mighty son named Vishvamitra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Gathi",
+        "Vishvamitra"
+      ],
+      "relationship": "Father and son"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Gathi, a great yogi and ascetic, passed the throne to his son Vishvamitra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Gathi",
+        "Vishvamitra"
+      ],
+      "action": "Succession to the throne"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gathi reassured his people that Vishvamitra would protect them and then ascended to Trayastrimsa Heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Gathi",
+        "Vishvamitra"
+      ],
+      "action": "Reassurance, ascension to heaven"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vishvamitra became king but struggled to protect the earth from Rakshasas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishvamitra"
+      ],
+      "conflict": "Inability to protect against Rakshasas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vishvamitra led his army to search for Rakshasas and arrived at Sage Vasishtha's hermitage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishvamitra",
+        "Sage Vasishtha"
+      ],
+      "action": "Military expedition"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vishvamitra's army misbehaved and damaged the hermitage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishvamitra's army"
+      ],
+      "action": "Destruction of hermitage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Vasishtha returned, saw the destruction, and became enraged.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Vasishtha"
+      ],
+      "emotion": "Anger"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Vasishtha commanded his cow to create terrifying Shabara warriors who defeated Vishvamitra's army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Vasishtha",
+        "Vishvamitra's army"
+      ],
+      "action": "Supernatural creation of warriors, battle",
+      "supernatural": "Cow creating warriors"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vishvamitra saw his army defeated and realized the power of austerities, deciding to practice them himself.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishvamitra"
+      ],
+      "realization": "Power of austerities",
+      "decision": "To practice austerities"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vishvamitra went to the Sarasvati River holy place and practiced severe austerities, including fasting and sleeping on the ground.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishvamitra"
+      ],
+      "action": "Practicing severe austerities"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The gods tried repeatedly to break his vows but failed to shake his self-control.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishvamitra",
+        "The gods"
+      ],
+      "conflict": "Gods attempting to disrupt austerities",
+      "outcome": "Vishvamitra's perseverance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vishvamitra exerted all his strength in practicing various austerities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishvamitra"
+      ],
+      "action": "Continued practice of austerities"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "凭借由此得来的内在力，他变得像太阳一样灿烂。",
+    "char_interval": {
+      "start_pos": 2954,
+      "end_pos": 2976
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "众友"
+      ],
+      "action": "通过苦行获得内在力量，变得灿烂如太阳",
+      "type": "Spiritual Transformation"
+    },
+    "_token_interval": {
+      "start_index": 777,
+      "end_index": 781
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "威力无限的老祖宗（梵天），这位施恩者，决定将一份恩惠赐给潜心苦行的众友。",
+    "char_interval": {
+      "start_pos": 2983,
+      "end_pos": 3019
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "梵天",
+        "众友"
+      ],
+      "action": "梵天决定赐予恩惠",
+      "type": "Divine Intervention",
+      "relationship": "施恩者与受恩者"
+    },
+    "_token_interval": {
+      "start_index": 786,
+      "end_index": 795
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "众友提出了自己选择的恩惠：“让我成为一个婆罗门吧！”",
+    "char_interval": {
+      "start_pos": 3027,
+      "end_pos": 3053
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "众友"
+      ],
+      "action": "请求成为婆罗门",
+      "type": "Boon Request",
+      "motivation": "身份转变"
+    },
+    "_token_interval": {
+      "start_index": 800,
+      "end_index": 806
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "一切世界的老祖宗梵天答道：“行！”",
+    "char_interval": {
+      "start_pos": 3053,
+      "end_pos": 3070
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "梵天"
+      ],
+      "action": "同意恩惠请求",
+      "type": "Divine Grant"
+    },
+    "_token_interval": {
+      "start_index": 806,
+      "end_index": 812
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "众友依靠严厉的苦行获得了婆罗门身份，如愿以偿。于是，他像一位天神那样，开始云游大地。",
+    "char_interval": {
+      "start_pos": 3074,
+      "end_pos": 3121
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "众友"
+      ],
+      "action": "获得婆罗门身份并开始云游",
+      "type": "Identity Transformation",
+      "result": "从苦行者转变为婆罗门，获得天神般的地位"
+    },
+    "_token_interval": {
+      "start_index": 815,
+      "end_index": 825
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "罗摩施舍了种种财物，以及奶牛、车辆和床具，还有衣物、饰品、食物和上好的饮料。",
+    "char_interval": {
+      "start_pos": 3135,
+      "end_pos": 3156
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "罗摩"
+      ],
+      "action": "慷慨施舍各种财物",
+      "type": "Charity",
+      "items": [
+        "财物",
+        "奶牛",
+        "车辆",
+        "床具",
+        "衣物",
+        "饰品",
+        "食物",
+        "饮料"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 830,
+      "end_index": 836
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "他先向众位优秀的婆罗门敬拜如仪，然后十分高兴地向他们施舍。",
+    "char_interval": {
+      "start_pos": 3177,
+      "end_pos": 3206
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "罗摩"
+      ],
+      "action": "敬拜婆罗门后施舍",
+      "type": "Ritual and Charity",
+      "relationship": "施舍者与接受者（婆罗门）"
+    },
+    "_token_interval": {
+      "start_index": 845,
+      "end_index": 849
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "罗摩又前往附近钵迦的净修林。据说，当初陀罗婆之子钵迦曾在那里修炼过严厉的苦行。",
+    "char_interval": {
+      "start_pos": 3217,
+      "end_pos": 3256
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "罗摩",
+        "钵迦"
+      ],
+      "action": "罗摩前往钵迦的净修林",
+      "type": "Journey",
+      "location": "钵迦的净修林",
+      "historical_context": "钵迦（陀罗婆之子）曾在此苦行"
+    },
+    "_token_interval": {
+      "start_index": 856,
+      "end_index": 862
+    }
+  }
+]

@@ -1,0 +1,1255 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Bhima's kingdom was seized, and he and his wife were reduced to slavery.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Bhima"
+      ],
+      "action": "Loss of kingdom and enslavement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Bhima urgently wanted to see Nala and sent out many Brahmins to search for him and his daughter Damayanti.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Bhima",
+        "Nala",
+        "Damayanti"
+      ],
+      "action": "Dispatch of search party",
+      "relationships": [
+        "Father-daughter (Bhima-Damayanti)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Bhima offered a reward of a thousand cows and a village the size of a town to anyone who could bring back Nala and Damayanti, and a thousand cows for just finding their traces.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Bhima"
+      ],
+      "action": "Offer of reward"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A Brahmin named Miao Tian (妙天) arrived at the capital of Chedi during a royal blessing ceremony and saw Princess Damayanti standing with Miao Xi (妙喜).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Miao Tian",
+        "Damayanti",
+        "Miao Xi"
+      ],
+      "location": "Capital of Chedi",
+      "action": "Discovery of Damayanti"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Miao Tian recognized Damayanti despite her disheveled and distressed appearance, identifying her through various signs.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Miao Tian",
+        "Damayanti"
+      ],
+      "action": "Recognition",
+      "description": "Damayanti was dirty, thin, and in poor condition but still recognizable"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Miao Tian described Damayanti's beauty and current suffering, comparing her to various natural and divine images, and expressed pity for her plight.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Miao Tian",
+        "Damayanti"
+      ],
+      "action": "Description and lament",
+      "relationships": [
+        "Husband-wife (Nala-Damayanti)"
+      ],
+      "emotional_state": "Damayanti is suffering due to separation from her husband Nala"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Miao Tian wondered when Damayanti's suffering would end and when she would reunite with her husband Nala.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Miao Tian",
+        "Damayanti",
+        "Nala"
+      ],
+      "action": "Expression of hope for reunion",
+      "relationships": [
+        "Husband-wife (Nala-Damayanti)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Brihadashva (妙天) approaches Damayanti (达摩衍蒂) and identifies himself as a friend of her brother, sent by King Bhima (毗摩) to find her.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Brihadashva",
+        "Damayanti",
+        "King Bhima"
+      ],
+      "type": "Recognition/Reunion",
+      "relationships": [
+        "Messenger from father",
+        "Daughter of Bhima"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Brihadashva informs Damayanti that her parents, brothers, and two children are all healthy and safe, and that her family is extremely worried about her.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Brihadashva",
+        "Damayanti"
+      ],
+      "type": "Information/Reassurance",
+      "relationships": [
+        "Messenger conveying family news"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti recognizes Sage Brihadashva and inquires about all her relatives, then breaks down crying upon seeing him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti",
+        "Sage Brihadashva"
+      ],
+      "type": "Emotional Reaction",
+      "relationships": [
+        "Long-lost family connection"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Matsya (妙喜) observes Damayanti crying with the Brahmin and reports this to her mother, the Queen Mother of Chedi (支谛国王的母亲).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Matsya",
+        "Queen Mother of Chedi",
+        "Damayanti",
+        "Sage Brihadashva"
+      ],
+      "type": "Observation/Report",
+      "relationships": [
+        "Servant reporting to royalty"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Queen Mother of Chedi approaches Damayanti and Sage Brihadashva, asking about Damayanti's identity and how she came to be separated from her family.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Queen Mother of Chedi",
+        "Sage Brihadashva",
+        "Damayanti"
+      ],
+      "type": "Inquiry",
+      "relationships": [
+        "Royal host inquiring about guest"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Brihadashva explains to the Queen Mother that Damayanti is the daughter of King Bhima of Vidarbha (毗德尔跋), wife of King Nala (那罗) of Nishadha (尼奢陀), who lost his kingdom in gambling and disappeared with her.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Brihadashva",
+        "Queen Mother of Chedi",
+        "Damayanti",
+        "King Bhima",
+        "King Nala"
+      ],
+      "type": "Revelation/Explanation",
+      "relationships": [
+        "Daughter of Bhima",
+        "Wife of Nala",
+        "Messenger explaining situation"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Brihadashva reveals that he and others have been searching for Damayanti across lands and found her in the palace of the Queen Mother's son.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Brihadashva",
+        "Queen Mother of Chedi",
+        "Damayanti"
+      ],
+      "type": "Discovery",
+      "relationships": [
+        "Search party finding lost princess"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "巨马转述妙天的话语，描述了一位皮肤黝黑、双眉中央有吉祥痣的女郎，其美貌被泥土遮盖但依然可见。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "巨马",
+        "妙天",
+        "达摩衍蒂"
+      ],
+      "action": "描述女郎外貌特征",
+      "relationships": [
+        "巨马转述妙天的话语",
+        "妙天描述达摩衍蒂"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "妙喜为女郎除去盖住红痣的泥土，红痣显露后光芒闪烁。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "妙喜",
+        "达摩衍蒂"
+      ],
+      "action": "揭示身份特征",
+      "supernatural_elements": "红痣显露时发出璀璨光芒"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "妙喜和王太后看到红痣后，认出女郎是达摩衍蒂，并搂抱她痛哭。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "妙喜",
+        "王太后",
+        "达摩衍蒂"
+      ],
+      "action": "身份识别与情感表达",
+      "relationships": [
+        "王太后是达摩衍蒂的姨母",
+        "妙喜是达摩衍蒂的表哥(?)",
+        "达摩衍蒂是王太后姐姐的女儿"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "王太后解释家族关系：她和达摩衍蒂的母亲是十湖国国王苏达门的女儿，达摩衍蒂的母亲嫁给了毗摩国王，她嫁给了雄臂国王。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "王太后",
+        "达摩衍蒂",
+        "苏达门",
+        "毗摩国王",
+        "雄臂国王"
+      ],
+      "action": "阐述家族背景",
+      "relationships": [
+        "苏达门是王太后和达摩衍蒂母亲的父亲",
+        "达摩衍蒂母亲是毗摩国王的妻子",
+        "王太后是雄臂国王的妻子"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "王太后告诉达摩衍蒂这里就是她的家，两人都是主人。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "王太后",
+        "达摩衍蒂"
+      ],
+      "action": "提供庇护与归属",
+      "relationships": [
+        "姨母与侄女",
+        "共同主人关系"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "达摩衍蒂感谢姨母的收留，但请求返回毗德尔跋与子女团聚。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "达摩衍蒂",
+        "王太后"
+      ],
+      "action": "表达感激与离别请求",
+      "relationships": [
+        "达摩衍蒂有一双年幼子女在毗德尔跋"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "表哥妙喜赞同达摩衍蒂的想法，王太后应允请求并准备车辇送她回毗德尔跋。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "妙喜",
+        "王太后",
+        "达摩衍蒂"
+      ],
+      "action": "支持决定并安排行程",
+      "relationships": [
+        "妙喜是达摩衍蒂的表哥"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "达摩衍蒂乘坐人力车携带物品返回毗德尔跋国京城，受到亲戚朋友迎接。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "达摩衍蒂"
+      ],
+      "action": "返回故乡",
+      "relationships": [
+        "与亲友团聚"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "达摩衍蒂见到子女、女伴和亲人，确认他们健康平安，然后供养天神并向婆罗门致敬。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "达摩衍蒂"
+      ],
+      "action": "家庭团聚与宗教仪式",
+      "relationships": [
+        "与子女团聚",
+        "与亲人重聚"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Bhima, pleased with his daughter, rewarded the brahmin Miao Tian with one thousand cows, a village, and money as promised.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Bhima",
+        "Miao Tian"
+      ],
+      "action": "Reward fulfillment",
+      "relationship": "King-reward recipient"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti, distressed and weary, stayed in her father's palace at night and confided in her mother.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti",
+        "Queen Mother (Damayanti's mother)"
+      ],
+      "action": "Confession/plea",
+      "relationship": "Mother-daughter"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti told her mother that if she wanted her to continue living, she must send someone to find her husband Nala.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti",
+        "Queen Mother"
+      ],
+      "action": "Desperate request",
+      "relationship": "Daughter pleading to mother"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Queen Mother, hearing Damayanti's words, was overcome with grief and wept, unable to speak clearly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Queen Mother"
+      ],
+      "action": "Emotional reaction",
+      "relationship": "Mother sympathizing with daughter"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The entire后宫 (harem/women's quarters) witnessed the Queen Mother's sorrow and also wept and sighed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Harem women"
+      ],
+      "action": "Collective mourning",
+      "relationship": "Court community"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Queen Mother reported to King Bhima that their daughter Damayanti was deeply worried about her husband and had personally requested to send someone to find Nala.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Queen Mother",
+        "King Bhima",
+        "Damayanti"
+      ],
+      "action": "Relaying message",
+      "relationship": "Queen informing King about their daughter"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Bhima, out of love for his daughter and respect for the Queen, immediately dispatched brahmins who could control their will and desires to search in all directions for Nala.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Bhima",
+        "Brahmins"
+      ],
+      "action": "Dispatch of search party",
+      "relationship": "King commanding subjects"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The brahmins agreed to King Bhima's command but requested to see Damayanti first before departing.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmins",
+        "King Bhima"
+      ],
+      "action": "Conditional acceptance",
+      "relationship": "Subjects negotiating with King"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti instructed the brahmins to recite a specific message wherever they went, describing how Nala abandoned her in the forest and pleading for his return.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti",
+        "Brahmins"
+      ],
+      "action": "Giving instructions/message",
+      "relationship": "Princess instructing messengers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti told the brahmins that if anyone responded to their message, they should investigate that person thoroughly and report back to her quickly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti",
+        "Brahmins"
+      ],
+      "action": "Strategic planning",
+      "relationship": "Princess directing search strategy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti instructed the Brahmins to search for Nala in various places.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti",
+        "Brahmins"
+      ],
+      "action": "Search initiation",
+      "relationship": "Damayanti (princess) commands Brahmins (messengers/searchers)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmins searched extensively but found no trace of Nala.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmins"
+      ],
+      "action": "Failed search",
+      "locations": [
+        "Various kingdoms' towns",
+        "villages",
+        "temples",
+        "forest hermitages"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A Brahmin named Parnada returned to Vidarbha capital and reported to Damayanti.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Parnada",
+        "Damayanti"
+      ],
+      "action": "Report delivery",
+      "relationship": "Messenger (Parnada) reporting to princess (Damayanti)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Parnada visited King Rituparna in Ayodhya and delivered Damayanti's coded message.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Parnada",
+        "King Rituparna"
+      ],
+      "action": "Message delivery",
+      "location": "Ayodhya",
+      "result": "No response from Rituparna or audience"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After leaving the crowd, Parnada was approached by Rituparna's servant Bahuka.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Parnada",
+        "Bahuka"
+      ],
+      "action": "Secret conversation initiation",
+      "description": "Bahuka is described as an ugly, deformed dwarf, skilled cook, charioteer, and expert horseman"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bahuka spoke to Parnada with sighs and tears, delivering a philosophical message about women's patience.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bahuka",
+        "Parnada"
+      ],
+      "action": "Philosophical discourse",
+      "content": "Advice about noble women enduring hardships, not getting angry at abandoned husbands, and references to someone losing kingdom and wealth while catching birds",
+      "relationship": "Bahuka (servant) speaking to Parnada (messenger)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Parnada returned immediately to report Bahuka's words to Damayanti.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Parnada",
+        "Damayanti"
+      ],
+      "action": "Urgent report",
+      "result": "Damayanti becomes emotional"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti, moved to tears, went to her mother and requested secret help.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti",
+        "Mother (unnamed)",
+        "King Bhima"
+      ],
+      "action": "Secret planning",
+      "relationship": "Damayanti (daughter) confiding in mother, keeping plan from father (King Bhima)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti planned to send the Brahmin Sudeva to Ayodhya to bring back Nala.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti",
+        "Sudeva"
+      ],
+      "action": "New search plan",
+      "reasoning": "Sudeva previously found Damayanti quickly, so she believes he can find Nala",
+      "destination": "Ayodhya"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti rewarded the Brahmin Purnada with generous gifts for his efforts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti",
+        "Purnada"
+      ],
+      "action": "Reward/Thanksgiving",
+      "relationships": [
+        "Damayanti expresses gratitude to Purnada for his service"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti summoned the clever Brahmin Sudeva and instructed him to go to Ayodhya.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti",
+        "Sudeva"
+      ],
+      "action": "Summon/Instruction",
+      "relationships": [
+        "Damayanti gives Sudeva a mission"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti told Sudeva to inform King Rituparna that she is holding a second swayamvara (husband-choosing ceremony) to remarry, as Nala's fate is unknown.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti",
+        "Sudeva",
+        "King Rituparna",
+        "Nala"
+      ],
+      "action": "Deception/Strategy",
+      "relationships": [
+        "Damayanti (wife) plans to lure Nala (husband) through Rituparna",
+        "Damayanti claims Nala's status is unknown"
+      ],
+      "supernatural_elements": null
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sudeva delivered Damayanti's message to King Rituparna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sudeva",
+        "King Rituparna"
+      ],
+      "action": "Message Delivery",
+      "relationships": [
+        "Sudeva acts as messenger between Damayanti and Rituparna"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Rituparna asked his charioteer Vahuka (Nala in disguise) if they could reach Vidarbha in one day to attend Damayanti's swayamvara.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Rituparna",
+        "Vahuka (Nala)"
+      ],
+      "action": "Inquiry/Planning",
+      "relationships": [
+        "Rituparna (king) consults Vahuka (disguised Nala, his charioteer)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nala (as Vahuka) was heartbroken upon hearing about Damayanti's swayamvara, questioning her motives and blaming himself for her suffering.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nala"
+      ],
+      "action": "Internal Conflict/Reflection",
+      "relationships": [
+        "Nala (husband) doubts Damayanti's (wife) loyalty but considers her possible strategy"
+      ],
+      "supernatural_elements": null
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nala decided to use Rituparna's desire for Damayanti to achieve his own goal of reuniting with her.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nala",
+        "King Rituparna",
+        "Damayanti"
+      ],
+      "action": "Decision/Strategy",
+      "relationships": [
+        "Nala plans to manipulate Rituparna's journey to reach Damayanti"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vahuka (Nala) assured King Rituparna they could reach Vidarbha's capital in one day.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vahuka (Nala)",
+        "King Rituparna"
+      ],
+      "action": "Assurance/Commitment",
+      "relationships": [
+        "Vahuka (Nala) confirms the travel plan to Rituparna"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Rituparna ordered his charioteer Bahuka to select horses from the stable.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Rituparna",
+        "Bahuka"
+      ],
+      "action": "Order to select horses",
+      "relationship": "King and charioteer"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bahuka, after repeated urgings from the king, brought several thin but exceptionally capable horses suitable for long-distance travel.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bahuka",
+        "King Rituparna"
+      ],
+      "action": "Selection and presentation of horses",
+      "horse_qualities": "Thin appearance but strong, energetic, with broad nostrils, strong jaws, pure color, all qualities of excellent breed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Rituparna became angry upon seeing the horses, doubting their ability to pull the chariot over the long and difficult journey to Vidarbha in one day.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Rituparna",
+        "Bahuka"
+      ],
+      "action": "Expression of doubt and anger",
+      "conflict": "Disagreement about horse suitability"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bahuka confidently asserted that the horses could reach Vidarbha's capital in one day and offered to harness other horses if the king preferred.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bahuka",
+        "King Rituparna"
+      ],
+      "action": "Confident assertion and offer",
+      "demonstrates": "Bahuka's expertise with horses"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Rituparna acknowledged Bahuka's expertise with horses and charioteering, telling him to harness the horses if he believed they were suitable.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Rituparna",
+        "Bahuka"
+      ],
+      "action": "Delegation of authority",
+      "relationship_development": "King trusts Bahuka's judgment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The skilled Nala (disguised as Bahuka) harnessed the four excellent horses to the king's chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nala (as Bahuka)",
+        "King Rituparna"
+      ],
+      "action": "Harnessing horses",
+      "revelation": "Bahuka is actually Nala in disguise"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Rituparna quickly boarded the chariot, and the horses knelt on the ground.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Rituparna",
+        "Nala (as Bahuka)"
+      ],
+      "action": "Boarding chariot, horses kneeling",
+      "supernatural_element": "Horses showing reverence by kneeling"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nala (as Bahuka) calmed the powerful, shining horses and skillfully drove the chariot at great speed, with Varshneya seated inside.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nala (as Bahuka)",
+        "Varshneya",
+        "King Rituparna"
+      ],
+      "action": "Calming horses and expert chariot driving",
+      "demonstrates": "Nala's exceptional charioteering skills"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nala displayed such masterful charioteering that the horses seemed to fly into the clouds, making even the passengers dizzy, astonishing King Rituparna with their wind-like speed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nala (as Bahuka)",
+        "King Rituparna",
+        "Varshneya"
+      ],
+      "action": "Extreme speed driving",
+      "reaction": "King's astonishment, passenger dizziness"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Varshneya, hearing the chariot's roar and the commands to the horses, began to suspect Bahuka's true identity, considering various possibilities including Matali (Indra's charioteer), the horse-knowing sage Shalihotra, or King Nala himself.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Varshneya",
+        "Nala (as Bahuka)"
+      ],
+      "action": "Suspicion and contemplation",
+      "possible_identities": [
+        "Matali",
+        "Shalihotra",
+        "King Nala"
+      ],
+      "reasoning": "Similar charioteering skills, age, and stature despite different appearance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Varshneya concluded that Bahuka, despite his deformed appearance, possessed all excellent qualities and was indeed King Nala, considering that great souls sometimes change their forms and conceal their identities due to fate.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Varshneya",
+        "Nala (as Bahuka)"
+      ],
+      "action": "Identity resolution",
+      "conclusion": "Bahuka is King Nala in disguise",
+      "philosophical_element": "Great souls may change forms and conceal identities due to fate"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "哩都波尔那国王和伐尔湿内耶同坐车上，一路上尽情地欣赏着跋乎迦的驭马术。",
+    "char_interval": {
+      "start_pos": 6947,
+      "end_pos": 6983
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "哩都波尔那国王",
+        "伐尔湿内耶",
+        "跋乎迦"
+      ],
+      "action": "欣赏驭马术",
+      "relationships": [
+        "哩都波尔那国王与伐尔湿内耶同坐一车",
+        "跋乎迦为驭者"
+      ],
+      "context": "旅行途中"
+    },
+    "_token_interval": {
+      "start_index": 1784,
+      "end_index": 1788
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "哩都波尔那国王注视着跋乎迦过人的膂力，超人的勇气和机敏，不由得心花怒放，高兴非常。",
+    "char_interval": {
+      "start_pos": 6987,
+      "end_pos": 7022
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "哩都波尔那国王",
+        "跋乎迦"
+      ],
+      "action": "观察与赞赏",
+      "qualities_observed": [
+        "膂力",
+        "勇气",
+        "机敏"
+      ],
+      "emotional_response": "心花怒放，高兴非常",
+      "relationships": [
+        "国王对跋乎迦产生深刻印象"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 1791,
+      "end_index": 1799
+    }
+  }
+]

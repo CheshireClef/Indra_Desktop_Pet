@@ -1,0 +1,504 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "那罗国王在恭底那城小住一月光景后，向毗摩王辞行，带领扈从返回尼奢陀。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "那罗国王",
+        "毗摩王"
+      ],
+      "action": "辞行与归国",
+      "details": "那罗国王带领扈从（包括十六头大象、五十匹骏马、六百名步兵战士）返回尼奢陀京城。"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "那罗国王回到尼奢陀后，与布湿迦罗相见，提议进行赌博或决斗以争夺王国。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "那罗国王",
+        "布湿迦罗"
+      ],
+      "action": "挑战",
+      "details": "那罗国王提议以掷骰子（赌注为达摩衍蒂和其他财产）或一对一决斗的方式争夺王国统治权。"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "布湿迦罗接受挑战，自信能获胜，并出言侮辱达摩衍蒂。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "布湿迦罗",
+        "那罗国王",
+        "达摩衍蒂"
+      ],
+      "action": "接受挑战与侮辱",
+      "details": "布湿迦罗嘲讽那罗国王，声称获胜后将让达摩衍蒂服侍自己，激怒了那罗国王。"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "那罗国王克制愤怒，与布湿迦罗进行生死赌博。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "那罗国王",
+        "布湿迦罗"
+      ],
+      "action": "赌博对决",
+      "details": "那罗国王忍住怒气，与布湿迦罗开始掷骰子赌博。"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "那罗国王在赌博中获胜，赢回了王国并击败布湿迦罗。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "那罗国王",
+        "布湿迦罗"
+      ],
+      "action": "胜利与恢复统治",
+      "details": "那罗国王赌运亨通，战胜布湿迦罗，赢回王国，并宣称王国已消除混乱、恢复原貌。"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nala (the deposed king) confronts Pushkara, revealing that his previous victory was due to the trickery of the evil god Kali, not his own skill.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nala",
+        "Pushkara",
+        "Kali"
+      ],
+      "action": "Confrontation/Revelation",
+      "relationships": [
+        "Nala is the elder brother of Pushkara",
+        "Kali is an evil god who tricked Nala"
+      ],
+      "supernatural_elements": [
+        "Divine intervention/trickery by Kali"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nala forgives Pushkara, returns his life to him, and reaffirms his brotherly affection, promising not to abandon their bond.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nala",
+        "Pushkara"
+      ],
+      "action": "Forgiveness/Reconciliation",
+      "relationships": [
+        "Brothers reconciled",
+        "Nala shows mercy to Pushkara"
+      ],
+      "changes_in_relationships": [
+        "From conflict to reconciliation"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nala embraces Pushkara multiple times, comforts him, and grants him a city as a fiefdom to live in.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nala",
+        "Pushkara"
+      ],
+      "action": "Granting fiefdom/Comforting",
+      "relationships": [
+        "Nala as king granting territory to his brother Pushkara"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pushkara expresses gratitude to Nala for giving him a second life, wishes him well, and praises his kingdom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pushkara",
+        "Nala"
+      ],
+      "action": "Expression of gratitude/Praise",
+      "relationships": [
+        "Pushkara acknowledges Nala's mercy and kingship"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pushkara stays in Nishadha's capital for a month, receives Nala's hospitality, then returns happily to his fiefdom with his subjects, army, horses, and servants.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pushkara",
+        "Nala"
+      ],
+      "action": "Return to fiefdom",
+      "relationships": [
+        "Pushkara as vassal/relative of King Nala"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nala returns to his splendid capital and comforts the citizens after sending off Pushkara.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nala"
+      ],
+      "action": "Return to capital/Comforting citizens",
+      "relationships": [
+        "Nala as king caring for his people"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The melancholy clouds over the capital are dispelled, and Nala mobilizes a large army to bring Damayanti back with great celebration.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nala",
+        "Damayanti"
+      ],
+      "action": "Reunion with Damayanti",
+      "relationships": [
+        "Nala and Damayanti are husband and wife"
+      ],
+      "changes_in_relationships": [
+        "Reunion after separation"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Bhima (of Vidarbha) warmly sends off Damayanti and her children after hospitality.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Damayanti"
+      ],
+      "action": "Sending off",
+      "relationships": [
+        "Bhima is Damayanti's father"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti and her children return and joyfully surround Nala, who is as delighted as Indra, lord of the gods.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti",
+        "Nala",
+        "Indra"
+      ],
+      "action": "Family reunion",
+      "relationships": [
+        "Damayanti and Nala reunited with their children"
+      ],
+      "supernatural_elements": [
+        "Comparison to Indra, lord of the gods"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nala resumes ruling his kingdom, gaining greater fame for his governance, and his story spreads widely among kings in Jambudvipa.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nala"
+      ],
+      "action": "Resumption of rule/Spreading fame",
+      "relationships": [
+        "Nala as renowned king"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nala performs various sacrifices according to rituals and gives generously.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nala"
+      ],
+      "action": "Performance of sacrifices/Generosity",
+      "relationships": [
+        "Nala as pious king"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The narrator claims this story can destroy Kali and brings comfort, prosperity, and happiness to those who hear or tell it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator"
+      ],
+      "type": "Narrative Introduction",
+      "supernatural_elements": [
+        "Story has power to destroy Kali (personification of strife)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira expresses fear about being invited to gamble again by dice experts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "type": "Expression of Fear",
+      "relationships": [
+        "Yudhishthira is concerned about gambling"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brihadasva offers to teach Yudhishthira the secrets of dice to remove his fear.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brihadasva",
+        "Yudhishthira"
+      ],
+      "type": "Offer of Knowledge",
+      "relationships": [
+        "Brihadasva becomes teacher to Yudhishthira"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira joyfully asks Brihadasva to teach him the secrets of dice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Brihadasva"
+      ],
+      "type": "Request for Knowledge"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brihadasva teaches Yudhishthira the secrets of dice and then departs for the Ashvatirtha pilgrimage site.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brihadasva",
+        "Yudhishthira"
+      ],
+      "type": "Knowledge Transfer",
+      "relationships": [
+        "Teacher-student relationship established"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira hears that Arjuna is performing severe austerities, surviving on air alone.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Arjuna"
+      ],
+      "type": "Receiving News",
+      "relationships": [
+        "Yudhishthira is elder brother to Arjuna"
+      ],
+      "supernatural_elements": [
+        "Arjuna performing extreme austerities"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahmins and ascetics describe Arjuna's unparalleled austerities and his embodiment of Dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Various Brahmins and Ascetics"
+      ],
+      "type": "Character Description",
+      "supernatural_elements": [
+        "Arjuna described as embodiment of Dharma"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira becomes deeply worried about Arjuna performing such severe austerities in the forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Arjuna"
+      ],
+      "type": "Emotional Response",
+      "relationships": [
+        "Brotherly concern and affection"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira seeks consolation by learning various types of knowledge from Brahmins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Various Brahmins"
+      ],
+      "type": "Seeking Knowledge",
+      "relationships": [
+        "Yudhishthira as student to various teachers"
+      ]
+    },
+    "_token_interval": null
+  }
+]

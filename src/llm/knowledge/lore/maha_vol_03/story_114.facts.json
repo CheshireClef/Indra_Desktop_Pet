@@ -1,0 +1,1266 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Rakshasa (Ghatotkacha) repelled all armies in battle and charged towards Duryodhana, intending to kill him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Duryodhana"
+      ],
+      "action": "Charge and attempted killing",
+      "type": "Battle action"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana's warriors charged at Ghatotkacha to kill him, covering him with arrows from all sides.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Duryodhana's warriors"
+      ],
+      "action": "Arrow attack",
+      "type": "Battle action"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha, severely wounded, soared into the air like Garuda and let out a terrible roar.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha"
+      ],
+      "action": "Flight and roar",
+      "type": "Supernatural action"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yudhishthira, hearing Ghatotkacha's roar, instructed Bhima to protect him as he was in grave danger.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Ghatotkacha"
+      ],
+      "action": "Order to protect",
+      "type": "Command",
+      "relationships": [
+        "Brothers (Yudhishthira and Bhima)",
+        "Cousin (Ghatotkacha is Bhima's son)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima, along with warriors including Satyaki, Shikhandin, Uttamaujas, and others, rushed to protect Ghatotkacha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Satyaki",
+        "Shikhandin",
+        "Uttamaujas",
+        "Abhimanyu",
+        "Sons of Draupadi",
+        "Shatrunjaya",
+        "Shatradharman",
+        "King Nila"
+      ],
+      "action": "Reinforcement and protection",
+      "type": "Battle movement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana's army, terrified of Bhima, retreated, abandoning Ghatotkacha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana's army",
+        "Bhima",
+        "Ghatotkacha"
+      ],
+      "action": "Retreat",
+      "type": "Battle reaction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A fierce battle ensued between both sides' warriors, causing confusion with dust and bloodshed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Warriors from both sides"
+      ],
+      "action": "Chaotic combat",
+      "type": "Battle description",
+      "supernatural_elements": "River of blood and entrails described"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A brutal battle scene is described with widespread carnage involving warriors, elephants, and horses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Generic Warriors",
+        "Generic Elephants",
+        "Generic Horses"
+      ],
+      "type": "Battle Carnage",
+      "action": "Mass slaughter and destruction",
+      "supernatural_elements": "None explicitly mentioned"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Kaurava army (持国族大军) is being defeated and retreats.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kaurava Army"
+      ],
+      "type": "Battle Outcome",
+      "action": "Retreat",
+      "relationships": "Kaurava army is losing to the opposing forces"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Duryodhana (难敌王), enraged by his army's slaughter, personally charges at Bhima (怖军).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhima"
+      ],
+      "type": "Personal Combat",
+      "action": "Duryodhana attacks Bhima",
+      "relationships": "Duryodhana (Kaurava leader) vs. Bhima (Pandava warrior), they are cousins and rivals"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana shoots and breaks Bhima's bow with an arrow, then wounds Bhima in the chest with another powerful arrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhima"
+      ],
+      "type": "Combat Action",
+      "action": "Duryodhana disarms and injures Bhima",
+      "relationships": "Duryodhana gains an advantage over Bhima in combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima, severely wounded, leans against his golden flagpole in pain.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "type": "Injury",
+      "action": "Bhima is incapacitated",
+      "relationships": "Bhima is weakened, affecting the Pandava forces"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha (瓶首), seeing Bhima injured, becomes furious and radiates heat/light.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Bhima"
+      ],
+      "type": "Emotional Reaction",
+      "action": "Ghatotkacha enrages",
+      "relationships": "Ghatotkacha is Bhima's son (a Rakshasa), protective of his father",
+      "supernatural_elements": "Ghatotkacha's body emits heat/light, indicating his demonic nature"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pandava warriors, led by Abhimanyu (激昂), charge toward Duryodhana in a panic to protect Bhima.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Abhimanyu",
+        "Duryodhana",
+        "Bhima",
+        "Other Pandava Warriors"
+      ],
+      "type": "Group Action",
+      "action": "Pandavas counter-attack Duryodhana",
+      "relationships": "Abhimanyu (Arjuna's son) leads Pandavas; they rally to defend Bhima against Duryodhana"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona (德罗纳, referred to as 婆罗堕遮之子 and 老师), seeing the Pandavas' furious charge, urges the Kaurava warriors to protect King Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Duryodhana",
+        "Kaurava Warriors",
+        "Pandava Warriors"
+      ],
+      "type": "Command",
+      "action": "Drona orders protection for Duryodhana",
+      "relationships": "Drona is the teacher (guru) to both Kauravas and Pandavas, but fights for the Kauravas; he commands the Kaurava forces"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Kaurava army, led by Shalya (月授), charges toward the Pandavas in response to Drona's command.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Kaurava Army",
+        "Pandava Army"
+      ],
+      "type": "Battle Maneuver",
+      "action": "Kaurava counter-charge",
+      "relationships": "Shalya (Madra king) leads the Kaurava forces; armies clash in renewed combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona (Dronacharya) shot twenty-six arrows at Bhima and then showered him with more arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Bhima"
+      ],
+      "action": "Archery attack",
+      "relationship": "Teacher-student (Drona taught both Pandavas and Kauravas)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima retaliated by shooting ten sharp arrows that struck Drona's left side, causing him to fall unconscious in his chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Drona"
+      ],
+      "action": "Counter-attack",
+      "effect": "Drona severely wounded and unconscious"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana and Ashwatthama, seeing their teacher in pain, angrily charged at Bhima.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Ashwatthama",
+        "Bhima"
+      ],
+      "action": "Charging attack",
+      "relationship": "Duryodhana and Ashwatthama united by loyalty to Drona"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima jumped from his chariot and stood with his heavy mace raised, ready to fight.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "action": "Preparing for close combat",
+      "weapon": "Mace"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana and Ashwatthama charged at Bhima together.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Ashwatthama",
+        "Bhima"
+      ],
+      "action": "Joint attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kaurava warriors led by Ashwatthama surrounded Bhima and attacked him with various weapons from all sides.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Bhima",
+        "Kaurava warriors"
+      ],
+      "action": "Surround and attack",
+      "intent": "To kill Bhima"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pandava warriors led by Abhimanyu rushed to rescue Bhima, willing to sacrifice their lives.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Abhimanyu",
+        "Bhima",
+        "Pandava warriors"
+      ],
+      "action": "Rescue mission",
+      "relationship": "Family loyalty among Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Nila of Anupa, Bhima's friend and rival of Ashwatthama, charged at Ashwatthama and shot him with feathered arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nila",
+        "Ashwatthama"
+      ],
+      "action": "Archery duel",
+      "relationship": "Rivalry between Nila and Ashwatthama"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama retaliated by shooting arrows that killed Nila's horses, cut his flag, and finally struck Nila's chest, causing him to fall unconscious.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Nila"
+      ],
+      "action": "Counter-attack",
+      "effect": "Nila severely wounded and unconscious"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha, seeing Nila unconscious, angrily charged at Ashwatthama with his Rakshasa brothers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Ashwatthama",
+        "Rakshasa brothers"
+      ],
+      "action": "Charging attack",
+      "supernatural": "Rakshasas (demonic beings) entering battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama charged back at the approaching Rakshasas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Ghatotkacha",
+        "Rakshasas"
+      ],
+      "action": "Counter-charge",
+      "setting": "Climax of battle sequence"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima's son Ghatotkacha (son of Hidimba) used his Rakshasa illusions to terrify the Kaurava army, causing them to flee in panic.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Ashwatthama",
+        "Kaurava army"
+      ],
+      "action": "Illusion warfare",
+      "supernatural_elements": "Rakshasa illusions creating terrifying visions of mutilated warriors and dead leaders"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandava army, led by Bhima and supported by Ghatotkacha, achieved victory as the Kaurava forces fled.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava army",
+        "Bhima",
+        "Ghatotkacha",
+        "Kaurava army"
+      ],
+      "action": "Victory celebration",
+      "relationships": "Ghatotkacha fighting alongside his father Bhima's side"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana approached Bhishma (son of Ganga, also known as Shantanu's son) after the defeat, expressing his distress and requesting help to defeat Ghatotkacha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhishma"
+      ],
+      "action": "Request for assistance",
+      "relationships": "Duryodhana as Kaurava leader seeking guidance from elder Bhishma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma advised Duryodhana to focus on self-protection and continue fighting against Yudhishthira and other Pandavas according to kshatriya dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Duryodhana"
+      ],
+      "action": "Strategic advice",
+      "relationships": "Bhishma as military commander advising the Kaurava king"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma proposes a strategy to Duryodhana to counter the Rakshasa Ghatotkacha, suggesting that Bhagadatta should fight him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Duryodhana",
+        "Bhagadatta",
+        "Ghatotkacha"
+      ],
+      "type": "Military Strategy",
+      "relationships": [
+        "Bhishma advises Duryodhana",
+        "Bhagadatta is chosen as the opponent for Ghatotkacha"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma directly addresses Bhagadatta, urging him to fight Ghatotkacha, comparing him to Indra fighting the demon Daraka.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Bhagadatta",
+        "Ghatotkacha"
+      ],
+      "type": "Exhortation to Battle",
+      "supernatural_elements": [
+        "Comparison to Indra (divine king of gods)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhagadatta, upon hearing Bhishma's command, roars like a lion and charges at the enemy.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhagadatta"
+      ],
+      "action": "Charging into battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pandava warriors, including Bhima, Abhimanyu, Ghatotkacha, Draupadi's sons, and others, angrily charge forward to meet Bhagadatta's advance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Abhimanyu",
+        "Ghatotkacha",
+        "Sons of Draupadi",
+        "Shatrunjaya",
+        "Kshatradeva",
+        "King of Chedi",
+        "Dhana",
+        "King of Dasharna"
+      ],
+      "action": "Counter-charge",
+      "relationships": [
+        "Allies of the Pandavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhagadatta, riding his elephant Supratika, charges toward the Pandava warriors, initiating a fierce battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhagadatta",
+        "Pandava warriors"
+      ],
+      "action": "Elephant charge initiating combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A horrific battle ensues between the Pandavas and Bhagadatta, with intense fighting involving chariots, elephants, horses, and infantry, causing massive casualties.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava warriors",
+        "Bhagadatta",
+        "Their respective armies"
+      ],
+      "type": "Large-scale Battle",
+      "action": "Mutual slaughter with various weapons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhagadatta, a great archer, specifically targets Bhima, showering him with thousands of arrows from his elephant, compared to Indra pouring rain from his elephant Airavata.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhagadatta",
+        "Bhima"
+      ],
+      "action": "Archery attack",
+      "supernatural_elements": [
+        "Comparison to Indra and Airavata (divine elephant)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima, enraged, kills over a hundred of Bhagadatta's elephant guards with a shower of arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Bhagadatta's guards"
+      ],
+      "action": "Retaliatory killing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhagadatta, furious at the loss of his guards, drives his elephant Supratika to charge directly at Bhima's chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhagadatta",
+        "Bhima"
+      ],
+      "action": "Elephant charge targeting Bhima"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing the elephant charge, the Pandava warriors, led by Bhima, quickly advance forward to confront it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava warriors",
+        "Bhima",
+        "Bhagadatta"
+      ],
+      "action": "Advance to intercept the elephant charge"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kekaya warriors, Abhimanyu, Draupadi's sons, King Darshana, Shataratha, King of Chedi, and Kichaka, filled with anger, surrounded the elephant with various divine weapons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kekaya warriors",
+        "Abhimanyu",
+        "Draupadi's sons",
+        "King Darshana",
+        "Shataratha",
+        "King of Chedi",
+        "Kichaka"
+      ],
+      "action": "Surrounding and attacking an elephant",
+      "type": "Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The elephant, struck by many arrows, bled profusely and suffered greatly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unnamed elephant"
+      ],
+      "action": "Injured and bleeding",
+      "type": "Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Darshana, riding an elephant like a mountain, charged at King Bhagadatta's elephant.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Darshana",
+        "King Bhagadatta"
+      ],
+      "action": "Elephant charge",
+      "type": "Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhagadatta's elephant, Supratika, withstood the charge like a shore holding back the sea.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Bhagadatta",
+        "Supratika (elephant)",
+        "King Darshana"
+      ],
+      "action": "Defensive stand",
+      "type": "Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Bhagadatta angrily threw ten spears that struck the opposing elephant's face, piercing its golden armor.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Bhagadatta",
+        "King Darshana's elephant"
+      ],
+      "action": "Spear attack",
+      "type": "Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The injured elephant retreated in pain, trampling its own army as it fled.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Darshana's elephant"
+      ],
+      "action": "Retreat and trampling",
+      "type": "Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pandava warriors, led by Bhima, charged at King Bhagadatta, firing arrows and throwing weapons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Pandava warriors",
+        "King Bhagadatta"
+      ],
+      "action": "Mass charge and attack",
+      "type": "Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Bhagadatta, enraged by their roars, drove his elephant Supratika, which became like apocalyptic fire, trampling hundreds of chariots, elephants, horses, and soldiers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Bhagadatta",
+        "Supratika"
+      ],
+      "action": "Rampage and destruction",
+      "type": "Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha, furious at his army's rout, charged at King Bhagadatta with a terrifying appearance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "King Bhagadatta"
+      ],
+      "action": "Charge",
+      "type": "Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha threw a fiery iron trident to kill the elephant, but King Bhagadatta shattered it with a crescent-headed arrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "King Bhagadatta"
+      ],
+      "action": "Trident attack and defense",
+      "type": "Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Bhagadatta threw a golden spear-like javelin at Ghatotkacha, who leaped up, caught it, and broke it over his knee.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Bhagadatta",
+        "Ghatotkacha"
+      ],
+      "action": "Javelin attack and miraculous defense",
+      "type": "Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gods, Gandharvas, and sages in heaven were astonished at Ghatotkacha's strength and skill.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gods",
+        "Gandharvas",
+        "Sages"
+      ],
+      "action": "Divine observation and astonishment",
+      "type": "Supernatural"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima-led Pandava archers cheer loudly, shaking the earth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Pandava Army"
+      ],
+      "action": "Battle Cry/Cheering"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Bhagadatta, enraged by the Pandava cheers, charges the Pandava warriors, firing arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Bhagadatta",
+        "Pandava Army"
+      ],
+      "action": "Charge/Attack",
+      "targets": [
+        "Bhima",
+        "Ghatotkacha",
+        "Abhimanyu",
+        "Kekaya Warriors"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Bhagadatta shoots Satyaki, disarming him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Bhagadatta",
+        "Satyaki"
+      ],
+      "action": "Disarm/Injure"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Bhagadatta attacks Draupadi's five sons and kills Bhima's horses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Bhagadatta",
+        "Draupadi's Sons",
+        "Bhima"
+      ],
+      "action": "Attack/Kill"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Bhagadatta destroys Bhima's banner and wounds his charioteer, Vishoka.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Bhagadatta",
+        "Bhima",
+        "Vishoka"
+      ],
+      "action": "Destroy/Wound"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima, his chariot disabled, jumps down wielding his mace.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "action": "Dismount/Prepare for Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna, with Krishna as charioteer, arrives, slaughtering enemies in thousands.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna",
+        "Kaurava Army"
+      ],
+      "action": "Arrival/Slaughter",
+      "relationship": "Charioteer (Krishna to Arjuna)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima and Ghatotkacha engage King Bhagadatta in fierce combat.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Ghatotkacha",
+        "King Bhagadatta"
+      ],
+      "action": "Combat",
+      "relationship": "Father-Son (Bhima and Ghatotkacha)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna sees the combat and charges in, showering arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Bhima",
+        "Ghatotkacha",
+        "King Bhagadatta"
+      ],
+      "action": "Intervene/Attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Duryodhana urges the full Kaurava army (chariots, elephants, horses) to advance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Duryodhana",
+        "Kaurava Army"
+      ],
+      "action": "Command/Advance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna charges forward to meet the advancing Kaurava army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Kaurava Army"
+      ],
+      "action": "Charge/Confront"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Bhagadatta, on his elephant, tramples the Pandava army and charges toward Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Bhagadatta",
+        "Pandava Army",
+        "Yudhishthira"
+      ],
+      "action": "Trample/Charge"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Bhagadatta battles the Panchalas, Srinjayas, and Kekayas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Bhagadatta",
+        "Panchalas",
+        "Srinjayas",
+        "Kekayas"
+      ],
+      "action": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima informs Krishna and Arjuna about the death of Iravan.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Krishna",
+        "Arjuna"
+      ],
+      "action": "Inform/Report",
+      "information": "Death of Iravan"
+    },
+    "_token_interval": null
+  }
+]

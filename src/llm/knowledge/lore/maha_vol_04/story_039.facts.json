@@ -1,0 +1,699 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "月授之子（广声）以五支箭分别射中黑公主的五个儿子，又射出七支箭，使他们晕头转向。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "月授之子（广声）",
+        "黑公主的五个儿子（般度五子之子）"
+      ],
+      "action": "弓箭攻击",
+      "outcome": "黑公主的五个儿子被击晕"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "无种之子百军以两支箭射中月授之子（广声），高兴地叫喊起来。",
+    "char_interval": {
+      "start_pos": 54,
+      "end_pos": 157
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "无种之子百军",
+        "月授之子（广声）"
+      ],
+      "action": "反击射箭",
+      "relationship": "敌对战斗"
+    },
+    "_token_interval": {
+      "start_index": 13,
+      "end_index": 38
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑公主的其他几个儿子各以三支箭射中月授之子（广声）。",
+    "char_interval": {
+      "start_pos": 175,
+      "end_pos": 205
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑公主的其他儿子",
+        "月授之子（广声）"
+      ],
+      "action": "联合攻击",
+      "type": "战场围攻"
+    },
+    "_token_interval": {
+      "start_index": 45,
+      "end_index": 50
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "月授之子（广声）射出五支箭分别射中黑公主五个儿子的心窝。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "月授之子（广声）",
+        "黑公主的五个儿子"
+      ],
+      "action": "致命射击",
+      "target": "心窝要害"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑公主的五个儿子驱动战车将月授之子（广声）团团围住，以箭猛攻。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑公主的五个儿子",
+        "月授之子（广声）"
+      ],
+      "action": "战车围攻",
+      "tactic": "包围战术"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那之子用四支箭射杀月授之子（广声）的驷马。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那之子",
+        "月授之子（广声）"
+      ],
+      "action": "摧毁战车马匹",
+      "effect": "削弱移动能力"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "怖军之子射断月授之子（广声）的弓，大喝一声又射出数支利箭。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "怖军之子",
+        "月授之子（广声）"
+      ],
+      "action": "破坏武器并攻击",
+      "significance": "解除武装"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战之子将月授之子（广声）的幡幢射落在地。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战之子",
+        "月授之子（广声）"
+      ],
+      "action": "摧毁标志物",
+      "symbolic": "军旗倒下"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "无种之子将月授之子（广声）的车夫从车座上射落。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "无种之子",
+        "月授之子（广声）的车夫"
+      ],
+      "action": "击杀车夫",
+      "effect": "失去战车控制"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "偕天之子以一支马蹄箭射落月授之子（广声）的头颅。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "偕天之子",
+        "月授之子（广声）"
+      ],
+      "action": "斩首击杀",
+      "outcome": "月授之子死亡"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "月授之子（广声）佩戴金首饰的头颅滚落到地上，照亮战场一方土地。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "月授之子（广声）"
+      ],
+      "action": "头颅落地",
+      "supernatural_element": "头颅发光照亮战场"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "看到月授之子（广声）人头落地，俱卢军队惊慌失措，纷纷逃跑。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "俱卢军队"
+      ],
+      "action": "溃败逃跑",
+      "cause": "主将阵亡"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "指掌（罗刹王鹿角之子）满腔愤怒，在战场上与大力士怖军展开较量。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "指掌（罗刹王鹿角之子）",
+        "怖军"
+      ],
+      "action": "一对一战斗",
+      "type": "罗刹与人类交战"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "怖军以九支利箭射中怒不可遏的指掌（罗刹王鹿角之子）。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "怖军",
+        "指掌（罗刹王鹿角之子）"
+      ],
+      "action": "弓箭攻击",
+      "tone": "嬉笑着攻击"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "指掌（罗刹王鹿角之子）的随从们向怖军冲去。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "指掌的随从们",
+        "怖军"
+      ],
+      "action": "群体攻击",
+      "relationship": "罗刹随从围攻"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "指掌（罗刹王鹿角之子）以五支箭射中怖军，摧毁三十辆战车，继而又摧毁四百辆战车，再以一支羽毛箭射中怖军。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "指掌（罗刹王鹿角之子）",
+        "怖军",
+        "般度族战车部队"
+      ],
+      "action": "大规模破坏与攻击",
+      "scale": "大规模战车摧毁"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "大力士怖军被罗刹王的箭深深刺中，跌坐在车座上，感到头晕目眩。",
+    "char_interval": {
+      "start_pos": 727,
+      "end_pos": 757
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "怖军"
+      ],
+      "action": "受伤眩晕",
+      "condition": "暂时失去战斗力"
+    },
+    "_token_interval": {
+      "start_index": 180,
+      "end_index": 186
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "风神之子（怖军）恢复神志后怒不可遏，拉开强弓以无数支利箭射中指掌（罗刹王鹿角之子）的全身。",
+    "char_interval": {
+      "start_pos": 761,
+      "end_pos": 769
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "怖军",
+        "指掌（罗刹王鹿角之子）"
+      ],
+      "action": "狂暴反击",
+      "supernatural_element": "风神之子身份"
+    },
+    "_token_interval": {
+      "start_index": 189,
+      "end_index": 193
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "罗刹王指掌的身体被许多箭射中，犹如鲜花盛开的金苏迦树照亮四方。",
+    "char_interval": {
+      "start_pos": 836,
+      "end_pos": 856
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "指掌（罗刹王鹿角之子）"
+      ],
+      "action": "被箭覆盖",
+      "visual_description": "身体像插满箭的青黛眼膏堆"
+    },
+    "_token_interval": {
+      "start_index": 208,
+      "end_index": 212
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "指掌（罗刹王鹿角之子）想起兄弟也死在般度之子手上，变幻出穷凶极恶的面目，对怖军发出威胁。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 20,
+    "group_index": 19,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "指掌（罗刹王鹿角之子）",
+        "怖军"
+      ],
+      "action": "形态变化与威胁",
+      "supernatural_element": "变幻面目",
+      "relationship": "复仇动机（兄弟被杀）"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A powerful rakshasa named Baka (钵迦), who was the brother of the speaker, was killed by Bhima (怖军) previously, though not in the speaker's direct sight.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Baka",
+        "Bhima"
+      ],
+      "action": "Revelation of past killing",
+      "relationships": [
+        "Baka is brother of the speaker (implied to be a rakshasa king)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The rakshasa (implied to be the speaker, Baka's brother) became invisible and showered Bhima with a powerful rain of arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rakshasa King (Baka's brother)",
+        "Bhima"
+      ],
+      "action": "Supernatural attack",
+      "supernatural_elements": [
+        "Invisibility",
+        "Arrow rain"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima, unable to see the rakshasa in battle, filled the sky with countless straight arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Rakshasa King"
+      ],
+      "action": "Counterattack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The rakshasa was hit by Bhima's arrows, then instantly returned to his chariot, dove underground, shrank, and suddenly soared into the air.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rakshasa King",
+        "Bhima"
+      ],
+      "action": "Shape-shifting and evasion",
+      "supernatural_elements": [
+        "Instant movement",
+        "Size manipulation",
+        "Flight"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The rakshasa changed size and form repeatedly, shouting and whispering with audible sounds everywhere.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rakshasa King"
+      ],
+      "action": "Illusion and intimidation",
+      "supernatural_elements": [
+        "Shape-shifting",
+        "Omnipresent voice"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The rakshasa slaughtered many horses, elephants, and foot soldiers from the Pandava army, causing chariot warriors to fall from their chariots.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rakshasa King",
+        "Pandava army"
+      ],
+      "action": "Mass destruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The rakshasa created a river of blood with chariots as whirlpools, elephants as crocodiles, canopies as swans, flesh as mud, severed arms as water snakes, and populated by groups of rakshasas, carrying many soldiers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rakshasa King"
+      ],
+      "action": "Creation of supernatural river",
+      "supernatural_elements": [
+        "Illusionary river of blood",
+        "Metaphorical transformations"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing the rakshasa king fearless and powerful on the battlefield, the Pandavas became frightened and uneasy.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rakshasa King",
+        "Pandavas"
+      ],
+      "action": "Psychological impact"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The opposing army (Kaurava side) cheered joyfully with wild drumming that made hairs stand on end.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kaurava army"
+      ],
+      "action": "Celebration"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Hearing the terrible noise from the opposing army, Bhima (son of Pandu) could not restrain his impulse, like a snake unable to bear hand-clapping.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "action": "Provocation to anger"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima, with eyes red like burning fire, used the Tvashtri weapon (陀湿多法宝), as if Tvashtri himself were present.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "action": "Divine weapon deployment",
+      "supernatural_elements": [
+        "Tvashtri weapon",
+        "Divine presence invoked"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Thousands of arrows appeared everywhere, driving the opposing army to flee in all directions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Kaurava army"
+      ],
+      "action": "Weapon effect",
+      "supernatural_elements": [
+        "Mass arrow manifestation"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima used this weapon on the battlefield, destroying the rakshasa king's great illusion power and severely wounding him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Rakshasa King"
+      ],
+      "action": "Weapon success",
+      "supernatural_elements": [
+        "Illusion destruction"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The rakshasa king, wounded in many places by Bhima, abandoned Bhima on the battlefield and fled into Drona's army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rakshasa King",
+        "Bhima",
+        "Drona"
+      ],
+      "action": "Retreat",
+      "relationships": [
+        "Rakshasa king joins Drona's forces"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The rakshasa king was defeated by Bhima (the great-souled one), and lion roars arose from all directions among the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rakshasa King",
+        "Bhima",
+        "Pandavas"
+      ],
+      "action": "Victory celebration"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas joyfully paid homage to Bhima (son of Vayu, the wind god), like the wind gods paying homage to Indra (天帝释) when he defeated Prahlada in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Bhima"
+      ],
+      "action": "Homage",
+      "relationships": [
+        "Bhima is son of Vayu (wind god)",
+        "Comparison to Indra vs. Prahlada"
+      ],
+      "supernatural_elements": [
+        "Divine comparison"
+      ]
+    },
+    "_token_interval": null
+  }
+]

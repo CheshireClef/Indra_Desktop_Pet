@@ -1,0 +1,203 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pandava brothers leave the Ganges riverbank and travel westward through various forests and rivers to reach Kamyaka Forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava brothers"
+      ],
+      "action": "Journey/Relocation",
+      "locations": [
+        "Ganges riverbank",
+        "Sarasvati River",
+        "Yamuna River",
+        "Kamyaka Forest"
+      ],
+      "type": "Travel"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vidura arrives at Kamyaka Forest in a chariot to meet the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vidura",
+        "Yudhishthira",
+        "Draupadi",
+        "Bhima",
+        "Pandava brothers"
+      ],
+      "action": "Meeting/Visit",
+      "location": "Kamyaka Forest",
+      "type": "Encounter"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira expresses concern to Bhima that Vidura's visit might be another invitation to gamble, orchestrated by Shakuni.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Shakuni"
+      ],
+      "action": "Suspicion/Dialogue",
+      "concern": "Possible gambling invitation and loss of weapons",
+      "type": "Conflict Anticipation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vidura explains to the Pandavas that Dhritarashtra summoned him, seeking advice on a fair solution for both the Kurus and the Pandavas, but rejected Vidura's counsel.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vidura",
+        "Dhritarashtra",
+        "Pandava brothers"
+      ],
+      "action": "Counsel/Rejection",
+      "reason": "Dhritarashtra seeks equitable solution but dismisses advice",
+      "type": "Political Conflict"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra angrily dismisses Vidura from his service, telling him to go to whomever he trusts, as he no longer expects Vidura's assistance in ruling.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Vidura"
+      ],
+      "action": "Dismissal/Exile",
+      "reason": "Dhritarashtra's anger and rejection of counsel",
+      "relationship_change": "Vidura severed from Dhritarashtra's service",
+      "type": "Political Break"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vidura flees to the Pandavas in Kamyaka Forest to warn them and reiterate his advice about patience and waiting for the right moment to reclaim their kingdom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vidura",
+        "Pandava brothers"
+      ],
+      "action": "Warning/Advice",
+      "advice": "Maintain patience and wait for opportune moment despite persecution",
+      "type": "Strategic Counsel"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira seeks guidance on friendship and governance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Seeking advice",
+      "relationships": [],
+      "divine_interventions": []
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "An advisor (likely Krishna or Bhishma) explains that sharing wealth with friends ensures their loyalty in hardship, which is key to gaining their help and ruling the world.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna (or Bhishma)",
+        "Yudhishthira"
+      ],
+      "action": "Giving advice on friendship and governance",
+      "relationships": [
+        "Advisor-advisee relationship between Krishna/Bhishma and Yudhishthira"
+      ],
+      "divine_interventions": []
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The advisor advises speaking truthfully, avoiding empty talk, sharing food with friends, and not boasting in front of them to ensure a prosperous kingdom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna (or Bhishma)"
+      ],
+      "action": "Providing moral and practical governance advice",
+      "relationships": [],
+      "divine_interventions": []
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira pledges to follow the advice diligently, act according to time and place, and fulfill all further instructions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Pledging obedience and diligence",
+      "relationships": [
+        "Yudhishthira's commitment to the advisor's guidance"
+      ],
+      "divine_interventions": []
+    },
+    "_token_interval": null
+  }
+]

@@ -1,0 +1,963 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Janamejaya asks the sage Vaishampayana about what the Kuru clan did after arranging their battle formation at Kurukshetra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Janamejaya",
+        "Vaishampayana"
+      ],
+      "type": "Inquiry",
+      "relationships": [
+        "King Janamejaya is listening to the Mahabharata recitation by sage Vaishampayana"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vaishampayana recounts that after the battle formations were arranged, King Dhritarashtra spoke to his charioteer Sanjaya.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra",
+        "Sanjaya"
+      ],
+      "type": "Dialogue",
+      "relationships": [
+        "King Dhritarashtra is the blind Kuru king, Sanjaya is his charioteer and narrator"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra asks Sanjaya to describe in detail everything that happened after both armies camped, expressing his helplessness against fate and his inability to control his son Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra",
+        "Sanjaya",
+        "Duryodhana"
+      ],
+      "type": "Request",
+      "relationships": [
+        "King Dhritarashtra is father of Duryodhana",
+        "Duryodhana is the Kuru prince who caused the war"
+      ],
+      "key_points": [
+        "Dhritarashtra acknowledges fate's supremacy",
+        "He admits inability to control Duryodhana",
+        "Mentions Kshatriya duty to fight to death"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya responds that Dhritarashtra should not blame only Duryodhana, and explains that people face misfortune due to their own misdeeds, not just fate.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "King Dhritarashtra",
+        "Duryodhana"
+      ],
+      "type": "Philosophical Response",
+      "key_points": [
+        "People shouldn't blame fate for their own actions",
+        "The Pandavas were cheated in gambling",
+        "Three views on causality: divine control, chance, or karma"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana, Karna, Shakuni, and Dushasana secretly summon Uluka, the gambler's son, and send him as a messenger to the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Karna",
+        "Shakuni",
+        "Dushasana",
+        "Uluka"
+      ],
+      "type": "Messenger Dispatch",
+      "relationships": [
+        "Duryodhana is Kuru prince",
+        "Karna is his close ally",
+        "Shakuni is Duryodhana's uncle and master strategist",
+        "Dushasana is Duryodhana's brother",
+        "Uluka is messenger"
+      ],
+      "location": "Kuru camp"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uluka is instructed to deliver Duryodhana's message to the Pandavas and Vasudeva (Krishna), taunting them about the impending war and challenging them to prove their boasts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uluka",
+        "Pandavas",
+        "Krishna (Vasudeva)"
+      ],
+      "type": "Challenge Delivery",
+      "message_content": [
+        "War between Pandavas and Kurus is imminent",
+        "Remind Pandavas of their grievances: kingdom stolen, exile, Draupadi's humiliation",
+        "Challenge them to prove their manhood and warrior skills",
+        "Tell them the time has come to fulfill Kshatriya women's purpose of bearing sons for battle"
+      ],
+      "relationships": [
+        "Uluka carries Duryodhana's taunts to the Pandavas",
+        "Krishna is Pandavas' ally and guide"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "优楼迦 (赌徒之子) 到达般度之子的军营，会见般度之子们，向坚战传达难敌的训词。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "优楼迦",
+        "坚战",
+        "难敌"
+      ],
+      "action": "使者传达消息",
+      "relationships": [
+        "优楼迦作为难敌的使者",
+        "坚战作为般度之子的首领"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战安抚优楼迦，让他不必害怕，传达难敌的意见。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "优楼迦",
+        "难敌"
+      ],
+      "action": "允许使者发言",
+      "relationships": [
+        "坚战作为接收方",
+        "难敌作为发送方"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "优楼迦在般度之子们、斯楞遮耶人、黑天、木柱王及其儿子、毗罗吒和所有国王面前传达难敌的话。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "优楼迦",
+        "坚战",
+        "黑天",
+        "木柱王",
+        "毗罗吒",
+        "难敌"
+      ],
+      "action": "公开传达挑战",
+      "relationships": [
+        "难敌对坚战和般度之子的挑衅",
+        "黑天作为般度之子的盟友"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌通过优楼迦指责坚战在赌博中失败、黑公主被带到会堂、流亡森林十二年、为毗罗吒王作仆役一年，并激怒他记住这些怨愤。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌",
+        "坚战",
+        "黑公主",
+        "毗罗吒"
+      ],
+      "action": "列举屈辱事件",
+      "relationships": [
+        "难敌作为挑衅者",
+        "坚战作为受害者",
+        "黑公主作为受辱者"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌挑战怖军，提及他赌咒发誓要喝难降的血，并嘲讽他无能为力。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌",
+        "怖军",
+        "难降"
+      ],
+      "action": "挑衅和嘲讽",
+      "relationships": [
+        "难敌作为挑战者",
+        "怖军作为被挑战者",
+        "难降作为怖军的仇敌"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌宣布武器净化仪式已举行，俱卢之野准备就绪，挑战般度之子明天与黑天一起出战。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌",
+        "坚战",
+        "黑天"
+      ],
+      "action": "宣战准备",
+      "relationships": [
+        "难敌作为宣战方",
+        "坚战作为应战方",
+        "黑天作为盟友"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌嘲讽般度之子还没有在战场上遇到毗湿摩就自吹自擂，比喻为傻瓜想登香醉山。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌",
+        "坚战",
+        "毗湿摩"
+      ],
+      "action": "贬低和警告",
+      "relationships": [
+        "难敌作为嘲讽者",
+        "毗湿摩作为俱卢族强大战士"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona is described as an excellent warrior in battle, comparable to Indra, and as a teacher of Vedic knowledge and archery.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Description of prowess and role",
+      "relationships": "Teacher of the Pandavas and Kauravas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira is told he cannot defeat Drona in battle and should not desire the kingdom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Drona"
+      ],
+      "action": "Admonishment/Challenge",
+      "relationships": "Yudhishthira (Pandava) vs. Drona (Teacher/Enemy commander)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uluka (messenger of Duryodhana) speaks to Yudhishthira, then turns to Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uluka",
+        "Yudhishthira",
+        "Arjuna"
+      ],
+      "action": "Message delivery/Taunting",
+      "relationships": "Uluka (Kaurava messenger) addressing Pandava leaders"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uluka taunts Arjuna, telling him to fight instead of boasting, and claims success depends on fate, not boasts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uluka",
+        "Arjuna"
+      ],
+      "action": "Taunt/Challenge",
+      "relationships": "Messenger of enemy challenging warrior"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uluka acknowledges Krishna as Arjuna's helper and the Gandiva bow, but says he seized the kingdom anyway.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uluka",
+        "Arjuna",
+        "Krishna"
+      ],
+      "action": "Acknowledgment of strengths followed by claim of victory",
+      "relationships": "Arjuna and Krishna (close allies); Uluka representing Duryodhana's claim"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uluka states he has enjoyed the kingdom for thirteen years while the Pandavas were in exile and plans to continue after killing them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uluka",
+        "Pandavas"
+      ],
+      "action": "Boast of possession and intent",
+      "relationships": "Kaurava claim over Pandava kingdom"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uluka mocks the Pandavas for their failures: Arjuna's Gandiva bow and Bhima's strength were useless during the dice game and exile.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uluka",
+        "Arjuna",
+        "Bhima",
+        "Draupadi"
+      ],
+      "action": "Mockery of past defeats",
+      "relationships": "Kaurava derision of Pandava weaknesses"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uluka credits Draupadi for saving the Pandavas from slavery after the dice game, calling them hollow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uluka",
+        "Draupadi",
+        "Pandavas"
+      ],
+      "action": "Accusation of reliance on Draupadi",
+      "relationships": "Draupadi as savior of Pandavas; Pandavas shamed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uluka recounts the Pandavas' humiliations during exile: Arjuna with braided hair, Bhima as a cook in King Virata's kitchen.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uluka",
+        "Arjuna",
+        "Bhima",
+        "King Virata"
+      ],
+      "action": "Recounting of exile disguises and shames",
+      "relationships": "Pandavas in servitude during incognito exile"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uluka declares that Kshatriyas who flee battle should be punished as servants, cooks, or with braided hair.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uluka"
+      ],
+      "action": "Statement of Kshatriya code",
+      "relationships": "Justification for mocking Pandavas' exile roles"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "优楼迦对阿周那重复了难敌的挑衅话语，用语言刺激他，仿佛用棍棒刺激一条愤怒的毒蛇。",
+    "char_interval": {
+      "start_pos": 3469,
+      "end_pos": 3510
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "优楼迦",
+        "阿周那"
+      ],
+      "action": "挑衅/刺激",
+      "type": "挑衅"
+    },
+    "_token_interval": {
+      "start_index": 1067,
+      "end_index": 1073
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "般度之子们听了优楼迦的话，原本已经满腔愤怒，现在再一刺激，更是怒上加怒，离开座位，伸出双臂，像愤怒的毒蛇，互相对视。",
+    "char_interval": {
+      "start_pos": 3528,
+      "end_pos": 3579
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般度之子们（坚战、怖军、阿周那、无种、偕天）",
+        "优楼迦"
+      ],
+      "action": "愤怒反应",
+      "type": "情绪反应"
+    },
+    "_token_interval": {
+      "start_index": 1077,
+      "end_index": 1095
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "怖军低下头，用眼角发红的双眼凝视黑天，像毒蛇那样发出唏嘘。",
+    "char_interval": {
+      "start_pos": 3582,
+      "end_pos": 3588
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "怖军",
+        "黑天"
+      ],
+      "action": "愤怒凝视",
+      "type": "情绪反应"
+    },
+    "_token_interval": {
+      "start_index": 1098,
+      "end_index": 1100
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天看到怖军受到愤怒伤害，仿佛笑着，对优楼迦说话。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天",
+        "优楼迦"
+      ],
+      "action": "回应挑衅",
+      "type": "对话"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天让优楼迦转告难敌：话已经听到，意思已经明白，就照你的意见办，并警告难敌明天做个男子汉。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天",
+        "优楼迦",
+        "难敌"
+      ],
+      "action": "传达消息/警告",
+      "type": "对话/警告"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天指出难敌错误地以为黑天被选作御者不参加战斗就有恃无恐，并警告最后的时刻会来到，他将愤怒地焚烧所有的国王。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天",
+        "难敌"
+      ],
+      "action": "警告/威胁",
+      "type": "警告"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天说明奉坚战之命，在战斗中担任阿周那的御者，并预言明天无论难敌逃到哪里，都会看到阿周那的战车出现在面前。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天",
+        "坚战",
+        "阿周那",
+        "难敌"
+      ],
+      "action": "宣布职责/预言",
+      "type": "声明/预言"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天断言怖军肯定会喝到难降的血，并强调般度之子们不会在乎难敌的胡言乱语。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天",
+        "怖军",
+        "难降",
+        "般度之子们（坚战、怖军、阿周那、无种、偕天）",
+        "难敌"
+      ],
+      "action": "预言/断言",
+      "type": "预言/声明"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna heard Duryodhana's message delivered by Uluka and became enraged.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Duryodhana",
+        "Uluka"
+      ],
+      "action": "Message delivery and emotional reaction",
+      "relationships": [
+        "Enemies (Arjuna and Duryodhana)",
+        "Messenger (Uluka for Duryodhana)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna looked at Krishna and then addressed Uluka with a defiant speech.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna",
+        "Uluka"
+      ],
+      "action": "Defiant declaration",
+      "relationships": [
+        "Allies (Arjuna and Krishna)",
+        "Messenger (Uluka)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna criticized Duryodhana for relying on Bhishma's courage instead of his own.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Duryodhana",
+        "Bhishma"
+      ],
+      "action": "Accusation of cowardice",
+      "relationships": [
+        "Enemies (Arjuna and Duryodhana)",
+        "Protector (Bhishma for Duryodhana)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna declared he would kill Bhishma first in front of all the warriors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Bhishma"
+      ],
+      "action": "Battle challenge/threat",
+      "relationships": [
+        "Enemies (on battlefield)",
+        "Grandfather-grandson (familial relationship)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna sent a message back through Uluka to Duryodhana, promising to kill Bhishma at sunrise.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Duryodhana",
+        "Uluka",
+        "Bhishma"
+      ],
+      "action": "Message delivery with ultimatum",
+      "relationships": [
+        "Enemies (Arjuna and Duryodhana)",
+        "Messenger (Uluka)",
+        "Target (Bhishma)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna described Duryodhana's evil qualities and predicted his downfall.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Duryodhana",
+        "Dushasana"
+      ],
+      "action": "Character condemnation and prophecy",
+      "relationships": [
+        "Enemies (Arjuna and Duryodhana)",
+        "Brothers (Duryodhana and Dushasana)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna reminded Duryodhana of Bhima's vow to kill Dushasana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Duryodhana",
+        "Bhima",
+        "Dushasana"
+      ],
+      "action": "Reference to previous vow",
+      "relationships": [
+        "Enemies (Pandavas and Kauravas)",
+        "Brothers (Duryodhana and Dushasana)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna declared that with Krishna's help and his own anger, Duryodhana has no hope of victory.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Duryodhana",
+        "Krishna"
+      ],
+      "action": "Declaration of inevitable victory",
+      "relationships": [
+        "Allies (Arjuna and Krishna)",
+        "Enemies (Arjuna and Duryodhana)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna predicted that once Bhishma, Drona, and Karna fall, Duryodhana will lose everything.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Duryodhana",
+        "Bhishma",
+        "Drona",
+        "Karna"
+      ],
+      "action": "Prophetic warning",
+      "relationships": [
+        "Enemies (Arjuna and Duryodhana)",
+        "Protectors/Commanders (Bhishma, Drona, Karna for Duryodhana)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna (Gadadhara) and Arjuna deliver a warning to Duryodhana through Uluka.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna (Gadadhara)",
+        "Arjuna",
+        "Duryodhana",
+        "Uluka"
+      ],
+      "action": "Warning message delivery",
+      "message_content": "Duryodhana will witness his brothers and sons killed, be defeated by Bhima, and remember his misdeeds. Krishna will not make a second promise."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uluka listens to the message, remembers it, and returns to the Kaurava assembly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uluka"
+      ],
+      "action": "Message reception and return journey",
+      "destination": "Kaurava assembly"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uluka reports Krishna and Arjuna's words truthfully to Duryodhana in the Kuru assembly hall.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uluka",
+        "Duryodhana"
+      ],
+      "action": "Message delivery",
+      "location": "Kuru assembly hall"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana, after hearing the message, orders Dushasana, Karna, and Shakuni to prepare all armies by dawn.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Dushasana",
+        "Karna",
+        "Shakuni"
+      ],
+      "action": "Military preparation order",
+      "timeline": "Before dawn",
+      "relationships": "Duryodhana (commander) giving orders to his key allies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Messengers quickly travel by chariot, camel, or horse to notify all kings and armies to prepare by dawn.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Messengers",
+        "Karna"
+      ],
+      "action": "Rapid message dissemination",
+      "transport": [
+        "Chariot",
+        "Camel",
+        "Horse"
+      ],
+      "order_source": "Karna"
+    },
+    "_token_interval": null
+  }
+]

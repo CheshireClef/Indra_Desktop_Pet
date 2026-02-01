@@ -1,0 +1,957 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国（Dhritarashtra）询问全胜（Sanjaya）关于般底耶王（Pandya King）的战斗业绩",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国",
+        "全胜"
+      ],
+      "type": "对话/询问",
+      "relationships": "持国是国王，全胜是持国的信使和叙述者"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "全胜描述般底耶王在战斗中的骁勇表现",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般底耶王",
+        "迦尔纳",
+        "毗湿摩",
+        "黑天",
+        "阿周那"
+      ],
+      "action": "战斗描述",
+      "relationships": "般底耶王自视甚高，不认为迦尔纳和毗湿摩能与自己相提并论，也不认为自己比黑天和阿周那差"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "般底耶王摧毁敌军，包括车、马、象和步兵",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般底耶王"
+      ],
+      "action": "大规模杀戮",
+      "supernatural_elements": "无",
+      "relationships": "般底耶王单枪匹马对抗整支军队"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "德罗纳之子（马嘶）冲向般底耶王并向他挑战",
+    "char_interval": {
+      "start_pos": 138,
+      "end_pos": 147
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "马嘶",
+        "般底耶王"
+      ],
+      "action": "挑战/对峙",
+      "relationships": "马嘶是德罗纳之子，般底耶王是敌方国王"
+    },
+    "_token_interval": {
+      "start_index": 46,
+      "end_index": 50
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "马嘶赞美般底耶王的武艺并提议单挑",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "马嘶",
+        "般底耶王"
+      ],
+      "action": "对话/提议",
+      "relationships": "马嘶承认般底耶王的实力，但自信能与之匹敌"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "般底耶王接受挑战，双方开始交战",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般底耶王",
+        "马嘶"
+      ],
+      "action": "战斗开始",
+      "relationships": "敌对关系，双方均为英勇的武士"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama shot nine sharp heron-feathered iron arrows that flew in ten different ways through the air.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama"
+      ],
+      "action": "Archery attack",
+      "supernatural_elements": "Arrows flying in ten different ways"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The King of Pandya intercepted five of the arrows with five of his own sharp arrows and killed four of Ashwatthama's horses with four other arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King of Pandya",
+        "Ashwatthama"
+      ],
+      "action": "Counter-attack and horse killing",
+      "relationship": "Combatants"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The King of Pandya then severed many of Drona's son's arrows and cut the bowstring of his sun-bright bow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King of Pandya",
+        "Ashwatthama"
+      ],
+      "action": "Arrow and bowstring destruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama repaired his broken bowstring and shot thousands of arrows that filled the sky in all directions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama"
+      ],
+      "action": "Mass arrow attack",
+      "supernatural_elements": "Arrows so numerous they filled the sky"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The King of Pandya broke all the incoming arrows and scared away Ashwatthama's two chariot guards with his own sharp arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King of Pandya",
+        "Ashwatthama"
+      ],
+      "action": "Arrow interception and guard dispersal"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama, witnessing his opponent's skill, drew his bow fully and shot arrows continuously like the rain god pouring rain.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama"
+      ],
+      "action": "Continuous archery",
+      "supernatural_elements": "Comparison to rain god"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In just one-eighth of a day, Ashwatthama shot so many arrows they required eight carts pulled by eight oxen each to transport.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama"
+      ],
+      "action": "Extreme arrow volume",
+      "supernatural_elements": "Superhuman archery capacity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama poured showers of arrows on the enemy army like summer rain clouds drenching the earth, mountains, and trees.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama"
+      ],
+      "action": "Mass arrow assault",
+      "supernatural_elements": "Comparison to rain clouds"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The swift King of Pandya blocked Ashwatthama's irresistible arrow-shower with swift arrows and then roared.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King of Pandya",
+        "Ashwatthama"
+      ],
+      "action": "Arrow defense and roar"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama broke the King of Pandya's sandalwood-scented banner that resembled Mount Malaya and killed his four horses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "King of Pandya"
+      ],
+      "action": "Banner destruction and horse killing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama killed the charioteer with one arrow, broke the thunderous bow with a crescent-headed arrow, and shattered the chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "King of Pandya"
+      ],
+      "action": "Charioteer killing, bow breaking, and chariot destruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama blocked and destroyed all of his opponent's weapons but chose not to kill him, wanting to continue the fight.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "King of Pandya"
+      ],
+      "action": "Weapon destruction and restraint",
+      "relationship": "Combatants with mutual respect"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The King of Pandya mounted a powerful, masterless elephant that came running for protection, roaring like a lion leaping to a mountain peak.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King of Pandya"
+      ],
+      "action": "Mounting an elephant",
+      "supernatural_elements": "Comparison to lion"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The King of Pandya, enraged, drove the elephant forward and hurled a sun-bright spear at Ashwatthama.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King of Pandya",
+        "Ashwatthama"
+      ],
+      "action": "Spear attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The King of Pandya shattered Ashwatthama's jeweled, diamond-studded, gold-adorned crown with pearls and silk streamers, shouting 'I've killed you!' repeatedly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King of Pandya",
+        "Ashwatthama"
+      ],
+      "action": "Crown destruction and victory shout"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama's crown, shining like sun, moon, stars and fire, was struck down by the spear and shattered like a forested mountain peak struck by Indra's thunderbolt.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama"
+      ],
+      "action": "Crown destruction",
+      "supernatural_elements": "Comparison to Indra's thunderbolt"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama became furious like a snake king whose foot was struck and took out fourteen deadly arrows like Death's staff.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama"
+      ],
+      "action": "Preparation for deadly attack",
+      "supernatural_elements": "Comparison to snake king and Death's staff"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama killed the king of Pandya by shooting five arrows to sever the elephant's four legs and trunk, three arrows to cut off the king's arms and head, and six arrows to kill six great warriors following the Pandya king.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "King of Pandya",
+        "Six Pandya warriors"
+      ],
+      "action": "Battle and killing",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana, accompanied by allies, approached Ashvatthama and paid him the highest respects, comparing the scene to Vishnu being worshipped by Indra after conquering Bali.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Ashvatthama"
+      ],
+      "action": "Honoring and praising",
+      "relationships": "Duryodhana honors his teacher's son Ashvatthama for his battlefield success"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra asked Sanjaya what Arjuna was doing on the battlefield when Karna was fiercely pursuing enemies after the Pandya king's death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Sanjaya",
+        "Arjuna",
+        "Karna"
+      ],
+      "action": "Inquiry about battlefield events",
+      "relationships": "Dhritarashtra expresses fear of Arjuna's prowess"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna told Arjuna to look at the retreating Pandava army and how Karna was slaughtering the Srinjayas to fulfill Ashvatthama's wish.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna",
+        "Karna",
+        "Ashvatthama",
+        "Yudhishthira"
+      ],
+      "action": "Strategic observation and warning",
+      "relationships": "Krishna alerts Arjuna to the danger facing his brother Yudhishthira and their forces"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna, hearing about his brother Yudhishthira's great danger, urged Krishna to drive the chariot quickly toward the battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna",
+        "Yudhishthira"
+      ],
+      "action": "Urgent movement to battlefield",
+      "relationships": "Arjuna responds to protect his elder brother Yudhishthira"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna drove the invincible chariot forward, leading to a terrible encounter between the two sides.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna"
+      ],
+      "action": "Chariot driving into battle",
+      "supernatural_elements": "Krishna as divine charioteer"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna and the five Pandava brothers engaged in fierce battle again, filling Yama's kingdom with the dead.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "action": "Major battle engagement",
+      "relationships": "Continuing conflict between Karna and the Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Warriors on both sides fought desperately with various weapons including bows, arrows, swords, spears, and maces, creating tremendous noise that filled heaven and earth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kaurava warriors",
+        "Pandava warriors"
+      ],
+      "action": "Intense battlefield combat",
+      "supernatural_elements": "Battle sounds reaching cosmic proportions"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna, son of Surya, annihilated many enemy soldiers who were shouting loudly and releasing showers of arrows on the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "action": "Battle/Annihilation",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna released sharp arrows that sent twenty chariot warriors from the Panchala clan, along with their horses, charioteers, and banners, to the abode of Yama.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "targets": [
+        "Panchala warriors"
+      ],
+      "action": "Mass killing",
+      "supernatural_element": "Reference to Yama (god of death)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Many heroic Pandava warriors, swift and mighty, intercepted the radiant Karna and surrounded him from all sides during the battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Pandava warriors"
+      ],
+      "action": "Encircling/Interception",
+      "relationship": "Enemies in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna disrupted enemy formations with showers of arrows, like a leading elephant entering a lotus pond filled with waterfowl.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "action": "Disrupting enemy formations",
+      "metaphor": "Elephant in lotus pond"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna, son of Radha, penetrated the center of the enemy formation, wielding his immensely powerful bow and releasing sharp arrows that severed countless enemy heads.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "action": "Penetration and decapitation",
+      "relationship": "Karna identified as son of Radha"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Warriors' shields and armor fell like sacrificial offerings, all struck by Karna's single arrows without needing second shots.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "action": "Precision shooting",
+      "metaphor": "Sacrificial offerings"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Like a charioteer whipping horses, Karna used his bow, bowstring, and armguard to release arrows that destroyed enemies' armor, bodies, and lives.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "action": "Destructive archery",
+      "metaphor": "Charioteer whipping horses"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna drew Pandavas, Srinjayas, and Panchalas within range of his arrows and swiftly killed them, like a lion slaughtering deer.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Pandavas",
+        "Srinjayas",
+        "Panchalas"
+      ],
+      "action": "Mass slaughter",
+      "metaphor": "Lion killing deer",
+      "relationship": "Karna vs. multiple clans"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Panchala princes, Draupadi's sons, the twins (Nakula and Sahadeva), and the warrior Satyaki joined forces and charged toward Karna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Panchala princes",
+        "Draupadi's sons",
+        "Nakula",
+        "Sahadeva",
+        "Satyaki",
+        "Karna"
+      ],
+      "action": "Allied charge",
+      "relationship": "Alliance against Karna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kauravas, Pandavas, and Srinjayas fought fiercely, with warriors attacking each other recklessly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kauravas",
+        "Pandavas",
+        "Srinjayas"
+      ],
+      "action": "General battle",
+      "type": "Large-scale combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Great warriors clad in armor, wearing helmets, and wielding clubs, maces, and iron bars fought like gods wielding staffs, shouting, leaping, and challenging enemies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Warriors from all sides"
+      ],
+      "action": "Heroic combat",
+      "metaphor": "Gods wielding staffs"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Warriors struck, killed, fell, bled profusely, had brains spilled, and went blind in the intense battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Combatants"
+      ],
+      "action": "Mutual slaughter",
+      "description": "Graphic battle violence"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Some lay with weapons in hand, blood filling their mouths like pomegranates, appearing still alive.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Fallen warriors"
+      ],
+      "description": "Aftermath of battle",
+      "metaphor": "Blood like pomegranates"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Others used various weapons - javelins, swords, spears, short spears, scimitars, darts, and lances - in furious attacks against each other.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Warriors"
+      ],
+      "action": "Weapon combat",
+      "description": "Variety of weapons used"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Warriors killed each other and fell in pools of blood, losing life like sandalwood trees cut by axes dripping red sap.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Combatants"
+      ],
+      "action": "Mutual destruction",
+      "metaphor": "Sandalwood trees bleeding"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Thousands of chariots destroyed chariots, men killed men, horses killed horses, and elephants killed elephants, all falling to the ground.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "All combatants"
+      ],
+      "action": "Mass destruction",
+      "scale": "Thousands affected"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Countless banners, heads, canopies, elephant trunks, human arms, and weapons were shattered by razor-tipped, crescent, and half-moon arrows and discarded on the ground.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "All warriors"
+      ],
+      "action": "Destruction of equipment and body parts",
+      "description": "Battlefield devastation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In this fierce battle, large numbers of men, horses, elephants, and chariots were destroyed, with many warriors killed by cavalry and elephants having their trunks severed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "All combatants"
+      ],
+      "action": "Large-scale destruction",
+      "casualties": "Men, horses, elephants, chariots"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Banners with their poles fell like collapsing mountains, while war elephants and chariots were attacked by infantry.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Infantry",
+        "Charioteers",
+        "Elephant riders"
+      ],
+      "action": "Mixed combat",
+      "metaphor": "Banners like collapsing mountains"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Cavalry quickly encountered infantry, were struck, killed, and fell, while infantry in turn were destroyed by cavalry, littering the battlefield with corpses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 20,
+    "group_index": 19,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Cavalry",
+        "Infantry"
+      ],
+      "action": "Mutual destruction",
+      "description": "Cavalry-infantry combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The faces and limbs of the dead resembled crushed lotuses and withered garlands.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 21,
+    "group_index": 20,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dead warriors"
+      ],
+      "description": "Aftermath appearance",
+      "metaphor": "Crushed lotuses and withered garlands"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The once beautiful forms of elephants, horses, and men now appeared like soiled garments, unpleasant to behold.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 22,
+    "group_index": 21,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "All casualties"
+      ],
+      "description": "Transformation through violence",
+      "metaphor": "Soiled garments"
+    },
+    "_token_interval": null
+  }
+]

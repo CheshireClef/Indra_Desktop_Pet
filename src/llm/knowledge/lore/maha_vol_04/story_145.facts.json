@@ -1,0 +1,1689 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳在战场上被阿周那杀死，导致俱卢族军队士气低落，人数减少。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "阿周那"
+      ],
+      "action": "迦尔纳被杀",
+      "consequences": [
+        "俱卢族军队士气低落",
+        "俱卢族军队人数减少"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌在迦尔纳死后极度绝望，悲痛不已，返回营帐。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌"
+      ],
+      "emotion": "绝望、悲痛",
+      "action": "返回营帐"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "尽管众王公抚慰，难敌无法平静，但最终决定继续战斗。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌",
+        "众王公"
+      ],
+      "decision": "继续战斗",
+      "reason": "认识到命运和必然无法抗拒"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌任命沙利耶为军队统帅，带领幸存王公重返战场。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌",
+        "沙利耶",
+        "幸存王公"
+      ],
+      "action": "任命统帅、重返战场",
+      "military_change": "沙利耶成为新统帅"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "俱卢族和般度族重新展开激烈战斗，沙利耶大肆杀戮般度族军队。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "沙利耶",
+        "般度族军队"
+      ],
+      "action": "激烈战斗、沙利耶杀戮敌军",
+      "battle_intensity": "杀声震天，犹如天神和阿修罗拼搏"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "沙利耶在正午时刻被坚战杀死。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "沙利耶",
+        "坚战"
+      ],
+      "action": "沙利耶被杀",
+      "time": "正午时刻"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌族人尸横遍野，难敌逃离战场，躲入泥泞池塘。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌"
+      ],
+      "action": "逃离战场、躲藏",
+      "location": "泥泞池塘",
+      "consequences": [
+        "俱卢族军队溃败"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "怖军将难敌诱迫出池塘并杀死他。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "怖军",
+        "难敌"
+      ],
+      "action": "诱杀",
+      "method": "诱迫出池塘后杀死",
+      "time": "当天下午"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "三个幸存战车手为报复难敌之死，趁月夜杀死般遮罗族战士。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "三个幸存战车手",
+        "般遮罗族战士"
+      ],
+      "action": "报复性杀戮",
+      "time": "月夜",
+      "motivation": "为难敌之死复仇"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "全胜在第二天早上离开营帐，返回俱卢族都城，向王宫报告噩耗。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "全胜"
+      ],
+      "action": "返回都城、报告噩耗",
+      "emotion": "沮丧、忧伤",
+      "consequences": [
+        "王宫众人激动异常、泪流满面"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "都城所有人听到国王噩耗后悲伤万分，失声痛哭，哀号声到处可闻。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "都城民众"
+      ],
+      "reaction": "集体悲痛、痛哭",
+      "scale": "所有人，包括孩子"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "三位人中雄牛因强烈悲痛失去理智，疯狂奔跑。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "三位人中雄牛"
+      ],
+      "state": "失去理智、疯狂",
+      "cause": "强烈悲痛"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya, distressed, entered the palace and saw King Dhritarashtra, the wise and blind king, surrounded by his daughters-in-law, Gandhari, and Vidura.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "King Dhritarashtra",
+        "Gandhari",
+        "Vidura"
+      ],
+      "type": "Arrival/Scene Setting",
+      "relationships": "Sanjaya is the charioteer and messenger; Dhritarashtra is the king; Gandhari is his wife; Vidura is his half-brother and advisor."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya, weeping and grief-stricken, reported to Dhritarashtra the massive casualties of the Kurukshetra War, including the deaths of key warriors like Shalya, Shakuni, Uluka, and all the Gandharvas, Shakas, Mlecchas, and others from various regions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "King Dhritarashtra",
+        "Shalya",
+        "Shakuni",
+        "Uluka"
+      ],
+      "type": "Report/Revelation",
+      "action": "Casualty report",
+      "relationships": "Sanjaya delivers news to Dhritarashtra; Shalya was king of Madra; Shakuni was Gandhari's brother; Uluka was Shakuni's son."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya reported that Duryodhana was killed by Bhima, as Bhima had vowed, with broken thighs and lying in blood and dust.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "King Dhritarashtra",
+        "Duryodhana",
+        "Bhima"
+      ],
+      "type": "Key Death",
+      "action": "Duryodhana's death",
+      "relationships": "Duryodhana is Dhritarashtra's son; Bhima is one of the Pandavas, Duryodhana's cousin and enemy."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya listed other major deaths: Shikhandi, Uttamaujas, Yudhamanyu, the Prabhadrakas, Panchalas, Chedis, Dhritarashtra's sons, Draupadi's sons, and Vrishasena (Karna's son).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Shikhandi",
+        "Uttamaujas",
+        "Yudhamanyu",
+        "Vrishasena"
+      ],
+      "type": "Casualty List",
+      "relationships": "Shikhandi was a warrior who helped kill Bhishma; Vrishasena was Karna's son."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya stated that only seven survived on the Pandava side: the five Pandava brothers, Krishna, and Satyaki, and only three on the Kaurava side: Kripa, Kritavarma, and Ashwatthama.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Krishna",
+        "Satyaki",
+        "Kripa",
+        "Kritavarma",
+        "Ashwatthama"
+      ],
+      "type": "Survivor Report",
+      "relationships": "The Pandavas are the sons of Pandu; Krishna is their ally and guide; Satyaki is a Yadava warrior; Kripa is a teacher; Kritavarma is a Yadava warrior; Ashwatthama is Drona's son."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya blamed the war's destruction on Duryodhana's enmity with Yudhishthira, saying fate had destroyed the world.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Duryodhana",
+        "Yudhishthira"
+      ],
+      "type": "Cause Attribution",
+      "relationships": "Duryodhana and Yudhishthira are cousins and rivals for the throne."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Upon hearing Sanjaya's report, Dhritarashtra fainted and fell unconscious.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra"
+      ],
+      "type": "Reaction",
+      "action": "Fainting",
+      "relationships": "Dhritarashtra is grieving the loss of his sons and allies."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing Dhritarashtra fall, Vidura, deeply distressed, also fell to the ground.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vidura",
+        "King Dhritarashtra"
+      ],
+      "type": "Reaction",
+      "relationships": "Vidura is Dhritarashtra's half-brother and shows empathy."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gandhari and other Kuru women fainted upon hearing the terrible news.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandhari"
+      ],
+      "type": "Reaction",
+      "relationships": "Gandhari is Dhritarashtra's wife and mother of the Kauravas."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The people around the king fell into disarray, unconscious and delirious, likened to a painted scene, with Dhritarashtra overwhelmed by his sons' misfortune.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra"
+      ],
+      "type": "Collective Reaction",
+      "relationships": "Highlights the widespread grief and devastation."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra regained consciousness with difficulty, looked around sadly, and trembled.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra"
+      ],
+      "action": "Regaining consciousness and emotional distress",
+      "emotional_state": "Grief, helplessness"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra spoke to Vidura, expressing his despair over his sons' deaths.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra",
+        "Vidura"
+      ],
+      "dialogue_content": "Dhritarashtra declares Vidura as his only hope and laments that all his sons are dead.",
+      "relationship": "King and advisor/counselor (Vidura is Dhritarashtra's half-brother and minister)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra fainted again and was revived by his kinsmen with cold water and fans.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra",
+        "Kinsmen"
+      ],
+      "action": "Fainting and revival",
+      "method": "Cold water and fanning"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra recovered after a long time, sank into grief-filled thought, and sighed repeatedly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra"
+      ],
+      "emotional_state": "Deep sorrow, contemplation",
+      "simile": "Like a snake trapped in a jar"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya wept seeing the king's agony; Gandhari and other women also wept bitterly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Gandhari",
+        "Other women"
+      ],
+      "action": "Weeping in shared grief",
+      "relationship": "Sanjaya (narrator/charioteer), Gandhari (Dhritarashtra's wife)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra, in a confused state, repeatedly asked Vidura to have the women, Gandhari, and friends leave.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra",
+        "Vidura"
+      ],
+      "request": "Clear the palace of women and friends",
+      "reason": "Overwhelming grief and broken heart"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vidura gradually escorted the women out of the palace, trembling himself.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vidura",
+        "Women",
+        "Friends"
+      ],
+      "action": "Clearing the palace",
+      "emotional_state": "Vidura trembled with distress"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "All women and friends left the palace, looking back at the grieving king.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Women",
+        "Friends",
+        "King Dhritarashtra"
+      ],
+      "action": "Departure from palace",
+      "emotional_context": "Shared sorrow"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya, distressed, saw the king conscious again and weeping in torment.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "King Dhritarashtra"
+      ],
+      "observation": "King weeping in pain",
+      "emotional_state": "Distress (Sanjaya), torment (Dhritarashtra)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vidura comforted the sighing king with gentle words, hands folded in respect.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vidura",
+        "King Dhritarashtra"
+      ],
+      "action": "Comforting and consoling",
+      "method": "Gentle words, respectful posture"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After the women left, King Dhritarashtra fell into even greater grief, panting and trembling.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra"
+      ],
+      "emotional_state": "Increased sorrow, physical distress",
+      "description": "Panting like exhaling smoke, arms shaking"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra reflected on his immense pain, recalling Sanjaya's earlier report that the Pandavas were safe in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra",
+        "Sanjaya",
+        "Pandavas"
+      ],
+      "reflection_content": "Contrast between hearing of Pandavas' safety and his sons' deaths",
+      "relationship": "Dhritarashtra (father of Kauravas), Pandavas (his nephews/enemies)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra described his heart as hard as diamond core, not breaking at his sons' death news, but shattering at memories of their childhood.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra"
+      ],
+      "emotional_conflict": "Heart hardened yet broken by memories",
+      "trigger": "Childhood memories of his sons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra expressed eternal love for his sons despite blindness preventing him from seeing them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra"
+      ],
+      "expression": "Fatherly love transcending physical blindness",
+      "condition": "Blind from birth"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra recalled joy at hearing his sons grow from childhood to adulthood, now replaced by agony at their death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra"
+      ],
+      "emotional_shift": "Joy to agony",
+      "cause": "Sons' deaths in war"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra lamented the loss of his sons' spirit, kingdom, and his own peace, with heart torn by their death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra"
+      ],
+      "losses": "Sons, their spirit, kingdom, peace",
+      "state": "Heart torn, unable to be calm"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The blind old king (Dhritarashtra) laments the loss of his son Duryodhana, expressing grief over his death and questioning his fate.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Duryodhana"
+      ],
+      "type": "Lamentation",
+      "relationships": [
+        "Father-Son"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra recalls Duryodhana's confidence before the war, listing allies who were prepared to fight for him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhishma",
+        "Drona",
+        "Karna",
+        "Kripa",
+        "Shalya",
+        "Bhagadatta",
+        "Jayadratha",
+        "Shrutayu",
+        "Brihadbala",
+        "Shakuni",
+        "Ashvatthama",
+        "Kalinga",
+        "Magadha",
+        "Anga",
+        "Kashi",
+        "Mlecchas",
+        "Shakas",
+        "Yavanas",
+        "Kambojas",
+        "Trigartas",
+        "Vinda",
+        "Anuvinda",
+        "Alayudha",
+        "Rakshasa",
+        "Mahaparshva",
+        "Satyaki",
+        "Drupada's sons",
+        "Shikhandi",
+        "Dhrishtadyumna",
+        "Shishupala",
+        "Jarasandha",
+        "Bahlika",
+        "Somadatta",
+        "Bhurishrava"
+      ],
+      "type": "Recollection",
+      "action": "Listing of allies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana boasted that with Karna and himself, they could defeat the Pandavas, and that Krishna would not take up arms.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Karna",
+        "Krishna",
+        "Pandavas"
+      ],
+      "type": "Boast",
+      "relationships": [
+        "Allies",
+        "Enemies"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Despite Duryodhana's confidence, his allies were killed in battle, with Bhishma being slain by Shikhandi.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Shikhandi",
+        "Duryodhana's allies"
+      ],
+      "type": "Battle Outcome",
+      "action": "Death in battle",
+      "supernatural_elements": "Fate/destiny mentioned"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona, a Brahmin skilled in all weapons, was killed on the battlefield by the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Pandavas"
+      ],
+      "action": "Death in battle",
+      "reason": "Fate/destiny"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Many warriors including Ghatotkacha, Shalya, Duryodhana, Duhshasana, and Vikarna were killed in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Shalya",
+        "Duryodhana",
+        "Duhshasana",
+        "Vikarna"
+      ],
+      "action": "Death in battle",
+      "reason": "Fate/destiny"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra lamented his losses, including his sons and grandsons, friends, and brothers, all killed in the war.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra"
+      ],
+      "action": "Lamentation",
+      "reason": "Grief over family losses"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra expressed his inability to submit to the enemy kingdom in his old age after being abandoned by good fortune.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra"
+      ],
+      "action": "Decision to avoid submission",
+      "reason": "Pride and grief"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra decided to go live in the forest, having lost his relatives and having no better alternative.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra"
+      ],
+      "action": "Decision to retire to forest",
+      "reason": "Loss of family and purpose"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra feared Bhima's taunts about killing his hundred sons, particularly Duryodhana's death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Bhima",
+        "Duryodhana"
+      ],
+      "action": "Fear of confrontation",
+      "relationship": "Enemy (Bhima killed Dhritarashtra's sons)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra, overwhelmed by grief and思念 for his son, was tormented and his mind disturbed repeatedly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra"
+      ],
+      "action": "Emotional torment",
+      "reason": "思念 for deceased son"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After prolonged weeping, Dhritarashtra, son of Ambika, sighed deeply reflecting on his clan's defeat.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra"
+      ],
+      "action": "Reflection and sighing",
+      "reason": "Clan's defeat in war"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Burning with immense pain, Dhritarashtra inquired from Sanjaya, son of Gavalgana, about the battlefield events.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Sanjaya"
+      ],
+      "action": "Inquiry about war",
+      "relationship": "King and charioteer/advisor"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra asked who was appointed as army commander after the fall of Bhishma, Drona, and Karna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Bhishma",
+        "Drona",
+        "Karna"
+      ],
+      "action": "Question about military leadership",
+      "reason": "Succession after key deaths"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra noted that any commander they appointed would soon be killed by the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Pandavas"
+      ],
+      "action": "Prediction of defeat",
+      "reason": "Pandavas' strength"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma was struck down in the vanguard position by Arjuna in front of everyone.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Arjuna"
+      ],
+      "action": "Battle/Defeat",
+      "context": "Kurukshetra War"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona was similarly killed in front of everyone.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Death in battle",
+      "context": "Kurukshetra War"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna was killed by Arjuna in front of all the kings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Arjuna"
+      ],
+      "action": "Death in battle",
+      "context": "Kurukshetra War"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vidura previously warned Dhritarashtra that due to Duryodhana's errors, all the people would be destroyed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vidura",
+        "Dhritarashtra",
+        "Duryodhana"
+      ],
+      "action": "Warning/Prophecy",
+      "relationship": "Vidura is Dhritarashtra's half-brother and advisor"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra admits he was foolish not to heed Vidura's words, and fate clouded his judgment.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Vidura"
+      ],
+      "action": "Confession/Regret",
+      "context": "Post-war reflection"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra asks Sanjaya to tell him who became army commander after Karna's death and who confronted Arjuna and Krishna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Sanjaya",
+        "Karna",
+        "Arjuna",
+        "Krishna"
+      ],
+      "action": "Inquiry about battle events",
+      "context": "Request for war narrative"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra asks how Shalya and his son Duryodhana were killed by the Pandavas when they were all gathered together.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Shalya",
+        "Duryodhana",
+        "Pandavas"
+      ],
+      "action": "Inquiry about deaths",
+      "relationship": "Shalya was Kaurava commander, Duryodhana is Dhritarashtra's son"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra asks about the deaths of Panchalas, Shikhandin, Draupadi's sons, and how Pandavas escaped.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Panchalas",
+        "Shikhandin",
+        "Draupadi",
+        "Pandavas"
+      ],
+      "action": "Inquiry about war casualties",
+      "context": "Request for complete war account"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya begins narrating how the Kaurava and Pandava armies clashed, leading to great slaughter.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Dhritarashtra"
+      ],
+      "action": "Narrative beginning",
+      "context": "Sanjaya's divine vision of the war"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After Karna's death by Arjuna, the Kaurava army repeatedly fled and regrouped.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Arjuna",
+        "Duryodhana"
+      ],
+      "action": "Army disarray",
+      "context": "Turning point in war"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana retreated with grief-stricken heart as the army panicked at Arjuna's advance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Arjuna"
+      ],
+      "action": "Retreat/Panic",
+      "context": "Kaurava army morale collapse"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kripa felt compassion seeing the battlefield devastation and the anonymous deaths of thousands of kings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripa"
+      ],
+      "action": "Emotional reaction",
+      "context": "Witnessing war carnage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama (referred to as '精力充沛，长于言词的慈悯' in the text) approaches Duryodhana and speaks to him with great anger.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Duryodhana"
+      ],
+      "action": "Confrontation/Speech",
+      "relationship": "Ashwatthama is a warrior and ally of Duryodhana in the Kurukshetra War."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama advises Duryodhana that the highest path for a Kshatriya is to fight according to the dharma of battle, and that fleeing is against dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Duryodhana"
+      ],
+      "action": "Moral/Strategic Advice",
+      "theme": "Kshatriya Dharma (Warrior Code)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama lists key Kaurava warriors who have fallen: Bhishma, Drona, Karna, Shalya (referred to as '胜车'), Duryodhana's brothers, and Duryodhana's son Lakshmana (referred to as '罗奇蛮').",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Drona",
+        "Karna",
+        "Shalya",
+        "Duryodhana's Brothers",
+        "Lakshmana"
+      ],
+      "action": "Casualty Report",
+      "significance": "Major losses for the Kaurava side on the 17th day of the war."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama states that even if all these warriors were alive, Arjuna (referred to as '毗跋蔈' and '胜财') would still be invincible, as he is a hero even gods cannot approach.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Praise of Enemy's Prowess",
+      "supernatural_elements": "Comparison to gods, invincibility"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama describes the fearsome effects of Arjuna and his allies in battle: the sight of Arjuna's monkey banner (flag of Hanuman) terrifies the Kaurava army, Bhima's roar and conch sounds cause fear, and Arjuna's Gandiva bow is described as dazzling and powerful like lightning or fire.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Bhima",
+        "Krishna (implied as driver of Arjuna's chariot)"
+      ],
+      "action": "Description of Battlefield Terror",
+      "supernatural_elements": "Divine weapons (Gandiva bow), comparisons to natural forces (lightning, fire, wind)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama compares Arjuna's assault on the Kaurava army to an elephant trampling a lotus pond or a lion terrifying deer, highlighting the chaos and demoralization he causes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Metaphorical Description of Destruction",
+      "effect": "Kaurava army is thrown into disarray and flees."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama notes that the war has lasted 17 days, resulting in many deaths, and the Kaurava army is now scattered like autumn clouds blown by a strong wind.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kaurava Army"
+      ],
+      "action": "Assessment of War's Progress",
+      "outcome": "Kaurava forces are in retreat and disorganized."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya describes the chaotic state of the Kaurava army in the face of Arjuna's attack.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Dhritarashtra",
+        "Arjuna"
+      ],
+      "action": "Narration of Battlefield Chaos",
+      "relationships": [
+        "Sanjaya (narrator) to Dhritarashtra (listener/king)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya questions the whereabouts of key Kaurava warriors, including Karna, Drona, Kripa, Dushasana, and others.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Karna",
+        "Drona",
+        "Kripa",
+        "Dushasana"
+      ],
+      "action": "Rhetorical Questioning of Missing Leaders",
+      "relationships": [
+        "All mentioned are Kaurava allies/warriors"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna kills King Shrutayu (Shrutayus) in front of the Kaurava army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Shrutayu"
+      ],
+      "action": "Killing of an Enemy King",
+      "relationships": [
+        "Arjuna (Pandava) vs. Shrutayu (Kaurava ally)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya questions how the Kauravas can defeat Arjuna, who possesses divine weapons and the Gandiva bow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Arjuna"
+      ],
+      "action": "Assessment of Military Strength",
+      "supernatural_elements": [
+        "Divine weapons",
+        "Gandiva bow"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya describes the Kaurava army as leaderless and chaotic, comparing it to a moonless night.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya"
+      ],
+      "action": "Metaphorical Description of Army's State"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna, Satyaki, and Bhima attack fiercely, with Bhima having nearly fulfilled his vows of revenge.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Satyaki",
+        "Bhima"
+      ],
+      "action": "Fierce Joint Attack",
+      "relationships": [
+        "All are Pandava allies"
+      ],
+      "plot_points": [
+        "Bhima's vows of revenge against the Kauravas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya states that Karna could not approach the Pandava army because it was protected by Arjuna's Gandiva.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Karna",
+        "Arjuna"
+      ],
+      "action": "Description of Military Impediment",
+      "supernatural_elements": [
+        "Protection by Gandiva bow"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya tells Duryodhana that the Kauravas' suffering is retribution for their past wrongs against the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Duryodhana"
+      ],
+      "action": "Moral Admonishment",
+      "relationships": [
+        "Sanjaya (advisor) to Duryodhana (king)"
+      ],
+      "plot_points": [
+        "Reference to past injustices against the Pandavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya advises Duryodhana to protect himself, as the self is the foundation of everything.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Duryodhana"
+      ],
+      "action": "Philosophical Advice",
+      "relationships": [
+        "Advisor to King"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya cites the strategy principle by Brihaspati: the weaker side should seek peace, equals should seek peace, only the stronger should fight.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Brihaspati"
+      ],
+      "action": "Citation of Strategic Doctrine",
+      "relationships": [
+        "Brihaspati is the divine preceptor and strategist"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya concludes that the Kauravas are weaker than the Pandavas and should seek a peace settlement with Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Yudhishthira",
+        "Duryodhana"
+      ],
+      "action": "Recommendation for Peace",
+      "relationships": [
+        "Kauravas vs. Pandavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya suggests that if Dhritarashtra speaks and Krishna intercedes, the compassionate Yudhishthira will leave the kingdom to Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Dhritarashtra",
+        "Krishna",
+        "Yudhishthira",
+        "Duryodhana"
+      ],
+      "action": "Proposed Diplomatic Solution",
+      "relationships": [
+        "Dhritarashtra (father) to Duryodhana (son)",
+        "Krishna (ally/advisor) to Pandavas",
+        "Yudhishthira (eldest Pandava) to Duryodhana (cousin and rival)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya states that the Pandavas will do whatever Krishna says, and Krishna will heed Dhritarashtra's words.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Krishna",
+        "Dhritarashtra",
+        "Pandavas"
+      ],
+      "action": "Assertion of Influence and Obedience",
+      "relationships": [
+        "Krishna as key influencer of Pandavas and respecter of Dhritarashtra"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kripa advises King Duryodhana to make peace with Arjuna (son of Pritha).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripa (son of Sharadvan)",
+        "King Duryodhana"
+      ],
+      "action": "Advice for peace",
+      "reason": "For Duryodhana's benefit, not out of pity or self-preservation",
+      "warning": "Duryodhana will remember these words at his life's end"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kripa sighs deeply and falls into profound grief, nearly fainting.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripa (son of Sharadvan)"
+      ],
+      "action": "Emotional reaction",
+      "description": "Long, hot sigh followed by deep sorrow and near-unconsciousness",
+      "context": "Occurs after giving advice to Duryodhana"
+    },
+    "_token_interval": null
+  }
+]

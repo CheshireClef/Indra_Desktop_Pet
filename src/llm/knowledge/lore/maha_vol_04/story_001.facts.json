@@ -1,0 +1,6447 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "难降之子用铁杵砸在激昂头上",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难降之子",
+        "激昂"
+      ],
+      "action": "攻击/击杀",
+      "type": "战斗"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "胜财（阿周那）用箭射下信度王的头颅并推动其飞向高处",
+    "char_interval": {
+      "start_pos": 122,
+      "end_pos": 129
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "信度王"
+      ],
+      "action": "射杀",
+      "type": "战斗"
+    },
+    "_token_interval": {
+      "start_index": 34,
+      "end_index": 38
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "某人用左脚拨动王中之狮的头",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "王中之狮"
+      ],
+      "action": "侮辱/戏弄",
+      "type": "冲突"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "马嘶揪住猛光的发髻将他摔倒在地",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "马嘶",
+        "猛光"
+      ],
+      "action": "攻击",
+      "type": "战斗"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "某人描述儿媳们失去丈夫后哀号的场景",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "儿媳们"
+      ],
+      "action": "哀悼",
+      "type": "情感表达"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "毗湿摩倒下后，难敌王征求迦尔纳意见，迦尔纳推荐德罗纳担任俱卢族军队统帅",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌王",
+        "迦尔纳",
+        "德罗纳"
+      ],
+      "action": "任命",
+      "type": "军事决策",
+      "relationships": [
+        "迦尔纳推荐德罗纳",
+        "难敌王任命德罗纳"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌要求德罗纳活捉坚战，德罗纳同意但要求引开阿周那",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌",
+        "德罗纳",
+        "坚战",
+        "阿周那"
+      ],
+      "action": "战略部署",
+      "type": "军事命令",
+      "relationships": [
+        "德罗纳接受难敌的命令",
+        "阿周那保护坚战"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "德罗纳在战斗中杀到坚战面前，但阿周那赶来击退了他和俱卢族军队",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "德罗纳",
+        "坚战",
+        "阿周那"
+      ],
+      "action": "战斗/救援",
+      "type": "战场交锋",
+      "relationships": [
+        "阿周那保护坚战对抗德罗纳"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "德罗纳再次向难敌强调需要引开阿周那，善佑王带领敢死队自告奋勇承担此任务",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "德罗纳",
+        "难敌",
+        "善佑王",
+        "阿周那"
+      ],
+      "action": "战略调整",
+      "type": "军事计划",
+      "relationships": [
+        "善佑王协助德罗纳和难敌"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "第二天（第17—31章）：敢死队在战场上向阿周那挑战，阿周那与敢死队展开激战。趁此机会，德罗纳率领军队冲向坚战。般度族军队奋勇阻截德罗纳，许多武士为此阵亡。德罗纳多次发起进攻，没有获得成功。难敌亲自率领象军，进攻怖军，也被怖军击溃。这时福授王骑着大象冲向怖军，一次又一次击溃般度族军队。",
+    "char_interval": {
+      "start_pos": 983,
+      "end_pos": 1126
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "敢死队",
+        "德罗纳",
+        "坚战",
+        "难敌",
+        "怖军",
+        "福授王"
+      ],
+      "action": "战斗",
+      "relationships": [
+        "阿周那与敢死队交战",
+        "德罗纳攻击坚战",
+        "难敌攻击怖军",
+        "福授王攻击怖军和般度族军队"
+      ],
+      "supernatural_elements": "无"
+    },
+    "_token_interval": {
+      "start_index": 259,
+      "end_index": 294
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那正在与敢死队交战，发现坚战这边遭到福授王进攻，情况危急。于是，他赶紧歼灭敢死队，前来援助坚战。阿周那与福授王展开激战。",
+    "char_interval": {
+      "start_pos": 1127,
+      "end_pos": 1189
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "敢死队",
+        "坚战",
+        "福授王"
+      ],
+      "action": "阿周那歼灭敢死队后与福授王交战",
+      "relationships": [
+        "阿周那援助坚战"
+      ],
+      "supernatural_elements": "无"
+    },
+    "_token_interval": {
+      "start_index": 294,
+      "end_index": 308
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "福授王使出毗湿奴法宝，直刺阿周那胸膛。黑天挺身挡住飞来的法宝。阿周那埋怨黑天没有恪守“只担任御者而不直接参战”的诺言。",
+    "char_interval": {
+      "start_pos": 1189,
+      "end_pos": 1248
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "福授王",
+        "阿周那",
+        "黑天"
+      ],
+      "action": "福授王使用毗湿奴法宝攻击阿周那，黑天阻挡",
+      "relationships": [
+        "黑天违背诺言保护阿周那"
+      ],
+      "supernatural_elements": "毗湿奴法宝"
+    },
+    "_token_interval": {
+      "start_index": 308,
+      "end_index": 320
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天告诉阿周那，这个毗湿奴法宝原本是他赐予阿修罗那罗迦的，又由那罗迦传给福授王。它能杀死任何人，如果不由他本人挡住，就会杀死阿周那。",
+    "char_interval": {
+      "start_pos": 1248,
+      "end_pos": 1314
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天",
+        "阿周那",
+        "福授王",
+        "那罗迦"
+      ],
+      "action": "黑天解释法宝的来历和威力",
+      "relationships": [
+        "黑天曾赐法宝给那罗迦"
+      ],
+      "supernatural_elements": "毗湿奴法宝的起源和致命性"
+    },
+    "_token_interval": {
+      "start_index": 320,
+      "end_index": 332
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "然后，阿周那按照黑天的吩咐，用箭射死福授王的大象和福授王本人。接着，阿周那大肆杀戮俱卢族军队。而德罗纳也大肆杀戮般度族军队。双方军队伤亡惨重。",
+    "char_interval": {
+      "start_pos": 1314,
+      "end_pos": 1385
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "黑天",
+        "福授王",
+        "德罗纳"
+      ],
+      "action": "阿周那杀死福授王，双方军队互相杀戮",
+      "relationships": [
+        "阿周那听从黑天指示"
+      ],
+      "supernatural_elements": "无"
+    },
+    "_token_interval": {
+      "start_index": 332,
+      "end_index": 346
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "第三天（第32—60章）：难敌埋怨德罗纳没有兑现诺言，活捉坚战。德罗纳再次强调要在战斗中将阿周那引开。于是，敢死队再次向阿周那挑战，引开阿周那。德罗纳排出车轮阵容，向阿周那发起强大攻势。",
+    "char_interval": {
+      "start_pos": 1386,
+      "end_pos": 1479
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌",
+        "德罗纳",
+        "坚战",
+        "阿周那",
+        "敢死队"
+      ],
+      "action": "难敌抱怨德罗纳，德罗纳计划引开阿周那，敢死队挑战阿周那，德罗纳布阵攻击",
+      "relationships": [
+        "难敌与德罗纳有承诺冲突",
+        "德罗纳针对阿周那"
+      ],
+      "supernatural_elements": "无"
+    },
+    "_token_interval": {
+      "start_index": 346,
+      "end_index": 371
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战委派阿周那之子激昂前去攻破德罗纳的阵容。激昂表示父亲阿周那只教给他破阵的方法，而没有教给他退出的方法。坚战表示只要他攻破敌人阵容，他们就会在后面一直跟随他，保护他。",
+    "char_interval": {
+      "start_pos": 1479,
+      "end_pos": 1563
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "激昂",
+        "阿周那",
+        "德罗纳"
+      ],
+      "action": "坚战派遣激昂破阵，激昂表达担忧，坚战承诺保护",
+      "relationships": [
+        "激昂是阿周那之子",
+        "坚战领导激昂"
+      ],
+      "supernatural_elements": "无"
+    },
+    "_token_interval": {
+      "start_index": 371,
+      "end_index": 383
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "威武勇猛的激昂先后战胜难敌、难降和迦尔纳，闯入敌阵，坚战率领军队跟随在后。然而，胜车王率领军队冲上前来，截断了他们的去路。这样，激昂孤身一人，陷入敌军重围。",
+    "char_interval": {
+      "start_pos": 1563,
+      "end_pos": 1641
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "激昂",
+        "难敌",
+        "难降",
+        "迦尔纳",
+        "坚战",
+        "胜车王"
+      ],
+      "action": "激昂战胜多名敌人后孤身被围",
+      "relationships": [
+        "激昂对抗俱卢族将领",
+        "胜车王阻截般度族军队"
+      ],
+      "supernatural_elements": "无"
+    },
+    "_token_interval": {
+      "start_index": 383,
+      "end_index": 403
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "俱卢族德罗纳、慈悯、迦尔纳、马嘶、巨力和成铠六位大勇士围攻激昂一人。激昂浴血奋战。最后，德罗纳射断他的刀，迦尔纳射碎他的盾，难降用铁杵将他砸死。",
+    "char_interval": {
+      "start_pos": 1641,
+      "end_pos": 1713
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "德罗纳",
+        "慈悯",
+        "迦尔纳",
+        "马嘶",
+        "巨力",
+        "成铠",
+        "激昂",
+        "难降"
+      ],
+      "action": "六位勇士围攻并杀死激昂",
+      "relationships": [
+        "俱卢族将领联合攻击激昂"
+      ],
+      "supernatural_elements": "无"
+    },
+    "_token_interval": {
+      "start_index": 403,
+      "end_index": 423
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "双方军队收兵回营。阿周那在击败敢死队后，也返回营地。他得知激昂已经阵亡，直接原因是胜车王阻截住保护激昂的般度族军队。于是，他发誓在明天的战斗中一定要杀死胜车王，否则，他就跳入烈火中。",
+    "char_interval": {
+      "start_pos": 1714,
+      "end_pos": 1805
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "激昂",
+        "胜车王"
+      ],
+      "action": "阿周那得知激昂死讯并发誓复仇",
+      "relationships": [
+        "阿周那要为儿子激昂报仇"
+      ],
+      "supernatural_elements": "誓言涉及跳入烈火"
+    },
+    "_token_interval": {
+      "start_index": 423,
+      "end_index": 441
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "胜车王从俱卢族探子口中得知阿周那的誓言，十分恐惧，请求难敌允许他离开军队。难敌劝阻他，德罗纳也答应在战斗中保护他。",
+    "char_interval": {
+      "start_pos": 1805,
+      "end_pos": 1862
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "胜车王",
+        "阿周那",
+        "难敌",
+        "德罗纳"
+      ],
+      "action": "胜车王恐惧并寻求保护，难敌和德罗纳承诺保护",
+      "relationships": [
+        "胜车王依赖难敌和德罗纳"
+      ],
+      "supernatural_elements": "无"
+    },
+    "_token_interval": {
+      "start_index": 441,
+      "end_index": 451
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "而黑天也从般度族探子口中得知德罗纳安排了保护胜车王的严密措施。为了保证阿周那明天取胜，黑天在夜里托梦给阿周那，带他一起凌空前往大神湿婆住地，求得“兽主法宝”。",
+    "char_interval": {
+      "start_pos": 1862,
+      "end_pos": 1941
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天",
+        "德罗纳",
+        "胜车王",
+        "阿周那",
+        "湿婆"
+      ],
+      "action": "黑天得知敌方计划，托梦带阿周那求取法宝",
+      "relationships": [
+        "黑天帮助阿周那"
+      ],
+      "supernatural_elements": "托梦、凌空飞行、湿婆住地、兽主法宝"
+    },
+    "_token_interval": {
+      "start_index": 451,
+      "end_index": 464
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona arranged the Kaurava army formation and placed King Jayadratha in the safest position.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Jayadratha"
+      ],
+      "action": "Military arrangement",
+      "relationship": "Commander protecting ally"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna fought fiercely to kill Jayadratha, defeating Duryodhana, Dushasana, and Drona's armies, and broke into the Kaurava formation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Duryodhana",
+        "Dushasana",
+        "Drona",
+        "Jayadratha"
+      ],
+      "action": "Battle breakthrough",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Srutayudha angrily threw the Varuna weapon at Krishna, but it rebounded and killed Srutayudha himself because the weapon's rule forbids attacking non-combatants.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Srutayudha",
+        "Krishna"
+      ],
+      "action": "Divine weapon rebound",
+      "supernatural": "Varuna weapon rule violation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna killed King Shambara and many other Kaurava warriors who tried to intercept him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Shambara"
+      ],
+      "action": "Combat killing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana complained to Drona about failing to stop Arjuna; Drona said he must fulfill his promise to capture Yudhishthira instead.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Drona",
+        "Yudhishthira"
+      ],
+      "action": "Argument and explanation",
+      "relationship": "Commander explaining strategy to king"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona personally gave Duryodhana armor that could withstand all weapons, originally from Shiva to Indra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Duryodhana",
+        "Shiva",
+        "Indra"
+      ],
+      "action": "Armor bestowal",
+      "supernatural": "Divine armor from Shiva"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna reached Jayadratha, and Duryodhana arrived to engage Arjuna in fierce combat.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Jayadratha",
+        "Duryodhana"
+      ],
+      "action": "Direct confrontation",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira, worried about Arjuna, sent Satyaki to support him; Satyaki fought his way to Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Arjuna",
+        "Satyaki"
+      ],
+      "action": "Reinforcement dispatch",
+      "relationship": "Brother sending ally"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandava army suffered heavy attacks; Yudhishthira sent Bhima to support Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna"
+      ],
+      "action": "Second reinforcement",
+      "relationship": "Brother sending brother"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima broke through Drona's interception, joined Satyaki and Arjuna, but was surrounded by Kaurava warriors led by Karna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Drona",
+        "Satyaki",
+        "Arjuna",
+        "Karna"
+      ],
+      "action": "Battle maneuver and encirclement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima killed many of Dhritarashtra's sons but was defeated by Karna, who spared him due to his promise to Kunti to only kill Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Dhritarashtra's sons",
+        "Karna",
+        "Kunti",
+        "Arjuna"
+      ],
+      "action": "Combat and sparing",
+      "relationship": "Half-brother sparing brother due to vow"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki came to rescue Bhima but was intercepted by Bhurishrava, who knocked Satyaki down, grabbed his hair, and stepped on his chest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Bhurishrava",
+        "Bhima"
+      ],
+      "action": "Interception and humiliation",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna shot and severed Bhurishrava's arm as he raised his sword; Bhurishrava accused Arjuna of violating combat rules.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Bhurishrava",
+        "Satyaki"
+      ],
+      "action": "Intervention and accusation",
+      "conflict": "Debate over combat ethics"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna defended his action by citing his vow to protect allies within his range; Bhurishrava sat to fast unto death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Bhurishrava"
+      ],
+      "action": "Justification and ritual death preparation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki, ignoring劝阻, beheaded the seated Bhurishrava.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Bhurishrava"
+      ],
+      "action": "Execution",
+      "type": "Killing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "As sunset approached, Krishna urged Arjuna to kill Jayadratha quickly, while Duryodhana urged Karna to intercept Arjuna until sunset to void Arjuna's vow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna",
+        "Jayadratha",
+        "Duryodhana",
+        "Karna"
+      ],
+      "action": "Urgent催促",
+      "stakes": "Arjuna's vow to die if not killing Jayadratha by sunset"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna finally shot off Jayadratha's head after bloody combat.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Jayadratha"
+      ],
+      "action": "Decapitation",
+      "outcome": "Vow fulfilled"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The armies continued fighting past sunset in an unusually残酷 night battle with no clear winner.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava army",
+        "Kaurava army"
+      ],
+      "action": "Night battle continuation",
+      "type": "Extended combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna fought fiercely, causing the Pandava army to flee, and Yudhishthira considered retreating.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Yudhishthira"
+      ],
+      "action": "Battle causing retreat",
+      "relationships": [
+        "Enemies"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna prepared to fight Karna to the death, but Krishna suggested Ghatotkacha fight Karna instead.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna",
+        "Karna",
+        "Ghatotkacha"
+      ],
+      "action": "Strategic suggestion",
+      "relationships": [
+        "Krishna advises Arjuna",
+        "Ghatotkacha is Bhima's son"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha, a rakshasa with enhanced night powers and illusion skills, fought Karna fiercely.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Karna"
+      ],
+      "action": "Battle",
+      "supernatural_elements": [
+        "Rakshasa powers",
+        "Illusions"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna, unable to withstand Ghatotkacha's attacks, used the Indra Shakti weapon to kill Ghatotkacha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Ghatotkacha"
+      ],
+      "action": "Weapon use resulting in death",
+      "supernatural_elements": [
+        "Indra Shakti weapon"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas grieved Ghatotkacha's death, but Krishna was pleased because Karna had used his one-time Indra Shakti weapon, which he had saved for Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna",
+        "Karna"
+      ],
+      "action": "Explanation of strategic outcome",
+      "relationships": [
+        "Krishna reveals strategy to Arjuna"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "As battle continued into late night, both armies grew exhausted, and Arjuna proposed a temporary truce for rest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Truce proposal",
+      "relationships": [
+        "Affects both armies"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "On the fifth day, Drona killed Drupada and Virata in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Drupada",
+        "Virata"
+      ],
+      "action": "Killing in battle",
+      "relationships": [
+        "Enemies"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing Drona slaughtering Pandava forces, Krishna suggested tricking Drona by falsely announcing Ashwatthama's death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Drona"
+      ],
+      "action": "Deception plan",
+      "relationships": [
+        "Krishna advises Pandavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna opposed the deception, but others including Yudhishthira reluctantly agreed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Yudhishthira"
+      ],
+      "action": "Moral disagreement",
+      "relationships": [
+        "Brothers with differing views"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima killed an elephant named Ashwatthama, then shouted to Drona that Ashwatthama was dead.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Drona"
+      ],
+      "action": "Deceptive announcement",
+      "relationships": [
+        "Enemies"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona, suspicious, asked the truth from Yudhishthira, who under Krishna's urging lied that Ashwatthama was dead.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Yudhishthira",
+        "Krishna"
+      ],
+      "action": "Deceptive confirmation",
+      "relationships": [
+        "Yudhishthira compromises honesty"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona, devastated, stopped fighting, sat in meditation, and Dhrishtadyumna beheaded him despite protests from warriors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Dhrishtadyumna"
+      ],
+      "action": "Killing during meditation",
+      "relationships": [
+        "Dhrishtadyumna kills his teacher"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama, learning of his father's death, vowed revenge and used the Narayana weapon against Pandava forces.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Drona"
+      ],
+      "action": "Revenge vow and weapon use",
+      "supernatural_elements": [
+        "Narayana weapon"
+      ],
+      "relationships": [
+        "Son avenging father"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna, knowing the Narayana weapon's rules, instructed Pandava warriors to lay down weapons, saving them as the weapon doesn't harm unarmed people.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Ashwatthama"
+      ],
+      "action": "Strategic defense",
+      "supernatural_elements": [
+        "Weapon rules knowledge"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama used the Agneya weapon, but Arjuna countered with the Brahma weapon.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Arjuna"
+      ],
+      "action": "Weapon counter",
+      "supernatural_elements": [
+        "Agneya weapon",
+        "Brahma weapon"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa appeared, explaining that Krishna and Arjuna were incarnations of Narayana and Nara, Ashwatthama was Rudra's incarnation, and all were blessed by Shiva, leading to a ceasefire.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Krishna",
+        "Arjuna",
+        "Ashwatthama",
+        "Shiva"
+      ],
+      "action": "Divine revelation and ceasefire",
+      "supernatural_elements": [
+        "Divine incarnations",
+        "Intervention by sage"
+      ],
+      "relationships": [
+        "Vyasa mediates conflict"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona's father, Bharadvaja, saw the celestial nymph Hritachi during a sacrifice, lost control of his passion, and his semen fell into a wooden bowl, from which Drona was born.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bharadvaja",
+        "Hritachi",
+        "Drona"
+      ],
+      "type": "Birth/Supernatural Birth",
+      "relationships": [
+        "Father-Son (Bharadvaja-Drona)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona grew up in a hermitage studying the Vedas and martial arts, where he became close friends with Drupada, son of King Prishata.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Drupada"
+      ],
+      "type": "Friendship/Education",
+      "relationships": [
+        "Friends (Drona-Drupada)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "condition",
+    "extraction_text": "Drupada promised that when he inherited the kingdom, he would share his kingdom and wealth with Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "proposer": "Drupada",
+      "accepter": "Drona"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drupada returned to inherit the kingdom, and Drona married Kripi and had a son named Ashwatthama.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drupada",
+        "Drona",
+        "Kripi",
+        "Ashwatthama"
+      ],
+      "type": "Marriage/Family",
+      "relationships": [
+        "Husband-Wife (Drona-Kripi)",
+        "Father-Son (Drona-Ashwatthama)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "When Parashurama was giving away his possessions to Brahmins, Drona arrived late and received all of Parashurama's divine weapons instead.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Parashurama"
+      ],
+      "type": "Divine Intervention/Weapon Acquisition"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona went to meet King Drupada, but Drupada rejected their friendship, citing their now unequal status and wealth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Drupada"
+      ],
+      "type": "Betrayal/Conflict",
+      "relationships": [
+        "Friendship Broken (Drona-Drupada)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Angered, Drona went to Hastinapura and became the martial arts teacher for the Kaurava and Pandava princes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Kaurava Princes",
+        "Pandava Princes"
+      ],
+      "type": "Employment/Teaching",
+      "relationships": [
+        "Teacher-Students (Drona-Princes)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "condition",
+    "extraction_text": "Drona asked his students to promise to do one thing for him after mastering their skills; only Arjuna agreed immediately.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "proposer": "Drona",
+      "accepter": "Arjuna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna diligently served Drona and studied hard, becoming Drona's favorite student.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Arjuna"
+      ],
+      "type": "Teacher-Student Bond",
+      "relationships": [
+        "Teacher-Favorite Student (Drona-Arjuna)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nishada prince Ekalavya came to study under Drona, but Drona refused him because Ekalavya was a Nishada (a Shudra by occupation).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Ekalavya"
+      ],
+      "type": "Rejection/Discrimination"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ekalavya made a clay statue of Drona, worshipped it as his teacher, and practiced archery alone in the forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ekalavya"
+      ],
+      "type": "Self-Study/Devotion"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "During a hunt, the Pandavas discovered Ekalavya's exceptional archery skills, and Drona found him and agreed to accept him as a student in exchange for his right thumb as guru dakshina.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Ekalavya",
+        "Pandavas"
+      ],
+      "type": "Cruelty/Deception",
+      "action": "Thumb Amputation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ekalavya cut off his right thumb and gave it to Drona, who did this to ensure no one could surpass Arjuna in archery.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ekalavya",
+        "Drona",
+        "Arjuna"
+      ],
+      "type": "Sacrifice/Manipulation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "While bathing in the Ganges, a crocodile bit Drona's leg; Arjuna quickly shot and killed it, and Drona rewarded him with the divine weapon Brahmashirsha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Arjuna"
+      ],
+      "type": "Rescue/Reward",
+      "action": "Divine Weapon Bestowal"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After the Pandavas completed their training, Drona demanded they conquer Drupada's kingdom for him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Pandavas",
+        "Drupada"
+      ],
+      "type": "Conquest/Revenge"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After conquering Drupada, Drona returned half the kingdom to him to show they were now equals and could be friends, but Drupada harbored hatred.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Drupada"
+      ],
+      "type": "Humiliation/Further Conflict",
+      "relationships": [
+        "Enmity Deepened (Drona-Drupada)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drupada performed a sacrifice to obtain a son who could kill Drona, resulting in the birth of Dhrishtadyumna and Draupadi from the sacrificial fire.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drupada",
+        "Dhrishtadyumna",
+        "Draupadi"
+      ],
+      "type": "Supernatural Birth/Revenge Plot"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "To protect his reputation, Drona later accepted Dhrishtadyumna as a student and taught him martial arts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Dhrishtadyumna"
+      ],
+      "type": "Teaching/Irony",
+      "relationships": [
+        "Teacher-Student (Drona-Dhrishtadyumna)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana's plot to burn the Pandavas in the lacquer house failed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Pandavas"
+      ],
+      "action": "Failed assassination attempt",
+      "relationship": "Duryodhana (cousin/enemy) vs. Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna won Draupadi for the Pandavas in her swayamvara.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Draupadi",
+        "Pandavas"
+      ],
+      "action": "Marriage contest victory",
+      "relationship": "Arjuna marries Draupadi, who becomes wife to all five Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona, agreeing with Bhishma, advised Dhritarashtra to recall the Pandavas and give them half the kingdom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Bhishma",
+        "Dhritarashtra",
+        "Pandavas"
+      ],
+      "action": "Political advice for reconciliation",
+      "relationship": "Drona (teacher) supports Pandavas' rights"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Before the war, Drona told Duryodhana that Arjuna was the greatest archer and valued him more than his own son Ashwatthama, urging Duryodhana to make peace with the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Duryodhana",
+        "Arjuna",
+        "Ashwatthama",
+        "Pandavas"
+      ],
+      "action": "Counsel for peace",
+      "relationship": "Drona favors Arjuna over his son and advises against war"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Despite his sympathies for the Pandavas, Drona fought for the Kauravas as a warrior bound by duty to his patrons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Kauravas",
+        "Pandavas"
+      ],
+      "action": "Duty-bound service",
+      "relationship": "Drona serves Kauravas despite personal loyalties"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "At the war's start, Yudhishthira honored Drona and asked permission to fight; Drona revealed he was bound by wealth to the Kauravas but wished for Pandava victory, and stated he could only be killed if he voluntarily laid down his weapons upon hearing terrible news.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Yudhishthira",
+        "Kauravas",
+        "Pandavas"
+      ],
+      "action": "Ritual exchange and prophecy",
+      "supernatural": "Drona's conditional invincibility",
+      "relationship": "Teacher-student conflict foreshadows Drona's death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana appointed Drona as army commander and requested he capture Yudhishthira alive; Drona, initially pleased, later learned Duryodhana intended to exile the Pandavas again through dice, and agreed only if Duryodhana distracted Arjuna in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Duryodhana",
+        "Yudhishthira",
+        "Arjuna",
+        "Pandavas"
+      ],
+      "action": "Strategic condition",
+      "relationship": "Drona sets difficult terms to avoid fighting Arjuna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After two days, Drona failed to capture Yudhishthira and insisted Arjuna must be distracted.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Yudhishthira",
+        "Arjuna",
+        "Duryodhana"
+      ],
+      "action": "Failed mission and repeated demand",
+      "relationship": "Drona avoids direct confrontation with Arjuna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona fought valiantly as commander but showed leniency to the Pandavas; he protected Jayadratha from Arjuna but ultimately let Arjuna pass.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Pandavas",
+        "Arjuna",
+        "Jayadratha"
+      ],
+      "action": "Selective combat",
+      "relationship": "Drona balances duty with personal affection"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana accused Drona of favoring the Pandavas and failing to protect Jayadratha; Drona explained Krishna's chariot was too fast and gave Duryodhana a magical armor to prove loyalty.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Duryodhana",
+        "Krishna",
+        "Arjuna",
+        "Jayadratha"
+      ],
+      "action": "Defense and gift of armor",
+      "supernatural": "Magical armor",
+      "relationship": "Drona demonstrates loyalty while criticizing Duryodhana's role in the war"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duhshasana fought with Satyaki and was defeated.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duhshasana",
+        "Satyaki"
+      ],
+      "action": "Combat",
+      "outcome": "Duhshasana defeated"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona criticized Duhshasana for his past actions during the dice game and his insults toward the Pandavas and Draupadi.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Duhshasana"
+      ],
+      "action": "Criticism/Accusation",
+      "context": "Reference to dice game and mistreatment of Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana came to Drona for help when Shalya was in danger.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Drona"
+      ],
+      "action": "Request for help",
+      "context": "Shalya in peril"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona reminded Duryodhana that the war was the consequence of the dice game orchestrated by Shakuni, with Shalya as the stake.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Duryodhana"
+      ],
+      "action": "Reminder/Explanation",
+      "context": "Dice game consequences"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After Shalya was killed by Arjuna, Duryodhana despaired and complained that Drona favored Arjuna over them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Drona"
+      ],
+      "action": "Complaint/Accusation",
+      "context": "Perceived favoritism toward Arjuna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona pointed out to Duryodhana that the Kaurava cause was hopeless after Bhishma's fall and listed Duryodhana's mistakes (dice game, insulting Draupadi, exiling Pandavas, rejecting peace).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Duryodhana"
+      ],
+      "action": "Rebuke/Explanation",
+      "context": "Kaurava's doomed fate and Duryodhana's errors"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "On the fourth night, Duryodhana again complained that Drona was partial to the Pandavas and not fighting at full strength.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Drona"
+      ],
+      "action": "Complaint",
+      "context": "Accusation of partiality"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona responded with mixed emotions, stating Arjuna was invincible and harshly criticizing Duryodhana's cruel nature and suspicion, telling him to fight Arjuna himself.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Duryodhana"
+      ],
+      "action": "Rebuke/Instruction",
+      "context": "Criticism of Duryodhana's character"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona fought fiercely against Arjuna, using all his divine weapons, and was pleased that Arjuna could counter them, seeing it as proof of his own teaching prowess.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Arjuna"
+      ],
+      "action": "Combat with divine weapons",
+      "outcome": "Arjuna countered successfully, Drona pleased"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna devised a plan to have Yudhishthira falsely claim that Ashwatthama was dead, which Drona believed due to his trust in Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira",
+        "Drona"
+      ],
+      "action": "Deception",
+      "context": "False report of Ashwatthama's death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona decided to lay down his weapons, practice yoga, and ascend to heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Renunciation/Ascension",
+      "context": "Response to deception and divine call"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhrishtadyumna killed Drona's physical body, seen as karmic retribution for the feud between Drona and Drupada.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "Drona"
+      ],
+      "action": "Killing",
+      "context": "Karmic resolution of feud with Drupada"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Heavenly sages called Drona to stop fighting, as his time on earth had ended, and he attained liberation by abandoning his weapons and practicing yoga.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Heavenly Sages"
+      ],
+      "action": "Divine intervention/Liberation",
+      "context": "Ascension to Brahmaloka"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Mahabharata war is described as a battle between gods and demons, with most Kaurava warriors being asura incarnations and most Pandava warriors being deva incarnations.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kauravas (collective)",
+        "Pandavas (collective)"
+      ],
+      "type": "Divine framework",
+      "relationships": "Kauravas as asura incarnations vs Pandavas as deva incarnations"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma, Drona, and Kripa fight for the Kauravas but are actually deva incarnations who sympathize with the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Drona",
+        "Kripa",
+        "Pandavas"
+      ],
+      "type": "Character revelation",
+      "divine_identities": "Bhishma as Vasu incarnation, Drona as Brihaspati incarnation, Kripa as Rudra incarnation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna, Ashwatthama, and Shalya also fight fiercely for the Kauravas as deva incarnations, while Ghatotkacha is a rakshasa.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Ashwatthama",
+        "Shalya",
+        "Ghatotkacha"
+      ],
+      "type": "Character revelation",
+      "supernatural_elements": "Deva incarnations and rakshasa"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After Drona's death, Karna becomes commander of the Kaurava army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Drona"
+      ],
+      "type": "Leadership change",
+      "relationships": "Karna succeeds Drona as commander"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "On the first day of Karna's command, the Kaurava army forms a crocodile formation and the Pandava army forms a crescent formation, with the Pandavas gaining the upper hand.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Pandavas (collective)"
+      ],
+      "type": "Battle formation",
+      "outcome": "Pandavas have advantage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna promises Duryodhana he will fight Arjuna to the death, but needs a suitable charioteer and requests Shalya.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Duryodhana",
+        "Arjuna",
+        "Shalya"
+      ],
+      "type": "Promise and request",
+      "relationships": "Karna promises Duryodhana to fight Arjuna, requests Shalya as charioteer"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana convinces reluctant Shalya to be Karna's charioteer by telling the story of Brahma serving as Shiva's charioteer.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Shalya",
+        "Karna"
+      ],
+      "type": "Persuasion",
+      "divine_intervention": "Reference to Brahma and Shiva story",
+      "condition": "Shalya demands the right to speak freely to Karna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "On the way to battle, Shalya constantly mocks and insults Karna, comparing him to a crow challenging a swan.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Karna"
+      ],
+      "type": "Psychological warfare",
+      "relationships": "Shalya undermines Karna's confidence"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The battle is fierce with heavy casualties on both sides. Yudhishthira is seriously wounded by Karna and leaves the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Yudhishthira"
+      ],
+      "type": "Battle injury",
+      "relationships": "Karna wounds Yudhishthira"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna has Bhima engage Karna while sending Arjuna to check on Yudhishthira, planning to have Arjuna fight Karna when he's exhausted.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Bhima",
+        "Karna",
+        "Arjuna",
+        "Yudhishthira"
+      ],
+      "type": "Strategic maneuver",
+      "relationships": "Krishna orchestrates the timing of Arjuna-Karna confrontation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira angrily blames Arjuna for not killing Karna, causing Arjuna to nearly kill Yudhishthira before Krishna intervenes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Arjuna",
+        "Krishna"
+      ],
+      "type": "Family conflict",
+      "relationships": "Tension between Yudhishthira and Arjuna, Krishna as peacemaker"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima defeats Dushasana, tears open his chest and drinks his blood, fulfilling his earlier vow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Dushasana"
+      ],
+      "type": "Vow fulfillment",
+      "relationships": "Bhima avenges Draupadi's humiliation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna and Karna begin their decisive duel.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Karna"
+      ],
+      "type": "Climactic battle",
+      "relationships": "Long-awaited confrontation between the half-brothers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama advises Duryodhana to make peace with the Pandavas, but Duryodhana refuses, believing Karna will defeat Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Duryodhana",
+        "Karna",
+        "Arjuna"
+      ],
+      "type": "Peace attempt",
+      "relationships": "Ashwatthama advises peace, Duryodhana rejects it"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna shoots a snake-mouthed arrow at Arjuna during their duel.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Arjuna"
+      ],
+      "type": "Supernatural attack",
+      "supernatural_elements": "Snake-mouthed arrow"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The arrow was the incarnation of a poisonous snake that harbored a grudge against Arjuna for killing its mother.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "supernatural_element": "Arrow as snake incarnation",
+      "type": "Background conflict"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna lowered the chariot in time, causing the snake-arrow to shatter Arjuna's crown instead of hitting his head.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna"
+      ],
+      "action": "Divine intervention/saving",
+      "type": "Battle event"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna launched a more fierce counterattack against Karna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Karna"
+      ],
+      "action": "Counterattack",
+      "type": "Battle event"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "During the fierce battle, one wheel of Karna's chariot suddenly sank into the ground, fulfilling a curse from a Brahmin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "supernatural_element": "Curse fulfillment",
+      "type": "Battle event"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna requested Arjuna to pause the battle according to Kshatriya warrior rules.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Arjuna"
+      ],
+      "action": "Request for pause",
+      "type": "Battle event"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna accused Karna of only now remembering dharma, asking why he didn't think of dharma when persecuting the Pandavas earlier.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Karna"
+      ],
+      "action": "Accusation",
+      "type": "Dialogue"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna's words ignited Arjuna's desire for revenge.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna"
+      ],
+      "action": "Psychological influence",
+      "type": "Battle event"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "While Karna was desperately pulling the sunken wheel, Arjuna shot off Karna's head with a sharp arrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Karna"
+      ],
+      "action": "Killing",
+      "type": "Battle climax"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna is a complex tragic character in the Mahabharata. He was Kunti's illegitimate son with Surya before her marriage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Kunti",
+        "Surya"
+      ],
+      "relationships": [
+        "Mother-son",
+        "Divine parentage"
+      ],
+      "type": "Character background"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti, fearing family criticism, secretly placed baby Karna in a basket and abandoned him in the river, praying to gods for his protection.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Karna"
+      ],
+      "action": "Abandonment",
+      "type": "Character background"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The basket floated down the river and was found by Radha, wife of the charioteer Adhiratha, who raised Karna as their son.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Radha",
+        "Adhiratha"
+      ],
+      "relationships": [
+        "Adoptive parents-son"
+      ],
+      "type": "Character background"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti never forgot this child and secretly sent spies to find his whereabouts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Karna"
+      ],
+      "action": "Secret search",
+      "type": "Character background"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Due to his charioteer-son identity, Karna faced many hardships and difficulties in life.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "type": "Character background"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In his youth, Karna studied martial arts under Drona and became friends with Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Drona",
+        "Duryodhana"
+      ],
+      "relationships": [
+        "Teacher-student",
+        "Friendship"
+      ],
+      "type": "Character background"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing Arjuna's martial prowess, Karna asked Drona to teach him the secret of using the Brahmastra, but was refused because Drona said it could only be taught to Brahmins and Kshatriyas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Drona",
+        "Arjuna"
+      ],
+      "action": "Refusal of teaching",
+      "type": "Character background"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna disguised himself as a Brahmin and learned this art from Parashurama.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Parashurama"
+      ],
+      "action": "Disguised learning",
+      "type": "Character background"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "One day, Parashurama slept with his head on Karna's thigh. A small insect bit Karna's thigh and sucked blood, but Karna endured the pain without moving to avoid waking his teacher.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Parashurama"
+      ],
+      "action": "Endurance test",
+      "type": "Character background"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Parashurama woke up and, based on Karna's endurance, determined he wasn't a Brahmin. Karna admitted he was a charioteer's son.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Parashurama",
+        "Karna"
+      ],
+      "action": "Identity revelation",
+      "type": "Character background"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Parashurama cursed Karna that the Brahmastra he mastered would not work at critical moments in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Parashurama",
+        "Karna"
+      ],
+      "supernatural_element": "Curse",
+      "type": "Character background"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "During this period, Karna accidentally shot and killed a Brahmin's cow, and the Brahmin cursed him that his chariot wheel would sink into the ground when fighting an opponent.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 20,
+    "group_index": 19,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Unnamed Brahmin"
+      ],
+      "supernatural_element": "Curse",
+      "type": "Character background"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After completing their martial training, the Kauravas and Pandavas held a martial arts exhibition. Arjuna's skills were outstanding.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 21,
+    "group_index": 20,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Kauravas",
+        "Pandavas"
+      ],
+      "type": "Background event"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "At the end of the exhibition, Karna arrived at the field ready to compete with Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 22,
+    "group_index": 21,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Arjuna"
+      ],
+      "type": "Background event"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing this, Kunti fainted.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 23,
+    "group_index": 22,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti"
+      ],
+      "action": "Fainting",
+      "type": "Background event"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Teacher Kripa asked Karna to announce his royal lineage. Karna hung his head in shame.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 24,
+    "group_index": 23,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripa",
+        "Karna"
+      ],
+      "action": "Identity challenge",
+      "type": "Background event"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana stood up and said if Karna wasn't a prince and thus ineligible to compete, he would now crown Karna as King of Anga.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 25,
+    "group_index": 24,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Karna"
+      ],
+      "action": "Coronation",
+      "relationships": [
+        "Friendship/Alliance"
+      ],
+      "type": "Background event"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna's charioteer father came to call him back, and Bhima learned Karna was a charioteer's son and mocked him bitterly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Bhima"
+      ],
+      "action": "Mockery/Insult",
+      "relationship_change": "Karna develops hatred for the Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana defended Karna, arguing that Kshatriyas rely on strength, not birth, and questioned the Pandavas' own origins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Karna",
+        "Bhima"
+      ],
+      "action": "Defense/Argument",
+      "relationship_change": "Karna feels deep gratitude and loyalty to Duryodhana"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "At Draupadi's swayamvara, Arjuna disguised as a Brahmin won Draupadi by stringing the bow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Draupadi"
+      ],
+      "action": "Marriage contest victory",
+      "supernatural_elements": "Arjuna's disguise"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna, as King of Anga, participated but failed to string the bow along with other kings including Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Duryodhana"
+      ],
+      "action": "Failed attempt at swayamvara"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kings became angry that Draupadi was given to a Brahmin and wanted to kill King Drupada; Karna fought Arjuna but withdrew, intimidated by Arjuna's power.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Arjuna",
+        "King Drupada"
+      ],
+      "action": "Battle/Withdrawal",
+      "relationship_change": "Karna's rivalry with Arjuna intensifies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas won Draupadi and revealed their true identities; Karna urged Duryodhana to destroy the Pandavas early.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Duryodhana",
+        "Pandavas"
+      ],
+      "action": "Conspiracy/Urging",
+      "relationship_change": "Karna becomes primary instigator against Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma and Drona opposed Karna's suggestion; Dhritarashtra recalled the Pandavas and gave them half the kingdom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Drona",
+        "Dhritarashtra",
+        "Pandavas"
+      ],
+      "action": "Political settlement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana, with Shakuni's help, won the Pandavas' kingdom and Draupadi through dice gambling; Karna joined Duryodhana and Dushasana in humiliating Draupadi.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Shakuni",
+        "Karna",
+        "Dushasana",
+        "Draupadi",
+        "Pandavas"
+      ],
+      "action": "Humiliation/Insult",
+      "supernatural_elements": "Shakuni's deceptive gambling"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "During the Pandavas' forest exile, Karna urged Duryodhana to go to the forest to humiliate them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Duryodhana",
+        "Pandavas"
+      ],
+      "action": "Planning further humiliation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra disguised as a Brahmin begged Karna for his earrings and armor, which made him invincible.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Karna"
+      ],
+      "action": "Deceptive request",
+      "supernatural_elements": "Indra's disguise, Karna's divine protection"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Surya warned Karna in a dream about Indra's trick but Karna chose to give the earrings and armor anyway, valuing honor over life.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Surya",
+        "Karna",
+        "Indra"
+      ],
+      "action": "Warning/Sacrifice",
+      "supernatural_elements": "Divine dream warning"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna cut off his earrings and armor and gave them to Indra, but requested the infallible Shakti spear in return.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Indra"
+      ],
+      "action": "Exchange of divine weapons",
+      "supernatural_elements": "Shakti spear with single-use limitation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "During the Kurukshetra war, Karna used the Shakti spear prematurely against Ghatotkacha, wasting it instead of saving it for Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Ghatotkacha",
+        "Arjuna"
+      ],
+      "action": "Weapon usage",
+      "relationship_change": "Karna loses his advantage against Arjuna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna visited the Kaurava camp before the Kurukshetra War to attempt peace negotiations, but Duryodhana refused reconciliation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Duryodhana"
+      ],
+      "type": "Diplomatic Mission",
+      "outcome": "Failure"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna met privately with Karna, revealing his true birth as the eldest son of Kunti and Pandu, and urged him to join the Pandavas as their rightful heir and husband of Draupadi.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Karna"
+      ],
+      "type": "Revelation",
+      "content": "Karna's true parentage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna declined Krishna's offer, citing loyalty to his adoptive parents (the charioteer Adhiratha and Radha) and gratitude to Duryodhana for his kingship, and apologized for past harsh words toward the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "type": "Refusal",
+      "reasons": [
+        "Loyalty to adoptive family",
+        "Gratitude to Duryodhana"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti, distressed by the failed peace talks, met Karna at the Ganges River, confirmed his birth truth, and begged him to reunite with his Pandava brothers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Karna"
+      ],
+      "type": "Emotional Appeal",
+      "relationship": "Mother and son"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna refused Kunti's plea to avoid ridicule, but promised to fight only Arjuna in the war so Kunti would retain five sons regardless of the outcome.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Kunti"
+      ],
+      "type": "Compromise",
+      "promise": "Duel only with Arjuna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana requested Bhishma to lead the Kaurava army, and Bhishma agreed on condition that he and Karna not fight simultaneously, which Karna accepted.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhishma",
+        "Karna"
+      ],
+      "type": "Military Appointment",
+      "condition": "Bhishma and Karna not fighting together"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma and Drona belittled Karna as 'half a warrior' before the war, angering Karna who vowed not to fight while Bhishma commanded.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Drona",
+        "Karna"
+      ],
+      "type": "Insult",
+      "effect": "Karna's withdrawal from initial battles"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After Bhishma fell on the battlefield, Karna visited him, sought forgiveness, and requested permission to join the fight.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Bhishma"
+      ],
+      "type": "Reconciliation",
+      "action": "Karna seeking Bhishma's blessing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma revealed he knew Karna was Kunti's son and had been harsh to prevent family division, and again urged him to join the Pandavas, but Karna reaffirmed his loyalty to Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Karna"
+      ],
+      "type": "Confession",
+      "motive": "Bhishma's protective harshness"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna recommended Drona as the next Kaurava commander despite their differences, showing selflessness for the Kaurava cause.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Duryodhana",
+        "Drona"
+      ],
+      "type": "Recommendation",
+      "trait": "Karna's loyalty and sacrifice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "During Drona's command, Karna fought bravely and used his divine 'Vijaya' spear prematurely against Ghatotkacha, depleting his key weapon meant for Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Ghatotkacha"
+      ],
+      "type": "Battle Action",
+      "supernatural_element": "Divine spear usage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After Drona's death, Karna became the Kaurava commander and was ultimately killed by his half-brother Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Arjuna"
+      ],
+      "type": "Climactic Duel",
+      "outcome": "Karna's death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "summary",
+    "extraction_text": "Karna's life of suffering stemmed from his identity as a 'charioteer's son,' despite his royal birth, highlighting themes of loyalty, honor, and tragic destiny.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "theme": "Identity and Fate",
+      "tragic_element": "Karna's conflicted loyalties and ultimate sacrifice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna was born as a Kshatriya warrior but lived as 'son of a charioteer' in society, suffering humiliation and setbacks.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "action": "Social ostracism and suffering",
+      "relationships": "Karna's false identity as charioteer's son causes social injustice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna directed his resentment from social injustice toward hatred for the Pandava brothers, unaware of his true identity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Pandava brothers"
+      ],
+      "action": "Misplaced hatred",
+      "relationships": "Karna develops antagonism toward Pandavas due to social treatment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna discovered his true identity too late, as societal position was already fixed and irreversible.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "action": "Identity revelation",
+      "relationships": "Karna learns he is Kunti's son (brother to Pandavas) but cannot change fate"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna bravely accepted reality and chose to sacrifice his life for dignity and warrior honor.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "action": "Acceptance and sacrifice",
+      "relationships": "Karna's final choice demonstrates his character"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana defended Karna during the tournament, questioning the importance of tracing warrior origins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Karna"
+      ],
+      "action": "Defense and philosophical statement",
+      "relationships": "Duryodhana supports Karna against caste prejudice",
+      "quote": "勇士的出身，江河的源头，都是难以追溯明白的 (The origin of warriors, like the source of rivers, is difficult to trace clearly)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna received curses from Parashurama and a Brahmin sage, leading to his death in battle with Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Parashurama",
+        "Brahmin sage",
+        "Arjuna"
+      ],
+      "action": "Curses and supernatural intervention",
+      "relationships": "Curses cause Karna's chariot wheel to sink and Brahmastra to fail",
+      "supernatural": "Curses directly cause Karna's death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Various characters in Mahabharata suffered curses leading to reincarnations or misfortunes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mahavisha",
+        "Vasudeva",
+        "Dharma",
+        "Pandu",
+        "Five Apsaras",
+        "Uparichara",
+        "Duryodhana",
+        "Krishna",
+        "Samba"
+      ],
+      "action": "Multiple curses and reincarnations",
+      "supernatural": "Curses cause divine beings to incarnate as humans and various misfortunes",
+      "examples": [
+        "Mahavisha cursed by Brahma to incarnate as King Shantanu",
+        "Vasudeva cursed by Sage Vasistha to incarnate as Bhishma",
+        "Dharma cursed by Sage Mandavya to incarnate as Vidura",
+        "Pandu cursed by Sage Kindama to be unable to have children",
+        "Five Apsaras cursed by a Brahmin sage to incarnate as crocodiles",
+        "Uparichara cursed by Sage Agastya to incarnate as a python",
+        "Duryodhana cursed by Sage Maitreya to have his thigh broken by Bhima",
+        "Krishna cursed by Gandhari and Samba cursed by sages leading to Yadava destruction"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti received a boon of fertility mantras from Sage Durvasa.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Sage Durvasa"
+      ],
+      "action": "Boon granting",
+      "boon": "Fertility mantras to summon gods for sons",
+      "relationship": "Sage grants boon to princess"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Drupada received a boon from Sage Yaja to obtain a son (Dhrishtadyumna).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Drupada",
+        "Sage Yaja"
+      ],
+      "action": "Boon granting",
+      "boon": "A son (Dhrishtadyumna)",
+      "relationship": "Sage grants boon to king"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Savitri received multiple boons from Yama (god of death) including restoring her father-in-law's eyesight and kingdom, her father having 100 sons, herself having 100 sons, and her husband Satyavan's resurrection.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Savitri",
+        "Yama"
+      ],
+      "action": "Boon granting",
+      "boons": [
+        "Father-in-law's eyesight/kingdom restored",
+        "Father gets 100 sons",
+        "Herself gets 100 sons",
+        "Husband Satyavan resurrected"
+      ],
+      "relationship": "God grants boons to devoted wife"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Jamadagni granted boons to his son Parashurama including his mother's resurrection, his brothers' recovery, invincibility, and longevity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Jamadagni",
+        "Parashurama"
+      ],
+      "action": "Boon granting",
+      "boons": [
+        "Mother Renuka resurrected",
+        "Brothers recovered",
+        "Invincibility",
+        "Longevity"
+      ],
+      "relationship": "Father-sage grants boons to son"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Vyasa granted Sanjaya (charioteer of Dhritarashtra) the boon of divine vision to witness and report all events of the great war.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Vyasa",
+        "Sanjaya"
+      ],
+      "action": "Boon granting",
+      "boon": "Divine vision to witness war events",
+      "relationship": "Sage grants boon to charioteer"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra fears ascetic power of Brahmin sages and often sends celestial nymphs to seduce and disrupt their penance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Brahmin sages"
+      ],
+      "action": "Divine intervention",
+      "purpose": "Disrupt ascetic practices",
+      "supernatural": "Celestial nymphs sent as temptresses"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Kaushika's angry gaze caused a female crane to fall dead.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Kaushika"
+      ],
+      "action": "Curse manifestation",
+      "effect": "Instant death of crane",
+      "supernatural": "Power of ascetic anger"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gandhari's angry gaze deformed Yudhishthira's toenail.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandhari",
+        "Yudhishthira"
+      ],
+      "action": "Curse manifestation",
+      "effect": "Physical deformation",
+      "relationship": "Mother's curse affects Pandava",
+      "supernatural": "Power of focused anger"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After Karna's death, Kripa advises Duryodhana to seek peace with the Pandavas due to losing key warriors (Bhishma, Drona, Karna).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripa",
+        "Duryodhana"
+      ],
+      "action": "Counsel for peace",
+      "reason": "Military disadvantage after losing key commanders",
+      "relationship": "Teacher advises student"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana rejects peace, citing deep enmity with Pandavas and unwillingness to live on their charity, choosing to fight to death for heavenly reward.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Decision for war",
+      "reason": "Pride, enmity, desire for honorable death",
+      "relationship_change": "Rejects reconciliation with Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana requested Ashwatthama to become the army commander, but Ashwatthama recommended Shalya, who agreed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Ashwatthama",
+        "Shalya"
+      ],
+      "type": "Military appointment",
+      "relationships": [
+        "Duryodhana appoints Shalya as commander"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya led the Kaurava army bravely in battle until he was killed by Yudhishthira with a spear.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Yudhishthira"
+      ],
+      "action": "Battle and death",
+      "relationships": [
+        "Shalya dies fighting for Kauravas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana tried to boost morale after Shalya's death, but the Kaurava army suffered heavy losses and collapsed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "type": "Battle aftermath",
+      "relationships": [
+        "Kaurava army defeated"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana fled alone and hid in a pond when he saw his eleven armies destroyed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Escape and hiding",
+      "relationships": [
+        "Duryodhana isolated"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kripa, Ashwatthama, and Kritavarma found Duryodhana at the pond and urged him to continue fighting.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripa",
+        "Ashwatthama",
+        "Kritavarma",
+        "Duryodhana"
+      ],
+      "type": "Persuasion",
+      "relationships": [
+        "Remaining Kaurava generals support Duryodhana"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Hunters overheard their conversation and reported to the Pandavas, who then came to the pond with their army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hunters",
+        "Pandavas"
+      ],
+      "action": "Discovery and confrontation",
+      "relationships": [
+        "Pandavas locate Duryodhana"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira challenged Duryodhana at the pond, but Duryodhana offered to give up the kingdom and go to the forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Duryodhana"
+      ],
+      "type": "Challenge and negotiation",
+      "relationships": [
+        "Yudhishthira rejects Duryodhana's offer"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana emerged from the pond with his mace, demanding a one-on-one duel according to combat rules.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Acceptance of duel",
+      "relationships": [
+        "Duryodhana challenges Pandavas to single combat"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira agreed to the duel and promised the kingdom to Duryodhana if he killed any of the five Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Duryodhana"
+      ],
+      "type": "Duel terms",
+      "relationships": [
+        "Yudhishthira sets high stakes for duel"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna criticized Yudhishthira's decision, warning that Duryodhana's mace skills were unbeatable.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira",
+        "Duryodhana"
+      ],
+      "type": "Warning",
+      "relationships": [
+        "Krishna advises against fair duel"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima vowed to defeat Duryodhana and reassured Krishna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Krishna",
+        "Duryodhana"
+      ],
+      "type": "Vow",
+      "relationships": [
+        "Bhima confident in defeating Duryodhana"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Balarama arrived as the mace duel between Bhima and Duryodhana was about to begin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Balarama",
+        "Bhima",
+        "Duryodhana"
+      ],
+      "type": "Arrival",
+      "relationships": [
+        "Balarama returns from pilgrimage"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Balarama suggested moving the duel to the auspicious Pramana region.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Balarama",
+        "Bhima",
+        "Duryodhana"
+      ],
+      "action": "Relocation",
+      "relationships": [
+        "Balarama influences duel location"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima and Duryodhana fought fiercely with maces for a long time without either gaining advantage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Duryodhana"
+      ],
+      "type": "Duel",
+      "relationships": [
+        "Evenly matched combat"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna told Arjuna that Bhima couldn't defeat Duryodhana fairly and suggested using trickery, like gods defeating asuras.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna",
+        "Bhima",
+        "Duryodhana"
+      ],
+      "type": "Strategy",
+      "relationships": [
+        "Krishna advises unethical means"
+      ],
+      "supernatural_elements": [
+        "Reference to gods using illusions against asuras"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna signaled Bhima by striking his own thigh, and Bhima broke Duryodhana's thighs with his mace when Duryodhana jumped.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Bhima",
+        "Duryodhana"
+      ],
+      "action": "Trick and injury",
+      "relationships": [
+        "Bhima fulfills vow to break Duryodhana's thighs"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima stepped on Duryodhana's head in triumph, but Yudhishthira stopped him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Duryodhana",
+        "Yudhishthira"
+      ],
+      "type": "Victory and restraint",
+      "relationships": [
+        "Yudhishthira moderates Bhima's behavior"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Balarama became furious at Bhima's unethical victory and raised his plow weapon to attack Bhima.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Balarama",
+        "Bhima"
+      ],
+      "type": "Anger and confrontation",
+      "relationships": [
+        "Balarama condemns Bhima's actions"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天拦住大力罗摩，向他解释怖军打断难敌大腿的正当性，包括怖军的誓言、刹帝利法则和弥勒仙人的诅咒。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天",
+        "大力罗摩",
+        "怖军",
+        "难敌"
+      ],
+      "action": "解释/辩护",
+      "relationships": [
+        "黑天为怖军辩护",
+        "大力罗摩愤怒"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "大力罗摩听后愤愤不平，登车离去。",
+    "char_interval": {
+      "start_pos": 13835,
+      "end_pos": 13847
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大力罗摩"
+      ],
+      "action": "离开",
+      "relationships": [
+        "大力罗摩不满黑天的解释"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 2871,
+      "end_index": 2875
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌指责黑天用卑劣手段取胜，杀害了毗湿摩、德罗纳、广声、迦尔纳和他自己。",
+    "char_interval": {
+      "start_pos": 13860,
+      "end_pos": 13902
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌",
+        "黑天",
+        "毗湿摩",
+        "德罗纳",
+        "广声",
+        "迦尔纳"
+      ],
+      "action": "指责",
+      "relationships": [
+        "难敌指控黑天非法"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 2877,
+      "end_index": 2887
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天历数难敌过去对般度族犯下的罪恶，包括下毒、纵火、设赌博骗局、凌辱黑公主和杀死激昂。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天",
+        "难敌",
+        "般度族",
+        "黑公主",
+        "激昂"
+      ],
+      "action": "反驳/指控",
+      "relationships": [
+        "黑天反指控难敌"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌高傲宣称自己活着时统治大地，死后升入天国，天国为他降下花雨。",
+    "char_interval": {
+      "start_pos": 13991,
+      "end_pos": 14028
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌"
+      ],
+      "action": "宣称/死亡",
+      "supernatural_elements": [
+        "天国降下花雨"
+      ],
+      "relationships": [
+        "难敌接受死亡结局"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 2900,
+      "end_index": 2909
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天安慰般度族人，说明面对人多势众的敌人应采取各种手段，并引用天神诛灭阿修罗的先例。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天",
+        "般度族"
+      ],
+      "action": "安慰/教导",
+      "relationships": [
+        "黑天教导般度族"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "般度族军队返回营地，阿周那战车上的猿猴标志消失，战车自动着火焚毁。黑天解释是因梵天兵器光焰和使命完成。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "黑天"
+      ],
+      "action": "超自然事件",
+      "supernatural_elements": [
+        "猿猴标志消失",
+        "战车自动焚毁",
+        "梵天兵器光焰"
+      ],
+      "relationships": [
+        "黑天保护战车直至使命完成"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天吩咐般度族兄弟们到营地外河边过夜以求吉祥，并受委托前往象城安抚持国和甘陀利。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天",
+        "般度族兄弟",
+        "持国",
+        "甘陀利"
+      ],
+      "action": "安排/安抚",
+      "relationships": [
+        "黑天安抚持国和甘陀利"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天向持国指出俱卢族的错误和命运安排，希望他们节哀并善待般度族之子们，完成后预感夜半可能出事，赶回般度族兄弟们处。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天",
+        "持国",
+        "甘陀利",
+        "般度族兄弟"
+      ],
+      "action": "劝解/预感",
+      "relationships": [
+        "黑天调解冲突",
+        "黑天预感危险"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌的信使向马嘶汇报情况，马嘶、慈悯和成铠赶到难敌处。马嘶发誓为难敌和父亲德罗纳复仇，杀尽般遮罗人。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "马嘶",
+        "难敌",
+        "慈悯",
+        "成铠",
+        "德罗纳",
+        "般遮罗人"
+      ],
+      "action": "复仇誓言",
+      "relationships": [
+        "马嘶为父（德罗纳）和难敌复仇"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌任命马嘶为俱卢族军队统帅，马嘶拥抱难敌告别，与慈悯和成铠一起消失在暮霭中。",
+    "char_interval": {
+      "start_pos": 14475,
+      "end_pos": 14517
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌",
+        "马嘶",
+        "慈悯",
+        "成铠"
+      ],
+      "action": "任命/告别",
+      "relationships": [
+        "马嘶接任统帅"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 2995,
+      "end_index": 3003
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "沙利耶担任俱卢族军队统帅直至阵亡，他是般度之子偕天和无种的舅父，本欲加盟般度族但因赐予难敌恩惠而被迫担任俱卢族统帅。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "沙利耶",
+        "偕天",
+        "无种",
+        "难敌",
+        "般度族"
+      ],
+      "action": "背景说明",
+      "relationships": [
+        "沙利耶是偕天和无种的舅父",
+        "沙利耶被迫效忠俱卢族"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira requested Shalya to restrain Karna's power and protect Arjuna during their chariot duel in the upcoming war.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Shalya"
+      ],
+      "action": "Request for protection",
+      "relationships": [
+        "Yudhishthira (Pandava) requests Shalya (Madra king, maternal uncle of Nakula and Sahadeva)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya agreed to Yudhishthira's request.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya"
+      ],
+      "action": "Promise",
+      "relationships": [
+        "Shalya promises to help Yudhishthira despite fighting for Duryodhana"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "At the start of the war, Yudhishthira reminded Shalya of his promise, and Shalya reaffirmed it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Shalya"
+      ],
+      "action": "Reaffirmation of promise",
+      "relationships": [
+        "Shalya maintains dual loyalty: fighting for Duryodhana while protecting Arjuna"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "During the war, Shalya fought valiantly for Duryodhana but hindered Karna and protected Arjuna when serving as Karna's charioteer.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Karna",
+        "Arjuna",
+        "Duryodhana"
+      ],
+      "action": "Dual actions in battle",
+      "relationships": [
+        "Shalya fulfills promise to Yudhishthira while maintaining warrior honor for Duryodhana"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Balarama (Krishna's brother) advocated for peaceful resolution between the Pandavas and Kauravas, blaming Yudhishthira's gambling for the Pandavas' loss of kingdom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Balarama",
+        "Krishna",
+        "Yudhishthira",
+        "Duryodhana"
+      ],
+      "action": "Peace advocacy",
+      "relationships": [
+        "Balarama disagrees with Krishna's approach, criticizes Yudhishthira"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki (a Vrishni descendant) harshly criticized Balarama's views.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Balarama"
+      ],
+      "action": "Rebuke",
+      "relationships": [
+        "Intra-clan conflict among Vrishnis"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Balarama declared neutrality in the war, telling Duryodhana he would help neither Pandavas nor Kauravas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Balarama",
+        "Duryodhana"
+      ],
+      "action": "Declaration of neutrality",
+      "relationships": [
+        "Balarama cites family ties to both sides and student-teacher relationships with Bhima and Duryodhana"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Before the war, Balarama expressed to Krishna that both Kauravas and Pandavas were relatives and should be treated equally.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Balarama",
+        "Krishna"
+      ],
+      "action": "Expression of equal concern",
+      "relationships": [
+        "Brothers with differing war philosophies"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Balarama went on a pilgrimage to the Sarasvati River to avoid witnessing the destruction of the Kauravas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Balarama"
+      ],
+      "action": "Pilgrimage",
+      "supernatural_elements": [
+        "Religious journey to avoid war"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Balarama returned after 42 days and witnessed the final mace duel between Bhima and Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Balarama",
+        "Bhima",
+        "Duryodhana"
+      ],
+      "action": "Witnessing final battle",
+      "relationships": [
+        "Teacher watching his students fight"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana fought his final battle to maintain his honor as a Kshatriya warrior, with flowers raining from heaven upon his fall.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Final stand",
+      "supernatural_elements": [
+        "Divine recognition with flower rain from heaven"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Background: Duryodhana was born as Dhritarashtra's eldest son on the same day as Bhima (Pandu's second son).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Dhritarashtra",
+        "Bhima",
+        "Pandu"
+      ],
+      "action": "Birth context",
+      "relationships": [
+        "Duryodhana (Kaurava) and Bhima (Pandava) are cousins born same day"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra asked Brahmins, Bhishma, and Vidura whether Duryodhana could become king since Yudhishthira (Pandu's eldest) was born first.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Bhishma",
+        "Vidura",
+        "Yudhishthira",
+        "Duryodhana"
+      ],
+      "action": "Succession inquiry",
+      "relationships": [
+        "This inquiry planted the seed for the Kurukshetra War succession conflict"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After Pandu's early death, Dhritarashtra became regent, and the Pandava and Kaurava princes grew up together in Hastinapura.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Pandu",
+        "Pandavas",
+        "Kauravas"
+      ],
+      "action": "Childhood context",
+      "relationships": [
+        "Cousins raised together in same palace"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhimasena (Bheema) was stronger than the Kauravas in running and wrestling, making Duryodhana jealous.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhimasena",
+        "Duryodhana"
+      ],
+      "type": "Conflict",
+      "relationships": [
+        "Cousins (Pandavas vs. Kauravas)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana attempted to kill Bhimasena multiple times: by binding and throwing him into a river, releasing poisonous snakes, and poisoning his food, but Bhimasena survived each attempt.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhimasena"
+      ],
+      "action": "Attempted murder",
+      "relationships": [
+        "Rivalry"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After the princes grew up and Yudhishthira was favored to become king, Duryodhana convinced Dhritarashtra to send the Pandavas to Varanavata.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Dhritarashtra",
+        "Yudhishthira",
+        "Pandavas"
+      ],
+      "action": "Exile",
+      "relationships": [
+        "Father-son (Dhritarashtra-Duryodhana)",
+        "Cousins (Pandavas-Kauravas)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana built a flammable lacquer palace in Varanavata to burn the Pandavas alive, but they escaped with Vidura's help.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Pandavas",
+        "Vidura"
+      ],
+      "action": "Arson attempt",
+      "relationships": [
+        "Uncle-nephews (Vidura-Pandavas)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas lived in hiding until they revealed themselves at Draupadi's swayamvara in Panchala and married her.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Draupadi",
+        "Drupada"
+      ],
+      "action": "Marriage",
+      "relationships": [
+        "Husbands-wife (Pandavas-Draupadi)",
+        "Father-daughter (Drupada-Draupadi)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana and Karna plotted to attack the Pandavas, but Dhritarashtra, advised by Bhishma, Drona, and Vidura, instead divided the kingdom, giving half to the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Karna",
+        "Dhritarashtra",
+        "Bhishma",
+        "Drona",
+        "Vidura",
+        "Pandavas"
+      ],
+      "action": "Kingdom division",
+      "relationships": [
+        "Friends (Duryodhana-Karna)",
+        "Advisors (Bhishma, Drona, Vidura to Dhritarashtra)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas built Indraprastha, performed a Rajasuya sacrifice, and became prosperous, increasing Duryodhana's jealousy.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Duryodhana"
+      ],
+      "action": "Prosperity and jealousy",
+      "relationships": [
+        "Rivalry"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana, distressed, threatened suicide, and Shakuni suggested a dice game to defeat Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Shakuni",
+        "Yudhishthira"
+      ],
+      "action": "Plot",
+      "relationships": [
+        "Uncle-nephew (Shakuni-Duryodhana)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra, pressured by Duryodhana, invited Yudhishthira to gamble in Hastinapura, despite Vidura's objections.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Duryodhana",
+        "Yudhishthira",
+        "Vidura"
+      ],
+      "action": "Gambling invitation",
+      "relationships": [
+        "Father-son (Dhritarashtra-Duryodhana)",
+        "Brothers (Dhritarashtra-Vidura)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira lost everything in the dice game, and Dushasana dragged Draupadi into the assembly to humiliate her, leading Bhimasena to vow revenge.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Duryodhana",
+        "Dushasana",
+        "Draupadi",
+        "Bhimasena"
+      ],
+      "action": "Humiliation and vow",
+      "relationships": [
+        "Brothers (Duryodhana-Dushasana)",
+        "Husbands-wife (Pandavas-Draupadi)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra released the Pandavas after Draupadi's plea, but Duryodhana convinced him to recall Yudhishthira for a second dice game, resulting in the Pandavas' 12-year exile and 1-year incognito period.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Duryodhana",
+        "Yudhishthira",
+        "Pandavas",
+        "Draupadi"
+      ],
+      "action": "Exile decree",
+      "relationships": [
+        "Father-son (Dhritarashtra-Duryodhana)",
+        "Cousins (Pandavas-Kauravas)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "During the exile, Duryodhana went to the forest to mock the Pandavas but was captured by Gandharvas and rescued by the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Pandavas",
+        "Gandharvas"
+      ],
+      "action": "Rescue",
+      "relationships": [
+        "Rivalry",
+        "Supernatural beings (Gandharvas)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana, ashamed, ordered everyone to return to the city and decided to stay there to 'fast to death'.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Decision to fast to death",
+      "emotion": "Shame"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After repeated persuasion and Karna's assurance of defeating the Pandavas in the future, Duryodhana got up and returned to the city.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Karna"
+      ],
+      "action": "Persuasion and return",
+      "relationship": "Karna reassures Duryodhana"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana, relying on Dhritarashtra's authority from childhood, was arrogant and did as he pleased. He was vain, jealous, and obsessed with seizing the throne.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Dhritarashtra"
+      ],
+      "character_traits": "Arrogant, vain, jealous",
+      "relationship": "Duryodhana relies on Dhritarashtra's authority"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra doted on his son and wanted him to inherit the throne, so he could not effectively restrain him and instead let his son manipulate him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Duryodhana"
+      ],
+      "action": "Indulgence and manipulation",
+      "relationship": "Father-son, Dhritarashtra indulges Duryodhana"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After depriving the Pandavas of their kingdom, Duryodhana became even more emboldened.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Pandavas"
+      ],
+      "action": "Deprivation of kingdom",
+      "relationship": "Hostile, Duryodhana vs. Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "When the Pandavas' thirteen-year exile ended and they demanded half the kingdom, Duryodhana arrogantly declared he would not give them even a needlepoint of land.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Pandavas"
+      ],
+      "action": "Refusal to return land",
+      "dialogue": "Will not give even a needlepoint of land"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana stubbornly held his ground, refusing to listen to the elders' advice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Refusal to heed advice",
+      "character_trait": "Stubborn"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "When Krishna came as an envoy for the Pandavas to negotiate, Duryodhana even attempted to attack Krishna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Krishna"
+      ],
+      "action": "Attempted attack",
+      "relationship": "Hostile, Duryodhana vs. Krishna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana, superstitious about military power and obstinate, caused the outbreak of the Kurukshetra War between the Kauravas and Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Causing war outbreak",
+      "reason": "Superstition and obstinacy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "At the start of the war, the Kaurava army had a clear advantage in military strength, but the war lacked moral justification, so the army lacked unity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kauravas",
+        "Pandavas"
+      ],
+      "situation": "Military advantage but moral disadvantage",
+      "war_context": "Kurukshetra War"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Facing continuous setbacks, Duryodhana was determined to resist to the end, preferring to die on the battlefield rather than seek peace with the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Determination to resist",
+      "attitude": "Prefer death over peace"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "During Karna's command, Ashwatthama advised Duryodhana to seek peace with the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Ashwatthama",
+        "Karna"
+      ],
+      "action": "Peace advice",
+      "relationship": "Ashwatthama advises Duryodhana"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After Karna fell, Kripa also advised Duryodhana to seek peace with the Pandavas, but he believed it was too late.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Kripa",
+        "Karna"
+      ],
+      "action": "Peace advice rejected",
+      "reason": "Believed too late"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana hated the Pandavas and wanted them dead, but he knew he had wronged them and believed peace was impossible because they would not trust or forgive him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Pandavas"
+      ],
+      "emotion": "Hatred and guilt",
+      "reason": "Past wrongs"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana felt he could not bear the humiliation of surrendering after being a ruler, and many allies had died for him, so seeking peace for his own life would bring disgrace.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "reason": "Pride and loyalty to fallen allies",
+      "decision": "Fight to the end"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "On the last day of the war, Duryodhana fought until the entire Kaurava army was annihilated, then fled the battlefield and hid in a pond.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Fleeing and hiding",
+      "war_outcome": "Kaurava army annihilated"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas led their army to the pond and challenged him. Facing reality, Duryodhana admitted defeat and offered to surrender the land.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Pandavas"
+      ],
+      "action": "Surrender offer",
+      "relationship": "Duryodhana admits defeat to Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira insisted on deciding the outcome through combat, so Duryodhana accepted the challenge.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Yudhishthira"
+      ],
+      "action": "Acceptance of combat challenge",
+      "relationship": "Duryodhana vs. Yudhishthira"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira agreed to a one-on-one mace duel and let Duryodhana choose any opponent from the Pandavas. Duryodhana arrogantly let the Pandavas choose their own representative.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Yudhishthira",
+        "Pandavas"
+      ],
+      "action": "Delegation of choice",
+      "character_trait": "Arrogance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana fought Bhima, the most skilled mace fighter among the Pandavas, in a fierce and evenly matched battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 20,
+    "group_index": 19,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhima"
+      ],
+      "action": "Mace duel",
+      "outcome": "Fierce and even"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Following Krishna and Arjuna's instructions, Bhima deliberately violated mace duel rules and broke Duryodhana's legs.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 21,
+    "group_index": 20,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Duryodhana",
+        "Krishna",
+        "Arjuna"
+      ],
+      "action": "Rule violation and injury",
+      "method": "Breaking legs",
+      "divine_intervention": "Krishna's guidance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After falling, Duryodhana condemned Krishna for always winning through unlawful means and took pride in dying on the battlefield following Kshatriya dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 22,
+    "group_index": 21,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Krishna"
+      ],
+      "action": "Condemnation and pride",
+      "theme": "Dharma vs. adharma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Kshatriya warriors in the Mahabharata emphasize combat rules, and Balarama expresses great anger at Bhima for violating the rules of mace fighting.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Balarama",
+        "Bhima"
+      ],
+      "type": "Conflict over rules"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana accuses Krishna of violating combat rules, while Krishna rebuts by linking Duryodhana's entire life of evil deeds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Krishna"
+      ],
+      "type": "Accusation and rebuttal"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After falling, Duryodhana tells Sanjaya to convey to his parents that the Pandavas killed him using illegal means, like killing someone asleep or with poison, which inadvertently reveals his own past methods against the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Sanjaya",
+        "Pandavas"
+      ],
+      "type": "Revelation of past actions"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama, Kripa, and Kritavarma leave Duryodhana and rest in a forest near the camp. Ashwatthama, filled with sorrow and anger, cannot sleep.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Kripa",
+        "Kritavarma",
+        "Duryodhana"
+      ],
+      "type": "Departure and rest"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama sees an owl attack sleeping crows at night, inspiring him to decide to sneak attack the sleeping Pandava army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama"
+      ],
+      "type": "Inspiration for attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama wakes Kripa and Kritavarma to seek their opinion. Kripa argues that killing sleeping people violates combat rules and suggests waiting until morning, but Ashwatthama insists the Pandavas violated rules first by killing his father and others, so he will proceed even if it means rebirth as a worm or moth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Kripa",
+        "Kritavarma"
+      ],
+      "type": "Debate on rules"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Unable to dissuade him, Kripa and Kritavarma follow Ashwatthama as they set out.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Kripa",
+        "Kritavarma"
+      ],
+      "type": "Decision to proceed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "At the camp entrance, Ashwatthama is blocked by a powerful, enormous being. In desperation, he prays to Lord Shiva for protection, offering himself as a sacrifice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Shiva"
+      ],
+      "type": "Divine intervention"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shiva appears and grants Ashwatthama a sharp sword.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shiva",
+        "Ashwatthama"
+      ],
+      "type": "Divine gift"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama enters the camp, while Kripa and Kritavarma guard the entrance. He kills all the sleeping Panchala and Pandava warriors in the camp, led by Dhrishtadyumna, including Draupadi's five sons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Kripa",
+        "Kritavarma",
+        "Dhrishtadyumna",
+        "Draupadi"
+      ],
+      "action": "Massacre"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The three then go to the dying Duryodhana, and Ashwatthama reports the success of the night attack.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Kripa",
+        "Kritavarma",
+        "Duryodhana"
+      ],
+      "type": "Report of success"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana expressed relief before dying, acknowledging that Ashwatthama, Kripa, and Kritavarman achieved what Bhishma, Karna, and Drona could not.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Ashwatthama",
+        "Kripa",
+        "Kritavarman",
+        "Bhishma",
+        "Karna",
+        "Drona"
+      ],
+      "action": "Acknowledgement before death",
+      "relationships": [
+        "Duryodhana as Kaurava king",
+        "Ashwatthama as Drona's son",
+        "Kripa and Kritavarman as warriors"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira learned about the night raid and lamented, while Draupadi demanded Ashwatthama's death and his jewel as proof, threatening to fast until death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Draupadi",
+        "Ashwatthama"
+      ],
+      "action": "Reaction to night raid and demand for revenge",
+      "relationships": [
+        "Yudhishthira as Pandava king",
+        "Draupadi as Pandava wife",
+        "Ashwatthama as enemy"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima pursued Ashwatthama, followed by Yudhishthira, Arjuna, and Krishna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Ashwatthama",
+        "Yudhishthira",
+        "Arjuna",
+        "Krishna"
+      ],
+      "action": "Pursuit of Ashwatthama",
+      "relationships": [
+        "Bhima as Pandava brother",
+        "Arjuna as Pandava brother",
+        "Krishna as divine guide"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama used the Brahmashira weapon against the Pandavas at the Bhagirathi River, and Arjuna countered with the same weapon.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Arjuna"
+      ],
+      "action": "Exchange of Brahmashira weapons",
+      "supernatural_elements": [
+        "Brahmashira weapon (divine weapon)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sages Narada and Vyasa intervened to protect the three worlds, standing between the two weapons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narada",
+        "Vyasa",
+        "Ashwatthama",
+        "Arjuna"
+      ],
+      "action": "Divine intervention to prevent destruction",
+      "supernatural_elements": [
+        "Sages' intervention"
+      ],
+      "relationships": [
+        "Narada and Vyasa as divine sages"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna withdrew his weapon, but Ashwatthama could not, and Vyasa persuaded him to direct it toward the wombs of Pandava women.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Ashwatthama",
+        "Vyasa"
+      ],
+      "action": "Weapon redirection",
+      "supernatural_elements": [
+        "Weapon's effect on wombs"
+      ],
+      "relationships": [
+        "Vyasa as mediator"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna promised to revive the fetus of Arjuna's daughter-in-law (Uttara) and cursed Ashwatthama to wander the earth for 3000 years with diseases and a foul smell.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Ashwatthama",
+        "Uttara"
+      ],
+      "action": "Divine curse and promise of revival",
+      "supernatural_elements": [
+        "Krishna's curse and revival power"
+      ],
+      "relationships": [
+        "Uttara as Arjuna's daughter-in-law"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas retrieved Ashwatthama's jewel and gave it to Draupadi.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Ashwatthama",
+        "Draupadi"
+      ],
+      "action": "Retrieval of jewel as proof",
+      "relationships": [
+        "Pandavas as brothers",
+        "Draupadi as wife"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna explained to Yudhishthira that Shiva granted Ashwatthama the power for the night raid, not his own merit, and advised Yudhishthira to move on.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira",
+        "Ashwatthama",
+        "Shiva"
+      ],
+      "action": "Explanation of divine intervention and advice",
+      "supernatural_elements": [
+        "Shiva's blessing to Ashwatthama"
+      ],
+      "relationships": [
+        "Krishna as divine guide to Yudhishthira"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The aftermath of the war: only seven survived on the Pandava side (the five Pandavas, Krishna, Satyaki) and three on the Kaurava side (Ashwatthama, Kripa, Kritavarman).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Krishna",
+        "Satyaki",
+        "Ashwatthama",
+        "Kripa",
+        "Kritavarman"
+      ],
+      "action": "War aftermath summary",
+      "relationships": [
+        "Pandavas as victors",
+        "Kaurava survivors as remnants"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Background: Drona taught both Arjuna and Ashwatthama the Brahmashira weapon, forbidding its use against mortals, but Ashwatthama violated this.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Arjuna",
+        "Ashwatthama"
+      ],
+      "action": "Weapon training and violation",
+      "relationships": [
+        "Drona as teacher to both",
+        "Ashwatthama as Drona's son"
+      ],
+      "supernatural_elements": [
+        "Brahmashira weapon training"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama acknowledged his and Drona's fondness for the Pandavas but remained loyal to the Kauravas during the war.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Drona",
+        "Pandavas",
+        "Duryodhana"
+      ],
+      "action": "Loyalty conflict and stance",
+      "relationships": [
+        "Ashwatthama as Drona's son",
+        "Drona as partial to Pandavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama accused Duryodhana of being greedy and deceitful, but still promised to fight the Pandavas with full effort in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Duryodhana"
+      ],
+      "action": "Accusation and commitment to fight",
+      "relationships": [
+        "Ashwatthama supports Duryodhana despite criticism"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona was killed by the Pandavas through a trick.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Pandavas"
+      ],
+      "action": "Deceptive killing",
+      "relationships": [
+        "Drona is Ashwatthama's father",
+        "Pandavas are enemies of Duryodhana's side"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima violated mace combat rules by breaking Duryodhana's legs.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Duryodhana"
+      ],
+      "action": "Rule violation in combat",
+      "relationships": [
+        "Bhima is a Pandava brother",
+        "Duryodhana is the Kaurava leader"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama's attitude toward the Pandavas fundamentally changed after Drona's death, strengthening his resolve for revenge.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Pandavas"
+      ],
+      "action": "Attitude change and revenge vow",
+      "relationships": [
+        "Ashwatthama seeks revenge for father's death"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama vowed to Duryodhana to kill all enemies by any means necessary.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Duryodhana"
+      ],
+      "action": "Revenge vow",
+      "relationships": [
+        "Ashwatthama pledges loyalty to Duryodhana"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama killed all sleeping Pandava soldiers in a night raid.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Pandava soldiers"
+      ],
+      "action": "Night massacre",
+      "supernatural_elements": [
+        "Shiva's power enabled the success"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandava brothers survived because Krishna protected them and they weren't in the camp.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava brothers",
+        "Krishna"
+      ],
+      "action": "Divine protection",
+      "relationships": [
+        "Krishna is protector of Pandavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama was cursed by Krishna and criticized by Vyasa for his actions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Krishna",
+        "Vyasa"
+      ],
+      "action": "Divine curse and criticism",
+      "relationships": [
+        "Ashwatthama's actions lacked social justification"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama used the Narayana weapon against the Pandava army but it failed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Pandava army"
+      ],
+      "action": "Weapon use",
+      "supernatural_elements": [
+        "Narayana weapon",
+        "Vyasa revealed Krishna and Arjuna are incarnations of Narayana and Nara"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa revealed that Ashwatthama is an incarnation of Rudra (Shiva).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Ashwatthama"
+      ],
+      "action": "Divine revelation",
+      "supernatural_elements": [
+        "Ashwatthama is Shiva's incarnation"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Mahabharata war occurred between the Kali Yuga and Dvapara Yuga, when dharma was no longer dominant.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Cosmic context",
+      "supernatural_elements": [
+        "Yuga transition",
+        "Decline of dharma"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Kurukshetra War ends, causing massive destruction to humanity with Shiva playing a key role in this devastation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shiva"
+      ],
+      "action": "War devastation",
+      "supernatural_elements": "Divine intervention in war"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra grieves for his hundred dead sons and is comforted by Sanjaya, Vidura, and Vyasa.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Sanjaya",
+        "Vidura",
+        "Vyasa"
+      ],
+      "action": "Consolation after war",
+      "relationships": "Dhritarashtra (father) mourns his sons; Sanjaya, Vidura, Vyasa (advisors/relatives) offer comfort"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra and Gandhari lead the women to the battlefield to mourn the fallen warriors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Gandhari"
+      ],
+      "action": "Journey to battlefield",
+      "relationships": "Dhritarashtra and Gandhari (parents) mourning their sons and kin"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "On the way, they meet Kripa, Ashwatthama, and Kritavarma, who comfort Dhritarashtra then flee to avoid the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Kripa",
+        "Ashwatthama",
+        "Kritavarma"
+      ],
+      "action": "Encounter and flight",
+      "relationships": "Kripa, Ashwatthama, Kritavarma (Kaurava allies) avoiding the Pandavas (enemies)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira hears of Dhritarashtra's journey and goes with his brothers to meet him at the Ganges.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Dhritarashtra",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "action": "Meeting at Ganges",
+      "relationships": "Yudhishthira (Pandava leader) and brothers meeting Dhritarashtra (uncle/former king)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Thousands of women surround Yudhishthira, weeping and lamenting; the Pandavas bow to Dhritarashtra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Dhritarashtra",
+        "Women of Hastinapura"
+      ],
+      "action": "Lamentation and respect",
+      "relationships": "Women (relatives of fallen warriors) grieving; Pandavas showing deference to Dhritarashtra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna substitutes an iron statue for Bhima when Bhima goes to bow; Dhritarashtra crushes the statue in anger, then is calmed by Krishna and blesses the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Bhima",
+        "Dhritarashtra"
+      ],
+      "action": "Deception and reconciliation",
+      "relationships": "Krishna (divine protector) saves Bhima from Dhritarashtra's wrath; Dhritarashtra (uncle) eventually blesses the Pandavas (nephews)",
+      "supernatural_elements": "Krishna's intervention"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gandhari accuses Bhima of breaking mace-fighting rules by breaking Duryodhana's thighs; Bhima defends his actions, citing Duryodhana's misdeeds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandhari",
+        "Bhima",
+        "Duryodhana"
+      ],
+      "action": "Accusation and defense",
+      "relationships": "Gandhari (mother) angry at Bhima for killing her son Duryodhana; Bhima (Pandava) justifies his actions"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gandhari also accuses Bhima of drinking Dushasana's blood; Bhima explains he only touched it with his lips to fulfill a vow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandhari",
+        "Bhima",
+        "Dushasana"
+      ],
+      "action": "Further accusation and explanation",
+      "relationships": "Gandhari (mother) upset over Dushasana's death; Bhima (Pandava) clarifies his vow"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Gandhari for forgiveness; her angry gaze from under her blindfold deforms his toenails before her anger subsides.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Gandhari"
+      ],
+      "action": "Forgiveness and curse-effect",
+      "relationships": "Yudhishthira (Pandava leader) seeks pardon; Gandhari (aunt) unintentionally harms him with her power",
+      "supernatural_elements": "Gandhari's gaze causes physical deformation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gandhari, using her divine sight, sees the battlefield carnage and blames Krishna for not preventing the war, cursing his clan to perish in 36 years.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandhari",
+        "Krishna"
+      ],
+      "action": "Curse and blame",
+      "relationships": "Gandhari (mother/queen) holds Krishna (divine figure) responsible; Krishna accepts but shifts blame to the Kuru clan",
+      "supernatural_elements": "Gandhari's divine sight and curse"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira performs funeral rites for all the fallen warriors as instructed by Dhritarashtra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Dhritarashtra"
+      ],
+      "action": "Funeral rites",
+      "relationships": "Yudhishthira (new king) follows Dhritarashtra's (former king) orders"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "All people go to the Ganges River to perform the water offering ritual for the fallen soldiers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "All people"
+      ],
+      "action": "Performing water offering ritual",
+      "location": "Ganges River"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti reveals to the Pandavas that Karna is their eldest brother and asks them to perform the water offering ritual for him too.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Pandavas"
+      ],
+      "action": "Revelation and request",
+      "relationship_change": "Pandavas learn Karna is their brother"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas, in great pain, perform the water offering ritual for Karna as their mother requested.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas"
+      ],
+      "action": "Performing ritual for Karna",
+      "emotional_state": "Great pain"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra and Gandhari lose their hundred sons led by Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Gandhari"
+      ],
+      "loss": "Hundred sons including Duryodhana"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After Duryodhana's fall, Krishna goes to Hastinapura at night to comfort Dhritarashtra and Gandhari on behalf of the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Dhritarashtra",
+        "Gandhari"
+      ],
+      "action": "Comforting the bereaved",
+      "location": "Hastinapura",
+      "time": "Night"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gandhari angrily questions Bhima about why he didn't leave one son for the blind, kingdom-less old couple.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandhari",
+        "Bhima"
+      ],
+      "action": "Angry questioning",
+      "emotional_state": "Grief and anger"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi loses her five sons and Kunti loses Karna, both suffering great sorrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "Kunti"
+      ],
+      "loss": "Draupadi's five sons, Kunti's son Karna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gandhari uses her divine vision to describe the horrific scenes of women mourning their dead husbands and sons on the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandhari"
+      ],
+      "action": "Describing battlefield aftermath",
+      "supernatural_element": "Divine vision"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gandhari angrily curses Krishna in this tragic atmosphere.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandhari",
+        "Krishna"
+      ],
+      "action": "Cursing",
+      "emotional_state": "Anger"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna accepts Gandhari's curse but explains that the responsibility for the war disaster lies with Duryodhana, and Gandhari as his mother also has faults.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Gandhari"
+      ],
+      "action": "Accepting curse and explaining responsibility",
+      "responsibility_assigned": [
+        "Duryodhana",
+        "Gandhari"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gandhari falls silent with sorrowful eyes after hearing Krishna's words.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandhari"
+      ],
+      "action": "Silence",
+      "emotional_state": "Sorrow, possible guilt"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The war ends and funeral rites are completed, but the psychological trauma continues.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "All survivors"
+      ],
+      "situation": "Post-war trauma",
+      "theme": "Enduring consequences of war"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text provides chapter references and annotations from the Mahabharata epic.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Indra",
+        "Karna",
+        "Draupadi"
+      ],
+      "type": "Reference/Annotation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona's name means 'wooden bowl' or 'pot', and he is also known as 'Pot-born' or 'Bowl-born'.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Name explanation",
+      "alternative_names": [
+        "Pot-born",
+        "Bowl-born"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "References to various chapters and events in the Mahabharata, including battles, curses, and divine interventions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Karna",
+        "Draupadi",
+        "Bhishma",
+        "Drona"
+      ],
+      "type": "Chapter references",
+      "supernatural_elements": [
+        "Curses",
+        "Divine interventions"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mention of a small creature that is described differently in various manuscripts - sometimes as an incarnation of Indra, sometimes as an asura (demon).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra"
+      ],
+      "action": "Manuscript variation",
+      "supernatural_elements": [
+        "Divine incarnation",
+        "Asura incarnation"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Reference to Karna withdrawing from a competition either out of respect for Brahmins or because Draupadi declared she couldn't accept a charioteer's son.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Draupadi"
+      ],
+      "action": "Withdrawal from competition",
+      "relationships": [
+        "Social conflict between Karna and Draupadi"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mention of scholarly work by P.V. Ramankutty on curse motifs in the Mahabharata.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Academic reference",
+      "theme": "Curse motifs in Mahabharata"
+    },
+    "_token_interval": null
+  }
+]

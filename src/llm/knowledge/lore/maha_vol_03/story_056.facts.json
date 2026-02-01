@@ -1,0 +1,973 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Garuda (the golden-winged bird) consoles the despondent Galava and explains the nature and importance of wealth (gold).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Garuda",
+        "Galava"
+      ],
+      "action": "Explanation/Consolation",
+      "relationships": [
+        "Friends"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Garuda advises Galava to seek wealth from a righteous king to pay his teacher's fee, suggesting King Yayati, son of Nahusha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Garuda",
+        "Galava"
+      ],
+      "action": "Advice/Planning",
+      "reason": "To obtain wealth for teacher's fee"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Garuda and Galava travel to the city of Pratishthana to meet King Yayati.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Garuda",
+        "Galava",
+        "King Yayati"
+      ],
+      "action": "Travel/Meeting",
+      "location": "Pratishthana"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After receiving hospitality, Garuda explains their purpose to King Yayati, detailing Galava's situation with his teacher Vishvamitra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Garuda",
+        "King Yayati",
+        "Galava",
+        "Vishvamitra"
+      ],
+      "action": "Explanation/Request",
+      "key_points": [
+        "Galava is Vishvamitra's student",
+        "Vishvamitra demanded 800 pure white horses with one black ear as teacher's fee",
+        "Galava is poor and cannot afford it"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Garuda requests King Yayati to donate the horses to Galava so he can pay Vishvamitra and be free to pursue asceticism, promising that Galava will share his ascetic merits with the king.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Garuda",
+        "King Yayati",
+        "Galava"
+      ],
+      "action": "Formal Request",
+      "promise": "Galava will share ascetic merits with King Yayati"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yayati listens to Garuda's words, reflects, and prepares to make a decision.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yayati"
+      ],
+      "action": "Contemplation/Decision-making",
+      "state": "Undecided"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A character (likely a king) reflects that two visitors (Garuda and a Brahmin) have bypassed many kings of the solar dynasty to come to him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unnamed King (likely Harishchandra or similar)",
+        "Garuda",
+        "Unnamed Brahmin"
+      ],
+      "action": "Reflection/Arrival",
+      "relationships": [
+        "Visitor-Host"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The king declares that his birth, family, and kingdom are saved by the visitors, addressing the Brahmin as 'Daksha' and Garuda as 'friend'.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unnamed King",
+        "Daksha (Brahmin)",
+        "Garuda"
+      ],
+      "action": "Declaration of Salvation",
+      "relationships": [
+        "Host-Guest",
+        "Friendship (King-Garuda)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The king explains to Garuda that he is no longer as wealthy as before but cannot let the visitors leave empty-handed, especially the Brahmin, as disappointing a supplicant destroys a family.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unnamed King",
+        "Garuda",
+        "Daksha (Brahmin)"
+      ],
+      "action": "Confession of Reduced Wealth & Moral Duty",
+      "relationships": [
+        "Host-Guest",
+        "Patron-Supplicant"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The king offers his daughter Madhavi to Garuda, describing her as beautiful, virtuous, desired by gods and demons, and capable of bearing sons who will support four lineages.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unnamed King",
+        "Garuda",
+        "Madhavi"
+      ],
+      "action": "Offering of Daughter",
+      "relationships": [
+        "Father-Daughter",
+        "Proposed Gift Recipient (Garuda)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Garuda accepts the girl, and he and Garuda bid farewell. Garuda then tells Galava he now has a means to obtain horses and departs for his own abode.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Galava",
+        "Garuda",
+        "Madhavi"
+      ],
+      "action": "Acceptance of Girl & Departure",
+      "relationships": [
+        "Companions (Galava-Garuda)",
+        "New Guardian (Galava-Madhavi)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After Garuda leaves, Galava takes the girl and considers kings who can pay a bride-price. He decides to go to King Harishchandra of Ayodhya, a powerful and virtuous ruler of the Ikshvaku dynasty who desires progeny.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Galava",
+        "Madhavi",
+        "Harishchandra"
+      ],
+      "action": "Decision to Seek Bride-Price",
+      "relationships": [
+        "Guardian-Ward (Galava-Madhavi)",
+        "Prospective Bridegroom (Harishchandra)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Galava goes to Harishchandra and proposes that Madhavi will bear him sons to prosper his family, asking for a bride-price to be specified.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Galava",
+        "Harishchandra",
+        "Madhavi"
+      ],
+      "action": "Marriage Proposal",
+      "relationships": [
+        "Proposer-Recipient",
+        "Prospective Bride (Madhavi)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Harishchandra, deeply desiring progeny, praises Madhavi's auspicious beauty and ability to bear a universal monarch, and asks Galava to name the bride-price while considering his means.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Harishchandra",
+        "Galava",
+        "Madhavi"
+      ],
+      "action": "Acceptance of Proposal & Request for Price",
+      "relationships": [
+        "Prospective Husband-Bride",
+        "Negotiators"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Galava demands eight hundred moon-white, excellent horses, each with one black ear, as the bride-price.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Galava",
+        "Harishchandra"
+      ],
+      "action": "Stating Bride-Price Demand",
+      "relationships": [
+        "Negotiators"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Narada tells King Harishchandra about a beautiful girl who will become the mother of his sons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narada",
+        "King Harishchandra"
+      ],
+      "type": "Prophecy/Announcement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Harishchandra, desiring a son, becomes distressed and speaks to the excellent sage Galava.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Harishchandra",
+        "Galava"
+      ],
+      "action": "Request for a son",
+      "emotional_state": "Distressed, desirous"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Harishchandra explains he only has two hundred of the specific horses Galava requires, but has hundreds of other lovely horses. He pleads with Galava to grant him the boon of having just one son.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Harishchandra",
+        "Galava"
+      ],
+      "details": "Horses as payment, request for a single son"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The girl (Madhavi) speaks to Galava, revealing a boon from a Brahmana that she will remain a virgin after each childbirth. She proposes a plan: Galava should accept the horses from King Harishchandra, give her to the king, and then repeat this with three other kings to collect the full eight hundred horses for his teacher's fee, while she bears four sons total.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Madhavi",
+        "Galava"
+      ],
+      "action": "Proposal of a plan",
+      "supernatural_elements": "Boon of perpetual virginity",
+      "plan": "Serve four kings to collect 800 horses and bear four sons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Galava, hearing Madhavi's plan, tells King Harishchandra to accept the girl, but clarifies that paying one-fourth of the bride-price (the horses) means he will only get one son.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Galava",
+        "King Harishchandra",
+        "Madhavi"
+      ],
+      "action": "Agreement and condition setting",
+      "relationship": "Madhavi given to Harishchandra as a wife for procreation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Harishchandra accepts Madhavi, thanks Galava, and in due time obtains a son as desired.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Harishchandra",
+        "Madhavi",
+        "Galava"
+      ],
+      "action": "Marriage and birth of a son",
+      "outcome": "A son named Vasumanas is born"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The son is named Vasumanas (富心), grows up to be a king, is like the Vasus but even wealthier, and becomes a generous giver of wealth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vasumanas"
+      ],
+      "action": "Growth and reign",
+      "description": "Wealthy, generous king"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The wise Galava returns to the pleased King Harishchandra and informs him that since he now has a radiant son, Galava will go to beg from another king.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Galava",
+        "King Harishchandra"
+      ],
+      "action": "Departure announcement",
+      "reason": "To seek the next king for the plan"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Harishchandra, true to his word and maintaining his honor, returns Madhavi to Galava, considering the horses difficult to obtain.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Harishchandra",
+        "Madhavi",
+        "Galava"
+      ],
+      "action": "Return of Madhavi",
+      "character_trait": "Honorable, keeps promise"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Madhavi, renouncing royal splendor, voluntarily remains a virgin and follows Galava.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Madhavi",
+        "Galava"
+      ],
+      "action": "Departure from court",
+      "state": "Virgin, accompanying sage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmana (Galava) says the horses will remain there temporarily, then goes with the girl to King Divodasa.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Galava",
+        "Madhavi"
+      ],
+      "action": "Travel to next king",
+      "destination": "King Divodasa"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Galava tells Madhavi they are going to see the immensely brave King Divodasa of Kashi, son of Bhima, who is righteous, self-controlled, and truthful. He advises her to go slowly and not worry.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Galava",
+        "Madhavi"
+      ],
+      "destination": "King Divodasa",
+      "description_of_king": "Brave, righteous, self-controlled, truthful"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sage (Galava) arrives there, is honored by the king, and Galava encourages King Divodasa to beget a son.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Galava",
+        "King Divodasa"
+      ],
+      "action": "Encouragement for progeny",
+      "reception": "King honors the sage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Divodasa says he has already heard about the matter and is delighted. He feels honored that Galava has come to him, setting aside other kings, and is confident it will succeed. He states he also only has those specific horses and also wants only one prince from her.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Divodasa",
+        "Galava"
+      ],
+      "action": "Acceptance and stipulation",
+      "terms": "Same horses as payment, desire for only one son"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The excellent twice-born (Galava) agrees, saying 'So be it,' and gives the girl to the king. The king accepts the girl according to proper rites.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Galava",
+        "King Divodasa",
+        "Madhavi"
+      ],
+      "action": "Agreement and transfer",
+      "relationship": "Madhavi given to Divodasa as a wife for procreation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Galava, having retrieved Madhavi from King Divodasa, travels to the kingdom of Ushinara to meet King Ushinara.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Galava",
+        "Madhavi",
+        "King Ushinara"
+      ],
+      "type": "Journey/Arrival"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Galava proposes to King Ushinara that he marry Madhavi, who will bear him two sons, in exchange for 400 moon-white horses with one black ear as a bride price.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Galava",
+        "King Ushinara",
+        "Madhavi"
+      ],
+      "action": "Marriage Proposal",
+      "condition": "400 special horses as bride price"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Galava explains the bride price is a gift for his teacher, Vishvamitra, not for himself, and extols the religious merit of having sons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Galava",
+        "King Ushinara"
+      ],
+      "action": "Explanation/Persuasion",
+      "relationship": "Galava is a disciple of Vishvamitra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Ushinara responds that he only possesses 200 of the specified horses, not 400, and proposes an alternative: he will marry Madhavi and beget only one son with her, offering the same bride price (implying 200 horses).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Ushinara",
+        "Galava"
+      ],
+      "action": "Counter-proposal/Negotiation",
+      "reason": "Limited resources; duty to use wealth for subjects"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Ushinara states his wealth is for the welfare of his city and country, not for personal indulgence, and that a king who squanders others' wealth for desire loses both righteousness and reputation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Ushinara"
+      ],
+      "action": "Declaration of Principle",
+      "character_trait": "Righteous, duty-bound king"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Ushinara accepted the girl from Galava and she gave birth to a son named Shibi.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Ushinara",
+        "Galava",
+        "Shibi"
+      ],
+      "action": "Birth of son",
+      "relationships": [
+        "Galava gave the girl to Ushinara",
+        "Girl gave birth to Shibi"
+      ],
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Galava returned to take the girl back and went to meet Garuda.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Galava",
+        "Garuda"
+      ],
+      "action": "Meeting",
+      "relationships": [
+        "Galava met Garuda"
+      ],
+      "supernatural_elements": "Garuda is a divine bird"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Garuda told Galava about the history of Rijika obtaining horses for King Gaya and the loss of 400 horses, suggesting Galava give the girl to Vishvamitra in place of 200 horses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Garuda",
+        "Galava",
+        "Rijika",
+        "King Gaya",
+        "Vishvamitra"
+      ],
+      "action": "Historical explanation and suggestion",
+      "relationships": [
+        "Garuda advised Galava",
+        "Rijika obtained horses for King Gaya",
+        "Galava needs to give girl to Vishvamitra"
+      ],
+      "supernatural_elements": "Divine horses, Garuda's knowledge"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Galava agreed and went to Vishvamitra with the girl and 600 horses, accompanied by Garuda.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Galava",
+        "Vishvamitra",
+        "Garuda"
+      ],
+      "action": "Journey and presentation",
+      "relationships": [
+        "Galava presented girl and horses to Vishvamitra"
+      ],
+      "supernatural_elements": "Garuda's accompaniment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Galava offered Vishvamitra 600 horses and the girl in place of 200 horses, explaining she had already borne three sons to kings and should bear Vishvamitra a fourth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Galava",
+        "Vishvamitra"
+      ],
+      "action": "Offer and explanation",
+      "relationships": [
+        "Galava made offer to Vishvamitra",
+        "Girl had sons with previous kings"
+      ],
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vishvamitra accepted the girl to bear him a son but expressed regret that Galava did not bring her first so he could have four sons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishvamitra",
+        "Galava"
+      ],
+      "action": "Acceptance with regret",
+      "relationships": [
+        "Vishvamitra accepted girl from Galava"
+      ],
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "光辉无比的众友和这女孩交欢，生下一个儿子，也就是玛维达之子八部。",
+    "char_interval": {
+      "start_pos": 4943,
+      "end_pos": 4975
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "众友",
+        "女孩",
+        "八部"
+      ],
+      "action": "交欢并生子",
+      "relationships": [
+        "众友是八部的父亲",
+        "女孩是八部的母亲"
+      ],
+      "supernatural_elements": null
+    },
+    "_token_interval": {
+      "start_index": 1512,
+      "end_index": 1518
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "光辉无比的众友教导八部利益和正法，交给他这些马。",
+    "char_interval": {
+      "start_pos": 4987,
+      "end_pos": 5011
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "众友",
+        "八部"
+      ],
+      "action": "教导与交付马匹",
+      "relationships": [
+        "师徒关系/父子关系"
+      ],
+      "supernatural_elements": null
+    },
+    "_token_interval": {
+      "start_index": 1523,
+      "end_index": 1527
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "八部前往一个如同月亮城的城市，众友将这女孩还给他的学生，自己前往森林。",
+    "char_interval": {
+      "start_pos": 5018,
+      "end_pos": 5033
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "八部",
+        "众友",
+        "女孩",
+        "学生"
+      ],
+      "action": "归还女孩并前往森林",
+      "relationships": [
+        "众友将女孩归还给学生"
+      ],
+      "supernatural_elements": null
+    },
+    "_token_interval": {
+      "start_index": 1532,
+      "end_index": 1534
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "伽罗婆付清老师的报酬，与满怀喜悦的金翅鸟一起，对这女孩说道。",
+    "char_interval": {
+      "start_pos": 5063,
+      "end_pos": 5092
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "伽罗婆",
+        "金翅鸟",
+        "女孩"
+      ],
+      "action": "付报酬并对话",
+      "relationships": [
+        "伽罗婆付报酬给老师"
+      ],
+      "supernatural_elements": [
+        "金翅鸟（神话生物）"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 1545,
+      "end_index": 1550
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "伽罗婆称赞女孩的儿子是施主、勇士、热爱真理和正法者、祭祀者，并让她离开。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "伽罗婆",
+        "女孩",
+        "八部"
+      ],
+      "action": "称赞并告别",
+      "relationships": [
+        "伽罗婆认可八部的品质"
+      ],
+      "supernatural_elements": null
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "伽罗婆辞别金翅鸟，将这女孩送回她的父亲，自己前往森林。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "伽罗婆",
+        "金翅鸟",
+        "女孩",
+        "女孩的父亲"
+      ],
+      "action": "送回女孩并前往森林",
+      "relationships": [
+        "伽罗婆将女孩送回父亲"
+      ],
+      "supernatural_elements": [
+        "金翅鸟（神话生物）"
+      ]
+    },
+    "_token_interval": null
+  }
+]

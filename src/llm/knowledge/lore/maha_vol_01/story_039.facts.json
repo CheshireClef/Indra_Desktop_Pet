@@ -1,0 +1,839 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Shantanu (福身王) married Satyavati (贞信) and lived with her in the palace.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Shantanu",
+        "Satyavati"
+      ],
+      "type": "Marriage",
+      "relationships": [
+        "Husband and Wife"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyavati gave birth to two sons: Chitrangada (花钏) and Vichitravirya (奇武).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyavati",
+        "Chitrangada",
+        "Vichitravirya"
+      ],
+      "type": "Birth",
+      "relationships": [
+        "Mother and Sons"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Shantanu died, and Bhishma (毗湿摩), following Satyavati's wishes, installed Chitrangada as king.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Shantanu",
+        "Bhishma",
+        "Satyavati",
+        "Chitrangada"
+      ],
+      "type": "Succession",
+      "relationships": [
+        "Bhishma as protector of the kingdom"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Chitrangada, after defeating many kings, fought a Gandharva king of the same name at Kurukshetra for three years and was killed by the Gandharva's superior illusions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Chitrangada",
+        "Gandharva King (same name)"
+      ],
+      "type": "Battle and Death",
+      "supernatural_elements": [
+        "Gandharva's illusions"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma performed Chitrangada's funeral rites and installed the young Vichitravirya as king, with Bhishma as his protector and advisor.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Vichitravirya"
+      ],
+      "type": "Succession and Protection",
+      "relationships": [
+        "Bhishma as protector and advisor to Vichitravirya"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma, seeing Vichitravirya grown, sought a bride for him and learned of the three beautiful daughters of the King of Kashi holding a swayamvara.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Vichitravirya",
+        "King of Kashi",
+        "Three Daughters of Kashi"
+      ],
+      "type": "Marriage Quest"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "With Satyavati's permission, Bhishma traveled alone to Varanasi, saw the assembled kings and the princesses, and after many kings' names were announced, proposed to the princesses himself.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Satyavati",
+        "Kings",
+        "Three Daughters of Kashi"
+      ],
+      "type": "Proposal",
+      "action": "Bhishma proposes to the princesses"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma placed the princesses in his chariot and addressed the kings with a voice like thunder.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Three Daughters of Kashi",
+        "Kings"
+      ],
+      "type": "Conflict Setup",
+      "action": "Bhishma takes the princesses"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma (Kuru descendant) announces his intention to forcibly abduct the princesses at the svayamvara (bride-choice ceremony) and challenges the assembled kings to defeat him or accept defeat.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Kings (assembled)",
+        "King of Kashi"
+      ],
+      "action": "Declaration and challenge",
+      "context": "Svayamvara ceremony"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma places the princesses in his chariot and departs swiftly, bidding farewell to the assembly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Princesses of Kashi"
+      ],
+      "action": "Abduction and departure"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The assembled kings react with anger and urgency, arming themselves and preparing their chariots to pursue Bhishma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kings (assembled)"
+      ],
+      "action": "Preparation for pursuit",
+      "emotional_state": "Anger and anxiety"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A battle ensues between Bhishma and the pursuing kings, where Bhishma single-handedly defends against and defeats them all.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Kings (assembled)"
+      ],
+      "action": "Battle",
+      "outcome": "Bhishma's victory"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After defeating the kings, Bhishma continues toward the Kuru kingdom with the princesses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Princesses of Kashi"
+      ],
+      "action": "Journey continuation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Shalva intercepts Bhishma to challenge him to a decisive duel, insulting him as a 'lecher'.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Shalva",
+        "Bhishma"
+      ],
+      "action": "Interception and challenge",
+      "emotional_state": "Bhishma feels disgraced"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma became enraged and charged his chariot toward King Shalva.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "King Shalva"
+      ],
+      "action": "Charging into battle",
+      "relationships": [
+        "Opponents in combat"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kings gathered to watch the battle between Bhishma and King Shalva.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "King Shalva",
+        "Various Kings"
+      ],
+      "action": "Spectating battle",
+      "relationships": [
+        "Audience to combat"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Shalva showered Bhishma with thousands of arrows, initially overwhelming him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Shalva",
+        "Bhishma"
+      ],
+      "action": "Arrow attack",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The kings cheered for King Shalva, praising his agility in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Various Kings",
+        "King Shalva"
+      ],
+      "action": "Cheering and praising",
+      "relationships": [
+        "Support for King Shalva"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma, enraged by the Kshatriyas' words, shouted at King Shalva to stand his ground and ordered his charioteer to charge.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "King Shalva"
+      ],
+      "action": "Challenge and charge",
+      "relationships": [
+        "Intensified conflict"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma used the water god's arrow to kill King Shalva's four horses, blocked his arrows, and killed his charioteer and horses with single arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "King Shalva"
+      ],
+      "action": "Defeating opponent's chariot",
+      "supernatural_elements": "Water god's arrow"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma won the battle for the princesses, spared King Shalva's life, and King Shalva returned to his capital.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "King Shalva"
+      ],
+      "action": "Victory and sparing life",
+      "relationships": [
+        "Bhishma shows mercy to defeated opponent"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The kings who came for the bridegroom-choice ceremony returned to their kingdoms.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Various Kings"
+      ],
+      "action": "Returning home",
+      "relationships": [
+        "End of participation in event"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma won the princesses and traveled to Hastinapura with them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Princesses of Kashi"
+      ],
+      "action": "Traveling with captives",
+      "relationships": [
+        "Bhishma as captor of princesses"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma brought the princesses to the Kuru clan, treating them with respect as daughters-in-law, sisters, or daughters.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Princesses of Kashi",
+        "Kuru Clan"
+      ],
+      "action": "Integration into family",
+      "relationships": [
+        "Protective relationship established"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma gave all the princesses to his younger brother Vichitravirya for marriage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Vichitravirya",
+        "Princesses of Kashi"
+      ],
+      "action": "Arranging marriage",
+      "relationships": [
+        "Brotherly duty, marital arrangement"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma and Satyavati decided to prepare Vichitravirya's wedding.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Satyavati",
+        "Vichitravirya"
+      ],
+      "action": "Wedding preparation",
+      "relationships": [
+        "Collaborative decision-making"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The eldest daughter of the King of Kashi revealed to Bhishma that she had chosen King Shalva as her husband, with her father's consent, and asked Bhishma to act according to dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Amba (eldest daughter)",
+        "Bhishma",
+        "King Shalva",
+        "King of Kashi"
+      ],
+      "action": "Revelation of prior commitment",
+      "relationships": [
+        "Amba's pre-existing choice creates conflict with Bhishma's actions"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In a meeting attended by many Brahmins, Bhishma heard the woman's words and considered what to do.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Deliberation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma, who understood dharma, consulted with Brahmins learned in the Vedas and then agreed to let the eldest daughter of the King of Kashi, Amba, depart.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Amba"
+      ],
+      "action": "Decision/Release",
+      "relationship_change": "Bhishma releases Amba from marriage obligation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma performed the rites prescribed by dharma and married Ambika and Ambalika to his younger brother Vichitravirya.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Ambika",
+        "Ambalika",
+        "Vichitravirya"
+      ],
+      "action": "Marriage arrangement",
+      "relationship": "Bhishma arranges marriage for his brother"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vichitravirya married the two princesses and lived with them for seven years.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vichitravirya",
+        "Ambika",
+        "Ambalika"
+      ],
+      "action": "Marriage and cohabitation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Young Vichitravirya contracted tuberculosis and died despite efforts from relatives and physicians.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vichitravirya"
+      ],
+      "action": "Death",
+      "consequence": "Leaves no heir"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma, following Satyavati's wishes, along with priests and Kuru elders, properly performed all funeral rites for King Vichitravirya.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Satyavati"
+      ],
+      "action": "Funeral rites"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After the funeral, the grieving Satyavati, considering dharma and family lineage, spoke to Bhishma (son of Ganga).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyavati",
+        "Bhishma"
+      ],
+      "action": "Family consultation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyavati explained that the lineage of King Shantanu now depends entirely on Bhishma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyavati",
+        "Bhishma"
+      ],
+      "theme": "Lineage preservation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyavati revealed that Vichitravirya died young without sons, and his two young widows desire children.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyavati",
+        "Vichitravirya",
+        "Ambika",
+        "Ambalika"
+      ],
+      "problem": "Lack of heir"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyavati commanded Bhishma to produce sons with his brother's widows to continue the family line, ascend the throne, and prevent ancestors from falling to hell.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyavati",
+        "Bhishma",
+        "Ambika",
+        "Ambalika"
+      ],
+      "demand": "Produce heirs through levirate",
+      "moral_conflict": "Bhishma's vow of celibacy vs. family duty"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma's mother Satyavati and relatives persuade him to break his vow of celibacy to continue the royal lineage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Satyavati"
+      ],
+      "action": "Persuasion",
+      "relationships": [
+        "Mother-Son"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma refuses to break his vow, citing his strict commitment to truth and his promise made during Satyavati's marriage conditions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Refusal",
+      "reason": "Commitment to truth and vows"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma declares he would abandon the three worlds or the position among gods before abandoning truthfulness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Declaration",
+      "supernatural_elements": [
+        "References to cosmic elements and deities"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyavati acknowledges Bhishma's power and commitment but urges him to consider the dharma of difficult times and relieve their ancestors' burden.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyavati",
+        "Bhishma"
+      ],
+      "action": "Appeal",
+      "relationships": [
+        "Mother-Son"
+      ],
+      "reason": "Preservation of lineage and dharma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyavati speaks words that deviate from dharma due to her desperate desire for grandchildren.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyavati"
+      ],
+      "action": "Emotional appeal",
+      "note": "Deviation from dharma due to desperation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma warns Satyavati about the dangers of violating dharma and breaking vows in Kshatriya code.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Satyavati"
+      ],
+      "action": "Warning",
+      "theme": "Kshatriya dharma and consequences of betrayal"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma suggests consulting wise counselors about dharma in difficult times before making decisions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Satyavati"
+      ],
+      "action": "Recommendation",
+      "suggestion": "Consultation with wise counselors"
+    },
+    "_token_interval": null
+  }
+]

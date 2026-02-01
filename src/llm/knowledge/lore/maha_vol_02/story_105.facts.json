@@ -1,0 +1,1559 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "萨谛梵和妻子莎维德丽一起采集果子，装满袋子，然后砍伐木柴。",
+    "char_interval": {
+      "start_pos": 34,
+      "end_pos": 62
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "萨谛梵",
+        "莎维德丽"
+      ],
+      "action": "采集果子、砍伐木柴",
+      "relationship": "夫妻"
+    },
+    "_token_interval": {
+      "start_index": 10,
+      "end_index": 16
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "萨谛梵因劳累感到头痛和疲惫，向妻子莎维德丽诉说病痛，想要躺下休息。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "萨谛梵",
+        "莎维德丽"
+      ],
+      "action": "诉说病痛",
+      "relationship": "夫妻"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "莎维德丽抱住丈夫萨谛梵，将他的头放在自己怀里，随势坐在地上。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "莎维德丽",
+        "萨谛梵"
+      ],
+      "action": "照顾丈夫",
+      "relationship": "夫妻"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "莎维德丽想着那罗陀的话，计算时间，突然看见阎摩出现。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "莎维德丽",
+        "阎摩"
+      ],
+      "action": "观察、计算时间",
+      "supernatural_element": "阎摩的出现"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阎摩向莎维德丽表明身份，告知萨谛梵寿命已尽，要亲自用套索带走他。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阎摩",
+        "莎维德丽",
+        "萨谛梵"
+      ],
+      "action": "宣告死亡、表明身份",
+      "supernatural_element": "阎摩作为死神",
+      "relationship_change": "阎摩作为死神与萨谛梵的关系"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阎摩从萨谛梵身体中牵出一个拇指大的小人儿，萨谛梵生命抽走，身体僵直。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阎摩",
+        "萨谛梵"
+      ],
+      "action": "抽取灵魂",
+      "supernatural_element": "灵魂抽取、死亡"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阎摩系着萨谛梵的灵魂朝南走去，莎维德丽痛苦地跟随。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阎摩",
+        "萨谛梵",
+        "莎维德丽"
+      ],
+      "action": "带走灵魂、跟随",
+      "relationship": "莎维德丽对丈夫的忠诚"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阎摩劝莎维德丽回去完成葬礼，但莎维德丽坚持跟随丈夫，引用正法和友情原则。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阎摩",
+        "莎维德丽"
+      ],
+      "action": "劝说、坚持跟随",
+      "relationship": "莎维德丽的忠诚与阎摩的互动"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yama (God of Death) arrives to take Satyavan's soul.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yama",
+        "Satyavan"
+      ],
+      "action": "Yama takes Satyavan's soul",
+      "supernatural_element": "Divine intervention by Yama"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Savitri follows Yama as he takes Satyavan's soul.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Savitri",
+        "Yama",
+        "Satyavan"
+      ],
+      "action": "Savitri follows Yama",
+      "relationship_change": "Savitri demonstrates devotion to Satyavan"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yama offers Savitri a boon (except Satyavan's life) for her wise words.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yama",
+        "Savitri"
+      ],
+      "action": "Yama offers a boon",
+      "supernatural_element": "Divine boon offering"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Savitri requests that her blind father-in-law, King Dyumatsena, regain his sight and strength.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Savitri",
+        "Yama",
+        "King Dyumatsena"
+      ],
+      "action": "Savitri requests first boon",
+      "relationship": "Savitri is daughter-in-law to King Dyumatsena"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yama grants the first boon: King Dyumatsena will regain his sight and strength.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yama",
+        "King Dyumatsena"
+      ],
+      "action": "Yama grants boon",
+      "supernatural_element": "Divine restoration of health"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Savitri requests a second boon: King Dyumatsena should regain his lost kingdom without abandoning dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Savitri",
+        "Yama",
+        "King Dyumatsena"
+      ],
+      "action": "Savitri requests second boon"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yama grants the second boon: King Dyumatsena will regain his kingdom without abandoning dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yama",
+        "King Dyumatsena"
+      ],
+      "action": "Yama grants boon",
+      "supernatural_element": "Divine restoration of kingdom"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Savitri requests a third boon: her father, King Ashvapati, should have one hundred sons to continue his lineage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Savitri",
+        "Yama",
+        "King Ashvapati"
+      ],
+      "action": "Savitri requests third boon",
+      "relationship": "Savitri is daughter of King Ashvapati"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yama grants the third boon: King Ashvapati will have one hundred valiant sons to continue his lineage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yama",
+        "King Ashvapati"
+      ],
+      "action": "Yama grants boon",
+      "supernatural_element": "Divine blessing of progeny"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yama grants Savitri a fourth boon after being impressed by her words about righteous people.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yama",
+        "Savitri"
+      ],
+      "action": "Granting boon",
+      "relationships": [
+        "Yama as god of death",
+        "Savitri as devoted wife"
+      ],
+      "supernatural_elements": [
+        "Yama's authority to grant boons"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Savitri chooses the fourth boon: to have one hundred sons with Satyavan.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Savitri",
+        "Satyavan"
+      ],
+      "action": "Requesting boon",
+      "relationships": [
+        "Married couple",
+        "Savitri's devotion to Satyavan"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yama grants Savitri's request for one hundred sons and urges her to return home.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yama",
+        "Savitri"
+      ],
+      "action": "Granting boon",
+      "relationships": [
+        "Yama showing compassion to Savitri"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Savitri speaks about the virtues of righteous people, further impressing Yama.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Savitri"
+      ],
+      "action": "Philosophical discourse",
+      "relationships": [
+        "Savitri's wisdom and devotion to dharma"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yama offers Savitri an unparalleled fifth boon due to being impressed by her righteous words.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yama",
+        "Savitri"
+      ],
+      "action": "Offering additional boon",
+      "relationships": [
+        "Yama's admiration for Savitri's virtue"
+      ],
+      "supernatural_elements": [
+        "Yama's authority to grant special boons"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Savitri chooses the fifth boon: Satyavan's resurrection, arguing that without him, the previous boon of having sons would be meaningless.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Savitri",
+        "Satyavan"
+      ],
+      "action": "Requesting resurrection",
+      "relationships": [
+        "Savitri's unwavering devotion to her husband"
+      ],
+      "supernatural_elements": [
+        "Request for resurrection from death"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yama grants Savitri's final request, resurrecting Satyavan and blessing them both with long life, success, and one hundred sons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yama",
+        "Savitri",
+        "Satyavan"
+      ],
+      "action": "Resurrection and blessing",
+      "relationships": [
+        "Yama's complete fulfillment of Savitri's requests",
+        "Restoration of Savitri and Satyavan's marriage"
+      ],
+      "supernatural_elements": [
+        "Resurrection from death",
+        "Divine blessings for long life and prosperity"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yama also blesses Savitri's parents, Ashvapati and Malavi, with one hundred sons who will become the Malava tribe.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yama",
+        "Ashvapati",
+        "Malavi"
+      ],
+      "action": "Granting additional blessings",
+      "relationships": [
+        "Yama's generosity extends to Savitri's family"
+      ],
+      "supernatural_elements": [
+        "Divine creation of a royal lineage"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "法王（阎摩）赐给莎维德丽恩惠，让她回去，然后返回自己的住处。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "法王（阎摩）",
+        "莎维德丽"
+      ],
+      "action": "赐予恩惠并分别",
+      "relationships": [
+        "死神与凡人",
+        "恩惠赐予者与接受者"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "莎维德丽重新获得丈夫，在阎摩走后回到丈夫的尸体那里。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "莎维德丽",
+        "萨谛梵"
+      ],
+      "action": "返回尸体处",
+      "relationships": [
+        "夫妻"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "莎维德丽抱起萨谛梵的尸体，把他的头放在自己怀里，坐在地上。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "莎维德丽",
+        "萨谛梵"
+      ],
+      "action": "怀抱尸体",
+      "relationships": [
+        "夫妻"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "萨谛梵恢复知觉，仿佛出游归来，询问莎维德丽关于自己长时间睡眠和那个拖走他的皮肤黝黑的人。",
+    "char_interval": {
+      "start_pos": 3059,
+      "end_pos": 3074
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "萨谛梵",
+        "莎维德丽"
+      ],
+      "action": "苏醒并询问",
+      "relationships": [
+        "夫妻"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 901,
+      "end_index": 905
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "莎维德丽告诉萨谛梵他在她怀中睡了很久，控制众生的尊神阎摩已经走了。",
+    "char_interval": {
+      "start_pos": 3162,
+      "end_pos": 3183
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "莎维德丽",
+        "萨谛梵",
+        "阎摩"
+      ],
+      "action": "解释情况",
+      "relationships": [
+        "夫妻",
+        "死神与凡人"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 930,
+      "end_index": 935
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "萨谛梵恢复知觉后站起身，向四周望了望，描述自己之前头痛发烧、失去知觉的经历，并询问看到黑暗和大光辉的人是梦境还是真事。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "萨谛梵",
+        "莎维德丽"
+      ],
+      "action": "描述经历并询问",
+      "relationships": [
+        "夫妻"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "莎维德丽建议明天再解释一切，催促萨谛梵起来去看父母，因为夜已很深。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "莎维德丽",
+        "萨谛梵"
+      ],
+      "action": "催促返回",
+      "relationships": [
+        "夫妻"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "萨谛梵表达对黑暗树林的担忧，认为认不清路不能行走。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "萨谛梵"
+      ],
+      "action": "表达担忧",
+      "relationships": []
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "莎维德丽提议取火照亮，或等到天亮再动身，并关心萨谛梵的病容。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "莎维德丽",
+        "萨谛梵"
+      ],
+      "action": "提出解决方案",
+      "relationships": [
+        "夫妻"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "萨谛梵表示头痛已止，想要与父母团聚，并描述父母以往对他的担忧和责备。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "萨谛梵",
+        "父母（未具名）"
+      ],
+      "action": "表达回家意愿并回忆父母",
+      "relationships": [
+        "父子/母子"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyavan expresses deep concern for his blind parents, fearing they are suffering without him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyavan",
+        "Satyavan's Father",
+        "Satyavan's Mother"
+      ],
+      "action": "Expression of worry and filial devotion",
+      "relationships": [
+        "Parent-child relationship",
+        "Satyavan as sole support for blind parents"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyavan blames his sleep for causing his parents worry and expresses he cannot live without them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyavan"
+      ],
+      "action": "Self-blame and declaration of dependence on parents",
+      "relationships": [
+        "Filial piety as core value"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Markandeya narrates Satyavan's emotional breakdown as he raises his arms and cries in pain.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyavan"
+      ],
+      "action": "Emotional outburst",
+      "narrator": "Markandeya"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Savitri, seeing her husband distressed, wipes his tears and makes a vow for her in-laws' and husband's safety.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Savitri",
+        "Satyavan",
+        "Satyavan's Father",
+        "Satyavan's Mother"
+      ],
+      "action": "Comforting and making protective vow",
+      "relationships": [
+        "Husband-wife relationship",
+        "Daughter-in-law to in-laws relationship"
+      ],
+      "supernatural_elements": [
+        "Vow based on truthfulness and religious merit"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyavan insists on returning to the hermitage immediately to see his parents, threatening he won't live if anything happened to them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyavan",
+        "Savitri"
+      ],
+      "action": "Urgent demand to return",
+      "relationships": [
+        "Husband persuading wife"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Savitri helps Satyavan stand, organizes their belongings, and supports him as they begin their return journey.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Savitri",
+        "Satyavan"
+      ],
+      "action": "Physical assistance and preparation for travel",
+      "relationships": [
+        "Wife supporting husband"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyavan guides Savitri along the familiar path back to the hermitage, describing landmarks and urging speed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyavan",
+        "Savitri"
+      ],
+      "action": "Navigation and encouragement",
+      "relationships": [
+        "Husband leading wife"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyavan increases his pace as they head toward the hermitage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyavan"
+      ],
+      "action": "Accelerated travel",
+      "purpose": "To reunite with parents"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "耀军在大树林中双目复明，凭眼睛看到一切。",
+    "char_interval": {
+      "start_pos": 5009,
+      "end_pos": 5020
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "耀军"
+      ],
+      "action": "恢复视力",
+      "type": "奇迹/康复"
+    },
+    "_token_interval": {
+      "start_index": 1501,
+      "end_index": 1502
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "耀军和妻子尸毗耶一起，走遍所有净修林、河边、树林和湖边，四处寻找儿子萨谛梵。",
+    "char_interval": {
+      "start_pos": 5047,
+      "end_pos": 5102
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "耀军",
+        "尸毗耶",
+        "萨谛梵"
+      ],
+      "action": "寻找儿子",
+      "relationships": [
+        "夫妻",
+        "父母与儿子"
+      ],
+      "emotional_state": "痛苦至极"
+    },
+    "_token_interval": {
+      "start_index": 1511,
+      "end_index": 1531
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "净修林中所有的婆罗门赶来，围着劝慰耀军和尸毗耶，将他俩带回自己的净修林。",
+    "char_interval": {
+      "start_pos": 5190,
+      "end_pos": 5203
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "耀军",
+        "尸毗耶",
+        "众婆罗门"
+      ],
+      "action": "安慰与带回",
+      "type": "集体支持"
+    },
+    "_token_interval": {
+      "start_index": 1558,
+      "end_index": 1560
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "以苦行为财富的老人们用古代国王的种种传奇故事安慰耀军和尸毗耶。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "耀军",
+        "尸毗耶",
+        "老人们"
+      ],
+      "action": "讲故事安慰",
+      "type": "精神慰藉"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "众仙人（苏伐尔遮、乔答摩、学生、跋罗堕遮、达尔毗耶、曼德维耶、烟氏）依次发言，基于莎维德丽的品德、苦行、吉相等，断言萨谛梵一定活着。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "苏伐尔遮",
+        "乔答摩",
+        "学生",
+        "众仙人",
+        "跋罗堕遮",
+        "达尔毗耶",
+        "曼德维耶",
+        "烟氏",
+        "莎维德丽",
+        "萨谛梵"
+      ],
+      "action": "预言/断言",
+      "basis": [
+        "莎维德丽的苦行与品德",
+        "乔答摩的苦行与知识",
+        "莎维德丽的吉相",
+        "耀军复明",
+        "莎维德丽的誓愿",
+        "环境迹象",
+        "萨谛梵的长寿相"
+      ],
+      "type": "集体预言与安慰"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "耀军考虑到众仙人的话有道理，仿佛安下心来。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "耀军"
+      ],
+      "action": "情绪平复",
+      "reason": "相信众仙人的预言"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "莎维德丽和丈夫萨谛梵一起来到，在夜色中高高兴兴进入净修林。",
+    "char_interval": {
+      "start_pos": 5831,
+      "end_pos": 5860
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "莎维德丽",
+        "萨谛梵"
+      ],
+      "action": "归来",
+      "relationships": [
+        "夫妻"
+      ],
+      "emotional_state": "高兴",
+      "type": "团聚"
+    },
+    "_token_interval": {
+      "start_index": 1755,
+      "end_index": 1759
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "众婆罗门祝愿耀军繁荣昌盛，庆祝他双目复明并与儿子团聚。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "众婆罗门",
+        "耀军",
+        "萨谛梵"
+      ],
+      "action": "祝福与庆祝",
+      "type": "喜庆结局"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyavan and Savitri return late at night to the hermitage where King Dyumatsena, the sages, and others are gathered.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyavan",
+        "Savitri",
+        "King Dyumatsena",
+        "Sages (including Markandeya, Gautama, and others)"
+      ],
+      "action": "Return/Reunion",
+      "relationships": [
+        "Satyavan and Savitri are husband and wife",
+        "King Dyumatsena is Satyavan's father"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sages inquire why Satyavan and Savitri returned so late, expressing concern.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sages",
+        "Satyavan",
+        "Savitri"
+      ],
+      "action": "Inquiry",
+      "relationships": [
+        "Sages are advisors/companions to the royal family"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyavan explains he went to the forest with Savitri, got a severe headache, fell into a deep sleep, and returned late to avoid worry.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyavan"
+      ],
+      "action": "Explanation",
+      "details": "He claims ignorance of the deeper events"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Gautama notes King Dyumatsena's sudden recovery of sight and asks Savitri to explain, acknowledging her wisdom and connection to the goddess Savitri.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Gautama",
+        "Savitri",
+        "King Dyumatsena"
+      ],
+      "action": "Request for revelation",
+      "relationships": [
+        "Sage Gautama is one of the sages present"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Savitri reveals the truth: The sage Narada had prophesied Satyavan's death on that day, so she stayed with him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Savitri",
+        "Sage Narada",
+        "Satyavan"
+      ],
+      "action": "Revelation of prophecy",
+      "supernatural_elements": [
+        "Prophecy by Sage Narada"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Savitri describes how Yama (the god of death) appeared with his attendants to take Satyavan's soul to the world of ancestors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Savitri",
+        "Yama",
+        "Satyavan"
+      ],
+      "action": "Supernatural encounter",
+      "supernatural_elements": [
+        "Yama's appearance",
+        "Soul being taken"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Savitri praised Yama with truthful words, and he granted her five boons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Savitri",
+        "Yama"
+      ],
+      "action": "Boon granting",
+      "supernatural_elements": [
+        "Divine boons from Yama"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Savitri lists the five boons: 1) King Dyumatsena regains his eyesight, 2) King Dyumatsena regains his kingdom, 3) Her father (King Ashvapati) gets a hundred sons, 4) She herself bears a hundred sons, 5) Satyavan lives for four hundred years.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Savitri",
+        "King Dyumatsena",
+        "King Ashvapati",
+        "Satyavan"
+      ],
+      "action": "Enumeration of boons",
+      "relationships": [
+        "King Ashvapati is Savitri's father"
+      ],
+      "supernatural_elements": [
+        "Miraculous recoveries and blessings"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Savitri explains she undertook strict vows to save her husband, turning great sorrow into happiness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Savitri",
+        "Satyavan"
+      ],
+      "action": "Explanation of devotion",
+      "relationships": [
+        "Wife's devotion saves husband"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sages praise Savitri for saving the royal family from disaster through her noble birth, excellent conduct, adherence to dharma, and accumulated merit.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sages",
+        "Savitri"
+      ],
+      "action": "Praise and acknowledgment",
+      "relationships": [
+        "Savitri as savior of the dynasty"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sages honor Savitri, then take leave of King Dyumatsena and Satyavan, returning happily to their dwellings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sages",
+        "Savitri",
+        "King Dyumatsena",
+        "Satyavan"
+      ],
+      "action": "Departure",
+      "relationships": [
+        "Respectful farewell"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Morganya narrates that as night ended and the sun rose, all ascetics completed their morning prayers and returned to the place.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Morganya"
+      ],
+      "action": "Narration of morning events",
+      "setting": "Ashram/place of ascetics"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The great sages and Yayati repeatedly discussed Savitri's great merits without growing weary.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Great Sages",
+        "Yayati"
+      ],
+      "topic": "Savitri's merits",
+      "type": "Discussion"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "All subjects of the Shalva kingdom arrived and reported that their king had been killed by his own minister.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Subjects of Shalva",
+        "King of Shalva (unnamed)",
+        "Minister (unnamed)"
+      ],
+      "action": "Reporting regicide",
+      "type": "Political event"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The people declared their loyalty to the old king, saying 'Whether his eyes are blind or not, let him be our king!'",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Subjects of Shalva",
+        "Yayati"
+      ],
+      "action": "Declaration of loyalty",
+      "type": "Political decision"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The subjects brought chariots, elephants, horses, and infantry, and urged Yayati to return to the city.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Subjects of Shalva",
+        "Yayati"
+      ],
+      "action": "Preparation for royal return",
+      "type": "Military escort"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing Yayati with bright eyes and healthy body, the subjects bowed down in amazement.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Subjects of Shalva",
+        "Yayati"
+      ],
+      "action": "Witnessing Yayati's restored health",
+      "type": "Recognition"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yayati paid respects to all elderly Brahmins in the ashram, received their blessings in return, and departed for the capital.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yayati",
+        "Elderly Brahmins"
+      ],
+      "action": "Departure ceremony",
+      "type": "Royal departure"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shivya and Savitri traveled together in a beautifully decorated, radiant palanquin carried by men, escorted by the army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shivya",
+        "Savitri"
+      ],
+      "action": "Travel to capital",
+      "type": "Royal procession"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The royal priests happily performed the coronation ceremony for Yayati, making him king, and also performed the ceremony for the noble prince to become crown prince.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Royal Priests",
+        "Yayati",
+        "Shivya"
+      ],
+      "action": "Coronation ceremonies",
+      "type": "Royal succession"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Over time, Savitri's fame grew daily, and she gave birth to one hundred sons, all heroic and never retreating.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Savitri",
+        "Shivya"
+      ],
+      "action": "Birth of sons",
+      "type": "Family expansion",
+      "relationship": "Mother-sons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Savitri also had one hundred younger brothers born from King Madra (Madri) and Queen Marovi, all great warriors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Savitri",
+        "King Madra",
+        "Queen Marovi"
+      ],
+      "action": "Birth of brothers",
+      "type": "Family expansion",
+      "relationship": "Sister-brothers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Savitri rescued everyone from difficulties: herself, her father, mother, father-in-law, mother-in-law, and husband's family.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Savitri"
+      ],
+      "action": "Rescue of family members",
+      "type": "Salvation",
+      "achievement": "Complete family rescue"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Morganya states that similarly, Draupadi, who is auspicious, blessed, and universally recognized for her conduct, will save all of you like the noble lady Savitri.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Morganya",
+        "Draupadi"
+      ],
+      "action": "Comparison and prophecy",
+      "type": "Moral lesson",
+      "purpose": "Inspire the Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya narrates that following the teachings of the noble sage Morganya, Yudhishthira dispelled sorrow and distress, and lived in the Kamyaka forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Yudhishthira",
+        "Morganya"
+      ],
+      "action": "Application of teachings",
+      "type": "Conclusion",
+      "result": "Yudhishthira finds peace"
+    },
+    "_token_interval": null
+  }
+]

@@ -1,0 +1,740 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天斡旋没有成功，从俱卢族返回般度族。",
+    "char_interval": {
+      "start_pos": 33,
+      "end_pos": 52
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天"
+      ],
+      "action": "斡旋失败",
+      "locations": [
+        "俱卢族",
+        "般度族"
+      ],
+      "type": "外交失败"
+    },
+    "_token_interval": {
+      "start_index": 10,
+      "end_index": 14
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "维杜罗来到普利塔那里，忧虑不安地说话。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "维杜罗",
+        "普利塔"
+      ],
+      "action": "报告情况",
+      "emotional_state": "忧虑不安",
+      "type": "信息传递"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "维杜罗向普利塔报告难敌不采纳他的话，坚战已在水没城安营但依然企盼正法。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "维杜罗",
+        "普利塔",
+        "难敌",
+        "坚战"
+      ],
+      "action": "报告战争准备情况",
+      "locations": [
+        "水没城"
+      ],
+      "type": "军事部署"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "维杜罗描述持国王年事已高，被儿子疯狂搅糊涂，行走在背离正法的道路上。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国王",
+        "难敌"
+      ],
+      "action": "描述领导状况",
+      "moral_state": "背离正法",
+      "type": "政治分析"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "维杜罗指出胜车、迦尔纳、难降和沙恭尼的坏主意导致分裂继续。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "胜车",
+        "迦尔纳",
+        "难降",
+        "沙恭尼"
+      ],
+      "action": "策划阴谋",
+      "result": "导致分裂",
+      "type": "阴谋策划"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "维杜罗预言般度之子们准备开战，俱卢族的失策将导致英雄们毁灭。",
+    "char_interval": {
+      "start_pos": 347,
+      "end_pos": 378
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般度之子们",
+        "俱卢族"
+      ],
+      "action": "预言战争",
+      "result": "英雄毁灭",
+      "type": "战争预言"
+    },
+    "_token_interval": {
+      "start_index": 113,
+      "end_index": 121
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "贡蒂听了维杜罗的话后痛苦不堪，思考财富导致亲属自相残杀的悲剧。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "贡蒂"
+      ],
+      "action": "反思战争",
+      "emotional_state": "痛苦不堪",
+      "type": "道德反思"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "贡蒂担心般度族联合车底族、般遮罗族和雅度族与婆罗多族开战。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "贡蒂",
+        "般度族",
+        "车底族",
+        "般遮罗族",
+        "雅度族",
+        "婆罗多族"
+      ],
+      "action": "担心战争联盟",
+      "type": "军事联盟"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "贡蒂特别担心毗湿摩、德罗纳和迦尔纳为持国之子战斗。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "贡蒂",
+        "毗湿摩",
+        "德罗纳",
+        "迦尔纳",
+        "持国之子们"
+      ],
+      "action": "表达恐惧",
+      "concerns": [
+        "敌对阵营的强大战士"
+      ],
+      "type": "军事担忧"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "贡蒂认为德罗纳可能不是自愿与学生们作战，毗湿摩对般度之子们怀有爱心。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "贡蒂",
+        "德罗纳",
+        "毗湿摩",
+        "般度之子们"
+      ],
+      "action": "分析敌将心理",
+      "relationships": [
+        "师生关系",
+        "祖孙关系"
+      ],
+      "type": "心理分析"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "贡蒂特别担心迦尔纳缺乏眼光，盲目追随持国之子，始终仇视般度之子们。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "贡蒂",
+        "迦尔纳",
+        "持国之子们",
+        "般度之子们"
+      ],
+      "action": "分析迦尔纳的敌意",
+      "relationships": [
+        "敌对关系"
+      ],
+      "type": "人物分析"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "贡蒂决定去见迦尔纳，告诉他事情真相，安抚他，希望他的心转向般度之子们。",
+    "char_interval": {
+      "start_pos": 738,
+      "end_pos": 769
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "贡蒂",
+        "迦尔纳",
+        "般度之子们"
+      ],
+      "action": "计划劝说",
+      "intention": "改变迦尔纳的立场",
+      "type": "干预计划"
+    },
+    "_token_interval": {
+      "start_index": 229,
+      "end_index": 237
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "贡蒂回忆年轻时住在父亲宫中时，取悦尊者杜婆沙，获得召唤天神的恩惠。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "贡蒂",
+        "杜婆沙"
+      ],
+      "action": "回忆获得恩惠",
+      "supernatural_element": "召唤天神的恩惠",
+      "type": "回忆超自然事件"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "贡蒂回忆住在国王后宫时，受到父王贡提婆阇宠爱，思考咒语效力。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "贡蒂",
+        "贡提婆阇"
+      ],
+      "action": "回忆少女时期",
+      "relationships": [
+        "父女关系"
+      ],
+      "type": "个人回忆"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "贡蒂回忆受到奶娘保护，有女伴陪伴，避免犯错误，保护父亲的名声。",
+    "char_interval": {
+      "start_pos": 895,
+      "end_pos": 929
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "贡蒂"
+      ],
+      "action": "回忆保护措施",
+      "concerns": [
+        "保护名声"
+      ],
+      "type": "道德保护"
+    },
+    "_token_interval": {
+      "start_index": 274,
+      "end_index": 282
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "贡蒂最终得到咒语。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "贡蒂"
+      ],
+      "action": "获得咒语",
+      "supernatural_element": "咒语",
+      "type": "超自然能力获得"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti, in her youth, used a mantra to summon Surya (the Sun God).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Surya"
+      ],
+      "action": "Divine summoning",
+      "type": "Supernatural/Origin"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti gave birth to a son from Surya before her marriage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Surya",
+        "Karna"
+      ],
+      "action": "Birth",
+      "type": "Origin/Revelation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti made a significant decision and went to the Bhagirathi River (Ganges) to complete her task.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti"
+      ],
+      "action": "Journey/Decision",
+      "location": "Bhagirathi River (Ganges)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti found Karna reciting prayers on the riverbank, facing east with arms raised.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Karna"
+      ],
+      "action": "Observation/Waiting",
+      "location": "Ganges riverbank"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After finishing his prayers, Karna turned and saw Kunti, then greeted her respectfully with folded hands.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Kunti"
+      ],
+      "action": "Recognition/Greeting",
+      "type": "Encounter"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna introduced himself as the son of Radha and Adhiratha and asked Kunti her purpose.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "action": "Self-identification/Inquiry",
+      "stated_parentage": [
+        "Radha",
+        "Adhiratha"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti revealed to Karna that he is her son, born from Surya before her marriage, not the son of Radha and Adhiratha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Karna",
+        "Surya"
+      ],
+      "action": "Truth revelation",
+      "true_parentage": [
+        "Kunti",
+        "Surya"
+      ],
+      "type": "Family revelation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti described Karna's divine birth attributes: born with earrings and armor, son of a god, unconquerable.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "action": "Description of divine nature",
+      "attributes": [
+        "Divine birth",
+        "Earrings",
+        "Armor",
+        "Unconquerable"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti urged Karna to abandon the Kauravas (sons of Dhritarashtra) and join his brothers, the Pandavas (Yudhishthira, Arjuna, etc.), to share in their prosperity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Karna",
+        "Kauravas",
+        "Pandavas"
+      ],
+      "action": "Persuasion/Appeal",
+      "proposed_alliance": "Karna with Pandavas",
+      "type": "Political/Family appeal"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti suggested that Karna and Arjuna united would be unstoppable, likening them to Rama and Krishna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Arjuna"
+      ],
+      "action": "Comparison/Encouragement",
+      "analogy": "Like Rama and Krishna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti advised Karna to stop using the title 'son of a charioteer' and embrace his identity as the heroic son of Pritha (Kunti).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "action": "Identity affirmation",
+      "advised_identity": "Son of Pritha (Kunti)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Surya (the Sun God) speaks to Karna from afar, confirming Kunti's words and advising him to follow her instructions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Surya",
+        "Karna",
+        "Kunti"
+      ],
+      "action": "Divine intervention and advice",
+      "relationships": "Surya reveals himself as Karna's father, confirming Kunti as his mother",
+      "supernatural_elements": "Surya speaking from afar"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna remains unmoved despite both his mother Kunti and father Surya urging him to join the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Kunti",
+        "Surya"
+      ],
+      "action": "Refusal to change allegiance",
+      "relationships": "Karna acknowledges Kunti as his mother but rejects her plea"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna confronts Kunti about abandoning him at birth, which ruined his reputation and denied him Kshatriya status.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Kunti"
+      ],
+      "action": "Accusation and emotional confrontation",
+      "relationships": "Mother-son conflict, Karna expresses deep resentment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna refuses to join the Pandavas, arguing it would be seen as cowardice and betrayal of the Kauravas who have always honored him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Kunti",
+        "Kauravas",
+        "Pandavas"
+      ],
+      "action": "Loyalty declaration",
+      "relationships": "Karna chooses loyalty to Duryodhana and the Kauravas over his blood brothers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna vows to fight for the Kauravas against the Pandavas, but promises Kunti he will spare four of her sons, targeting only Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Kunti",
+        "Arjuna",
+        "Yudhishthira",
+        "Bhima",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "action": "Conditional vow",
+      "relationships": "Karna shows mercy to his brothers except Arjuna, setting up their final confrontation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti embraces Karna in anguish after hearing his decision, and Karna predicts the destruction of the Kauravas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Karna"
+      ],
+      "action": "Emotional farewell and prophecy",
+      "relationships": "Mother-son reconciliation with tragic undertones"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti (Pritha) reveals to Karna that he is her firstborn son and urges him to remember his promise.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Karna"
+      ],
+      "action": "Revelation and Plea",
+      "relationship_change": "Kunti reveals her maternal relationship to Karna."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti asks Karna to spare his four younger brothers (the Pandavas) in the war.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Karna"
+      ],
+      "action": "Request for Mercy",
+      "context": "Kunti pleads for the safety of her other sons, establishing Karna as the eldest brother of the Pandavas."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna pays his respects to Kunti and they part ways.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Kunti"
+      ],
+      "action": "Farewell",
+      "significance": "Conclusion of their private conversation before the Kurukshetra War."
+    },
+    "_token_interval": null
+  }
+]

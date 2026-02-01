@@ -1,0 +1,2121 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "勇士沙尔婆战死，俱卢族军队开始溃散。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "沙尔婆"
+      ],
+      "action": "战死",
+      "consequence": "俱卢族军队溃散"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "成铠（诃利迪迦之子）努力阻止般度族军队的进攻。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "成铠"
+      ],
+      "action": "阻止敌军进攻",
+      "effect": "鼓舞俱卢族士兵返回战场"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "俱卢族人和般度族人重新开战，俱卢族人准备战斗到最后一刻。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "俱卢族人",
+        "般度族人"
+      ],
+      "action": "重新开战",
+      "determination": "俱卢族人誓死战斗"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "成铠独自抵挡般度族军队，完成难以完成的任务，朋友们发出狮子吼。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "成铠",
+        "般度族军队",
+        "成铠的朋友们"
+      ],
+      "action": "独自抵挡敌军",
+      "reaction": "朋友们兴奋吼叫，吼声直达天国"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "萨谛奇（悉尼之孙）因吼声赶到阵前，首先用七支利箭杀死忏摩杜尔提王。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "萨谛奇",
+        "忏摩杜尔提王"
+      ],
+      "action": "杀死敌人",
+      "method": "七支利箭"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "成铠迎战萨谛奇，两位弓箭手互相接近，准备激战。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "成铠",
+        "萨谛奇"
+      ],
+      "action": "迎战",
+      "witnesses": [
+        "般度族人",
+        "般遮罗人",
+        "其他战士"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "成铠和萨谛奇互相进攻，对射带齿的铁箭，利箭如空中飞舞的昆虫。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "成铠",
+        "萨谛奇"
+      ],
+      "action": "对射箭矢",
+      "description": "激烈战斗，利箭密集"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "成铠靠近萨谛奇，放出四支利箭射杀萨谛奇的四匹骏马。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "成铠",
+        "萨谛奇"
+      ],
+      "action": "射杀战马",
+      "target": "萨谛奇的骏马"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "萨谛奇愤怒还击，用八支上等利箭射向成铠。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "萨谛奇",
+        "成铠"
+      ],
+      "action": "还击射箭",
+      "emotion": "愤怒"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "成铠将弓拉圆，射三支利箭向萨谛奇，另一支射断萨谛奇的弓。",
+    "char_interval": {
+      "start_pos": 748,
+      "end_pos": 755
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "成铠",
+        "萨谛奇"
+      ],
+      "action": "射箭并断弓",
+      "result": "萨谛奇弓被射断"
+    },
+    "_token_interval": {
+      "start_index": 174,
+      "end_index": 176
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "萨谛奇抛掉断裂的弓，拿起另一张带箭的新弓并上好弓弦。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "萨谛奇"
+      ],
+      "action": "更换弓箭",
+      "description": "迅速准备继续战斗"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "萨谛奇愤怒冲向成铠，射出十支锋利的箭，杀死成铠的车夫和马匹，摧折车旗。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "萨谛奇",
+        "成铠"
+      ],
+      "action": "反击并破坏战车",
+      "result": "成铠战车失去马匹和车夫"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "成铠瞪着自己黄金装饰的战车，没了马匹和车夫。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "成铠"
+      ],
+      "action": "战车被毁",
+      "state": "无助"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kritavarma raised an iron trident with full force and threw it at Satyaki, attempting to kill him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kritavarma",
+        "Satyaki"
+      ],
+      "action": "Attack with trident",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki destroyed the iron trident with sharp arrows, breaking it into pieces that fell to the ground.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Kritavarma"
+      ],
+      "action": "Defense/counterattack",
+      "result": "Trident destroyed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki shot a crescent-headed arrow at Kritavarma's chest, nearly causing him to faint.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Kritavarma"
+      ],
+      "action": "Arrow attack",
+      "result": "Kritavarma incapacitated"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki, skilled in weapons, struck Kritavarma, causing him to lose his horses and charioteer, forcing him to jump from his chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Kritavarma"
+      ],
+      "action": "Disarming/defeating",
+      "result": "Kritavarma loses chariot"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kritavarma was defeated by Satyaki in their duel, losing his chariot and horses, causing terror in the Kaurava army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kritavarma",
+        "Satyaki"
+      ],
+      "action": "Defeat in duel",
+      "consequence": "Kaurava army terrified"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana became deeply distressed upon seeing Kritavarma's defeat.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Kritavarma"
+      ],
+      "action": "Emotional reaction",
+      "type": "Psychological"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kripa saw Kritavarma without chariot or charioteer and advanced toward Satyaki, attempting to kill him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripa",
+        "Satyaki",
+        "Kritavarma"
+      ],
+      "action": "Intervention/attack",
+      "motive": "Protect Kritavarma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kripa placed Kritavarma on his own chariot seat and carried him away in front of all archers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripa",
+        "Kritavarma"
+      ],
+      "action": "Rescue/evacuation",
+      "type": "Combat rescue"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "With Kritavarma's defeat and Satyaki dominating the battlefield, Duryodhana's entire army fled once again.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana's army",
+        "Satyaki"
+      ],
+      "action": "Army retreat",
+      "cause": "Satyaki's dominance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dust clouds covered the fleeing soldiers, preventing the enemy from noticing the retreat.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana's army"
+      ],
+      "action": "Concealed retreat",
+      "environmental_factor": "Dust clouds"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Only Duryodhana remained on the battlefield as his entire army fled.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Standing alone",
+      "situation": "Abandoned by army"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana, seeing his army flee, charged alone toward the enemy to stop them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Solo charge",
+      "motive": "Stop enemy advance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana faced all the Pandavas, Dhrishtadyumna, Shikhandin, Draupadi's sons, Panchala forces, Kekaya and Somaka warriors alone with great anger.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Pandavas",
+        "Dhrishtadyumna",
+        "Shikhandin",
+        "Draupadi's sons",
+        "Panchala forces",
+        "Kekaya warriors",
+        "Somaka warriors"
+      ],
+      "action": "Solo confrontation",
+      "scale": "One vs. entire enemy force"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana stood firm on the battlefield, shining like a fire purified by sacred hymns on an altar, preventing enemies from approaching.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Heroic stand",
+      "metaphor": "Purified fire",
+      "effect": "Enemies kept at bay"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kritavarma returned to the battlefield on another chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kritavarma"
+      ],
+      "action": "Return to battle",
+      "status": "Re-equipped with chariot"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana, standing on his chariot like the formidable god Rudra, covered the earth with thousands of arrows, raining arrows on enemies like clouds pouring rain on mountains.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Massive arrow attack",
+      "scale": "Covering entire battlefield",
+      "metaphor": "Like Rudra, like rain clouds"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "No Pandava warrior, horse, elephant, or chariot could escape Duryodhana's arrows, which covered the entire Pandava formation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Pandava army"
+      ],
+      "action": "Overwhelming attack",
+      "effect": "Complete coverage of enemy forces"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The earth became a world of arrows under Duryodhana's skilled archery, and to the observer, only Duryodhana seemed to exist despite thousands of soldiers on both sides.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Dominant battlefield presence",
+      "perception": "Overshadows all other warriors"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A warrior displays extraordinary valor, surpassing all the Pandavas combined.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Display of valor",
+      "context": "Narrator's observation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana attacks the Pandava army with arrows: 100 at Yudhishthira, 70 at Bhima, 7 at Nakula, 64 at Sahadeva, 5 at Dhrishtadyumna, 7 at Draupadi's sons, and 3 at Satyaki.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Yudhishthira",
+        "Bhima",
+        "Nakula",
+        "Sahadeva",
+        "Dhrishtadyumna",
+        "Satyaki"
+      ],
+      "action": "Mass arrow attack",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana breaks Sahadeva's bow with a crescent-headed arrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Sahadeva"
+      ],
+      "action": "Destruction of weapon",
+      "relationships": "Adversaries in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sahadeva takes a new bow and attacks Duryodhana with ten arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sahadeva",
+        "Duryodhana"
+      ],
+      "action": "Counter-attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula attacks Duryodhana with nine arrows and roars.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Duryodhana"
+      ],
+      "action": "Arrow attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki, Draupadi's sons, Yudhishthira, and Bhima all attack Duryodhana with arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Draupadi's sons",
+        "Yudhishthira",
+        "Bhima",
+        "Duryodhana"
+      ],
+      "action": "Coordinated attack",
+      "result": "Duryodhana remains unmoved"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana's brothers return to the battlefield after initially fleeing, creating a terrifying noise.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana's brothers",
+        "Duryodhana"
+      ],
+      "action": "Return to battle",
+      "relationships": "Brothers supporting Duryodhana"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama confronts the enraged Bhima, creating chaos with arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Bhima"
+      ],
+      "action": "Duel",
+      "context": "Intense battle causing disorientation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shakuni attacks Yudhishthira, killing his four horses and roaring.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shakuni",
+        "Yudhishthira"
+      ],
+      "action": "Destruction of chariot horses"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sahadeva rescues Yudhishthira by taking him away in his chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sahadeva",
+        "Yudhishthira"
+      ],
+      "action": "Rescue",
+      "relationships": "Brothers protecting each other"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira returns on another chariot and attacks Shakuni with fourteen arrows, then roars.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Shakuni"
+      ],
+      "action": "Counter-attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uluka attacks Nakula with arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uluka",
+        "Nakula"
+      ],
+      "action": "Arrow attack",
+      "relationships": "Adversaries in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula retaliates by covering Uluka with arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Uluka"
+      ],
+      "action": "Counter-attack",
+      "context": "Duel between chariot warriors from rival families"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya duels with Satyaki, compared to Indra fighting Bali.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Satyaki"
+      ],
+      "action": "Duel",
+      "supernatural_elements": "Comparison to divine battle (Indra vs Bali)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana shot an arrow that broke Shikhandin's bow, then fired several sharp arrows at the hero holding the broken bow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Shikhandin"
+      ],
+      "action": "Archery combat",
+      "relationship": "Opponents in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandin picked up another sharp weapon and fought Duryodhana again in front of many archers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Duryodhana"
+      ],
+      "action": "Continued combat",
+      "relationship": "Opponents in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The battle between Duryodhana and Shikhandin was extremely fierce, like two rutting elephants with split temples encountering each other.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Shikhandin"
+      ],
+      "description": "Intense one-on-one combat",
+      "relationship": "Opponents in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kripa (grandson of Gotama), filled with anger, shot many crescent-headed arrows at Draupadi's mighty sons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripa",
+        "Draupadi's sons"
+      ],
+      "action": "Archery attack",
+      "relationship": "Opponents in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The battle between Kripa and Draupadi's sons was as cruel as the inevitable struggle between a conscious being's boundless thoughts and his senses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripa",
+        "Draupadi's sons"
+      ],
+      "description": "Metaphorical intense combat",
+      "relationship": "Opponents in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi's sons tormented Kripa like senses torment a foolish person, but Kripa fought back valiantly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi's sons",
+        "Kripa"
+      ],
+      "action": "Mutual combat and torment",
+      "relationship": "Opponents in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A terrifying mixed battle occurred again between men and men, elephants and elephants, horses and horses, and chariots and chariots.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kaurava army",
+        "Pandava army"
+      ],
+      "description": "Large-scale chaotic battle",
+      "relationship": "Opposing armies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The battle was described as wonderful, violent, and terrifying, with terrifying aspects predominating.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kaurava army",
+        "Pandava army"
+      ],
+      "description": "Nature of the battle",
+      "relationship": "Opposing armies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dust rose from horses' hooves, chariot wheels, and elephants' breath, darkening the sun and covering the earth and great charioteers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kaurava army",
+        "Pandava army"
+      ],
+      "description": "Battlefield conditions",
+      "relationship": "Opposing armies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After a while, the dust settled as the earth became soaked with the heroes' blood, revealing the battlefield again.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kaurava army",
+        "Pandava army"
+      ],
+      "description": "Battlefield aftermath",
+      "relationship": "Opposing armies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "During the fierce midday battle, warriors fought in pairs according to their status and age, with armor shining brilliantly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kaurava army",
+        "Pandava army"
+      ],
+      "description": "Organized combat",
+      "relationship": "Opposing armies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The cruel and terrible battle continued, with Duryodhana's army being scattered by the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana's army",
+        "Pandava army"
+      ],
+      "action": "Army scattering",
+      "relationship": "Opposing armies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana tried with all his might to intercept the great warriors and engage in fierce battle with the Pandava army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Pandava army"
+      ],
+      "action": "Interception attempt",
+      "relationship": "Opponents in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Kaurava army returned to help Duryodhana, making the battle more intense again.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kaurava army",
+        "Duryodhana"
+      ],
+      "action": "Reinforcement",
+      "relationship": "Allies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The battle between the Kaurava army and their opponents was compared to the battle between gods and demons, with no one from either side turning to flee.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kaurava army",
+        "Pandava army"
+      ],
+      "description": "Epic-scale battle",
+      "relationship": "Opposing armies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In the confusion, warriors had to rely on speculation and calling each other's names to help in fighting, with heavy casualties on both sides.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kaurava army",
+        "Pandava army"
+      ],
+      "description": "Chaotic combat conditions",
+      "relationship": "Opposing armies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yudhishthira was filled with rage, eager to defeat the sons of Dhritarashtra and other princes in this battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Sons of Dhritarashtra",
+        "Other princes"
+      ],
+      "emotion": "Rage and determination",
+      "relationship": "Opponents in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "An unnamed archer shot three sharpened golden-feathered arrows at Ashvatthama (son of Drona) and killed Shalya's horses with four arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Shalya"
+      ],
+      "action": "Archery attack",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama retaliated by shooting eight sharp arrows at Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Yudhishthira"
+      ],
+      "action": "Counterattack",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana sent 700 chariots to attack Yudhishthira's front lines.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Yudhishthira"
+      ],
+      "action": "Military deployment",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The chariots surrounded Yudhishthira and showered him with arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Siege",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandin and other charioteers rushed to protect Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Yudhishthira"
+      ],
+      "action": "Rescue/Defense",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A fierce battle erupted between Pandavas and Kauravas, causing massive casualties.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Kauravas"
+      ],
+      "action": "Large-scale battle",
+      "type": "War"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pandavas and Panchalas destroyed the 700 Kaurava chariots and surrounded them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Panchalas",
+        "Kauravas"
+      ],
+      "action": "Counteroffensive",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana's forces and Pandava army engaged in unprecedented fierce fighting.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Pandavas"
+      ],
+      "action": "Intense combat",
+      "type": "War"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Battle continued with massive destruction, omens appeared (falling meteors, winds, weeping elephants).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Kauravas"
+      ],
+      "action": "Continued battle with supernatural omens",
+      "type": "War/Supernatural"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shakuni (son of Gandhara king) suggested attacking from behind to kill Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shakuni",
+        "Yudhishthira"
+      ],
+      "action": "Tactical planning",
+      "type": "Strategy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kaurava forces advanced with Madra warriors cheering.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kauravas",
+        "Madra warriors"
+      ],
+      "action": "Advancement",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pandavas attacked again, confident of victory.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas"
+      ],
+      "action": "Offensive",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kaurava army fled when they saw Madra king's forces being defeated.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kauravas",
+        "Madra king"
+      ],
+      "action": "Retreat",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shakuni rallied fleeing Kaurava soldiers to continue fighting.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shakuni",
+        "Kauravas"
+      ],
+      "action": "Rallying troops",
+      "type": "Leadership"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shakuni's Gandhara army of 10,000 cavalry with shining spears was mentioned.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shakuni"
+      ],
+      "action": "Military description",
+      "type": "Information"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shakuni led his forces to attack the Pandava army from behind, shooting countless sharp arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shakuni",
+        "Pandava Army"
+      ],
+      "action": "Rear attack",
+      "type": "Military conflict"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandava army scattered and fled in disarray.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava Army"
+      ],
+      "action": "Retreat",
+      "result": "Disarray"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira observed his army's retreat and calmly commanded Nakula.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Nakula"
+      ],
+      "action": "Command",
+      "type": "Military order"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "condition",
+    "extraction_text": "Yudhishthira ordered Nakula to kill Shakuni, who was harassing their troops from behind.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "commander": "Yudhishthira",
+      "recipient": "Nakula",
+      "target": "Shakuni",
+      "objective": "Eliminate rear threat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira assigned Nakula troops including Draupadi's sons, elephants, horses, and infantry to support the mission.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Nakula",
+        "Draupadi's Sons"
+      ],
+      "resources": "700 elephants, 5000 horses, 3000 infantry",
+      "type": "Military deployment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula, with Draupadi's sons and assigned forces, charged toward Shakuni.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Draupadi's Sons",
+        "Shakuni"
+      ],
+      "action": "Counter-charge",
+      "type": "Military engagement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shakuni fought fiercely from the rear of the Pandava army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shakuni",
+        "Pandava Army"
+      ],
+      "action": "Rear assault",
+      "intent": "Victory"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandava cavalry became enraged, bypassed Shakuni's charioteers, and charged into his army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava Cavalry",
+        "Shakuni's Army"
+      ],
+      "action": "Cavalry charge",
+      "type": "Military counterattack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pandava heroes, protected by elephant troops, showered Shakuni's forces with arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava Heroes",
+        "Shakuni's Army"
+      ],
+      "action": "Arrow barrage",
+      "type": "Ranged combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A fierce battle ensued with warriors fighting with clubs and spears flying across the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kaurava Army",
+        "Pandava Army"
+      ],
+      "action": "Close combat",
+      "weapons": "Clubs, spears"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bowstrings fell silent and charioteers stopped to watch as the distinction between enemy and ally became unclear.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kaurava Army",
+        "Pandava Army"
+      ],
+      "action": "Pause in fighting",
+      "result": "Confusion"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Both Kaurava and Pandava armies stood watching as spears flew through the sky like meteors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kaurava Army",
+        "Pandava Army"
+      ],
+      "action": "Observation",
+      "description": "Spears like meteors"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sky filled with gleaming swords falling spectacularly, and spears fell from all directions like locusts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "action": "Weapons falling",
+      "description": "Swords and spears covering the sky",
+      "type": "Battle spectacle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Hundreds of horses covered in blood fell along with wounded riders, while uninjured horses collided and trampled each other.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Horses",
+        "Riders"
+      ],
+      "action": "Carnage",
+      "result": "Mass casualties"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dust rose and covered all warriors, creating terrible darkness and causing battle-hardened warriors and horses to leave their positions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "environment": "Dust storm",
+      "result": "Disorientation and retreat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Warriors fell to the ground vomiting blood, with tangled hair preventing escape, while others wrestled on horseback trying to kill each other.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Warriors"
+      ],
+      "action": "Hand-to-hand combat",
+      "result": "Brutal casualties"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Many warriors proud of their valor and eager for victory fell to the ground in various places.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Warriors"
+      ],
+      "action": "Death",
+      "description": "Fallen heroes"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Hundreds of warriors lay on the ground soaked in blood, with broken arms and disheveled hair.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Warriors"
+      ],
+      "action": "Aftermath",
+      "description": "Battlefield carnage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After initial combat, Shakuni (son of Subala) withdrew from battle with his remaining six thousand cavalry.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shakuni"
+      ],
+      "action": "Withdrawal from battle",
+      "forces": "Six thousand cavalry"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandava army, including their remaining six thousand cavalry, also withdrew from their positions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava army"
+      ],
+      "action": "Withdrawal from battle",
+      "condition": "Wounded soldiers, exhausted elephants and horses"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pandava cavalry gathered together and decided that chariot vs chariot and elephant vs elephant combat was now more suitable than mounted cavalry warfare.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava cavalry"
+      ],
+      "decision": "Change combat strategy",
+      "reason": "Shakuni had withdrawn to his own forces and seemed unwilling to return to battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sons of Draupadi and the frenzied elephants went to the great warrior Shikhandi (son of Drupada).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sons of Draupadi",
+        "Shikhandi"
+      ],
+      "action": "Regrouping",
+      "relationship": "Allies moving to support Shikhandi"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula went alone to King Yudhishthira's side under cover of rising dust clouds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Yudhishthira"
+      ],
+      "action": "Movement to leader",
+      "relationship": "Brothers reuniting"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shakuni suddenly and angrily charged Shikhandi's forces and attacked their flank.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shakuni",
+        "Shikhandi"
+      ],
+      "action": "Surprise attack",
+      "tactic": "Flank attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Intense hand-to-hand combat resumed with hundreds of warriors from both sides fighting hero against hero.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kaurava army",
+        "Pandava army"
+      ],
+      "action": "Close combat",
+      "intensity": "Heroic, determined fighting with mutual killing intent"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Destructive slaughter occurred with heads falling like ripe palm fruits, and warriors killing their own brothers, sons, or friends in the frenzy of battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "action": "Mass slaughter",
+      "atrocity": "Fratricide and killing of kin",
+      "metaphor": "Combat like birds of prey fighting over food"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Cavalry were struck down from their saddles, and hundreds of riderless horses ran blindly across the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "action": "Cavalry destruction",
+      "consequence": "Riderless horses causing chaos"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Exhausted, thirsty warriors and tired horses continued to charge despite their wounds, driven by rage and the smell of blood.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "condition": "Physical exhaustion",
+      "psychological_state": "Bloodlust and rage",
+      "consequence": "Loss of reason leading to indiscriminate killing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Many Kshatriyas fell dead under arrow showers while jackals, wolves, and vultures howled with delight at the terrible slaughter happening before the king's eyes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "action": "Mass death",
+      "supernatural_elements": "Carnivorous animals rejoicing at carnage",
+      "blame": "Attributed to the king's erroneous decisions"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The battlefield is covered with corpses of men and horses, and rivers of blood flow, terrifying the faint-hearted.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Soldiers from both armies"
+      ],
+      "type": "Battle aftermath",
+      "description": "Graphic depiction of the carnage after intense fighting"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Both armies (Kauravas and Pandavas) suffer heavy casualties from swords, iron pikes, and javelins, halting their advance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kauravas",
+        "Pandavas"
+      ],
+      "action": "Mutual slaughter",
+      "result": "Stalemate in battle progress"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Warriors fight relentlessly, chasing and killing each other until they fall, bleeding profusely from wounds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Warriors from both sides"
+      ],
+      "action": "Fierce combat",
+      "description": "Intense hand-to-hand fighting with high casualties"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Decapitated bodies accumulate, some holding enemies' heads by the hair while wielding bloody swords.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Fallen warriors"
+      ],
+      "type": "Gruesome battlefield scene",
+      "description": "Extreme violence and dismemberment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The stench of blood overwhelms the remaining soldiers as headless bodies pile up.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Surviving soldiers"
+      ],
+      "type": "Sensory impact of battle",
+      "description": "Psychological and physical effects of carnage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "As noise subsides, Shakuni (son of Subala) leads his remaining cavalry to attack the Pandava army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shakuni",
+        "Pandava army"
+      ],
+      "action": "Cavalry charge",
+      "initiator": "Shakuni",
+      "target": "Pandava forces"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pandava infantry, elephant corps, and cavalry rush forward with weapons raised, eager for victory.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava army"
+      ],
+      "action": "Counter-attack",
+      "description": "Coordinated multi-unit response to Shakuni's charge"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pandava forces surround the enemy from all sides, attacking with various weapons to achieve victory.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava army",
+        "Shakuni's forces"
+      ],
+      "action": "Encirclement and assault",
+      "tactic": "Surround and destroy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kaurava cavalry, infantry, elephants, and chariots advance to meet the attacking Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kaurava army",
+        "Pandava army"
+      ],
+      "action": "Full-scale engagement",
+      "description": "All military units from both sides clash"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Unarmed infantry fight with fists and feet until they fall dead.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Infantry soldiers"
+      ],
+      "action": "Desperate hand-to-hand combat",
+      "description": "Brutal fighting after weapons are lost"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Charioteers fall from chariots and elephant riders from elephants, like Siddhas falling from celestial chariots when their merit expires.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Charioteers",
+        "Elephant riders"
+      ],
+      "type": "Supernatural comparison",
+      "description": "Divine simile for warriors' deaths"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In the chaos, warriors fight fiercely, treating fathers, brothers, friends, and sons as enemies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Warriors from both sides"
+      ],
+      "type": "Moral breakdown",
+      "description": "Complete collapse of familial and social bonds during battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In this terrible battle, swords, spears, and arrows fly everywhere, and normal battle boundaries disappear.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "All combatants"
+      ],
+      "type": "Total warfare",
+      "description": "Complete chaos and breakdown of military order"
+    },
+    "_token_interval": null
+  }
+]

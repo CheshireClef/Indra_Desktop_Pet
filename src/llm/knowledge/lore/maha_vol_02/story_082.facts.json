@@ -1,0 +1,727 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "正法猎人讲述了完整的解脱法，婆罗门听了心里非常高兴并称赞他无所不知。",
+    "char_interval": {
+      "start_pos": 34,
+      "end_pos": 48
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "正法猎人",
+        "婆罗门"
+      ],
+      "action": "讲述解脱法并接受称赞",
+      "relationships": [
+        "师生关系（正法猎人教导婆罗门）"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 14,
+      "end_index": 16
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "正法猎人邀请婆罗门进屋去见他的父母。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "正法猎人",
+        "婆罗门"
+      ],
+      "action": "邀请",
+      "relationships": [
+        "主人与客人关系"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "婆罗门进入壮丽的住宅，看到正法猎人的父母备受尊敬地坐在椅子上。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "婆罗门",
+        "正法猎人的父亲",
+        "正法猎人的母亲"
+      ],
+      "action": "观察住宅和父母",
+      "supernatural_elements": [
+        "住宅与天神的住宅一样，受到天神的崇敬"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "正法猎人向父母跪下行触足礼，父母祝福他并称赞他的孝顺。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "正法猎人",
+        "正法猎人的父亲",
+        "正法猎人的母亲"
+      ],
+      "action": "行礼和祝福",
+      "relationships": [
+        "父母与儿子关系",
+        "强调孝顺"
+      ],
+      "comparisons": [
+        "孝顺像持斧罗摩那样甚至更好"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "正法猎人把婆罗门介绍给父母，父母欢迎并向他表示敬意。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "正法猎人",
+        "婆罗门",
+        "正法猎人的父亲",
+        "正法猎人的母亲"
+      ],
+      "action": "介绍和问候",
+      "relationships": [
+        "主人家庭与客人关系"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "婆罗门问候父母的身体健康和家庭状况，父母回应一切都好。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "婆罗门",
+        "正法猎人的父亲",
+        "正法猎人的母亲"
+      ],
+      "action": "互相问候",
+      "relationships": [
+        "礼貌的客人与主人父母关系"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "正法猎人向婆罗门解释他将父母视为最高之神，并详细描述他的孝顺行为。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "正法猎人",
+        "婆罗门",
+        "正法猎人的父亲",
+        "正法猎人的母亲"
+      ],
+      "action": "阐述孝顺理念",
+      "relationships": [
+        "儿子对父母的崇敬",
+        "将父母比作天神、祭火、祭祀和四吠陀"
+      ],
+      "supernatural_elements": [
+        "用祭品供奉天神的类比"
+      ],
+      "key_plot_points": [
+        "强调孝顺是核心正法，驱动所有行为（包括对妻子、儿子和朋友）"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "摩根德耶说：灵魂高尚的正法猎人将父母介绍给婆罗门后，又对婆罗门说道：“我有预见。请看，这是苦行的威力！为此，那位妇女告诉你说：‘去密提罗城。’”",
+    "char_interval": {
+      "start_pos": 1204,
+      "end_pos": 1239
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "摩根德耶",
+        "正法猎人",
+        "婆罗门"
+      ],
+      "action": "猎人向婆罗门展示预见能力，提及一位妇女的指引",
+      "relationships": "摩根德耶是叙述者；正法猎人与婆罗门对话",
+      "supernatural_elements": "预见能力，苦行的威力"
+    },
+    "_token_interval": {
+      "start_index": 378,
+      "end_index": 384
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "猎人继续解释：那位妇女一心顺从丈夫，诚实守戒，告诉婆罗门在密提罗城住着一位猎人，他会为你讲述正法。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "正法猎人",
+        "婆罗门",
+        "妇女（未命名）"
+      ],
+      "action": "猎人描述妇女的指引",
+      "relationships": "妇女指引婆罗门寻找猎人",
+      "supernatural_elements": "无"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "婆罗门回应：我记得那位诚实守戒、忠于丈夫的妇女说的话，我认为你是有德之士。",
+    "char_interval": {
+      "start_pos": 1339,
+      "end_pos": 1384
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "婆罗门",
+        "正法猎人",
+        "妇女（未命名）"
+      ],
+      "action": "婆罗门确认妇女的指引并认可猎人",
+      "relationships": "婆罗门信任猎人的品德",
+      "supernatural_elements": "无"
+    },
+    "_token_interval": {
+      "start_index": 424,
+      "end_index": 435
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "猎人告诫婆罗门：你忽视你的父母，他们没有打发你，你就撇下父母，离家出走，不符合吠陀的规定。你的年迈的苦行者父母忧愁悲伤，双目失明。你去安抚他俩吧！不要让伟大的正法抛弃你。",
+    "char_interval": {
+      "start_pos": 1391,
+      "end_pos": 1595
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "正法猎人",
+        "婆罗门"
+      ],
+      "action": "猎人批评婆罗门忽视父母，敦促他回去侍奉父母",
+      "relationships": "猎人教导婆罗门关于孝顺的正法",
+      "supernatural_elements": "无"
+    },
+    "_token_interval": {
+      "start_index": 439,
+      "end_index": 499
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "猎人强调：你快去尽心侍奉你的父母吧！依我看，除此之外，没有更高的正法。",
+    "char_interval": {
+      "start_pos": 1735,
+      "end_pos": 1813
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "正法猎人",
+        "婆罗门"
+      ],
+      "action": "猎人重申孝顺父母是最高正法",
+      "relationships": "猎人作为导师指导婆罗门",
+      "supernatural_elements": "无"
+    },
+    "_token_interval": {
+      "start_index": 546,
+      "end_index": 570
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "婆罗门感激回应：我来到这里，真幸运！与你相见，真幸运！在这世上，像你这样的说法者是难得的。我正要堕入地狱，是你救了我。我能见到你，也是命中注定。",
+    "char_interval": {
+      "start_pos": 1822,
+      "end_pos": 1982
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "婆罗门",
+        "正法猎人"
+      ],
+      "action": "婆罗门表达感激，承认猎人拯救了他",
+      "relationships": "婆罗门视猎人为救赎者",
+      "supernatural_elements": "命中注定，地狱的提及"
+    },
+    "_token_interval": {
+      "start_index": 574,
+      "end_index": 626
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "婆罗门比喻：就像迅行王坠落时，得到他的好外甥们救护，我得到你的救护。",
+    "char_interval": {
+      "start_pos": 1822,
+      "end_pos": 1982
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "婆罗门",
+        "正法猎人",
+        "迅行王（提及）"
+      ],
+      "action": "婆罗门用迅行王的典故比喻自己的获救",
+      "relationships": "婆罗门将猎人比作救护者",
+      "supernatural_elements": "神话典故（迅行王）"
+    },
+    "_token_interval": {
+      "start_index": 574,
+      "end_index": 626
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A Brahmin (speaker) vows to follow the hunter's words and be filial to his parents, while expressing doubt that the hunter is truly a Shudra by birth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin (speaker)",
+        "Hunter"
+      ],
+      "action": "Vow and inquiry",
+      "relationship_change": "Brahmin seeks explanation for hunter's apparent wisdom despite low birth"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The hunter explains he was formerly a Brahmin, learned in the Vedas, but became friends with a king who was skilled in archery, and thus also became an expert archer.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hunter",
+        "King (friend)"
+      ],
+      "action": "Revelation of past life and friendship",
+      "relationship": "Friendship between former Brahmin and King"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "While hunting with the king, the former Brahmin accidentally shot a sage (Muni) in a hermitage, mistaking him for a deer.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hunter (former Brahmin)",
+        "Sage (Muni)"
+      ],
+      "action": "Accidental killing",
+      "supernatural_element": "Curse as consequence"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sage, dying, cursed the former Brahmin to be reborn as a Shudra hunter.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage (Muni)",
+        "Hunter (former Brahmin)"
+      ],
+      "action": "Curse pronounced",
+      "consequence": "Transformation to Shudra hunter"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The former Brahmin pleaded for forgiveness, explaining it was unintentional.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hunter (former Brahmin)",
+        "Sage (Muni)"
+      ],
+      "action": "Plea for mercy",
+      "relationship_change": "Sage shows compassion"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sage, moved by compassion, granted a boon: though born a Shudra, the hunter would understand Dharma, be filial to parents, remember his past life, and after the curse ended, return to being a Brahmin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage (Muni)",
+        "Hunter"
+      ],
+      "action": "Boon granted",
+      "supernatural_element": "Conditional redemption and memory of past life"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The hunter removed the arrow from the sage, took him to his hermitage, where the sage died.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hunter",
+        "Sage (Muni)"
+      ],
+      "action": "Final act of care before sage's death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The hunter concludes his story and states he is now going to heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hunter"
+      ],
+      "action": "Conclusion and departure",
+      "supernatural_element": "Ascension to heaven as result of filial piety and curse's end"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin consoles the hunter, saying all beings experience pain and pleasure, and he should not regret, as he has achieved the difficult task of knowing his true origin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin",
+        "Hunter"
+      ],
+      "action": "Consolation and validation",
+      "relationship_change": "Brahmin acknowledges hunter's wisdom and redemption"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A Brahmin addresses a hunter, stating that the hunter's current lowly profession is due to his birth circumstances, but after enduring it for some time, he will become a Brahmin again.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin",
+        "Hunter"
+      ],
+      "type": "Philosophical Discourse",
+      "relationships": [
+        "Brahmin advising Hunter"
+      ],
+      "key_points": [
+        "Discusses the fluidity of varna (social class) based on behavior rather than birth alone"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin explains that a Brahmin who behaves badly is like a Shudra, while a Shudra who practices self-control, truth, and dharma is considered a Brahmin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin"
+      ],
+      "type": "Philosophical Discourse",
+      "key_points": [
+        "Dharma is determined by actions, not birth"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin tells the hunter that his past errors are now eliminated and he should not regret, as wise people like him know how to act and are devoted to dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin",
+        "Hunter"
+      ],
+      "type": "Reassurance",
+      "relationships": [
+        "Brahmin absolving Hunter of past guilt"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The hunter responds with wisdom, saying that intelligent people use wisdom to eliminate mental pain just as herbs eliminate physical pain.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hunter"
+      ],
+      "type": "Philosophical Response",
+      "key_points": [
+        "Wisdom as remedy for suffering",
+        "Critique of childish behavior in adversity"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The hunter elaborates on dealing with adversity, loss, and the importance of not succumbing to despair, which he compares to a poisonous snake.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hunter"
+      ],
+      "type": "Philosophical Discourse",
+      "key_points": [
+        "All beings experience gain and loss",
+        "Despair destroys courage and meaning",
+        "Action yields results, depression does not"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The hunter concludes that he is not sorrowful, awaits time patiently, and remains undepressed due to these philosophical understandings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hunter"
+      ],
+      "type": "Self-Assurance",
+      "key_points": [
+        "Acceptance of circumstances through wisdom"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin acknowledges the hunter's complete and broad wisdom, states he no longer pities him, and bids farewell with blessings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin",
+        "Hunter"
+      ],
+      "type": "Parting",
+      "relationships": [
+        "Mutual respect established",
+        "Brahmin's initial concern resolved"
+      ],
+      "key_points": [
+        "Hunter recognized as truly wise and dharma-knowing"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The hunter agrees with folded hands, the Brahmin departs after circumambulating him respectfully.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hunter",
+        "Brahmin"
+      ],
+      "type": "Departure",
+      "relationships": [
+        "Respectful parting"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin returns home and diligently serves his elderly parents with proper conduct.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin"
+      ],
+      "type": "Filial Duty",
+      "key_points": [
+        "Exemplifies dharma through action"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Markandeya concludes his narration to Yudhishthira, summarizing the teachings about dharma, including the greatness of faithful wives, Brahmins, and the hunter's famous dharma of honoring parents.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Markandeya",
+        "Yudhishthira"
+      ],
+      "type": "Narrative Conclusion",
+      "relationships": [
+        "Sage instructing prince"
+      ],
+      "key_points": [
+        "Encapsulates the story's moral lessons"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira praises Markandeya's narration as wonderful, supreme dharma, and states he listened with pleasure as if time flew by.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Markandeya"
+      ],
+      "type": "Praise",
+      "relationships": [
+        "Prince appreciating sage's teaching"
+      ]
+    },
+    "_token_interval": null
+  }
+]

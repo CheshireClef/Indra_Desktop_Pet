@@ -1,0 +1,604 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国王完成水祭后，坚战知觉混乱，让持国王走在前面，登上恒河河岸。",
+    "char_interval": {
+      "start_pos": 29,
+      "end_pos": 38
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国王",
+        "坚战"
+      ],
+      "action": "完成水祭，登岸",
+      "relationships": [
+        "叔侄"
+      ],
+      "emotional_state": "坚战知觉混乱"
+    },
+    "_token_interval": {
+      "start_index": 10,
+      "end_index": 12
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战眼中含泪，躺倒在地。",
+    "char_interval": {
+      "start_pos": 88,
+      "end_pos": 104
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战"
+      ],
+      "action": "倒地痛哭",
+      "emotional_state": "极度悲伤"
+    },
+    "_token_interval": {
+      "start_index": 29,
+      "end_index": 33
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天催促怖军扶起坚战，并劝慰他不要这样。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天",
+        "怖军",
+        "坚战"
+      ],
+      "action": "扶起并劝慰",
+      "relationships": [
+        "黑天与般度族为盟友",
+        "怖军是坚战的兄弟"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "般度之子们看到坚战痛苦倒地，叹息并围绕他坐下。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "般度之子们（包括怖军等）"
+      ],
+      "action": "围坐安慰",
+      "relationships": [
+        "兄弟"
+      ],
+      "emotional_state": "集体忧愁"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国王对坚战说话，劝他起来履行职责，享受胜利。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国王",
+        "坚战"
+      ],
+      "action": "劝说与鼓励",
+      "relationships": [
+        "叔侄"
+      ],
+      "key_points": [
+        "坚战已按刹帝利正法赢得大地",
+        "应享受胜利而非忧伤"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国王表达自己和甘陀利的悲伤，因失去儿子们和王国。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国王",
+        "甘陀利"
+      ],
+      "action": "表达悲伤",
+      "relationships": [
+        "夫妻",
+        "父母（失去儿子们）"
+      ],
+      "emotional_state": "痛苦不堪"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国王后悔未听从维杜罗的忠告。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国王",
+        "维杜罗",
+        "难敌",
+        "迦尔纳",
+        "沙恭尼"
+      ],
+      "action": "回忆与后悔",
+      "relationships": [
+        "维杜罗是持国王的兄弟",
+        "难敌是持国王的儿子",
+        "迦尔纳和沙恭尼是难敌的盟友"
+      ],
+      "key_points": [
+        "维杜罗曾预言难敌的罪行会毁灭家族",
+        "建议杀掉难敌或立坚战为王",
+        "持国王愚蠢追随难敌导致苦果"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国王质问坚战为何悲伤，指出自己和甘陀利更应悲伤。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国王",
+        "坚战",
+        "甘陀利"
+      ],
+      "action": "质问与对比",
+      "relationships": [
+        "叔侄",
+        "伯父母与侄子"
+      ],
+      "emotional_state": "持国王和甘陀利痛苦，不解坚战的悲伤"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国王说完后沉默，黑天对坚战说话。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国王",
+        "黑天",
+        "坚战"
+      ],
+      "action": "对话过渡",
+      "relationships": [
+        "黑天是坚战的盟友和导师"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天劝坚战不要过分悲伤，应举行祭祀和施舍。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天",
+        "坚战"
+      ],
+      "action": "劝诫与指导",
+      "key_points": [
+        "过分悲伤会引起祖先忧虑",
+        "应举行祭祀取悦天神和祖先",
+        "坚战本不应如此悲伤"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna (addressed as Govinda) consoles King Yudhishthira (addressed as Dharmaraja) after the war, advising him to follow his duty as a Kshatriya and not grieve for the fallen warriors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira"
+      ],
+      "action": "Consolation and advice",
+      "relationships": [
+        "Krishna is a friend and guide to Yudhishthira",
+        "Yudhishthira is the eldest Pandava brother and king"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira expresses his grief and guilt over killing Bhishma and Karna in the war, and requests Krishna's permission to retire to the forest for penance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Krishna"
+      ],
+      "action": "Expression of remorse and request for penance",
+      "relationships": [
+        "Yudhishthira feels responsible for the deaths of Bhishma (his grandfather) and Karna (his brother)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa (the sage) intervenes and admonishes Yudhishthira for his childish and confused thinking, reminding him of Kshatriya dharma and the teachings he has received.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Yudhishthira"
+      ],
+      "action": "Admonishment and reminder of duty",
+      "relationships": [
+        "Vyasa is a sage and guide to Yudhishthira",
+        "Vyasa is the author/complier of the Mahabharata"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa explains that all actions are divinely ordained, and advises Yudhishthira to perform sacrifices (like the Rajasuya, Ashvamedha, and Purushamedha) to atone for any perceived sins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Yudhishthira"
+      ],
+      "action": "Philosophical teaching and prescription of rituals",
+      "supernatural_elements": [
+        "Reference to divine ordination of actions",
+        "Mention of gods and asuras performing sacrifices for merit"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira expresses his dilemma about performing the Ashvamedha (horse sacrifice) due to lack of wealth after the war and his reluctance to tax the suffering people.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Vyasa"
+      ],
+      "type": "Dialogue/Consultation",
+      "relationships": "Yudhishthira seeks advice from sage Vyasa.",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa reveals that there is wealth left from King Marutta's sacrifice in the Himalayas and advises Yudhishthira to retrieve it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Yudhishthira"
+      ],
+      "type": "Revelation/Advice",
+      "relationships": "Vyasa provides guidance to Yudhishthira.",
+      "supernatural_elements": "Reference to ancient sacrificial wealth."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks about King Marutta's era and wealth, prompting Vyasa to narrate Marutta's story.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Vyasa"
+      ],
+      "type": "Inquiry/Narration Initiation",
+      "relationships": "Yudhishthira requests and Vyasa agrees to tell the story.",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa begins the story of King Marutta's lineage, starting from Manu in the Satya Yuga (Golden Age).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Manu",
+        "Prajapati",
+        "Chupa",
+        "Ikshvaku"
+      ],
+      "type": "Genealogical Narration",
+      "relationships": "Manu is the progenitor; Prajapati is his son; Chupa is Prajapati's son; Ikshvaku is Chupa's son.",
+      "supernatural_elements": "Set in the mythical Satya Yuga."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ikshvaku has 100 righteous sons, with his eldest Vrisha being a model archer, and Vrisha's son is Vivrisha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ikshvaku",
+        "Vrisha",
+        "Vivrisha"
+      ],
+      "type": "Lineage Continuation",
+      "relationships": "Ikshvaku is the father of Vrisha; Vrisha is the father of Vivrisha.",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vivrisha has 15 skilled and virtuous sons, but the eldest, Krishnendra, oppresses his brothers and loses the kingdom's support, leading to his deposition.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vivrisha",
+        "Krishnendra",
+        "Suvarchas"
+      ],
+      "type": "Conflict/Succession",
+      "relationships": "Krishnendra is Vivrisha's oppressive eldest son; Suvarchas is Krishnendra's son who is made king.",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The people depose Krishnendra and crown his son Suvarchas as king, bringing happiness to all.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishnendra",
+        "Suvarchas"
+      ],
+      "type": "Political Change",
+      "relationships": "Suvarchas succeeds his father Krishnendra as king.",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A king, after being exiled for his father's misdeeds, restrained himself and worked for the welfare of his subjects.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The King (later identified as Karandhama)"
+      ],
+      "action": "Exile, self-restraint, governance",
+      "relationships": "King and subjects (loving)",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "While following dharma, the king's wealth and resources gradually depleted, leading to empty treasury and harassment by neighboring kings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The King (later identified as Karandhama)"
+      ],
+      "action": "Resource depletion, enemy harassment",
+      "relationships": "King and enemy kings (hostile)",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "At the peak of suffering, the king blew on his hand, and an army instantly appeared, allowing him to defeat all border kings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The King (Karandhama)"
+      ],
+      "action": "Supernatural army creation, victory in battle",
+      "relationships": "King Karandhama and enemy kings (defeated)",
+      "supernatural_elements": "Army appears from blowing on hand"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Due to this event, the king became known as Karandhama ('Blower of the Hand').",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karandhama"
+      ],
+      "action": "Name origin",
+      "relationships": "None",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karandhama's son Avikshit was born in the Treta Yuga, equal to Indra, unconquerable even by gods, and became overlord of all kings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Avikshit",
+        "Indra"
+      ],
+      "action": "Birth, rise to power",
+      "relationships": "Father-son (Karandhama and Avikshit), Avikshit and other kings (ruled over)",
+      "supernatural_elements": "Comparable to Indra, unconquerable by gods"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Avikshit, righteous and valiant, performed one hundred horse sacrifices with the sage Angiras as chief priest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Avikshit",
+        "Angiras"
+      ],
+      "action": "Performance of horse sacrifices",
+      "relationships": "King Avikshit and sage Angiras (priest-patron)",
+      "supernatural_elements": "Ritual sacrifices"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Avikshit's son Marutta surpassed his father in qualities, became a universal monarch, and prepared for a grand sacrifice by having thousands of golden vessels made at Mount Meru.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Marutta",
+        "Avikshit"
+      ],
+      "action": "Succession, preparation for sacrifice",
+      "relationships": "Father-son (Avikshit and Marutta)",
+      "supernatural_elements": "Possessed strength of ten thousand elephants, compared to Vishnu"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Marutta, along with all kings, performed the sacrifice according to rules at the designated site near the golden mountain.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Marutta"
+      ],
+      "action": "Performance of sacrifice",
+      "relationships": "King Marutta and other kings (participants)",
+      "supernatural_elements": "Grand ritual"
+    },
+    "_token_interval": null
+  }
+]

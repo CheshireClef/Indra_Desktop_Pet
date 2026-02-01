@@ -1,0 +1,341 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas, after hearing a story, become disturbed and uneasy.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Kunti"
+      ],
+      "type": "Emotional Reaction",
+      "narrative_flow": "Introduction of the Pandavas' state of mind after an unspecified story."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti, observing her sons' distress, advises Yudhishthira to leave their current residence and travel to Panchala.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Yudhishthira"
+      ],
+      "action": "Advice/Planning",
+      "reason": "Long stay is unsafe; desire for new place and generosity of Panchala.",
+      "relationships": "Mother advising eldest son/leader.",
+      "key_plot_point": "Decision to relocate, setting stage for future events in Panchala."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira agrees but seeks consensus from his brothers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "action": "Seeking Agreement",
+      "relationships": "Brotherly consultation, leadership dynamic."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "All Pandava brothers agree to the move.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "action": "Consensus",
+      "relationships": "Unity among the Pandava brothers."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti and the Pandavas bid farewell to their Brahmin host and depart for the capital of King Drupada (Panchala).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Unnamed Brahmin Host"
+      ],
+      "action": "Departure",
+      "narrative_flow": "Transition from current location to Panchala, advancing the plot."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After the Pandavas settle discreetly in a Brahmin's house, the sage Vyasa visits them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "action": "Visit",
+      "relationships": "Sage visiting and guiding the Pandavas.",
+      "supernatural_elements": "Vyasa is a divine sage (rishī)."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas respectfully greet Vyasa.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Vyasa"
+      ],
+      "action": "Reverence",
+      "relationships": "Disciples showing respect to a sage."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa inquires about their adherence to dharma and respect for Brahmins, then begins telling them wondrous stories.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa"
+      ],
+      "action": "Inquiry and Storytelling",
+      "type": "Divine Guidance",
+      "narrative_flow": "Sage imparting wisdom and tales, possibly foreshadowing or moral instruction."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa begins a story about an unfortunate maiden in a hermitage who, despite her beauty and virtues, remains unmarried due to past karma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unnamed Maiden (Daughter of a Sage)",
+        "Shiva (Shankara)"
+      ],
+      "action": "Story Introduction",
+      "supernatural_elements": "Past karma determining fate; maiden undertakes austerities to please Shiva.",
+      "key_plot_point": "Beginning of a nested story within the main narrative, focusing on themes of destiny and penance."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The maiden performs severe austerities to win the favor of Shiva in order to obtain a husband.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unnamed Maiden",
+        "Shiva"
+      ],
+      "action": "Penance/Austerities",
+      "type": "Supernatural Endeavor",
+      "relationships": "Devotee seeking boon from deity.",
+      "supernatural_elements": "Tapas (austerities) to gain divine favor."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "世尊（大自在天/商迦罗）对苦行女感到满意，赐予她一个心愿。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大自在天",
+        "苦行女"
+      ],
+      "action": "赐愿",
+      "supernatural_element": "天神赐愿"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "苦行女向大自在天请求具备一切美德的丈夫，并重复了五遍。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "苦行女",
+        "大自在天"
+      ],
+      "action": "许愿",
+      "key_detail": "请求重复五遍"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "大自在天应允苦行女将有五位丈夫，并解释这是因为她重复了五遍请求。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大自在天",
+        "苦行女"
+      ],
+      "action": "预言命运",
+      "supernatural_element": "天神预言",
+      "relationship_change": "苦行女被注定有五位丈夫"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "苦行女请求只赐一位丈夫，但大自在天坚持预言她来世将有五位丈夫。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "苦行女",
+        "大自在天"
+      ],
+      "action": "修改请求被拒",
+      "key_detail": "命运已定"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "毗耶娑揭示苦行女已转世为木柱王的孙女黑公主，命中注定要嫁给般度的儿子们。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "毗耶娑",
+        "黑公主",
+        "般度的儿子们"
+      ],
+      "action": "揭示转世与命运",
+      "supernatural_element": "转世预言",
+      "relationship_change": "黑公主被注定为般度五子的妻子"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "毗耶娑劝告般度的儿子们前往般遮罗国京城迎娶黑公主，预言他们将获得幸福。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "毗耶娑",
+        "般度的儿子们",
+        "黑公主"
+      ],
+      "action": "指导与预言",
+      "key_detail": "推动情节发展"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "毗耶娑向贡蒂和她的儿子们告辞后离去。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "毗耶娑",
+        "贡蒂",
+        "般度的儿子们"
+      ],
+      "action": "告别",
+      "narrative_flow": "结束场景"
+    },
+    "_token_interval": null
+  }
+]

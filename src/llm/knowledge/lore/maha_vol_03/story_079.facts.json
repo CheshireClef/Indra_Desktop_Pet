@@ -1,0 +1,363 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "At dawn, Duryodhana addresses Bhishma in the army assembly, describing the formidable Pandava army and asking how long it would take to destroy it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhishma"
+      ],
+      "action": "Inquiry about battle capability",
+      "relationships": "Duryodhana (grandson) seeks strategic assessment from Bhishma (grandfather/commander)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma explains his battle capabilities, stating he can destroy part of the Pandava army daily using conventional means or annihilate them completely in one month using divine weapons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Declaration of military power",
+      "supernatural_elements": "Mention of divine weapons (astras)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana asks Drona the same question about destroying the Pandava army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Drona"
+      ],
+      "action": "Strategic inquiry",
+      "relationships": "Duryodhana (student) questions Drona (teacher/commander)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona responds that he, like Bhishma, could destroy the Pandava army in one month using divine weapon-fire, though acknowledging his age and diminished strength.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Declaration of capability",
+      "supernatural_elements": "Divine weapon-fire"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kripa states he would need two months, Ashwatthama promises ten days, and Karna boasts he could destroy the enemy army in just five days.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripa",
+        "Ashwatthama",
+        "Karna"
+      ],
+      "action": "Boasting of battle prowess",
+      "relationships": "Kaurava commanders competing in claims of destructive capability"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma laughs at Karna's boast, warning that Karna's claim is only valid if he avoids facing Arjuna, who fights alongside Krishna and never retreats.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Karna",
+        "Arjuna",
+        "Krishna"
+      ],
+      "action": "Warning/ridicule",
+      "relationships": "Bhishma dismisses Karna's boast, highlighting Arjuna's superiority with Krishna's support"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira secretly gathered his brothers and informed them of intelligence from his spy in Duryodhana's camp.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "action": "Intelligence sharing and council",
+      "relationships": [
+        "Brothers (Pandavas)",
+        "Leader (Yudhishthira)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The spy reported that Duryodhana asked Bhishma how long it would take to destroy the Pandava army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhishma"
+      ],
+      "action": "Military inquiry",
+      "relationships": [
+        "Grandson (Duryodhana) and Grandfather/Commander (Bhishma)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma promised Duryodhana he could destroy the Pandava army in one month.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Duryodhana"
+      ],
+      "action": "Military promise",
+      "relationships": [
+        "Commander to Prince"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona also promised to destroy the army in one month.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Duryodhana"
+      ],
+      "action": "Military promise",
+      "relationships": [
+        "Teacher/Commander to Prince"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kripa promised two months, Ashwatthama promised ten days, and Karna promised five days to destroy the Pandava army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripa",
+        "Ashwatthama",
+        "Karna",
+        "Duryodhana"
+      ],
+      "action": "Military promises",
+      "relationships": [
+        "Commanders to Prince"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asked Arjuna how long he would take to destroy the enemy in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Arjuna"
+      ],
+      "action": "Strategic inquiry",
+      "relationships": [
+        "Brothers",
+        "King to Warrior"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna, looking at Krishna, replied that while the Kaurava commanders were great, he could destroy all three worlds in the blink of an eye with a divine weapon given by Shiva.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna",
+        "Shiva"
+      ],
+      "action": "Divine revelation and boast",
+      "supernatural_elements": [
+        "Divine weapon from Shiva",
+        "Capability to destroy three worlds"
+      ],
+      "relationships": [
+        "Friend/Charioteer (Krishna to Arjuna)",
+        "Divine boon-giver (Shiva to Arjuna)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna stated that Bhishma, Drona, Kripa, Ashwatthama, and Karna did not know about this divine weapon.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Bhishma",
+        "Drona",
+        "Kripa",
+        "Ashwatthama",
+        "Karna"
+      ],
+      "action": "Revelation of secret advantage",
+      "relationships": [
+        "Opponents in war"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna argued it would be improper to use divine weapons against ordinary humans and that they should win through righteous combat.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Moral declaration",
+      "relationships": [
+        "Warrior with ethical code"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna praised the Pandava warriors including Shikhandi, Satyaki, Dhrishtadyumna, Bhima, the twins, Yudhamanyu, Uttamaujas, Virata, and Drupada, comparing them to Bhishma and Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Shikhandi",
+        "Satyaki",
+        "Dhrishtadyumna",
+        "Bhima",
+        "Nakula",
+        "Sahadeva",
+        "Yudhamanyu",
+        "Uttamaujas",
+        "Virata",
+        "Drupada",
+        "Bhishma",
+        "Drona"
+      ],
+      "action": "Praise of allies",
+      "relationships": [
+        "Allies in war",
+        "Comparisons to enemy commanders"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna told Yudhishthira that his angry glance alone could destroy someone, indicating Yudhishthira's hidden power.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Yudhishthira"
+      ],
+      "action": "Revelation of hidden capability",
+      "supernatural_elements": [
+        "Destructive power of Yudhishthira's glance"
+      ],
+      "relationships": [
+        "Brothers",
+        "Mutual knowledge of capabilities"
+      ]
+    },
+    "_token_interval": null
+  }
+]

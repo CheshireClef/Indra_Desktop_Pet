@@ -1,0 +1,643 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "贡提婆阇的女儿在选婿大典上，从成千上万的国王中选中了般度。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "贡提婆阇的女儿",
+        "般度"
+      ],
+      "action": "Selection in swayamvara",
+      "type": "Marriage arrangement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "般度和贡提婆阇的女儿结为夫妻，般度感到无限幸福。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般度",
+        "贡提婆阇的女儿"
+      ],
+      "action": "Marriage",
+      "type": "Romance/Union",
+      "relationship_change": "Become husband and wife"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "般度和天誓来到摩德罗国首都，毗湿摩付出巨资为般度买来摩德罗国国王的女儿玛德利，并为般度和玛德利举行了婚礼。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般度",
+        "天誓",
+        "毗湿摩",
+        "玛德利",
+        "摩德罗国国王"
+      ],
+      "action": "Marriage arrangement and wedding",
+      "type": "Political marriage",
+      "relationship_change": "Become husband and wife (般度和玛德利)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "般度出征为非作歹的十川国，战而胜之，保持了俱卢族的光荣。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般度"
+      ],
+      "action": "Military conquest",
+      "type": "War/Battle",
+      "target": "十川国"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "般度挥军前进，击败摩揭陀王国的保护者达尔婆，诛杀于王舍城。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般度",
+        "达尔婆"
+      ],
+      "action": "Military conquest and execution",
+      "type": "War/Battle",
+      "location": "王舍城"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "般度击败毗提诃人于弥提罗城，拿光仓库物资，牵走犛畜，收编士兵。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般度",
+        "毗提诃人"
+      ],
+      "action": "Military conquest and plunder",
+      "type": "War/Battle",
+      "location": "弥提罗城"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "般度在迦尸国、苏诃摩、崩德罗等地凭借勇武击败敌人，为俱卢族赢得光荣。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般度"
+      ],
+      "action": "Military conquest",
+      "type": "War/Battle",
+      "locations": [
+        "迦尸国",
+        "苏诃摩",
+        "崩德罗"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "般度击败众多国王及其军队，使他们屈服称臣，听命纳贡和提供徭役。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般度"
+      ],
+      "action": "Establishing supremacy",
+      "type": "Political dominance",
+      "result": "Kings become vassals"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "大地上所有的国王全都被般度击败，公认般度是独一无二的英雄，犹如众神之中的城堡破坏者（因陀罗）。",
+    "char_interval": {
+      "start_pos": 690,
+      "end_pos": 754
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般度"
+      ],
+      "action": "Achieving universal recognition",
+      "type": "Heroic achievement",
+      "comparison": "Compared to Indra"
+    },
+    "_token_interval": {
+      "start_index": 202,
+      "end_index": 217
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "大地上所有的国王都赶来朝拜般度，向他合掌致敬，弯腰鞠躬，携来钱财和种种奇珍异宝。",
+    "char_interval": {
+      "start_pos": 735,
+      "end_pos": 798
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般度"
+      ],
+      "action": "Receiving tribute and homage",
+      "type": "Political submission",
+      "tribute_items": [
+        "钱财",
+        "奇珍异宝",
+        "摩尼宝珠",
+        "珍珠",
+        "珊瑚",
+        "黄金",
+        "白银",
+        "母牛",
+        "宝马",
+        "华轩",
+        "大象",
+        "驴",
+        "骆驼",
+        "公牛",
+        "山羊",
+        "绵羊"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 211,
+      "end_index": 228
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "般度携带着这些财物，率领着兴高采烈的军队凯旋归来，为自己的王国和象城带来一片欢腾。",
+    "char_interval": {
+      "start_pos": 893,
+      "end_pos": 918
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般度"
+      ],
+      "action": "Triumphant return",
+      "type": "Victory celebration",
+      "location": "象城",
+      "result": "Renewed glory for the Kuru dynasty"
+    },
+    "_token_interval": {
+      "start_index": 263,
+      "end_index": 267
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pandu (referred to as '象城雄狮般度') successfully conquered enemies who had previously invaded and plundered the Kuru kingdom, forcing them to pay tribute.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandu"
+      ],
+      "action": "Military victory and subjugation of enemies",
+      "result": "Enemies become tributaries, restoring Kuru wealth and prestige"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Kuru nobles, ministers, citizens, and villagers rejoice and feel great relief at Pandu's triumph.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kuru nobles",
+        "Kuru ministers",
+        "Citizens",
+        "Villagers"
+      ],
+      "emotion": "Joy and relief",
+      "context": "Public celebration of Pandu's victory"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma leads the citizens of Hastinapura to welcome the triumphant Pandu from a long distance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Pandu",
+        "Citizens of Hastinapura"
+      ],
+      "action": "Welcoming procession",
+      "relationship": "Bhishma (grandfather/uncle) welcomes Pandu (grandson/nephew)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The procession witnesses vast spoils of war including prisoners, treasures, vehicles, elephants, horses, cows, camels, and sheep.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Kurus",
+        "Pandu"
+      ],
+      "description": "Display of war spoils and captives",
+      "scale": "Extensive and endless-seeming"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pandu pays respects to Bhishma by touching his feet, brings joy to his mother Kausalya (憍萨罗的公主), and honors the citizens and villagers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandu",
+        "Bhishma",
+        "Kausalya",
+        "Citizens",
+        "Villagers"
+      ],
+      "actions": [
+        "Filial piety",
+        "Maternal reunion",
+        "Public honor"
+      ],
+      "relationships": [
+        "Pandu shows respect to elder Bhishma",
+        "Pandu reunites with mother Kausalya"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma weeps tears of joy upon reuniting with Pandu.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Pandu"
+      ],
+      "emotion": "Joyful weeping",
+      "relationship": "Emotional reunion between elder and younger family members"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pandu enters Hastinapura amid massive celebrations with hundreds of bands and countless drums, delighting all citizens.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandu",
+        "Citizens of Hastinapura"
+      ],
+      "action": "Triumphal entry",
+      "atmosphere": "Festive and ecstatic"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pandu presents the wealth he won through his valor to Bhishma, Satyavati (贞信太后), his mother Kausalya, and Vidura, and distributes wealth to relatives and friends who are satisfied.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandu",
+        "Bhishma",
+        "Satyavati",
+        "Kausalya",
+        "Vidura",
+        "Relatives",
+        "Friends"
+      ],
+      "action": "Distribution of war spoils",
+      "relationships": [
+        "Pandu honors family elders and close associates"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma distributes brilliant jewels to Satyavati and the renowned princess Kausalya, satisfying them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Satyavati",
+        "Kausalya"
+      ],
+      "action": "Distribution of jewels",
+      "relationships": [
+        "Bhishma as family head distributing treasures to women of the family"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kausalya embraces the glorious Pandu with great joy, compared to Paulomi embracing her son Jayanta.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kausalya",
+        "Pandu"
+      ],
+      "action": "Maternal embrace",
+      "emotion": "Great joy",
+      "comparison": "Like goddess Paulomi embracing her son Jayanta"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra uses the wealth won by Pandu to perform many grand sacrifices, including hundreds of horse sacrifices, and gives generous donations to hundreds of thousands of people.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Pandu"
+      ],
+      "actions": [
+        "Performance of sacrifices",
+        "Generous donations"
+      ],
+      "scale": "Many grand sacrifices, hundreds of horse sacrifices, donations to hundreds of thousands"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After resting, Pandu goes to wander in the forest with Kunti and Madri, abandoning his palace and comfortable beds to live long in the forest,沉醉于行猎 (indulging in hunting).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandu",
+        "Kunti",
+        "Madri"
+      ],
+      "action": "Forest retreat and hunting",
+      "lifestyle_change": "Abandons palace life for forest dwelling"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pandu travels to the beautiful southern slopes of the Himalayas, spending nights on mountain peaks and in large sal forests.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandu",
+        "Kunti",
+        "Madri"
+      ],
+      "location": "Himalayan southern slopes, mountain peaks, sal forests",
+      "activity": "Travel and camping"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pandu lives happily in the forest with Kunti and Madri, compared to a lordly elephant living between two female elephants.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandu",
+        "Kunti",
+        "Madri"
+      ],
+      "state": "Happiness",
+      "relationship": "Pandu with his two wives",
+      "comparison": "Like a lordly elephant between two female elephants"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pandu, accompanied by his two wives, armed with arrows and bow, wearing colorful armor, roams about. Forest dwellers think this heroic king skilled in weapons is a deity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandu",
+        "Kunti",
+        "Madri",
+        "Forest dwellers"
+      ],
+      "appearance": "Armed and armored heroic figure",
+      "perception": "Mistaken for a deity by forest dwellers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Following Dhritarashtra's orders, people constantly bring various entertainments and enjoyments to Pandu in the forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Pandu",
+        "Servants/Attendants"
+      ],
+      "action": "Provision of comforts and entertainment",
+      "relationship": "Dhritarashtra ensures Pandu's comfort even in forest exile"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "恒河之子听说提婆迦国王有一位首陀罗女子生的女儿，容貌美丽，正当青春妙龄。",
+    "char_interval": {
+      "start_pos": 1984,
+      "end_pos": 2014
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "恒河之子",
+        "提婆迦国王",
+        "首陀罗女子生的女儿"
+      ],
+      "action": "Hearing about the maiden",
+      "description": "恒河之子 learns about a beautiful young daughter born to a Shudra woman of King Devaka."
+    },
+    "_token_interval": {
+      "start_index": 532,
+      "end_index": 538
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "人中雄牛选中了她，带回了来，为睿智不凡的维杜罗和她举行了婚礼。",
+    "char_interval": {
+      "start_pos": 2021,
+      "end_pos": 2052
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "人中雄牛",
+        "维杜罗",
+        "首陀罗女子生的女儿"
+      ],
+      "action": "Marriage arrangement",
+      "description": "人中雄牛 selects her, brings her back, and arranges a marriage between the wise Vidura and her."
+    },
+    "_token_interval": {
+      "start_index": 543,
+      "end_index": 549
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "俱卢的后裔维杜罗和她生育了许多儿子，具有他自身同样的教养，同样的美德。",
+    "char_interval": {
+      "start_pos": 2056,
+      "end_pos": 2091
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "维杜罗",
+        "首陀罗女子生的女儿"
+      ],
+      "action": "Procreation",
+      "description": "Vidura, descendant of Kuru, and her have many sons who share his upbringing and virtues."
+    },
+    "_token_interval": {
+      "start_index": 552,
+      "end_index": 558
+    }
+  }
+]

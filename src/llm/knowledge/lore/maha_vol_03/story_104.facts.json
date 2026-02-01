@@ -1,0 +1,1330 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana commands all armies to kill Bhima after the elephant corps is slaughtered.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhima"
+      ],
+      "action": "Command to kill",
+      "relationship": "Enemies (cousins)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "All armies charge at Bhima following Duryodhana's order.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Kaurava armies"
+      ],
+      "action": "Mass charge",
+      "supernatural_elements": "Army described as vast as the ocean, difficult even for gods to resist"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima withstands the army's charge like a shore holding back the sea.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "action": "Defensive stand",
+      "description": "Bhima remains unshaken against overwhelming forces"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima fights with his iron mace, striking down soldiers, horses, chariots, and elephants.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "action": "Combat with mace",
+      "supernatural_elements": "Compared to Shiva with trident, Yama with staff, Indra with thunderbolt"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima's allies remain with him despite fear: his brothers, sons, Shikhandin, Draupadi's sons, Abhimanyu, and Satyaki.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Pandava brothers",
+        "Shikhandin",
+        "Abhimanyu",
+        "Satyaki",
+        "Draupadi's sons"
+      ],
+      "action": "Loyalty in battle",
+      "relationships": "Family and allies supporting Bhima"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima wreaks havoc on the battlefield, killing soldiers and animals indiscriminately.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "action": "Mass slaughter",
+      "description": "Battlefield becomes like Death's slaughterhouse"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma charges toward Bhima to confront him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Bhima"
+      ],
+      "action": "Confrontation",
+      "relationship": "Grandfather vs. grandson"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma covers Bhima with arrows from his sun-like chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Bhima"
+      ],
+      "action": "Archery attack",
+      "supernatural_elements": "Chariot compared to sun and thundercloud"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima angrily charges toward Bhishma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Bhishma"
+      ],
+      "action": "Counter-charge",
+      "description": "Bhima responds aggressively to Bhishma's attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki charges toward Bhishma, attacking the Kaurava army with his bow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Bhishma",
+        "Kaurava army"
+      ],
+      "action": "Cavalry charge and archery",
+      "relationship": "Satyaki (Yadava warrior) attacks Bhishma (Kuru elder)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "广声极其愤怒，向萨谛奇发射九支箭",
+    "char_interval": {
+      "start_pos": 1249,
+      "end_pos": 1265
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "广声",
+        "萨谛奇"
+      ],
+      "action": "Attack",
+      "relationship": "Enemies in battle"
+    },
+    "_token_interval": {
+      "start_index": 355,
+      "end_index": 358
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "萨谛奇向广声泼洒笔直的箭",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "萨谛奇",
+        "广声"
+      ],
+      "action": "Counterattack",
+      "relationship": "Enemies in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌王和弟弟们从四面围住广声",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌",
+        "广声"
+      ],
+      "action": "Surround",
+      "relationship": "Allies in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "般度之子们一起围住萨谛奇",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般度之子们",
+        "萨谛奇"
+      ],
+      "action": "Surround",
+      "relationship": "Allies in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "怖军满腔愤怒，举起铁杵，围攻以难敌为首的儿子们",
+    "char_interval": {
+      "start_pos": 1386,
+      "end_pos": 1398
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "怖军",
+        "难敌"
+      ],
+      "action": "Attack",
+      "relationship": "Enemies in battle"
+    },
+    "_token_interval": {
+      "start_index": 394,
+      "end_index": 398
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "南陀迦向大力士怖军发射六支箭",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "南陀迦",
+        "怖军"
+      ],
+      "action": "Attack",
+      "relationship": "Enemies in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌用三支利箭射击大力士怖军的胸膛",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌",
+        "怖军"
+      ],
+      "action": "Attack",
+      "relationship": "Enemies in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "怖军向难敌发射十支镶金利箭，又对准南陀迦的胸膛发射三支箭",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "怖军",
+        "难敌",
+        "南陀迦"
+      ],
+      "action": "Counterattack",
+      "relationship": "Enemies in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌向大力士怖军发射六十支箭，又向除忧发射三支利箭",
+    "char_interval": {
+      "start_pos": 1660,
+      "end_pos": 1685
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌",
+        "怖军",
+        "除忧"
+      ],
+      "action": "Attack",
+      "relationship": "Enemies in battle"
+    },
+    "_token_interval": {
+      "start_index": 469,
+      "end_index": 472
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌用三支利箭射断怖军光亮的弓",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌",
+        "怖军"
+      ],
+      "action": "Disarm",
+      "relationship": "Enemies in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "怖军看到御者除忧在战斗中遭受打击，难以忍受，拿起神弓想要杀死难敌",
+    "char_interval": {
+      "start_pos": 1743,
+      "end_pos": 1760
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "怖军",
+        "除忧",
+        "难敌"
+      ],
+      "action": "Retaliation",
+      "relationship": "Enemies in battle"
+    },
+    "_token_interval": {
+      "start_index": 491,
+      "end_index": 493
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "怖军愤怒地取出马蹄羽毛箭，射断难敌王的良弓",
+    "char_interval": {
+      "start_pos": 1805,
+      "end_pos": 1818
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "怖军",
+        "难敌"
+      ],
+      "action": "Disarm",
+      "relationship": "Enemies in battle"
+    },
+    "_token_interval": {
+      "start_index": 511,
+      "end_index": 513
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌搭上一支像死神那样可怕的利箭，愤怒地射击怖军的胸膛",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌",
+        "怖军"
+      ],
+      "action": "Attack",
+      "relationship": "Enemies in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "怖军受到重创，痛苦地坐在车座上，昏迷过去",
+    "char_interval": {
+      "start_pos": 1892,
+      "end_pos": 1907
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "怖军"
+      ],
+      "action": "Injury",
+      "relationship": "Enemies in battle"
+    },
+    "_token_interval": {
+      "start_index": 534,
+      "end_index": 537
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "以激昂为首的般度族大弓箭手和大勇士们看到怖军受伤，不能忍受",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "激昂",
+        "怖军"
+      ],
+      "action": "Reaction",
+      "relationship": "Allies in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima, regaining consciousness, fired three arrows at Duryodhana, then five more arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Duryodhana"
+      ],
+      "action": "Arrow attack",
+      "relationship": "Enemies (Cousins from opposing sides in the Kurukshetra War)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima fired twenty-five gold-feathered arrows at Shalya, who was wounded and fled the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Shalya"
+      ],
+      "action": "Arrow attack causing retreat",
+      "relationship": "Enemies (Shalya fighting for the Kaurava side)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Fourteen of Dhritarashtra's sons (including Senapati, Sushana, Jalasandha, and Shukla) charged at Bhima in anger, firing many arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Senapati",
+        "Sushana",
+        "Jalasandha",
+        "Shukla",
+        "Vikarna",
+        "Bhoja",
+        "Vira",
+        "Bahu",
+        "Alolupa",
+        "Durmukha",
+        "Dushpradharshana",
+        "Vivitsu",
+        "Vikata",
+        "Sama"
+      ],
+      "action": "Group charge and attack",
+      "relationship": "Enemies (Bhima vs. Kaurava princes)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima killed Senapati by cutting off his head with a horse-hoof arrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Senapati"
+      ],
+      "action": "Decapitation/killing",
+      "relationship": "Enemies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima killed Jalasandha, sending him to Yama's abode.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Jalasandha"
+      ],
+      "action": "Killing",
+      "relationship": "Enemies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima killed Sushana, delivering him to the god of death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Sushana"
+      ],
+      "action": "Killing",
+      "relationship": "Enemies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima cut off Vikarna's head with a crescent-headed arrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Vikarna"
+      ],
+      "action": "Decapitation/killing",
+      "relationship": "Enemies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima sent Bahu along with his horses, banner, and charioteer to the netherworld with seven arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Bahu"
+      ],
+      "action": "Killing",
+      "relationship": "Enemies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima sent the fierce brothers Vira and Bhoja to Yama's abode.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Vira",
+        "Bhoja"
+      ],
+      "action": "Killing",
+      "relationship": "Enemies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima sent Shukla to Yama's abode with a horse-hoof arrow in front of all the armies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Shukla"
+      ],
+      "action": "Killing",
+      "relationship": "Enemies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The remaining sons of Dhritarashtra, witnessing Bhima's power, fled in all directions in fear.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Remaining Kaurava princes"
+      ],
+      "action": "Rout and retreat",
+      "relationship": "Enemies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma addressed all the great warriors, urging them to destroy Bhima who was slaughtering Dhritarashtra's sons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "All Kaurava warriors",
+        "Bhima"
+      ],
+      "action": "Rallying speech",
+      "relationship": "Bhishma (Kaurava commander) ordering troops against Bhima (enemy warrior)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "All of Dhritarashtra's warriors charged at Bhima in anger.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kaurava warriors",
+        "Bhima"
+      ],
+      "action": "Mass charge",
+      "relationship": "Enemies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhagadatta, riding his elephant Supratika, suddenly charged at Bhima and covered him with sharp arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhagadatta",
+        "Bhima"
+      ],
+      "action": "Elephant charge and arrow attack",
+      "relationship": "Enemies (Bhagadatta fighting for Kaurava side)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Warriors led by Abhimanyu could not bear to see Bhima overwhelmed by arrows and surrounded Bhagadatta, attacking his elephant with arrow showers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Abhimanyu",
+        "Pandava warriors",
+        "Bhagadatta"
+      ],
+      "action": "Counter-attack to rescue Bhima",
+      "relationship": "Allies (Pandava side) defending Bhima against Bhagadatta"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhagadatta's elephant Supratika, wounded and bleeding, charged forward at double speed, terrifying the warriors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhagadatta",
+        "Supratika (elephant)",
+        "Pandava warriors"
+      ],
+      "action": "Rampaging elephant charge",
+      "supernatural_element": "Compared to a destroyer sent by Time"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhagadatta angrily shot a straight arrow that struck Bhima in the chest, causing Bhima to lose consciousness and lean against his flagstaff.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhagadatta",
+        "Bhima"
+      ],
+      "action": "Critical wounding",
+      "relationship": "Enemies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima faints, causing fear among his companions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "type": "Injury/Setback"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha, seeing Bhima's condition, becomes enraged and disappears while invisible.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Bhima"
+      ],
+      "action": "Anger/Disappearance",
+      "relationship": "Father-Son"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha reappears in a terrifying form, creates terrifying illusions, and rides the illusory elephant Airavata, followed by other directional elephants.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha"
+      ],
+      "action": "Illusion/Supernatural Display",
+      "supernatural_elements": [
+        "Illusions",
+        "Illusory Elephant Airavata"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Other Rakshasas ride the elephants Anjana, Vamana, and Mahapadma, which are large, powerful, and have three streams of ichor flowing from their temples.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rakshasas"
+      ],
+      "action": "Mounting Elephants",
+      "supernatural_elements": [
+        "Elephants with Supernatural Features"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha spurs his elephant to attack and kill Bhagadatta, who is riding his own elephant.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Bhagadatta"
+      ],
+      "action": "Attack",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Other four-tusked elephants, spurred by Rakshasa warriors, surround Bhagadatta's elephant from all sides and attack it with their tusks.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rakshasas",
+        "Bhagadatta"
+      ],
+      "action": "Surround and Attack",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhagadatta's elephant, attacked by elephants and arrows, cries out in pain with a loud roar like thunder.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhagadatta"
+      ],
+      "action": "Distress",
+      "type": "Injury"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma, hearing the elephant's cry, speaks to Drona and Duryodhana about Bhagadatta being in trouble while fighting Ghatotkacha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Drona",
+        "Duryodhana",
+        "Bhagadatta",
+        "Ghatotkacha"
+      ],
+      "action": "Dialogue/Concern",
+      "relationships": [
+        "Bhishma as Kuru Elder",
+        "Duryodhana as Kuru King"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma urges rescue of Bhagadatta, noting the loud cheers of the Pandavas and the elephant's fearful cries.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Bhagadatta",
+        "Pandavas"
+      ],
+      "action": "Urge Rescue",
+      "type": "Strategy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Led by Drona, all the kings rush to rescue Bhagadatta.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Kuru Kings",
+        "Bhagadatta"
+      ],
+      "action": "Rescue Mission",
+      "type": "Combat Movement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing them advance, Yudhishthira leads the Panchalas and Pandavas in pursuit.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Panchalas",
+        "Pandavas",
+        "Kuru Army"
+      ],
+      "action": "Pursuit",
+      "type": "Combat Movement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha roars loudly like thunder upon seeing the armies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha"
+      ],
+      "action": "Roar",
+      "type": "Intimidation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma, hearing Ghatotkacha's roar and seeing the battling elephants, tells Drona he does not wish to fight Ghatotkacha, who is powerful and has reinforcements.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Drona",
+        "Ghatotkacha"
+      ],
+      "action": "Dialogue/Strategy",
+      "type": "Withdrawal Consideration"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma states that even Indra could not defeat Ghatotkacha in his current state, and suggests retreat due to their tired animals and the Pandavas' advantage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Indra",
+        "Ghatotkacha",
+        "Pandavas"
+      ],
+      "action": "Assessment/Retreat Suggestion",
+      "supernatural_elements": [
+        "Reference to Indra's Power"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Kurus, fearing Ghatotkacha, retreat upon Bhishma's words.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kurus",
+        "Bhishma",
+        "Ghatotkacha"
+      ],
+      "action": "Retreat",
+      "type": "Combat Outcome"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas, filled with joy of victory, roar like lions and blow conches and bamboo flutes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas"
+      ],
+      "action": "Victory Celebration",
+      "type": "Combat Outcome"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The day's battle ends with Ghatotkacha shining prominently.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Pandavas",
+        "Kurus"
+      ],
+      "action": "Battle Conclusion",
+      "type": "Narrative Summary"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "夜晚降临，俱卢族人返回自己的营地，他们被般度族人打败，满怀羞愧。",
+    "char_interval": {
+      "start_pos": 3943,
+      "end_pos": 3960
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "俱卢族军队"
+      ],
+      "action": "战败撤退",
+      "emotional_state": "羞愧",
+      "opponent": "般度族人"
+    },
+    "_token_interval": {
+      "start_index": 1130,
+      "end_index": 1134
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "大勇士般度之子们身上布满箭伤，但满怀战斗的喜悦，也返回营地。",
+    "char_interval": {
+      "start_pos": 3983,
+      "end_pos": 4013
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "怖军",
+        "阿周那",
+        "无种",
+        "偕天"
+      ],
+      "action": "胜利返回",
+      "condition": "受伤但喜悦",
+      "emotional_state": "战斗的喜悦"
+    },
+    "_token_interval": {
+      "start_index": 1143,
+      "end_index": 1149
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "他们欣喜无比，将怖军和瓶首拥到前面，互相致敬。",
+    "char_interval": {
+      "start_pos": 4017,
+      "end_pos": 4039
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般度五子",
+        "怖军",
+        "瓶首"
+      ],
+      "action": "庆祝胜利",
+      "honored_warriors": [
+        "怖军",
+        "瓶首"
+      ],
+      "relationship": "战友间的互相致敬"
+    },
+    "_token_interval": {
+      "start_index": 1152,
+      "end_index": 1157
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "他们发出各种叫声，伴随着鼓声；他们发出狮子吼，伴随着螺号声。",
+    "char_interval": {
+      "start_pos": 4048,
+      "end_pos": 4078
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般度族军队"
+      ],
+      "action": "胜利欢呼",
+      "accompaniment": [
+        "鼓声",
+        "螺号声"
+      ],
+      "atmosphere": "胜利庆祝"
+    },
+    "_token_interval": {
+      "start_index": 1163,
+      "end_index": 1171
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "这些灵魂高尚的战士发出吼叫，震撼大地，刺痛你儿子的心。",
+    "char_interval": {
+      "start_pos": 4082,
+      "end_pos": 4108
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般度族战士"
+      ],
+      "action": "胜利示威",
+      "effect": [
+        "震撼大地",
+        "刺痛难敌的心"
+      ],
+      "emotional_impact": "对难敌的心理打击"
+    },
+    "_token_interval": {
+      "start_index": 1174,
+      "end_index": 1179
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌王由于一些弟弟阵亡，神情沮丧，饱含忧伤的泪水，沉思片刻。",
+    "char_interval": {
+      "start_pos": 4134,
+      "end_pos": 4164
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌"
+      ],
+      "action": "悲伤沉思",
+      "emotional_state": [
+        "沮丧",
+        "忧伤"
+      ],
+      "reason": "弟弟们阵亡",
+      "relationship": "兄弟之情"
+    },
+    "_token_interval": {
+      "start_index": 1187,
+      "end_index": 1195
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "他按照规则安排好营地的一切事务；他失去一些弟弟，痛苦忧伤，陷入沉思。",
+    "char_interval": {
+      "start_pos": 4171,
+      "end_pos": 4205
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌"
+      ],
+      "action": [
+        "安排营地事务",
+        "沉思"
+      ],
+      "emotional_state": [
+        "痛苦",
+        "忧伤"
+      ],
+      "responsibility": "作为统帅的职责",
+      "personal_loss": "失去弟弟们"
+    },
+    "_token_interval": {
+      "start_index": 1200,
+      "end_index": 1208
+    }
+  }
+]

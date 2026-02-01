@@ -1,0 +1,919 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Bhishma about the dharma of protecting those who seek refuge.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Dialogue/Inquiry",
+      "relationships": [
+        "Grandson-Grandfather",
+        "Student-Teacher"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma confirms the importance of protecting refugees and mentions King Niga and a pigeon as examples.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Yudhishthira",
+        "King Niga"
+      ],
+      "type": "Teaching/Example",
+      "relationships": [
+        "Teacher-Student",
+        "Mention of historical figure"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks for details about the pigeon's story.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Dialogue/Request",
+      "relationships": [
+        "Student-Teacher"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma begins narrating a story originally told by a descendant of Bhrigu to King Muchukunda.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Descendant of Bhrigu",
+        "King Muchukunda"
+      ],
+      "type": "Story Introduction",
+      "relationships": [
+        "Narrator-Listener",
+        "Historical transmission"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Introduction of a cruel bird-catcher: dark-skinned, short-legged, with a vile nature, living with his wife, and despised by all.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bird-catcher"
+      ],
+      "type": "Character Introduction",
+      "relationships": [
+        "Married to unnamed wife",
+        "Social outcast"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A violent storm arises with strong winds, dark clouds, lightning, and heavy rain sent by Indra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra"
+      ],
+      "type": "Divine Intervention/Weather Event",
+      "relationships": [
+        "God controlling weather"
+      ],
+      "supernatural_elements": [
+        "Storm sent by Indra"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The bird-catcher, terrified and cold, loses his way in the flooded forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bird-catcher"
+      ],
+      "type": "Conflict/Struggle",
+      "relationships": [
+        "Alone in storm"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Animals (birds, deer, lions, boars) and forest dwellers suffer from fear and hunger in the storm.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Forest animals",
+        "Forest dwellers"
+      ],
+      "type": "Environmental Hardship",
+      "relationships": [
+        "All affected by storm"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The bird-catcher finds a large, dark blue tree and decides to spend the night there.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bird-catcher"
+      ],
+      "type": "Seeking Shelter",
+      "relationships": [
+        "Takes refuge at tree"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sky clears, revealing stars, but the bird-catcher remains cold and far from his village.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bird-catcher"
+      ],
+      "type": "Setting Change",
+      "relationships": [
+        "Isolated in forest"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The bird-catcher prays to the tree's deities for protection, makes a bed of leaves, and sleeps painfully with a stone as pillow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bird-catcher"
+      ],
+      "type": "Ritual/Seeking Refuge",
+      "relationships": [
+        "Seeks divine protection"
+      ],
+      "supernatural_elements": [
+        "Invocation of tree deities"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma narrates a story about a beautiful bird living with its mate on a tree branch.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Male Bird",
+        "Female Bird"
+      ],
+      "type": "Narration/Storytelling"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The female bird goes out at dawn to find food and does not return by nightfall.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Female Bird"
+      ],
+      "action": "Departure for foraging"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The male bird becomes anxious as night falls and his wife has not returned, especially due to stormy weather.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Male Bird"
+      ],
+      "emotion": "Anxiety/Worry",
+      "relationship": "Husband worried about wife"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The male bird expresses deep love and dependence on his wife, praising her qualities and stating life would be meaningless without her.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Male Bird"
+      ],
+      "speech": "Expression of love and devotion",
+      "relationship": "Husband's devotion to wife"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The female bird, who has been captured by a bird-catcher, hears her husband's sorrowful words.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Female Bird",
+        "Bird-catcher"
+      ],
+      "situation": "Captured",
+      "action": "Listening"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The female bird reflects that a wife who does not satisfy her husband is not a true wife, and that the husband is her refuge.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Female Bird"
+      ],
+      "thought": "Wifely duty and devotion",
+      "relationship": "Wife's duty to husband"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The captured female bird, distressed and thinking of her suffering husband, advises him on what to do.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Female Bird",
+        "Male Bird"
+      ],
+      "action": "Giving advice",
+      "relationship": "Wife advising husband"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The female bird instructs her husband to protect and honor the bird-catcher who is seeking refuge, despite his own suffering, emphasizing dharma (righteous duty).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Female Bird",
+        "Male Bird",
+        "Bird-catcher"
+      ],
+      "advice": "Protect refuge-seeker, follow dharma",
+      "moral_lesson": "Hospitality and righteousness"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The female bird encourages her husband to not spare himself, to focus on dharma and benefit, and to please the hunter, as they have offspring and he is a noble soul.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Female Bird",
+        "Male Bird"
+      ],
+      "encouragement": "Self-sacrifice for righteousness",
+      "relationship": "Wife guiding husband's actions"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The male bird listens to his wife's dharma-aligned words with joy and tears in his eyes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Male Bird",
+        "Female Bird"
+      ],
+      "reaction": "Emotional acceptance",
+      "relationship": "Husband moved by wife's wisdom"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The male bird sees the bird-catcher and strives to honor him according to ritual, offering welcome and assistance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Male Bird",
+        "Bird-catcher"
+      ],
+      "action": "Hospitality and respect",
+      "dharma_act": "Honoring a refuge-seeker"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The hunter expresses coldness and asks the bird to relieve his suffering.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hunter",
+        "Bird (Pigeon)"
+      ],
+      "action": "Request for help",
+      "relationship": "Stranger seeking aid"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The bird gathers dry leaves and fetches fire from a charcoal-burning place to make a fire for the hunter.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bird (Pigeon)",
+        "Hunter"
+      ],
+      "action": "Providing warmth",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The hunter, after warming up, expresses hunger and asks the bird for food.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hunter",
+        "Bird (Pigeon)"
+      ],
+      "action": "Request for food",
+      "relationship_change": "Hunter becomes more demanding"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The bird explains it cannot provide food as it lives day-to-day like forest-dwelling sages, feeling ashamed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bird (Pigeon)"
+      ],
+      "action": "Explanation and self-reflection",
+      "type": "Moral dilemma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The bird decides to honor the guest by offering its own body as food, citing the duty of hospitality taught by gods and sages.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bird (Pigeon)"
+      ],
+      "action": "Self-sacrifice decision",
+      "type": "Divine principle invocation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The bird circles the fire three times and jumps into it, offering itself to the hunter.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bird (Pigeon)"
+      ],
+      "action": "Self-immolation",
+      "supernatural_elements": "Ritualistic act (circling fire)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The hunter is horrified by his actions, condemning himself as cruel and sinful.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hunter"
+      ],
+      "action": "Self-condemnation",
+      "relationship_change": "Hunter realizes his wrongdoing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The hunter vows to renounce his life, family, and pleasures, embracing ascetic practices to atone for his sin, inspired by the bird's demonstration of dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hunter"
+      ],
+      "action": "Vow of renunciation and penance",
+      "type": "Spiritual transformation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The hunter made a vow and decided to travel far away.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hunter"
+      ],
+      "action": "Vow and decision to travel",
+      "details": "He discarded his hunting tools (stick, iron fork, net, cage) and released the pigeons he had caught."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The female dove mourned her husband's absence with deep sorrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Female Dove"
+      ],
+      "action": "Lamentation",
+      "details": "She recalled their happy times together, expressed the importance of a husband, and declared she could not live without him."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The female dove threw herself into a burning fire out of devotion to her husband.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Female Dove"
+      ],
+      "action": "Self-immolation",
+      "type": "Sacrifice/Devotion"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The female dove saw her husband in heaven, adorned and respected.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Female Dove",
+        "Male Dove"
+      ],
+      "action": "Vision of husband in heaven",
+      "supernatural_elements": "Heavenly realm, flying chariots, respected by sages"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The male dove reunited with his wife in heaven, sharing joy.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Male Dove",
+        "Female Dove"
+      ],
+      "action": "Reunion in heaven",
+      "details": "They enjoyed happiness together in heaven due to the male dove's merits."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The hunter observed the dove couple in their heavenly chariot and reflected on the path of righteousness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hunter"
+      ],
+      "action": "Observation and reflection",
+      "details": "He pondered how to achieve the highest spiritual goal through ascetic practices."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The hunter decided to undertake a journey of asceticism.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hunter"
+      ],
+      "action": "Decision for ascetic journey",
+      "details": "He abandoned worldly life, subsisted on air, and sought heaven, driven by a desire for spiritual attainment."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The hunter entered a forest, enduring physical hardships.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hunter"
+      ],
+      "action": "Forest asceticism",
+      "details": "He fasted, became emaciated, and wandered in a forest full of thorns and wild animals, with his body bleeding from cuts."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A forest fire erupted due to wind causing trees to rub together.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Forest fire ignition",
+      "supernatural_elements": "Fire likened to the fire of the end of an age, fueled by wind"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The forest fire spread violently, consuming trees, vines, birds, and animals.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Forest fire devastation",
+      "details": "The fire, aided by wind, burned fiercely through the terrifying forest."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "猎人渴望舍弃肉体，满怀喜悦，跑进熊熊燃烧的大火。",
+    "char_interval": {
+      "start_pos": 3946,
+      "end_pos": 3970
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "猎人"
+      ],
+      "action": "自焚",
+      "motive": "舍弃肉体，消除罪孽"
+    },
+    "_token_interval": {
+      "start_index": 1230,
+      "end_index": 1236
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "在烈火的燃烧中，猎人消除罪孽，获得至高的成就。",
+    "char_interval": {
+      "start_pos": 3974,
+      "end_pos": 3996
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "猎人"
+      ],
+      "result": "消除罪孽，获得至高成就",
+      "supernatural_element": "通过自焚净化罪孽"
+    },
+    "_token_interval": {
+      "start_index": 1239,
+      "end_index": 1244
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "他摆脱烦恼，看到自己升入天国，犹如因陀罗处身药叉、健达缚和悉陀们中间，光彩熠熠。",
+    "char_interval": {
+      "start_pos": 4009,
+      "end_pos": 4049
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "猎人"
+      ],
+      "result": "升入天国",
+      "divine_comparison": "如同因陀罗在众神中间"
+    },
+    "_token_interval": {
+      "start_index": 1250,
+      "end_index": 1260
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "雄鸽和忠于丈夫的雌鸽，还有猎人，凭借善业升入天国。",
+    "char_interval": {
+      "start_pos": 4058,
+      "end_pos": 4083
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "雄鸽",
+        "雌鸽",
+        "猎人"
+      ],
+      "result": "全部升入天国",
+      "reason": "凭借善业"
+    },
+    "_token_interval": {
+      "start_index": 1265,
+      "end_index": 1271
+    }
+  },
+  {
+    "extraction_class": "moral_lesson",
+    "extraction_text": "哪个女人这样追随自己的丈夫，她就会像这只雌鸽一样，迅速升入天国，光彩熠熠。",
+    "char_interval": {
+      "start_pos": 4087,
+      "end_pos": 4124
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": null,
+    "_token_interval": {
+      "start_index": 1274,
+      "end_index": 1282
+    }
+  },
+  {
+    "extraction_class": "conclusion",
+    "extraction_text": "这便是灵魂高尚的猎人和鸽子的事迹，凭借善业获得最合乎正法的归宿。",
+    "char_interval": {
+      "start_pos": 4128,
+      "end_pos": 4160
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "猎人",
+        "雄鸽",
+        "雌鸽"
+      ],
+      "theme": "善业导向正法归宿"
+    },
+    "_token_interval": {
+      "start_index": 1285,
+      "end_index": 1289
+    }
+  },
+  {
+    "extraction_class": "didactic_element",
+    "extraction_text": "谁经常听取这个故事，称赞这个故事，即使一时思想疏忽，也不会作恶。",
+    "char_interval": {
+      "start_pos": 4164,
+      "end_pos": 4196
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": null,
+    "_token_interval": {
+      "start_index": 1292,
+      "end_index": 1300
+    }
+  },
+  {
+    "extraction_class": "ethical_teaching",
+    "extraction_text": "即使杀害母牛者，履行这个正法，也能消除罪孽，而杀害避难者，他就无法消除罪孽。",
+    "char_interval": {
+      "start_pos": 4212,
+      "end_pos": 4234
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": null,
+    "_token_interval": {
+      "start_index": 1307,
+      "end_index": 1313
+    }
+  },
+  {
+    "extraction_class": "source",
+    "extraction_text": "以上是吉祥的《摩诃婆罗多》中《和平篇》第一百四十五章（145）。",
+    "char_interval": {
+      "start_pos": 4263,
+      "end_pos": 4295
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "text": "摩诃婆罗多",
+      "section": "和平篇",
+      "chapter": 145
+    },
+    "_token_interval": {
+      "start_index": 1322,
+      "end_index": 1335
+    }
+  }
+]

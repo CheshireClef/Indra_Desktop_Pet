@@ -1,0 +1,1014 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "歌人讲述婆利古之子行落与妻子美娘生养儿子谋远，谋远与妻子露浓生养儿子羚羊，羚羊与妻子嬉姑生养儿子修那迦。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "行落",
+        "美娘",
+        "谋远",
+        "露浓",
+        "羚羊",
+        "嬉姑",
+        "修那迦"
+      ],
+      "type": "Genealogy",
+      "relationships": {
+        "行落": [
+          "Father of 谋远"
+        ],
+        "美娘": [
+          "Mother of 谋远"
+        ],
+        "谋远": [
+          "Son of 行落 and 美娘",
+          "Father of 羚羊"
+        ],
+        "露浓": [
+          "Mother of 羚羊"
+        ],
+        "羚羊": [
+          "Son of 谋远 and 露浓",
+          "Father of 修那迦"
+        ],
+        "嬉姑": [
+          "Mother of 修那迦"
+        ],
+        "修那迦": [
+          "Son of 羚羊 and 嬉姑"
+        ]
+      }
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "披发仙人发现被天女美那迦遗弃在河畔的初生女孩，将她抱回森林道院抚养，并取名嬉姑。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "披发仙人",
+        "美那迦",
+        "嬉姑"
+      ],
+      "type": "Discovery and Adoption",
+      "relationships": {
+        "披发仙人": [
+          "Adoptive father of 嬉姑"
+        ],
+        "美那迦": [
+          "Biological mother of 嬉姑"
+        ],
+        "嬉姑": [
+          "Adopted daughter of 披发仙人",
+          "Biological daughter of 美那迦"
+        ]
+      }
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "羚羊在披发仙人的森林道院见到嬉姑并爱上她，通过朋友转告父亲谋远，谋远拜访披发仙人提亲。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "羚羊",
+        "嬉姑",
+        "谋远",
+        "披发仙人"
+      ],
+      "type": "Romance and Proposal",
+      "relationships": {
+        "羚羊": [
+          "In love with 嬉姑"
+        ],
+        "嬉姑": [
+          "Object of 羚羊's affection"
+        ],
+        "谋远": [
+          "Father of 羚羊",
+          "Negotiator for marriage"
+        ],
+        "披发仙人": [
+          "Father of 嬉姑",
+          "Consents to marriage"
+        ]
+      }
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "披发仙人将女儿嬉姑许配给羚羊，并定下翼宿初见之日为结婚吉期。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "披发仙人",
+        "羚羊",
+        "嬉姑"
+      ],
+      "type": "Betrothal",
+      "relationships": {
+        "披发仙人": [
+          "Gives daughter 嬉姑 in marriage to 羚羊"
+        ],
+        "羚羊": [
+          "Betrothed to 嬉姑"
+        ],
+        "嬉姑": [
+          "Betrothed to 羚羊"
+        ]
+      }
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "嬉姑在订婚后的嬉戏中不慎踩到毒蛇，被毒蛇咬伤后倒地身亡。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "嬉姑",
+        "毒蛇"
+      ],
+      "type": "Tragedy",
+      "action": "Fatal snake bite",
+      "supernatural_elements": [
+        "死神 (Death god)意志驱使毒蛇"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "嬉姑的父亲披发仙人和众位苦行者（包括娑昳多勒耶、巨膝、拘湿迦、螺带仙人、婆罗堕遮、憍那拘蹉、阿哩湿底赛那、乔答摩）发现嬉姑的遗体。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "披发仙人",
+        "娑昳多勒耶",
+        "巨膝",
+        "拘湿迦",
+        "螺带仙人",
+        "婆罗堕遮",
+        "憍那拘蹉",
+        "阿哩湿底赛那",
+        "乔答摩"
+      ],
+      "type": "Discovery of Death",
+      "relationships": {
+        "披发仙人": [
+          "Father of deceased 嬉姑"
+        ],
+        "众苦行者": [
+          "Witnesses to the tragedy"
+        ]
+      }
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The maiden Xigu was poisoned by a snake and died, causing great sorrow among the forest hermits and her lover Lingyang.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Xigu",
+        "Lingyang",
+        "Forest Hermits (including Mouyuan)"
+      ],
+      "action": "Death by snake poison",
+      "emotional_impact": "Grief and sorrow"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Lingyang, heartbroken, went deep into the forest and wept, praying for Xigu's revival.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Lingyang"
+      ],
+      "action": "Lamentation and prayer",
+      "prayer_content": "To revive Xigu based on his merits of charity, asceticism, and respect for teachers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Divine Messenger appeared and told Lingyang that his prayers alone could not revive Xigu, as her life span had ended, but offered a divine solution.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Divine Messenger",
+        "Lingyang"
+      ],
+      "action": "Divine intervention and guidance",
+      "solution": "A method established by the gods to revive Xigu"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Divine Messenger explained that Lingyang must give half of his own life span to Xigu for her to be revived.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Divine Messenger",
+        "Lingyang"
+      ],
+      "action": "Revelation of divine method",
+      "condition": "Lingyang gives half his life to Xigu"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Lingyang agreed to give half his life to Xigu.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Lingyang"
+      ],
+      "action": "Acceptance of condition",
+      "sacrifice": "Half of Lingyang's life span"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Divine Messenger and the Gandharva King approached Yama, the God of Death, to request Xigu's revival with half of Lingyang's life.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Divine Messenger",
+        "Gandharva King",
+        "Yama"
+      ],
+      "action": "Petition to Yama",
+      "request": "Revive Xigu with half of Lingyang's life span"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yama granted the request, allowing Xigu to be revived with half of Lingyang's life.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yama"
+      ],
+      "action": "Divine decree",
+      "result": "Permission for Xigu's revival"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Xigu was immediately revived, as if waking from sleep, now sharing half of Lingyang's life span.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Xigu",
+        "Lingyang"
+      ],
+      "action": "Revival",
+      "supernatural_element": "Life-sharing resurrection"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The two fathers happily performed the marriage ceremony for Lingyang and Xigu on an auspicious day.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Lingyang's Father",
+        "Xigu's Father",
+        "Lingyang",
+        "Xigu"
+      ],
+      "action": "Marriage ceremony",
+      "relationship_change": "Lingyang and Xigu become husband and wife"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "羚羊（Antelope）的妻子嬉姑女郎（Higu）被蛇咬伤，羚羊因此立下消灭蛇类的誓愿。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "羚羊（Antelope）",
+        "嬉姑女郎（Higu）"
+      ],
+      "action": "立誓消灭蛇类",
+      "reason": "妻子被蛇咬伤",
+      "relationship": "夫妻"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "羚羊进入森林，看见一条蜥蜴，误以为是蛇，举起棍棒要打死它。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "羚羊（Antelope）",
+        "蜥蜴（Lizard）"
+      ],
+      "action": "攻击蜥蜴",
+      "reason": "误认蜥蜴为蛇",
+      "location": "森林"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "蜥蜴开口说话，质问羚羊为何要杀它，解释自己与毒蛇不同。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "蜥蜴（Lizard）",
+        "羚羊（Antelope）"
+      ],
+      "action": "对话/辩解",
+      "supernatural_element": "动物说话",
+      "argument": "蜥蜴与毒蛇不同，不应被伤害"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "羚羊听了蜥蜴的话后感到惶恐，停止攻击，并询问蜥蜴的真实身份。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "羚羊（Antelope）",
+        "蜥蜴（Lizard）"
+      ],
+      "action": "停止攻击并询问",
+      "reason": "怀疑蜥蜴是仙人",
+      "relationship_change": "从敌对转为好奇"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "蜥蜴揭示自己原是仙人千足（Sahasrapad），因被婆罗门诅咒而变成蜥蜴。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "蜥蜴（Lizard）",
+        "仙人千足（Sahasrapad）"
+      ],
+      "action": "身份揭示",
+      "supernatural_element": "诅咒导致变形",
+      "true_identity": "仙人千足"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "羚羊追问诅咒的原因和持续时间。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "羚羊（Antelope）",
+        "蜥蜴（Lizard）"
+      ],
+      "action": "追问诅咒详情",
+      "reason": "了解蜥蜴的遭遇"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "蜥蜴解释诅咒起因：与朋友行空（Khecara）开玩笑，用草编蛇吓他，导致行空诅咒他变成蛇。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "蜥蜴（Lizard）",
+        "行空（Khecara）"
+      ],
+      "action": "讲述诅咒故事",
+      "reason": "玩笑导致诅咒",
+      "supernatural_element": "诅咒生效",
+      "relationship": "朋友（过去）"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The narrator was frightened, paid homage to the Brahmin, and begged for forgiveness for joking with him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The narrator",
+        "The Brahmin"
+      ],
+      "action": "Apology and plea for mercy",
+      "context": "The narrator had previously joked with the Brahmin, who responded with a curse."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin (ascetic) declared his words (the curse) could not be retracted but must be fulfilled.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Brahmin"
+      ],
+      "action": "Upholding the curse",
+      "supernatural_element": "Curse"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin prophesied that the narrator would be saved by a pure son of Matanga named Mrga (Antelope).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Brahmin",
+        "Mrga (Antelope)"
+      ],
+      "action": "Prophecy of salvation",
+      "relationship": "Mrga is identified as the savior"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin revealed his true form and taught the narrator about dharma (righteous duty), emphasizing non-violence (ahimsa) as the highest duty for Brahmins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Brahmin",
+        "The narrator"
+      ],
+      "action": "Revelation and moral teaching",
+      "key_teaching": "Non-violence, truthfulness, and compassion are the highest dharma for Brahmins"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin contrasted the duties of Brahmins (non-violence) with those of Kshatriyas (protection through force), citing the example of King Janamejaya's snake sacrifice and its interruption by the Brahmin Astika.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Brahmin",
+        "King Janamejaya",
+        "Astika"
+      ],
+      "action": "Moral lesson with historical example",
+      "relationship": "Astika saved the snakes from King Janamejaya's sacrifice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mrga (Antelope) asked the sage about the story of King Janamejaya's snake sacrifice and Astika's role.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mrga (Antelope)",
+        "The sage"
+      ],
+      "action": "Inquiry for story details"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sage promised Mrga that he would hear Astika's great deeds from a Brahmin, then vanished.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The sage",
+        "Mrga (Antelope)"
+      ],
+      "action": "Promise and disappearance",
+      "supernatural_element": "Vanishing act"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mrga searched the forest for the sage, exhausted himself, fainted, and upon recovering, returned home to ask his father for the full story.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mrga (Antelope)",
+        "Mrga's father"
+      ],
+      "action": "Search and inquiry",
+      "relationship": "Father-son"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Janamejaya (Parikshit) asks why he performed a snake sacrifice to kill all snakes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Janamejaya (Parikshit)"
+      ],
+      "action": "Questioning motivation for snake sacrifice",
+      "type": "Inquiry"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Shaunaka asks about the snake sacrifice and why the Brahmin Astika saved the snakes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Shaunaka"
+      ],
+      "action": "Request for story explanation",
+      "type": "Dialogue"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The narrator (Sauti) explains he will tell the story of Astika as he heard it from his father Lomaharshana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sauti",
+        "Lomaharshana",
+        "Vyasa"
+      ],
+      "action": "Story transmission",
+      "relationships": "Sauti is son of Lomaharshana, disciple of Vyasa"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Introduction of Astika's father Jaratkaru as a great ascetic practicing celibacy and severe penances.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jaratkaru"
+      ],
+      "action": "Character introduction",
+      "type": "Background",
+      "attributes": "Celibate ascetic, foremost in Yayavara family"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Jaratkaru sees his ancestors hanging upside down in a cave, suspended by Virana grass roots being gnawed by a mouse.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jaratkaru",
+        "Yayavara ancestors"
+      ],
+      "action": "Vision of ancestors in peril",
+      "type": "Supernatural vision",
+      "relationships": "Jaratkaru belongs to Yayavara family lineage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The ancestors identify themselves as the Yayavara family of sages and explain their predicament.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yayavara ancestors"
+      ],
+      "action": "Revelation of ancestral curse/situation",
+      "type": "Dialogue"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The ancestors of Jaratkaru explain their predicament of being suspended upside down in a cave due to the lack of descendants.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ancestors of Jaratkaru"
+      ],
+      "action": "Explanation of curse/suffering",
+      "reason": "Lack of descendants to continue lineage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The ancestors reveal that their only descendant is Jaratkaru, who is devoted to asceticism and refuses to marry.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ancestors of Jaratkaru",
+        "Jaratkaru"
+      ],
+      "relationship": "Ancestors and descendant",
+      "conflict": "Jaratkaru's refusal to marry threatens lineage continuation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The ancestors plead with Jaratkaru to marry and produce offspring to save them from their suffering.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ancestors of Jaratkaru",
+        "Jaratkaru"
+      ],
+      "action": "Plea/request",
+      "purpose": "Continue lineage and rescue ancestors"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Jaratkaru reluctantly agrees to marry but sets strict conditions: he will only marry a woman with the same name (Jaratkaru) who is given to him as alms/donation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jaratkaru"
+      ],
+      "conditions": [
+        "Wife must be named Jaratkaru",
+        "She must be given as alms/donation",
+        "He will not seek marriage through other means"
+      ],
+      "purpose": "To produce a son who will rescue his ancestors"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Jaratkaru travels the earth seeking a wife but initially fails to find one meeting his conditions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jaratkaru"
+      ],
+      "action": "Quest for wife",
+      "outcome": "Initial failure"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In a forest, the serpent king Vasuki offers his sister to Jaratkaru, but Jaratkaru refuses because he believes she doesn't share his name.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jaratkaru",
+        "Vasuki"
+      ],
+      "action": "Marriage offer and refusal",
+      "reason": "Name mismatch (Jaratkaru assumes)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Jaratkaru asks Vasuki for his sister's true name, indicating he will only accept her if she is named Jaratkaru.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jaratkaru",
+        "Vasuki"
+      ],
+      "action": "Inquiry about name",
+      "significance": "Climax of marriage condition verification"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The snakes were cursed by their mother to be burned in King Janamejaya's snake sacrifice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mother of the Snakes",
+        "All Snakes"
+      ],
+      "action": "Curse",
+      "type": "Supernatural"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vasuki, the king of snakes, gave his sister Jaratkaru to the ascetic Jaratkaru to break the curse.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vasuki",
+        "Jaratkaru (ascetic)",
+        "Jaratkaru (sister of Vasuki)"
+      ],
+      "action": "Marriage arrangement",
+      "relationship": "Vasuki gives his sister in marriage to Jaratkaru"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Jaratkaru accepted Vasuki's sister through proper rituals and they had a son named Astika.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jaratkaru (ascetic)",
+        "Jaratkaru (sister of Vasuki)",
+        "Astika"
+      ],
+      "action": "Marriage and birth",
+      "relationship": "Parents of Astika"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Astika grew up to be a great ascetic, learned in the Vedas, and compassionate to all beings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Astika"
+      ],
+      "action": "Education and spiritual development"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Janamejaya, descendant of the Pandavas, performed a great snake sacrifice to exterminate all snakes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Janamejaya"
+      ],
+      "action": "Snake sacrifice",
+      "type": "Ritual"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Astika intervened during the snake sacrifice and broke the curse, saving his maternal relatives (the snakes) and other relatives.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Astika",
+        "All Snakes",
+        "King Janamejaya"
+      ],
+      "action": "Curse breaking",
+      "type": "Supernatural intervention",
+      "relationship": "Astika saves his maternal uncle Vasuki and other snakes"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Astika satisfied the gods through sacrifices, the sages through Vedic study, and his ancestors through having progeny.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Astika"
+      ],
+      "action": "Fulfilling duties",
+      "type": "Religious obligations"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Jaratkaru, having obtained a son (Astika), relieved his ancestors' burdens and ascended to heaven with them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jaratkaru (ascetic)",
+        "Astika"
+      ],
+      "action": "Ascension to heaven",
+      "type": "Supernatural",
+      "relationship": "Father-son relationship fulfilled ancestral duties"
+    },
+    "_token_interval": null
+  }
+]

@@ -1,6 +1,18 @@
+# src/workers/screen_observer_worker.py
+"""
+屏幕观察工作线程
+负责后台执行屏幕观察任务：
+1. 截图 (ScreenObserver)
+2. 视觉分析 (VisionClient)
+3. 生成带情绪的评论 (ChatManager)
+"""
 from PySide6.QtCore import QThread, Signal
 
 class ScreenObserveWorker(QThread):
+    """
+    屏幕观察异步线程
+    避免在主线程执行耗时的 IO 和网络请求 (截图、LLM API 调用)。
+    """
     finished = Signal(str, str)
     error = Signal(str)
 
@@ -11,6 +23,7 @@ class ScreenObserveWorker(QThread):
         self.chat_manager = chat_manager
 
     def run(self):
+        """线程入口函数，按顺序执行观察流程"""
         try:
             # 1. 截图校验
             screenshot_path = self.observer.observe_once()

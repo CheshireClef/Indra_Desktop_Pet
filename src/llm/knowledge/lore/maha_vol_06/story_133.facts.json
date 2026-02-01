@@ -1,0 +1,789 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Narada visited Yudhishthira in Hastinapura two years after the Pandavas' return.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narada",
+        "Yudhishthira"
+      ],
+      "type": "Visit/Conversation",
+      "relationships": [
+        "Sage and King",
+        "Narada is a divine sage visiting the Pandava king"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira inquired about Dhritarashtra's well-being and asked Narada to describe his condition.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Narada"
+      ],
+      "type": "Inquiry",
+      "relationships": [
+        "Nephew concerned about uncle",
+        "Yudhishthira shows concern for his exiled uncle Dhritarashtra"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Narada reported that after the Pandavas returned from exile, Dhritarashtra went to the Ganges with Gandhari, Kunti, Sanjaya, and priests to perform severe austerities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Gandhari",
+        "Kunti",
+        "Sanjaya"
+      ],
+      "type": "Ascetic Practice",
+      "relationships": [
+        "Exiled royal family",
+        "Dhritarashtra (husband), Gandhari (wife), Kunti (sister-in-law), Sanjaya (advisor)"
+      ],
+      "supernatural_elements": [
+        "Severe tapas (austerities) performed"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra practiced extreme asceticism: holding a stone in his mouth, living on air, becoming emaciated within six months.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra"
+      ],
+      "type": "Austerity",
+      "action": "Severe penance",
+      "relationships": [
+        "King turned ascetic"
+      ],
+      "supernatural_elements": [
+        "Advanced spiritual practices"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gandhari survived on water, Kunti ate once a month, and Sanjaya ate every six days while accompanying Dhritarashtra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandhari",
+        "Kunti",
+        "Sanjaya"
+      ],
+      "type": "Ascetic Support",
+      "action": "Following Dhritarashtra's penance",
+      "relationships": [
+        "Family and loyal companion in exile"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya guided blind Dhritarashtra, while Kunti guided blind Gandhari through the forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Dhritarashtra",
+        "Kunti",
+        "Gandhari"
+      ],
+      "type": "Assistance",
+      "action": "Guiding the blind",
+      "relationships": [
+        "Sanjaya as Dhritarashtra's guide",
+        "Kunti as Gandhari's guide"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A great forest fire erupted while Dhritarashtra was bathing in the Ganges, trapping the emaciated group.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Gandhari",
+        "Kunti",
+        "Sanjaya"
+      ],
+      "type": "Crisis",
+      "action": "Forest fire surrounds them",
+      "relationships": [
+        "Group in mortal danger"
+      ],
+      "supernatural_elements": [
+        "Sudden catastrophic fire"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra, too weak to escape, told Sanjaya to save himself while they would accept death by fire.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Sanjaya"
+      ],
+      "type": "Sacrifice/Decision",
+      "action": "Dhritarashtra chooses ritual death",
+      "relationships": [
+        "King protecting his loyal servant"
+      ],
+      "changes_in_relationships": [
+        "Dhritarashtra releases Sanjaya from service"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya questioned this decision, stating that accidental death by fire wasn't Dhritarashtra's wish and asked what should be done.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Dhritarashtra"
+      ],
+      "type": "Dialogue",
+      "action": "Sanjaya challenges Dhritarashtra's acceptance of death",
+      "relationships": [
+        "Loyal advisor questioning king's decision"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra, Gandhari, and Kunti voluntarily left home to live in the forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra",
+        "Gandhari",
+        "Kunti"
+      ],
+      "action": "Voluntary exile to forest",
+      "relationships": [
+        "King Dhritarashtra (husband)",
+        "Gandhari (wife)",
+        "Kunti (sister-in-law)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra told Sanjaya to leave without delay, then sat facing east with Gandhari and Kunti in meditation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra",
+        "Sanjaya",
+        "Gandhari",
+        "Kunti"
+      ],
+      "action": "Final instructions and meditation",
+      "relationships": [
+        "King Dhritarashtra (master)",
+        "Sanjaya (minister/messenger)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya saw King Dhritarashtra's determination, advised him to control himself, then departed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "King Dhritarashtra"
+      ],
+      "action": "Farewell and advice",
+      "relationships": [
+        "Sanjaya (minister)",
+        "King Dhritarashtra (king)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra controlled all his senses and became rigid like wood in meditation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra"
+      ],
+      "action": "Deep meditation/ascetic practice",
+      "supernatural_elements": [
+        "Advanced yogic state"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra, Gandhari, and Kunti were consumed by a forest fire.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra",
+        "Gandhari",
+        "Kunti"
+      ],
+      "action": "Death by forest fire",
+      "relationships": [
+        "All three die together"
+      ],
+      "supernatural_elements": [
+        "Forest fire as divine instrument"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya escaped the forest fire and was later seen by ascetics on the banks of the Ganges.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya"
+      ],
+      "action": "Escape and witness",
+      "relationships": [
+        "Surviving witness to the deaths"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya later bid farewell to the ascetics and went to the Himalayas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya"
+      ],
+      "action": "Departure to Himalayas",
+      "relationships": [
+        "Final departure from the story"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas learned of King Dhritarashtra's death and were overcome with grief.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Pandavas"
+      ],
+      "action": "Reaction to news of deaths",
+      "relationships": [
+        "Yudhishthira (nephew)",
+        "Bhima (nephew)",
+        "Pandavas (nephews)"
+      ],
+      "emotional_impact": [
+        "Extreme grief"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The royal palace and citizens mourned the deaths of King Dhritarashtra, Gandhari, and Kunti.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Royal household",
+        "Citizens"
+      ],
+      "action": "Public mourning",
+      "relationships": [
+        "Subjects mourning their rulers"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira lamented King Dhritarashtra's fate and the irony of his death by forest fire.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "King Dhritarashtra"
+      ],
+      "action": "Lamentation and reflection",
+      "relationships": [
+        "Nephew mourning uncle"
+      ],
+      "themes": [
+        "Fate, irony of royal death"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gandhari lost her sons, followed her husband's vow, and went to her husband's world.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandhari"
+      ],
+      "action": "Loss of sons, following vow, departure to husband's world",
+      "type": "Tragedy/Departure"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti (Pritha) abandoned the enjoyment of her sons' kingship and prosperity, choosing forest life.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti (Pritha)"
+      ],
+      "action": "Renunciation of royal life, choice of forest life",
+      "type": "Renunciation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira expresses grief and confusion over Kunti's death in a forest fire, questioning how the mother of Yudhishthira, Bhima, and Arjuna could die helplessly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Kunti",
+        "Bhima",
+        "Arjuna"
+      ],
+      "action": "Expression of grief, questioning of events",
+      "type": "Lamentation/Questioning"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira laments that Arjuna's efforts to please Agni (the fire god) in the Khandava forest were in vain, and criticizes Agni for being ungrateful and burning Kunti.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Arjuna",
+        "Agni",
+        "Kunti"
+      ],
+      "action": "Criticism of Agni, lament over Kunti's death",
+      "type": "Divine Criticism/Tragedy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira expresses greater misfortune over King Dhritarashtra being swallowed by fire without cause, questioning how the Kuru king, who ruled the earth and practiced austerities, could die this way.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Dhritarashtra"
+      ],
+      "action": "Expression of grief over Dhritarashtra's death",
+      "type": "Tragedy/Questioning"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira imagines Kunti's suffering in the fire, calling for her sons Yudhishthira and Bhima, and notes her special affection for Nakula, son of Madri, who could not save her.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Kunti",
+        "Bhima",
+        "Nakula"
+      ],
+      "action": "Imagined suffering, familial bonds",
+      "type": "Imagined Tragedy/Familial Bonds"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Upon hearing Yudhishthira's words, all present embrace and weep, with the Pandavas suffering like beings at the world's end, and Indra's cry fills the palace and heavens.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Pandavas",
+        "Indra"
+      ],
+      "action": "Collective mourning, divine lamentation",
+      "type": "Collective Grief/Divine Intervention"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Narada explains that Dhritarashtra was not burned without cause; he entered the forest, lived on air, worshipped sacrificial fires, and then abandoned them, which led to a forest fire where he united with his fires.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narada",
+        "Dhritarashtra"
+      ],
+      "action": "Explanation of Dhritarashtra's death, unification with sacrificial fires",
+      "type": "Revelation/Divine Resolution"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Narada assures Yudhishthira that Dhritarashtra achieved the highest goal through this, and that Kunti attained great success by serving elders, advising Yudhishthira to perform water rites for them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narada",
+        "Yudhishthira",
+        "Dhritarashtra",
+        "Kunti"
+      ],
+      "action": "Assurance of divine outcomes, advice for rites",
+      "type": "Divine Assurance/Advice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira, along with his brothers and wife, departs with loyal citizens to the Ganges river.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Pandava brothers",
+        "Draupadi"
+      ],
+      "action": "Departure to Ganges for rituals"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Kuru heroes, led by Yuyutsu, enter the Ganges to offer water libations for the soul of Dhritarashtra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yuyutsu",
+        "Kuru heroes",
+        "Dhritarashtra"
+      ],
+      "action": "Water libation ritual",
+      "relationship": "Offering to deceased father/figure"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "They perform rituals for Gandhari and Kunti, announcing their names and lineage, then settle outside the city after purification.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kuru heroes",
+        "Gandhari",
+        "Kunti"
+      ],
+      "action": "Ritual offerings and purification"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira sends reliable men to the Ganges gate where Dhritarashtra was cremated to perform burial rites for the bones.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Dhritarashtra"
+      ],
+      "action": "Arranging burial of remains"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "On the twelfth day, Yudhishthira completes purification and performs memorial rites, making donations in Dhritarashtra's name.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Dhritarashtra"
+      ],
+      "action": "Memorial rituals and donations"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira gives generous donations to Gandhari and Kunti, and provides desired items to Brahmins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Gandhari",
+        "Kunti",
+        "Brahmins"
+      ],
+      "action": "Generous donations",
+      "relationship": "Son honoring mothers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After completing the generous memorial ceremony, Yudhishthira returns to Hastinapura.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Return to capital"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The men sent to the Ganges gate complete the burial of bones and return to report to Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Completion of burial duties"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Narada consoles Yudhishthira and then departs as he wishes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narada",
+        "Yudhishthira"
+      ],
+      "action": "Consolation and departure",
+      "type": "Divine intervention/guidance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra lives fifteen years in the capital and three years in the forest before dying, frequently giving donations after losing his sons in war.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra"
+      ],
+      "action": "Life after war and death",
+      "relationship": "Father who lost sons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira takes up the burden of ruling the kingdom while grieving the loss of relatives.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Assuming rulership while grieving",
+      "relationship": "Successor to throne"
+    },
+    "_token_interval": null
+  }
+]
