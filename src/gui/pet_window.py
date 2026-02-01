@@ -79,6 +79,9 @@ class PetWindow(QWidget):
 
         # 屏幕观察器延迟初始化，此处仅占位
         self.screen_observer = None
+        
+        # 记录当前显示的临时气泡，用于防止重叠
+        self.current_temp_bubble = None
 
     def _setup_emoji_label(self):
         """初始化表情显示Label（九宫格右上角）"""
@@ -246,8 +249,24 @@ class PetWindow(QWidget):
     def _setup_chat(self):
         persona_path = resource_path("src/llm/persona.txt")
         self.chat_manager = self._ChatManager(self.settings, persona_path)
+        
+        # 绑定知识库加载完成信号
+        if hasattr(self.chat_manager, 'knowledge_base'):
+            self.chat_manager.knowledge_base.indices_loaded.connect(self._on_indices_loaded)
+            self.chat_manager.knowledge_base.model_loaded_to_cpu.connect(self._on_model_loaded_to_cpu)
+
         self.chat_bubble = self._ChatBubble()
         self.chat_bubble.send_message.connect(self._on_user_message)
+
+    def _on_model_loaded_to_cpu(self):
+        """模型加载到CPU后的回调"""
+        print("[PetWindow] 收到模型加载完成信号")
+        self._show_temp_bubble("数据库加载中，请稍候...加载期间可以进行无数据库支持的简单聊天")
+
+    def _on_indices_loaded(self):
+        """知识库索引加载完成后的回调"""
+        print("[PetWindow] 收到索引加载完成信号")
+        self._show_temp_bubble("数据库加载完成")
 
     def _on_user_message(self, text: str):
         # 调用修改后的chat方法，获取纯回复 + 情绪标签

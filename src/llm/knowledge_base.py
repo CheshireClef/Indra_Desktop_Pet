@@ -3,6 +3,7 @@ import json
 import random
 import threading
 from pathlib import Path
+from PySide6.QtCore import QObject, Signal
 from llama_index.core import (
     VectorStoreIndex,
     SimpleDirectoryReader,
@@ -15,8 +16,14 @@ from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 
 from utils import resource_path
 
-class KnowledgeBase:
+class KnowledgeBase(QObject):
+    # 信号：通知索引加载完成
+    indices_loaded = Signal()
+    # 信号：通知模型已加载到CPU
+    model_loaded_to_cpu = Signal()
+
     def __init__(self):
+        super().__init__()
         # ========== 知识库初始化 ==========
         self.knowledge_dir = Path(resource_path("src/llm/knowledge"))
         self.knowledge_db_dir = Path(resource_path("src/llm/knowledge_db"))
@@ -72,6 +79,9 @@ class KnowledgeBase:
             import torch
             embed_model._model = embed_model._model.to("cpu")
             print(f"[KnowledgeBase] 模型已手动移动到CPU设备")
+            
+            # 发送模型加载完成信号
+            self.model_loaded_to_cpu.emit()
         except Exception as e:
             print(f"[KnowledgeBase] 模型加载失败：{e}")
             return
@@ -90,6 +100,10 @@ class KnowledgeBase:
             name="Style",
             is_lore=False
         )
+        
+        # 发送加载完成信号
+        print("[KnowledgeBase] 索引加载完成，发送信号...")
+        self.indices_loaded.emit()
 
     def _get_data_dir_mtime(self, data_dir: Path) -> float:
         """辅助函数：计算数据目录下所有文件的最后修改时间总和"""
