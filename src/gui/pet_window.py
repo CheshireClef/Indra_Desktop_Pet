@@ -260,7 +260,11 @@ class PetWindow(QWidget):
             self.chat_manager.knowledge_base.indices_loaded.connect(self._on_indices_loaded)
             self.chat_manager.knowledge_base.model_loaded_to_cpu.connect(self._on_model_loaded_to_cpu)
 
-        self.chat_bubble = self._ChatBubble()
+        # 初始化聊天气泡，传入字体大小
+        font_size = 13
+        if self.settings:
+            font_size = self.settings.get("pet", "font_size", default=13)
+        self.chat_bubble = self._ChatBubble(font_size=font_size)
         self.chat_bubble.send_message.connect(self._on_user_message)
 
     def _on_model_loaded_to_cpu(self):
@@ -423,6 +427,14 @@ class PetWindow(QWidget):
         # 1. 刷新外观（缩放/图片），不重置位置
         self._load_image(reset_pos=False)
         
+        # 1.1 刷新字体大小
+        if hasattr(self, 'chat_bubble') and self.chat_bubble:
+            try:
+                font_size = int(self.settings.get("pet", "font_size", default=13))
+                self.chat_bubble.set_font_size(font_size)
+            except Exception:
+                pass
+
         # 2. 刷新定时器间隔
         try:
             idle_s = int(self.settings.get("behavior", "idle_interval_s", default=7))
@@ -501,11 +513,13 @@ class PetWindow(QWidget):
         pet_geo = self.geometry()
         max_width = int(pet_geo.width() * 1.8)
 
-        # 读取显示时长
+        # 读取配置
         duration_s = 10
+        font_size = 13
         if self.settings:
             try:
                 duration_s = int(self.settings.get("behavior", "temp_bubble_duration_s", default=10))
+                font_size = int(self.settings.get("pet", "font_size", default=13))
             except Exception:
                 pass
 
@@ -513,6 +527,7 @@ class PetWindow(QWidget):
         bubble = None
         if self.current_temp_bubble and self.current_temp_bubble.isVisible():
             try:
+                self.current_temp_bubble.set_font_size(font_size)
                 self.current_temp_bubble.update_content(text, max_width)
                 self.current_temp_bubble.set_lifetime(duration_s)
                 bubble = self.current_temp_bubble
@@ -530,7 +545,7 @@ class PetWindow(QWidget):
                 self.current_temp_bubble = None
 
             # 创建新气泡
-            bubble = TempBubble(text, max_width, parent=self)
+            bubble = TempBubble(text, max_width, parent=self, font_size=font_size)
             self.current_temp_bubble = bubble
             # 当气泡销毁时清理引用
             bubble.destroyed.connect(lambda: setattr(self, "current_temp_bubble", None) if self.current_temp_bubble == bubble else None)

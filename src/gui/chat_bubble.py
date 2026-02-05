@@ -22,7 +22,7 @@ class ChatBubble(QWidget):
     """
     send_message = Signal(str)
 
-    def __init__(self, parent=None):
+    def __init__(self, parent=None, font_size: int = 13):
         super().__init__(parent)
 
         # ===== 窗口属性 =====
@@ -41,22 +41,12 @@ class ChatBubble(QWidget):
 
         self.chat_view = QTextEdit()
         self.chat_view.setReadOnly(True)
-        self.chat_view.setStyleSheet(
-            "background: rgba(30,30,30,200);"
-            "color: white;"
-            "border-radius: 8px;"
-            "font-size: 13px;"
-        )
-
+        
         self.input_edit = QLineEdit()
         self.input_edit.setPlaceholderText("想和桌宠因陀罗说些什么？")
-        self.input_edit.setStyleSheet(
-            "background: rgba(255,255,255,230);"
-            "border-radius: 6px;"
-            "padding: 6px;"
-            "color: #000000;"
-            "font-size: 13px;"
-        )
+        
+        # 设置初始字体大小
+        self.set_font_size(font_size)
 
         layout.addWidget(self.chat_view)
         layout.addWidget(self.input_edit)
@@ -71,6 +61,22 @@ class ChatBubble(QWidget):
         self._fade_anim = QPropertyAnimation(self, b"windowOpacity", self)
         self._fade_anim.setDuration(300)
         self._fade_anim.finished.connect(self._on_fade_finished)
+
+    def set_font_size(self, size: int):
+        """设置聊天窗口字体大小"""
+        self.chat_view.setStyleSheet(
+            f"background: rgba(30,30,30,200);"
+            f"color: white;"
+            f"border-radius: 8px;"
+            f"font-size: {size}px;"
+        )
+        self.input_edit.setStyleSheet(
+            f"background: rgba(255,255,255,230);"
+            f"border-radius: 6px;"
+            f"padding: 6px;"
+            f"color: #000000;"
+            f"font-size: {size}px;"
+        )
 
     def append_pet_silent(self, text: str):
         """
@@ -192,8 +198,9 @@ class TempBubble(QWidget):
     BUBBLE_PADDING = 25  # 文本与气泡边界的留白(可自由修改)
     GOLDEN_RATIO = 0.618  # 黄金比例
     """优化后的临时聊天气泡（修复重绘/内存泄漏）"""
-    def __init__(self, text: str, max_width: int, parent=None):
+    def __init__(self, text: str, max_width: int, parent=None, font_size: int = 13):
         super().__init__(parent)
+        self.font_size = font_size
 
         # 优化窗口标志(跨平台兼容)
         self.setWindowFlags(
@@ -239,6 +246,7 @@ class TempBubble(QWidget):
             self.text_label.setStyleSheet(f"""
                 background: transparent;
                 color: white;
+                font-size: {self.font_size}px;
                 padding: {self.BUBBLE_PADDING}px;
             """)
         else:
@@ -246,6 +254,7 @@ class TempBubble(QWidget):
             self.text_label.setStyleSheet(f"""
                 background: rgba(40, 40, 40, 210);
                 color: white;
+                font-size: {self.font_size}px;
                 padding: {self.BUBBLE_PADDING}px;
                 border-radius: 8px;
             """)
@@ -282,12 +291,14 @@ class TempBubble(QWidget):
             temp_label.setStyleSheet(f"""
                 background: transparent;
                 color: white;
+                font-size: {self.font_size}px;
                 padding: {self.BUBBLE_PADDING}px;
             """)
         else:
             temp_label.setStyleSheet(f"""
                 background: rgba(40, 40, 40, 210);
                 color: white;
+                font-size: {self.font_size}px;
                 padding: {self.BUBBLE_PADDING}px;
                 border-radius: 8px;
             """)
@@ -390,6 +401,34 @@ class TempBubble(QWidget):
         # 重置生命周期定时器
         if self._life_timer.isActive():
             self._life_timer.start()
+
+    def set_font_size(self, size: int):
+        """更新字体大小"""
+        if self.font_size == size:
+            return
+        self.font_size = size
+        
+        # 更新样式
+        if self.bg_pixmap:
+            self.text_label.setStyleSheet(f"""
+                background: transparent;
+                color: white;
+                font-size: {self.font_size}px;
+                padding: {self.BUBBLE_PADDING}px;
+            """)
+        else:
+            self.text_label.setStyleSheet(f"""
+                background: rgba(40, 40, 40, 210);
+                color: white;
+                font-size: {self.font_size}px;
+                padding: {self.BUBBLE_PADDING}px;
+                border-radius: 8px;
+            """)
+        
+        # 调整大小（如果当前有内容）
+        if self.text_label.text():
+             self.text_label.adjustSize()
+             self.adjustSize()
 
     def _on_fade_finished(self):
         """淡出后销毁，避免内存泄漏"""

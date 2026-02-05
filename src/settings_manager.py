@@ -13,7 +13,8 @@ DEFAULTS = {
     "pet": {
         "name": "因陀罗",
         "scale": 1.0,
-        "initial_position": "bottom-right"
+        "initial_position": "bottom-right",
+        "font_size": 13  # 新增：字体大小
     },
     "behavior": {
         "idle_interval_s": 7,

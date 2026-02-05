@@ -82,6 +82,10 @@ class SettingsDialog(QDialog):
         self.scale_spin.setSingleStep(0.05)
         form.addRow("显示缩放 (scale)", self.scale_spin)
 
+        self.font_size_spin = QSpinBox()
+        self.font_size_spin.setRange(10, 30)
+        form.addRow("聊天框字体大小", self.font_size_spin)
+
         self.idle_spin = QSpinBox()
         self.idle_spin.setRange(1, 10800)
         form.addRow("空闲后主动行为触发间隔 (秒)", self.idle_spin)
@@ -179,6 +183,7 @@ class SettingsDialog(QDialog):
     def _load_values(self):
         # 加载基础设置
         self.scale_spin.setValue(self.sm.get("pet", "scale", default=1.0))
+        self.font_size_spin.setValue(self.sm.get("pet", "font_size", default=13))
         self.idle_spin.setValue(self.sm.get("behavior", "idle_interval_s", default=7))
         self.screen_watch_cb.setChecked(
             self.sm.get("behavior", "screen_watch_enabled", default=False)
@@ -212,25 +217,26 @@ class SettingsDialog(QDialog):
     # ---------- 保存配置 ----------
     def _on_save(self):
         # 保存基础设置
-        self.sm.set("pet", "scale", value=float(self.scale_spin.value()))
-        self.sm.set("behavior", "idle_interval_s", value=int(self.idle_spin.value()))
-        self.sm.set("behavior", "screen_watch_enabled", value=self.screen_watch_cb.isChecked())
+        self.sm.set("pet", "scale", value=float(self.scale_spin.value()), save_now=False)
+        self.sm.set("pet", "font_size", value=int(self.font_size_spin.value()), save_now=False)
+        self.sm.set("behavior", "idle_interval_s", value=int(self.idle_spin.value()), save_now=False)
+        self.sm.set("behavior", "screen_watch_enabled", value=self.screen_watch_cb.isChecked(), save_now=False)
         self.sm.set(
-            "behavior", "screen_watch_interval_s", value=int(self.screen_watch_interval.value())
+            "behavior", "screen_watch_interval_s", value=int(self.screen_watch_interval.value()), save_now=False
         )
         self.sm.set(
-            "behavior", "temp_bubble_duration_s", value=int(self.temp_bubble_duration.value())
+            "behavior", "temp_bubble_duration_s", value=int(self.temp_bubble_duration.value()), save_now=False
         )
-        self.sm.set("user", "display_name", value=self.user_name.text().strip())
+        self.sm.set("user", "display_name", value=self.user_name.text().strip(), save_now=False)
 
         # 保存LLM设置
-        self.sm.set("llm", "provider", value=self.provider_combo.currentText())
-        self.sm.set("llm", "api_key", value=self.llm_key.text().strip())
-        self.sm.set("llm", "base_url", value=self.base_url_edit.text().strip())
-        self.sm.set("llm", "model", value=self.model_edit.text().strip())
-        self.sm.set("llm", "max_tokens", value=int(self.max_tokens.value()))
-        self.sm.set("llm", "history_rounds", value=int(self.history_spin.value()))
-        self.sm.set("llm", "temperature", value=self.temperature_spinbox.value())
+        self.sm.set("llm", "provider", value=self.provider_combo.currentText(), save_now=False)
+        self.sm.set("llm", "api_key", value=self.llm_key.text().strip(), save_now=False)
+        self.sm.set("llm", "base_url", value=self.base_url_edit.text().strip(), save_now=False)
+        self.sm.set("llm", "model", value=self.model_edit.text().strip(), save_now=False)
+        self.sm.set("llm", "max_tokens", value=int(self.max_tokens.value()), save_now=False)
+        self.sm.set("llm", "history_rounds", value=int(self.history_spin.value()), save_now=False)
+        self.sm.set("llm", "temperature", value=self.temperature_spinbox.value(), save_now=False)
 
         # 保存视觉模型设置
         vision_api_url = self.vision_api_url.text().strip().rstrip("/")
@@ -241,9 +247,9 @@ class SettingsDialog(QDialog):
             else:
                 vision_api_url = f"{vision_api_url}/v1/chat/completions"
         # 保存处理后的 URL
-        self.sm.set("vision", "api_url", value=vision_api_url)
-        self.sm.set("vision", "api_key", value=self.vision_api_key.text())
-        self.sm.set("vision", "model", value=self.vision_model.text())
+        self.sm.set("vision", "api_url", value=vision_api_url, save_now=False)
+        self.sm.set("vision", "api_key", value=self.vision_api_key.text(), save_now=False)
+        self.sm.set("vision", "model", value=self.vision_model.text(), save_now=False)
 
         self.sm.save()
         self.accept()
