@@ -116,11 +116,12 @@ class SettingsManager(QObject):
                 return default
         return d
 
-    def set(self, *keys, value):
+    def set(self, *keys, value, save_now=True):
         d = self._data
         for k in keys[:-1]:
             if k not in d or not isinstance(d[k], dict):
                 d[k] = {}
             d = d[k]
         d[keys[-1]] = value
-        self.save()
+        if save_now:
+            self.save()

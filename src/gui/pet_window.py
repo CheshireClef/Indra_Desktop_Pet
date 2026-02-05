@@ -7,7 +7,7 @@
 import os
 from PySide6.QtWidgets import QWidget, QLabel, QMenu, QVBoxLayout
 from PySide6.QtGui import QPixmap, QGuiApplication
-from PySide6.QtCore import Qt, QPoint, QTimer, Signal, QThread, QPropertyAnimation, QRect
+from PySide6.QtCore import Qt, QPoint, QTimer, Signal, QThread, QPropertyAnimation, QRect, QSize
 from gui.animation import BASE_SIZE, EMOJI_SIZE
 from utils import resource_path
 from .chat_bubble import TempBubble
@@ -82,6 +82,11 @@ class PetWindow(QWidget):
         
         # 记录当前显示的临时气泡，用于防止重叠
         self.current_temp_bubble = None
+
+        # 缩放设置防抖定时器
+        self._save_settings_timer = QTimer(self)
+        self._save_settings_timer.setSingleShot(True)
+        self._save_settings_timer.timeout.connect(lambda: self.settings.save() if self.settings else None)
 
     def _setup_emoji_label(self):
         """初始化表情显示Label（九宫格右上角）"""
@@ -286,6 +291,75 @@ class PetWindow(QWidget):
         else:
             event.ignore()
 
+    # ---------------- 鼠标滚轮缩放 ----------------
+    def wheelEvent(self, event):
+        """鼠标滚轮事件：调整缩放比例"""
+        # 计算缩放增量
+        delta = event.angleDelta().y()
+        if delta == 0:
+            return
+            
+        current_scale = 1.0
+        if self.settings:
+            try:
+                current_scale = float(self.settings.get("pet", "scale", default=1.0))
+            except Exception:
+                current_scale = 1.0
+            
+        # 滚轮向上(delta > 0) -> 放大，向下 -> 缩小
+        step = 0.1
+        if delta > 0:
+            new_scale = current_scale + step
+        else:
+            new_scale = current_scale - step
+            
+        # 限制范围 (0.5 - 3.0)
+        new_scale = max(0.5, min(3.0, new_scale))
+        
+        # 保留两位小数，避免精度问题
+        new_scale = round(new_scale, 2)
+        
+        if new_scale != current_scale:
+            # 1. 更新UI尺寸
+            self._update_ui_size(new_scale)
+            
+            # 2. 更新设置（不立即保存，防止频繁IO）
+            if self.settings:
+                self.settings.set("pet", "scale", value=new_scale, save_now=False)
+                # 重置防抖定时器 (1秒后保存)
+                self._save_settings_timer.start(1000)
+                
+            # 3. 显示临时气泡提示当前比例
+            self._show_temp_bubble(f"缩放比例: {int(new_scale * 100)}%")
+            
+        event.accept()
+
+    def _update_ui_size(self, scale: float):
+        """根据缩放比例更新窗口和控件尺寸"""
+        # 1. 更新窗口和 Label 尺寸
+        # 使用 BASE_SIZE 计算目标尺寸
+        new_width = int(BASE_SIZE * scale)
+        new_height = int(BASE_SIZE * scale)
+        new_size = QSize(new_width, new_height)
+        
+        self.resize(new_size)
+        self.label.resize(new_size)
+        
+        # 2. 更新表情 Label 位置和尺寸
+        # 计算逻辑需与 _load_image 保持一致
+        base_emoji_x = BASE_SIZE - EMOJI_SIZE
+        base_emoji_y = 0
+        offset_left = int(30 * scale)
+        
+        emoji_x = int(base_emoji_x * scale) - offset_left
+        emoji_y = int(base_emoji_y * scale)
+        emoji_width = int(EMOJI_SIZE * scale)
+        emoji_height = int(EMOJI_SIZE * scale)
+        
+        self.emoji_label.setGeometry(emoji_x, emoji_y, emoji_width, emoji_height)
+        # 触发重绘
+        self.update()
+
     # ---------------- 鼠标事件 ----------------
     def mousePressEvent(self, event):
         if event.button() == Qt.LeftButton:
@@ -426,7 +500,6 @@ class PetWindow(QWidget):
 
         pet_geo = self.geometry()
         max_width = int(pet_geo.width() * 1.8)
-        bubble = TempBubble(text, max_width, parent=self)
 
         # 读取显示时长
         duration_s = 10
@@ -436,7 +509,33 @@ class PetWindow(QWidget):
             except Exception:
                 pass
 
-        bubble.set_lifetime(duration_s)
+        # 尝试复用现有气泡
+        bubble = None
+        if self.current_temp_bubble and self.current_temp_bubble.isVisible():
+            try:
+                self.current_temp_bubble.update_content(text, max_width)
+                self.current_temp_bubble.set_lifetime(duration_s)
+                bubble = self.current_temp_bubble
+            except RuntimeError:
+                self.current_temp_bubble = None
+        
+        if not bubble:
+            # 如果旧气泡存在但不可用/不可见，先清理
+            if self.current_temp_bubble:
+                try:
+                    self.current_temp_bubble.close()
+                    self.current_temp_bubble.deleteLater()
+                except Exception:
+                    pass
+                self.current_temp_bubble = None
+
+            # 创建新气泡
+            bubble = TempBubble(text, max_width, parent=self)
+            self.current_temp_bubble = bubble
+            # 当气泡销毁时清理引用
+            bubble.destroyed.connect(lambda: setattr(self, "current_temp_bubble", None) if self.current_temp_bubble == bubble else None)
+            bubble.set_lifetime(duration_s)
+
         bubble.adjustSize()
         # 气泡位置：桌宠头顶居中
         x = pet_geo.center().x() - bubble.width() // 2

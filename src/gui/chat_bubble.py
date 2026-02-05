@@ -374,6 +374,23 @@ class TempBubble(QWidget):
         # 清理临时对象
         temp_label.deleteLater()
 
+    def update_content(self, text: str, max_width: int):
+        """更新气泡内容并重置状态（用于复用气泡）"""
+        # 停止淡出动画，恢复不透明
+        self._fade_anim.stop()
+        self.setWindowOpacity(1.0)
+        
+        # 更新文本
+        self.text_label.setText(text)
+        self.text_label.adjustSize()
+        
+        # 重新计算尺寸
+        self._calculate_golden_size(text, max_width)
+        
+        # 重置生命周期定时器
+        if self._life_timer.isActive():
+            self._life_timer.start()
+
     def _on_fade_finished(self):
         """淡出后销毁，避免内存泄漏"""
         self.hide()
