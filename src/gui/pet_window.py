@@ -259,6 +259,11 @@ class PetWindow(QWidget):
         if hasattr(self.chat_manager, 'knowledge_base'):
             self.chat_manager.knowledge_base.indices_loaded.connect(self._on_indices_loaded)
             self.chat_manager.knowledge_base.model_loaded_to_cpu.connect(self._on_model_loaded_to_cpu)
+            # 新增：绑定失败信号
+            self.chat_manager.knowledge_base.load_failed.connect(self._on_load_failed)
+            
+            # 启动加载（确保信号连接后再启动，避免竞态条件）
+            self.chat_manager.knowledge_base.start_loading()
 
         # 初始化聊天气泡，传入字体大小
         font_size = 13
@@ -276,6 +281,11 @@ class PetWindow(QWidget):
         """知识库索引加载完成后的回调"""
         print("[PetWindow] 收到索引加载完成信号")
         self._show_temp_bubble("数据库加载完成")
+
+    def _on_load_failed(self, msg: str):
+        """知识库加载失败的回调"""
+        print(f"[PetWindow] 收到加载失败信号：{msg}")
+        self._show_temp_bubble(f"数据库加载失败：{msg}")
 
     def _on_user_message(self, text: str):
         # 调用修改后的chat方法，获取纯回复 + 情绪标签

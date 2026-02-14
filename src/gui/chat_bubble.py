@@ -281,6 +281,10 @@ class TempBubble(QWidget):
         2. CSS padding 已包含在测量中，确保文本完整显示
         3. 主动搜索最接近黄金比例的宽度
         """
+        # 错误信息可能很长，允许更宽的宽度
+        if "Error" in text or "失败" in text or "错误" in text or "Exception" in text:
+             max_width = max(max_width, 600)
+
         # 创建临时测量标签（应用相同样式）
         temp_label = QLabel(text)
         temp_label.setWordWrap(True)
@@ -356,8 +360,15 @@ class TempBubble(QWidget):
         final_height = temp_label.height()
         
         # 安全边界检查
-        final_width = max(150, min(final_width, max_width))
+        final_width = max(200, min(final_width, max_width))
         final_height = max(50, final_height)
+        
+        # 限制最大高度，避免超出屏幕
+        screen = QGuiApplication.primaryScreen()
+        if screen:
+            max_h = screen.availableGeometry().height() * 0.8
+            if final_height > max_h:
+                final_height = int(max_h)
         
         # 设置整体窗口尺寸
         self.setFixedSize(final_width, final_height)

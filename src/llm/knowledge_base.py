@@ -21,6 +21,8 @@ class KnowledgeBase(QObject):
     indices_loaded = Signal()
     # 信号：通知模型已加载到CPU
     model_loaded_to_cpu = Signal()
+    # 信号：通知加载失败
+    load_failed = Signal(str)
 
     def __init__(self):
         super().__init__()
@@ -33,6 +35,8 @@ class KnowledgeBase(QObject):
         self.style_index = None
         self.style_sample_history = []  # 记录近期抽取的style内容，降低重复频率
         
+    def start_loading(self):
+        """启动异步加载线程"""
         index_thread = threading.Thread(target=self._init_indices_async)
         index_thread.daemon = True
         index_thread.start()
@@ -49,17 +53,23 @@ class KnowledgeBase(QObject):
         
         # 校验本地模型目录是否存在且有内容
         if not local_model_dir.exists():
-            print(f"[KnowledgeBase] 本地模型目录不存在：{local_model_dir}")
+            msg = f"本地模型目录不存在：{local_model_dir}"
+            print(f"[KnowledgeBase] {msg}")
+            self.load_failed.emit(msg)
             return
         if not list(local_model_dir.glob("*.bin")) and not list(local_model_dir.glob("*.safetensors")):
-            print(f"[KnowledgeBase] 本地模型目录 {local_model_dir} 中未找到模型权重文件")
+            msg = f"本地模型目录 {local_model_dir} 中未找到模型权重文件"
+            print(f"[KnowledgeBase] {msg}")
+            self.load_failed.emit(msg)
             return
         
         # 确认配置文件和自定义代码文件存在
         required_files = ["config.json", "modeling.py", "configuration.py"]
         missing_files = [f for f in required_files if not (local_model_dir / f).exists()]
         if missing_files:
-            print(f"[KnowledgeBase] 本地模型目录缺少必要文件：{missing_files}")
+            msg = f"本地模型目录缺少必要文件：{missing_files}"
+            print(f"[KnowledgeBase] {msg}")
+            self.load_failed.emit(msg)
             return
 
         # 加载本地模型
@@ -83,7 +93,9 @@ class KnowledgeBase(QObject):
             # 发送模型加载完成信号
             self.model_loaded_to_cpu.emit()
         except Exception as e:
-            print(f"[KnowledgeBase] 模型加载失败：{e}")
+            msg = f"模型加载失败：{e}"
+            print(f"[KnowledgeBase] {msg}")
+            self.load_failed.emit(msg)
             return
 
         self.lore_index = self._load_or_build_index(
