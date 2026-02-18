@@ -3,7 +3,20 @@ from PyInstaller.utils.hooks import collect_all
 
 datas = [('assets', 'assets'), ('config', 'config'), ('manual_images', 'manual_images'), ('models', 'models'), ('screenshots', 'screenshots'), ('src', 'src'), ('用户手册.html', '.'), ('requirements.txt', '.')]
 binaries = []
-hiddenimports = ['transformers', 'sentence_transformers', 'huggingface_hub', 'llama_index.embeddings.huggingface', 'torch', 'tiktoken', 'tokenizers', 'numpy', 'scipy', 'sklearn']
+hiddenimports = [
+    'transformers',
+    'sentence_transformers',
+    'huggingface_hub',
+    'llama_index.embeddings.huggingface',
+    'torch',
+    'tiktoken',
+    'tiktoken_ext',
+    'tiktoken_ext.openai_public',
+    'tokenizers',
+    'numpy',
+    'scipy',
+    'sklearn',
+]
 
 # Collect all resources for transformers and sentence_transformers
 tmp_ret = collect_all('transformers')

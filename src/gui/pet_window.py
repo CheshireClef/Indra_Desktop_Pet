@@ -255,12 +255,14 @@ class PetWindow(QWidget):
         persona_path = resource_path("src/llm/persona.txt")
         self.chat_manager = self._ChatManager(self.settings, persona_path)
         
-        # 绑定知识库加载完成信号
         if hasattr(self.chat_manager, 'knowledge_base'):
             self.chat_manager.knowledge_base.indices_loaded.connect(self._on_indices_loaded)
             self.chat_manager.knowledge_base.model_loaded_to_cpu.connect(self._on_model_loaded_to_cpu)
-            # 新增：绑定失败信号
             self.chat_manager.knowledge_base.load_failed.connect(self._on_load_failed)
+            try:
+                self.chat_manager.knowledge_base.rebuild_started.connect(self._on_rebuild_started)
+            except Exception:
+                pass
             
             # 启动加载（确保信号连接后再启动，避免竞态条件）
             self.chat_manager.knowledge_base.start_loading()
@@ -281,6 +283,10 @@ class PetWindow(QWidget):
         """知识库索引加载完成后的回调"""
         print("[PetWindow] 收到索引加载完成信号")
         self._show_temp_bubble("数据库加载完成")
+
+    def _on_rebuild_started(self, name: str):
+        print(f"[PetWindow] 检测到{name}索引开始重建")
+        self._show_temp_bubble("检测到知识库数据更新，正在重建索引，这可能需要一段时间")
 
     def _on_load_failed(self, msg: str):
         """知识库加载失败的回调"""
