@@ -1,0 +1,1218 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "众位大臣看见继绝王被蛇紧紧缠住，痛苦万分，大哭大叫起来。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "众位大臣",
+        "继绝王"
+      ],
+      "action": "目睹国王遇难",
+      "relationships": [
+        "君臣关系"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "大臣们看见蛇中佼佼多刹迦在天空中行走逍遥，身体色如红莲。",
+    "char_interval": {
+      "start_pos": 138,
+      "end_pos": 158
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "众位大臣",
+        "多刹迦"
+      ],
+      "action": "目睹神奇蛇出现",
+      "supernatural_elements": [
+        "神奇的蛇在天空行走"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 39,
+      "end_index": 44
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "独柱殿受到蛇毒所生的烈火包围，熊熊燃烧后轰然塌落，大臣们恐慌逃散。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "众位大臣",
+        "多刹迦"
+      ],
+      "action": "宫殿被毁",
+      "supernatural_elements": [
+        "蛇毒产生的烈火"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "继绝王被多刹迦的神光杀死，国师和众位大臣为他举行葬礼。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "继绝王",
+        "多刹迦",
+        "国师",
+        "众位大臣"
+      ],
+      "action": "国王死亡与葬礼",
+      "supernatural_elements": [
+        "神光杀人"
+      ],
+      "relationships": [
+        "敌对关系（多刹迦与继绝王）"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "全体城市居民集会，将继绝王年龄尚幼的儿子立为国君，称他为镇群王。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "全体城市居民",
+        "镇群王"
+      ],
+      "action": "新王继位",
+      "relationships": [
+        "父子关系（继绝王与镇群王）",
+        "君臣关系"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "镇群王在众位大臣和国师们的辅佐下治国安邦，如同英勇无敌的伯祖父坚战王一般。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "镇群王",
+        "众位大臣",
+        "国师们",
+        "坚战王"
+      ],
+      "action": "治国理政",
+      "relationships": [
+        "伯祖父与侄孙关系（坚战王与镇群王）",
+        "君臣关系"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "国王的几位大臣前往迦湿国国王金铠那里，为镇群王向公主至美求婚。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "几位大臣",
+        "镇群王",
+        "迦湿王金铠",
+        "至美"
+      ],
+      "action": "求婚安排",
+      "relationships": [
+        "君臣关系",
+        "父女关系（金铠与至美）"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦湿王金铠依据正法对镇群王进行考察，将女儿至美嫁给了他。",
+    "char_interval": {
+      "start_pos": 489,
+      "end_pos": 516
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦湿王金铠",
+        "镇群王",
+        "至美"
+      ],
+      "action": "婚姻缔结",
+      "relationships": [
+        "夫妻关系（镇群王与至美）",
+        "父女关系（金铠与至美）"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 133,
+      "end_index": 137
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "镇群王偕妻至美在湖泊水塘、田野丛林尽兴漫游，如同洪呼王得到广延天女一般欢度时光。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "镇群王",
+        "至美"
+      ],
+      "action": "夫妻欢游",
+      "relationships": [
+        "夫妻关系"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "伟大的苦行者阁罗迦卢仙人游历整个大地，以风为餐，不进饮食，一天比一天枯瘦。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阁罗迦卢仙人"
+      ],
+      "action": "苦行游历",
+      "supernatural_elements": [
+        "以风为餐的苦行"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阁罗迦卢仙人在一处洞穴看见列位祖先头朝下倒悬其中，毗罗那香草只剩细细一条根，被老鼠啃食。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阁罗迦卢仙人",
+        "列位祖先"
+      ],
+      "action": "发现祖先困境",
+      "supernatural_elements": [
+        "祖先倒悬",
+        "神奇的香草"
+      ],
+      "relationships": [
+        "后代与祖先关系"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The ancestors of the Yayavara family are hanging upside down in a cave, suffering from hunger and thirst, waiting for salvation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ancestors of the Yayavara family"
+      ],
+      "type": "Suffering/Imprisonment",
+      "location": "Cave"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A gaunt ascetic named Jaratkaru approaches the suffering ancestors and offers to help them using his accumulated spiritual merit (tapas).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jaratkaru",
+        "Ancestors of the Yayavara family"
+      ],
+      "action": "Offer of help",
+      "offering": "Spiritual merit (tapas)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The ancestors explain their predicament: they are falling into an impure hell because their lineage is about to be extinguished. They have a single remaining descendant.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ancestors of the Yayavara family"
+      ],
+      "reason": "Lineage extinction",
+      "consequence": "Falling into hell"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "revelation",
+    "extraction_text": "The ancestors reveal that their sole remaining descendant is the ascetic Jaratkaru himself, who is standing before them. He is the one causing their suffering because he is unmarried and childless, focused only on ascetic practices.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ancestors of the Yayavara family",
+        "Jaratkaru"
+      ],
+      "true_identity": "Jaratkaru is their descendant",
+      "cause_of_suffering": "Jaratkaru's celibacy and lack of progeny"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "request",
+    "extraction_text": "The ancestors ask Jaratkaru to marry and have children to continue their lineage and save them from their fate.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "requesters": [
+        "Ancestors of the Yayavara family"
+      ],
+      "requestee": "Jaratkaru",
+      "demand": "Marry and have children"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "symbolism",
+    "extraction_text": "The ancestors explain that the Virana grass clump they are hanging from represents their family lineage, which is being gnawed away by mice (time/destiny), with only one root remaining.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "symbol": "Virana grass clump",
+      "represents": "Yayavara family lineage",
+      "threat": "Mice gnawing the roots"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ancestors of Jaratkaru appear as roots of a creeper and reveal their dire situation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ancestors of Jaratkaru",
+        "Jaratkaru"
+      ],
+      "action": "Revelation/Appeal",
+      "relationships": "Ancestors to descendant",
+      "supernatural_elements": "Ancestors appear as plant roots; Death personified as a mouse"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The ancestors explain they are cursed and hanging from the last half-bitten root, doomed to fall into hell.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ancestors of Jaratkaru",
+        "Death"
+      ],
+      "action": "Explanation of curse",
+      "reason": "Jaratkaru's asceticism cannot save them; lack of progeny"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The ancestors plead with Jaratkaru to marry and beget sons to save them from damnation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ancestors of Jaratkaru",
+        "Jaratkaru"
+      ],
+      "action": "Plea/Request",
+      "condition": "Progeny is superior to asceticism, sacrifices, or other pure acts"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Jaratkaru hears the ancestors' words and is overwhelmed with grief and remorse.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jaratkaru"
+      ],
+      "action": "Emotional reaction",
+      "relationships": "Acknowledges himself as their unfilial descendant"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Jaratkaru confesses his sin of not marrying and asks for punishment from his ancestors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jaratkaru",
+        "Ancestors of Jaratkaru"
+      ],
+      "action": "Confession",
+      "relationships": "Descendant seeking atonement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The ancestors question why Jaratkaru remains unmarried.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ancestors of Jaratkaru",
+        "Jaratkaru"
+      ],
+      "action": "Inquiry",
+      "relationships": "Ancestors concerned about lineage continuation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Jaratkaru explains his original vow of celibacy to attain heaven with his body, but now changes his mind after seeing his ancestors' plight.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jaratkaru"
+      ],
+      "action": "Change of heart",
+      "reason": "Witnessing ancestors' suffering"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Jaratkaru agrees to marry under strict conditions: only a maiden who shares his name, offers herself willingly like alms, and whom he does not have to support.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jaratkaru"
+      ],
+      "action": "Conditional agreement to marry",
+      "conditions": [
+        "Same name",
+        "Voluntary offering",
+        "No financial support required"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Jaratkaru wanders the earth but fails to find a wife meeting his conditions, growing old and despairing.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jaratkaru"
+      ],
+      "action": "Failed search",
+      "reason": "Conditions too strict; perceived as too old"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Jaratkaru enters a forest in despair and calls out to all beings to hear his plight.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jaratkaru"
+      ],
+      "action": "Public appeal",
+      "location": "Forest"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Jarākāru was practicing severe austerities, and his ancestors commanded him to marry.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jarākāru",
+        "Ancestors of Jarākāru"
+      ],
+      "action": "Command to marry",
+      "relationship": "Ancestral obligation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Jarākāru traveled the earth seeking a bride with specific conditions: same name, given as alms, and not requiring his support.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jarākāru"
+      ],
+      "action": "Bride search",
+      "conditions": [
+        "Same name as Jarākāru",
+        "Given as alms",
+        "No financial support required"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Snakes reported Jarākāru's quest to King Vāsuki.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Snakes",
+        "King Vāsuki"
+      ],
+      "action": "Information relay",
+      "relationship": "Messengers to king"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Vāsuki brought his sister, adorned, to the forest and offered her to Jarākāru as a gift.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Vāsuki",
+        "Jarākāru",
+        "Sister of Vāsuki"
+      ],
+      "action": "Marriage proposal",
+      "relationship": "Sister offered in marriage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Jarākāru initially refused, uncertain about her name and his ability to support her.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jarākāru",
+        "Sister of Vāsuki"
+      ],
+      "action": "Refusal",
+      "reason": "Name mismatch and support concerns"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vāsuki assured Jarākāru that the sister shared his name, practiced austerities, and Vāsuki would support her.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Vāsuki",
+        "Jarākāru",
+        "Sister of Vāsuki"
+      ],
+      "action": "Assurance",
+      "terms": [
+        "Same name as Jarākāru",
+        "Vāsuki provides support"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Jarākāru accepted and married the sister with rituals, entering Vāsuki's palace.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jarākāru",
+        "Sister of Vāsuki",
+        "King Vāsuki",
+        "Sages"
+      ],
+      "action": "Marriage ceremony",
+      "relationship": "Husband and wife"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Jarākāru set a condition with his wife: she must never displease him, or he would leave.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jarākāru",
+        "Sister of Vāsuki"
+      ],
+      "action": "Marital agreement",
+      "condition": "Wife must avoid displeasing Jarākāru"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The wife agreed and served Jarākāru diligently to please him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sister of Vāsuki",
+        "Jarākāru"
+      ],
+      "action": "Devoted service",
+      "relationship": "Wife's obedience"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After menstruation, the wife bathed and, as usual, showed affection to Jarākāru.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sister of Vāsuki",
+        "Jarākāru"
+      ],
+      "action": "Routine affection",
+      "context": "Post-menstrual ritual"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A fiery fetus, resembling the fire god, was conceived in the lady's womb and grew like the moon in the bright fortnight.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jarakaru (Lady)",
+        "Unborn Child"
+      ],
+      "action": "Conception and growth of a supernatural fetus",
+      "supernatural_elements": [
+        "Fiery fetus resembling fire god",
+        "Grows like the moon"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The great ascetic Jarakaru, exhausted, fell asleep with his head on his wife's lap as the sun was setting.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jarakaru (Ascetic)",
+        "Jarakaru (Lady)"
+      ],
+      "action": "Sleeping at sunset",
+      "relationships": [
+        "Husband and wife"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vasuki's sister (the lady Jarakaru), fearing violation of dharma, debated whether to wake her husband for evening prayers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jarakaru (Lady)",
+        "Jarakaru (Ascetic)"
+      ],
+      "action": "Internal conflict about waking husband",
+      "relationships": [
+        "Wife of Jarakaru",
+        "Sister of Vasuki"
+      ],
+      "key_concern": "Balancing husband's anger versus violation of dharma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The snake-woman Jarakaru decided to wake her husband gently to perform evening prayers before sunset.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jarakaru (Lady)",
+        "Jarakaru (Ascetic)"
+      ],
+      "action": "Waking husband for prayers",
+      "reason": "To prevent violation of dharma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Jarakaru became angry upon being awakened, claiming the sun wouldn't set during his sleep due to his ascetic power, and declared he would leave as they had agreed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jarakaru (Ascetic)",
+        "Jarakaru (Lady)"
+      ],
+      "action": "Angry reaction and decision to depart",
+      "reason": "Perceived disrespect (being awakened)",
+      "supernatural_elements": [
+        "Control over sun's setting through ascetic power"
+      ],
+      "relationship_change": "Husband decides to leave wife"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Jarakaru (lady) explained she woke him to prevent dharma violation, not out of disrespect.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jarakaru (Lady)",
+        "Jarakaru (Ascetic)"
+      ],
+      "action": "Defending her action",
+      "reason": "To uphold dharma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Jarakaru (ascetic), still angry, reaffirmed his decision to leave, asking her to inform her brother Vasuki and not grieve after his departure.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jarakaru (Ascetic)",
+        "Jarakaru (Lady)",
+        "Vasuki"
+      ],
+      "action": "Final decision to depart and instructions",
+      "relationships": [
+        "Husband leaving wife",
+        "Wife's brother is Vasuki"
+      ],
+      "emotional_state": [
+        "Lady filled with sorrow"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The woman (later identified as Jaratkaru) appears distressed and tearfully pleads with her husband not to abandon her.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jaratkaru",
+        "Sage Jaratkaru"
+      ],
+      "type": "Emotional Plea",
+      "relationships": [
+        "Husband-Wife"
+      ],
+      "key_points": [
+        "Jaratkaru expresses fear of abandonment",
+        "She mentions her family's curse and need for a son"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Jaratkaru explains her family's situation: her relatives (the snakes) are under a mother's curse and need a son from her marriage to be saved.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jaratkaru",
+        "Vasuki",
+        "Snakes (Nagas)"
+      ],
+      "type": "Explanation of Curse",
+      "relationships": [
+        "Sister-Brother (Jaratkaru-Vasuki)",
+        "Family (Snakes)"
+      ],
+      "supernatural_elements": [
+        "Curse on the snakes"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Jaratkaru listens and informs his wife that she is already pregnant with a son who will be like the fire god, knowledgeable in the Vedas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Jaratkaru",
+        "Jaratkaru"
+      ],
+      "type": "Revelation",
+      "action": "Announcement of Pregnancy",
+      "supernatural_elements": [
+        "Prophecy about the child's qualities"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Jaratkaru leaves his wife to resume his severe ascetic practices.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Jaratkaru"
+      ],
+      "type": "Departure",
+      "action": "Resumption of Austerities",
+      "relationships": [
+        "Separation from wife"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After her husband leaves, Jaratkaru goes to her brother Vasuki (king of snakes) to report what happened.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jaratkaru",
+        "Vasuki"
+      ],
+      "type": "Family Consultation",
+      "relationships": [
+        "Sister-Brother"
+      ],
+      "key_points": [
+        "Jaratkaru seeks her brother's guidance"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vasuki expresses distress about the situation, reminding Jaratkaru that she was married to the sage specifically to bear a son who would save the snakes from a snake sacrifice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vasuki",
+        "Jaratkaru",
+        "Sage Jaratkaru"
+      ],
+      "type": "Reminder of Purpose",
+      "relationships": [
+        "Brother-Sister",
+        "In-laws"
+      ],
+      "key_points": [
+        "Marriage was arranged for salvation of snakes",
+        "Prophecy about a heroic son"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vasuki asks Jaratkaru if she is pregnant, explaining that he asks because of the grave importance of the matter.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vasuki",
+        "Jaratkaru"
+      ],
+      "type": "Inquiry",
+      "action": "Question about Pregnancy",
+      "relationships": [
+        "Concerned brother"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vasuki acknowledges he cannot pursue Sage Jaratkaru due to fear of being cursed, given the sage's great ascetic power.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vasuki",
+        "Sage Jaratkaru"
+      ],
+      "type": "Acknowledgment of Power",
+      "supernatural_elements": [
+        "Fear of curse from powerful sage"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Jaratkaru comforts her distressed brother and confirms she asked the sage about a son and received the answer 'It exists!' (indicating pregnancy).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jaratkaru",
+        "Vasuki",
+        "Sage Jaratkaru"
+      ],
+      "type": "Confirmation",
+      "action": "Pregnancy Confirmed",
+      "relationships": [
+        "Sister comforts brother"
+      ],
+      "key_points": [
+        "Child exists who will save the snakes"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The snake woman's husband (a sage) pointed to her belly, made a prophecy about their unborn son, and then left for the forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Snake Woman",
+        "Sage (Husband)"
+      ],
+      "action": "Prophecy and Departure",
+      "supernatural_elements": "Prophecy about unborn son's future greatness"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The snake woman recounts her husband's prophecy to her brother, King Vasuki, to comfort him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Snake Woman",
+        "King Vasuki"
+      ],
+      "relationships": "Sister-Brother",
+      "action": "Sharing prophecy to alleviate grief"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Vasuki is greatly comforted by his sister's words and treats her with utmost respect and care during her pregnancy.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Vasuki",
+        "Snake Woman"
+      ],
+      "action": "Care and protection during pregnancy",
+      "relationships": "Brother shows devotion to pregnant sister"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The child grows in the womb with divine radiance, described as brilliant as the sun and moon.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unborn Child"
+      ],
+      "supernatural_elements": "Divine radiance from womb",
+      "description": "Fetus exhibits supernatural qualities"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The snake woman gives birth to a son at the proper time, with the brilliance of a divine infant who dispels his parents' fears.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Snake Woman",
+        "Astika"
+      ],
+      "action": "Birth",
+      "supernatural_elements": "Divine infant brilliance, fear-dispelling power"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The child is named Astika because his father said 'he exists' (astika) while the child was still in the womb.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Astika",
+        "Sage (Father)"
+      ],
+      "action": "Naming",
+      "name_origin": "From father's prophetic statement while child was in womb"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Astika grows up in King Vasuki's palace, studies the Vedas under the sage Shringavat (son of Rishi Valmiki), and becomes known for his wisdom, discipline, and virtue.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Astika",
+        "King Vasuki",
+        "Shringavat"
+      ],
+      "action": "Education and upbringing",
+      "relationships": "Nephew-Uncle, Student-Teacher",
+      "description": "Astika receives royal protection and Brahminical education"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Astika grows up with divine qualities, compared to gods, and brings great joy to the snake community.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Astika"
+      ],
+      "description": "Divine growth and positive impact",
+      "supernatural_elements": "Compared to gods, brings happiness to snakes"
+    },
+    "_token_interval": null
+  }
+]

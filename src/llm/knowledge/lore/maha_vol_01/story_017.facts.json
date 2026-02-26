@@ -1,0 +1,1480 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Janamejaya asked his ministers about the details of his father's death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Janamejaya",
+        "Ministers"
+      ],
+      "action": "Inquiry about father's death",
+      "relationship": "King consulting ministers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The ministers described King Parikshit's noble qualities and reign.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ministers",
+        "King Parikshit"
+      ],
+      "description": "Parikshit was righteous, protected all castes, cared for widows/orphans, skilled in archery, beloved by Vishnu, and ruled for 60 years",
+      "relationship": "Ministers praising former king"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The ministers explained King Parikshit's birth and name origin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Parikshit",
+        "Uttara",
+        "Subhadra"
+      ],
+      "details": "Born to Uttara when Kuru lineage was nearly extinct, grandson of Subhadra, named 'Parikshit' meaning 'the one who examines/tested'",
+      "relationship": "Mother-son, grandmother-grandson"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The ministers stated King Parikshit died of natural causes, not by snake bite.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Parikshit"
+      ],
+      "action": "Natural death after 60-year reign",
+      "clarification": "Not caused by snake (contradicting other legends)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Janamejaya insisted on hearing the exact circumstances of his father's death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Janamejaya",
+        "Ministers"
+      ],
+      "action": "Persistent questioning",
+      "relationship": "Son seeking truth about father's death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The ministers agreed to tell the full story of King Parikshit's death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ministers",
+        "King Janamejaya"
+      ],
+      "action": "Agreement to narrate complete account",
+      "relationship": "Ministers obeying king's command"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Parikshit (referred to as 'your father') went hunting in the forest and shot an arrow at a deer, then chased it deep into the woods.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Parikshit"
+      ],
+      "type": "Hunting expedition",
+      "details": "King Parikshit was an excellent archer who loved hunting. He pursued a deer deep into the forest on foot, carrying his sword, bow, and quiver."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Parikshit encountered a sage practicing a vow of silence in the forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Parikshit",
+        "Sage (unnamed)"
+      ],
+      "type": "Encounter",
+      "details": "Exhausted, hungry, and 60 years old, King Parikshit found a sage nearby who was observing a vow of silence (mauna vrata)."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Parikshit repeatedly questioned the sage, but received no response due to the sage's vow of silence.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Parikshit",
+        "Sage (unnamed)"
+      ],
+      "type": "Misunderstanding",
+      "details": "King Parikshit asked the sage questions multiple times, but the sage remained silent as part of his spiritual practice."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Parikshit became angry and insulted the sage by hanging a dead snake on his shoulder with his bow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Parikshit",
+        "Sage (unnamed)"
+      ],
+      "type": "Insult/Offense",
+      "details": "Frustrated by hunger, exhaustion, and the sage's silence, King Parikshit used his bow to pick up a dead snake from the ground and hung it on the sage's shoulder."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sage remained calm and did not react to the insult, maintaining his vow of silence.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage (unnamed)"
+      ],
+      "type": "Restraint",
+      "details": "The sage neither approved nor disapproved, showed no anger, and continued his spiritual practice despite the insult."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Parikshit returned to his capital after the incident.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Parikshit"
+      ],
+      "type": "Return",
+      "details": "King Parikshit, still hungry and tired, went back to his city after the forest encounter."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sage had a son named Shringin (referred to as '独角' or 'Unicorn'), who was born from a cow, radiant, powerful, and prone to anger.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shringin",
+        "Sage (unnamed)"
+      ],
+      "type": "Introduction",
+      "relationships": "Father-son relationship",
+      "details": "Shringin was the sage's son, born from a cow, known for his brilliance, valor, and quick temper."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shringin learned from a friend about his father being insulted by King Parikshit with the dead snake.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shringin",
+        "Sage (unnamed)",
+        "King Parikshit"
+      ],
+      "type": "Discovery",
+      "details": "After returning from serving Brahma, Shringin heard from a friend that his father had been dishonored by King Parikshit."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shringin cursed King Parikshit in anger for insulting his father.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shringin",
+        "King Parikshit"
+      ],
+      "type": "Curse",
+      "supernatural_elements": "Divine curse",
+      "details": "Enraged by the disrespect shown to his father, Shringin used his spiritual power to curse King Parikshit."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Utanka touched holy water and directed divine light at your father, while also appearing to be burned by it, and spoke angrily.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Utanka",
+        "King Parikshit"
+      ],
+      "action": "Curse initiation",
+      "reason": "Father's death by snake"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Utanka cursed that whoever hung a dead snake on his innocent father would suffer misfortune from the angry serpent Takshaka's divine light within seven days.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Utanka",
+        "Takshaka"
+      ],
+      "action": "Curse pronouncement",
+      "supernatural_element": "Divine light curse"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Utanka went to his father's location and informed him about the curse he had issued.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Utanka",
+        "Utanka's father"
+      ],
+      "action": "Information sharing",
+      "relationship": "Father-son"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The tiger among sages sent a message to your father warning about Takshaka's impending attack due to the curse.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage (unnamed)",
+        "King Parikshit"
+      ],
+      "action": "Warning delivery",
+      "purpose": "Protection advice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Your father became very cautious and carefully guarded against Takshaka after hearing the terrible warning.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Parikshit",
+        "Takshaka"
+      ],
+      "action": "Heightened vigilance",
+      "state": "Fearful preparation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "On the seventh day, Sage Kashyapa intended to go to King Janamejaya's side.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Kashyapa",
+        "King Janamejaya"
+      ],
+      "action": "Intended journey",
+      "timing": "Seventh day of curse"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Snake King Takshaka saw Sage Kashyapa on the road and asked about his hurried journey and purpose.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Takshaka",
+        "Sage Kashyapa"
+      ],
+      "action": "Interception and inquiry",
+      "location": "Road encounter"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kashyapa explained he was rushing to heal King Janamejaya from Takshaka's impending attack.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Kashyapa",
+        "King Janamejaya",
+        "Takshaka"
+      ],
+      "action": "Healing mission declaration",
+      "purpose": "Save the king"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Takshaka offered to give Kashyapa whatever wealth he desired from the king, plus additional payment, to abandon his healing mission.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Takshaka",
+        "Sage Kashyapa"
+      ],
+      "action": "Bribery attempt",
+      "negotiation": "Wealth exchange for non-interference"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kashyapa accepted Takshaka's bribe and returned home with the desired wealth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Kashyapa",
+        "Takshaka"
+      ],
+      "action": "Bribe acceptance",
+      "consequence": "Abandoned healing mission"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After Kashyapa left, Takshaka disguised himself and approached your just and honest father in the palace.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Takshaka",
+        "King Parikshit"
+      ],
+      "action": "Disguised approach",
+      "method": "Shape-shifting deception"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Takshaka burned the carefully guarded king to death with poisonous fire in the palace.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Takshaka",
+        "King Parikshit"
+      ],
+      "action": "Assassination",
+      "method": "Poisonous fire",
+      "supernatural_element": "Divine execution of curse"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After the king's death, you were consecrated and ascended the throne for victory.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Janamejaya"
+      ],
+      "action": "Coronation",
+      "succession": "Following father's death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The ministers recounted these events truthfully and completely to King Janamejaya, describing them as cruel and violent.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ministers",
+        "King Janamejaya"
+      ],
+      "action": "Narration completion",
+      "tone": "Outrage and appeal for action"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The ministers urged King Janamejaya to take immediate action after hearing about his father's death and Utanka's mistreatment.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ministers",
+        "King Janamejaya"
+      ],
+      "action": "Call to action",
+      "motivation": "Revenge and justice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Janamejaya requested to hear more details about the conversation between Takshaka and Kashyapa in the wilderness before making his decision about snake extermination.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Janamejaya"
+      ],
+      "action": "Information request",
+      "decision_pending": "Snake extermination judgment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The ministers agreed to tell the story of who witnessed the conversation between Takshaka and Kashyapa.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ministers",
+        "King Janamejaya"
+      ],
+      "action": "Agreement to continue narration",
+      "narrative_continuation": "Witness account"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A woodcutter witnessed an encounter between a Brahmin and a snake king (Naga) on the road.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin",
+        "Snake King (Naga)",
+        "Woodcutter"
+      ],
+      "action": "Witnessing an encounter",
+      "supernatural_elements": "Mention of a snake king (Naga)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The woodcutter was cutting wood on a tree when the tree and he turned to ashes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Woodcutter",
+        "Tree"
+      ],
+      "action": "Turning to ashes",
+      "supernatural_elements": "Supernatural transformation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin used his spiritual power to revive the woodcutter and the tree.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin",
+        "Woodcutter",
+        "Tree"
+      ],
+      "action": "Revival",
+      "supernatural_elements": "Magical revival"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The woodcutter came to the capital and reported everything done by Takshaka and the Brahmin to King Janamejaya.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Woodcutter",
+        "Takshaka",
+        "Brahmin",
+        "King Janamejaya"
+      ],
+      "action": "Reporting events",
+      "relationships": "Woodcutter informs the king"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Janamejaya, upon hearing the ministers' account, became furious and grief-stricken, deciding to take revenge for his father's death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Janamejaya",
+        "Ministers"
+      ],
+      "action": "Decision for revenge",
+      "relationships": "King's emotional response to father's death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Janamejaya declared that Takshaka must be punished for killing his father, King Parikshit, by implementing the curse of the sage Shringin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Janamejaya",
+        "Takshaka",
+        "King Parikshit",
+        "Sage Shringin"
+      ],
+      "action": "Accusation and plan for revenge",
+      "relationships": "Takshaka killed King Parikshit, father of Janamejaya"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Janamejaya accused Takshaka of bribing the sage Kashyapa to prevent him from saving King Parikshit.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Janamejaya",
+        "Takshaka",
+        "Sage Kashyapa",
+        "King Parikshit"
+      ],
+      "action": "Accusation of bribery",
+      "relationships": "Takshaka obstructed rescue efforts"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Janamejaya decided to please the sage Uttanka and take revenge by organizing a snake sacrifice (Sarpa Satra).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Janamejaya",
+        "Sage Uttanka",
+        "Takshaka"
+      ],
+      "action": "Decision to perform snake sacrifice",
+      "supernatural_elements": "Ritual sacrifice to kill snakes"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Janamejaya consulted his priests and ministers on how to exact revenge on Takshaka and his kin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Janamejaya",
+        "Priests",
+        "Ministers",
+        "Takshaka"
+      ],
+      "action": "Consultation for revenge plan",
+      "relationships": "King seeks advice from religious and state advisors"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The priests informed King Janamejaya of a great sacrifice established by the gods specifically for him to burn Takshaka and his kin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Priests",
+        "King Janamejaya",
+        "Takshaka"
+      ],
+      "action": "Revelation of divine sacrifice",
+      "supernatural_elements": "Gods-established ritual"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "歌人告诉镇群王只有他才能举办蛇祭，别人则不许。",
+    "char_interval": {
+      "start_pos": 3945,
+      "end_pos": 3961
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "歌人",
+        "镇群王"
+      ],
+      "action": "传达预言/指令",
+      "relationship": "歌人向国王传达神圣指令"
+    },
+    "_token_interval": {
+      "start_index": 1093,
+      "end_index": 1097
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "镇群王认为蛇王多刹迦会投入祭火，于是命令婆罗门准备蛇祭。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "镇群王",
+        "蛇王多刹迦",
+        "婆罗门"
+      ],
+      "action": "决定举办祭祀并下达命令",
+      "relationship": "国王命令祭司准备祭祀"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "祭师们按照经典规定丈量并布置祭祀场地，建造了隆重满意的祭场。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "祭师们"
+      ],
+      "action": "准备祭祀场地",
+      "supernatural_elements": "按照经典规定进行神圣布置"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "在蛇祭开始前，一位智慧圆满的营造师（歌人）预言祭祀将因一个婆罗门而不能继续到底。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "营造师（歌人）"
+      ],
+      "action": "预言祭祀受阻",
+      "supernatural_elements": "预言/征兆",
+      "relationship": "营造师发出警告"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "镇群王命令门官禁止不认识的人进入祭场。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "镇群王",
+        "门官"
+      ],
+      "action": "加强祭场安全",
+      "relationship": "国王下达安全命令"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "蛇祭开始，祭司们身着黑衣念诵咒语，将酥油倒入烈火，呼唤众蛇投入火神之口。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "祭司们"
+      ],
+      "action": "进行祭祀仪式",
+      "supernatural_elements": "咒语、火神之口"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "众蛇纷纷投入祭火，包括各种颜色、年龄、形状的蛇，数十万上百万的蛇被消灭。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "众蛇"
+      ],
+      "action": "蛇类被祭祀消灭",
+      "supernatural_elements": "大规模蛇类死亡",
+      "relationship": "蛇类受到母亲诅咒的惩罚"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Janamejaya, the wise king of the Pandava lineage, organizes a snake sacrifice (Sarpa Satra).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Janamejaya"
+      ],
+      "type": "Ritual Initiation",
+      "key_plot_point": "The central event that drives the narrative."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sage Shaunaka asks the narrator (Sauti) to name the priests and participants in Janamejaya's snake sacrifice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shaunaka",
+        "Sauti"
+      ],
+      "type": "Inquiry",
+      "relationship": "Shaunaka is the questioner, Sauti is the narrator/respondent."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sauti lists the priests: Chyavana (reciter), Jaimini (singer), Sharngarava (invoker), and Bodhapingala (performer).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Chyavana",
+        "Jaimini",
+        "Sharngarava",
+        "Bodhapingala"
+      ],
+      "type": "Priest Designation",
+      "role": "Official priests of the sacrifice."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sauti lists the participants, including Vyasa with his son and disciples, Asita, Devala, Narada, Parvata, Atri, Koulahala, Kuthika, Vatsa, Shrutashrava, Kahoda, Devasharma, Mudgalya, and Shamashubala, along with many other Brahmins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Asita",
+        "Devala",
+        "Narada",
+        "Parvata",
+        "Atri",
+        "Koulahala",
+        "Kuthika",
+        "Vatsa",
+        "Shrutashrava",
+        "Kahoda",
+        "Devasharma",
+        "Mudgalya",
+        "Shamashubala"
+      ],
+      "type": "Participant Assembly",
+      "role": "Learned Brahmins attending the sacrifice."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "During the sacrifice, as priests pour ghee, terrible snakes fall into the fire, causing widespread terror among creatures.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Snakes (collective)"
+      ],
+      "type": "Supernatural Event",
+      "action": "Mass snake sacrifice, divine intervention causing snakes to fall.",
+      "key_plot_point": "The horrific execution of the snake sacrifice."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The snake Takshaka, upon hearing of the sacrifice, flees to the palace of Indra (the castle-destroyer) for protection.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Takshaka",
+        "Indra"
+      ],
+      "type": "Flight and Appeal",
+      "relationship": "Takshaka seeks Indra's protection; Indra is the king of gods.",
+      "key_plot_point": "Takshaka's escape attempt."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra reassures Takshaka, stating he has secured a boon from the grandfather (Brahma) to protect him from the sacrifice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Takshaka"
+      ],
+      "type": "Divine Assurance",
+      "action": "Indra grants protection based on a boon from Brahma.",
+      "supernatural_element": "Divine intervention ensuring Takshaka's safety."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Takshaka, comforted, lives happily and at ease in Indra's palace.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Takshaka"
+      ],
+      "type": "Refuge",
+      "state": "Safe from the sacrifice under Indra's protection."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vasuki, the king of snakes, is tormented as snakes continuously fall into the fire, leaving him with few attendants and filled with deep sorrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vasuki"
+      ],
+      "type": "Suffering",
+      "emotional_state": "Extreme grief and distress over the massacre of his kin."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Overwhelmed by burning agony and confusion, Vasuki speaks to his sister Jaratkaru.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vasuki",
+        "Jaratkaru"
+      ],
+      "type": "Dialogue Initiation",
+      "relationship": "Vasuki is the snake king, Jaratkaru is his sister.",
+      "key_plot_point": "Vasuki's distress leads to a plea for help."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Snake King Vasuki, in distress, addresses his sister Jaratkaru, recalling their mother Kadru's curse upon the snakes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vasuki",
+        "Jaratkaru"
+      ],
+      "action": "Recollection/Appeal for help",
+      "relationships": [
+        "Siblings (Brother-Sister)"
+      ],
+      "supernatural_elements": [
+        "Curse by Kadru"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vasuki explains that Kadru cursed the snakes to be consumed by fire at King Janamejaya's snake sacrifice because they refused to help her cheat in a bet involving the divine horse Uchchaihshravas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kadru",
+        "The Snakes (collectively)",
+        "Uchchaihshravas"
+      ],
+      "action": "Curse pronounced",
+      "relationships": [
+        "Mother (Kadru) to her sons (The Snakes)"
+      ],
+      "supernatural_elements": [
+        "Divine horse",
+        "Curse"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The creator god Brahma (referred to as '老祖宗' or '生主') heard the curse and consented to it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma"
+      ],
+      "action": "Validation of curse",
+      "relationships": [
+        "Creator god overseeing events"
+      ],
+      "supernatural_elements": [
+        "Divine intervention/approval"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vasuki, after hearing the curse, sought protection from the gods following the churning of the ocean for nectar.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vasuki",
+        "The Gods (collectively)"
+      ],
+      "action": "Seeking divine intervention",
+      "relationships": [
+        "Supplicant (Vasuki) to deities"
+      ],
+      "supernatural_elements": [
+        "Churning of the ocean (Samudra Manthan)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The gods, having obtained the nectar, accompanied Vasuki to plead with Brahma to nullify Kadru's curse.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Gods (collectively)",
+        "Vasuki",
+        "Brahma"
+      ],
+      "action": "Collective plea for mercy",
+      "relationships": [
+        "Deities interceding for Vasuki"
+      ],
+      "supernatural_elements": [
+        "Divine plea"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahma decreed that a sage named Jaratkaru would marry a woman also named Jaratkaru, and their son, a twice-born (brahmin), would rescue the snakes from the curse.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma"
+      ],
+      "action": "Prophetic decree",
+      "relationships": [
+        "Divine prophecy"
+      ],
+      "supernatural_elements": [
+        "Prophecy/Divine solution"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In response to Brahma's prophecy, Vasuki gave his sister Jaratkaru in marriage to the sage Jaratkaru to fulfill the condition for the savior's birth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vasuki",
+        "Jaratkaru (the sister)",
+        "Jaratkaru (the sage)"
+      ],
+      "action": "Arranged marriage",
+      "relationships": [
+        "Brother gives sister in marriage",
+        "Husband (Sage Jaratkaru) and wife (Snake-woman Jaratkaru)"
+      ],
+      "supernatural_elements": [
+        "Fulfillment of prophecy"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Jaratkaru (the sister) summons her son Astika and, following Vasuki's instructions, urges him to act to save their snake relatives, as the time for King Janamejaya's sacrifice has come.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jaratkaru (the sister)",
+        "Astika",
+        "Vasuki"
+      ],
+      "action": "Summons and plea for action",
+      "relationships": [
+        "Mother to son",
+        "Nephew (Astika) to uncle (Vasuki)"
+      ],
+      "supernatural_elements": [
+        "Imminent sacrificial danger"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Astika asks his mother to explain the reason she was given in marriage, and she narrates the entire story of Kadru's curse and Brahma's prophecy.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Astika",
+        "Jaratkaru (the sister)"
+      ],
+      "action": "Explanation of backstory",
+      "relationships": [
+        "Son seeks clarification from mother"
+      ],
+      "supernatural_elements": [
+        "Full narrative of curse and prophecy revealed"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Astika's mother reveals his birth purpose and asks him to save the snakes and her brother from a curse.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Astika",
+        "Astika's mother",
+        "Vasuki"
+      ],
+      "action": "Revelation and plea for help",
+      "relationships": [
+        "Mother-son",
+        "Nephew-uncle"
+      ],
+      "supernatural_elements": [
+        "Curse on snakes"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Astika promises his mother he will obey and then reassures Vasuki he will save him from the curse.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Astika",
+        "Vasuki"
+      ],
+      "action": "Promise of salvation",
+      "relationships": [
+        "Nephew-uncle"
+      ],
+      "supernatural_elements": [
+        "Curse removal promised"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Astika vows to stop King Janamejaya's snake sacrifice by speaking auspicious words to please the king.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Astika",
+        "King Janamejaya"
+      ],
+      "action": "Plan to intervene in sacrifice",
+      "relationships": [
+        "Strangers (Astika as petitioner to king)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vasuki expresses his terror and disorientation due to the mother's curse.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vasuki"
+      ],
+      "action": "Expression of fear",
+      "supernatural_elements": [
+        "Curse causing terror"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Astika reassures Vasuki again, promising to remove the fear of the blazing fire and break the terrible mother's curse.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Astika",
+        "Vasuki"
+      ],
+      "action": "Reassurance and curse-breaking vow",
+      "relationships": [
+        "Nephew-uncle"
+      ],
+      "supernatural_elements": [
+        "Curse-breaking promised"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Astika takes Vasuki's fear upon himself and hurries to King Janamejaya's sacrifice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Astika",
+        "Vasuki"
+      ],
+      "action": "Transfer of fear and journey",
+      "relationships": [
+        "Nephew-uncle"
+      ],
+      "supernatural_elements": [
+        "Fear transference"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Astika arrives at King Janamejaya's sacrifice, sees the splendid sacrificial ground surrounded by radiant participants.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Astika",
+        "King Janamejaya"
+      ],
+      "action": "Arrival at sacrifice site",
+      "relationships": [
+        "Strangers (Astika as visitor to king's event)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Astika is stopped by gatekeepers but gains entry by praising the sacrifice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Astika",
+        "Gatekeepers"
+      ],
+      "action": "Entry negotiation",
+      "relationships": [
+        "Visitor-guards"
+      ]
+    },
+    "_token_interval": null
+  }
+]

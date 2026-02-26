@@ -1,0 +1,723 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks who on earth possesses all virtues and is beloved by all worlds and beings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "type": "Question",
+      "context": "Yudhishthira seeks knowledge about a universally virtuous person."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma recounts a conversation between Ugrasena and Krishna about Narada.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Ugrasena",
+        "Krishna",
+        "Narada"
+      ],
+      "type": "Recollection",
+      "relationships": "Bhishma narrates to Yudhishthira; Ugrasena and Krishna discuss Narada."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ugrasena observes that everyone praises Narada and asks Krishna to explain Narada's virtues.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ugrasena",
+        "Krishna",
+        "Narada"
+      ],
+      "type": "Inquiry",
+      "action": "Ugrasena requests Krishna to describe Narada's qualities."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna describes Narada's numerous virtues to Ugrasena.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Ugrasena",
+        "Narada"
+      ],
+      "type": "Description",
+      "details": "Krishna lists Narada's virtues including deep learning, integrity, truthfulness, control of senses, wisdom, kindness, non-attachment, and mastery of scriptures, explaining why Narada is universally respected."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Bhishma about the origin and end of all beings, meditation, action, time, and human lifespan in each age.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Philosophical Inquiry",
+      "relationships": "Yudhishthira seeks wisdom from Bhishma, his elder and teacher."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma agrees to answer by recounting an ancient legend told by Vyasa to his son.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Vyasa",
+        "Shuka"
+      ],
+      "type": "Narrative Frame",
+      "relationships": "Bhishma references Vyasa's teaching to his son Shuka as authoritative."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shuka, after studying all Vedas and Upanishads, asks Vyasa about the creator of the five elements, knowledge of time, and duties of Brahmins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shuka",
+        "Vyasa"
+      ],
+      "type": "Philosophical Inquiry",
+      "relationships": "Shuka seeks knowledge from his father Vyasa, a sage."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa explains the nature of Brahman as eternal, uncreated, and indescribable.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa"
+      ],
+      "type": "Cosmological Teaching",
+      "supernatural_elements": "Description of Brahman as divine and eternal."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa details the units of time: from kshana (moment) to day, month, and year, and compares human, ancestral, and divine timeframes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa"
+      ],
+      "type": "Cosmological Teaching",
+      "supernatural_elements": "Comparison of human and divine time scales."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa describes the four ages (Yugas): Satya, Treta, Dvapara, and Kali, with their durations and characteristics.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa"
+      ],
+      "type": "Cosmological Teaching",
+      "supernatural_elements": "Divine cyclical ages with specific durations and moral qualities."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In Satya Yuga, dharma and truth are complete, people are healthy, and lifespan is 400 years; in later Yugas, dharma, lifespan, and well-being decline.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa"
+      ],
+      "type": "Cosmological Teaching",
+      "supernatural_elements": "Moral and physical decline across ages as a cosmic principle."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text describes the four Yugas (ages) and their respective primary virtues.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Cosmological Description",
+      "details": "Krita Yuga (Satya Yuga) values austerity, Treta Yuga values knowledge, Dvapara Yuga values sacrifice, and Kali Yuga values charity."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text explains the cosmic cycle of time in relation to Brahma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma",
+        "Ishvara"
+      ],
+      "type": "Cosmological Cycle",
+      "details": "12,000 years constitute a Yuga cycle; 1,000 such cycles make one day of Brahma; Brahma's night is of equal length. At dissolution, Ishvara enters a state of sleep within the inner soul, then awakens to recreate."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The process of creation from Brahma's awakening is detailed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma",
+        "Mahat (Cosmic Intellect)"
+      ],
+      "type": "Cosmic Creation",
+      "details": "Upon awakening, the unchanging one (Brahma) creates Mahat (the great principle of intellect), from which arises the mind characterized by manifestation."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahma, composed of energy and the seed of all worlds, creates duality.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma"
+      ],
+      "type": "Creation of Duality",
+      "details": "As the sole existent, Brahma forms both the moving (animals) and non-moving (plants, etc.) beings."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahma creates the seven primary principles (tattvas) through the mind.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma"
+      ],
+      "type": "Creation of Elements",
+      "details": "Using knowledge, Brahma first creates Mahat, then the manifesting mind, which successively creates: Space (sound attribute) -> Wind (touch attribute) -> Light/ Fire (color attribute) -> Water (taste attribute) -> Earth (smell attribute)."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The seven principles unite to form embodied beings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Great Soul (Paramatman)",
+        "Prajapati (Lord of Creatures)"
+      ],
+      "type": "Formation of Living Beings",
+      "details": "The seven principles, though powerful individually, cannot create beings alone; they unite, relying on the Great Soul, to form the embodied person (purusha) with a body possessing sixteen characteristics."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Prajapati, the primordial creator, undertakes austeries and creates all beings and worlds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Prajapati",
+        "Brahma"
+      ],
+      "type": "Creation of All Existence",
+      "details": "Prajapati, the supreme person, creates all beings. The unborn Brahma creates gods, sages, ancestors, humans, worlds, rivers, oceans, directions, mountains, trees, various creatures (like Kinnaras, Rakshasas, birds, cattle, snakes), both perishable and imperishable, moving and non-moving."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text discusses the continuity of karma across creations and theories of causation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Philosophical Exposition",
+      "details": "Karma from previous creations carries over. Qualities like violence/non-violence, gentleness/ harshness, etc., arise according to the creator's design. Theories of causation are mentioned: some attribute it to human effort, some to divine power, and some to inherent nature."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Discussion about the causes of karma and creation involving human effort, divine power, and inherent nature.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karma Theorists",
+        "Impartial Essentialists"
+      ],
+      "type": "Philosophical Debate",
+      "topic": "Causes of karma and world creation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Description of asceticism (tapas) as the supreme good for beings, leading to fulfillment of desires and mastery over creation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sages"
+      ],
+      "action": "Practice of asceticism",
+      "benefits": [
+        "Fulfillment of desires",
+        "Mastery over creation",
+        "Study of Vedas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Explanation of the ten steps in the Vedas: naming, distinguishing, asceticism, rituals, sacrifices, fame, three worldly achievements, and self-realization.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vedic Scholars"
+      ],
+      "type": "Spiritual Teaching",
+      "method": "Ten steps to understand Vedic wisdom"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Description of different types of sacrifices for different castes: Kshatriyas (through action), Vaishyas (through offerings), Shudras (through service), and Brahmins (through asceticism).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kshatriyas",
+        "Vaishyas",
+        "Shudras",
+        "Brahmins"
+      ],
+      "type": "Social Structure",
+      "relationship": "Caste-based duties and sacrifices"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Explanation of the four ages (yugas): Satya Yuga (Golden Age), Treta Yuga (Silver Age), Dvapara Yuga (Bronze Age), and Kali Yuga (Iron Age), with declining adherence to dharma and Vedic practices.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator"
+      ],
+      "type": "Cosmological Teaching",
+      "elements": [
+        "Decline of dharma",
+        "Weakening of sacrifices",
+        "Reduction in lifespan"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Comparison of seasonal changes to the cycles of Brahma's days and nights, emphasizing the diversity and endlessness of time.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator"
+      ],
+      "type": "Cosmological Analogy",
+      "relationship": "Time as creator and destroyer of beings"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Conclusion of teachings on creation, time, rituals, Vedas, duties, actions, and results.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator",
+        "Listener (Son)"
+      ],
+      "type": "Teaching Completion",
+      "relationship": "Teacher-student"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Transition to description of cosmic dissolution: seven suns burning, world engulfed in flames, and Ishvara withdrawing all creation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ishvara (Supreme Being)"
+      ],
+      "type": "Cosmic Event",
+      "supernatural_elements": [
+        "Seven suns",
+        "World fire",
+        "Withdrawal of creation"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa describes the cosmic dissolution process where all beings and elements dissolve back into their source.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa"
+      ],
+      "type": "Cosmic Dissolution Explanation",
+      "supernatural_elements": [
+        "Cosmic dissolution",
+        "Elemental transformation",
+        "Return to Brahman"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "First, all animals and immobile beings dissolve into earth, leaving the earth barren like a turtle shell.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Dissolution into earth",
+      "result": "Earth becomes barren"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Water then absorbs earth's quality of smell, causing earth to dissolve.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Water absorbs earth's quality",
+      "elemental_transformation": "Earth → Water"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Water becomes turbulent, roaring and flooding everything.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Water becomes turbulent",
+      "description": "Flooding of everything"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Light absorbs water's quality of taste, causing water to dissolve into light.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Light absorbs water's quality",
+      "elemental_transformation": "Water → Light"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Light flames obscure the sun and fill all space.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Light obscures sun",
+      "result": "Fills all space"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Wind absorbs light's quality of form, extinguishing light and causing strong winds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Wind absorbs light's quality",
+      "elemental_transformation": "Light → Wind"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Space absorbs wind's quality of touch, calming the wind and causing space to produce sound.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Space absorbs wind's quality",
+      "elemental_transformation": "Wind → Space"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mind (characterized by manifestation) absorbs space's quality of sound, and the unmanifest absorbs mind's manifestation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Mind absorbs space, Unmanifest absorbs mind",
+      "cosmic_process": "Brahma's method of world destruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mind returns to its own nature, moon absorbs mind, and the inner soul occupies the moon.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Moon absorbs mind",
+      "spiritual_transformation": "Mind → Moon → Inner soul"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After a long time, thought controls the moon, and thought absorbs thinking, which is supreme intelligence.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Thought controls moon and absorbs thinking",
+      "result": "Attains supreme intelligence"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Time absorbs intelligence and power, and the wise control time.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Time absorbs intelligence and power",
+      "control": "Wise control time"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The wise control space's sound, and all beings return to the supreme, eternal, imperishable Brahman.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Return to Brahman",
+      "final_state": "All beings reunite with supreme Brahman"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yogis with supreme souls know this certain knowledge and explain it truthfully.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yogis with supreme souls"
+      ],
+      "action": "Possess and explain cosmic knowledge",
+      "knowledge_type": "Certain knowledge of cosmic dissolution"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The unmanifest Brahman creates and destroys repeatedly in days and nights consisting of two thousand ages.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Cyclic creation and destruction",
+      "time_scale": "Two thousand ages per cycle",
+      "cosmic_cycle": "Repeated creation and destruction by Brahman"
+    },
+    "_token_interval": null
+  }
+]

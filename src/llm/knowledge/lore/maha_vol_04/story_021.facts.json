@@ -1,0 +1,1504 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Abhimanyu, the son of Arjuna, is killed in battle after breaking through Drona's army formation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Abhimanyu",
+        "Drona"
+      ],
+      "action": "Death in battle",
+      "relationships": [
+        "Abhimanyu is son of Arjuna",
+        "Drona is commander of Kaurava army"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira, the Pandava king, laments Abhimanyu's death, expressing deep grief and guilt.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Abhimanyu"
+      ],
+      "action": "Lamentation",
+      "relationships": [
+        "Yudhishthira is uncle of Abhimanyu",
+        "Yudhishthira is elder brother of Arjuna"
+      ],
+      "emotional_state": "Grief, guilt, despair"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira describes Abhimanyu's heroic actions before his death, including defeating Duryodhana and other warriors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Abhimanyu",
+        "Duryodhana",
+        "Drona"
+      ],
+      "action": "Battle description",
+      "achievements": [
+        "Broke through Drona's army",
+        "Defeated Duryodhana",
+        "Fought valiantly against multiple warriors"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira expresses fear of facing Arjuna, Krishna, and Subhadra after failing to protect Abhimanyu.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Arjuna",
+        "Krishna",
+        "Subhadra"
+      ],
+      "action": "Expression of fear and shame",
+      "relationships": [
+        "Arjuna is father of Abhimanyu",
+        "Krishna is uncle of Abhimanyu",
+        "Subhadra is mother of Abhimanyu"
+      ],
+      "concerns": [
+        "How to face grieving family members",
+        "Fear of Arjuna's wrath"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira blames his own greed for the war and Abhimanyu's death, comparing himself to someone who doesn't see danger while seeking honey.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Self-blame and reflection",
+      "theme": "Consequences of greed and ambition"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira predicts that Arjuna's wrath will lead to the complete destruction of the Kaurava army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Duryodhana",
+        "Kaurava army"
+      ],
+      "action": "Prediction of future events",
+      "consequence": "Complete destruction of Kaurava forces"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira declares that victory, kingdom, immortality, or living with gods no longer interest him after witnessing Abhimanyu's death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Renunciation of worldly desires",
+      "emotional_state": "Profound disillusionment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya describes the end of a terrible day of battle, with the sun setting and evening arriving.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya"
+      ],
+      "type": "Narration/Setting",
+      "action": "Describing the end of the battle day"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna, having annihilated enemy forces with divine weapons, returns to his camp on his victorious chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "type": "Battle/Return",
+      "action": "Returning from battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna expresses anxiety to Krishna, describing physical symptoms of fear and observing ominous signs.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna"
+      ],
+      "type": "Dialogue/Emotion",
+      "action": "Expressing premonition of disaster"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna reassures Arjuna that his brothers and ministers are safe, but acknowledges the ominous signs will affect others.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna"
+      ],
+      "type": "Reassurance/Prophecy",
+      "action": "Divine reassurance with ominous warning"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna and Krishna perform evening prayers and discuss the day's battle events while traveling.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna"
+      ],
+      "type": "Ritual/Dialogue",
+      "action": "Evening prayers and conversation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna and Krishna return to their camp to find it joyless and dark, without the usual celebrations.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna"
+      ],
+      "type": "Discovery",
+      "action": "Returning to ominous camp"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna describes the absence of normal camp activities and the strange behavior of warriors who avoid him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna"
+      ],
+      "type": "Observation/Concern",
+      "action": "Noticing abnormal camp atmosphere"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna expresses concern for his brothers' safety and specifically mentions not seeing Abhimanyu's usual joyful greeting.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna"
+      ],
+      "type": "Concern/Dialogue",
+      "action": "Expressing worry about family members"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna and Krishna enter their camp and find all the Pandavas looking distressed and dejected.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna",
+        "Pandavas"
+      ],
+      "type": "Discovery/Emotion",
+      "action": "Finding distressed family members"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna notices Abhimanyu's absence and the gloomy faces of everyone, expressing his worst fears about the Chakravyuha formation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Abhimanyu",
+        "Pandavas"
+      ],
+      "type": "Realization/Anxiety",
+      "action": "Realizing Abhimanyu's likely fate"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna reveals he taught Abhimanyu how to enter the Chakravyuha but not how to exit it, expressing hope that they didn't send the child into battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Abhimanyu"
+      ],
+      "type": "Revelation/Regret",
+      "action": "Revealing incomplete training and expressing regret"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker laments the death of a young warrior in battle, describing his physical attributes and noble qualities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The speaker (presumably a parent)",
+        "The deceased warrior"
+      ],
+      "type": "Lamentation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The deceased warrior is described as having brown eyes, long arms, and being as majestic as a lion on a mountain, comparable to Vishnu.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The deceased warrior",
+        "Vishnu"
+      ],
+      "action": "Comparison to divine figure"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The warrior is identified as a grandson of Indra, a great archer, and the beloved son of the speaker.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The deceased warrior",
+        "Indra",
+        "The speaker"
+      ],
+      "relationships": "Grandson of Indra, son of speaker"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The warrior was beloved by Vrishni women, cherished by the speaker and his mother.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The deceased warrior",
+        "The speaker",
+        "The warrior's mother"
+      ],
+      "relationships": "Son, beloved of Vrishni women"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The warrior is compared to Krishna in bravery, learning, and generosity, described as a lion of the Vrishni clan.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The deceased warrior",
+        "Krishna"
+      ],
+      "action": "Comparison to Krishna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The warrior was beloved by Subhadra, Draupadi, and Krishna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The deceased warrior",
+        "Subhadra",
+        "Draupadi",
+        "Krishna"
+      ],
+      "relationships": "Beloved of Subhadra, Draupadi, and Krishna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker threatens to go to Yama's abode if unable to see the son again.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The speaker",
+        "Yama"
+      ],
+      "action": "Threat of journey to afterlife"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Detailed description of the warrior's appearance: soft curly hair, deer-like eyes, brave as a drunken elephant, straight as a young sal tree.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The deceased warrior"
+      ],
+      "type": "Physical description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Description of the warrior's character: well-mannered, obedient to teachers, accomplished beyond his years, pleasant speaker, non-envious.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The deceased warrior"
+      ],
+      "type": "Character description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The warrior was courageous, long-armed, pious, compassionate, self-controlled, and refined.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The deceased warrior"
+      ],
+      "type": "Virtue description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The warrior was grateful, knowledgeable, skilled in weapons, never retreating, delighting in battle, causing pain to enemies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The deceased warrior"
+      ],
+      "type": "Warrior attributes"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The warrior worked for the benefit of his people, desired victory for his elders, never struck first in battle, and remained calm.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The deceased warrior"
+      ],
+      "type": "Strategic description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker describes the warrior's beautiful features: forehead, curly hair, eyebrows, eyes, and lips.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The deceased warrior",
+        "The speaker"
+      ],
+      "action": "Mourning physical beauty"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Description of the warrior's voice: pleasant as string music or a cuckoo's call.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The deceased warrior"
+      ],
+      "type": "Voice description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The warrior's form was unparalleled, even among the thirty-three gods.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The deceased warrior"
+      ],
+      "action": "Comparison to divine beings"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The warrior was respectful, obedient to elders.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The deceased warrior"
+      ],
+      "type": "Respectful behavior"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker imagines the warrior's current state: sleeping on the ground instead of soft beds, surrounded by jackals instead of beautiful women.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The deceased warrior"
+      ],
+      "action": "Imagined afterlife state"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The warrior who was awakened by charioteers, singers, and poets is now awakened by carnivorous beasts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The deceased warrior"
+      ],
+      "action": "Contrast of life and death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The warrior's face once shaded by canopies is now covered with battlefield dust.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The deceased warrior"
+      ],
+      "action": "Contrast of honor and degradation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker expresses grief that Death has taken the son away despite never having enough of seeing him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 20,
+    "group_index": 19,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The speaker",
+        "Death personified"
+      ],
+      "type": "Expression of grief"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker concludes that Yama's city must be the destination of virtuous people, now made lovely by the warrior's radiance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 21,
+    "group_index": 20,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The deceased warrior",
+        "Yama"
+      ],
+      "action": "Acceptance of afterlife"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那哀恸不已，向坚战询问激昂的情况，表达对儿子战死的悲痛和自责。",
+    "char_interval": {
+      "start_pos": 3019,
+      "end_pos": 3027
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "坚战"
+      ],
+      "action": "哀悼与询问",
+      "relationships": [
+        "兄弟",
+        "父子（阿周那与激昂）"
+      ],
+      "emotional_state": "悲痛、自责"
+    },
+    "_token_interval": {
+      "start_index": 831,
+      "end_index": 833
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那回忆激昂的英勇战斗和死亡情景，推测激昂在战场上孤立无援，渴望父亲援助。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "激昂"
+      ],
+      "action": "回忆与推测",
+      "relationships": [
+        "父子"
+      ],
+      "key_details": "激昂被众多敌人用箭射杀，死前可能呼喊父亲"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那描述激昂的出身和性格，强调他是妙贤所生、黑天的外甥，天性乐观，常欢迎父亲归来。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "激昂",
+        "妙贤",
+        "黑天"
+      ],
+      "action": "描述背景",
+      "relationships": [
+        "母子（激昂与妙贤）",
+        "舅甥（激昂与黑天）"
+      ],
+      "character_traits": "乐观、英勇"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那担忧妙贤和黑公主得知激昂死讯后的反应，预想她们的悲伤和自己的无力安慰。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "妙贤",
+        "黑公主"
+      ],
+      "action": "担忧与预想",
+      "relationships": [
+        "夫妻（阿周那与妙贤）",
+        "家族成员"
+      ],
+      "emotional_impact": "家庭悲伤"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国的儿子们（般度族的敌人）为激昂的战死而兴高采烈，发出狮子般的吼声。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国的儿子们（泛指般度族敌人）"
+      ],
+      "action": "庆祝胜利",
+      "relationships": [
+        "敌对（与般度族）"
+      ],
+      "context": "战场上的敌对反应"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "尚武（吠舍女之子）怒骂持国的儿子们，指责他们违背正法杀死孩子，预言他们将遭受恶业果报。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "尚武",
+        "持国的儿子们"
+      ],
+      "action": "谴责与预言",
+      "relationships": [
+        "敌对（尚武与持国儿子们）"
+      ],
+      "moral_judgment": "违背正法、不义之战"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "尚武说完后丢下兵器离开，只有愤怒和痛苦伴随。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "尚武"
+      ],
+      "action": "放弃战斗离开",
+      "emotional_state": "愤怒、痛苦",
+      "symbolism": "对战争道德的失望"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那质问黑天为何没有在战场上告知激昂的战死，誓言要歼灭敌人。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "黑天"
+      ],
+      "action": "质问与誓言",
+      "relationships": [
+        "朋友/盟友"
+      ],
+      "intent": "复仇"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天安抚阿周那，解释战死是英雄刹帝利的必经之路，是通晓法论者为战斗英雄安排的归宿。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天",
+        "阿周那"
+      ],
+      "action": "安抚与教导",
+      "philosophical_element": "命运、正法、英雄之道",
+      "purpose": "缓解悲痛，强调战士的宿命"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna (Vasudeva) consoles Arjuna (Partha) after the death of his son Abhimanyu, explaining that death in battle is the eternal law for Kshatriyas and that Abhimanyu achieved the heroic death all warriors seek.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna"
+      ],
+      "action": "Consolation/Explanation",
+      "relationships": [
+        "Krishna is Arjuna's friend, charioteer, and divine guide"
+      ],
+      "supernatural_elements": [
+        "Reference to Abhimanyu joining Indra in heaven"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna, grief-stricken and angry, questions his brothers and allies about why they failed to protect Abhimanyu in battle, accusing them of cowardice and weakness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Yudhishthira",
+        "Bhima",
+        "Nakula",
+        "Sahadeva",
+        "Panchala warriors"
+      ],
+      "action": "Accusation/Outburst",
+      "relationships": [
+        "Arjuna is the father of Abhimanyu; the others are his brothers (Pandavas) and allies"
+      ],
+      "emotional_state": "Grief, anger, despair"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna vows to kill all of Abhimanyu's enemies, their relatives, and their forces (elephants, chariots, horses) in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Vow of Revenge",
+      "targets": [
+        "Abhimanyu's enemies (Kauravas and allies)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna falls silent, consumed by rage and sorrow; only Krishna and Yudhishthira dare to speak to or look at him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna",
+        "Yudhishthira"
+      ],
+      "action": "Emotional Withdrawal",
+      "relationships": [
+        "Krishna and Yudhishthira are the only ones who can approach Arjuna in his grief"
+      ],
+      "emotional_state": "Intense anger, deep mourning"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira begins to explain to Arjuna what happened after Arjuna left to fight the Samsaptakas: Drona launched an offensive to capture Yudhishthira, and the Pandava forces mobilized to resist Drona's army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Arjuna",
+        "Drona"
+      ],
+      "action": "Narrative Explanation",
+      "context": "Battle events leading to Abhimanyu's death",
+      "relationships": [
+        "Yudhishthira is the eldest Pandava brother; Drona is the Kaurava commander and former teacher"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas, under the protection of their charioteers, attempted to resist Drona on the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Drona"
+      ],
+      "type": "Battle",
+      "action": "Resistance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona swiftly attacked and killed many Pandava soldiers with countless arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Pandava soldiers"
+      ],
+      "action": "Attack and killing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas, overwhelmed by Drona's assault, could not even observe Drona's army, let alone break through it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Drona"
+      ],
+      "action": "Being overwhelmed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas encouraged Abhimanyu, son of Subhadra, to break the enemy formation, praising his unparalleled heroism.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Abhimanyu"
+      ],
+      "action": "Encouragement and deployment",
+      "relationship": "Abhimanyu is the son of Subhadra and nephew of the Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Abhimanyu, with his courage and taught tactics, charged into the enemy army like Garuda into the ocean.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Abhimanyu"
+      ],
+      "action": "Charging into battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas followed Abhimanyu closely, hoping to enter the enemy ranks with him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Abhimanyu"
+      ],
+      "action": "Following into battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Jayadratha, the king of Sindhu, using a boon from Rudra, blocked the Pandavas from following Abhimanyu.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jayadratha",
+        "Pandavas"
+      ],
+      "action": "Blocking",
+      "supernatural_element": "Boons from Rudra (Shiva)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona, Kripa, Karna, Ashwatthama, Brihadbala, and Shalya surrounded Abhimanyu.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Kripa",
+        "Karna",
+        "Ashwatthama",
+        "Brihadbala",
+        "Shalya",
+        "Abhimanyu"
+      ],
+      "action": "Surrounding"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Abhimanyu fought valiantly against all the great warriors but, outnumbered, was deprived of his chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Abhimanyu",
+        "Drona",
+        "Kripa",
+        "Karna",
+        "Ashwatthama",
+        "Brihadbala",
+        "Shalya"
+      ],
+      "action": "Fighting and losing chariot"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Lakshmana, son of Duryodhana, killed Abhimanyu after he was deprived of his chariot and in great danger.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Lakshmana",
+        "Abhimanyu"
+      ],
+      "action": "Killing",
+      "relationship": "Lakshmana is the son of Duryodhana"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Before his death, Abhimanyu killed thousands of elephants, horses, chariots, and foot soldiers, a hundred excellent princes, and many unheard-of heroes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Abhimanyu"
+      ],
+      "action": "Mass killing in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Abhimanyu killed King Brihadbala on the battlefield and sent him to heaven, then, as the embodiment of the highest dharma, proceeded to his own death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Abhimanyu",
+        "Brihadbala"
+      ],
+      "action": "Killing and dying",
+      "type": "Martyrdom"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya narrated these events, describing the outcome with increasing sorrow as the tiger among men (Abhimanyu) reached heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Abhimanyu"
+      ],
+      "action": "Narration of death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna, upon hearing King Yudhishthira's words, sighed, cried out 'Alas, my son!', and fell to the ground in agony.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Yudhishthira",
+        "Abhimanyu"
+      ],
+      "action": "Grieving",
+      "relationship": "Arjuna is the father of Abhimanyu; Yudhishthira is his uncle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Everyone gathered around Arjuna with sad faces, feeling heavy-hearted and staring at each other without blinking.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Pandavas and allies"
+      ],
+      "action": "Collective mourning"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After a while, Arjuna regained consciousness, became increasingly agitated, trembled as if with fever, and gasped for breath.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Recovering and emotional turmoil"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna, with tears in his eyes and a wandering gaze like a drunkard, made a vow to kill Jayadratha the next day.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Jayadratha"
+      ],
+      "action": "Vowing revenge",
+      "type": "Oath"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna declared that Jayadratha would receive no forgiveness from him, Krishna, or Yudhishthira for forgetting friendship and being the chief culprit in killing his child.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Jayadratha",
+        "Krishna",
+        "Yudhishthira",
+        "Abhimanyu"
+      ],
+      "action": "Declaration of intent",
+      "relationship": "Krishna is Arjuna's charioteer and friend"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna vowed to cover with arrows anyone who fought to protect Jayadratha in battle, even if it were heroes like Drona and Kripa.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Jayadratha",
+        "Drona",
+        "Kripa"
+      ],
+      "action": "Threat of indiscriminate attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna swore that if he failed to do so in battle, he would not attain the world revered by warriors and virtuous people.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 20,
+    "group_index": 19,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Solemn oath",
+      "type": "Divine sanction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna makes a series of vows to kill Shalya (also called Shalya or Shalya, but context suggests 'Shalya' is a king; however, the text mentions 'Shalya' as the enemy, but in the Mahabharata, Shalya is a different character. The enemy here is 'Shalya' or possibly a typo for 'Shalya', but based on standard Mahabharata, the enemy is 'Shalya'—a king. I'll use 'Shalya' as per context, but note ambiguity).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Shalya"
+      ],
+      "action": "Vowing to kill",
+      "type": "Oath/Conflict"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna lists various sinful worlds he would enter if he fails to kill Shalya by the next day.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Describing consequences",
+      "supernatural_elements": "Mention of divine worlds and fates"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna makes another vow to jump into fire if Shalya is not killed by sunset.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Vowing self-immolation",
+      "type": "Oath"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna declares that no being—gods, demons, humans, etc.—can protect Shalya, and he will kill him by dawn.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Shalya"
+      ],
+      "action": "Threatening attack",
+      "supernatural_elements": "Mention of gods, demons, and other beings"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After Arjuna's vows, he swings the Gandiva bow, and its sound reaches the heavens.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Swinging bow",
+      "supernatural_elements": "Divine bow sound"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna (also called Janardana or Krishna) blows the Panchajanya conch, and Arjuna (also called Vijaya or Arjuna) blows the Devadatta conch.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna"
+      ],
+      "action": "Blowing conches",
+      "relationships": "Krishna is Arjuna's charioteer and ally",
+      "supernatural_elements": "Divine conch sounds shaking the world"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sound from Krishna's conch, powered by his breath, shakes the entire world, including underground and sky, like the end of the world.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "action": "Blowing conch",
+      "supernatural_elements": "World-shaking sound, apocalyptic imagery"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After Arjuna's oath, various musical instruments sound and the Pandavas roar like lions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Pandavas"
+      ],
+      "action": "Celebrating oath",
+      "relationships": "Arjuna is a Pandava prince"
+    },
+    "_token_interval": null
+  }
+]

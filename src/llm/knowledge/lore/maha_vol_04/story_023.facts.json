@@ -1,0 +1,464 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna (also called Pritha's son, Kunti's son, Left-handed Archer) swore an oath to kill King Sindhu (also called Sindhu King, Sindhu people's king) after learning his son was killed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "King Sindhu"
+      ],
+      "action": "Oath/Declaration",
+      "reason": "Revenge for son's death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna (also called Vasudeva's son, Lotus-eyed) criticized Arjuna for making this oath without consulting him, calling it reckless.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna"
+      ],
+      "relationship": "Advisor/Companion",
+      "type": "Criticism/Admonishment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna sent spies to Duryodhana's camp who reported back about the enemy's preparations.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "action": "Espionage",
+      "target": "Duryodhana's camp"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Kauravas (Duryodhana's forces) heard Arjuna's lion-roar oath and prepared for battle, fearing he would attack that night.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Kauravas",
+        "Arjuna"
+      ],
+      "action": "Military preparation",
+      "reason": "Fear of Arjuna's attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Sindhu became frightened and consulted with Duryodhana and his ministers in a council meeting.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Sindhu",
+        "Duryodhana"
+      ],
+      "action": "Council meeting",
+      "emotion": "Fear/Anxiety"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Sindhu pleaded for protection from Duryodhana, saying no one could match Arjuna with Krishna's help, not even Indra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Sindhu",
+        "Duryodhana",
+        "Arjuna",
+        "Krishna"
+      ],
+      "action": "Plea for protection",
+      "reason": "Fear of Arjuna's prowess"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Sindhu threatened to return home if not protected on the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Sindhu",
+        "Duryodhana"
+      ],
+      "action": "Ultimatum",
+      "condition": "Protection in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana became distressed and thoughtful upon hearing Arjuna's oath and King Sindhu's fear.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "emotion": "Distress/Anxiety",
+      "trigger": "Arjuna's oath"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Sindhu expressed doubt that any hero among them could counter Arjuna's weapons, especially with Krishna's assistance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Sindhu",
+        "Arjuna",
+        "Krishna"
+      ],
+      "assessment": "Military capability",
+      "conclusion": "Arjuna is unbeatable with Krishna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Reference to Arjuna's past feat of killing thousands of Danavas in the golden city with a single chariot, sent by Indra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Indra"
+      ],
+      "action": "Past heroic deed",
+      "supernatural_elements": [
+        "Danavas",
+        "Divine mission"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Sindhu concluded that Arjuna and Krishna together could kill all beings in the three worlds, including gods.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna"
+      ],
+      "assessment": "Ultimate power",
+      "scope": "All three worlds"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "An unnamed king (likely referring to Dhritarashtra or Yudhishthira based on context) requests to return home or be protected by Drona and his son Ashvatthama.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra (implied)",
+        "Drona",
+        "Ashvatthama"
+      ],
+      "type": "Request for protection"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The king personally pleads with the teacher (Drona) for protection.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra (implied)",
+        "Drona"
+      ],
+      "type": "Plea for help"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Six warriors (Karna, Shalya, Ashvatthama, Bahlika, Kripa, and Shalya again as king of Madra) are appointed as vanguard protectors for Jayadratha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Shalya",
+        "Ashvatthama",
+        "Bahlika",
+        "Kripa",
+        "Jayadratha"
+      ],
+      "action": "Appointment as protectors"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona arranges the battle formation with chariots in front and a lotus formation behind, placing Jayadratha at the center protected by fierce warriors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Jayadratha"
+      ],
+      "action": "Battle formation arrangement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna declares that the six protecting warriors are not even half as powerful as he is and vows to kill Jayadratha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Jayadratha",
+        "Karna",
+        "Shalya",
+        "Ashvatthama",
+        "Bahlika",
+        "Kripa"
+      ],
+      "type": "Declaration and vow",
+      "relationship": "Arjuna vs. Jayadratha's protectors"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna swears to Krishna that he will kill Jayadratha the next day, even if all divine beings and natural forces protect him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna",
+        "Jayadratha"
+      ],
+      "type": "Oath",
+      "supernatural_elements": "Mention of divine beings (Vasus, Rudras, Indra, etc.) and natural forces"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna plans to first attack Drona, who is protecting Jayadratha, and then break through the front lines to reach Jayadratha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Drona",
+        "Jayadratha"
+      ],
+      "action": "Battle strategy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna describes using divine weapons obtained from Yama, Kubera, Varuna, and Indra to destroy the weapons of Jayadratha's protectors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Divine weapon usage",
+      "supernatural_elements": "Weapons from gods Yama, Kubera, Varuna, Indra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna vows to make carnivorous birds and beasts satisfied with the corpses, scatter enemies, please allies, and ensure Jayadratha's death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Jayadratha"
+      ],
+      "type": "Vow of destruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna vows to defeat King Shrutayudha and the Sindhu warriors in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "King Shrutayudha",
+        "Sindhu warriors"
+      ],
+      "action": "Vow of victory",
+      "supernatural_elements": "Reference to divine weapons and Gandiva bow"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna declares his unmatched archery skills to Krishna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna"
+      ],
+      "relationship": "Warrior and charioteer/advisor",
+      "type": "Declaration of prowess"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna makes a solemn oath that Shrutayudha will die in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Shrutayudha"
+      ],
+      "action": "Oath of killing",
+      "type": "Vow"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya narrates that Arjuna spoke to Krishna and himself.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Arjuna",
+        "Krishna"
+      ],
+      "action": "Narration",
+      "type": "Meta-narrative"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna instructs Krishna to prepare his chariot at dawn for the coming battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna"
+      ],
+      "action": "Preparation for battle",
+      "type": "Command"
+    },
+    "_token_interval": null
+  }
+]

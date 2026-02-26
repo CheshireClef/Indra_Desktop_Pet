@@ -1,0 +1,725 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Vyasa about a king's eloquence, bravery, and wealth, and how to obtain it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Vyasa"
+      ],
+      "type": "Inquiry",
+      "relationships": [
+        "Yudhishthira seeks wisdom from Vyasa"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa explains the conflict between the Asuras and Devas, descendants of Daksha, and similarly between the two sons of Angiras: Brihaspati and Samvarta.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Angiras",
+        "Brihaspati",
+        "Samvarta"
+      ],
+      "type": "Historical Context",
+      "relationships": [
+        "Brihaspati and Samvarta are sons of Angiras",
+        "They are in conflict"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra defeats all Asuras, gains sovereignty over all worlds, and appoints Brihaspati as his priest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Brihaspati"
+      ],
+      "type": "Divine Appointment",
+      "relationships": [
+        "Indra appoints Brihaspati as his priest"
+      ],
+      "supernatural_elements": [
+        "Indra's victory over Asuras",
+        "Sovereignty over all worlds"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Angiras serves as priest to King Kalanda, who possesses unmatched bravery, conduct, and power, and ascends to heaven with his body after a long life.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Angiras",
+        "King Kalanda"
+      ],
+      "type": "Priest-King Relationship",
+      "relationships": [
+        "Angiras is priest to King Kalanda"
+      ],
+      "supernatural_elements": [
+        "King Kalanda ascends to heaven with his body"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Kalanda's son, Avikshit, rules the earth virtuously, followed by his son, Marutta, who is brave like Indra and beloved by Earth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Kalanda",
+        "Avikshit",
+        "Marutta"
+      ],
+      "type": "Lineage Succession",
+      "relationships": [
+        "Avikshit is son of Kalanda",
+        "Marutta is son of Avikshit"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Marutta frequently competes with Indra, and Indra cannot surpass Marutta's purity and virtue despite efforts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Marutta",
+        "Indra"
+      ],
+      "type": "Divine Competition",
+      "relationships": [
+        "Marutta and Indra are rivals"
+      ],
+      "supernatural_elements": [
+        "Indra's inability to surpass Marutta's virtue"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra summons Brihaspati and demands he cease serving Marutta and serve only the Devas and ancestors, threatening to choose between him or Marutta.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Brihaspati",
+        "Marutta"
+      ],
+      "type": "Ultimatum",
+      "relationships": [
+        "Indra pressures Brihaspati to abandon Marutta"
+      ],
+      "supernatural_elements": [
+        "Indra's authority as ruler of three worlds"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brihaspati, after contemplation, pledges loyalty to Indra, questioning why he would serve mortal Marutta over immortal Indra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brihaspati",
+        "Indra",
+        "Marutta"
+      ],
+      "type": "Pledge of Loyalty",
+      "relationships": [
+        "Brihaspati chooses Indra over Marutta"
+      ],
+      "changes_in_relationships": [
+        "Brihaspati abandons Marutta for Indra"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Manu (Manu) heard about the agreement between Brihaspati (Vrihaspati) and Indra (Sakra) and became furious.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Manu",
+        "Brihaspati",
+        "Indra"
+      ],
+      "action": "Hearing about agreement",
+      "emotional_state": "Furious"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Manu went to Brihaspati and requested him to be the priest for his planned sacrifice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Manu",
+        "Brihaspati"
+      ],
+      "action": "Request for priest services",
+      "relationship": "King and priest"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brihaspati refused King Manu's request, citing his prior commitment to Indra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brihaspati",
+        "King Manu"
+      ],
+      "action": "Refusal of service",
+      "reason": "Prior commitment to Indra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Manu reminded Brihaspati of their hereditary priest relationship and insisted on his help.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Manu",
+        "Brihaspati"
+      ],
+      "action": "Insistence on hereditary duty",
+      "relationship": "Hereditary priest relationship"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brihaspati firmly refused again, stating he cannot perform sacrifices for mortals after serving immortals.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brihaspati",
+        "King Manu"
+      ],
+      "action": "Final refusal",
+      "reason": "Cannot serve mortals after serving gods"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Manu felt ashamed and depressed, returning home after the refusal.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Manu"
+      ],
+      "action": "Departure",
+      "emotional_state": "Ashamed and depressed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "On his way home, King Manu met the sage Narada (Narada).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Manu",
+        "Narada"
+      ],
+      "action": "Encounter",
+      "relationship": "King and sage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Narada noticed King Manu's distress and inquired about his well-being.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narada",
+        "King Manu"
+      ],
+      "action": "Inquiry about distress",
+      "type": "Divine intervention"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Manu explained to Narada how Brihaspati refused to be his priest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Manu",
+        "Narada"
+      ],
+      "action": "Explanation of refusal",
+      "emotional_state": "Feeling abandoned and tainted"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Narada suggested King Manu approach Sambarta (Sambarta), another son of Angiras, as an alternative priest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narada",
+        "King Manu"
+      ],
+      "action": "Alternative suggestion",
+      "solution": "Approach Sambarta instead"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Narada advised King Manu to find Shambara for performing a sacrifice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narada",
+        "King Manu"
+      ],
+      "action": "Advice/Instruction",
+      "relationship": "Advisor and seeker"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Narada instructed King Manu to place a corpse at the city gate of Varanasi to identify Shambara.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narada",
+        "King Manu"
+      ],
+      "action": "Identification method",
+      "supernatural_element": "Divine guidance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Manu followed Narada's instructions and placed a corpse at Varanasi's gate.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Manu"
+      ],
+      "action": "Following divine instructions"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shambara entered the city gate, saw the corpse, and turned away.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shambara"
+      ],
+      "action": "Reaction to corpse",
+      "identification": "Confirmed as Shambara"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Manu followed Shambara to a secluded spot, where Shambara threw ashes, dirt, phlegm, and spit on him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Manu",
+        "Shambara"
+      ],
+      "action": "Humiliation/Test",
+      "relationship": "Seeker and reluctant priest"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Manu endured the humiliation and continued following Shambara.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Manu"
+      ],
+      "action": "Perseverance",
+      "character_trait": "Determination"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shambara questioned King Manu about who revealed his identity and threatened him with truth-testing.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shambara",
+        "King Manu"
+      ],
+      "action": "Interrogation",
+      "supernatural_element": "Truth curse (head splitting)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Manu truthfully revealed that Narada told him about Shambara being his family priest's son.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Manu",
+        "Shambara",
+        "Narada"
+      ],
+      "action": "Truthful revelation",
+      "relationship": "Family priest connection revealed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Manu told Shambara that Narada entered fire after introducing him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Manu",
+        "Shambara",
+        "Narada"
+      ],
+      "action": "Information sharing",
+      "supernatural_element": "Narada's fiery departure"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shambara expressed happiness and claimed he could also enter fire.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shambara"
+      ],
+      "action": "Boast/Claim",
+      "supernatural_element": "Claim of supernatural ability"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shambara, acting like a madman, criticized King Manu for seeking him as a priest and suggested his brother instead.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shambara",
+        "King Manu"
+      ],
+      "action": "Self-deprecation and refusal",
+      "relationship": "Reluctant priest discouraging seeker"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "摩奴多向商婆尔多抱怨兄长夺走了他的家产和祭祀权利，请求商婆尔多为举行祭祀。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "摩奴多",
+        "商婆尔多"
+      ],
+      "action": "请求举行祭祀",
+      "relationships": [
+        "摩奴多向商婆尔多求助"
+      ],
+      "conflict": "摩奴多与兄长争夺祭祀权利"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "商婆尔多表示必须先征得毗诃波提同意才能为摩奴多举行祭祀，因为毗诃波提是他的兄长。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "商婆尔多",
+        "摩奴多",
+        "毗诃波提"
+      ],
+      "action": "提出条件",
+      "relationships": [
+        "商婆尔多敬重兄长毗诃波提"
+      ],
+      "condition": "需要毗诃波提同意"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "摩奴多告诉商婆尔多，毗诃波提已经拒绝为他举行祭祀，因为毗诃波提已投靠因陀罗。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "摩奴多",
+        "毗诃波提",
+        "因陀罗"
+      ],
+      "action": "报告拒绝",
+      "relationships": [
+        "毗诃波提投靠因陀罗"
+      ],
+      "reason": "因陀罗选定毗诃波提，不愿为凡人摩奴多举行祭祀"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "摩奴多再次请求商婆尔多为举行祭祀，表示愿意花费全部财产，并想超越因陀罗。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "摩奴多",
+        "商婆尔多",
+        "因陀罗"
+      ],
+      "action": "再次请求",
+      "motivation": "摩奴多想超越因陀罗",
+      "offer": "花费全部财产"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "商婆尔多答应为摩奴多举行祭祀，但警告摩奴多必须坚定，否则会将他化为灰烬。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "商婆尔多",
+        "摩奴多"
+      ],
+      "action": "答应并警告",
+      "condition": "摩奴多必须坚定不怀疑",
+      "threat": "生气会将摩奴多和亲属化为灰烬"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "摩奴多发誓不会背弃商婆尔多，否则得不到世界和纯洁的智慧。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "摩奴多",
+        "商婆尔多"
+      ],
+      "action": "发誓",
+      "vow": "不会背弃商婆尔多",
+      "consequence": "背弃则得不到世界和智慧"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "商婆尔多保证摩奴多的财富不会毁灭，将胜过因陀罗、众天神和众健达缚。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "商婆尔多",
+        "摩奴多",
+        "因陀罗"
+      ],
+      "action": "保证成功",
+      "promise": "财富不毁灭，胜过因陀罗",
+      "supernatural": "祭祀将使摩奴多与因陀罗一样"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "商婆尔多透露真实动机：不是为财富或祭主，而是为了让兄长毗诃波提和因陀罗感到不快。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "商婆尔多",
+        "毗诃波提",
+        "因陀罗"
+      ],
+      "action": "透露动机",
+      "motivation": "让兄长毗诃波提和因陀罗不快",
+      "relationships": [
+        "商婆尔多与毗诃波提的兄弟冲突"
+      ]
+    },
+    "_token_interval": null
+  }
+]

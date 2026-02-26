@@ -1,0 +1,1383 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra asks Sanjaya about the events following Abhimanyu's death, specifically what the Pandavas did and who from the Kaurava side fought.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Sanjaya"
+      ],
+      "type": "Inquiry",
+      "context": "Post-Abhimanyu's death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra expresses fear about Arjuna's wrath after losing his son, describing him as a tiger among men and comparing him to Death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Arjuna"
+      ],
+      "type": "Expression of Fear",
+      "relationship": "Dhritarashtra fears Arjuna's retaliation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra laments the silence and lack of joyful sounds in various camps, including those of his sons, Sindhu's king, and other warriors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra"
+      ],
+      "type": "Lamentation",
+      "details": "Mentions camps of Duryodhana, Sindhu's king, Ashvatthama, Vinda and Anuvinda, Kekayas, and others being unusually quiet"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra describes Ashvatthama (son of Drona) as a protector of his sons, respected by all classes, and fond of debates, conversations, and songs.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Ashvatthama"
+      ],
+      "type": "Character Description",
+      "relationship": "Ashvatthama is a protector of Dhritarashtra's sons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra recalls Krishna's earlier visit from Dvaraka to seek peace, showing compassion for all beings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Krishna"
+      ],
+      "type": "Flashback/Recollection",
+      "action": "Krishna's peace mission"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra reveals he advised Duryodhana to accept Krishna's mediation and make peace with the Pandavas, but Duryodhana ignored him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Duryodhana",
+        "Krishna"
+      ],
+      "type": "Revelation of Past Advice",
+      "relationship": "Father-son conflict; Dhritarashtra advised peace, Duryodhana rejected"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna (also referred to as Keshava, Madhusudana) pleaded for peace for everyone's benefit, warning Duryodhana that refusal would mean the end of his victories.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Duryodhana"
+      ],
+      "type": "Diplomacy/Warning",
+      "relationships": [
+        "Krishna as peace envoy to Duryodhana"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana rejected Krishna's peace proposal and ignored his counsel, acting out of arrogance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Krishna"
+      ],
+      "type": "Conflict/Rejection",
+      "relationships": [
+        "Duryodhana defies Krishna's advice"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana disregarded Dhritarashtra and instead followed the advice of Dushasana and Karna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Dhritarashtra",
+        "Dushasana",
+        "Karna"
+      ],
+      "type": "Political Decision",
+      "relationships": [
+        "Duryodhana sides with Dushasana and Karna over his father Dhritarashtra"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Multiple key figures opposed the dice game: Yudhishthira, Vidura, Shalya, Bhishma, Drona, Ashvatthama, Kripa, and others.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Vidura",
+        "Shalya",
+        "Bhishma",
+        "Drona",
+        "Ashvatthama",
+        "Kripa"
+      ],
+      "type": "Collective Opposition",
+      "relationships": [
+        "Alliance of elders and warriors against the dice game"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra lamented that if Duryodhana had listened to these wise counselors, he and his friends would be living happily.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Duryodhana"
+      ],
+      "type": "Regret/Lamentation",
+      "relationships": [
+        "Father's regret over son's disobedience"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra praised the Pandavas (Yudhishthira, Bhima, Arjuna, Nakula, Sahadeva) as virtuous, noble, wise, and deserving of half the ancestral kingdom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Pandavas"
+      ],
+      "type": "Praise/Justification",
+      "relationships": [
+        "Dhritarashtra acknowledges Pandavas' rightful claim"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra suggested that the Pandavas would listen to advice from elders like Bhishma, Drona, and other respected Bharata family members.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Pandavas",
+        "Bhishma",
+        "Drona"
+      ],
+      "type": "Proposed Resolution",
+      "relationships": [
+        "Elders as potential mediators between Pandavas and Kauravas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra repeatedly advised his son Duryodhana, but Duryodhana refused to listen, which Dhritarashtra attributes to fate.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Duryodhana"
+      ],
+      "type": "Failed Counsel",
+      "relationships": [
+        "Father-son conflict over war decisions"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra listed the powerful warriors on the Pandava side including Bhima, Arjuna, Satyaki, Shikhandi, and Krishna as charioteer, suggesting they are invincible.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Pandava warriors",
+        "Krishna"
+      ],
+      "type": "Military Assessment",
+      "relationships": [
+        "Recognition of Pandava military superiority"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra identified only four warriors (Duryodhana, Karna, Shakuni, Dushasana) who could potentially face the Pandavas, implying their forces are weak.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Duryodhana",
+        "Karna",
+        "Shakuni",
+        "Dushasana"
+      ],
+      "type": "Strategic Analysis",
+      "relationships": [
+        "Limited capable warriors on Kaurava side"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra predicted that after Bhishma and Drona's deaths, Duryodhana would regret not listening to his advice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Duryodhana",
+        "Bhishma",
+        "Drona"
+      ],
+      "type": "Prophecy/Regret",
+      "relationships": [
+        "Father foresees son's future remorse"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra acknowledged that Vidura's foresighted words would prove true, causing pain to his sons when they see the consequences.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Vidura",
+        "Duryodhana"
+      ],
+      "type": "Acknowledgment of Wisdom",
+      "relationships": [
+        "Vidura as prophetic counselor whose advice was ignored"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra expresses anxiety about Arjuna's power and asks Sanjaya to narrate events after the death of Abhimanyu.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Sanjaya",
+        "Arjuna"
+      ],
+      "action": "Request for narration",
+      "context": "Post-Abhimanyu's death in the Kurukshetra War"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya criticizes Dhritarashtra for his past mistakes and failure to prevent the war.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Dhritarashtra"
+      ],
+      "action": "Criticism and blame",
+      "key_points": [
+        "Failure to stop the dice game",
+        "Failure to control Duryodhana",
+        "Partiality towards his sons"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya recounts how Krishna's respect for Dhritarashtra diminished due to his unjust rule.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Dhritarashtra",
+        "Krishna"
+      ],
+      "action": "Loss of respect",
+      "reason": "Dhritarashtra's deviation from dharma (righteous rule)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya describes how Dhritarashtra usurped the kingdom rightfully belonging to the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Pandavas"
+      ],
+      "action": "Usurpation of kingdom",
+      "details": "The Pandavas' achievements were nullified by Dhritarashtra's greed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya recounts the events leading up to the battle, blaming King Dhritarashtra for not restraining his sons (the Kauravas) before the war.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "King Dhritarashtra",
+        "Kauravas"
+      ],
+      "action": "Recounting/Blame",
+      "relationships": [
+        "Sanjaya is the narrator to King Dhritarashtra",
+        "Dhritarashtra is the father of the Kauravas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya describes the fierce battle between the Kauravas and the Pandavas, highlighting the valor of the Kshatriya kings and the protection of the Pandava army by key warriors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kauravas",
+        "Pandavas",
+        "Krishna",
+        "Arjuna",
+        "Satyaki",
+        "Bhima"
+      ],
+      "action": "Battle description",
+      "relationships": [
+        "Kauravas and Pandavas are rival factions",
+        "Krishna and Arjuna are allies/protectors of the Pandavas",
+        "Satyaki and Bhima are warriors for the Pandavas"
+      ],
+      "supernatural_elements": "None explicitly mentioned, but divine protection implied"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "At dawn, the warrior Drona begins arranging the armies for battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Military arrangement",
+      "relationships": [
+        "Drona is a commander for the Kauravas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Heroes from both sides prepare for battle, expressing eagerness and shouting challenges, asking for the whereabouts of key opponents like Arjuna, Krishna, and Bhima.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna",
+        "Bhima",
+        "Various warriors"
+      ],
+      "action": "Preparation and provocation",
+      "relationships": [
+        "Arjuna, Krishna, and Bhima are key targets for the opposing warriors"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona blows his conch, drives his chariot, and moves swiftly across the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Signaling and maneuvering",
+      "relationships": [
+        "Drona is leading the Kaurava forces"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona instructs King Jayadratha and other key warriors (including Ashvatthaman, Karna, Shalya, Kritavarma, and Kripa) to position themselves three gavyutis away, assuring Jayadratha of protection from even the gods and the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Jayadratha",
+        "Ashvatthaman",
+        "Karna",
+        "Shalya",
+        "Kritavarma",
+        "Kripa"
+      ],
+      "action": "Strategic positioning and assurance",
+      "relationships": [
+        "Drona is the commander giving orders",
+        "Jayadratha is the king of Sindhu being protected",
+        "Ashvatthaman is Drona's son",
+        "Karna, Shalya, Kritavarma, and Kripa are Kaurava warriors"
+      ],
+      "supernatural_elements": "Implied divine-level protection strategy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Shalya (信度王胜车) led his forces to a specified location, accompanied by Gandhara warriors, cavalry, and infantry.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Shalya"
+      ],
+      "action": "Military movement",
+      "forces": [
+        "Gandhara warriors",
+        "cavalry",
+        "infantry",
+        "7,000 horses",
+        "2,000 Sindhu horses",
+        "elephants"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana (难敌) commanded 1,500 elephants and positioned them at the front of the formation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Military command",
+      "forces": [
+        "1,500 elephants"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dushasana (难降) and Vikarna (毗迦尔纳) positioned themselves at the front to protect King Shalya.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dushasana",
+        "Vikarna",
+        "King Shalya"
+      ],
+      "action": "Protection formation",
+      "relationship": "Brothers protecting an ally"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona (德罗纳) deployed a complex military formation called the Chakra Vyuha (轮座阵) and Ratha Vyuha (车阵), measuring twelve gavyutis long and five gavyutis wide in the rear.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Military strategy",
+      "formation": [
+        "Chakra Vyuha",
+        "Ratha Vyuha",
+        "Padma Vyuha (lotus formation)",
+        "Suchimukha Vyuha (needle-point formation)"
+      ],
+      "supernatural_elements": "Formation described as terrifying like the ocean, capable of swallowing the earth"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna (成铠) guarded the needle-point of the formation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "action": "Defensive position",
+      "position": "Guardian of Suchimukha Vyuha"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Shalya was positioned at the rear of the needle-point formation, surrounded by heavy protection.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Shalya"
+      ],
+      "action": "Strategic positioning",
+      "protection": "Heavily guarded"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona stood at the forefront of the chariot formation, protected from behind by King Bhoja (博遮王).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "King Bhoja"
+      ],
+      "action": "Mutual protection",
+      "relationship": "Commander and protector"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Kaurava army prepared for battle with loud noises from drums, conches, and instruments, creating a terrifying atmosphere.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kaurava army"
+      ],
+      "action": "Battle preparation",
+      "atmosphere": "Terrifying sounds and omens"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna (阿周那) appeared as the Bharata forces advanced, with ominous signs like crows, ravens, and jackals appearing.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Arrival on battlefield",
+      "omens": [
+        "Crows and ravens flying",
+        "Jackals howling on right side"
+      ],
+      "supernatural_elements": "Bad omens preceding battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "飓风骤起，燃烧的彗星纷纷坠落，整个大地都在晃动。",
+    "char_interval": {
+      "start_pos": 4950,
+      "end_pos": 4964
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Supernatural Omen",
+      "description": "Divine signs and natural disasters occur before the battle."
+    },
+    "_token_interval": {
+      "start_index": 1415,
+      "end_index": 1418
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "贡蒂之子（阿周那）来到战场，四面刮起可怕的狂风，夹杂雷霆，飞沙走石。",
+    "char_interval": {
+      "start_pos": 4985,
+      "end_pos": 5019
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那"
+      ],
+      "type": "Arrival",
+      "description": "Arjuna arrives at the battlefield accompanied by supernatural storms."
+    },
+    "_token_interval": {
+      "start_index": 1426,
+      "end_index": 1438
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "无种之子百军和水滴王之孙猛光排定了般度族军队的阵容。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "百军",
+        "猛光"
+      ],
+      "type": "Military Organization",
+      "description": "Satyaki (son of Nakula) and Dhrishtadyumna (son of Drupada) arrange the Pandava army formation."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "你的儿子难耐站在所有军队之前，占据了一千五百弓的地盘，宣称要拦住阿周那。",
+    "char_interval": {
+      "start_pos": 5096,
+      "end_pos": 5123
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难耐",
+        "阿周那"
+      ],
+      "type": "Challenge",
+      "description": "Duryodhana positions himself at the front of the army and vows to stop Arjuna in battle."
+    },
+    "_token_interval": {
+      "start_index": 1459,
+      "end_index": 1463
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那披甲执刀，头戴金冠，身着白色的铠甲和衣服，佩戴美丽的臂钏和耳环。",
+    "char_interval": {
+      "start_pos": 5422,
+      "end_pos": 5457
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那"
+      ],
+      "type": "Preparation",
+      "description": "Arjuna prepares for battle in full divine armor and ornaments."
+    },
+    "_token_interval": {
+      "start_index": 1555,
+      "end_index": 1563
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那由那罗延（黑天）陪随，登上上乘的战车，在战场上摇动甘狄拨神弓，犹如一轮升起的太阳。",
+    "char_interval": {
+      "start_pos": 5465,
+      "end_pos": 5509
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "黑天"
+      ],
+      "type": "Divine Ascension",
+      "description": "Arjuna ascends his chariot with Krishna as his charioteer, wielding the Gandiva bow."
+    },
+    "_token_interval": {
+      "start_index": 1567,
+      "end_index": 1582
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那将战车停在大军的前沿，箭雨落下的地方，然后吹响螺号。",
+    "char_interval": {
+      "start_pos": 5523,
+      "end_pos": 5549
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那"
+      ],
+      "type": "Battle Signal",
+      "description": "Arjuna positions his chariot and blows his conch to signal the start of battle."
+    },
+    "_token_interval": {
+      "start_index": 1589,
+      "end_index": 1595
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天配合阿周那，用力吹响众螺之首五生螺号。",
+    "char_interval": {
+      "start_pos": 5574,
+      "end_pos": 5641
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天",
+        "阿周那"
+      ],
+      "type": "Divine Signal",
+      "description": "Krishna blows his Panchajanya conch in unison with Arjuna."
+    },
+    "_token_interval": {
+      "start_index": 1604,
+      "end_index": 1624
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "随着阿周那和黑天的螺号声起，难耐的军队中武士们毛发竖立，颤栗不止，没有了主意。",
+    "char_interval": {
+      "start_pos": 5613,
+      "end_pos": 5641
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "黑天",
+        "难耐"
+      ],
+      "type": "Psychological Warfare",
+      "description": "The conch sounds of Arjuna and Krishna terrify Duryodhana's warriors, causing panic and confusion."
+    },
+    "_token_interval": {
+      "start_index": 1616,
+      "end_index": 1624
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "所有的牲畜屎尿失禁，整个军队也和牲畜一样惊慌失措。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Supernatural Effect",
+      "description": "Animals and soldiers alike lose control due to the divine sounds."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "那只猿猴也和幢首上的生灵们一起，张嘴高声嘶叫，恫吓难耐的战士们。",
+    "char_interval": {
+      "start_pos": 5757,
+      "end_pos": 5780
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Divine Intervention",
+      "description": "A monkey (likely Hanuman) on Arjuna's banner roars terrifyingly at Duryodhana's army."
+    },
+    "_token_interval": {
+      "start_index": 1660,
+      "end_index": 1664
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "尔后，众多的螺号吹响，伴随着铜鼓、大鼓和小鼓的擂响，难耐的武士们重新振作起来。",
+    "char_interval": {
+      "start_pos": 5793,
+      "end_pos": 5819
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难耐"
+      ],
+      "type": "Rally",
+      "description": "Duryodhana's army regains courage after their own musical instruments and war cries."
+    },
+    "_token_interval": {
+      "start_index": 1669,
+      "end_index": 1677
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那兴奋异常，对黑天说道：“感官之主啊！策马前往难耐那里！”",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "黑天",
+        "难耐"
+      ],
+      "type": "Command",
+      "description": "Arjuna, excited for battle, commands Krishna to drive the chariot toward Duryodhana."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna declared his intention to break through the elephant army and enter the enemy formation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "type": "Declaration of Intent"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna, hearing Arjuna, drove their chariot towards Jayadratha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna",
+        "Jayadratha"
+      ],
+      "action": "Movement/Advance",
+      "relationship": "Krishna as Arjuna's charioteer and guide"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A terrible battle erupted between Arjuna and the Kaurava forces, destroying chariots, horses, elephants, and men.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Kaurava Warriors"
+      ],
+      "type": "Large-scale Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna rained down arrows on the enemy like a cloud pouring rain on mountains.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Archery Attack",
+      "supernatural_element": "Comparison to a storm cloud"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "All Kaurava chariot warriors swiftly cast a net of arrows at Krishna and Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kaurava Warriors",
+        "Krishna",
+        "Arjuna"
+      ],
+      "action": "Coordinated Counter-attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Angered by enemy resistance, Arjuna severed the heads of many chariot warriors with his arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Decapitation",
+      "emotional_state": "Anger"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The battlefield became littered with severed heads, limbs, and weapons, creating a gruesome scene.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Kaurava Warriors"
+      ],
+      "action": "Carnage Description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kaurava warriors became confused, seeing Arjuna everywhere, and began killing each other and even themselves.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kaurava Warriors"
+      ],
+      "action": "Fratricide/Suicide",
+      "psychological_effect": "Mass confusion and madness induced by Arjuna's prowess"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Wounded heroes lay on the ground, groaning in pain and calling for relatives and friends.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kaurava Warriors"
+      ],
+      "action": "Aftermath of Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna's arrows pierced through elephants, elephant-riders, horses, cavalry, chariots, and charioteers indiscriminately.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Unstoppable Slaughter"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna fought with such speed and grace, dancing on his chariot while shooting arrows, that no enemy could find an opening to attack him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Display of Supreme Skill",
+      "supernatural_element": "Superhuman archery and battlefield movement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "No one who dared to resist Arjuna on the battlefield could survive his destructive arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "type": "Conclusion of Battle Segment",
+      "outcome": "Total dominance by Arjuna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna used heron-feathered arrows to destroy the elephant army, like the rising sun dispelling darkness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Destroy elephant army",
+      "supernatural_elements": "Comparison to sun dispelling darkness"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The enemy army was filled with fallen and killed elephants, appearing like mountainous terrain at the end of the world.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Mass destruction of elephants",
+      "result": "Battlefield transformed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Enemies could not look directly at the angry Arjuna, just as beings cannot gaze at the midday sun.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Inspiring fear",
+      "supernatural_elements": "Comparison to blinding sun"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana's army began to disintegrate and scatter under the assault of arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Duryodhana"
+      ],
+      "action": "Rout of army",
+      "relationship": "Arjuna attacks Duryodhana's forces"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The army was slaughtered and scattered like clouds dispersed by wind, not daring to look back.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Complete rout",
+      "supernatural_elements": "Comparison to wind-scattered clouds"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Charioteers drove horses with whips, bow-staves, shouts, reins, heels, and fierce cries.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana's charioteers"
+      ],
+      "action": "Panicked retreat",
+      "result": "Chaotic escape"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Under Arjuna's attack, cavalry, chariots, and infantry rapidly fled.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Duryodhana's forces"
+      ],
+      "action": "Mass retreat",
+      "result": "Complete battlefield collapse"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Some drove elephants with heels, toes, and hooks; others, confused by arrows, ran toward Arjuna. Warriors lost courage and consciousness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Duryodhana's warriors"
+      ],
+      "action": "Final disintegration",
+      "result": "Total demoralization and confusion"
+    },
+    "_token_interval": null
+  }
+]

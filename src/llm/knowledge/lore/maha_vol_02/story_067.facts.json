@@ -1,0 +1,776 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战 (Yudhishthira) approached his brother who was being constricted by a python.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战 (Yudhishthira)",
+        "怖军 (Bhima)"
+      ],
+      "action": "Discovery of crisis",
+      "relationship": "Brothers (Pandavas)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "怖军 (Bhima) explained to 坚战 (Yudhishthira) how he was captured.",
+    "char_interval": {
+      "start_pos": 464,
+      "end_pos": 466
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "怖军 (Bhima)",
+        "坚战 (Yudhishthira)"
+      ],
+      "action": "Explanation of situation",
+      "relationship": "Brothers (Pandavas)"
+    },
+    "_token_interval": {
+      "start_index": 157,
+      "end_index": 158
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战 (Yudhishthira) questioned the python about its identity and what it wanted to release 怖军 (Bhima).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战 (Yudhishthira)",
+        "友邻 (Nahusha)"
+      ],
+      "action": "Negotiation attempt",
+      "supernatural_element": "Python speaking"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The python revealed it was formerly King 友邻 (Nahusha), an ancestor of 坚战 (Yudhishthira), cursed by Sage 投山 (Agastya) for insulting Brahmins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "友邻 (Nahusha)",
+        "投山 (Agastya)",
+        "坚战 (Yudhishthira)"
+      ],
+      "action": "Identity revelation",
+      "supernatural_element": "Curse transformation",
+      "relationship": "Ancestor-descendant"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "友邻 (Nahusha) stated he must eat 怖军 (Bhima) unless 坚战 (Yudhishthira) could answer his questions satisfactorily.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "友邻 (Nahusha)",
+        "坚战 (Yudhishthira)",
+        "怖军 (Bhima)"
+      ],
+      "action": "Condition for release",
+      "type": "Test of wisdom"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "友邻 (Nahusha) asked 坚战 (Yudhishthira) to define what makes a Brahmin and what they should know.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "友邻 (Nahusha)",
+        "坚战 (Yudhishthira)"
+      ],
+      "action": "Philosophical questioning",
+      "theme": "Nature of Brahminhood"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战 (Yudhishthira) answered that a Brahmin is defined by virtues like honesty, charity, patience, and knowledge of the supreme Brahman (ultimate reality).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战 (Yudhishthira)"
+      ],
+      "action": "Philosophical response",
+      "key_concept": "Definition of Brahmin"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "友邻 (Nahusha) challenged this, arguing these virtues can exist in all castes and questioning the existence of something beyond pain and pleasure.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "友邻 (Nahusha)"
+      ],
+      "action": "Philosophical counterargument",
+      "theme": "Caste and virtue"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战 (Yudhishthira) responded that caste is determined by behavior, not birth, and defended the existence of the supreme Brahman beyond dualities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战 (Yudhishthira)"
+      ],
+      "action": "Final philosophical statement",
+      "key_concept": "Behavior over birth, transcendence"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira and the snake engage in a philosophical debate about caste, behavior, and dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Snake"
+      ],
+      "action": "Philosophical debate",
+      "topics": [
+        "Caste determination",
+        "Behavior vs. birth",
+        "Dharma"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira argues that all castes are mixed and birth is difficult to determine, emphasizing that behavior defines a person.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Argument presentation",
+      "key_points": [
+        "Castes are mixed",
+        "Behavior determines caste",
+        "Birth is not definitive"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira cites the authority of Manu, who states that caste is determined by behavior to prevent confusion.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Manu"
+      ],
+      "action": "Citation of authority",
+      "relationship": "Yudhishthira references Manu's teachings"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The snake declares that Yudhishthira knows everything that should be known and decides not to eat Bhima.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Snake",
+        "Yudhishthira",
+        "Bhima"
+      ],
+      "action": "Decision and revelation",
+      "outcome": "Snake spares Bhima",
+      "relationship": "Snake tests Yudhishthira's wisdom"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks the snake about the supreme path of action.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Snake"
+      ],
+      "action": "Question about dharma",
+      "topic": "Supreme path of action"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The snake explains that charity, pleasant speech, truthfulness, and non-violence lead to heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Snake"
+      ],
+      "action": "Teaching dharma",
+      "principles": [
+        "Charity",
+        "Pleasant speech",
+        "Truthfulness",
+        "Non-violence"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks about the relative importance of charity vs. truthfulness and non-violence vs. pleasant speech.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Question about moral priorities",
+      "dilemma": "Weighing different virtues"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The snake responds that the importance depends on the effects and circumstances, with no absolute hierarchy.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Snake"
+      ],
+      "action": "Teaching situational ethics",
+      "principle": "Context determines virtue priority"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks about the soul's journey to heaven, inevitable karma, and sense objects.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Question about afterlife and karma",
+      "topics": [
+        "Soul's destination",
+        "Karma",
+        "Sense objects"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The snake explains three paths based on one's karma: rebirth as human, ascent to heaven, or rebirth as animal.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Snake"
+      ],
+      "action": "Teaching karma and rebirth",
+      "paths": [
+        "Rebirth as human",
+        "Ascent to heaven",
+        "Rebirth as animal"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The snake states that charity and non-violence lead from the human world to heaven, while desire, anger, violence, and greed lead to loss of human status and rebirth as animal.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Snake"
+      ],
+      "action": "Teaching consequences of actions",
+      "positive_actions": [
+        "Charity",
+        "Non-violence"
+      ],
+      "negative_actions": [
+        "Desire",
+        "Anger",
+        "Violence",
+        "Greed"
+      ],
+      "consequences": [
+        "Heaven",
+        "Animal rebirth"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks the snake about how the soul interacts with sensory objects and why it doesn't accept them all simultaneously.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Snake"
+      ],
+      "action": "Philosophical inquiry",
+      "relationships": "Questioner and respondent"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The snake explains that the soul, after attaching to a body, enjoys sensory objects through senses according to rules, with perception, intelligence, and mind as its instruments.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Snake"
+      ],
+      "action": "Philosophical explanation",
+      "supernatural_elements": "Soul and sensory perception"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The snake clarifies that the soul resides between the eyebrows and directs intelligence to different entities, preventing simultaneous acceptance of all sensory objects.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Snake"
+      ],
+      "action": "Further explanation",
+      "supernatural_elements": "Soul's location and function"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks about the main characteristics of mind and intelligence for understanding the supreme spirit.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Snake"
+      ],
+      "action": "Further inquiry",
+      "relationships": "Continued dialogue"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The snake distinguishes mind and intelligence, noting intelligence arises suddenly, follows the soul, and acts on its intentions, while mind has qualities and arises spontaneously.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Snake"
+      ],
+      "action": "Philosophical distinction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira praises the snake's wisdom and questions why such a knowledgeable being would ask for his opinion.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Snake"
+      ],
+      "action": "Praise and inquiry",
+      "relationships": "Respectful questioning"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The snake reveals that wealth and comfort can confuse even the wise, and his own pride led to his fall, but conversing with Yudhishthira has lifted a curse.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Snake",
+        "Yudhishthira"
+      ],
+      "action": "Revelation and confession",
+      "relationships": "Curse removal through dialogue",
+      "supernatural_elements": "Curse and its lifting"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The snake recounts his past arrogance: he traveled in a celestial chariot, taxed all beings, stripped creatures of their radiance with his gaze, and had a thousand sages carry his palanquin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Snake",
+        "Sages (including Agastya)"
+      ],
+      "action": "Past misdeeds",
+      "relationships": "Oppressor and oppressed",
+      "supernatural_elements": "Celestial travel, gaze power"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The snake kicked the sage Agastya while he was carrying the palanquin, leading an invisible being to angrily curse him to fall, resulting in his current state.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Snake",
+        "Agastya"
+      ],
+      "action": "Act of disrespect and curse",
+      "relationships": "Aggressor and victim",
+      "supernatural_elements": "Curse from invisible being"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker's ornaments fell off, and they tumbled from the front of the celestial chariot, transforming into a snake as they fell headfirst.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The speaker (later revealed as Nahusha)"
+      ],
+      "action": "Fall and transformation",
+      "supernatural_elements": [
+        "Transformation into a snake"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker, now a snake, begged a Brahmin for the curse to have an end, pleading for forgiveness for an act committed in ignorance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nahusha",
+        "A Brahmin (curse-giver)"
+      ],
+      "action": "Plea for mercy",
+      "relationships": [
+        "Nahusha is cursed by the Brahmin"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin, filled with compassion, told the falling Nahusha that King Yudhishthira would help him be freed from the curse, once the fruits of his pride, cruelty, and violence vanished.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Brahmin (curse-giver)",
+        "Nahusha",
+        "King Yudhishthira"
+      ],
+      "action": "Prophecy of redemption",
+      "relationships": [
+        "The Brahmin sets condition for curse's end",
+        "Yudhishthira is prophesied as liberator"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Astonished by the power of asceticism, the speaker (Nahusha) asks about Brahman and the nature of a Brahmin, and is told that success comes through truth, self-control, asceticism, non-violence, and constant charity, not by birth or family.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nahusha",
+        "The Brahmin (or an interlocutor)"
+      ],
+      "action": "Philosophical inquiry and teaching",
+      "key_theme": "True merit vs. birthright"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker reveals that Bhima is free and unharmed, bids farewell, and says they will return to heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nahusha",
+        "Bhima"
+      ],
+      "action": "Revelation and farewell",
+      "relationships": [
+        "Nahusha's message concerns Bhima's safety"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vaishampayana narrates that after speaking thus, Nahusha shed his snake form, regained his divine form, and ascended to heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nahusha"
+      ],
+      "action": "Transformation and ascension",
+      "supernatural_elements": [
+        "Regaining divine form",
+        "Ascension to heaven"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yudhishthira, with his brother Bhima and accompanied by Shaunaka, returned to the auspicious hermitage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira",
+        "Bhima",
+        "Shaunaka"
+      ],
+      "action": "Return journey",
+      "relationships": [
+        "Yudhishthira and Bhima are brothers",
+        "Shaunaka is a companion"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yudhishthira truthfully narrated the entire sequence of events to all the assembled Brahmins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira",
+        "Assembled Brahmins"
+      ],
+      "action": "Narration of events"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Upon hearing, all the Brahmins, the three other brothers, and the famous Draupadi felt great shame.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Assembled Brahmins",
+        "The three other Pandava brothers",
+        "Draupadi"
+      ],
+      "action": "Collective shame",
+      "relationships": [
+        "The three brothers and Draupadi are part of the Pandava family"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmins, concerned for the welfare of the Pandavas, rebuked Bhima for his recklessness and advised him not to act so in the future.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Assembled Brahmins",
+        "Bhima"
+      ],
+      "action": "Rebuke and counsel",
+      "relationships": [
+        "Brahmins act as advisors to the Pandavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sons of Pandu, seeing the strong and powerful Bhima finally safe, filled with joy, continued to live together happily.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Pandava brothers (Yudhishthira, Bhima, Arjuna, Nakula, Sahadeva)"
+      ],
+      "action": "Joyful reunion",
+      "relationships": [
+        "The Pandavas are brothers united in relief"
+      ]
+    },
+    "_token_interval": null
+  }
+]

@@ -1,0 +1,1563 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "全胜描述毗湿摩被阿周那击败，躺在箭床上，如同被飓风吹干的大海。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "毗湿摩",
+        "阿周那"
+      ],
+      "action": "击败",
+      "type": "战斗结果",
+      "supernatural_elements": "神奇的兵器"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "毗湿摩的倒下粉碎了持国儿子们的胜利希望、福祉和庇佑。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "毗湿摩",
+        "持国儿子们（俱卢族）"
+      ],
+      "action": "影响士气",
+      "type": "战略转折",
+      "relationships": "毗湿摩是俱卢族的首领和庇护者"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳看到毗湿摩躺在英雄之床上，痛苦不堪，热泪盈眶，向毗湿摩敬礼并说话。",
+    "char_interval": {
+      "start_pos": 332,
+      "end_pos": 462
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "毗湿摩"
+      ],
+      "action": "致敬与哀悼",
+      "type": "情感表达",
+      "relationships": "迦尔纳敬重毗湿摩作为俱卢族首领"
+    },
+    "_token_interval": {
+      "start_index": 86,
+      "end_index": 124
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳自称迦尔纳，祝毗湿摩吉祥，请求毗湿摩睁开眼睛对他说话。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "毗湿摩"
+      ],
+      "action": "请求对话",
+      "type": "恳求",
+      "relationships": "迦尔纳寻求毗湿摩的指导"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳感叹如果像毗湿摩这样恪守正法的长者倒下，世上无人能尝到善行的果报。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "毗湿摩"
+      ],
+      "action": "表达道德危机",
+      "type": "哲学反思",
+      "relationships": "毗湿摩被视为正法的典范"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳称赞毗湿摩在积累财富、策划谋略、调兵遣将和使用武器方面是俱卢族中无与伦比的首领。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "毗湿摩"
+      ],
+      "action": "赞扬能力",
+      "type": "颂扬",
+      "relationships": "毗湿摩是俱卢族的军事和战略领袖"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳指责毗湿摩抛弃无舟可济的众多武士，前往祖先的世界。",
+    "char_interval": {
+      "start_pos": 536,
+      "end_pos": 559
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "毗湿摩"
+      ],
+      "action": "批评遗弃",
+      "type": "指责",
+      "relationships": "毗湿摩被视为武士们的保护者"
+    },
+    "_token_interval": {
+      "start_index": 146,
+      "end_index": 150
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳预言从今天起，般度族人将毁灭俱卢族人，犹如老虎吞噬羚羊。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "般度族人",
+        "俱卢族人"
+      ],
+      "action": "预言毁灭",
+      "type": "未来预测",
+      "relationships": "般度族与俱卢族敌对"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳描述俱卢族人将战战兢兢面对阿周那，犹如阿修罗面对手持金刚杵的因陀罗。",
+    "char_interval": {
+      "start_pos": 641,
+      "end_pos": 660
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "阿周那",
+        "俱卢族人",
+        "因陀罗",
+        "阿修罗"
+      ],
+      "action": "比喻恐惧",
+      "type": "神话类比",
+      "supernatural_elements": "因陀罗与阿修罗的神话"
+    },
+    "_token_interval": {
+      "start_index": 169,
+      "end_index": 173
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳预言甘狄拨神弓的咆哮将把俱卢族人和国王们吓得心惊肉跳。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "阿周那",
+        "俱卢族人",
+        "国王们"
+      ],
+      "action": "预言恐慌",
+      "type": "心理战",
+      "supernatural_elements": "甘狄拨神弓的神奇威力"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳预言阿周那的箭会毁灭持国之子们，如同烈焰烧尽森林。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "阿周那",
+        "持国儿子们"
+      ],
+      "action": "预言毁灭",
+      "type": "比喻",
+      "relationships": "阿周那是持国儿子们的毁灭者"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳将阿周那比作熊熊烈焰，黑天比作风，两者携手能焚烧一切。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "阿周那",
+        "黑天"
+      ],
+      "action": "比喻联盟",
+      "type": "战略分析",
+      "relationships": "阿周那与黑天是强大的盟友",
+      "supernatural_elements": "神祇般的威力"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳描述五生螺号和甘狄拨神弓的声音使所有军士陷入恐慌。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "阿周那",
+        "军士们"
+      ],
+      "action": "引起恐慌",
+      "type": "心理影响",
+      "supernatural_elements": "五生螺号和甘狄拨神弓的神奇声音"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳断言除毗湿摩外，没有国王能受得住阿周那战车的轰鸣或与他交战。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "毗湿摩",
+        "阿周那",
+        "国王们"
+      ],
+      "action": "赞扬独特性",
+      "type": "能力比较",
+      "relationships": "毗湿摩是唯一能与阿周那匹敌的战士"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The wise man (unnamed) had an extraordinary battle with the three-eyed god Shiva and obtained a boon difficult for imperfect souls to acquire.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shiva"
+      ],
+      "action": "Battle and boon acquisition",
+      "supernatural_elements": "Divine battle and boon from Shiva"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "An unnamed speaker declares inability to tolerate the Pandava son Arjuna, describing him as a venomous snake whose glance can kill, and vows to face him with permission, seeking either death or victory.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Declaration of intent to fight",
+      "relationships": "Opposition to Arjuna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya narrates that after hearing the lament, the aged Kuru patriarch Bhishma, pleased, spoke words fitting the time and place, encouraging and blessing Karna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Bhishma",
+        "Karna"
+      ],
+      "action": "Bhishma encourages and blesses Karna",
+      "relationships": "Bhishma as Kuru patriarch, mentor-like to Karna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma praises Karna's past victories and loyalty to Duryodhana, urging him to become a refuge for all Kurus, command the army, and bring victory to Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Karna",
+        "Duryodhana"
+      ],
+      "action": "Bhishma's exhortation and blessing",
+      "relationships": "Karna's allegiance to Duryodhana, Bhishma's paternal blessing to Karna as a grandson-like figure"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna, son of Surya, honors Bhishma's feet and swiftly goes to the battlefield, where he sees the immense army and encourages the warriors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Bhishma"
+      ],
+      "action": "Karna pays respects and heads to battle",
+      "relationships": "Karna shows reverence to Bhishma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Kurus, seeing the great archer Karna ready for battle, applaud and cheer with lion roars and bowstring sounds to honor him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Kurus"
+      ],
+      "action": "Kurus honor Karna",
+      "relationships": "Karna as a respected warrior among Kurus"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing the tiger among men Karna standing on his chariot, Duryodhana is overjoyed and speaks, believing the army has a savior with Karna's protection.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Karna"
+      ],
+      "action": "Duryodhana expresses joy and confidence",
+      "relationships": "Duryodhana's reliance on Karna as protector and savior"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna responds to Duryodhana, asking for commands and acknowledging Duryodhana's wisdom and kingship.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Duryodhana"
+      ],
+      "action": "Karna seeks Duryodhana's orders",
+      "relationships": "Karna's subservience and loyalty to Duryodhana"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana asks Karna who should succeed Bhishma as army commander after Bhishma's fall.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Karna"
+      ],
+      "type": "Strategic Consultation",
+      "relationships": [
+        "Duryodhana seeks Karna's advice on military leadership"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana praises Bhishma's qualifications and achievements as former commander.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhishma"
+      ],
+      "type": "Character Assessment",
+      "relationships": [
+        "Duryodhana acknowledges Bhishma's service and virtues"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna recommends Drona as the new army commander.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Drona"
+      ],
+      "type": "Recommendation",
+      "relationships": [
+        "Karna nominates Drona for leadership position"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna explains Drona's qualifications including wisdom, experience, and respect among warriors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Drona"
+      ],
+      "type": "Character Evaluation",
+      "relationships": [
+        "Karna highlights Drona's superior qualities for command"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana addresses Drona and formally asks him to become army commander.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Drona"
+      ],
+      "type": "Formal Request",
+      "relationships": [
+        "Duryodhana offers command position to Drona"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana praises Drona's virtues and compares him to Indra protecting gods.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Drona"
+      ],
+      "type": "Praise and Flattery",
+      "relationships": [
+        "Duryodhana elevates Drona's status through divine comparison"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana praised Drona's martial prowess and virtues, comparing him to great deities and leaders, and formally requested him to become the supreme commander of the Kaurava army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Drona"
+      ],
+      "action": "Appointment Request",
+      "relationships": [
+        "Student-Teacher (Drona taught the Kaurava and Pandava princes)",
+        "Commander-Subordinate (proposed)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The assembled kings unanimously acclaimed Drona with shouts of 'Victory to Drona!' and roared like lions, exciting Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Assembled Kings",
+        "Drona",
+        "Duryodhana"
+      ],
+      "action": "Acclamation",
+      "relationships": [
+        "Allies (Kings supporting the Kauravas)",
+        "Proposed Commander-Subordinates"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona accepted the command, stating his knowledge of sacred texts, statecraft, and weapons, and his desire to prove the virtues attributed to him by fighting the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Acceptance of Command",
+      "relationships": [
+        "Commander (self-declared intent)",
+        "Enemy (to the Pandavas)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana, following prescribed rites, formally appointed Drona as the supreme commander of the army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Drona"
+      ],
+      "action": "Formal Appointment",
+      "relationships": [
+        "King-Commander",
+        "Former Student-Teacher"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The kings, led by Duryodhana, performed the consecration ceremony for Drona as commander, likened to the gods consecrating Skanda.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Drona",
+        "Assembled Kings"
+      ],
+      "action": "Consecration Ceremony",
+      "relationships": [
+        "King-Commander",
+        "Allies"
+      ],
+      "supernatural_elements": [
+        "Simile comparing the event to divine consecration of Skanda (Kartikeya)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Upon Drona's appointment, there was great rejoicing with music, cheers, blessings, praises from bards and Brahmins, and auspicious dances. People believed the Pandavas were already defeated.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Kaurava Army Supporters"
+      ],
+      "action": "Celebration",
+      "relationships": [
+        "New Commander-Army"
+      ],
+      "narrative_impact": "Heightened morale and confidence in the Kaurava camp."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona, now commander and eager for battle, arrayed the army and set out with Duryodhana's sons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Duryodhana's Sons (Kauravas)"
+      ],
+      "action": "Army Mobilization",
+      "relationships": [
+        "Commander-Troops"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Key warriors were positioned in the battle formation: King of Sindhu, King of Kalinga, and Vikarna on the right wing; Shakuni with Gandhara cavalry on the wing tip; Kripa, Ashvatthaman, Kshemadhurti, and Vivimsati under Duhshasana's lead on the left wing; and the Kambojas, Shakas, and Yavanas led by Shrutayu on their wing tip.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King of Sindhu",
+        "King of Kalinga",
+        "Vikarna",
+        "Shakuni",
+        "Kripa",
+        "Ashvatthaman",
+        "Kshemadhurti",
+        "Vivimsati",
+        "Duhshasana",
+        "Shrutayu",
+        "Kamboja Warriors",
+        "Shaka Warriors",
+        "Yavana Warriors"
+      ],
+      "action": "Battle Array Deployment",
+      "relationships": [
+        "Subordinate Commanders under Drona's overall command",
+        "Specific wing assignments"
+      ],
+      "narrative_impact": "Detailed setup for the impending battle in the Drona Parva."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna leads the Kaurava army with Duryodhana at the forefront, followed by various tribes including Madra, Trigarta, Ambashtha, Westerners, Northerners, Shibi, Surasena, Shudra, Malada, Mushika, Kichaka, Easterners, and Southerners.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Duryodhana"
+      ],
+      "action": "Military leadership and procession",
+      "relationships": [
+        "Karna leads Duryodhana's forces"
+      ],
+      "supernatural_elements": null
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna's presence and his shining banner with an elephant rope as its emblem boost the morale of the Kaurava army, making them forget Bhishma's absence.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Bhishma"
+      ],
+      "action": "Morale boost and replacement of leadership",
+      "relationships": [
+        "Karna replaces Bhishma as the army's inspiration"
+      ],
+      "supernatural_elements": null
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Warriors discuss Karna's superiority, believing he can defeat even the gods led by Indra and will destroy the Pandavas, whom Bhishma spared.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Indra",
+        "Bhishma",
+        "Pandavas"
+      ],
+      "action": "Boastful议论 and confidence in Karna",
+      "relationships": [
+        "Karna is seen as superior to Bhishma and a threat to the Pandavas"
+      ],
+      "supernatural_elements": null
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona arranges the Kaurava army in a chariot formation, while Yudhishthira arranges the Pandava army in a heron formation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Yudhishthira"
+      ],
+      "action": "Battle formations",
+      "relationships": [
+        "Drona commands Kaurava forces, Yudhishthira commands Pandava forces"
+      ],
+      "supernatural_elements": null
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna and Arjuna lead the Pandava vanguard with Arjuna's banner featuring a monkey emblem, shining brightly and symbolizing their prowess.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna"
+      ],
+      "action": "Vanguard leadership",
+      "relationships": [
+        "Krishna is Arjuna's charioteer and guide"
+      ],
+      "supernatural_elements": [
+        "Arjuna's banner is described as illuminating like the sun at doomsday"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna's chariot, drawn by white horses and carrying Arjuna (best archer), Gandiva (best bow), Krishna (best of beings), and Sudarshana (best discus), stands at the forefront like the raised wheel of Death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna"
+      ],
+      "action": "Display of divine and martial excellence",
+      "relationships": [
+        "Krishna supports Arjuna as his charioteer"
+      ],
+      "supernatural_elements": [
+        "The chariot is compared to the wheel of Death, symbolizing its destructive power"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna and Arjuna, each leading their respective armies, glare at each other with mutual hatred and a desire to kill one another.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Arjuna"
+      ],
+      "action": "Confrontation and mutual animosity",
+      "relationships": [
+        "Karna and Arjuna are sworn enemies"
+      ],
+      "supernatural_elements": null
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "As Drona advances, ominous signs appear: fierce winds raise dust, flesh, bone, and blood rain from a cloudless sky, vultures and other birds circle, wolves howl and encircle the army, a meteor falls, and the sun's halo releases lightning and thunder.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Advancement accompanied by supernatural omens",
+      "relationships": [
+        "Drona's movement triggers divine portents"
+      ],
+      "supernatural_elements": [
+        "Dust storms, unnatural rain, bird omens, wolf behavior, meteor fall, solar halo with lightning and thunder"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona rapidly charged toward the Pandava army, shooting hundreds of arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Attack",
+      "target": "Pandava army"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas and Srinjayas saw Drona charging and greeted him with a dense shower of arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Srinjayas",
+        "Drona"
+      ],
+      "action": "Counterattack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona disrupted, split, and scattered the Pandava army and Panchalas, like clouds scattered by wind.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Pandavas",
+        "Panchalas"
+      ],
+      "action": "Rout",
+      "effect": "Disarray of enemy forces"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona used various divine weapons in succession, quickly making the Pandavas and Srinjayas suffer.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Pandavas",
+        "Srinjayas"
+      ],
+      "action": "Divine weapon usage",
+      "supernatural_elements": "Divine weapons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona slaughtered the Panchalas led by Dhrishtadyumna, causing them to tremble.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Dhrishtadyumna",
+        "Panchalas"
+      ],
+      "action": "Slaughter",
+      "comparison": "Like Danavas slaughtered by Indra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhrishtadyumna, skilled in divine weapons, repeatedly repulsed Drona's army with showers of arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "Drona"
+      ],
+      "action": "Counterattack",
+      "skill": "Divine weapon knowledge"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhrishtadyumna gradually withstood Drona's arrow showers and began slaughtering the Kaurava army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "Kauravas"
+      ],
+      "action": "Slaughter",
+      "effect": "Shift in battle momentum"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona withdrew his troops, reorganized his army on the battlefield, and again rushed toward Dhrishtadyumna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Dhrishtadyumna"
+      ],
+      "action": "Regroup and re-engage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona poured a dense shower of arrows on Dhrishtadyumna, like Indra pouring arrows on Danavas in rage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Dhrishtadyumna"
+      ],
+      "action": "Intense attack",
+      "comparison": "Like Indra vs Danavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas and Srinjayas trembled under Drona's arrow showers and repeatedly retreated.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Pandavas",
+        "Srinjayas"
+      ],
+      "action": "Retreat",
+      "comparison": "Like deer facing a lion"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona charged left and right into the Pandava army, like a rotating wheel of fire.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Pandavas"
+      ],
+      "action": "Chaotic assault",
+      "supernatural_elements": "Miraculous appearance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona slaughtered enemies from his excellent chariot, which flew like a city in the air.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Chariot combat",
+      "supernatural_elements": "Flying chariot"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing Drona slaughtering horses, charioteers, chariot warriors, and elephants, the Pandavas surrounded him from all sides without panic.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Pandavas"
+      ],
+      "action": "Encirclement",
+      "response": "Calm and strategic"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yudhishthira ordered Dhrishtadyumna and Arjuna to block Drona and surround him from four sides.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Dhrishtadyumna",
+        "Arjuna",
+        "Drona"
+      ],
+      "action": "Strategic command",
+      "relationship": "Commander ordering warriors"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "All great warriors, including Arjuna, Dhrishtadyumna, and their followers, together intercepted Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Dhrishtadyumna",
+        "Drona",
+        "Various warriors"
+      ],
+      "action": "Coordinated interception"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Numerous kings and warriors, including the Kekaya princes, Bhima, Abhimanyu, Ghatotkacha, Nakula, Sahadeva, and others, followed Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Abhimanyu",
+        "Ghatotkacha",
+        "Kekaya princes",
+        "Other kings"
+      ],
+      "action": "Following command",
+      "relationship": "Alliance under Yudhishthira"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing his army being blocked by the Pandavas on the battlefield, Drona became wide-eyed with anger.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Pandavas"
+      ],
+      "action": "Emotional response",
+      "emotion": "Anger"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona, burning with rage, stood fiercely on his chariot and fought valiantly, sweeping through the Pandava army like wind scattering clouds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Pandavas"
+      ],
+      "action": "Furious assault",
+      "comparison": "Like wind scattering clouds"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona, though aged, fought fiercely on the battlefield like a young man, driving his swift red horses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "type": "Battle Action",
+      "description": "Drona displays exceptional vigor and skill in combat despite his age."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandava warriors fled in terror upon seeing Drona charge, comparing him to the god of death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Pandava Army"
+      ],
+      "type": "Psychological Impact",
+      "description": "Drona's presence causes panic and retreat among the Pandava forces."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona announced himself in battle again, becoming fierce and shooting hundreds of arrows at his enemies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "type": "Battle Declaration",
+      "description": "Drona reasserts his presence and intensifies his attack."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona slaughtered the army of Yudhishthira, killing many warriors, including the five princes of Kekaya and the king of Panchala.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Yudhishthira",
+        "Five Princes of Kekaya",
+        "King of Panchala"
+      ],
+      "type": "Mass Slaughter",
+      "description": "Drona causes massive casualties among Yudhishthira's allies."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima, Arjuna, Satyaki, Dhrishtadyumna, King of Kashi, and Shibi attacked Drona with streams of arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Arjuna",
+        "Satyaki",
+        "Dhrishtadyumna",
+        "King of Kashi",
+        "Shibi",
+        "Drona"
+      ],
+      "type": "Counterattack",
+      "description": "Key Pandava warriors and allies collectively assault Drona."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona shot golden-feathered arrows that pierced the warriors, horses, and elephants, then buried themselves bloodied into the ground.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "type": "Supernatural Battle",
+      "description": "Drona's arrows demonstrate extraordinary power and lethality."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The battlefield was covered with corpses, overturned chariots, dead elephants, and horses, resembling apocalyptic clouds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Aftermath",
+      "description": "Graphic depiction of the devastation caused by Drona's rampage."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona killed Shibi's grandson, Iravan, King of Kashi, and other heroes protecting the armies of Satyaki, Bhima, and Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Shibi's Grandson",
+        "Iravan",
+        "King of Kashi",
+        "Satyaki",
+        "Bhima",
+        "Arjuna"
+      ],
+      "type": "Key Eliminations",
+      "description": "Drona targets and eliminates prominent protectors of the Pandava forces."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After accomplishing all these feats, the great-souled Drona went to heaven, likened to the sun returning to the sky after burning the world at doomsday.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "type": "Divine Ascension",
+      "description": "Drona's death and ascension to heaven, compared to a cosmic event."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The hero driving the golden chariot killed thousands of Pandava warriors on the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Mass killing of Pandava warriors",
+      "supernatural_elements": "Golden chariot"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona was killed by Dhrishtadyumna, the grandson of Drupada.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Dhrishtadyumna"
+      ],
+      "action": "Killing in battle",
+      "relationships": "Dhrishtadyumna is grandson of Drupada, enemy of Drona"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After destroying the army of fearless warriors, the wise Drona attained the highest destination.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Attaining moksha/enlightenment",
+      "supernatural_elements": "Spiritual attainment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The hero riding the golden chariot completed difficult tasks before being killed by the fierce Pandavas and Panchalas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Pandavas",
+        "Panchalas"
+      ],
+      "action": "Battle and death",
+      "relationships": "Drona was teacher of Pandavas, now enemies in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "When Drona was struck down on the battlefield, cries arose from all beings and warriors in the air.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Universal lamentation",
+      "supernatural_elements": "Cries from all beings in the air"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Great cries of \"Alas! Alas!\" echoed through heaven, earth, sky, all directions, and waters.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "All beings"
+      ],
+      "action": "Cosmic lamentation",
+      "supernatural_elements": "Echoes throughout all realms"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The great warrior Drona was struck down on the battlefield, witnessed by gods, ancestors, and his former friends and relatives.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Gods",
+        "Ancestors"
+      ],
+      "action": "Divine witnessing of death",
+      "supernatural_elements": "Gods and ancestors observing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas achieved victory and roared like lions, their great roars shaking the earth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas"
+      ],
+      "action": "Victory celebration",
+      "supernatural_elements": "Roars shaking the earth"
+    },
+    "_token_interval": null
+  }
+]

@@ -1,0 +1,926 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra laments the return of the Pandavas to battle, led by Yudhishthira, and attributes their success and his sons' misfortunes to fate.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Yudhishthira",
+        "Duryodhana"
+      ],
+      "action": "Lamentation/Reflection",
+      "relationships": "Dhritarashtra is the father of Duryodhana and the uncle of Yudhishthira. He reflects on the conflict between his sons (the Kauravas) and his nephews (the Pandavas).",
+      "plot_points": "Yudhishthira was exiled and lived as an ascetic but has now returned with a large army. Dhritarashtra recalls Duryodhana's past boasts of conquest and power, now contrasted with the deaths of key warriors like Bhishma and Drona."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra recalls that Drona, a great warrior and teacher, was killed by Dhrishtadyumna in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Dhrishtadyumna"
+      ],
+      "action": "Death in Battle",
+      "relationships": "Drona was the teacher of both the Pandavas and Kauravas. Dhrishtadyumna is the brother of Draupadi and commander of the Pandava army, born to kill Drona.",
+      "plot_points": "Drona's death is a major blow to the Kaurava army. Dhritarashtra sees it as an act of fate, questioning how such a mighty warrior could be killed."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra remembers the warnings of Vidura about the dangers of his greed and attachment to his son Duryodhana, which have now come true.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Vidura",
+        "Duryodhana"
+      ],
+      "action": "Recollection of Warning",
+      "relationships": "Vidura is Dhritarashtra's half-brother and wise counselor. Dhritarashtra ignored his advice against favoring Duryodhana and pursuing wealth over righteousness.",
+      "plot_points": "Dhritarashtra acknowledges that abandoning dharma (righteousness) for wealth leads to ruin. He feels trapped, wishing his remaining sons could survive but expecting more suffering."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra asks Sanjaya to describe the battle details, including the actions of Arjuna and who fought or fled.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Sanjaya",
+        "Arjuna"
+      ],
+      "action": "Request for Information",
+      "relationships": "Sanjaya is Dhritarashtra's charioteer and narrator, gifted with divine sight to report the war. Arjuna is Dhritarashtra's nephew and a key Pandava warrior.",
+      "plot_points": "Dhritarashtra seeks to understand the battlefield events, highlighting his fear of Arjuna and the chaos in his army after the deaths of Bhishma and Drona."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya begins his reply, describing how the Pandavas returned and surrounded Drona like a dark cloud, causing fear and confusion in the Kaurava army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Drona",
+        "Pandavas (collectively)"
+      ],
+      "action": "Battle Description",
+      "relationships": "Sanjaya reports to Dhritarashtra. The Pandavas are led by Yudhishthira and include warriors like Bhima and Arjuna, fighting against Drona and the Kauravas.",
+      "plot_points": "The Pandavas' aggressive return creates dust and obscures vision, leading to the false belief that Drona was killed. Duryodhana rallies his troops in response."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana ordered his forces to defend against the Pandava army with all their might and courage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "type": "Military Command"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana charged at Bhima, showering arrows to protect Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhima",
+        "Drona"
+      ],
+      "action": "Combat",
+      "relationship": "Duryodhana defends Drona against Bhima"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki attempted to attack Drona, but Kritavarma intercepted him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Drona",
+        "Kritavarma"
+      ],
+      "action": "Interception in Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Jayadratha defended Drona against Arjuna's arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jayadratha",
+        "Drona",
+        "Arjuna"
+      ],
+      "action": "Defensive Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna broke Jayadratha's flag and bow, then shot iron arrows at his vital points.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Jayadratha"
+      ],
+      "action": "Combat with Weapon Destruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya intercepted Yudhishthira in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Yudhishthira"
+      ],
+      "action": "Interception in Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira broke Shalya's flag and bow with two razor arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Shalya"
+      ],
+      "action": "Combat with Weapon Destruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhagadatta fought against Drupada and his army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhagadatta",
+        "Drupada"
+      ],
+      "action": "Army Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vinda and Anuvinda attacked Virata and his army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vinda",
+        "Anuvinda",
+        "Virata"
+      ],
+      "action": "Army Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shatanika charged forward, but Shrenimat intercepted him to protect Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shatanika",
+        "Shrenimat",
+        "Drona"
+      ],
+      "action": "Interception in Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shatanika killed Shrenimat by cutting off his head and arms.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shatanika",
+        "Shrenimat"
+      ],
+      "action": "Killing in Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandi charged at Drona, but Vivimshati intercepted him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandi",
+        "Drona",
+        "Vivimshati"
+      ],
+      "action": "Interception in Combat",
+      "relationship": "Uncle (Vivimshati) intercepts nephew (Shikhandi)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhurishrava killed the prince of Salva along with his horses and charioteer.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhurishrava",
+        "Prince of Salva"
+      ],
+      "action": "Killing in Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "向山（Shikhandin）与德罗纳之子（马嘶，Ashvatthaman）在战场上激战，互相渴望杀死对方，为父亲建功立业。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Ashvatthaman"
+      ],
+      "action": "Battle",
+      "relationships": [
+        "Enemies in battle",
+        "Sons fighting for their fathers' honor"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "德罗纳之子（马嘶，Ashvatthaman）放箭阻截向山（Shikhandin），以维护父亲德罗纳（Drona）的荣耀。",
+    "char_interval": {
+      "start_pos": 2040,
+      "end_pos": 2048
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthaman",
+        "Shikhandin"
+      ],
+      "action": "Arrow attack",
+      "relationships": [
+        "Protecting father's honor"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 544,
+      "end_index": 547
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "向山（Shikhandin）愤怒地发射利箭，射中德罗纳之子（马嘶，Ashvatthaman）。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Ashvatthaman"
+      ],
+      "action": "Counterattack with arrows",
+      "relationships": [
+        "Battle opponents"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "德罗纳之子（马嘶，Ashvatthaman）向黑公主之子（向山，Shikhandin）泼洒箭雨。",
+    "char_interval": {
+      "start_pos": 2105,
+      "end_pos": 2113
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthaman",
+        "Shikhandin"
+      ],
+      "action": "Arrow shower attack",
+      "relationships": [
+        "Intense battle"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 564,
+      "end_index": 567
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "罗奇蛮（Lakshmana）阻截诛灭强盗者（Arjuna），两人展开战斗。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Lakshmana",
+        "Arjuna"
+      ],
+      "action": "Battle initiation",
+      "relationships": [
+        "Battle opponents"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "诛灭强盗者（Arjuna）射断了罗奇蛮（Lakshmana）的弓和幢徽，又向他撒开箭网。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Lakshmana"
+      ],
+      "action": "Destructive attack with arrows",
+      "relationships": [
+        "Superior warrior defeating opponent"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "毗迦尔纳（Vikarna）在战场上阻截冲向前来的祭军之子束发（Shikhandin）。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vikarna",
+        "Shikhandin"
+      ],
+      "action": "Battle interception",
+      "relationships": [
+        "Youthful warriors fighting"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "祭军之子（束发，Shikhandin）用箭网罩住毗迦尔纳（Vikarna），但毗迦尔纳摆脱了箭网。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Vikarna"
+      ],
+      "action": "Arrow net attack and escape",
+      "relationships": [
+        "Battle with skilled maneuvers"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "英勇的优多贸阁（Uttamaujas）冲向德罗纳（Drona），盎伽陀（Angada）以牛犊牙箭阻截他。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttamaujas",
+        "Angada",
+        "Drona"
+      ],
+      "action": "Battle interception with arrows",
+      "relationships": [
+        "Protecting Drona from attack"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "英勇的贡提婆阇王布卢吉多（Bhrigukacha）冲向德罗纳（Drona），丑面（Kumbhakarna）阻截他。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhrigukacha",
+        "Kumbhakarna",
+        "Drona"
+      ],
+      "action": "Battle interception",
+      "relationships": [
+        "Protecting Drona"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "布卢吉多（Bhrigukacha）用一支铁箭射中丑面（Kumbhakarna）的眉心，严重 injuring him。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhrigukacha",
+        "Kumbhakarna"
+      ],
+      "action": "Precise arrow strike to forehead",
+      "relationships": [
+        "Battle injury"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳（Karna）泼洒箭雨，阻截冲向德罗纳（Drona）的羯迦夜五兄弟（Five Kekaya brothers）。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Five Kekaya brothers",
+        "Drona"
+      ],
+      "action": "Arrow shower to intercept multiple attackers",
+      "relationships": [
+        "Protecting Drona from group attack"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "五兄弟怒气冲天，朝迦尔纳（Karna）放出一簇簇箭，而迦尔纳撒出箭网将他们罩住。",
+    "char_interval": {
+      "start_pos": 2501,
+      "end_pos": 2509
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Five Kekaya brothers",
+        "Karna"
+      ],
+      "action": "Mutual arrow attacks and net trapping",
+      "relationships": [
+        "Intense group battle"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 668,
+      "end_index": 670
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难胜（Duryodhana）、胜利（Vijaya）和取胜（Jayatsena）阻截尼罗（Nila）、迦尸王（King of Kashi）和阇耶（Jaya）。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Vijaya",
+        "Jayatsena",
+        "Nila",
+        "King of Kashi",
+        "Jaya"
+      ],
+      "action": "Three vs three battle",
+      "relationships": [
+        "Group combat"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "萨谛奇（Satyaki）在战场上冲向德罗纳（Drona），忏摩杜尔提（Chamadurthi）和毗诃特（Vihata）两兄弟使用锋利的箭阻截他。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Chamadurthi",
+        "Vihata",
+        "Drona"
+      ],
+      "action": "Two brothers intercepting single warrior",
+      "relationships": [
+        "Protecting Drona",
+        "Brothers fighting together"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "愤怒的车底王（King of Chedi）射出利箭阻截生性好战的安波私吒王（King of Ambashtha），从而保护德罗纳（Drona）。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King of Chedi",
+        "King of Ambashtha",
+        "Drona"
+      ],
+      "action": "Arrow interception to protect ally",
+      "relationships": [
+        "Protecting Drona from attack"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "安波私吒王（King of Ambashtha）射出一支能射穿人骨的利箭，车底王（King of Chedi）被射中，从战车跌落到地上。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King of Ambashtha",
+        "King of Chedi"
+      ],
+      "action": "Fatal arrow strike causing fall from chariot",
+      "relationships": [
+        "Battle fatality"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "高大的有年之子慈悯（Kripa）射出许多小头箭，阻截怒气冲冲的苾湿尼王子晚福（Balarama），从而保护德罗纳（Drona）。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripa",
+        "Balarama",
+        "Drona"
+      ],
+      "action": "Arrow interception with specialized arrows",
+      "relationships": [
+        "Protecting Drona",
+        "Skilled warriors battling"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "不知疲倦的佩珠王（King of Pandyas）冲上前来，月授之子（广声，Yuyudhana）阻截他，为德罗纳（Drona）增添光彩。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King of Pandyas",
+        "Yuyudhana",
+        "Drona"
+      ],
+      "action": "Battle interception",
+      "relationships": [
+        "Protecting Drona's position"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "月授之子（广声）的弓、幡幢、旗杆、车夫和华盖被射落",
+    "char_interval": {
+      "start_pos": 3031,
+      "end_pos": 3039
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "月授之子（广声）"
+      ],
+      "action": "武器和装备被摧毁",
+      "perpetrator": "未明确指定（可能是般度族战士）"
+    },
+    "_token_interval": {
+      "start_index": 802,
+      "end_index": 806
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "月授之子（广声）跳下战车，挥舞大刀杀死佩珠王及其驷马和车夫，摧毁幡幢和战车",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "月授之子（广声）",
+        "佩珠王"
+      ],
+      "action": "击杀",
+      "outcome": "佩珠王死亡，其战车被毁"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "月授之子（广声）跃上自己的战车，拿起另一张弓，亲自驾驭马匹，驱散般度族军队",
+    "char_interval": {
+      "start_pos": 3031,
+      "end_pos": 3119
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "月授之子（广声）"
+      ],
+      "action": "反击和驱散敌军",
+      "target": "般度族军队"
+    },
+    "_token_interval": {
+      "start_index": 802,
+      "end_index": 826
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "瓶首使用各种武器和自然元素（铁杵、铁锤、飞轮、飞镖、战斧、尘土、风、火、水、灰烬、石头、草、树）砍、刺、杀、冲、掷，试图接近德罗纳",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "瓶首",
+        "德罗纳"
+      ],
+      "action": "攻击和推进",
+      "intent": "接近德罗纳",
+      "supernatural_elements": "使用自然元素作为武器"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "罗刹指掌精通各种兵器和武艺，愤怒地杀向罗刹瓶首",
+    "char_interval": {
+      "start_pos": 3214,
+      "end_pos": 3237
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "罗刹指掌",
+        "瓶首"
+      ],
+      "action": "对抗",
+      "relationship": "两个罗刹首领之间的战斗"
+    },
+    "_token_interval": {
+      "start_index": 877,
+      "end_index": 880
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "罗刹指掌和瓶首之间的战斗被比作商波罗和天王（因陀罗）之间的战斗",
+    "char_interval": {
+      "start_pos": 3258,
+      "end_pos": 3278
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "罗刹指掌",
+        "瓶首"
+      ],
+      "comparison": "类似商波罗和因陀罗的战斗",
+      "supernatural_elements": "神话般的战斗比喻"
+    },
+    "_token_interval": {
+      "start_index": 886,
+      "end_index": 891
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "战场上发生数以百计的捉对厮杀，涉及战车、战象、战马和步兵",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般度族",
+        "俱卢族"
+      ],
+      "action": "大规模战斗",
+      "scale": "数以百计的捉对厮杀"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "一方保卫德罗纳，另一方试图杀死德罗纳，战斗前所未见、前所未闻",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "德罗纳"
+      ],
+      "conflict": "保卫 vs 刺杀",
+      "significance": "前所未有的战斗"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "战场上遍布可怕、壮观、残酷的战斗，数不胜数",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般度族",
+        "俱卢族"
+      ],
+      "description": "大规模、多样化的战斗",
+      "atmosphere": "可怕、壮观、残酷"
+    },
+    "_token_interval": null
+  }
+]

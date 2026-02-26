@@ -1,0 +1,309 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Shaunaka requests Sauti to narrate the story of Sage Astika in detail.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shaunaka",
+        "Sauti"
+      ],
+      "type": "Request",
+      "relationships": [
+        "Shaunaka is the listener, Sauti is the narrator"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sauti agrees to narrate the story of Sage Astika as he heard it from his father.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sauti"
+      ],
+      "type": "Narration",
+      "relationships": [
+        "Sauti is the son of a storyteller"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In ancient times, Prajapati had two daughters named Kadru and Vinata.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Prajapati",
+        "Kadru",
+        "Vinata"
+      ],
+      "type": "Family",
+      "relationships": [
+        "Kadru and Vinata are daughters of Prajapati"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kadru and Vinata both became wives of Sage Kashyapa.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kadru",
+        "Vinata",
+        "Kashyapa"
+      ],
+      "type": "Marriage",
+      "relationships": [
+        "Kadru and Vinata are co-wives of Kashyapa"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kashyapa grants each wife a boon. Kadru wishes for a thousand snake sons with equal splendor. Vinata wishes for two sons who are stronger, more brilliant, and braver than Kadru's sons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kashyapa",
+        "Kadru",
+        "Vinata"
+      ],
+      "type": "Divine Boon",
+      "relationships": [
+        "Kashyapa is the husband granting boons",
+        "Kadru and Vinata are competing wives"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kashyapa grants Vinata's boon partially, saying she will get one and a half sons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kashyapa",
+        "Vinata"
+      ],
+      "type": "Divine Boon",
+      "relationships": [
+        "Kashyapa modifies Vinata's boon"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After conception, Kashyapa instructs his wives to protect their pregnancies and goes to the forest for penance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kashyapa",
+        "Kadru",
+        "Vinata"
+      ],
+      "type": "Separation",
+      "relationships": [
+        "Kashyapa leaves his pregnant wives"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kadru lays a thousand eggs, and Vinata lays two eggs. The eggs are placed in moist pots and incubated for five hundred years.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kadru",
+        "Vinata"
+      ],
+      "type": "Birth",
+      "relationships": [
+        "Kadru and Vinata are both expecting children"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After five hundred years, Kadru's thousand snake sons hatch from the eggs, but Vinata's two sons do not appear.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kadru",
+        "Vinata",
+        "Snake Sons"
+      ],
+      "type": "Birth",
+      "relationships": [
+        "Kadru's sons are born, Vinata's are delayed"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Impatient, Vinata breaks one egg and finds a son with only the upper half of his body developed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vinata",
+        "Aruna"
+      ],
+      "type": "Premature Birth",
+      "relationships": [
+        "Vinata is the mother, Aruna is the son"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The half-formed son curses Vinata to become a slave of Kadru for five hundred years, and says her other son will free her.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Aruna",
+        "Vinata",
+        "Kadru"
+      ],
+      "type": "Curse",
+      "relationships": [
+        "Aruna curses his mother Vinata",
+        "Vinata will be enslaved to Kadru"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A son curses Vinata for wanting to break the remaining egg prematurely.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Aruṇa",
+        "Vinata"
+      ],
+      "action": "Curse",
+      "reason": "To prevent Vinata from causing the unborn child to be born deformed",
+      "supernatural_elements": [
+        "Curse",
+        "Prophecy about the child's required gestation period of 500 years"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Aruṇa flies into the sky and becomes the red dawn.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Aruṇa"
+      ],
+      "action": "Transformation/Departure",
+      "result": "Manifests as the red dawn at daybreak",
+      "supernatural_elements": [
+        "Divine transformation",
+        "Celestial phenomenon"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Garuda is born from the egg after the full gestation period.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Garuda",
+        "Vinata"
+      ],
+      "action": "Birth",
+      "description": "Garuda, the great eagle and slayer of serpents, is born on time"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Garuda immediately leaves Vinata after birth and flies high into the sky to seek his own food.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Garuda",
+        "Vinata"
+      ],
+      "action": "Departure",
+      "reason": "To obtain the food that the Creator (Brahma) has arranged for him",
+      "relationships": "Mother-son separation at birth"
+    },
+    "_token_interval": null
+  }
+]

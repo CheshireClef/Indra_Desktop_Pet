@@ -1,0 +1,994 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Bhishma about proper conduct, worship, and how to avoid mistakes in different situations.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Dialogue/Question",
+      "relationships": [
+        "Grandson (Yudhishthira)",
+        "Grandfather (Bhishma)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma explains that Brahmins should be worshipped and respected above all, as disrespecting them is equivalent to offending the gods.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Instruction/Teaching",
+      "action": "Explanation of social hierarchy and dharma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma describes Brahmins as the upholders of dharma, sources of wisdom, guides for all beings, and performers of sacrifices.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmins (collectively)"
+      ],
+      "type": "Description",
+      "supernatural_elements": [
+        "Brahmins can transform gods and non-gods",
+        "Their curses can affect nature (e.g., make seawater undrinkable)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma emphasizes that Brahmins possess great spiritual power, including the ability to create or destroy worlds through their anger.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmins (collectively)"
+      ],
+      "type": "Revelation of power",
+      "action": "Description of Brahmin capabilities"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yauvanashva (also called Arjuna Kartavirya) ruled the city of Mahishmati and was a powerful king with a thousand arms.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yauvanashva (Arjuna Kartavirya)"
+      ],
+      "type": "Character Introduction",
+      "details": "He was a world-ruler, handsome, strong, and ruled over vast lands and islands rich in gems."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yauvanashva diligently studied scriptures, followed Kshatriya dharma, and constantly gave gifts to the sage Dattatreya.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yauvanashva",
+        "Sage Dattatreya"
+      ],
+      "type": "Devotion",
+      "relationship": "King shows devotion to sage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Dattatreya, pleased with the king's reverence, offered him three boons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Dattatreya",
+        "King Yauvanashva"
+      ],
+      "type": "Divine Boon Offer",
+      "relationship": "Sage rewards king's devotion"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yauvanashva requested: 1) To have a thousand arms while leading armies in battle but normal arms at home, 2) For his soldiers to see his thousand arms in battle, 3) To conquer and righteously protect the entire earth with his strength, and 4) A fourth boon that when he strayed from the path, good people would guide him back.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yauvanashva"
+      ],
+      "type": "Boon Request",
+      "details": "The king asks for military prowess, conquest ability, and moral guidance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Dattatreya granted all the boons to King Yauvanashva.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Dattatreya",
+        "King Yauvanashva"
+      ],
+      "type": "Boon Granting",
+      "relationship": "Sage fulfills king's requests",
+      "supernatural_elements": "Divine boon granting"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna (作武) boasts about his superiority over all others, claiming no one can match him in valor, determination, beauty, purity, power, or energy.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Boasting",
+      "type": "Pride/Arrogance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "An unseen voice from the sky rebukes Arjuna, stating that all Brahmins are always superior to Kshatriyas, and Kshatriyas can only protect their subjects when united with Brahmins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unseen Voice (likely divine)",
+        "Arjuna"
+      ],
+      "action": "Divine Rebuke",
+      "type": "Divine Intervention"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna argues against the Brahmin's superiority, claiming Kshatriyas are self-sufficient, protect subjects by nature, and Brahmins depend on Kshatriyas for livelihood.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Argument",
+      "type": "Social Debate"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna declares his intention to subjugate the Brahmins, asserting his unchallengeable rule over the three worlds and aiming to elevate Kshatriyas above Brahmins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Declaration of Intent",
+      "type": "Conflict Initiation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gayatri (the celestial goddess) is shocked by Arjuna's words, and Vayu (the Wind God) warns Arjuna to abandon his erroneous thoughts, honor the Brahmins, or face destruction or exile from his kingdom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gayatri",
+        "Vayu",
+        "Arjuna"
+      ],
+      "action": "Divine Warning",
+      "type": "Divine Intervention"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna asks Vayu to identify himself and explain the distinguishing characteristics of Brahmins among all beings on earth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Vayu"
+      ],
+      "action": "Inquiry",
+      "type": "Dialogue"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vayu agrees to explain the virtues of the great-souled Brahmins to the foolish Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vayu",
+        "Arjuna"
+      ],
+      "action": "Agreement to Explain",
+      "type": "Exposition Setup"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Earth, angry with King Anga, abandoned her earthly nature and moved toward destruction.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Earth",
+        "King Anga"
+      ],
+      "action": "Conflict leading to Earth's self-destruction",
+      "relationships": "Conflict between Earth and King Anga"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin Kashyapa saved the Earth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kashyapa",
+        "Earth"
+      ],
+      "action": "Rescue/salvation",
+      "relationships": "Savior role of Kashyapa toward Earth"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The great ascetic Angiras, through his extraordinary energy, drank all the water alone.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Angiras"
+      ],
+      "action": "Supernatural consumption of all water",
+      "supernatural_elements": "Extraordinary energy/ascetic power"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Not satisfied, Angiras brought torrential rain to cover the Earth with water.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Angiras"
+      ],
+      "action": "Summoning rain",
+      "supernatural_elements": "Control over rain/water"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "When Angiras became angry, the speaker (presumably a deity) left the world and hid in the sacrificial fire for a long time.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Angiras",
+        "Speaker (deity)"
+      ],
+      "action": "Deity fleeing and hiding from Angiras's anger",
+      "relationships": "Fear of Angiras's power",
+      "supernatural_elements": "Deity hiding in sacrificial fire"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra, desiring Ahalya, was cursed by Sage Gautama.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Ahalya",
+        "Gautama"
+      ],
+      "action": "Curse due to Indra's desire for Ahalya",
+      "relationships": "Conflict between Indra and Gautama over Ahalya",
+      "supernatural_elements": "Curse by sage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gautama spared Indra's life only for the sake of Dharma and Artha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gautama",
+        "Indra"
+      ],
+      "action": "Mercy/sparing life",
+      "relationships": "Gautama showing mercy to Indra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The ocean, originally filled with pure sweet water, became salty due to a Brahmin's curse.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ocean",
+        "Unnamed Brahmin"
+      ],
+      "action": "Transformation of ocean water",
+      "supernatural_elements": "Curse changing water's nature"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Fire, originally smokeless with golden flames rising upward, lost these characteristics due to Angiras's angry curse.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Fire",
+        "Angiras"
+      ],
+      "action": "Transformation of fire's nature",
+      "supernatural_elements": "Curse altering fire's properties"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Wind, mocking the ocean, was cursed by a golden-skinned twice-born and turned into countless fine particles.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Wind",
+        "Ocean",
+        "Golden-skinned twice-born"
+      ],
+      "action": "Curse transforming wind",
+      "relationships": "Wind mocking ocean leading to curse",
+      "supernatural_elements": "Curse changing wind's form"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The great kingdom in the Dandaka forest was destroyed by Brahmins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unnamed kingdom",
+        "Brahmins"
+      ],
+      "action": "Destruction of kingdom",
+      "relationships": "Brahmins as destroyers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The great Kshatriya Drona was defeated by a Brahmin named Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona (Kshatriya)",
+        "Drona (Brahmin)"
+      ],
+      "action": "Defeat of Kshatriya by Brahmin",
+      "relationships": "Brahmin defeating Kshatriya"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna (the listener) achieved his vast kingdom, power, adherence to Dharma, and study of scriptures through the grace of Dattatreya.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Dattatreya"
+      ],
+      "action": "Attainment of qualities through divine grace",
+      "relationships": "Dattatreya as benefactor to Arjuna",
+      "supernatural_elements": "Divine grace"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna is questioned why he worships Agni daily, as Agni is a Brahmin who delivers offerings worldwide.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Agni"
+      ],
+      "action": "Questioning of worship practice",
+      "relationships": "Agni as Brahmin deity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahma, the lord of beings, though unmanifest, created the vast universe with all its moving and non-moving creatures.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma"
+      ],
+      "action": "Creation of universe",
+      "supernatural_elements": "Cosmic creation by Brahma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Some ignorant people imagine Brahma was born from an egg, which then produced mountains, directions, water, land, and sky.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma"
+      ],
+      "action": "Description of alternative creation myth",
+      "supernatural_elements": "Egg-born creation theory"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker argues there is no primordial egg, but Brahma exists as the world's creator.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma"
+      ],
+      "action": "Assertion of Brahma's existence and role",
+      "supernatural_elements": "Affirmation of Brahma as creator"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After hearing the Wind God's words, Arjuna remained silent.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Wind God",
+        "Arjuna"
+      ],
+      "action": "Conclusion of discourse with Arjuna's silence",
+      "relationships": "Wind God as speaker to Arjuna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Anga decided to give his land to Brahmins as a reward for their sacrifices.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Anga"
+      ],
+      "action": "Decision to donate land",
+      "type": "Royal decree"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Earth (personified as a goddess) decided to abandon her land properties and go to Brahma because she was unhappy about being given away.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Earth (Bhumi)",
+        "Brahma"
+      ],
+      "action": "Abandonment of land properties",
+      "type": "Divine action"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kashyapa saw Earth leaving and entered her body through meditation, causing plants and trees to grow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kashyapa",
+        "Earth (Bhumi)"
+      ],
+      "action": "Meditation and possession",
+      "type": "Supernatural intervention"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After 30,000 divine years, Earth returned from Brahma and became Kashyapa's daughter, named Kashyapi.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Earth (Bhumi)",
+        "Kashyapa",
+        "Brahma"
+      ],
+      "action": "Transformation and naming",
+      "type": "Relationship establishment",
+      "new_relationship": "Earth becomes Kashyapa's daughter"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Wind God (Vayu) challenged King Arjuna to name a Kshatriya stronger than Kashyapa.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Wind God (Vayu)",
+        "King Arjuna"
+      ],
+      "action": "Challenge",
+      "type": "Dialogue"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Soma offered his daughter Bhadra to Uddalaka in marriage after she performed austerities to win him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Soma",
+        "Bhadra",
+        "Uddalaka"
+      ],
+      "action": "Marriage arrangement",
+      "type": "Romance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Varuna kidnapped Bhadra from the forest near Yamuna river and took her to his magnificent city.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Varuna",
+        "Bhadra"
+      ],
+      "action": "Abduction",
+      "type": "Conflict",
+      "relationship_change": "Bhadra taken from Uddalaka"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uddalaka learned about his wife's abduction from Narada and asked him to confront Varuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uddalaka",
+        "Narada",
+        "Varuna"
+      ],
+      "action": "Discovery and confrontation request",
+      "type": "Plot development"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttanka's wife was taken by Varuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttanka",
+        "Varuna",
+        "Uttanka's wife"
+      ],
+      "action": "Abduction",
+      "relationship": "Uttanka's wife was taken from Uttanka by Varuna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttanka requested Narada to intervene with Varuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttanka",
+        "Narada"
+      ],
+      "action": "Request for mediation",
+      "relationship": "Uttanka seeks Narada's help to recover his wife"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Narada approached Varuna and demanded the release of Uttanka's wife.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narada",
+        "Varuna"
+      ],
+      "action": "Mediation attempt",
+      "relationship": "Narada acts as intermediary between Uttanka and Varuna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Varuna refused to release Uttanka's wife, claiming she now belonged to him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Varuna"
+      ],
+      "action": "Refusal",
+      "relationship": "Varuna asserts ownership over Uttanka's wife"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Narada returned to Uttanka with the bad news, reporting that Varuna had physically rejected him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narada",
+        "Uttanka"
+      ],
+      "action": "Report of failure",
+      "relationship": "Narada conveys Varuna's refusal to Uttanka"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttanka became enraged and used his ascetic power to solidify and absorb all water.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttanka"
+      ],
+      "action": "Ascetic power demonstration",
+      "supernatural": "Uttanka uses tapas (ascetic power) to control water"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Despite the water being absorbed, Varuna still refused to release the wife.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Varuna"
+      ],
+      "action": "Continued refusal",
+      "relationship": "Varuna remains defiant despite the water crisis"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttanka commanded the earth to dry up 600,000 lakes, causing the sea to recede and barren land to appear.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttanka"
+      ],
+      "action": "Command to earth",
+      "supernatural": "Uttanka uses his power to command natural elements"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttanka commanded the Sarasvati river to flow into the desert, making the region inauspicious.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttanka",
+        "Sarasvati"
+      ],
+      "action": "Command to river",
+      "supernatural": "Uttanka redirects the river through his power"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "When the entire region became a desert, Varuna brought Uttanka's wife back to Uttanka's residence and returned her.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Varuna",
+        "Uttanka",
+        "Uttanka's wife"
+      ],
+      "action": "Return of wife",
+      "relationship": "Varuna surrenders and returns Uttanka's wife"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttanka was overjoyed to have his wife back and removed the suffering he had inflicted on the world and Varuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttanka"
+      ],
+      "action": "Restoration and relief",
+      "relationship": "Uttanka ends the suffering caused by his actions"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttanka declared to Varuna that he had recovered his wife through his ascetic power and had made Varuna suffer.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttanka",
+        "Varuna"
+      ],
+      "action": "Declaration of victory",
+      "relationship": "Uttanka asserts his power over Varuna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttanka returned to his residence with his wife.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttanka",
+        "Uttanka's wife"
+      ],
+      "action": "Return home",
+      "relationship": "Uttanka and his wife are reunited and return home"
+    },
+    "_token_interval": null
+  }
+]

@@ -1,0 +1,300 @@
+[se ad671]
+[wt 0.6]
+[charaFadeout K 0]
+[charaFadeout L 0]
+[charaFadeout M 0]
+[charaFadeout N 0]
+[charaFadeout O 0]
+
+＠ガネーシャ
+うえ～～～。大変っス、しんどいっス～。[r]カロリーが足りなくなって痩せちゃうっスよぉ～。
+[k]
+
+[messageOff]
+[charaMoveEase F -250,-50 0.6 easeOutSine]
+[charaMoveEase S 0,-250 0.6 easeOutSine]
+[wt 0.6]
+[charaTalk on]
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 250,-50]
+[wt 0.4]
+
+＠パールヴァティー
+それはかなりいいコトなのでは？
+[k]
+
+[charaFace E 1]
+
+＠パールヴァティー
+普段の自堕落な生活を改めるいい機会です。[r]しっかり働くのですよ、ガネーシャ！
+[k]
+
+[charaFace F 4]
+
+＠ガネーシャ
+うう、まさかママンと肩を並べて戦うことになるなんて。[r]これじゃ絶対サボれないじゃないっスかぁ……。
+[k]
+
+[messageOff]
+[charaFadeout F 0.4]
+[charaFadeout E 0.4]
+[charaFadeout S 0.4]
+[wt 0.5]
+
+[se ad984]
+[charaTalk G]
+[charaFace G 1]
+[charaFadein G 0.4 0,-50]
+[wt 0.4]
+
+＠ラーマ
+今回は余も十全に退魔の刃を振るえるぞ。[r]コサラの王ラーマが、汝らと共に戦おう！
+[k]
+
+[messageOff]
+[charaFadeout G 0.1]
+[wt 0.1]
+
+
+
+[messageOff]
+
+[se ad984]
+[charaTalk D]
+[charaFace D 1]
+[charaFadein D 0.4 0,-50]
+[wt 0.4]
+
+＠カルナ
+戦場では、それが始まるまで[r]考えもしなかった相手と共に戦うこともある。
+[k]
+
+＠カルナ
+それもまた[#趣:おもむき]というものだ。
+[k]
+
+[messageOff]
+[charaDepth T 7]
+[charaDepth P 8]
+[charaDepth J 9]
+
+[charaDepth S 10]
+[charaDepth H 11]
+
+[charaScale H 1.1]
+[se ade422]
+[charaFadein S 0.7 -20,-270]
+[wt 0.7]
+[charaFadein T 0.1 -100,-270]
+
+[seStop ade422 0.5]
+[charaTalk H]
+[charaFace H 11]
+[charaFadein H 0.4 0,-50]
+[wt 0.4]
+[charaScale P 0.9]
+[charaFace P 9]
+[charaFadein P 0.1 0,-100]
+[charaFadeout D 0.1]
+
+＠ラクシュミー
+だが、その相手が好ましいものかどうかは[r]別問題ではないのか？
+[k]
+
+[charaFace H 9]
+
+＠ラクシュミー
+……あるいはこれが今回の不運なのか……？
+[k]
+
+[messageOff]
+
+[charaTalk off]
+[charaFadeout H 0.5]
+[charaFadeout S 0.5]
+[wt 0.5]
+[se ad987]
+[wt 0.5]
+
+[charaMoveEase P 250,-100 1.0 easeInOutSine]
+[charaMoveEase T 100,-270 1.0 easeInOutSine]
+[seStop ad987 0.4]
+[wt 1.0]
+
+[se ad921]
+[charaScale J 1.1]
+[charaFace J 7]
+[charaFadein J 0.3 -270,-50]
+
+[wt 0.4]
+[charaFadeout H 0]
+[charaTalk on]
+
+＠ドゥリーヨダナ
+コラよそ見をするな、一見真面目そうで実は[r][#危険な:魔　　の]香りに惹かれてしまいそうな王妃よ！
+[k]
+
+＠ドゥリーヨダナ
+このドゥリーヨダナ様の勇姿を[r]しっかりと目に焼きつけておかんか！
+[k]
+
+[charaFace J 3]
+
+＠ドゥリーヨダナ
+いや、かっこよすぎて目が潰れてしまいそうだから[r]直視できないという可能性もあるな。ワハハハハ！
+[k]
+
+[messageOff]
+[charaTalk P]
+[charaFace P 10]
+[wt 1.5]
+
+[messageOff]
+[bgm BGM_BATTLE_220 1.0 0.5]
+[fadeout black 1.0]
+[wait fade]
+
+[charaFadeout J 0.1]
+[charaFadeout H 0.1]
+[charaFadeout S 0.1]
+[charaFadeout T 0.1]
+[charaFadeout P 0.1]
+
+[charaSet I 2048001 1 ドゥルガー]
+[charaSet J 3046001 1 ヴリトラ]
+[charaSet K 1098270200 1 カーマ]
+[charaSet L 1098123010 1 ムニエル]
+
+[subRenderDepth #A 2]
+[subRenderDepth #B 1]
+[subRenderDepth #C 3]
+[subRenderDepth #D 4]
+
+[charaFadeout B 0.1]
+
+[charaLayer L sub #A]
+[charaLayer Y sub #A]
+
+[subCameraFilter #A maskEdge cut359_mask11 4 255,255,255,255 0]
+
+[charaDepth Y 4]
+[charaDepth L 3]
+
+[charaFadein L 0.1 480,220]
+[charaFadein U 0.1 -100,-20]
+
+[charaLayer V sub #B]
+[charaLayer I sub #B]
+
+[subCameraFilter #B normal]
+[subRenderScale #B 1.2]
+
+[charaScale V 1.2]
+[charaScale I 1.2]
+
+[charaDepth I 2]
+[charaDepth V 1]
+
+[charaFadein V 0.1 0,-250]
+
+[charaDepth K 22]
+[charaDepth J 21]
+[charaDepth I 14]
+
+[pictureFrame]
+
+[wt 1.0]
+[se ad1048 0 0]
+[seVolume ad1048 1.0 0.5]
+[bgm BGM_BATTLE_220 1.0 1.0]
+[fadein black 1.0]
+[wait fade]
+
+[seStop ad1048 3.0]
+[wt 0.7]
+
+？1：ごめん、遅れた！
+
+[charaTalk on]
+[charaTalk D]
+[charaFace D 0]
+[se ad223]
+[charaPut D 1]
+[charaEffect D bit_talk_quickmove]
+[charaSpecialEffect D appearance 1 0.25]
+[wt 0.4]
+
+＠カルナ
+いいや、おまえが遅れたという認識はない。
+[k]
+
+？2：ごめん、お待たせ！
+
+[charaTalk on]
+[charaTalk D]
+[charaFace D 0]
+[se ad223]
+[charaPut D 1]
+[charaEffect D bit_talk_quickmove]
+[charaSpecialEffect D appearance 1 0.25]
+[wt 0.4]
+
+＠カルナ
+謝る必要はない。仮に待っていたとしても、[r]踊りを[#嗜:たしな]むように待っていた。退屈はなかった。
+[k]
+
+？！
+
+[messageOff]
+[charaTalk F,D]
+[charaFace F 5]
+[charaFadein F 0.4 -20,0]
+[charaFadein S 0.4 -20,-250]
+[charaMove F 0,0 0.4]
+[charaMove S 0,-250 0.4]
+[wt 0.4]
+[charaFadeout D 0]
+
+＠ガネーシャ
+来てくれたのは嬉しいっスけど！
+[k]
+
+＠ガネーシャ
+あとあっちでも神サマ混じりの[#神将:ヒ　ト]たちが[r]頑張ってくれてるっスけど！
+[k]
+
+[charaFace F 4]
+
+＠ガネーシャ
+敵の数は全然減ってない気がするっスよお！？[wt 0.5][r]……大丈夫？
+[k]
+
+[charaFadeout F 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 7]
+[charaFadein E 0.1 1]
+
+＠パールヴァティー
+大丈夫です。[r][#要請は出しました]。
+[k]
+
+[bgmStop BGM_BATTLE_220 3.0]
+
+＠パールヴァティー
+倒すべきものがいれば。[r]殲滅すべきものがあれば。
+[k]
+
+[charaFace E 13]
+
+＠パールヴァティー
+彼女は必ず現れるでしょう。[r]あれは[line 3]そのような[#女神:わたし]ですから。
+[k]
+
+[messageOff]
+[fadeout black 0.5]
+[wait fade]
+[charaFadeout E 0.1]
+[charaFadeout S 0.1]

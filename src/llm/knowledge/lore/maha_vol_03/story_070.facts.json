@@ -1,0 +1,359 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Janamejaya asks about the events following the news of the impending war between the Pandavas and the Kauravas, specifically inquiring about the reactions of Yudhishthira, Bhima, Arjuna, and Krishna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Janamejaya",
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Krishna"
+      ],
+      "type": "Inquiry",
+      "context": "Follow-up to news about the war"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sage Vaishampayana narrates that Yudhishthira, skilled in dharma, summoned all his brothers and Krishna to discuss strategy.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vaishampayana",
+        "Yudhishthira",
+        "Krishna"
+      ],
+      "action": "Summoning council",
+      "reason": "War preparation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira proposed that they first engage with their grandfather Bhishma and requested the selection of seven army commanders.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "proposal": "Engage Bhishma first, appoint commanders",
+      "relationship": "Grandson vs. Grandfather (opposing sides in war)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna agreed with Yudhishthira's plan and urged immediate action to appoint the commanders.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira"
+      ],
+      "action": "Endorsement and urging",
+      "relationship": "Advisor and supporter"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira appointed seven commanders: Drupada, Virata, Satyaki, Dhrishtadyumna, Shikhandin, Uttara, and Sahadeva.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Drupada",
+        "Virata",
+        "Satyaki",
+        "Dhrishtadyumna",
+        "Shikhandin",
+        "Uttara",
+        "Sahadeva"
+      ],
+      "action": "Appointment of commanders",
+      "significance": "Military organization for war"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira appointed Dhrishtadyumna as the supreme commander of all armies, noting his divine birth purpose to kill Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Dhrishtadyumna",
+        "Drona"
+      ],
+      "action": "Appointment of supreme commander",
+      "supernatural_element": "Dhrishtadyumna born from fire to kill Drona",
+      "relationship": "Commander vs. future opponent (Drona)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira appointed Arjuna as the supreme commander of all noble warriors and Krishna as Arjuna's charioteer and guide.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Arjuna",
+        "Krishna"
+      ],
+      "action": "Dual appointments",
+      "roles": {
+        "Arjuna": "Supreme commander of noble warriors",
+        "Krishna": "Charioteer and guide for Arjuna"
+      },
+      "relationship": "Brothers and divine partnership"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Balarama, foreseeing the disastrous war, arrived at the Pandava camp accompanied by several Yadava warriors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Balarama",
+        "Akrura",
+        "Gada",
+        "Samba",
+        "Urumukha",
+        "Pradyumna",
+        "Charudeshna",
+        "Sons of Ahuka"
+      ],
+      "action": "Arrival at camp",
+      "reason": "Response to impending war",
+      "relationship": "Brother of Krishna, neutral/concerned observer"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira, Krishna, Bhima, Arjuna, and other kings greeted and honored Balarama upon his arrival.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Krishna",
+        "Bhima",
+        "Arjuna",
+        "Balarama"
+      ],
+      "action": "Greeting and honoring",
+      "relationship": "Respect for elder and neutral party"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Balarama paid respects to the elders Drupada and Virata before sitting down with Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Balarama",
+        "Drupada",
+        "Virata",
+        "Yudhishthira"
+      ],
+      "action": "Paying respects and sitting",
+      "relationship": "Respect for elders, consultation with Yudhishthira"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "卢醯尼之子（持犁罗摩）望着婆薮提婆之子（黑天），预言一场残酷可怕的大屠杀即将开始，并认为这是命运注定，无法避免。",
+    "char_interval": {
+      "start_pos": 975,
+      "end_pos": 999
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持犁罗摩",
+        "黑天"
+      ],
+      "type": "预言/对话",
+      "relationship": "兄弟（持犁罗摩是黑天的哥哥）",
+      "supernatural_elements": "命运注定"
+    },
+    "_token_interval": {
+      "start_index": 290,
+      "end_index": 299
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持犁罗摩表示希望看到黑天及其朋友度过战争安然无恙，但指出大地上的刹帝利都已结集，时机成熟，将有一场血肉横飞的大屠杀。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持犁罗摩",
+        "黑天"
+      ],
+      "action": "战争预警",
+      "context": "俱卢之战前夕"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持犁罗摩透露他曾私下劝告黑天对所有的亲戚一视同仁，包括般度之子们和难敌王，都应受到应有的尊敬。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持犁罗摩",
+        "黑天",
+        "般度之子们",
+        "难敌王"
+      ],
+      "type": "劝告/冲突",
+      "relationship": "持犁罗摩试图调解，黑天偏袒般度族",
+      "key_plot_point": "黑天选择支持般度族"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持犁罗摩指出黑天没有照他的话做，而是关心胜财（阿周那），全身心投入般度族的事业。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天",
+        "阿周那"
+      ],
+      "action": "偏袒/支持",
+      "relationship": "黑天是阿周那的导师和盟友",
+      "divine_intervention": "黑天作为神圣化身介入战争"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持犁罗摩确信般度之子们肯定胜利，因为这是黑天的意图，并承认没有黑天他不能面对这个世界，因此依从黑天的意愿。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持犁罗摩",
+        "黑天",
+        "般度之子们"
+      ],
+      "type": "屈服/认可",
+      "relationship_change": "持犁罗摩接受黑天的决定",
+      "supernatural_elements": "黑天的神圣意愿决定战争结果"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持犁罗摩提到怖军和难敌王都是他的学生，他对他俩一样爱护，因此不忍心看到俱卢族人毁灭，决定前往娑罗私婆蒂河朝圣。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持犁罗摩",
+        "怖军",
+        "难敌王"
+      ],
+      "action": "离开/回避",
+      "relationship": "师徒关系（持犁罗摩是怖军和难敌王的武术导师）",
+      "key_plot_point": "持犁罗摩在战争前退出"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持犁罗摩辞别般度之子们和黑天，前去朝拜圣地。",
+    "char_interval": {
+      "start_pos": 1428,
+      "end_pos": 1437
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持犁罗摩",
+        "般度之子们",
+        "黑天"
+      ],
+      "action": "离别",
+      "consequence": "持犁罗摩不参与俱卢之战"
+    },
+    "_token_interval": {
+      "start_index": 431,
+      "end_index": 435
+    }
+  }
+]

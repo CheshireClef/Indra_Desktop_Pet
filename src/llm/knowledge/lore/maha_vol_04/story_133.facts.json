@@ -1,0 +1,1683 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra asks Sanjaya about the events during the battle when his army was routed by Bhima, specifically inquiring about what Duryodhana, Shakuni, Karna, and other warriors said and did.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra",
+        "Sanjaya",
+        "Bhima",
+        "Duryodhana",
+        "Shakuni",
+        "Karna",
+        "Kripa",
+        "Ashvatthama",
+        "Duhshasana"
+      ],
+      "type": "Inquiry/Recollection",
+      "relationships": "King Dhritarashtra is the blind king of the Kuru dynasty, Sanjaya is his charioteer and narrator, Bhima is a Pandava warrior, Duryodhana is Dhritarashtra's son and Kaurava leader, Shakuni is Duryodhana's uncle, Karna is a key Kaurava warrior, Kripa, Ashvatthama, and Duhshasana are Kaurava allies."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya describes that in the afternoon, Karna annihilated all the Somaka warriors in front of Bhima, while Bhima destroyed the army of Dhritarashtra's sons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Bhima",
+        "Somaka warriors",
+        "Dhritarashtra's sons (Kauravas)"
+      ],
+      "action": "Battle/Combat",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing his army scattered by the wise Bhima, Karna tells his charioteer King Shalya to take him to the Panchalas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "King Shalya",
+        "Bhima",
+        "Panchalas"
+      ],
+      "action": "Command/Movement",
+      "relationships": "King Shalya is Karna's charioteer and a Madra king, initially an ally of the Pandavas but forced to serve Karna."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Shalya drives Karna's chariot with swift white horses to where the Chedis, Panchalas, and Kurus are located, penetrating deep into enemy lines.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Shalya",
+        "Karna",
+        "Chedis",
+        "Panchalas",
+        "Kurus"
+      ],
+      "action": "Chariot Advance",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas and Panchalas become terrified upon seeing Karna's tiger skin-covered chariot, which resembles a cloud.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Panchalas",
+        "Karna"
+      ],
+      "action": "Fear/Intimidation",
+      "supernatural_elements": "Chariot described as cloud-like, enhancing its ominous presence."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna draws his bow to his ear and shoots hundreds of sharp arrows, killing thousands of Pandava soldiers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Pandava soldiers"
+      ],
+      "action": "Archery/Mass Slaughter",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna is surrounded by major Pandava archers and warriors: Shikhandin, Bhima, Dhrishtadyumna, Nakula, Sahadeva, Draupadi's five sons, and Satyaki, who rain arrows on him intending to kill him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Shikhandin",
+        "Bhima",
+        "Dhrishtadyumna",
+        "Nakula",
+        "Sahadeva",
+        "Draupadi's five sons",
+        "Satyaki"
+      ],
+      "action": "Encircling/Attack",
+      "relationships": "All attackers are Pandava allies; Shikhandin is a Panchala warrior, Dhrishtadyumna is the Panchala commander, Satyaki is a Yadava warrior, Draupadi's sons are the Upapandavas."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki shoots twenty arrows hitting Karna's collarbone, followed by Shikhandin (25 arrows), Dhrishtadyumna (5 arrows), Draupadi's sons (64 arrows), Sahadeva (7 arrows), and Nakula (100 arrows).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Karna",
+        "Shikhandin",
+        "Dhrishtadyumna",
+        "Draupadi's five sons",
+        "Sahadeva",
+        "Nakula"
+      ],
+      "action": "Coordinated Archery Attack",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima angrily shoots ninety crescent-headed arrows at Karna, hitting his collarbone.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Karna"
+      ],
+      "action": "Archery Attack",
+      "relationships": "Bhima and Karna are sworn enemies in the Kurukshetra War."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna laughs, draws his mighty bow, and shoots five arrows in retaliation at each attacker, breaking Satyaki's bow and banner and hitting his chest with nine arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Satyaki",
+        "Shikhandin",
+        "Dhrishtadyumna",
+        "Draupadi's five sons",
+        "Sahadeva",
+        "Nakula",
+        "Bhima"
+      ],
+      "action": "Retaliation/Counterattack",
+      "supernatural_elements": "Karna's bow described as '威力无比的' (extremely powerful), hinting at divine or exceptional strength."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima shoots thirty more arrows at Karna in anger.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Karna"
+      ],
+      "action": "Continued Attack",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna shot three arrows at his charioteer.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "action": "Attack",
+      "target": "Charioteer"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna deprived the five sons of Draupadi of their chariots in the blink of an eye.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Sons of Draupadi"
+      ],
+      "action": "Disarm",
+      "supernatural_element": "Miraculous speed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna forced all those heroes to retreat from battle with his crescent-headed arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Heroes of the Pandavas"
+      ],
+      "action": "Force retreat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna began slaughtering the great warriors of the Panchalas and Chedis.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Warriors of Panchala",
+        "Warriors of Chedi"
+      ],
+      "action": "Mass slaughter"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Chedis and Matsyas, though being slaughtered, showered arrows upon Karna, who wounded them with countless arrows in return.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Chedis",
+        "Matsyas"
+      ],
+      "action": "Mutual arrow exchange",
+      "relationship": "Battle confrontation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna fought alone against many warriors, creating a miracle witnessed by the narrator.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "action": "Solo combat",
+      "supernatural_element": "Miraculous feat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna intercepted the heroic Pandavas who were fighting with bows and arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Heroic Pandavas"
+      ],
+      "action": "Interception"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna's agile and light movements pleased all the gods, Siddhas, and supreme sages.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "action": "Display of skill",
+      "divine_intervention": "Approval from gods and sages"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The great archers, the sons of Dhritarashtra, respected Karna as the best chariot warrior and foremost of all archers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Sons of Dhritarashtra"
+      ],
+      "action": "Expression of respect",
+      "relationship": "Respect from allies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna began destroying the enemy army like a blazing summer fire burning dry grass.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Pandava army"
+      ],
+      "action": "Destruction",
+      "metaphor": "Fire burning grass"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Soldiers of the Pandava army, terrified by Karna's slaughter, fled upon seeing him on the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Pandava soldiers"
+      ],
+      "action": "Cause terror and flight"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Panchalas, slaughtered by Karna's countless arrows from his mighty bow, let out a great cry of agony.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Panchalas"
+      ],
+      "action": "Massacre",
+      "result": "Cry of agony"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The cry terrified the Pandava army, and even enemies considered Karna the only warrior in the battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Pandava army",
+        "Enemies"
+      ],
+      "action": "Inspire fear and recognition"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna created another extraordinary miracle, making all the Pandavas unable to even look at him directly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Pandavas"
+      ],
+      "action": "Display of power",
+      "supernatural_element": "Extraordinary miracle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandava army disintegrated upon encountering Karna, like a torrent splashing against a mountain.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Pandava army"
+      ],
+      "action": "Cause disintegration",
+      "metaphor": "Torrent against mountain"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna, like a blazing smokeless fire, burned the Pandava army in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Pandava army"
+      ],
+      "action": "Destruction by fire",
+      "metaphor": "Blazing fire"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna, with light arrow work, shot off the heads, earring-adorned ears, and arms of many heroes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Many heroes"
+      ],
+      "action": "Dismemberment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna shattered countless ivory-hilted swords, banners, spears, horses, elephants, various vehicles, flags, fans, axles, poles, yokes, wheels, and reins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "action": "Destruction of equipment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The ground was covered with the corpses of elephants and horses killed by Karna, making it impassable with muddy flesh and blood.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "action": "Carnage",
+      "result": "Impassable battlefield"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The ground was filled with dead horses, foot soldiers, elephants, and destroyed vehicles, making it impossible to distinguish level from uneven ground.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 20,
+    "group_index": 19,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "action": "Create battlefield chaos"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna's weapons showed great power, with dense arrow showers creating terrifying darkness, so warriors on both sides could not distinguish friend from foe.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 21,
+    "group_index": 20,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "action": "Create confusion",
+      "supernatural_element": "Arrow-induced darkness"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Countless gold-embellished arrows were released from Karna's bow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 22,
+    "group_index": 21,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "action": "Arrow release"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna repeatedly routed the Pandava army, killing many warriors including twenty Panchala charioteers and over one hundred Chedi warriors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Panchala warriors",
+        "Chedi warriors"
+      ],
+      "action": "Battle, slaughter",
+      "supernatural_elements": "Karna compared to the midday sun and Yama (god of death)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana and other Kaurava warriors (Duhshasana, Kripa, Ashvatthaman, Shalya, Shakuni) also slaughtered hundreds and thousands of Pandava soldiers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Duhshasana",
+        "Kripa",
+        "Ashvatthaman",
+        "Shalya",
+        "Shakuni",
+        "Pandava army"
+      ],
+      "action": "Mass slaughter in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna's two sons fought and killed powerful Panchala warriors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna's sons",
+        "Panchala warriors"
+      ],
+      "action": "Battle, killing",
+      "relationships": "Father-son relationship between Karna and his sons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pandava warriors (Dhrishtadyumna, Shikhandin, Draupadi's five sons) fought back fiercely, killing many Kaurava soldiers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "Shikhandin",
+        "Draupadi's five sons",
+        "Kaurava army"
+      ],
+      "action": "Counterattack, killing",
+      "relationships": "Allies fighting for Pandava cause"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima caused heavy losses to the Kaurava army in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Kaurava army"
+      ],
+      "action": "Battle, causing casualties"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna saw the furious Karna on the battlefield after routing other enemies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Karna"
+      ],
+      "action": "Observation, preparation for confrontation",
+      "relationships": "Rivalry between Arjuna and Karna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna spoke to Krishna about the battlefield situation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna"
+      ],
+      "action": "Dialogue, consultation",
+      "relationships": "Close friendship and charioteer-warrior relationship"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna's banner is flying in battle, Bhima and others are fighting enemy warriors, and Panchalas are fleeing from Karna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Bhima",
+        "Panchalas"
+      ],
+      "action": "Battle and pursuit",
+      "relationships": [
+        "Enemies"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana, under a white canopy, pursues fleeing Panchalas alongside Karna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Karna",
+        "Panchalas"
+      ],
+      "action": "Pursuit in battle",
+      "relationships": [
+        "Allies"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kripa, Karna, Ashvatthama, and others protect Duryodhana; they threaten to destroy Somakas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripa",
+        "Karna",
+        "Ashvatthama",
+        "Duryodhana",
+        "Somakas"
+      ],
+      "action": "Protection and threat",
+      "relationships": [
+        "Allies protecting Duryodhana",
+        "Enemies to Somakas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya drives Karna's chariot skillfully.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Karna"
+      ],
+      "action": "Chariot driving",
+      "relationships": [
+        "Charioteer and warrior"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna vows to kill Karna or not return from battle, fearing Karna will destroy Pandavas and Srinjayas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Karna",
+        "Pandavas",
+        "Srinjayas"
+      ],
+      "action": "Vow and threat",
+      "relationships": [
+        "Sworn enemies",
+        "Arjuna protects Pandavas and Srinjayas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna drives Arjuna's chariot toward the enemy army for a one-on-one duel with Karna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna",
+        "Karna"
+      ],
+      "action": "Chariot advance for duel",
+      "relationships": [
+        "Krishna as charioteer for Arjuna",
+        "Arjuna and Karna as duelists"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna's advance boosts morale of Pandava armies; Arjuna's chariot sounds like Indra's thunder.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna",
+        "Pandavas",
+        "Indra"
+      ],
+      "action": "Morale boost and divine comparison",
+      "supernatural_elements": [
+        "Chariot sound compared to Indra's thunder"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna arrives at the enemy front with great valor.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Arrival in battle",
+      "relationships": [
+        "Enemy to Kaurava army"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya sees Arjuna's chariot with white horses and Krishna as driver, and warns Karna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Arjuna",
+        "Krishna",
+        "Karna"
+      ],
+      "action": "Warning and observation",
+      "relationships": [
+        "Shalya alerts Karna"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya tells Karna that Arjuna, armed with Gandiva bow, has come to challenge him, and killing him would bring welfare.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Karna",
+        "Arjuna"
+      ],
+      "action": "Challenge and prophecy",
+      "relationships": [
+        "Arjuna targets Karna"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna scatters Duryodhana's army in fear, advancing rapidly toward Karna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Duryodhana",
+        "Karna"
+      ],
+      "action": "Army scattering and advance",
+      "relationships": [
+        "Arjuna as threat to Kaurava army"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna is enraged by Bhima's suffering, Yudhishthira's injury, and the plight of other warriors, and seeks only Karna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Bhima",
+        "Yudhishthira",
+        "Shikhandi",
+        "Satyaki",
+        "Dhrishtadyumna",
+        "Draupadi's sons",
+        "Uttamaujas",
+        "Nakula",
+        "Sahadeva",
+        "Karna"
+      ],
+      "action": "Rage and focus",
+      "relationships": [
+        "Arjuna's loyalty to Pandavas and allies",
+        "Targets Karna exclusively"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna avoids other warriors and charges directly at Karna for a duel.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Karna"
+      ],
+      "action": "Direct charge for duel",
+      "relationships": [
+        "One-on-one combatants"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "沙利耶王鼓励迦尔纳与阿周那战斗，指出只有迦尔纳能战胜阿周那和黑天",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "沙利耶王",
+        "迦尔纳",
+        "阿周那",
+        "黑天"
+      ],
+      "action": "鼓励/激励",
+      "relationships": [
+        "沙利耶王鼓励迦尔纳",
+        "迦尔纳是俱卢族军队的希望",
+        "阿周那是迦尔纳的对手",
+        "黑天是阿周那的战车御者"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳回应沙利耶王，表达战胜阿周那的决心",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "沙利耶王",
+        "阿周那"
+      ],
+      "action": "决心宣言",
+      "relationships": [
+        "迦尔纳接受挑战",
+        "迦尔纳决心杀死阿周那或战死"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳描述阿周那的战斗能力",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "阿周那"
+      ],
+      "action": "能力描述",
+      "details": [
+        "阿周那是优秀的战车武士",
+        "阿周那箭术高超",
+        "阿周那武器强大武艺高超"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳预想战斗结果",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "阿周那"
+      ],
+      "action": "预言/预想",
+      "details": [
+        "迦尔纳可能杀死阿周那",
+        "迦尔纳可能被阿周那杀死",
+        "迦尔纳之死将导致俱卢族覆灭"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna and Krishna pleased Agni in the Khandava forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna",
+        "Agni"
+      ],
+      "action": "Pleasing Agni",
+      "location": "Khandava forest",
+      "outcome": "Receiving divine gifts"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna received the Sudarshana Chakra (flying discus).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "item_received": "Sudarshana Chakra",
+      "giver": "Agni"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna received the Gandiva bow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "item_received": "Gandiva bow",
+      "giver": "Agni"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna received a chariot with white horses, inexhaustible quivers, and divine weapons from Agni.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Agni"
+      ],
+      "items_received": [
+        "Chariot with white horses",
+        "Inexhaustible quivers",
+        "Divine weapons"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna killed many Daityas and Kalakeyas in Indra's heaven and received the Devadatta conch.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Indra"
+      ],
+      "action": "Killing demons",
+      "location": "Indra's heaven",
+      "item_received": "Devadatta conch"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna pleased Shiva and received the Pashupatastra weapon.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Shiva"
+      ],
+      "action": "Pleasing Shiva",
+      "item_received": "Pashupatastra",
+      "weapon_power": "Capable of destroying the three worlds"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Lokapalas (guardian deities) gave Arjuna powerful weapons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Lokapalas"
+      ],
+      "action": "Gifting weapons",
+      "outcome": "Arjuna used them to defeat Kalakanga demons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna defeated all Kaurava warriors single-handedly at Virata and stole cattle and garments.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Kaurava warriors"
+      ],
+      "location": "Virata",
+      "action": "Defeating warriors, stealing cattle and garments"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna declares his intention to challenge Arjuna in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Arjuna"
+      ],
+      "action": "Challenge declaration",
+      "relationship": "Rival warriors"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna describes Krishna's divine attributes and expresses fear of facing both Krishna and Arjuna together.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Krishna",
+        "Arjuna"
+      ],
+      "action": "Character description",
+      "krishna_attributes": [
+        "Vishnu",
+        "Keshava",
+        "Holder of conch, discus, sword"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna meets Duryodhana and receives his respects.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Duryodhana"
+      ],
+      "action": "Meeting and receiving respects",
+      "relationship": "Allies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna instructs Kaurava warriors to attack Krishna and Arjuna from all sides to exhaust them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Kaurava warriors",
+        "Krishna",
+        "Arjuna"
+      ],
+      "action": "Battle strategy",
+      "plan": "Surround and exhaust before killing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kaurava warriors attack Arjuna but are defeated as he kills many soldiers, horses, and elephants.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Kaurava warriors"
+      ],
+      "action": "Battle",
+      "outcome": "Arjuna defeats attackers",
+      "description": "Warriors cannot see when he draws or shoots arrows"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna, shining like the sun with his arrows as rays and Gandiva bow as halo, intimidated the Kaurava army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Intimidation through divine aura",
+      "supernatural_elements": "Comparison to sun with arrows as rays"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kripa, King of Anga (Karna), and Duryodhana attacked Arjuna with showers of arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripa",
+        "Karna",
+        "Duryodhana",
+        "Arjuna"
+      ],
+      "action": "Group attack",
+      "relationships": "Kauravas vs Pandava"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna countered their arrows, broke them, and shot three arrows each into their chests.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Kripa",
+        "Karna",
+        "Duryodhana"
+      ],
+      "action": "Counterattack and wounding",
+      "outcome": "Arjuna successfully defends against multiple attackers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama attacked Arjuna with ten arrows, Krishna with three arrows, the horses with four arrows, and the monkey banner with many iron arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Arjuna",
+        "Krishna"
+      ],
+      "action": "Multi-target attack",
+      "relationships": "Drona's son vs Pandava allies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna counterattacked Ashwatthama, breaking his bow with three arrows, beheading his charioteer with a razor arrow, killing his horses with four arrows, and destroying his banner with three arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Ashwatthama"
+      ],
+      "action": "Devastating counterattack",
+      "outcome": "Complete destruction of Ashwatthama's chariot and equipment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Enraged Ashwatthama took another golden diamond-studded bow and shot numerous arrows at Arjuna and Krishna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Arjuna",
+        "Krishna"
+      ],
+      "action": "Renewed attack with superior weapon",
+      "emotional_state": "Ashwatthama's rage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kripa, Karna, and Duryodhana attacked Arjuna again like clouds rushing toward the sun.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripa",
+        "Karna",
+        "Duryodhana",
+        "Arjuna"
+      ],
+      "action": "Second coordinated attack",
+      "imagery": "Compared to clouds attacking sun"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna destroyed Kripa's bow, horses, banner, and charioteer with arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Kripa"
+      ],
+      "action": "Systematic destruction of chariot",
+      "outcome": "Kripa's combat capability severely reduced"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna broke Duryodhana's banner and bow, killed Karna's horses, and destroyed his banner.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Duryodhana",
+        "Karna"
+      ],
+      "action": "Simultaneous attacks on multiple leaders",
+      "outcome": "Major Kaurava leaders disabled"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna destroyed the Kaurava army's elephants, horses, chariots, riders, bows and banners, causing the army to collapse like a dam broken by flood.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Mass destruction of army",
+      "outcome": "Kaurava army routed",
+      "imagery": "Compared to flood breaking dam"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna drove Arjuna's chariot to position the defeated enemy on their right side.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna"
+      ],
+      "action": "Strategic positioning",
+      "relationships": "Krishna as charioteer for Arjuna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Other eager warriors followed Arjuna as he advanced like Indra rushing to kill Vritra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Advance with followers",
+      "imagery": "Compared to Indra vs Vritra",
+      "supernatural_elements": "Divine comparison"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandi, Satyaki, Nakula, and Sahadeva intercepted enemies approaching Arjuna's chariot while showering arrows and roaring terribly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandi",
+        "Satyaki",
+        "Nakula",
+        "Sahadeva",
+        "Arjuna"
+      ],
+      "action": "Protective interception",
+      "relationships": "Pandava allies protecting Arjuna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kaurava heroes and Srinjayas engaged in furious battle, attacking each other with countless sharp arrows like Asuras and Devas of old.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kaurava army",
+        "Srinjaya army"
+      ],
+      "action": "Large-scale battle",
+      "imagery": "Compared to Asura-Deva war",
+      "supernatural_elements": "Mythological comparison"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Elephant riders, cavalry, and charioteers eager for victory and heaven fell to the ground while shouting and shooting arrows at each other.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Both armies"
+      ],
+      "action": "Mutual destruction",
+      "motivation": "Desire for victory and heaven"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Noble warriors engaged in fierce battle, showering each other with arrows, causing darkness to envelop the battlefield and obscure the sun's light.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Noble warriors (unspecified)"
+      ],
+      "action": "Battle",
+      "supernatural_elements": "Darkness covering the battlefield and sun"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "source",
+    "extraction_text": "This is from the auspicious Mahabharata, Karna Parva, Chapter 57.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "text": "Mahabharata",
+      "section": "Karna Parva",
+      "chapter": "57"
+    },
+    "_token_interval": null
+  }
+]

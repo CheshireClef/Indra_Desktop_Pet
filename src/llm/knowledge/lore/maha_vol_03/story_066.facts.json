@@ -1,0 +1,368 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna (Keshava) narrates a story to Duryodhana in the presence of kings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna (Keshava)",
+        "Duryodhana"
+      ],
+      "type": "Narration/Advice",
+      "relationships": [
+        "Krishna is advising Duryodhana"
+      ],
+      "context": "Krishna is speaking to Duryodhana, urging him to listen to his father's words."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra addresses Duryodhana, urging him to listen and obey if he respects his father.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Duryodhana"
+      ],
+      "type": "Fatherly Advice",
+      "relationships": [
+        "Father-Son: Dhritarashtra is Duryodhana's father"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra recounts the origin of the Kuru dynasty, starting with Soma (Chandra) creating it, with Yayati being the sixth king from Soma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Soma (Chandra)",
+        "Yayati"
+      ],
+      "type": "Genealogy",
+      "relationships": [
+        "Soma is the progenitor; Yayati is a descendant"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yayati had five excellent sons, with the eldest being the mighty Yadu and the youngest being Puru, born from Sharmishtha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yayati",
+        "Yadu",
+        "Puru",
+        "Sharmishtha"
+      ],
+      "type": "Family Lineage",
+      "relationships": [
+        "Father-Sons: Yayati is father to Yadu and Puru; Sharmishtha is Puru's mother"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yadu, son of Devayani, was the grandson of the brilliant planet Shukra (Venus). He founded the Yadu dynasty, known for bravery but flawed by arrogance and disrespect towards Kshatriyas, his father, and brothers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yadu",
+        "Devayani",
+        "Shukra (Venus)"
+      ],
+      "type": "Character Description",
+      "relationships": [
+        "Mother-Son: Devayani is Yadu's mother; Grandfather-Grandson: Shukra is Yadu's maternal grandfather"
+      ],
+      "flaws": [
+        "Arrogance",
+        "Disrespect"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yadu, invincible and powerful, conquered kings and resided in Hastinapura, but his pride angered Yayati, who cursed him and expelled him from the kingdom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yadu",
+        "Yayati"
+      ],
+      "type": "Conflict/Curse",
+      "action": "Yayati curses and exiles Yadu",
+      "reason": "Yadu's arrogance and disrespect"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yadu's brothers followed him, and Yayati cursed them as well in anger.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yadu's Brothers",
+        "Yayati"
+      ],
+      "type": "Curse",
+      "action": "Yayati curses Yadu's brothers",
+      "reason": "They supported Yadu's arrogance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yayati then installed his obedient youngest son, Puru, on the throne.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yayati",
+        "Puru"
+      ],
+      "type": "Succession",
+      "action": "Puru becomes king",
+      "reason": "Puru's obedience and respect"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra draws a parallel to his own lineage, mentioning his great-grandfather Pratipa, a righteous king who had three sons: Devapi, Bahlika, and Shantanu.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pratipa",
+        "Devapi",
+        "Bahlika",
+        "Shantanu"
+      ],
+      "type": "Genealogy",
+      "relationships": [
+        "Father-Sons: Pratipa is father to Devapi, Bahlika, and Shantanu"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Devapi, the eldest, was righteous, truthful, and filial but suffered from a skin disease, leading to public and Brahmin opposition to his coronation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Devapi"
+      ],
+      "type": "Character Description/Conflict",
+      "flaws": [
+        "Skin disease"
+      ],
+      "conflict": "Opposition to his kingship due to disability"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pratipa, distressed by the opposition to Devapi's coronation and worried for his son, eventually died. Devapi, seeing his father's death, retired to the forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pratipa",
+        "Devapi"
+      ],
+      "type": "Tragedy/Abdication",
+      "action": "Pratipa dies; Devapi renounces throne",
+      "reason": "Grief and opposition to kingship"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "波力迦抛弃王国，住到舅母家去，抛弃父亲和兄弟，获得富裕的城市。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "波力迦"
+      ],
+      "action": "抛弃王国和家庭，移居并获取财富",
+      "relationships": [
+        "父子关系（与父亲）",
+        "兄弟关系"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "经波力迦同意，福身在父亲去世后担任国王，治理王国。",
+    "char_interval": {
+      "start_pos": 1025,
+      "end_pos": 1032
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "波力迦",
+        "福身"
+      ],
+      "action": "王位继承与统治",
+      "relationships": [
+        "兄弟关系",
+        "王位继承关系"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 310,
+      "end_index": 312
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "叙述者（维杜罗）自称是长子但肢体有残疾，睿智的般度取消他的王权，将王国传给幼子般度。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "维杜罗",
+        "般度"
+      ],
+      "action": "王权剥夺与转移",
+      "relationships": [
+        "兄弟关系",
+        "王位继承争议"
+      ],
+      "reason": "维杜罗的残疾"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "般度去世后，王国属于他的儿子们，叙述者（维杜罗）并未享有王国。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般度",
+        "坚战",
+        "维杜罗"
+      ],
+      "action": "王位继承确认",
+      "relationships": [
+        "父子关系（般度与坚战）",
+        "叔侄关系（维杜罗与坚战）"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "叙述者（维杜罗）赞扬坚战王子的品德，认为王国理应属于他，并谴责对方（难敌）行为低劣、贪婪，不应抢夺合法继承的王国。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "维杜罗",
+        "坚战",
+        "难敌"
+      ],
+      "action": "道德论证与谴责",
+      "relationships": [
+        "家族内部冲突",
+        "王位继承权主张"
+      ],
+      "key_points": [
+        "坚战的品德被详细描述",
+        "难敌的行为受到批评"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "叙述者（维杜罗）劝告对方（难敌）驱除痴迷，将一半王国连同马匹和仆人给坚战他们，以安度余生。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "维杜罗",
+        "难敌",
+        "坚战"
+      ],
+      "action": "和平解决方案提议",
+      "relationships": [
+        "调解者与冲突方",
+        "王国分割建议"
+      ],
+      "proposal": "分割王国以实现和平"
+    },
+    "_token_interval": null
+  }
+]

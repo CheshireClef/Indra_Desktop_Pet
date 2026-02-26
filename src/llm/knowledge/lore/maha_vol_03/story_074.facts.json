@@ -1,0 +1,1385 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma describes the warriors and armies allied with the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Assessment of military strength",
+      "context": "Bhishma is speaking to King Dhritarashtra about the upcoming Kurukshetra War."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma identifies Draupadi's five sons, Uttara (son of Virata), Abhimanyu, Satyaki, Uttamaujas, and Yudhamanyu as great warriors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Draupadi's Sons",
+        "Uttara (son of Virata)",
+        "Abhimanyu",
+        "Satyaki",
+        "Uttamaujas",
+        "Yudhamanyu"
+      ],
+      "relationships": "Draupadi's sons are sons of the Pandavas. Uttara is son of King Virata. Abhimanyu is son of Arjuna and Subhadra. Satyaki is a Yadava warrior and ally of Krishna. Uttamaujas and Yudhamanyu are Panchala warriors.",
+      "military_assessment": "Bhishma praises their bravery and skill, noting they will fight to please Yudhishthira."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma states that Kings Virata and Drupada are invincible veteran warriors allied with the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Virata",
+        "Drupada"
+      ],
+      "relationships": "Virata and Drupada are fathers-in-law to the Pandavas (through marriage of Arjuna to Subhadra? Actually, Virata's daughter Uttara married Abhimanyu, and Drupada's daughter Draupadi married all five Pandavas). They are loyal allies bound by marriage and dharma.",
+      "military_assessment": "They will lead large armies and fight fiercely to support the Pandavas."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma identifies Shikhandin as a chief warrior for the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Shikhandin"
+      ],
+      "relationships": "Shikhandin is the prince of Panchala, son of Drupada, and brother of Draupadi.",
+      "military_assessment": "He will lead a large army of Panchalas and Prabhadrakas and win high honor in battle."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma identifies Dhrishtadyumna as a great warrior and supreme commander of the Pandava army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Dhrishtadyumna"
+      ],
+      "relationships": "Dhrishtadyumna is son of Drupada, brother of Draupadi, and student of Drona.",
+      "military_assessment": "He will fight like the god Shiva, with a vast army like the gods'."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma assesses other warriors: Shatrunjaya (young son of Dhrishtadyumna) as a half-warrior, and Shishupala's son (king of Chedi) as a great warrior allied with the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Shatrunjaya",
+        "King of Chedi (Shishupala's son)"
+      ],
+      "relationships": "Shatrunjaya is Dhrishtadyumna's son. The King of Chedi is related by marriage to the Pandavas.",
+      "military_assessment": "Shatrunjaya is inexperienced; the King of Chedi is a great warrior."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "勇士车底王将与儿子一起，创建连大勇士也难以创建的丰功伟绩。",
+    "char_interval": {
+      "start_pos": 983,
+      "end_pos": 1011
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "车底王"
+      ],
+      "action": "预言未来功绩",
+      "relationships": "父子关系"
+    },
+    "_token_interval": {
+      "start_index": 284,
+      "end_index": 287
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "刹多罗提婆忠于刹帝利正法，被认为是般度族优秀的勇士。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "刹多罗提婆"
+      ],
+      "type": "勇士评价",
+      "allegiance": "般度族"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阇延多、阿密道阇斯和真胜被描述为大勇士。",
+    "char_interval": {
+      "start_pos": 1063,
+      "end_pos": 1067
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阇延多",
+        "阿密道阇斯",
+        "真胜"
+      ],
+      "type": "勇士列举"
+    },
+    "_token_interval": {
+      "start_index": 299,
+      "end_index": 301
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "般遮罗族俊杰们将在战场上奋勇作战，犹如狂怒的大象。",
+    "char_interval": {
+      "start_pos": 1107,
+      "end_pos": 1127
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般遮罗族勇士们"
+      ],
+      "action": "战场预言",
+      "allegiance": "般度族"
+    },
+    "_token_interval": {
+      "start_index": 310,
+      "end_index": 314
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿遮和博遮是般度族的两位大勇士，会竭尽全力帮助般度族。",
+    "char_interval": {
+      "start_pos": 1169,
+      "end_pos": 1185
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿遮",
+        "博遮"
+      ],
+      "type": "勇士描述",
+      "allegiance": "般度族",
+      "skills": "武艺娴熟，通晓各种战斗"
+    },
+    "_token_interval": {
+      "start_index": 325,
+      "end_index": 329
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "羯迦夜族五兄弟作战疯狂，都是优秀的勇士。",
+    "char_interval": {
+      "start_pos": 1190,
+      "end_pos": 1202
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "羯迦夜族五兄弟"
+      ],
+      "type": "勇士评价",
+      "fighting_style": "疯狂作战"
+    },
+    "_token_interval": {
+      "start_index": 332,
+      "end_index": 334
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尸迦、苏古摩罗阇、尼罗、日授、商？和醉马被认为是优秀的勇士。",
+    "char_interval": {
+      "start_pos": 1228,
+      "end_pos": 1246
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尸迦",
+        "苏古摩罗阇",
+        "尼罗",
+        "日授",
+        "醉马"
+      ],
+      "type": "勇士列举",
+      "skills": "精通一切武器"
+    },
+    "_token_interval": {
+      "start_index": 343,
+      "end_index": 353
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "国王画兵是优秀的勇士，忠于阿周那。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "画兵",
+        "阿周那"
+      ],
+      "type": "忠诚关系",
+      "allegiance": "般度族"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "显光和真坚是般度族的两位大勇士。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "显光",
+        "真坚"
+      ],
+      "type": "勇士描述",
+      "allegiance": "般度族"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "虎授和月军是般度族的两位优秀勇士。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "虎授",
+        "月军"
+      ],
+      "type": "勇士评价",
+      "allegiance": "般度族"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "军丸（又名诛怒）将在战场上与俱卢族军队作战，与黑天和怖军一样勇敢。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "军丸",
+        "黑天",
+        "怖军"
+      ],
+      "action": "战场预言",
+      "allegiance": "般度族",
+      "comparison": "与黑天和怖军同等勇敢"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尸王是优秀的勇士，武艺娴熟，征服敌人城堡。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尸王"
+      ],
+      "type": "勇士描述",
+      "skills": "武艺娴熟，征服敌人"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "木柱王年轻的儿子真胜作战勇敢，一人能顶八个勇士。",
+    "char_interval": {
+      "start_pos": 1542,
+      "end_pos": 1556
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "真胜",
+        "木柱王"
+      ],
+      "type": "勇士评价",
+      "relationships": "父子关系",
+      "ability": "一人能顶八个勇士"
+    },
+    "_token_interval": {
+      "start_index": 432,
+      "end_index": 433
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "真胜和猛光一样，堪称大武士，将为般度族创建丰功伟绩。",
+    "char_interval": {
+      "start_pos": 1581,
+      "end_pos": 1605
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "真胜",
+        "猛光"
+      ],
+      "type": "勇士比较",
+      "allegiance": "般度族"
+    },
+    "_token_interval": {
+      "start_index": 442,
+      "end_index": 449
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "般底耶王是忠诚的大勇士，肩负着般度族的重任。",
+    "char_interval": {
+      "start_pos": 1609,
+      "end_pos": 1639
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般底耶王"
+      ],
+      "type": "忠诚描述",
+      "allegiance": "般度族"
+    },
+    "_token_interval": {
+      "start_index": 452,
+      "end_index": 456
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚弓是般度族的优秀勇士，希利尼曼和施财王是两位大武士。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚弓",
+        "希利尼曼",
+        "施财王"
+      ],
+      "type": "勇士列举",
+      "allegiance": "般度族"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "毗湿摩说娄遮摩那是般度族的大勇士，将像天神那样在战场上作战。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "毗湿摩",
+        "娄遮摩那"
+      ],
+      "speaker": "毗湿摩",
+      "type": "勇士预言",
+      "allegiance": "般度族",
+      "comparison": "像天神那样作战"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "布卢吉特·贡提婆阇是大弓箭手、大力士，怖军的母舅，坚决维护外甥般度之子们的利益。",
+    "char_interval": {
+      "start_pos": 1805,
+      "end_pos": 1829
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "布卢吉特·贡提婆阇",
+        "怖军",
+        "般度之子们"
+      ],
+      "type": "勇士描述",
+      "relationships": "舅舅-外甥关系",
+      "skills": "大弓箭手、大力士",
+      "allegiance": "般度族"
+    },
+    "_token_interval": {
+      "start_index": 504,
+      "end_index": 511
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima and Hidimba's son Ghatotkacha is a Rakshasa king skilled in illusions and will fight in the war.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Bhima",
+        "Hidimba"
+      ],
+      "relationships": [
+        "Ghatotkacha is son of Bhima and Hidimba"
+      ],
+      "supernatural_elements": [
+        "Rakshasa king",
+        "master of illusions"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Many kings from different countries, led by Vasudeva's son Krishna, have gathered for the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Pandavas"
+      ],
+      "relationships": [
+        "Krishna leads allies supporting Pandavas"
+      ],
+      "key_plot_points": [
+        "Alliance formation for war"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma declares he will fight all warriors except Shikhandin and the sons of Kunti.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Shikhandin",
+        "Pandavas (sons of Kunti)"
+      ],
+      "action": "Declaration of combat restrictions",
+      "reason": [
+        "Bhishma's vow of celibacy prevents him from killing women or those who were formerly women",
+        "Shikhandin was born female in previous life"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana questions Bhishma about why he won't kill Shikhandin despite earlier promises to kill Pandavas and Somakas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhishma"
+      ],
+      "conflict": "Questioning of Bhishma's combat restrictions",
+      "relationships": [
+        "Duryodhana is questioning his commander's strategy"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma explains his vow of celibacy and why he won't fight Shikhandin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Shikhandin"
+      ],
+      "explanation": "Bhishma took vow of celibacy to please his father, gave up kingdom, and won't kill any woman or person who was formerly woman",
+      "relationships": [
+        "Bhishma's vow connects to his father Shantanu"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma recounts how after his father Shantanu's death, he installed his brother Chitrangada as king.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Shantanu",
+        "Chitrangada"
+      ],
+      "action": "Succession arrangement",
+      "relationships": [
+        "Bhishma is son of Shantanu",
+        "Chitrangada is Bhishma's younger brother"
+      ],
+      "key_plot_points": [
+        "Background to Bhishma's vows and position"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After Vichitravirya's elder brother Chitrangada died, Bhishma, following Satyavati's advice, performed the coronation ceremony for Vichitravirya to become king.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Satyavati",
+        "Vichitravirya"
+      ],
+      "action": "Coronation",
+      "relationships": [
+        "Bhishma is stepbrother to Vichitravirya",
+        "Satyavati is mother to Vichitravirya and stepmother to Bhishma"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma decided to find a suitable bride for Vichitravirya from an appropriate family.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Vichitravirya"
+      ],
+      "action": "Decision to arrange marriage",
+      "relationships": [
+        "Bhishma acting as guardian for his younger stepbrother Vichitravirya"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma learned that the three daughters of the King of Kashi - Amba, Ambika, and Ambalika - were holding a swayamvara (bridegroom choice ceremony).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "King of Kashi",
+        "Amba",
+        "Ambika",
+        "Ambalika"
+      ],
+      "action": "Discovery of potential brides",
+      "relationships": [
+        "Amba, Ambika, and Ambalika are daughters of the King of Kashi"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma traveled alone to the capital of Kashi, where he saw the three princesses and all the assembled kings who had come for the swayamvara.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Amba",
+        "Ambika",
+        "Ambalika",
+        "Various kings"
+      ],
+      "action": "Arrival at swayamvara",
+      "location": "Capital of Kashi"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma challenged all the assembled kings and abducted the three princesses onto his chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Amba",
+        "Ambika",
+        "Ambalika",
+        "Various kings"
+      ],
+      "action": "Abduction/Challenge",
+      "declaration": "Bhishma announced himself as Bhishma, son of Shantanu, and declared he was taking the princesses"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "All the kings attacked Bhishma with various weapons, surrounding him with their armies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Various kings"
+      ],
+      "action": "Battle initiation",
+      "military_assets": [
+        "Chariots",
+        "Elephants",
+        "Horses"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma defeated all the attacking kings with his superior archery skills, shooting down their flags, horses, elephants, and charioteers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Various kings"
+      ],
+      "action": "Battle victory",
+      "supernatural_comparison": "Compared to Indra defeating the Danavas (demons)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The defeated kings retreated in despair, and Bhishma returned to Hastinapura with the princesses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Various kings",
+        "Amba",
+        "Ambika",
+        "Ambalika"
+      ],
+      "action": "Return with captives",
+      "destination": "Hastinapura"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma reported to Satyavati that he had won the princesses for his brother Vichitravirya.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Satyavati",
+        "Vichitravirya"
+      ],
+      "action": "Reporting victory",
+      "purpose": "Princesses intended as brides for Vichitravirya"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyavati kissed Bhishma's head and expressed joy at his victory, with tears in her eyes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyavati",
+        "Bhishma"
+      ],
+      "action": "Maternal blessing",
+      "emotional_state": "Satyavati was tearful and happy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "With Satyavati's consent, a wedding date was set, but Amba revealed she had already chosen King Shalva as her husband in her heart, and he had chosen her too, though her father didn't know.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Amba",
+        "Bhishma",
+        "Satyavati",
+        "King Shalva"
+      ],
+      "action": "Revelation of prior commitment",
+      "conflict": "Amba claims prior commitment to King Shalva despite being abducted for Vichitravirya"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Amba revealed to Bhishma that she loved King Shalva and could not be placed in the Kuru household, especially since Bhishma was from the Kuru family.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Amba",
+        "Bhishma"
+      ],
+      "action": "Revelation of love and plea for release",
+      "relationships": [
+        "Amba loves Shalva",
+        "Bhishma is from Kuru family"
+      ],
+      "context": "Amba appeals to Bhishma's reputation as a vow-keeper"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma, with consent from Satyavati, Kashi, ministers, Brahmins, and priests, allowed Princess Amba to leave.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Amba",
+        "Satyavati",
+        "Kashi"
+      ],
+      "action": "Permission granted for departure",
+      "relationships": [
+        "Bhishma acts with collective consent"
+      ],
+      "authority_figures": [
+        "Ministers",
+        "Brahmins",
+        "Priests"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Amba traveled with elderly Brahmins and a nurse to King Shalva's capital and met the king after a long journey.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Amba",
+        "King Shalva"
+      ],
+      "action": "Journey and meeting",
+      "escorts": [
+        "Elderly Brahmins",
+        "Nurse"
+      ],
+      "destination": "Shalva's capital"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Amba approached King Shalva and declared she came for him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Amba",
+        "King Shalva"
+      ],
+      "action": "Declaration of purpose",
+      "intent": "Amba seeks union with Shalva"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Shalva rejected Amba, stating she belonged to another since Bhishma had taken her by force in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Shalva",
+        "Amba"
+      ],
+      "action": "Rejection and accusation",
+      "reason": "Amba taken by Bhishma, thus belonging to another",
+      "shalva_self_image": "King of knowledge who teaches dharma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Amba pleaded with Shalva, explaining she was taken crying by force, not willingly, and came with Bhishma's consent for Shalva's sake.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Amba",
+        "King Shalva"
+      ],
+      "action": "Plea and clarification",
+      "key_points": [
+        "Taken forcibly by Bhishma",
+        "Consent obtained from Bhishma",
+        "Bhishma acted for his brother Vichitravirya",
+        "Sisters Ambalika and Ambika given to Vichitravirya",
+        "Amba only loves Shalva",
+        "Amba is unmarried"
+      ],
+      "oaths": [
+        "Swore by her head",
+        "Swore by her soul"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Despite Amba's pleas, King Shalva abandoned her, the daughter of the King of Kashi.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Shalva",
+        "Amba"
+      ],
+      "action": "Abandonment",
+      "simile": "Like a snake shedding old skin",
+      "outcome": "Amba rejected by both Bhishma's household and Shalva"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Amba (the eldest daughter of Kashi King) was abandoned by King Shalva after being released by Bhishma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Amba",
+        "King Shalva"
+      ],
+      "action": "Abandonment",
+      "relationships": "Amba was originally betrothed to King Shalva but was abducted by Bhishma during her swayamvara",
+      "context": "Amba pleads with Shalva to accept her, but he refuses out of fear of Bhishma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Amba leaves the city in despair, contemplating her misfortune and blaming various parties.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Amba"
+      ],
+      "action": "Departure and introspection",
+      "relationships": "Amba blames herself, Bhishma, her father (Kashi King), King Shalva, and the Creator for her plight",
+      "emotional_state": "Despair, anger, determination for revenge"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Amba decides to seek revenge against Bhishma, whom she identifies as the primary cause of her suffering.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Amba",
+        "Bhishma"
+      ],
+      "action": "Decision for revenge",
+      "relationships": "Amba holds Bhishma responsible for her abduction and subsequent rejection by Shalva",
+      "method_considered": "Through asceticism (tapas) or combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Amba travels to an ashram of ascetics and spends the night under their protection.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Amba",
+        "Ascetics"
+      ],
+      "action": "Seeking refuge",
+      "relationships": "Ascetics provide shelter to the distressed Amba",
+      "location": "Ashram (hermitage) outside the city"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Amba recounts her entire story to the ascetics, detailing her abduction, release, and abandonment.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Amba",
+        "Ascetics"
+      ],
+      "action": "Narration of past events",
+      "relationships": "Amba seeks understanding and possibly help from the ascetics",
+      "summary": "She describes being abducted by Bhishma during her swayamvara, released to return to Shalva, and then rejected by Shalva"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The great Brahmin ascetic Sekhavatya (or Shakhavatya) notices Amba's distress and asks what the ascetics can do for her.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sekhavatya",
+        "Amba"
+      ],
+      "action": "Inquiry and offer of assistance",
+      "relationships": "Sekhavatya, a revered teacher and ascetic, shows compassion towards Amba",
+      "description": "Sekhavatya is described as a great ascetic with severe vows, knowledgeable in scriptures"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Amba requests the boon of becoming an ascetic herself to perform severe penance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Amba"
+      ],
+      "action": "Request for ascetic initiation",
+      "motivation": "To atone for past karma and gain power for revenge, as she cannot return to her family",
+      "philosophical_element": "Attribution of her suffering to past life deeds (karma)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A girl (later identified as Amba) laments being abandoned by King Shalva and requests the sages to teach her asceticism.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Amba",
+        "King Shalva"
+      ],
+      "action": "Request for ascetic training",
+      "relationships": "Amba was rejected/abandoned by King Shalva",
+      "emotional_state": "Amba is distressed and seeking spiritual refuge"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sages comfort Amba and agree to help her.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sages",
+        "Amba"
+      ],
+      "action": "Comfort and agreement to assist",
+      "relationships": "Sages become protectors/guides for Amba"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sages discuss what to do with Amba, considering various options: returning her to her father's house, reuniting with King Shalva, or allowing her to stay.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sages"
+      ],
+      "action": "Deliberation about Amba's fate",
+      "considerations": [
+        "Return to father",
+        "Reunion with King Shalva",
+        "Remain in hermitage"
+      ],
+      "concerns": "Potential condemnation, appropriateness of ascetic life for a princess"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sages advise Amba against asceticism, suggesting she return to her father's house for safety and comfort.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sages",
+        "Amba"
+      ],
+      "action": "Counsel against ascetic life",
+      "arguments": "Asceticism is too harsh for a princess, father's house is a safe refuge, risk of harassment from kings in the forest",
+      "relationships": "Sages act as advisors to Amba"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Amba refuses to return to her father's house in Kashi, fearing contempt from relatives, and insists on practicing asceticism under the sages' protection.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Amba"
+      ],
+      "action": "Rejection of advice, determination to pursue asceticism",
+      "reason": "Fear of shame, desire to overcome misfortune through spiritual practice",
+      "relationships": "Amba asserts her independence from family and societal expectations"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King-sage Hotravahana (Amba's maternal grandfather) arrives at the hermitage and learns about Amba's situation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hotravahana",
+        "Sages",
+        "Amba"
+      ],
+      "action": "Arrival and inquiry",
+      "relationships": "Hotravahana is Amba's maternal grandfather",
+      "reaction": "Hotravahana is moved and comforts Amba"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Amba recounts her entire misfortune to Hotravahana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Amba",
+        "Hotravahana"
+      ],
+      "action": "Narration of past events",
+      "relationships": "Grandfather-granddaughter bond, Hotravahana becomes a confidant and protector"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Hotravahana, distressed, advises Amba not to go to her father's house, implying he will take responsibility for her.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hotravahana",
+        "Amba"
+      ],
+      "action": "Protective advice and assumption of responsibility",
+      "relationships": "Hotravahana steps in as a guardian, overriding the sages' earlier suggestions",
+      "emotional_state": "Hotravahana is pained and determined to help"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The grandfather (Hātaravahana) promises to remove the girl's suffering and tells her to listen to him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hātaravahana",
+        "The girl (implied to be Ambā)"
+      ],
+      "action": "Promise of help and instruction",
+      "relationships": "Grandfather-granddaughter (Hātaravahana is the girl's maternal grandfather)",
+      "supernatural_elements": "None explicitly stated"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Hātaravahana instructs the girl to go to Rāma (Jāmadagnya, also known as Parashurāma), son of the ascetic Jamadagni, who will remove her great suffering and sorrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hātaravahana",
+        "The girl (Ambā)",
+        "Rāma (Parashurāma)",
+        "Jamadagni"
+      ],
+      "action": "Instruction to seek help from Rāma",
+      "relationships": "Rāma is the son of Jamadagni; Hātaravahana is directing the girl to Rāma as a solution",
+      "supernatural_elements": "Rāma is described as having splendor like the fire of Time, indicating divine or heroic stature"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Hātaravahana states that if Bhīshma does not heed Rāma's words, Rāma will kill him in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hātaravahana",
+        "Rāma (Parashurāma)",
+        "Bhīshma"
+      ],
+      "action": "Threat of violence against Bhīshma",
+      "relationships": "Bhīshma is implied to be the cause of the girl's suffering; Rāma is positioned as an enforcer against Bhīshma",
+      "supernatural_elements": "None explicitly stated"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The girl weeps, bows to her grandfather Hātaravahana, and says through tears that she will go as instructed but asks if she can meet the noble Rāma and how he will remove her suffering.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The girl (Ambā)",
+        "Hātaravahana",
+        "Rāma (Parashurāma)"
+      ],
+      "action": "Acceptance of instruction with a request for clarification",
+      "relationships": "The girl shows deference to her grandfather; she seeks assurance about Rāma's ability to help",
+      "supernatural_elements": "None explicitly stated"
+    },
+    "_token_interval": null
+  }
+]

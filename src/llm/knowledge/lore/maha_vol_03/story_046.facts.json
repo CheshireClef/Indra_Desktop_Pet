@@ -1,0 +1,464 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "偕天 (Sahadeva) speaks, stating that King Yudhishthira's words uphold eternal dharma, but that war should be provoked. He vows to abandon dharma himself to fight Duryodhana if his brothers do not.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sahadeva",
+        "Yudhishthira",
+        "Duryodhana"
+      ],
+      "type": "Declaration of Intent",
+      "relationships": [
+        "Sahadeva is a Pandava brother",
+        "Duryodhana is the primary Kaurava adversary"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki (Sañjaya) agrees with Sahadeva, stating that only killing Duryodhana will quell his anger, and reminds Krishna of the Pandavas' suffering in exile.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Sahadeva",
+        "Duryodhana",
+        "Krishna"
+      ],
+      "type": "Agreement & Reminder",
+      "relationships": [
+        "Satyaki is a Yadava warrior and ally of the Pandavas",
+        "Krishna is an advisor and ally to the Pandavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "All assembled warriors roar in approval of Satyaki's words, expressing their eagerness for battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Assembled Warriors (Pandava allies)"
+      ],
+      "type": "Collective Response",
+      "action": "War cry"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi, distressed, speaks to Krishna. She recounts the injustices suffered by the Pandavas, including her own public humiliation, and mentions Yudhishthira's peace offer of five villages.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "Krishna",
+        "Yudhishthira",
+        "Duryodhana",
+        "Dhritarashtra"
+      ],
+      "type": "Appeal & Recounting of Grievances",
+      "relationships": [
+        "Draupadi is the wife of the Pandavas",
+        "Dhritarashtra is the blind Kaurava king and father of Duryodhana"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi argues that if Duryodhana does not accept the peace offer and restore the kingdom, Krishna should not go to negotiate. She asserts that the Pandava and Srinjaya armies can withstand the Kaurava forces.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "Krishna",
+        "Duryodhana"
+      ],
+      "type": "Strategic Counsel",
+      "action": "Advocacy for military action over negotiation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi concludes that the enemy cannot be pacified by conciliation or gifts, and urges Krishna to join with the Pandavas and Srinjayas to punish them, claiming it would benefit the Pandavas, enhance Krishna's fame, and bring happiness to the Kshatriyas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "Krishna"
+      ],
+      "type": "Final Appeal",
+      "action": "Call to arms"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi reminds Krishna of her royal lineage and status as the daughter of King Drupada, born from the sacrificial fire, and sister of Dhrishtadyumna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "Krishna"
+      ],
+      "type": "Reminder of Identity",
+      "relationships": [
+        "Draupadi is Krishna's friend and cousin (through Kunti)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi recounts her marriage to the five Pandava brothers, making her the queen of the Pandavas and daughter-in-law of the Kuru dynasty.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "type": "Marriage Alliance",
+      "relationships": [
+        "Draupadi is the shared wife of the five Pandava brothers"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi describes giving birth to five heroic sons, one from each Pandava brother, with Abhimanyu mentioned as a comparable warrior.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "Prativindhya",
+        "Sutasoma",
+        "Shrutakarma",
+        "Shatanika",
+        "Shrutasena",
+        "Abhimanyu"
+      ],
+      "type": "Family Expansion",
+      "relationships": [
+        "Draupadi is mother to the five Upapandavas",
+        "Abhimanyu is Arjuna's son with Subhadra"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi recalls being publicly humiliated in the Kuru assembly, where Dushasana dragged her by the hair while the Pandavas, Krishna, and other royals watched helplessly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "Dushasana",
+        "Pandavas",
+        "Krishna",
+        "Kauravas",
+        "Panchalas",
+        "Vrishnis"
+      ],
+      "type": "Humiliation and Injustice",
+      "relationships": [
+        "Dushasana is Draupadi's primary tormentor",
+        "Pandavas are bound by dice game rules"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra grants Draupadi a boon, and she chooses freedom for the Pandavas from slavery, resulting in their exile to the forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "Dhritarashtra",
+        "Pandavas"
+      ],
+      "type": "Boon and Liberation",
+      "relationships": [
+        "Dhritarashtra is Draupadi's father-in-law",
+        "Draupadi saves Pandavas from slavery"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi appeals to Krishna for protection for herself, her brothers, and relatives, questioning why she remains enslaved despite being the lawful daughter-in-law of Bhishma and Dhritarashtra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "Krishna",
+        "Bhishma",
+        "Dhritarashtra"
+      ],
+      "type": "Plea for Justice",
+      "relationships": [
+        "Krishna is Draupadi's protector and friend",
+        "Draupadi is daughter-in-law of Kuru elders"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi declares that as long as Duryodhana lives, the strength of Bhima and the archery skills of Arjuna are worthless, and she urges Krishna to direct his anger toward the sons of Dhritarashtra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "Krishna",
+        "Duryodhana",
+        "Bhima",
+        "Arjuna"
+      ],
+      "type": "Call for Vengeance",
+      "relationships": [
+        "Duryodhana is the primary antagonist",
+        "Bhima and Arjuna are Draupadi's husbands"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi shows Krishna the hair that Dushasana grabbed, vowing to never make peace until Dushasana's hand is cut off, and reveals her thirteen years of suppressed anger.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "Krishna",
+        "Dushasana"
+      ],
+      "type": "Oath and Resolution",
+      "relationships": [
+        "Draupadi's primary grievance is with Dushasana",
+        "Krishna is witness to her suffering"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi states that even if the Pandavas seek peace, her father Drupada, her sons, and her brother Dhrishtadyumna will continue the war against the Kauravas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "Drupada",
+        "Upapandavas",
+        "Dhrishtadyumna",
+        "Kauravas"
+      ],
+      "type": "Family Loyalty",
+      "relationships": [
+        "Draupadi's natal family will fight if Pandavas don't",
+        "Dhrishtadyumna is Draupadi's brother"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi expresses deep emotional pain to Krishna after being wounded by Bhima's words, crying and trembling.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "Krishna"
+      ],
+      "action": "Emotional expression and crying",
+      "relationships": [
+        "Krishna comforts Draupadi"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna comforts Draupadi, predicting that she will soon see the women of the Bharata clan weeping.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Draupadi"
+      ],
+      "action": "Comfort and prophecy",
+      "relationships": [
+        "Krishna reassures Draupadi"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna declares that he, along with Bhima, Arjuna, and the twins (Nakula and Sahadeva), will act according to Yudhishthira's command, submitting to fate.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Yudhishthira"
+      ],
+      "action": "Declaration of alliance and submission to fate",
+      "relationships": [
+        "Krishna and the Pandavas unite under Yudhishthira's leadership"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna warns that if the sons of Dhritarashtra do not heed his words, they will be killed and feed wild dogs and jackals.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Sons of Dhritarashtra (Kauravas)"
+      ],
+      "action": "Warning of consequences",
+      "relationships": [
+        "Krishna threatens the Kauravas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna makes a solemn vow to Draupadi that his words will not fail, comparing their certainty to natural impossibilities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Draupadi"
+      ],
+      "action": "Solemn vow",
+      "relationships": [
+        "Krishna promises Draupadi victory"
+      ],
+      "supernatural_elements": [
+        "Metaphorical divine assurance"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna urges Draupadi to stop crying and swears that she will soon see her enemies killed and her husbands regain their prosperity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Draupadi",
+        "Pandavas"
+      ],
+      "action": "Promise of victory and restoration",
+      "relationships": [
+        "Krishna pledges to restore the Pandavas' fortunes"
+      ]
+    },
+    "_token_interval": null
+  }
+]

@@ -1,0 +1,696 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra asks Sanjaya what his son Duryodhana said after being defeated and having his thigh broken.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra",
+        "Sanjaya",
+        "Duryodhana"
+      ],
+      "type": "Inquiry",
+      "relationships": [
+        "Father-Son (Dhritarashtra-Duryodhana)",
+        "Messenger (Sanjaya)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya describes Duryodhana's condition: lying on the ground with broken thigh, head being stepped on, covered in dust, with disheveled hair.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Sanjaya"
+      ],
+      "action": "Observation of defeat",
+      "physical_state": "Injured and humiliated"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana angrily blames Bhima for defeating him through unfair means and violating combat rules.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhima"
+      ],
+      "type": "Accusation",
+      "relationship": "Rivalry/Enmity",
+      "accusation": "Unfair victory through illegal means"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana laments that despite having powerful protectors like Bhishma, Karna, Drona, Ashwatthama, Shalya, and others, he still faced defeat due to fate.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhishma",
+        "Karna",
+        "Drona",
+        "Ashwatthama",
+        "Shalya",
+        "Kripa",
+        "Shakuni",
+        "Shrutayu"
+      ],
+      "type": "Lamentation",
+      "relationship": "Former allies/protectors",
+      "theme": "Inevitability of fate"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana accuses the Pandavas of committing cruel acts against warriors like Bhurishrava, Karna, Bhishma, and Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Pandavas",
+        "Bhurishrava",
+        "Karna",
+        "Bhishma",
+        "Drona"
+      ],
+      "type": "Accusation",
+      "accusation": "Cruel and unethical warfare"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana questions whether victory obtained through deceit can bring true happiness to righteous people.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "type": "Philosophical reflection",
+      "theme": "Ethics of warfare and victory"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana expresses humiliation at having his head stepped on by Bhima despite being a king who enjoyed prosperity among his people.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhima"
+      ],
+      "type": "Expression of humiliation",
+      "action": "Physical humiliation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana asks Sanjaya to convey his words to his parents (Dhritarashtra and Gandhari) who understand Kshatriya dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Sanjaya",
+        "Dhritarashtra",
+        "Gandhari"
+      ],
+      "type": "Message",
+      "relationship": [
+        "Parent-Child",
+        "Messenger"
+      ],
+      "purpose": "Final communication to parents"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana recounts his achievements: performing sacrifices, ruling lands and oceans, standing over enemies, generosity to friends, conquering enemy territories, respecting relatives, and fulfilling life's duties.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "type": "Self-justification",
+      "achievements": [
+        "Ritual performances",
+        "Territorial rule",
+        "Military conquests",
+        "Generosity",
+        "Respect for family and elders"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana questions whether anyone could be more fortunate than him despite his current defeat.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "type": "Rhetorical question",
+      "theme": "Irony of fate and self-perception"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana, mortally wounded, reflects on his life and achievements, declaring himself fortunate for his unvanquished status in battle, adherence to his dharma, and the honorable death he sought.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "type": "Monologue/Reflection",
+      "action": "Dying declaration"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana accuses Bhima of defeating him using unlawful means (adharma) in their mace duel.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhima"
+      ],
+      "action": "Accusation",
+      "relationship": "Enemies (Kauravas vs. Pandavas)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana instructs the messengers to deliver a final message to Ashvatthaman, Kritavarman, and Kripa, warning them not to trust the Pandavas, whom he calls destroyers of rules who have committed many evil deeds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Ashvatthaman",
+        "Kritavarman",
+        "Kripa",
+        "The Pandavas"
+      ],
+      "action": "Final instruction",
+      "relationship": "Duryodhana (Kaurava leader) to his remaining generals; Accusation against the Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana states he will follow the departed souls of his allies (including Drona, Shalya, Karna, Bhurishrava, Shalya, Shalya, Jayadratha, Duhshasana, Lakshmana Kumar, and others) to heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Drona",
+        "Shalya",
+        "Karna",
+        "Bhurishrava",
+        "Shalya",
+        "Jayadratha",
+        "Duhshasana",
+        "Lakshmana Kumar"
+      ],
+      "action": "Declaration of impending death",
+      "relationship": "Duryodhana as leader mourning his fallen army and allies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana laments the future grief of his family: his sister Duhshala (upon hearing of her brothers' and husband's deaths), his elderly father Dhritarashtra and mother Gandhari, their daughters-in-law and granddaughters-in-law, and specifically the sorrow of Lakshmana Kumar's mother (his wife).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Duhshala",
+        "Dhritarashtra",
+        "Gandhari",
+        "Lakshmana Kumar's mother"
+      ],
+      "action": "Lamentation",
+      "relationship": "Duryodhana as son, brother, and husband foreseeing family tragedy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana expresses a hope that the sage Chyavana, if he learns of these events, will avenge him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Chyavana"
+      ],
+      "action": "Expression of hope for vengeance",
+      "supernatural_element": "Invocation of a sage's potential power"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana declares that dying at the holy site of Samantapanchaka, he will attain eternal worlds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Final statement",
+      "supernatural_element": "Belief in attaining heaven due to death at a holy site"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After hearing King Duryodhana's lament, thousands of people weep and run in all directions. The earth, seas, forests, and all beings tremble violently with a great sound, and the surroundings grow dark.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Thousands of onlookers"
+      ],
+      "action": "Reaction to death",
+      "supernatural_element": "Cosmic portents (earthquake, darkness) marking the death of a great king"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The messengers go to Ashvatthaman and truthfully report the events of the mace duel and the death of King Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Messengers",
+        "Ashvatthaman",
+        "Duryodhana"
+      ],
+      "action": "Report of death",
+      "relationship": "Messengers inform the Kaurava general of his leader's fate"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After reporting everything to Ashvatthaman, the messengers fall silent for a long time, then set out on their return journey, filled with sorrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Messengers",
+        "Ashvatthaman"
+      ],
+      "action": "Departure",
+      "emotional_state": "Grief"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The surviving Kuru warriors (Ashvatthaman, Kripa, and Kritavarman) heard from a messenger that Duryodhana had been killed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthaman",
+        "Kripa",
+        "Kritavarman",
+        "Duryodhana"
+      ],
+      "action": "Receiving news of death",
+      "relationships": [
+        "Ashvatthaman is Drona's son",
+        "Kripa is a teacher/warrior",
+        "Kritavarman is a Yadava warrior",
+        "All are allies of Duryodhana"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The warriors rushed to the battlefield on fast horses and found Duryodhana lying dead.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthaman",
+        "Kripa",
+        "Kritavarman",
+        "Duryodhana"
+      ],
+      "action": "Discovering the body",
+      "description": "Duryodhana's body is described with multiple similes: like a fallen sala tree, a slain elephant, a fallen sun, a dried ocean, a clouded moon, and a fallen tiger"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthaman, weeping and breathless, laments over Duryodhana's body with a long speech about the transience of life and power.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthaman",
+        "Duryodhana"
+      ],
+      "action": "Lamentation",
+      "themes": [
+        "Impermanence of power",
+        "Inscrutability of fate",
+        "Allies' deaths (Duhshasana, Karna, others)"
+      ],
+      "relationships": [
+        "Ashvatthaman expresses deep grief for his fallen king and friend"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana responds with philosophical acceptance of death as ordained by Brahma (the creator).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Kripa",
+        "Ashvatthaman",
+        "Kritavarman"
+      ],
+      "action": "Final speech",
+      "philosophical_element": "Acceptance of death as part of cosmic order",
+      "divine_reference": "Brahma (creator god) established this way of death",
+      "relationships": [
+        "Duryodhana addresses his remaining allies with his dying words"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana reflects on his life, fate, and death while accepting his fate.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Reflection and acceptance",
+      "relationships": "Duryodhana addresses his surviving allies",
+      "supernatural_elements": "Mention of fate and divine will"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana expresses that he has won the immortal world according to Vedic standards and acknowledges Krishna's power but states he never abandoned Kshatriya dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Krishna"
+      ],
+      "action": "Philosophical declaration",
+      "relationships": "Duryodhana acknowledges Krishna's power but asserts his own adherence to duty"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana becomes silent, filled with tears, and is tormented by grief and pain.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Emotional breakdown",
+      "relationships": "Shows Duryodhana's vulnerability"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama sees Duryodhana weeping and becomes enraged with fury like the fire of universal destruction.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Duryodhana"
+      ],
+      "action": "Emotional reaction",
+      "relationships": "Ashvatthama's loyalty and anger toward Duryodhana's suffering",
+      "supernatural_elements": "Comparison to apocalyptic fire"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama vows to kill all the Panchalas in front of Krishna by any means necessary, swearing by his religious merits, charity, righteousness, and good deeds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Krishna",
+        "Panchalas"
+      ],
+      "action": "Oath of vengeance",
+      "relationships": "Ashvatthama's hatred toward the Panchalas and defiance of Krishna",
+      "supernatural_elements": "Sacred oath"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana, pleased by Ashvatthama's words, asks Kripa to bring a water pot for Ashvatthama's consecration as army commander.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Ashvatthama",
+        "Kripa"
+      ],
+      "action": "Command for consecration",
+      "relationships": "Duryodhana appoints Ashvatthama as successor commander"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kripa brings the water pot and, at Duryodhana's command, consecrates Ashvatthama as army commander.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripa",
+        "Ashvatthama",
+        "Duryodhana"
+      ],
+      "action": "Ritual consecration",
+      "relationships": "Kripa fulfills royal command; Ashvatthama becomes supreme commander"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After consecration, Ashvatthama embraces Duryodhana and departs with a lion's roar that echoes in all directions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Duryodhana"
+      ],
+      "action": "Farewell and departure",
+      "relationships": "Final embrace between commander and dying king",
+      "supernatural_elements": "Lion's roar echoing ominously"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Night falls, covering the bleeding Duryodhana and bringing fear to all beings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Atmospheric change",
+      "relationships": "Symbolic end for Duryodhana",
+      "supernatural_elements": "Ominous nightfall"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama and his forces swiftly leave the battlefield, hearts filled with sorrow and agitated thoughts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama"
+      ],
+      "action": "Departure from battlefield",
+      "relationships": "Ashvatthama leads the remaining Kaurava forces",
+      "supernatural_elements": "Mood of doom and vengeance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "This text appears to be the end of a chapter (Chapter 64 of the Shalya Parva) and the beginning of another (the Sauptika Parva or Night Attack Parva) from the Mahabharata, accompanied by numerous explanatory footnotes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator/Compiler"
+      ],
+      "type": "Structural/Textual",
+      "note": "The text itself is not a narrative event but a chapter transition with annotations. The footnotes reference many characters and events from earlier parts of the epic, but no new narrative events are described here."
+    },
+    "_token_interval": null
+  }
+]

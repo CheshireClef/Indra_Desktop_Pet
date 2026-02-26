@@ -1,0 +1,376 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Shaunaka asks Sauti to recount the names of the snakes, acknowledging he has already heard about the curses on the snakes and Vinata, the boons from their husband, and the names of Vinata's two flying sons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shaunaka",
+        "Sauti"
+      ],
+      "type": "Dialogue/Inquiry",
+      "relationships": [
+        "Shaunaka is the listener/asker",
+        "Sauti is the narrator/responder"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sauti explains that the number of snakes is too vast to list all, but he will provide the main names.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sauti"
+      ],
+      "action": "Explanation/Listing preparation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sauti lists the primary snakes, including Shesha, Vasuki, Airavata, Takshaka, Karkotaka, and many others, noting the list is selective due to the countless nature of snakes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sauti",
+        "Snakes (collectively, with named individuals like Shesha, Vasuki, etc.)"
+      ],
+      "action": "Enumeration",
+      "note": "This is a descriptive list rather than a narrative event, but captures key entities as per the text."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shaunaka asks what the snakes, knowing their curse, did next, given their fierce nature.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shaunaka"
+      ],
+      "type": "Dialogue/Inquiry",
+      "focus": "Plot progression regarding the snakes' response to the curse"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sauti begins to narrate that among the snakes, the revered Shesha left Kadru to undertake severe austerities, living on air and strictly observing vows, traveling to various sacred places like Mount Mandara, the river Kshiroda, and the slopes of the Himalayas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shesha",
+        "Kadru"
+      ],
+      "action": "Austerities/Departure",
+      "relationships": [
+        "Shesha is a snake, son of Kadru"
+      ],
+      "supernatural_elements": [
+        "Austerities (tapas), sacred geography"
+      ],
+      "note": "This event sets up Shesha's individual response to the curse, distinct from the collective snakes."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shesha has become accustomed to solitude and practices severe austerities, completely conquering his senses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shesha"
+      ],
+      "action": "Practicing austerities (tapas)",
+      "type": "Asceticism"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahma discovers Shesha performing these severe austerities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma",
+        "Shesha"
+      ],
+      "action": "Discovery/Confrontation",
+      "relationship": "Creator and creation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahma questions Shesha's purpose, warns him that his austerities could harm living beings, and offers to grant him a boon.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma",
+        "Shesha"
+      ],
+      "action": "Dialogue/Offer",
+      "type": "Divine intervention"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shesha explains his reason for performing austerities: his brothers (the other serpents) are wicked, malicious towards each other, and especially hate Vinata and her son Garuda, who is also their brother.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shesha",
+        "Other Serpents (Brothers)",
+        "Vinata",
+        "Garuda"
+      ],
+      "action": "Explanation/Confession",
+      "relationships": {
+        "Shesha": "Brother to the other serpents and Garuda",
+        "Other Serpents": "Hate Vinata and Garuda",
+        "Garuda": "Son of Vinata and Kashyapa, brother to Shesha and the serpents"
+      },
+      "reason": "To avoid living with his brothers in this life and the next"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahma reveals he knows the serpents' behavior and that, due to their mother's fault, they face a great terror, but a remedy has been prepared.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma",
+        "Shesha",
+        "Other Serpents"
+      ],
+      "action": "Revelation/Prophecy",
+      "type": "Divine knowledge"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahma offers Shesha a boon of his choice, praising his righteousness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma",
+        "Shesha"
+      ],
+      "action": "Boon offer",
+      "reason": "Brahma is pleased with Shesha"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shesha requests that his mind remain forever fixed on righteousness (dharma), peace, and austerities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shesha",
+        "Brahma"
+      ],
+      "action": "Boon request",
+      "type": "Vow/Resolution"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahma, pleased with Shesha's self-control and tranquility, commands him to perform a task for the welfare of all beings: to go beneath the earth, support it, and keep it steady, as it often shakes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma",
+        "Shesha"
+      ],
+      "action": "Divine command",
+      "task": "Support and stabilize the earth"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shesha accepts the command, asking Brahma to place the earth upon his head.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shesha",
+        "Brahma"
+      ],
+      "action": "Acceptance",
+      "type": "Obedience"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahma instructs Shesha to go beneath the earth, where it will open a hole for him to support it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma",
+        "Shesha"
+      ],
+      "action": "Final instruction",
+      "method": "Earth will provide an opening"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shesha, the eldest and most capable of the serpents, says 'So be it' (tatha), enters the hole, and fixes the earth in place.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shesha"
+      ],
+      "action": "Task completion",
+      "result": "Earth is stabilized",
+      "supernatural_element": "Cosmic support of the earth"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The great serpent tightly embraced the earth, which had the ocean as its rim, and lifted up the Earth Goddess with his head.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shesha (Ananta)",
+        "Prithvi (Earth Goddess)"
+      ],
+      "action": "Lifting/supporting the earth",
+      "type": "Supernatural/Divine action"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahma spoke to the serpent, praising him as the embodiment of Dharma and comparing him to himself and Indra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma",
+        "Shesha (Ananta)"
+      ],
+      "action": "Divine praise and recognition",
+      "relationships": "Brahma acknowledges Shesha's divine status"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The radiant, infinite great serpent dwells beneath the earth, supporting the entire world according to Brahma's command.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shesha (Ananta)"
+      ],
+      "action": "Eternal support of the earth",
+      "type": "Cosmic duty"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The supreme Lord, the primordial ancestor (Brahma), brought Garuda, son of Vinata, to be a friend to Ananta.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma",
+        "Garuda",
+        "Shesha (Ananta)"
+      ],
+      "action": "Establishing friendship",
+      "relationships": "Brahma creates friendship between Garuda and Shesha",
+      "type": "Divine arrangement"
+    },
+    "_token_interval": null
+  }
+]

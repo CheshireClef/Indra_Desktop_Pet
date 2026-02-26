@@ -1,0 +1,1458 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Matsya King Virata traveled to Trigarta to retrieve stolen cattle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Matsya King Virata"
+      ],
+      "action": "Travel",
+      "purpose": "Retrieve stolen cattle",
+      "location": "Trigarta"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana and his ministers invaded the Matsya kingdom of Virata.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhishma",
+        "Drona",
+        "Karna",
+        "Kripa",
+        "Ashwatthama",
+        "Shakuni",
+        "Duhshasana",
+        "Vivimshati",
+        "Vikarna",
+        "Chitrasena",
+        "Durmukha",
+        "Durmarshana"
+      ],
+      "action": "Invasion",
+      "target": "Matsya kingdom",
+      "ruler": "Matsya King Virata"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Kaurava army swiftly entered the cattle pens and forcibly stole the herds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kaurava army"
+      ],
+      "action": "Cattle theft",
+      "quantity": "Sixty thousand cows",
+      "method": "Forcible robbery"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Herdsmen were killed during the terrifying robbery, and their cries echoed from the cattle pens.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Herdsmen",
+        "Kaurava warriors"
+      ],
+      "action": "Killing",
+      "victims": "Herdsmen",
+      "atmosphere": "Terror"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The chief cowherd, terrified, mounted a chariot and rushed to the city to report.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Chief cowherd"
+      ],
+      "action": "Reporting",
+      "destination": "City palace",
+      "emotion": "Terror"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The chief cowherd reported the cattle robbery to Prince Uttara, son of Matsya King Virata.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Chief cowherd",
+        "Prince Uttara"
+      ],
+      "action": "Report delivery",
+      "content": "Full account of kingdom's cattle robbery",
+      "relationship": "Subject reporting to prince"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The chief cowherd urged Prince Uttara to pursue the Kauravas and reclaim the cattle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Chief cowherd",
+        "Prince Uttara"
+      ],
+      "action": "Urging/Exhortation",
+      "arguments": [
+        "Protect kingdom's wealth",
+        "Fulfill father's praise",
+        "Gain reputation",
+        "Provide shelter to residents"
+      ],
+      "military_advice": [
+        "Use golden-feathered arrows",
+        "Ride silver-white horses",
+        "Raise golden lion banner",
+        "Defeat Kaurava army"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Prince Uttara expressed willingness to pursue the cattle but stated he needed a skilled charioteer.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Prince Uttara"
+      ],
+      "action": "Conditional acceptance",
+      "condition": "Need for expert charioteer",
+      "reason": "Previous charioteer died in battle 28 days/month ago",
+      "intent": "Immediate departure if condition met"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttara boasts to the women about his plan to defeat the Kuru army and recapture the stolen cattle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttara"
+      ],
+      "action": "Boasting/Declaration",
+      "targets": [
+        "Duryodhana",
+        "Bhishma",
+        "Karna",
+        "Kripa",
+        "Drona",
+        "Ashvatthama"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi, hearing Uttara mention Arjuna (Vibhatsu), can no longer remain silent and approaches Uttara.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "Uttara"
+      ],
+      "action": "Intervention/Revelation",
+      "trigger": "Mention of Arjuna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi tells Uttara about a skilled charioteer named Brihannala, who was Arjuna's charioteer and possesses great archery skills.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "Uttara"
+      ],
+      "action": "Recommendation",
+      "recommendation": "Brihannala should be Uttara's charioteer",
+      "details": "Brihannala is described as Arjuna's former charioteer, skilled in archery and horsemanship, and instrumental in the burning of the Khandava Forest."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttara sends his sister, the princess, to fetch Brihannala from the dance hall.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttara",
+        "Princess (Uttara's sister)"
+      ],
+      "action": "Order/Quest",
+      "target": "Brihannala",
+      "location": "Dance hall"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The princess finds Brihannala (Arjuna in disguise) and pleads with him to become her brother's charioteer to help recapture the cattle from the Kurus.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Princess (Uttara's sister)",
+        "Brihannala (Arjuna)"
+      ],
+      "action": "Plea/Request",
+      "request": "Become Uttara's charioteer",
+      "urgency": "Cattle are being stolen, and the Kurus must be stopped before they escape."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brihannala (Arjuna) agrees to the princess's request and goes to Prince Uttara.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brihannala (Arjuna)",
+        "Princess (Uttara's sister)",
+        "Uttara"
+      ],
+      "action": "Agreement/Departure",
+      "outcome": "Brihannala will serve as charioteer.",
+      "relationship": "Brihannala (Arjuna) is in disguise; his true identity is known to Draupadi but not to Uttara or the princess."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Prince Uttara saw Brihannala and addressed him, referencing Brihannala's past as Arjuna's charioteer and Arjuna's conquests.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttara",
+        "Brihannala (Arjuna in disguise)"
+      ],
+      "action": "Dialogue/Recognition",
+      "relationships": [
+        "Uttara knows Brihannala's reputation as a former charioteer for Arjuna"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttara commanded Brihannala to be his charioteer for battle against the Kauravas to reclaim cattle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttara",
+        "Brihannala (Arjuna in disguise)"
+      ],
+      "action": "Command/Request",
+      "purpose": "Fight Kauravas and reclaim cattle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brihannala expressed inability to be a charioteer, offering skills in singing and dancing instead.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brihannala (Arjuna in disguise)"
+      ],
+      "action": "Objection/Protest",
+      "disguise_maintained": "Arjuna maintains his disguise as Brihannala"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttara insisted Brihannala serve as charioteer while also performing songs and dances.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttara"
+      ],
+      "action": "Insistence/Command",
+      "relationship": [
+        "Uttara is prince commanding a servant"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna (as Brihannala), knowing all, put on armor clumsily in front of Uttara's sister and her friends, who laughed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna (Brihannala)",
+        "Uttara's sister (unnamed)",
+        "Girls"
+      ],
+      "action": "Armor donning",
+      "disguise_behavior": "Arjuna pretends clumsiness to maintain disguise",
+      "supernatural_element": "Arjuna's omniscience mentioned"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttara helped Brihannala put on expensive armor properly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttara",
+        "Brihannala (Arjuna in disguise)"
+      ],
+      "action": "Assistance",
+      "relationship_change": "Uttara assists his charioteer"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttara donned brilliant armor himself, raised his lion banner, prepared his chariot with Brihannala as charioteer, and set out with weapons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttara",
+        "Brihannala (Arjuna in disguise)"
+      ],
+      "action": "Battle preparation",
+      "equipment": [
+        "Armor",
+        "Lion banner",
+        "Bow and arrows",
+        "Chariot"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttara's sister and the girls asked Brihannala to bring back beautiful clothes and doll garments after defeating the Kauravas led by Bhishma and Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttara's sister (unnamed)",
+        "Girls",
+        "Brihannala (Arjuna in disguise)",
+        "Bhishma",
+        "Drona"
+      ],
+      "action": "Request/Promise",
+      "relationship": [
+        "Girls make playful request to servant"
+      ],
+      "enemies_mentioned": [
+        "Kauravas",
+        "Bhishma",
+        "Drona"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna (as Brihannala) laughed and promised in a thunderous voice to bring wonderful clothes if Uttara defeated the great warriors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna (Brihannala)"
+      ],
+      "action": "Promise",
+      "supernatural_element": "Thunderous voice hinting at Arjuna's true identity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna (as Brihannala) drove the chariot toward the Kaurava army with their banners.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna (Brihannala)",
+        "Uttara"
+      ],
+      "action": "Departure to battle",
+      "destination": "Kaurava army"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After leaving the city, Uttara ordered his charioteer (Arjuna) to drive toward the Kauravas to defeat them and reclaim cattle quickly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttara",
+        "Arjuna (Brihannala)"
+      ],
+      "action": "Battle order",
+      "objective": "Defeat Kauravas and reclaim cattle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna drove the gold-adorned horses with wind-like speed as if cutting through the sky.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna (Brihannala)"
+      ],
+      "action": "Chariot driving",
+      "supernatural_element": "Supernatural speed of horses"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttara and Arjuna (as Brihannala) encountered the massive, roaring Kaurava army near a cremation ground.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttara",
+        "Arjuna (Brihannala)",
+        "Kaurava army"
+      ],
+      "action": "Encounter",
+      "setting": "Near cremation ground",
+      "description": "Army like roaring sea, raising dust to sky"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttara sees the vast Kaurava army protected by Karna, Duryodhana, Kripa, and Bhishma, and becomes terrified.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttara",
+        "Karna",
+        "Duryodhana",
+        "Kripa",
+        "Bhishma"
+      ],
+      "action": "Observation and fear reaction",
+      "relationship": "Uttara is the prince of Matsya kingdom facing the Kaurava army"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttara expresses his fear to Arjuna, saying he cannot fight the Kaurava heroes who are protected by Drona, Bhishma, Karna, and others.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttara",
+        "Arjuna",
+        "Drona",
+        "Bhishma",
+        "Karna"
+      ],
+      "action": "Confession of fear",
+      "relationship": "Uttara is speaking to Arjuna (disguised as Brihannala)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttara explains that his father King Virata took all the army to fight the Trigartas, leaving him with an empty kingdom and no army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttara",
+        "Virata"
+      ],
+      "action": "Explanation of circumstances",
+      "relationship": "Uttara is son of King Virata"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna rebukes Uttara for his cowardice, reminding him that he himself asked to be taken to the Kaurava army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Uttara"
+      ],
+      "action": "Rebuke and reminder",
+      "relationship": "Arjuna is disguised as Brihannala, Uttara's charioteer"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna tells Uttara that both would be mocked if they return without recovering the cattle, and that he must fight to uphold his honor.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Uttara"
+      ],
+      "action": "Appeal to honor and duty",
+      "relationship": "Arjuna is trying to motivate the frightened prince"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttara declares he would rather let the Kauravas take Matsya's wealth and be mocked than fight them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttara"
+      ],
+      "action": "Declaration of surrender",
+      "relationship": "Uttara is abandoning his duty as a prince"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttara, overcome with fear, discards his weapons and jumps from the chariot to flee.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttara"
+      ],
+      "action": "Cowardly retreat",
+      "relationship": "Uttara abandons his position as warrior"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna lectures Uttara about Kshatriya dharma, stating that death in battle is preferable to fleeing from fear.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Uttara"
+      ],
+      "action": "Teaching of warrior code",
+      "relationship": "Arjuna is instructing the young prince"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna jumps from the chariot and chases the fleeing Uttara, with his long braid and red garments trailing behind.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Uttara"
+      ],
+      "action": "Pursuit",
+      "relationship": "Arjuna is trying to stop Uttara's retreat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Some soldiers laugh at the sight of Arjuna chasing Uttara, not recognizing him as Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Uttara"
+      ],
+      "action": "Public reaction",
+      "relationship": "Arjuna is still in disguise as Brihannala"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Kaurava warriors see Arjuna running and wonder who he is.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Kaurava warriors"
+      ],
+      "action": "Observation and curiosity",
+      "relationship": "Arjuna's identity is still concealed from the Kauravas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna, disguised as a eunuch, is recognized by the Kaurava warriors despite his disguise.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Kaurava warriors"
+      ],
+      "action": "Recognition/Identification",
+      "details": "The Kaurava warriors observe Arjuna's disguised appearance but note his resemblance to himself and his heroic qualities, comparing him to Indra. They speculate it is Arjuna but cannot be certain due to his attire."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttara, the son of King Virata, flees from the battlefield out of fear.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttara"
+      ],
+      "action": "Flight/Fear",
+      "details": "Uttara, described as young and inexperienced, leaves the city alone and runs away when he sees the enemy banners."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna chases Uttara, catches him by the hair, and brings him back.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Uttara"
+      ],
+      "action": "Pursuit and Capture",
+      "details": "Arjuna pursues Uttara for a hundred steps, grabs his hair, and returns him to the chariot. Uttara, in distress, offers bribes to be released."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna reassures Uttara and proposes to switch roles: Arjuna will fight while Uttara drives the chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Uttara"
+      ],
+      "action": "Role Reversal/Encouragement",
+      "details": "Arjuna comforts the terrified Uttara, telling him not to fear as he is a Kshatriya. Arjuna offers to fight the Kauravas himself to reclaim the cattle, with Uttara serving as his charioteer."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna places the frightened Uttara on the chariot and prepares to advance toward the Kaurava army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Uttara"
+      ],
+      "action": "Preparation for Battle",
+      "details": "Arjuna, with difficulty, gets the panicked Uttara onto the chariot. They head toward the Sami tree, moving toward the Kaurava forces."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Kaurava warriors, led by Bhishma and Drona, become fearful upon seeing Arjuna approaching.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Drona",
+        "Kaurava warriors",
+        "Arjuna"
+      ],
+      "action": "Fear/Apprehension",
+      "details": "Seeing Arjuna in his eunuch disguise with Uttara on the chariot, the Kaurava heroes are filled with terror. They observe ominous signs in the environment, such as rough winds and a dark, ashy sky."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona comments on the ominous atmospheric signs.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Observation of Omens",
+      "details": "Drona notes the harsh, soundless wind and the dark, ash-colored sky as strange and foreboding portents."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ominous signs appear on the battlefield: dark clouds, weapons unsheathing themselves, jackals howling, horses weeping, and flags moving without wind.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Supernatural Omen",
+      "description": "Divine or supernatural signs foretelling battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A warrior arrives on the battlefield, identified as the son of Pritha (Arjuna) wearing eunuch's clothing.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "type": "Character Arrival",
+      "description": "Arjuna arrives in disguise"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna criticizes the speaker for praising Arjuna's virtues and claims that Arjuna is not worth a fraction of himself or Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Arjuna",
+        "Duryodhana"
+      ],
+      "type": "Dialogue/Conflict",
+      "relationships": [
+        "Karna is jealous of Arjuna",
+        "Karna is loyal to Duryodhana"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana states that if the warrior is indeed Arjuna, his purpose is achieved because the Pandavas would have to go into exile for another twelve years if recognized.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Arjuna"
+      ],
+      "type": "Plot Point",
+      "description": "Duryodhana's plan to extend the Pandavas' exile"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana declares that if the warrior is someone else in disguise, he will shoot him down with sharp arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "type": "Threat",
+      "description": "Duryodhana's willingness to fight"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma, Drona, Kripa, and Ashwatthama respect Duryodhana's masculinity after his speech.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhishma",
+        "Drona",
+        "Kripa",
+        "Ashwatthama"
+      ],
+      "type": "Reaction",
+      "relationships": [
+        "Bhishma, Drona, Kripa, and Ashwatthama are Kaurava elders/commanders"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna and Uttarā (Virata's son) arrive at a Sami tree. Arjuna tells Uttarā to fetch the Pandavas' bows stored there because Uttarā's bows cannot withstand Arjuna's strength.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Uttarā"
+      ],
+      "type": "Instruction",
+      "description": "Arjuna prepares for battle by retrieving his divine bow"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna describes the divine Gandiva bow and other weapons of the Pandavas stored in the tree.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "type": "Description",
+      "description": "Divine weapons including Gandiva, associated with Yudhishthira, Bhima, Arjuna, and the twins (Nakula and Sahadeva)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttarā refuses to touch the tree, claiming it has corpses hanging from it and that as a Kshatriya prince, he should not handle such impure things.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttarā"
+      ],
+      "type": "Refusal",
+      "description": "Uttarā's reluctance due to ritual purity concerns"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "巨苇（阿周那）劝说毗罗吒之子优多罗去取弓，承诺保持纯洁并消除他的恐惧。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "优多罗"
+      ],
+      "action": "劝说与鼓励",
+      "relationships": "阿周那（伪装为巨苇）指导优多罗行动"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "优多罗听从阿周那的话，从车上跳下，爬上莎弥树去取弓。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "优多罗"
+      ],
+      "action": "执行任务",
+      "relationships": "优多罗服从阿周那的指令"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "优多罗揭去遮盖物，看到甘狄拨神弓和其他四张弓，这些弓发出神奇光辉。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "优多罗"
+      ],
+      "action": "发现武器",
+      "supernatural_elements": "武器灿若太阳，闪发神奇光辉"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "优多罗看到弓的形状像张口的蛇，感到恐惧，毛发直竖。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "优多罗"
+      ],
+      "action": "情绪反应",
+      "relationships": "优多罗对武器产生敬畏和恐惧"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "优多罗询问阿周那关于各种弓、箭和剑的归属，描述它们的特征。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "优多罗",
+        "阿周那"
+      ],
+      "action": "询问武器信息",
+      "relationships": "优多罗向阿周那寻求解释"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那回答优多罗，确认甘狄拨神弓是他的武器，能毁灭敌军。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "优多罗"
+      ],
+      "action": "揭示武器归属",
+      "relationships": "阿周那向优多罗透露自己的真实身份（通过武器）",
+      "supernatural_elements": "甘狄拨神弓是阿周那的最高级武器"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text describes various divine and legendary weapons owned by different characters, tracing their lineage through gods and heroes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma",
+        "Prajapati",
+        "Indra",
+        "Soma",
+        "Varuna",
+        "Arjuna"
+      ],
+      "type": "Weapon Description/Lineage",
+      "supernatural_elements": "Divine weapons with immense power, worshipped by gods and mortals"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna's bow is described as superior to all weapons, adorned with gold, capable of ensuring kingdom prosperity, and used by Arjuna against gods and mortals in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Weapon possession and use",
+      "relationships": "Arjuna as wielder of divine bow"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The bow's ownership history is detailed: Brahma owned it for 1000 years, Prajapati for 503 years, Indra for 85 years, Soma for 500 years, Varuna for 100 years, and Arjuna for 65 years.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma",
+        "Prajapati",
+        "Indra",
+        "Soma",
+        "Varuna",
+        "Arjuna"
+      ],
+      "action": "Ownership transfer",
+      "relationships": "Lineage of divine weapon ownership"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima's bow is described with golden handle, used to conquer the entire eastern region.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "action": "Conquest using weapon"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira's bow is described as adorned with cochineal, with beautiful handle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Weapon possession"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula's bow is described as adorned with golden sun, shining brightly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula"
+      ],
+      "action": "Weapon possession"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sahadeva's bow is described as adorned with golden moths and various gold.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sahadeva"
+      ],
+      "action": "Weapon possession"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna's arrows are described as sharp as razors, like snake venom, endless in supply, used to kill enemies in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Arrow description and use"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima's arrows are described as long and wide, crescent-shaped, sharpened, capable of killing enemies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "action": "Arrow description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula's arrows are described as golden-feathered, sharpened on stone, with quiver marked with five tigers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula"
+      ],
+      "action": "Arrow description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sahadeva's quiver is described as used to conquer the entire western region in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sahadeva"
+      ],
+      "action": "Conquest using weapon"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sahadeva's arrows are described as made entirely of copper, beautiful and practical.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sahadeva"
+      ],
+      "action": "Arrow description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira's arrows are described as sharpened, with wide and long feathers, golden shafts, three-jointed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Arrow description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna's sword is described as strong, with frog design on back and face, bearing heavy responsibility in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Sword description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima's sword is described as marvelous, with tiger skin sheath, bearing heavy responsibility, frightening enemies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "action": "Sword description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira's sword is described as supreme, with sharp blade, beautiful sheath, golden hilt.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Sword description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula's sword is described as strong, in beautiful five-claw sheath, bearing heavy responsibility.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula"
+      ],
+      "action": "Sword description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sahadeva's sword is described as strong, without stains, in cowhide sheath, bearing all responsibilities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sahadeva"
+      ],
+      "action": "Sword description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text concludes by identifying itself as Chapter 38 of the Virata Parva in the Mahabharata.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Text Identification",
+      "source": "Mahabharata, Virata Parva, Chapter 38"
+    },
+    "_token_interval": null
+  }
+]

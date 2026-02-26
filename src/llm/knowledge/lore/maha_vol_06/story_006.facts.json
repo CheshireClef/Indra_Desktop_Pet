@@ -1,0 +1,351 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Bhishma about kindness, righteousness, and piety.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Dialogue/Question",
+      "relationships": [
+        "Grandson (Yudhishthira) asks grandfather (Bhishma) for wisdom"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma narrates a story about a hunter from Kashi kingdom who goes hunting with poisoned arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Hunter (from Kashi)"
+      ],
+      "type": "Narration/Storytelling",
+      "action": "Hunter leaves village to hunt deer"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The hunter shoots at a deer but misses, hitting a large tree instead with his poisoned arrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hunter (from Kashi)"
+      ],
+      "type": "Accident",
+      "action": "Poisoned arrow strikes tree instead of deer",
+      "consequence": "Tree begins to wither and die"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A parrot living in the tree's hollow refuses to leave despite the tree dying, staying without food or water.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Parrot (granddaughter of Sage Daksha)"
+      ],
+      "type": "Loyalty/Devotion",
+      "action": "Parrot remains with dying tree",
+      "relationships": [
+        "Parrot shows deep attachment to tree where it was born"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra (also called Sakra) observes the parrot's extraordinary behavior and becomes curious.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra"
+      ],
+      "type": "Divine Observation",
+      "action": "Indra notices parrot's unusual kindness and devotion"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra disguises himself as a Brahmin and approaches the parrot to question its behavior.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Parrot (granddaughter of Sage Daksha)"
+      ],
+      "type": "Divine Intervention",
+      "action": "Indra takes human form to investigate",
+      "supernatural_elements": [
+        "God taking human form"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The parrot recognizes Indra through its ascetic powers and greets him respectfully.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Parrot (granddaughter of Sage Daksha)",
+        "Indra"
+      ],
+      "type": "Recognition/Revelation",
+      "action": "Parrot identifies Indra",
+      "supernatural_elements": [
+        "Parrot's ascetic powers allow divine recognition"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra questions why the parrot won't leave the dying tree when better trees are available.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Parrot (granddaughter of Sage Daksha)"
+      ],
+      "type": "Dialogue/Questioning",
+      "action": "Indra asks parrot to explain its loyalty"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The parrot explains it was born in that tree and feels bound by destiny to stay, regardless of the tree's condition.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Parrot (granddaughter of Sage Daksha)",
+        "Indra"
+      ],
+      "type": "Explanation/Philosophical Response",
+      "action": "Parrot explains its devotion based on birth and destiny",
+      "relationships": [
+        "Parrot expresses deep connection to its birthplace"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A parrot explains to Indra (Sakra) why it cannot abandon a tree that protected it in childhood and taught it good virtues.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Parrot",
+        "Indra"
+      ],
+      "action": "Explanation/Appeal",
+      "relationships": [
+        "Parrot expresses loyalty to the tree",
+        "Indra is listening to the parrot's plea"
+      ],
+      "supernatural_elements": [
+        "Indra is referred to as 'Thousand-eyed God' and leader of gods"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The parrot argues that compassion is the mark of righteous people and brings them joy, and that Indra should not make it abandon the tree for personal benefit.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Parrot",
+        "Indra"
+      ],
+      "action": "Moral argument",
+      "relationships": [
+        "Parrot questions Indra's intervention",
+        "Parrot emphasizes duty and compassion"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra is pleased by the parrot's good words and compassion, and offers it a boon.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Parrot"
+      ],
+      "action": "Boon offering",
+      "relationships": [
+        "Indra is moved by parrot's compassion",
+        "Indra rewards the parrot"
+      ],
+      "supernatural_elements": [
+        "Divine boon offering"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The parrot chooses to have the tree live forever out of compassion.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Parrot"
+      ],
+      "action": "Boon selection",
+      "relationships": [
+        "Parrot demonstrates selfless compassion for the tree"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra understands the parrot's deep attachment to the tree and its perfect virtues, and instantly covers the tree with divine nectar (amrita).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra"
+      ],
+      "action": "Divine intervention",
+      "relationships": [
+        "Indra rewards the parrot's loyalty"
+      ],
+      "supernatural_elements": [
+        "Instant transformation with divine nectar",
+        "Tree becomes lush and fruitful"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The tree becomes lush with branches, leaves, and fruits, restored to its original beauty through the parrot's unwavering loyalty.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Tree"
+      ],
+      "action": "Transformation",
+      "relationships": [
+        "Tree benefits from parrot's loyalty"
+      ],
+      "supernatural_elements": [
+        "Miraculous restoration"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After life ends, the compassionate parrot comes to live in the same world as Indra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Parrot",
+        "Indra"
+      ],
+      "action": "Afterlife reward",
+      "relationships": [
+        "Parrot achieves divine companionship"
+      ],
+      "supernatural_elements": [
+        "Afterlife reward in Indra's world"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The narrator concludes that with pious people present, anything can be accomplished, just as the tree gained good fortune through the parrot's presence.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator"
+      ],
+      "action": "Moral conclusion",
+      "relationships": [
+        "General moral about piety and companionship"
+      ]
+    },
+    "_token_interval": null
+  }
+]

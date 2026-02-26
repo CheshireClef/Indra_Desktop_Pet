@@ -1,0 +1,1496 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas, led by Yudhishthira, were hunting in the great forest and killed many animals.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "type": "Hunting Expedition",
+      "action": "Hunting and killing deer, boars, and buffaloes"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira noticed distressed animals fleeing and felt a premonition of danger, deciding to return to their hermitage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "type": "Premonition/Decision",
+      "action": "Ordered return due to ominous signs and personal distress"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "On their return, a jackal howled on their left side, which Yudhishthira interpreted as an evil omen of an attack by the Kauravas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna"
+      ],
+      "type": "Omen",
+      "action": "Interpretation of jackal's howl as a sign of impending conflict"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Upon entering their own forest, they found a weeping girl who was the milk-sister and maid of their wife Draupadi.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Draupadi's maid (milk-sister)"
+      ],
+      "type": "Discovery",
+      "action": "Found distressed maid, indicating something happened to Draupadi"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The charioteer Tishya rushed to the maid and inquired about Draupadi's safety, vowing the Pandavas would protect her.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Tishya",
+        "Draupadi's maid (milk-sister)"
+      ],
+      "type": "Inquiry/Reassurance",
+      "action": "Questioned the maid and promised Draupadi's rescue"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The maid revealed that King Shalya had contemptuously invaded, abducted Draupadi, and urged the Pandavas to pursue immediately.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi's maid (milk-sister)",
+        "King Shalya",
+        "Draupadi",
+        "Pandavas"
+      ],
+      "type": "Revelation/Abduction",
+      "action": "Disclosed Draupadi's abduction by King Shalya, tracks still fresh"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The maid urged the Pandavas to chase King Shalya to prevent Draupadi from being harmed or distressed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi's maid (milk-sister)",
+        "Pandavas",
+        "Draupadi",
+        "King Shalya"
+      ],
+      "type": "Urgent Appeal",
+      "action": "Encouraged immediate pursuit to rescue Draupadi from King Shalya"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi was abducted by King Jayadratha and his army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "King Jayadratha"
+      ],
+      "action": "Abduction",
+      "relationships": [
+        "Draupadi is the wife of the Pandavas",
+        "Jayadratha is the King of Sindhu"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi called out to Bhima for help as she was being taken away.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "Bhima"
+      ],
+      "action": "Call for help",
+      "relationships": [
+        "Draupadi is the wife of Bhima"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira (Dharmaraja) told Draupadi to stop speaking harsh words and warned about kings being deceived by their own strength.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Draupadi"
+      ],
+      "action": "Admonition/Warning",
+      "relationships": [
+        "Yudhishthira is the eldest Pandava and husband of Draupadi"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas (Yudhishthira, Bhima, Arjuna, Nakula, Sahadeva) set out to pursue Jayadratha's army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "action": "Pursuit",
+      "relationships": [
+        "The five Pandava brothers"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas saw the dust raised by the army's horses and spotted Draupadi walking among the infantry, still calling to Bhima.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Draupadi"
+      ],
+      "action": "Discovery",
+      "relationships": [
+        "Pandavas pursuing their abducted wife Draupadi"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas comforted Draupadi and then charged at Jayadratha's army like eagles swooping on prey.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Draupadi"
+      ],
+      "action": "Attack",
+      "relationships": [
+        "Pandavas defending their wife Draupadi"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing Draupadi on Jayadratha's chariot filled the Pandavas with rage, and they roared at Jayadratha, terrifying his forces.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Draupadi",
+        "King Jayadratha"
+      ],
+      "action": "Confrontation",
+      "relationships": [
+        "Pandavas confronting the abductor of their wife"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Jayadratha saw the Pandavas' banners and became disheartened, asking Draupadi to identify which Pandava was on which chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Jayadratha",
+        "Draupadi"
+      ],
+      "action": "Inquiry",
+      "relationships": [
+        "Abductor questioning his captive"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi rebuked Jayadratha for his sinful act and predicted that none of his men would survive the coming battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "King Jayadratha"
+      ],
+      "action": "Rebuke/Prophecy",
+      "relationships": [
+        "Captive defying her abductor"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi described Yudhishthira to Jayadratha - his golden appearance, his banners with drums Nanda and Upananda, and his merciful nature even to enemies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "King Jayadratha",
+        "Yudhishthira"
+      ],
+      "action": "Description",
+      "relationships": [
+        "Draupadi describing her husband to his enemy"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi advised Jayadratha to surrender to Yudhishthira for his own good.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "King Jayadratha",
+        "Yudhishthira"
+      ],
+      "action": "Advice/Warning",
+      "relationships": [
+        "Captive advising her abductor to surrender to her husband"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi began describing Bhima - his powerful arms, his angry expression with bitten lips and furrowed brow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "King Jayadratha",
+        "Bhima"
+      ],
+      "action": "Description",
+      "relationships": [
+        "Draupadi describing another husband to his enemy"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi describes her five husbands: Bhima (Wolf-belly), Arjuna (Winner of Wealth), Nakula (Handsome), and Sahadeva (Skilled).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Yudhishthira"
+      ],
+      "relationships": [
+        "Draupadi is wife to all five Pandavas",
+        "Yudhishthira is eldest brother and teacher to Arjuna",
+        "All Pandavas protect Nakula",
+        "Kunti values Sahadeva above her own life"
+      ],
+      "type": "Character Introduction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi warns the enemy that they will see their army annihilated by the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "Enemy Army"
+      ],
+      "action": "Warning/Threat",
+      "type": "Dialogue"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The five Pandavas, like five Indras, angrily surround and attack the chariot warriors with dense arrow showers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Chariot Warriors"
+      ],
+      "action": "Battle Initiation",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King of Sindhu rallies the kings, shouting 'Hold! Kill! Charge!' as armies face the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King of Sindhu",
+        "Other Kings",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Yudhishthira"
+      ],
+      "action": "Rallying Troops",
+      "type": "Battle Command"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Soldiers from Shibi, Sindhu, and Trikarta countries tremble upon seeing the Pandavas, comparing them to fierce tigers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shibi Soldiers",
+        "Sindhu Soldiers",
+        "Trikarta Soldiers",
+        "Pandavas"
+      ],
+      "action": "Fear Response",
+      "type": "Psychological Warfare"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima wields his iron-studded mace and charges toward the doomed King of Sindhu.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "King of Sindhu"
+      ],
+      "action": "Direct Attack",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kutikashana intervenes between Bhima and the King of Sindhu, surrounding Bhima with a massive army and attacking.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kutikashana",
+        "Bhima",
+        "King of Sindhu"
+      ],
+      "action": "Intervention/Ambush",
+      "type": "Battle Tactics"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kutikashana showers Bhima with spears, javelins, and iron arrows, but Bhima remains unmoved.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kutikashana",
+        "Bhima"
+      ],
+      "action": "Withstanding Attack",
+      "type": "Combat Resilience"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima kills a leading elephant, its mahout, and fourteen infantrymen from the Sindhu army's vanguard with his mace.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Sindhu Army Soldiers"
+      ],
+      "action": "Counterattack/Casualties",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna (son of Pritha) wanted to capture King Shalya and killed five hundred heroic mountain warriors and great warriors at the army's forefront.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "King Shalya"
+      ],
+      "action": "Battle/Attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yudhishthira personally killed one hundred attacking Shalya warriors in an instant.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira"
+      ],
+      "action": "Battle/Killing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula jumped from his chariot with a short sword and quickly decapitated elephant guards.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula"
+      ],
+      "action": "Battle/Attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sahadeva charged at elephant warriors in his chariot, shooting iron arrows that caused them to fall like peacocks from trees.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sahadeva"
+      ],
+      "action": "Battle/Attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Shalya jumped from his chariot and killed Yudhishthira's four horses with a mace.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Shalya",
+        "King Yudhishthira"
+      ],
+      "action": "Battle/Attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira shot a crescent-headed arrow through the chest of an approaching infantryman, who fell dead before him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira"
+      ],
+      "action": "Battle/Killing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After Yudhishthira's horses were killed, he and Shikhandin jumped from their chariot and boarded Sahadeva's chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira",
+        "Shikhandin",
+        "Sahadeva"
+      ],
+      "action": "Battle/Retreat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Chitrasena and Mahamukha aimed at Nakula and showered him with sharp arrows from both sides.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Chitrasena",
+        "Mahamukha",
+        "Nakula"
+      ],
+      "action": "Battle/Attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula shot both Chitrasena and Mahamukha dead with great arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Chitrasena",
+        "Mahamukha"
+      ],
+      "action": "Battle/Killing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Shalya, skilled in elephant warfare, directed his elephant to destroy Nakula's chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Shalya",
+        "Nakula"
+      ],
+      "action": "Battle/Attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula jumped from his chariot, took a high position with shield and short sword, and stood firm like a mountain.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula"
+      ],
+      "action": "Battle/Defense"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya directed his furious elephant to kill Nakula with its trunk.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Shalya",
+        "Nakula"
+      ],
+      "action": "Battle/Attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula cut off the elephant's trunk and tusks with his sword as it approached.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula"
+      ],
+      "action": "Battle/Attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The elephant fell dead, killing its rider, and Nakula boarded Bhima's chariot for protection.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Bhima"
+      ],
+      "action": "Battle/Retreat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Kuntibhoja charged at Bhima in battle, and Bhima killed the king's charioteer with a sharp blade.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Kuntibhoja",
+        "Bhima"
+      ],
+      "action": "Battle/Killing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima pursued and killed King Kuntibhoja with a spear as he fled without his charioteer.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "King Kuntibhoja"
+      ],
+      "action": "Battle/Killing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna cut off the heads and bows of all twelve Shalya princes with sharp crescent-headed arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Battle/Killing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna killed Shibi, Ikshvaku, Trigarta, and Sindhu warriors who entered his range, along with many elephants and flag-bearing warriors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Battle/Killing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The battlefield was covered with headless and bodiless corpses, attracting scavengers to feast on the dead.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Battle Aftermath"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Jayadratha of Sindhu, frightened by the heroes' deaths, released Draupadi and fled into the forest to save his life.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 20,
+    "group_index": 19,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Jayadratha",
+        "Draupadi"
+      ],
+      "action": "Release/Flight"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira saw Draupadi brought by Yuyutsu and had Nakula help her board a chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 21,
+    "group_index": 20,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira",
+        "Draupadi",
+        "Yuyutsu",
+        "Nakula"
+      ],
+      "action": "Rescue/Recovery"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shatrunjaya (Shalya) fled the battlefield, and Bhima (Vrikodara) attacked and killed fleeing soldiers with iron arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shatrunjaya",
+        "Bhima"
+      ],
+      "action": "Fleeing and killing soldiers",
+      "type": "Battle conflict"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna saw Shatrunjaya had fled and stopped Bhima from killing the Sindhu soldiers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Bhima",
+        "Shatrunjaya"
+      ],
+      "action": "Intervention to stop killing",
+      "reason": "Shatrunjaya's fault, not the soldiers'"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna advised Bhima to pursue Shatrunjaya instead of killing soldiers, and Bhima responded by telling Yudhishthira to take Draupadi and return to the hermitage with Nakula, Sahadeva, and Dhaumya.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Bhima",
+        "Yudhishthira",
+        "Draupadi",
+        "Nakula",
+        "Sahadeva",
+        "Dhaumya"
+      ],
+      "action": "Strategy discussion and plan",
+      "relationships": [
+        "Brothers (Pandavas)",
+        "Wife (Draupadi)",
+        "Priest (Dhaumya)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima vowed to kill Shatrunjaya even if he hid underground or had Indra as his charioteer.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Shatrunjaya"
+      ],
+      "action": "Vow of vengeance",
+      "supernatural_elements": "Mention of Indra (divine intervention potential)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira suggested sparing Shatrunjaya out of respect for Dushala and Gandhari, but Draupadi angrily demanded his death for kidnapping her and attacking their kingdom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Draupadi",
+        "Shatrunjaya",
+        "Dushala",
+        "Gandhari"
+      ],
+      "action": "Moral debate and emotional appeal",
+      "relationships": [
+        "Sister-in-law (Dushala)",
+        "Aunt (Gandhari)",
+        "Abductor-victim (Shatrunjaya-Draupadi)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna and Bhima pursued Shatrunjaya while Yudhishthira returned to the hermitage with Draupadi and the priest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Bhima",
+        "Shatrunjaya",
+        "Yudhishthira",
+        "Draupadi"
+      ],
+      "action": "Pursuit and return",
+      "type": "Separation of groups"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira found the hermitage in disarray with scattered items and grieving Brahmins led by Markandeya, who rejoiced upon seeing Draupadi safe.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Markandeya",
+        "Draupadi",
+        "Brahmins"
+      ],
+      "action": "Return and reunion",
+      "emotional_state": "Grief turned to joy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna and Bhima pursued Shatrunjaya, with Arjuna using divine weapons to kill Shatrunjaya's horses from a distance (one krosha away).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Bhima",
+        "Shatrunjaya"
+      ],
+      "action": "Supernatural attack",
+      "supernatural_elements": "Divine weapons, mantras"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shatrunjaya, now horseless and terrified, fled into the forest, pursued by Arjuna and Bhima.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shatrunjaya",
+        "Arjuna",
+        "Bhima"
+      ],
+      "action": "Chase and panic",
+      "state": "Shatrunjaya defenseless"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna taunted Shatrunjaya for his cowardice in fleeing after kidnapping Draupadi and abandoning his followers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Shatrunjaya"
+      ],
+      "action": "Verbal confrontation",
+      "theme": "Honor and responsibility"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Jayadratha refused to return despite Arjuna's words, and Bhima charged at him shouting to stop.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Jayadratha",
+        "Bhima"
+      ],
+      "action": "Confrontation",
+      "relationships": "Arjuna and Bhima are brothers (sons of Kunti/Prita)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Jayadratha, in pain and seeing the brothers armed, fled for his life.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jayadratha",
+        "Arjuna",
+        "Bhima"
+      ],
+      "action": "Flight",
+      "relationships": "Jayadratha is the king of Sindhu"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima jumped from his chariot, caught Jayadratha by the hair, threw him down, and beat him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Jayadratha"
+      ],
+      "action": "Physical assault",
+      "relationships": "Bhima is avenging Draupadi's humiliation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna stopped the enraged Bhima, reminding him of Yudhishthira's command and Dussala's plea.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Bhima",
+        "Yudhishthira",
+        "Dussala"
+      ],
+      "action": "Intervention",
+      "relationships": "Arjuna and Bhima are brothers; Yudhishthira is their elder brother; Dussala is Jayadratha's wife and sister to the Kauravas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima argued that Jayadratha, who tormented the innocent Draupadi, should not live, but yielded to Arjuna's interference.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Jayadratha",
+        "Draupadi",
+        "Arjuna"
+      ],
+      "action": "Moral conflict",
+      "relationships": "Draupadi is the wife of the Pandavas (including Bhima and Arjuna)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima cut Jayadratha's hair into five tufts with a crescent-headed arrow and gave him a choice: declare himself a slave publicly or die.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Jayadratha"
+      ],
+      "action": "Humiliation and ultimatum",
+      "relationships": "Bhima imposes a victor's rule"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Jayadratha agreed, was bound and placed on a chariot, then taken to the hermitage to meet Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jayadratha",
+        "Bhima",
+        "Arjuna",
+        "Yudhishthira"
+      ],
+      "action": "Capture and presentation",
+      "relationships": "Yudhishthira is the eldest Pandava and king"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira smiled and ordered Jayadratha's release, and Bhima asked him to inform Draupadi that Jayadratha was now a slave of the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Jayadratha",
+        "Draupadi"
+      ],
+      "action": "Judgment and communication",
+      "relationships": "Yudhishthira shows mercy; Bhima seeks Draupadi's acknowledgment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira told Bhima to release Jayadratha if he followed their rules, and Draupadi, after looking at Yudhishthira, told Bhima to free the king's slave since his hair was already cut.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Draupadi",
+        "Jayadratha"
+      ],
+      "action": "Release order",
+      "relationships": "Draupadi defers to Yudhishthira's authority"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Jayadratha was freed, bowed to Yudhishthira and the sages, and Yudhishthira admonished him to never repeat such acts, calling him a lustful and vile person.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jayadratha",
+        "Yudhishthira",
+        "Arjuna"
+      ],
+      "action": "Release and admonishment",
+      "relationships": "Yudhishthira acts as a moral authority; Arjuna assisted Jayadratha"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The excellent king of the Bharata dynasty looked upon this evildoer, felt he had lost his vitality, and spoke with compassion.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Shalya"
+      ],
+      "action": "Compassionate speech",
+      "relationships": "King addressing a defeated enemy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira advised Shalya to let his wisdom grow with dharma, not to indulge in adharma, and to return safely with his horses, chariots, and infantry.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Shalya"
+      ],
+      "action": "Moral instruction and dismissal",
+      "relationships": "Righteous king advising defeated warrior"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Shalya heard these words, felt ashamed, hung his head, remained silent, and painfully went to the Ganga gate.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya"
+      ],
+      "action": "Departure in shame",
+      "relationships": "Defeated warrior retreating"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya sought the protection of Uma's husband, the three-eyed god (Shiva), at the Ganga gate and performed severe austerities to please the bull-bannered god.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Shiva"
+      ],
+      "action": "Austerities and divine seeking",
+      "relationships": "Warrior seeking divine boon",
+      "supernatural_elements": "Divine intervention sought"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The three-eyed god (Shiva) was satisfied and personally accepted his offerings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shiva",
+        "Shalya"
+      ],
+      "action": "Divine acceptance of worship",
+      "relationships": "God granting audience",
+      "supernatural_elements": "Divine manifestation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya received the god's favor and requested: 'May I defeat the five Pandava warriors.'",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Shiva"
+      ],
+      "action": "Boon request",
+      "relationships": "Warrior making request to god"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shiva replied: 'No! They are invincible and cannot be killed. You can only withstand them in battle, except for the great-armed Arjuna, whom even gods find hard to withstand.'",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shiva",
+        "Shalya"
+      ],
+      "action": "Divine prophecy/limitation",
+      "relationships": "God setting boundaries on boon",
+      "supernatural_elements": "Divine knowledge of fate"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shiva described Arjuna as holding conch, discus, and mace, called 'the invincible god,' highly skilled, and protected by Krishna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shiva",
+        "Arjuna",
+        "Krishna"
+      ],
+      "action": "Character description",
+      "relationships": "God describing warrior's divine protection",
+      "supernatural_elements": "Divine attributes and protection"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After hearing these words, King Shalya returned to his residence, while the Pandava brothers continued living in the Kamyaka forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Pandavas (Yudhishthira, Bhima, Arjuna, Nakula, Sahadeva)"
+      ],
+      "action": "Return and continued exile",
+      "relationships": "Enemies in separate locations during exile period"
+    },
+    "_token_interval": null
+  }
+]

@@ -1,0 +1,1486 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yudhishthira, also known as Dharmaraja, continues to question Bhishma, the son of King Shantanu, seeking more detailed explanations about the donation of cows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Dialogue/Questioning",
+      "relationships": "King Yudhishthira is the student/disciple, Bhishma is the teacher/elder"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma explains the merits and demerits of donating different types of cows to Brahmins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Teaching/Explanation",
+      "details": "Describes qualities of cows suitable for donation (young, healthy, gentle) versus unsuitable ones (weak, sick, unproductive), and their karmic consequences"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yudhishthira asks why the donation of Kapila cows is particularly praised among all donations.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira"
+      ],
+      "type": "Question",
+      "focus": "Special status of Kapila cow donations"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma recounts a creation story involving Brahma and Daksha to explain the importance of cows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Brahma",
+        "Daksha"
+      ],
+      "type": "Mythological Explanation",
+      "narrative_flow": "Bhishma shares knowledge passed down from elders",
+      "divine_elements": "Involves creator gods Brahma and Daksha"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahma commands Daksha to create beings, and Daksha first creates sustenance for them before creating the beings themselves.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma",
+        "Daksha"
+      ],
+      "action": "Divine Creation",
+      "relationships": "Brahma (supreme creator) commands Daksha (creator deity)",
+      "supernatural_elements": "Cosmic creation process"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Daksha creates cows as essential for sacrifices, which are necessary for obtaining Soma and pleasing the gods.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Daksha"
+      ],
+      "action": "Creation of Cows",
+      "significance": "Cows are fundamental to the cosmic order - connected to sacrifices, Soma, and divine favor",
+      "hierarchy_established": "Gods > Animals > Humans > Brahmins, with cows being essential for rituals"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "众生刚刚创造出来，就喊着叫着要吃的。众生前去向食物提供者(陀刹)请求，就像孩子去找他们的母亲一样。",
+    "char_interval": {
+      "start_pos": 988,
+      "end_pos": 1037
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "众生",
+        "生主陀刹"
+      ],
+      "action": "请求食物",
+      "relationship": "众生依赖生主陀刹获取食物"
+    },
+    "_token_interval": {
+      "start_index": 233,
+      "end_index": 245
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "生主陀刹明白众生是受什么想法驱使而来的，为了使他们获得满足，他自己先饮了能够强身增力的甘露。",
+    "char_interval": {
+      "start_pos": 1041,
+      "end_pos": 1087
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "生主陀刹"
+      ],
+      "action": "饮用甘露",
+      "purpose": "为众生获取食物"
+    },
+    "_token_interval": {
+      "start_index": 248,
+      "end_index": 254
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "饮后他感觉非常愉快，一个嗝上来，他吐出了什么东西，散发着一股香气。他发现自己的呕吐物竟是一头母牛，遂称它为口生子苏罗毗。",
+    "char_interval": {
+      "start_pos": 1091,
+      "end_pos": 1150
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "生主陀刹",
+        "苏罗毗"
+      ],
+      "action": "吐出母牛苏罗毗",
+      "supernatural_element": "从呕吐物中诞生神牛",
+      "relationship": "生主陀刹创造了苏罗毗"
+    },
+    "_token_interval": {
+      "start_index": 257,
+      "end_index": 268
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "苏罗毗又生了许多女儿。这些母牛女儿被称作世界之母。它们身色金黄，人称迦比罗。它们是众生的供食母牛。",
+    "char_interval": {
+      "start_pos": 1162,
+      "end_pos": 1211
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "苏罗毗",
+        "迦比罗牛"
+      ],
+      "action": "繁殖后代",
+      "relationship": "苏罗毗是迦比罗牛的母亲",
+      "role": "迦比罗牛成为众生的食物来源"
+    },
+    "_token_interval": {
+      "start_index": 275,
+      "end_index": 285
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "这些看上去同甘露一样颜色的母牛喷射出乳汁。大量的乳汁向四面八方流去，汇成河流。河中波浪滚滚，出现许多泡沫，由甘露产生的泡沫。",
+    "char_interval": {
+      "start_pos": 1215,
+      "end_pos": 1277
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦比罗牛"
+      ],
+      "action": "产生乳汁河流",
+      "supernatural_element": "乳汁形成河流，泡沫含甘露"
+    },
+    "_token_interval": {
+      "start_index": 288,
+      "end_index": 300
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "牛犊们吮吸着乳汁。有些乳汁从它们的口角淌了出来，正好流到跋婆(湿婆)的头上。这一下惹怒了正在大地上休息的大神。",
+    "char_interval": {
+      "start_pos": 1281,
+      "end_pos": 1336
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "牛犊",
+        "湿婆"
+      ],
+      "action": "乳汁滴落湿婆头上",
+      "conflict": "湿婆被激怒"
+    },
+    "_token_interval": {
+      "start_index": 303,
+      "end_index": 315
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "威力无穷的大神抬起头来，向上看去。长在他额头中间的眼睛眼看就要把这些棕红色的楼昔尼烧毁。",
+    "char_interval": {
+      "start_pos": 1336,
+      "end_pos": 1353
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "湿婆",
+        "楼昔尼"
+      ],
+      "action": "湿婆准备用第三只眼烧毁楼昔尼",
+      "supernatural_element": "湿婆的第三只眼具有毁灭力量"
+    },
+    "_token_interval": {
+      "start_index": 315,
+      "end_index": 319
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "人民之主啊，发自大神眼中的强大能量犹如穿过云团的太阳，把那些迦比罗牛变成了种种不同的颜色。",
+    "char_interval": {
+      "start_pos": 1391,
+      "end_pos": 1436
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "湿婆",
+        "迦比罗牛"
+      ],
+      "action": "湿婆的能量改变了牛的颜色",
+      "result": "迦比罗牛从单一金色变成多种颜色"
+    },
+    "_token_interval": {
+      "start_index": 328,
+      "end_index": 334
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "不过，还是有一些牛逃过神眼，躲到了月神那里。结果它们成功地保住了原本生就的颜色，没有改变。",
+    "char_interval": {
+      "start_pos": 1440,
+      "end_pos": 1485
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "部分迦比罗牛",
+        "月神"
+      ],
+      "action": "逃到月神处躲避",
+      "result": "保留了原始金色"
+    },
+    "_token_interval": {
+      "start_index": 337,
+      "end_index": 347
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "见湿婆动了神怒，生主陀刹便对他说道：“洒在你身上的不是别的，而是甘露。那些从牛口中流出的东西不能认为是不洁的。",
+    "char_interval": {
+      "start_pos": 1489,
+      "end_pos": 1544
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "生主陀刹",
+        "湿婆"
+      ],
+      "action": "解释和安抚",
+      "relationship": "生主陀刹调解冲突",
+      "explanation": "乳汁是甘露，并非不洁"
+    },
+    "_token_interval": {
+      "start_index": 350,
+      "end_index": 361
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "月亮吸足了甘露，然后又泻下纯洁的清光。同样，楼昔尼生自甘露，它们流出的奶汁也不能认为是不洁的。",
+    "char_interval": {
+      "start_pos": 1548,
+      "end_pos": 1595
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "生主陀刹"
+      ],
+      "argument": "用月亮类比证明乳汁的纯洁性"
+    },
+    "_token_interval": {
+      "start_index": 364,
+      "end_index": 374
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "没有不洁的风。没有不洁的火。没有不洁的金。没有不洁的海。被神饮过的甘露不是不洁的。同样，被犊子吮吸过的牛奶也不是不洁的。",
+    "char_interval": {
+      "start_pos": 1599,
+      "end_pos": 1659
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "生主陀刹"
+      ],
+      "argument": "列举纯洁的事物来证明牛奶的纯洁"
+    },
+    "_token_interval": {
+      "start_index": 377,
+      "end_index": 391
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "这些母牛将会用自己的奶水和供品来支撑所有的世界。而你也将享有那全部来自甘露的吉祥胜境。”",
+    "char_interval": {
+      "start_pos": 1685,
+      "end_pos": 1714
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "生主陀刹",
+        "湿婆"
+      ],
+      "promise": "母牛将支撑世界，湿婆将获得吉祥"
+    },
+    "_token_interval": {
+      "start_index": 398,
+      "end_index": 403
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "说毕，生主陀刹把一头公牛和若干母牛赠给了大神。婆罗多后裔啊，生主的话和他的礼物使楼陀罗(湿婆)从心里感到高兴。",
+    "char_interval": {
+      "start_pos": 1718,
+      "end_pos": 1773
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "生主陀刹",
+        "湿婆"
+      ],
+      "action": "赠送牛群",
+      "result": "湿婆感到高兴",
+      "relationship_change": "冲突化解，建立赠予关系"
+    },
+    "_token_interval": {
+      "start_index": 406,
+      "end_index": 418
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "高兴之余，他决定把公牛当成他的坐骑和旗帜上的图案。从此，湿婆大神便得了一个绰号“以公牛为旗徽者”。",
+    "char_interval": {
+      "start_pos": 1777,
+      "end_pos": 1826
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "湿婆"
+      ],
+      "action": "将公牛作为坐骑和标志",
+      "result": "获得新称号"
+    },
+    "_token_interval": {
+      "start_index": 421,
+      "end_index": 432
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "出于同一原因，众神也一致把他奉为“兽主”。大神成了牛群的主人。人们称他“以公牛为标志者”。",
+    "char_interval": {
+      "start_pos": 1830,
+      "end_pos": 1875
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "湿婆",
+        "众神"
+      ],
+      "action": "众神尊奉湿婆为兽主",
+      "result": "湿婆成为牛群主人，获得更多称号"
+    },
+    "_token_interval": {
+      "start_index": 435,
+      "end_index": 449
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "总之，迦比罗母牛成了施舍之物中的无上之选。它有着巨大的精力，有着独特而不易混淆的毛色。",
+    "char_interval": {
+      "start_pos": 1879,
+      "end_pos": 1922
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦比罗牛"
+      ],
+      "significance": "成为最佳施舍物，具有特殊价值"
+    },
+    "_token_interval": {
+      "start_index": 452,
+      "end_index": 460
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "母牛是世上无与伦比之物，是全世界食物的供给者。它们以楼陀罗为首领。它们生自流出的甘露。它们是幸运。它们是吉祥。",
+    "char_interval": {
+      "start_pos": 1926,
+      "end_pos": 1981
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "母牛",
+        "湿婆"
+      ],
+      "conclusion": "总结母牛的神圣地位和湿婆的领导关系",
+      "attributes": [
+        "食物供给者",
+        "甘露所生",
+        "象征幸运吉祥"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 463,
+      "end_index": 475
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yudhishthira, after hearing his grandfather's words, calmed down and donated cows and golden milk buckets to the best of Brahmins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira"
+      ],
+      "action": "Donation to Brahmins",
+      "context": "Following advice from his grandfather"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yudhishthira performed many sacrifices and donated hundreds of thousands of cows to Brahmins as payment for presiding over the sacrifices.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira"
+      ],
+      "action": "Sacrifices and donations",
+      "purpose": "To attain happiness in the afterlife and win fame"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Mandhata, son of Manu, approached Sage Vasistha with reverence and asked him a question.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Mandhata",
+        "Sage Vasistha"
+      ],
+      "action": "Question and answer session",
+      "relationship": "King seeking wisdom from sage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Vasistha explained the mysteries and virtues of cows to King Mandhata.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Vasistha",
+        "King Mandhata"
+      ],
+      "action": "Teaching about cows",
+      "content": "Cows are fragrant, provide shelter, bring blessings, are the foundation of mantras and sacrifices, and donating cows removes sins and brings prosperity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person who donates a gentle Kapila cow with its calf and milking copper pot, and wraps the cow's body with cloth, can conquer both worlds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Generic Person"
+      ],
+      "action": "Donation of Kapila cow",
+      "supernatural_element": "Ability to conquer both worlds"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person who donates a strong, agile, well-decorated bull to a Veda-knowing Brahmin leader will be born in beautiful, prosperous lands repeatedly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Generic Person"
+      ],
+      "action": "Donation of bull to Brahmin leader",
+      "supernatural_element": "Repeated rebirth in prosperous lands"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person who recites cow names at night before sleeping and in morning upon waking, and respectfully salutes cows morning and evening, will prosper.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Generic Person"
+      ],
+      "action": "Daily cow veneration rituals",
+      "supernatural_element": "Prosperity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person who shows no disgust toward cow dung or urine and never eats beef will obtain happiness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Generic Person"
+      ],
+      "action": "Respect for cow products and avoidance of beef",
+      "supernatural_element": "Happiness"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person should frequently chant cow names and never show disrespect; upon waking from bad dreams, should chant cow names.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Generic Person"
+      ],
+      "action": "Chanting cow names for protection",
+      "supernatural_element": "Protection from bad dreams"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "During bathing, one should use cow dung; while sitting, sit on dry cow dung; never defile cow dung with human waste; never block a cow's path.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Generic Person"
+      ],
+      "action": "Ritual use of cow dung and respect for cows",
+      "supernatural_element": "Ritual purification practices"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "While eating, one should sit on moist cowhide, face west, remain silent, and eat ghee placed on the ground to obtain happiness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Generic Person"
+      ],
+      "action": "Ritual eating practices",
+      "supernatural_element": "Happiness"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "One should offer pure ghee into sacrificial fire, use it as payment to Brahmins for blessings, give it as charity, and consume it to obtain happiness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Generic Person"
+      ],
+      "action": "Ritual use of ghee",
+      "supernatural_element": "Happiness"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person who recites the Vedic hymn 'Gomati', makes a sesame cow decorated with gems, and donates it will never feel regret or remorse.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Generic Person"
+      ],
+      "action": "Creation and donation of symbolic cow",
+      "supernatural_element": "Freedom from regret"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Recitation of specific verses about cows provides liberation from great fear during day or night, on smooth or rough paths.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Generic Person"
+      ],
+      "action": "Recitation of protective verses",
+      "supernatural_element": "Protection from fear"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Vasistha recounts that after creation, cows performed hundreds of thousands of years of severe penance to attain supreme status.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Vasistha",
+        "Cows"
+      ],
+      "action": "Cows performing penance",
+      "relationship": "Sage Vasistha narrating cow mythology"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Cows declared they would become the most valuable reward given to Brahmins after sacrifices and would avoid any faults.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Cows"
+      ],
+      "action": "Cows declaring their divine purpose",
+      "supernatural_element": "Cows as conscious, speaking beings with divine purpose"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahma grants the cows a boon at the end of their austerities, stating their wishes will be fulfilled and they will save the world.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahma",
+        "Cows"
+      ],
+      "action": "Granting boon",
+      "supernatural_elements": [
+        "Divine boon"
+      ],
+      "relationships": [
+        "Brahma as benefactor to cows"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After austerities, the cows stand up, their wishes fulfilled, and become the ultimate refuge of the world.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Cows"
+      ],
+      "action": "Fulfillment of austerities",
+      "supernatural_elements": [
+        "Transformation into world's refuge"
+      ],
+      "relationships": [
+        "Cows as saviors of the world"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Donating a Kapila cow with calf and cloth leads to high honor in Brahma's world.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Donor",
+        "Kapila cow"
+      ],
+      "action": "Charitable donation",
+      "supernatural_elements": [
+        "Reward in Brahma's world"
+      ],
+      "relationships": [
+        "Donor gains divine reward"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Donating a Rauhini cow with calf and cloth leads to high honor in Surya's world.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Donor",
+        "Rauhini cow"
+      ],
+      "action": "Charitable donation",
+      "supernatural_elements": [
+        "Reward in Surya's world"
+      ],
+      "relationships": [
+        "Donor gains divine reward"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Donating a Shabala cow with calf and cloth leads to high honor in Chandra's world.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Donor",
+        "Shabala cow"
+      ],
+      "action": "Charitable donation",
+      "supernatural_elements": [
+        "Reward in Chandra's world"
+      ],
+      "relationships": [
+        "Donor gains divine reward"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Donating a white cow with calf and cloth leads to high honor in Indra's world.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Donor",
+        "White cow"
+      ],
+      "action": "Charitable donation",
+      "supernatural_elements": [
+        "Reward in Indra's world"
+      ],
+      "relationships": [
+        "Donor gains divine reward"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Donating a black cow with calf and cloth leads to high honor in Agni's world.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Donor",
+        "Black cow"
+      ],
+      "action": "Charitable donation",
+      "supernatural_elements": [
+        "Reward in Agni's world"
+      ],
+      "relationships": [
+        "Donor gains divine reward"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Donating a smoky-colored cow with calf and cloth leads to high honor in Yama's world.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Donor",
+        "Smoky-colored cow"
+      ],
+      "action": "Charitable donation",
+      "supernatural_elements": [
+        "Reward in Yama's world"
+      ],
+      "relationships": [
+        "Donor gains divine reward"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Donating a foam-colored cow with calf and copper vessel leads to happiness in Varuna's world.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Donor",
+        "Foam-colored cow"
+      ],
+      "action": "Charitable donation",
+      "supernatural_elements": [
+        "Reward in Varuna's world"
+      ],
+      "relationships": [
+        "Donor gains divine reward"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Donating a dust-colored cow with calf and copper vessel leads to high honor in Vayu's world.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Donor",
+        "Dust-colored cow"
+      ],
+      "action": "Charitable donation",
+      "supernatural_elements": [
+        "Reward in Vayu's world"
+      ],
+      "relationships": [
+        "Donor gains divine reward"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Donating a golden-furred, brown-eyed cow with calf and copper vessel leads to happiness in Kubera's world.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Donor",
+        "Golden-furred cow"
+      ],
+      "action": "Charitable donation",
+      "supernatural_elements": [
+        "Reward in Kubera's world"
+      ],
+      "relationships": [
+        "Donor gains divine reward"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Donating a burnt-grass-colored cow with calf and copper vessel leads to high honor in the world of ancestors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Donor",
+        "Burnt-grass-colored cow"
+      ],
+      "action": "Charitable donation",
+      "supernatural_elements": [
+        "Reward in ancestral world"
+      ],
+      "relationships": [
+        "Donor gains ancestral reward"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Donating a white-necked fat cow with calf leads to smooth attainment of happiness in Vishvedeva world.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Donor",
+        "White-necked cow"
+      ],
+      "action": "Charitable donation",
+      "supernatural_elements": [
+        "Reward in Vishvedeva world"
+      ],
+      "relationships": [
+        "Donor gains divine reward"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text describes various rewards for donating different types of cows in Hindu religious practice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Donor (generic)"
+      ],
+      "type": "Religious instruction",
+      "action": "Describing spiritual rewards for cow donations"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Donating a gentle, milk-rich mother water buffalo with a similar calf and wrapped in cloth grants the donor happiness in the world of the Vasu gods.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Donor (generic)"
+      ],
+      "type": "Spiritual reward",
+      "destination": "World of Vasu gods"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Donating a cow with fur like a white blanket, with calf and copper milking vessel, wrapped in cloth, grants the donor access to the world of Satya gods.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Donor (generic)"
+      ],
+      "type": "Spiritual reward",
+      "destination": "World of Satya gods"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Donating a humpbacked bull from Virata region decorated with jewels grants the donor access to the immortal world of the Storm God.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Donor (generic)"
+      ],
+      "type": "Spiritual reward",
+      "destination": "Immortal world of Storm God"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Donating a black cow with calf decorated with jewels grants the donor access to the beautiful world of Gandharvas and Apsaras.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Donor (generic)"
+      ],
+      "type": "Spiritual reward",
+      "destination": "World of Gandharvas and Apsaras"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Donating a white-necked bull decorated with jewels grants the donor safety in this life and access to various worlds ruled by Prajapati in the next.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Donor (generic)"
+      ],
+      "type": "Spiritual reward",
+      "benefits": [
+        "Safety in current life",
+        "Access to Prajapati's worlds"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Those who delight in donating cows can ride sun-like celestial chariots through clouds to heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Donor (generic)"
+      ],
+      "type": "Spiritual reward",
+      "transport": "Celestial chariot",
+      "destination": "Heaven"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In heaven, donors are welcomed by thousands of beautiful women and enjoy music, dance, and laughter of celestial maidens.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Donor (generic)",
+        "Celestial maidens"
+      ],
+      "type": "Heavenly enjoyment",
+      "activities": [
+        "Music",
+        "Dance",
+        "Entertainment"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The donor enjoys years of respect in heaven equal to the number of hairs on the donated cow, then is reborn in a cow-owning family on Earth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Donor (generic)"
+      ],
+      "type": "Rebirth cycle",
+      "measure": "Years equal to cow's hairs",
+      "rebirth": "Cow-owning family"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Vasistha praises cows as sources of milk and ghee, stating they exist in all directions around him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Vasistha"
+      ],
+      "type": "Praise/Instruction",
+      "subject": "Importance of cows",
+      "action": "Reciting verses about cows"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Reciting Vasistha's verses morning and evening after rinsing mouth can cleanse one of sins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Practitioner (generic)"
+      ],
+      "type": "Ritual purification",
+      "action": "Reciting verses",
+      "benefit": "Cleansing sins"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Donating 1,000 cows grants access to the world of Gandharvas and Apsaras with golden palaces and gentle rivers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Donor (generic)"
+      ],
+      "type": "Spiritual reward",
+      "scale": "Large donation",
+      "destination": "World of Gandharvas and Apsaras"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Donating 1,000 cows grants access to a world where rivers flow with milk, mud is ghee, and moss is cheese.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Donor (generic)"
+      ],
+      "type": "Spiritual reward",
+      "description": "Dairy paradise world"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Donating 100,000 cows according to proper rules grants supreme blessings and high respect in the cow realm.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Donor (generic)"
+      ],
+      "type": "Spiritual reward",
+      "scale": "Massive donation",
+      "benefits": [
+        "Supreme blessings",
+        "High respect in cow realm"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text describes the supreme benefits of donating cows in Hindu tradition.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Religious Teaching/Exposition",
+      "supernatural_elements": [
+        "Ability to save ancestors for ten generations",
+        "Purification of entire family",
+        "Protection from suffering in Yama's world",
+        "Ability to cross difficult obstacles into Yama's court"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text lists specific types of cow donations and their benefits.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Description of rituals",
+      "details": [
+        "Donating cows made of water",
+        "Donating cows made of sesame",
+        "Donating a Kapila cow with calf and milking vessel"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text praises cows as supreme beings in creation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Philosophical Exposition",
+      "details": [
+        "Cows are the highest purifier",
+        "Cows are the mother of gods' abodes",
+        "Cows are immeasurable",
+        "Cows have cosmic form",
+        "Cows are mother of all beings",
+        "Cows enable sacrifices through their products"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma narrates that the World Protector (Son of Manu) heard these words from Sage Vasistha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "World Protector (Son of Manu)",
+        "Sage Vasistha"
+      ],
+      "action": "Narration frame",
+      "relationships": [
+        "Bhishma is the narrator",
+        "Sage Vasistha is the original speaker",
+        "World Protector is the listener"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The World Protector, impressed by Sage Vasistha's teachings, restrained himself and donated many cows to Brahmins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "World Protector (Son of Manu)",
+        "Sage Vasistha"
+      ],
+      "action": "Donation/Religious act",
+      "result": "The World Protector later went to the auspicious world"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "This concludes Chapter 79 of the Anushasana Parva in the Mahabharata.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Textual conclusion",
+      "source": "Mahabharata, Anushasana Parva, Chapter 79"
+    },
+    "_token_interval": null
+  }
+]

@@ -1,0 +1,1446 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra asked Sanjaya about the battle and then fainted from grief, feeling hopeless about his sons' victory.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Sanjaya"
+      ],
+      "action": "Questioning and fainting",
+      "emotional_state": "Grief, hopelessness"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra fell unconscious, and servants and Bharata women attended to him by fanning him and sprinkling him with scented water.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Servants",
+        "Bharata women"
+      ],
+      "action": "Care and revival",
+      "type": "Medical attention"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The women helped Dhritarashtra regain consciousness and sit on a chair, then he continued questioning Sanjaya about the battle details.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Bharata women",
+        "Sanjaya"
+      ],
+      "action": "Recovery and continued inquiry",
+      "type": "Dialogue resumption"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra asked who protected Drona when Yudhishthira attacked, describing Yudhishthira as invincible like the sun and an elephant.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Sanjaya",
+        "Yudhishthira",
+        "Drona"
+      ],
+      "action": "Battle inquiry",
+      "focus": "Yudhishthira's prowess and Drona's protection"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra inquired which heroes intercepted Bhima when he fiercely charged at Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Sanjaya",
+        "Bhima",
+        "Drona"
+      ],
+      "action": "Battle inquiry",
+      "focus": "Bhima's attack on Drona"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra described Arjuna's terrifying assault on the battlefield, comparing him to a storm cloud with Indra's power, and asked how the army withstood him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Sanjaya",
+        "Arjuna",
+        "Duryodhana"
+      ],
+      "action": "Battle inquiry",
+      "focus": "Arjuna's destructive capabilities and army's response",
+      "supernatural_elements": "Divine comparisons (Indra)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra questioned who remained loyal to Drona without fleeing in fear when the army was terrified and scattered by Arjuna's attack.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Sanjaya",
+        "Arjuna",
+        "Drona"
+      ],
+      "action": "Loyalty inquiry",
+      "focus": "Army morale and desertion"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Warriors bravely face death and charge against Arjuna (also called Shikhandin or Vijaya) who can defeat gods and demons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Battle charge",
+      "supernatural_elements": "Arjuna described as capable of defeating gods and demons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The army cannot withstand Arjuna's attack or the roar of his Gandiva bow which sounds like thunder.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Archery attack",
+      "supernatural_elements": "Gandiva bow's supernatural roar"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna's chariot with Krishna as charioteer is described as invincible, even against gods and asuras.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna"
+      ],
+      "relationship": "Krishna serves as Arjuna's charioteer",
+      "supernatural_elements": "Chariot described as unbeatable by gods"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula, son of Pandu, is described as handsome, intelligent, brave, and his war cry terrifies the Kuru clan.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula"
+      ],
+      "relationship": "Son of Pandu",
+      "action": "Battle charge"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sahadeva charges into battle like an angry snake, is described as invincible, and attacks Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sahadeva",
+        "Drona"
+      ],
+      "action": "Battle charge against Drona",
+      "supernatural_elements": "Compared to angry snake"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki (also called Yuyudhana) defeated King Shalya's army and married the beautiful Bhoja princess.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Shalya"
+      ],
+      "action": "Military victory and marriage",
+      "relationship": "Satyaki married Bhoja princess"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki is described as truthful, brave, celibate, strong, and comparable to Krishna in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Krishna"
+      ],
+      "relationship": "Satyaki compared to Krishna",
+      "supernatural_elements": "Divine qualities attributed to Satyaki"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki serves Arjuna with respect and has comparable skills, charging to protect Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Arjuna",
+        "Drona"
+      ],
+      "relationship": "Satyaki serves Arjuna",
+      "action": "Battle charge to protect Drona"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttamaujas of Panchala, beloved by nobles, fights for Arjuna against the speaker, with power like various gods.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttamaujas",
+        "Arjuna"
+      ],
+      "relationship": "Uttamaujas fights for Arjuna",
+      "supernatural_elements": "Compared to Yama, Kubera, Surya, Indra, Varuna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhrishtaketu of Chedi abandons his clan to join Pandavas and charges in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtaketu"
+      ],
+      "relationship": "Switches allegiance to Pandavas",
+      "action": "Battle charge"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kuntibhoja killed Prince Subahu who was hiding in western mountain passes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kuntibhoja",
+        "Subahu"
+      ],
+      "action": "Killing",
+      "location": "Western mountain passes"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandin, born female in previous life as daughter of King Drupada, killed Bhishma in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Bhishma",
+        "Drupada"
+      ],
+      "relationship": "Shikhandin is Drupada's child",
+      "action": "Killed Bhishma",
+      "supernatural_elements": "Previous life as female"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Abhimanyu possesses all virtues, surpasses even Arjuna, always armed, truthful and celibate.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Abhimanyu",
+        "Arjuna"
+      ],
+      "relationship": "Abhimanyu compared favorably to Arjuna",
+      "supernatural_elements": "Possesses all virtues"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "激昂冲向德罗纳，他的勇气可与黑天相比，力量可与阿周那媲美，光辉如同太阳，智慧如同毗诃波提，灵魂伟大如同死神。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "激昂",
+        "德罗纳"
+      ],
+      "action": "冲向",
+      "description": "激昂被描述为具有非凡品质的英雄，冲向德罗纳时引发疑问哪些英雄阻截他。"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑公主的五子（般度五子）冲向德罗纳，犹如河流涌向大海。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑公主的五子（般度五子）",
+        "德罗纳"
+      ],
+      "action": "冲向",
+      "description": "这些英雄放弃了十二年的嬉戏，恪守誓言学习武艺侍奉毗湿摩，冲向德罗纳时引发疑问哪些英雄阻截他们。"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "猛光的几个儿子（国武、武天、武法、高慢）冲向德罗纳。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "国武",
+        "武天",
+        "武法",
+        "高慢",
+        "德罗纳"
+      ],
+      "action": "冲向",
+      "description": "这些英雄冲向德罗纳时引发疑问哪些英雄阻截他们保护德罗纳。"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "显光冲向德罗纳，在苾湿尼族人看来能以一当百。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "显光",
+        "德罗纳"
+      ],
+      "action": "冲向",
+      "description": "大弓箭手显光冲向德罗纳时引发疑问是谁阻截他保护德罗纳。"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "晚福冲向德罗纳，他曾夺走新娘，斗志高昂勇不可挡。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "晚福",
+        "德罗纳"
+      ],
+      "action": "冲向",
+      "description": "羯陵伽人晚福冲向德罗纳时引发疑问是谁阻截他保护德罗纳。"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "羯迦夜族五兄弟冲向德罗纳要杀死他，他们是般度族母系的表兄弟。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "羯迦夜族五兄弟",
+        "德罗纳"
+      ],
+      "action": "冲向",
+      "description": "这些英雄遵行正法，真正英勇，脸色红似胭脂虫，身着红铠甲手持红武器竖红旗，冲向德罗纳时引发疑问哪些英雄围截他们。"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "尚武冲向德罗纳，他是卓越的弓箭手大力士信守誓言，曾在多象城与许多愤怒的国王交战六月之久不能取胜。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "尚武",
+        "德罗纳"
+      ],
+      "action": "冲向",
+      "description": "战争之主尚武冲向德罗纳时引发疑问是谁阻截这位人中之虎保护德罗纳，他曾用月牙箭将迦尸王子从战车上射落。"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "猛光冲向德罗纳，他是普利塔之子们的军师专与难敌作对为杀死德罗纳而生。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "猛光",
+        "德罗纳"
+      ],
+      "action": "冲向",
+      "description": "大弓箭手猛光冲向德罗纳时引发疑问哪些英雄阻截他，他在战场上能杀光所有武士将他们活活刺穿。"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "武天冲向德罗纳，他就像是在木柱王的怀抱中长大诸般武艺样样精通。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "武天",
+        "德罗纳"
+      ],
+      "action": "冲向",
+      "description": "束发之子武天冲向德罗纳时引发疑问是谁阻截他保护德罗纳。"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "优湿那罗王子（尸毗王）冲向德罗纳如同张开大口的死神，他曾完成十次马祭施舍无数奶牛被天神称赞前无古人后无来者。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "优湿那罗王子（尸毗王）",
+        "德罗纳"
+      ],
+      "action": "冲向",
+      "description": "优湿那罗王子冲向德罗纳时引发疑问是谁阻截他，他曾以美味肴馔丰厚酬礼完成十次马祭，臣民享用他的布施犹如享用恒河水，天神称赞他的业绩绝非凡人可为。"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Virata of Matsya attempted to approach Drona in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Virata"
+      ],
+      "action": "Battle approach",
+      "target": "Drona"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Heroes intercepted King Virata to protect Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified heroes"
+      ],
+      "action": "Interception in battle",
+      "purpose": "Protect Drona"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha, son of Bhima and Hidimbi, was born after one day of gestation, was immensely strong, brave, a terrifying shape-shifting Rakshasa, and feared by the speaker.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha"
+      ],
+      "description": "Powerful Rakshasa, son of Bhima",
+      "abilities": [
+        "Great strength",
+        "Shape-shifting"
+      ],
+      "allegiance": "Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha hoped for Pandava victory and became an obstacle to the speaker's sons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha"
+      ],
+      "action": "Obstructing Kaurava princes",
+      "allegiance": "Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Someone intercepted the mighty-armed Ghatotkacha to protect Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified warrior"
+      ],
+      "action": "Intercepted Ghatotkacha",
+      "purpose": "Protect Drona"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra praised Krishna's divine deeds and protection of the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Krishna",
+        "Pandavas"
+      ],
+      "action": "Praise and acknowledgment",
+      "relationship": "Krishna as protector of Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna killed the horse-demon Keshin who lived in the Yamuna forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Keshin"
+      ],
+      "action": "Slaying demon",
+      "supernatural": "Demon slaying"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna killed the demon Arishta who took the form of a bull.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arishta"
+      ],
+      "action": "Slaying demon",
+      "supernatural": "Demon slaying"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna killed powerful Asuras including Pralamba, Naraka, Jambha, Pitha, and Mura.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Pralamba",
+        "Naraka",
+        "Jambha",
+        "Pitha",
+        "Mura"
+      ],
+      "action": "Slaying multiple demons",
+      "supernatural": "Demon slaying"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna killed Kamsa and his allies in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Kamsa"
+      ],
+      "action": "Slaying king/demon",
+      "supernatural": "Divine intervention"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna and Balarama defeated King Sumitra of Surasena and his army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Balarama",
+        "King Sumitra"
+      ],
+      "action": "Military victory"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahmin sage Durvasa was pleased with Krishna and Satyabhama's service and granted them boons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Durvasa",
+        "Krishna",
+        "Satyabhama"
+      ],
+      "action": "Granting boons",
+      "relationship": "Sage-devotee"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna defeated all kings at a swayamvara and abducted Princess Gandhari of Gandhara.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Gandhari"
+      ],
+      "action": "Abduction/marriage",
+      "context": "Swayamvara"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna caused Jarasandha to be killed by another's hand.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Jarasandha"
+      ],
+      "action": "Indirect killing",
+      "method": "Through another warrior"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna killed King Shishupala of Chedi who had challenged him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Shishupala"
+      ],
+      "action": "Slaying king",
+      "reason": "Challenge/insult"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna destroyed the flying city of Saubha, protected by Shalva, by throwing it into the ocean.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Shalva"
+      ],
+      "action": "Destroying flying city",
+      "supernatural": "Divine power demonstration"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna defeated various kingdoms and peoples in battle, including Anga, Vanga, Kalinga, Magadha, Kashi, Kosala, Vatsa, Karkara, Kalusha, Pundra, Avanti, Dakshinapatha, Parvata, Desharaka, Kashmir, Oshasa, Pishacha, Shamandala, Kambhoja, Vatadhana, Chola, Pandya, Trikuta, Malava, and Dravida.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "action": "Military conquests",
+      "type": "Battle victories"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna defeated Saka cavalry and Yavanas who swarmed from all directions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "action": "Defeating foreign armies",
+      "type": "Battle victory"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna fought Varuna in the ocean, beneath the sea guarded by sea monsters, and defeated him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Varuna"
+      ],
+      "action": "Underwater battle",
+      "type": "Divine conflict",
+      "supernatural_elements": [
+        "Sea monsters",
+        "Underwater realm"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna killed the five-born creature living deep underground and obtained the miraculous five-born conch shell.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "action": "Slaying mythical creature",
+      "type": "Quest for divine weapon",
+      "supernatural_elements": [
+        "Five-born creature",
+        "Miraculous conch shell"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna, accompanied by Arjuna, satisfied Agni in the Kandava forest and obtained the irresistible fire weapon discus.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna",
+        "Agni"
+      ],
+      "action": "Obtaining divine weapon",
+      "type": "Divine boon",
+      "relationships": [
+        "Krishna and Arjuna as companions"
+      ],
+      "supernatural_elements": [
+        "Fire god Agni",
+        "Divine discus weapon"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna rode on Garuda's back, intimidated the immortal celestial city, and retrieved the Parijata tree from Indra's palace.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Garuda",
+        "Indra"
+      ],
+      "action": "Divine theft",
+      "type": "Celestial conflict",
+      "supernatural_elements": [
+        "Divine eagle Garuda",
+        "Celestial city",
+        "Parijata tree"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra, knowing Krishna's valor, forgave his actions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Krishna"
+      ],
+      "action": "Forgiveness",
+      "type": "Divine reconciliation",
+      "relationships": [
+        "Indra acknowledges Krishna's power"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In the assembly hall, Krishna displayed great divine power.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "action": "Display of divine power",
+      "type": "Divine manifestation",
+      "supernatural_elements": [
+        "Divine power display"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker saw Krishna as Ishvara (the Supreme Lord) through devotion.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "action": "Divine revelation",
+      "type": "Spiritual realization",
+      "supernatural_elements": [
+        "Vision of divinity"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Heroes of the Vrishni clan - Gada, Samba, Pradyumna, Viduratha, Akrura, Aniruddha, Mishi, and Sharana - joined the Pandava army at Krishna's call.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Gada",
+        "Samba",
+        "Pradyumna",
+        "Viduratha",
+        "Akrura",
+        "Aniruddha",
+        "Mishi",
+        "Sharana"
+      ],
+      "action": "Military alliance",
+      "type": "Strategic move",
+      "relationships": [
+        "Krishna as leader of Vrishni heroes",
+        "Vrishni heroes joining Pandavas"
+      ],
+      "significance": "Strengthens Pandava forces"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Where Krishna is, there is Balarama with his wildflower garland, whose strength equals that of a hundred thousand elephants.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Balarama"
+      ],
+      "action": "Presence together",
+      "type": "Brotherly bond",
+      "relationships": [
+        "Krishna and Balarama as brothers"
+      ],
+      "supernatural_elements": [
+        "Balarama's immense strength"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahmins call Krishna the father of all beings, and he will fight for the benefit of the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Pandavas"
+      ],
+      "action": "Divine support declaration",
+      "type": "Allegiance",
+      "relationships": [
+        "Krishna as supporter of Pandavas"
+      ],
+      "significance": "Divine backing for Pandava cause"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "If Krishna fights for the Pandavas, no one in the opposing army can match him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Pandavas",
+        "Kauravas"
+      ],
+      "action": "Military assessment",
+      "type": "Strategic advantage",
+      "significance": "Krishna's involvement guarantees Pandava victory"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Even if all Kauravas defeat all Pandavas, Krishna would take up his miraculous weapons for the Pandavas' benefit.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Pandavas",
+        "Kauravas"
+      ],
+      "action": "Contingency plan",
+      "type": "Ultimate intervention",
+      "significance": "Krishna as final guarantee of Pandava success"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna would kill all kings and Kauravas in battle and give the earth to the sons of Kunti.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Kauravas",
+        "Pandavas (sons of Kunti)"
+      ],
+      "action": "Victory prediction",
+      "type": "Prophetic declaration",
+      "significance": "Complete victory for Pandavas through Krishna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "No chariot can oppose the chariot with Krishna as charioteer and Arjuna as warrior.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna"
+      ],
+      "action": "Military superiority declaration",
+      "type": "Unbeatable combination",
+      "relationships": [
+        "Krishna as Arjuna's charioteer"
+      ],
+      "significance": "Invincible warrior team"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Kaurava victory has no hope.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kauravas"
+      ],
+      "action": "Defeat prediction",
+      "type": "Conclusion",
+      "significance": "Inevitable Kaurava defeat due to Krishna's support of Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "全胜 begins narrating the events of how Drona was killed by the Pandavas and Srinjayas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "全胜",
+        "Drona",
+        "Pandavas",
+        "Srinjayas"
+      ],
+      "action": "Narration",
+      "narrative_flow": "Transition to flashback"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona, after being appointed army commander following Bhishma, asks Duryodhana what wish he should fulfill.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Duryodhana"
+      ],
+      "action": "Appointment and offer",
+      "relationships": "Commander-subordinate, teacher-student",
+      "context": "Succession after Bhishma's fall"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana consults with Karna and Dushasana, then asks Drona to capture Yudhishthira alive.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Karna",
+        "Dushasana",
+        "Drona",
+        "Yudhishthira"
+      ],
+      "action": "Request for capture",
+      "relationships": "Duryodhana's inner circle, Drona as commander",
+      "plot_point": "Specific mission objective"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana expressed his desire to capture Yudhishthira alive rather than kill him in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Drona"
+      ],
+      "action": "Strategy discussion",
+      "relationship": "Student (Duryodhana) consulting teacher (Drona)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana explained his reasoning: killing Yudhishthira would lead Arjuna to destroy them all, and capturing Yudhishthira would force the Pandavas back into exile through another dice game.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Drona"
+      ],
+      "reasoning": "Strategic calculation to avoid Arjuna's wrath and achieve lasting victory",
+      "relationships": {
+        "Duryodhana vs Yudhishthira": "Rival cousins",
+        "Arjuna's capability": "Feared by all including gods"
+      }
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona agreed conditionally to capture Yudhishthira, but only if Arjuna could be drawn away from the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Duryodhana"
+      ],
+      "condition": "Arjuna must be absent from protecting Yudhishthira",
+      "supernatural_elements": "Mention of Arjuna's invincibility even against gods like Indra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona acknowledged Arjuna's superior skills, weapons from Indra and Rudra, and his own inability to defeat his former student in direct combat.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Arjuna"
+      ],
+      "relationship": "Teacher (Drona) and former student (Arjuna)",
+      "divine_interventions": "Arjuna received weapons from Indra and Rudra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona promised to deliver Yudhishthira to Duryodhana once captured, provided Arjuna was successfully diverted from the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Duryodhana",
+        "Yudhishthira",
+        "Arjuna"
+      ],
+      "plan": "Divert Arjuna, capture Yudhishthira",
+      "key_relationships": {
+        "Drona's loyalty": "Conditional support to Duryodhana",
+        "Arjuna's protection": "Primary obstacle to capturing Yudhishthira"
+      }
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona made a conditional promise to capture Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Yudhishthira"
+      ],
+      "action": "Conditional promise",
+      "type": "Military strategy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana's sons mistakenly believed Yudhishthira was already captured.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana's sons",
+        "Yudhishthira"
+      ],
+      "action": "Misunderstanding",
+      "type": "Misperception"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana knew Drona was partial to the Pandavas and spread a plan to make him keep his promise.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Drona",
+        "Pandavas"
+      ],
+      "action": "Spreading a plan",
+      "type": "Strategy/Deception",
+      "relationship": "Duryodhana exploiting Drona's partiality"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana communicated the plan to capture Yudhishthira to all his armies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Yudhishthira",
+        "Kaurava armies"
+      ],
+      "action": "Communication of military order",
+      "type": "Military command"
+    },
+    "_token_interval": null
+  }
+]

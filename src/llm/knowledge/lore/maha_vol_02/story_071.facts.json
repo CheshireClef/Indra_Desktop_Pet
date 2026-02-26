@@ -1,0 +1,511 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yudhishthira asked Markandeya about the deeds of Manu, son of Vivasvat.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira",
+        "Markandeya"
+      ],
+      "type": "Inquiry",
+      "relationships": [
+        "King Yudhishthira is a listener",
+        "Markandeya is a sage and storyteller"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Markandeya described Manu as a great sage, son of Vivasvat, who excelled his ancestors through his ascetic power.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Markandeya",
+        "Manu",
+        "Vivasvat"
+      ],
+      "type": "Description",
+      "relationships": [
+        "Manu is son of Vivasvat",
+        "Markandeya is narrator"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Manu performed severe austerities for ten thousand years on the banks of the Chirini River.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Manu"
+      ],
+      "type": "Ascetic Practice",
+      "supernatural_elements": [
+        "Extended lifespan through tapas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A small fish approached Manu and asked for protection from larger fish, promising to repay his kindness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Manu",
+        "Fish (later revealed as Matsya)"
+      ],
+      "type": "Request for Help",
+      "relationships": [
+        "Fish seeks Manu's protection"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Manu took pity on the fish, lifted it from the water, and placed it in a water pot, caring for it like a son.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Manu",
+        "Fish"
+      ],
+      "type": "Rescue",
+      "relationships": [
+        "Manu becomes protector of the fish"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The fish grew too large for the water pot, so Manu moved it to a large pond.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Manu",
+        "Fish"
+      ],
+      "type": "Relocation",
+      "action": "Fish transferred to pond"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The fish grew too large for the pond and requested to be moved to the Ganges River.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Manu",
+        "Fish"
+      ],
+      "type": "Request",
+      "action": "Fish asks for relocation to Ganges"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Manu carried the fish to the Ganges River and placed it there.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Manu",
+        "Fish"
+      ],
+      "type": "Relocation",
+      "action": "Fish transferred to Ganges"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The fish grew too large for the Ganges and requested to be moved to the ocean.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Manu",
+        "Fish"
+      ],
+      "type": "Request",
+      "action": "Fish asks for relocation to ocean"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Manu carried the fish to the ocean and released it there.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Manu",
+        "Fish"
+      ],
+      "type": "Relocation",
+      "action": "Fish transferred to ocean",
+      "relationships": [
+        "Manu completes his protection of the fish"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "摩奴捧起巨大的鱼，鱼顺从地变得轻巧，摩奴触感舒适并闻到馨香。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "摩奴",
+        "鱼"
+      ],
+      "action": "互动/搬运",
+      "supernatural_elements": "鱼能随心意变化大小，散发馨香"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "摩奴将大鱼放入大海，鱼微笑并开口说话。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "摩奴",
+        "鱼"
+      ],
+      "action": "对话开始",
+      "supernatural_elements": "鱼会说话"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "鱼预言洪水时代即将到来，所有动植物都将毁灭。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "鱼"
+      ],
+      "action": "预言灾难",
+      "type": "预言"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "鱼指示摩奴建造坚固的船，带上七位仙人和各类种子，等待鱼的到来。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "鱼",
+        "摩奴",
+        "七位仙人"
+      ],
+      "action": "指示/计划",
+      "relationships": "鱼成为摩奴的指导者"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "摩奴承诺遵从鱼的指示，双方道别。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "摩奴",
+        "鱼"
+      ],
+      "action": "承诺与分别",
+      "relationships": "建立信任关系"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "洪水来临，摩奴携种子与七位仙人乘船出海，想起鱼。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "摩奴",
+        "七位仙人"
+      ],
+      "action": "执行计划",
+      "type": "灾难应对"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "鱼感知摩奴的心思，迅速游向摩奴。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "鱼",
+        "摩奴"
+      ],
+      "action": "心灵感应/响应",
+      "supernatural_elements": "心灵感应"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "摩奴看见长角的大鱼如岩石般巨大，将缆绳套在鱼角上。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "摩奴",
+        "鱼"
+      ],
+      "action": "连接船只",
+      "supernatural_elements": "鱼巨大如岩石"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "鱼奋力拉船在洪水中航行多年，世界一片混沌，仅存七位仙人、摩奴和鱼。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "鱼",
+        "摩奴",
+        "七位仙人"
+      ],
+      "action": "拯救航行",
+      "type": "灾难生存",
+      "supernatural_elements": "洪水灭世，鱼拉船多年"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "鱼将船拉到雪山高峰处。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "鱼",
+        "摩奴",
+        "七位仙人"
+      ],
+      "action": "到达安全地",
+      "type": "救援完成"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The fish smiled and instructed the sages to tie the boat securely to a peak of the Himalayas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The fish",
+        "The sages"
+      ],
+      "action": "Instruction to secure boat",
+      "location": "Himalayas peak"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sages quickly tied the boat to the Himalayan peak as instructed by the fish.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The sages"
+      ],
+      "action": "Securing boat",
+      "result": "Creation of 'Boat-Tying Peak' (name persists to present day)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "revelation",
+    "extraction_text": "The fish revealed its true identity as Prajapati Brahma, explaining it took fish form to rescue them from terror.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "true_identity": "Prajapati Brahma",
+      "purpose": "Rescue from danger",
+      "supernatural_element": "Divine transformation into fish form"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "prophecy",
+    "extraction_text": "Brahma declared that Manu (son of Surya Vivasvan) would create all beings - gods, asuras, humans, and the entire world of animals and plants.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Prajapati Brahma",
+        "Manu"
+      ],
+      "destiny": "Manu appointed as creator of all beings",
+      "relationship": "Manu is son of Surya Vivasvan"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "blessing",
+    "extraction_text": "Brahma promised Manu would gain great ascetic power through severe penance and, with Brahma's grace, would create beings without falling into ignorance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Prajapati Brahma",
+        "Manu"
+      ],
+      "gift": "Ascetic power and grace for creation",
+      "condition": "Severe penance required"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After Brahma disappeared, Manu felt desire to create beings and began creation, but temporarily fell into ignorance before resuming more rigorous penance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Manu"
+      ],
+      "action": "Initial creation attempt",
+      "challenge": "Temporary ignorance during creation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After gaining great ascetic power, Manu successfully created various beings with proper forms.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Manu"
+      ],
+      "action": "Successful creation of beings",
+      "result": "All beings given correct forms"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "meta_narrative",
+    "extraction_text": "The text concludes by stating this is the famous 'Fish Purana' story from Mahabharata's Aranyaka Parva Chapter 185, which destroys sins and brings happiness, success, and heaven to those who hear it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": null,
+    "_token_interval": null
+  }
+]

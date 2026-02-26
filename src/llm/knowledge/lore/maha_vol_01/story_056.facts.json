@@ -1,0 +1,979 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona gathered all his disciples and demanded payment for his teaching services.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "All Disciples"
+      ],
+      "action": "Demand for payment",
+      "relationships": [
+        "Teacher-Student"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona instructed his disciples to capture King Drupada of Panchala in battle as the best form of payment.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "All Disciples",
+        "King Drupada"
+      ],
+      "action": "Instruction for capture",
+      "type": "Mission Assignment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The disciples enthusiastically agreed and set out with Drona to capture King Drupada.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "All Disciples",
+        "Drona"
+      ],
+      "action": "Agreement and departure",
+      "relationships": [
+        "Teacher-Student Alliance"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The heroes attacked Panchala, caused heavy casualties, and destroyed King Drupada's capital city.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "All Disciples",
+        "King Drupada"
+      ],
+      "action": "Military attack and destruction",
+      "type": "Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Drupada was captured alive along with his ministers and brought before Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "All Disciples",
+        "King Drupada",
+        "Drona"
+      ],
+      "action": "Capture and presentation",
+      "relationships": [
+        "Captor-Captive"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona, recalling past enmity, mocked King Drupada about his defeat and captivity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "King Drupada"
+      ],
+      "action": "Mockery and humiliation",
+      "type": "Conflict",
+      "relationships": [
+        "Former Friends Turned Enemies"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona offered to spare King Drupada's life and proposed to restore friendship by giving him half the kingdom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "King Drupada"
+      ],
+      "action": "Peace offer and territorial division",
+      "type": "Reconciliation Attempt",
+      "relationships": [
+        "Proposed Friendship Restoration"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Drupada accepted the offer, acknowledging Drona's power through his disciples.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Drupada",
+        "Drona"
+      ],
+      "action": "Acceptance of terms",
+      "relationships": [
+        "Forced Alliance"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona released King Drupada, treated him with hospitality, and gave him half the kingdom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "King Drupada"
+      ],
+      "action": "Release and territorial grant",
+      "type": "Settlement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Drupada lived in depression at Makandi on the Ganges river, harboring unquenchable hatred for Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Drupada"
+      ],
+      "action": "Living in resentment",
+      "type": "Emotional State",
+      "relationships": [
+        "Persistent Hatred Toward Drona"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Drupada, lacking Brahmin power, focused on hoping for a son to help him defeat Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Drupada"
+      ],
+      "action": "Planning for revenge",
+      "type": "Future Ambition"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona went to the Ahichhatra region, which was later captured by Arjuna and offered to Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Arjuna"
+      ],
+      "action": "Territorial acquisition",
+      "relationships": [
+        "Teacher-Student"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana observed the exceptional strength of Bhima and the martial skill of Arjuna, which caused him great distress.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhima",
+        "Arjuna"
+      ],
+      "action": "Observation leading to distress",
+      "relationships": "Duryodhana is cousin to Bhima and Arjuna; this observation fuels his jealousy and animosity."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna and Shakuni devised numerous schemes to kill the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Shakuni",
+        "Pandavas"
+      ],
+      "action": "Plotting assassination",
+      "relationships": "Karna is ally/rival to the Pandavas; Shakuni is Duryodhana's uncle and advisor; they conspire against the Pandavas."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas, aware of the plots through Vidura's wisdom, exposed them repeatedly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Vidura"
+      ],
+      "action": "Exposing plots",
+      "relationships": "Vidura is uncle and wise counselor to the Pandavas; his guidance protects them."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Citizens, observing the virtues of the Pandavas, debated in public about the succession to the throne.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Citizens",
+        "Dhritarashtra",
+        "Bhishma",
+        "Yudhishthira"
+      ],
+      "action": "Public debate on kingship",
+      "relationships": "Citizens favor Yudhishthira over Dhritarashtra (blind) and Bhishma (who renounced throne); this highlights political tension."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The citizens argued that Yudhishthira, though young, was wise, truthful, and compassionate, and should be crowned king.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Citizens",
+        "Yudhishthira",
+        "Bhishma",
+        "Dhritarashtra",
+        "Duryodhana"
+      ],
+      "action": "Advocacy for Yudhishthira's coronation",
+      "relationships": "Citizens support Yudhishthira's claim, threatening Duryodhana's lineage; they note Yudhishthira would honor Bhishma and Dhritarashtra."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana, hearing the citizens' support for Yudhishthira, was tormented by jealousy and distress.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Yudhishthira"
+      ],
+      "action": "Emotional reaction to public opinion",
+      "relationships": "Duryodhana's jealousy towards Yudhishthira intensifies, driving further conflict."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana, consumed by envy, approached his father Dhritarashtra in private to express his concerns.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Dhritarashtra"
+      ],
+      "action": "Private appeal to father",
+      "relationships": "Duryodhana seeks Dhritarashtra's intervention to secure his own claim to the throne."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana warned Dhritarashtra that if Yudhishthira became king, his lineage would permanently inherit the throne, excluding Dhritarashtra's descendants.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Dhritarashtra",
+        "Yudhishthira",
+        "Pandu"
+      ],
+      "action": "Warning about dynastic exclusion",
+      "relationships": "Duryodhana argues that Pandu (his uncle) previously inherited the throne over Dhritarashtra due to the latter's blindness; he fears permanent disinheritance for his line."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana urged Dhritarashtra to take action to prevent the Pandavas from gaining the throne, to avoid eternal damnation and dependence on others.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Dhritarashtra"
+      ],
+      "action": "Urging preventive measures",
+      "relationships": "Duryodhana pressures Dhritarashtra to act against the Pandavas to secure their own future."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra, after hearing Duryodhana's words, reflected briefly and began to respond, noting Pandu's righteousness and care for him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Duryodhana",
+        "Pandu"
+      ],
+      "action": "Contemplation and initial response",
+      "relationships": "Dhritarashtra acknowledges Pandu's virtue and his own debt to him, setting up a moral dilemma in the conflict."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vidura expressed concerns about the injustice of forcibly taking the kingdom from Yudhishthira, citing Dhritarashtra's original intention to give the kingdom to him, Yudhishthira's virtue, and the loyalty of ministers, army, and relatives to the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vidura",
+        "Dhritarashtra"
+      ],
+      "action": "Warning/Expression of Concern",
+      "relationships": [
+        "Vidura is advisor to Dhritarashtra",
+        "Yudhishthira is son of Pandu",
+        "Dhritarashtra is father of Duryodhana"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana proposed a plan to send the Pandavas to Varanavata (Dvaraka) under a pretext, gain control of the kingdom, and then allow them to return.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Dhritarashtra"
+      ],
+      "action": "Plotting/Deception",
+      "relationships": [
+        "Duryodhana is son of Dhritarashtra",
+        "Pandavas are cousins of Duryodhana"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra acknowledged the plan but expressed fear of its sinfulness and opposition from Bhishma, Drona, Vidura, and Kripa.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Duryodhana"
+      ],
+      "action": "Internal Conflict/Acknowledgment",
+      "relationships": [
+        "Bhishma, Drona, Vidura, Kripa are elders/mentors in Kuru court"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana argued that Bhishma would remain neutral, Drona would side with his son Ashvatthama (who supports Duryodhana), Kripa would follow Drona, and Vidura, though secretly sympathetic to the Pandavas, would be powerless alone.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Dhritarashtra"
+      ],
+      "action": "Political Maneuvering/Assurance",
+      "relationships": [
+        "Ashvatthama is son of Drona",
+        "Kripa is brother-in-law of Drona",
+        "Vidura is half-brother to Dhritarashtra"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana urged Dhritarashtra to send the Pandavas and Kunti to Varanavata immediately to relieve his own suffering.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Dhritarashtra"
+      ],
+      "action": "Urging/Manipulation",
+      "relationships": [
+        "Kunti is mother of the Pandavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana and his brothers secretly bribed ministers with money and positions to gain their support.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Kaurava brothers"
+      ],
+      "action": "Bribery/Consolidation of Power",
+      "relationships": [
+        "Kaurava brothers are sons of Dhritarashtra"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Under Dhritarashtra's direction, cunning courtiers spread propaganda about the beauty of Varanavata.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Courtiers"
+      ],
+      "action": "Propaganda/Deception",
+      "relationships": [
+        "Courtiers serve Dhritarashtra"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra ordered his ministers to spread word about a grand festival in Varanavata for Lord Shiva, describing the city as beautiful and filled with treasures.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra",
+        "Ministers"
+      ],
+      "action": "Spreading propaganda",
+      "purpose": "To attract the Pandavas to Varanavata"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas heard about Varanavata's beauty and developed a desire to go there.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "reaction": "Curiosity and desire to visit"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra, observing their curiosity, invited the Pandavas to go to Varanavata with their companions and attendants, enjoy the festival like gods, give gifts to Brahmins and singers, and return to Hastinapura after some time.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra",
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "action": "Formal invitation with conditions",
+      "relationship": "Uncle inviting nephews"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira, considering it was Dhritarashtra's command and that they were not yet powerful, agreed to go, saying 'As you command!'",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "King Dhritarashtra"
+      ],
+      "decision": "Compliance with uncle's order",
+      "reason": "Lack of power/authority"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira then spoke pitifully to Bhishma, Vidura, Drona, Kripa, Somadatta (descendant of Kuru), Ashvatthama, and Gandhari, informing them they were going to Varanavata per Dhritarashtra's command and requesting their blessings for protection from evil.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma",
+        "Vidura",
+        "Drona",
+        "Kripa",
+        "Somadatta",
+        "Ashvatthama",
+        "Gandhari"
+      ],
+      "action": "Seeking blessings",
+      "relationship": "Nephews seeking protection from elders"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "All the Kuru elders came to the Pandavas with pleasant expressions and blessed them for a safe journey, free from calamities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Vidura",
+        "Drona",
+        "Kripa",
+        "Somadatta",
+        "Ashvatthama",
+        "Gandhari",
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "action": "Giving blessings",
+      "relationship": "Elders blessing younger family members"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas performed various religious rites for gaining the kingdom and then departed for Varanavata.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "action": "Performing religious rites and departure",
+      "purpose": "To gain the kingdom"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana was overjoyed when the Pandavas obeyed Dhritarashtra's command. He took minister Purochana aside, held his right hand, and declared the earth belonged to both of them, asking Purochana to protect it and eliminate his enemies through a clever plan.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Purochana"
+      ],
+      "action": "Forming secret alliance and plotting",
+      "relationship": "Conspirators",
+      "purpose": "To eliminate the Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana revealed that Dhritarashtra had sent the Pandavas to Varanavata and they would be enjoying the festival there as commanded.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Purochana"
+      ],
+      "information": "Revealing the Pandavas' location and situation",
+      "implication": "Setting stage for the plot against them"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana instructed Purochana to travel to Varanavata (Dvaitavana) by fast donkey cart.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Purochana"
+      ],
+      "action": "Instruction/Travel",
+      "relationship": "Prince commanding loyal minister"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana ordered Purochana to build a four-halled palace near the armory, fortified and splendid-looking.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Purochana"
+      ],
+      "action": "Construction order",
+      "details": "Palace near armory, well-defended"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana specified using flammable materials (hemp, resin, etc.) in construction and applying a mixture of clarified butter, sesame oil, and lac to walls.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Detailed sabotage instructions",
+      "supernatural_elements": "None",
+      "intent": "Make palace highly flammable but appear normal"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana ordered placement of flammable items (hemp, bamboo, clarified butter, wood, furniture) throughout palace.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Sabotage preparation",
+      "goal": "Ensure complete destruction by fire"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana emphasized making the palace appear non-flammable to avoid suspicion from Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Deception planning",
+      "targets": [
+        "Pandavas (Yudhishthira, Bhima, Arjuna, Nakula, Sahadeva)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana instructed Purochana to humbly invite Pandavas, Kunti, and their friends to live in the palace.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Purochana",
+        "Pandavas",
+        "Kunti"
+      ],
+      "action": "Invitation trap",
+      "relationship": "Kauravas plotting against Pandavas (cousins)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana ordered provision of excellent furnishings to satisfy Dhritarashtra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Purochana",
+        "Dhritarashtra"
+      ],
+      "action": "Appearance management",
+      "relationship": "Son manipulating father's perception"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana instructed Purochana to arrange entertainment for Pandavas until they felt completely secure.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Purochana",
+        "Pandavas"
+      ],
+      "action": "Psychological manipulation",
+      "goal": "Lower vigilance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana ordered Purochana to set fire to palace entrance when Pandavas were asleep and unsuspecting.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Purochana",
+        "Pandavas"
+      ],
+      "action": "Assassination plot",
+      "method": "Arson"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana explained the cover story: people would believe Pandavas died accidentally in house fire.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Cover-up planning",
+      "narrative_goal": "Plausible deniability"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Purochana agreed and traveled to Varanavata by fast donkey cart.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Purochana"
+      ],
+      "action": "Acceptance and travel",
+      "relationship": "Loyal servant to Duryodhana"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Purochana arrived quickly and prepared everything according to Duryodhana's instructions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Purochana",
+        "Duryodhana"
+      ],
+      "action": "Implementation",
+      "description": "Loyal minister executing prince's plot"
+    },
+    "_token_interval": null
+  }
+]

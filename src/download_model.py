@@ -1,6 +1,8 @@
+# src/download_model.py
 """
-模型下载/更新工具
-运行此脚本来下载或更新 gte-multilingual-base 模型
+模型下载工具脚本
+负责下载或更新 HuggingFace 上的 gte-multilingual-base 嵌入模型。
+包含断点续传、网络错误处理及文件完整性校验逻辑。
 """
 import os
 from pathlib import Path

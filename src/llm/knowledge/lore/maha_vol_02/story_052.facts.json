@@ -1,0 +1,291 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Juhu (巨光) was performing a sacrifice with the help of Yajnavalkya's (吟赞仙人) two sons, Anvartha (近财) and Prativartha (远财).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Juhu",
+        "Anvartha",
+        "Prativartha"
+      ],
+      "type": "Sacrifice Preparation",
+      "relationships": [
+        "King Juhu is the yajamana (sacrificial patron)",
+        "Anvartha and Prativartha are his assistants"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Prativartha returned alone to the hermitage and, in the dim light of dusk, mistook his father Yajnavalkya (wearing black deer skin) for a wild animal and killed him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Prativartha",
+        "Yajnavalkya"
+      ],
+      "action": "Accidental Patricide",
+      "relationships": [
+        "Father-son relationship between Yajnavalkya and Prativartha"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Prativartha performed his father's funeral rites and returned to the sacrifice site, confessing to his brother Anvartha that he had killed their father and asking him to perform the expiation for brahminicide.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Prativartha",
+        "Anvartha"
+      ],
+      "action": "Confession and Request",
+      "relationships": [
+        "Brothers"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Anvartha agreed to perform the expiation for his brother's sin while Prativartha continued the sacrifice for King Juhu.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Anvartha",
+        "Prativartha",
+        "King Juhu"
+      ],
+      "action": "Agreement to Atone",
+      "relationships": [
+        "Anvartha takes on his brother's sin"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After completing the expiation, Anvartha returned to the sacrifice, but Prativartha told King Juhu that Anvartha was a brahmin-killer and should be barred from the sacrifice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Prativartha",
+        "King Juhu",
+        "Anvartha"
+      ],
+      "action": "False Accusation and Exclusion",
+      "relationships": [
+        "Prativartha betrays his brother"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Anvartha protested his innocence, claiming Prativartha was the actual killer and he had only performed the expiation, but the guards drove him away.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Anvartha",
+        "Prativartha",
+        "Guards"
+      ],
+      "action": "Protest and Rejection",
+      "relationships": [
+        "Conflict between brothers"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The gods, led by Agni, intervened, praised Anvartha's virtue, granted him a boon, and expelled Prativartha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Agni",
+        "Other Gods",
+        "Anvartha",
+        "Prativartha"
+      ],
+      "action": "Divine Intervention and Judgment",
+      "relationships": [
+        "Gods reward Anvartha and punish Prativartha"
+      ],
+      "supernatural_elements": [
+        "Divine intervention"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Anvartha used his boon to request the resurrection of his father Yajnavalkya, absolution for his brother Prativartha, his father's memory of the killing erased, and the resurrection of two others: Brahmarata (婆罗堕遮) and his son Gugu (谷购).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Anvartha",
+        "Yajnavalkya",
+        "Prativartha",
+        "Brahmarata",
+        "Gugu"
+      ],
+      "action": "Boon Requests",
+      "relationships": [
+        "Anvartha shows forgiveness and compassion"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "All three deceased were resurrected. Gugu questioned how Yajnavalkya could have killed him, a learned Vedic scholar.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gugu",
+        "Yajnavalkya",
+        "Gods"
+      ],
+      "action": "Resurrection and Question",
+      "relationships": [
+        "Gugu challenges the killing"
+      ],
+      "supernatural_elements": [
+        "Resurrection"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The gods explained to Gugu that he had learned the Vedas through shortcuts without proper teacher instruction, while Yajnavalkya had mastered them through long, diligent effort and pleasing his teacher.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gods",
+        "Gugu",
+        "Yajnavalkya"
+      ],
+      "action": "Divine Explanation",
+      "relationships": [
+        "Gods justify Yajnavalkya's action"
+      ],
+      "supernatural_elements": [
+        "Divine judgment on learning methods"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The gods, led by Agni, returned to heaven after reviving everyone and delivering their explanation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Agni",
+        "Other Gods"
+      ],
+      "action": "Conclusion",
+      "relationships": [
+        "Gods depart"
+      ],
+      "supernatural_elements": [
+        "Gods return to heaven"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text describes a hermitage where trees bear flowers and fruits all year round.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Description",
+      "action": "Description of a sacred place"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "It is stated that residing in this hermitage can free one from all sins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Divine Blessing",
+      "action": "Promise of purification"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text concludes by noting this is from Chapter 139 of the 'Aranyaka Parva' (Forest Book) of the Mahabharata.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Citation",
+      "action": "Source reference"
+    },
+    "_token_interval": null
+  }
+]

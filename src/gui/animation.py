@@ -1,9 +1,13 @@
 # src/gui/animation.py
+"""
+动画驱动模块
+负责加载和管理桌宠的帧动画 (Frame Animation) 和表情图标 (Emoji)。
+"""
 from PySide6.QtCore import QTimer, QObject, Signal  # 新增 Signal 导入
 from PySide6.QtGui import QPixmap
 from PySide6.QtCore import Qt
 import os
-from utils import resource_path
+from utils import resource_path, ResourceManager
 
 BASE_SIZE = 256  # ⭐ 逻辑基准尺寸（与你原来的 pet.png 一致）
 EMOJI_SIZE = 64  # 表情在基准尺寸下的固定大小（九宫格右上角：256/3≈85，取64更协调）
@@ -11,8 +15,9 @@ EMOJI_SIZE = 64  # 表情在基准尺寸下的固定大小（九宫格右上角�
 class AnimationDriver(QObject):
     """
     AnimationDriver
-    - 管理所有动画帧
-    - 只负责“怎么播”，不关心“什么时候播”
+    - 管理所有动画帧 (Frames)
+    - 管理表情资源 (Emojis)
+    - 负责定时触发下一帧信号，不直接操作 UI 组件，只发送信号
     """
     idle_frames_loaded = Signal()
     # 新增：表情加载完成信号
@@ -54,7 +59,7 @@ class AnimationDriver(QObject):
         return None
 
     def _load_all_emojis(self):
-        """预加载所有情绪标签对应的表情图片"""
+        """预加载所有情绪标签对应的表情图片，并缩放到标准尺寸"""
         emoji_dir = resource_path("assets/images/emoji")
         if not os.path.isdir(emoji_dir):
             print(f"[AnimationDriver] 表情目录不存在：{emoji_dir}")
@@ -65,15 +70,14 @@ class AnimationDriver(QObject):
         for tag in emotion_tags:
             # 处理特殊标签的文件名（如“无聊/瞌睡”替换为“无聊_瞌睡”）
             filename = tag.replace("/", "_") + ".png"
-            emoji_path = resource_path(f"assets/images/emoji/{filename}")
-            if not os.path.exists(emoji_path):
-                print(f"[AnimationDriver] 表情文件缺失：{emoji_path}")
-                continue
-
-            # 加载并缩放到基准表情尺寸
-            pix = QPixmap(emoji_path)
+            
+            # 使用 ResourceManager 加载
+            pix = ResourceManager.get_instance().get_image(f"assets/images/emoji/{filename}")
+            
             if pix.isNull():
+                # ResourceManager 已处理文件不存在的情况，返回空 pixmap
                 continue
+                
             # 缩放到基准尺寸（保持比例）
             pix = pix.scaled(
                 EMOJI_SIZE, EMOJI_SIZE,
@@ -134,8 +138,9 @@ class AnimationDriver(QObject):
 
         frames: list[QPixmap] = []
         for f in files:
-            pix_path = resource_path(f"assets/images/idle/{f}")
-            pix = QPixmap(pix_path)
+            # 使用 ResourceManager 加载
+            pix = ResourceManager.get_instance().get_image(f"assets/images/idle/{f}")
+            
             if pix.isNull():
                 continue
 

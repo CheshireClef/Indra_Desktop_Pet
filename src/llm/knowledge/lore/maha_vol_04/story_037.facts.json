@@ -1,0 +1,541 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国询问阿周那到达信度王跟前时，德罗纳率领俱卢人围攻般遮罗人的战况。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国",
+        "阿周那",
+        "信度王",
+        "德罗纳"
+      ],
+      "action": "询问战况",
+      "context": "战场局势"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "全胜描述下午时分般遮罗人与俱卢人为德罗纳展开激烈战斗。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "全胜",
+        "德罗纳"
+      ],
+      "action": "描述战斗",
+      "type": "战场冲突"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "般遮罗人精神振奋，决心杀死德罗纳，呼叫着泼洒箭雨。",
+    "char_interval": {
+      "start_pos": 130,
+      "end_pos": 139
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般遮罗人",
+        "德罗纳"
+      ],
+      "action": "决心攻击",
+      "intent": "杀死德罗纳"
+    },
+    "_token_interval": {
+      "start_index": 36,
+      "end_index": 38
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "般遮罗人与般度人到达德罗纳战车跟前，一心冲破他的军队，使用各种大型武器。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般遮罗人",
+        "般度人",
+        "德罗纳"
+      ],
+      "action": "围攻冲锋",
+      "weapons": "大型武器"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "羯迦夜族战车勇士巨武冲向德罗纳，发射利箭如因陀罗释放雷电。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "巨武",
+        "德罗纳"
+      ],
+      "action": "冲锋攻击",
+      "comparison": "因陀罗释放雷电"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "忏摩杜尔提迎战巨武，发射成百上千支利箭。",
+    "char_interval": {
+      "start_pos": 327,
+      "end_pos": 354
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "忏摩杜尔提",
+        "巨武"
+      ],
+      "action": "迎战反击"
+    },
+    "_token_interval": {
+      "start_index": 81,
+      "end_index": 85
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "车底国雄牛勇旗快速冲向德罗纳，英弓迅速迎上前去阻截。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "勇旗",
+        "德罗纳",
+        "英弓"
+      ],
+      "action": "冲锋与阻截",
+      "comparison": "因陀罗冲向商波罗"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战渴望胜利，率领军队，德罗纳阻截他。",
+    "char_interval": {
+      "start_pos": 432,
+      "end_pos": 439
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "德罗纳"
+      ],
+      "action": "率领与阻截",
+      "intent": "渴望胜利"
+    },
+    "_token_interval": {
+      "start_index": 108,
+      "end_index": 110
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "毗迦尔纳迎战冲向前来的无种。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "毗迦尔纳",
+        "无种"
+      ],
+      "action": "迎战"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "丑面向冲向前来的偕天发射数千支快箭。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "丑面",
+        "偕天"
+      ],
+      "action": "发射箭雨"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "虎授阻截萨谛奇，发射磨尖利箭令他颤抖。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "虎授",
+        "萨谛奇"
+      ],
+      "action": "阻截攻击"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑公主的五个儿子愤怒发射优质利箭，月授之子广声阻截他们。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑公主的五个儿子",
+        "广声"
+      ],
+      "action": "攻击与阻截"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "怖军愤怒冲上前来，鹿角之子指掌上前迎战他，展开人和罗刹般的战斗。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "怖军",
+        "指掌"
+      ],
+      "action": "冲锋迎战",
+      "comparison": "罗摩奋战罗波那"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战以九十支箭射中德罗纳所有致命部位，德罗纳被激怒。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "德罗纳"
+      ],
+      "action": "箭射致命部位",
+      "result": "激怒德罗纳"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "德罗纳以二十五支箭射中坚战胸口，又射出二十支箭射中他的马匹、车夫和幡幢。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "德罗纳",
+        "坚战"
+      ],
+      "action": "反击射箭",
+      "targets": [
+        "坚战胸口",
+        "马匹",
+        "车夫",
+        "幡幢"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战以箭雨抵挡德罗纳射来的箭，德罗纳怒不可遏射断坚战的弓。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "德罗纳"
+      ],
+      "action": "抵挡与反击",
+      "result": "弓被射断"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "德罗纳以数千支箭从各个方向朝坚战射去，坚战消失在箭雨中，所有生灵认为他被击倒。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "德罗纳",
+        "坚战"
+      ],
+      "action": "密集箭雨攻击",
+      "perception": "被认为被击倒"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira was in extreme danger in battle, threw away his broken bow, and took up another magical, swift, and lethal bow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Weapon change in battle",
+      "context": "Initial combat situation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira shattered Drona's arrows with thousands of his own arrows, which was considered a miracle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Drona"
+      ],
+      "action": "Arrow exchange",
+      "supernatural_element": "Miracle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira, enraged, seized a golden-handled spear capable of crushing mountains and threw it at Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Drona"
+      ],
+      "action": "Spear attack",
+      "weapon": "Mountain-crushing spear"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona saw the spear flying toward him and used the Brahma weapon to reduce it to ashes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Yudhishthira"
+      ],
+      "action": "Divine counterattack",
+      "supernatural_element": "Brahma weapon destroys spear"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona's Brahma weapon then flew toward Yudhishthira's chariot, but Yudhishthira used his own Brahma weapon to neutralize it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Yudhishthira"
+      ],
+      "action": "Divine weapon exchange",
+      "supernatural_element": "Mutual Brahma weapon use"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira shot five straight arrows at Drona and cut his great bow with a sharp horse-hoof arrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Drona"
+      ],
+      "action": "Arrow attack and bow destruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona threw a mace at Yudhishthira, who countered by throwing his own mace; the two maces collided, creating a fireball before falling to the ground.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Yudhishthira"
+      ],
+      "action": "Mace duel",
+      "supernatural_element": "Fireball from collision"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona, furious, killed Yudhishthira's four horses with four sharp arrows, cut his bow and banner, and shot three arrows at Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Yudhishthira"
+      ],
+      "action": "Chariot destruction and direct attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira quickly jumped from his disabled chariot and stood weaponless with raised arms.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Retreat from chariot",
+      "status_change": "Disarmed and vulnerable"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona, seeing Yudhishthira disarmed and off his chariot, began attacking him and other warriors fiercely.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Yudhishthira"
+      ],
+      "action": "Pursuit and attack",
+      "relationship": "Teacher-student conflict intensifies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandava army panicked, shouting that Yudhishthira was captured or taken away.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava army"
+      ],
+      "action": "Panic and alarm",
+      "context": "Reaction to Yudhishthira's peril"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira jumped onto Nakula's swiftly arriving chariot and escaped with the help of fast horses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Nakula"
+      ],
+      "action": "Escape",
+      "relationship": "Brotherly rescue"
+    },
+    "_token_interval": null
+  }
+]

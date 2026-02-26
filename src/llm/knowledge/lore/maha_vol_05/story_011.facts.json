@@ -1,0 +1,899 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira laments the deaths of numerous warriors and kings in the Kurukshetra War, including Abhimanyu, Draupadi's sons, Drupada, Virata, and many others.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Abhimanyu",
+        "Draupadi's sons",
+        "Drupada",
+        "Virata"
+      ],
+      "action": "Lamentation",
+      "relationships": "Yudhishthira expresses grief over the deaths of allies and relatives."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira expresses deep sorrow for killing Bhishma, whom he once played with as a child, out of greed for the kingdom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "action": "Remorse",
+      "relationships": "Yudhishthira feels guilt for causing the death of his elder relative and former protector."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira recounts Bhishma's past heroic deeds, including his battle with Parashurama and his single-handed fight against kings at Kashi.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Parashurama"
+      ],
+      "action": "Recollection",
+      "relationships": "Highlights Bhishma's legendary status and valor."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira confesses to causing the death of his teacher Drona by lying about the death of Drona's son, Ashwatthama.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Drona",
+        "Ashwatthama"
+      ],
+      "action": "Deception and remorse",
+      "relationships": "Yudhishthira betrayed his teacher's trust, leading to Drona's death."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira admits to arranging the killing of Karna, his elder brother, on the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Karna"
+      ],
+      "action": "Confession",
+      "relationships": "Yudhishthira reveals Karna as his elder brother, adding to his guilt over fratricide."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira expresses guilt for sending the young Abhimanyu into a battle formation protected by Drona, leading to his death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Abhimanyu",
+        "Drona"
+      ],
+      "action": "Remorse",
+      "relationships": "Yudhishthira feels responsible for the death of his nephew."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira grieves for Draupadi, who lost her five sons, and feels unable to face Arjuna and Krishna due to his actions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Draupadi",
+        "Arjuna",
+        "Krishna"
+      ],
+      "action": "Grief and shame",
+      "relationships": "Yudhishthira expresses sorrow for Draupadi's loss and shame towards his brothers and Krishna."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira declares himself a sinner and destroyer of the earth, vowing to sit in penance until his body wastes away to avoid rebirth as a family destroyer.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Penance vow",
+      "relationships": "Yudhishthira seeks atonement for his role in the war and the destruction of his family."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira, grieving for his relatives, declares he will fast to death and abandon his body.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Declaration of intent to commit suicide through fasting",
+      "emotional_state": "Deep sorrow and despair"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sage Vyasa intervenes to stop Yudhishthira and counsels him against excessive grief.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Yudhishthira"
+      ],
+      "action": "Counseling/Intervention",
+      "relationship": "Sage advising the king",
+      "key_message": "Accept fate, understand the impermanence of life, and focus on action rather than despair"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa narrates an ancient story to further counsel Yudhishthira, involving King Janaka and the Brahmin Ashma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Yudhishthira",
+        "King Janaka",
+        "Ashma"
+      ],
+      "action": "Narration of a parable",
+      "purpose": "To provide philosophical guidance on dealing with suffering"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Janaka, filled with sorrow, asks the wise Brahmin Ashma how one should face the rise and fall of relatives and wealth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Janaka",
+        "Ashma"
+      ],
+      "action": "Seeking wisdom/Philosophical inquiry",
+      "question": "How to handle the fluctuations of life's attachments"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashma explains that pain and pleasure are inherent to life, and that pride, attachment, and improper acquisition lead to suffering and early death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashma"
+      ],
+      "action": "Philosophical teaching",
+      "key_points": [
+        "Suffering is inevitable",
+        "Pride and attachment cause misery",
+        "Improper wealth acquisition leads to punishment",
+        "No one escapes aging and death"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashma advises that a king should use wisdom to provide relief for those in extreme pain, as suffering stems from misfortune and mental confusion.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashma"
+      ],
+      "action": "Moral instruction",
+      "audience": "Kings/Rulers",
+      "duty": "To alleviate suffering through wise governance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashma concludes that all beings must face whatever pleasure or pain comes to them, as it is unavoidable and beyond their control.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashma"
+      ],
+      "action": "Philosophical conclusion",
+      "theme": "Acceptance of life's inevitable dualities"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text describes the inevitability of life's stages (youth, middle age, old age) and the futility of resisting them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "All beings"
+      ],
+      "type": "Philosophical observation",
+      "theme": "Inevitability of time and fate"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Separation from loved ones, union with the disliked, wealth and poverty, and pleasure and pain are all determined by fate.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "All beings"
+      ],
+      "type": "Philosophical observation",
+      "theme": "Fate governs human experiences"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Birth, death, acquisition, and striving are all predetermined.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "All beings"
+      ],
+      "type": "Philosophical observation",
+      "theme": "Predestination"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sensory experiences (smell, color, taste, touch) exist according to nature, and pleasure/pain follow fate.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "All beings"
+      ],
+      "type": "Philosophical observation",
+      "theme": "Nature and fate determine experiences"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Material possessions (seats, beds, vehicles, wealth, drinks, food) are all constrained by time.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "All beings"
+      ],
+      "type": "Philosophical observation",
+      "theme": "Temporal limitations of worldly goods"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Doctors fall ill, the strong become weak, and the married become eunuchs, illustrating time's strange effects.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Doctors",
+        "The strong",
+        "The married"
+      ],
+      "type": "Philosophical observation",
+      "theme": "Time's transformative and paradoxical nature"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Noble birth, bravery, health, determination, luck, and enjoyment are all obtained through fate.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "All beings"
+      ],
+      "type": "Philosophical observation",
+      "theme": "Fate as the source of qualities and experiences"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The poor may have many sons undesired, while the rich may fail to have sons despite efforts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The poor",
+        "The rich"
+      ],
+      "type": "Philosophical observation",
+      "theme": "Fate's control over progeny contrary to desire"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Various harms (disease, water, fire, weapons, hunger, beasts, poison, hanging) befall humans from above.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Humans"
+      ],
+      "type": "Philosophical observation",
+      "theme": "External dangers as fate-driven"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The virtuous may die while the wicked survive, and the rich may die young while the poor live long, due to fate.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The virtuous",
+        "The wicked",
+        "The rich",
+        "The poor"
+      ],
+      "type": "Philosophical observation",
+      "theme": "Fate's apparent injustice in life and death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The rich often suffer indigestion, while the poor can digest even twigs.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The rich",
+        "The poor"
+      ],
+      "type": "Philosophical observation",
+      "theme": "Paradoxical physical conditions due to fate"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Evil souls, incited by fate, become arrogant, insatiable, and commit sins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Evil souls"
+      ],
+      "type": "Philosophical observation",
+      "theme": "Fate as a driver of moral corruption"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Even learned people indulge in condemned pleasures (women, dice, hunting, drinking).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Learned people"
+      ],
+      "type": "Philosophical observation",
+      "theme": "Fate's influence over behavior despite knowledge"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "All outcomes, desired or not, occur at their appointed time for all beings, with no other cause.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "All beings"
+      ],
+      "type": "Philosophical observation",
+      "theme": "Time as the sole determinant of events"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Natural phenomena (wind, sky, fire, moon, sun, day, night, planets, rivers, mountains) are created and sustained by an unknown force.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unknown force (implied divine/natural order)"
+      ],
+      "type": "Philosophical observation",
+      "theme": "Cosmic order beyond human control"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Cold, heat, and rain occur according to time, as do human pleasure and pain.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "All beings"
+      ],
+      "type": "Philosophical observation",
+      "theme": "Temporal regulation of natural and human experiences"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "No remedies (herbs, scriptures, sacrifices, mantras) can save mortals from aging and death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mortals"
+      ],
+      "type": "Philosophical observation",
+      "theme": "Inevitability of mortality"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Beings meet and part like two logs in the ocean, drifting together then apart.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "All beings"
+      ],
+      "type": "Philosophical observation",
+      "theme": "Transience of relationships"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Time treats all equally, whether they enjoy luxuries or live in dependence.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "All beings"
+      ],
+      "type": "Philosophical observation",
+      "theme": "Time's impartiality"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Through countless rebirths, one has many parents, sons, and wives, but ultimately belongs to no one and no one belongs to them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 20,
+    "group_index": 19,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "All beings"
+      ],
+      "type": "Philosophical observation",
+      "theme": "Non-attachment in the cycle of rebirth"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Meetings with wives, relatives, and friends are like encounters with strangers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 21,
+    "group_index": 20,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "All beings"
+      ],
+      "type": "Philosophical observation",
+      "theme": "Illusory nature of relationships"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "One should reflect on existential questions (past, present, future, identity, purpose, sorrow) as worldly life is transient like a turning wheel.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 22,
+    "group_index": 21,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The reflective individual"
+      ],
+      "type": "Philosophical advice",
+      "theme": "Self-inquiry and impermanence"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The wise understand the unseen afterlife, so those desiring survival should follow scriptures devoutly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 23,
+    "group_index": 22,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The wise",
+        "Those desiring survival"
+      ],
+      "type": "Philosophical advice",
+      "theme": "Guidance for spiritual adherence based on wisdom"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A learned person should worship ancestors and gods, follow dharma, perform sacrifices according to rules, and pursue the three goals of life.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Philosophical instruction",
+      "action": "Prescribing duties"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The world is immersed in the deep ocean of time, filled with crocodiles of old age and death, and no one recognizes this.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Philosophical observation",
+      "theme": "Impermanence and mortality"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Doctors who study medical texts still fall ill; people who drink medicines and ghee cannot overcome death; those who know and consume elixirs of immortality are still overcome by old age; those who practice austerities, study Vedas, perform sacrifices, and give charity cannot overcome aging and death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Philosophical argument",
+      "theme": "Inevitability of death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "All beings are born, pass through days, nights, fortnights, months, and years that never return.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Philosophical observation",
+      "theme": "Time's irreversibility"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Life is impermanent and not under one's control; when the time comes, all beings must travel the inevitable path.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Philosophical statement",
+      "theme": "Fate and mortality"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "One cannot remain with one's own body forever, let alone with others like wife and relatives.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Philosophical argument",
+      "theme": "Transience of relationships"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Where is your father now? Where is your grandfather now? King! You cannot see them, nor can they see you.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Rhetorical question",
+      "theme": "Separation by death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "No one has seen heaven or hell; scriptures are the eyes of good people, so act according to them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Instruction",
+      "action": "Following scriptures"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "One should be free from envy, practice celibacy, have children, perform sacrifices, and repay debts to ancestors, gods, and sages.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Prescription of duties",
+      "action": "Fulfilling obligations"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "First practice celibacy, then live a householder's life, perform sacrifices, have children, abandon mental afflictions, and please both heaven and this world.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Life stage guidance",
+      "action": "Following ashrama dharma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A chakravartin (universal ruler) who properly follows dharma and accepts wealth according to rules gains increasing fame among all beings in all worlds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Description of ideal ruler",
+      "action": "Righteous governance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa narrates: King Janaka of Videha, whose wisdom is pure, heard these reasonable words, his grief subsided, and he took leave of Ashma and returned home.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Janaka",
+        "Ashma",
+        "Vyasa"
+      ],
+      "type": "Narrative resolution",
+      "action": "Consolation and departure"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "You too should abandon grief, strengthen yourself! Like Indra, be happy. You have won the earth through Kshatriya dharma, enjoy it! Son of Kunti, do not grieve!",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Son of Kunti (Yudhishthira)"
+      ],
+      "type": "Direct address and encouragement",
+      "action": "Consoling Yudhishthira"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "This concludes Chapter 28 of the Shanti Parva in the auspicious Mahabharata.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Textual conclusion",
+      "action": "Chapter ending"
+    },
+    "_token_interval": null
+  }
+]

@@ -1,0 +1,467 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Janamejaya asks about the Pandavas' activities after killing the Rakshasa Baka.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Janamejaya",
+        "Shaunaka"
+      ],
+      "type": "Inquiry"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shaunaka describes that the Pandavas continued living in Ekachakra, studying scriptures in a Brahmin's house.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shaunaka",
+        "Pandavas"
+      ],
+      "action": "Narration"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A Brahmin guest arrives at the host Brahmin's house and is welcomed with proper hospitality.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin Guest",
+        "Host Brahmin"
+      ],
+      "type": "Arrival"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas and Kunti come to pay respects to the Brahmin guest while he is telling stories.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Kunti",
+        "Brahmin Guest"
+      ],
+      "action": "Interaction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin guest narrates various stories including the miraculous svayamvara of Draupadi, the births of Dhrishtadyumna and Shikhandi, and Draupadi's birth from the sacrificial fire.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin Guest",
+        "Draupadi",
+        "Dhrishtadyumna",
+        "Shikhandi",
+        "Drupada"
+      ],
+      "type": "Storytelling",
+      "supernatural_elements": [
+        "Miraculous births from fire"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas request the Brahmin to elaborate on the stories of Dhrishtadyumna's birth from fire, Draupadi's birth from the altar, Dhrishtadyumna's training under Drona, and the rift between Drupada and Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Brahmin Guest",
+        "Dhrishtadyumna",
+        "Draupadi",
+        "Drona",
+        "Drupada"
+      ],
+      "action": "Request for details"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin guest begins narrating the story of Draupadi's birth, starting with the sage Bharadvaja.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin Guest",
+        "Bharadvaja"
+      ],
+      "action": "Narration continuation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Bharadvaja goes to bathe in the Ganges and sees the celestial nymph Haridaki emerging from the water.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bharadvaja",
+        "Haridaki"
+      ],
+      "type": "Encounter"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A wind blows away Haridaki's clothes, revealing her naked form to Bharadvaja, who falls in love with her despite his lifelong celibacy.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bharadvaja",
+        "Haridaki"
+      ],
+      "action": "Temptation",
+      "relationship_change": "Bharadvaja's vow broken"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bharadvaja's excitement causes him to emit semen, which he collects in a wooden bowl. From this bowl, his son Drona is born.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bharadvaja",
+        "Drona"
+      ],
+      "action": "Birth",
+      "supernatural_elements": [
+        "Birth from semen in a bowl"
+      ],
+      "relationship": "Father-son"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bharadvaja has a friend named Prishata, a king, who also has a son named Drupada.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bharadvaja",
+        "Prishata",
+        "Drupada"
+      ],
+      "type": "Background",
+      "relationships": [
+        "Friendship between Bharadvaja and Prishata",
+        "Father-son between Prishata and Drupada"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drupada often visits the forest hermitage, where he plays and studies with Drona, forming a close friendship.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drupada",
+        "Drona"
+      ],
+      "action": "Childhood activities",
+      "relationship": "Childhood friends"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After Prishata's death, Drupada becomes king.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Prishata",
+        "Drupada"
+      ],
+      "action": "Succession",
+      "relationship_change": "Drupada ascends to kingship"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona heard that (Parashurama) Rama intended to give away all his possessions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Hearing news",
+      "subject": "Rama's intention to give away property"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona went to Rama, who had gone to the forest, and identified himself as Drona seeking wealth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Parashurama"
+      ],
+      "action": "Request for wealth",
+      "location": "Forest"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Parashurama offered Drona either his remaining body or his divine weapons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Parashurama",
+        "Drona"
+      ],
+      "action": "Offer of choice",
+      "items": [
+        "Body",
+        "Divine weapons"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona chose all of Parashurama's divine weapons along with their secrets and methods of use.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Parashurama"
+      ],
+      "action": "Selection of weapons",
+      "items": [
+        "Brahmastra and other divine weapons"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Parashurama gave Drona all his divine weapons, making Drona exceptionally powerful.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Parashurama",
+        "Drona"
+      ],
+      "action": "Transfer of weapons",
+      "result": "Drona became supremely powerful"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona went to King Drupada and reminded him of their childhood friendship.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Drupada"
+      ],
+      "action": "Reunion attempt",
+      "relationship": "Former childhood friends"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drupada rejected Drona's friendship, stating that a non-king cannot be friends with a king.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drupada",
+        "Drona"
+      ],
+      "action": "Friendship rejection",
+      "reason": "Social status difference"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona went to Hastinapura and became the teacher of the Kuru princes, brought by Bhishma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Bhishma",
+        "Kuru princes"
+      ],
+      "action": "Appointment as teacher",
+      "location": "Hastinapura"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona gathered all his students and demanded as his teaching fee that they capture Drupada's kingdom for him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Pandava princes"
+      ],
+      "action": "Demand for payment",
+      "payment": "Capture of Drupada's kingdom"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandava princes defeated Drupada in battle, captured him and his ministers, and presented them to Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava princes",
+        "Drupada",
+        "Drona"
+      ],
+      "action": "Battle and capture",
+      "result": "Drupada defeated and captured"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona offered to restore friendship with Drupada and gave him back half his kingdom, divided by the Bhagirathi River.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Drupada"
+      ],
+      "action": "Peace offering",
+      "terms": "Restored friendship, divided kingdom"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drupada felt deep humiliation from this event and became troubled and emaciated.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drupada"
+      ],
+      "action": "Emotional reaction",
+      "state": "Humiliated and troubled"
+    },
+    "_token_interval": null
+  }
+]

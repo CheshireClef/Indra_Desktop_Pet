@@ -1,0 +1,300 @@
+
+[cameraMove 0 0,0 1.01]
+[fowardEffect bit_talk_ereshki01 0,0 H]
+[scene 10000]
+[wt 0.5]
+[fadein black 0.5]
+[wait fade]
+
+[wt 0.5]
+[se ade387]
+[wt 2.5]
+[fadeout black 0.1]
+[seStop ad248 1.0]
+[wait fade]
+[charaSet L 1098154000 1 空想樹の種子]
+[charaSet M 1098154000 1 空想樹の種子]
+[charaSet N 1098154000 1 空想樹の種子]
+[charaSet O 1098154000 1 空想樹の種子]
+[charaSet P 1098154000 1 空想樹の種子]
+
+[fowardEffectStop bit_talk_ereshki01]
+[scene 274003]
+
+[charaFadein L 0.1 0,0]
+[charaFadein M 0.1 -250,-20]
+[charaFadein N 0.1 250,-20]
+[charaFadein O 0.1 -500,-50]
+[charaFadein P 0.1 500,-50]
+
+[wt 0.5]
+[fadein black 0.5]
+[wait fade]
+
+[se ade335]
+[se ad951]
+[wt 0.2]
+[shake 0.05 3 4 1.0]
+[effect bit_talk_explosion_triple02 0,0]
+[wt 0.2]
+[effect bit_talk_explosion_triple02 -200,0]
+[wt 0.2]
+[effect bit_talk_explosion_triple02 200,0]
+[wt 0.5]
+
+[bgmStop BGM_BATTLE_220 1.5]
+[fadeout white 0.5]
+[wait fade]
+
+[se ad1044]
+[charaFadeout L 0.1]
+[charaFadeout M 0.1]
+[charaFadeout N 0.1]
+[charaFadeout O 0.1]
+[charaFadeout P 0.1]
+[wt 0.8]
+[cueSe SE_22 22_ade777]
+[wt 2.0]
+
+[charaTalk I]
+[charaFace I 25]
+[charaFadein I 0.1 1]
+[charaEffect I bit_talk_smoke]
+
+[subRenderFadein #B 0 0,-20]
+[charaFadein G 0.1 1]
+
+[wt 1.0]
+[subRenderMoveScale #B 1.0 3.0]
+[subRenderMove #B 0,0 3.0]
+[bgm BGM_BATTLE_223 1.5]
+[charaEffectStop I bit_talk_smoke]
+[fadein white 1.5]
+[wait fade]
+
+[seStop ad951 1.5]
+[wt 2.0]
+
+＠ドゥルガー
+現着しました。[r]当女神は速やかに殲滅を開始します。
+[k]
+
+[charaFaceFade I 26 0.1]
+
+＠ドゥルガー
+神罰、執行。
+[k]
+
+[messageOff]
+[charaTalk G,I]
+[charaFace G 1]
+[subRenderFadeout #B 0.4]
+[wt 0.4]
+[charaFadeout I 0]
+[charaLayer I normal]
+
+＠ラーマ
+殲滅女神か、これはありがたい！
+[k]
+
+[charaFadeout G 0.1]
+[wt 0.1]
+
+[charaScale H 1.0]
+[charaTalk H]
+[charaFace H 5]
+[charaFadein H 0.1 1]
+
+＠ラクシュミー
+だが、いくらドゥルガー神とはいえ、１騎では……！
+[k]
+
+[charaFadeout H 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠パールヴァティー
+大丈夫です。彼女もそれは感じていたのでしょう。[r]問題児たちも連れてきたようですよ。
+[k]
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.6 1.0]
+[wait wipe]
+[charaScale T 1.5]
+[charaDepth T 20]
+[charaFadein T 0.4 125,-250]
+[wt 0.4]
+[charaFadeout E 0]
+[charaFadein D 0 1]
+
+[se ade283 0 0]
+[seVolume ade283 0.6 0.4]
+[wipein rectangleStripRightToLeft 0.6 1.0]
+[wait wipe]
+
+[seStop ade283 1.2]
+[charaTalk J]
+[charaFace J 6]
+[charaFadein J 0.6 0,50]
+[charaMoveEase J 0,0 1.0 easeOutBack]
+[wt 1.5]
+
+＠ヴリトラ
+き、ひ、ひ。わえはこの素晴らしい見世物を[r]最前列で見にきただけじゃぞー？
+[k]
+
+[charaFace J 4]
+
+＠ヴリトラ
+……しかし、まだまだ先は長そうじゃ。[r]うっかりここで潰れてしまってはつまらぬ。
+[k]
+
+[charaFace J 7]
+
+＠ヴリトラ
+のちのちのもっと興奮する[#足掻き:クライマックス]のために、[r]ここは力を貸してやるとするかのう。
+[k]
+
+[messageOff]
+[charaTalk K]
+[charaPut K 500,0]
+[charaMoveEase J -250,0 0.8 easeOutSine]
+[charaMoveEase K 250,0 0.8 easeOutSine]
+[charaMoveEase T -125,-250 0.8 easeOutSine]
+[wt 0.4]
+[charaFace K 3]
+[charaFadein K 0.4]
+[wt 0.4]
+
+＠カーマ
+私はいつも通り、[r]ただマスターさんの堕落のためですよ？
+[k]
+
+[charaFace K 13]
+
+＠カーマ
+結局カーマちゃんのおかげで勝てたな、[#堕落:愛]最高！[r]カーマちゃん最高！
+[k]
+
+＠カーマ
+そういう結末にしてもらいたいものです。
+[k]
+
+？1：二人とも最高！
+？2：来てくれてありがとう！
+？！
+
+[messageOff]
+[charaTalk K,J,D]
+[charaFace K 10]
+[charaFace J 1]
+[wt 1.5]
+
+[charaFace D 0]
+[charaFadeout K 0.4]
+[charaFadeout J 0.4]
+[charaFadeout T 0.4]
+[wt 0.4]
+
+[charaPut Z 2000,20000]
+[charaEffect Z bit_talk_wind_aura_bma]
+
+＠カルナ
+む。あちらとこちらの中間にも、[r]気配が生まれた気がするが。これは……。
+[k]
+
+[charaFadeout D 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.1 1]
+
+＠パールヴァティー
+まあ、勝手に来るでしょうね。[r]『気紛れ』の象徴みたいなものですから、彼らは。
+[k]
+
+
+[messageOff]
+[wipeout rectangleStripLeftToRight 0.7 1.0]
+[wait wipe]
+
+[charaFadeout E 0]
+
+[charaSet L 3059000 1 インドラ]
+[charaSet M 3054000 1 ビーマ]
+[charaSet N 3059000 1 インドラ（演出用）]
+[charaSet O 1098328710 1 インドラ（演出用）]
+
+[charaSet P 1098154000 1 空想樹の種子]
+[charaSet Q 1098154000 1 空想樹の種子]
+[charaSet R 1098154000 1 空想樹の種子]
+[charaSet G 1098154000 1 空想樹の種子]
+[charaSet H 1098154000 1 空想樹の種子]
+
+[imageSet Y back10000 1 1]
+[charaScale Y 1.05]
+
+[charaLayer B sub #A]
+
+[subCameraFilter #A maskEdge cut359_mask05 4 65,105,255,255 0]
+
+[charaFadein B 0.1 0,250]
+[charaMove U -100,50 0]
+
+[charaLayer M sub #B]
+[charaLayer N sub #B]
+
+[charaDepth M 3]
+[charaDepth N 2]
+
+[charaMove V 0,-270 0]
+
+[charaLayer W sub #C]
+[charaLayer A sub #C]
+[charaLayer C sub #C]
+
+[subCameraFilter #C maskEdge cut359_mask10 4 0,0,0,255 0]
+
+[charaScale A 1.2]
+[charaScale C 1.2]
+[charaScale W 1.2]
+
+[charaDepth A 3]
+[charaDepth C 2]
+[charaDepth W 1]
+
+[charaFadein C 0.1 0,180]
+[charaFadein W 0.1 200,-50]
+
+[charaLayer X sub #D]
+[charaLayer J sub #D]
+[charaLayer K sub #D]
+[charaLayer D sub #D]
+
+[subCameraFilter #D maskEdge cut359_mask16 4 255,255,255,255 0]
+
+[charaScale K 1.2]
+[charaScale J 1.2]
+[charaScale D 1.2]
+[charaScale X 1.2]
+
+[charaDepth D 4]
+[charaDepth K 3]
+[charaDepth J 2]
+[charaDepth X 1]
+
+[charaFadein K 0.1 170,190]
+[charaFadein J 0.1 -75,190]
+[charaFadein X 0.1 -200,0]
+
+
+[charaDepth M 17]
+[charaDepth L 16]
+[charaDepth Z 15]
+[charaDepth Y 14]
+
+[charaFadein S 0.1 100,-270]

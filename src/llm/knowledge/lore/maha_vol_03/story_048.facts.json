@@ -1,0 +1,693 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra received news from messengers that Krishna, the slayer of Madhu, had arrived.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra",
+        "Krishna"
+      ],
+      "action": "Receiving news",
+      "context": "Krishna's arrival for the Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra, overjoyed, addressed Bhishma, Drona, Sanjaya, Vidura, Duryodhana, and his ministers, praising Krishna and ordering preparations to honor him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra",
+        "Bhishma",
+        "Drona",
+        "Sanjaya",
+        "Vidura",
+        "Duryodhana",
+        "Ministers"
+      ],
+      "action": "Addressing court and ordering preparations",
+      "relationships": "Dhritarashtra as king addressing his advisors and son Duryodhana"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana, knowing their approval, selected lovely sites and built halls adorned with jewels, furnished with seats, women, perfumes, ornaments, fine clothes, drinks, food, and garlands for Krishna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Building and furnishing halls",
+      "purpose": "To honor Krishna and gain his favor"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana specially built a lovely hall in the Wolf's Field village, adorned with many jewels, for Krishna to reside in, and reported the arrangements to Dhritarashtra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "King Dhritarashtra"
+      ],
+      "action": "Special hall construction and reporting",
+      "location": "Wolf's Field village"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna, the slayer of Keshi, did not look at these halls or jewels and went directly to the Kuru palace.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "action": "Ignoring preparations and going to palace",
+      "significance": "Shows Krishna's focus on his mission over material offerings"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra informed Vidura that Krishna, residing in the Wolf's Field, would arrive the next morning, praising his qualities and expressing intent to honor him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra",
+        "Vidura",
+        "Krishna"
+      ],
+      "action": "Informing and praising",
+      "relationships": "Dhritarashtra consulting Vidura, acknowledging Krishna's importance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra plans to offer lavish gifts to Krishna to honor him as a guest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Krishna"
+      ],
+      "action": "Gift offering",
+      "gifts": [
+        "16 golden chariots with black horses",
+        "8 war elephants with attendants",
+        "100 golden-skinned maidens and male servants",
+        "18,000 soft sheepskins",
+        "thousands of Chinese furs",
+        "glittering gems",
+        "a mule cart",
+        "daily food for entourage and horses"
+      ],
+      "type": "Hospitality"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra orders preparations for Krishna's arrival, including decorations and cleaning.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra"
+      ],
+      "action": "Preparation order",
+      "details": [
+        "Banners displayed",
+        "roads watered and cleaned",
+        "Dushasana's residence cleaned and decorated",
+        "gems from Dhritarashtra and Duryodhana placed there"
+      ],
+      "type": "Logistics"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra states that all his sons and grandsons except Duryodhana will go to welcome Krishna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Duryodhana"
+      ],
+      "action": "Exclusion",
+      "details": [
+        "All descendants except Duryodhana will welcome Krishna",
+        "thousands of decorated courtesans and unveiled maidens will also welcome him",
+        "entire city will watch Krishna's arrival"
+      ],
+      "relationship": "Father-son tension"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vidura confronts Dhritarashtra about his true intentions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vidura",
+        "Dhritarashtra"
+      ],
+      "action": "Accusation",
+      "details": [
+        "Vidura says Dhritarashtra's hospitality is a deception, not based on dharma or friendship",
+        "accuses him of hiding true intentions behind surface behavior",
+        "questions who can create peace if Pandavas are denied five villages"
+      ],
+      "type": "Conflict",
+      "relationship": "Advisor-king confrontation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vidura praises Dhritarashtra's virtues but warns against destroying the kingdom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vidura",
+        "Dhritarashtra"
+      ],
+      "action": "Warning",
+      "details": [
+        "Reminds Dhritarashtra of his respected status and adherence to dharma",
+        "urges him to protect virtues and avoid destroying kingdom, sons, and friends",
+        "emphasizes the Pandavas' simple request for five villages"
+      ],
+      "type": "Admonition"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "维杜罗劝说持国以黑天喜欢的方式接待黑天，促成与般度族和解。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "维杜罗",
+        "持国",
+        "黑天"
+      ],
+      "action": "劝说/建议",
+      "relationships": "维杜罗向持国进言，建议通过黑天调解与般度族的关系",
+      "supernatural_elements": "无"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌反对隆重招待黑天，认为战争不可避免，并计划囚禁黑天。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌",
+        "持国",
+        "黑天"
+      ],
+      "action": "反对建议/提出阴谋",
+      "relationships": "难敌反对持国可能的招待计划，并透露囚禁黑天的阴谋",
+      "supernatural_elements": "无"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "毗湿摩劝说持国听从黑天的话，与般度族和解。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "毗湿摩",
+        "持国",
+        "黑天"
+      ],
+      "action": "劝说/支持和解",
+      "relationships": "毗湿摩支持维杜罗的建议，敦促持国通过黑天调解",
+      "supernatural_elements": "无"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌重申无法与般度族共享富贵，并宣布囚禁黑天的决策。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌",
+        "毗湿摩",
+        "黑天"
+      ],
+      "action": "宣布阴谋/寻求支持",
+      "relationships": "难敌向毗湿摩透露囚禁黑天的具体计划，以削弱般度族",
+      "supernatural_elements": "无"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana proposes to imprison Krishna to prevent him from causing harm.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Proposal to imprison",
+      "target": "Krishna",
+      "context": "Council meeting"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra expresses distress and rejects Duryodhana's proposal, citing Krishna's role as an envoy and friend.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra"
+      ],
+      "action": "Rejection of proposal",
+      "reason": "Krishna is an envoy and friend, no harm to Kuru clan",
+      "relationship": "Father-son (Dhritarashtra-Duryodhana), Friend (Dhritarashtra-Krishna)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma criticizes Duryodhana for foolishness and warns that conflict with Krishna will lead to destruction.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Duryodhana"
+      ],
+      "action": "Warning and criticism",
+      "content": "Duryodhana chooses disaster over benefit, will be destroyed if he conflicts with Krishna",
+      "relationship": "Granduncle-nephew (Bhishma-Duryodhana)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma leaves the council in anger after speaking.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Departure",
+      "emotion": "Anger",
+      "context": "End of council meeting"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The next morning, Krishna departs after morning prayers and is welcomed by the citizens of Hastinapura.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "action": "Departure and welcome",
+      "location": "Hastinapura",
+      "supernatural_elements": "Krishna referred to as 'Lord of the Senses'"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna is greeted by Duryodhana's brothers, Bhishma, Drona, and Kripa, but not by Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Bhishma",
+        "Drona",
+        "Kripa",
+        "Duryodhana's brothers"
+      ],
+      "action": "Greeting",
+      "notable_absence": "Duryodhana",
+      "relationship": "Allies/friends (Krishna with Bhishma, Drona, Kripa)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The city is decorated in honor of Krishna, and crowds gather to see him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "action": "Public reception",
+      "description": "City decorated, large crowds including women, elders, and children"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna enters Dushasana's residence and proceeds to meet King Dhritarashtra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Dushasana",
+        "Dhritarashtra"
+      ],
+      "action": "Entry and meeting",
+      "location": "Dushasana's residence, then Dhritarashtra's palace",
+      "relationship": "Krishna as envoy to Dhritarashtra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra, along with Bhishma, Drona, Kripa, Shalya, and Bahlika, rises to honor Krishna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Bhishma",
+        "Drona",
+        "Kripa",
+        "Shalya",
+        "Bahlika",
+        "Krishna"
+      ],
+      "action": "Honoring",
+      "gesture": "Rising from seats",
+      "relationship": "Respect from Kuru elders to Krishna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna pays respects to Dhritarashtra and Bhishma with words.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Dhritarashtra",
+        "Bhishma"
+      ],
+      "action": "Paying respects",
+      "method": "Verbal greeting",
+      "relationship": "Formal diplomatic interaction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna paid respects according to dharma and greeted other kings present by age.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "action": "Paying respects and greeting",
+      "relationships": "Krishna shows respect to other kings"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna greeted Drona, his son, the illustrious Kripacharya, and Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Drona",
+        "Kripacharya",
+        "Duryodhana"
+      ],
+      "action": "Greeting",
+      "relationships": "Krishna acknowledges various Kuru elders and leaders"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra offered Krishna a solid, clean golden chair to sit on.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Krishna"
+      ],
+      "action": "Offering seat",
+      "relationships": "Dhritarashtra shows hospitality to Krishna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra's priests offered Krishna cows, honeyed food, and water according to ritual.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra's priests",
+        "Krishna"
+      ],
+      "action": "Ritual offerings",
+      "relationships": "Priests perform hospitality rituals for Krishna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After accepting the hospitality, Krishna sat among the Kurus and engaged in pleasant conversation and laughter with them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Kurus"
+      ],
+      "action": "Social interaction",
+      "relationships": "Krishna interacts cordially with the Kuru assembly"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After receiving honors from Dhritarashtra, Krishna took leave of the king and departed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Dhritarashtra"
+      ],
+      "action": "Departure",
+      "relationships": "Krishna concludes his formal meeting with Dhritarashtra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In the Kuru assembly hall, Krishna met with the Kurus according to protocol, then went to Vidura's lovely residence.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Kurus",
+        "Vidura"
+      ],
+      "action": "Meeting and movement",
+      "relationships": "Krishna transitions from public assembly to private meeting with Vidura"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "When Krishna arrived, Vidura came forward and offered him all auspicious blessings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vidura",
+        "Krishna"
+      ],
+      "action": "Welcoming and blessing",
+      "relationships": "Vidura warmly receives Krishna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After offering hospitality to Krishna, Vidura, who knows all dharma, inquired about the health of the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vidura",
+        "Krishna",
+        "Pandavas"
+      ],
+      "action": "Inquiry about health",
+      "relationships": "Vidura shows concern for the Pandavas through Krishna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna, who sees everything, described in detail all the circumstances of the Pandavas to Vidura.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Vidura",
+        "Pandavas"
+      ],
+      "action": "Sharing information",
+      "relationships": "Krishna updates Vidura about the Pandavas' situation"
+    },
+    "_token_interval": null
+  }
+]

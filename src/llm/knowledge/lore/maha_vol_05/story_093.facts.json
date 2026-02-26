@@ -1,0 +1,565 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yudhishthira asks Bhishma about the conflict between maintaining the body and the principle of non-violence (ahimsa).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Philosophical Inquiry",
+      "relationships": "Yudhishthira seeks guidance from his elder and teacher, Bhishma."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma recounts the story of King Vichaknu, who expressed distress at the slaughter of cows in a sacrifice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "King Vichaknu"
+      ],
+      "type": "Narrative Recount",
+      "action": "King Vichaknu witnesses and laments ritual slaughter, advocating for non-violence and proper worship of Vishnu.",
+      "supernatural_elements": "Mentions Vishnu (a deity) as present in all sacrifices."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma asserts that a person who follows dharma (righteous duty) and acts accordingly will not suffer bodily harm or decay.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Philosophical Teaching",
+      "action": "Bhishma provides a direct answer to Yudhishthira's dilemma, linking righteous action to physical well-being."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Bhishma how to determine one's duty and whether actions should be performed quickly or slowly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Philosophical Inquiry",
+      "relationships": "Yudhishthira continues to seek Bhishma's wisdom, addressing him as the supreme teacher."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma begins recounting the ancient story of Ghirayakshin, son of Gautama, known for his extremely slow and deliberate nature.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Ghirayakshin",
+        "Gautama"
+      ],
+      "type": "Narrative Introduction",
+      "action": "Introduction of Ghirayakshin, his character trait of slowness, and his parentage.",
+      "relationships": "Ghirayakshin is the son of the sage Gautama."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gautama, angered by his wife's fault, orders Ghirayakshin to kill his mother.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gautama",
+        "Ghirayakshin",
+        "Gautama's Wife (Unnamed)"
+      ],
+      "type": "Conflict",
+      "action": "Gautama gives a drastic command to his son.",
+      "relationships": "Father-son conflict; command creates a moral dilemma between filial duty (to father) and the duty to protect one's mother."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghirayakshin, true to his nature, responds slowly and enters a prolonged contemplation about the moral dilemma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghirayakshin"
+      ],
+      "type": "Internal Conflict",
+      "action": "Ghirayakshin deliberates on how to obey his father's command without committing the sin of matricide.",
+      "relationships": "Highlights his internal struggle between two dharmas: obedience to father and protection of mother."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker expresses inner conflict about balancing filial duties to both father and mother.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Speaker"
+      ],
+      "type": "Internal Monologue/Conflict",
+      "relationships": [
+        "Father (parent)",
+        "Mother (parent)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker justifies honoring the father through philosophical reasoning about paternal origins and duties.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Speaker",
+        "Father"
+      ],
+      "type": "Philosophical Justification",
+      "action": "Reasoning about paternal authority",
+      "relationships": [
+        "Father as source of life, teacher, and highest dharma"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker describes the father's role in rituals, education, and as the family's foundation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Father"
+      ],
+      "type": "Role Description",
+      "action": "Father as ritual master, educator, and householder",
+      "relationships": [
+        "Father as master of ceremonies and provider"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker shifts focus to the mother, describing her as the physical cause of creation and a refuge from suffering.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Speaker",
+        "Mother"
+      ],
+      "type": "Philosophical Justification",
+      "action": "Reasoning about maternal importance",
+      "relationships": [
+        "Mother as creator, protector, and emotional sanctuary"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker elaborates on the mother's roles throughout a child's life: conceiver, bearer, nurturer, educator, and courage-builder.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mother"
+      ],
+      "type": "Role Description",
+      "action": "Mother's multifaceted duties",
+      "relationships": [
+        "Mother as another body of the child"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker concludes with observations about conception, parental knowledge, and marital responsibility.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Father",
+        "Mother"
+      ],
+      "type": "Philosophical Conclusion",
+      "action": "Reflection on conception and parental roles",
+      "relationships": [
+        "Parents as joint creators with distinct roles"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra disguised as a Brahmin guest came to Gautama's hermitage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Gautama"
+      ],
+      "action": "Deception/Disguise",
+      "supernatural_element": "Divine intervention"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gautama's wife welcomed Indra with hospitality, offering food and foot-washing water.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gautama's wife",
+        "Indra"
+      ],
+      "action": "Hospitality",
+      "relationship": "Host-guest"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra, disguised as Gautama, had intercourse with Gautama's wife.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Gautama's wife"
+      ],
+      "action": "Adultery/Deception",
+      "supernatural_element": "Divine transgression"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gautama, upon returning, became jealous and ordered his son Girakalin to kill his mother.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gautama",
+        "Girakalin"
+      ],
+      "action": "Order to kill",
+      "emotion": "Jealousy/anger",
+      "relationship": "Father orders son"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gautama reflected on dharma and realized his wife was blameless; women are victims in such events.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gautama"
+      ],
+      "action": "Realization/reflection",
+      "theme": "Dharma and blame"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gautama identified Indra as the true culprit who violated dharma, referencing Brahma's ancient instruction about intercourse with women.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gautama",
+        "Indra",
+        "Brahma"
+      ],
+      "action": "Accusation/explanation",
+      "supernatural_element": "Divine law violation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gautama expressed deep regret for his jealousy and ordering his wife's death, praising Girakalin for his slowness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gautama",
+        "Girakalin"
+      ],
+      "emotion": "Remorse/gratitude",
+      "relationship": "Father appreciates son"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Girakalin, in great distress, saw his father and threw down his weapon, bowing in respect.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Girakalin",
+        "Gautama"
+      ],
+      "action": "Submission/relief",
+      "relationship": "Son obeys father"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gautama saw his son bowing and his wife safe, and was overjoyed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gautama",
+        "Girakalin",
+        "Gautama's wife"
+      ],
+      "emotion": "Joy/relief",
+      "outcome": "Family preserved"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sage Gautama lived in a secluded hermitage with his wife and his son, who was calm-minded.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gautama",
+        "Gautama's wife",
+        "Gautama's son (Jirakalin)"
+      ],
+      "type": "Family life",
+      "relationships": "Father, mother, and son living together in hermitage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gautama made a demand of his obedient son and then became occupied with his own affairs. The son took up a weapon and was supposed to kill his mother.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gautama",
+        "Gautama's son (Jirakalin)",
+        "Gautama's wife"
+      ],
+      "action": "Command to kill mother",
+      "conflict": "Son ordered to commit matricide"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing his son prostrate at his feet, Gautama understood that his son, out of fear, had laid down the weapon.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gautama",
+        "Gautama's son (Jirakalin)"
+      ],
+      "action": "Son refuses to kill mother",
+      "resolution": "Son shows reverence and fear rather than obedience to violent command"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The father praised his son for a long time, kissed his head, embraced him, and repeatedly blessed him with health and long life.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gautama",
+        "Gautama's son (Jirakalin)"
+      ],
+      "action": "Father's approval and blessing",
+      "relationship_change": "Father expresses pride and affection instead of anger"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The wise Gautama, filled with joy and satisfied with his son, spoke to him, calling him Jirakalin and wishing him good fortune but noting that his slowness had caused prolonged suffering.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gautama",
+        "Jirakalin"
+      ],
+      "dialogue": "Father acknowledges son's slowness as both a virtue and a source of pain",
+      "character_trait": "Jirakalin identified as slow-acting"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gautama recited verses praising the qualities of those who act slowly, including in friendship, anger management, and decision-making.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gautama"
+      ],
+      "type": "Moral teaching",
+      "theme": "Virtue of deliberation and patience"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gautama was pleased with his son's behavior and slow-acting nature, and the text concludes that thoughtful, long-considered actions prevent regret.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gautama",
+        "Jirakalin"
+      ],
+      "moral": "Deliberation leads to better outcomes",
+      "relationship": "Father-son bond strengthened through shared values"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After many years of serving the gods in the hermitage, the great ascetic Brahmin Gautama ascended to heaven with his son.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gautama",
+        "Jirakalin"
+      ],
+      "action": "Ascension to heaven",
+      "supernatural": "Divine reward for piety",
+      "outcome": "Father and son attain heavenly realm together"
+    },
+    "_token_interval": null
+  }
+]

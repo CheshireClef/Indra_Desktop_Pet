@@ -1,0 +1,677 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "护民子叙述毗耶娑对国王说完话后，婆薮提婆之子黑天接着说话。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "护民子",
+        "毗耶娑",
+        "国王",
+        "婆薮提婆之子黑天"
+      ],
+      "action": "叙述/对话转换",
+      "context": "毗耶娑刚对国王说完话，黑天开始发言"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天知道国王因亲友被杀而精神沮丧，安慰正法之子坚战。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "婆薮提婆之子黑天",
+        "国王",
+        "坚战"
+      ],
+      "action": "安慰/开导",
+      "relationships": [
+        "黑天安慰坚战"
+      ],
+      "emotional_state": "国王精神沮丧，坚战心情抑郁"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天讲述因陀罗和弗栗多之间的战斗故事。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "婆薮提婆之子黑天",
+        "因陀罗",
+        "弗栗多"
+      ],
+      "type": "寓言/教导",
+      "purpose": "通过神话故事开导坚战"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "弗栗多最初占有大地，夺取香的领域。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "弗栗多",
+        "因陀罗"
+      ],
+      "action": "占有/夺取",
+      "domain": "大地，香的领域",
+      "supernatural": "领域争夺"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "因陀罗生气并向弗栗多投掷金刚杵。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "因陀罗",
+        "弗栗多"
+      ],
+      "action": "攻击",
+      "weapon": "金刚杵",
+      "emotional_state": "因陀罗生气"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "弗栗多被金刚杵打击后钻入水中，夺取味的领域。",
+    "char_interval": {
+      "start_pos": 384,
+      "end_pos": 398
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "弗栗多",
+        "因陀罗"
+      ],
+      "action": "逃避/夺取",
+      "domain": "水，味的领域",
+      "pattern": "弗栗多不断变换领域躲避攻击"
+    },
+    "_token_interval": {
+      "start_index": 115,
+      "end_index": 119
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "弗栗多依次钻入光、风、空中，夺取色、触、声的领域。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "弗栗多",
+        "因陀罗"
+      ],
+      "action": "逃避/夺取",
+      "domains": [
+        "光-色",
+        "风-触",
+        "空-声"
+      ],
+      "pattern": "持续躲避和夺取不同感官领域"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "弗栗多钻入因陀罗体内，夺取他的感官对象。",
+    "char_interval": {
+      "start_pos": 674,
+      "end_pos": 694
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "弗栗多",
+        "因陀罗"
+      ],
+      "action": "附体/夺取",
+      "location": "因陀罗体内",
+      "target": "感官对象",
+      "supernatural": "附体"
+    },
+    "_token_interval": {
+      "start_index": 211,
+      "end_index": 215
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "因陀罗被弗栗多附体后神志迷糊，极裕仙人用娑摩颂诗唤醒他。",
+    "char_interval": {
+      "start_pos": 713,
+      "end_pos": 731
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "因陀罗",
+        "弗栗多",
+        "极裕仙人"
+      ],
+      "action": "唤醒/治疗",
+      "method": "娑摩颂诗",
+      "effect": "因陀罗被唤醒",
+      "divine_intervention": "仙人使用颂诗"
+    },
+    "_token_interval": {
+      "start_index": 221,
+      "end_index": 226
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "因陀罗用无形的金刚杵杀死体内的弗栗多。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "因陀罗",
+        "弗栗多"
+      ],
+      "action": "杀死",
+      "weapon": "无形的金刚杵",
+      "location": "体内",
+      "outcome": "弗栗多被杀死"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天解释这个正法的奥秘最初由因陀罗讲给大仙们，仙人们又告诉黑天。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "婆薮提婆之子黑天",
+        "因陀罗",
+        "大仙们"
+      ],
+      "action": "传授知识",
+      "knowledge_chain": "因陀罗→大仙们→黑天",
+      "topic": "正法的奥秘"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天继续讲述有两种病痛：精神的和肉体的。",
+    "char_interval": {
+      "start_pos": 887,
+      "end_pos": 901
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "婆薮提婆之子黑天"
+      ],
+      "action": "教导",
+      "topic": "病痛分类",
+      "types": [
+        "精神病痛",
+        "肉体病痛"
+      ],
+      "relationship": "两者互相产生"
+    },
+    "_token_interval": {
+      "start_index": 282,
+      "end_index": 286
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天解释冷、热、风是身体的三种性质，协调和谐是健康标志。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "婆薮提婆之子黑天"
+      ],
+      "action": "教导",
+      "topic": "身体健康",
+      "properties": [
+        "冷",
+        "热",
+        "风"
+      ],
+      "condition": "协调和谐=健康"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna explains to Arjuna that success comes from internal detachment, not just external renunciation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna"
+      ],
+      "type": "Philosophical discourse",
+      "relationships": [
+        "Divine guide and disciple",
+        "Friends and allies"
+      ],
+      "key_points": [
+        "Distinction between external and internal renunciation",
+        "Warning against attachment to 'mine' (mama)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna teaches about the concepts of 'mama' (mine) as death and 'namama' (not mine) as eternal Brahman.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna"
+      ],
+      "type": "Spiritual teaching",
+      "supernatural_elements": [
+        "Concept of eternal Brahman"
+      ],
+      "key_points": [
+        "Two-syllable 'mama' represents death",
+        "Three-syllable 'namama' represents eternal Brahman"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna describes the constant struggle between Brahman and death within all beings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "type": "Cosmological explanation",
+      "supernatural_elements": [
+        "Brahman and death as cosmic forces"
+      ],
+      "key_points": [
+        "Both exist simultaneously in all souls",
+        "They are invisible but constantly at war"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna warns that even a forest hermit who clings to possessions as 'mine' is in the jaws of death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna"
+      ],
+      "type": "Warning",
+      "relationships": [
+        "Teacher-student"
+      ],
+      "key_points": [
+        "True detachment must be internal",
+        "Attachment to possessions leads to spiritual death"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna advises Arjuna to recognize both external and internal enemies and overcome them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna"
+      ],
+      "type": "Guidance",
+      "key_points": [
+        "Need to understand the nature of enemies",
+        "Overcoming fear through detachment"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Munis (sages) comfort King Yudhishthira after he loses his relatives.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Munis (sages)",
+        "King Yudhishthira"
+      ],
+      "action": "Comforting",
+      "reason": "Loss of relatives"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna, Vyasa, and Devasthana personally counsel King Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Vyasa",
+        "Devasthana",
+        "King Yudhishthira"
+      ],
+      "action": "Counseling",
+      "type": "Divine/Mentor guidance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Narada, Bhima, Nakula, Draupadi, Sahadeva, and Arjuna, along with other warriors and learned Brahmins, help King Yudhishthira overcome his grief.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narada",
+        "Bhima",
+        "Nakula",
+        "Draupadi",
+        "Sahadeva",
+        "Arjuna",
+        "Other warriors",
+        "Learned Brahmins",
+        "King Yudhishthira"
+      ],
+      "action": "Support and guidance",
+      "relationships": "Family and allies aiding the king"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yudhishthira performs rituals for his deceased relatives and worships gods and Brahmins, then rules the earth with righteousness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira"
+      ],
+      "action": "Ritual performance and governance",
+      "outcome": "Resumes rule with a focus on dharma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yudhishthira, now peaceful and in possession of his kingdom, addresses Vyasa, Narada, and others, expressing gratitude and planning a sacrifice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira",
+        "Vyasa",
+        "Narada"
+      ],
+      "action": "Addressing and planning",
+      "plan": "To perform a sacrifice with their help"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yudhishthira proposes to go to the Himalayas under Vyasa's protection for a sacrifice, inspired by tales from Narada and Devasthana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira",
+        "Vyasa",
+        "Narada",
+        "Devasthana"
+      ],
+      "action": "Proposal for journey",
+      "destination": "Himalayas",
+      "purpose": "To perform a sacrifice in a miraculous place"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yudhishthira expressed gratitude for the support received during difficult times.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira"
+      ],
+      "type": "Reflection/Gratitude"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "All the great sages took leave of King Yudhishthira, Krishna, and Arjuna, and disappeared from sight as everyone watched.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Great Sages",
+        "King Yudhishthira",
+        "Krishna",
+        "Arjuna"
+      ],
+      "action": "Departure",
+      "supernatural_elements": "Disappearance from sight"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yudhishthira (son of Dharma) sat down. They did not delay for long.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira"
+      ],
+      "action": "Transition"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "They performed purification rites for the deceased Bhishma and generously gave gifts to the Brahmins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira",
+        "Pandavas",
+        "Brahmins"
+      ],
+      "action": "Ritual Performance",
+      "deceased": "Bhishma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Together with Dhritarashtra, they made offerings to Bhishma, Karna, and other fallen Kuru warriors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira",
+        "Dhritarashtra",
+        "Pandavas"
+      ],
+      "action": "Funeral Offerings",
+      "deceased": [
+        "Bhishma",
+        "Karna",
+        "Fallen Kuru Warriors"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After giving abundant gifts to the Brahmins, King Yudhishthira (bull among the Pandavas) had Dhritarashtra go ahead and returned to Hastinapura.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira",
+        "Dhritarashtra",
+        "Pandavas"
+      ],
+      "action": "Return Journey",
+      "destination": "Hastinapura"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yudhishthira (whose soul is Dharma) consoled his uncle Dhritarashtra (who has wisdom as his eyes) and continued to rule the kingdom with his brothers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira",
+        "Dhritarashtra",
+        "Pandavas"
+      ],
+      "action": "Consolation and Governance",
+      "relationships": "Nephew (Yudhishthira) consoles uncle (Dhritarashtra)",
+      "governance": "Joint rule with brothers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "This concludes Chapter 14 of the Ashvamedha Parva in the auspicious Mahabharata.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "source": "Mahabharata",
+      "section": "Ashvamedha Parva, Chapter 14"
+    },
+    "_token_interval": null
+  }
+]

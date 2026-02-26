@@ -1,0 +1,974 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti offers to send one of her five sons to deliver offerings to the rakshasa instead of the Brahmin's family.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Brahmin"
+      ],
+      "action": "Offer of protection",
+      "relationships": [
+        "Kunti as protector",
+        "Brahmin as supplicant"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin refuses Kunti's offer, stating he would rather die himself than endanger a Brahmin guest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin"
+      ],
+      "action": "Moral refusal",
+      "reasoning": "Believes killing a Brahmin is the greatest sin, even if unintended"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin expresses willingness to die with his wife rather than consent to harming another Brahmin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin",
+        "Brahmin's wife"
+      ],
+      "action": "Acceptance of death",
+      "relationships": [
+        "Marital bond"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti reassures the Brahmin that her son Bhima (Vayu's son) is invincible against rakshasas and will survive.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Bhima"
+      ],
+      "action": "Revelation of capability",
+      "supernatural_elements": [
+        "Bhima's mastery of mantras and supernatural powers"
+      ],
+      "relationships": [
+        "Mother-son",
+        "Bhima as protector"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti recounts Bhima's past victory over a group of powerful rakshasas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "action": "Past heroic deed",
+      "supernatural_elements": [
+        "Demon-slaying prowess"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti warns the Brahmin to keep this secret to avoid misfortune for her sons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Brahmin"
+      ],
+      "action": "Imposition of secrecy",
+      "reasoning": "Prevent curiosity-seekers from endangering her sons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin and his wife rejoice and thank Kunti for her life-saving words.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin",
+        "Brahmin's wife",
+        "Kunti"
+      ],
+      "action": "Gratitude",
+      "relationships": [
+        "Rescuer-grateful recipients"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti, accompanied by the Brahmin, instructs Bhima to undertake the task, and he agrees.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Brahmin",
+        "Bhima"
+      ],
+      "action": "Mission assignment",
+      "relationships": [
+        "Mother commanding son",
+        "Bhima as obedient warrior"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima promises to undertake a task.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "action": "Promise to undertake a task",
+      "context": "Bhima had previously agreed to do something"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira and the other Pandavas return with alms and notice something is amiss with Bhima.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Other Pandavas"
+      ],
+      "action": "Observation and concern",
+      "relationships": "Yudhishthira is suspicious about Bhima's intentions"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira questions Kunti privately about Bhima's planned action.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Kunti"
+      ],
+      "action": "Private inquiry",
+      "relationships": "Mother-son conversation about another son's safety"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti reveals she commanded Bhima to undertake a dangerous task to help their Brahmin host and save the city.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Bhima"
+      ],
+      "action": "Revelation of command",
+      "motivation": "Repay the Brahmin's hospitality and perform dharma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira expresses strong disapproval, arguing that sacrificing Bhima risks their family's survival and future.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Kunti"
+      ],
+      "action": "Argument against the decision",
+      "concerns": [
+        "Bhima is essential for their protection",
+        "Bhima gives Duryodhana and Shakuni sleepless nights",
+        "Bhima helped them escape the lacquer house and kill Purochana",
+        "Bhima is their hope to regain their kingdom"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti defends her decision by recounting Bhima's extraordinary strength and past feats.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti"
+      ],
+      "action": "Defense of decision",
+      "evidence": [
+        "Bhima killed the rakshasa Hidimba",
+        "Bhima's strength equals ten thousand elephants",
+        "Bhima could defeat even Indra in battle",
+        "As a baby, Bhima fell from her arms and shattered a rock"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti explains her decision was carefully considered and aligns with dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti"
+      ],
+      "action": "Justification",
+      "reasoning": "The action serves dual purposes: repaying their host and fulfilling supreme dharma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yudhishthira (also known as Dharmaraja) recalls teachings from Sage Vyasa about the duties of a Kshatriya (warrior class) and their rewards for helping different social classes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira",
+        "Sage Vyasa"
+      ],
+      "type": "Recollection/Teaching",
+      "relationships": [
+        "Teacher-student (Vyasa taught Yudhishthira)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yudhishthira praises his mother Kunti for her thoughtful plan to help a distressed Brahmin by sending Bhima to kill a man-eating demon.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira",
+        "Kunti"
+      ],
+      "type": "Approval/Planning",
+      "relationships": [
+        "Mother-son"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yudhishthira requests Kunti to discreetly instruct the Brahmin to avoid alerting the city's residents about Bhima's mission.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira",
+        "Kunti"
+      ],
+      "type": "Strategic Instruction",
+      "relationships": [
+        "Mother-son"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "At dawn, Bhima (also known as Vrikodara or Wolf-bellied) takes food and goes to the demon's forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "type": "Journey/Preparation",
+      "relationships": [
+        "Son of Kunti",
+        "Brother of Yudhishthira"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima arrives at the Rakshasa's forest, calls out the demon by name, and begins eating the food.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "type": "Provocation",
+      "action": "Challenging the demon"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Rakshasa (demon) hears Bhima's shouts, becomes enraged, and rushes to confront him with a terrifying appearance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rakshasa (demon)"
+      ],
+      "type": "Response/Confrontation",
+      "supernatural_elements": [
+        "Demon with immense strength and terrifying form"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Rakshasa sees Bhima eating his prepared food, becomes furious, and threatens Bhima with death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rakshasa (demon)",
+        "Bhima"
+      ],
+      "type": "Threat/Conflict Initiation",
+      "relationships": [
+        "Adversaries"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima ignores the Rakshasa's threats, continues eating while smiling slightly, and doesn't look at the demon.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "type": "Defiance/Provocation",
+      "action": "Ignoring the demon's threats"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Rakshasa attacks Bhima from behind with both fists, striking his back forcefully.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rakshasa (demon)",
+        "Bhima"
+      ],
+      "type": "Physical Attack",
+      "action": "Punching from behind"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima continues eating despite the powerful blows, still ignoring the Rakshasa.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "type": "Endurance/Defiance",
+      "action": "Withstanding attack while eating"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The enraged Rakshasa uproots a tree and returns to Bhima, intending to kill him with it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rakshasa (demon)"
+      ],
+      "type": "Escalated Attack",
+      "action": "Using tree as weapon"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima finishes eating, washes his hands, and stands ready to fight the Rakshasa.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "type": "Preparation for Battle",
+      "action": "Completing meal and preparing to fight"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima catches the tree thrown by the Rakshasa with his left hand while smiling.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Rakshasa (demon)"
+      ],
+      "type": "Counterattack",
+      "action": "Catching thrown tree"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Rakshasa continues uprooting and throwing various trees at Bhima, who returns the attacks.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Rakshasa (demon)"
+      ],
+      "type": "Battle Exchange",
+      "action": "Tree-throwing combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima and the Rakshasa Baka engaged in a fierce tree-throwing battle that nearly destroyed all trees on earth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Baka"
+      ],
+      "action": "Battle",
+      "supernatural_elements": "Destruction of trees on earth scale"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Baka attacked Bhima and tightly gripped the mighty Bhima with both arms.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Baka",
+        "Bhima"
+      ],
+      "action": "Physical attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima also tightly embraced the Rakshasa, and they struggled fiercely, causing the earth to tremble and many large trees to be shattered.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Baka"
+      ],
+      "action": "Struggle",
+      "supernatural_elements": "Earth trembling from their battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima saw Baka thrown off balance, knocked him to the ground, and struck him with both fists.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Baka"
+      ],
+      "action": "Attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima pressed his knee against Baka's back, strangled his neck with his right arm, grabbed his waistcloth with his left hand, and broke him in two.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Baka"
+      ],
+      "action": "Killing",
+      "method": "Breaking in two"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Baka died with blood gushing from his mouth, killed by Bhima.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Baka"
+      ],
+      "action": "Death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Baka's terrifying roar caused his subjects to panic and flee their homes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Baka",
+        "Baka's subjects"
+      ],
+      "action": "Panic and flight",
+      "relationship": "Ruler-subjects"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima, the mighty warrior, calmed the terrified and bewildered Rakshasas and established a rule that they must never kill humans again.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Rakshasas"
+      ],
+      "action": "Establishing law",
+      "rule": "Prohibition against killing humans"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Rakshasas accepted Bhima's rule and promised to obey.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rakshasas",
+        "Bhima"
+      ],
+      "action": "Acceptance of rule",
+      "relationship": "Ruler-subjects (Bhima becomes de facto ruler)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "From then on, the Rakshasas in the city became gentle and well-behaved.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rakshasas"
+      ],
+      "action": "Transformation",
+      "change": "From violent to gentle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima took Baka's dead body and threw it near a city gate, then returned unnoticed to the Brahmin's house where he was staying.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Baka"
+      ],
+      "action": "Disposal of body"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima returned to the Brahmin's house and told King Yudhishthira everything that had happened in detail.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Yudhishthira"
+      ],
+      "action": "Reporting",
+      "relationship": "Brothers (Pandavas)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In the morning, people leaving the city discovered Baka's bloody body lying on the ground.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "City people",
+        "Baka"
+      ],
+      "action": "Discovery"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The people returned to Ekachakra city and spread the news that the mountain-sized, terrifying Rakshasa had been destroyed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "City people"
+      ],
+      "action": "News spreading"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Thousands of city residents, men, women, and children, came to see Baka's body.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "City people"
+      ],
+      "action": "Witnessing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing this superhuman feat, the people were amazed and prayed to the gods.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "City people"
+      ],
+      "action": "Prayer",
+      "supernatural_elements": "Prayer to gods"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The people calculated whose turn it was to send food that day, then went to the Brahmin's house to ask for all the details.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "City people",
+        "Brahmin"
+      ],
+      "action": "Inquiry",
+      "context": "Referring to the food tribute system to Baka"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A Brahmin bull (likely referring to a prominent Brahmin sage) was questioned by the citizens about recent events.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin (unnamed sage)",
+        "Citizens"
+      ],
+      "type": "Inquiry/Explanation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin explained that another powerful Brahmin, skilled in mantras, saw him weeping with his family while ordered to deliver a tribute.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin (unnamed sage)",
+        "Powerful Brahmin (unnamed)"
+      ],
+      "action": "Observation and inquiry"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The powerful Brahmin inquired about the cause of the weeping and the city's misfortune, then comforted the first Brahmin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Powerful Brahmin (unnamed)",
+        "Brahmin (unnamed sage)"
+      ],
+      "action": "Comfort and reassurance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The powerful Brahmin declared he would deliver the tribute to the evil-hearted one (Baka) himself, telling the first Brahmin not to worry.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Powerful Brahmin (unnamed)",
+        "Baka"
+      ],
+      "action": "Volunteering for dangerous task"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The powerful Brahmin took the tribute and went to Baka's forest, accomplishing a deed beneficial to all people.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Powerful Brahmin (unnamed)",
+        "Baka"
+      ],
+      "action": "Heroic deed completion",
+      "supernatural_elements": "Implied defeat of demon Baka through Brahmin's power"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "All Brahmins and Kshatriyas were amazed, while Vaishyas and Shudras rejoiced, leading to the establishment of a festival honoring Brahmins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmins",
+        "Kshatriyas",
+        "Vaishyas",
+        "Shudras"
+      ],
+      "action": "Celebration and festival creation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "All villagers came to Ekachakra city to witness the great miracle, while the sons of Pritha (the Pandavas) continued living there.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Villagers",
+        "Pandavas (sons of Pritha/Kunti)"
+      ],
+      "action": "Pilgrimage/witnessing",
+      "relationships": "Reveals Pandavas were present in Ekachakra during these events"
+    },
+    "_token_interval": null
+  }
+]

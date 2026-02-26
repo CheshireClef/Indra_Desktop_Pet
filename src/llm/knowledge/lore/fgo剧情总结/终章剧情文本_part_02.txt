@@ -1,0 +1,300 @@
+これがまた子供に向けられるようなことがあれば[r]わしもムカつくがね。
+[k]
+
+[charaFace C 0]
+
+＠テル
+幸い、今回の相手は違うようだ。
+[k]
+
+[messageOff]
+[charaFadeout C 0.1]
+[wt 0.1]
+
+[cueSe Servants_704600 m55136]
+[effect bit_talk_beam_slash_01]
+[wt 0.3]
+[shake 0.05 2 2 2.2]
+[wt 2.5]
+
+[cueSe Servants_203300 bac1091]
+[charaTalk A]
+[charaFace A 6]
+[charaFadein A 0.4 0,-50]
+
+＠アシュヴァッターマン
+ああそうだよなァ、ムカつくぜ！
+[k]
+
+＠アシュヴァッターマン
+何よりも、なんで俺たちがこんなことを、ってな！
+[k]
+
+[charaFace A 4]
+
+＠アシュヴァッターマン
+だが[line 3]しょうがねぇ。しょうがねぇのさ。
+[k]
+
+[charaFace A 0]
+
+＠アシュヴァッターマン
+それは俺たちがあの神の[#僕:しもべ]、[r][#神将:ローカパーラ]だからじゃねぇ。
+[k]
+
+[messageOff]
+
+[charaTalk A,G]
+[charaMove G 0,320 5.0]
+[charaMove U -100,-100 5.0]
+
+[charaFadein T 0.5 0,-250]
+[subRenderFadein #A 0.5 0,-350]
+[blur lens 0.5 2 5]
+[wt 0.5]
+[charaScale A 1.1]
+
+＠G：アシュヴァッターマン
+俺たちを統べるあの神の始まりに。
+[k]
+
+＠G：アシュヴァッターマン
+全ての神を喰らってまで何かを為そうとした、[r]その意志の根底に。
+[k]
+
+＠G：アシュヴァッターマン
+[#怒りがあっただろうことを]、[r][#今の俺は理解しちまってるからだ]。
+[k]
+
+[messageOff]
+[charaTalk A,G]
+[charaFace A 4]
+[blurOff lens 0.5]
+[subRenderFadeout #A 0.5]
+[charaFadeout T 0.5]
+[wt 0.5]
+[subCameraFilter #A normal]
+[charaMove G 0,-50 0]
+[charaMove U -100,-320 0]
+
+
+＠アシュヴァッターマン
+奴は不条理に、不平等に、現実に、戦争に、哀しみに、[r]強さに、弱さに、他人に、自分に、全てに、怒ったはずだ。
+[k]
+
+[charaFace A 6]
+
+＠アシュヴァッターマン
+そうじゃなきゃ、全ての神を喰らって[r]神になろうなんざ考えるはずねぇ！
+[k]
+
+[charaFace A 0]
+
+＠アシュヴァッターマン
+[line 3]俺は怒りに寄り添うもの。
+[k]
+
+[charaFace A 1]
+
+＠アシュヴァッターマン
+ああ、ああ、いいだろうさ。[r]いろいろ言いてぇことはあるが……
+[k]
+
+[charaFace A 6]
+
+＠アシュヴァッターマン
+こ[messageShake 0.05 5 5 0.3]れが最後だってんなら！[r]俺は、神の怒りにも寄り添ってやるぜ！
+[k]
+
+[messageOff]
+[charaFadeout A 0.1]
+[wt 0.1]
+
+[charaTalk E]
+[charaFace E 0]
+[charaFadein E 0.4 0,-50]
+[wt 0.4]
+
+＠アスクレピオス
+相変わらず暑苦しい男だ。[r]僕は何も変わらない。
+[k]
+
+[charaFace E 5]
+
+＠アスクレピオス
+ただ[line 3][r]切除すべき病巣を切除するだけだ。
+[k]
+
+[charaFace E 1]
+
+＠アスクレピオス
+フン。外側さえあれば中身がなくともよいだと？[r]まったく馬鹿げているな。
+[k]
+
+＠アスクレピオス
+たとえ外見に変化がなくとも、[r]内部で病状が進行していることはある。
+[k]
+
+[charaFace E 2]
+
+＠アスクレピオス
+外側が無事に見えるからいい、と安堵するのは[r]愚患者特有の愚思考だ。さっさと健康診断に行け！
+[k]
+
+[messageOff]
+[charaFadein T 0.4 -50,-270]
+[charaMoveEase T -50,-300 0.4 easeOutSine]
+[wt 0.6]
+[charaTalk F]
+[charaFace F 6]
+[subRenderFadeinFSR #B 0.3 380,-200]
+[subRenderMoveFSR #B 400,-150 0.3]
+[wt 0.3]
+[charaFadeout E 0.1]
+[charaFadeout S 0.1]
+
+＠F：アシュヴァッターマン
+なあオイ、[#神将:ローカパーラ]の力はどうだよ！？
+[k]
+
+＠F：アシュヴァッターマン
+俺の知るアルジュナじゃねぇアルジュナよ！
+[k]
+
+[messageOff]
+[charaTalk B]
+[charaFace B 10]
+[charaFadein B 0.4 -200,-50]
+[wt 0.4]
+
+＠アルジュナ
+口を閉じて、やるべきことをやれ、[r]アシュヴァッターマン。
+[k]
+
+[messageOff]
+[charaMoveEase B 0,-50 1.2 easeOutCubic]
+[charaMoveEase T 50,-300 1.2 easeOutCubic]
+[subRenderMoveEaseFSR #B 700,-150 1.2 easeOutCubic]
+[subRenderFadeout #B 0.5]
+[wt 1.2]
+[charaFace B 4]
+
+＠アルジュナ
+そのようなものは……そうだ。
+[k]
+
+[messageOff]
+
+[charaTalk B,G]
+[charaFace G 4]
+[subRenderFadein #A 0.6 0,0]
+[wt 0.6]
+
+[charaFaceFade G 0 0.3]
+[wt 0.3]
+
+＠G：アルジュナ
+[line 3][#些事:さ　じ]というものだろう。
+[k]
+
+[messageOff]
+[bgmStop BGM_BATTLE_105 1.0]
+[wipeout rectangleStripRightToLeft 0.7 1]
+[wait wipe]
+
+[cameraHome]
+[subRenderFadeout #A 0.1]
+
+[charaFadeout B 0.1]
+[charaFadeout T 0.1]
+[charaFadeout G 0.1]
+[charaLayer G normal]
+
+[charaSet D 3004001 1 カルナ]
+[charaSet E 3030001 1 パールヴァティー]
+[charaSet F 23003001 1 ガネーシャ]
+[charaSet G 1019001 1 ラーマ]
+[charaSet H 1039001 1 ラクシュミー]
+[charaSet I 3058000 1 アショカ王]
+[charaSet J 7046001 1 ドゥリーヨダナ]
+
+[charaSet K 1098154000 1 空想樹の種子]
+[charaSet L 1098154000 1 空想樹の種子]
+[charaSet M 1098154000 1 空想樹の種子]
+[charaSet N 1098154000 1 空想樹の種子]
+[charaSet O 1098154000 1 空想樹の種子]
+
+[charaSet P 1039001 1 ラクシュミー]
+
+
+[charaDepth E 19]
+[charaDepth F 18]
+
+[charaDepth J 12]
+[charaDepth P 11]
+
+
+[charaDepth G 8]
+[charaDepth I 7]
+[charaDepth D 6]
+[charaDepth H 5]
+
+[charaDepth K 5]
+[charaDepth L 4]
+[charaDepth M 3]
+[charaDepth N 2]
+[charaDepth O 1]
+
+[charaScale K 1.0]
+[charaScale L 0.9]
+[charaScale M 0.9]
+[charaScale N 0.8]
+[charaScale O 0.8]
+
+[wt 1.0]
+[wipein rectangleStripLeftToRight 0.7 1]
+[wait wipe]
+
+[bgm BGM_BATTLE_220 0.1]
+
+[charaTalk off]
+[se ad322]
+[charaPut K 0,-50]
+[charaEffect K bit_talk_impactlanding]
+[wt 0.1]
+[se ad815]
+[charaPut N -350,-50]
+[charaEffect N bit_talk_impactlanding]
+[charaPut O 350,-50]
+[charaEffect O bit_talk_impactlanding]
+[shake 0.05 0 3 1.0]
+[wt 1.0]
+[charaFace K 0]
+[charaPut K 0,-50]
+[charaSpecialEffect K appearance 1 0.6]
+[wt 0.1]
+[charaFace L 0]
+[charaPut L -250,-70]
+[charaSpecialEffect L appearance 1 0.6]
+[charaFace M 0]
+[charaPut M 250,-70]
+[charaSpecialEffect M appearance 1 0.6]
+[wt 0.1]
+[charaFace N 0]
+[charaPut N -500,-100]
+[charaSpecialEffect N appearance 1 0.6]
+[charaFace O 0]
+[charaPut O 500,-100]
+[charaSpecialEffect O appearance 1 0.6]
+[se ad1043]
+[wt 2.0]
+
+[se ad788]
+[wt 0.5]
+[charaFace F 2]
+[charaFadein S 0.4 0,-250]
+[charaMove S 100,-250 0.6]
+[wt 0.6]
+[charaFadein F 0.4 -300,-50]
+[charaMove F -150,-50 0.6]
+[seStop ad788 0.8]

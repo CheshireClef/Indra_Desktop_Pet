@@ -1,0 +1,1649 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya narrates to Dhritarashtra about Drona's death and events leading to it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Dhritarashtra"
+      ],
+      "type": "Narration",
+      "context": "Sanjaya recounts the battle events to blind King Dhritarashtra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona becomes commander of the Kaurava army after Bhishma's fall.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Duryodhana"
+      ],
+      "action": "Appointment",
+      "relationship": "Teacher-student (Drona taught both Pandavas and Kauravas)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana asks Drona to capture Yudhishthira alive instead of killing him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Drona",
+        "Karna",
+        "Dushasana"
+      ],
+      "action": "Request",
+      "motivation": "Duryodhana wants to defeat Yudhishthira through dice game again rather than kill him"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona expresses surprise at Duryodhana's request to spare Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Duryodhana",
+        "Yudhishthira"
+      ],
+      "type": "Dialogue",
+      "observation": "Drona notes Yudhishthira has no enemies, not even Duryodhana truly hates him"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana explains his reasoning: killing Yudhishthira would cause Arjuna to destroy all Kauravas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Drona",
+        "Yudhishthira",
+        "Arjuna"
+      ],
+      "reasoning": "Arjuna would annihilate Kauravas if Yudhishthira is killed; better to capture and defeat through dice",
+      "relationship": "Brotherly bond between Arjuna and Yudhishthira"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona agrees to capture Yudhishthira on condition that Arjuna isn't protecting him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Duryodhana",
+        "Arjuna",
+        "Yudhishthira"
+      ],
+      "condition": "Only possible if Arjuna isn't defending Yudhishthira",
+      "acknowledgment": "Drona admits even gods couldn't defeat Arjuna in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona praises Arjuna's skills and determination.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Arjuna"
+      ],
+      "type": "Recognition",
+      "relationship": "Teacher-student (Drona taught Arjuna archery)",
+      "supernatural_element": "Drona claims even Indra with gods and asuras couldn't defeat Arjuna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona obtained many weapons from Indra and Rudra and was provoked by Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Indra",
+        "Rudra",
+        "Duryodhana"
+      ],
+      "action": "Weapon acquisition and provocation",
+      "relationships": "Duryodhana provokes Drona to act against the Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona promised to capture Yudhishthira if Arjuna could be drawn away from the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Yudhishthira",
+        "Arjuna"
+      ],
+      "action": "Conditional promise",
+      "relationships": "Drona sets condition for capturing Yudhishthira"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana communicated the plan to capture Yudhishthira to all his armies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Yudhishthira"
+      ],
+      "action": "Strategy dissemination",
+      "relationships": "Duryodhana organizes forces to capture Yudhishthira"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira learned about Drona's intention through his spies and gathered his brothers and armies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Drona",
+        "Arjuna",
+        "Pandava brothers"
+      ],
+      "action": "Intelligence gathering and council",
+      "relationships": "Yudhishthira seeks Arjuna's protection against Drona"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna vowed to protect Yudhishthira from Drona, refusing to either kill his teacher or abandon his brother.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Yudhishthira",
+        "Drona"
+      ],
+      "action": "Protection vow",
+      "relationships": "Arjuna pledges unwavering protection of Yudhishthira",
+      "supernatural_elements": "Arjuna claims even Indra with all gods and demons couldn't capture Yudhishthira while he's alive"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya narrated the beginning of the battle between the Pandavas and the Kauravas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Pandavas",
+        "Kauravas"
+      ],
+      "action": "Narration of battle commencement",
+      "relationships": [
+        "Sanjaya is the narrator to King Dhritarashtra",
+        "Pandavas vs. Kauravas as opposing armies"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Both armies sounded their conches, drums, and made loud noises as they approached each other for battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Kauravas"
+      ],
+      "action": "Battle preparation and engagement",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A fierce battle began between the Pandavas and the Kauravas, specifically between Drona and Dhrishtadyumna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Dhrishtadyumna",
+        "Pandavas",
+        "Kauravas"
+      ],
+      "action": "Combat initiation",
+      "relationships": [
+        "Drona (Kaurava commander) vs. Dhrishtadyumna (Pandava commander)",
+        "Dhrishtadyumna is the prince of Panchala"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Srinjayas fought fiercely but could not break through Drona's army, which was well-protected by Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Srinjayas",
+        "Drona"
+      ],
+      "action": "Failed assault",
+      "relationships": [
+        "Srinjayas are allies of the Pandavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Kaurava warriors could not break through the Pandava army, which was protected by Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kaurava warriors",
+        "Arjuna",
+        "Pandavas"
+      ],
+      "action": "Stalemate in battle",
+      "relationships": [
+        "Arjuna is a Pandava prince and key warrior"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona charged out in his golden chariot, creating havoc in the enemy ranks and appearing as multiple chariots to the terrified Pandavas and Srinjayas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Pandavas",
+        "Srinjayas"
+      ],
+      "action": "Devastating charge",
+      "supernatural_elements": "Illusion of multiple chariots"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona shot terrible arrows in all directions, causing panic in the Pandava army, who were too afraid to look at him directly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Pandavas"
+      ],
+      "action": "Psychological warfare and archery",
+      "relationships": [
+        "Drona as a fearsome warrior"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona terrified the enemy and then swiftly attacked Dhrishtadyumna's army with sharp arrows, destroying Pandava forces wherever Dhrishtadyumna was.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Dhrishtadyumna",
+        "Pandavas"
+      ],
+      "action": "Targeted assault",
+      "relationships": [
+        "Drona specifically targets Dhrishtadyumna's forces"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona threw the Pandava army into confusion, destroying them like fire consumes dry grass, causing the Srinjayas to tremble.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Pandavas",
+        "Srinjayas"
+      ],
+      "action": "Mass destruction",
+      "supernatural_elements": "Comparison to destructive natural forces"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona, skilled and swift, shot terrible arrows that struck down charioteers, cavalry, infantry, elephants, and horses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Widespread carnage",
+      "relationships": [
+        "Drona as a master warrior"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona moved back and forth, increasing enemy fear to unbearable levels, with his chariot like a cloud and his golden bow flashing like lightning.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Continuous assault",
+      "supernatural_elements": "Meteorological comparisons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona, described as heroic, wise, righteous, and valiant, seemed to unleash a river of terror as if the end of an era had come.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Climactic destruction",
+      "supernatural_elements": "Apocalyptic imagery"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona's anger creates a metaphorical river of battle filled with carnage, described through vivid imagery of blood, weapons, and fallen warriors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "type": "Metaphorical Description",
+      "supernatural_elements": "Symbolic river representing battlefield carnage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona kills hundreds of enemies with arrows, sending them to the ancestral world through this river of battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "action": "Mass killing in battle",
+      "result": "Enemies sent to afterlife"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Warriors led by Yudhishthira surround Drona from all directions for attack.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Drona"
+      ],
+      "action": "Surrounding attack",
+      "relationship": "Opponents in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shakuni attacks Nakula with arrows, targeting his charioteer, banner, and chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shakuni",
+        "Nakula"
+      ],
+      "action": "Archery attack",
+      "relationship": "Opponents in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula counters Shakuni by shooting down his banner and charioteer, breaking his bow, and shooting sixty arrows at his maternal uncle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Shakuni"
+      ],
+      "action": "Counterattack",
+      "relationship": "Nephew attacking maternal uncle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shakuni grabs a mace, jumps from his chariot, and strikes down Nakula's charioteer with the mace.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shakuni",
+        "Nakula"
+      ],
+      "action": "Mace combat",
+      "result": "Nakula's charioteer killed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shakuni and Nakula engage in mace combat on foot, described as two mighty mountains playing.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shakuni",
+        "Nakula"
+      ],
+      "action": "Hand-to-hand combat",
+      "type": "Mace duel"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona exchanges arrows with King of Panchala (Drupada), shooting ten arrows then one hundred arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Drupada"
+      ],
+      "action": "Archery duel",
+      "relationship": "Former teacher-student, now opponents"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima shoots twenty sharp arrows at Vivimshati, who remains unmoved, creating a miracle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Vivimshati"
+      ],
+      "action": "Archery attack",
+      "result": "Vivimshati unharmed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vivimshati strips Bhima of his horses, banner, and bow, earning admiration from all soldiers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vivimshati",
+        "Bhima"
+      ],
+      "action": "Disarming opponent",
+      "result": "Bhima disarmed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima retaliates by using his mace to strike down all trained horses, refusing to accept defeat.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "action": "Mace attack",
+      "result": "Horses killed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Shalya laughingly shoots arrows at his dear nephew Nakula as if joking, provoking his anger.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Nakula"
+      ],
+      "action": "Provocative attack",
+      "relationship": "Maternal uncle attacking nephew",
+      "tone": "Mocking/joking"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula counters by striking down Shalya's horses, canopy, flag, charioteer, and bow, then blows his conch.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Shalya"
+      ],
+      "action": "Comprehensive counterattack",
+      "result": "Shalya's equipment destroyed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhrishtaketu breaks many of Kripa's arrows, shoots seventy arrows at him, and shoots down his banner with three arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtaketu",
+        "Kripa"
+      ],
+      "action": "Archery exchange",
+      "result": "Kripa's banner destroyed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona (慈悯) showered dense arrow rain at Bahlika (勇旗) and engaged him in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Bahlika"
+      ],
+      "action": "Battle engagement",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki (萨谛奇) laughed and shot an iron arrow at Shalya's (成铠) chest, then fired seventy more arrows at him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Shalya"
+      ],
+      "action": "Arrow attack",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya (安乐王/成铠) retaliated by hitting Satyaki with seventy-seven sharp arrows, but Satyaki remained unmoved like a mountain.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Satyaki"
+      ],
+      "action": "Counterattack",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Durmukha (军主) quickly struck Shikhandin (善佑) in vital spots, and Shikhandin pierced Durmukha's collarbone with a spear.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Durmukha",
+        "Shikhandin"
+      ],
+      "action": "Mutual combat",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Virata (毗罗吒) and the brave Matsya warriors miraculously resisted Karna (迦尔纳), son of Surya.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Virata",
+        "Karna",
+        "Matsya warriors"
+      ],
+      "action": "Resistance",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna (车夫之子) bravely and fiercely resisted the entire army with countless arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "action": "Army resistance",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drupada (木柱王) personally confronted Bhurishrava (福授), creating a spectacular battle scene that shocked all beings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drupada",
+        "Bhurishrava"
+      ],
+      "action": "Personal confrontation",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shrutayu (广声) covered the great warrior Shikhandin (祭军之子/束发) with dense arrow rain on the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shrutayu",
+        "Shikhandin"
+      ],
+      "action": "Arrow attack",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandin (束发) became furious and shot ninety arrows that made Shrutayu's son (月授之子/广生) tremble.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Shrutayu's son"
+      ],
+      "action": "Retaliatory attack",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Hidimba (希丁波) and Anjanaparvan (指掌), two Rakshasas with terrible achievements, engaged in a miraculous battle trying to kill each other.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hidimba",
+        "Anjanaparvan"
+      ],
+      "action": "Rakshasa battle",
+      "type": "Supernatural combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The two Rakshasas displayed hundreds of illusions, competing with each other in magic, appearing and disappearing, astonishing everyone.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hidimba",
+        "Anjanaparvan"
+      ],
+      "action": "Illusion display",
+      "type": "Supernatural"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pradyumna (显光) confronted Anuvinda (阿奴文陀) in a fierce and terrible battle, like the fight between Indra and Bala during the war between Devas and Asuras.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pradyumna",
+        "Anuvinda"
+      ],
+      "action": "Fierce confrontation",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Lakshmana (罗奇蛮) and Satyaki (武天) engaged in a terrible fight, like the battle between Vishnu and Hiranyaksha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Lakshmana",
+        "Satyaki"
+      ],
+      "action": "Terrible combat",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhurishrava's son (布卢子) charged toward Abhimanyu (激昂) with fast horses and a well-equipped chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhurishrava's son",
+        "Abhimanyu"
+      ],
+      "action": "Charge",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhurishrava's son (布卢子) quickly approached Abhimanyu, eager to fight him, and Abhimanyu engaged him in a great battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhurishrava's son",
+        "Abhimanyu"
+      ],
+      "action": "Battle engagement",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhurishrava's son showered arrow rain at Abhimanyu (妙贤之子), and Abhimanyu (阿周那之子) shot down his flag, canopy, and bow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhurishrava's son",
+        "Abhimanyu"
+      ],
+      "action": "Mutual arrow attacks",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Abhimanyu (妙贤之子) hit Bhurishrava's son with seven fast arrows and shot five arrows at his horses and charioteer.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Abhimanyu",
+        "Bhurishrava's son"
+      ],
+      "action": "Precise attacks",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Abhimanyu repeatedly roared like a lion to encourage his army and quickly drew a deadly arrow to kill Bhurishrava's son.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Abhimanyu"
+      ],
+      "action": "Encouragement and preparation",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya (诃利迪迦之子/成铠) shot two arrows that broke Abhimanyu's bow while he had an arrow ready to shoot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Abhimanyu"
+      ],
+      "action": "Bow destruction",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Abhimanyu (诛灭敌雄的妙贤之子) threw away his broken bow, picked up a bright sword and shield, and displayed his heroism by changing paths flexibly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 20,
+    "group_index": 19,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Abhimanyu"
+      ],
+      "action": "Weapon change and display",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Abhimanyu moved left, right, low, and high, making his sword and shield attacks and defenses indistinguishable.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 21,
+    "group_index": 20,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Abhimanyu"
+      ],
+      "action": "Acrobatic combat",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Abhimanyu leaped with a roar onto Bhurishrava's son's chariot pole, stood on his chariot, and grabbed his hair.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 22,
+    "group_index": 21,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Abhimanyu",
+        "Bhurishrava's son"
+      ],
+      "action": "Close combat engagement",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Abhimanyu kicked Bhurishrava's son's charioteer to death, cut his flagpole with his sword, and lifted Bhurishrava's son like Garuda seizing a great snake and disturbing the ocean.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 23,
+    "group_index": 22,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Abhimanyu",
+        "Bhurishrava's son"
+      ],
+      "action": "Final assault and capture",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "众国王目睹布卢子被抓住头发，如同一头雄牛被雄狮击倒而失去知觉。",
+    "char_interval": {
+      "start_pos": 4934,
+      "end_pos": 4965
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "布卢子",
+        "激昂"
+      ],
+      "action": "Capture and incapacitation",
+      "description": "Bhurishrava is captured by Abhimanyu and rendered unconscious."
+    },
+    "_token_interval": {
+      "start_index": 1322,
+      "end_index": 1326
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "信度王胜车目睹布卢子落入激昂之手，忍无可忍，拿起盾牌和大刀从战车上跳下。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "胜车",
+        "布卢子",
+        "激昂"
+      ],
+      "action": "Intervention",
+      "motivation": "To rescue Bhurishrava from Abhimanyu",
+      "relationship": "Sindhu king intervenes to save ally"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "激昂抛下布卢子，从战车上飞身落地迎战胜车。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "激昂",
+        "胜车"
+      ],
+      "action": "Combat engagement",
+      "description": "Abhimanyu abandons Bhurishrava to face Shalya in direct combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "激昂与胜车展开激烈的刀盾战斗，双方难分胜负。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "激昂",
+        "胜车"
+      ],
+      "action": "Intense combat",
+      "description": "Fierce sword and shield battle between Abhimanyu and Shalya",
+      "supernatural_elements": "Compared to tiger vs lion, winged mountains"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "胜车的大刀扎入激昂的金盾牌中，刀断后胜车跳回自己的战车。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "胜车",
+        "激昂"
+      ],
+      "action": "Weapon break and retreat",
+      "description": "Shalya's sword breaks in Abhimanyu's shield, forcing him to retreat to his chariot"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "激昂也退回战车，但被众国王从四面八方围堵。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "激昂",
+        "众国王"
+      ],
+      "action": "Surround and encirclement",
+      "description": "Abhimanyu is surrounded by multiple kings after returning to his chariot"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "激昂放弃胜车，开始攻击胜车的军队。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "激昂",
+        "胜车"
+      ],
+      "action": "Change of target",
+      "description": "Abhimanyu shifts from fighting Shalya to attacking his army instead"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "沙利耶向激昂投掷镶金铁标枪，激昂跳开并擒住标枪。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "沙利耶",
+        "激昂"
+      ],
+      "action": "Weapon catch",
+      "description": "Shalya throws a golden-iron spear at Abhimanyu, who catches it mid-air",
+      "supernatural_elements": "Compared to Garuda catching a falling snake"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "激昂将沙利耶的标枪投回，击中沙利耶的战车并杀死其车夫。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "激昂",
+        "沙利耶"
+      ],
+      "action": "Counter-attack",
+      "description": "Abhimanyu returns Shalya's spear, hitting his chariot and killing his charioteer"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pandava allies cheer for激昂's victory. Duryodhana's sons cannot tolerate this and order arrows to be showered on激昂 from all sides.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "激昂",
+        "Pandava allies",
+        "Duryodhana's sons"
+      ],
+      "action": "Reactions and escalation",
+      "description": "Pandavas celebrate Abhimanyu's success, while Kauravas respond with coordinated arrow attack",
+      "relationships": "Clear division between Pandava and Kaurava factions"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya, enraged by the death of his charioteer and seeking revenge for his sons, charges toward Abhimanyu.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Abhimanyu"
+      ],
+      "action": "Charge/Attack",
+      "reason": "Revenge for charioteer's death and for his sons",
+      "context": "Battlefield conflict"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra expresses envy for those with eyes who can witness the battles and asks Sanjaya to describe the duel between Abhimanyu and Shalya.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Sanjaya",
+        "Abhimanyu",
+        "Shalya"
+      ],
+      "action": "Request for narration",
+      "context": "Dialogue between Dhritarashtra and Sanjaya"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya, seeing his charioteer dead, grabs his iron mace, roars angrily, and jumps from his chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya"
+      ],
+      "action": "Angry dismount and preparation for battle",
+      "reason": "Charioteer's death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima, gripping his large iron mace, quickly charges toward Shalya to intercept him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Shalya"
+      ],
+      "action": "Interception/Charge",
+      "context": "Battlefield intervention"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Abhimanyu picks up his thunder-like mace and challenges Shalya, but Bhima restrains him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Abhimanyu",
+        "Shalya",
+        "Bhima"
+      ],
+      "action": "Challenge and restraint",
+      "context": "Bhima prevents Abhimanyu from engaging Shalya"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima, after restraining Abhimanyu, confronts Shalya aggressively on the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Shalya"
+      ],
+      "action": "Confrontation",
+      "context": "Direct combat engagement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya quickly attacks Bhima, likened to a tiger attacking an elephant.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Bhima"
+      ],
+      "action": "Attack",
+      "context": "Intense combat begins"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A grand battle ensues between Shalya and Bhima with music, conches, roars, and drums, witnessed by hundreds from both Kuru and Pandava sides.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Bhima",
+        "Kurus",
+        "Pandavas"
+      ],
+      "action": "Epic duel",
+      "context": "Climactic battlefield spectacle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya's mace is shattered by Bhima's strike, emitting sparks.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Bhima"
+      ],
+      "action": "Weapon destruction",
+      "context": "Combat exchange"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima's mace is hit by Shalya, scattering light like fireflies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Shalya"
+      ],
+      "action": "Weapon impact",
+      "context": "Reciprocal attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Both warriors are struck by mace blows, bleeding profusely, compared to flowering trees.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Bhima"
+      ],
+      "action": "Mutual injury",
+      "context": "Intense combat conclusion"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya and Bhima engaged in a fierce mace duel, striking each other with tremendous force.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Bhima"
+      ],
+      "action": "Mace duel",
+      "description": "Their maces clashed like Indra's thunderbolt. Both warriors struck each other powerfully but remained standing initially."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Both Shalya and Bhima were simultaneously struck down by heavy mace blows and fell to the ground.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Bhima"
+      ],
+      "action": "Mutual knockdown",
+      "description": "Due to the extreme force of their attacks, both heroes fell to the ground together."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya was left trembling, gasping for breath, and disoriented on the ground.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya"
+      ],
+      "action": "Incapacitation",
+      "description": "Shalya was severely injured and confused, writhing like a snake."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki quickly came to Shalya's aid, lifted him with his mace onto a chariot, and carried him away from the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Shalya"
+      ],
+      "action": "Rescue/retreat",
+      "relationship": "Ally rescuing ally",
+      "description": "Satyaki rescued the incapacitated Shalya by carrying him off the battlefield."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima staggered but quickly stood up again, still holding his mace.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "action": "Recovery",
+      "description": "Bhima recovered from the knockdown and remained ready to fight."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing Shalya carried away, the Kaurava army (Duryodhana's forces) became demoralized and began to flee in panic.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana's army"
+      ],
+      "action": "Rout/retreat",
+      "description": "The Kaurava forces lost heart and scattered like clouds driven by wind when they saw Shalya's defeat."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandava warriors defeated Duryodhana's forces and celebrated their victory with roars, conch shells, and drums.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava army",
+        "Duryodhana's army"
+      ],
+      "action": "Victory celebration",
+      "description": "The Pandavas triumphed, shining brightly on the battlefield, and celebrated with great joy."
+    },
+    "_token_interval": null
+  }
+]

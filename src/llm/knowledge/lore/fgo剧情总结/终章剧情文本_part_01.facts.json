@@ -1,0 +1,210 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Scene setup with multiple characters appearing on stage",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthaman",
+        "Arjuna",
+        "Tepeu",
+        "Nezha",
+        "Asclepius",
+        "Ashvatthaman (effect)",
+        "Arjuna (effect)",
+        "Ashvatthaman (effect)"
+      ],
+      "action": "Character deployment",
+      "type": "Stage direction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Three Fantasy Tree Seeds appear on stage",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Fantasy Tree Seed",
+        "Fantasy Tree Seed",
+        "Fantasy Tree Seed"
+      ],
+      "action": "Summoning/Appearance",
+      "type": "Supernatural element"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Visual effects and scene transitions are configured",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "elements": [
+        "Black fade effects",
+        "Multiple scene backgrounds",
+        "Character scaling",
+        "Sub-camera setup",
+        "Render depth layers",
+        "Camera filters"
+      ],
+      "action": "Technical setup",
+      "type": "Production direction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthaman and Arjuna are positioned on separate render layers with special effects",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthaman",
+        "Arjuna"
+      ],
+      "action": "Visual separation",
+      "type": "Cinematic effect",
+      "relationships": [
+        "Ashvatthaman and Arjuna are positioned as opposing figures in separate visual layers"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The provided text contains technical scene direction commands and character positioning instructions rather than narrative content.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Technical Scene Setup",
+      "note": "The text consists of visual novel/game engine commands (charaDepth, charaFadein, charaLayer, charaScale, scene, overlayFadein, se, seVolume, fadein, wait) for positioning characters and controlling visual effects. No narrative events, characters, or relationships can be extracted from these technical instructions."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A Navigator detects an enemy object with internal functions and autonomous thinking, not recognized as a hollow structure.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Navigator"
+      ],
+      "action": "Detection/Analysis",
+      "supernatural_elements": "Enemy object with autonomous thinking, hollow structure reference"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Navigator identifies the enemy as 'Empty Fantasy Tree Spiral' and references a 'Belt Making' policy involving reduction/discard and loop revolution.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Navigator"
+      ],
+      "action": "Identification/Classification",
+      "supernatural_elements": "Empty Fantasy Tree Spiral, Belt Making policy, loop revolution"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Navigator orders elimination of the enemy object following strict destruction protocols.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Navigator"
+      ],
+      "action": "Order/Elimination",
+      "supernatural_elements": "Strict destruction protocols"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Multiple characters (I, J, K, S) appear on screen with visual effects and battle music begins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Character I",
+        "Character J",
+        "Character K",
+        "Character S"
+      ],
+      "action": "Appearance/Deployment",
+      "type": "Battle Preparation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Character K unleashes a fire wall attack against the enemy object.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Character K"
+      ],
+      "action": "Attack/Combat",
+      "supernatural_elements": "Fire wall attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nezha reluctantly uses Kubera's power, expressing frustration.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nezha",
+        "Kubera"
+      ],
+      "action": "Power usage",
+      "type": "Supernatural/Divine intervention",
+      "relationship": "Nezha possesses Kubera's power but dislikes using it"
+    },
+    "_token_interval": null
+  }
+]

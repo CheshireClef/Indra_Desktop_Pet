@@ -1,0 +1,604 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna asks Jarasandha to choose which of the three Pandavas he wishes to fight.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Jarasandha"
+      ],
+      "action": "Challenge/Question",
+      "context": "Pre-battle dialogue"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Jarasandha chooses Bhima as his opponent.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jarasandha",
+        "Bhima"
+      ],
+      "action": "Selection of opponent",
+      "reason": "Jarasandha prefers fighting a strong warrior"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Jarasandha's priest prepares him for battle with medicinal herbs and Brahmin recitations.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jarasandha",
+        "Priest (unnamed)"
+      ],
+      "action": "Ritual preparation",
+      "type": "Pre-battle ritual"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna performs recitations for Bhima's preparation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Bhima"
+      ],
+      "action": "Ritual blessing",
+      "relationship": "Krishna supports Bhima"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Jarasandha and Bhima engage in a fierce wrestling match lasting thirteen days and nights.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jarasandha",
+        "Bhima"
+      ],
+      "action": "Extended combat",
+      "duration": "13 days and nights",
+      "comparison": "Compared to Indra vs. Vritra battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "On the fourteenth night, Jarasandha becomes exhausted while Bhima remains energetic.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jarasandha",
+        "Bhima"
+      ],
+      "action": "Fatigue sets in",
+      "turning_point": "Jarasandha weakens"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna advises Bhima to exploit Jarasandha's exhaustion and kill him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Bhima"
+      ],
+      "action": "Strategic advice",
+      "reason": "Exhausted enemy is vulnerable",
+      "relationship": "Krishna guides Bhima"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima seizes the opportunity, attacks Jarasandha, and prepares to kill him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Jarasandha"
+      ],
+      "action": "Final assault",
+      "outcome": "Jarasandha's defeat imminent"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima wanted to kill Jarasandha and spoke to Krishna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Krishna",
+        "Jarasandha"
+      ],
+      "action": "Conversation about killing Jarasandha"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna encouraged Bhima to kill Jarasandha, praising his strength.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Bhima"
+      ],
+      "action": "Encouragement to fight"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima lifted Jarasandha, spun him 100 times in the air, and threw him down, breaking his back.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Jarasandha"
+      ],
+      "action": "Combat and killing",
+      "supernatural_elements": "Bhima's immense strength (son of Vayu)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The screams of Jarasandha and Bhima terrified all beings and caused miscarriages among pregnant women.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Jarasandha"
+      ],
+      "action": "Aftermath of battle",
+      "effects": "Widespread terror and miscarriages"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna, Bhima, and Arjuna left Jarasandha's body at the palace gate and went to rescue imprisoned kings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Bhima",
+        "Arjuna"
+      ],
+      "action": "Rescue mission",
+      "relationships": "Krishna (cousin/friend of Pandavas), Bhima and Arjuna (brothers)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna took Jarasandha's chariot, which had divine origins and was previously used by Indra and Vishnu.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Indra",
+        "Vishnu"
+      ],
+      "action": "Acquisition of divine chariot",
+      "supernatural_elements": "Divine chariot with history of use by gods"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The divine chariot, now with Krishna, Bhima, and Arjuna, was magnificent and feared by enemies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Bhima",
+        "Arjuna"
+      ],
+      "action": "Travel in divine chariot",
+      "supernatural_elements": "Chariot's divine attributes and appearance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Garuda (the eagle) arrived and perched on the chariot when Krishna thought of him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Garuda"
+      ],
+      "action": "Divine summoning",
+      "supernatural_elements": "Garuda's appearance and association with Krishna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna, Bhima, and Arjuna depart from Girivraja in a divine chariot that originally belonged to Vasava (Indra), passed to Vasu, then to Jarasandha, and now to Krishna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Bhima",
+        "Arjuna"
+      ],
+      "action": "Departure",
+      "supernatural_elements": [
+        "Divine chariot with history from Indra"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rescued kings, including those imprisoned by Jarasandha, honor Krishna and offer their service.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Rescued Kings"
+      ],
+      "action": "Gratitude and pledge of service",
+      "relationships": [
+        "Krishna as liberator of kings"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna instructs the rescued kings to help Yudhishthira perform the Rajasuya sacrifice to attain imperial sovereignty.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira",
+        "Rescued Kings"
+      ],
+      "action": "Instruction for Rajasuya sacrifice",
+      "relationships": [
+        "Krishna supports Yudhishthira's ambition"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sahadeva, son of Jarasandha, approaches Krishna humbly with offerings and is anointed as king by Krishna, relieving his fears.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Sahadeva (son of Jarasandha)"
+      ],
+      "action": "Anointment and reassurance",
+      "relationships": [
+        "Krishna establishes Sahadeva as successor to Jarasandha"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna, Bhima, and Arjuna return to Indraprastha with treasures and report Jarasandha's defeat and the rescue of kings to Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Bhima",
+        "Arjuna",
+        "Yudhishthira"
+      ],
+      "action": "Return and report victory",
+      "relationships": [
+        "Pandava brothers reunite"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira honors Krishna and embraces Bhima and Arjuna, then shares the victory joy with his brothers and properly hosts the visiting kings before sending them off.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Krishna",
+        "Bhima",
+        "Arjuna",
+        "Other Pandavas",
+        "Visiting Kings"
+      ],
+      "action": "Celebration and hospitality",
+      "relationships": [
+        "Yudhishthira as grateful host and brother"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The kings happily bid farewell to King Yudhishthira, boarded their vehicles, and quickly departed for their respective kingdoms.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira",
+        "Various Kings"
+      ],
+      "action": "Departure after meeting",
+      "relationships": [
+        "King Yudhishthira as host to various kings"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna, along with the Pandavas, killed their enemy Jarasandha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Jarasandha"
+      ],
+      "action": "Killing of enemy",
+      "relationships": [
+        "Krishna and Pandavas as allies against Jarasandha"
+      ],
+      "supernatural_elements": "Krishna described as wise and tiger among men"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna bid farewell to King Yudhishthira, Kunti, Draupadi, Subhadra, Bhima, Arjuna, Nakula, Sahadeva, and Sage Upamanyu before returning to his own capital.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira",
+        "Kunti",
+        "Draupadi",
+        "Subhadra",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Sage Upamanyu"
+      ],
+      "action": "Departure and farewells",
+      "relationships": [
+        "Krishna as guest/friend of Pandavas and their family"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna departed in a jeweled chariot gifted by King Yudhishthira, shining like the morning sun with sounds reaching all directions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira"
+      ],
+      "action": "Majestic departure",
+      "relationships": [
+        "Yudhishthira as gift-giver to Krishna"
+      ],
+      "supernatural_elements": "Chariot described with divine qualities"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The five Pandavas, led by Yudhishthira, performed the ritual circumambulation around Krishna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Krishna"
+      ],
+      "action": "Ritual honor",
+      "relationships": [
+        "Pandavas showing reverence to Krishna"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna, son of Devaki, achieved great victory, removed the kings' fears, and departed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "action": "Victory and departure",
+      "supernatural_elements": "Krishna described as Bhagavan (the Lord)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Due to Krishna's achievement, the Pandavas' prestige increased greatly and Draupadi, daughter of King Drupada, became extremely happy.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Draupadi",
+        "King Drupada"
+      ],
+      "action": "Increased prestige and happiness",
+      "relationships": [
+        "Krishna's actions benefiting Pandavas and Draupadi",
+        "Draupadi as wife of Pandavas and daughter of Drupada"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "During this period, King Yudhishthira, renowned for governance, performed all matters related to dharma, artha, and kama according to law.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Righteous governance",
+      "relationships": [
+        "Yudhishthira as righteous king"
+      ]
+    },
+    "_token_interval": null
+  }
+]

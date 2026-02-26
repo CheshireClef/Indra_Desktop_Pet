@@ -1,0 +1,882 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Bhishma about the benefits of praising and worshipping Brahmins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Question",
+      "relationship": "Grandson asks grandfather for wisdom"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma states that Krishna can comprehensively explain the rewards of worshipping Brahmins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Krishna"
+      ],
+      "type": "Deferral",
+      "relationship": "Bhishma acknowledges Krishna's superior wisdom"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma describes his declining physical and mental faculties and expresses readiness for death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Declaration",
+      "action": "Acknowledges impending death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma summarizes his teachings on fundamental duties of Brahmins, Kshatriyas, and Vaishyas, and advises Yudhishthira to consult Krishna for remaining questions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Yudhishthira",
+        "Krishna"
+      ],
+      "type": "Instruction",
+      "relationship": "Bhishma passes spiritual authority to Krishna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma praises Krishna's divine nature and cosmic powers, describing him as the creator of earth, sky, and heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Krishna"
+      ],
+      "type": "Divine Revelation",
+      "supernatural_elements": [
+        "Krishna as cosmic creator"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma describes Krishna's manifestation as the boar that lifted the earth from sinking, establishing the cosmos.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "type": "Divine Intervention",
+      "supernatural_elements": [
+        "Varaha avatar (boar incarnation)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma explains Krishna's role in creation: a lotus from his navel gave birth to Brahma, who dispelled primordial darkness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Brahma"
+      ],
+      "type": "Cosmic Creation",
+      "relationship": "Krishna as source of Brahma",
+      "supernatural_elements": [
+        "Lotus birth from navel"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma describes Krishna's manifestations across four Yugas: as Dharma in Satya Yuga, knowledge in Treta Yuga, power in Dwapara Yuga, and adharma in Kali Yuga.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "type": "Divine Manifestation",
+      "supernatural_elements": [
+        "Embodiment of cosmic principles across ages"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma declares Krishna as the primordial god who kills demons, protects the universe, and incarnates when dharma declines.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "type": "Divine Mission",
+      "supernatural_elements": [
+        "Destroyer of asuras",
+        "Protector of dharma"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma describes Krishna as the cause of all actions, taking various forms including deities, Soma, and Indra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "type": "Divine Nature",
+      "supernatural_elements": [
+        "Shape-shifting divinity",
+        "Embodiment of all actions"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma concludes by describing Krishna's glorious attributes and his celestial entourage of Gandharvas, Apsaras, and hundreds of gods.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "type": "Divine Glory",
+      "supernatural_elements": [
+        "Celestial attendants"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "He is surrounded by Rakshasas and is the maintainer of health and the sole conqueror.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu (referred to as 'He')"
+      ],
+      "action": "Being surrounded and maintaining health",
+      "supernatural_elements": [
+        "Rakshasas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In sacrifices, reciters, Saman singers, Brahmins, and sacrificers praise him with hymns, chants, Vedic mantras, and offerings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu"
+      ],
+      "action": "Being praised in sacrifices",
+      "relationships": [
+        "Worshipped by reciters, Saman singers, Brahmins, sacrificers"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "He enters the ancient Brahma cave, observes the primordial earth sacrifice, drives away Daityas, snakes, and Danavas, saves the earth, and is foremost in merit in the universe.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu"
+      ],
+      "action": "Entering cave, observing sacrifice, driving away demons, saving earth",
+      "supernatural_elements": [
+        "Brahma cave",
+        "Daityas",
+        "snakes",
+        "Danavas"
+      ],
+      "relationships": [
+        "Protector of earth"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "People offer him abundant food, warriors offer him various vehicles, and as eternal existence, he controls sky, earth, heaven, and everything in the universe.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu"
+      ],
+      "action": "Receiving offerings and controlling universe",
+      "relationships": [
+        "Receiver of offerings from people and warriors",
+        "Controller of universe"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "He causes seed to enter a pot, from which Sage Vasistha is born; he is Vayu, the Ashvins, and the sun god.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu",
+        "Sage Vasistha",
+        "Vayu",
+        "Ashvins",
+        "Surya (sun god)"
+      ],
+      "action": "Causing birth and being various deities",
+      "supernatural_elements": [
+        "Birth of Sage Vasistha from pot"
+      ],
+      "relationships": [
+        "Creator of Sage Vasistha",
+        "Identified with Vayu, Ashvins, Surya"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "He subdues all Asuras, takes three steps to encompass the three worlds, is the soul of gods, humans, and ancestors, and is the sacrifice performed by knowers of sacrifice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu"
+      ],
+      "action": "Subduing Asuras, taking three steps, being soul and sacrifice",
+      "supernatural_elements": [
+        "Three steps encompassing three worlds"
+      ],
+      "relationships": [
+        "Soul of gods, humans, ancestors",
+        "Embodiment of sacrifice"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "He makes the sun rise, divides time, splits the year into two parts (northward and southward), and radiates light in all directions, warming the earth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu"
+      ],
+      "action": "Controlling sun, time, and light",
+      "relationships": [
+        "Controller of celestial phenomena"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahmins proficient in Vedas praise him; the sun shines brilliantly; people perform sacrifices monthly, worshipping him with hymns in various rituals.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu"
+      ],
+      "action": "Being praised and worshipped",
+      "relationships": [
+        "Worshipped by Brahmins and people"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "He drives the wheel of time with three hubs, seven horses, and three resting places; Krishna's energy is immense; he alone supports all worlds, is omnipresent, lord of all, consumer, replenisher, and unchanging.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu (referred to as Krishna)"
+      ],
+      "action": "Driving time wheel, supporting worlds",
+      "supernatural_elements": [
+        "Wheel of time with three hubs and seven horses"
+      ],
+      "relationships": [
+        "Supporter of all worlds",
+        "Lord of all"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Great Vishnu once resided in the Madhuvana forest, took the form of fire, lived in grass happily, wandered about, subdued many Rakshasas and snakes, and offered everything into the sacrificial fire.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu"
+      ],
+      "action": "Residing in forest, taking fire form, subduing demons, making offerings",
+      "supernatural_elements": [
+        "Form of fire",
+        "Rakshasas",
+        "snakes"
+      ],
+      "relationships": [
+        "Subduer of Rakshasas and snakes"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna gave white horses to Arjuna; he is the creator of all horses in the world; his chariot symbolizes the world with three yokes, three wheels, four horses, and travels in three directions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna (Vishnu)",
+        "Arjuna"
+      ],
+      "action": "Giving horses, creating horses, having symbolic chariot",
+      "relationships": [
+        "Giver of horses to Arjuna",
+        "Creator of horses"
+      ],
+      "supernatural_elements": [
+        "Chariot symbolizing world"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "As the common origin of five elements, he created earth, sky, and space, and also created magnificent mountains; Vishnu possesses infinite energy radiating like flame.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu"
+      ],
+      "action": "Creating elements and mountains",
+      "relationships": [
+        "Creator of elements and mountains"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "He wanted to punish Indra for striking him with a thunderbolt, crossed many rivers, and drove him away; in various sacrifices, this great Indra was often praised by Brahmins with thousands of ancient hymns.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu",
+        "Indra"
+      ],
+      "action": "Punishing and driving away Indra",
+      "relationships": [
+        "Punisher of Indra"
+      ],
+      "supernatural_elements": [
+        "Thunderbolt strike"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text describes the supreme deity who is the creator of the universe and the source of all things.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu (Krishna, Vasudeva)"
+      ],
+      "type": "Cosmological description",
+      "divine_intervention": "Vishnu is described as the creator, sustainer, and destroyer of the universe through various forms."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "He is identified as the teacher of the Vedas and the upholder of all ancient laws.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu"
+      ],
+      "action": "Teaching and upholding dharma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "All results of actions, whether related to desire, worldly behavior, or the Vedas, are obtained from Vishnu.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu"
+      ],
+      "action": "Dispensing karma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "He is described as the brilliant light visible to all worlds, the three worlds, the three guardian kings, the three sacrificial fires, and the three calls.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu"
+      ],
+      "type": "Manifestation as cosmic elements"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "He is identified as the son of Devaki and the integration of all gods.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu (Krishna)"
+      ],
+      "relationships": "Son of Devaki"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "All time concepts exist within Vishnu.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu"
+      ],
+      "action": "Encompassing time"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The moon, sun, planets, constellations, stars, new moon, full moon, seasonal conjunctions, and seasons all originate from Vishnu.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu"
+      ],
+      "action": "Creating celestial bodies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rudra, Adityas, Vasus, Ashvins, Satyas, Vishvedevas, Maruts, Prajapatis, mother of gods, Aditi, and the seven great sages all come from Krishna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu (Krishna)"
+      ],
+      "relationships": "Source of all deities and sages"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "He takes the form of wind to expand the universe, fire to burn everything, water to flood everything, and Brahma to create all things.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu"
+      ],
+      "action": "Manifesting as elements for cosmic functions",
+      "divine_intervention": "Transformation into natural forces"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "As the Vedas, he teaches the Vedas; as law, he observes all rules related to dharma, Vedas, and power.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu"
+      ],
+      "action": "Embodiment and teaching of sacred knowledge"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "He manifests as brilliant lightning and as the self-born creator who first creates water and then all other things in the universe.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu"
+      ],
+      "action": "Cosmic creation",
+      "divine_intervention": "Self-born creation process"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seasons, various beings, rain clouds, thunder, rainbows, all animals and immobile things come from the famous Krishna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu (Krishna)"
+      ],
+      "action": "Creating all life and natural phenomena"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "He is the abode of the universe, beyond all qualities, called son of Vasudeva, and has four well-known names when existing as life: Sankarshana, Pradyumna, and Aniruddha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu (Krishna, Vasudeva)"
+      ],
+      "alternative_names": [
+        "Sankarshana",
+        "Pradyumna",
+        "Aniruddha"
+      ],
+      "relationships": "Son of Vasudeva"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "To create the universe of five elements, he made five efforts, creating earth, wind, space, light, and water.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu"
+      ],
+      "action": "Creating the five elements",
+      "divine_intervention": "Elemental creation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "He created the world of animals and immobile things divided into four categories, created the earth with five types of seeds, and created the sky that pours abundant rain on the earth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu"
+      ],
+      "action": "Creating the physical world and life forms"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna thus created the universe and, as the self-born independent being, filled it with vitality through his own life.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu (Krishna)"
+      ],
+      "action": "Animating the creation",
+      "divine_intervention": "Infusing life into creation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Lord of Beings created gods, asuras, humans, worlds, sages, ancestors, descendants, and various life worlds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Lord of Beings"
+      ],
+      "action": "Creation of all beings and worlds",
+      "type": "Divine Creation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Everything in the world, whether good or evil, moving or still, comes from Vishnu.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu"
+      ],
+      "action": "Source of all existence",
+      "type": "Divine Origin"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "All things, whether already existing or future, are forms of Krishna himself.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "action": "Manifestation as all things",
+      "type": "Divine Manifestation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "When any life reaches its end, Krishna appears before them as death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "action": "Manifestation as death",
+      "type": "Divine Intervention"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna is eternal, indestructible, and the upholder of dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "action": "Eternal existence and dharma maintenance",
+      "type": "Divine Nature"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Everything praiseworthy, sacred, good, or evil in the world is identical with the inconceivable Krishna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "action": "Identity with all qualities",
+      "type": "Divine Unity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna is the Lord, Narayana, supreme, eternal, immovable, at the center of the universe, and the birth and death of all beings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Narayana"
+      ],
+      "action": "Description of divine attributes",
+      "type": "Divine Description"
+    },
+    "_token_interval": null
+  }
+]

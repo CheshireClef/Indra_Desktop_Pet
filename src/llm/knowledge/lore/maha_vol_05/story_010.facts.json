@@ -1,0 +1,530 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Vyasa about King Shubha and his achievements.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Vyasa"
+      ],
+      "action": "Question about King Shubha's deeds"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa begins telling an ancient story about two brothers, Shankha and Richika.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Shankha",
+        "Richika"
+      ],
+      "relationship": "Brothers",
+      "action": "Narration of ancient tale"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Richika visits Shankha's hermitage while Shankha is away, eats fruits without permission.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Richika",
+        "Shankha"
+      ],
+      "action": "Unauthorized consumption of fruits",
+      "location": "Shankha's hermitage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shankha returns, discovers Richika's action, accuses him of theft, and orders him to confess to the king.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shankha",
+        "Richika"
+      ],
+      "action": "Accusation and command",
+      "conflict": "Theft accusation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Richika goes to King Shubha, confesses to eating fruits without permission, and requests punishment.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Richika",
+        "King Shubha"
+      ],
+      "action": "Confession and request for punishment",
+      "location": "King's court"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Shubha offers forgiveness, citing Richika's purity and vows, but Richika insists on punishment.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Shubha",
+        "Richika"
+      ],
+      "action": "Offer of forgiveness refused",
+      "moral_stand": "Richika's insistence on justice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Shubha orders Richika's hands to be cut off as punishment.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Shubha",
+        "Richika"
+      ],
+      "action": "Execution of punishment",
+      "punishment": "Hands cut off"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Richika returns to Shankha, shows his severed hands, and asks for forgiveness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Richika",
+        "Shankha"
+      ],
+      "action": "Return and plea for forgiveness",
+      "condition": "Hands severed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shankha forgives Richika, explains it was atonement for violating dharma, and instructs him to perform rituals in the Bahuda River.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shankha",
+        "Richika"
+      ],
+      "action": "Forgiveness and instruction",
+      "advice": "Perform water rituals"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Richika bathes in the Bahuda River, performs water offerings, and miraculously grows new lotus-like hands.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Richika"
+      ],
+      "action": "Ritual and miraculous restoration",
+      "supernatural": "Regrowth of hands",
+      "location": "Bahuda River"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shankha explains the miracle was achieved through his own ascetic power and fate.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shankha",
+        "Richika"
+      ],
+      "action": "Explanation of miracle",
+      "supernatural": "Ascetic power and fate"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sage Vyasa (also known as Krishna Dvaipayana or Vedavyasa) addresses Yudhishthira, son of Kunti, with meaningful words.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Yudhishthira"
+      ],
+      "type": "Admonition/Advice",
+      "relationships": "Sage advising the king"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa urges Yudhishthira to fulfill the wishes of his brothers who have suffered in the forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Yudhishthira",
+        "The Pandava brothers"
+      ],
+      "action": "Urging to fulfill brothers' wishes",
+      "relationships": "Sage advising king about his brothers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa tells Yudhishthira to rule the earth like King Yayati and enjoy dharma, artha, and kama with his brothers before embarking on his final journey.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Yudhishthira"
+      ],
+      "action": "Instruction to rule and enjoy worldly life",
+      "relationships": "Spiritual guide advising on royal duties"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa advises Yudhishthira to perform all sacrifices including the Ashvamedha (horse sacrifice) to repay debts to guests, ancestors, and gods before ascending to heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Yudhishthira"
+      ],
+      "action": "Instruction to perform rituals",
+      "supernatural_elements": "Reference to ascending to heaven after sacrifices"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa explains principles of kingship including appropriate punishment for thieves, protection of the kingdom, and proper governance according to dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Yudhishthira"
+      ],
+      "action": "Explaining royal duties and dharma",
+      "relationships": "Teacher-student relationship on governance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa advises Yudhishthira to use force or strategy to subdue enemies, avoid association with wicked people, and not betray the kingdom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Yudhishthira"
+      ],
+      "action": "Advice on statecraft and warfare",
+      "relationships": "Military and strategic guidance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa tells Yudhishthira to protect warriors, elders, virtuous people, wise people, cattle owners, and wealthy people, and to appoint learned people for lawful tasks.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Yudhishthira"
+      ],
+      "action": "Guidance on protection and administration",
+      "relationships": "Advice on social order and governance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Shantanu saw the beautiful Ganga by the river and fell in love.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Shantanu",
+        "Ganga"
+      ],
+      "type": "Romance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "condition",
+    "extraction_text": "She agreed to marry him on the condition that he never question her actions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "proposer": "Ganga",
+      "accepter": "King Shantanu"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "They had seven sons, but she drowned each one immediately after birth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ganga",
+        "Seven Vasus (Sons)"
+      ],
+      "action": "Drowning/Killing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "conflict",
+    "extraction_text": "When the eighth son was born, Shantanu could not bear it and stopped her.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "initiator": "King Shantanu",
+      "reason": "Save the child"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "revelation",
+    "extraction_text": "Ganga revealed her identity, explained the curse of the Vasus, and left with the child",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "true_identity": "River Goddess Ganga",
+      "child": "Bhishma (Devavrata)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa, who is well-versed in dharma, Vedas, and yoga wisdom, spoke to the wise Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Yudhishthira"
+      ],
+      "type": "Philosophical discourse",
+      "relationship": "Sage advising prince"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa explained that nothing is gained without time's influence, and all achievements are governed by time.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa"
+      ],
+      "type": "Teaching about time",
+      "key_concept": "Time governs all outcomes"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa cited examples of natural phenomena occurring only at their proper time.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa"
+      ],
+      "examples": [
+        "Winds blowing",
+        "Clouds raining",
+        "Lotus blooming",
+        "Trees flowering",
+        "Seasons changing"
+      ],
+      "type": "Illustrative examples"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa referenced an ancient legend sung by King Janamejaya about time's inevitability.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Janamejaya"
+      ],
+      "type": "Reference to tradition",
+      "relationship": "Sage citing king's teaching"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa taught that there is neither killer nor killed, as all beings' lives are determined by their nature.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa"
+      ],
+      "type": "Philosophical teaching",
+      "key_concept": "Non-duality of action"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa advised against attachment to possessions and relationships that cause suffering.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa"
+      ],
+      "type": "Spiritual advice",
+      "key_concept": "Detachment from worldly attachments"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa explained the cyclical nature of pleasure and pain, advising to transcend both.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa"
+      ],
+      "type": "Teaching on suffering",
+      "key_concept": "Impermanence of emotional states"
+    },
+    "_token_interval": null
+  }
+]

@@ -1,0 +1,1259 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya, the wise son of Gavalgana, arrives from the battlefield to King Dhritarashtra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "King Dhritarashtra"
+      ],
+      "action": "Arrival and report",
+      "relationship": "Messenger to King"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya informs King Dhritarashtra that Bhishma, son of King Shantanu and grandfather of the Bharatas, has been killed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "King Dhritarashtra",
+        "Bhishma"
+      ],
+      "action": "Death announcement",
+      "relationship": "Bhishma is grandfather to the Bharatas and son of Shantanu"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma was killed by Shikhandin (束发) on the battlefield and now lies on a bed of arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Shikhandin"
+      ],
+      "action": "Killing in battle",
+      "supernatural_elements": "Bed of arrows"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya recounts Bhishma's past glories: his single-handed victory over all kings at Kashi, his battle with Parashurama where he survived, and his immense prowess compared to Indra, the mountains, the ocean, and the earth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Parashurama"
+      ],
+      "action": "Recounting past deeds",
+      "divine_comparisons": "Compared to Indra (Sakra)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma defended the Kaurava army for ten days, killing ten million soldiers, before falling.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Battle defense and mass slaughter",
+      "duration": "Ten days"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya suggests Bhishma's fall was due to King Dhritarashtra's bad counsel.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "King Dhritarashtra",
+        "Bhishma"
+      ],
+      "action": "Attribution of blame",
+      "relationship_change": "Implied criticism of the king's decisions"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra expresses shock and grief, questioning how Bhishma, who was celibate for his father's sake and unmatched in strength, could be killed by Shikhandin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra",
+        "Bhishma",
+        "Shikhandin"
+      ],
+      "action": "Lament and disbelief",
+      "relationship": "Dhritarashtra considers Bhishma as a father figure"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra asks Sanjaya for details on who accompanied Bhishma into battle and how the Pandavas managed to surround and bring down such an invincible warrior.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra",
+        "Sanjaya",
+        "Bhishma",
+        "Pandavas"
+      ],
+      "action": "Inquiry for battle details",
+      "conflict": "Kauravas vs. Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma, the son of King Shantanu, fought fiercely in battle for ten days, commanding the Kaurava army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Duryodhana"
+      ],
+      "action": "Commanding army in battle",
+      "relationship": "Bhishma fought for Duryodhana's benefit"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma killed ten million soldiers in ten days of fighting, showering arrows like Indra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Massive slaughter in battle",
+      "supernatural_comparison": "Compared to Indra (Sakra)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma fell in battle, groaning like a great tree broken by the wind.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Fall in battle",
+      "cause": "Result of Duryodhana's bad advice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandi (of the Panchalas) killed Bhishma in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Shikhandi"
+      ],
+      "action": "Killing in battle",
+      "notable_aspect": "Bhishma, who was invincible even to gods, was killed by Shikhandi"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandava army, led by Shikhandi, charged at Bhishma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandi",
+        "Bhishma",
+        "Pandavas"
+      ],
+      "action": "Army charge",
+      "relationship": "Pandavas (including Yudhishthira, son of Kunti) fought against Bhishma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma showered arrows on the sons of Kunti (Pandavas), Panchalas, and Srinjayas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Pandavas",
+        "Panchalas",
+        "Srinjayas"
+      ],
+      "action": "Arrow attack",
+      "comparison": "Like Indra destroying demons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text questions how Bhishma could be defeated when Drona, Ashvatthama (son of Drona), and Kripa were with him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Drona",
+        "Ashvatthama",
+        "Kripa"
+      ],
+      "relationship": "Allies in battle",
+      "significance": "Bhishma had powerful allies yet still fell"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text notes Bhishma's past equality with Parashurama (son of Jamadagni) in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Parashurama"
+      ],
+      "relationship": "Historical rivalry/equality",
+      "significance": "Highlights Bhishma's legendary prowess"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Kaurava warriors did not abandon Bhishma in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kauravas",
+        "Bhishma"
+      ],
+      "action": "Protection in battle",
+      "relationship": "Loyalty of Kaurava army to Bhishma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra questions Sanjaya about how Bhishma, the invincible hero, could be killed in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Sanjaya",
+        "Bhishma"
+      ],
+      "action": "Questioning",
+      "relationships": [
+        "Dhritarashtra is the Kuru king questioning his charioteer Sanjaya about the death of Bhishma, his father figure and Kuru commander."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra describes Bhishma's divine birth to King Shantanu, which relieved Shantanu's sorrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhritarashtra",
+        "Bhishma",
+        "King Shantanu"
+      ],
+      "action": "Narration",
+      "supernatural_elements": [
+        "Bhishma's birth is described as divine, bringing relief to his father Shantanu."
+      ],
+      "relationships": [
+        "Bhishma is the son of King Shantanu and Ganga, born to relieve Shantanu's suffering."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra recounts how Bhishma defeated Parashurama (Jamadagni's son) in battle over Amba.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Parashurama",
+        "Amba"
+      ],
+      "action": "Battle victory",
+      "relationships": [
+        "Bhishma fought and defeated the invincible warrior Parashurama in a conflict related to Princess Amba."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra suggests that Shikhandin (Drupada's son) must have greater power than Parashurama to kill Bhishma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Parashurama",
+        "Bhishma"
+      ],
+      "action": "Speculation",
+      "relationships": [
+        "Shikhandin is identified as Bhishma's killer, implying he surpassed even Parashurama in capability."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra laments that with Bhishma's death, the Kaurava army has become weak and fearful.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Bhishma",
+        "Kaurava army"
+      ],
+      "action": "Lamentation",
+      "relationships": [
+        "Bhishma was the protector and commander of the Kaurava forces; his death leaves them vulnerable."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra expresses despair, questioning how the Pandavas could kill their elder and a righteous warrior like Bhishma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Pandavas",
+        "Bhishma"
+      ],
+      "action": "Moral questioning",
+      "relationships": [
+        "Bhishma was an elder relative and mentor to both the Kauravas and Pandavas; his killing by the Pandavas is seen as a violation of dharma."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra expresses grief and confusion over Bhishma's death in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Bhishma",
+        "Sanjaya"
+      ],
+      "action": "Lamentation and questioning",
+      "relationships": "Dhritarashtra (king) laments the death of Bhishma (his father figure and general). Sanjaya (charioteer and narrator) is the listener.",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra questions how Bhishma, an invincible warrior, could be defeated by the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Bhishma",
+        "Pandavas"
+      ],
+      "action": "Questioning the outcome of battle",
+      "relationships": "Dhritarashtra is the Kaurava king. Bhishma was his general and paternal figure. The Pandavas are his nephews and the opposing army.",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra reflects that neither martial skill, courage, asceticism, wisdom, nor renunciation can save one from death, attributing Bhishma's fall to Time.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Bhishma"
+      ],
+      "action": "Philosophical reflection",
+      "relationships": "Dhritarashtra mourns Bhishma's death.",
+      "supernatural_elements": "Personification of Time (Kala) as a force greater than all human qualities."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra states he had relied on Bhishma for protection and is now filled with anxiety for his sons (the Kauravas).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Bhishma",
+        "Kauravas"
+      ],
+      "action": "Expression of lost reliance and fear",
+      "relationships": "Dhritarashtra was dependent on Bhishma. The Kauravas are his sons and the army he now fears for.",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra rationalizes the killing of Bhishma as part of the cruel Kshatriya (warrior) dharma, whether done by the Pandavas pursuing kingship or by his own side.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Bhishma",
+        "Pandavas",
+        "Kauravas"
+      ],
+      "action": "Moral justification",
+      "relationships": "Dhritarashtra attempts to justify the actions of both the Pandavas (his nephews/enemies) and the Kauravas (his sons) in the context of warrior code.",
+      "supernatural_elements": "Reference to the Kshatriya dharma as decreed by sages."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra asks Sanjaya to describe the battle details: the army formations, how Bhishma fought, how he was killed, and the reactions of key Kaurava warriors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Sanjaya",
+        "Bhishma",
+        "Duryodhana",
+        "Karna",
+        "Shakuni",
+        "Dushasana"
+      ],
+      "action": "Request for a detailed narration",
+      "relationships": "Dhritarashtra (king) commands Sanjaya (his reporter) to recount the battle. He mentions key Kaurava leaders: Duryodhana (his son), Karna (ally), Shakuni (maternal uncle), Dushasana (son).",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra describes the battlefield as a terrifying gambling hall where lives are wagered.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra"
+      ],
+      "action": "Metaphorical description",
+      "relationships": "None",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra asks who were the victors and losers in the battle besides Bhishma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Sanjaya",
+        "Bhishma"
+      ],
+      "action": "Inquiry about battle outcomes",
+      "relationships": "Dhritarashtra seeks a full account from Sanjaya.",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra expresses that hearing of Bhishma's death adds to his existing pain caused by his sons' actions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Bhishma",
+        "Kauravas"
+      ],
+      "action": "Expression of compounded grief",
+      "relationships": "Dhritarashtra's suffering is due to both the loss of Bhishma and the actions of his sons (the Kauravas).",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra requests Sanjaya to narrate everything about the battle, including all foolish acts and events, in detail and in sequence.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Sanjaya"
+      ],
+      "action": "Final command for narration",
+      "relationships": "King to his reporter.",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya begins his response, telling Dhritarashtra that he should ask questions but not wrongly blame Duryodhana, as one bears the consequences of one's own deeds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Dhritarashtra",
+        "Duryodhana"
+      ],
+      "action": "Moral admonition and narrative transition",
+      "relationships": "Sanjaya (narrator) responds to Dhritarashtra (king), advising him not to shift blame to his son Duryodhana.",
+      "supernatural_elements": "Reference to the law of karma (deeds and consequences)."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya addresses Dhritarashtra, explaining his divine vision granted by Vyasa.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Dhritarashtra",
+        "Vyasa"
+      ],
+      "type": "Divine Revelation",
+      "relationships": [
+        "Sanjaya is the narrator to Dhritarashtra",
+        "Vyasa is Dhritarashtra's father and granted Sanjaya supernatural abilities"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana instructs Dushasana to protect Bhishma in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Dushasana",
+        "Bhishma"
+      ],
+      "type": "Military Strategy",
+      "relationships": [
+        "Duryodhana and Dushasana are brothers (Kauravas)",
+        "Bhishma is their grandfather"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana explains Bhishma's vow not to fight Shikhandi because Shikhandi was a woman in a previous life.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Shikhandi"
+      ],
+      "type": "Supernatural Condition",
+      "relationships": [
+        "Bhishma refuses to engage Shikhandi due to past-life identity"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana orders all warriors to protect Bhishma and kill Shikhandi.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhishma",
+        "Shikhandi"
+      ],
+      "type": "Battle Command",
+      "relationships": [
+        "Duryodhana commands Kaurava forces",
+        "Shikhandi is the primary threat to Bhishma"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana describes protection arrangements: Yudhamanyu protects Arjuna's left wheel, Uttamaujas protects the right, and Arjuna protects Shikhandi.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Shikhandi",
+        "Yudhamanyu",
+        "Uttamaujas"
+      ],
+      "type": "Battle Formation",
+      "relationships": [
+        "Arjuna is Shikhandi's protector",
+        "Yudhamanyu and Uttamaujas are Arjuna's protectors"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Both armies prepare at dawn with loud noises and formations.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kauravas",
+        "Pandavas"
+      ],
+      "type": "Battle Preparation",
+      "relationships": [
+        "Kauravas (Dhritarashtra's sons) vs. Pandavas (Pandu's sons)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma appears radiant like the full moon among the decorated armies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Visual Description",
+      "relationships": [
+        "Bhishma is the Kaurava commander"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The armies of the Kauravas and Pandavas assemble for battle, with detailed descriptions of their formations, banners, and leaders.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kauravas",
+        "Pandavas",
+        "Bhishma",
+        "Duryodhana",
+        "Drona"
+      ],
+      "action": "Army assembly and preparation",
+      "supernatural_elements": "Flags compared to those of Indra's heavenly palace, celestial imagery"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ten great heroes lead ten divisions of Duryodhana's army, including Shakuni, Shalya, Shrutayu, Anuvinda, Vinda, Shankha, Kritavarman, Jayatsena, Bṛhadbala, and Bhurishravas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shakuni",
+        "Shalya",
+        "Shrutayu",
+        "Anuvinda",
+        "Vinda",
+        "Shankha",
+        "Kritavarman",
+        "Jayatsena",
+        "Bṛhadbala",
+        "Bhurishravas",
+        "Duryodhana"
+      ],
+      "action": "Military leadership assignment",
+      "relationships": "All are allies of Duryodhana leading his army divisions"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma leads the eleventh and foremost division of the Kaurava army, described with white attire and banner, inspiring awe in both armies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Kauravas",
+        "Pandavas"
+      ],
+      "action": "Military leadership",
+      "relationships": "Bhishma is grandfather to both sides but fights for Kauravas",
+      "supernatural_elements": "Compared to moon and sun with clouds, inspires fear in enemy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandava army has seven divisions led by great warriors, creating a scene compared to two oceans meeting at world's end.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas"
+      ],
+      "action": "Army formation",
+      "supernatural_elements": "Apocalyptic imagery of oceans meeting with sharks and crocodiles"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya describes celestial omens at the battle's beginning: moon in constellation, seven planets burning in sky, double sun appearance, wolves and crows crying for corpses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Vyasa"
+      ],
+      "action": "Narration of omens",
+      "supernatural_elements": "Astrological signs, double sun, animal behavior as portents"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma and Drona pray each morning for Pandava victory while still fighting for Duryodhana according to duty.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Drona",
+        "Pandavas",
+        "Duryodhana"
+      ],
+      "action": "Internal conflict and prayer",
+      "relationships": "Bhishma and Drona are mentors to Pandavas but bound to fight for Kauravas",
+      "conflict": "Loyalty to duty vs. personal affection"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma (also known as Devavrata, son of Ganga and Shantanu) summoned the kings and delivered a speech about the duty of Kshatriyas (warriors).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Speech/Summoning",
+      "theme": "Kshatriya duty to fight and die in battle for heaven"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The kings, inspired by Bhishma's speech, marched forward in their armies with great splendor.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The kings (collective)"
+      ],
+      "action": "Marching to battle",
+      "relationship": "Led by Bhishma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna (son of Surya) and his friends refused to fight due to their conflict with Bhishma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "action": "Refusal to fight",
+      "reason": "Conflict with Bhishma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The armies advanced with great noise and splendor, led by various kings and heroes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Various kings and warriors"
+      ],
+      "action": "Army advancement",
+      "description": "Loud and magnificent procession"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma led the Kuru army with his banner featuring a palm tree and five stars.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Leading army",
+      "symbol": "Palm tree and five-star banner"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Various heroes like Shikhandin, Ashvatthama (son of Drona), and others advanced in their chariots.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Ashvatthama",
+        "Shalya",
+        "Bhurishrava",
+        "Vikarna"
+      ],
+      "action": "Advancing in battle formation",
+      "relationship": "Following Bhishma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana led his vast army with a banner decorated with a jeweled elephant.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Leading army",
+      "symbol": "Jeweled elephant banner"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Various regional kings and their armies joined the march, each with their own banners and forces.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kings of Magadha, Anga, Sindhu, Kalinga, etc."
+      ],
+      "action": "Joining battle march",
+      "scale": "Large armies with chariots, elephants, cavalry"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Kalinga king, with his elephant army adorned with flags and weapons, advanced in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kalinga king"
+      ],
+      "action": "Military advancement",
+      "description": "Elephant army with mechanical devices, spears, quivers, and flags; king with tree emblem, white canopy, and golden whisk."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma (referred to as 'the flag-bearer') rode a magnificent elephant, shining like the sun on clouds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Riding into battle",
+      "description": "On a splendid elephant with excellent hooks, compared to the sun seated on clouds."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhagadatta, radiant and fierce, advanced on a fine elephant, resembling Indra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhagadatta"
+      ],
+      "action": "Military advancement",
+      "description": "Riding a superior elephant, shining brightly like Indra (the wielder of the thunderbolt)."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vinda and Anuvinda of Avanti, comparable to Bhagadatta, followed Bhishma on elephant shoulders.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vinda",
+        "Anuvinda",
+        "Bhagadatta",
+        "Bhishma"
+      ],
+      "action": "Following in battle formation",
+      "description": "Mounted on elephant shoulders, pursuing Bhishma, matching Bhagadatta in prowess."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The battle array, with chariots and soldiers as body, kings as head, horses as wings, and directions as mouth, surged forward fiercely.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Bhishma",
+        "Ashwatthama",
+        "Kripa",
+        "Shalya"
+      ],
+      "action": "Formation arrangement",
+      "description": "Array designed by Drona, Bhishma, Ashwatthama, Kripa, and Shalya; metaphorically described with animal and directional imagery."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "War cries, sounds of conches, drums, elephants, chariots, and horses filled the air as the armies of Dhritarashtra's sons and Pandu's sons clashed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sons of Dhritarashtra",
+        "Sons of Pandu"
+      ],
+      "action": "Battle commencement",
+      "description": "Deafening noise from warriors, instruments, animals, and vehicles; earth seemed to split; armies met trembling with excitement."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana, Duhshasana, Duhsaha, Durmukha, and other warriors protected Bhishma from behind with twenty thousand chariots.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Duhshasana",
+        "Duhsaha",
+        "Durmukha",
+        "Bhishma"
+      ],
+      "action": "Protection detail",
+      "description": "Guarding Bhishma's rear; includes other warriors like Vivinshati, Chitrasena, Vikarna, Satyavrata, Purumitra, Jaya, Shrutayu, and Shala."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The king of Magadha followed with a division of ten thousand swift elephants.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King of Magadha"
+      ],
+      "action": "Military support",
+      "description": "Leading an elephant corps in the wake of the chariot forces."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Six million soldiers protected chariot wheels and elephant legs, with hundreds of thousands of infantry armed with various weapons leading the advance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Infantry and soldiers"
+      ],
+      "action": "Combat readiness",
+      "description": "Massive numbers of troops in defensive and offensive roles; infantry using bows, shields, swords, nails, and darts."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The eleven armies of Dhritarashtra's son appeared like the Ganga diverging from the Yamuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sons of Dhritarashtra"
+      ],
+      "action": "Army display",
+      "description": "Visual spectacle of the vast forces compared to a river split."
+    },
+    "_token_interval": null
+  }
+]

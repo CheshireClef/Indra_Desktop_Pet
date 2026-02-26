@@ -1,0 +1,923 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Bhishma about the formation of mixed castes and their duties.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Question",
+      "relationship": "Grandson asking grandfather for wisdom"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma explains that Prajapati created the four varnas with specific duties for sacrificial purposes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Prajapati"
+      ],
+      "type": "Explanation",
+      "divine_element": "Prajapati as creator of varnas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma details the marriage rules for each varna: Brahmin can marry four wives, Kshatriya three, Vaishya two, and Shudra one Shudra woman.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Social Law",
+      "key_point": "Hierarchical marriage structure"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma describes various mixed-caste offspring from inter-varna marriages and their prescribed occupations.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Social Classification",
+      "examples": [
+        "Parashava (Brahmin-Shudra union) serves the family",
+        "Ugras (Kshatriya's third wife's son) becomes Shudra",
+        "Sutas (Kshatriya-Brahmin woman) praise others' achievements",
+        "Chandalas (Shudra-Brahmin woman) live outside towns as executioners"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma states that defiling the guru's bed produces offspring excluded from all four varnas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Moral Prohibition",
+      "significance": "Most impure act with severe social consequences"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma explains inheritance of caste status in mixed marriages depends on maternal lineage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Social Rule",
+      "key_point": "Mother's status determines offspring's caste in mixed unions"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A man from any of the four varnas can have children with wives from his own varna and the one immediately below his.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Generic Man (from any varna)"
+      ],
+      "action": "Marriage and procreation rules",
+      "relationships": "Allowed marital relationships within varna hierarchy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "If a man marries outside these allowed varnas, the resulting son is excluded from the four varnas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Generic Man (from any varna)"
+      ],
+      "action": "Prohibited marriage",
+      "consequences": "Son becomes excluded from varna system"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A son excluded from varnas who marries within his father's original varna can have a son who regains that varna status.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Excluded Son"
+      ],
+      "action": "Marriage within original varna",
+      "consequences": "Possible restoration of varna status for next generation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "If an excluded son marries into another varna, his son's status becomes even lower.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Excluded Son"
+      ],
+      "action": "Marriage into different varna",
+      "consequences": "Further degradation of status for offspring"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A Brahmin woman and a Shudra man produce a son who is excluded from the four varnas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin Woman",
+        "Shudra Man"
+      ],
+      "action": "Inter-varna marriage",
+      "relationships": "Forbidden marriage between highest and lowest varnas",
+      "consequences": "Offspring excluded from varna system"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person excluded from varnas who marries someone with pure varna blood produces offspring also excluded from varnas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Excluded Person",
+        "Pure Varna Person"
+      ],
+      "action": "Marriage",
+      "consequences": "Perpetuation of excluded status"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Due to prohibited marriages, many mixed castes (fifteen types mentioned) emerge with increasingly lower status.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Various mixed caste individuals"
+      ],
+      "action": "Formation of mixed castes",
+      "relationships": "Result of prohibited inter-varna marriages",
+      "consequences": "Creation of hierarchical mixed caste system"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Specific mixed castes are described with their parentage and occupations.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Magadha Father",
+        "Shairandhra Mother",
+        "Vaidehaka Man",
+        "Nishada Man",
+        "Chandala Man",
+        "Magadha Woman",
+        "Vaidehika Man",
+        "Nishada Woman",
+        "Charmakara Man",
+        "Vaidehika Woman"
+      ],
+      "mixed_castes": [
+        {
+          "name": "Magadha-Shairandhra offspring",
+          "occupation": "Personal grooming services",
+          "status": "Free but live as servants"
+        },
+        {
+          "name": "Ayogava",
+          "parentage": "Magadha father and Shairandhra mother",
+          "occupation": "Live in forests, make nets"
+        },
+        {
+          "name": "Maileyaka",
+          "parentage": "Vaidehaka man and Shairandhra woman",
+          "occupation": "Brew honey wine"
+        },
+        {
+          "name": "Mudgara",
+          "parentage": "Shairandhra woman and Nishada man",
+          "occupation": "Ferry boat operators"
+        },
+        {
+          "name": "Kshapaka",
+          "parentage": "Shairandhra woman and Chandala man",
+          "occupation": "Corpse watchers, most despised"
+        },
+        {
+          "name": "Mansa, Satugara, Suta, Sogata",
+          "parentage": "Magadha woman with men from four low castes",
+          "occupation": "Live by deceitful means"
+        },
+        {
+          "name": "Vaidehika man's children (with unspecified mother)",
+          "character": "Base and wicked",
+          "occupation": "Servants to others"
+        },
+        {
+          "name": "Madranaba",
+          "parentage": "Nishada man's children",
+          "occupation": "Donkey cart drivers"
+        },
+        {
+          "name": "Pulakasa",
+          "parentage": "Chandala man's children",
+          "diet": "Eat donkey, horse, and elephant meat",
+          "clothing": "Wear clothes from corpses",
+          "utensils": "Use discarded broken bowls"
+        },
+        {
+          "name": "Chudra and Andhra",
+          "parentage": "Vaidehika man with Ayogava woman",
+          "residence": "Live outside towns"
+        },
+        {
+          "name": "Kalaravara",
+          "parentage": "Nishada woman and Charmakara man",
+          "occupation": "Bamboo and reed workers"
+        },
+        {
+          "name": "Pandusopaka",
+          "parentage": "Nishada woman and Chandala man",
+          "occupation": "Same as Mudgaras (ferry operators)"
+        },
+        {
+          "name": "Ahindika",
+          "parentage": "Vaidehika woman and Nishada man"
+        },
+        {
+          "name": "Sopaka",
+          "parentage": "Vaidehika woman and Chandala man",
+          "occupation": "Same as Mudgaras (ferry operators)"
+        }
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A Nishada woman and a Chandala man have a son who can only live outside villages and towns, active in wilderness and cemeteries, rejected even by those outside the caste system.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nishada woman",
+        "Chandala man",
+        "Their son"
+      ],
+      "type": "Social Exclusion",
+      "relationships": "Mother-son, Father-son, Inter-caste marriage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mixed castes arise from parents violating marriage taboos, and their professions should be recognizable in both private and public settings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mixed caste individuals"
+      ],
+      "type": "Social Regulation",
+      "relationships": "Parent-child relationships violating norms"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ancient scriptures prescribe dharma for the four pure castes but say nothing about other castes excluded from dharma, leaving their conduct undefined.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Four pure castes",
+        "Excluded castes"
+      ],
+      "type": "Legal/Religious Doctrine",
+      "relationships": "Hierarchical social division"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Those born from impulsive parents are excluded from sacrifices and virtuous life; those with both parents outside the four castes have professions determined by their environment.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Impulsively born individuals",
+        "Outcaste parents"
+      ],
+      "type": "Social Determinism",
+      "relationships": "Parent-child, Social ostracization"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "They live at crossroads, cemeteries, mountains, or forests, wear various ornaments, make household items, and should help Brahmins or cattle, being obedient, kind, and honest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Excluded castes"
+      ],
+      "type": "Lifestyle Description",
+      "relationships": "Service to higher castes"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "They should sacrifice their lives to save others, thereby turning from evil to good, as stated by the speaker (implied to be a sage or Krishna).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Excluded castes",
+        "Implied sage/Krishna"
+      ],
+      "type": "Moral Instruction",
+      "relationships": "Teacher-disciple, Ethical guidance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A knowledgeable person considers these lessons carefully in marriage and procreation, as sons of low-status women face difficult lives like a drowning person weighed down by stones.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Knowledgeable person",
+        "Low-status women",
+        "Their sons"
+      ],
+      "type": "Cautionary Advice",
+      "relationships": "Parent-child, Social warning"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "All people, wise or foolish, are swayed by desire and anger, so women often lead men astray, being a cause of destruction; the wise avoid attachment to women.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Men",
+        "Women",
+        "Wise individuals"
+      ],
+      "type": "Philosophical Teaching",
+      "relationships": "Gender dynamics, Moral caution"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks how to distinguish those deprived of caste and low-born from the pure, as they are hard to tell apart.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "King (implied listener)"
+      ],
+      "type": "Dialogue/Question",
+      "relationships": "Speaker-listener, Inquiry"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma replies that those born from impure wombs show it in their behavior, while those from pure wombs are recognizable by good conduct, with bad behavior indicating low status.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Yudhishthira"
+      ],
+      "type": "Answer/Explanation",
+      "relationships": "Teacher-student, Didactic"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "People inherit traits from parents, and mixed-caste individuals cannot hide their nature, just as tiger cubs inherit stripes, making origins unmistakable.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mixed-caste individuals",
+        "Parents"
+      ],
+      "type": "Inheritance Principle",
+      "relationships": "Parent-child, Biological determinism"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text discusses the importance of one's inherent nature and caste purity, emphasizing that true worth is determined by moral conduct and virtuous actions rather than birth alone.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Philosophical discourse",
+      "key_points": [
+        "Inherent nature reveals itself regardless of attempts to conceal it",
+        "Moral conduct and virtuous actions are more important than birth",
+        "People should be respected based on their actions, not their caste",
+        "Wise people avoid relationships with mixed-caste women"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Bhishma to explain how sons are classified according to the castes of their parents and how their caste affiliation should be determined.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Question/Inquiry",
+      "relationships": [
+        "Yudhishthira is seeking knowledge from Bhishma"
+      ],
+      "context": "Yudhishthira is confused about caste classifications and seeks clarification"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma explains various classifications of sons according to traditional texts, including sons born from wives of lower castes, sons born from husbands of lower castes, adopted sons, and several other specific categories.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Instruction/Explanation",
+      "key_points": [
+        "Sons are considered equivalent to the father himself",
+        "Sons born from wives one caste lower are acceptable",
+        "Sons born from husbands one caste lower are degraded",
+        "There are various categories including adopted sons and other classifications"
+      ],
+      "relationships": [
+        "Bhishma is teaching Yudhishthira about caste laws"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks for further clarification about the specific classifications of Apadavamshaja and Apasada sons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "type": "Follow-up question",
+      "relationships": [
+        "Yudhishthira continues to seek knowledge from Bhishma"
+      ],
+      "context": "Yudhishthira wants detailed explanations of specific son classifications"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma begins to explain the classifications of Apadavamshaja and Apasada sons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Continued instruction",
+      "relationships": [
+        "Bhishma continues teaching Yudhishthira"
+      ],
+      "context": "The explanation is cut off but indicates Bhishma is providing detailed caste classifications"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma explains the six types of Apadwanasaja (mixed-caste offspring from higher-caste fathers and lower-caste mothers) to Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Yudhishthira"
+      ],
+      "action": "Explanation of caste rules",
+      "relationships": [
+        "Teacher-student",
+        "Grandfather-grandson"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma explains the six types of Apasada (mixed-caste offspring from lower-caste fathers and higher-caste mothers) to Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Yudhishthira"
+      ],
+      "action": "Explanation of caste rules",
+      "relationships": [
+        "Teacher-student",
+        "Grandfather-grandson"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Bhishma about the status of biological sons versus sons born through another man's seed (Kshetraja).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "action": "Question about paternity",
+      "relationships": [
+        "Teacher-student",
+        "Grandfather-grandson"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma explains that the seed-sower is the father, but if he abandons the child, then the field-owner (husband) becomes the father.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Yudhishthira"
+      ],
+      "action": "Explanation of paternity rules",
+      "relationships": [
+        "Teacher-student",
+        "Grandfather-grandson"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks for clarification on how a non-biological father can claim paternity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "action": "Question about non-biological paternity",
+      "relationships": [
+        "Teacher-student",
+        "Grandfather-grandson"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma explains that a man who abandons his biological son loses paternal rights, and the field-owner gains them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Yudhishthira"
+      ],
+      "action": "Clarification of abandonment rules",
+      "relationships": [
+        "Teacher-student",
+        "Grandfather-grandson"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma states that an adopted child belongs to the adopter, not the biological father or field-owner.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Yudhishthira"
+      ],
+      "action": "Explanation of adoption rules",
+      "relationships": [
+        "Teacher-student",
+        "Grandfather-grandson"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks under what circumstances an adopted child belongs exclusively to the adopter.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "action": "Question about adoption rights",
+      "relationships": [
+        "Teacher-student",
+        "Grandfather-grandson"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma explains that a child abandoned by parents and found by someone else becomes the adopter's son.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Yudhishthira"
+      ],
+      "action": "Explanation of foundling adoption",
+      "relationships": [
+        "Teacher-student",
+        "Grandfather-grandson"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Bhishma about the rituals and marriage for an abandoned child raised by a foster parent.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Dialogue/Inquiry",
+      "relationships": [
+        "Yudhishthira is the questioner",
+        "Bhishma is the advisor/grandfather"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma explains that the foster parent becomes the master of the parentless child, and the child inherits the foster parent's caste.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Explanation of law",
+      "relationships": [
+        "Foster parent-child relationship established",
+        "Caste inheritance defined"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma states that the child's rituals should match those of the foster parent, and marriage should be to someone of the foster parent's caste, provided the biological mother's lineage is unknown.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Prescription of rituals and marriage rules",
+      "relationships": [
+        "Rituals and marriage tied to foster parent's caste"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma identifies Kanina and Adhyuta as illegitimately born but still considered sons of the foster parent, deserving necessary rituals.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Classification of children",
+      "relationships": [
+        "Kanina and Adhyuta as foster sons despite illegitimacy"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma concludes that for certain types of sons (like Kshetraja and those outside four castes), rituals should be performed as for biological sons, summarizing the legal teachings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Conclusion of legal discourse",
+      "relationships": [
+        "Inclusion of various son types in ritual practices"
+      ]
+    },
+    "_token_interval": null
+  }
+]

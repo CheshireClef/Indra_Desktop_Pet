@@ -1,0 +1,1522 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "镇群请求护民子详细讲述《摩诃婆罗多》故事",
+    "char_interval": {
+      "start_pos": 40,
+      "end_pos": 50
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "镇群",
+        "护民子"
+      ],
+      "action": "请求详细讲述",
+      "relationships": [
+        "提问者与讲述者"
+      ],
+      "plot_points": [
+        "引出《摩诃婆罗多》的详细讲述"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 12,
+      "end_index": 17
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "镇群表达对般度族行为的好奇",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "镇群"
+      ],
+      "action": "提出疑问",
+      "questions": [
+        "为什么般度族容忍迫害？",
+        "怖军如何控制怒火？",
+        "黑公主为何不用目光焚烧持国之子？",
+        "般度五子为何追随坚战参与赌博？",
+        "坚战为何忍受欺压？",
+        "阿周那为何不独自消灭敌军？"
+      ],
+      "mentioned_characters": [
+        "般度族",
+        "怖军",
+        "黑公主",
+        "持国的儿子们",
+        "坚战",
+        "阿周那",
+        "无种",
+        "偕天",
+        "黑天"
+      ],
+      "relationships": [
+        "般度族兄弟",
+        "黑公主与般度五子的婚姻",
+        "般度族与持国族的敌对"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "护民子承诺讲述毗耶娑创作的《摩诃婆罗多》",
+    "char_interval": {
+      "start_pos": 40,
+      "end_pos": 48
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "护民子",
+        "毗耶娑"
+      ],
+      "action": "承诺讲述",
+      "supernatural_elements": [
+        "毗耶娑是大仙",
+        "故事能带来幸福和净化"
+      ],
+      "relationships": [
+        "护民子作为讲述者",
+        "毗耶娑作为原作者"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 12,
+      "end_index": 16
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "描述《摩诃婆罗多》的功德",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "说明故事价值",
+      "details": [
+        "故事有十万颂",
+        "聆听和讲述者能到达大梵天乐土",
+        "与四部吠陀一样能净化",
+        "蕴含利益和正法",
+        "能涤除罪孽",
+        "名为《胜利》，能帮助赢得胜利"
+      ],
+      "supernatural_elements": [
+        "获得天神地位",
+        "涤罪功能"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Vasu (also known as Gādhī or High-Minded) abandoned his sword and lived in a forest hermitage practicing asceticism.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Vasu"
+      ],
+      "action": "Renunciation and ascetic practice",
+      "location": "Forest hermitage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra, fearing King Vasu might become the king of gods through his austerities, appeared before him in person holding a thunderbolt.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "King Vasu"
+      ],
+      "action": "Divine intervention",
+      "reason": "To prevent King Vasu from attaining Indra's position",
+      "supernatural_element": "Indra's manifestation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra advised King Vasu to protect and uphold dharma (cosmic law/righteousness) in the world instead of pursuing asceticism.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "King Vasu"
+      ],
+      "action": "Counsel/instruction",
+      "content": "To safeguard dharma and maintain world order",
+      "relationship": "Divine guidance from Indra to King Vasu"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra promised King Vasu eternal heavenly worlds if he remained devoted to dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "King Vasu"
+      ],
+      "action": "Promise/reward",
+      "content": "Eternal heavenly abodes",
+      "condition": "Continuous dedication to dharma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra addresses Vasu, describing the virtues of the land of Chedi and inviting him to live there.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Vasu"
+      ],
+      "action": "Invitation and description",
+      "relationships": [
+        "Divine being to king",
+        "Giver to recipient"
+      ],
+      "supernatural_elements": [
+        "Divine speech from Indra"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra gifts Vasu a magical flying chariot made of crystal that can fly through the sky.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Vasu"
+      ],
+      "action": "Gift-giving",
+      "relationships": [
+        "Divine benefactor to mortal king"
+      ],
+      "supernatural_elements": [
+        "Magical flying chariot for divine use"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra gives Vasu a victory garland of lotuses that will protect him from weapons in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Vasu"
+      ],
+      "action": "Gift-giving",
+      "relationships": [
+        "Divine benefactor to mortal king"
+      ],
+      "supernatural_elements": [
+        "Protective magical garland",
+        "Named 'Indra's Garland'"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra gives Vasu a bamboo staff as a heartfelt gift to protect learned people.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Vasu"
+      ],
+      "action": "Gift-giving",
+      "relationships": [
+        "Divine benefactor to mortal king"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vasu plants the bamboo staff in the earth at year's end to honor Indra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vasu"
+      ],
+      "action": "Ritual planting",
+      "relationships": [
+        "King honoring divine being"
+      ],
+      "supernatural_elements": [
+        "Ritual establishment of tradition"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kings erect decorated poles following Vasu's example, creating a festival tradition.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kings (descendants/followers)"
+      ],
+      "action": "Ritual establishment",
+      "relationships": [
+        "Followers of tradition"
+      ],
+      "supernatural_elements": [
+        "Continuation of divine-inspired ritual"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra accepts this worship form and expresses pleasure with Vasu's devotion.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Vasu"
+      ],
+      "action": "Divine acceptance and blessing",
+      "relationships": [
+        "Divine being pleased with mortal"
+      ],
+      "supernatural_elements": [
+        "Divine manifestation and blessing"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra blesses Vasu and all who worship him similarly with prosperity and victory.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Vasu",
+        "Future worshippers"
+      ],
+      "action": "Divine blessing",
+      "relationships": [
+        "Divine benefactor to devotees"
+      ],
+      "supernatural_elements": [
+        "Divine promise of prosperity and protection"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Vasu (also known as Uparichara) frequently celebrated festivals in honor of Indra, gave land as charity, and performed grand sacrifices during Indra festivals.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Vasu (Uparichara)",
+        "Indra"
+      ],
+      "type": "Religious observance and charity",
+      "relationships": [
+        "King Vasu honors Indra through festivals and sacrifices"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Vasu established the Indra festival out of devotion to Indra and ruled the earth with righteousness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Vasu (Uparichara)",
+        "Indra"
+      ],
+      "type": "Establishment of religious tradition",
+      "relationships": [
+        "King Vasu's devotion leads to creation of Indra festival"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Vasu had five heroic sons: Brihadratha (king of Magadha), Pratyagraha, Kusa (also known as Kushamba), Makhila, and Yadu.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Vasu (Uparichara)",
+        "Brihadratha",
+        "Pratyagraha",
+        "Kusa (Kushamba)",
+        "Makhila",
+        "Yadu"
+      ],
+      "type": "Family lineage",
+      "relationships": [
+        "Father-son relationships",
+        "King Vasu establishes his sons as kings in different kingdoms"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Vasu ascended to Indra's heavenly palace, traveled in a crystal chariot through the sky, and was welcomed by Gandharvas and Apsaras, earning him the name 'Uparichara' (High-flyer).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Vasu (Uparichara)",
+        "Indra",
+        "Gandharvas",
+        "Apsaras"
+      ],
+      "type": "Divine ascension and recognition",
+      "supernatural_elements": [
+        "Heavenly palace",
+        "Crystal flying chariot",
+        "Divine beings"
+      ],
+      "relationships": [
+        "King Vasu gains divine status and recognition"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The pearl-shell river (Suktimati) was blocked by the amorous Mount Kolahala on its way to King Vasu's capital.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Vasu (Uparichara)",
+        "Mount Kolahala",
+        "Suktimati River"
+      ],
+      "type": "Supernatural obstruction",
+      "supernatural_elements": [
+        "Sentient mountain blocking river"
+      ],
+      "relationships": [
+        "Conflict between natural elements"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Vasu kicked Mount Kolahala, creating a gap through which the Suktimati River could flow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Vasu (Uparichara)",
+        "Mount Kolahala",
+        "Suktimati River"
+      ],
+      "type": "Resolution of conflict",
+      "supernatural_elements": [
+        "King's physical power affects mountain"
+      ],
+      "relationships": [
+        "King Vasu intervenes to free the river"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mount Kolahala and Suktimati River had twin children, whom the river gave to King Vasu in gratitude.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Vasu (Uparichara)",
+        "Mount Kolahala",
+        "Suktimati River",
+        "Twin children"
+      ],
+      "type": "Supernatural birth and gift",
+      "supernatural_elements": [
+        "Mountain and river producing children"
+      ],
+      "relationships": [
+        "King Vasu receives children from grateful river",
+        "Mount Kolahala and Suktimati River as parents"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Vasu made the male twin his army commander and married the female twin, named Girika (Mountain-maiden).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Vasu (Uparichara)",
+        "Male twin (unnamed commander)",
+        "Girika"
+      ],
+      "type": "Appointment and marriage",
+      "relationships": [
+        "King adopts and elevates the twins",
+        "Marriage to Girika"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Girika informed King Vasu she was in her fertile period and prepared for conception.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Vasu (Uparichara)",
+        "Girika"
+      ],
+      "type": "Family planning",
+      "relationships": [
+        "Husband-wife relationship focused on procreation"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The ancestors commanded King Vasu to go hunting, and though he desired Girika, he obeyed and went to the forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Vasu (Uparichara)",
+        "Ancestors",
+        "Girika"
+      ],
+      "type": "Divine command and obedience",
+      "supernatural_elements": [
+        "Ancestors giving commands"
+      ],
+      "relationships": [
+        "King Vasu obeys ancestral command despite personal desire"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "While in the forest, King Vasu experienced an involuntary emission of semen, which he caught in a leaf.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Vasu (Uparichara)"
+      ],
+      "type": "Supernatural conception setup",
+      "supernatural_elements": [
+        "Preservation of semen for magical conception"
+      ],
+      "relationships": [
+        "King's determination to not waste reproductive opportunity"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Vasu, knowing the timing coincided with Girika's fertility, recited a mantra to preserve the semen and asked a swift hawk to deliver it to Girika.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Vasu (Uparichara)",
+        "Girika",
+        "Hawk"
+      ],
+      "type": "Magical conception arrangement",
+      "supernatural_elements": [
+        "Preservation mantra",
+        "Animal messenger for conception"
+      ],
+      "relationships": [
+        "King arranges for conception despite physical separation"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "An eagle seized the vital essence (元阳) and flew away quickly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Eagle"
+      ],
+      "action": "Seizure and flight",
+      "supernatural_element": "Vital essence (元阳)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Another eagle, mistaking the vital essence for meat, attacked the first eagle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Eagle",
+        "Another Eagle"
+      ],
+      "action": "Attack/mistaken identity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The two eagles fought in the sky, and during the fight, the vital essence fell into the Yamuna River.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Eagle",
+        "Another Eagle"
+      ],
+      "action": "Fight and loss of vital essence",
+      "location": "Yamuna River"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A celestial nymph named Satyavati, cursed by Brahma to become a fish, lived in the Yamuna River.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyavati",
+        "Brahma"
+      ],
+      "action": "Curse and transformation",
+      "relationship": "Satyavati cursed by Brahma",
+      "supernatural_element": "Curse, transformation into fish"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyavati, in fish form, swiftly swam to and obtained the vital essence that fell from the eagle's claw.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyavati"
+      ],
+      "action": "Retrieval of vital essence"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Fishermen caught the female fish (Satyavati) after ten months and found a male and female child inside her.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Fishermen",
+        "Satyavati"
+      ],
+      "action": "Capture and discovery of children",
+      "supernatural_element": "Birth of human children from fish"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The fishermen reported the strange birth to the king.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Fishermen",
+        "King"
+      ],
+      "action": "Report of miraculous birth"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Uparichara took the male child, named him Matsya (Fish), who later became a righteous king.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Uparichara",
+        "Matsya"
+      ],
+      "action": "Adoption and naming",
+      "relationship": "King Uparichara adopts Matsya"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyavati was freed from her curse upon giving birth to human children, as foretold by the Blessed One, and returned to her celestial form.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyavati",
+        "Blessed One"
+      ],
+      "action": "Curse lifted and transformation",
+      "relationship": "Satyavati freed by fulfilling prophecy",
+      "supernatural_element": "Curse lifted, celestial restoration"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyavati ascended to the realms of Siddhas, Seven Sages, and Charanas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyavati"
+      ],
+      "action": "Ascension to celestial realms",
+      "supernatural_element": "Celestial travel"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The female child, with a fishy odor, was given by the king to a fisherman and named Satyavati (also called Kali).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King",
+        "Fisherman",
+        "Satyavati (Kali)"
+      ],
+      "action": "Gift and naming",
+      "relationship": "Satyavati raised by fisherman"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyavati was rowing a boat for her father when the sage Parashara saw her during his pilgrimage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyavati",
+        "Parashara"
+      ],
+      "action": "Encounter",
+      "location": "River"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Parashara, knowing Satyavati was the daughter of Vasu, desired her and proposed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Parashara",
+        "Satyavati"
+      ],
+      "action": "Proposal",
+      "relationship": "Parashara desires Satyavati"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyavati expressed concern about being seen by other sages on the riverbanks.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyavati"
+      ],
+      "action": "Expression of modesty and concern"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Parashara created a thick fog to conceal them from view.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Parashara"
+      ],
+      "action": "Creation of fog",
+      "supernatural_element": "Weather manipulation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyavati, still hesitant, expressed worry about losing her virginity and her father's disapproval.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyavati"
+      ],
+      "action": "Expression of social and familial concerns"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The maiden pleased the sage, who offered her a boon.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyavati",
+        "Parashara"
+      ],
+      "type": "Divine boon"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyavati chose a boon for a beautiful bodily fragrance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyavati",
+        "Parashara"
+      ],
+      "action": "Boon granted"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyavati and Parashara briefly united, resulting in the birth of a child.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyavati",
+        "Parashara",
+        "Vyasa"
+      ],
+      "type": "Birth",
+      "relationship": "Parents and child"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The child, named Vyasa (also known as Krishna Dvaipayana), was born on an island in the Yamuna River.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa"
+      ],
+      "action": "Birth and naming"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa, observing the decline of dharma across ages, divided the Vedas into four parts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa"
+      ],
+      "action": "Compilation of scriptures"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa taught the four Vedas and the Mahabharata to his disciples and son.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Sumantu",
+        "Jaimini",
+        "Paila",
+        "Shuka"
+      ],
+      "type": "Teaching",
+      "relationship": "Teacher and disciples"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma, son of King Shantanu and Ganga, is mentioned as a mighty and renowned warrior.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "King Shantanu",
+        "Ganga"
+      ],
+      "type": "Background information",
+      "relationship": "Parents and child"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "An old sage, Mandavya, was wrongfully impaled and cursed Dharma (the god of justice) to be born from a Shudra woman.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mandavya",
+        "Dharma"
+      ],
+      "action": "Curse",
+      "type": "Divine intervention"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "As a result of the curse, Dharma was born as Vidura from a Shudra woman.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dharma",
+        "Vidura"
+      ],
+      "action": "Reincarnation",
+      "relationship": "Divine incarnation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya, the charioteer, was born to Gavalgama, and Karna, the warrior, was born to Surya (the sun god) and Kunti.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Gavalgama",
+        "Karna",
+        "Surya",
+        "Kunti"
+      ],
+      "type": "Birth",
+      "relationship": "Parents and children"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vishnu manifested through Vasudeva and Devaki to bless the worlds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishnu",
+        "Vasudeva",
+        "Devaki"
+      ],
+      "type": "Divine manifestation",
+      "relationships": [
+        "Vishnu manifests through Vasudeva and Devaki"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki and Kritavarma, two great warriors skilled in weapons, were born from the Satvata and Hridika clans respectively, devoted to Narayana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Kritavarma"
+      ],
+      "type": "Birth",
+      "relationships": [
+        "Both are devoted to Narayana (Vishnu)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona was born from Bharadvaja's semen in a wooden vessel through the power of a sage's severe austerities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Bharadvaja"
+      ],
+      "type": "Birth",
+      "relationships": [
+        "Drona is son of Bharadvaja"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama's mother and the mighty Kripa were born from Gautama's son Sharadvata's semen falling into reeds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama's mother",
+        "Kripa",
+        "Sharadvata"
+      ],
+      "type": "Birth",
+      "relationships": [
+        "Kripa and Ashvatthama's mother are siblings born from Sharadvata"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona then fathered Ashvatthama, the foremost among warriors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Ashvatthama"
+      ],
+      "type": "Birth",
+      "relationships": [
+        "Ashvatthama is son of Drona"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhrishtadyumna was born from sacrificial fire, resembling the fire god, to destroy Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "Drona"
+      ],
+      "type": "Birth",
+      "relationships": [
+        "Dhrishtadyumna is destined to destroy Drona"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi was born from the sacrificial altar, extremely beautiful and radiant.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi"
+      ],
+      "type": "Birth"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Naganjaya was born as disciple of Prahlada, then Shakuni was born as punishment of dharma through the anger of gods.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Naganjaya",
+        "Prahlada",
+        "Shakuni"
+      ],
+      "type": "Birth",
+      "relationships": [
+        "Naganjaya is disciple of Prahlada",
+        "Shakuni is born as divine punishment"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gandhara king Shakuni fathered Shakuni (son) and Gandhari (mother of Duryodhana), both knowledgeable in politics.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shakuni",
+        "Gandhari"
+      ],
+      "type": "Birth",
+      "relationships": [
+        "Shakuni and Gandhari are children of Gandhara king Shakuni",
+        "Gandhari becomes mother of Duryodhana"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna Dvaipayana (Vyasa) was born in the field of King Shantanu, fathering Dhritarashtra and Pandu.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna Dvaipayana (Vyasa)",
+        "Dhritarashtra",
+        "Pandu"
+      ],
+      "type": "Birth",
+      "relationships": [
+        "Dhritarashtra and Pandu are sons of Krishna Dvaipayana"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pandu had five sons from two wives, each divine-like: Yudhishthira (from Dharma), Bhima (from Vayu), Arjuna (from Indra), and Nakula and Sahadeva (from Ashvins).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandu",
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "type": "Birth",
+      "relationships": [
+        "Yudhishthira, Bhima, Arjuna, Nakula, and Sahadeva are Pandavas, sons of Pandu"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra had one hundred sons beginning with Duryodhana, and Yuyutsu was a mixed-caste son.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Duryodhana",
+        "Yuyutsu"
+      ],
+      "type": "Birth",
+      "relationships": [
+        "Duryodhana is eldest of Dhritarashtra's hundred sons (Kauravas)",
+        "Yuyutsu is Dhritarashtra's mixed-caste son"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Abhimanyu was born from Subhadra and Arjuna, nephew of Krishna, grandson of Pandu.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Abhimanyu",
+        "Subhadra",
+        "Arjuna",
+        "Krishna",
+        "Pandu"
+      ],
+      "type": "Birth",
+      "relationships": [
+        "Abhimanyu is son of Arjuna and Subhadra",
+        "Nephew of Krishna",
+        "Grandson of Pandu"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The five Pandavas and Draupadi had five handsome sons skilled in weapons: Prativindhya (from Yudhishthira), Sutasoma (from Bhima), Shrutakarma (from Arjuna), Shatanika (from Nakula), and Shrutasena (from Sahadeva).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Prativindhya",
+        "Sutasoma",
+        "Shrutakarma",
+        "Shatanika",
+        "Shrutasena",
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Draupadi"
+      ],
+      "type": "Birth",
+      "relationships": [
+        "Five sons born to Pandavas and Draupadi"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima also fathered Ghatotkacha with Hidimba in the forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Ghatotkacha",
+        "Hidimba"
+      ],
+      "type": "Birth",
+      "relationships": [
+        "Ghatotkacha is son of Bhima and Hidimba"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandini, originally a daughter of King Drupada, was transformed into a man by the yaksha Sthuna to please her.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandini",
+        "Drupada",
+        "Sthuna"
+      ],
+      "type": "Transformation",
+      "relationships": [
+        "Shikhandini is child of Drupada",
+        "Transformed by yaksha Sthuna"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Many kings, numbering in the hundreds of thousands, gathered for the war among the Kuru clan, eager to participate.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Numerous unnamed kings"
+      ],
+      "type": "Military assembly",
+      "context": "The Kurukshetra War (Mahabharata war)",
+      "scale": "Massive gathering"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The narrator states that all their names cannot be enumerated, and even with tens of thousands of years, the count would not be completed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator"
+      ],
+      "action": "Acknowledging the impossibility of listing all participants",
+      "purpose": "Emphasizing the vast scale of the conflict"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The narrator mentions that the main ones have already been mentioned and they constitute this story.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator"
+      ],
+      "action": "Referring to previously introduced key characters",
+      "source": "The Mahabharata, Adi Parva, Chapter 57"
+    },
+    "_token_interval": null
+  }
+]

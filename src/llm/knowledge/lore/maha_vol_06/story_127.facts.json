@@ -1,0 +1,802 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa advises Yudhishthira to grant Dhritarashtra's wish to retire to the forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Yudhishthira",
+        "Dhritarashtra"
+      ],
+      "action": "Advice/Persuasion",
+      "relationships": "Vyasa (sage, elder) advises Yudhishthira (king) regarding Dhritarashtra (uncle, former king)",
+      "key_plot_point": "Vyasa urges Yudhishthira to allow Dhritarashtra to retire, citing his old age, grief over losing his sons, and the traditional path of kings."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira respectfully agrees to Vyasa's counsel, acknowledging his authority.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Vyasa"
+      ],
+      "action": "Agreement/Deference",
+      "relationships": "Yudhishthira accepts Vyasa as a father, king, and teacher figure.",
+      "key_plot_point": "Yudhishthira consents, showing obedience to elder wisdom and dharma."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa further persuades Yudhishthira, emphasizing Dhritarashtra's service, protection, and lack of resentment.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Yudhishthira",
+        "Dhritarashtra",
+        "Pandu",
+        "Gandhari"
+      ],
+      "action": "Persuasion/Justification",
+      "relationships": "Vyasa notes Dhritarashtra's care for Pandu (brother) and his sons, and Gandhari's endurance of grief.",
+      "key_plot_point": "Vyasa reinforces the decision by highlighting Dhritarashtra's past benevolence and the appropriateness of forest retirement for aged kings."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira formally agrees, and Vyasa departs for the forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Vyasa"
+      ],
+      "action": "Final Agreement/Departure",
+      "relationships": "Yudhishthira yields to Vyasa's persuasion.",
+      "key_plot_point": "The decision is settled, allowing the narrative to proceed with Dhritarashtra's retirement."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira informs Dhritarashtra of his consent, requesting him to eat first before leaving for the hermitage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Dhritarashtra"
+      ],
+      "action": "Communication/Request",
+      "relationships": "Yudhishthira (nephew, king) shows respect and care for Dhritarashtra (uncle, former king).",
+      "key_plot_point": "Yudhishthira ensures Dhritarashtra's well-being before his departure, maintaining familial duty."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra, with Gandhari, returns to his palace after receiving Yudhishthira's permission.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Gandhari"
+      ],
+      "action": "Preparation for Departure",
+      "relationships": "Dhritarashtra and Gandhari (wife) prepare together for forest life.",
+      "key_plot_point": "Dhritarashtra begins his transition to retirement, described as physically weakened and moving slowly like an old elephant."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra, accompanied by Vidura, Sanjaya, and Kripa, enters his palace, performs morning prayers, gives alms to brahmins, and eats.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Vidura",
+        "Sanjaya",
+        "Kripa"
+      ],
+      "action": "Morning routine",
+      "relationships": [
+        "King and advisors"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gandhari and Kunti, along with their daughters-in-law, eat together.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandhari",
+        "Kunti"
+      ],
+      "action": "Sharing a meal",
+      "relationships": [
+        "Sisters-in-law",
+        "Queens"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After eating, Dhritarashtra, his advisors, and the Pandavas gather around him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Vidura",
+        "Sanjaya",
+        "Kripa",
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "action": "Assembly",
+      "relationships": [
+        "King and subjects",
+        "Uncle and nephews"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra touches Yudhishthira's back and gives him advice on ruling the kingdom according to dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Yudhishthira"
+      ],
+      "action": "Counseling",
+      "relationships": [
+        "Uncle advising nephew",
+        "Former king advising successor"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra advises Yudhishthira to always respect learned elders, heed their advice, and consult them on actions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Yudhishthira"
+      ],
+      "action": "Instruction on governance",
+      "relationships": [
+        "Mentor and mentee"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra advises Yudhishthira to control his senses, appoint tested and capable ministers, use spies to gather intelligence, and fortify his cities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Yudhishthira"
+      ],
+      "action": "Strategic advice",
+      "relationships": [
+        "Knowledge transfer"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra advises Yudhishthira to ensure his food, entertainment, and women's quarters are guarded by trustworthy people, and to appoint learned brahmins as ministers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Yudhishthira"
+      ],
+      "action": "Administrative counsel",
+      "relationships": [
+        "Royal guidance"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra advises Yudhishthira to deliberate on important matters with a few trusted ministers in secure locations, avoid dissent in councils, and understand the affairs of his subjects.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Yudhishthira"
+      ],
+      "action": "Final counsel",
+      "relationships": [
+        "Passing on wisdom"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国 advises 坚战 on governance principles, including appointing reliable judicial officials and using spies for supervision.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国",
+        "坚战"
+      ],
+      "type": "Advice/Instruction",
+      "relationships": "持国 is advising 坚战, indicating a mentor-student or elder-younger relationship, likely within the Kuru dynasty."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国 instructs 坚战 to punish various wrongdoers (e.g., those involved in corruption, adultery, violence) with fines or death based on time and place.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国",
+        "坚战"
+      ],
+      "type": "Legal/Governance Instruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国 outlines a daily schedule for 坚战: inspecting financial officers in the morning, grooming and eating, inspecting the army, sending messengers and spies in the evening, planning at midnight, and entertainment at midnight and noon.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国",
+        "坚战"
+      ],
+      "type": "Routine/Administrative Advice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国 advises 坚战 to accumulate wealth through legal means, avoid illegal methods, use spies to identify enemies exploiting the kingdom's weaknesses, and have them fight each other.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国",
+        "坚战"
+      ],
+      "type": "Strategic/Espionage Advice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国 advises 坚战 to select reliable attendants through practical examination, appoint a loyal and brave army commander, and ensure all urban and rural residents serve him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国",
+        "坚战"
+      ],
+      "type": "Personnel/Management Advice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国 advises 坚战 to observe the weaknesses of both enemies and allies, reward those who fulfill their duties appropriately, and pursue merit to achieve stability like Mount Meru.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国",
+        "坚战"
+      ],
+      "type": "Strategic/Reward Advice",
+      "supernatural_elements": "Metaphorical reference to Mount Meru as a symbol of stability."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国 advises 坚战 to recognize various spheres of influence: enemies, allies, neutrals, and intermediaries, including four types of enemies, murderers, friends, and friends of enemies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国",
+        "坚战"
+      ],
+      "type": "Political/Strategic Analysis"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国 lists twelve items a king should recognize, plus sixty items headed by ministers, totaling seventy-two items, and advises understanding how to apply six strategies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国",
+        "坚战"
+      ],
+      "type": "Governance Framework Instruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国 advises 坚战 to recognize states of strength, weakness, and stability, use the seventy-two items to implement six strategies, attack when strong and enemy is weak, make peace when weak, accumulate resources, and avoid ceding territory.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国",
+        "坚战"
+      ],
+      "type": "Military/Strategic Policy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国 advises 坚战 on the principles of peace and war, including types, means, and possibilities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国",
+        "坚战"
+      ],
+      "type": "Advice/Instruction",
+      "relationships": "持国 is advising 坚战, likely in a mentor or elder role."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国 advises 坚战 to avoid confrontation and serve the enemy if the enemy's army is strong and morale is high.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国",
+        "坚战"
+      ],
+      "action": "Strategic avoidance and servitude",
+      "context": "Part of war strategy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国 advises 坚战 to be cautious during friendly relations, yield when oppressed, trouble enemies, divide them, weaken them, instill fear, and strike lethally in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国",
+        "坚战"
+      ],
+      "action": "Multi-faceted war strategy",
+      "type": "Tactical advice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国 advises 坚战 that a king should consider three capabilities (morale, discipline, and planning) before attacking, and only attack if all are present.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国",
+        "坚战"
+      ],
+      "action": "Pre-attack assessment",
+      "key_points": [
+        "Morale",
+        "Discipline",
+        "Planning"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国 advises 坚战 that a king should possess financial strength, allies, mercenaries, and regular army, with spies being equally important.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国",
+        "坚战"
+      ],
+      "action": "Building military and strategic resources",
+      "resources": [
+        "Financial strength",
+        "Allies",
+        "Mercenaries",
+        "Regular army",
+        "Spies"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国 advises 坚战 to understand the various disasters a king faces and address them with appeasement and other means.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国",
+        "坚战"
+      ],
+      "action": "Disaster management",
+      "means": "Appeasement, etc."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国 advises 坚战 that a king with six strengths, military advantage, suitable time and place can campaign, and can campaign even without just cause if the army is strong and morale high.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国",
+        "坚战"
+      ],
+      "action": "Conditions for military campaign",
+      "conditions": [
+        "Six strengths",
+        "Military advantage",
+        "Suitable time and place",
+        "Strong army and high morale"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "国王出征消灭敌人如同江河直下，以木柱为河中石头，以车马为水流，以旗帜为两岸树木，以步兵和大象为河中泥沼。",
+    "char_interval": {
+      "start_pos": 3942,
+      "end_pos": 3994
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "国王"
+      ],
+      "action": "出征消灭敌人",
+      "description": "用江河比喻战争场景，木柱为石头，车马为水流，旗帜为树木，步兵和大象为泥沼"
+    },
+    "_token_interval": {
+      "start_index": 1200,
+      "end_index": 1210
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "按照优沙那的经典规则，编排车阵、莲花阵和金刚杵阵",
+    "char_interval": {
+      "start_pos": 3998,
+      "end_pos": 4022
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "国王"
+      ],
+      "action": "编排阵法",
+      "rules": "优沙那的经典规则",
+      "formations": [
+        "车阵",
+        "莲花阵",
+        "金刚杵阵"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 1213,
+      "end_index": 1218
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "国王应该消灭敌人的军队，慰劳自己的军队。在自己的领土上作战是这样，在敌人的领土上作战也是这样。",
+    "char_interval": {
+      "start_pos": 4034,
+      "end_pos": 4081
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "国王"
+      ],
+      "action": "消灭敌人并慰劳己方军队",
+      "scope": "无论在己方领土还是敌方领土作战"
+    },
+    "_token_interval": {
+      "start_index": 1224,
+      "end_index": 1232
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "征服敌人后，国王应该把获得的财富委托富人保管。国王应该熟悉自己的疆域，施展安抚等等手段。",
+    "char_interval": {
+      "start_pos": 4085,
+      "end_pos": 4129
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "国王"
+      ],
+      "action": "战后管理",
+      "steps": [
+        "委托财富给富人保管",
+        "熟悉疆域",
+        "施展安抚手段"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 1235,
+      "end_index": 1243
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "大王啊!无论如何，都应该保重身体，做对自己今生和来世有益的事。",
+    "char_interval": {
+      "start_pos": 4134,
+      "end_pos": 4165
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "国王"
+      ],
+      "advice": "保重身体，做对今生和来世有益的事"
+    },
+    "_token_interval": {
+      "start_index": 1246,
+      "end_index": 1254
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "国王这样行动，听取吉祥的话，依法保护臣民，死后就能升入天国。",
+    "char_interval": {
+      "start_pos": 4175,
+      "end_pos": 4205
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "国王"
+      ],
+      "action": "听取吉祥话，依法保护臣民",
+      "result": "死后升入天国"
+    },
+    "_token_interval": {
+      "start_index": 1259,
+      "end_index": 1267
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "这些教诲以前毗湿摩、黑天和维杜罗都对你说过，我出于对你的喜爱，不由自主地也要对你说说",
+    "char_interval": {
+      "start_pos": 4245,
+      "end_pos": 4287
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "speaker": "叙述者",
+      "listener": "国王",
+      "previous_teachers": [
+        "毗湿摩",
+        "黑天",
+        "维杜罗"
+      ],
+      "relationship": "叙述者出于喜爱向国王重复教诲"
+    },
+    "_token_interval": {
+      "start_index": 1279,
+      "end_index": 1286
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "国王举行一千次马祭和依法保护臣民，两者的果报相同。",
+    "char_interval": {
+      "start_pos": 4342,
+      "end_pos": 4367
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "国王"
+      ],
+      "comparison": "一千次马祭的果报 = 依法保护臣民的果报"
+    },
+    "_token_interval": {
+      "start_index": 1307,
+      "end_index": 1311
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "以上是吉祥的《摩诃婆罗多》中《林居篇》第十二章",
+    "char_interval": {
+      "start_pos": 4372,
+      "end_pos": 4395
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "source": "《摩诃婆罗多》",
+      "chapter": "《林居篇》第十二章"
+    },
+    "_token_interval": {
+      "start_index": 1314,
+      "end_index": 1323
+    }
+  }
+]

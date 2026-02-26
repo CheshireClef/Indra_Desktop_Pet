@@ -1,0 +1,1400 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "信度王阵亡后，难敌泪流满面，忧愁悲伤，失去战胜敌人的勇气。",
+    "char_interval": {
+      "start_pos": 32,
+      "end_pos": 39
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌"
+      ],
+      "action": "悲伤与绝望",
+      "trigger": "信度王阵亡"
+    },
+    "_token_interval": {
+      "start_index": 10,
+      "end_index": 12
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌思忖无人能与阿周那匹敌，认为德罗纳、迦尔纳、马嘶和慈悯都无法抵挡阿周那。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌",
+        "阿周那",
+        "德罗纳",
+        "迦尔纳",
+        "马嘶",
+        "慈悯"
+      ],
+      "type": "内心独白/评估",
+      "relationships": "难敌评估己方将领 vs. 阿周那"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌思忖阿周那击败己方勇士并杀死信度王，势不可挡，俱卢族大军将全军覆灭。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌",
+        "阿周那",
+        "信度王"
+      ],
+      "action": "评估战局",
+      "supernatural_elements": "提及因陀罗也无法拯救"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌反思所依赖的勇士迦尔纳战败、胜车阵亡。",
+    "char_interval": {
+      "start_pos": 120,
+      "end_pos": 246
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌",
+        "迦尔纳",
+        "胜车"
+      ],
+      "action": "反思损失",
+      "relationships": "难敌依赖迦尔纳等勇士"
+    },
+    "_token_interval": {
+      "start_index": 36,
+      "end_index": 74
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌后悔因依赖迦尔纳而轻视前来乞求和平的黑天。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌",
+        "迦尔纳",
+        "黑天"
+      ],
+      "action": "后悔与自责",
+      "relationships": "难敌曾轻视黑天的和平提议"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌无精打采地向德罗纳走去，与他会面。",
+    "char_interval": {
+      "start_pos": 373,
+      "end_pos": 426
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌",
+        "德罗纳"
+      ],
+      "action": "寻求会面",
+      "relationships": "难敌（学生）向德罗纳（师父）求助"
+    },
+    "_token_interval": {
+      "start_index": 107,
+      "end_index": 123
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌向德罗纳讲述俱卢族人遭到大屠杀、敌人胜利、持国众子遭受灭顶之灾。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌",
+        "德罗纳"
+      ],
+      "action": "报告战况",
+      "relationships": "难敌向德罗纳倾诉困境"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌对德罗纳讲述毗湿摩被束发用欺诈手段杀害，般遮罗人到达军队前沿。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌",
+        "德罗纳",
+        "毗湿摩",
+        "束发",
+        "般遮罗人"
+      ],
+      "action": "报告将领阵亡",
+      "relationships": "毗湿摩（老祖宗）被束发杀害"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌讲述阿周那歼灭七支大军并杀死德罗纳的弟子胜车王。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌",
+        "德罗纳",
+        "阿周那",
+        "胜车"
+      ],
+      "action": "报告损失",
+      "relationships": "胜车是德罗纳的弟子"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌表达对阵亡朋友的愧疚，不知如何偿还，并自责让朋友们遭到毁灭。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌"
+      ],
+      "action": "自责与愧疚",
+      "relationships": "难敌对朋友阵亡感到有罪"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌自责是贪婪、罪恶、违背正法的人，导致朋友们为他而战并阵亡。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌"
+      ],
+      "action": "道德自责",
+      "supernatural_elements": "提及阎摩（死神）的府第"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌表达想跳进地缝的绝望，并因未能保护战死的毗湿摩而痛苦。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌",
+        "毗湿摩"
+      ],
+      "action": "绝望与自责",
+      "relationships": "难敌未能保护毗湿摩（老祖宗）"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌讲述水连死在萨谛奇手中，以及甘波阇王、指掌等朋友阵亡。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌",
+        "水连",
+        "萨谛奇",
+        "甘波阇王",
+        "指掌"
+      ],
+      "action": "报告更多损失",
+      "relationships": "朋友们为保护难敌而战死"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌质疑自己活着的意义，因为永不退缩的英雄们为他战死沙场。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌"
+      ],
+      "action": "存在性质疑",
+      "relationships": "难敌感到对英雄们的阵亡负有责任"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌 (Duryodhana) expresses determination to either defeat the Pandavas or die trying, lamenting the loss of allies and questioning the loyalty of remaining friends.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌 (Duryodhana)"
+      ],
+      "action": "Declaration of resolve and lamentation",
+      "relationships": [
+        "难敌 (Duryodhana) vs. 般度诸子 (Pandavas)",
+        "难敌 (Duryodhana) allies: 迦尔纳 (Karna)"
+      ],
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌 (Duryodhana) recounts the deaths of key allies: 胜车 (Shalya), 月授之子 (广声, Shalya's son), and warriors from Abhishaha, Surasena, Shibi, and Vasati tribes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌 (Duryodhana)",
+        "胜车 (Shalya)",
+        "广声 (Shalya's son)"
+      ],
+      "action": "Recounting losses in battle",
+      "relationships": [
+        "Allies of 难敌 (Duryodhana)"
+      ],
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌 (Duryodhana) accuses 德罗纳 (Drona) of favoring 阿周那 (Arjuna) due to being his teacher, leading to neglect of the Kaurava side.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌 (Duryodhana)",
+        "德罗纳 (Drona)",
+        "阿周那 (Arjuna)"
+      ],
+      "action": "Accusation of bias",
+      "relationships": [
+        "德罗纳 (Drona) as teacher of 阿周那 (Arjuna)",
+        "难敌 (Duryodhana) vs. 德罗纳 (Drona)"
+      ],
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国 (Dhritarashtra) asks 全胜 (Sanjaya) about the reactions of the Kaurava army after the deaths of 信度王 (Shalya) and 广声 (Shalya's son), and what 德罗纳 (Drona) said in response to 难敌 (Duryodhana).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国 (Dhritarashtra)",
+        "全胜 (Sanjaya)",
+        "信度王 (Shalya)",
+        "广声 (Shalya's son)",
+        "难敌 (Duryodhana)",
+        "德罗纳 (Drona)"
+      ],
+      "action": "Inquiry about battle aftermath",
+      "relationships": [
+        "持国 (Dhritarashtra) as father of 难敌 (Duryodhana)",
+        "全胜 (Sanjaya) as narrator to 持国 (Dhritarashtra)"
+      ],
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "全胜 (Sanjaya) describes the Kaurava army's despair after the deaths of 信度王 (Shalya) and 广声 (Shalya's son), blaming 难敌 (Duryodhana)'s strategies for the losses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "全胜 (Sanjaya)",
+        "难敌 (Duryodhana)",
+        "信度王 (Shalya)",
+        "广声 (Shalya's son)"
+      ],
+      "action": "Narration of army's reaction",
+      "relationships": [
+        "Kaurava army vs. 难敌 (Duryodhana)"
+      ],
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "德罗纳 (Drona) responds to 难敌 (Duryodhana), expressing distress and reiterating that 阿周那 (Arjuna) is invincible, citing 毗湿摩 (Bhishma)'s death under 阿周那 (Arjuna)'s protection as proof.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "德罗纳 (Drona)",
+        "难敌 (Duryodhana)",
+        "阿周那 (Arjuna)",
+        "毗湿摩 (Bhishma)"
+      ],
+      "action": "Defense and warning",
+      "relationships": [
+        "德罗纳 (Drona) as teacher of 阿周那 (Arjuna)",
+        "毗湿摩 (Bhishma) as elder Kaurava warrior"
+      ],
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "德罗纳 (Drona) reflects on the significance of 毗湿摩 (Bhishma)'s death, stating it foretells the end of the Kaurava army and questions who they can rely on now.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "德罗纳 (Drona)",
+        "毗湿摩 (Bhishma)"
+      ],
+      "action": "Reflection on loss",
+      "relationships": [
+        "德罗纳 (Drona) as ally of 毗湿摩 (Bhishma)"
+      ],
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "德罗纳 (Drona) metaphorically describes 沙恭尼 (Shakuni)'s dice game in the Kaurava assembly hall as launching arrows that torment enemies, implying the war's origins in that event.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "德罗纳 (Drona)",
+        "沙恭尼 (Shakuni)"
+      ],
+      "action": "Metaphorical accusation",
+      "relationships": [
+        "沙恭尼 (Shakuni) as instigator of the war"
+      ],
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vidura repeatedly warned Duryodhana about seeking peace, but Duryodhana ignored him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vidura",
+        "Duryodhana"
+      ],
+      "action": "Warning/Ignoring",
+      "relationship": "Advisor and prince (uncle and nephew)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana, with Dhritarashtra's approval and Shakuni's help, humiliated Draupadi in the Kuru assembly hall, angering the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Dhritarashtra",
+        "Shakuni",
+        "Draupadi",
+        "Pandavas"
+      ],
+      "action": "Humiliation/Inciting anger",
+      "relationship": "Rivalry between Kauravas and Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana used deceit to win the dice game against the Pandavas and exiled them to the forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Pandavas"
+      ],
+      "action": "Deceit/Exile"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dushasana and Karna further incited the conflict, while Duryodhana disregarded Vidura's counsel.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dushasana",
+        "Karna",
+        "Duryodhana",
+        "Vidura"
+      ],
+      "action": "Inciting conflict/Ignoring advice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Jayadratha (King of Sindhu) was killed by Arjuna despite being surrounded and protected by Duryodhana's forces.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Jayadratha",
+        "Arjuna",
+        "Duryodhana"
+      ],
+      "action": "Killing in battle",
+      "relationship": "Enemies in the Kurukshetra War"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma, who was considered invincible even by gods, was killed in battle in front of Duryodhana and Dushasana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Duryodhana",
+        "Dushasana"
+      ],
+      "action": "Death in battle",
+      "relationship": "Grandfather and grandsons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker vows to destroy the Panchalas and Shikhandin in battle for Duryodhana's sake.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna (implied speaker)",
+        "Duryodhana",
+        "Panchalas",
+        "Shikhandin"
+      ],
+      "action": "Vow of destruction",
+      "relationship": "Ally of Duryodhana"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona instructs Ashvatthaman to preserve his life, not spare the Somakas, follow his father's teachings of compassion, restraint, honesty, and righteousness, prioritize dharma, and serve Brahmins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Ashvatthaman"
+      ],
+      "action": "Instruction/Advice",
+      "relationships": "Father instructing son",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona declares his intention to plunge into the army for a great battle, despite being tormented by words, and urges Duryodhana to protect the army if he can.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Duryodhana"
+      ],
+      "action": "Declaration/Challenge",
+      "relationships": "Teacher to king",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona advances towards the Pandavas and Srinjayas, crushing the spirits of the Kshatriyas like the sun dispersing starlight.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Pandavas",
+        "Srinjayas"
+      ],
+      "action": "Battle advance",
+      "relationships": "Enemies in war",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana, incited by Drona, becomes furious and resolves to fight.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Decision to fight",
+      "relationships": "King responding to teacher",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana complains to Karna that Arjuna, with Krishna's help, broke through Drona's formation, which even gods couldn't break, and that Drona let Arjuna pass due to affection, leading to the death of Shalya and Duryodhana's brothers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Karna",
+        "Arjuna",
+        "Krishna",
+        "Drona",
+        "Shalya",
+        "Bhima"
+      ],
+      "action": "Complaint/Accusation",
+      "relationships": "Duryodhana blames Drona for favoring Arjuna, leading to allies' deaths",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna advises Duryodhana not to blame Drona, stating the Pandavas are invincible, Arjuna's breakthrough was fated, and fate is supreme, as seen in Shalya's death despite their efforts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Duryodhana",
+        "Drona",
+        "Pandavas",
+        "Arjuna",
+        "Shalya"
+      ],
+      "action": "Advice/Philosophical reflection",
+      "relationships": "Karna defends Drona and emphasizes fate",
+      "supernatural_elements": "Fate/destiny"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya narrates a conversation about fate and past events between two characters (likely Duryodhana and another Kaurava leader).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Duryodhana",
+        "Unnamed Kaurava Leader"
+      ],
+      "action": "Narration of philosophical discussion",
+      "relationships": [
+        "Narrator (Sanjaya) to King Dhritarashtra",
+        "Kaurava leaders discussing strategy"
+      ],
+      "supernatural_elements": [
+        "Fate (Daiva) as a dominant, conscious force determining outcomes"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker recounts past misfortunes inflicted upon the Pandavas: poisoning, arson in the lacquer house, defeat in dice gambling, and exile to the forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas (Sons of Pritha/Kunti)"
+      ],
+      "action": "Recollection of past persecutions",
+      "relationships": [
+        "Kauravas as perpetrators of schemes against Pandavas"
+      ],
+      "key_plot_points": [
+        "Establishes historical conflict and suffering of Pandavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Despite the Kauravas' numerical superiority and elaborate schemes, fate favored the Pandavas, leading to the destruction of many Kaurava warriors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kauravas",
+        "Pandavas"
+      ],
+      "action": "Analysis of battle outcomes",
+      "relationships": [
+        "Adversaries in the Kurukshetra War"
+      ],
+      "supernatural_elements": [
+        "Fate overriding military advantage"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya reports that the Pandava armies appear on the battlefield, and fierce fighting resumes between the two sides.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Pandava Armies",
+        "Kaurava Armies"
+      ],
+      "action": "Resumption of battle",
+      "relationships": [
+        "Narrator (Sanjaya) to King Dhritarashtra",
+        "Opposing armies in combat"
+      ],
+      "key_plot_points": [
+        "Continuation of the Kurukshetra War"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A chaotic and massive battle ensues involving Panchalas, Kauravas, charioteers, elephants, cavalry, and infantry, causing heavy casualties on both sides.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Panchalas",
+        "Kauravas",
+        "Various Warriors"
+      ],
+      "action": "Large-scale combat with multiple divisions",
+      "relationships": [
+        "Panchalas allied with Pandavas against Kauravas",
+        "Warriors fighting individual duels"
+      ],
+      "key_plot_points": [
+        "Intense fighting makes combatants difficult to distinguish"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "As the sun sets and the battlefield darkens from arrows, Duryodhana fearlessly advances deep into the Pandava army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Pandava Army"
+      ],
+      "action": "Daring advance by Duryodhana",
+      "relationships": [
+        "Kaurava leader attacking enemy formation"
+      ],
+      "key_plot_points": [
+        "Duryodhana's personal bravery in twilight battle conditions"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Due to the death of Shalya, Duryodhana, filled with grief and determination, charged into the enemy army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Charge into battle",
+      "reason": "Grief and determination after Shalya's death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana attacked the Pandava army with arrows, causing them to flee and suffer heavy losses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Pandava army"
+      ],
+      "action": "Arrow attack",
+      "result": "Pandava army flees and suffers losses"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Panchalas, led by Bhima, charged at Duryodhana in response to the attack.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Panchalas",
+        "Duryodhana"
+      ],
+      "action": "Counter-charge",
+      "initiator": "Bhima"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana shot arrows at multiple warriors: ten at Bhima, three each at Nakula and Sahadeva, six each at Virata and Drupada, a hundred at Shikhandin, seventy at Dhrishtadyumna, seven at Yudhishthira, and many at Kekayas and Chedis.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhima",
+        "Nakula",
+        "Sahadeva",
+        "Virata",
+        "Drupada",
+        "Shikhandin",
+        "Dhrishtadyumna",
+        "Yudhishthira",
+        "Kekayas",
+        "Chedis"
+      ],
+      "action": "Multiple arrow attacks"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana shot five arrows at Satyaki, three each at Draupadi's five sons, and several at Ghatotkacha, then roared like a lion.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Satyaki",
+        "Draupadi's sons",
+        "Ghatotkacha"
+      ],
+      "action": "Arrow attacks and roar"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira broke Duryodhana's bow with two crescent-headed arrows and shot ten arrows that pierced him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Duryodhana"
+      ],
+      "action": "Bow destruction and arrow attack",
+      "result": "Duryodhana wounded"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira shot another powerful arrow that caused Duryodhana to collapse in his chariot, leading Panchalas to shout that the king was killed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Duryodhana",
+        "Panchalas"
+      ],
+      "action": "Final arrow attack",
+      "result": "Duryodhana collapses, false declaration of death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona appeared on the battlefield, and Duryodhana took up another bow, charging at Yudhishthira while shouting 'Stop!'",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Duryodhana",
+        "Yudhishthira"
+      ],
+      "action": "Reinforcement and renewed charge",
+      "relationship_change": "Drona protects Duryodhana"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Panchalas tried to capture Duryodhana, but Drona protected him and drove them back.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Duryodhana",
+        "Panchalas"
+      ],
+      "action": "Protection and defense",
+      "result": "Drona successfully defends Duryodhana"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona, angered by Duryodhana's transgression of scriptures, plunged into the Pandava army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Duryodhana"
+      ],
+      "action": "Drona enters battle",
+      "trigger": "Duryodhana's transgression",
+      "relationship": "Teacher (Drona) and student (Duryodhana)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna and Satyaki, after killing the King of Sindhu, joined with Yudhishthira and charged toward Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Satyaki",
+        "King of Sindhu",
+        "Yudhishthira",
+        "Drona"
+      ],
+      "action": "Alliance and charge",
+      "previous_action": "Killing of King of Sindhu"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira and Bhima led their armies rapidly toward Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Drona"
+      ],
+      "action": "Military advance",
+      "relationship": "Pandava brothers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula, Sahadeva, Shikhandin, Satyajit, Virata, and armies from Kekaya, Matsya, and Shalva launched an attack on Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Sahadeva",
+        "Shikhandin",
+        "Satyajit",
+        "Virata",
+        "Drona"
+      ],
+      "action": "Coordinated attack",
+      "forces": "Kekaya, Matsya, Shalva armies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drupada, protected by Panchala warriors, advanced toward Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drupada",
+        "Drona"
+      ],
+      "action": "Military advance",
+      "protection": "Panchala warriors",
+      "relationship": "Father (Drupada) of Draupadi"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The five sons of Draupadi and the Rakshasa Ghatotkacha led their armies toward Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sons of Draupadi",
+        "Ghatotkacha",
+        "Drona"
+      ],
+      "action": "Military charge",
+      "relationship": "Sons of Draupadi (Pandava heirs), Ghatotkacha (Bhima's son)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Six thousand Prabhadrakas and Panchala warriors, with Shikhandin at the forefront, attacked Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Drona"
+      ],
+      "action": "Focused attack",
+      "forces": "6000 Prabhadrakas and Panchala warriors"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Other Pandava heroes gathered and confronted Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Various Pandava heroes",
+        "Drona"
+      ],
+      "action": "Confrontation",
+      "description": "General assembly of Pandava forces"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A terrifying night fell, causing fear among cowards, with ominous signs like howling jackals and owls appearing.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Supernatural atmosphere",
+      "elements": [
+        "Dark night",
+        "howling jackals",
+        "owls"
+      ],
+      "omen": "Foretelling disaster for Kaurava army"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Loud noises filled the army - drums, elephant roars, horse neighs, and hoofbeats.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Battle preparations",
+      "sounds": [
+        "Drums",
+        "elephant roars",
+        "horse sounds"
+      ],
+      "atmosphere": "Chaotic and loud"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A fierce and terrible battle erupted between Drona and the Srinjayas in the darkness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Srinjayas"
+      ],
+      "action": "Battle commencement",
+      "conditions": [
+        "Night",
+        "darkness",
+        "dust"
+      ],
+      "intensity": "Fierce and terrible"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Darkness and dust obscured vision, blood mixed with dust creating terrifying conditions, and weapon clashes sounded like burning bamboo.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Battle chaos",
+      "conditions": [
+        "Obscured vision",
+        "blood mixed with dust",
+        "loud weapon clashes"
+      ],
+      "psychological_state": "Frenzied state, confusion between friend and foe"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Blood eventually stopped the dust, and golden armor and ornaments dispelled some darkness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Battle development",
+      "visual_changes": [
+        "Blood stops dust",
+        "armor dispels darkness"
+      ],
+      "symbolism": "Contrast of destruction and illumination"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Bharata army, adorned with jewels and gold, assembled on the battlefield at night, creating a spectacular sight like a starry sky.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bharata army"
+      ],
+      "type": "Military assembly",
+      "supernatural_elements": "Similes comparing the army to celestial phenomena (starry sky, lightning, thunderclouds)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The battlefield was filled with banners, spears, and terrifying sounds including jackals, crows, elephant roars, horse neighs, and warrior shouts, creating a hair-raising cacophony compared to Indra's thunderbolt.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bharata army"
+      ],
+      "type": "Battle preparation",
+      "supernatural_elements": "Comparison to Indra's thunderbolt"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana is described as the wind blowing ahead, with chariots and elephants as clouds, drumbeats as thunder, and bows and banners as lightning.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "type": "Metaphorical description",
+      "relationships": "Duryodhana leads the Kaurava forces"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona and the Pandavas are described as clouds, with swords, spears, and maces as thunder, arrows as torrential rain, and other weapons as gusts of wind, creating a storm that is both cold and hot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Pandavas"
+      ],
+      "type": "Metaphorical description",
+      "relationships": "Drona (Kaurava commander) faces the Pandavas in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In the terrifying night battle, the Pandavas and Srinjayas united and fiercely attacked Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Srinjayas",
+        "Drona"
+      ],
+      "type": "Battle engagement",
+      "relationships": "Pandavas and Srinjayas form alliance against Drona"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Those who rushed at Drona either turned and fled or were sent to Yama's abode (killed).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona"
+      ],
+      "type": "Battle outcome",
+      "action": "Drona defeats attackers",
+      "supernatural_elements": "Reference to Yama (god of death)"
+    },
+    "_token_interval": null
+  }
+]

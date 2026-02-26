@@ -1,0 +1,964 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna (also called Partha, Vijaya, and Pandava) displays extraordinary prowess on the battlefield, appearing everywhere at once and firing countless arrows from his Gandiva bow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Combat display",
+      "supernatural_elements": "Appears simultaneously in all directions, fires arrows in clusters like flocks of geese"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna, with Krishna as his charioteer, fights through numerous enemy warriors to reach King Shalya (also called Sindhu King).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna",
+        "Shalya"
+      ],
+      "action": "Battle advancement",
+      "relationships": "Krishna serves as Arjuna's charioteer"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna shoots sixty-four straight arrows at Shalya, enraging him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Shalya"
+      ],
+      "action": "Arrow attack",
+      "result": "Shalya becomes furious"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya retaliates by shooting arrows at Arjuna, hitting his Gandiva bow, his horses, and his banner.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Arjuna"
+      ],
+      "action": "Counterattack",
+      "targets_hit": [
+        "Gandiva bow",
+        "Arjuna",
+        "Arjuna's horses",
+        "Arjuna's banner"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna shoots two arrows that behead Shalya's charioteer and shatter Shalya's boar-emblazoned banner.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Shalya"
+      ],
+      "action": "Destructive counterattack",
+      "results": [
+        "Shalya's charioteer beheaded",
+        "Shalya's banner destroyed"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "As sunset approaches, Krishna urges Arjuna to kill Shalya before nightfall.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna",
+        "Shalya"
+      ],
+      "action": "Urging/Command",
+      "reason": "Sun is setting, time is limited"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna reveals a prophecy about Shalya's birth and fate: a divine voice announced that Shalya would be killed by a famous enemy who would cut off his head in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Shalya",
+        "Vriddhakshatra"
+      ],
+      "action": "Revelation of prophecy",
+      "supernatural_elements": "Divine voice from the sky",
+      "relationships": "Vriddhakshatra is Shalya's father",
+      "prophecy": "Shalya will be killed by an enemy who cuts off his head in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Jayadratha's father, King Vriddhakshatra, out of love for his son, proclaimed a curse that whoever caused his son's head to fall to the ground would have their own head shattered into a hundred pieces.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Vriddhakshatra",
+        "King Jayadratha"
+      ],
+      "action": "Proclamation of curse",
+      "relationship": "Father and son",
+      "supernatural_element": "Curse with fatal consequence"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After installing Jayadratha on the throne, Vriddhakshatra retired to the forest to perform severe austerities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Vriddhakshatra",
+        "King Jayadratha"
+      ],
+      "action": "Retirement and ascetic practice",
+      "relationship": "Succession"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna, upon hearing about the curse, prepared to kill Jayadratha using a divine, mantra-empowered arrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "King Jayadratha"
+      ],
+      "action": "Preparation for battle",
+      "supernatural_element": "Divine arrow empowered with mantras"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna shot the arrow from his Gandiva bow, which swiftly severed Jayadratha's head.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "King Jayadratha"
+      ],
+      "action": "Decapitation in battle",
+      "supernatural_element": "Miraculous weapon effect"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna used additional arrows to propel Jayadratha's head upward and transform it into a Kadamba flower, sending it beyond the region of Panchala.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "King Jayadratha"
+      ],
+      "action": "Transformation and transportation of head",
+      "supernatural_element": "Mystical transformation and long-distance propulsion"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The head, with black hair and earrings, fell into the lap of King Vriddhakshatra while he was performing evening prayers, unnoticed by him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Vriddhakshatra",
+        "King Jayadratha"
+      ],
+      "action": "Head delivery during meditation",
+      "relationship": "Father receives son's head unknowingly"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After completing his prayers, Vriddhakshatra stood up, causing the head to roll to the ground, which triggered the curse and shattered his own head into a hundred pieces.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Vriddhakshatra",
+        "King Jayadratha"
+      ],
+      "action": "Curse fulfillment",
+      "supernatural_element": "Automatic curse activation leading to death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "All beings were amazed; Krishna praised Arjuna, while the Kauravas shed tears of grief upon Jayadratha's death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna",
+        "Kauravas"
+      ],
+      "action": "Reactions to the event",
+      "relationship": "Allies praising, enemies mourning"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima roared like a lion on the battlefield, informing Yudhishthira of Jayadratha's death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Yudhishthira"
+      ],
+      "action": "Communication of victory",
+      "relationship": "Brothers in the Pandava army"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira, upon hearing the news, ordered celebratory music and, filled with battle spirit, launched an attack against Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Drona"
+      ],
+      "action": "Military command and engagement",
+      "relationship": "Opponents in the Kurukshetra War"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "As the sun set, Drona and the Somakas engaged in a terrifying battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Somakas"
+      ],
+      "action": "Battle commencement",
+      "context": "Continuation of the Kurukshetra War"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Shantanu saw the beautiful Ganga by the river and fell in love.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Shantanu",
+        "Ganga"
+      ],
+      "type": "Romance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "condition",
+    "extraction_text": "She agreed to marry him on the condition that he never question her actions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "proposer": "Ganga",
+      "accepter": "King Shantanu"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "They had seven sons, but she drowned each one immediately after birth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ganga",
+        "Seven Vasus (Sons)"
+      ],
+      "action": "Drowning/Killing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "conflict",
+    "extraction_text": "When the eighth son was born, Shantanu could not bear it and stopped her.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "initiator": "King Shantanu",
+      "reason": "Save the child"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "revelation",
+    "extraction_text": "Ganga revealed her identity, explained the curse of the Vasus, and left with the child",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "true_identity": "River Goddess Ganga",
+      "child": "Bhishma (Devavrata)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kripa (also called Gautama) was struck by arrows and fell unconscious on his chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripa"
+      ],
+      "action": "Injured in battle",
+      "type": "Conflict"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna (son of Pritha) lamented seeing Kripa wounded, expressing deep remorse for attacking his teacher.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Kripa"
+      ],
+      "relationship": "Teacher-student (Arjuna was Kripa's student)",
+      "emotional_state": "Remorse, guilt"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna recalled Vidura's warning to King Dhritarashtra at Duryodhana's birth, predicting Duryodhana would cause great harm to the Kuru family.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vidura",
+        "King Dhritarashtra",
+        "Duryodhana"
+      ],
+      "type": "Prophecy/Warning",
+      "relationship": "Vidura as advisor to King Dhritarashtra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna reflected on the moral consequences of harming one's teacher, contrasting righteous warriors who honor teachers with evil ones who harm them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "theme": "Dharma, teacher-student ethics",
+      "consequence": "Heaven for honoring teachers, hell for harming them"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna (son of Radha) saw King Jayadratha killed and rushed forward in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "King Jayadratha"
+      ],
+      "action": "Karna advancing after ally's death",
+      "relationship": "Allies in Kaurava army"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna noticed Karna moving toward Satyaki's chariot and asked Krishna to intervene.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna",
+        "Karna",
+        "Satyaki"
+      ],
+      "action": "Strategic command",
+      "relationship": "Arjuna and Krishna as charioteer-warrior pair"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna advised Arjuna not to engage Karna yet because Karna possessed Indra's divine spear, which was being protected for use against Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna",
+        "Karna",
+        "Indra"
+      ],
+      "type": "Divine intervention/Weapon",
+      "weapon": "Indra's spear (protected for use against Arjuna)",
+      "strategy": "Delay confrontation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna stated that Satyaki, assisted by the sons of King Drupada, was sufficient to handle Karna for now.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Karna",
+        "Sons of King Drupada"
+      ],
+      "action": "Battle arrangement",
+      "relationship": "Allies supporting Satyaki"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna instructed Daruka to prepare his chariot for Satyaki's aid.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Daruka"
+      ],
+      "action": "Preparation for battle",
+      "reason": "Krishna foresaw Satyaki would be defeated by Bhurishravas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Daruka drove Krishna's chariot to Satyaki after hearing Krishna's conch.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Daruka",
+        "Satyaki",
+        "Krishna"
+      ],
+      "action": "Chariot delivery",
+      "supernatural_elements": "Krishna's conch signal"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki boarded Krishna's chariot and attacked Karna with arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Karna"
+      ],
+      "action": "Battle engagement",
+      "relationships": "Enemies in Kurukshetra War"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhamanyu and Uttamaujas left Arjuna's chariot to attack Karna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhamanyu",
+        "Uttamaujas",
+        "Karna"
+      ],
+      "action": "Joint attack",
+      "relationships": "Panchala warriors supporting Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna fought fiercely against Satyaki, showering him with arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Satyaki"
+      ],
+      "action": "Intense combat",
+      "relationships": "Mortal enemies fighting for their respective sides"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "All beings watched the spectacular battle between Karna and Satyaki.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Satyaki",
+        "Daruka"
+      ],
+      "action": "Celestial observation",
+      "supernatural_elements": "Gods, Gandharvas, Danavas watching from sky"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳因俱卢后裔（广声）和水连之死而满怀悲痛，怒气冲冲地攻击萨谛奇。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "萨谛奇"
+      ],
+      "action": "战斗攻击",
+      "trigger": "战友之死"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "萨谛奇以密集箭雨还击迦尔纳，双方激烈交战。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "萨谛奇",
+        "迦尔纳"
+      ],
+      "action": "战斗还击",
+      "description": "两位英勇战士如同猛虎相斗"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "萨谛奇用利箭将迦尔纳刺得遍体鳞伤，射杀其车夫和白马，并射碎其旗幡，使迦尔纳失去战车。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "萨谛奇",
+        "迦尔纳"
+      ],
+      "action": "摧毁战车",
+      "result": "迦尔纳失去战车"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳之子牛军、摩德罗王沙利耶和德罗纳之子马嘶从四面八方包围萨谛奇，造成混乱。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "牛军",
+        "沙利耶",
+        "马嘶",
+        "萨谛奇"
+      ],
+      "action": "包围攻击",
+      "result": "战场混乱"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳登上难敌的战车，仍珍视与难敌自孩提时代的友谊，恪守使难敌得到王位的誓约。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "难敌"
+      ],
+      "action": "登上战车",
+      "relationship": "深厚友谊与忠诚誓约"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "萨谛奇在迦尔纳丧失战车后克制自己，未屠杀以难降为首的持国儿子们，仅使他们失去战车而不夺命。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "萨谛奇",
+        "难降",
+        "持国儿子们"
+      ],
+      "action": "克制不杀",
+      "reason": "维护怖军誓言"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "萨谛奇打败马嘶、成铠及其他大勇士和数以百计的刹帝利雄牛，仅凭一张弓取悦法王坚战。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "萨谛奇",
+        "马嘶",
+        "成铠",
+        "坚战"
+      ],
+      "action": "英勇战斗",
+      "motivation": "升入天国、取悦坚战"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国询问全胜关于萨谛奇是否登上其他战车作战的细节。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国",
+        "全胜",
+        "萨谛奇"
+      ],
+      "action": "询问战况",
+      "context": "持国想了解萨谛奇的战斗表现"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dāruka's noble-minded brother quickly sent another fully equipped chariot to Sātyaki (grandson of Śini).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dāruka's brother",
+        "Sātyaki"
+      ],
+      "action": "Provision of chariot",
+      "description": "The chariot is elaborately described with iron-bound yoke, gold rings, cloth strips, thousand stars, lion banner, white moon-like horses with gold harnesses, gold armor, jingling bells, spears like lightning, and thunderous noise."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sātyaki mounted the chariot and drove toward the enemy army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sātyaki"
+      ],
+      "action": "Advancement to battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dāruka went to Kṛṣṇa (the dark-haired one) as desired.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dāruka",
+        "Kṛṣṇa"
+      ],
+      "action": "Movement to leader"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karṇa also received a chariot drawn by white conch/milk-like horses with gold armor.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karṇa"
+      ],
+      "action": "Provision of chariot",
+      "description": "The superior chariot had gold girths, banners, various mechanisms, flags, and was full of weapons, driven by an excellent charioteer."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karṇa mounted the chariot and rushed again toward the enemies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karṇa"
+      ],
+      "action": "Return to battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Thirty-one sons of Dhṛtarāṣṭra, led by Duhśāsana (the ugly-faced one), were killed by Bhīma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhṛtarāṣṭra's thirty-one sons",
+        "Bhīma"
+      ],
+      "action": "Mass killing",
+      "description": "The sons were skilled in various martial arts."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Hundreds of heroes, led by Bhīṣma and Bhagadatta, were killed by Sātyaki (the Śatavata) and Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhīṣma",
+        "Bhagadatta",
+        "Sātyaki",
+        "Arjuna"
+      ],
+      "action": "Mass killing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The narrator attributes the destruction to Dhṛtarāṣṭra's misjudgment.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhṛtarāṣṭra"
+      ],
+      "action": "Attribution of blame",
+      "reason": "Misjudgment leading to losses"
+    },
+    "_token_interval": null
+  }
+]

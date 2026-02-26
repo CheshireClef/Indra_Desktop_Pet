@@ -1,0 +1,238 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Jinwei's son Baoguang appears, who is the son of King Bozhe and a student of Druma, mastering all four archery techniques.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Baoguang",
+        "Jinwei",
+        "Druma"
+      ],
+      "type": "Introduction",
+      "relationships": "Baoguang is the son of King Jinwei of Bozhe kingdom and a student of Druma."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Baoguang obtains the divine bow Vijaya from Indra, comparable to Gandiva and Sharnga bows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Baoguang",
+        "Indra"
+      ],
+      "type": "Divine Acquisition",
+      "supernatural_elements": "Receives divine bow Vijaya from Indra."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Baoguang vows to kill Krishna for abducting Princess Yanguang and pursues him relentlessly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Baoguang",
+        "Krishna"
+      ],
+      "type": "Conflict",
+      "relationships": "Baoguang seeks revenge against Krishna for abducting Princess Yanguang."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Baoguang attacks Krishna but is defeated, leading him to build the city of Fuxi on the battlefield out of shame.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Baoguang",
+        "Krishna"
+      ],
+      "type": "Defeat and Construction",
+      "action": "Baoguang is defeated by Krishna and builds Fuxi city."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Baoguang arrives at the Pandavas' camp with his army, seeking to please Krishna and offering assistance to Arjuna in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Baoguang",
+        "Arjuna",
+        "Krishna",
+        "Yudhishthira",
+        "Pandavas"
+      ],
+      "type": "Alliance Offer",
+      "relationships": "Baoguang offers to assist Arjuna in battle to please Krishna, showing reconciliation intent."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna (Kunti's son) addresses Krishna (Vasudeva's son) and Yudhishthira (Dharmaraja, Pandava's son) with confidence, stating he does not need an assistant in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna",
+        "Yudhishthira"
+      ],
+      "action": "Declaration of self-reliance",
+      "relationships": [
+        "Arjuna is Kunti's son",
+        "Arjuna is Pandu's son",
+        "Arjuna is Krishna's friend and ally",
+        "Arjuna is Yudhishthira's brother"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna recounts his past battles where he fought alone against powerful beings like Gandharvas, Danavas, and Kauravas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Recollection of past heroic deeds",
+      "supernatural_elements": [
+        "Mention of battles with Gandharvas and Danavas (celestial/demonic beings)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna lists his divine teachers and weapons, including Rudra, Indra, Kubera, Yama, Agni, Kripa, Drona, and Krishna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Rudra",
+        "Indra",
+        "Kubera",
+        "Yama",
+        "Agni",
+        "Kripa",
+        "Drona",
+        "Krishna"
+      ],
+      "action": "Acknowledgment of divine training and support",
+      "relationships": [
+        "Arjuna was trained by Drona and Kripa",
+        "Arjuna received divine weapons from gods like Rudra and Indra",
+        "Krishna is Arjuna's charioteer and guide"
+      ],
+      "supernatural_elements": [
+        "Divine weapons (e.g., Gandiva bow)",
+        "Training from gods"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Balarama (Rohini's son, Krishna's brother) and King Satyaki (also known as Yuyudhana) leave the Pandava camp after their offers of assistance are rejected.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Balarama",
+        "Satyaki",
+        "Duryodhana"
+      ],
+      "action": "Departure from the Pandava side",
+      "relationships": [
+        "Balarama is Krishna's brother",
+        "Satyaki is a Yadava warrior and ally of the Pandavas",
+        "Duryodhana is the Kaurava leader"
+      ],
+      "key_plot_point": "Loss of potential allies for the Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Balarama goes on a pilgrimage, and Satyaki departs, leaving the Pandavas to continue their war council.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Balarama",
+        "Satyaki",
+        "Pandavas"
+      ],
+      "action": "Separation and continuation of planning",
+      "relationships": [
+        "Balarama and Satyaki are former allies of the Pandavas",
+        "Pandavas include Yudhishthira, Bhima, Arjuna, Nakula, and Sahadeva"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira's assembly is filled with kings, likened to stars around the moon, as they deliberate on war strategy.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Various kings"
+      ],
+      "action": "War council gathering",
+      "relationships": [
+        "Yudhishthira is the leader of the Pandavas and the assembly"
+      ]
+    },
+    "_token_interval": null
+  }
+]

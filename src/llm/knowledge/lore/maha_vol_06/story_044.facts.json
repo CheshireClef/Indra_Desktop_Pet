@@ -1,0 +1,933 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Bhishma about the merits of specific charitable acts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Question/Inquiry",
+      "relationship": "Grandson and grandfather; student and teacher"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma begins to narrate an ancient dialogue between a Brahmin and Yama.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Narration/Storytelling"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yama (Yamaraja) commands his red-eyed, black-clothed, crow-like attendant to fetch a specific Brahmin named Sharamin from the Atri family in the village of Pranasara.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yama",
+        "Yama's attendant"
+      ],
+      "type": "Divine Command",
+      "action": "Order to fetch a soul",
+      "supernatural_elements": [
+        "Yama as god of death",
+        "Supernatural attendant"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yama gives specific instructions to distinguish Sharamin from another similar Brahmin in the same family, emphasizing respect for Sharamin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yama"
+      ],
+      "type": "Instruction",
+      "details": "Sharamin is described as learned, calm, a teacher, but not highly regarded locally"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The attendant disobeys Yama's command and brings the wrong Brahmin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yama's attendant"
+      ],
+      "type": "Mistake/Disobedience",
+      "action": "Brings incorrect person"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yama rises to greet the Brahmin respectfully, then orders the attendant to return him and bring the correct one.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yama",
+        "Yama's attendant",
+        "Wrong Brahmin"
+      ],
+      "type": "Correction",
+      "action": "Yama shows respect despite the error"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin (wrongly brought) expresses to Yama his desire to stay in the afterlife, willing to give up his remaining lifespan.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Wrong Brahmin",
+        "Yama"
+      ],
+      "type": "Request",
+      "action": "Brahmin asks to remain with Yama"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yama explains he cannot decide lifespans, only records deeds done according to dharma, and offers the Brahmin a chance to ask for something.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yama"
+      ],
+      "type": "Explanation/Offer",
+      "details": "Yama's role is to record, not determine, lifespan"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin asks Yama what actions bring great merit.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Wrong Brahmin",
+        "Yama"
+      ],
+      "type": "Question",
+      "topic": "Meritorious actions"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yama responds that giving sesame seeds (til) is the best charity, bringing eternal merit and fulfilling all wishes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yama"
+      ],
+      "type": "Divine Teaching",
+      "action": "Prescription of charitable act",
+      "details": "Sesame should be given generously to Brahmins, especially during ancestral rites"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yama (Yamaraja) instructed a Brahmin about the importance of giving water to thirsty people and creating water sources like lakes, ponds, and wells.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yama",
+        "Brahmin"
+      ],
+      "action": "Instruction on Dharma",
+      "relationship": "Yama (god of death/dharma) teaching a mortal about righteous acts"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yama's messengers escorted the Brahmin home after the instruction.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yama",
+        "Brahmin",
+        "Yama's messengers"
+      ],
+      "action": "Escort/Return",
+      "relationship": "Divine servants assisting a mortal"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin followed Yama's teachings after returning home.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin"
+      ],
+      "action": "Implementation of teachings",
+      "relationship": "Mortal obeying divine instruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yama's messengers captured Sharamin (another Brahmin) and brought him before Yama.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yama",
+        "Sharamin",
+        "Yama's messengers"
+      ],
+      "action": "Capture and presentation",
+      "relationship": "Divine enforcement of dharma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yama respectfully greeted Sharamin, conversed with him, and then gave him the same teachings about righteous acts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yama",
+        "Sharamin"
+      ],
+      "action": "Instruction and conversation",
+      "relationship": "Divine teacher and mortal student"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sharamin followed Yama's instructions after returning home.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sharamin"
+      ],
+      "action": "Implementation of teachings",
+      "relationship": "Mortal obeying divine instruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yama praised the merit of donating lamps to benefit ancestors and bring clarity to gods and ancestors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yama"
+      ],
+      "action": "Praise of righteous acts",
+      "supernatural_elements": "Benefits for ancestors and gods"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yama discussed the merits of donating jewels, with specific rules about how Brahmins should handle them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yama"
+      ],
+      "action": "Instruction on donation ethics"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yama emphasized the importance of having sons as crucial among all desirable things.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yama"
+      ],
+      "action": "Moral teaching"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asked Bhishma about the most important traditional views on donations, particularly land donations.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "action": "Question about dharma",
+      "relationship": "Student (Yudhishthira) asking teacher (Bhishma)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira specifically asked about what can be donated by people of any caste who seek rewards, according to Vedic teachings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Specific inquiry about donation rules"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks about the characteristics of cows that should be given, those that should not, and the types of people who should or should not receive them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Questioning",
+      "topic": "Rules of cow donation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma explains that people who are wicked, sinful, greedy, liars, or fail to make offerings to gods and ancestors should not receive cow donations.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Teaching/Explaining",
+      "topic": "Unworthy recipients of donations"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma states that wandering ascetics, those with many children, Veda-knowers, and Brahmins maintaining sacred fires are worthy recipients, and donating ten cows to them leads to heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Teaching/Explaining",
+      "topic": "Worthy recipients and rewards"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma explains that those who help someone gain merit through dharma share in that merit.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Teaching/Explaining",
+      "topic": "Shared merit"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma describes three types of fathers: biological father, protector from harm, and provider of sustenance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Teaching/Explaining",
+      "topic": "Concept of fatherhood"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma gives moral teachings about serving teachers, avoiding arrogance, having three sons to avoid being called childless, and owning ten cows to avoid being called poor.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Teaching/Explaining",
+      "topic": "Moral and social principles"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "People discovered a large well covered with vegetation in Dvaraka.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified people"
+      ],
+      "location": "Dvaraka",
+      "action": "Discovery of well"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The people cleared the vegetation from the well and found a giant lizard inside.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified people"
+      ],
+      "action": "Clearing well, discovering lizard"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The people tried but failed to remove the lizard, so they went to find Krishna for help.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified people",
+        "Krishna"
+      ],
+      "action": "Seeking help from Krishna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna went to the well, pulled out the lizard, and asked it who it was.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Lizard (King Nriga's soul)"
+      ],
+      "action": "Rescuing lizard, questioning identity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The lizard revealed it was the soul of King Nriga, who had performed thousands of sacrifices.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Nriga",
+        "Krishna"
+      ],
+      "action": "Revelation of identity",
+      "supernatural_element": "Reincarnation as lizard"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna questioned why King Nriga, despite his piety and massive donations to Brahmins, was reborn as a lizard.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "King Nriga"
+      ],
+      "action": "Questioning karmic consequence"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Nriga explained that once, a Brahmin's cow wandered into his herd, and his cowherd counted it among his thousands of cattle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Nriga",
+        "Unspecified Brahmin",
+        "Cowherd"
+      ],
+      "action": "Inadvertent acquisition of Brahmin's cow"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Nriga later donated that cow to another Brahmin for spiritual merit, not knowing it belonged to someone else.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Nriga",
+        "Another Brahmin"
+      ],
+      "action": "Donation of mistaken property",
+      "relationship": "Giver-receiver (merit-seeking)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The original Brahmin owner returned, searched for his cow, and found it in the other Brahmin's possession.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Original Brahmin owner",
+        "Another Brahmin"
+      ],
+      "action": "Discovery of lost property",
+      "conflict": "Dispute over cow ownership implied"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A Brahmin saw his cow there and claimed ownership, leading to a fierce argument between two Brahmins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin 1",
+        "Brahmin 2"
+      ],
+      "type": "Conflict",
+      "action": "Argument over cow ownership"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The two Brahmins brought their dispute before King Nriga, each making claims about the cow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Nriga",
+        "Brahmin 1",
+        "Brahmin 2"
+      ],
+      "type": "Judicial",
+      "action": "Presenting dispute to king"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Nriga offered 10,000 cows as compensation to the Brahmin who received his cow, but the Brahmin refused, citing the cow's value and his son's need for its milk.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Nriga",
+        "Brahmin 1"
+      ],
+      "type": "Negotiation",
+      "action": "Refusal of compensation offer"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Nriga offered the other Brahmin 10,000 cows as compensation, but he refused, stating he doesn't accept royal gifts and wants his original cow back.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Nriga",
+        "Brahmin 2"
+      ],
+      "type": "Negotiation",
+      "action": "Refusal of royal compensation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Nriga offered gold, silver, horses, and chariots to the Brahmin, but all were refused.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Nriga",
+        "Brahmin 2"
+      ],
+      "type": "Negotiation",
+      "action": "Multiple refusals of compensation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Nriga died and went to Yama's realm, where Yama explained that despite his many virtues, he had committed a threefold sin by taking a Brahmin's property and failing to protect his subjects as promised.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Nriga",
+        "Yama"
+      ],
+      "type": "Divine Judgment",
+      "action": "Explanation of sins and consequences",
+      "supernatural": "Afterlife judgment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Nriga chose to suffer his punishment first before enjoying his rewards, and immediately fell to Earth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Nriga"
+      ],
+      "type": "Consequence",
+      "action": "Choosing punishment timeline"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yama told King Nriga that Vasudeva's son Janardana (Krishna) would rescue him after 1,000 years when his bad karma was exhausted.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yama",
+        "King Nriga",
+        "Krishna"
+      ],
+      "type": "Prophecy",
+      "action": "Divine prediction of rescue",
+      "supernatural": "Divine prophecy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Nriga fell headfirst into a well and entered an animal's womb while retaining his memory.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Nriga"
+      ],
+      "type": "Transformation",
+      "action": "Rebirth as animal",
+      "supernatural": "Rebirth with retained memory"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna rescued King Nriga from the well, and King Nriga acknowledged that Krishna saved him through ascetic power.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "King Nriga"
+      ],
+      "type": "Rescue",
+      "action": "Salvation from curse",
+      "supernatural": "Divine rescue"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Nriga bid farewell to Krishna and ascended to heaven in a celestial chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Nriga",
+        "Krishna"
+      ],
+      "type": "Departure",
+      "action": "Ascension to heaven",
+      "supernatural": "Celestial transportation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna sang verses about the inviolability of Brahmin property.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "type": "Moral Lesson",
+      "action": "Teaching about property rights"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text references a previous story where a Brahmin's cows destroyed King Niga.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin",
+        "King Niga"
+      ],
+      "action": "Destruction/Punishment",
+      "cause": "Misappropriation of property (the cows)",
+      "moral": "Those who take others' property without permission face destruction."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text states that associating with good people (善人) yields positive results, as exemplified by King Niga being rescued from hell due to such contact.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Niga"
+      ],
+      "action": "Rescue from hell",
+      "cause": "Association with good people",
+      "moral": "Good company leads to salvation or positive outcomes."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text teaches that giving (施舍) brings good results, while seizing others' property (擅夺他人财物) brings bad results.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Moral instruction",
+      "moral": "Charity yields good karma; theft yields bad karma."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text advises avoiding any harm to cows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Prohibition",
+      "moral": "Cows are to be protected from harm."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The passage concludes by identifying itself as Chapter 69 of the 'Upakhyana Parva' (教诫篇) in the Mahabharata.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Textual citation",
+      "source": "Mahabharata, Upakhyana Parva, Chapter 69"
+    },
+    "_token_interval": null
+  }
+]

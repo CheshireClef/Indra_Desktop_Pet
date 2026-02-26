@@ -1,0 +1,736 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima, under the command of King Yudhishthira, leads an army eastward to conquer territories.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "King Yudhishthira"
+      ],
+      "action": "Military campaign initiation",
+      "relationships": [
+        "Bhima is brother and subordinate to King Yudhishthira"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima first reaches the great fortress of Panchala and pacifies the Panchalas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "action": "Diplomatic/military action",
+      "location": "Panchala"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima quickly conquers Gandhaki and Videha, then advances to Dasharna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "action": "Conquest",
+      "conquered_territories": [
+        "Gandhaki",
+        "Videha"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In Dasharna, Bhima fights a terrifying battle with King Subala, who fights unarmed, and is impressed enough to appoint Subala as his army commander.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "King Subala"
+      ],
+      "action": "Battle and appointment",
+      "relationships": [
+        "Subala becomes Bhima's commander"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima continues east with a large army, causing the earth to shake.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "action": "March",
+      "supernatural_element": "Earth shaking from army's movement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima defeats King Rochamana (who had performed the Ashvamedha sacrifice) and his brother in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "King Rochamana"
+      ],
+      "action": "Battle victory"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After defeating Rochamana, Bhima easily conquers the eastern countries.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "action": "Conquest",
+      "region": "Eastern countries"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima turns south, reaches the capital of Pulinda, and subdues King Subahu and Mitrasaha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "King Subahu",
+        "Mitrasaha"
+      ],
+      "action": "Subjugation",
+      "location": "Pulinda"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Under Yudhishthira's command, Bhima advances toward the extremely valiant Shishupala of Chedi.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "King Yudhishthira",
+        "Shishupala"
+      ],
+      "action": "Advancement",
+      "relationships": [
+        "Shishupala is King of Chedi"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shishupala, having heard of the Pandavas' intentions, personally comes out of the city to meet Bhima.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shishupala",
+        "Bhima"
+      ],
+      "action": "Meeting",
+      "relationships": [
+        "Mutual respect between warriors"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The two bulls of the Kuru and Chedi clans meet, exchange greetings about each other's families, and Shishupala inquires about Bhima's purpose.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Shishupala"
+      ],
+      "action": "Diplomatic exchange",
+      "relationships": [
+        "Formal warrior respect"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima explains Yudhishthira's wishes, and Shishupala agrees to comply.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Shishupala",
+        "King Yudhishthira"
+      ],
+      "action": "Agreement",
+      "relationships": [
+        "Shishupala accepts Yudhishthira's authority"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima stays with Shishupala for thirteen nights, receives great honor, then continues his journey with army and chariots.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Shishupala"
+      ],
+      "action": "Hospitality and departure",
+      "duration": "Thirteen nights"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima reaches Kumaraka, defeats King Suvahu, and conquers King Mahabala of Kosala.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "King Suvahu",
+        "King Mahabala"
+      ],
+      "action": "Conquest",
+      "conquered_territories": [
+        "Kumaraka",
+        "Kosala"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima advances to Ayodhya and easily conquers the powerful, righteous King Dirghaprajna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "King Dirghaprajna"
+      ],
+      "action": "Conquest",
+      "location": "Ayodhya"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima conquers Gopalakaksha, the northern Uttamas, and King Malla.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "action": "Conquest",
+      "conquered_territories": [
+        "Gopalakaksha",
+        "Northern regions"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima reaches near the Himalayas and quickly conquers the entire Charakavata country.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "action": "Conquest",
+      "location": "Near Himalayas",
+      "conquered_territory": "Charakavata"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After conquering many countries, Bhima forcibly conquers Unnata and captures the nearby Kushiman mountain.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "action": "Conquest and capture",
+      "conquered_territories": [
+        "Unnata",
+        "Kushiman mountain"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima subdues the unwavering King Subala of Kashi in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "King Subala of Kashi"
+      ],
+      "action": "Subjugation",
+      "location": "Kashi"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima advances to Subahu's country, fights fiercely against the advancing King Kalatha, and defeats him on the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 20,
+    "group_index": 19,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "King Kalatha"
+      ],
+      "action": "Battle victory",
+      "location": "Subahu's country"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima defeated the Matsyas, Malayas, and Gayas, conquering the entire Shurasena kingdom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Matsyas",
+        "Malayas",
+        "Gayas"
+      ],
+      "action": "Military conquest",
+      "location": "Shurasena kingdom"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima conquered Mount Madhavika and the Shobha kingdom, then turned north to conquer Vatsapuri by force.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "action": "Military conquest",
+      "locations": [
+        "Mount Madhavika",
+        "Shobha kingdom",
+        "Vatsapuri"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima defeated King Varga, King Nishadha, and many other kings led by King Manimat.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "King Varga",
+        "King Nishadha",
+        "King Manimat"
+      ],
+      "action": "Military defeat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima conquered the Southern Maratha country and Mount Bhagavat with little difficulty.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "action": "Military conquest",
+      "locations": [
+        "Southern Maratha country",
+        "Mount Bhagavat"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima peacefully subdued the Sharmakas and Varmakas, and conquered King Janaka of Videha with little effort.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Sharmakas",
+        "Varmakas",
+        "King Janaka"
+      ],
+      "action": "Peaceful subjugation and conquest",
+      "location": "Videha"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "During his stay in Videha, Bhima and Kunti conquered seven Kirata chieftains living near Mount Indra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Kunti",
+        "Kirata chieftains"
+      ],
+      "action": "Military conquest",
+      "location": "Videha"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima defeated the Suhmas, Eastern Suhmas, and Shamashas in battle, then marched toward Magadha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Suhmas",
+        "Eastern Suhmas",
+        "Shamashas"
+      ],
+      "action": "Military defeat",
+      "direction": "Toward Magadha"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima defeated King Danda and King Dandadhara, taking them with him to Girivraja, the capital of Magadha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "King Danda",
+        "King Dandadhara"
+      ],
+      "action": "Military defeat and capture",
+      "destination": "Girivraja, Magadha"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima pacified Jarasandha's son, making him agree to pay tribute, then took all the kings to face Karna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Jarasandha's son",
+        "Karna"
+      ],
+      "action": "Pacification and tribute agreement",
+      "next_target": "Karna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima fought Karna with fourfold army divisions in a battle that made the earth tremble, then defeated and subdued him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Karna"
+      ],
+      "action": "Military battle and subjugation",
+      "scale": "Earth-trembling battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima conquered some mountain-dwelling kings and killed the powerful King Madhagiri in a great battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "King Madhagiri",
+        "Mountain-dwelling kings"
+      ],
+      "action": "Conquest and killing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima conquered the powerful King Vasudeva of Poundra and a valiant king living by the Koshiki River.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "King Vasudeva",
+        "Unnamed king"
+      ],
+      "action": "Military conquest",
+      "location": "Poundra kingdom, Koshiki River"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima marched against the King of Vanga, conquering King Samudra, King Chandra, King Tamradhvaja, and King Kachipa of Vanga.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "King Samudra",
+        "King Chandra",
+        "King Tamradhvaja",
+        "King Kachipa"
+      ],
+      "action": "Military conquest",
+      "location": "Vanga kingdom"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After conquering King Suhama and some coastal kings, Bhima conquered all the Mlechchas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "King Suhama",
+        "Coastal kings",
+        "Mlechchas"
+      ],
+      "action": "Military conquest"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima arrived at the Rohitaka country after conquering many diverse lands and collecting wealth from them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "action": "Arrival after conquests",
+      "location": "Rohitaka country"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima made all Mlechcha kings living on islands pay tribute and offer various gems, sandalwood, aloe, garments, pearls, gold, silver, diamonds, corals, and other precious items.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Mlechcha kings"
+      ],
+      "action": "Tribute collection",
+      "resources": [
+        "Gems",
+        "sandalwood",
+        "aloes",
+        "garments",
+        "pearls",
+        "gold",
+        "silver",
+        "diamonds",
+        "corals"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The great-souled Mlechcha king showered Bhima with billions worth of immense wealth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mlechcha king",
+        "Bhima"
+      ],
+      "action": "Wealth offering",
+      "scale": "Billions worth"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima returned to Indraprastha and handed over all the wealth to King Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "King Yudhishthira"
+      ],
+      "action": "Wealth transfer",
+      "destination": "Indraprastha"
+    },
+    "_token_interval": null
+  }
+]

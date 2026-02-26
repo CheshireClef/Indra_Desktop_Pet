@@ -1,0 +1,1335 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yudhishthira dismissed all his ministers and subjects, who returned to their homes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira"
+      ],
+      "action": "Dismissal of court",
+      "type": "Administrative"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yudhishthira comforted his brothers Bhima, Arjuna, and the twins Nakula and Sahadeva, acknowledging their suffering during the war and exile, and urged them to rest and enjoy happiness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "action": "Comfort and encouragement",
+      "type": "Family/Emotional",
+      "relationships": "Brothers; King and his warriors"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "With Dhritarashtra's consent, King Yudhishthira awarded Duryodhana's palace to Bhima, who entered it like Indra entering heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira",
+        "Dhritarashtra",
+        "Bhima",
+        "Duryodhana"
+      ],
+      "action": "Palace allocation",
+      "type": "Reward/Administrative",
+      "relationships": "Bhima receives enemy Duryodhana's palace as reward"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yudhishthira awarded Dushasana's palace to Arjuna, who moved in as commanded.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira",
+        "Arjuna",
+        "Dushasana"
+      ],
+      "action": "Palace allocation",
+      "type": "Reward/Administrative",
+      "relationships": "Arjuna receives enemy Dushasana's palace as reward"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yudhishthira happily awarded Durmukha's palace to Nakula, who deserved it after becoming thin in the forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira",
+        "Nakula",
+        "Durmukha"
+      ],
+      "action": "Palace allocation",
+      "type": "Reward/Administrative",
+      "relationships": "Nakula receives enemy Durmukha's palace as reward"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yudhishthira awarded Duhsasana's (or another enemy's, context suggests '丑面' likely refers to another Kaurava like Duhsasana or similar) best palace to Sahadeva, who was delighted.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira",
+        "Sahadeva"
+      ],
+      "action": "Palace allocation",
+      "type": "Reward/Administrative",
+      "relationships": "Sahadeva receives an enemy palace as reward"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya, Vidura, the great-splendored Sanjaya, Yuyutsu, and the sage Sanatkumara entered their respective residences.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Vidura",
+        "Yuyutsu",
+        "Sanatkumara"
+      ],
+      "action": "Settlement in residences",
+      "type": "Administrative"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna and Satyaki together entered Arjuna's palace, like tigers entering a cave.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Satyaki",
+        "Arjuna"
+      ],
+      "action": "Lodging",
+      "type": "Social",
+      "relationships": "Close allies/friends staying together"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "They gathered, ate, drank, spent a comfortable night, woke happily, and went to see King Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Satyaki",
+        "Arjuna",
+        "King Yudhishthira"
+      ],
+      "action": "Social gathering and next-day meeting",
+      "type": "Social/Administrative"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After obtaining the kingdom, King Yudhishthira made the four castes follow their respective duties.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira"
+      ],
+      "action": "Establishment of social order",
+      "type": "Administrative/Governance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yudhishthira announced a gift of one thousand gold coins each to one thousand Brahmins who had completed their studies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira"
+      ],
+      "action": "Reward to Brahmins",
+      "type": "Charity/Administrative"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "He fulfilled the wishes of his dependents, guests, and poor beggars.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira"
+      ],
+      "action": "Charity and care",
+      "type": "Charity/Governance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "He gifted ten thousand cows, wealth, gold, silver, and various clothes to the priest Sanatkumara.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira",
+        "Sanatkumara"
+      ],
+      "action": "Generous gift to priest",
+      "type": "Charity/Religious"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "He treated Kripa as a teacher and honored Vidura with respect and offerings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira",
+        "Kripa",
+        "Vidura"
+      ],
+      "action": "Honoring elders and advisors",
+      "type": "Social/Respect",
+      "relationships": "King Yudhishthira shows reverence to Kripa (teacher) and Vidura (advisor/uncle)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The generous donor satisfied all dependents with food, drink, various clothes, and beds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Generosity/Provision"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The renowned king, after regaining calmness, paid respects to Duryodhana, son of Dhritarashtra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Duryodhana"
+      ],
+      "action": "Respect/Paying homage",
+      "relationship": "Former adversaries"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira entrusted the kingdom to Dhritarashtra, Gandhari, and Vidura, and lived freely.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Dhritarashtra",
+        "Gandhari",
+        "Vidura"
+      ],
+      "action": "Transfer of power/Entrustment",
+      "relationship": "Family/Advisors"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira, after settling the city, approached Krishna, son of Vasudeva, with folded hands.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Krishna"
+      ],
+      "action": "Approach/Seeking audience",
+      "relationship": "Devotee and deity/Close allies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira saw Krishna seated on a large couch adorned with gold and jewels, resembling a dark cloud on Mount Meru.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Krishna"
+      ],
+      "action": "Observation/Description",
+      "supernatural_elements": "Divine appearance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna wore miraculous ornaments, yellow silk clothes, and shone like a jewel on a golden plate.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "action": "Description of divine form",
+      "supernatural_elements": "Divine radiance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira approached Krishna, an incarnation of Vishnu, and spoke sweet words, praising his role in their victory and rule.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Krishna"
+      ],
+      "action": "Praise/Expression of gratitude",
+      "relationship": "Devotee and deity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna did not respond as he was in deep contemplation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "action": "Meditation/Contemplation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira expressed surprise at Krishna's meditation, asking if it was for the welfare of the three worlds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Krishna"
+      ],
+      "action": "Inquiry/Expression of wonder",
+      "supernatural_elements": "Reference to Krishna as world protector and deity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira described Krishna's meditative state, with controlled senses and mind fixed on the soul.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Krishna"
+      ],
+      "action": "Description of meditation",
+      "supernatural_elements": "Spiritual state"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira praised Krishna as creator, destroyer, and supreme being, requesting him to explain the reason for his meditation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Krishna"
+      ],
+      "action": "Praise/Request for explanation",
+      "supernatural_elements": "Divine attributes"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna restored his senses, mind, and wisdom, smiled, and explained he was meditating because Bhishma was thinking of him while lying on his bed of arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Bhishma"
+      ],
+      "action": "Explanation of meditation",
+      "relationship": "Mutual remembrance",
+      "supernatural_elements": "Spiritual connection"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna recalled Bhishma's thunderous bowstring and palm sounds, unbearable even to Indra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Bhishma",
+        "Indra"
+      ],
+      "action": "Recollection of past prowess",
+      "supernatural_elements": "Reference to divine comparison"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna remembered Bhishma charging at assembled kings and forcibly taking three brides in a swayamvara.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Bhishma"
+      ],
+      "action": "Recollection of past event",
+      "relationship": "Historical reference"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna (Vasudeva) recounts Bhishma's past deeds and qualities to Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "action": "Recollection/Exposition",
+      "details": "Krishna describes Bhishma's battle with Parashurama, his divine birth from Ganga, his education under Sage Vasistha and Parashurama, his mastery of celestial weapons and Vedas, his wisdom, and his impending death."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna urges Yudhishthira to seek Bhishma's counsel on Dharma before Bhishma dies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "action": "Urging/Advice",
+      "details": "Krishna tells Yudhishthira to go to Bhishma, embrace him, and ask him questions about the four sciences, four sacrifices, four modes of life, and the Dharma of the four castes, as knowledge will diminish after Bhishma's death."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira, moved by Krishna's words, agrees and requests Krishna to lead them to visit Bhishma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Krishna",
+        "Bhishma"
+      ],
+      "action": "Agreement/Request",
+      "details": "Yudhishthira, convinced by Krishna's account and acknowledging Krishna's divine nature, asks Krishna to take them to see Bhishma before Bhishma's death when the sun turns northward."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna orders his chariot to be prepared for the journey to Bhishma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Satyaki",
+        "Daruka"
+      ],
+      "action": "Preparation",
+      "details": "Krishna instructs Satyaki to yoke his chariot. Satyaki conveys the order to Daruka, who prepares the magnificent, gold-adorned chariot with horses as fast as thought and a Garuda flag."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The chapter ends with King Janamejaya asking how Bhishma abandoned his body on the bed of arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Janamejaya",
+        "Vaishampayana"
+      ],
+      "action": "Inquiry",
+      "details": "Janamejaya asks the sage Vaishampayana about the manner of Bhishma's death and the yoga he practiced, setting up the narrative for the next chapter."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma lies on a bed of arrows, surrounded by sages and Brahmins, after being struck by hundreds of arrows in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Lying wounded on arrow bed",
+      "supernatural_elements": "Described as radiant like the sun despite injuries"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma enters deep meditation, focusing his mind and soul, as the sun turns northward.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Meditation/Spiritual preparation",
+      "relationships": "Preparing to leave his physical body"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma praises Krishna with folded hands, using various names and attributes to describe the divine nature.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Krishna"
+      ],
+      "action": "Devotional praise",
+      "relationships": "Bhishma as devotee of Krishna",
+      "supernatural_elements": "Divine descriptions of Krishna's cosmic nature"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma describes Krishna's birth to Devaki and Vasudeva for the protection of the earth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Devaki",
+        "Vasudeva"
+      ],
+      "action": "Divine incarnation",
+      "relationships": "Krishna as son of Devaki and Vasudeva",
+      "supernatural_elements": "Krishna's birth compared to fire from friction sticks"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma seeks refuge in Krishna as the lord of all beings and the supreme reality.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Krishna"
+      ],
+      "action": "Seeking spiritual refuge",
+      "relationships": "Bhishma surrendering to Krishna's divine protection"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text praises the Supreme Being as the radiant Person beyond darkness, with knowledge of whom leads beyond death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Supreme Being"
+      ],
+      "type": "Praise/Description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Supreme Being is described as the great chant in long prayers, praised by Brahmins in fire sacrifices and great sacrifices.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Supreme Being",
+        "Brahmins"
+      ],
+      "type": "Praise/Description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Supreme Being is the abode of the Rig, Yajur, and Sama Vedas, with five offerings and seven sacrificial forms.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Supreme Being"
+      ],
+      "type": "Praise/Description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Supreme Being is described as Garuda (golden bird), named Yajur, with limbs as meters, three Vedas as three heads, and specific chants as eyes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Supreme Being"
+      ],
+      "type": "Praise/Description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Supreme Being is the sage born from thousand-year sacrifices of cosmic creators, the golden bird.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Supreme Being"
+      ],
+      "type": "Praise/Description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Supreme Being is described as eternal speech with sentences as limbs, sandhi as joints, and vowels/consonants as characteristics.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Supreme Being"
+      ],
+      "type": "Praise/Description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Supreme Being controls limbs with dharma and benefit, builds bridges for good people with truth that produces nectar.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Supreme Being"
+      ],
+      "type": "Praise/Description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "People perform their own dharma, hope for their own results, and worship the Supreme Being according to their own dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Supreme Being",
+        "People"
+      ],
+      "type": "Praise/Description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Great sages seek the unmanifest in the manifest, the knower of the field dwelling in the field.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Supreme Being",
+        "Great Sages"
+      ],
+      "type": "Praise/Description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Supreme Being is the observer dwelling in the soul, accompanied by sixteen attributes, called seventeen by Samkhyas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Supreme Being",
+        "Samkhyas"
+      ],
+      "type": "Praise/Description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yogis who don't sleep, control breath, stand in essence, control senses, see the Supreme Being's radiance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Supreme Being",
+        "Yogis"
+      ],
+      "type": "Praise/Description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Calm renouncers cut off good and evil, fearless of rebirth, go to the Supreme Being.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Supreme Being",
+        "Renouncers"
+      ],
+      "type": "Praise/Description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "At the end of a thousand ages, the Supreme Being becomes burning fire, devouring all beings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Supreme Being"
+      ],
+      "type": "Cosmic Event"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After devouring all beings, the world becomes an ocean, and the Supreme Being lies on it as a child.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Supreme Being"
+      ],
+      "type": "Cosmic Event"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Supreme Being is the thousand-headed Person with infinite soul.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Supreme Being"
+      ],
+      "type": "Praise/Description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "From the navel of the lotus-eyed Unborn (Vishnu) grows a lotus holding the entire universe.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Supreme Being",
+        "Vishnu"
+      ],
+      "type": "Cosmic Event"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Clouds are in the Supreme Being's hair, rivers in all limb joints, oceans in the belly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Supreme Being"
+      ],
+      "type": "Praise/Description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Supreme Being is the author of creation and destruction, moving through ages with days, months, seasons, half-years, and years.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Supreme Being"
+      ],
+      "type": "Praise/Description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahmins are the Supreme Being's mouth, Kshatriyas the arms, Vaishyas the thighs and belly, Shudras attached to the feet.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Supreme Being",
+        "Brahmins",
+        "Kshatriyas",
+        "Vaishyas",
+        "Shudras"
+      ],
+      "type": "Social Description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Fire is the Supreme Being's mouth, sky the head, space the navel, earth the feet, sun the eyes, directions the ears.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 20,
+    "group_index": 19,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Supreme Being"
+      ],
+      "type": "Cosmic Description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "According to Vaisheshika characteristics of activity in sense objects, people say the Supreme Being is the protector of sense objects.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 21,
+    "group_index": 20,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Supreme Being",
+        "People"
+      ],
+      "type": "Praise/Description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Supreme Being consists of food, drink, and fuel, promotes growth of juices and breath, sustains beings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 22,
+    "group_index": 21,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Supreme Being"
+      ],
+      "type": "Praise/Description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma praises Krishna with devotional verses, describing Krishna's divine attributes and cosmic nature.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Krishna"
+      ],
+      "type": "Devotional Praise",
+      "relationships": [
+        "Devotee (Bhishma) to Deity (Krishna)"
+      ],
+      "supernatural_elements": [
+        "Description of Krishna as cosmic soul, creator, destroyer, beyond elements, with limitless form"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma seeks refuge in Krishna and asks for a favorable destination and happiness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Krishna"
+      ],
+      "type": "Prayer/Seeking Refuge",
+      "relationships": [
+        "Devotee (Bhishma) seeks grace from Deity (Krishna)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma concludes his speech by saying 'I salute you!' and bows to Krishna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Krishna"
+      ],
+      "type": "Salutation",
+      "action": "Bhishma bows to Krishna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Through yogic power, Krishna (also called Hari, descendant of Madhu) understands Bhishma's devotion and goes to grant him divine knowledge of the three times (past, present, future).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Bhishma"
+      ],
+      "type": "Divine Intervention",
+      "action": "Krishna grants divine knowledge to Bhishma",
+      "supernatural_elements": [
+        "Yogic power",
+        "Divine knowledge of three times"
+      ],
+      "relationships": [
+        "Deity (Krishna) grants boon to devotee (Bhishma)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "When Bhishma's speech ends, the Brahmins become emotional and praise the wise Bhishma with words.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmins",
+        "Bhishma"
+      ],
+      "type": "Reaction",
+      "action": "Brahmins praise Bhishma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The excellent Brahmins also praise Krishna (called Keshava), and all people softly praise Bhishma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmins",
+        "Krishna",
+        "Bhishma",
+        "All people"
+      ],
+      "type": "Collective Praise",
+      "action": "Brahmins praise Krishna, all people praise Bhishma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna (called Keshava), understanding Bhishma's devotional yoga, immediately rises with joy and boards his chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "type": "Departure Preparation",
+      "action": "Krishna boards chariot"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna (Keshava) and Satyaki depart in one chariot, while Yudhishthira and Arjuna (called Vijaya) depart in another chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Satyaki",
+        "Yudhishthira",
+        "Arjuna"
+      ],
+      "type": "Departure",
+      "action": "Characters depart in chariots",
+      "relationships": [
+        "Krishna travels with Satyaki",
+        "Yudhishthira travels with Arjuna"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna, Yudhishthira, Kripa, and the other four Pandava brothers traveled to Kurukshetra in massive chariots.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira",
+        "Kripa",
+        "Bhima",
+        "Nakula",
+        "Sahadeva",
+        "Arjuna"
+      ],
+      "action": "Travel",
+      "destination": "Kurukshetra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "They arrived at Kurukshetra and saw the battlefield littered with bones, hair, marrow, and remnants of war.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira",
+        "Kripa",
+        "Bhima",
+        "Nakula",
+        "Sahadeva",
+        "Arjuna"
+      ],
+      "action": "Observation",
+      "description": "Battlefield aftermath"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna narrated to Yudhishthira the story of Parashurama's destruction of Kshatriyas twenty-one times.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira"
+      ],
+      "action": "Narration",
+      "subject": "Parashurama's deeds"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira expressed doubt about how Kshatriyas could have been regenerated after Parashurama's extermination.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Krishna"
+      ],
+      "action": "Question",
+      "topic": "Regeneration of Kshatriyas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna began to explain to Yudhishthira how the earth became repopulated with Kshatriyas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira"
+      ],
+      "action": "Explanation",
+      "topic": "Kshatriya regeneration"
+    },
+    "_token_interval": null
+  }
+]

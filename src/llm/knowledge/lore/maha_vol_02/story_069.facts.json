@@ -1,0 +1,546 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sons of Pandu (the Pandavas) asked the sage Markandeya to describe the great qualities of the foremost of the twice-born (Brahmins).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Markandeya"
+      ],
+      "type": "Request for knowledge",
+      "relationships": [
+        "Pandavas are students/listeners",
+        "Markandeya is the knowledgeable sage"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Markandeya narrated the story of the founder of the Haihaya clan, Prabhunjaya, who while hunting in a dense forest, mistook a sage wearing black antelope skin for a deer and killed him with an arrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Prabhunjaya",
+        "Unnamed sage (son of Dhaumya)"
+      ],
+      "type": "Accidental killing",
+      "action": "Hunting accident resulting in Brahminicide",
+      "relationships": [
+        "Prabhunjaya is the perpetrator",
+        "Unnamed sage is the victim"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Filled with remorse, Prabhunjaya confessed his crime to the elders of the Haihaya clan and showed them the dead sage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Prabhunjaya",
+        "Haihaya elders"
+      ],
+      "type": "Confession",
+      "action": "Admission of guilt",
+      "relationships": [
+        "Prabhunjaya seeks guidance from elders"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The elders searched for the sage's identity and arrived at the hermitage of the sage Dhaumya.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Haihaya elders",
+        "Dhaumya"
+      ],
+      "type": "Investigation",
+      "action": "Seeking the victim's family",
+      "relationships": [
+        "Dhaumya is the father of the killed sage"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The elders confessed their crime to Dhaumya, stating they were unworthy of his respect due to their sin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Haihaya elders",
+        "Dhaumya"
+      ],
+      "type": "Confession to authority",
+      "action": "Admission of Brahminicide",
+      "relationships": [
+        "Elders seek absolution from Dhaumya"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhaumya asked about the killing and declared he would show the power of his asceticism.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhaumya"
+      ],
+      "type": "Divine intervention setup",
+      "supernatural_elements": [
+        "Power of asceticism (tapas)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "When the elders returned to the scene with Dhaumya, they could not find the dead sage and were confused.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Haihaya elders",
+        "Dhaumya"
+      ],
+      "type": "Mystery",
+      "action": "Disappearance of the body"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhaumya revealed his son (the killed sage) alive and explained that death has no power over them due to their adherence to truth, righteousness, and hospitality.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhaumya",
+        "Unnamed sage (revived)"
+      ],
+      "type": "Revelation and resurrection",
+      "action": "Explanation of Brahminical power",
+      "supernatural_elements": [
+        "Resurrection through ascetic power"
+      ],
+      "relationships": [
+        "Father-son relationship confirmed"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhaumya absolved the elders of their sin, telling them not to fear or be envious, and sent them away peacefully.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhaumya",
+        "Haihaya elders"
+      ],
+      "type": "Absolution",
+      "action": "Forgiveness and dismissal",
+      "relationships": [
+        "Dhaumya as spiritual authority grants forgiveness"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The elders returned to their place happily, and Markandeya concluded his narration to the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Haihaya elders",
+        "Markandeya",
+        "Pandavas"
+      ],
+      "type": "Conclusion",
+      "action": "Return and end of story",
+      "relationships": [
+        "Markandeya completes his teaching"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "摩根德耶讲述婆罗门的伟大品性，提到王仙威尼耶正在举行马祭，阿多利想去乞求钱财。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "摩根德耶",
+        "威尼耶",
+        "阿多利"
+      ],
+      "type": "Narrative Introduction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿多利从正法上考虑，又不想去了，想去森林生活，并叫来合法妻子和儿子们商议。",
+    "char_interval": {
+      "start_pos": 1093,
+      "end_pos": 1178
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿多利",
+        "阿多利的妻子",
+        "阿多利的儿子们"
+      ],
+      "action": "Decision Making",
+      "relationships": [
+        "Family"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 325,
+      "end_index": 348
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿多利的妻子建议他去威尼耶那里乞求财富，然后分给儿子和随从，再去森林。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿多利的妻子",
+        "阿多利"
+      ],
+      "action": "Advice",
+      "relationships": [
+        "Spouses"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿多利提到乔答摩曾告诉他威尼耶遵循法和利，但那里的婆罗门嫉恨他，所以不想去。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿多利",
+        "乔答摩",
+        "威尼耶"
+      ],
+      "action": "Revelation of Conflict",
+      "relationships": [
+        "Advisor-Advisee"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿多利听从妻子的话，前去参加威尼耶的祭祀，并赞颂国王威尼耶。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿多利",
+        "威尼耶"
+      ],
+      "action": "Praise",
+      "relationships": [
+        "Supplicant-Benefactor"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "乔答摩打断阿多利，批评他思想混乱，指出占据首位的是生主因陀罗。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "乔答摩",
+        "阿多利"
+      ],
+      "action": "Criticism",
+      "relationships": [
+        "Adversarial"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿多利反驳乔答摩，称威尼耶是赐予者，犹如生主因陀罗，并指责乔答摩糊涂。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿多利",
+        "乔答摩"
+      ],
+      "action": "Argument",
+      "relationships": [
+        "Adversarial"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "乔答摩指责阿多利不懂最高的法，像小孩一样幼稚，是为了好处才赞颂威尼耶。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "乔答摩",
+        "阿多利"
+      ],
+      "action": "Accusation",
+      "relationships": [
+        "Adversarial"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿多利和乔答摩当着众牟尼的面发生争论，引起其他牟尼的疑问。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿多利",
+        "乔答摩",
+        "众牟尼"
+      ],
+      "action": "Public Dispute"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦叶波召唤两位争吵的婆罗门，乔答摩向众牟尼解释争论的焦点是阿多利说威尼耶是赐予者。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦叶波",
+        "乔答摩",
+        "阿多利",
+        "众牟尼"
+      ],
+      "action": "Mediation",
+      "relationships": [
+        "Mediator-Disputants"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "众牟尼跑去知法的永童那里以求解除疑问，永童向他们讲述了法和利。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "众牟尼",
+        "永童"
+      ],
+      "action": "Seeking Wisdom",
+      "relationships": [
+        "Seekers-Teacher"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A debate or discussion takes place regarding the status and qualities of a king.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "type": "Philosophical Debate",
+      "description": "A party argues for the supreme status of the king, comparing him to deities and describing his essential role in upholding dharma (cosmic law and order)."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The party arguing for the king's supreme status wins the debate.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Debate Resolution",
+      "outcome": "The argument praising the king's divine and essential nature is victorious."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yudhishthira, pleased with his victory, addresses the sage Atri who had originally praised him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Atri"
+      ],
+      "action": "Address/Reward Offer",
+      "relationship": "King to Sage",
+      "motive": "To reward Atri for his earlier praise."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira offers immense wealth to Atri as a reward.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Atri"
+      ],
+      "action": "Gift Offering",
+      "items": [
+        "One thousand adorned young slave women",
+        "One billion gold pieces",
+        "Ten loads of gold ornaments"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Atri accepts the wealth with due ceremony and returns home.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Atri"
+      ],
+      "action": "Acceptance and Departure"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Atri distributes the wealth to his sons and retires to the forest to perform austerities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Atri"
+      ],
+      "action": "Renunciation",
+      "description": "Having given away his material possessions, the sage withdraws to the forest for a life of asceticism and penance."
+    },
+    "_token_interval": null
+  }
+]

@@ -1,0 +1,1446 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "全胜向持国王描述残酷的夜战正在进行",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "全胜",
+        "持国王"
+      ],
+      "type": "Narration",
+      "action": "描述战况"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战命令般度族人、般遮罗人和苏摩迦人冲向德罗纳并发起进攻，一定要杀死他",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "德罗纳",
+        "般度族人",
+        "般遮罗人",
+        "苏摩迦人"
+      ],
+      "type": "Military Command",
+      "action": "下达进攻命令",
+      "relationships": [
+        "坚战是般度族领袖",
+        "德罗纳是俱卢族导师"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "般遮罗人和苏摩迦人发出可怕的吼声，向德罗纳扑去",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般遮罗人",
+        "苏摩迦人",
+        "德罗纳"
+      ],
+      "type": "Battle Action",
+      "action": "发起冲锋"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "成铠冲向坚战，企图阻止他攻击德罗纳",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "成铠",
+        "坚战",
+        "德罗纳"
+      ],
+      "type": "Battle Interception",
+      "action": "拦截进攻",
+      "relationships": [
+        "成铠是俱卢族将领",
+        "坚战是般度族领袖"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "萨谛奇朝四面八方泼洒箭雨，普利向他冲去",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "萨谛奇",
+        "普利"
+      ],
+      "type": "Battle Action",
+      "action": "箭战与冲锋"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "偕天想要接近德罗纳，迦尔纳截住他",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "偕天",
+        "迦尔纳",
+        "德罗纳"
+      ],
+      "type": "Battle Interception",
+      "action": "拦截",
+      "relationships": [
+        "偕天是般度五子之一",
+        "迦尔纳是俱卢族大将"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "怖军冲过来，难敌亲自出阵迎战",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "怖军",
+        "难敌"
+      ],
+      "type": "Battle Confrontation",
+      "action": "一对一战斗",
+      "relationships": [
+        "怖军是般度五子之一",
+        "难敌是俱卢族领袖"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "沙恭尼拦截无种",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "沙恭尼",
+        "无种"
+      ],
+      "type": "Battle Interception",
+      "action": "拦截",
+      "relationships": [
+        "沙恭尼是俱卢族盟友",
+        "无种是般度五子之一"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "慈悯在战斗中阻挡束发",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "慈悯",
+        "束发"
+      ],
+      "type": "Battle Interception",
+      "action": "阻挡"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难降阻拦向山",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难降",
+        "向山"
+      ],
+      "type": "Battle Interception",
+      "action": "阻拦"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "马嘶上前阻击瓶首",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "马嘶",
+        "瓶首"
+      ],
+      "type": "Battle Interception",
+      "action": "阻击",
+      "relationships": [
+        "马嘶是德罗纳之子",
+        "瓶首是怖军之子"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "牛军在战斗中拦截木柱王",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "牛军",
+        "木柱王",
+        "德罗纳"
+      ],
+      "type": "Battle Interception",
+      "action": "拦截",
+      "relationships": [
+        "木柱王是般遮罗国王"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "摩德罗王阻挡毗罗吒",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "摩德罗王",
+        "毗罗吒",
+        "德罗纳"
+      ],
+      "type": "Battle Interception",
+      "action": "阻挡"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "奇军用利箭阻截百军",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "奇军",
+        "百军",
+        "德罗纳"
+      ],
+      "type": "Battle Interception",
+      "action": "箭击阻截",
+      "relationships": [
+        "百军是无种之子"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "指掌拦截阿周那",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "指掌",
+        "阿周那"
+      ],
+      "type": "Battle Interception",
+      "action": "拦截",
+      "relationships": [
+        "阿周那是般度五子之一",
+        "指掌是罗刹王"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "猛光上前阻截德罗纳",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "猛光",
+        "德罗纳"
+      ],
+      "type": "Battle Interception",
+      "action": "阻截",
+      "relationships": [
+        "猛光是般遮罗王子"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "般度五子的其他大勇士展开攻势，俱卢族战车武士们给予有力的阻击",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般度五子",
+        "俱卢族战车武士"
+      ],
+      "type": "Battle Action",
+      "action": "全面交战"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "战场上象兵、骑兵和步兵展开激烈混战",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "象兵",
+        "骑兵",
+        "步兵"
+      ],
+      "type": "Battle Description",
+      "action": "大规模混战",
+      "supernatural_elements": "无"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "成铠挡住坚战，坚战先向成铠射去五箭，接着又连发二十箭，喝道“站住！站住！”",
+    "char_interval": {
+      "start_pos": 901,
+      "end_pos": 960
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "成铠",
+        "坚战"
+      ],
+      "type": "Battle Confrontation",
+      "action": "箭战与对峙",
+      "relationships": [
+        "成铠是俱卢族将领",
+        "坚战是般度族领袖"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 258,
+      "end_index": 280
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "成铠勃然大怒",
+    "char_interval": {
+      "start_pos": 964,
+      "end_pos": 970
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 20,
+    "group_index": 19,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "成铠"
+      ],
+      "type": "Emotional Reaction",
+      "action": "愤怒"
+    },
+    "_token_interval": {
+      "start_index": 283,
+      "end_index": 284
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna shot an arrow that broke Yudhishthira's bow, then shot seven more arrows at him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Yudhishthira"
+      ],
+      "action": "Archery combat",
+      "type": "Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira immediately took another bow and shot ten arrows that hit Karna's arms and chest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Karna"
+      ],
+      "action": "Counterattack",
+      "type": "Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna, trembling and enraged, shot seven arrows at Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Yudhishthira"
+      ],
+      "action": "Continued attack",
+      "type": "Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna (referred to as 'Son of Pritha') broke Karna's bow and leather guard, then shot five sharp arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Karna"
+      ],
+      "action": "Weapon destruction",
+      "type": "Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna quickly took another bow and shot sixty arrows at Arjuna and nine at his charioteer.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Arjuna"
+      ],
+      "action": "Rapid counterattack",
+      "type": "Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna put down his bow and threw a golden spear that pierced Karna's right arm and went into the ground.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Karna"
+      ],
+      "action": "Spear attack",
+      "type": "Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna picked up his bow again and covered Karna with many straight arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Karna"
+      ],
+      "action": "Arrow barrage",
+      "type": "Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna, described as the best chariot warrior of the Vrishni clan, made Yudhishthira lose his horses, charioteer, and chariot in an instant.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Yudhishthira"
+      ],
+      "action": "Chariot destruction",
+      "type": "Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira took up a sword and shield in battle, but Karna destroyed them with sharp arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Karna"
+      ],
+      "action": "Weapon destruction",
+      "type": "Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira threw a powerful golden spear at Karna, but Karna smilingly broke it in two.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Karna"
+      ],
+      "action": "Spear defense",
+      "type": "Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna angrily showered Yudhishthira with hundreds of arrows, piercing his armor.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Yudhishthira"
+      ],
+      "action": "Arrow barrage",
+      "type": "Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira, with his bow broken, chariot destroyed, and armor shattered, immediately withdrew from the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Retreat",
+      "type": "Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After defeating Yudhishthira, the mighty Karna continued to guard Drona's chariot wheel.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Drona"
+      ],
+      "action": "Guard duty",
+      "type": "Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Paurava (referred to as 'Kuru descendant') blocked Satyaki (referred to as 'grandson of Shini') who was charging forward in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Paurava",
+        "Satyaki"
+      ],
+      "action": "Blocking charge",
+      "type": "Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki became furious and shot five sharp arrows at Paurava's heart, causing blood to flow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Paurava"
+      ],
+      "action": "Counterattack",
+      "type": "Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Paurava shot ten sharp arrows at Satyaki's chest in return.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Paurava",
+        "Satyaki"
+      ],
+      "action": "Exchange of attacks",
+      "type": "Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Both warriors, enraged with blood-red eyes, shot arrows trying to wound each other.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Paurava"
+      ],
+      "action": "Intense combat",
+      "type": "Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The two warriors faced each other in battle, covering each other with showers of arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Paurava"
+      ],
+      "action": "Standoff",
+      "type": "Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki (grandson of Shini) angrily cut off the bow of the Kuru descendant in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Unnamed Kuru descendant"
+      ],
+      "action": "Bow destruction",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki shot nine sharp arrows at the bowless warrior, striking his heart, and shouted 'Stand! Stand!'.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Unnamed Kuru descendant"
+      ],
+      "action": "Arrow attack",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The enemy-fighter took another bow and retaliated against Satyaki.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unnamed Kuru descendant",
+        "Satyaki"
+      ],
+      "action": "Retaliation",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Kuru descendant shot three arrows at Satyaki and then cut his bow with a sharp crescent-headed arrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unnamed Kuru descendant",
+        "Satyaki"
+      ],
+      "action": "Bow destruction",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Enraged, Satyaki hurled a powerful spear at the Kuru descendant's broad chest, piercing his body and causing him to fall from his chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Unnamed Kuru descendant"
+      ],
+      "action": "Spear attack and death",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama (son of Drona) rushed at Satyaki, showering him with arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Satyaki"
+      ],
+      "action": "Arrow attack",
+      "relationships": "Ashwatthama is Drona's son",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha shouted at Ashwatthama, threatening to kill him like Skanda killed Mahisha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Ashwatthama"
+      ],
+      "action": "Verbal threat",
+      "relationships": "Ghatotkacha is Bhima's son (a Rakshasa)",
+      "supernatural_elements": "Mythological reference to Skanda and Mahisha"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha charged at Ashwatthama and showered him with axle-like arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Ashwatthama"
+      ],
+      "action": "Arrow attack",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama smiled and destroyed the arrow-rain with snake-like arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Ghatotkacha"
+      ],
+      "action": "Arrow defense",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama shot hundreds of sharp arrows at Ghatotkacha, covering him entirely.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Ghatotkacha"
+      ],
+      "action": "Arrow attack",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha, filled with rage, shot various types of arrows at Ashwatthama.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Ashwatthama"
+      ],
+      "action": "Arrow attack",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama used a charmed divine weapon to destroy the arrow-rain.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Ghatotkacha"
+      ],
+      "action": "Divine weapon use",
+      "supernatural_elements": "Charmed divine weapon"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A fierce arrow-battle ensued between Ashwatthama and Ghatotkacha in the middle of the night.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Ghatotkacha"
+      ],
+      "action": "Extended battle",
+      "supernatural_elements": "Compared to Indra's battle with Prahlada"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha became enraged and shot ten arrows at Ashwatthama, hitting his chest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Ashwatthama"
+      ],
+      "action": "Arrow attack",
+      "relationship": "Enemies in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama, struck by the arrows, became unsteady and fainted, leaning against his flagpole.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama"
+      ],
+      "action": "Injured and fainted",
+      "reaction": "The Kaurava army cried out in alarm, thinking he was killed."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Panchalas and Srinjayas roared like lions upon seeing Ashwatthama's condition.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Panchalas",
+        "Srinjayas"
+      ],
+      "action": "Celebratory roar",
+      "relationship": "Allies of the Pandavas against the Kauravas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama regained consciousness, drew his bow with his left hand, and shot a fearsome arrow at Ghatotkacha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Ghatotkacha"
+      ],
+      "action": "Counterattack with a powerful arrow",
+      "supernatural_element": "Arrow described as resembling Yama's rod (divine weapon)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The arrow pierced Ghatotkacha's heart and drove into the ground, causing the powerful rakshasa king to collapse on his chariot seat.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Ashwatthama"
+      ],
+      "action": "Fatal wounding",
+      "outcome": "Ghatotkacha fell unconscious"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha's charioteer, seeing him unconscious, panicked and drove the chariot away from Ashwatthama, fleeing the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha's Charioteer",
+        "Ashwatthama"
+      ],
+      "action": "Retreat",
+      "relationship": "Charioteer serves Ghatotkacha"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama, having wounded Ghatotkacha, let out a loud roar and was praised by Duryodhana and all the warriors, shining brilliantly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Duryodhana",
+        "Kaurava Warriors"
+      ],
+      "action": "Victory celebration",
+      "relationship": "Ashwatthama is a commander for Duryodhana's Kaurava army"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima attacked Drona's chariot, and Duryodhana personally shot arrows at Bhima.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Duryodhana",
+        "Drona"
+      ],
+      "action": "Duel initiation",
+      "relationship": "Bhima (Pandava) and Duryodhana (Kaurava) are cousins and bitter enemies; Drona is Duryodhana's teacher and commander"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima shot nine arrows at Duryodhana, who retaliated with twenty arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Duryodhana"
+      ],
+      "action": "Exchange of arrows",
+      "description": "Both became covered in arrows, likened to the sun and moon obscured by clouds."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana shot five feathered arrows at Bhima, shouting 'Stand! Stand!'",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhima"
+      ],
+      "action": "Aggressive challenge"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima broke Duryodhana's bow and flag with nine arrows, then shot ninety straight arrows at the Kuru chief.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Duryodhana"
+      ],
+      "action": "Destruction of equipment and barrage of arrows"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana, enraged, shot arrows at Bhima in front of all archers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhima"
+      ],
+      "action": "Intensified attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima destroyed Duryodhana's incoming arrows and shot twenty-five small-headed arrows at him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Duryodhana"
+      ],
+      "action": "Defensive and offensive counter"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana, furious, broke Bhima's bow with a horse-headed arrow and retaliated with ten arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhima"
+      ],
+      "action": "Destruction of Bhima's bow"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima immediately took up another bow and quickly shot seven sharp arrows at Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Duryodhana"
+      ],
+      "action": "Rapid recovery and attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana swiftly broke that bow and then broke Bhima's second, third, fourth, and fifth bows as soon as Bhima picked them up.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhima"
+      ],
+      "action": "Repeated destruction of Bhima's bows",
+      "outcome": "Duryodhana appeared close to victory and was fierce."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing his bows broken one after another, Bhima hurled a shining, all-iron spear at Duryodhana in the heat of battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Duryodhana"
+      ],
+      "action": "Spear throw as alternative weapon"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana, in front of the great-souled Bhima and everyone, shattered the spear into three pieces before it reached him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhima"
+      ],
+      "action": "Destruction of the spear mid-flight"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima then hurled a shining, heavy iron mace with great force at Duryodhana's chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Duryodhana"
+      ],
+      "action": "Mace throw as final attack in the described sequence"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A heavy iron club suddenly killed your son's horses and charioteer in this round, O bull of the Bharata race!",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Horses and charioteer killed by iron club",
+      "type": "Battle event"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Your son, O king of kings, jumped from his gold-decorated chariot and quickly boarded the chariot of the great-souled Nandaka.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Nandaka"
+      ],
+      "action": "Duryodhana changes chariots",
+      "type": "Battle maneuver"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima thought your great warrior son had been killed and roared like a lion, as if terrifying the Kuru warriors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Duryodhana"
+      ],
+      "action": "Bhima roars, thinking Duryodhana is dead",
+      "type": "Battle reaction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Your warriors also thought the king had been killed and cried 'Alas! Alas!' from all directions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kaurava warriors"
+      ],
+      "action": "Kaurava warriors mourn, thinking Duryodhana is dead",
+      "type": "Battle reaction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Hearing all the warriors' terrified cries and the roar of the great-souled Bhima, O king, Yudhishthira also thought Duryodhana had been killed and quickly went to the son of Pritha, Wolf-belly (Bhima).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Duryodhana"
+      ],
+      "action": "Yudhishthira goes to Bhima, thinking Duryodhana is dead",
+      "type": "Battle reaction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Panchalas, Kekayas, Matsyas, and Srinjayas, O lord of the people, rushed toward Drona, eager to fight him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Panchalas",
+        "Kekayas",
+        "Matsyas",
+        "Srinjayas",
+        "Drona"
+      ],
+      "action": "Allied warriors rush to fight Drona",
+      "type": "Battle engagement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Then, there between Drona and the enemies, another fierce battle broke out, with both sides killing each other, submerged in terrifying darkness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Pandava allies"
+      ],
+      "action": "Fierce battle between Drona and allied warriors",
+      "type": "Battle climax"
+    },
+    "_token_interval": null
+  }
+]

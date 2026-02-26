@@ -1,0 +1,2416 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Many elephant warriors mounted war elephants and charged toward Shikhandin's grandson, determined to kill him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin's grandson (likely referring to a specific warrior, possibly Dhrishtadyumna or another, but text uses this title)"
+      ],
+      "action": "Charge/Attack",
+      "initiator": "Many elephant warriors (inspired by Duryodhana)",
+      "target": "Shikhandin's grandson"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Warriors from various regions (Easterners, Southerners, Angas, Vangas, Pundras, Magadhas, Tamraliptakas, Mekalas, Kosalas, Madras, Dasharnas, Nishadhas) joined with Kalingas in battle against the Panchalas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Easterners",
+        "Southerners",
+        "Angas",
+        "Vangas",
+        "Pundras",
+        "Magadhas",
+        "Tamraliptakas",
+        "Mekalas",
+        "Kosalas",
+        "Madras",
+        "Dasharnas",
+        "Nishadhas",
+        "Kalingas",
+        "Panchalas"
+      ],
+      "action": "Alliance and attack",
+      "type": "Battle formation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "These elephant warriors rained arrows, spears, and iron arrows upon the Panchalas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Elephant warriors (from the listed regions)",
+        "Panchalas"
+      ],
+      "action": "Raining projectiles",
+      "weapons": [
+        "Arrows",
+        "Spears",
+        "Iron arrows"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandin's grandson countered by showering sharp arrows and iron arrows at the elephants.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin's grandson"
+      ],
+      "action": "Counter-attack",
+      "target": "War elephants",
+      "weapons": [
+        "Arrows",
+        "Iron arrows"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pandavas and Panchalas, armed with sharp weapons, charged forward, showering arrows on the elephants.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Panchalas"
+      ],
+      "action": "Charge and attack",
+      "target": "Elephants",
+      "weapons": [
+        "Arrows"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Warriors including Nakula, Sahadeva, Draupadi's sons, Prabhadrakas, Satyaki, Shikhandi, and Shishupala's son joined the fight.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Sahadeva",
+        "Draupadi's sons",
+        "Prabhadrakas",
+        "Satyaki",
+        "Shikhandi",
+        "Shishupala's son"
+      ],
+      "action": "Join battle",
+      "allies": "Pandavas and Panchalas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Enraged elephants driven by Mlecchas trampled and killed many men, horses, and chariots.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Elephants (driven by Mlecchas)"
+      ],
+      "action": "Trampling and killing",
+      "victims": [
+        "Men",
+        "Horses",
+        "Chariots"
+      ],
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki shot a swift iron arrow at the war elephant of the king of Vanga, killing it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "King of Vanga"
+      ],
+      "action": "Kill elephant",
+      "weapon": "Iron arrow",
+      "target": "War elephant of Vanga king"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "As the king of Vanga tried to dismount, Satyaki shot another iron arrow into his chest, killing him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "King of Vanga"
+      ],
+      "action": "Kill king",
+      "weapon": "Iron arrow",
+      "result": "Death of Vanga king"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sahadeva shot three iron arrows at the elephant of the king of Pundra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sahadeva",
+        "King of Pundra"
+      ],
+      "action": "Attack elephant",
+      "weapon": "Iron arrows",
+      "target": "Elephant of Pundra king"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After disabling the elephant's flag, driver, armor, and life, Sahadeva charged toward the king of Anga.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sahadeva",
+        "King of Anga"
+      ],
+      "action": "Charge",
+      "target": "King of Anga"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula, while Sahadeva restrained the king of Anga, shot three iron arrows at him and a hundred at his elephant.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Sahadeva",
+        "King of Anga"
+      ],
+      "action": "Coordinated attack",
+      "weapons": [
+        "Iron arrows"
+      ],
+      "targets": [
+        "King of Anga",
+        "His elephant"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The king of Anga threw eight hundred spears at Nakula, who shattered them all.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King of Anga",
+        "Nakula"
+      ],
+      "action": "Spear attack and defense",
+      "weapon": "Spears",
+      "result": "Spears shattered by Nakula"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula shot a crescent-headed arrow, beheading the king of Anga, who fell with his elephant.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "King of Anga"
+      ],
+      "action": "Beheading",
+      "weapon": "Crescent-headed arrow",
+      "result": "Death of Anga king"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Enraged by their teacher's son's death, Anga elephant warriors charged at Nakula.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Anga elephant warriors",
+        "Nakula"
+      ],
+      "action": "Charge",
+      "reason": "Revenge for death of teacher's son (Anga king)",
+      "target": "Nakula"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Warriors from Mekalas, Utkalas, Kalingas, Nishadhas, and Tamraliptakas also rained arrows and spears on Nakula.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mekalas",
+        "Utkalas",
+        "Kalingas",
+        "Nishadhas",
+        "Tamraliptakas",
+        "Nakula"
+      ],
+      "action": "Raining projectiles",
+      "weapons": [
+        "Arrows",
+        "Spears"
+      ],
+      "target": "Nakula"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing Nakula surrounded, Pandavas, Panchalas, and Somakas became enraged and charged forward.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Panchalas",
+        "Somakas"
+      ],
+      "action": "Charge to rescue",
+      "reason": "Nakula surrounded",
+      "target": "Enemy warriors"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A fierce battle erupted between chariot warriors and elephant warriors, with thousands of spears and arrows exchanged.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Chariot warriors",
+        "Elephant warriors"
+      ],
+      "type": "Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sahadeva killed eight giant elephants along with their riders using sixty-four sharp arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sahadeva"
+      ],
+      "action": "Killing elephants and riders"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula also killed many elephants with his excellent bow and straight-flying iron arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula"
+      ],
+      "action": "Killing elephants"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki, Drupada, Draupadi's sons, Prabhadrakas, and Shikhandi showered arrows on the elephants.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Drupada",
+        "Draupadi's sons",
+        "Prabhadrakas",
+        "Shikhandi"
+      ],
+      "action": "Arrow attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandava warriors destroyed the elephant forces, causing the Kaurava army to flee like a breached river.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava warriors",
+        "Kaurava army"
+      ],
+      "action": "Army rout"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandava forces then turned their attention to Karna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava forces",
+        "Karna"
+      ],
+      "action": "Targeting"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sahadeva angrily attacked the Kaurava army, and Dushasana rushed to fight him in a brother-versus-brother battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sahadeva",
+        "Dushasana"
+      ],
+      "type": "Duel",
+      "relationship": "Brothers fighting"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dushasana shot three arrows into Sahadeva's chest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dushasana",
+        "Sahadeva"
+      ],
+      "action": "Arrow attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sahadeva retaliated with one iron arrow, seventy iron arrows, and two sets of three arrows at Dushasana and his charioteer.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sahadeva",
+        "Dushasana"
+      ],
+      "action": "Arrow attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dushasana broke Sahadeva's bow and shot seventy-three arrows at his arms and chest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dushasana",
+        "Sahadeva"
+      ],
+      "action": "Bow breaking and arrow attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Enraged, Sahadeva threw a sword that cut Dushasana's bow and arrows before falling to the ground.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sahadeva",
+        "Dushasana"
+      ],
+      "action": "Sword throw"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sahadeva took another bow and shot a fatal arrow at Dushasana, who split it with his sharp sword.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sahadeva",
+        "Dushasana"
+      ],
+      "action": "Arrow attack and defense"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sahadeva smiled and shot arrows to knock down Dushasana's sword.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sahadeva",
+        "Dushasana"
+      ],
+      "action": "Sword defense"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dushasana shot sixty-four arrows at Sahadeva's chariot, but Sahadeva cut them all with five arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dushasana",
+        "Sahadeva"
+      ],
+      "action": "Arrow exchange"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sahadeva blocked Dushasana's powerful arrows and shot many arrows back at him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sahadeva",
+        "Dushasana"
+      ],
+      "action": "Arrow exchange"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Enraged, Sahadeva drew a bow and shot a deadly arrow more terrifying than Death at Dushasana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sahadeva",
+        "Dushasana"
+      ],
+      "action": "Deadly arrow shot"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula's arrow struck Duryodhana, piercing his armor and embedding in the ground, causing Duryodhana to fall unconscious.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Duryodhana"
+      ],
+      "action": "Combat",
+      "outcome": "Duryodhana incapacitated"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana's charioteer, seeing him unconscious, quickly drove the chariot away from the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana's Charioteer",
+        "Duryodhana"
+      ],
+      "action": "Retreat",
+      "relationship": "Charioteer and warrior"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After defeating Duryodhana, Nakula proceeded to decimate the Kaurava army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula"
+      ],
+      "action": "Mass combat",
+      "target": "Kaurava army"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna intercepted Nakula on the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Nakula"
+      ],
+      "action": "Confrontation",
+      "relationship": "Rivals"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula accused Karna of being the root cause of all the calamities, hostility, and strife, and vowed to kill him in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Karna"
+      ],
+      "action": "Verbal confrontation",
+      "dialogue": "Accusation and vow"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna responded, telling Nakula to prove his valor in battle rather than boasting, and challenged him to fight.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Nakula"
+      ],
+      "action": "Verbal confrontation",
+      "dialogue": "Challenge"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna attacked Nakula first, shooting seventy-three arrows at him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Nakula"
+      ],
+      "action": "Combat initiation",
+      "weapon": "Arrows"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula retaliated by shooting eighty snake-like arrows at Karna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Karna"
+      ],
+      "action": "Counterattack",
+      "weapon": "Arrows"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna, the foremost of archers, broke Nakula's bow with sharp gold-feathered arrows and then shot thirty more arrows at him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Nakula"
+      ],
+      "action": "Combat",
+      "outcome": "Nakula's bow broken"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula took another powerful gold-plated bow and shot twenty arrows at Karna and three at his charioteer.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Karna",
+        "Karna's Charioteer"
+      ],
+      "action": "Combat",
+      "weapon": "Bow and arrows"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula angrily shot a sharp horse-hoof arrow that broke Karna's bow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Karna"
+      ],
+      "action": "Combat",
+      "outcome": "Karna's bow broken"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula laughed and shot three hundred arrows at the bowless Karna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Karna"
+      ],
+      "action": "Combat",
+      "emotional_state": "Nakula excited"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The chariot warriors and gods in the sky were astonished to see Karna being struck by Nakula.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Chariot Warriors",
+        "Gods"
+      ],
+      "action": "Reaction",
+      "supernatural_element": "Gods observing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna took another bow and shot five arrows that struck Nakula's collarbone.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Nakula"
+      ],
+      "action": "Combat",
+      "injury": "Nakula wounded"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The arrows lodged in Nakula's chest made him shine brilliantly, like the sun spreading its rays on earth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula"
+      ],
+      "action": "Visual effect",
+      "description": "Supernatural radiance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula shot seven iron arrows at Karna, breaking a corner of Karna's bow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Karna"
+      ],
+      "action": "Combat",
+      "outcome": "Karna's bow damaged"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳取出更具杀伤力的弓，射出箭雨将无种团团围住。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "无种"
+      ],
+      "action": "箭术攻击",
+      "relationship": "敌对交战双方"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "无种迅速用自己的箭将迦尔纳射来的箭全部射断。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "无种",
+        "迦尔纳"
+      ],
+      "action": "防御反击",
+      "supernatural_elements": "箭术对决产生空中箭网"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "双方箭雨覆盖天空，形成巨大箭网，遮蔽天日。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "无种"
+      ],
+      "action": "大规模箭术对决",
+      "description": "箭如萤火虫、蝗虫、天鹅般飞舞"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳的箭雨打击导致许多苏摩迦族人中箭倒地。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "苏摩迦族人"
+      ],
+      "action": "军队打击",
+      "relationship": "迦尔纳攻击敌方军队"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "无种的箭雨打击导致敌军四处溃散。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "无种",
+        "敌军"
+      ],
+      "action": "军队打击",
+      "relationship": "无种攻击敌方军队"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳和无种相互发射箭雨，意图杀死对方。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "无种"
+      ],
+      "action": "一对一决斗",
+      "relationship": "直接敌对"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "无种用苍鹭孔雀羽毛箭雨将迦尔纳遮盖。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "无种",
+        "迦尔纳"
+      ],
+      "action": "箭术压制",
+      "supernatural_elements": "神奇武器"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳怒火中烧，从四面八方用箭雨围住无种。",
+    "char_interval": {
+      "start_pos": 3566,
+      "end_pos": 3574
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "无种"
+      ],
+      "action": "全面攻击",
+      "emotional_state": "迦尔纳愤怒"
+    },
+    "_token_interval": {
+      "start_index": 908,
+      "end_index": 910
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "无种在箭雨中保持镇定，毫不惊慌。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "无种"
+      ],
+      "action": "沉着应对",
+      "emotional_state": "无种冷静"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳微微一笑，射出成百上千支箭织就箭网。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳"
+      ],
+      "action": "持续攻击",
+      "emotional_state": "迦尔纳自信"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳射断无种的弓。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "无种"
+      ],
+      "action": "武器破坏",
+      "turning_point": "无种失去主要武器"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳将无种的车夫击下车座。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "无种的车夫"
+      ],
+      "action": "击杀辅助人员",
+      "relationship": "迦尔纳削弱无种战力"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳用四支箭射杀无种的四匹马。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "无种的马"
+      ],
+      "action": "击杀战马",
+      "turning_point": "无种失去交通工具"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳粉碎无种的战车及所有装备。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "无种"
+      ],
+      "action": "彻底摧毁战车",
+      "consequence": "无种失去战斗平台"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "无种飞身下车，手执铁闩站立。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "无种"
+      ],
+      "action": "更换武器继续战斗",
+      "current_state": "无种转为近战状态"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳用成百上千支利箭击毁了无种的战车",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "无种"
+      ],
+      "action": "战车被毁",
+      "relationship": "敌对交战双方"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳向失去武器的无种射去多支弯头箭，但未造成严重伤害",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "无种"
+      ],
+      "action": "攻击但手下留情",
+      "supernatural_elements": "迦尔纳的箭术"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "无种在交战中惊慌失措，转身逃跑",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "无种"
+      ],
+      "action": "逃跑",
+      "reason": "被迦尔纳的强大武力震慑"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳追上无种，用弓套住他的脖颈",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "无种"
+      ],
+      "action": "捕获",
+      "relationship_change": "迦尔纳完全控制无种"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳嘲讽无种，让他不要与长辈作战，去与实力相当的人作战",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "无种"
+      ],
+      "action": "言语嘲讽",
+      "relationship": "迦尔纳以长辈自居，轻视无种"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳放走无种，未杀死他",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "无种"
+      ],
+      "action": "释放俘虏",
+      "reason": "回想起母亲贡蒂的话语",
+      "relationship_change": "迦尔纳展现仁慈"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "无种满怀羞愧地回到兄长坚战的车前",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "无种",
+        "坚战"
+      ],
+      "action": "返回本阵",
+      "emotional_state": "羞愧、忧伤"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳转向攻击般遮罗族军队",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "般遮罗族"
+      ],
+      "action": "改变攻击目标",
+      "narrative_flow": "战场焦点转移"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳在般遮罗族军队中制造大屠杀",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "般遮罗族"
+      ],
+      "action": "大规模杀戮",
+      "supernatural_elements": "迦尔纳的超凡战斗力",
+      "impact": "般遮罗族军队溃败"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna's devastating attack on the battlefield",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Panchalas",
+        "Srinjayas"
+      ],
+      "action": "Mass slaughter with arrows",
+      "description": "Karna's arrows decimate the enemy forces, cutting off heads, arms, legs, and other limbs. Warriors flee in terror as he pursues and kills them relentlessly.",
+      "supernatural_elements": "Karna is compared to the sun at midday scorching all beings and to the blazing fire of doomsday."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya narrates the chaotic aftermath of Karna's assault",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Dhritarashtra"
+      ],
+      "action": "Narration of battle events",
+      "description": "Sanjaya describes to King Dhritarashtra the scene of riderless elephants and horses, broken chariots, and slain warriors littering the field after Karna's attack.",
+      "relationships": "Sanjaya is the narrator reporting to King Dhritarashtra."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uluka confronts Shalya",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uluka",
+        "Shalya"
+      ],
+      "action": "Confrontation and archery duel",
+      "description": "Uluka (son of Shakuni) rushes to confront Shalya (the king of Madra, fighting for the Kauravas), shouting for him to stop. Shalya responds by shooting a sharp arrow at Uluka.",
+      "relationships": "Uluka is the son of Shakuni; Shalya is the king of Madra and Karna's charioteer in this part of the war."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uluka breaks Shalya's bow and flag",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uluka",
+        "Shalya"
+      ],
+      "action": "Destruction of weapons and symbols",
+      "description": "Enraged, Uluka breaks Shalya's bow with a horse-hoof arrow, then shatters Shalya's golden flag with another arrow during their exchange.",
+      "relationships": "Continuing duel between Uluka and Shalya."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya retaliates against Uluka",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Uluka"
+      ],
+      "action": "Retaliatory archery attack",
+      "description": "Shalya, furious after losing his flag, takes a more powerful bow and shoots sixty arrows at Uluka, three at Uluka's charioteer, and then five arrows at Uluka's chest.",
+      "relationships": "Intensifying combat between Shalya and Uluka."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "优楼迦猛然射出一支在油中浸过的月牙箭，砍下车夫的脑袋。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "优楼迦",
+        "车夫（尚武的车夫）"
+      ],
+      "action": "Attack/Killing",
+      "weapon": "月牙箭"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "优楼迦杀死尚武的四匹马，又向尚武本人射去五支箭。",
+    "char_interval": {
+      "start_pos": 5968,
+      "end_pos": 5990
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "优楼迦",
+        "尚武"
+      ],
+      "action": "Attack",
+      "weapon": "箭"
+    },
+    "_token_interval": {
+      "start_index": 1557,
+      "end_index": 1561
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "遭到优楼迦的重创，尚武登上另一辆车。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "尚武"
+      ],
+      "action": "Retreat/Change vehicle",
+      "reason": "Injured by 优楼迦"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "优楼迦打败尚武后，快速冲向般遮罗人和斯楞遮耶人，放出无数利箭屠杀他们。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "优楼迦",
+        "般遮罗人",
+        "斯楞遮耶人"
+      ],
+      "action": "Mass attack",
+      "weapon": "利箭"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "闻业使百军失去了马匹、车夫和战车。",
+    "char_interval": {
+      "start_pos": 6087,
+      "end_pos": 6108
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "闻业",
+        "百军"
+      ],
+      "action": "Disarm/Destroy vehicle"
+    },
+    "_token_interval": {
+      "start_index": 1585,
+      "end_index": 1589
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "百军站在无马驾驶的战车上，怒不可遏，向闻业掷去一根棒槌。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "百军",
+        "闻业"
+      ],
+      "action": "Counterattack",
+      "weapon": "棒槌"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "棒槌将闻业的马匹和车夫击为齑粉，然后扎到地里。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "闻业",
+        "闻业的马匹和车夫"
+      ],
+      "action": "Destruction",
+      "weapon": "棒槌"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "闻业和百军同时后退，怒目相视。",
+    "char_interval": {
+      "start_pos": 6227,
+      "end_pos": 6239
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "闻业",
+        "百军"
+      ],
+      "action": "Standoff",
+      "relationship": "敌对"
+    },
+    "_token_interval": {
+      "start_index": 1620,
+      "end_index": 1624
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "闻业登上欲知的战车，百军登上向山的车。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "闻业",
+        "欲知",
+        "百军",
+        "向山"
+      ],
+      "action": "Change vehicles",
+      "new_vehicles": [
+        "欲知的战车",
+        "向山的车"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "子月怒冲冲地向沙恭尼放出锋利的箭，但不能动摇他。",
+    "char_interval": {
+      "start_pos": 6278,
+      "end_pos": 6301
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "子月",
+        "沙恭尼"
+      ],
+      "action": "Attack",
+      "weapon": "箭",
+      "outcome": "无效"
+    },
+    "_token_interval": {
+      "start_index": 1636,
+      "end_index": 1639
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "子月发出数千支箭将沙恭尼覆盖。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "子月",
+        "沙恭尼"
+      ],
+      "action": "Mass arrow attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "沙恭尼用自己的羽毛箭将子月的箭一一击断。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "沙恭尼",
+        "子月"
+      ],
+      "action": "Defense/Counter",
+      "weapon": "羽毛箭"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "沙恭尼向子月连放三箭。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "沙恭尼",
+        "子月"
+      ],
+      "action": "Counterattack",
+      "weapon": "箭"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "沙恭尼射出无数支利箭，将子月的马匹、旗帜和车夫击得粉碎。",
+    "char_interval": {
+      "start_pos": 6460,
+      "end_pos": 6493
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "沙恭尼",
+        "子月"
+      ],
+      "action": "Destruction of vehicle components"
+    },
+    "_token_interval": {
+      "start_index": 1679,
+      "end_index": 1686
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "子月取出一张威力无边的弓，从车上跳到地下，射出金羽箭覆盖沙恭尼的战车。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "子月",
+        "沙恭尼"
+      ],
+      "action": "Ground attack",
+      "weapon": [
+        "威力无边的弓",
+        "金羽箭"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "沙恭尼射出阵阵箭雨，粉碎子月的利箭。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "沙恭尼",
+        "子月"
+      ],
+      "action": "Arrow defense"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "子月徒步与战车上的沙恭尼交锋，众武士与诸悉陀欢欣鼓舞。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "子月",
+        "沙恭尼",
+        "众武士",
+        "诸悉陀"
+      ],
+      "action": "Unequal combat",
+      "supernatural_elements": [
+        "诸悉陀（天上神灵）"
+      ],
+      "reaction": "欢欣鼓舞"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "沙恭尼发射弯头月牙箭，击断子月的弓，毁坏他的箭袋。",
+    "char_interval": {
+      "start_pos": 6694,
+      "end_pos": 6726
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "沙恭尼",
+        "子月"
+      ],
+      "action": "Disarm",
+      "weapon": "弯头月牙箭"
+    },
+    "_token_interval": {
+      "start_index": 1737,
+      "end_index": 1743
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "子月举起象牙柄宝剑大吼一声。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "子月"
+      ],
+      "action": "Weapon change",
+      "new_weapon": "象牙柄宝剑"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "沙恭尼感到子月的宝剑与死神毫无二致。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 20,
+    "group_index": 19,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "沙恭尼",
+        "子月"
+      ],
+      "action": "Psychological impact",
+      "perception": "宝剑似死神"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "子月持剑跑圆场，转了上千圈，表演二十四种剑术。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 21,
+    "group_index": 20,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "子月"
+      ],
+      "action": "Sword display",
+      "technique": "二十四种剑术"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "沙恭尼向子月射去许多支箭，子月用宝剑将这些箭一一斩断。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 22,
+    "group_index": 21,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "沙恭尼",
+        "子月"
+      ],
+      "action": "Arrow vs sword combat",
+      "outcome": "箭被斩断"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shakuni (妙力之子) became furious and shot snake-like arrows at Satyaki (子月).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shakuni",
+        "Satyaki"
+      ],
+      "action": "Archery attack",
+      "relationship": "Enemies in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki used his sword to cut Shakuni's arrows and displayed his agility in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki"
+      ],
+      "action": "Defensive combat",
+      "supernatural_element": "Compared to Garuda (大鹏金翅鸟)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shakuni shot a sharp horse-hoof arrow that broke Satyaki's sword in half.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shakuni",
+        "Satyaki"
+      ],
+      "action": "Weapon destruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki threw the broken half of his sword, which broke Shakuni's bow and bowstring.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Shakuni"
+      ],
+      "action": "Counterattack",
+      "weapon": "Broken sword"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki retreated to Virata's (闻称) war chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Virata"
+      ],
+      "action": "Retreat/regroup"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shakuni took another powerful bow and attacked the Pandava army, killing many soldiers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shakuni"
+      ],
+      "action": "Mass attack",
+      "target": "Pandava army"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandava army panicked and scattered as Shakuni destroyed them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shakuni",
+        "Pandava army"
+      ],
+      "action": "Army rout",
+      "supernatural_element": "Compared to Indra (天王) destroying demon armies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kripa (慈悯/乔答摩) confronted Shikhandin (猛光) in battle, preventing his advance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripa",
+        "Shikhandin"
+      ],
+      "action": "Confrontation",
+      "relationship": "Enemies in battle",
+      "supernatural_element": "Compared to Sarabha (沙罗跋) confronting an elephant"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Warriors from both sides speculated that Shikhandin would be killed by Kripa, who was angry about Drona's death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripa",
+        "Shikhandin",
+        "Drona"
+      ],
+      "action": "Speculation/fear",
+      "relationship": "Kripa seeking revenge for Drona's death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kripa took a deep breath and attacked Shikhandin's vital points.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripa",
+        "Shikhandin"
+      ],
+      "action": "Focused attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandin became confused and disoriented from Kripa's attacks.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Kripa"
+      ],
+      "action": "Combat effect",
+      "state": "Confusion"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandin's charioteer asked if he was alright, noting he had never seen Shikhandin in such distress before.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Shikhandin's charioteer"
+      ],
+      "action": "Dialogue/concern",
+      "relationship": "Charioteer and warrior"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A Brahmin (likely Drona or another sage) fired deadly arrows aimed at vital points but missed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin (likely Drona or another sage)",
+        "Shikhandin"
+      ],
+      "action": "Arrow attack",
+      "outcome": "Missed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The charioteer decided to turn the chariot back, comparing it to a river pushed back by waves, and stated the Brahmin who robbed Shikhandin of courage should not be killed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Charioteer",
+        "Shikhandin",
+        "Brahmin (likely Drona or another sage)"
+      ],
+      "action": "Strategic retreat",
+      "reason": "Avoid killing the Brahmin"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandin, feeling faint, sweating, trembling, and with hair standing on end, ordered the charioteer to slowly drive to Krishna (Achyuta) and seek safety with Arjuna or Bhima.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Charioteer",
+        "Krishna",
+        "Arjuna",
+        "Bhima"
+      ],
+      "action": "Seeking refuge",
+      "condition": "Shikhandin in distress"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The charioteer drove the chariot towards Bhima, who was engaged in battle with the Kaurava army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Charioteer",
+        "Shikhandin",
+        "Bhima"
+      ],
+      "action": "Movement to Bhima"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gautama (likely Kripa) pursued Shikhandin's fleeing chariot, shooting hundreds of arrows and blowing his conch, likened to Indra chasing Shambara.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gautama (likely Kripa)",
+        "Shikhandin"
+      ],
+      "action": "Pursuit and attack",
+      "supernatural_element": "Comparison to Indra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kritavarma (son of Hridika) repeatedly and smilingly confronted Shikhandin, who was difficult to defeat and caused Bhishma's death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kritavarma",
+        "Shikhandin"
+      ],
+      "action": "Confrontation",
+      "relationship": "Opponents in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandin attacked Kritavarma with five sharp crescent-headed arrows, hitting his collarbone.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Kritavarma"
+      ],
+      "action": "Arrow attack",
+      "injury": "Kritavarma hit in collarbone"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kritavarma, enraged, fired sixty arrows and then laughingly shot an arrow that broke Shikhandin's bow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kritavarma",
+        "Shikhandin"
+      ],
+      "action": "Counterattack",
+      "outcome": "Shikhandin's bow broken"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandin took another bow, shouted at Kritavarma to stand his ground, and shot ninety sharp gold-feathered arrows, but they were deflected by Kritavarma's armor.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Kritavarma"
+      ],
+      "action": "Renewed attack",
+      "outcome": "Arrows ineffective"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandin shot an extremely sharp horse-hoof arrow that broke Kritavarma's bow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Kritavarma"
+      ],
+      "action": "Arrow attack",
+      "outcome": "Kritavarma's bow broken"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandin, in fury, shot eighty arrows at Kritavarma, hitting his arms and chest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Kritavarma"
+      ],
+      "action": "Arrow attack",
+      "injury": "Kritavarma wounded"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kritavarma, wounded and angry, took another bow and bundles of arrows, shooting sharp arrows that hit Shikhandin's shoulders.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kritavarma",
+        "Shikhandin"
+      ],
+      "action": "Counterattack",
+      "injury": "Shikhandin wounded"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Both warriors, severely wounded and bleeding, fought fiercely, driving their chariots in thousands of circles on the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Kritavarma"
+      ],
+      "action": "Intense duel",
+      "condition": "Both heavily injured"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kritavarma shot seventy sharp gold-feathered arrows at Shikhandin and then a deadly, fearsome arrow at Shikhandin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kritavarma",
+        "Shikhandin"
+      ],
+      "action": "Arrow attacks",
+      "outcome": "Shikhandin hit by deadly arrow"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandin, hit by the arrow, lost consciousness and leaned on the flagstaff, after which his charioteer drove him away from the battlefield while Shikhandin gasped for breath.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Charioteer"
+      ],
+      "action": "Retreat from battle",
+      "condition": "Shikhandin unconscious and wounded"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The son of King Drupada (Shikhandin) was defeated.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin"
+      ],
+      "action": "Defeat in battle",
+      "context": "During the Kurukshetra War"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandava army was being slaughtered and scattered in all directions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava Army"
+      ],
+      "action": "Mass slaughter and rout",
+      "context": "Following Shikhandin's defeat"
+    },
+    "_token_interval": null
+  }
+]

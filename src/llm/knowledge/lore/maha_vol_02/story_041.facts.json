@@ -1,0 +1,466 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yudhishthira asks the sage Lomasha about why Mount Vindhya became angry and suddenly grew taller.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira",
+        "Lomasha"
+      ],
+      "type": "Inquiry",
+      "relationship": "King and sage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Lomasha explains that Mount Meru is very tall and radiant, and the sun circles it daily in respect.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Lomasha",
+        "Mount Meru",
+        "Sun"
+      ],
+      "type": "Explanation",
+      "supernatural_elements": "Sun's daily ritual"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mount Vindhya, seeing this, demands that the sun also circle it, but the sun explains it follows a divinely ordained path.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mount Vindhya",
+        "Sun"
+      ],
+      "type": "Conflict",
+      "action": "Demand and refusal"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Enraged, Mount Vindhya starts growing taller to block the paths of the sun and moon.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mount Vindhya"
+      ],
+      "type": "Anger/Obstruction",
+      "supernatural_elements": "Mountain growing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The gods, led by Indra, gather to persuade Mount Vindhya to stop, but fail.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Mount Vindhya",
+        "Other gods"
+      ],
+      "type": "Divine intervention",
+      "relationship": "Gods vs. mountain"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The gods seek help from Sage Agastya, who lives in an ashram practicing austerities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Sage Agastya",
+        "Other gods"
+      ],
+      "type": "Seeking aid",
+      "relationship": "Gods rely on sage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The gods explain to Sage Agastya that Mount Vindhya is blocking celestial paths and ask him to stop it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Sage Agastya",
+        "Mount Vindhya"
+      ],
+      "type": "Request",
+      "action": "Gods plead for help"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Agastya agrees to help and goes with his wife to Mount Vindhya, asking it to make way for his journey south and wait until his return.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Agastya",
+        "Mount Vindhya"
+      ],
+      "type": "Agreement",
+      "action": "Sage negotiates with mountain"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Mount Vindhya agrees, and Sage Agastya goes south, never returning, thus halting the mountain's growth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Agastya",
+        "Mount Vindhya"
+      ],
+      "type": "Resolution",
+      "supernatural_elements": "Mountain's growth stopped by promise"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Lomasha concludes the story and mentions another tale about how the gods, with Sage Agastya's help, defeated the Kaleya asuras.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Lomasha",
+        "King Yudhishthira",
+        "Sage Agastya",
+        "Gods",
+        "Kaleya asuras"
+      ],
+      "type": "Transition",
+      "relationship": "Sage continues narrative"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The gods ask Sage Agastya to drink the ocean's water to help them kill the Kaleya asuras, who hate the gods.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Sage Agastya",
+        "Kaleya asuras"
+      ],
+      "type": "Request",
+      "action": "Gods seek destruction of enemies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Agastya agrees for the welfare of all worlds and sets out with sages, gods, and other beings to the ocean.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Agastya",
+        "Gods",
+        "Sages",
+        "Humans",
+        "Nagas",
+        "Gandharvas",
+        "Yakshas",
+        "Kinnaras"
+      ],
+      "type": "Journey",
+      "supernatural_elements": "Sage's power to drink ocean"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Agastya (Mountain-born Sage) and his followers arrived at the roaring sea.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Agastya",
+        "Devas",
+        "Gandharvas",
+        "Nagas",
+        "Sages"
+      ],
+      "type": "Journey/Arrival",
+      "relationships": "Agastya leading various divine beings and sages"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Agastya declared his intention to drink the ocean dry for the benefit of all worlds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Agastya"
+      ],
+      "action": "Declaration of intent",
+      "supernatural_elements": "Plan to drink entire ocean"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Agastya began drinking the ocean water with an angry expression.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Agastya"
+      ],
+      "action": "Drinking the ocean",
+      "supernatural_elements": "Miraculous consumption of entire ocean"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra and all Devas were astonished and praised Agastya as their protector and creator of worlds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Devas",
+        "Agastya"
+      ],
+      "action": "Praise and worship",
+      "relationships": "Devas recognizing Agastya's power and divinity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Agastya completely drank the ocean dry.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Agastya"
+      ],
+      "action": "Completed drinking ocean",
+      "supernatural_elements": "Ocean completely consumed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Devas attacked and slaughtered the Danavas (demons) with divine weapons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Devas",
+        "Danavas"
+      ],
+      "action": "Battle/slaughter",
+      "relationships": "Devas vs Danavas conflict"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Danavas were completely destroyed by Devas with help from sages' ascetic power.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Devas",
+        "Danavas",
+        "Sages"
+      ],
+      "action": "Complete destruction of Danavas",
+      "supernatural_elements": "Sages' ascetic power weakening Danavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A few Kaleyas escaped through earth to hide in hell.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kaleyas"
+      ],
+      "action": "Escape/survival",
+      "relationships": "Sub-group of Danavas escaping destruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Devas praised Agastya for destroying the cruel Kaleyas and asked him to return the water to the ocean.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Devas",
+        "Agastya"
+      ],
+      "action": "Request for water return",
+      "relationships": "Devas dependent on Agastya's power"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Agastya revealed he had digested the water and couldn't return it, suggesting Devas find another solution.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Agastya",
+        "Devas"
+      ],
+      "action": "Revelation and refusal",
+      "supernatural_elements": "Digestion of entire ocean's water"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Devas were astonished and worried, then bid farewell and returned as they came.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Devas",
+        "Agastya"
+      ],
+      "action": "Departure",
+      "relationships": "Devas leaving with unresolved problem"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The gods repeatedly discussed how to find water to fill the ocean.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The gods"
+      ],
+      "action": "Discussion/Planning",
+      "goal": "Find water to fill the ocean"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The gods, along with Vishnu, went before Brahma with folded hands and told him about the need to fill the ocean with water.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The gods",
+        "Vishnu",
+        "Brahma"
+      ],
+      "action": "Seeking divine assistance",
+      "method": "Approaching Brahma with reverence"
+    },
+    "_token_interval": null
+  }
+]

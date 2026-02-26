@@ -1,0 +1,1460 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Bhishma about the most important thing a king should give as charity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Question",
+      "relationship": "Grandson and grandfather, student and teacher"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma declares that land is the foremost object of charity among all things that can be given.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Declaration",
+      "reasoning": "Land is immovable, indestructible, and provides all desirable things like clothing, jewels, cattle, rice, and barley."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma explains the benefits of giving land as charity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Instruction",
+      "benefits": [
+        "The giver remains prosperous for as long as the land exists",
+        "One who gives land will be reborn as a human and become a lord of the earth again",
+        "Giving land purifies the giver, even from sins like killing a Brahmin or speaking falsely",
+        "Land given to good people protects the giver's land from enemies",
+        "Even a small piece of land (the size of a cow's hide) can cleanse sins of those in poverty"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma states that virtuous people accept only land from sinful kings, as land purifies like a mother.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Moral teaching",
+      "divine_element": "Earth goddess (Prithvi) has the secret name 'Priyadatta' (Lovely Gift)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma concludes that kings should give land to Brahmins, and that giving land to good people brings great fame in this life and the next.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Conclusion",
+      "comparison": "Giving land is considered equal to performing the Ashvamedha (horse sacrifice)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "饱学之士即使做了善行，但对于能否获得功德却无把握。然而，对于土地之施是无上之施这一点，他们却满怀信心。",
+    "char_interval": {
+      "start_pos": 1000,
+      "end_pos": 1051
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "饱学之士"
+      ],
+      "action": "阐述信念",
+      "key_point": "施舍土地被视为最高形式的布施，能带来确定的功德"
+    },
+    "_token_interval": {
+      "start_index": 240,
+      "end_index": 250
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "聪明的人在施舍金、银、衣物、宝石、珍珠和其他财物的同时，还要施舍土地。",
+    "char_interval": {
+      "start_pos": 1055,
+      "end_pos": 1090
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "聪明的人"
+      ],
+      "action": "建议布施行为",
+      "key_point": "施舍土地应与其他财物布施结合进行"
+    },
+    "_token_interval": {
+      "start_index": 253,
+      "end_index": 265
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "苦行、祭祀、学习吠陀、行为端正、戒除贪欲、坚持真理、尊重师长和崇拜神明，所有这一切都没有施舍土地好。",
+    "char_interval": {
+      "start_pos": 1094,
+      "end_pos": 1144
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "施舍土地者"
+      ],
+      "action": "比较功德",
+      "key_point": "施舍土地的功德超越各种宗教修行和美德"
+    },
+    "_token_interval": {
+      "start_index": 268,
+      "end_index": 284
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "为了拯救主人而不计个人安危，捐躯沙场，结果成功升入梵天世界的人，其功德也不能同施舍土地相比。",
+    "char_interval": {
+      "start_pos": 1148,
+      "end_pos": 1194
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "捐躯沙场者"
+      ],
+      "action": "比较功德",
+      "key_point": "英勇牺牲的功德仍不及施舍土地"
+    },
+    "_token_interval": {
+      "start_index": 287,
+      "end_index": 295
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "就像母亲用自己的乳汁养育自己的孩子一样，大地也会用种种美味来养育它的施舍者。",
+    "char_interval": {
+      "start_pos": 1198,
+      "end_pos": 1236
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大地",
+        "施舍者"
+      ],
+      "action": "比喻回报",
+      "key_point": "大地会像母亲一样回报土地施舍者",
+      "supernatural_element": "大地的拟人化回报"
+    },
+    "_token_interval": {
+      "start_index": 298,
+      "end_index": 302
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "对于土地的施舍者来说，死亡、紧迦罗、棍棒、火焰的烧烤、洪水、绳索，所有这些凶恶可怕的东西都不能近身。",
+    "char_interval": {
+      "start_pos": 1241,
+      "end_pos": 1258
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "土地的施舍者"
+      ],
+      "action": "描述保护",
+      "key_point": "施舍土地提供全面保护，免受各种危害"
+    },
+    "_token_interval": {
+      "start_index": 305,
+      "end_index": 310
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "那种心灵宁静而又肯于施舍土地的人，能够以他的行为博得祖先世界的先人和天神世界的神明的欢心。",
+    "char_interval": {
+      "start_pos": 1302,
+      "end_pos": 1347
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "心灵宁静的施舍者",
+        "祖先世界的先人",
+        "天神世界的神明"
+      ],
+      "action": "描述精神回报",
+      "key_point": "施舍土地能取悦祖先和神明",
+      "supernatural_element": "与祖先和神明的精神联系"
+    },
+    "_token_interval": {
+      "start_index": 327,
+      "end_index": 331
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "有的人乐于向羸弱不堪，濒临死亡，或为了生计而疲于奔命的人施以土地，使他们能够生活下去。这样的人所做的功德可与举行大苏摩祭相比。",
+    "char_interval": {
+      "start_pos": 1351,
+      "end_pos": 1414
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "施舍土地者",
+        "羸弱之人"
+      ],
+      "action": "描述特殊布施",
+      "key_point": "向困境中的人施舍土地，其功德等同于重要祭祀"
+    },
+    "_token_interval": {
+      "start_index": 334,
+      "end_index": 344
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "恰如乳汁涨溢的母牛奔向待哺的犊仔一样，土地的施予者也带着满载福祉的土地奔向渴望它的人们。",
+    "char_interval": {
+      "start_pos": 1418,
+      "end_pos": 1462
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "土地的施予者",
+        "渴望土地的人们"
+      ],
+      "action": "比喻布施",
+      "key_point": "施舍土地是自然且充满福祉的行为"
+    },
+    "_token_interval": {
+      "start_index": 347,
+      "end_index": 351
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "有人把土地施予婆罗门，这些土地或者已经耕好，或者撒过了种子，或者布满成熟的庄稼，或者建有供人栖身的房屋。这样的人被称作满足他人愿望者。",
+    "char_interval": {
+      "start_pos": 1466,
+      "end_pos": 1533
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "施舍土地者",
+        "婆罗门"
+      ],
+      "action": "描述布施类型",
+      "key_point": "施舍已开发或有产出的土地给婆罗门，被称为满足他人愿望者",
+      "relationship": "施舍者与婆罗门的布施关系"
+    },
+    "_token_interval": {
+      "start_index": 354,
+      "end_index": 366
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "有人把土地赠与行为端正、家有祭火、戒行纯粹的婆罗门。这样的人将不会落入阎摩王的辖地。",
+    "char_interval": {
+      "start_pos": 1537,
+      "end_pos": 1579
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "施舍土地者",
+        "婆罗门",
+        "阎摩王"
+      ],
+      "action": "描述精神回报",
+      "key_point": "向有德行的婆罗门施舍土地可避免死后受阎摩王审判",
+      "supernatural_element": "死后命运的保障"
+    },
+    "_token_interval": {
+      "start_index": 369,
+      "end_index": 377
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "像月亮由亏到盈，天天增长一样，所施土地带来的功德，也会随着地里作物的成长而增多。",
+    "char_interval": {
+      "start_pos": 1583,
+      "end_pos": 1623
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "施舍土地者"
+      ],
+      "action": "比喻功德增长",
+      "key_point": "施舍土地的功德会像作物生长一样不断增加"
+    },
+    "_token_interval": {
+      "start_index": 380,
+      "end_index": 388
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "通晓古代故事的人都会诵唱土地之歌。食火仙人之子(持斧罗摩)听到这样的颂歌以后，便把土地赠给了迦叶波。",
+    "char_interval": {
+      "start_pos": 1627,
+      "end_pos": 1677
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持斧罗摩",
+        "迦叶波"
+      ],
+      "action": "历史典故",
+      "key_point": "持斧罗摩受土地之歌感召，将土地赠予迦叶波",
+      "supernatural_element": "神话人物持斧罗摩的行动",
+      "relationship": "持斧罗摩向迦叶波施舍土地"
+    },
+    "_token_interval": {
+      "start_index": 391,
+      "end_index": 401
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "歌中唱道：“接受我吧!施舍我吧!施舍我以后你们还会重新得到我!在今生施舍的定会在来世获得回报!”",
+    "char_interval": {
+      "start_pos": 1688,
+      "end_pos": 1736
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "土地（拟人化）"
+      ],
+      "action": "传达信息",
+      "key_point": "土地之歌宣扬施舍与回报的循环，强调来世回报",
+      "supernatural_element": "土地的拟人化宣言"
+    },
+    "_token_interval": {
+      "start_index": 407,
+      "end_index": 419
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "一个归命于大梵的婆罗门如果在祖祭上投献供品时咏唱这首诗歌，他就能达到与梵合一的目的。",
+    "char_interval": {
+      "start_pos": 1747,
+      "end_pos": 1789
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "婆罗门"
+      ],
+      "action": "描述仪式功效",
+      "key_point": "在祖祭时咏唱土地之歌可使婆罗门与梵合一",
+      "supernatural_element": "精神升华的仪式效果"
+    },
+    "_token_interval": {
+      "start_index": 425,
+      "end_index": 429
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "施舍土地可以保护施主，使他在遭受他人恶意诅咒时免受其害。施舍土地具有巨大的赎罪功效，可以为施主的母系和父系各十代人汰除罪愆。",
+    "char_interval": {
+      "start_pos": 1793,
+      "end_pos": 1855
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "施主"
+      ],
+      "action": "描述保护与赎罪",
+      "key_point": "施舍土地提供诅咒防护和广泛的家族赎罪",
+      "supernatural_element": "诅咒防护和跨代赎罪"
+    },
+    "_token_interval": {
+      "start_index": 432,
+      "end_index": 440
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "你应该相信这首歌的赎罪功效。古今一向就有这个说法，即一切众生无不源出于土地。",
+    "char_interval": {
+      "start_pos": 1859,
+      "end_pos": 1897
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "叙述者"
+      ],
+      "action": "强调信仰",
+      "key_point": "强调土地之歌的赎罪功效，并重申众生源于土地的根本信念"
+    },
+    "_token_interval": {
+      "start_index": 443,
+      "end_index": 449
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "每有新国王灌顶即位，都要对他讲明这个道理。明白了这个道理，他就会慷慨舍地，而不会从善者那里掠取土地。",
+    "char_interval": {
+      "start_pos": 1908,
+      "end_pos": 1958
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "新国王"
+      ],
+      "action": "教导与期望",
+      "key_point": "新国王应被教导施舍土地的道理，从而慷慨施地而非掠夺",
+      "relationship": "教导者与新国王的指导关系"
+    },
+    "_token_interval": {
+      "start_index": 455,
+      "end_index": 465
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "一个不可移易的真理是，国王的所有财富实质上都是婆罗门的。",
+    "char_interval": {
+      "start_pos": 1962,
+      "end_pos": 1990
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "国王",
+        "婆罗门"
+      ],
+      "action": "陈述根本原则",
+      "key_point": "国王的财富本质上是属于婆罗门的",
+      "relationship": "国王与婆罗门在财富上的根本关系"
+    },
+    "_token_interval": {
+      "start_index": 468,
+      "end_index": 472
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text discusses the importance of a king following dharma (righteous law) for national prosperity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King (generic)"
+      ],
+      "type": "Philosophical discourse",
+      "action": "Description of ideal kingship"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text describes how kings who follow dharma bring peace and prosperity, while those who don't cause fear and instability.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King (generic)"
+      ],
+      "type": "Contrasting outcomes",
+      "action": "Comparison of righteous vs unrighteous rule"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text praises kings who donate land, particularly to Brahmins learned in the Vedas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King (generic)",
+        "Brahmins"
+      ],
+      "type": "Praise of generosity",
+      "action": "Land donation as highest virtue"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Various deities including Surya (Sun God), Varuna, Vishnu, Brahma, Chandra (Moon God), Agni (Fire God), and Shiva praise land donors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Surya",
+        "Varuna",
+        "Vishnu",
+        "Brahma",
+        "Chandra",
+        "Agni",
+        "Shiva"
+      ],
+      "type": "Divine approval",
+      "action": "Deities praising land donors"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text references an ancient dialogue between Brihaspati and Indra about the highest form of charity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brihaspati",
+        "Indra"
+      ],
+      "type": "Dialogue reference",
+      "relationship": "Teacher-student (Brihaspati is teacher of gods)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra asks Brihaspati what donation leads to heaven and brings lasting happiness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Brihaspati"
+      ],
+      "type": "Question",
+      "action": "Indra seeking wisdom about charity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brihaspati responds that donating gold, cows, or land frees one from sin, but donating land is the highest donation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brihaspati",
+        "Indra"
+      ],
+      "type": "Answer",
+      "action": "Brihaspati explaining supreme charity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brihaspati states that even heroes who die in battle cannot compare to those who donate land.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brihaspati"
+      ],
+      "type": "Comparison",
+      "action": "Elevating land donation above heroic death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text concludes that land donors can save eleven generations of ancestors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Land donors (generic)"
+      ],
+      "type": "Benefit",
+      "action": "Spiritual merit accumulation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text discusses the supreme merit of donating land (bhu-dana) in Hindu tradition.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra"
+      ],
+      "type": "Philosophical discourse",
+      "action": "Exposition on the virtues of land donation",
+      "relationships": "Indra (also called Sakra, Vasava, Purandara, Shatakratu) is addressed as the listener; the speaker is not explicitly named but is likely a sage or divine figure instructing Indra.",
+      "supernatural_elements": "References to heaven (svarga), rivers of honey, ghee, milk, and curds; consequences involving Yama (god of death) and Varuna (god of waters/oaths)."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A king who donates fertile land that fulfills all needs becomes a king of kings and attains heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "A king (generic)"
+      ],
+      "type": "Moral instruction",
+      "action": "Land donation leading to royal and spiritual supremacy",
+      "relationships": "The king's relationship to his subjects and the Brahmin recipients is emphasized through the act of donation.",
+      "supernatural_elements": "Attainment of heaven and divine rewards."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Donating land purifies a person of all sins, including past misdeeds, and surpasses all other forms of charity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "A donor (generic)"
+      ],
+      "type": "Soteriological teaching",
+      "action": "Land donation as ultimate purification",
+      "relationships": "The donor's spiritual relationship with the cosmos and moral order (dharma) is transformed.",
+      "supernatural_elements": "Purification from sin; merit compared to other sacrifices like Agnihotra."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The merit of land donation benefits the donor's maternal and paternal lineages for ten generations, while reclaiming donated land condemns both lineages to hell.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "A donor (generic)"
+      ],
+      "type": "Karmic consequence",
+      "action": "Intergenerational impact of land donation or its revocation",
+      "relationships": "Strengthens or severs the donor's ancestral and familial bonds based on adherence to the donation.",
+      "supernatural_elements": "Blessings or curses extending across generations; involvement of Yama and Varuna in enforcing consequences."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Varuna, commanded by Yama, binds and punishes those who promise land but renege or reclaim it after donation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Varuna",
+        "Yama"
+      ],
+      "type": "Divine punishment",
+      "action": "Enforcement of oath-breaking related to land donation",
+      "relationships": "Varuna acts as an agent of Yama to uphold cosmic justice against oath-breakers.",
+      "supernatural_elements": "Direct divine intervention to punish moral transgressors."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kings have a debt to Brahmins that must be repaid, implying land donation as a key means.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "A king (generic)",
+        "Brahmins"
+      ],
+      "type": "Social and religious duty",
+      "action": "Affirmation of royal obligation to Brahmins",
+      "relationships": "Defines the king's dharma-based relationship with the priestly class as one of debt and repayment.",
+      "supernatural_elements": "Linked to avoiding Yama's realm through fulfilling this duty."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sakra (Indra) heard the words of Angirasa's son (Brihaspati) about the importance of donating land.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Brihaspati"
+      ],
+      "action": "Instruction/Advice",
+      "relationships": [
+        "Teacher-student or advisor-king"
+      ],
+      "supernatural_elements": [
+        "Divine beings discussing religious principles"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra donated the entire earth with all its wealth and treasures to Brihaspati.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Brihaspati"
+      ],
+      "action": "Land donation",
+      "relationships": [
+        "Donor-recipient"
+      ],
+      "supernatural_elements": [
+        "Divine beings transferring ownership of the earth"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text describes the benefits of land donation, including protection of the weak, heavenly rewards, and purification from sins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kings",
+        "Brahmins",
+        "Donors"
+      ],
+      "action": "Religious teaching",
+      "relationships": [
+        "Donor-beneficiary",
+        "King-subject"
+      ],
+      "supernatural_elements": [
+        "Heavenly rewards, divine protection, curses from wronged Brahmins"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Singing praises of land donation during ancestral rites prevents Rakshasas and Asuras from stealing offerings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmins",
+        "Ancestors"
+      ],
+      "action": "Ritual protection",
+      "relationships": [
+        "Priest-ancestor"
+      ],
+      "supernatural_elements": [
+        "Protection from demons during rituals"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Bhishma about the best objects for a king to give as charity and the rewards of charity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Dialogue/Inquiry",
+      "relationships": "Yudhishthira (student) seeks wisdom from Bhishma (teacher)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma recounts that he previously asked the same question to Narada.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Narada"
+      ],
+      "type": "Recollection",
+      "relationships": "Bhishma (student) learned from Narada (teacher)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Narada explains that food is the highest form of charity, praised by gods and sages, as it sustains life and the universe.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narada"
+      ],
+      "type": "Teaching",
+      "supernatural_elements": "Mention of gods and sages"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Narada advises giving food to worthy Brahmins or beggars, even at personal sacrifice, for prosperity in this life and the next.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narada"
+      ],
+      "type": "Moral Instruction",
+      "action": "Charity of food"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Narada emphasizes treating all visitors respectfully, including outcastes, as charity to them is never fruitless.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narada"
+      ],
+      "type": "Ethical Guidance",
+      "action": "Respectful treatment and charity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Narada states that offering food to ancestors, gods, sages, and Brahmins brings great merit and can purify sins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narada"
+      ],
+      "type": "Religious Teaching",
+      "supernatural_elements": "Purification of sins through charity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text discusses the eternal efficacy and benefits of giving food as alms, particularly to Brahmins and Shudras.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Philosophical/Doctrinal Teaching",
+      "action": "Explanation of Dharma (righteous duty) regarding food charity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "It states that giving food to a Brahmin yields eternal merit, while giving to a Shudra yields great fortune, highlighting the difference in results.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Comparative Merit",
+      "action": "Distinguishing outcomes of alms to different varnas (social classes)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "When a Brahmin comes begging for food, one should not question him about his family, origin, deeds, or Vedic learning; no beggar should be interrogated about their background.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Ethical Instruction",
+      "action": "Rule for charitable conduct"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person who gives food attains wish-fulfilling trees and desired objects in this life and the next, a principle stated as unquestionable.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Karmic Result",
+      "action": "Promise of rewards for charity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Just as a farmer hopes for good rain, ancestors hope their descendants will offer them food (through shraddha rituals).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Ancestral Connection",
+      "action": "Analogy linking food charity to ancestral rites"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahmins are described as extraordinary beings in the human world; if one asks for alms at a door and the householder agrees, the giver attains merit whether seeking it or not.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Exaltation of Brahmins",
+      "action": "Elevating Brahmin status in charity context"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahmins are guests of all beings and should receive the best treatment; they go from house to house seeking alms.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Social Role",
+      "action": "Describing Brahmin's role as universal guests"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "If treated hospitably, Brahmins depart, and the giving householder prospers, gaining more than given, and is reborn into great wealth in the next life.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Reciprocal Benefit",
+      "action": "Outcome of hospitable charity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Givers of food attain supreme positions; givers of tasty food go to heaven and receive honor.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Heavenly Reward",
+      "action": "Promised afterlife benefits"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Food is equated with life breath, the foundation of everything; givers gain cattle, treasure, progeny, and boundless happiness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Cosmic Significance",
+      "action": "Philosophical elevation of food"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Giving food is giving life and everything; givers remain vigorous and beautiful.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Life-Giving Act",
+      "action": "Metaphysical equivalence"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "One who offers food ritually to a Brahmin at the door gains happiness and respect from deities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Divine Favor",
+      "action": "Attainment of divine approval"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahmins are described as two-legged fields; sowing seeds (giving charity) in this field yields great fruit of merit.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Agricultural Metaphor",
+      "action": "Analogizing charity to farming"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Giving food is a visible good deed bringing joy to both giver and receiver; other charities' results are often hidden.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Transparency of Merit",
+      "action": "Comparing charity types"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Life, happiness, dharma (righteousness), artha (prosperity), disease, and death all come from food.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Universal Principle",
+      "action": "Encompassing role of food"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In ancient texts, Prajapati (the creator) said food is the elixir of immortality, equated with earth, heaven, space, and the basis of all existence.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Prajapati"
+      ],
+      "type": "Cosmological Teaching",
+      "action": "Quoting primordial wisdom"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Without food, the five bodily elements disintegrate, strength fails, and social/ritual acts like hospitality, marriage, sacrifices, and Vedic study cease.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Social and Ritual Collapse",
+      "action": "Consequences of food absence"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "All beings and things in the universe depend on food; dharma and artha in the three worlds are based on it, so wise people make food charity their duty.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Concluding Exhortation",
+      "action": "Final injunction to charity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The narrator explains the cosmic cycle of food and life: those who give food gain strength, dignity, happiness, and fame.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Philosophical Exposition",
+      "key_concepts": [
+        "Dharma of giving food",
+        "Cosmic cycle of water and life"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The cosmic process is described: Wind God Vayu places water in clouds, Indra makes it rain, Sun draws moisture up, and Vayu blows it back down.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vayu",
+        "Indra",
+        "Surya"
+      ],
+      "type": "Cosmic Description",
+      "relationships": [
+        "Vayu as life-breath lord",
+        "Indra as rain-bringer",
+        "Surya as moisture-drawer"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rain moistens the earth, producing grains which then produce flesh, fat, bones, and reproductive seeds through Agni and Soma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Agni",
+        "Soma"
+      ],
+      "type": "Cosmic Process",
+      "supernatural_elements": [
+        "Divine forces creating life"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ancient tradition states that food, sun, wind, and seed combine to produce all beings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Philosophical Teaching"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma recounts how Narada's teachings prompted him to regularly give food to those who ask.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Narada"
+      ],
+      "type": "Personal Revelation",
+      "relationships": [
+        "Narada as teacher/advisor to Bhishma"
+      ],
+      "action": "Bhishma adopts food-giving practice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma advises the king to give food joyfully and lovingly to qualified Brahmins to attain heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "King (Yudhishthira)"
+      ],
+      "type": "Advice/Instruction",
+      "relationships": [
+        "Bhishma as advisor to King Yudhishthira"
+      ],
+      "action": "Bhishma instructs king on dharma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma describes the heavenly world of food-givers: shining palaces with silver bells, wish-fulfilling trees, lakes, rivers of milk, mountains of food, golden beds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Vision/Description",
+      "supernatural_elements": [
+        "Heavenly realm",
+        "Wish-fulfilling trees",
+        "Rivers of milk"
+      ],
+      "divine_intervention": [
+        "Reward for virtuous action"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma concludes by urging the king to become a food-giver, describing this as the practice of many great-souled people on earth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "King (Yudhishthira)"
+      ],
+      "type": "Exhortation",
+      "action": "Final instruction to practice food-giving"
+    },
+    "_token_interval": null
+  }
+]

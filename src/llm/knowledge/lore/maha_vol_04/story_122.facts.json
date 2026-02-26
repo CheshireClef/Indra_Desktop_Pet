@@ -1,0 +1,868 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya reported to Dhritarashtra that Krishna spoke to Arjuna about the battlefield situation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Krishna",
+        "Arjuna",
+        "Dhritarashtra"
+      ],
+      "action": "Report and conversation",
+      "relationships": "Sanjaya narrates to Dhritarashtra; Krishna advises Arjuna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas and their allies regrouped around King Yudhishthira and returned to battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Shikhandin",
+        "Panchalas",
+        "Srinjayas",
+        "Pandavas"
+      ],
+      "action": "Regrouping and re-engagement",
+      "relationships": "Yudhishthira leads Pandavas; allies include Panchalas and Srinjayas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna stopped the fleeing Kaurava warriors and prepared for battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Kauravas"
+      ],
+      "action": "Rallying troops",
+      "relationships": "Karna leads Kaurava forces"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama approached the battlefield, and Shikhandin engaged him in combat.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Shikhandin"
+      ],
+      "action": "Duel initiation",
+      "relationships": "Ashwatthama (Drona's son) vs. Shikhandin (enemy of Drona)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A fierce battle resumed between the Kaurava and Srinjaya armies, led by Karna and the Pandavas respectively.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Yudhishthira",
+        "Pandavas",
+        "Kauravas",
+        "Srinjayas"
+      ],
+      "action": "Large-scale battle",
+      "relationships": "Karna vs. Pandavas; allies on both sides"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandin, with support from other kings and the Pandavas, launched a concentrated attack against Karna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Karna",
+        "Pandavas",
+        "Allied kings"
+      ],
+      "action": "Coordinated assault",
+      "relationships": "Shikhandin leads attack; Pandavas support"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna single-handedly defended against the attacking warriors, overwhelming them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Shikhandin",
+        "Allied warriors"
+      ],
+      "action": "Defensive combat",
+      "relationships": "Karna vs. multiple opponents"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandin angrily shot an arrow at Karna, shouting challenges.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Karna"
+      ],
+      "action": "Arrow attack and verbal challenge",
+      "relationships": "Direct confrontation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna retaliated by breaking Shikhandin's bow and arrows with his bow 'Vijaya', then shot nine arrows that pierced Shikhandin's armor.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Shikhandin"
+      ],
+      "action": "Counterattack with divine weapon",
+      "supernatural_elements": "Bow named 'Vijaya' (Victory)",
+      "relationships": "Karna gains upper hand"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandin took a new bow and shot seventy arrows at Karna, who responded with many sharp arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin",
+        "Karna"
+      ],
+      "action": "Exchange of arrows",
+      "relationships": "Intensified duel"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna fired a golden arrow like Yama's staff at Shikhandin, but Satyaki swiftly shattered it into seven pieces.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Shikhandin",
+        "Satyaki"
+      ],
+      "action": "Divine arrow interception",
+      "supernatural_elements": "Arrow compared to Yama's staff; Satyaki's swift intervention",
+      "relationships": "Satyaki protects Shikhandin"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna shot a barrage of arrows at Satyaki from all directions, covering him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Satyaki"
+      ],
+      "action": "Arrow attack",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki retaliated by shooting multiple gold-tipped arrows at Karna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Karna"
+      ],
+      "action": "Arrow attack",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama charged at Satyaki, who was defeating enemies and diminishing their glory.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Satyaki"
+      ],
+      "action": "Charge",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama angrily confronted Dhrishtadyumna, calling him a Brahmin-killer and threatening to kill him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Dhrishtadyumna"
+      ],
+      "action": "Confrontation",
+      "type": "Conflict",
+      "relationships": [
+        "Enemies",
+        "Ashvatthama seeks revenge for his father Drona's death by Dhrishtadyumna"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama released numerous sharp arrows covering Satyaki, who also released terrible arrows while fighting fiercely.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Satyaki"
+      ],
+      "action": "Arrow exchange",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama and Satyaki became displeased upon seeing each other in battle, considering each other mortal enemies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Satyaki"
+      ],
+      "action": "Mutual hostility",
+      "type": "Conflict",
+      "relationships": [
+        "Mortal enemies"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama, enraged upon seeing Dhrishtadyumna before him, charged at Satyaki with deep breaths, both becoming furious upon meeting.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Dhrishtadyumna",
+        "Satyaki"
+      ],
+      "action": "Charge and rage",
+      "type": "Conflict"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama threatened Dhrishtadyumna, saying he would send him to Yama today for his crime of killing Drona, and warned that without Arjuna's protection or if he didn't flee, he would be doomed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Dhrishtadyumna"
+      ],
+      "action": "Threat and warning",
+      "type": "Conflict",
+      "relationships": [
+        "Ashvatthama accuses Dhrishtadyumna of Brahminicide (killing Drona)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhrishtadyumna responded that his sword would answer Ashvatthama's words, as it had answered his father Drona before, and declared he could kill Ashvatthama in battle just as he killed the falsely named Brahmin Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "Ashvatthama"
+      ],
+      "action": "Defiant response",
+      "type": "Conflict",
+      "relationships": [
+        "Dhrishtadyumna boasts of killing Drona and threatens Ashvatthama"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhrishtadyumna shot a sharp arrow at Ashvatthama.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "Ashvatthama"
+      ],
+      "action": "Arrow attack",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama, enraged, shot numerous crescent-headed arrows covering Dhrishtadyumna from all directions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Dhrishtadyumna"
+      ],
+      "action": "Arrow barrage",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki covered the shining Ashvatthama with a shower of arrows in front of Karna during the battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Ashvatthama",
+        "Karna"
+      ],
+      "action": "Arrow covering",
+      "type": "Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna alone intercepted the Panchalas fighting alongside the Pandavas, Draupadi's five sons, Yudhamanyu, and the great warrior Satyaki.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Panchalas",
+        "Pandavas",
+        "Draupadi's five sons",
+        "Yudhamanyu",
+        "Satyaki"
+      ],
+      "action": "Interception",
+      "type": "Combat",
+      "relationships": [
+        "Karna fights against multiple allies of the Pandavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona's son (Ashwatthama) had his bow broken by Shikhandin in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Shikhandin"
+      ],
+      "action": "Bow broken in combat",
+      "relationship": "Opponents in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama quickly replaced his bow and destroyed Shikhandin's weapons, chariot, horses, and charioteer with his arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Shikhandin"
+      ],
+      "action": "Destruction of equipment and chariot",
+      "supernatural_elements": "Ashwatthama's exceptional archery skills"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shikhandin, now without chariot and bow, took up a large sword and shield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shikhandin"
+      ],
+      "action": "Switching to close combat weapons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama swiftly shot crescent-headed arrows that broke Shikhandin's sword and shield before he could dismount.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Shikhandin"
+      ],
+      "action": "Destruction of remaining weapons",
+      "supernatural_elements": "Extreme speed and precision"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Despite being severely wounded and disarmed, Shikhandin could not be killed by Ashwatthama.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Shikhandin"
+      ],
+      "action": "Failed killing attempt",
+      "relationship": "Ashwatthama's frustration at inability to kill Shikhandin"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama abandoned his bow and rushed at Shikhandin to attack him physically.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Shikhandin"
+      ],
+      "action": "Close combat assault",
+      "supernatural_elements": "Compared to Garuda swooping on a snake"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna (Madhava/Vasudeva) urged Arjuna to rescue Shikhandin, who was in mortal danger from Ashwatthama.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna",
+        "Ashwatthama",
+        "Shikhandin"
+      ],
+      "action": "Urging intervention",
+      "relationship": "Krishna advising Arjuna, concern for Shikhandin"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna drove the chariot toward Ashwatthama's position.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna"
+      ],
+      "action": "Chariot movement toward battle",
+      "supernatural_elements": "Horses described as drinking the sky"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing Krishna and Arjuna approaching, Ashwatthama intensified his attack on Shikhandin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Shikhandin",
+        "Krishna",
+        "Arjuna"
+      ],
+      "action": "Increased assault",
+      "relationship": "Ashwatthama's determination before reinforcements arrive"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna shot numerous arrows from the Gandiva bow at Ashwatthama to protect Shikhandin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Ashwatthama"
+      ],
+      "action": "Archery attack",
+      "supernatural_elements": "Arrows compared to snakes entering an anthill"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama, wounded by Arjuna's arrows, returned fire with his own bow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Arjuna"
+      ],
+      "action": "Archery exchange",
+      "relationship": "Direct combat between the two warriors"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula rescued Shikhandin from the battlefield on his chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Shikhandin"
+      ],
+      "action": "Rescue and retreat",
+      "relationship": "Brotherly protection (both are Pandavas/supporters)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna shot more arrows at Ashwatthama, who angrily targeted Arjuna's arms and chest in return.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Ashwatthama"
+      ],
+      "action": "Intense archery duel",
+      "relationship": "Escalating conflict between the warriors"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna fired an iron arrow at Ashwatthama that struck his shoulder, causing him to become dizzy and weak.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Ashwatthama"
+      ],
+      "action": "Critical hit with special arrow",
+      "supernatural_elements": "Arrow compared to Yama or Yama's rod"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳拨动着'取胜'神弓的弓弦，愤怒地望着正在作战的阿周那，渴望与他进行一场一对一的决战。",
+    "char_interval": {
+      "start_pos": 2996,
+      "end_pos": 3002
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "阿周那"
+      ],
+      "action": "战前挑衅与对峙",
+      "relationship": "敌对关系，迦尔纳渴望与阿周那单挑",
+      "supernatural_elements": [
+        "'取胜'神弓"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 796,
+      "end_index": 797
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "车夫看到英雄马嘶被击倒，便在战斗中驾车载着他飞速驶离战场。",
+    "char_interval": {
+      "start_pos": 3053,
+      "end_pos": 3088
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "车夫",
+        "马嘶"
+      ],
+      "action": "撤退/救援",
+      "relationship": "车夫救援马嘶",
+      "plot_point": "马嘶战败被救离战场"
+    },
+    "_token_interval": {
+      "start_index": 809,
+      "end_index": 813
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "看到水滴王之孙获救，德罗纳之子受苦，般遮罗人全都得胜似地欢呼起来。",
+    "char_interval": {
+      "start_pos": 3099,
+      "end_pos": 3132
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "水滴王之孙（具体身份需上下文确认）",
+        "德罗纳之子（马嘶）",
+        "般遮罗人"
+      ],
+      "action": "战场反应与欢呼",
+      "relationship": "般遮罗人为马嘶受苦而欢呼",
+      "note": "水滴王之孙身份需根据上下文进一步确认"
+    },
+    "_token_interval": {
+      "start_index": 820,
+      "end_index": 826
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "目睹如此恐怖而又伟大的奇迹，般度族军中成千上万的乐器奏响美妙的音乐，将士们发出狮子吼。",
+    "char_interval": {
+      "start_pos": 3136,
+      "end_pos": 3179
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "般度族军队"
+      ],
+      "action": "庆祝胜利",
+      "plot_point": "般度族军队士气高涨",
+      "supernatural_elements": [
+        "恐怖而又伟大的奇迹（具体内容需上下文确认）"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 829,
+      "end_index": 835
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "立下战功之后，阿周那对黑天说：'向着敢死队前进！黑天啊！这是我下一步的使命。'",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "黑天"
+      ],
+      "action": "下达作战指令",
+      "relationship": "阿周那（战士）向黑天（御者）发出命令",
+      "plot_point": "阿周那决定继续进攻敢死队"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "听罢阿周那说的话，黑天便赶着旗帜飘扬、速度如风似思想的战车继续前进。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天"
+      ],
+      "action": "执行命令，驾车前进",
+      "supernatural_elements": [
+        "速度如风似思想的战车"
+      ],
+      "plot_point": "战斗继续推进"
+    },
+    "_token_interval": null
+  }
+]

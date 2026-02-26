@@ -1,0 +1,971 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Janamejaya was born in the Kuru dynasty.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Janamejaya"
+      ],
+      "type": "Birth/Introduction",
+      "relationships": "Descendant of the Kuru dynasty"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Janamejaya, a skilled archer like his ancestors, hunted extensively in the forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Janamejaya"
+      ],
+      "action": "Hunting",
+      "description": "He hunted deer, boars, wolves, buffaloes, and other animals"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Janamejaya pursued a deer he had shot, which disappeared, leading him deep into the forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Janamejaya"
+      ],
+      "action": "Pursuit",
+      "supernatural_element": "The deer's disappearance was interpreted as a sign of his eventual ascension to heaven"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Exhausted and thirsty, King Janamejaya encountered a sage (Jaratkaru) in the forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Janamejaya",
+        "Sage Jaratkaru"
+      ],
+      "location": "Forest",
+      "description": "Sage Jaratkaru was sitting in a cow pen, licking foam from calves' mouths while observing a vow of silence"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Janamejaya asked Sage Jaratkaru if he had seen the deer, but the sage remained silent due to his vow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Janamejaya",
+        "Sage Jaratkaru"
+      ],
+      "action": "Questioning",
+      "conflict": "King's frustration vs. sage's vow of silence"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Angered by the silence, King Janamejaya hung a dead snake on Sage Jaratkaru's shoulder with his bow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Janamejaya",
+        "Sage Jaratkaru"
+      ],
+      "action": "Insult/Disrespect",
+      "relationship_change": "King's impulsive act creates tension"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Jaratkaru silently watched King Janamejaya without reacting.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Jaratkaru"
+      ],
+      "action": "Observation",
+      "description": "Maintained composure despite provocation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Janamejaya, now fearful, left the sage and returned to his capital.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Janamejaya"
+      ],
+      "action": "Departure",
+      "emotional_state": "Fear/Regret"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "独角 (Ekashringa) served Lord Brahma faithfully and then returned home after receiving his command.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "独角 (Ekashringa)",
+        "Brahma"
+      ],
+      "action": "Service and return",
+      "relationships": "独角 served Brahma, then returned to his father's home"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦哩沙 (Karsha) teased 独角 about his father carrying a dead snake on his shoulder, mocking 独角's pride and power.",
+    "char_interval": {
+      "start_pos": 1530,
+      "end_pos": 1533
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦哩沙 (Karsha)",
+        "独角 (Ekashringa)"
+      ],
+      "action": "Mockery/teasing",
+      "relationships": "Friends/peers (仙人之子 - sages' sons), but tension arises from the teasing"
+    },
+    "_token_interval": {
+      "start_index": 444,
+      "end_index": 445
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "独角 became furious upon hearing about his father carrying a dead snake and asked 迦哩沙 for details.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "独角 (Ekashringa)",
+        "迦哩沙 (Karsha)"
+      ],
+      "action": "Inquiry in anger",
+      "relationships": "Friendship strained by 独角's rage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦哩沙 explained that King Janamejaya (继绝王) hung a dead snake on 独角's father's shoulder because the father, observing a vow of silence, did not answer the king's questions about a deer.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦哩沙 (Karsha)",
+        "King Janamejaya",
+        "独角's father (unnamed sage)"
+      ],
+      "action": "Explanation of the incident",
+      "relationships": "King Janamejaya disrespected 独角's father; 独角's father is a sage observing strict vows"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "独角, enraged, cursed King Janamejaya for dishonoring his elderly father by placing a dead snake on his shoulder.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "独角 (Ekashringa)",
+        "King Janamejaya"
+      ],
+      "action": "Curse",
+      "relationships": "独角 curses the king for insulting his father; supernatural element: curse from 独角's ascetic power",
+      "supernatural_elements": "Curse invoked through 独角's tapas (ascetic power) and touching holy water"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "独角诅咒国王继绝王，预言多刹迦将在第七天夜里杀死他并带到阎摩的家中。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "独角",
+        "国王继绝王",
+        "多刹迦",
+        "阎摩"
+      ],
+      "action": "诅咒/预言",
+      "supernatural_elements": "诅咒生效、预言死亡"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "独角来到父亲沙弥迦身边，看见父亲肩头挂着死蛇尸体，重新激起愤怒。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "独角",
+        "沙弥迦"
+      ],
+      "relationship": "父子",
+      "emotional_state": "愤怒、难过"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "独角告诉父亲自己已经诅咒了国王继绝王，并重复了诅咒内容。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "独角",
+        "沙弥迦",
+        "国王继绝王"
+      ],
+      "action": "告知诅咒",
+      "reason": "国王继绝王亵渎了沙弥迦"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "沙弥迦批评独角的行为不符合苦行者的正法，认为不应该诅咒保护他们的国王。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "沙弥迦",
+        "独角",
+        "国王继绝王"
+      ],
+      "action": "批评/教诲",
+      "moral_lesson": "国王保护人民，应被宽恕；诅咒国王会损害正法"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "沙弥迦解释国王继绝王当时又饿又累，不知道沙弥迦遵守的戒律，才犯下错误。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "沙弥迦",
+        "国王继绝王"
+      ],
+      "action": "为国王辩护",
+      "reason": "国王无知且状态不佳"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "独角坚持自己的诅咒不会落空，因为他的言语具有力量且从不虚言。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "独角"
+      ],
+      "action": "坚持诅咒",
+      "supernatural_elements": "言语神通、诅咒必然实现"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "沙弥迦承认独角有厉害的神通，诅咒不会落空，但强调儿子应接受父亲的教诲。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "沙弥迦",
+        "独角"
+      ],
+      "action": "承认神通但坚持教诲",
+      "relationship": "父子教诲关系"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "沙弥迦仙人因儿子年轻鲁莽、怒气过盛而训导他，教导他应保持平和、消除愤怒、胸怀恕道，以修成正法。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "沙弥迦仙人",
+        "沙弥迦仙人的儿子"
+      ],
+      "type": "训导/教导",
+      "relationships": "父子关系",
+      "supernatural_elements": "提及正法、功果、大梵天诸世界等修行概念"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "沙弥迦仙人宽恕了国王的过失，并决定派人向国王传达其儿子的诅咒，以警示国王。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "沙弥迦仙人",
+        "国王（继绝王）"
+      ],
+      "type": "宽恕与警示",
+      "relationships": "仙人与国王",
+      "action": "派遣徒弟传话"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "沙弥迦仙人派遣徒弟白净脸前往国王宫殿，向国王报告其儿子发出的诅咒。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "沙弥迦仙人",
+        "白净脸",
+        "国王（继绝王）"
+      ],
+      "type": "传信",
+      "relationships": "师徒关系（沙弥迦仙人与白净脸）",
+      "action": "白净脸作为信使传达诅咒"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "白净脸向国王报告：沙弥迦仙人的儿子因国王用死蛇挂在仙人肩上而诅咒国王，预言多刹迦将在第七天夜里致国王于死命。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "白净脸",
+        "国王（继绝王）",
+        "沙弥迦仙人",
+        "沙弥迦仙人的儿子",
+        "多刹迦"
+      ],
+      "type": "诅咒预言",
+      "relationships": "国王曾冒犯沙弥迦仙人",
+      "supernatural_elements": "诅咒、预言死亡、蛇神多刹迦作为执行者"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "国王听后痛苦万分，并非因恐惧死亡，而是因对自己冒犯仙人的罪过感到悔恨和忧愁。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "国王（继绝王）"
+      ],
+      "type": "内心冲突/悔恨",
+      "action": "国王因罪过而煎熬",
+      "relationships": "国王自责冒犯仙人"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Parikshit (referred to as 'the king' in context) sent away the white-faced one (possibly a messenger or advisor) and asked for forgiveness from Sage Shamika.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Parikshit",
+        "Sage Shamika"
+      ],
+      "action": "Request for forgiveness",
+      "relationship": "King seeking forgiveness from sage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Parikshit, feeling anxious, consulted with his ministers and decided to build a heavily guarded single-pillared palace with doctors, medicines, and Brahmin priests for protection.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Parikshit",
+        "Ministers"
+      ],
+      "action": "Construction of fortified palace",
+      "reason": "Protection from predicted danger"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "On the seventh day, Sage Kashyapa (referred to as 'the most learned of the twice-born') set out to treat King Parikshit, having heard that Takshaka would kill the king that day.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Kashyapa",
+        "King Parikshit",
+        "Takshaka"
+      ],
+      "action": "Journey to treat the king",
+      "motivation": "To heal the king and gain rewards"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Takshaka, the serpent king, transformed into an elderly Brahmin and intercepted Sage Kashyapa on the road.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Takshaka",
+        "Sage Kashyapa"
+      ],
+      "action": "Transformation and interception",
+      "supernatural_element": "Shape-shifting ability"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Takshaka revealed his identity to Sage Kashyapa and challenged his healing abilities by biting a banyan tree and setting it ablaze with his venom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Takshaka",
+        "Sage Kashyapa"
+      ],
+      "action": "Challenge and demonstration of venom power",
+      "supernatural_element": "Venom that causes combustion"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Kashyapa accepted the challenge and promised to revive the tree after Takshaka's bite.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Kashyapa",
+        "Takshaka"
+      ],
+      "action": "Acceptance of challenge",
+      "relationship": "Conflict between healer and poisoner"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "蛇王多刹迦的神光焚毁了那棵树，将其化为灰烬。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "蛇王多刹迦"
+      ],
+      "action": "焚毁树木",
+      "supernatural_elements": [
+        "神光"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦叶波运用法术救活了化为灰烬的榕树，使其重新生长为繁茂大树。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦叶波"
+      ],
+      "action": "救活树木",
+      "supernatural_elements": [
+        "法术"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "多刹迦目睹迦叶波救活树木后，承认其神奇，并询问迦叶波前往国王处的目的。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "多刹迦",
+        "迦叶波"
+      ],
+      "dialogue_topic": "询问目的",
+      "relationships": [
+        "多刹迦对迦叶波的能力表示认可"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "多刹迦指出国王（继绝王）已受诅咒，生命将尽，警告迦叶波可能失败并丧失名誉。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "多刹迦",
+        "继绝王"
+      ],
+      "warning": "国王生命将尽，迦叶波可能失败",
+      "supernatural_elements": [
+        "诅咒"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦叶波表明目的是求取钱财，多刹迦承诺给予更多钱财，劝其返回。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦叶波",
+        "多刹迦"
+      ],
+      "agreement": "多刹迦提供钱财，迦叶波同意返回",
+      "relationships": [
+        "交易达成"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦叶波沉思后，得知继绝王寿命已尽，接受多刹迦的钱财并返回。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦叶波",
+        "继绝王",
+        "多刹迦"
+      ],
+      "action": "迦叶波放弃救国王，接受钱财离开",
+      "supernatural_elements": [
+        "预知寿命"
+      ],
+      "relationships": [
+        "迦叶波与多刹迦完成交易"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "多刹迦前往以象命名的京城，得知国王有解毒保护，计划使用幻术欺骗国王。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "多刹迦",
+        "继绝王"
+      ],
+      "plan": "使用幻术欺骗国王",
+      "supernatural_elements": [
+        "幻术",
+        "解毒保护"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "多刹迦派遣蛇变成苦行者模样，给国王送去鲜果、吉祥草叶和圣水。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "多刹迦",
+        "继绝王"
+      ],
+      "action": "派遣伪装蛇送物",
+      "supernatural_elements": [
+        "蛇变形"
+      ],
+      "relationships": [
+        "多刹迦实施欺骗计划"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "国王收下物品并让伪装者离开。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "继绝王"
+      ],
+      "action": "接受物品并遣送",
+      "relationships": [
+        "国王未识破欺骗"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "蛇变做的苦行者离去后，国王邀请众大臣品尝他们带来的水果。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "继绝王",
+        "众大臣"
+      ],
+      "action": "分享/邀请",
+      "type": "社交互动"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "国王拿起一枚有虫的水果，发现一条小虫，并故意将其放在自己脖颈上，声称要让仙人的预言成真。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "继绝王",
+        "众大臣"
+      ],
+      "action": "挑衅/自我伤害",
+      "reason": "验证预言，不惧蛇毒"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "小虫瞬间变成大蛇多刹迦，紧紧盘绕住国王，国王失去知觉。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "继绝王",
+        "多刹迦"
+      ],
+      "action": "攻击/杀死",
+      "supernatural_elements": [
+        "变形",
+        "蛇毒",
+        "神光"
+      ],
+      "type": "超自然事件"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "众大臣目睹国王被蛇缠住，惊恐大哭，随后独柱殿被蛇毒引发的烈火包围并倒塌，大臣们四散逃离。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "众大臣",
+        "多刹迦"
+      ],
+      "action": "逃亡/毁灭",
+      "supernatural_elements": [
+        "蛇毒烈火",
+        "宫殿倒塌"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "国王死后，国师和众大臣为他举行葬礼，并立其幼子为君，称镇群王。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "国师",
+        "众大臣",
+        "镇群王"
+      ],
+      "action": "葬礼/继位",
+      "relationships": [
+        "父子: 继绝王与镇群王",
+        "君臣: 镇群王与大臣们"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "镇群王在大臣辅佐下治国，大臣们为他向迦湿国国王金铠求婚，娶公主至美为妻。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "镇群王",
+        "众大臣",
+        "金铠",
+        "至美"
+      ],
+      "action": "求婚/联姻",
+      "relationships": [
+        "夫妻: 镇群王与至美",
+        "父女: 金铠与至美",
+        "君臣: 镇群王与大臣们"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "镇群王与至美婚后幸福，偕妻漫游湖泊、田野和丛林。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "镇群王",
+        "至美"
+      ],
+      "action": "漫游/享乐",
+      "type": "日常生活"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "镇群王如同往昔的洪呼王得到广延天女一样欢度时光。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "镇群王",
+        "洪呼王",
+        "广延天女"
+      ],
+      "action": "欢度时光",
+      "type": "Comparison/Parallel"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "绝色女郎至美得到了一位如意郎君，一位容貌出众的大地保护者。",
+    "char_interval": {
+      "start_pos": 6938,
+      "end_pos": 6962
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "至美",
+        "大地保护者"
+      ],
+      "action": "婚姻/结合",
+      "type": "Romance/Union"
+    },
+    "_token_interval": {
+      "start_index": 1913,
+      "end_index": 1917
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "这位妩媚妖娆的女子，这位后宫粉黛中的丽人，与丈夫一起欢度良辰，十分快活。",
+    "char_interval": {
+      "start_pos": 6962,
+      "end_pos": 6993
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "至美",
+        "大地保护者"
+      ],
+      "action": "欢度良辰",
+      "type": "Marital Bliss"
+    },
+    "_token_interval": {
+      "start_index": 1917,
+      "end_index": 1923
+    }
+  }
+]

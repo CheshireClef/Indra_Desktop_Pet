@@ -1,0 +1,1101 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra asks Sanjaya what the survivors did after the Pandavas destroyed their army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Sanjaya"
+      ],
+      "type": "Inquiry",
+      "relationships": "King and charioteer/narrator"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya describes that the wives of the Kshatriyas fled, the camp was empty, and three charioteers (Kritavarma, Kripa, and Ashwatthama) were distressed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Kritavarma",
+        "Kripa",
+        "Ashwatthama"
+      ],
+      "action": "Fleeing and distress",
+      "relationships": "Survivors of the Kaurava army"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana fled the battlefield with his mace, entered a pond, and used mystical power to solidify the water to hide.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Escape and hiding",
+      "supernatural_elements": "Used mystical power to solidify water"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira and his brothers searched for Duryodhana to kill him but failed to find him and returned to camp.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Pandavas"
+      ],
+      "action": "Search and return",
+      "relationships": "Pandava brothers seeking final victory"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kritavarma, Kripa, and Ashwatthama secretly went to the pond where Duryodhana was hiding.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kritavarma",
+        "Kripa",
+        "Ashwatthama",
+        "Duryodhana"
+      ],
+      "action": "Secret approach",
+      "relationships": "Kaurava allies trying to rescue their king"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The three urged Duryodhana to rise and fight Yudhishthira together, promising victory or death in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kritavarma",
+        "Kripa",
+        "Ashwatthama",
+        "Duryodhana"
+      ],
+      "action": "Urging to fight",
+      "relationships": "Loyal warriors encouraging their king"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana expressed relief at their survival but suggested resting due to exhaustion and injuries, planning to fight the next day.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Decision to delay battle",
+      "reason": "Fatigue and strategic caution"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama vowed to destroy all Somakas and Panchalas by morning, swearing by his merits, charity, meditation, and truth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama"
+      ],
+      "action": "Oath/swearing",
+      "supernatural_elements": "Vow invoking spiritual merits",
+      "relationships": "Son of Drona, determined to avenge the Kaurava defeat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A group of hunters arrived, tired from carrying heavy prey, seeking water to drink.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hunters"
+      ],
+      "action": "Arrival at location"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The hunters overheard the secret conversation between Duryodhana and his commanders while hiding.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hunters",
+        "Duryodhana",
+        "Duryodhana's commanders"
+      ],
+      "action": "Eavesdropping",
+      "key_information": "Duryodhana unwilling to fight while his commanders want to battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The hunters saw the great Kuru charioteers and realized Duryodhana was hiding underwater in a pond.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hunters",
+        "Duryodhana"
+      ],
+      "action": "Observation/discovery",
+      "location": "Pond"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The hunters remembered that the Pandava sons had previously asked them about Duryodhana's whereabouts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hunters",
+        "Pandava sons"
+      ],
+      "action": "Recollection",
+      "relationship": "Previous interaction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The hunters discussed reporting Duryodhana's location to the Pandavas for rewards.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hunters"
+      ],
+      "action": "Planning",
+      "motivation": "Seek rewards from Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The hunters went to Yudhishthira's camp with their heavy prey.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hunters",
+        "Yudhishthira"
+      ],
+      "action": "Travel to camp",
+      "destination": "Yudhishthira's camp"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas were searching for Duryodhana but couldn't find him, sending out spies who reported no success.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava sons",
+        "Yudhishthira",
+        "Spies"
+      ],
+      "action": "Search and intelligence gathering",
+      "result": "Unsuccessful"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira became deeply worried upon hearing the spies' reports.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Emotional reaction",
+      "state": "Worried/sighing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The hunters arrived at the Pandava camp and told Bhima everything they had heard and seen.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hunters",
+        "Bhima"
+      ],
+      "action": "Information delivery",
+      "key_message": "Duryodhana hiding underwater in pond"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima rewarded the hunters generously and reported the information to Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Hunters",
+        "Yudhishthira"
+      ],
+      "action": "Reward and reporting",
+      "relationship": "Bhima as intermediary"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira and his brothers were overjoyed upon hearing the news about Duryodhana's location.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Pandava brothers"
+      ],
+      "action": "Emotional reaction",
+      "state": "Joyful/ecstatic"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandava army, led by Krishna, quickly marched to the pond where Duryodhana was hiding.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava army",
+        "Krishna",
+        "Panchalas"
+      ],
+      "action": "Military movement",
+      "destination": "Pond",
+      "leadership": "Krishna at the front"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas and Panchalas shouted joyfully as they approached.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Panchalas"
+      ],
+      "action": "Celebration",
+      "mood": "Happy/victorious"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Kshatriyas (warriors) let out lion roars and shouts, then swiftly advanced toward the Dvaita Lake.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kshatriyas (warriors)"
+      ],
+      "action": "Advancing toward Dvaita Lake",
+      "location": "Dvaita Lake"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Somakas rejoiced and repeatedly shouted, 'The sinful son of Dhritarashtra has been found!'",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Somakas",
+        "Duryodhana (son of Dhritarashtra)"
+      ],
+      "action": "Celebration and identification",
+      "target": "Duryodhana"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Their chariots made a great noise reaching the heavens as they pursued Duryodhana, following King Yudhishthira with tired horses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Duryodhana"
+      ],
+      "action": "Pursuit",
+      "pursuer": "Yudhishthira and army",
+      "pursued": "Duryodhana"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna, Bhima, Nakula, Sahadeva, Shikhandin, Uttamaujas, Yudhamanyu, Satyaki, Draupadi's five sons, remaining Panchalas, and hundreds of foot soldiers arrived at Dvaita Lake with Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Bhima",
+        "Nakula",
+        "Sahadeva",
+        "Shikhandin",
+        "Uttamaujas",
+        "Yudhamanyu",
+        "Satyaki",
+        "Draupadi's five sons",
+        "Panchalas",
+        "Yudhishthira"
+      ],
+      "action": "Arrival at Dvaita Lake",
+      "location": "Dvaita Lake",
+      "relationship": "Pandava allies united against Duryodhana"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana used magical power to solidify the water of the cool, clear lake and hid underwater.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Hiding using magic",
+      "method": "Solidifying water with magical power",
+      "supernatural_element": "Magical power to solidify water"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana heard the noise of the approaching army like thunder from clouds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Hearing approaching army",
+      "description": "Noise like thunder"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira and his brothers arrived at the lake to kill Duryodhana, with dust clouds and loud conch shells and chariot wheels shaking the earth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Duryodhana"
+      ],
+      "action": "Arrival for battle",
+      "intent": "To kill Duryodhana",
+      "description": "Dust clouds and loud noises shaking earth"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama, Kripa, and Kritavarma heard Yudhishthira's army approaching and asked Duryodhana for permission to leave.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Kripa",
+        "Kritavarma",
+        "Duryodhana",
+        "Yudhishthira"
+      ],
+      "action": "Request to leave",
+      "reason": "Yudhishthira's army approaching",
+      "relationship": "Duryodhana's allies seeking to retreat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana granted them permission to leave while he continued solidifying the water with his magical power.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Ashvatthama",
+        "Kripa",
+        "Kritavarma"
+      ],
+      "action": "Permission granted to leave",
+      "condition": "Duryodhana remains hiding"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama, Kripa, and Kritavarma left and rested under a large banyan tree, worrying about Duryodhana's fate against the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Kripa",
+        "Kritavarma",
+        "Duryodhana",
+        "Pandavas"
+      ],
+      "action": "Resting and worrying",
+      "location": "Under banyan tree",
+      "concern": "Duryodhana's fate against Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After the three charioteers left, the Pandavas arrived at the lake and saw Duryodhana solidified in the water.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Duryodhana"
+      ],
+      "action": "Discovery",
+      "location": "Dvaita Lake",
+      "discovery": "Duryodhana hiding in solidified water"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira spoke to Krishna about Duryodhana hiding in the lake using magical illusions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Krishna",
+        "Duryodhana"
+      ],
+      "action": "Dialogue about Duryodhana's hiding",
+      "relationships": "Yudhishthira (Pandava) seeks Krishna's advice against Duryodhana (Kaurava)",
+      "supernatural_elements": "Magical illusions (maya) used by Duryodhana"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna advised Yudhishthira to use magical means to counter Duryodhana's illusions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira"
+      ],
+      "action": "Strategic advice",
+      "relationships": "Krishna (advisor/divine figure) guides Yudhishthira (warrior king)",
+      "supernatural_elements": "Reference to using maya (illusion) against maya"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna cited examples of gods using methods and means to defeat demons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Indra",
+        "Vishnu",
+        "Rama"
+      ],
+      "action": "Historical/mythological references",
+      "relationships": "Krishna references divine victories as precedents",
+      "supernatural_elements": "Mentions of Indra killing Vritra, Vishnu binding Bali, Rama killing Ravana, Krishna killing demons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira addressed Duryodhana hiding in the water, taunting him to come out and fight.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Duryodhana"
+      ],
+      "action": "Challenge/taunt",
+      "relationships": "Yudhishthira (opponent) confronts Duryodhana (hidden enemy)",
+      "supernatural_elements": "Duryodhana using magical power to solidify water"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira questioned Duryodhana's honor and Kshatriya dharma for hiding instead of fighting.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Duryodhana"
+      ],
+      "action": "Moral challenge",
+      "relationships": "Yudhishthira appeals to warrior code against Duryodhana",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A speaker (implied to be Yudhishthira) criticizes Duryodhana for fleeing battle and hiding in a pond while his relatives and army are destroyed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Duryodhana"
+      ],
+      "action": "Accusation of cowardice",
+      "relationships": [
+        "Cousins",
+        "Rivals"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira mocks Duryodhana for boasting about being a warrior but fleeing, and challenges him to fight.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Duryodhana"
+      ],
+      "action": "Challenge to battle",
+      "relationships": [
+        "Cousins",
+        "Rivals"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira accuses Duryodhana of relying on Karna and Shakuni for false security and urges him to fight according to Kshatriya dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Duryodhana",
+        "Karna",
+        "Shakuni"
+      ],
+      "action": "Moral exhortation",
+      "relationships": [
+        "Duryodhana allied with Karna and Shakuni against Yudhishthira"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana responds that he is not hiding out of fear but due to exhaustion, having lost his chariot, weapons, and army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Yudhishthira"
+      ],
+      "action": "Defense of actions",
+      "relationships": [
+        "Cousins",
+        "Rivals"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana states he will rest and then fight Yudhishthira and his followers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Yudhishthira"
+      ],
+      "action": "Declaration of intent to fight",
+      "relationships": [
+        "Cousins",
+        "Rivals"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira insists they have rested and demands Duryodhana come out to fight immediately.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Duryodhana"
+      ],
+      "action": "Ultimatum",
+      "relationships": [
+        "Cousins",
+        "Rivals"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana laments that he fought for the Kuru kingdom but now his brothers are dead and the kingdom is like a widow, yet he still desires to defeat Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Yudhishthira"
+      ],
+      "action": "Expression of grief and determination",
+      "relationships": [
+        "Cousins",
+        "Rivals"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana expresses despair and offers the entire earth to Yudhishthira, stating he no longer desires to rule after losing his allies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Yudhishthira"
+      ],
+      "action": "Offer of surrender/abdication",
+      "context": "Duryodhana has lost key allies (Drona, Karna, Bhishma) and feels defeated."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana declares his intention to retire to the forest as an ascetic, wearing animal skins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Declaration of renunciation",
+      "reason": "Loss of friends, family, and kingdom; no interest in ruling alone."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira rejects Duryodhana's offer, calling his words meaningless and comparing them to bird calls.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Duryodhana"
+      ],
+      "action": "Rejection of offer",
+      "reason": "Yudhishthira finds the offer insincere and unmoving."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira states he cannot accept the earth as charity from Duryodhana, as it is against dharma for a Kshatriya to accept alms.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Duryodhana"
+      ],
+      "action": "Refusal based on dharma",
+      "principle": "Kshatriya code forbids accepting charity; must win through battle."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira vows to defeat Duryodhana in battle and then enjoy the earth, rather than accept it as a gift.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Duryodhana"
+      ],
+      "action": "Declaration of intent to fight",
+      "goal": "Win the earth through rightful combat."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira questions Duryodhana's authority to give away the earth now, when he previously refused to give even a needle-point of land.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Duryodhana"
+      ],
+      "action": "Challenge to legitimacy",
+      "accusation": "Duryodhana is no longer the true ruler and his offer is hollow."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira reminds Duryodhana that he rejected Krishna's peace proposal earlier and now offers the earth only because he is defeated.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Duryodhana",
+        "Krishna"
+      ],
+      "action": "Recollection of past events",
+      "context": "Reference to Krishna's failed peace mission before the war."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira gives Duryodhana an ultimatum: either defeat the Pandavas and rule the earth, or be killed by them and attain heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Duryodhana"
+      ],
+      "action": "Ultimatum",
+      "options": "Fight to win or die in battle; no surrender accepted."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asserts that the outcome of their conflict is still undecided in the eyes of all beings, as both are alive.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Duryodhana"
+      ],
+      "action": "Assertion of ongoing struggle",
+      "perspective": "Victory is not yet determined; battle must continue."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira claims control over Duryodhana's life, stating he can spare him if he wishes, but Duryodhana cannot decide his own fate.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Duryodhana"
+      ],
+      "action": "Claim of power over life and death",
+      "dynamic": "Yudhishthira positions himself as the arbiter of Duryodhana's survival."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya reports that in the past, King Dhritarashtra (referred to as \"King\" in the text) tried to kill the Pandavas by burning, poisoning, drowning, and using deceit to take their kingdom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra",
+        "The Pandavas"
+      ],
+      "action": "Attempted murder and usurpation",
+      "relationships": "Hostile; King Dhritarashtra (father figure/uncle) attempts to kill his nephews, the Pandavas, to secure the kingdom for his son Duryodhana."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker (implied to be a Pandava, likely Yudhishthira or Bhima, based on the context of the Kurukshetra War) tells King Dhritarashtra that because of these past actions, he must pay with his life and that fighting is his best course.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira (or Bhima)",
+        "King Dhritarashtra"
+      ],
+      "action": "Accusation and call to battle",
+      "relationships": "Adversarial; the Pandava holds King Dhritarashtra responsible for the war and his own suffering."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya concludes his narration to King Dhritarashtra, stating that the victory-seeking heroes (the Pandavas) repeatedly stimulated Duryodhana with various provocations.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "King Dhritarashtra",
+        "The Pandavas",
+        "Duryodhana"
+      ],
+      "action": "Narration and psychological warfare",
+      "relationships": "Sanjaya is the narrator reporting to King Dhritarashtra; the Pandavas are provoking Duryodhana to fight."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "This passage is identified as the conclusion of Chapter 30 of the Shalya Parva in the Mahabharata.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Textual reference",
+      "relationships": "N/A"
+    },
+    "_token_interval": null
+  }
+]

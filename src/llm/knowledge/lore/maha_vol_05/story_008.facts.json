@@ -1,0 +1,458 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "护民子 narrates the conversation between 阿周那 and his elder brother 坚战.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "护民子",
+        "阿周那",
+        "坚战"
+      ],
+      "type": "Narration/Dialogue",
+      "relationships": [
+        "护民子 is the narrator",
+        "阿周那 is the younger brother of 坚战",
+        "坚战 is the elder brother of 阿周那"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那 persuades 坚战 about the importance of 刑杖 (Danda, meaning punishment or rod of justice) in ruling.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "坚战"
+      ],
+      "action": "Persuasion/Advice",
+      "key_points": [
+        "刑杖 protects all beings and upholds Dharma, Artha, and Kama",
+        "刑杖 maintains order and prevents crime through fear",
+        "Different varnas have different forms of 刑杖: Brahmins use speech, Kshatriyas protect people, Vedas use charity, Shudras have none"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那 argues that without fear of 刑杖, people would not perform sacrifices, give charity, or keep contracts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那"
+      ],
+      "argument": "Fear is necessary for societal functions and duties."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那 cites that even gods like 因陀罗 (Indra) achieved their status through killing (e.g., 因陀罗 killing 弗栗多).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "因陀罗",
+        "弗栗多"
+      ],
+      "example": "Divine precedent for killing in pursuit of goals.",
+      "supernatural_elements": [
+        "Mention of gods 因陀罗, 楼陀罗, 塞建陀, 火神, 伐楼拿, 阎摩, 时神, 风神, 死神, 财神, 太阳神, 众婆薮, 众摩录多, 众沙提耶, 众毗奢, 梵天, 陀罗, 众普善"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那 explains the natural order where beings survive by consuming others, citing examples like weasels eating mice, cats eating weasels, etc.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那"
+      ],
+      "philosophical_point": "All life depends on killing; it is a law established by the gods.",
+      "relationships": [
+        "Implies a hierarchical food chain where stronger beings prey on weaker ones."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那 concludes by urging 坚战 to rule according to his nature as a Kshatriya, implying the need to use force or punishment.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "坚战"
+      ],
+      "advice": "坚战 should embrace his role and use 刑杖 to rule effectively.",
+      "change_in_relationship": [
+        "阿周那 is advising 坚战 on kingship, highlighting their roles as Kshatriya brothers."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text describes a philosophical debate about the necessity of punishment (danda) in maintaining social order and dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna (referred to as 'Kunti's son')"
+      ],
+      "type": "Philosophical Discourse",
+      "action": "Argument for the necessity of punishment/danda to protect society, maintain duties, and prevent chaos."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker argues against ascetics who abandon anger and joy to live in the forest, claiming they cannot sustain life without killing.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "type": "Counter-argument",
+      "action": "Critiques forest-dwelling ascetics by pointing out the inevitability of killing microscopic life forms to survive."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker asserts that all beings are controlled by punishment (danda), which was established by Brahma to protect dharma and the social order.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Brahma"
+      ],
+      "type": "Divine Justification",
+      "action": "Attributes the origin and necessity of punishment/danda to the creator god Brahma for protecting society, dharma, and preventing chaos."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker concludes by advising Krishna to enjoy the kingdom, perform sacrifices, live with his wife, and follow dharma, as their possession of the kingdom is justified.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "type": "Exhortation",
+      "action": "Advises Krishna to stop grieving, enjoy rulership, perform rituals, and uphold dharma, justifying their rule through the principle of danda."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna speaks about the nature of actions, the soul, and death, citing teachings from the Mahabharata's Shanti Parva.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "type": "Philosophical discourse",
+      "key_points": [
+        "No action is purely good or evil",
+        "Killing in battle is justified as retaliation",
+        "The soul is eternal and cannot be killed",
+        "Death is the soul moving to a new body"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima, after hearing Arjuna, addresses his elder brother Yudhishthira with frustration and concern.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Yudhishthira"
+      ],
+      "action": "Addressing/Confronting",
+      "relationship": "Brothers (Bhima is the second Pandava, Yudhishthira is the eldest)",
+      "emotion": "Bhima is described as brave, firm, and fierce, but also pained and struggling to remain silent"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima criticizes Yudhishthira's indecisiveness and melancholy, which he believes is causing the Pandavas to become dispirited and weak.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Yudhishthira"
+      ],
+      "action": "Criticism/Admonishment",
+      "reason": "Yudhishthira's hesitation and sorrow after the Kurukshetra war",
+      "effect": "The Pandavas are losing their resolve"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima explains the interdependence of physical and mental diseases, using the concepts of bodily humors (cold, heat, wind) and mental qualities (goodness, passion, darkness).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "type": "Analogical argument",
+      "purpose": "To persuade Yudhishthira to overcome his grief and assume kingship",
+      "key_concepts": [
+        "Physical and mental health are linked",
+        "Imbalances require corrective measures",
+        "People oscillate between remembering past pain in happiness and past happiness in pain"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima observes that Yudhishthira does not feel pain in suffering or happiness in joy, nor does he recall past opposites, suggesting his melancholy might be innate or due to the power of fate.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Yudhishthira"
+      ],
+      "observation": "Yudhishthira's emotional detachment and persistent sorrow",
+      "possible_causes": [
+        "Innate nature",
+        "The influence of destiny"
+      ],
+      "relationship_dynamic": "Bhima is trying to diagnose and remedy Yudhishthira's state to rally him to action"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi came to the assembly hall during her menstrual period, wearing a single cloth, in the presence of the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "Pandavas"
+      ],
+      "type": "Humiliation",
+      "relationship": "Draupadi is the wife of the Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas left the city wearing animal skins and went into exile in the great forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas"
+      ],
+      "type": "Exile",
+      "relationship": "The Pandavas are brothers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi was kicked by Kichaka during their period of living in concealment.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "Kichaka"
+      ],
+      "type": "Assault",
+      "relationship": "Kichaka was a commander of the Matsya kingdom"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker (likely Krishna) tells Arjuna that just as he fought Drona and Bhishma in battle, he is now fighting his own thoughts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Drona",
+        "Bhishma",
+        "Krishna"
+      ],
+      "type": "Philosophical guidance",
+      "relationship": "Krishna is Arjuna's charioteer and guide; Drona and Bhishma were respected elders and warriors"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker urges Arjuna to fight this internal battle alone, without weapons, friends, or relatives.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "type": "Spiritual struggle",
+      "relationship": "Arjuna is being addressed as a warrior facing inner conflict"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker tells Arjuna that if he doesn't win this battle and abandons life, he will enter another body and continue fighting.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "type": "Karmic consequence",
+      "supernatural_elements": [
+        "Reincarnation"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker advises Arjuna to use wisdom, understand the origins and destinations of all beings, follow ancestral traditions, and rightfully rule the kingdom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "type": "Royal duty",
+      "relationship": "Arjuna is being addressed as a king"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker celebrates that the evil Duryodhana and his followers were killed in battle, and that Draupadi has tied up her hair again (ending her vow of leaving it untied until her humiliation was avenged).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Draupadi"
+      ],
+      "type": "Victory and restoration",
+      "relationship": "Duryodhana was the main antagonist; Draupadi's hair-tying symbolizes the end of her period of vengeance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker urges Arjuna to prepare gifts and perform the Ashvamedha (horse sacrifice) according to rules, declaring that they are all his servants, along with the heroic Vasudeva (Krishna).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna"
+      ],
+      "type": "Ritual duty",
+      "relationship": "Krishna is referred to as Vasudeva; the speaker and others declare themselves as Arjuna's servants"
+    },
+    "_token_interval": null
+  }
+]

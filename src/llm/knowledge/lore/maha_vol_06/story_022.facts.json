@@ -1,0 +1,994 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Bhishma about divine teachings on rituals for gods and ancestors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Question",
+      "relationship": "Grandson asking grandfather for wisdom"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma explains the proper timing for rituals: morning for gods, afternoon for ancestors, and noon for giving alms.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Instruction",
+      "action": "Teaching ritual timing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma warns that improperly given offerings will be consumed by Rakshasas instead of gods or ancestors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Warning",
+      "supernatural_elements": [
+        "Rakshasas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma lists various conditions that cause offerings to go to Rakshasas: contamination, improper handling, lack of mantras, etc.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Instruction",
+      "action": "Listing prohibitions"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma describes which Brahmins should not be invited to rituals: outcasts, diseased, entertainers, warriors, those serving Shudras, etc.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Instruction",
+      "action": "Specifying eligible participants"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text provides detailed criteria for which Brahmins should NOT be invited to ancestral rites (Shraddha ceremonies).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator (likely addressing a descendant of Bharata)"
+      ],
+      "action": "Instruction/Prohibition",
+      "type": "Religious Law"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahmins who teach for money, learn to receive stipends, or trade Vedic knowledge should not be invited.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator"
+      ],
+      "action": "Specification of disqualifying professions",
+      "target_group": "Mercenary Brahmins"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahmins who accept donations at the beginning of ancestral rites, marry lower castes, or fail to maintain their sacred fires should not be invited.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator"
+      ],
+      "action": "Specification of disqualifying behaviors",
+      "target_group": "Impure or negligent Brahmins"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahmins with unclear ancestry, low birth, who are moneylenders, profit from usury, sell animals, are henpecked, live as paramours, or fail daily prayers should not be invited.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator"
+      ],
+      "action": "Further specification of disqualifications",
+      "target_group": "Various morally/ritually deficient Brahmins"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The narrator shifts to describe which Brahmins SHOULD be invited to rituals and are worthy of giving/receiving donations.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator"
+      ],
+      "action": "Instruction/Qualification",
+      "type": "Religious Law"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahmins who observe vows, have many virtues, know the Savitri hymn, work diligently (even as farmers), are of noble birth (even if formerly warriors), make regular fire offerings, live quietly in villages, are not thieves, are hospitable, chant Savitri three times daily, beg righteously, perform daily rites, experience sudden wealth/poverty changes, are non-violent, or have minor faults SHOULD be invited.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator"
+      ],
+      "action": "Specification of qualifying characteristics",
+      "target_group": "Virtuous or acceptable Brahmins"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahmins without evil conduct, who are clear-minded but avoid philosophical speculation, or who beg from house to house SHOULD be invited.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator"
+      ],
+      "action": "Final specification of qualifying characteristics",
+      "target_group": "Simple or devout Brahmins"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A Brahmin who violates rules, deceives, steals, trades animals, or engages in commerce can still be invited to rituals if they later drink soma at a sacrifice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin"
+      ],
+      "action": "Ritual eligibility despite past misconduct",
+      "type": "Religious law"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A Brahmin who accumulates wealth through hard farming and uses it for hospitality can be invited to rituals.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin"
+      ],
+      "action": "Ritual eligibility through virtuous wealth use",
+      "type": "Religious law"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Wealth obtained by selling Vedic knowledge or through women's hands is tainted and cannot be used for sacrifices to gods or ancestors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin"
+      ],
+      "action": "Prohibition on using ill-gotten wealth for rituals",
+      "type": "Religious law"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A Brahmin who refuses to say 'Yajat' at the end of a Pitriyajna (ancestor worship) violates dharma, equivalent to perjury about a cow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin"
+      ],
+      "action": "Dharma violation in ritual speech",
+      "type": "Religious law"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pitriyajna should be held on the new moon day with proper preparations and Brahmin priests.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin priests"
+      ],
+      "action": "Ritual preparation and timing",
+      "type": "Religious practice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Different closing phrases are prescribed for Pitriyajna based on varna: 'Svadha' for Brahmins, 'May the ancestors be pleased' for Kshatriyas, 'May all be eternal' for Vaishyas, and 'Prosperity' for Shudras.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmins",
+        "Kshatriyas",
+        "Vaishyas",
+        "Shudras"
+      ],
+      "action": "Varna-specific ritual phrases",
+      "type": "Religious practice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Different ritual syllables and phrases are prescribed for Pitriyajna based on varna, including the use of 'Om' for Brahmins but not for Kshatriyas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmins",
+        "Kshatriyas",
+        "Vaishyas"
+      ],
+      "action": "Varna-specific ritual syllables",
+      "type": "Religious practice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Explanation of life rituals (samskaras) for the three varnas, including sacred thread materials: Munja grass for Brahmins, Murva for Kshatriyas, and Balvaja for Vaishyas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmins",
+        "Kshatriyas",
+        "Vaishyas"
+      ],
+      "action": "Life rituals and sacred thread materials",
+      "type": "Religious law"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Different penalties for lying based on varna: Brahmin's offense is baseline, Kshatriya's is four times worse, Vaishya's is eight times worse.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmins",
+        "Kshatriyas",
+        "Vaishyas"
+      ],
+      "action": "Varna-specific penalties for lying",
+      "type": "Legal/ethical law"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A Brahmin who accepts an invitation to eat from another Brahmin cannot eat elsewhere afterward, or they commit an offense equivalent to killing.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin"
+      ],
+      "action": "Prohibition on changing eating arrangements",
+      "type": "Social/religious rule"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma explains the consequences of accepting invitations from lower castes for Brahmins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Teaching/Explanation",
+      "details": "If a Brahmin accepts an invitation from a Kshatriya (warrior) or Vaishya (merchant), it lowers his status and is considered half the sin of killing."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma describes sins related to ritual impurity during ceremonies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Teaching/Explanation",
+      "details": "A Brahmin who eats at ceremonies for gods or ancestors without bathing first commits a sin equivalent to false testimony about cows. A Brahmin who knowingly eats while impure due to greed commits the same sin."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma explains the sin of abandoning one meal for another out of greed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Teaching/Explanation",
+      "details": "Abandoning one meal for another due to greed for material wealth is considered deception."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma describes the sin of feeding unworthy Brahmins during recitations.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Teaching/Explanation",
+      "details": "If someone from the three higher castes recites sacred verses while giving food to Brahmins who don't study Vedas, don't observe vows, or behave improperly, it violates dharma and equals false testimony about cows."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks about who deserves offerings for best results.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Question",
+      "details": "Yudhishthira asks Bhishma what kind of people should receive offerings meant for gods or ancestors to obtain the best results."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma describes ideal recipients for offerings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Teaching/Explanation",
+      "details": "Bhishma lists various types of deserving Brahmins: those whose wives wait for their leftovers like farmers wait for rain, those who restrain themselves and live in poverty, those focused on basic needs, those suffering from thieves or disturbances, those who beg from fellow beggars, those who lost everything in disasters, those who follow strict vows and Vedas, those surrounded by heresy without resources, and those unjustly deprived by power."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma explains to Yudhishthira the karmic consequences of various actions according to sacred texts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Yudhishthira"
+      ],
+      "type": "Moral Teaching",
+      "relationship": "Grandfather (Bhishma) advising grandson (Yudhishthira)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma describes actions that lead to superior rewards (good karma), specifically giving alms to ascetics and beggars regardless of what is offered.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Explaining meritorious deeds",
+      "supernatural_element": "Karmic consequences"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma transitions to explaining actions that lead to heaven or hell.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Transition in teaching"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma lists numerous sins that lead to hell: lying (except to protect a teacher or frightened person), adultery, theft, destruction of property, revealing secrets, destroying public infrastructure, deceiving vulnerable women, destroying livelihoods, slander, ingratitude, heresy, breaking contracts, losing caste status, causing servants to lose jobs, selfishness with food, neglecting rituals, profaning the Vedas, violating life stages, improper occupations, selling certain items, interfering with Brahmins/cows/girls, selling weapons, obstructing roads, and unjustly expelling loyal people.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Cataloguing sins",
+      "supernatural_element": "Divine judgment and afterlife consequences"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Those who use young oxen without training, pierce their noses for control, or keep livestock constantly tethered will go to hell.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified individuals"
+      ],
+      "action": "Condemnation to hell",
+      "reason": "Cruelty to animals"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kings who fail to protect their people but impose heavy taxes (one-sixth tax) to amass unjust wealth, and those who are wealthy but refuse to give alms, will go to hell.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified kings",
+        "Unspecified wealthy individuals"
+      ],
+      "action": "Condemnation to hell",
+      "reason": "Exploitation and greed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Those who dismiss helpful, patient, self-controlled, wise, or long-time associates after achieving their goals will go to hell.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified individuals"
+      ],
+      "action": "Condemnation to hell",
+      "reason": "Ingratitude and betrayal"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Those who eat alone without sharing with children, elders, or servants present will go to hell.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified individuals"
+      ],
+      "action": "Condemnation to hell",
+      "reason": "Selfishness and lack of compassion"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Anyone who disrupts a Brahmin during worship will face the loss of offspring and livestock.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified individuals",
+        "Unspecified Brahmins"
+      ],
+      "action": "Divine punishment",
+      "consequence": "Loss of progeny and cattle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Those who follow dharma, practice generosity, austerity, and truthfulness will enter heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified individuals"
+      ],
+      "action": "Reward with heaven",
+      "reason": "Righteous conduct"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Those who obey teachers, practice austerity to gain sacred knowledge, and are free from expectation will enter heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified individuals"
+      ],
+      "action": "Reward with heaven",
+      "reason": "Devotion and selflessness"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Those who help others overcome fear, sin, poverty, difficulty, or disease will enter heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified individuals"
+      ],
+      "action": "Reward with heaven",
+      "reason": "Compassionate aid"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Those who are patient, wise, act according to dharma, and pray to deities for happiness will enter heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified individuals"
+      ],
+      "action": "Reward with heaven",
+      "reason": "Virtuous living and devotion"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Those who abstain from honey, meat, others' wives, and intoxicating drinks will enter heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified individuals"
+      ],
+      "action": "Reward with heaven",
+      "reason": "Abstinence from impurities"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Those who establish hermitages for ascetics, found lineages, villages, or towns will enter heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified individuals"
+      ],
+      "action": "Reward with heaven",
+      "reason": "Social and spiritual contributions"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Those who donate clothing, ornaments, food, drink, or help establish and support households will enter heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified individuals"
+      ],
+      "action": "Reward with heaven",
+      "reason": "Generosity and support"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Those who harm no being, are tolerant, and serve as a refuge for all creatures will enter heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified individuals"
+      ],
+      "action": "Reward with heaven",
+      "reason": "Non-violence and universal compassion"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Those who honor parents, befriend siblings, and control their senses will enter heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified individuals"
+      ],
+      "action": "Reward with heaven",
+      "reason": "Family devotion and self-discipline"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Those who are wealthy, young, strong, and intelligent yet successfully control their senses will enter heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified individuals"
+      ],
+      "action": "Reward with heaven",
+      "reason": "Self-restraint despite advantages"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Those who are courteous, loving to friends, gentle even with sinners, and humble in serving others' welfare will enter heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified individuals"
+      ],
+      "action": "Reward with heaven",
+      "reason": "Kindness and humility"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Those who feed thousands, give alms to thousands, or protect thousands will enter heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified individuals"
+      ],
+      "action": "Reward with heaven",
+      "reason": "Large-scale benevolence"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Bhishma why someone who hasn't killed a Brahmin might still be considered guilty of killing a Brahmin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Question",
+      "relationships": [
+        "Bhishma is advising Yudhishthira"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma recounts that he previously asked Vyasa the same question.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Vyasa"
+      ],
+      "type": "Recollection",
+      "relationships": [
+        "Bhishma sought wisdom from Vyasa"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma describes Vyasa's lineage as the great-grandson of Sage Vasistha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Vasistha"
+      ],
+      "type": "Lineage",
+      "relationships": [
+        "Vyasa is descended from Vasistha"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa explains that inviting a poor Brahmin to one's home for charity but then saying 'I have nothing!' is equivalent to killing a Brahmin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa"
+      ],
+      "type": "Explanation",
+      "action": "Moral teaching"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa states that cutting off the livelihood of a learned, detached Brahmin is considered killing a Brahmin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa"
+      ],
+      "type": "Explanation",
+      "action": "Moral teaching"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa says obstructing thirsty cows from reaching water is considered killing a Brahmin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa"
+      ],
+      "type": "Explanation",
+      "action": "Moral teaching"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa explains that criticizing sacred texts without understanding them is considered killing a Brahmin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa"
+      ],
+      "type": "Explanation",
+      "action": "Moral teaching"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa states that refusing to marry a grown, beautiful daughter to a suitable, talented young man is considered killing a Brahmin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa"
+      ],
+      "type": "Explanation",
+      "action": "Moral teaching"
+    },
+    "_token_interval": null
+  }
+]

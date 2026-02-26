@@ -1,0 +1,1349 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Shalya of Madra sees his army in disarray and orders his charioteer to drive faster toward King Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Shalya",
+        "Charioteer",
+        "King Yudhishthira"
+      ],
+      "type": "Battle Command",
+      "action": "King Shalya directs his charioteer to advance toward King Yudhishthira's position."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Shalya alone blocks the advancing Pandava army like a shore holding back the sea.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Shalya",
+        "Pandava Army"
+      ],
+      "type": "Battle Action",
+      "action": "King Shalya single-handedly confronts the Pandava forces."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kaurava soldiers regain courage and re-enter the battle after seeing King Shalya's advance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kaurava Army",
+        "King Shalya"
+      ],
+      "type": "Morale Boost",
+      "action": "Kaurava troops are inspired by King Shalya's bravery and return to fight."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula and Shalya engage in an intense archery duel.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Shalya"
+      ],
+      "type": "Combat",
+      "action": "Nakula and Shalya exchange arrow fire, with neither gaining clear advantage initially."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya breaks Nakula's bow with an arrow and then shoots three arrows into Nakula's forehead.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Nakula"
+      ],
+      "type": "Combat",
+      "action": "Shalya disables Nakula's bow and wounds him with arrows to the forehead."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya kills Nakula's horses, charioteer, and destroys his flag with arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Nakula"
+      ],
+      "type": "Combat",
+      "action": "Shalya systematically destroys Nakula's chariot and support."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula jumps from his destroyed chariot with sword and shield, blocks incoming arrows, and leaps onto Shalya's chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Shalya"
+      ],
+      "type": "Heroic Action",
+      "action": "Nakula demonstrates exceptional combat skills by defending himself and boarding Shalya's chariot."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula beheads Shalya on his own chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Shalya"
+      ],
+      "type": "Climax",
+      "action": "Nakula kills Shalya by cutting off his head, ending their duel.",
+      "outcome": "Death of Shalya"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Warriors cheer and roar like lions upon seeing Shalya's death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Witnessing Warriors"
+      ],
+      "type": "Reaction",
+      "action": "Soldiers celebrate Nakula's victory over Shalya."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna's sons Sushena and Satyasena, seeing their brother Shalya dead, attack the enemy with arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sushena",
+        "Satyasena",
+        "Pandava Army"
+      ],
+      "type": "Revenge",
+      "action": "Sushena and Satyasena seek vengeance for Shalya's death by launching an assault.",
+      "relationships": "Shalya is identified as brother to Sushena and Satyasena (sons of Karna)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sushena and Satyasena charge toward Nakula like tigers attacking an elephant.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sushena",
+        "Satyasena",
+        "Nakula"
+      ],
+      "type": "Continuing Conflict",
+      "action": "Karna's sons target Nakula, setting up the next phase of battle."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula and Sahadeva attacked Karna with dense arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Sahadeva",
+        "Karna"
+      ],
+      "action": "Archery attack",
+      "description": "The two brothers shot dense arrows at the great charioteer Karna."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna, though covered in arrows, was pleased and mounted another chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Changing chariot",
+      "description": "Arjuna mounted another chariot and took up a strong bow."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula and Sahadeva destroyed Arjuna's second chariot with arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Sahadeva",
+        "Arjuna"
+      ],
+      "action": "Destroying chariot",
+      "description": "The two brothers destroyed Arjuna's chariot with straight arrows."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula killed Satyajit's four horses with four sharp arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Satyajit"
+      ],
+      "action": "Killing horses",
+      "description": "Nakula killed Satyajit's four horses with sharp arrows."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula broke Satyajit's bow with a sharp golden-feathered arrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Satyajit"
+      ],
+      "action": "Breaking bow",
+      "description": "Nakula broke Satyajit's bow with a sharp arrow."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyajit mounted another chariot and attacked Nakula with Sushena.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyajit",
+        "Sushena",
+        "Nakula"
+      ],
+      "action": "Counterattack",
+      "description": "Satyajit mounted another chariot and attacked Nakula with Sushena."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula shot two arrows each at Satyajit and Sushena.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Satyajit",
+        "Sushena"
+      ],
+      "action": "Archery attack",
+      "description": "Nakula shot two arrows at each of the two brothers."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sushena broke Nakula's bow with a razor-tipped arrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sushena",
+        "Nakula"
+      ],
+      "action": "Breaking bow",
+      "description": "Sushena broke Nakula's bow with a razor-tipped arrow."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula shot five arrows at Sushena and knocked down his banner.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Sushena"
+      ],
+      "action": "Archery attack",
+      "description": "Nakula shot five arrows at Sushena and knocked down his banner."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula broke Satyajit's bow and leather armor.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Satyajit"
+      ],
+      "action": "Breaking equipment",
+      "description": "Nakula broke Satyajit's bow and leather armor."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyajit took a new bow and surrounded Nakula with arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyajit",
+        "Nakula"
+      ],
+      "action": "Archery attack",
+      "description": "Satyajit surrounded Nakula with arrows from all sides."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula blocked the arrows and shot two arrows each at Satyajit and Sushena.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Satyajit",
+        "Sushena"
+      ],
+      "action": "Counterattack",
+      "description": "Nakula blocked incoming arrows and shot two arrows at each opponent."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyajit and Sushena attacked Nakula and hit his charioteer.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyajit",
+        "Sushena",
+        "Nakula"
+      ],
+      "action": "Archery attack",
+      "description": "The two brothers attacked Nakula and hit his charioteer with arrows."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyajit broke Nakula's bow and chariot pole with arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyajit",
+        "Nakula"
+      ],
+      "action": "Destroying equipment",
+      "description": "Satyajit broke Nakula's bow and chariot pole with arrows."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula threw a golden flagpole at Satyajit, piercing his heart and killing him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Satyajit"
+      ],
+      "action": "Killing with flagpole",
+      "description": "Nakula threw a golden flagpole that pierced Satyajit's heart, killing him."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sushena, enraged by his brother's death, showered Nakula with arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sushena",
+        "Nakula"
+      ],
+      "action": "Archery attack",
+      "description": "Sushena attacked Nakula with a shower of arrows."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sutasoma came to rescue Nakula, who mounted his chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sutasoma",
+        "Nakula"
+      ],
+      "action": "Rescue",
+      "description": "Sutasoma rescued Nakula, who mounted his chariot."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula and Sushena engaged in fierce archery combat.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Sushena"
+      ],
+      "action": "Archery duel",
+      "description": "The two warriors exchanged showers of arrows, trying to kill each other."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sushena shot three arrows at Nakula and twenty at Sutasoma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sushena",
+        "Nakula",
+        "Sutasoma"
+      ],
+      "action": "Archery attack",
+      "description": "Sushena shot arrows at both Nakula and Sutasoma."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula surrounded Sushena with arrows and shot a crescent-tipped arrow at him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 20,
+    "group_index": 19,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Sushena"
+      ],
+      "action": "Final attack",
+      "description": "Nakula surrounded Sushena with arrows and shot a crescent-tipped arrow at him."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula killed Susena, the son of Karna, with a swift arrow that severed his head in front of the entire army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Susena"
+      ],
+      "action": "Killing",
+      "supernatural_elements": "Miraculous event witnessed by soldiers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After Susena's death, the army of Dhritarashtra's sons panicked and began to flee in terror.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Army of Dhritarashtra's sons"
+      ],
+      "action": "Panic and retreat",
+      "reason": "Death of Susena and Nakula's display of power"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya, the king of Madra and heroic commander, emerged to protect his army, stopped their retreat with a lion's roar, and rallied them with his bow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Army of Dhritarashtra's sons"
+      ],
+      "action": "Rallying troops",
+      "relationships": "Shalya as commander protecting his army"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The army regrouped around Shalya, regaining courage and preparing to fight again.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Army of Dhritarashtra's sons",
+        "Shalya"
+      ],
+      "action": "Regrouping and preparing for battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki, Bhima, and the sons of Madri (Nakula and Sahadeva) gathered around Yudhishthira, who led them as they surrounded Shalya and the entire army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Bhima",
+        "Nakula",
+        "Sahadeva",
+        "Yudhishthira",
+        "Shalya",
+        "Army of Dhritarashtra's sons"
+      ],
+      "action": "Formation and encirclement",
+      "relationships": "Pandava forces united under Yudhishthira's leadership"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The battle resumed fiercely, with warriors fighting to the death, increasing the population of Yama's kingdom, while fear grew among the cowardly on both sides.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava army",
+        "Army of Dhritarashtra's sons"
+      ],
+      "action": "Intense battle",
+      "supernatural_elements": "Comparison to war between gods and demons, reference to Yama's kingdom"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna, with the monkey banner, attacked the Kaurava army after defeating a suicide squad, while the remaining Pandava forces under Dhrishtadyumna charged and showered arrows on the enemy.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Dhrishtadyumna",
+        "Pandava army",
+        "Kaurava army"
+      ],
+      "action": "Coordinated attack",
+      "relationships": "Arjuna and Dhrishtadyumna leading Pandava forces"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Kaurava army became confused and disoriented under the Pandavas' assault, losing their best warriors and scattering in disarray as the Pandavas slaughtered them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kaurava army",
+        "Pandava army"
+      ],
+      "action": "Rout and slaughter",
+      "reason": "Overwhelming attack by Pandava forces"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Both armies suffered heavy casualties, with hundreds falling to the arrows of Dhritarashtra's sons in the Pandava army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava army",
+        "Sons of Dhritarashtra"
+      ],
+      "action": "Mutual heavy losses"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The battle continued with intense fighting likened to two rivers meeting in the rainy season, spreading great terror through both armies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava army",
+        "Army of Dhritarashtra's sons"
+      ],
+      "action": "Continued fierce battle",
+      "supernatural_elements": "Simile of converging rivers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A terrible battle begins between the Pandavas and the Kauravas, causing joy among the warlike and fear among the timid.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Kauravas"
+      ],
+      "action": "Battle commencement",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas, protected by Yudhishthira, fight bravely against the Kaurava army, which panics like deer facing a forest fire.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Pandavas",
+        "Kauravas"
+      ],
+      "action": "Combat",
+      "relationships": "Yudhishthira leads the Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya, seeing his Kaurava forces weakened, rushes to rescue them and attacks the Pandava army with great anger.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Kauravas",
+        "Pandavas"
+      ],
+      "action": "Counterattack",
+      "relationships": "Shalya fights for the Kauravas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya showers arrows on Yudhishthira, Bhima, Draupadi's sons, Nakula, Sahadeva, Shikhandin, Satyaki, and others, causing heavy casualties.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Yudhishthira",
+        "Bhima",
+        "Sons of Draupadi",
+        "Nakula",
+        "Sahadeva",
+        "Shikhandin",
+        "Satayaki"
+      ],
+      "action": "Arrow assault",
+      "supernatural_elements": "Compared to Indra pouring rain"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Various ominous signs appear: earth quakes with mountains, meteors fall from the sky, and animals gather on the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Supernatural omens",
+      "supernatural_elements": "Earthquakes, falling meteors, animal gatherings"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After regrouping, the Kauravas launch another fierce attack, with Shalya covering the enemy with arrows like Yama, the god of death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kauravas",
+        "Shalya",
+        "Pandavas"
+      ],
+      "action": "Renewed assault",
+      "supernatural_elements": "Shalya compared to Yama"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Kaurava army suffered heavy casualties from Shalya's attacks, and they fled towards Yudhishthira, the son of Kunti.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Yudhishthira"
+      ],
+      "action": "Attack and retreat",
+      "relationships": [
+        "Enemies"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya, moving swiftly, struck them with sharp arrows and tormented Yudhishthira with a downpour of arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Yudhishthira"
+      ],
+      "action": "Arrow attack",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing Shalya advancing with numerous infantry and cavalry, King Yudhishthira became furious and intercepted them with arrows, like restraining a mad elephant with a hook.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Shalya"
+      ],
+      "action": "Counter-attack",
+      "relationships": [
+        "Enemies"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya shot a terrifying, snake-like arrow that struck Yudhishthira and then fell to the ground.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Yudhishthira"
+      ],
+      "action": "Arrow strike",
+      "supernatural_elements": "Snake-like arrow"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima became enraged and shot seven arrows at Shalya; Nakula shot five arrows, and Sahadeva shot ten arrows at him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Nakula",
+        "Sahadeva",
+        "Shalya"
+      ],
+      "action": "Arrow attacks",
+      "relationships": [
+        "Brothers (Bhima, Nakula, Sahadeva)",
+        "Enemies (with Shalya)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The five sons of Draupadi shot a dense volley of arrows at Shalya, like a cloud pouring rain on a mountain.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sons of Draupadi",
+        "Shalya"
+      ],
+      "action": "Arrow volley",
+      "relationships": [
+        "Enemies"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing Shalya surrounded by the sons of Pritha, Shalya's allies including Ashvatthama, Kripa, and others rushed to his aid.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Kripa",
+        "Shalya",
+        "Sons of Pritha (Pandavas)"
+      ],
+      "action": "Reinforcement",
+      "relationships": [
+        "Allies (Ashvatthama, Kripa, Shalya)",
+        "Enemies (with Pandavas)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kripa, enraged, showered arrows at Dhrishtadyumna, while Shakuni attacked Draupadi's sons, and Ashvatthama targeted the twins (Nakula and Sahadeva).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripa",
+        "Dhrishtadyumna",
+        "Shakuni",
+        "Sons of Draupadi",
+        "Ashvatthama",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "action": "Multiple battles",
+      "relationships": [
+        "Enemies in respective pairs"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana gradually approached Krishna and Arjuna, shooting many arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Krishna",
+        "Arjuna"
+      ],
+      "action": "Advance and attack",
+      "relationships": [
+        "Enemies"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima's bay horses were killed by Shalya, causing Bhima to jump from his chariot and continue fighting with his mace, resembling Yama with his staff.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Bhima"
+      ],
+      "action": "Chariot destruction and mace combat",
+      "supernatural_elements": "Comparison to Yama"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In front of Sahadeva, Shalya killed his horses, and Sahadeva retaliated by killing Shalya's son with a sword.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Sahadeva"
+      ],
+      "action": "Horse killing and retaliation",
+      "relationships": [
+        "Enemies",
+        "Father-son conflict (Shalya and his son)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kripa and Dhrishtadyumna engaged in battle again, with both displaying caution and ferocity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripa",
+        "Dhrishtadyumna"
+      ],
+      "action": "Combat",
+      "relationships": [
+        "Enemies"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama, appearing calm, shot ten arrows each at Draupadi's sons with a smile.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Sons of Draupadi"
+      ],
+      "action": "Arrow attack",
+      "relationships": [
+        "Enemies"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shalya, filled with rage, struck down many Somakas and Pandavas and pinned down Yudhishthira with arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Yudhishthira",
+        "Somakas",
+        "Pandavas"
+      ],
+      "action": "Mass attack",
+      "relationships": [
+        "Enemies"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima, gritting his teeth in anger, lifted his mace aimed at Shalya, intending to kill him, with the mace described as deadly and radiant.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Shalya"
+      ],
+      "action": "Mace attack preparation",
+      "supernatural_elements": "Mace compared to Yama's staff, meteor, and vajra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima (also called Vrikodara, son of Kunti) wielded his divine mace, which was compared to Indra's vajra, and charged at Shalya.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Shalya"
+      ],
+      "action": "Bhima charges at Shalya with his divine mace",
+      "supernatural_elements": [
+        "Divine mace compared to Indra's vajra",
+        "Mace adorned with diamonds, gems, and jade"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima used his mace to shatter the four divine horses of Shalya's chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Shalya"
+      ],
+      "action": "Bhima destroys Shalya's chariot horses",
+      "supernatural_elements": [
+        "Divine horses"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Enraged, Shalya threw his spear at Bhima, piercing his armor and wounding him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Bhima"
+      ],
+      "action": "Shalya wounds Bhima with a spear",
+      "relationships": [
+        "Enemies in battle"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima remained calm, pulled out the spear, and threw it back, killing Shalya's charioteer.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Shalya's charioteer"
+      ],
+      "action": "Bhima kills Shalya's charioteer with the same spear",
+      "relationships": [
+        "Bhima demonstrates battlefield prowess"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The charioteer fell dead from the chariot, and Shalya jumped down, disheartened as he looked at Bhima.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shalya",
+        "Bhima"
+      ],
+      "action": "Shalya becomes disheartened after losing his charioteer",
+      "relationships": [
+        "Shalya's morale declines"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas (sons of Pritha/Kunti) rejoiced and admired Bhima's extraordinary achievement in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Pandavas"
+      ],
+      "action": "Pandavas celebrate Bhima's success",
+      "relationships": [
+        "Brothers supporting each other in war"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Background: Bhima previously used this mace to challenge Kubera (also called Alaka, friend of Shiva) on Mount Kailash.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Kubera",
+        "Shiva"
+      ],
+      "action": "Bhima challenged Kubera on Mount Kailash",
+      "relationships": [
+        "Kubera is friend of Shiva",
+        "Bhima demonstrated his strength against divine beings"
+      ],
+      "supernatural_elements": [
+        "Divine beings Kubera and Shiva",
+        "Mount Kailash"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Background: To please Draupadi, Bhima fought and defeated the invisible and arrogant Kumbhandas (also called Guhyakas) in Kubera's domain to obtain coral tree flowers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Draupadi",
+        "Kumbhandas",
+        "Kubera"
+      ],
+      "action": "Bhima defeats Kumbhandas to get flowers for Draupadi",
+      "relationships": [
+        "Bhima acts to please Draupadi",
+        "Kumbhandas serve Kubera"
+      ],
+      "supernatural_elements": [
+        "Invisible beings (Kumbhandas)",
+        "Kubera's domain"
+      ]
+    },
+    "_token_interval": null
+  }
+]

@@ -16,23 +16,7 @@ rmdir /s /q dist
 REM =============================
 REM PyInstaller 打包（onedir）
 REM =============================
-pyinstaller ^
-  --name "FGO因陀罗桌宠" ^
-  --noconsole ^
-  --onedir ^
-  --icon assets\images\icon.ico ^
-  ^
-  --add-data "assets;assets" ^
-  --add-data "config;config" ^
-  --add-data "manual_images;manual_images" ^
-  --add-data "models;models" ^
-  --add-data "screenshots;screenshots" ^
-  --add-data "src;src" ^
-  ^
-  --add-data "用户手册.html;." ^
-  --add-data "requirements.txt;." ^
-  ^
-  src\main.py
+pyinstaller FGO因陀罗桌宠.spec
 
 REM =============================
 REM 完成提示

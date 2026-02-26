@@ -1,0 +1,1218 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Janamejaya asks about the secret of Surya (Sun God) that was not told to Karna, and about Karna's earrings and armor.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Janamejaya",
+        "Surya",
+        "Karna"
+      ],
+      "action": "Inquiry about divine secret and artifacts",
+      "type": "Question/Inquiry"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A Brahmin appears before King Kuntibhoja, described as energetic, radiant, bearded, with matted hair, holding a staff, flawless in form, handsome, with honey-colored skin and sweet speech.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin (Durvasa)",
+        "King Kuntibhoja"
+      ],
+      "action": "Mysterious appearance",
+      "type": "Arrival/Introduction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "condition",
+    "extraction_text": "The Brahmin requests to live in King Kuntibhoja's house for food, with conditions that no one should neglect or offend him, and he can come and go as he pleases.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "proposer": "Brahmin (Durvasa)",
+      "accepter": "King Kuntibhoja",
+      "terms": [
+        "No neglect allowed",
+        "Free movement",
+        "Respect for his space"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Kuntibhoja agrees to the Brahmin's request and offers his daughter Pritha (Kunti) to serve the Brahmin respectfully.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Kuntibhoja",
+        "Pritha (Kunti)",
+        "Brahmin (Durvasa)"
+      ],
+      "action": "Agreement and assignment of service",
+      "type": "Agreement/Arrangement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Kuntibhoja praises Pritha's character to the Brahmin, describing her as well-behaved, gentle, humble, respectful to all, and pleasing to everyone.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Kuntibhoja",
+        "Pritha (Kunti)"
+      ],
+      "action": "Character description",
+      "type": "Description/Background"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "revelation",
+    "extraction_text": "King Kuntibhoja reveals Pritha's origin: she was born in the Vrishni clan as the daughter of Sura, sister of Vasudeva, and given to Kuntibhoja as his eldest daughter.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pritha (Kunti)",
+        "Sura",
+        "Vasudeva",
+        "King Kuntibhoja"
+      ],
+      "true_identity": "Pritha is Sura's daughter, Vasudeva's sister, adopted by Kuntibhoja",
+      "relationships": [
+        "Daughter of Sura",
+        "Sister of Vasudeva",
+        "Adopted daughter of Kuntibhoja"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Kuntibhoja advises his daughter Kunti (Pritha) to serve a Brahmin with devotion to avoid his wrath and bring happiness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Kuntibhoja",
+        "Kunti (Pritha)"
+      ],
+      "action": "Advice/Instruction",
+      "relationships": [
+        "Father-Daughter"
+      ],
+      "key_points": [
+        "Kunti is praised for her noble birth and beauty",
+        "Warning about Brahmin's power to destroy if angered",
+        "Reference to Sage Mandavya's curse on King Nala due to Damayanti"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti promises King Kuntibhoja she will serve the Brahmin carefully and respectfully at all times.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti (Pritha)",
+        "King Kuntibhoja"
+      ],
+      "action": "Promise/Oath",
+      "relationships": [
+        "Daughter-Father"
+      ],
+      "key_points": [
+        "Kunti vows to never anger the Brahmin",
+        "Acknowledges Brahmins' power to save or destroy",
+        "References Sage Mandavya's curse as cautionary example"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Kuntibhoja gives his daughter Kunti to the Brahmin for service.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Kuntibhoja",
+        "Kunti (Pritha)",
+        "Brahmin (Durvasa)"
+      ],
+      "action": "Transfer/Entrustment",
+      "relationships": [
+        "Father gives daughter to Brahmin",
+        "Kunti becomes servant to Brahmin"
+      ],
+      "key_points": [
+        "King Kuntibhoja asks Brahmin to forgive any mistakes",
+        "Brahmin accepts Kunti's service"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Kuntibhoja provides the Brahmin with a white, beautiful house.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Kuntibhoja",
+        "Brahmin (Durvasa)"
+      ],
+      "action": "Provision/Gift",
+      "relationships": [
+        "King-Priest/Host-Guest"
+      ],
+      "supernatural_elements": [
+        "House described as white like swans and moonlight"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Princess Pritha (Kunti) diligently served the Brahmin in his fire-worship hall, arranging seats, food, and all necessities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pritha (Kunti)",
+        "Brahmin (Durvasa)"
+      ],
+      "type": "Service/Devotion",
+      "relationships": [
+        "Pritha serves Brahmin with utmost respect"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pritha served the Brahmin wholeheartedly, abandoning laziness and pride, pleasing him as if serving a god.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pritha (Kunti)",
+        "Brahmin (Durvasa)"
+      ],
+      "type": "Devotional Service",
+      "relationships": [
+        "Pritha's pure devotion to Brahmin"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pritha maintained her service despite the Brahmin's unpredictable schedule, harsh words, and difficult demands.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pritha (Kunti)",
+        "Brahmin (Durvasa)"
+      ],
+      "type": "Endurance Test",
+      "relationships": [
+        "Pritha's unwavering service despite challenges"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Kuntibhoja regularly asked his daughter if the Brahmin was satisfied with her service.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Kuntibhoja",
+        "Pritha (Kunti)"
+      ],
+      "type": "Parental Inquiry",
+      "relationships": [
+        "Father-daughter relationship",
+        "King's concern for Brahmin's satisfaction"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After one year of flawless service, the Brahmin offered Pritha a boon for her exceptional devotion.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin (Durvasa)",
+        "Pritha (Kunti)"
+      ],
+      "type": "Reward Offer",
+      "relationships": [
+        "Brahmin's satisfaction with Pritha's service"
+      ],
+      "supernatural_elements": [
+        "Brahmin offers divine boon"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pritha initially declined the boon, saying her duty was already fulfilled.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pritha (Kunti)"
+      ],
+      "type": "Humility Display",
+      "relationships": [
+        "Pritha's selfless nature"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin insisted and gave Pritha a mantra that could summon and control any god.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin (Durvasa)",
+        "Pritha (Kunti)"
+      ],
+      "type": "Divine Gift",
+      "relationships": [
+        "Brahmin bestows powerful gift on Pritha"
+      ],
+      "supernatural_elements": [
+        "Mantra to summon and control gods",
+        "From Atharvashiras tradition"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pritha accepted the mantra, fearing to refuse the Brahmin's gift.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pritha (Kunti)",
+        "Brahmin (Durvasa)"
+      ],
+      "type": "Acceptance",
+      "relationships": [
+        "Pritha receives divine power from Brahmin"
+      ],
+      "supernatural_elements": [
+        "Fear of Brahmin's curse"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin (Durvasa) tells King Kuntibhoja that he has been comfortable in his home and is satisfied with the girl (Kunti), then disappears.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Durvasa",
+        "King Kuntibhoja",
+        "Kunti"
+      ],
+      "action": "Departure/Disappearance",
+      "relationships": "Durvasa was a guest; Kunti served him well."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After some time, Kunti, curious about the mantra's power, finds herself menstruating and feels shy as an unmarried girl.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti"
+      ],
+      "action": "Curiosity/Realization",
+      "supernatural_elements": "Mantra's effect"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti sees the sun rise, gains divine sight, and sees the deity Surya (the Sun God) in his divine form.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Surya"
+      ],
+      "action": "Divine Vision/Summoning",
+      "supernatural_elements": "Divine sight granted by mantra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti, out of curiosity, uses the mantra to summon Surya, who appears before her.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Surya"
+      ],
+      "action": "Summoning",
+      "supernatural_elements": "Mantra's power compels Surya"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Surya explains that he is under Kunti's control due to the mantra and offers to serve her, but Kunti asks him to leave, apologizing for her curiosity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Surya"
+      ],
+      "action": "Dialogue/Refusal",
+      "relationships": "Surya is compelled by the mantra; Kunti regrets the summoning."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Surya refuses to leave without consequence, stating that summoning a deity without purpose is inappropriate and threatens to curse Kunti, her father, and Durvasa if she does not accept union with him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Surya",
+        "Kunti"
+      ],
+      "action": "Threat/Ultimatum",
+      "relationships": "Surya asserts divine authority; Kunti is pressured.",
+      "supernatural_elements": "Threat of curse"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Surya reveals that Kunti's true desire is to bear a son with him, who will be heroic and possess armor and earrings, and insists on union to avoid his wrath.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Surya",
+        "Kunti"
+      ],
+      "action": "Revelation/Pressure",
+      "relationships": "Surya interprets the summoning as a desire for progeny.",
+      "supernatural_elements": "Prophecy of a heroic son"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Surya notes that other gods, led by Indra, are watching and mocking him for being summoned by Kunti, and grants her divine sight to see them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Surya",
+        "Kunti",
+        "Indra",
+        "Other Gods"
+      ],
+      "action": "Divine Observation/Granting Sight",
+      "supernatural_elements": "Kunti gains ability to see gods; divine mockery occurs."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti sees the gods of the thirty-three heavens in their realms, with Surya shining brightly among them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Surya",
+        "Other Gods"
+      ],
+      "action": "Divine Vision",
+      "supernatural_elements": "Kunti witnesses divine realms"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The young princess Kunti, upon seeing the Sun God, expressed fear and shame, asking him to leave and explaining that only her parents or elders could give her body away.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Sun God"
+      ],
+      "action": "Rejection and appeal to dharma",
+      "relationships": [
+        "Kunti appeals to Sun God as a child seeking forgiveness"
+      ],
+      "supernatural_elements": [
+        "Sun God is a deity"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sun God responded that he was treating her gently because she was a child, urged her to marry him voluntarily for happiness, and argued that returning after being summoned would make him a laughingstock among gods.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sun God",
+        "Kunti"
+      ],
+      "action": "Persuasion and proposal",
+      "relationships": [
+        "Sun God pressures Kunti to accept union"
+      ],
+      "supernatural_elements": [
+        "Sun God promises a son like himself if she consents"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti, unable to persuade Sun God and fearing his curse, worried about protecting her innocent father and brahmins from his wrath.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Sun God"
+      ],
+      "action": "Internal conflict and fear",
+      "relationships": [
+        "Kunti fears consequences for her family"
+      ],
+      "supernatural_elements": [
+        "Fear of divine curse"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti, torn between fear of curse and concern for family reputation, proposed a conditional acceptance: if Sun God deemed it lawful, she would satisfy his wish while maintaining her chastity, appealing to him for protection of dharma, reputation, and life.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Sun God"
+      ],
+      "action": "Conditional agreement",
+      "relationships": [
+        "Kunti seeks Sun God's assurance for lawful union"
+      ],
+      "supernatural_elements": [
+        "Appeal to Sun God's authority over dharma and life"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sun God argued that neither parents nor elders could grant her happiness, interpreted the word 'kanya' (girl) as meaning 'free' and 'loving all', and assured her that no law would be broken.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sun God",
+        "Kunti"
+      ],
+      "action": "Justification and reassurance",
+      "relationships": [
+        "Sun God asserts Kunti's freedom to choose"
+      ],
+      "supernatural_elements": [
+        "Divine interpretation of language and law"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sun God (Surya) proposes to Kunti (also called Pritha) that she will bear a son while remaining a virgin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sun God (Surya)",
+        "Kunti (Pritha)"
+      ],
+      "action": "Proposal of divine conception",
+      "supernatural_elements": [
+        "Divine intervention",
+        "Virgin birth prophecy"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti requests that her son have earrings and divine armor.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti (Pritha)",
+        "Sun God (Surya)"
+      ],
+      "action": "Request for divine attributes",
+      "relationships": [
+        "Mother-to-be making conditions for her son"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sun God agrees, promising earrings from Aditi and divine armor made of amrita (nectar).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sun God (Surya)",
+        "Aditi"
+      ],
+      "action": "Promise of divine gifts",
+      "supernatural_elements": [
+        "Divine artifacts (earrings, armor)",
+        "Amrita (nectar)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti agrees to the union with Sun God.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti (Pritha)",
+        "Sun God (Surya)"
+      ],
+      "action": "Agreement to divine conception",
+      "relationships": [
+        "Consensual divine union"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sun God enters Kunti through yoga, touching her navel and impregnating her without violating her virginity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sun God (Surya)",
+        "Kunti (Pritha)"
+      ],
+      "action": "Divine impregnation",
+      "supernatural_elements": [
+        "Yogic conception",
+        "Virginity preserved",
+        "Divine energy transfer"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sun God departs after confirming Kunti will bear a heroic son and remain a virgin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sun God (Surya)",
+        "Kunti (Pritha)"
+      ],
+      "action": "Departure after conception",
+      "relationships": [
+        "Divine father confirms prophecy"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti conceives and carries the fetus for ten fortnights, hiding her pregnancy from everyone except her nurse.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti (Pritha)",
+        "Nurse"
+      ],
+      "action": "Concealed pregnancy",
+      "relationships": [
+        "Mother hides pregnancy",
+        "Nurse as confidante"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti gives birth to a radiant son with golden earrings, divine armor, orange eyes, and bull-like shoulders resembling his father.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti (Pritha)",
+        "Karna (unnamed at birth)"
+      ],
+      "action": "Birth of divine child",
+      "supernatural_elements": [
+        "Divine attributes at birth",
+        "Resemblance to Sun God"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti and her nurse decide to place the newborn in a sealed, cushioned basket and set it afloat on the Ashva River.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti (Pritha)",
+        "Nurse",
+        "Karna (unnamed at birth)"
+      ],
+      "action": "Abandonment of child",
+      "relationships": [
+        "Mother abandons son",
+        "Nurse assists"
+      ],
+      "plot_points": [
+        "Sets up Karna's future discovery and upbringing"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti, fearing her father's discovery of her illegitimate pregnancy, places her newborn son in a basket and sets it adrift in the Ashwa River while weeping and praying for his safety.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Karna (the infant son)"
+      ],
+      "action": "Abandonment/Setting adrift",
+      "relationships": "Mother abandons her infant son.",
+      "supernatural_elements": "Kunti invokes numerous gods (Varuna, Vayu, Surya, Adityas, Vasus, Rudras, Sadhyas, Maruts, Indra) for protection. The infant is described as wearing divine armor and earrings born from nectar."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The basket drifts from the Ashwa River to the Charmanyavati River, then to the Yamuna River, and finally into the Ganga River.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna (the infant son)"
+      ],
+      "action": "Journey/Drifting",
+      "relationships": "The infant is alone in the basket.",
+      "supernatural_elements": "The divine armor and earrings, along with fate, are said to preserve the infant."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In the Ganga River, the basket drifts to the Champa region in the country of Anga.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna (the infant son)"
+      ],
+      "action": "Arrival",
+      "relationships": "The infant arrives in a new land.",
+      "supernatural_elements": "The infant travels on the waves."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A charioteer named Adhiratha, a friend of King Dhritarashtra, comes to the Ganga with his wife Radha, who is beautiful but childless and has been making great efforts to have a son.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Adhiratha",
+        "Radha",
+        "King Dhritarashtra"
+      ],
+      "action": "Arrival at the river",
+      "relationships": "Adhiratha is a friend of King Dhritarashtra. Adhiratha and Radha are a married couple. Radha is childless."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Radha, by chance, discovers the drifting basket with a handle and amulets, which the waves of the Ganga push toward her. Out of curiosity, she seizes the basket and tells Adhiratha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Radha",
+        "Adhiratha",
+        "Karna (the infant son)"
+      ],
+      "action": "Discovery of the infant",
+      "relationships": "Radha finds the infant, setting the stage for adoption.",
+      "supernatural_elements": "The basket is described as having amulets."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The charioteer Adhiratha (also called Ratha or Shantanu's charioteer in some versions, but here clearly Adhiratha) lifted a basket from the water and opened it with a tool, finding an infant inside.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Adhiratha"
+      ],
+      "action": "Discovery of infant",
+      "supernatural_elements": "Infant found in basket in water"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The infant was radiant like the morning sun, wearing golden armor and earrings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna (the infant)"
+      ],
+      "description": "Divine appearance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Adhiratha and his wife Radha were amazed. Adhiratha believed the infant was a divine child sent by gods to be his son since he was childless.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Adhiratha",
+        "Radha"
+      ],
+      "relationship": "Adhiratha and Radha accept the infant as their son",
+      "supernatural_elements": "Belief that infant is divine"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Adhiratha gave the child to Radha, who accepted him with proper rituals.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Adhiratha",
+        "Radha",
+        "Karna"
+      ],
+      "relationship": "Radha becomes Karna's adoptive mother"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Radha raised Karna according to proper customs. Karna grew strong and valiant. Later, Radha also gave birth to her own sons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Radha",
+        "Karna"
+      ],
+      "relationship": "Karna raised as Radha's son alongside her biological children"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahmins named the child Vasushena (also called Karna) because he wore golden armor and earrings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "name_origin": "Named Vasushena (wealth-born) due to golden attributes"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The valiant prince thus became the charioteer's son, known as Vasushena and also as Vrishasena.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "identity": "Prince raised as charioteer's son"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna, Adhiratha's eldest son, grew strong. Kunti's spies discovered this man wearing divine armor.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Kunti"
+      ],
+      "plot_point": "Kunti's spies discover Karna's existence"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "When Adhiratha saw Karna had grown up, he sent him to Hastinapura.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Adhiratha",
+        "Karna"
+      ],
+      "action": "Karna sent to Hastinapura"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In Hastinapura, Karna learned weapons from Drona, became friends with Duryodhana, and learned four types of warfare from Drona, Kripa, and Rama, becoming a famous archer.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Drona",
+        "Duryodhana",
+        "Kripa",
+        "Rama (Parashurama)"
+      ],
+      "relationships": [
+        "Karna becomes Duryodhana's friend",
+        "Karna learns from Drona, Kripa, and Parashurama"
+      ],
+      "skills": "Becomes expert archer"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna allied with Duryodhana and harbored hatred for the Pandavas (sons of Kunti), always eager to fight Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Duryodhana",
+        "Pandavas",
+        "Arjuna"
+      ],
+      "relationship": "Karna allies with Duryodhana against Pandavas, specifically targets Arjuna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Since Karna and Arjuna first met, they constantly challenged each other.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Arjuna"
+      ],
+      "relationship": "Rivalry between Karna and Arjuna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira, seeing Karna's earrings and armor, worried that Karna couldn't be killed in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Karna"
+      ],
+      "plot_point": "Yudhishthira fears Karna's invincibility due to divine protections"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Every noon, Karna stood in water with folded hands, worshipping the sun. During this time, he never refused any request from Brahmins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "character_trait": "Devout worshipper of Surya, extremely charitable"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra, taking the form of a Brahmin, approached Karna during his worship and asked for alms. Karna welcomed him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Karna"
+      ],
+      "supernatural_elements": "Indra disguises himself as Brahmin",
+      "plot_point": "Setup for Indra to request Karna's divine armor and earrings"
+    },
+    "_token_interval": null
+  }
+]

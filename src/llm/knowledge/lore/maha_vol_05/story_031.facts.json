@@ -1,0 +1,414 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma explains the first method of governance to Yudhishthira and introduces the second method.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Yudhishthira"
+      ],
+      "type": "Instruction/Advice",
+      "relationships": "Bhishma (grandfather/advisor) advising Yudhishthira (grandson/king)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma recounts an ancient historical tale told by Muni Krishnatreya to King Anjan of Kosala.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Muni Krishnatreya",
+        "King Anjan"
+      ],
+      "type": "Narration/Flashback",
+      "relationships": "Sage advising king"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Muni Krishnatreya travels through King Anjan's kingdom with a caged crow, claiming it reveals past, present, and future events to investigate officials' misconduct.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Muni Krishnatreya",
+        "King Anjan",
+        "Officials"
+      ],
+      "type": "Investigation",
+      "supernatural_elements": "Crow claimed to possess prophetic knowledge"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Muni Krishnatreya confronts officials before King Anjan, accusing them of treasury theft based on the crow's revelations.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Muni Krishnatreya",
+        "King Anjan",
+        "Officials"
+      ],
+      "type": "Accusation/Confrontation",
+      "action": "Public exposure of corruption"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Officials kill the crow with arrows while Muni Krishnatreya sleeps.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Officials",
+        "Crow"
+      ],
+      "type": "Violence/Retaliation",
+      "action": "Murder of the crow"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Muni Krishnatreya discovers the dead crow and appeals to King Anjan for protection, explaining his loyalty and motivation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Muni Krishnatreya",
+        "King Anjan"
+      ],
+      "type": "Appeal/Explanation",
+      "relationships": "Advisor seeking king's protection"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Anjan assures Muni Krishnatreya of protection and willingness to listen to his information.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Anjan",
+        "Muni Krishnatreya"
+      ],
+      "type": "Assurance/Response",
+      "relationships": "King accepting advisor's counsel"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Muni Krishnatreya explains the dangers of serving kings, comparing it to handling snakes and navigating treacherous paths.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Muni Krishnatreya",
+        "King Anjan"
+      ],
+      "type": "Warning/Instruction",
+      "relationships": "Sage advising king about governance challenges"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A minister advises a king about the dangers of his court and the importance of diligence.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Minister",
+        "The King"
+      ],
+      "type": "Advice/Warning",
+      "relationships": [
+        "Minister advising King"
+      ],
+      "key_plot_points": [
+        "The minister warns that carelessness from attendants can lead to the king's downfall, which in turn endangers the attendants. He states a king is like a master of all life and wealth, akin to an angry serpent, and must be served with utmost diligence and proper conduct."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The minister reveals his crow has been killed by people in the king's court who dislike the king.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Minister",
+        "The King",
+        "The King's Courtiers"
+      ],
+      "type": "Revelation/Conflict",
+      "relationships": [
+        "Minister loyal to King",
+        "Courtiers hostile to King and Minister"
+      ],
+      "key_plot_points": [
+        "The minister does not blame the king for the crow's death but attributes it to courtiers who dislike the king. He warns these courtiers are greedy, do not care for the people's welfare, covet the kingdom, conspire with the king's close associates, and seek to harm the king."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The minister expresses fear and announces his intention to leave for another hermitage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Minister",
+        "The King",
+        "The King's Courtiers"
+      ],
+      "type": "Departure/Decision",
+      "relationships": [
+        "Minister fearing Courtiers",
+        "Minister leaving King"
+      ],
+      "key_plot_points": [
+        "Fearing the conspiratorial courtiers who killed his crow, the minister decides to depart. He claims to have seen these events with his 'eye of asceticism' and states the crow has gone to the abode of Yama (the god of death)."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The minister describes the king's kingdom as a dangerous, corrupt, and untrustworthy place.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Minister",
+        "The King"
+      ],
+      "type": "Allegory/Critique",
+      "relationships": [
+        "Minister criticizing King's realm"
+      ],
+      "key_plot_points": [
+        "Using extended metaphors, the minister compares navigating the kingdom to crossing a river full of crocodiles and sharks, or a treacherous mountain pass. He states the kingdom is a dark forest, a destructive net, honey on a cliff, poisoned food, a well surrounded by snakes, and a sweet river with treacherous banks. He laments that good people are killed while the wicked remain safe, making it an unsafe place to stay."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The minister compares the king's ministers to a parasitic vine that eventually destroys the tree it clings to.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Minister",
+        "The King",
+        "The King's Ministers (Courtiers)"
+      ],
+      "type": "Final Warning/Allegory",
+      "relationships": [
+        "Minister warning King about other Ministers"
+      ],
+      "key_plot_points": [
+        "The minister delivers a final allegory: the king's ministers are like a vine that depends on and spreads over a great tree, eventually enveloping and obscuring it, and then becomes fuel for a terrible forest fire. He urges the king to 'eliminate them'."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "An unnamed Brahmin (later revealed to be Sage Muni Black Tree) warns King Kosala about treacherous ministers who despise the king and seek to destroy his happiness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Muni Black Tree",
+        "King Kosala"
+      ],
+      "action": "Warning/Report",
+      "relationships": [
+        "Advisor to King",
+        "Friend of King's Father"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin explains he came to understand the king's character and the loyalty of his subjects, as he felt endangered living in the palace with the deceitful ministers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Muni Black Tree",
+        "King Kosala"
+      ],
+      "action": "Explanation/Investigation",
+      "relationships": [
+        "Seeking Truth"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Kosala invites the Brahmin to stay in his palace, promises to honor and provide for him, and vows to remove those who dislike the Brahmin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Kosala",
+        "Sage Muni Black Tree"
+      ],
+      "action": "Invitation/Protection Offer",
+      "relationships": [
+        "King seeks Advisor"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin (Sage Muni Black Tree) advises the king to secretly gather evidence against the treacherous ministers, weaken them one by one, and then punish them, warning against revealing the plan prematurely.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Muni Black Tree",
+        "King Kosala"
+      ],
+      "action": "Strategic Advice",
+      "relationships": [
+        "Advisor guiding King"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Muni Black Tree reveals his identity as a renowned sage, a friend of the king's father, who performed austerities when the kingdom faced disaster, and offers his counsel out of friendship and concern.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Muni Black Tree",
+        "King Kosala"
+      ],
+      "action": "Identity Revelation",
+      "relationships": [
+        "Legacy Friendship",
+        "Paternal Connection"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Kosala heeds the sage's advice, leading to renewed happiness in the royal family, and appoints Sage Muni Black Tree as the royal priest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Kosala",
+        "Sage Muni Black Tree"
+      ],
+      "action": "Appointment/Restoration",
+      "relationships": [
+        "King and Priest",
+        "Trusted Advisor"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Under the sage's guidance, King Kosala unifies the earth under his rule, gains great fame, and Sage Muni Black Tree performs many grand sacrifices.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Kosala",
+        "Sage Muni Black Tree"
+      ],
+      "action": "Unification/Prosperity",
+      "relationships": [
+        "Successful Rule with Divine Support"
+      ],
+      "supernatural_elements": [
+        "Grand sacrifices performed by sage"
+      ]
+    },
+    "_token_interval": null
+  }
+]

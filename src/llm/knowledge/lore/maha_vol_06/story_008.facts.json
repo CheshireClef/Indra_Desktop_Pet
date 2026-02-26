@@ -1,0 +1,942 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战向毗湿摩询问关于承诺施舍给婆罗门后又反悔的人的后果",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "毗湿摩"
+      ],
+      "type": "Question",
+      "relationship": "坚战是提问者，毗湿摩是回答者"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "毗湿摩回答：承诺施舍又不履行的人，所有愿望都不会实现，生前所做的好事和祭品都将白费",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "毗湿摩"
+      ],
+      "type": "Explanation",
+      "consequences": [
+        "愿望无法实现",
+        "善行无效"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "毗湿摩引用古代传说：豺和猿的前生故事",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "毗湿摩"
+      ],
+      "type": "Storytelling",
+      "purpose": "通过寓言说明违背诺言的后果"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "豺的前生因承诺向婆罗门施舍但未履行，死后投胎为豺，在墓地吃腐尸",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "豺的前生"
+      ],
+      "type": "Karmic Consequence",
+      "action": "违背施舍诺言",
+      "result": "投胎为豺，吃腐尸"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "猿的前生是豺的好友，死后投胎为猿",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "猿的前生"
+      ],
+      "type": "Rebirth",
+      "relationship": "前生是豺的好友"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "猿在墓地遇到豺，询问其前生恶业",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "猿",
+        "豺"
+      ],
+      "type": "Dialogue",
+      "content": "猿询问豺为何投胎为豺并吃腐尸"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "豺解释自己因违背施舍诺言而投胎为豺",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "豺"
+      ],
+      "type": "Confession",
+      "reason": "承诺施舍给婆罗门但未履行"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "毗湿摩从婆罗门教师和黑天那里听到这个故事",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "毗湿摩",
+        "婆罗门教师",
+        "黑天"
+      ],
+      "type": "Knowledge Transmission",
+      "sources": [
+        "婆罗门教师",
+        "黑天"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "毗湿摩总结：承诺施舍必须履行，否则会使婆罗门愤怒，带来灾难；履行诺言则获得祝福和好处",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "毗湿摩"
+      ],
+      "type": "Moral Lesson",
+      "key_points": [
+        "必须履行施舍诺言",
+        "婆罗门的愤怒像火焰",
+        "婆罗门的祝福带来和平"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Bhishma about the morality of giving instructions to people of low birth out of friendship or affection.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Question about Dharma",
+      "relationship": "Grandson asks grandfather for wisdom"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma agrees to explain by recounting a past story he heard from sages.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Yudhishthira"
+      ],
+      "type": "Narrative setup",
+      "relationship": "Bhishma as teacher to Yudhishthira"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma describes a beautiful hermitage on the slopes of the Himalayas with various trees, flowers, animals, and birds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Setting description",
+      "supernatural_elements": "Hermitage with divine atmosphere"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The hermitage is filled with Brahmins, ascetics, sages, and holy men reciting Vedas and performing religious practices.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmins",
+        "Ascetics",
+        "Sages",
+        "Holy men"
+      ],
+      "type": "Religious community description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A Shudra (member of the lowest caste) arrives at the hermitage with courage and compassion for all beings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shudra"
+      ],
+      "type": "Arrival",
+      "relationship": "Shudra as outsider to the religious community"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The ascetics in the hermitage respectfully greet the Shudra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ascetics",
+        "Shudra"
+      ],
+      "type": "Interaction",
+      "relationship": "Respectful treatment despite caste difference"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Shudra becomes emotionally moved upon seeing the various groups of holy men with extraordinary abilities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shudra"
+      ],
+      "type": "Emotional response",
+      "action": "Inspiration from observing the ascetics"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Shudra develops a desire to undertake an ascetic life after this experience.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shudra"
+      ],
+      "type": "Decision",
+      "action": "Desire to join ascetic life"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A Shudra (low-caste man) prostrated himself before a Brahmin elder, touched his feet, and requested to learn dharma and become an ascetic.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shudra",
+        "Brahmin elder"
+      ],
+      "action": "Request for spiritual guidance",
+      "relationship": "Shudra seeks acceptance from Brahmin elder"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin elder told the Shudra that living an ascetic life of renunciation was impossible for a Shudra, but he could stay and serve them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin elder",
+        "Shudra"
+      ],
+      "action": "Denial of ascetic life, offer of servitude",
+      "relationship": "Brahmin establishes caste-based restrictions"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Shudra contemplated the situation, decided to follow his devotion to dharma, and built a hut away from the hermitage to live an ascetic life.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shudra"
+      ],
+      "action": "Decision to pursue asceticism independently",
+      "relationship": "Shudra chooses personal spiritual path despite restrictions"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Shudra established rituals, maintained discipline, lived on wild fruits and plants, and welcomed guests at his hermitage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shudra"
+      ],
+      "action": "Establishment of ascetic practices",
+      "supernatural_elements": "Ritual observances and offerings to deities"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A sage with extraordinary powers visited the Shudra's hermitage, was welcomed respectfully, and they engaged in pleasant discussions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage",
+        "Shudra"
+      ],
+      "action": "Visit and philosophical exchange",
+      "relationship": "Sage becomes spiritual guide to Shudra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Shudra requested the sage to teach him how to perform ancestral rites (shraddha).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shudra",
+        "Sage"
+      ],
+      "action": "Request for ritual instruction",
+      "relationship": "Shudra seeks specific ritual knowledge from sage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sage agreed, and the Shudra prepared for the ritual with purification, sacred grass, and seating arrangements.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage",
+        "Shudra"
+      ],
+      "action": "Preparation for ancestral rites",
+      "supernatural_elements": "Ritual preparations according to sacred texts"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sage corrected the Shudra's ritual arrangements (seating direction and procedures), and the Shudra followed the corrections.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage",
+        "Shudra"
+      ],
+      "action": "Ritual correction and compliance",
+      "relationship": "Sage provides authoritative guidance on ritual correctness"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "With the sage's guidance, the Shudra successfully performed ancestral rites and followed the path of dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shudra",
+        "Sage"
+      ],
+      "action": "Successful performance of ancestral rites",
+      "relationship": "Sage enables Shudra's ritual fulfillment despite caste barriers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After the Shudra's wishes were fulfilled, the sage returned to his original dwelling.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage",
+        "Shudra"
+      ],
+      "action": "Departure after mission completion",
+      "relationship": "Temporary spiritual mentorship concludes"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A Shudra ascetic lived a strict ascetic life for a long time and died in the hermitage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shudra Ascetic"
+      ],
+      "action": "Ascetic life and death",
+      "consequence": "Due to his merits, he was reborn in a royal family"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A sage died and was reborn as a Brahmin in a family of royal preceptors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage"
+      ],
+      "action": "Death and rebirth",
+      "consequence": "Reborn as a Brahmin"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The two individuals (former Shudra and former Sage) grew up and became knowledgeable.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Former Shudra",
+        "Former Sage"
+      ],
+      "action": "Growth and education"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin (former Sage) devoted himself to studying Vedas, Atharvaveda, religious rituals, astronomy, and Sankhya philosophy.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin (former Sage)"
+      ],
+      "action": "Scholarly pursuits"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After his father's death, the prince (former Shudra) was consecrated as king.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Prince (former Shudra)"
+      ],
+      "action": "Coronation",
+      "relationship_change": "Becomes king"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The king appointed the Brahmin (former Sage) as his royal preceptor.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King (former Shudra)",
+        "Brahmin (former Sage)"
+      ],
+      "action": "Appointment",
+      "relationship": "King and royal preceptor"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The king ruled righteously and protected his subjects happily.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King (former Shudra)"
+      ],
+      "action": "Righteous rule"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The king would smile or laugh when receiving blessings from the preceptor or during religious ceremonies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King (former Shudra)",
+        "Brahmin (former Sage)"
+      ],
+      "action": "King's laughter",
+      "conflict_seed": "Causes preceptor's anger"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The preceptor became angry about the king's constant laughter.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin (former Sage)"
+      ],
+      "action": "Anger",
+      "emotional_state": "Offended"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The preceptor approached the king privately and requested a boon.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin (former Sage)",
+        "King (former Shudra)"
+      ],
+      "action": "Private conversation and boon request"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The king promised to grant the boon and speak truthfully.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King (former Shudra)"
+      ],
+      "action": "Promise",
+      "condition": "Will speak truth about what he knows"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The preceptor asked why the king laughed at him during ceremonies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin (former Sage)"
+      ],
+      "action": "Question",
+      "demand": "Truthful explanation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The king agreed to tell the truth about his laughter.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King (former Shudra)"
+      ],
+      "action": "Agreement to explain",
+      "setup": "Leads to revelation in next part"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker (a King) reveals to a Brahmin that they remember their previous lives together.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King",
+        "Brahmin"
+      ],
+      "type": "Revelation/Explanation",
+      "relationship_change": "The King establishes that the Brahmin was his teacher in their past lives."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In their past lives, the speaker was a Shudra performing severe austerities, and the Brahmin was a great sage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shudra (King's past life)",
+        "Sage (Brahmin's past life)"
+      ],
+      "type": "Past Life Description",
+      "relationship": "Teacher (Sage) and Student (Shudra)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sage instructed the Shudra on how to perform rituals for his ancestors, including sacrificial offerings and arranging sacred grass.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage (Brahmin's past life)",
+        "Shudra (King's past life)"
+      ],
+      "action": "Instruction/Ritual Guidance",
+      "supernatural_element": "Focus on ritual practices and ancestral rites"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Due to this improper act (teaching a lower caste), the sage was reborn as a Royal Priest (Purohita).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage (Brahmin's past life)",
+        "Brahmin (Royal Priest)"
+      ],
+      "action": "Rebirth/Transmigration",
+      "consequence": "Demotion in status due to violating caste rules"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Shudra was reborn as a King.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shudra (King's past life)",
+        "King"
+      ],
+      "action": "Rebirth/Transmigration",
+      "consequence": "Promotion in status"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The King explains that he laughed upon seeing the Brahmin because he remembered their past lives and the irony of their reversed positions, not out of disrespect.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King",
+        "Brahmin"
+      ],
+      "type": "Explanation/Clarification",
+      "emotional_state": "The King feels sorrow and pain seeing their changed circumstances."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The King advises the Brahmin to abandon his position as Royal Priest and strive for a better afterlife through righteous actions and charity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King",
+        "Brahmin"
+      ],
+      "action": "Admonition/Advice",
+      "key_plot_point": "The King urges spiritual remediation for past transgression."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The King dismisses the Brahmin from his service and bestows upon him vast wealth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King",
+        "Brahmin"
+      ],
+      "action": "Dismissal and Gift-Giving",
+      "relationship_change": "Formal end of the priestly service relationship."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin distributes all the received wealth, land, and villages to other Brahmins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin"
+      ],
+      "action": "Charity/Redistribution",
+      "moral_action": "Act of purification and detachment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin undertakes pilgrimages, continuously gives charity to Brahmins, purifies himself, and returns to the hermitage of his past life to practice severe austerities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin"
+      ],
+      "action": "Pilgrimage and Austerity",
+      "spiritual_journey": "Path to redemption and higher achievement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin attains supreme achievement and is honored by all inhabitants of the hermitage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin"
+      ],
+      "action": "Spiritual Attainment",
+      "outcome": "Successful redemption and respect regained"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma concludes the story, stating the moral: a Brahmin must never instruct a person of lower caste, as it leads to great distress.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Moral Conclusion",
+      "key_lesson": "Strict adherence to caste-based duties (dharma) is essential to avoid sin and suffering."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text discusses the dangers and responsibilities of teaching or giving advice, particularly in religious or moral contexts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Philosophical Discourse",
+      "action": "Warning about the perils of instruction",
+      "key_points": [
+        "Sages (Munis) often remain silent during rituals to avoid misspeaking.",
+        "Even a wise person can fall due to improper speech.",
+        "A teacher shares the sin of their student's mistakes.",
+        "One must think carefully before teaching, even when asked.",
+        "The conclusion advises against teaching to avoid self-inflicted trouble."
+      ]
+    },
+    "_token_interval": null
+  }
+]

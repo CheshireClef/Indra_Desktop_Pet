@@ -1,0 +1,1249 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shishupala criticizes Krishna, Bhima, and Arjuna for their actions in killing Jarasandha, accusing Krishna of deception and disrespect.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shishupala",
+        "Krishna",
+        "Bhima",
+        "Arjuna",
+        "Jarasandha"
+      ],
+      "type": "Accusation/Conflict",
+      "relationships": "Shishupala is hostile toward Krishna, Bhima, and Arjuna; he respects Jarasandha."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima becomes enraged upon hearing Shishupala's harsh words.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Shishupala"
+      ],
+      "type": "Anger/Reaction",
+      "relationships": "Bhima is provoked by Shishupala's insults."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma restrains Bhima from attacking Shishupala and calms him with words.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Bhima"
+      ],
+      "type": "Intervention/Calming",
+      "relationships": "Bhishma, as a senior elder, controls Bhima's anger; Bhima respects Bhishma's authority."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shishupala, confident in his strength, taunts Bhima and challenges him, unafraid of Bhima's rage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shishupala",
+        "Bhima",
+        "Bhishma"
+      ],
+      "type": "Taunt/Challenge",
+      "relationships": "Shishupala shows contempt for Bhima and disregards Bhishma's intervention."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma begins to recount Shishupala's unusual birth and a divine voice's prophecy about him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Shishupala"
+      ],
+      "type": "Narration/Revelation",
+      "supernatural_elements": "Shishupala was born with three eyes and four arms, crying like a donkey; an invisible divine voice reassured his parents about his future strength and fortune."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "An invisible spirit prophesies that a child will not die until his destined time, when he will be killed by a specific person who has already been born.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Invisible Spirit",
+        "Mother (Queen of Chedi)",
+        "Child (Shishupala)"
+      ],
+      "type": "Prophecy",
+      "supernatural_elements": [
+        "Invisible spirit",
+        "Prophecy about death and killer"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The spirit reveals the killer's identifying features: the child will lose his extra arms and third eye when held by his future killer.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Invisible Spirit",
+        "Mother (Queen of Chedi)",
+        "Child (Shishupala)"
+      ],
+      "action": "Revelation of prophecy details",
+      "child_features": [
+        "Three eyes",
+        "Four arms"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kings from all over the earth come to see the child with three eyes and four arms. King of Chedi lets each king hold the child, but nothing happens.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kings of the earth",
+        "King of Chedi",
+        "Child (Shishupala)"
+      ],
+      "action": "Testing the prophecy",
+      "result": "No effect from any king"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Balarama and Krishna of the Yadava clan visit Chedi to see their aunt. They pay respects to the assembled kings and sit down.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Balarama",
+        "Krishna",
+        "Kings of the earth",
+        "King of Chedi"
+      ],
+      "type": "Family visit",
+      "relationships": [
+        "Balarama and Krishna are nephews of the Queen of Chedi"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The queen joyfully places her son in Krishna's arms. Immediately, the child's extra arms fall off and his third eye disappears.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Queen of Chedi",
+        "Krishna",
+        "Child (Shishupala)"
+      ],
+      "action": "Fulfillment of prophecy",
+      "result": "Krishna identified as the destined killer"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The frightened and distressed queen asks Krishna for a boon. Krishna promises to grant whatever she asks.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Queen of Chedi",
+        "Krishna"
+      ],
+      "type": "Boon request",
+      "relationship": "Aunt-nephew"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The queen asks Krishna to forgive her son Shishupala's future offenses. Krishna promises to forgive even a hundred offenses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Queen of Chedi",
+        "Krishna",
+        "Shishupala"
+      ],
+      "action": "Boon granted",
+      "boon": "Krishna will forgive Shishupala's offenses"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma explains that Shishupala, relying on Krishna's granted boon, now challenges the Pandavas arrogantly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Shishupala",
+        "Krishna",
+        "Pandavas"
+      ],
+      "type": "Explanation of current conflict",
+      "reason": "Shishupala's arrogance due to Krishna's protection"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma tells Bhima that Shishupala's challenge is not from wisdom but is Krishna's arrangement, as Krishna wishes to reclaim the energy portion that is Shishupala.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Bhima",
+        "Shishupala",
+        "Krishna"
+      ],
+      "type": "Divine explanation",
+      "supernatural_elements": [
+        "Shishupala as part of Krishna's energy",
+        "Krishna's divine plan"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shishupala (King of Chedi) cannot tolerate Bhishma's words and angrily retorts to Bhishma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shishupala",
+        "Bhishma"
+      ],
+      "action": "Verbal confrontation",
+      "relationship": "Antagonistic exchange"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shishupala mocks Bhishma for praising Krishna like a eulogist and challenges Krishna to demonstrate his power against enemies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shishupala",
+        "Bhishma",
+        "Krishna"
+      ],
+      "action": "Mockery and challenge",
+      "relationship": "Shishupala antagonizes both Bhishma and Krishna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shishupala suggests Bhishma praise other kings instead of Krishna, listing King Dharata of Parichakra, Karna (King of Anga and Vanga), Drona, and Ashwatthama.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shishupala",
+        "Bhishma",
+        "Dharata",
+        "Karna",
+        "Drona",
+        "Ashwatthama"
+      ],
+      "action": "Listing alternative praise-worthy figures",
+      "relationship": "Shishupala highlights rival warriors to diminish Krishna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shishupala criticizes Bhishma's behavior as inappropriate for noble people, comparing him to the foolish Pringa bird that speaks untruthfully and acts recklessly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shishupala",
+        "Bhishma"
+      ],
+      "action": "Moral criticism and analogy",
+      "relationship": "Shishupala accuses Bhishma of hypocrisy and folly"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma responds to Shishupala's harsh words, asserting that while his life depends on the kings' will, he considers them worthless like straw.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Shishupala",
+        "Other Kings"
+      ],
+      "action": "Defiant retort",
+      "relationship": "Bhishma insults the assembled kings, escalating tension"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The kings become furious upon hearing Bhishma's words, with some bristling with anger and others rebuking him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Other Kings",
+        "Bhishma"
+      ],
+      "action": "Collective outrage",
+      "relationship": "Kings turn against Bhishma due to his insult"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Angry kings propose to kill Bhishma like an animal or burn him with hay.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Kings (unspecified)"
+      ],
+      "action": "Threat of execution",
+      "relationship": "Bhishma is threatened by the kings"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma responds defiantly, placing his foot on their heads metaphorically and challenges them to fight Krishna instead.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Kings (unspecified)",
+        "Krishna"
+      ],
+      "action": "Defiant response and challenge",
+      "relationship": "Bhishma challenges the kings to confront Krishna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Shishupala of Chedi hears Bhishma's words and challenges Krishna to battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shishupala",
+        "Krishna"
+      ],
+      "action": "Challenge to battle",
+      "relationship": "Shishupala becomes an enemy of Krishna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shishupala insults Krishna, calling him a slave and unworthy of respect, and threatens to kill him and the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shishupala",
+        "Krishna",
+        "Pandavas"
+      ],
+      "action": "Insult and threat",
+      "relationship": "Hostility between Shishupala and Krishna/Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna recounts Shishupala's past offenses against him and his family.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Shishupala"
+      ],
+      "action": "Recitation of grievances",
+      "relationship": "Krishna details Shishupala's enmity and crimes"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna declares he can no longer forgive Shishupala's crimes and insults.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Shishupala"
+      ],
+      "action": "Declaration of no forgiveness",
+      "relationship": "Krishna resolves to confront Shishupala"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna (Vasudeva's son) spoke to the assembled kings, who began to condemn King Shishupala of Chedi.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Shishupala",
+        "Assembled Kings"
+      ],
+      "action": "Condemnation",
+      "relationships": "Krishna accuses Shishupala"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shishupala laughed at Krishna's words and accused Krishna of shamelessly mentioning Rukmini, who was originally promised to him, in front of all the kings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shishupala",
+        "Krishna",
+        "Rukmini"
+      ],
+      "action": "Accusation/Insult",
+      "relationships": "Shishupala claims Rukmini was promised to him"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna, enraged, released his Sudarshana Chakra and beheaded Shishupala.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Shishupala"
+      ],
+      "action": "Killing",
+      "supernatural_elements": "Sudarshana Chakra (divine discus)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A radiant light emerged from Shishupala's body, bowed to Krishna, and entered his body, astonishing the kings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shishupala",
+        "Krishna",
+        "Assembled Kings"
+      ],
+      "action": "Divine absorption",
+      "supernatural_elements": "Soul merging with Krishna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Unnatural phenomena occurred: rain without clouds, thunder, lightning, and earth tremors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Divine signs",
+      "supernatural_elements": "Supernatural weather and seismic events"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kings reacted variously: some silent, some angry, some praising Krishna, some neutral.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Assembled Kings",
+        "Krishna"
+      ],
+      "action": "Mixed reactions",
+      "relationships": "Divided opinions among kings"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sages, Brahmins, and powerful kings praised Krishna and approached him happily.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sages",
+        "Brahmins",
+        "Powerful Kings",
+        "Krishna"
+      ],
+      "action": "Praise and approval"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira (son of Kunti) ordered his brothers to perform proper funeral rites for Shishupala, which they did promptly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Pandava Brothers",
+        "Shishupala"
+      ],
+      "action": "Funeral arrangement",
+      "relationships": "Yudhishthira shows respect even to an enemy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira and the kings performed the coronation of Shishupala's son as the new king of Chedi.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Assembled Kings",
+        "Shishupala's Son"
+      ],
+      "action": "Succession arrangement",
+      "relationships": "Continuity of Chedi kingdom"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira's Rajasuya sacrifice proceeded splendidly under Krishna's protection, with abundant resources and food.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Krishna"
+      ],
+      "action": "Sacrifice protection",
+      "relationships": "Krishna as protector of the ritual"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna, holding his bow, discus, and mace, guarded the great sacrifice until its completion.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "action": "Divine guardianship",
+      "supernatural_elements": "Krishna's divine weapons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After the sacrifice, kings approached Yudhishthira, praised his righteousness and hospitality, and requested permission to return to their kingdoms.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Assembled Kings",
+        "Yudhishthira"
+      ],
+      "action": "Farewell and praise",
+      "relationships": "Kings acknowledge Yudhishthira's authority and generosity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "法王坚战向到访的国王们表示敬意，并吩咐弟弟们依礼送别他们。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "众国王"
+      ],
+      "action": "送别",
+      "type": "礼仪/告别"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战的弟弟们依命陪送各位国王：猛光送毗罗吒，阿周那送祭军，怖军送毗湿摩和持国王，偕天送德罗纳及其子，无种送妙力及其子，黑公主之子与妙贤公主之子送山区国王们。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "猛光",
+        "毗罗吒",
+        "阿周那",
+        "祭军",
+        "怖军",
+        "毗湿摩",
+        "持国王",
+        "偕天",
+        "德罗纳",
+        "无种",
+        "妙力",
+        "黑公主之子",
+        "妙贤公主之子",
+        "山区国王们"
+      ],
+      "action": "陪送",
+      "relationships": "兄弟执行长兄命令，体现家族团结与礼仪"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "众国王与婆罗门离去后，黑天向坚战告辞，要回多门城。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天",
+        "坚战"
+      ],
+      "action": "告辞",
+      "type": "告别"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战感谢黑天，承认王祭的成功与国王们的归顺都依赖黑天的福佑，但同意他返回。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "黑天"
+      ],
+      "action": "感谢与同意",
+      "relationships": "坚战表达对黑天的依赖与感激，黑天作为关键支持者"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天在坚战陪同下辞别普利塔（贡蒂）、妙贤和德罗波蒂，得到祝福后登车启程。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天",
+        "坚战",
+        "普利塔（贡蒂）",
+        "妙贤",
+        "德罗波蒂"
+      ],
+      "action": "辞别与启程",
+      "relationships": "黑天作为亲属（普利塔的侄子等）辞行，体现家族纽带"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战和弟弟们徒步送别黑天，黑天暂停车辆，告诫坚战要谨慎保护臣民，强调其领导责任。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天",
+        "坚战",
+        "坚战的弟弟们"
+      ],
+      "action": "告诫与送别",
+      "relationships": "黑天以导师身份给予坚战治国建议，强化其王者职责"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天与般度之子们互道珍重后分手，黑天返回多门城。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天",
+        "般度之子们（坚战及其弟弟们）"
+      ],
+      "action": "告别与返回",
+      "type": "分离"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌王和沙恭尼留下，住在大会堂里。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌王",
+        "沙恭尼"
+      ],
+      "action": "留下",
+      "note": "暗示后续潜在冲突或情节发展"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana and Shakuni stayed in the assembly hall and carefully examined its entire structure.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Shakuni"
+      ],
+      "type": "Observation",
+      "relationship": "Nephew and maternal uncle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana mistook a crystal floor for a pond, lifted his clothes, realized his error, and became unhappy.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Mistake and embarrassment",
+      "location": "Assembly hall"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana fell into a real pond, thinking it was crystal floor, and attendants laughed while providing him new clothes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Attendants"
+      ],
+      "action": "Accidental fall and laughter",
+      "supernatural_elements": "Illusion/misperception"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima, Arjuna, Nakula, and Sahadeva laughed at Duryodhana's mishap.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Duryodhana"
+      ],
+      "type": "Mockery",
+      "relationship": "Cousins (Pandavas and Kaurava)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana became angry but concealed his emotions, not looking at those laughing.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Suppressed anger",
+      "emotional_state": "Resentment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana made further mistakes with doors, confusing open and closed ones.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Confusion and errors",
+      "location": "Assembly hall"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After numerous embarrassments, Duryodhana departed from the Pandavas, displeased by the wealth displayed at the Rajasuya sacrifice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Pandavas"
+      ],
+      "action": "Departure",
+      "emotional_state": "Displeasure and envy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana returned to Hastinapura, his mind burning with envy over the Pandavas' fortune, leading to sinful thoughts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Return journey",
+      "emotional_state": "Envy and resentment",
+      "plot_point": "Origin of conflict"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana observed the Pandavas' prosperity, the allegiance of kings, and global support for them, causing his face to lose color in anger.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Yudhishthira",
+        "Pandavas"
+      ],
+      "type": "Observation and reaction",
+      "relationship": "Rivalry between Kauravas and Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana became absent-minded, recalling Yudhishthira's magnificent assembly hall and wealth, ignoring Shakuni's attempts to speak to him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Shakuni",
+        "Yudhishthira"
+      ],
+      "action": "Preoccupation and neglect",
+      "emotional_state": "Obsession and envy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shakuni noticed Duryodhana's distraction and asked why he was sighing.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shakuni",
+        "Duryodhana"
+      ],
+      "type": "Inquiry",
+      "relationship": "Maternal uncle concerned about nephew"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana expressed his envy, comparing himself to a drying pond, over Arjuna's conquests and Yudhishthira's rule, and Krishna's killing of Shishupala without opposition.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Arjuna",
+        "Yudhishthira",
+        "Krishna",
+        "Shishupala"
+      ],
+      "action": "Expression of envy",
+      "emotional_state": "Jealousy and frustration",
+      "divine_elements": "Reference to Krishna's divine action"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The kings tolerated the crime out of fear of the Pandavas' power.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Kings",
+        "The Pandavas"
+      ],
+      "action": "Tolerance under duress",
+      "reason": "Fear of the Pandavas' power"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna accomplished a great but improper deed with the help of the Pandavas' power.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "The Pandavas"
+      ],
+      "action": "Accomplishment of an improper deed",
+      "relationship": "Krishna relies on the Pandavas' strength"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The kings brought various jewels and offered them to Yudhishthira like tax-paying Vaishyas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Kings",
+        "Yudhishthira"
+      ],
+      "action": "Offering tribute",
+      "symbolism": "Submission and tribute"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana expresses intense jealousy and despair upon seeing Yudhishthira's prosperity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Yudhishthira"
+      ],
+      "emotion": "Jealousy and despair",
+      "conflict": "Rivalry between the Kauravas and Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana contemplates suicide due to his inability to match the Pandavas' success.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Contemplation of suicide",
+      "reason": "Inability to achieve prosperity and lack of support"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana acknowledges the supremacy of fate over human effort, seeing the Pandavas thrive despite his efforts to destroy them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "The Pandavas"
+      ],
+      "realization": "Supremacy of fate",
+      "outcome": "Pandavas prosper despite opposition"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana feels humiliated and tormented by the prosperity of the Pandavas and the mockery of the guards.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "The Pandavas",
+        "The Guards"
+      ],
+      "emotion": "Humiliation and torment",
+      "social_dynamics": "Mockery and social pressure"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana asks Shakuni to convey his anguish and jealousy to Dhritarashtra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Shakuni",
+        "Dhritarashtra"
+      ],
+      "action": "Request to convey message",
+      "relationship": "Duryodhana confides in Shakuni, his uncle, to inform Dhritarashtra, his father"
+    },
+    "_token_interval": null
+  }
+]

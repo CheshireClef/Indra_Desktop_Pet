@@ -1,0 +1,1322 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma, filled with anger, is surrounded by the Pandavas in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Pandavas"
+      ],
+      "type": "Battle Conflict",
+      "description": "Bhishma is encircled by the Pandava forces during the Kurukshetra war."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana instructs Dushasana to protect Bhishma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Dushasana",
+        "Bhishma"
+      ],
+      "type": "Military Command",
+      "description": "Duryodhana orders Dushasana to protect their grandfather Bhishma, believing Bhishma will defeat the Pandavas if protected.",
+      "relationships": [
+        "Duryodhana and Dushasana are brothers",
+        "Bhishma is their grandfather"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dushasana leads a large army to surround and protect Bhishma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dushasana",
+        "Bhishma"
+      ],
+      "type": "Military Maneuver",
+      "description": "Dushasana follows Duryodhana's command and mobilizes forces to shield Bhishma."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shakuni leads a cavalry force of 100,000 horses to join the protection of Bhishma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shakuni",
+        "Bhishma"
+      ],
+      "type": "Military Reinforcement",
+      "description": "Shakuni brings a massive cavalry unit equipped with spears, swords, and javelins to support Bhishma's defense.",
+      "relationships": [
+        "Shakuni is Duryodhana's maternal uncle"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Kaurava forces intercept and surround Yudhishthira, Nakula, and Sahadeva.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Nakula",
+        "Sahadeva",
+        "Kaurava Army"
+      ],
+      "type": "Battle Engagement",
+      "description": "The reinforced Kaurava army surrounds the Pandava brothers Yudhishthira, Nakula, and Sahadeva from all sides."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana sends an additional 10,000 cavalrymen to block the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Pandavas"
+      ],
+      "type": "Military Deployment",
+      "description": "Duryodhana dispatches more cavalry to encircle and pressure the Pandava forces."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Kaurava cavalry charges, causing the earth to shake and dust to obscure the sun.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kaurava Cavalry"
+      ],
+      "type": "Battle Charge",
+      "description": "The cavalry charge is described with epic imagery: earth shaking, dust clouds, and noise like burning bamboo forests."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira and the Pandava twins valiantly resist the cavalry charge.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Nakula",
+        "Sahadeva",
+        "Kaurava Cavalry"
+      ],
+      "type": "Battle Defense",
+      "description": "The Pandava brothers stand firm against the cavalry onslaught, compared to a shore holding back the sea."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandava charioteers decimate the Kaurava cavalry with arrows, spears, and swords.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava Charioteers",
+        "Kaurava Cavalry"
+      ],
+      "type": "Battle Carnage",
+      "description": "Pandava forces inflict heavy casualties, cutting off heads and causing horses and riders to fall by the hundreds and thousands."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The surviving Kaurava cavalry flees in panic.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kaurava Cavalry"
+      ],
+      "type": "Battle Retreat",
+      "description": "The remaining cavalry scatters in fear, compared to deer fleeing from a lion."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas win this phase of the battle, blowing conches and beating drums.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas"
+      ],
+      "type": "Battle Victory",
+      "description": "The Pandavas achieve a temporary victory, celebrating with traditional war sounds."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana, seeing his army's defeat, urges Shalya to stop Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Shalya",
+        "Yudhishthira"
+      ],
+      "type": "Military Command",
+      "description": "Duryodhana commands Shalya to confront and halt Yudhishthira, who is visibly defeating the Kaurava forces.",
+      "relationships": [
+        "Shalya is the king of Madra and Duryodhana's maternal uncle"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Shalya, incited by his son's words about his unmatched strength and courage, led his chariot forces and charged toward King Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Shalya",
+        "King Yudhishthira"
+      ],
+      "type": "Battle Charge",
+      "initiator": "King Shalya",
+      "target": "King Yudhishthira"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira intercepted the rapidly advancing army of King Shalya in battle, comparing it to containing a raging flood.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira",
+        "King Shalya"
+      ],
+      "action": "Interception/Defense"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira swiftly shot ten arrows that struck King Shalya's chest. Nakula and Sahadeva each shot three straight-flying arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira",
+        "King Shalya",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "action": "Archery Attack",
+      "target": "King Shalya"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Shalya retaliated by shooting three arrows at each of them (Nakula and Sahadeva), sixty sharp arrows at Yudhishthira, and two arrows at each of the angry Madri twins (Nakula and Sahadeva).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Shalya",
+        "Nakula",
+        "Sahadeva",
+        "King Yudhishthira"
+      ],
+      "action": "Retaliatory Archery Attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima, seeing Yudhishthira under King Shalya's control as if in the jaws of death, rushed to Yudhishthira's aid.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "King Yudhishthira",
+        "King Shalya"
+      ],
+      "action": "Rescue/Intervention",
+      "motivation": "Protect Yudhishthira"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "As the brilliant sun moved west, a fierce and terrible battle began.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Collective Combatants"
+      ],
+      "type": "Battle Commencement",
+      "setting": "Late afternoon"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma, in a rage, shot superior sharp arrows in all directions at the sons of Pritha (the Pandavas) and their army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "The Pandavas (Collective)"
+      ],
+      "action": "Mass Archery Attack",
+      "emotional_state": "Angry"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma's arrows hit Bhima (12), Satyaki (9), Nakula (3), Sahadeva (7), Yudhishthira's arms and chest (12), and he then hit Shikhandin with a roar.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Bhima",
+        "Satyaki",
+        "Nakula",
+        "Sahadeva",
+        "King Yudhishthira",
+        "Shikhandin"
+      ],
+      "action": "Precise Archery Strikes"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula shot six arrows back at Bhishma, Satyaki shot three, Shikhandin shot seventy, Bhima shot five, and Yudhishthira shot twelve.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Satyaki",
+        "Shikhandin",
+        "Bhima",
+        "King Yudhishthira",
+        "Bhishma"
+      ],
+      "action": "Retaliatory Archery Volley",
+      "target": "Bhishma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona shot five sharp arrows like Yama's staff, hitting Satyaki and Bhima.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Satyaki",
+        "Bhima"
+      ],
+      "action": "Archery Attack",
+      "weapon_description": "Arrows like Yama's staff"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki and Bhima each shot three straight-flying arrows back at Drona, likened to hitting an elephant with a goad.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Bhima",
+        "Drona"
+      ],
+      "action": "Retaliatory Archery Attack",
+      "simile": "Hitting an elephant with a goad"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Warriors from various regions (Sauviras, Kitavas, Easterners, Westerners, Northerners, Malavas, Abhishahas, Surasenas, Shibis, Vasatis) were slain by arrows but could not kill Bhishma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Collective Regional Warriors",
+        "Bhishma"
+      ],
+      "action": "Mass Slaughter",
+      "outcome": "Bhishma remains unharmed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Other warriors were slain by the noble-souled Pandavas. Meanwhile, the Pandavas surrounded Bhishma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Pandavas (Collective)",
+        "Bhishma",
+        "Opposing Warriors"
+      ],
+      "actions": [
+        "Slaying enemies",
+        "Surrounding Bhishma"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma, though encircled by streams of chariots, remained invincible, likened to a forest fire blazing up and burning enemies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "state": "Invincible in battle",
+      "simile": "Blazing forest fire"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A metaphorical description: Bhishma's chariot is the fire-altar, his bow the flame, his sword/javelin/mace the fuel, his arrows the sparks—the Bhishma-fire burns the Kshatriya bulls.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Metaphorical Description",
+      "theme": "Bhishma as a destructive force of nature"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma covered the enemy army with powerful arrows of various types (gold-feathered, vulture-feathered, ear-arrows, iron arrows).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Mass Arrow Barrage",
+      "arrow_types": [
+        "Gold-feathered",
+        "Vulture-feathered",
+        "Ear-arrows",
+        "Iron arrows"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma shot down banners and chariot warriors, making the chariot forces look like a Tala forest with tree-tops lopped off.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Decimating enemy forces",
+      "simile": "Lopped Tala forest"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The great-armed warrior, skilled in weapons, rendered chariots, elephants, and horses driverless in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Disabling enemy vehicles and mounts"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sound of Bhishma's bowstring and clapping was like thunder, terrifying all beings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Auditory Effect",
+      "simile": "Thunder",
+      "effect": "Terror"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma's arrows never missed and never lodged in armor; they were shot from his bow without fail.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 20,
+    "group_index": 19,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "attribute": "Perfect Archery",
+      "quality": "Unfailing and penetrating"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The narrator (Sanjaya) describes seeing many swift horses dragging chariots of dead heroes, running across the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 21,
+    "group_index": 20,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya (Narrator)"
+      ],
+      "type": "Battlefield Observation",
+      "scene": "Chariots of dead heroes dragged by horses"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The armies of Chedi, Kashi, and Karusha kingdoms with fourteen thousand noble warriors fought against Bhishma in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Chedi warriors",
+        "Kashi warriors",
+        "Karusha warriors"
+      ],
+      "type": "Battle",
+      "action": "Warriors engage Bhishma in combat",
+      "supernatural_elements": "Warriors described as falling like meeting Death with gaping mouth"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Massive destruction described with broken chariots, dead soldiers, elephants, horses, and weapons covering the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Pandava army"
+      ],
+      "type": "Battle destruction",
+      "action": "Widespread death and destruction",
+      "relationships": "Bhishma causing devastation to Pandava forces"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Due to fate's power, fathers killed sons, sons killed fathers, and friends killed close friends in the confusion of battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Various warriors"
+      ],
+      "type": "Tragic conflict",
+      "action": "Familial and friendly killings",
+      "relationships": "Family and friendship bonds broken in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna (also called Vasudeva, Madhava) saw the Pandava army being routed and spoke to Arjuna (also called Partha, Vijaya).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna"
+      ],
+      "type": "Divine intervention",
+      "action": "Krishna urges Arjuna to fight",
+      "relationships": "Krishna as Arjuna's charioteer and guide",
+      "supernatural_elements": "Krishna's divine guidance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna reminded Arjuna of his vow made at Virata's assembly to kill Bhishma, Drona, and the Kaurava army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna",
+        "Bhishma",
+        "Drona"
+      ],
+      "type": "Reminder of vow",
+      "action": "Krishna recalls Arjuna's promise",
+      "relationships": "Arjuna's commitment to fight his elders and teachers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna expressed moral dilemma about whether to kill those who shouldn't be killed and gain kingdom or go to forest exile.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "type": "Moral conflict",
+      "action": "Arjuna's hesitation",
+      "relationships": "Arjuna's conflict about fighting his elders"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna agreed to follow Krishna's command and kill Bhishma, the invincible Kuru grandfather.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna",
+        "Bhishma"
+      ],
+      "type": "Decision",
+      "action": "Arjuna accepts his duty",
+      "relationships": "Arjuna resolves to fight his grandfather Bhishma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna drove the silver-white horses toward Bhishma, who shone like the sun and was difficult to look at.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna",
+        "Bhishma"
+      ],
+      "type": "Movement to battle",
+      "action": "Approaching Bhishma",
+      "supernatural_elements": "Bhishma described as sun-like and radiant"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing Arjuna advancing against Bhishma, Yudhishthira's army regained courage and resumed fighting.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Bhishma",
+        "Yudhishthira",
+        "Pandava army"
+      ],
+      "type": "Morale boost",
+      "action": "Army inspired by Arjuna's action",
+      "relationships": "Arjuna's leadership inspires Pandava forces"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma roared like a lion and showered arrows on Arjuna's chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Arjuna"
+      ],
+      "type": "Battle engagement",
+      "action": "Bhishma attacks Arjuna",
+      "relationships": "Grandfather and grandson in direct combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna, his chariot, horses, and charioteer were enveloped in a shower of arrows and could see nothing.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna"
+      ],
+      "action": "Arjuna's forces overwhelmed by arrows",
+      "supernatural_elements": "Arrow shower"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna calmly and firmly drove the horses that were struck by Bhishma's arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Bhishma"
+      ],
+      "action": "Krishna steers chariot under attack",
+      "relationships": "Krishna is Arjuna's charioteer and guide"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna used his divine bow to shoot and break Bhishma's bow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Bhishma"
+      ],
+      "action": "Arjuna breaks Bhishma's bow",
+      "supernatural_elements": "Divine bow (Gandiva)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma quickly picked up another bow and strung it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Bhishma recovers with new bow",
+      "relationships": "Bhishma is commander of Kaurava army"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Angry Arjuna again broke Bhishma's bow with his divine bow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Bhishma"
+      ],
+      "action": "Arjuna breaks Bhishma's bow again",
+      "relationships": "Arjuna and Bhishma are opponents in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma praised Arjuna's skill and agility.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Arjuna"
+      ],
+      "action": "Bhishma compliments Arjuna",
+      "relationships": "Bhishma respects Arjuna despite being enemies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma took another fine bow and shot arrows at Arjuna's chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Arjuna"
+      ],
+      "action": "Bhishma continues attacking Arjuna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna displayed supreme power by maneuvering the chariot in circles, causing Bhishma's arrows to miss.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Bhishma"
+      ],
+      "action": "Krishna evades arrows with chariot skills",
+      "supernatural_elements": "Krishna's divine power"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma and Arjuna, both wounded by arrows, fought fiercely like two angry bulls goring each other.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Arjuna"
+      ],
+      "action": "Intense duel between Bhishma and Arjuna",
+      "relationships": "Grandfather (Bhishma) vs grandson (Arjuna)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna observed Arjuna fighting weakly while Bhishma continuously showered arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna",
+        "Bhishma"
+      ],
+      "action": "Krishna assesses the battle situation",
+      "relationships": "Krishna is concerned for Arjuna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma stood between the two armies like a burning sun, slaughtering Pandava warriors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Bhishma devastates Pandava army",
+      "supernatural_elements": "Bhishma compared to burning sun"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna could not tolerate Bhishma's destruction of Yudhishthira's army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Bhishma",
+        "Yudhishthira"
+      ],
+      "action": "Krishna becomes enraged",
+      "relationships": "Krishna is protector of Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The angry great yogi Krishna threw down the reins, jumped from the chariot, and rushed toward Bhishma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Bhishma"
+      ],
+      "action": "Krishna abandons charioteer role to attack",
+      "supernatural_elements": "Krishna as great yogi"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna roared like a lion and rushed forward as if crushing the earth with his feet.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "action": "Krishna's terrifying advance",
+      "supernatural_elements": "Krishna compared to world-destroyer"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna's eyes turned red with anger, blazing with light, as if destroying the spirits of his enemies in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "action": "Krishna's divine wrath manifests",
+      "supernatural_elements": "Krishna's divine form emerging"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing Krishna rushing toward Bhishma, soldiers cried 'Bhishma is doomed!' and fled in fear of Krishna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Bhishma"
+      ],
+      "action": "Armies panic at Krishna's advance",
+      "relationships": "Soldiers fear Krishna's power"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna, wearing yellow silk with dark skin shining like a gem, rushed toward Bhishma like a cloud adorned with lightning.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Bhishma"
+      ],
+      "action": "Krishna's majestic charge",
+      "supernatural_elements": "Divine description of Krishna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The mighty bull of the Yadava clan roared as he rushed forward like a lion attacking an elephant.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "action": "Krishna charges with terrifying force"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing lotus-eyed Krishna rushing forward, Bhishma calmly strung his great bow and spoke to Govinda (Krishna).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Krishna"
+      ],
+      "action": "Bhishma prepares to face Krishna directly",
+      "relationships": "Bhishma recognizes Krishna's divinity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma invited Krishna to kill him in battle, saying it would be the greatest fortune to be killed by Krishna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 20,
+    "group_index": 19,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Krishna"
+      ],
+      "action": "Bhishma welcomes death by Krishna's hand",
+      "relationships": "Bhishma seeks honorable death from divinity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna chased after Kesava (Krishna), caught him, and embraced him with both arms.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 21,
+    "group_index": 20,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna"
+      ],
+      "action": "Arjuna stops Krishna from attacking Bhishma",
+      "relationships": "Arjuna prevents Krishna from breaking his vow of non-combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna continued advancing forcefully while dragging Arjuna, who was holding him back.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna"
+      ],
+      "action": "Physical struggle",
+      "relationships": "Krishna is Arjuna's charioteer and friend; Arjuna is trying to restrain Krishna."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna managed to stop Krishna at the tenth step with great effort.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna"
+      ],
+      "action": "Restraint",
+      "relationships": "Arjuna succeeds in physically stopping Krishna's advance."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna pleaded with an angry Krishna to stop and not break his vow of non-participation in the war.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna"
+      ],
+      "action": "Plea/Argument",
+      "relationships": "Arjuna reminds Krishna of his promise and urges him to maintain his honor; he vows to kill Bhishma himself.",
+      "supernatural_elements": "Reference to Krishna's divine nature (Keshava, descendant of Madhu)."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna, angered but silent, returned to the chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "action": "Withdrawal",
+      "relationships": "Krishna acquiesces to Arjuna's plea but remains furious.",
+      "emotional_state": "Anger, silence"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma showered arrows upon Krishna and Arjuna on their chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Krishna",
+        "Arjuna"
+      ],
+      "action": "Attack",
+      "relationships": "Bhishma (commander of the Kaurava army) attacks the Pandava heroes; he is the son of King Shantanu (Ganga's son).",
+      "supernatural_elements": "Simile comparing the arrow shower to a cloud pouring rain on mountains."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma decimated the Pandava army, causing terror and despair.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Pandava army"
+      ],
+      "action": "Mass slaughter",
+      "relationships": "Bhishma, fighting for the Kauravas, devastates the opposing Pandava forces.",
+      "supernatural_elements": "Similes comparing Bhishma to the sun,死神 (god of death), and his arrows to scorching sunlight; the army is described as helpless like cattle in mud or ants being crushed."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sun set, ending the day's battle as the exhausted armies desired respite.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandava army",
+        "Kaurava army"
+      ],
+      "action": "Cessation of battle",
+      "relationships": "The day's fighting concludes due to nightfall, providing temporary relief from Bhishma's onslaught."
+    },
+    "_token_interval": null
+  }
+]

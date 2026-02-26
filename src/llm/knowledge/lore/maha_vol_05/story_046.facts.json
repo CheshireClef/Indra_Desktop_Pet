@@ -1,0 +1,458 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira expresses his confusion about the nature of hope to Bhishma, referencing his shattered hopes regarding Duryodhana's actions before the war.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Philosophical Inquiry",
+      "relationships": [
+        "Grandson (Yudhishthira) seeks wisdom from grandfather (Bhishma)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma begins to narrate a legend that occurred between King Sumitra and a deer (Rishabha).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "King Sumitra",
+        "Rishabha (the deer)"
+      ],
+      "type": "Story Introduction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Sumitra of the Haihaya dynasty goes hunting and wounds a brave deer with an arrow, then pursues it relentlessly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Sumitra",
+        "Rishabha (the deer)"
+      ],
+      "action": "Hunting/Pursuit",
+      "supernatural_elements": "The deer exhibits extraordinary speed and endurance despite being wounded."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The wounded deer leads King Sumitra on a long, exhausting chase through varied terrain, seemingly playing with him by alternately approaching and retreating.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Sumitra",
+        "Rishabha (the deer)"
+      ],
+      "action": "Extended Pursuit",
+      "relationships": [
+        "Pursuer (King Sumitra) and prey (Rishabha)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Sumitra, exhausted and having lost hope of catching the deer, enters a hermitage (ashrama) of sages.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Sumitra",
+        "Sages (unnamed)"
+      ],
+      "action": "Arrival at Hermitage",
+      "state_change": "King transitions from active pursuit to rest and despair."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sages approach the weary, hungry, and thirsty king, offer him hospitality according to protocol, and inquire about his identity and purpose.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sages (unnamed)",
+        "King Sumitra"
+      ],
+      "action": "Hospitality and Inquiry",
+      "relationships": [
+        "Hosts (Sages) and guest (King Sumitra)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Sumitra identifies himself as the son of Mitra from the Haihaya family, explains he was hunting and chasing a wounded deer, and states he arrived at the hermitage by accident, feeling his glory diminished and hope destroyed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Sumitra"
+      ],
+      "action": "Self-Introduction and Explanation",
+      "key_plot_point": "King explicitly links his physical exhaustion to the loss of hope, connecting to Yudhishthira's initial question."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A distressed speaker arrives at the ashram of the sages, expressing profound despair over the loss of his hopes, royal insignia, and distance from the city.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unnamed Speaker"
+      ],
+      "type": "Arrival/Despair",
+      "relationships": "The speaker seeks wisdom from the sages (rishis)."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker asks the sages which is greater in the world: human hope or the sky, and what is most difficult to obtain.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unnamed Speaker",
+        "Sages (Rishis)"
+      ],
+      "type": "Philosophical Inquiry",
+      "relationships": "Speaker poses a question to the assembled sages."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In response, the sage Rishabha begins narrating a past experience to answer the speaker's question.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rishabha"
+      ],
+      "type": "Narrative Frame",
+      "relationships": "Rishabha addresses the speaker (implied to be Bhishma, based on context) and the assembly."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rishabha describes visiting the sacred ashram of Nara and Narayana, performing rituals, and then seeking shelter in a nearby ashram.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rishabha",
+        "Nara",
+        "Narayana"
+      ],
+      "type": "Pilgrimage",
+      "supernatural_elements": "Ashram of the divine sages Nara and Narayana."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rishabha encounters an extraordinarily tall yet emaciated sage named Danu, whose thinness is unparalleled, causing Rishabha fear.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rishabha",
+        "Danu"
+      ],
+      "type": "Encounter",
+      "relationships": "Rishabha pays respects to Danu."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rishabha introduces himself to Danu and sits as instructed, after which Danu begins discussing dharma (righteousness) and artha (prosperity) among the sages.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rishabha",
+        "Danu",
+        "Other Sages"
+      ],
+      "type": "Dialogue/Teaching",
+      "relationships": "Danu leads a discussion on spiritual and worldly matters."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "During the discussion, a king arrives—lotus-eyed, riding a fast horse, with his army and queens. He is from the Raghu dynasty, father of Puridyumna, renowned and wise.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unnamed King (Raghu dynasty)",
+        "Puridyumna"
+      ],
+      "type": "Arrival",
+      "relationships": "The king is the father of Puridyumna, who is missing."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The king is wandering the forest, anxiously searching for his missing son, repeatedly expressing hope that he will find him, despite the difficulty.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unnamed King (Raghu dynasty)",
+        "Puridyumna"
+      ],
+      "type": "Search/Desperation",
+      "relationships": "Father desperately seeks his missing son."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Virodhayoma, searching for his missing son Puridhyoma, arrives at the hermitage and addresses the sages.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Virodhayoma",
+        "Sages"
+      ],
+      "action": "Arrival and Inquiry",
+      "relationships": "King Virodhayoma is the father of Puridhyoma, his missing son."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sage Danu (also referred to as '尊者多努' and '瘦削的多努') remains silent and does not answer the king's questions, recalling past disrespect from the king.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Danu",
+        "King Virodhayoma"
+      ],
+      "action": "Silence and Reflection",
+      "relationships": "Sage Danu harbors resentment due to past insufficient respect from King Virodhayoma."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Danu explains to King Virodhayoma the fragility and difficulty of obtaining 'hope' (or fulfillment of desires).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Danu",
+        "King Virodhayoma"
+      ],
+      "action": "Philosophical Discourse",
+      "key_points": [
+        "Nothing is more fragile or harder to obtain than hope.",
+        "Satisfying a petitioner is rare or non-existent; not despising a petitioner is even rarer.",
+        "Hope placed in those who make promises but do not fulfill them is fragile.",
+        "A father's hope for a missing only son is fragile.",
+        "An old, wealthy woman's hope to bear a son is fragile."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Virodhayoma and his queen prostrate themselves at the feet of Sage Danu.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Virodhayoma",
+        "Queen",
+        "Sage Danu"
+      ],
+      "action": "Prostration",
+      "relationships": "Demonstrates reverence and submission by the royal couple to the sage."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person (likely a king) pleads with a Brahmin (identified later as Rishabha) to reunite with his son and offers the Brahmin a boon of his choice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unnamed King",
+        "Rishabha"
+      ],
+      "type": "Plea for Help",
+      "relationships": [
+        "King seeks help from Brahmin"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rishabha, using his ascetic and scholarly powers, immediately brings the king's son to him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rishabha",
+        "Unnamed King's Son"
+      ],
+      "action": "Supernatural retrieval",
+      "supernatural_elements": [
+        "Use of ascetic and scholarly powers"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rishabha returns the prince to the king, rebukes the king, and reveals his true identity as Dharma (the god of righteousness).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rishabha",
+        "Unnamed King"
+      ],
+      "action": "Revelation and rebuke",
+      "revelation": "Rishabha is Dharma",
+      "relationships": [
+        "Dharma rebukes the king"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dharma displays his divine form, purifies sins, abandons anger, and departs to a nearby forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dharma"
+      ],
+      "action": "Divine departure",
+      "supernatural_elements": [
+        "Display of divine form",
+        "Purification of sins"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The narrator (likely Bhishma) recounts this story to King Yudhishthira (referred to as 'son of Kunti' and 'king') to advise him to abandon fragile hopes and remain steadfast like a mountain.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Yudhishthira"
+      ],
+      "type": "Moral instruction",
+      "relationships": [
+        "Bhishma advises Yudhishthira"
+      ],
+      "plot_point": "Bhishma uses the story to counsel Yudhishthira against despair"
+    },
+    "_token_interval": null
+  }
+]

@@ -1,0 +1,1471 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Rituparna heard about Damayanti's swayamvara and expressed his desire to attend, asking his charioteer Bahuka if they could reach Vidarbha in one day.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Rituparna",
+        "Bahuka"
+      ],
+      "action": "Conversation/Planning",
+      "relationships": "King Rituparna is Bahuka's employer"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bahuka (Nala in disguise) heard King Rituparna's words and experienced emotional turmoil, suspecting Damayanti's swayamvara might be a scheme to find him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bahuka (Nala)",
+        "Damayanti"
+      ],
+      "action": "Internal monologue/Emotional reaction",
+      "relationships": "Bahuka is actually Nala, Damayanti's husband; they have two children together"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bahuka decided to use King Rituparna's journey to Damayanti's swayamvara as an opportunity to achieve his own goal of reuniting with Damayanti.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bahuka (Nala)",
+        "King Rituparna",
+        "Damayanti"
+      ],
+      "action": "Decision/Planning",
+      "relationships": "Bahuka (Nala) plans to manipulate King Rituparna's journey for his own purpose"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bahuka assured King Rituparna they could reach Vidarbha in one day and went to select horses according to the king's command.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bahuka (Nala)",
+        "King Rituparna"
+      ],
+      "action": "Assurance/Horse selection",
+      "relationships": "Bahuka demonstrates his expertise as a charioteer"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bahuka selected four thin but capable Sindhu horses that were excellent for long-distance travel, though they appeared unimpressive to the untrained eye.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bahuka (Nala)"
+      ],
+      "action": "Horse selection/Expertise demonstration",
+      "supernatural_elements": "Nala's exceptional knowledge of horses despite his current circumstances"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Rituparna initially doubted the horses' ability to make the journey but ultimately trusted Bahuka's expertise.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Rituparna",
+        "Bahuka (Nala)"
+      ],
+      "action": "Doubt/Trust",
+      "relationships": "King Rituparna relies on Bahuka's specialized knowledge"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bahuka yoked the four excellent horses to the king's chariot, and King Rituparna quickly boarded as the horses knelt down.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bahuka (Nala)",
+        "King Rituparna"
+      ],
+      "action": "Chariot preparation/Departure",
+      "relationships": "Final preparation for the journey to Vidarbha"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nala (disguised as Bahuka) calms the powerful horses and expertly drives the chariot at high speed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nala (Bahuka)",
+        "Varshneya",
+        "King Rituparna"
+      ],
+      "action": "Chariot driving demonstration",
+      "relationships": "Nala (disguised) serves as charioteer for King Rituparna; Varshneya is the original charioteer observing",
+      "supernatural_elements": "Varshneya suspects Bahuka might be divine (Matali, Indra's charioteer) or the sage Shalihotra due to exceptional skill"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Varshneya hears the chariot's roar and Nala's commands, recognizing similarities to Nala's driving style.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Varshneya",
+        "Nala (Bahuka)"
+      ],
+      "action": "Recognition/observation",
+      "relationships": "Varshneya was Nala's former charioteer",
+      "plot_points": "Varshneya begins to suspect Bahuka's true identity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Varshneya contemplates Bahuka's identity, considering possibilities including Nala, despite the physical deformity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Varshneya",
+        "Nala (Bahuka)"
+      ],
+      "action": "Internal deliberation",
+      "relationships": "Varshneya's loyalty to Nala leads him to suspect the truth",
+      "plot_points": "Varshneya concludes Bahuka is Nala based on matching age, skill, and virtues"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Rituparna and Varshneya travel together, admiring Bahuka's exceptional charioteering skills.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Rituparna",
+        "Varshneya",
+        "Nala (Bahuka)"
+      ],
+      "action": "Journey/observation",
+      "relationships": "King Rituparna is pleased with his new charioteer's abilities"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The chariot travels swiftly across landscapes like a bird flying through the sky.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nala (Bahuka)",
+        "King Rituparna",
+        "Varshneya"
+      ],
+      "action": "Rapid journey",
+      "supernatural_elements": "Extreme speed described in supernatural terms"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Rituparna's garment falls from the chariot, and he asks Bahuka to stop so Varshneya can retrieve it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Rituparna",
+        "Nala (Bahuka)",
+        "Varshneya"
+      ],
+      "action": "Lost item incident",
+      "relationships": "King Rituparna gives orders to his charioteer",
+      "plot_points": "Nala reveals they've traveled too far to retrieve it"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Rituparna spots a Vibhitaka tree in the distance and boasts to Bahuka about his calculation skills.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Rituparna",
+        "Nala (Bahuka)"
+      ],
+      "action": "Boast/challenge",
+      "relationships": "King Rituparna attempts to impress his charioteer",
+      "plot_points": "Sets up potential demonstration of skills"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Rituparna boasts about his ability to count leaves and fruits on a Vibhitaka tree with precise numbers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Rituparna",
+        "Bahuka"
+      ],
+      "type": "Demonstration of skill"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bahuka doubts King Rituparna's claim and insists on verifying the count himself.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bahuka",
+        "King Rituparna"
+      ],
+      "action": "Challenge/Verification request"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Rituparna agrees to let Bahuka count the tree but sets a condition: they must reach Vidarbha before sunrise.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Rituparna",
+        "Bahuka"
+      ],
+      "condition": "Time constraint for journey"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bahuka counts the tree and confirms King Rituparna's numbers are accurate.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bahuka",
+        "King Rituparna"
+      ],
+      "action": "Verification/Confirmation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Rituparna reveals his skill comes from expertise in dice gambling and calculations.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Rituparna"
+      ],
+      "revelation": "Source of knowledge"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bahuka offers to exchange his charioteering skills for King Rituparna's dice gambling knowledge.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bahuka",
+        "King Rituparna"
+      ],
+      "action": "Skill exchange proposal"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Rituparna accepts the exchange and teaches Bahuka the dice gambling art.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Rituparna",
+        "Bahuka"
+      ],
+      "action": "Knowledge transfer",
+      "relationship_change": "Teacher-student relationship established"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "As Bahuka masters the dice gambling art, the demon Kali leaves his body, expelling the poison of the Karkotaka snake.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bahuka",
+        "Kali"
+      ],
+      "action": "Supernatural purification",
+      "supernatural_elements": [
+        "Demon Kali",
+        "Snake poison expulsion"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kali's curse ends, and King Nara (Bahuka's true identity) is freed from his long affliction.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kali",
+        "King Nara"
+      ],
+      "action": "Curse removal",
+      "revelation": "Bahuka's true identity as King Nara"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kali freed himself from snake venom and revealed his true form, causing King Nala to become enraged and attempt to curse him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kali",
+        "King Nala"
+      ],
+      "action": "Revelation and confrontation",
+      "supernatural_elements": [
+        "Kali's true form",
+        "curse attempt"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kali, trembling with fear, pleaded with Nala to calm his anger, promising to grant him the highest glory and explaining his suffering from Damayanti's curse.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kali",
+        "King Nala"
+      ],
+      "action": "Plea and explanation",
+      "relationships": [
+        "Kali fears Nala's curse",
+        "Kali mentions Damayanti's curse on him"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kali promised that people would tirelessly praise Nala forever and that he would no longer cause fear or unrest in the world.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kali",
+        "King Nala"
+      ],
+      "action": "Promise and vow",
+      "supernatural_elements": [
+        "Divine promise of eternal praise"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nala calmed his anger, and Kali immediately hid inside the Vibhitaka tree. Their conversation was not heard by others.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Nala",
+        "Kali"
+      ],
+      "action": "Resolution and hiding",
+      "supernatural_elements": [
+        "Kali hiding in tree"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nala was freed from his feverish symptoms, regained his sanity, and could count tree fruits clearly again. He then joyfully drove his chariot toward Vidarbha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Nala"
+      ],
+      "action": "Recovery and journey",
+      "relationships": [
+        "Nala regains mental clarity"
+      ],
+      "supernatural_elements": [
+        "Recovery from supernatural affliction"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Vibhitaka tree gained a bad reputation for sheltering Kali. Nala drove his horses like flying birds toward Vidarbha, while Kali returned home after Nala left.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Nala",
+        "Kali"
+      ],
+      "action": "Continued journey and separation",
+      "relationships": [
+        "Nala heading to Vidarbha",
+        "Kali returning home"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Rituparna arrived at Vidarbha at dusk. People informed King Bhima, who ordered Rituparna to enter Kundina city with his thundering chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Rituparna",
+        "King Bhima"
+      ],
+      "action": "Arrival and entry",
+      "relationships": [
+        "Rituparna arrives in Vidarbha",
+        "Bhima grants entry"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The horses left by Nala heard the chariot sounds and became excited as if Nala were present. Damayanti heard the chariot sounds and compared them to lotus flowers hearing thunder.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti",
+        "Nala's horses"
+      ],
+      "action": "Recognition and anticipation",
+      "relationships": [
+        "Damayanti recognizes Nala's chariot sound",
+        "Horses remember Nala"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Peacocks, elephants, and horses in the palace heard the earth-ruler's chariot sounds and raised their heads, calling out as if seeing clouds rise.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Animals in palace"
+      ],
+      "action": "Collective reaction",
+      "relationships": [
+        "Animals respond to chariot sounds"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti declared that only the earth-ruler Nala could make such chariot sounds, expressing joy and describing Nala as a moon-faced hero with indescribable virtues.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti",
+        "King Nala"
+      ],
+      "action": "Declaration and praise",
+      "relationships": [
+        "Damayanti identifies Nala",
+        "Expresses love for Nala"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti expresses her desperate longing for her husband Nala, threatening to end her life if she cannot be with him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti",
+        "Nala"
+      ],
+      "action": "Emotional lamentation",
+      "relationship": "Damayanti is Nala's devoted wife, heartbroken by his absence."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti sees a chariot arriving in the palace courtyard carrying King Rituparna, Varshneya, and an unfamiliar charioteer.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti",
+        "King Rituparna",
+        "Varshneya",
+        "Bahuka (Nala in disguise)"
+      ],
+      "action": "Observation/Arrival",
+      "relationship": "Bahuka is Nala in disguise; Varshneya is Nala's former charioteer; Rituparna is a visiting king."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bahuka (Nala) and Varshneya jump down from the chariot, slow the horses, and stabilize the vehicle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bahuka (Nala)",
+        "Varshneya"
+      ],
+      "action": "Chariot handling",
+      "relationship": "Bahuka is working as Rituparna's charioteer; Varshneya assists."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Rituparna leaves the chariot and approaches King Bhima.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Rituparna",
+        "King Bhima"
+      ],
+      "action": "Royal meeting",
+      "relationship": "Rituparna is a visiting king; Bhima is Damayanti's father and host king."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Bhima welcomes Rituparna with highest honors, unaware that Rituparna was drawn there by a woman's spell (referring to Damayanti's longing).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Bhima",
+        "King Rituparna"
+      ],
+      "action": "Royal reception",
+      "relationship": "Host and guest kings; Bhima is puzzled by the unexpected visit."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima asks Rituparna about the purpose of his visit, unaware it's for Damayanti.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Bhima",
+        "King Rituparna"
+      ],
+      "action": "Inquiry",
+      "relationship": "Bhima suspects an unusual reason for the visit."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rituparna, observing no signs of a swayamvara (marriage ceremony) or gathering of kings/brahmins, decides to simply say he came for a visit.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Rituparna"
+      ],
+      "action": "Deception/Withholding truth",
+      "relationship": "Rituparna hides his true purpose (likely related to Damayanti/Nala)."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima remains suspicious about Rituparna's sudden long-distance journey without stopping at villages, sensing it's not for trivial matters.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Bhima"
+      ],
+      "action": "Suspicion/Contemplation",
+      "relationship": "Bhima as host trying to understand his guest's motives."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After hospitably receiving Rituparna, Bhima suggests he rest from the journey, and Rituparna happily settles into prepared accommodations.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Bhima",
+        "King Rituparna"
+      ],
+      "action": "Hospitality/Accommodation",
+      "relationship": "Formal host-guest relationship established."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Varshneya accompanied King Rituparna and left, while Bahuka drove the chariot to a chariot house.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Varshneya",
+        "King Rituparna",
+        "Bahuka"
+      ],
+      "action": "Departure and chariot driving",
+      "relationships": [
+        "Varshneya serves King Rituparna",
+        "Bahuka serves as charioteer for King Rituparna"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bahuka unharnessed the horses, fed and watered them, then entered the chariot compartment to wait as ordered by King Rituparna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bahuka"
+      ],
+      "action": "Caring for horses and waiting",
+      "relationships": [
+        "Bahuka follows King Rituparna's orders"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti saw King Rituparna and charioteer Varshneya, and observed Bahuka's appearance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti",
+        "King Rituparna",
+        "Varshneya",
+        "Bahuka"
+      ],
+      "action": "Observation and suspicion",
+      "relationships": [
+        "Damayanti is suspicious of Bahuka's identity"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti wondered about the chariot driver, noting the sound resembled Nala's, but she didn't see King Nala.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti",
+        "Nala"
+      ],
+      "action": "Suspicion and contemplation",
+      "relationships": [
+        "Damayanti is Nala's wife",
+        "Damayanti suspects Bahuka might be Nala"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti considered possibilities: Varshneya learned Nala's skill, or Rituparna's driving matched Nala's, causing confusion.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti",
+        "Varshneya",
+        "Nala",
+        "King Rituparna"
+      ],
+      "action": "Reasoning about chariot sounds",
+      "relationships": [
+        "Varshneya was Nala's charioteer",
+        "Varshneya now serves King Rituparna"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti sent a maidservant to serve Bahuka after contemplation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti",
+        "Bahuka"
+      ],
+      "action": "Sending messenger",
+      "relationships": [
+        "Damayanti investigates Bahuka's identity"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti instructed the maidservant to go to the chariot compartment, find the deformed dwarf Bahuka, and carefully determine who he really is.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti",
+        "Bahuka"
+      ],
+      "action": "Giving investigation instructions",
+      "relationships": [
+        "Damayanti suspects Bahuka is Nala"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti expressed her suspicion that the charioteer might be King Nala, which would fulfill her long-cherished wish.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti",
+        "Nala"
+      ],
+      "action": "Expressing hope and suspicion",
+      "relationships": [
+        "Damayanti longs for reunion with Nala"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The maidservant (Keshini) went to convey the message to Bahuka while Damayanti watched from the palace.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Keshini",
+        "Bahuka",
+        "Damayanti"
+      ],
+      "action": "Messenger delivering inquiry",
+      "relationships": [
+        "Keshini serves Damayanti"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Keshini greeted Bahuka and asked when they departed, why they came, and requested details to report back to Princess Damayanti.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Keshini",
+        "Bahuka",
+        "Damayanti"
+      ],
+      "action": "Initial inquiry",
+      "relationships": [
+        "Keshini acts on Damayanti's behalf"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bahuka explained that King Rituparna, renowned, heard Damayanti would hold another groom-choosing ceremony the next day, so he hurriedly set out with Bahuka as his charioteer driving excellent horses for hundreds of miles.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bahuka",
+        "King Rituparna",
+        "Damayanti"
+      ],
+      "action": "Explaining purpose of journey",
+      "relationships": [
+        "Bahuka serves as King Rituparna's charioteer",
+        "King Rituparna seeks to attend Damayanti's ceremony"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Keshini asked who the other person was and how Bahuka became a charioteer.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Keshini",
+        "Bahuka",
+        "Varshneya"
+      ],
+      "action": "Further questioning",
+      "relationships": [
+        "Keshini investigates Bahuka's background"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bahuka identified the other as Varshneya, King Nala's famous charioteer who served King Rituparna after Nala's departure, and explained he became charioteer and cook due to expertise with horses and cooking.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bahuka",
+        "Varshneya",
+        "Nala",
+        "King Rituparna"
+      ],
+      "action": "Revealing identities and roles",
+      "relationships": [
+        "Varshneya was Nala's charioteer",
+        "Varshneya now serves King Rituparna",
+        "Bahuka serves King Rituparna as charioteer and cook"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Keshini asked if Varshneya knew where King Nala went and if he told Bahuka anything.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Keshini",
+        "Bahuka",
+        "Varshneya",
+        "Nala"
+      ],
+      "action": "Inquiring about Nala's whereabouts",
+      "relationships": [
+        "Keshini seeks information about Nala"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Varshneya left Nala's two children in a safe place and departed according to his own wishes, unaware of the disgraced King Nala's whereabouts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Varshneya",
+        "Nala"
+      ],
+      "action": "Departure",
+      "relationships": [
+        "Varshneya is a charioteer/companion of Nala"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A Brahmin who went to Ayodhya searching for Nala repeatedly conveyed a woman's message to a gambler, asking where he went after cutting away half her garment and abandoning his loving wife in the forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin",
+        "Nala",
+        "Damayanti"
+      ],
+      "action": "Message delivery",
+      "relationships": [
+        "Nala is Damayanti's husband"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Keshini relayed the message to Nala, asking him to repeat his previous answer for Princess Damayanti of Vidarbha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Keshini",
+        "Nala",
+        "Damayanti"
+      ],
+      "action": "Message relay",
+      "relationships": [
+        "Keshini is Damayanti's maidservant"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nala's eyes filled with tears upon hearing the message, revealing his inner turmoil, and he repeated his answer while suppressing his pain.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nala"
+      ],
+      "action": "Emotional response",
+      "relationships": [
+        "Nala is in disguise as Bahuka"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nala responded that noble women protect themselves even in disasters, win heaven through virtue, don't become angry when abandoned by husbands, and that his wife shouldn't be angry since he's suffering, lost his kingdom, and is starving.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nala"
+      ],
+      "action": "Verbal response",
+      "relationships": [
+        "Nala is referring to his own situation"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Keshini returned to the palace and reported Bahuka's words and emotional state to Damayanti.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Keshini",
+        "Damayanti"
+      ],
+      "action": "Report delivery",
+      "relationships": [
+        "Keshini serves Damayanti"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After hearing the report, Damayanti, filled with sorrow, suspected that Bahuka might actually be Nala and instructed Keshini to observe him more carefully.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti",
+        "Keshini",
+        "Nala"
+      ],
+      "action": "Suspicion and instruction",
+      "relationships": [
+        "Damayanti is Nala's wife"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti instructs Kesini to observe the charioteer's actions and intentions closely, with specific conditions about not giving fire or water regardless of his behavior.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti",
+        "Kesini"
+      ],
+      "type": "Instruction/Spying",
+      "relationships": [
+        "Mistress-Servant"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kesini observes the charioteer (Bahuka) and notices miraculous traits: he doesn't need to bend for low doors, narrow paths widen for him, and he has both divine and human characteristics.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kesini",
+        "Bahuka (Nala)"
+      ],
+      "action": "Observation/Discovery",
+      "supernatural_elements": [
+        "Doors/paths adjust automatically",
+        "Divine-human hybrid traits"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bahuka fills a water pot by merely looking at it, creates fire instantly from broken grass, and fire doesn't burn his hands.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bahuka (Nala)"
+      ],
+      "action": "Supernatural demonstrations",
+      "supernatural_elements": [
+        "Water creation by gaze",
+        "Instant fire creation",
+        "Fire immunity"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bahuka touches and rubs flowers, making them more fragrant and beautiful.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bahuka (Nala)"
+      ],
+      "action": "Flower enhancement",
+      "supernatural_elements": [
+        "Flower transformation/enhancement"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti hears about these miracles and believes Bahuka is actually Nala, but is confused by his changed appearance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti",
+        "Bahuka (Nala)"
+      ],
+      "type": "Recognition/Realization",
+      "relationships": [
+        "Husband-Wife (separated)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti sends Kesini to secretly bring cooked meat from Bahuka's kitchen.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti",
+        "Kesini",
+        "Bahuka (Nala)"
+      ],
+      "action": "Theft/Verification",
+      "relationships": [
+        "Mistress-Servant",
+        "Wife-Husband (suspected)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti tastes the meat and recognizes Nala's cooking, confirming Bahuka is Nala, causing her to weep.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti",
+        "Bahuka (Nala)"
+      ],
+      "action": "Confirmation/Recognition",
+      "relationships": [
+        "Husband-Wife (reunited in recognition)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Damayanti sends her two children with Kesini to meet Bahuka/Nala.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Damayanti",
+        "Kesini",
+        "Bahuka (Nala)",
+        "Children (Indrasena and Indrasenaa)"
+      ],
+      "action": "Family reunion setup",
+      "relationships": [
+        "Mother-Children",
+        "Father-Children (to be revealed)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nala sees his children, runs to embrace them tightly, and weeps with overwhelming emotion before suddenly releasing them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nala (Bahuka)",
+        "Children (Indrasena and Indrasenaa)",
+        "Kesini"
+      ],
+      "action": "Emotional reunion",
+      "relationships": [
+        "Father-Children (confirmed)"
+      ],
+      "emotional_state": [
+        "Overwhelming joy/pain",
+        "Tears"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker sees two children who resemble their own children and is moved to tears.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The speaker"
+      ],
+      "action": "Emotional reaction",
+      "trigger": "Seeing children resembling their own"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker advises their interlocutor to leave with the children to avoid suspicion and protect reputations.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The speaker",
+        "The interlocutor"
+      ],
+      "action": "Warning/Advice",
+      "reason": "To prevent moral suspicion due to the interlocutor's repeated visits as a foreign guest",
+      "relationship": "The speaker appears to be advising someone they address affectionately (\"dear one\")"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "context",
+    "extraction_text": "The text is identified as from the Mahabharata, Aranyaka Parva (Forest Book), Chapter 73.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "source": "Mahabharata",
+      "section": "Aranyaka Parva (Forest Book)",
+      "chapter": 73
+    },
+    "_token_interval": null
+  }
+]

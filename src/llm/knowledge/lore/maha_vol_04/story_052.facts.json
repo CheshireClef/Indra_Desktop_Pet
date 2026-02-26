@@ -1,0 +1,449 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya reported that the army was in turmoil, with Arjuna, Satyaki, and Bhima pursuing King Jayadratha, while Duryodhana went to Drona alone.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Arjuna",
+        "Satyaki",
+        "Bhima",
+        "Jayadratha",
+        "Duryodhana",
+        "Drona"
+      ],
+      "type": "Battle Report",
+      "relationships": "Duryodhana is consulting Drona, his teacher; Jayadratha is being pursued by Pandava warriors"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana arrived quickly at Drona's location, angry and with red eyes, and questioned Drona about how Arjuna, Satyaki, and Bhima managed to get past him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Drona",
+        "Arjuna",
+        "Satyaki",
+        "Bhima"
+      ],
+      "type": "Confrontation",
+      "relationships": "Duryodhana is challenging his teacher Drona's battlefield performance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana expressed despair, believing he was doomed since three chariot warriors had passed Drona, and asked Drona for advice on what to do next.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Drona"
+      ],
+      "type": "Strategic Consultation",
+      "relationships": "Student seeking guidance from teacher in crisis"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona acknowledged the critical situation, noting that the Pandava warriors had broken through and that both front and rear positions were now dangerous.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Arjuna",
+        "Krishna",
+        "Satyaki",
+        "Bhima"
+      ],
+      "type": "Battle Assessment",
+      "relationships": "Drona recognizing the threat posed by Krishna and Arjuna's combination"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona identified protecting Jayadratha as the top priority since he feared Arjuna's wrath, and noted that Satyaki and Bhima had already reached Jayadratha's vicinity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Jayadratha",
+        "Arjuna",
+        "Satyaki",
+        "Bhima"
+      ],
+      "type": "Strategic Priority",
+      "relationships": "Jayadratha as a key target needing protection from Arjuna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona metaphorically described the current battle as the resolution of the dice game, with Shakuni's dice now becoming irresistible arrows, the armies as gamblers, and Jayadratha as the stake.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Shakuni",
+        "Jayadratha"
+      ],
+      "type": "Philosophical Reflection",
+      "relationships": "Connecting the dice game incident to the current battle consequences"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona instructed that everyone should defend Jayadratha with their lives in this decisive gamble, with the best archers protecting him and Duryodhana going to coordinate their defense.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Duryodhana",
+        "Jayadratha"
+      ],
+      "type": "Battle Orders",
+      "relationships": "Teacher giving strategic commands to student"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona stated he must remain in his position to organize forces and block the combined attacks of Panchalas, Pandavas, and Srinjayas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Panchalas",
+        "Pandavas",
+        "Srinjayas"
+      ],
+      "type": "Strategic Positioning",
+      "relationships": "Drona maintaining command position against multiple enemy forces"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana, following his teacher's (Drona's) instruction, sets out quickly with his attendants, determined to accomplish a difficult task.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Departure on mission",
+      "relationships": [
+        "Duryodhana is following Drona's instruction"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Two Panchala warriors, Yudhamanyu and Uttamaujas, move along the army's outer edge toward Arjuna (the left-handed archer).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhamanyu",
+        "Uttamaujas",
+        "Arjuna"
+      ],
+      "action": "Movement toward ally",
+      "relationships": [
+        "Yudhamanyu and Uttamaujas are Panchala warriors allied with Arjuna"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Previously, when Arjuna entered the Kaurava army, Yudhamanyu and Uttamaujas were blocked by Shalya.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Yudhamanyu",
+        "Uttamaujas",
+        "Shalya"
+      ],
+      "action": "Obstruction in battle",
+      "relationships": [
+        "Shalya (King of Madra) is fighting for the Kauravas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana, hurrying on his mission, engages in a fierce battle with the hurrying brothers Yudhamanyu and Uttamaujas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Yudhamanyu",
+        "Uttamaujas"
+      ],
+      "action": "Battle engagement",
+      "relationships": [
+        "Duryodhana (Kaurava) vs. Yudhamanyu and Uttamaujas (Panchala allies of Pandavas)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhamanyu, filled with rage, rapidly shoots three hundred iron arrows at Duryodhana's chest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhamanyu",
+        "Duryodhana"
+      ],
+      "action": "Archery attack",
+      "relationships": [
+        "Combatants in battle"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana kills Uttamaujas's four horses and charioteers on both sides.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Uttamaujas"
+      ],
+      "action": "Killing of horses and charioteers",
+      "relationships": [
+        "Combatants in battle"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "With his horses and charioteer slain, Uttamaujas quickly boards his brother Yudhamanyu's chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttamaujas",
+        "Yudhamanyu"
+      ],
+      "action": "Boarding ally's chariot",
+      "relationships": [
+        "Brothers and fellow warriors"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "From Yudhamanyu's chariot, Uttamaujas shoots many sharp arrows at Duryodhana's horses, causing them to fall.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttamaujas",
+        "Duryodhana"
+      ],
+      "action": "Archery attack on horses",
+      "relationships": [
+        "Combatants in battle"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "With Duryodhana's horses fallen, Yudhamanyu seizes the opportunity to shoot an excellent arrow that breaks Duryodhana's bow and quiver.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhamanyu",
+        "Duryodhana"
+      ],
+      "action": "Disarming attack",
+      "relationships": [
+        "Combatants in battle"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana jumps from his chariot (with dead horses and charioteer), takes up his mace, and charges at the two Panchala princes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Yudhamanyu",
+        "Uttamaujas"
+      ],
+      "action": "Ground assault with mace",
+      "relationships": [
+        "Combatants in battle"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing Duryodhana charging angrily, Yudhamanyu and Uttamaujas jump down from their chariot seat.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhamanyu",
+        "Uttamaujas",
+        "Duryodhana"
+      ],
+      "action": "Evasion/Disembarkation",
+      "relationships": [
+        "Combatants in battle"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana then smashes the splendid golden chariot (of Yudhamanyu and Uttamaujas) with his mace, along with its horses, charioteer, and banners.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Destruction of enemy chariot",
+      "relationships": [
+        "Duryodhana destroys the chariot Yudhamanyu and Uttamaujas had been using"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After destroying that chariot, with his own horses and charioteer dead, Duryodhana quickly boards the chariot of Shalya (King of Madra).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Shalya"
+      ],
+      "action": "Boarding ally's chariot",
+      "relationships": [
+        "Shalya is a Kaurava ally providing his chariot to Duryodhana"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The two excellent Panchala princes, Yudhamanyu and Uttamaujas, board another chariot and proceed toward Arjuna (Vijaya).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhamanyu",
+        "Uttamaujas",
+        "Arjuna"
+      ],
+      "action": "Movement toward ally",
+      "relationships": [
+        "Yudhamanyu and Uttamaujas are rejoining their commander Arjuna"
+      ]
+    },
+    "_token_interval": null
+  }
+]

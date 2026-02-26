@@ -1,0 +1,1580 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "迅行王想让女儿自选夫婿，前往恒河和阎牟那河汇合处的净修林。",
+    "char_interval": {
+      "start_pos": 33,
+      "end_pos": 62
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迅行王",
+        "玛达维"
+      ],
+      "type": "Arrangement for marriage",
+      "relationships": [
+        "Father-Daughter"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 10,
+      "end_index": 14
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "他让佩戴着花环的玛达维坐上车，让补卢和雅度陪同他们的妹妹前往那座净修林。",
+    "char_interval": {
+      "start_pos": 65,
+      "end_pos": 101
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迅行王",
+        "玛达维",
+        "补卢",
+        "雅度"
+      ],
+      "type": "Journey",
+      "relationships": [
+        "Father-Daughter",
+        "Brothers-Sister"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 17,
+      "end_index": 21
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "那里聚集了许多蛇、药叉、人、鸟、兽和山林居民。林中到处是来自各地的人中君王，到处是像梵天一样的仙人。",
+    "char_interval": {
+      "start_pos": 104,
+      "end_pos": 127
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Various Kings",
+        "Various Sages"
+      ],
+      "type": "Gathering",
+      "relationships": [
+        "Potential Suitors"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 24,
+      "end_index": 34
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "在通报求婚者姓名后，这肤色美丽的女孩撇下所有求婚者，选择了这树林。",
+    "char_interval": {
+      "start_pos": 160,
+      "end_pos": 193
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "玛达维"
+      ],
+      "type": "Rejection of Suitors",
+      "action": "Chose ascetic life over marriage"
+    },
+    "_token_interval": {
+      "start_index": 44,
+      "end_index": 50
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迅行王之女（玛达维）从车上下来，向亲属们行礼，进入圣洁的树林，修炼苦行。",
+    "char_interval": {
+      "start_pos": 196,
+      "end_pos": 232
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "玛达维"
+      ],
+      "type": "Initiation of Asceticism",
+      "action": "Began practicing austerities"
+    },
+    "_token_interval": {
+      "start_index": 53,
+      "end_index": 65
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "实行各种斋戒、祭仪和禁戒，她的身体变轻，像鹿一样生活。",
+    "char_interval": {
+      "start_pos": 236,
+      "end_pos": 263
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "玛达维"
+      ],
+      "type": "Ascetic Practice",
+      "supernatural_elements": [
+        "Physical transformation through austerities"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 68,
+      "end_index": 76
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "同时，迅行王遵循古代国王的生活方式，度过许多年，最终服从时间之法。",
+    "char_interval": {
+      "start_pos": 378,
+      "end_pos": 411
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迅行王"
+      ],
+      "type": "Death",
+      "action": "Died after many years"
+    },
+    "_token_interval": {
+      "start_index": 115,
+      "end_index": 123
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "人中俊杰补卢和雅度繁荣了两个家族。由此，友邻之子（迅行王）在今世和来世的地位得到确立。",
+    "char_interval": {
+      "start_pos": 415,
+      "end_pos": 458
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "补卢",
+        "雅度",
+        "迅行王"
+      ],
+      "type": "Legacy Establishment",
+      "relationships": [
+        "Sons-Father"
+      ],
+      "action": "Sons established prosperous lineages, securing father's status"
+    },
+    "_token_interval": {
+      "start_index": 126,
+      "end_index": 136
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "在天国，迅行王备受尊敬。像大仙人那样，这位人中之主享受天国至高无上的果报。",
+    "char_interval": {
+      "start_pos": 462,
+      "end_pos": 499
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迅行王"
+      ],
+      "type": "Heavenly Reward",
+      "supernatural_elements": [
+        "Afterlife in heaven"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 139,
+      "end_index": 147
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "过了许多倍的许多千年，王仙们和尊敬的大仙们坐在一起的时候，迅行王头脑发昏，受好奇心驱使，轻视所有的凡人、众天神和众仙人。",
+    "char_interval": {
+      "start_pos": 504,
+      "end_pos": 533
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迅行王"
+      ],
+      "type": "Pride and Disrespect",
+      "action": "Became arrogant and looked down upon others"
+    },
+    "_token_interval": {
+      "start_index": 150,
+      "end_index": 154
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "诛灭钵罗的帝释天注意到他，所有的王仙说道：“呸，呸！”",
+    "char_interval": {
+      "start_pos": 572,
+      "end_pos": 599
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "帝释天",
+        "Various Heavenly Kings"
+      ],
+      "type": "Divine Observation and Disapproval",
+      "supernatural_elements": [
+        "Divine intervention by Indra"
+      ],
+      "action": "Indra noticed his arrogance; heavenly kings expressed contempt"
+    },
+    "_token_interval": {
+      "start_index": 168,
+      "end_index": 178
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "他们望着友邻之子（迅行王），产生疑惑：“这人是谁？是哪位国王？怎么来到天国？他完成了什么业绩？在哪儿积累了苦行？他怎么会在天国受到承认？有谁认识他？”",
+    "char_interval": {
+      "start_pos": 603,
+      "end_pos": 641
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Various Heavenly Kings"
+      ],
+      "type": "Questioning of Identity",
+      "action": "Heavenly beings forgot who he was"
+    },
+    "_token_interval": {
+      "start_index": 181,
+      "end_index": 195
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "居住在天国的国王们这样思索着，望着迅行王，互相询问。成百成百的天车护卫、天国门卫和坐席侍卫受到询问，都回答说：“我们不认识。”",
+    "char_interval": {
+      "start_pos": 686,
+      "end_pos": 712
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Various Heavenly Kings",
+        "Heavenly Guards"
+      ],
+      "type": "Collective Amnesia",
+      "supernatural_elements": [
+        "Supernatural forgetting"
+      ],
+      "action": "No one in heaven recognized him anymore"
+    },
+    "_token_interval": {
+      "start_index": 210,
+      "end_index": 216
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "所有的人智慧都蒙住了，不认识这位国王。顿时，这位国王失去光辉。",
+    "char_interval": {
+      "start_pos": 757,
+      "end_pos": 788
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迅行王"
+      ],
+      "type": "Loss of Status and Radiance",
+      "supernatural_elements": [
+        "Loss of divine splendor"
+      ],
+      "action": "Lost his heavenly glory and recognition"
+    },
+    "_token_interval": {
+      "start_index": 232,
+      "end_index": 240
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "于是，他失去地位，从座位上跌落，心中颤抖，受忧愁之火煎熬。他的花环枯萎，服饰凌乱，头脑糊涂，身体颤动，四肢松弛。",
+    "char_interval": {
+      "start_pos": 858,
+      "end_pos": 887
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迅行王"
+      ],
+      "type": "Physical and Mental Decline",
+      "action": "Fell from his seat, experienced physical decay and mental anguish"
+    },
+    "_token_interval": {
+      "start_index": 266,
+      "end_index": 276
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "不管他看不看别人，别人眼中已经没有他。他心中一片空虚，就要坠落地面。",
+    "char_interval": {
+      "start_pos": 920,
+      "end_pos": 954
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迅行王"
+      ],
+      "type": "Invisibility and Impending Fall",
+      "supernatural_elements": [
+        "Becoming invisible to others"
+      ],
+      "action": "Became invisible and was about to fall from heaven"
+    },
+    "_token_interval": {
+      "start_index": 292,
+      "end_index": 300
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "这位国王思忖道：“我心中起了什么玷污正法的恶念，造成我失去地位？”",
+    "char_interval": {
+      "start_pos": 957,
+      "end_pos": 990
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迅行王"
+      ],
+      "type": "Self-Reflection",
+      "action": "Questioned what sinful thought caused his downfall"
+    },
+    "_token_interval": {
+      "start_index": 303,
+      "end_index": 311
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yayati (迅行王) fell from heaven after being expelled by a messenger of Indra (天王) for his pride and disrespect.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yayati",
+        "Messenger of Indra"
+      ],
+      "action": "Expulsion from heaven",
+      "reason": "Pride and disrespect"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "While falling, Yayati declared three times his wish to fall among good people.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yayati"
+      ],
+      "action": "Declaration of wish",
+      "supernatural_element": "Wish made during fall"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yayati fell into the forest where four kings - Prishadhra (刺穿王), Vasumanas (富心王), Shibi (尸毗), and Ashtaka (八部王) - were performing a sacrifice to please Indra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yayati",
+        "Prishadhra",
+        "Vasumanas",
+        "Shibi",
+        "Ashtaka"
+      ],
+      "location": "Forest",
+      "action": "Arrival during sacrifice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yayati descended along the smoke from the sacrificial fire that connected heaven and earth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yayati"
+      ],
+      "action": "Descent via sacrificial smoke",
+      "supernatural_element": "Smoke as pathway between heaven and earth"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The four kings questioned Yayati about his identity, thinking he might be a supernatural being.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Prishadhra",
+        "Vasumanas",
+        "Shibi",
+        "Ashtaka",
+        "Yayati"
+      ],
+      "action": "Identity inquiry",
+      "relationship": "Initial strangers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yayati revealed his identity as King Yayati who fell from heaven due to exhausted merit.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yayati"
+      ],
+      "action": "Identity revelation",
+      "status": "Fallen king with exhausted merit"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The kings offered Yayati the fruits of their sacrifice and dharma, but Yayati refused as a Kshatriya who doesn't consume others' merit.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Prishadhra",
+        "Vasumanas",
+        "Shibi",
+        "Ashtaka",
+        "Yayati"
+      ],
+      "action": "Offer and refusal",
+      "relationship": "Generous hosts and honorable guest"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Madhavi (玛达维), performing deer penance, arrived and was greeted by the kings as their mother.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Madhavi",
+        "Prishadhra",
+        "Vasumanas",
+        "Shibi",
+        "Ashtaka"
+      ],
+      "action": "Arrival and greeting",
+      "relationship": "Mother and sons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Madhavi revealed to Yayati that the four kings were her sons and his grandsons, and offered to share half her accumulated dharma with him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Madhavi",
+        "Yayati",
+        "Prishadhra",
+        "Vasumanas",
+        "Shibi",
+        "Ashtaka"
+      ],
+      "action": "Family revelation and offer",
+      "relationship": "Daughter, father, and grandsons",
+      "change_in_relationship": "Strangers to family members"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The kings bowed to their mother and grandfather, declaring their intention to save Yayati.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Prishadhra",
+        "Vasumanas",
+        "Shibi",
+        "Ashtaka",
+        "Madhavi",
+        "Yayati"
+      ],
+      "action": "Family recognition and commitment",
+      "relationship": "Grandsons saving grandfather",
+      "resolution": "Family reunion and salvation plan"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Narada narrates that once the bull among men, King Yayati, was recognized by these virtuous men, he regained his divine state and his afflictions vanished.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narada",
+        "King Yayati"
+      ],
+      "action": "Recognition and restoration",
+      "supernatural_elements": "Regaining divine state"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yayati again wore divine garlands, put on divine garments, emitted divine fragrance, and his feet did not touch the ground.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yayati"
+      ],
+      "action": "Divine transformation",
+      "supernatural_elements": "Divine attributes manifesting"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "First, the generous-hearted King Dushyanta, renowned in the world as a patron, spoke to King Yayati in a loud voice, offering him all the merit he had earned in the world through his blameless conduct toward all castes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dushyanta",
+        "King Yayati"
+      ],
+      "action": "Offering of merit",
+      "relationships": "Grandson to grandfather (implied from context)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Then, the bull among Kshatriyas, King Shibi, spoke, offering King Yayati the honor and heroic fame he had won in the world through Kshatriya dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Shibi",
+        "King Yayati"
+      ],
+      "action": "Offering of merit",
+      "relationships": "Grandson to grandfather (implied from context)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The wise King Shivi—Ushinara spoke sweetly, offering King Yayati the merit of his truthfulness, which he maintained even with children, women, in jest, in battle, or during setbacks, disasters, and misfortunes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Shivi",
+        "King Yayati"
+      ],
+      "action": "Offering of merit",
+      "relationships": "Grandson to grandfather (implied from context)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Then, the son of Madhavi, the eight-fold royal sage Kaushika (Vishvamitra), who knows dharma, spoke to King Yayati, who had performed hundreds of sacrifices, offering him the merit of his hundreds of lotus sacrifices, horse sacrifices, and powerful soma sacrifices.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vishvamitra",
+        "King Yayati"
+      ],
+      "action": "Offering of merit",
+      "relationships": "Grandson to grandfather (implied from context)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After these grandsons spoke to King Yayati, the king left the earth and ascended to heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yayati",
+        "King Dushyanta",
+        "King Shibi",
+        "King Shivi",
+        "Vishvamitra"
+      ],
+      "action": "Ascension to heaven",
+      "supernatural_elements": "Divine ascension",
+      "relationships": "Grandsons help grandfather"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Thus, these kings, through their virtuous deeds, easily saved King Yayati, who had fallen from heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dushyanta",
+        "King Shibi",
+        "King Shivi",
+        "Vishvamitra",
+        "King Yayati"
+      ],
+      "action": "Salvation through merit",
+      "supernatural_elements": "Rescue from heavenly fall"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The four grandsons, born in four royal lineages, through their own practice of dharma, sacrifices, and charity, prospered their families and enabled their wise grandfather to ascend to heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dushyanta",
+        "King Shibi",
+        "King Shivi",
+        "Vishvamitra",
+        "King Yayati"
+      ],
+      "action": "Fulfillment of familial duty",
+      "relationships": "Grandsons elevate grandfather"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Narada narrates that through the generous charity of these virtuous kings, King Yayati bid farewell to his grandsons, rose into the sky, and reached heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narada",
+        "King Yayati",
+        "King Dushyanta",
+        "King Shibi",
+        "King Shivi",
+        "Vishvamitra"
+      ],
+      "action": "Final ascension",
+      "supernatural_elements": "Journey to heaven with divine phenomena"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A king (likely Yayati based on context) ascended to heaven due to the merits of his grandsons and his own accumulated karma, where he was welcomed with celebrations by celestial beings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yayati (implied)"
+      ],
+      "action": "Ascension to heaven",
+      "supernatural_elements": [
+        "Celestial beings (Gandharvas, Apsaras, gods, royal sages)",
+        "Heavenly realm"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Grandfather Brahma revealed to the king that he had fallen from heaven because the residents, their hearts clouded by darkness, did not acknowledge him, and he was saved by his grandsons who restored him to his rightful, eternal place.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yayati (implied)",
+        "Grandfather Brahma"
+      ],
+      "action": "Revelation of past fall and restoration",
+      "relationships": [
+        "Brahma as divine advisor",
+        "Grandsons as saviors"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yayati questioned Brahma about how his vast accumulated merit from countless sacrifices, charity, and protecting subjects was exhausted so quickly, causing his fall from heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yayati",
+        "Grandfather Brahma"
+      ],
+      "action": "Questioning divine justice",
+      "relationships": [
+        "Yayati seeks wisdom from Brahma"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahma explained that a single fault (pride) caused Yayati's fall, as the celestial residents spurned him due to his arrogance, and advised against pride, violence, killing, deceit, and fraud for eternal stability.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Grandfather Brahma",
+        "Yayati"
+      ],
+      "action": "Divine explanation and moral teaching",
+      "relationships": [
+        "Brahma as moral instructor to Yayati"
+      ],
+      "supernatural_elements": [
+        "Divine counsel on karma and morality"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Narada recounted the stories of Yayati's error of pride and Galava's error of obstinacy as warnings, advising Dhritarashtra to abandon pride and anger, make peace with the Pandavas, and eliminate enmity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narada",
+        "Dhritarashtra",
+        "Yayati",
+        "Galava",
+        "Pandavas"
+      ],
+      "action": "Moral exhortation using past examples",
+      "relationships": [
+        "Narada advises Dhritarashtra",
+        "Dhritarashtra as listener",
+        "Pandavas as parties to potential peace"
+      ],
+      "supernatural_elements": [
+        "Narada as divine sage delivering wisdom"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra responded to Narada that he also desires peace but feels powerless to act on it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Narada"
+      ],
+      "action": "Expression of helplessness",
+      "relationships": [
+        "Dhritarashtra acknowledges Narada's advice but claims inability"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra then addressed Krishna, calling him Keshava.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Krishna (Keshava)"
+      ],
+      "action": "Addressing Krishna",
+      "relationships": [
+        "Dhritarashtra speaks to Krishna"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna advises Dhritarashtra to persuade Duryodhana to make peace with the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Dhritarashtra"
+      ],
+      "type": "Advice/Diplomacy",
+      "relationships": "Krishna (advisor) to Dhritarashtra (king)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra expresses his inability to control Duryodhana and asks Krishna to counsel him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Krishna",
+        "Duryodhana"
+      ],
+      "type": "Request for Intervention",
+      "relationships": "Dhritarashtra (father) to Duryodhana (son), Krishna (mediator)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna turns to Duryodhana and urges him to listen to advice for the benefit of himself and his followers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Duryodhana"
+      ],
+      "type": "Persuasion",
+      "relationships": "Krishna (advisor) to Duryodhana (prince)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna praises Duryodhana's noble birth and qualities but criticizes his current actions as unworthy and harmful.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Duryodhana"
+      ],
+      "type": "Moral Admonition",
+      "relationships": "Krishna (moral guide) to Duryodhana (wayward prince)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna advises Duryodhana to make peace with the Pandavas, highlighting their virtues and the widespread approval it would bring.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Duryodhana",
+        "Pandavas"
+      ],
+      "type": "Peace Proposal",
+      "relationships": "Duryodhana (cousin) to Pandavas (cousins), Krishna (peacemaker)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna lists key figures who would be pleased with peace, including Dhritarashtra, Bhishma, Drona, and Vidura.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Duryodhana",
+        "Dhritarashtra",
+        "Bhishma",
+        "Drona",
+        "Vidura"
+      ],
+      "type": "Appeal to Authority",
+      "relationships": "Duryodhana (relative) to elders and advisors"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna warns Duryodhana about the consequences of ignoring good advice and following bad counsel.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Duryodhana"
+      ],
+      "type": "Warning",
+      "relationships": "Krishna (prophetic advisor) to Duryodhana (stubborn prince)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna emphasizes the importance of heeding parental commands and wise counsel to avoid disaster.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Duryodhana"
+      ],
+      "type": "Moral Instruction",
+      "relationships": "Krishna (divine guide) to Duryodhana (moral subject)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker criticizes Duryodhana for seeking help from unworthy people instead of his own relatives.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Unworthy allies"
+      ],
+      "action": "Criticism of alliance choices",
+      "relationships": [
+        "Duryodhana is criticized for abandoning relatives"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker accuses Duryodhana of harming the Pandavas since their birth, while the Pandavas have always treated him well.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Pandavas"
+      ],
+      "action": "Accusation of mistreatment",
+      "relationships": [
+        "Duryodhana has mistreated Pandavas",
+        "Pandavas have been patient"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker advises Duryodhana to treat his relatives well and not be controlled by anger.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Pandavas"
+      ],
+      "action": "Moral advice",
+      "relationships": [
+        "Duryodhana should reconcile with Pandavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker explains the three goals of life (Dharma, Artha, Kama) and emphasizes that Dharma should never be abandoned.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Philosophical teaching",
+      "type": "Moral instruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker criticizes Duryodhana for pursuing kingship through improper means and warns against repaying good with evil.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Warning about consequences",
+      "relationships": [
+        "Duryodhana's methods are criticized"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker advises against oppressing anyone, especially the Pandavas who are in despair.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Pandavas"
+      ],
+      "action": "Warning against oppression",
+      "relationships": [
+        "Duryodhana should not oppress Pandavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker advises Duryodhana to ally with the Pandavas rather than with wicked people like Dushasana, Durmukha, Karna, and Shakuni.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Pandavas",
+        "Dushasana",
+        "Durmukha",
+        "Karna",
+        "Shakuni"
+      ],
+      "action": "Alliance advice",
+      "relationships": [
+        "Current allies are inferior",
+        "Pandavas are better allies"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker points out that Duryodhana enjoys the kingdom won by the Pandavas but seeks help from others.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Pandavas"
+      ],
+      "action": "Accusation of ingratitude",
+      "relationships": [
+        "Duryodhana benefits from Pandavas' achievements"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker warns that no one can withstand Bhima's anger in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Duryodhana's allies"
+      ],
+      "action": "Warning about Bhima's strength",
+      "type": "Military assessment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker declares that even all the kings' armies with warriors like Bhishma, Drona, Karna, Kripa, Shalya, Ashvatthama, and Jayadratha cannot withstand Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Bhishma",
+        "Drona",
+        "Karna",
+        "Kripa",
+        "Shalya",
+        "Ashvatthama",
+        "Jayadratha"
+      ],
+      "action": "Warning about Arjuna's invincibility",
+      "type": "Military assessment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker states that not even all gods, asuras, humans, and gandharvas combined can defeat an angry Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Declaration of divine-level power",
+      "type": "Supernatural assessment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker asks Duryodhana why he wants war when he cannot find anyone who can defeat Arjuna and return home safely.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Arjuna"
+      ],
+      "action": "Rhetorical question about war futility",
+      "relationships": [
+        "Duryodhana's war plans are futile"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna (Keshava) delivers a speech to Duryodhana, urging him to make peace with the Pandavas to avoid destruction.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Duryodhana"
+      ],
+      "action": "Diplomatic appeal for peace",
+      "key_points": [
+        "Krishna recounts Arjuna's invincibility and past victories",
+        "Krishna warns Duryodhana that fighting will lead to the destruction of the Kuru family",
+        "Krishna proposes a peaceful settlement: Duryodhana should return half the kingdom to the Pandavas and be established as king under Dhritarashtra as emperor",
+        "Krishna advises Duryodhana to listen to friends and seek lasting happiness through reconciliation"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma (son of Shantanu) addresses Duryodhana, supporting Krishna's plea for peace.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Duryodhana"
+      ],
+      "action": "Counsel and warning",
+      "key_points": [
+        "Bhishma urges Duryodhana to heed Krishna's wise words",
+        "Bhishma warns that ignoring this advice will lead to loss of peace, prosperity, and the destruction of the Bharata dynasty",
+        "Bhishma appeals to Duryodhana not to bring sorrow to his elderly parents (Dhritarashtra and Gandhari) and not to become a destroyer of his family"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona addresses the angry Duryodhana, reinforcing the counsel of Krishna and Bhishma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Duryodhana"
+      ],
+      "action": "Reinforcement of peaceful counsel",
+      "key_points": [
+        "Drona tells Duryodhana that Krishna and Bhishma's words are righteous and beneficial",
+        "Drona emphasizes that both Krishna and Bhishma are wise, learned, and acting for Duryodhana's own good",
+        "Drona urges Duryodhana to accept their advice"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "An unnamed speaker (likely Sanjaya or Vidura) advises Duryodhana not to listen to shallow-minded advisors who will incite war and place others' hatred upon him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Warning/Advice",
+      "relationships": [
+        "Advisor-advisee (unnamed speaker to Duryodhana)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker warns Duryodhana against destroying the entire Kuru clan, his sons, and brothers, noting that Krishna and Arjuna's army is invincible.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Krishna",
+        "Arjuna"
+      ],
+      "action": "Warning",
+      "relationships": [
+        "Adversaries (Duryodhana vs. Krishna/Arjuna)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker states that Krishna and Bhishma's advice is correct and that Duryodhana will suffer if he rejects it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Krishna",
+        "Bhishma"
+      ],
+      "action": "Endorsement of advice",
+      "relationships": [
+        "Advisors (Krishna, Bhishma to Duryodhana)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker compares Arjuna to Parashurama and Krishna to being matchless even for gods, emphasizing their strength.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Parashurama",
+        "Krishna"
+      ],
+      "action": "Comparison of power",
+      "supernatural_elements": [
+        "Krishna's divine prowess surpassing gods"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vidura addresses Duryodhana, expressing concern not for him but for his elderly father Dhritarashtra and mother Gandhari, who will be left unprotected and destitute due to Duryodhana's actions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vidura",
+        "Duryodhana",
+        "Dhritarashtra",
+        "Gandhari"
+      ],
+      "action": "Rebuke/Prophecy of doom",
+      "relationships": [
+        "Family (Dhritarashtra and Gandhari as parents, Duryodhana as son)",
+        "Advisor-advisee (Vidura to Duryodhana)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra advises Duryodhana to heed Krishna's practical and auspicious words, as with Krishna's help, they can achieve all goals among kings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Duryodhana",
+        "Krishna"
+      ],
+      "action": "Counsel to seek peace",
+      "relationships": [
+        "Father-son (Dhritarashtra to Duryodhana)",
+        "Potential ally (Krishna)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra urges Duryodhana to cooperate with Krishna, meet Yudhishthira for peace, and not miss this opportunity, warning that rejecting Krishna's peace mission will lead to disaster.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Duryodhana",
+        "Krishna",
+        "Yudhishthira"
+      ],
+      "action": "Urging peace negotiation",
+      "relationships": [
+        "Adversaries (Duryodhana vs. Yudhishthira)",
+        "Mediator (Krishna)"
+      ]
+    },
+    "_token_interval": null
+  }
+]

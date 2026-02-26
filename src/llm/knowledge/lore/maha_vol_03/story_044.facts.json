@@ -1,0 +1,757 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra expresses admiration for those who can see Krishna (Vasudeva) and describes Krishna's divine qualities and supremacy.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Krishna"
+      ],
+      "type": "Divine Praise",
+      "relationships": [
+        "Dhritarashtra recognizes Krishna's divinity and seeks his protection"
+      ],
+      "supernatural_elements": [
+        "Krishna described as eternal sage, creator of three worlds, lord of beings, etc."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya returns and Yudhishthira (Dharmaraja) appeals to Krishna for help in their crisis.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Yudhishthira",
+        "Krishna"
+      ],
+      "type": "Appeal for Help",
+      "relationships": [
+        "Yudhishthira requests Krishna's assistance as friend and protector"
+      ],
+      "plot_points": [
+        "Transition from 'Negotiation Chapter' to 'Peace Chapter'"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira explains their situation: Dhritarashtra and his sons refuse to return their kingdom despite the completed exile.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Krishna",
+        "Dhritarashtra",
+        "Duryodhana"
+      ],
+      "type": "Exposition of Conflict",
+      "relationships": [
+        "Dhritarashtra favors his son Duryodhana over justice",
+        "Pandavas completed 12-year forest exile + 1-year incognito period"
+      ],
+      "plot_points": [
+        "Core conflict: Pandavas' rightful inheritance being denied"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna agrees to help Yudhishthira and the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira"
+      ],
+      "type": "Divine Assurance",
+      "relationships": [
+        "Krishna commits to protecting Pandavas as he protects Vrishni clan"
+      ],
+      "supernatural_elements": [
+        "Krishna's divine intervention promised"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker expresses inability to care for their mother and friends, describing this as the greatest pain.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Speaker (implied to be a Pandava, likely Yudhishthira or Arjuna based on context)",
+        "Mother (Kunti)",
+        "Friends"
+      ],
+      "action": "Expression of distress",
+      "relationships": [
+        "Mother-son",
+        "Friendship"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker addresses Krishna (Janardana, Govinda, Madhusudana) and requests five villages for survival, listing specific ones.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Speaker",
+        "Krishna"
+      ],
+      "action": "Request for territory",
+      "villages_requested": [
+        "Kushasthala",
+        "Vrikasthala",
+        "Masanjika",
+        "Varanavata",
+        "One other unnamed village"
+      ],
+      "relationships": [
+        "Allies/Protector-protected"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker recounts asking their father (Dhritarashtra) for five villages to prevent the destruction of the Bharata race, but Duryodhana refused.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Speaker",
+        "Dhritarashtra",
+        "Duryodhana"
+      ],
+      "action": "Failed negotiation",
+      "reason": "Duryodhana's greed and refusal to share territory",
+      "relationships": [
+        "Father-son (Dhritarashtra-Speaker)",
+        "Cousins (Speaker-Duryodhana)",
+        "Conflict between Pandavas and Kauravas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker describes the consequences of greed and loss of wealth, including loss of dharma, friends, and honor.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Speaker"
+      ],
+      "action": "Philosophical discourse on poverty and morality",
+      "themes": [
+        "Wealth as foundation of dharma",
+        "Social abandonment of the poor",
+        "Moral degradation from greed"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker contrasts born poverty with fallen prosperity, noting greater suffering for those who lose wealth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Speaker",
+        "Krishna"
+      ],
+      "action": "Contrast of experiences",
+      "relationships": [
+        "Speaker addressing Krishna"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker describes how people blame gods like Indra for misfortune rather than themselves, leading to anger, evil deeds, and hell.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Speaker"
+      ],
+      "action": "Warning about blame and consequences",
+      "divine_elements": [
+        "Indra",
+        "Gods blamed for misfortune"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker concludes that wisdom leads to following scriptures, dharma, and shame, which brings wealth and true humanity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Speaker"
+      ],
+      "action": "Moral conclusion",
+      "resolution": "Wisdom and dharma as path to prosperity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker describes someone as shameless, foolish, neither woman nor man, outside dharma, like a Shudra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified Person"
+      ],
+      "type": "Character Condemnation",
+      "action": "Moral Judgment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker states that a person with shame pleases gods, ancestors, and themselves, leading to divinity as the final destination of the virtuous.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unspecified Person"
+      ],
+      "type": "Moral Teaching",
+      "action": "Philosophical Statement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker addresses Krishna as 'Slayer of Madhu', lamenting their loss of kingdom and long nights of suffering.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Speaker"
+      ],
+      "type": "Lamentation",
+      "action": "Personal Grievance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker argues against abandoning happiness, stating death in struggle is honorable, and proposes reconciliation with the Kurus to share happiness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Speaker",
+        "Kurus"
+      ],
+      "type": "Proposal",
+      "action": "Peace Offer"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker presents the alternative of terrible war and destruction where they would kill the Kurus and rule the kingdom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Speaker",
+        "Kurus"
+      ],
+      "type": "Conflict Scenario",
+      "action": "War Threat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker tells Krishna that even lowly enemies shouldn't be killed casually, especially not relatives, friends, and teachers, making war sinful and pointless.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Speaker",
+        "Krishna",
+        "Kurus"
+      ],
+      "type": "Moral Argument",
+      "action": "Anti-War Reasoning"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker describes the Kshatriya dharma as inherently sinful but obligatory, with Shudras serving, Vaishyas trading, Kshatriyas killing, and Brahmins begging.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Speaker"
+      ],
+      "type": "Dharma Explanation",
+      "action": "Social Role Description"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker compares Kshatriyas killing Kshatriyas to fish eating fish and dogs biting dogs, calling it traditional dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Speaker",
+        "Krishna"
+      ],
+      "type": "Analogy",
+      "action": "Philosophical Comparison"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker discusses war's inevitability, life and death not being by personal will, and time determining all outcomes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Speaker",
+        "Krishna"
+      ],
+      "type": "Fatalism",
+      "action": "Cosmic Perspective"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker notes that in war, one can kill many, many can kill one, cowards can kill heroes, and unknowns can kill famous ones, with both sides seeing potential victory, defeat, or destruction.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Speaker"
+      ],
+      "type": "War Realities",
+      "action": "Strategic Observation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker declares war full of sin where killers get killed, making victory and defeat equal for the slain, and equates defeat with death while noting victors also perish.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Speaker",
+        "Krishna"
+      ],
+      "type": "War Critique",
+      "action": "Moral Judgment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker describes the despair of one who kills relatives, loses strength, and loses sons and brothers, with few noble heroes surviving battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Speaker",
+        "Krishna"
+      ],
+      "type": "Tragic Consequence",
+      "action": "Emotional Prediction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker states that even killing enemies brings regret with serious consequences, and survivors seek revenge, perpetuating cycles of violence.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Speaker",
+        "Krishna"
+      ],
+      "type": "Cycle of Violence",
+      "action": "Psychological Analysis"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker concludes that victory breeds hatred, defeat brings misery, and only abandoning both brings peace, while hatred prevents rest like a snake in the house.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Speaker"
+      ],
+      "type": "Philosophical Conclusion",
+      "action": "Peace Advocacy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker warns that exterminating all brings eternal infamy, with long-standing hatreds persisting through generations and being fueled rather than quenched by hatred.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Speaker",
+        "Krishna"
+      ],
+      "type": "Final Warning",
+      "action": "Ethical Admonition"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira expresses concerns about the flaws of seeking flaws and the need for peace through sacrifice or cessation of thought.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "type": "Philosophical reflection"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira considers extreme solutions like destroying enemies but finds them too cruel, and rejects abandoning the kingdom as ineffective.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Decision-making"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira decides to pursue peace while preserving the kingdom and family, but acknowledges war is inevitable if peace efforts fail.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "type": "Strategic planning"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira describes the consequences of failed peace talks using the metaphor of dogs fighting over meat, illustrating the law of the strong over the weak.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "type": "Analogy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira expresses respect for Dhritarashtra as father, king, and elder, but worries Dhritarashtra's favoritism toward his sons will ignore their humility.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Dhritarashtra"
+      ],
+      "relationship": "Respectful but concerned nephew-uncle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Krishna for advice on how to preserve both profit and righteousness in this difficult situation, acknowledging Krishna as their only trusted counselor.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Krishna"
+      ],
+      "relationship": "Seeker-advisor",
+      "type": "Request for counsel"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna agrees to go to the Kuru assembly as a peace envoy for both sides, aiming to achieve peace without harming the Pandavas' interests.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira"
+      ],
+      "action": "Peace mission acceptance",
+      "goal": "Prevent war and save lives"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira objects to Krishna's mission, fearing Duryodhana won't listen and that Krishna's humiliation would destroy their happiness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Krishna",
+        "Duryodhana"
+      ],
+      "conflict": "Disagreement over peace strategy",
+      "concern": "Krishna's safety and dignity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna insists on going to avoid criticism from other kings, confident in his power to destroy the Kurus if provoked, and assures Yudhishthira the mission won't be in vain.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira"
+      ],
+      "type": "Divine assurance",
+      "supernatural_element": "Krishna's divine power to destroy enemies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna is being sent to the Kuru assembly (Hastinapura) as an envoy.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "action": "Dispatch on diplomatic mission",
+      "destination": "Kuru assembly (Hastinapura)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker (likely Yudhishthira) states the purpose of Krishna's mission is to bring peace and friendly relations.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira (implied speaker)",
+        "Kauravas (collectively)"
+      ],
+      "purpose": "To appease the descendants of Bharata (the Kauravas) and establish peaceful, friendly relations",
+      "relationship_note": "Krishna is acting as an envoy for the Pandavas."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna is affirmed as the dear brother of the speaker and Arjuna, and his friendship is unquestionable.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira (implied speaker)",
+        "Arjuna"
+      ],
+      "relationship": "Krishna is the dear brother and unquestioned friend of Yudhishthira and Arjuna."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna is instructed to make Duryodhana understand the Pandavas' rightful claims and interests.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Duryodhana"
+      ],
+      "action": "Diplomatic communication",
+      "objective": "To inform Duryodhana of the Pandavas' position and interests"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna is instructed to speak words that are righteous (dharmic) and beneficial to the Pandavas, whether the outcome is peace or war.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "instruction": "To speak righteously and in the Pandavas' interest, regardless of the outcome (peace or war)"
+    },
+    "_token_interval": null
+  }
+]

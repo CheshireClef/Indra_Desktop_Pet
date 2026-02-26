@@ -1,0 +1,128 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Bhishma about who should be worshipped and honored.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Question/Inquiry",
+      "relationship": "Yudhishthira seeks wisdom from Bhishma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma references an ancient dialogue between Narada and Krishna to answer the question.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Narada",
+        "Krishna"
+      ],
+      "type": "Reference to Past Dialogue",
+      "relationship": "Bhishma cites authoritative conversation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna observes Narada worshipping Brahmins and asks him about whom he honors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Narada"
+      ],
+      "type": "Observation and Inquiry",
+      "relationship": "Krishna questions Narada's practice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Narada explains to Krishna the types of people he honors, including deities and virtuous Brahmins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narada",
+        "Krishna"
+      ],
+      "type": "Explanation/Teaching",
+      "relationship": "Narada instructs Krishna on reverence",
+      "divine_elements": [
+        "Varuna",
+        "Vayu",
+        "Aditya",
+        "Parjanya",
+        "Agni",
+        "Sthanu",
+        "Skanda",
+        "Lakshmi",
+        "Vishnu",
+        "Brahma",
+        "Vakpati",
+        "Chandra",
+        "Varuna (water god)",
+        "Earth Goddess",
+        "Sarasvati"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Narada lists qualities of Brahmins he honors: those with ascetic power, Vedic knowledge, humility, generosity, discipline, and devotion.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narada"
+      ],
+      "type": "Moral Instruction",
+      "action": "Description of virtuous characteristics"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna (referred to as '雅度族后裔', '美发者', '摩陀瓦', '黑天', '苾湿尼族后代', '无瑕者') praises various virtuous individuals and their qualities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "type": "Moral Discourse",
+      "action": "Praising virtues and righteous behavior",
+      "relationships": "Krishna is addressing the listener (implied to be Arjuna or another disciple) about moral principles",
+      "supernatural_elements": "References to divine beings, rituals, and spiritual practices"
+    },
+    "_token_interval": null
+  }
+]

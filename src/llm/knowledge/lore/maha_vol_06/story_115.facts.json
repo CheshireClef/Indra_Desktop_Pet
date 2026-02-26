@@ -1,0 +1,966 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Janamejaya asks Lomaharshana about Uddalaka's ascetic power that made him consider cursing Vishnu.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Janamejaya",
+        "Lomaharshana"
+      ],
+      "type": "Inquiry"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Lomaharshana describes Uddalaka as a great ascetic, devoted to his teacher, powerful, and worshiping no one else.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Lomaharshana",
+        "Uddalaka"
+      ],
+      "action": "Description of character"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Lomaharshana states that Gautama favored Uddalaka more than his many other students due to his self-control, purity, courage, and dedicated service.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Lomaharshana",
+        "Gautama",
+        "Uddalaka"
+      ],
+      "relationship": "Teacher-student, favoritism"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gautama allowed thousands of students to return home after completing their studies but was unwilling to let Uddalaka leave due to his affection.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gautama",
+        "Uddalaka"
+      ],
+      "action": "Restriction of departure"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uddalaka, while collecting firewood for Gautama, becomes exhausted and hungry, drops the bundle, and notices a silver hair from old age entangled in it, causing him to weep.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uddalaka"
+      ],
+      "action": "Realization of aging and emotional distress"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gautama's daughter, as instructed by her father, attempts to catch Uddalaka's tears with her hands but is burned by them, and even the earth cannot bear the tears.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gautama's daughter",
+        "Uddalaka"
+      ],
+      "action": "Supernatural reaction to tears",
+      "supernatural_element": "Tears burn hands and are unbearable to earth"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gautama asks Uddalaka why he is sad, and Uddalaka explains his devotion, lack of awareness of aging, and desire to return home after a hundred years, noting that younger students were allowed to leave.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gautama",
+        "Uddalaka"
+      ],
+      "type": "Dialogue and confession"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gautama, pleased with Uddalaka's devotion, grants him permission to leave and offers his daughter in marriage, stating no other woman could serve such a radiant person.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gautama",
+        "Uddalaka",
+        "Gautama's daughter"
+      ],
+      "action": "Granting departure and marriage proposal",
+      "relationship_change": "Proposed marital union"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uddalaka transforms into a sixteen-year-old youth, marries Gautama's daughter, and seeks to give a gift to his teacher's wife as a token of gratitude.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uddalaka",
+        "Gautama's daughter",
+        "Gautama's wife"
+      ],
+      "action": "Transformation, marriage, and inquiry about gift",
+      "supernatural_element": "Transformation into youth"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Utanka offered to do anything to please Ahalya, even using wealth or life.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Utanka",
+        "Ahalya"
+      ],
+      "action": "Offer of service",
+      "relationship": "Student-teacher relationship (Utanka is student of Gautama, Ahalya is Gautama's wife)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ahalya initially declined but then requested the magical pearl earrings of Saudasa's wife.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ahalya",
+        "Utanka"
+      ],
+      "action": "Request for earrings",
+      "purpose": "To please teacher's wife and repay teacher"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Utanka agreed and set out to retrieve the earrings from Saudasa.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Utanka",
+        "Saudasa"
+      ],
+      "action": "Quest initiation",
+      "destination": "Saudasa's location"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gautama discovered Utanka's mission and warned Ahalya that Saudasa, cursed to be a cannibal, would likely kill Utanka.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gautama",
+        "Ahalya"
+      ],
+      "action": "Warning",
+      "danger": "Saudasa's cannibalism curse",
+      "relationship": "Husband-wife conversation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ahalya pleaded ignorance and asked for Gautama's protection for Utanka.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ahalya",
+        "Gautama"
+      ],
+      "action": "Request for divine protection",
+      "resolution": "Gautama agreed to protect Utanka"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Utanka encountered Saudasa in the forest, who appeared fearsome with blood-stained beard.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Utanka",
+        "Saudasa"
+      ],
+      "action": "Confrontation",
+      "setting": "Empty forest",
+      "description": "Saudasa described as terrifying like Yama"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Saudasa expressed delight at finding food (Utanka) during his feeding time.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Saudasa",
+        "Utanka"
+      ],
+      "action": "Threat of consumption",
+      "timing": "Sixth hour (feeding time)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Utanka argued he shouldn't be killed since he was on teacher's business.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Utanka",
+        "Saudasa"
+      ],
+      "action": "Appeal for mercy",
+      "argument": "Protection for those serving teachers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Saudasa insisted on eating due to hunger during his fixed feeding time.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Saudasa"
+      ],
+      "action": "Insistence on cannibalism",
+      "reason": "Hunger and cursed nature"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Utanka proposed a contract: first complete teacher's mission, then submit to Saudasa.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Utanka",
+        "Saudasa"
+      ],
+      "action": "Contract proposal",
+      "terms": "Retrieve earrings first, then surrender"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Utanka requested the pearl earrings, appealing to Saudasa's reputation as a donor to Brahmins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Utanka",
+        "Saudasa"
+      ],
+      "action": "Formal request",
+      "item": "Magical pearl earrings of Saudasa's wife",
+      "appeal": "Saudasa's charitable nature"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Utanka promised to keep his word and return after obtaining the earrings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Utanka"
+      ],
+      "action": "Oath of return",
+      "character_trait": "Truthfulness even in casual speech"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttanka requests a pair of pearl earrings from King Saudasa.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttanka",
+        "Saudasa"
+      ],
+      "action": "Request/Begging",
+      "relationship": "Brahmin (Uttanka) requests a gift from a King (Saudasa)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Saudasa explains the earrings belong to his wife, Madayanti, and suggests Uttanka ask her directly with his authority.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Saudasa",
+        "Uttanka",
+        "Madayanti"
+      ],
+      "action": "Instruction/Delegation",
+      "relationship": "Husband (Saudasa) authorizes a request to his wife (Madayanti)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Saudasa tells Uttanka he can find Madayanti at a forest water source, as he cannot see her at the current time (the sixth division of the day).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Saudasa",
+        "Uttanka",
+        "Madayanti"
+      ],
+      "action": "Direction/Information",
+      "supernatural_element": "Implied temporal restriction on Saudasa seeing his wife"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttanka goes alone, meets Madayanti, and explains his request.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttanka",
+        "Madayanti"
+      ],
+      "action": "Meeting/Request"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Madayanti agrees but demands a token or proof from her husband, Saudasa, due to the earrings' sacred and coveted nature.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Madayanti",
+        "Uttanka",
+        "Saudasa"
+      ],
+      "action": "Condition/Agreement",
+      "relationship": "Wife (Madayanti) requires husband's (Saudasa) authorization"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Madayanti describes the magical properties of the pearl earrings and the constant threat of theft by gods, yakshas, and snakes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Madayanti"
+      ],
+      "action": "Description/Exposition",
+      "supernatural_element": "Earrings are sacred, change size, shine brilliantly, protect from dangers, and are coveted by supernatural beings (gods, yakshas, snakes)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttanka returns to King Saudasa to request the proof/token.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttanka",
+        "Saudasa"
+      ],
+      "action": "Return/Request",
+      "relationship": "Brahmin (Uttanka) follows the wife's (Madayanti) condition"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Saudasa, describing himself as being in adversity with no way out, gives Uttanka the proof/token and asks him to offer the pearl earrings (interpreted as a ritual or symbolic request).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Saudasa",
+        "Uttanka"
+      ],
+      "action": "Granting/Instruction",
+      "relationship": "King (Saudasa) provides authorization to the Brahmin (Uttanka)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttanka conveys Saudasa's message to Madayanti, and she gives him the pearl earrings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttanka",
+        "Madayanti",
+        "Saudasa"
+      ],
+      "action": "Fulfillment/Transfer",
+      "relationship": "Wife (Madayanti) complies with husband's (Saudasa) authorized request"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttanka obtained earrings and asked King Saudasa about the meaning of secret words.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttanka",
+        "King Saudasa"
+      ],
+      "type": "Dialogue/Inquiry"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Saudasa explained his dilemma: despite respecting Brahmins, he offended one by taking Madayanti as his companion, leading to a curse preventing him from entering heaven or remaining happily on earth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Saudasa",
+        "Madayanti"
+      ],
+      "action": "Confession/Explanation",
+      "relationships": "King Saudasa offended a Brahmin by taking Madayanti as companion"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Saudasa gave his earrings to Uttanka as agreed and asked Uttanka to fulfill their contract.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Saudasa",
+        "Uttanka"
+      ],
+      "action": "Transaction/Agreement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttanka promised to return but questioned whether he should return to Saudasa, who is a cannibal, now that he had achieved his goal.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttanka",
+        "King Saudasa"
+      ],
+      "type": "Moral Dilemma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Saudasa advised Uttanka not to return, as it would lead to his death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Saudasa",
+        "Uttanka"
+      ],
+      "action": "Warning/Advice",
+      "relationships": "King Saudasa shows concern for Uttanka's safety"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttanka departed from King Saudasa and went to Ahalya with the magical earrings to please his teacher's wife.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttanka",
+        "Ahalya"
+      ],
+      "action": "Journey",
+      "relationships": "Uttanka is student of Ahalya's husband (implied)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "While traveling, Uttanka hung the deer skin containing the earrings on a tree branch while eating fruit, but the skin fell and a snake from the Airavata family took the earrings into an anthill.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttanka",
+        "Snake (Airavata family)"
+      ],
+      "action": "Theft/Loss",
+      "supernatural_elements": "Magical earrings, snake from divine lineage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttanka, enraged, dug into the anthill with a stick, causing Earth Goddess to tremble in pain from his violence.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttanka",
+        "Earth Goddess"
+      ],
+      "action": "Destruction/Anger",
+      "supernatural_elements": "Earth Goddess personified, responds to violence"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra (disguised as a Brahmin) appeared in a chariot and told Uttanka that digging to the snake world (thousands of yojanas away) with a stick was futile.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Uttanka"
+      ],
+      "action": "Divine Intervention",
+      "supernatural_elements": "Indra's transformation, mention of snake world distance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Utanka vowed to retrieve the earrings from the snake world or die.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Utanka"
+      ],
+      "action": "Vow/Determination"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra (Sakra), seeing Utanka's resolve, infused his wooden staff with the power of the Vajra (thunderbolt).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Utanka"
+      ],
+      "action": "Divine Intervention",
+      "tool": "Vajra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Vajra's strike split the earth, creating a path to the snake world (Naga-loka).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra"
+      ],
+      "action": "Creation of Path",
+      "supernatural_element": "Earth-splitting"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Utanka entered the snake world and saw its magnificent, fortified city.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Utanka"
+      ],
+      "location": "Snake World (Naga-loka)",
+      "description": "Fortified city with golden walls, gem decorations, pools, rivers, and trees"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Utanka became disheartened and lost confidence in retrieving the earrings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Utanka"
+      ],
+      "emotional_state": "Discouragement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A black horse with a white tail, copper-colored face and eyes, and fiery energy appeared and spoke to Utanka.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Agni (Fire God)",
+        "Utanka"
+      ],
+      "form": "Horse",
+      "action": "Divine Appearance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Agni instructed Utanka to blow into his anus to retrieve the earrings stolen by Takshaka's son.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Agni",
+        "Utanka"
+      ],
+      "instruction": "Blow into horse's anus",
+      "purpose": "Retrieve earrings"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Agni revealed his identity as Utanka's teacher's teacher (Fire God) and explained that Utanka had worshipped him in Gautama's hermitage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Agni",
+        "Utanka",
+        "Gautama"
+      ],
+      "revelation": "Agni's true identity and past relationship",
+      "relationship": "Teacher's teacher (Agni) to disciple (Utanka)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Utanka blew into the horse's anus as instructed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Utanka",
+        "Agni"
+      ],
+      "action": "Blowing into horse",
+      "result": "Activation of Agni's power"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Agni became pleased, ignited flames, and smoke poured from all pores of the horse, terrifying the snake world.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Agni"
+      ],
+      "action": "Ignition of flames and smoke",
+      "effect": "Terror in snake world"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The snakes, led by Vasuki, emerged from Takshaka's palace, suffering from Agni's power, and approached Utanka.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vasuki",
+        "Snakes",
+        "Utanka"
+      ],
+      "action": "Snakes emerge and approach",
+      "reason": "Suffering from smoke and fire"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The snakes, after hearing Utanka's explanation, paid homage to him and offered worship.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Snakes",
+        "Utanka"
+      ],
+      "action": "Homage and offering",
+      "relationship_change": "Snakes submit to Utanka"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The snakes presented Utanka with the miraculous, beautifully decorated earrings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Snakes",
+        "Utanka"
+      ],
+      "action": "Handover of earrings",
+      "item": "Pearl earrings"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Utanka accepted the offerings, circumambulated Agni, and returned to Gautama's hermitage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Utanka",
+        "Agni",
+        "Gautama"
+      ],
+      "action": "Return journey",
+      "ritual": "Circumambulation of Agni"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Utanka gave the miraculous earrings to his teacher's wife.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Utanka",
+        "Gautama's wife"
+      ],
+      "action": "Delivery of earrings",
+      "completion": "Mission accomplished"
+    },
+    "_token_interval": null
+  }
+]

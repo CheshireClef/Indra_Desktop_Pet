@@ -1,134 +1,122 @@
-# Indra_Desktop_Pet
-基于FGO因陀罗的互动桌宠
+# FGO因陀罗-桌面宠物 (Indra Desktop Pet)
 
-目前还在新建文件夹阶段，等我慢慢地做……
+基于游戏《Fate/Grand Order》中 Lancer 因陀罗（Indra）形象制作的互动桌面宠物。
+神王大人亲自在电脑桌面上陪伴你，感激吧凡人！
 
-如果看到了本项目请装作没看到，谢谢你
-
-# FGO因陀罗桌宠开发项目进度表
-
-## 0. 项目信息
-- 项目类型：同人桌宠
-- 允许：署名基础上的自由传播与修改
-- 禁止：盈利用途
-- LICENSE 建议：CC BY-NC（署名-非商业性）
+> **注意**：本项目为同人作品，无盈利目的，一切版权归原版权方所有。
 
 ---
 
-## 1. 环境与工具准备
-- [x] 安装 Python（3.10 或以上）
-- [x] 安装 pip、venv（Python 自带）
-- [x] 安装 Git（https://git-scm.com/）
-- [x] 安装 VS Code
-- [x] 在 VS Code 中安装 Python 插件
-- [x] 在 VS Code 中安装 GitHub 扩展（可选）
+## 📖 项目简介
+
+这是一个结合了现代 LLM（大语言模型）技术的桌面宠物程序。通过观察屏幕和搜索内置的《摩诃婆罗多》、FGO数据库，它会对屏幕的内容给出符合身份的评论，主打一个陪伴感。
+
+### 核心特性
+- **沉浸式陪伴**：透明无边框窗口，始终置顶，支持鼠标拖拽互动。
+- **智能对话**：接入 DeepSeek/ChatGPT 等大模型，拥有基于 RAG（检索增强生成）构建的 FGO 与摩诃婆罗多背景知识库，还原神王大人的傲娇与威严。
+- **屏幕观察**：具备“视觉”能力，能定时观察你的屏幕内容并发表评论（需配置 Vision 模型 API）。
+- **本地化隐私**：除必要的 API 调用外，所有聊天记录和截图数据均存储于本地。
 
 ---
 
-## 2. 项目初始化
-- [x] 在 GitHub 创建仓库（LICENSE 选 CC BY-NC）
-- [x] 在本地 `git clone` 项目
-- [x] 创建 Python 虚拟环境：`python -m venv venv`
-- [x] 激活虚拟环境并安装基础依赖
----
+## 📂 项目结构
 
-## 3. 桌宠暂用立绘准备
-- [x] 寻找一张合适的 Q 版静态立绘作为占位皮肤  
-- [x] 将角色图像放入 `assets/images/pet.png`
-- [x] 确认图像格式与尺寸
-
----
-
-## 4. 核心功能开发
-### 4.1 基础窗口（桌宠主体）
-- [x] 创建透明、无边框、置顶的小窗口
-- [x] 加载并显示立绘
-- [x] 允许拖动角色（鼠标拖拽）
-- [x] 创建系统托盘图标
-- [x] 创建系统托盘右键菜单
-
-### 4.2 动画
-- [ ] 角色待机动画（静态 → 简单 GIF → 多帧动画）
-- [ ] 角色点击反应（弹窗、语音、动作）
-- [ ] 定时动作（眨眼、伸懒腰等）
-- [ ] 皮肤切换
-- [ ] 拖动动画
-- [ ] 根据聊天语气和心情切换立绘表情？
-
-### 4.3 聊天对话功能
-- [x] 角色对白系统（文本气泡）
-- [x] 简易菜单（右键菜单）
-- [x] 接入语言模型聊天
-- [ ] 主动点评用户屏幕内容（可定时触发，可开关）
-- [ ] 根据好感度修正对话内容
+```
+Indra_Desktop_Pet/
+├── assets/             # 资源文件夹（立绘、图标、UI素材）
+├── config/             # 配置文件（用户设置、API密钥等）
+├── models/             # 本地离线模型（目前包含 gte-multilingual-base 向量模型）
+├── src/                # 源代码目录
+│   ├── gui/            # 图形界面逻辑 (PySide6)
+│   ├── llm/            # LLM 交互与 RAG 核心逻辑 (LlamaIndex)
+│   ├── vision/         # 视觉模块 (屏幕截图与图像识别)
+│   └── main.py         # 程序启动入口
+└── README.md           # 项目说明文档
+```
 
 ---
 
-## 5. 游戏性
-- [ ] 监视鼠标点击和键盘敲击次数
-- [ ] 鼠标键盘敲击次数兑换奖励
-- [ ] 好感度系统
-- [ ] 闲置后在桌面随机漫游功能
+## ✅ 功能特性进度表
+
+### 基础交互
+- [x] 桌面透明无边框窗口
+- [x] 鼠标拖拽移动
+- [x] 系统托盘图标与右键菜单
+- [x] 气泡式对话框
+
+### 智能系统
+- [x] LLM 对话接口（支持 OpenAI 格式 API）
+- [x] RAG 知识库（集成 FGO 剧情与摩诃婆罗多史诗）
+- [x] 屏幕内容监视与评论（基于 Qwen-VL 等视觉模型）
+- [x] 本地向量检索（Alibaba-NLP/gte-multilingual-base）
+
+### 待开发特性 (Todo)
+- [ ] 戳一戳互动动画
+- [x] 根据对话情绪自动切换表情/Emoji
+- [ ] 闲置待机动画（打瞌睡、随机漫游等）
+- [ ] 长期记忆系统优化
+- [ ] 更多游戏性功能（好感度等）
 
 ---
 
-## 6. 测试 & 优化
-- [ ] 测试在 Windows 11 的桌面行为（置顶、拖动、遮挡）
-- [ ] 测试资源路径、启动方式
-- [ ] 优化内存占用、帧率
-- [ ] 修复窗口闪烁、透明边缘等问题
+## 🚀 快速开始
+
+### 1. 环境准备
+- 操作系统：Windows 10/11
+- Python 版本：3.10 或以上
+- 必要的 API Key：
+  - 推荐使用 DeepSeek 或 硅基流动 SiliconFlow
+  - **SiliconFlow 邀请福利**：使用我的邀请链接注册可获赠额度同时给作者的额度回个血 [https://cloud.siliconflow.cn/i/nkM72iXr](https://cloud.siliconflow.cn/i/nkM72iXr) (邀请码: nkM72iXr)
+
+### 2. 安装与运行
+1. 克隆本项目到本地：
+   ```bash
+   git clone https://github.com/YourUsername/Indra_Desktop_Pet.git
+   ```
+2. 安装依赖库：
+   请确保安装了 `PySide6`, `llama-index`, `openai` 等核心依赖。
+3. 运行程序：
+   ```bash
+   python src/main.py
+   ```
+……好吧其实我也可能会将打包后的程序上传到网盘，到时候直接下载解压运行里面的exe文件即可。
+
+### 3. 初始设置
+- 启动后，右键点击托盘图标或立绘，选择 **“设置”**。
+- 在 **“模型设置”** 选项卡中，填入你的 LLM API URL 和 Key。
+  - **聊天模型**：DeepSeek，chatgpt，都行
+  - **视觉模型**：推荐 Qwen/Qwen2-VL-72B-Instruct (用于屏幕观察)
+- 保存设置后，即可开始与因陀罗互动。
 
 ---
 
-## 7. 打包与发布
-- [ ] 使用 PyInstaller 打包为 exe
-- [ ] 清理无用文件
-- [ ] 更新 README 文档
-- [ ] 上传 Release 到 GitHub
+## 🛠️ 技术细节
+
+- **UI 框架**：PySide6 (Qt for Python)
+- **LLM 框架**：LlamaIndex
+- **向量模型**：Alibaba-NLP/gte-multilingual-base (本地离线运行，无需联网嵌入)
+- **视觉能力**：基于定期屏幕截图 + 多模态大模型 (VLM) 分析
 
 ---
-## 备注：
-听说屏幕图像识别可以用硅基流动Siliconflow.cn的大模型api做，用qwen_72B识别，生成的内容发送给deepseek处理
 
-又备注：用下Qwen/Qwen3-Omni-30B-A3B-Captioner试试好了，说是专门生成图像描述的，价格还便宜
+## ❓ 常见问题 (FAQ)
 
-关于设置菜单：
+**Q: 桌宠立绘突然消失了？**
+A: 这是一个偶发 Bug。请尝试从系统托盘图标右键菜单中选择「显示桌宠」。如果无效，先点「隐藏桌宠」再点「显示桌宠」即可恢复。
 
-把**所有可配置项统一放到一个 JSON 配置文件**里：
+**Q: 屏幕监视功能没反应？**
+A: 这取决于网络状况和 API 响应速度。截图后需要一定时间生成评论。如果遇到 403 错误，请检查 API Key 额度或更换服务商。
 
-- 配置文件：`config/settings.json`（一份文件管理所有用户可调参数）
-- 一个小工具类 `SettingsManager` 负责读写（自动处理默认值）
-- 一个简单的 PySide6 `SettingsDialog` 用于在 GUI 里修改配置（从右键菜单「设置」打开）
-- 把 `PetWindow` 改成接收 `SettingsManager`，并在设置变更后动态应用（例如修改 `scale` 会立即重载图片）
+**Q: 为什么程序体积这么大？**
+A: ~~因为因陀罗神的灵基就是这么庞大~~为了实现开箱即用的 RAG 体验，项目内置了离线向量模型，数据库的嵌入式文件也已经全部在我自己的机器上生成好了。
+*2026/1/19 更新：已替换为 `gte-multilingual-base`，体积从 2GB+ 优化至约 500MB。*
 
- 配置文件：`config/settings.json`
+---
 
-`src/settings_manager.py`（读写 JSON，单一入口）
+## 📄 版权与致谢
 
-`src/gui/settings_dialog.py`（简单的设置窗口，便于增删项）
+- **立绘绘制**：@废料漩涡
+- **程序开发**：@柴犬面包 ~~以及她的那些个AI助手们，它们个个有情有义~~
+- **开源协议**：[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) (署名-非商业性使用)
 
-`src/gui/pet_window.py`：让 PetWindow 接收 `SettingsManager` 并能响应设置更改
-
- 修改 `src/gui/tray.py`：把菜单「设置」绑定到 `pet_window.open_settings_windo`
-
-修改 `src/main.py`：创建 SettingsManager 并把它传给 PetWindow
-
-src/
- ├─ llm/
- │   ├─ persona.txt        # 人设 prompt（可编辑）
- │   ├─ chat_manager.py    # 对话管理（记忆裁剪）
- └─ memory/
-     └─ memory.json        # 长期记忆（结构化）
-
-对话数据结构：
-[
-  {"role": "user", "content": "..."},
-  {"role": "assistant", "content": "..."}
-]
-
-src/
- ├─ vision/
- │   └─ screen_observer.py   # 屏幕截图 + 图像模型调用
- │
- ├─ llm/
- │   └─ vision_manager.py    # 调用 Qwen/QwQ-32B
+> 感谢阿里达摩院的 `gte-multilingual-base` 模型，任劳任怨的 DeepSeek api，编程之神Claude和Trae，什么问题都会努力回答的便宜大碗的豆包和GPT。还有我的ROG ALLY，它本来应该运行一些游戏，结果一个多月以来都在风扇狂转地承担一些编程工作，不得不说还挺好使！

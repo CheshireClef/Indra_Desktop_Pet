@@ -1,0 +1,1098 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas, led by Yudhishthira, arrived at Duryodhana's camp, accompanied by Satyaki, Shikhandin, Draupadi's sons, and other great archers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Satyaki",
+        "Shikhandin",
+        "Sons of Draupadi"
+      ],
+      "type": "Arrival",
+      "location": "Duryodhana's camp"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna advised Arjuna to remove his Gandiva bow and quivers and disembark from the chariot, which Arjuna did.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna"
+      ],
+      "action": "Advice and compliance",
+      "items": [
+        "Gandiva bow",
+        "quivers"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna unharnessed the horses and also disembarked from Arjuna's chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "action": "Disembarking",
+      "items": [
+        "horses",
+        "chariot"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The divine monkey emblem on Arjuna's chariot vanished immediately after Krishna disembarked.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Supernatural disappearance",
+      "element": "Divine emblem"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna's chariot, which had previously been burned by divine weapons from Drona and Karna, was instantly consumed by fire and reduced to ashes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Destruction",
+      "cause": "Divine fire",
+      "previous_damage": [
+        "Drona's weapons",
+        "Karna's weapons"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas were astonished to see the chariot turn to ashes, and Arjuna questioned Krishna about this miraculous event.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna",
+        "Yudhishthira",
+        "Bhima",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "action": "Inquiry",
+      "reaction": "Astonishment"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna explained that the chariot had been burned by numerous weapons during the war but was protected because he was on it; now that the task was complete and he had left, it was destroyed by the power of Brahma's weapon.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna"
+      ],
+      "action": "Explanation",
+      "reason": "Divine protection ended",
+      "weapon": "Brahma's weapon"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna embraced Yudhishthira, congratulated him on his victory, and noted the defeat of his enemies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira"
+      ],
+      "action": "Congratulation",
+      "relationship": "Friend and guide to Pandavas",
+      "outcome": "Victory of Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna (Vasudeva) recounts to Yudhishthira (Dharmaraja) how Arjuna (Gandiva holder) and Bhima (Pandava son) survived the war without perishing.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira",
+        "Arjuna",
+        "Bhima"
+      ],
+      "action": "Recollection of war survival",
+      "relationships": [
+        "Krishna is protector of Arjuna",
+        "Yudhishthira is elder Pandava brother"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna reminds Yudhishthira of their meeting in Dvaraka where Yudhishthira requested Krishna to protect Arjuna in times of danger.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira",
+        "Arjuna"
+      ],
+      "action": "Reminder of past agreement",
+      "relationships": [
+        "Krishna promised to protect Arjuna",
+        "Arjuna is Krishna's friend and brother"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna states that he protected Arjuna during the war, enabling the Pandavas to achieve victory without losing their lives.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna",
+        "Pandavas"
+      ],
+      "action": "Divine protection in battle",
+      "supernatural_elements": [
+        "Krishna's divine protection"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira expresses gratitude to Krishna, acknowledging that only Krishna could have countered the Brahmastra weapons of Drona and Karna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Krishna",
+        "Drona",
+        "Karna"
+      ],
+      "action": "Expression of gratitude",
+      "relationships": [
+        "Krishna is divine protector of Pandavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira quotes sage Vyasa (Krishna Dvaipayana) saying 'Where there is dharma, there is Krishna; where there is Krishna, there is victory.'",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Krishna",
+        "Vyasa"
+      ],
+      "action": "Quotation of prophetic statement",
+      "relationships": [
+        "Vyasa is sage who prophesied Krishna's role"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The heroes enter the camp and receive treasures including silver, gold, jewels, pearls, ornaments, carpets, furs, servants, and royal items.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Satyaki",
+        "Heroes"
+      ],
+      "action": "Receiving war spoils",
+      "relationships": [
+        "Satyaki is Yadava warrior allied with Pandavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna suggests they should stay outside the camp for auspiciousness, and all agree to move out with him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Pandavas",
+        "Satyaki"
+      ],
+      "action": "Relocation for auspiciousness",
+      "relationships": [
+        "All follow Krishna's guidance"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas go to the auspicious riverbank of the Vitasta (Jhelum) river and spend the night there.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas"
+      ],
+      "action": "Camping by river",
+      "location": "Vitasta riverbank"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas send Krishna to Hastinapura, and Krishna instructs his charioteer Daruka to drive to the city where Dhritarashtra (son of Ambika) resides.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Krishna",
+        "Daruka",
+        "Dhritarashtra"
+      ],
+      "action": "Sending messenger to Hastinapura",
+      "relationships": [
+        "Daruka is Krishna's charioteer",
+        "Dhritarashtra is blind king of Hastinapura"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yudhishthira (坚战) sent Krishna (黑天) to meet Gandhari (甘陀利) after the war.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira",
+        "Krishna",
+        "Gandhari"
+      ],
+      "action": "Sending emissary",
+      "reason": "To calm Gandhari's anger after her sons' deaths"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna previously went to the Kuru assembly seeking peace but failed, leading to the war.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Kuru clan"
+      ],
+      "action": "Peace mission",
+      "result": "Failure, war ensued"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima (怖军) killed Duryodhana (难敌) using unfair means in the mace duel.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Duryodhana"
+      ],
+      "action": "Unfair killing in battle",
+      "consequence": "Caused fear in Yudhishthira"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira feared Gandhari's wrath due to her severe penance and power to destroy worlds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira",
+        "Gandhari"
+      ],
+      "emotion": "Fear",
+      "reason": "Gandhari's ascetic power and anger over sons' deaths"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira requested Krishna to pacify Gandhari before she could curse them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira",
+        "Krishna"
+      ],
+      "request": "Pacify Gandhari",
+      "urgency": "Prevent her curse"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira acknowledged Krishna's crucial role in their victory, comparing it to Krishna's aid to gods in past wars.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yudhishthira",
+        "Krishna",
+        "Arjuna"
+      ],
+      "acknowledgment": "Krishna's divine support",
+      "comparison": "Similar to helping gods against demons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna (also referred to as Keshava, Janardana, Madhava) is advised by Yudhishthira (referred to as Dharmaraja) to go and placate Gandhari, who is grieving and furious over the death of her son Duryodhana and other relatives.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira",
+        "Gandhari"
+      ],
+      "action": "Advised to placate",
+      "reason": "Gandhari's grief and anger over losses in the Kurukshetra War"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna summons his charioteer Daruka and orders him to prepare the chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Daruka"
+      ],
+      "action": "Summoned and ordered chariot preparation",
+      "relationship": "Lord and charioteer"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna travels swiftly to Hastinapura (referred to as the city of elephants) in his chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "action": "Traveled to Hastinapura",
+      "destination": "Hastinapura"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna enters Hastinapura, announces his arrival to Dhritarashtra, and descends from his chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Dhritarashtra"
+      ],
+      "action": "Arrived and announced presence",
+      "location": "Hastinapura"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna enters Dhritarashtra's palace and meets Vyasa (referred to as the chief of sages, Krishna Dvaipayana) who had arrived earlier.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Vyasa",
+        "Dhritarashtra"
+      ],
+      "action": "Met in palace",
+      "relationship": "Divine figures and king"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna pays respects by touching the feet of Vyasa and Dhritarashtra, and calmly greets Gandhari.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Vyasa",
+        "Dhritarashtra",
+        "Gandhari"
+      ],
+      "action": "Paid respects and greeted",
+      "significance": "Shows reverence and attempts to calm the situation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna takes Dhritarashtra's hand and weeps bitterly, overcome with grief.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Dhritarashtra"
+      ],
+      "action": "Wept together",
+      "emotion": "Shared grief over the war's devastation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After composing himself, Krishna speaks to Dhritarashtra, reminding him of his wisdom and the inevitability of time, and explaining the Pandavas' desire for peace and their past sufferings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Dhritarashtra"
+      ],
+      "action": "Spoke to console and explain",
+      "key_points": [
+        "Dhritarashtra's omniscience",
+        "Inevitability of time",
+        "Pandavas' desire for peace after exile and hardships"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna reminded Dhritarashtra that before the war, he had personally requested five villages for the Pandavas in front of everyone.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Dhritarashtra"
+      ],
+      "action": "Reminder of pre-war negotiation",
+      "relationships": [
+        "Messenger to King",
+        "Negotiator to Ruler"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra, due to fate and greed, refused to give the villages, leading to the destruction of all Kshatriyas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra"
+      ],
+      "action": "Refusal of peace offer",
+      "consequences": [
+        "War initiation",
+        "Kshatriya destruction"
+      ],
+      "relationships": [
+        "Father of Duryodhana",
+        "Ruler of Hastinapura"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma, Shalya, Kripacharya, Drona, Ashwatthama, and Vidura all advised Dhritarashtra to pursue permanent peace, but he ignored their counsel.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Shalya",
+        "Kripacharya",
+        "Drona",
+        "Ashwatthama",
+        "Vidura",
+        "Dhritarashtra"
+      ],
+      "action": "Peace advice ignored",
+      "relationships": [
+        "Elders to King",
+        "Advisors to Ruler"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna explained that when fate destroys reason, people go astray, and Dhritarashtra had shown foolishness in this matter.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Dhritarashtra"
+      ],
+      "action": "Explanation of fate's influence",
+      "relationships": [
+        "Divine advisor to King"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna told Dhritarashtra not to blame the Pandavas, as everything is self-inflicted, and the Pandavas had no fault according to dharma, rules, or kinship.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Dhritarashtra",
+        "Pandavas"
+      ],
+      "action": "Exoneration of Pandavas",
+      "relationships": [
+        "Cousins (Pandavas to Dhritarashtra)",
+        "Divine protector to Pandavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna stated that for Dhritarashtra and Gandhari, their family, lineage, ancestral offerings, and children's fate now depend on the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Dhritarashtra",
+        "Gandhari",
+        "Pandavas"
+      ],
+      "action": "Declaration of dependency",
+      "relationships": [
+        "Parents of deceased Kauravas",
+        "Nephews (Pandavas to Dhritarashtra/Gandhari)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna advised Dhritarashtra to reflect on his mistakes and treat the Pandavas with friendship, as Yudhishthira remains loyal and naturally affectionate toward him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Dhritarashtra",
+        "Yudhishthira"
+      ],
+      "action": "Advice for reconciliation",
+      "relationships": [
+        "Uncle to nephew (Dhritarashtra to Yudhishthira)",
+        "Divine guide to both"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna described Yudhishthira's suffering after defeating his enemies, feeling burning pain, depression day and night, and sorrow for Dhritarashtra and Gandhari.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira",
+        "Dhritarashtra",
+        "Gandhari"
+      ],
+      "action": "Description of post-war grief",
+      "relationships": [
+        "Eldest Pandava",
+        "Son of Pandu",
+        "Nephew to Dhritarashtra/Gandhari"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna then spoke to Gandhari, praising her as an unparalleled woman in the world and reminding her of her words at a royal assembly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Gandhari"
+      ],
+      "action": "Praise and reminder",
+      "relationships": [
+        "Divine consoler to Queen"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna recalled Gandhari's warning to Duryodhana at the assembly: 'Where there is dharma, there is victory!' which Duryodhana ignored due to his desire for victory.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Gandhari",
+        "Duryodhana"
+      ],
+      "action": "Recollection of prophetic warning",
+      "relationships": [
+        "Mother to son (Gandhari to Duryodhana)",
+        "Queen to prince"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna told Gandhari that since her words came true, she should not grieve excessively or wish for the destruction of the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Gandhari",
+        "Pandavas"
+      ],
+      "action": "Counsel against vengeance",
+      "relationships": [
+        "Mother of Kauravas",
+        "Aunt to Pandavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna noted that through her ascetic power, Gandhari's fiery eyes could burn the entire earth, but she should control this power.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Gandhari"
+      ],
+      "action": "Acknowledgment of divine power",
+      "supernatural_elements": [
+        "Ascetic power capable of destruction"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gandhari responded to Krishna, saying her heart had been burning with anxiety but was now becoming calm after hearing his words.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandhari",
+        "Krishna"
+      ],
+      "action": "Acceptance of counsel",
+      "relationships": [
+        "Queen to divine guide"
+      ],
+      "emotional_change": [
+        "Anxiety to calmness"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gandhari, grieving the loss of her sons, tells Krishna that the blind king Dhritarashtra and she now have only Krishna and the Pandavas as their refuge.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandhari",
+        "Krishna"
+      ],
+      "type": "Grief and Declaration",
+      "relationships": [
+        "Gandhari is the mother of the slain Kaurava princes. She and her husband Dhritarashtra are now dependent on Krishna and the Pandavas."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gandhari covers her face with her garment and weeps.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandhari"
+      ],
+      "type": "Emotional Outburst",
+      "action": "Weeping"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna comforts the grieving and emaciated Gandhari by explaining the principle of cause and effect.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Gandhari"
+      ],
+      "type": "Divine Counsel",
+      "action": "Consolation through philosophical teaching"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After comforting Gandhari and Dhritarashtra, Krishna suddenly senses that Ashvatthama (son of Drona) is having a certain thought.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Ashvatthama"
+      ],
+      "type": "Divine Perception",
+      "supernatural_elements": [
+        "Krishna's extrasensory perception of Ashvatthama's thoughts"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna urgently rises, pays respects to Vyasa, and tells Dhritarashtra he must leave because Ashvatthama has conceived a sinful thought, and he foresees the Pandavas are in danger of a night attack.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Vyasa",
+        "Dhritarashtra",
+        "Ashvatthama",
+        "Pandavas"
+      ],
+      "type": "Urgent Departure",
+      "action": "Warning and farewell",
+      "relationships": [
+        "Krishna perceives a threat from Ashvatthama towards the Pandavas."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra and Gandhari tell Krishna to go quickly to protect the Pandavas and express hope to see him again soon.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Gandhari",
+        "Krishna",
+        "Pandavas"
+      ],
+      "type": "Dismissal and Blessing",
+      "action": "Urging protection",
+      "relationships": [
+        "Despite their grief, Dhritarashtra and Gandhari prioritize the safety of the Pandavas."
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna immediately departs with Daruka.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Daruka"
+      ],
+      "type": "Journey",
+      "action": "Departure from Hastinapura"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After Krishna leaves, the revered sage Vyasa begins to comfort King Dhritarashtra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Dhritarashtra"
+      ],
+      "type": "Consolation",
+      "action": "Sage comforting the king"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna, having completed his mission, leaves Hastinapura and returns to the camp to meet the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Pandavas"
+      ],
+      "type": "Return Journey",
+      "action": "Travel to the Pandava camp"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arriving at the camp in the evening, Krishna meets with the Pandavas, reports on his visit, and sits with them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Pandavas"
+      ],
+      "type": "Reunion and Debrief",
+      "action": "Sharing information and gathering"
+    },
+    "_token_interval": null
+  }
+]

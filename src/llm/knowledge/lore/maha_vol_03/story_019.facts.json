@@ -1,0 +1,446 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Drupada (木柱王) advises Yudhishthira (大臂者) that Duryodhana (难敌) will not easily return the kingdom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Drupada",
+        "Yudhishthira",
+        "Duryodhana"
+      ],
+      "action": "Strategic advice",
+      "reasoning": "Duryodhana's stubbornness and Dhritarashtra's (持国) favoritism"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Drupada explains why others support Duryodhana: Dhritarashtra out of love, Bhishma (毗湿摩) and Drona (德罗纳) out of poverty, Karna (迦尔纳) and Shakuni (沙恭尼) out of foolishness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Drupada",
+        "Dhritarashtra",
+        "Bhishma",
+        "Drona",
+        "Karna",
+        "Shakuni",
+        "Duryodhana"
+      ],
+      "relationships": "Alliances supporting Duryodhana",
+      "motivations": [
+        "Parental love",
+        "Poverty",
+        "Foolishness"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Drupada rejects Balarama's (大力罗摩) advice of peaceful negotiation, stating Duryodhana never intended fair resolution.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Drupada",
+        "Balarama",
+        "Duryodhana"
+      ],
+      "action": "Rejection of diplomacy",
+      "reasoning": "Duryodhana's malicious nature"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Drupada advocates for military preparation, urging immediate messengers to gather allies before Duryodhana does.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Drupada",
+        "Yudhishthira"
+      ],
+      "action": "Military mobilization",
+      "strategy": "Preemptive alliance-building"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Drupada lists numerous kings and warriors to be summoned as allies, including Shalya (沙利耶), Dhrishtaketu (勇旗), Kashi (胜军), and many others.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Drupada"
+      ],
+      "action": "Listing potential allies",
+      "scope": "Extensive network across regions"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Drupada suggests sending his family priest as messenger to Dhritarashtra's court to deliver Yudhishthira's message to Duryodhana, Bhishma, Dhritarashtra, and Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Drupada",
+        "Yudhishthira",
+        "Dhritarashtra",
+        "Duryodhana",
+        "Bhishma",
+        "Drona"
+      ],
+      "action": "Diplomatic message delivery",
+      "messenger": "Drupada's family priest"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna (Vasudeva's son) addresses the assembly of kings after the wedding, emphasizing the need for proper action to support Yudhishthira's goals.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira"
+      ],
+      "action": "Speech/Strategy discussion",
+      "relationships": "Krishna supports Yudhishthira's cause; both are allies in the conflict with the Kauravas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna states that their relationship with both the Kauravas and Pandavas is equal, but they must act correctly to avoid foolishness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "action": "Declaration of neutrality with conditional support",
+      "relationships": "Krishna positions himself as mediator but leans toward Pandava support"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna suggests sending an elder envoy to the Kauravas to propose peace, warning that if Duryodhana refuses, war will follow with Krishna's support.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Duryodhana",
+        "Arjuna"
+      ],
+      "action": "Peace proposal with ultimatum",
+      "relationships": "Krishna mediates between Pandavas and Kauravas; threatens Duryodhana with Arjuna's wrath"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Virata honors Krishna and his entourage as they depart after the wedding.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Virata",
+        "Krishna"
+      ],
+      "action": "Farewell and hospitality",
+      "relationships": "Virata shows respect to Krishna; both are allies of the Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna returns to Dvaraka, while Yudhishthira and King Virata prepare for war.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira",
+        "King Virata"
+      ],
+      "action": "War preparations",
+      "relationships": "Coordination among Pandava allies for potential conflict"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Virata and King Drupada send messengers to gather kings for the Pandava cause.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Virata",
+        "King Drupada"
+      ],
+      "action": "Mobilization of allies",
+      "relationships": "Virata and Drupada unite to support Pandavas; both are fathers-in-law to Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kings gather in support of either the Kauravas or Pandavas, causing the earth to tremble with their armies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Various kings",
+        "Duryodhana",
+        "Yudhishthira"
+      ],
+      "action": "Mass military mobilization",
+      "relationships": "Polarization of kingdoms into two factions led by Duryodhana and Yudhishthira"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "With Yudhishthira's consent, King Drupada sends his elderly family priest as envoy to the Kauravas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Drupada",
+        "Yudhishthira",
+        "Duryodhana"
+      ],
+      "action": "Diplomatic envoy dispatch",
+      "relationships": "Drupada acts on behalf of Yudhishthira to negotiate with Duryodhana; priest serves as mediator"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Drupada praises the priest, highlighting his wisdom and knowledge of both Duryodhana's and Yudhishthira's actions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Drupada",
+        "Priest (unnamed)",
+        "Duryodhana",
+        "Yudhishthira"
+      ],
+      "action": "Praise and commissioning of envoy",
+      "relationships": "Drupada entrusts priest with mission; priest understands both sides' positions"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra knowingly allowed the Pandavas to be deceived by others, and despite Vidura's advice, he still obeyed his sons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Pandavas",
+        "Vidura",
+        "Duryodhana (implied as 'sons')"
+      ],
+      "action": "Deception and failure to intervene",
+      "relationships": "Dhritarashtra favors his sons (Kauravas) over the Pandavas; Vidura advises against this."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shakuni, skilled in dice, challenged Yudhishthira to a game of dice; Yudhishthira, though not skilled, accepted out of Kshatriya duty.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shakuni",
+        "Yudhishthira"
+      ],
+      "action": "Dice game challenge",
+      "relationships": "Shakuni acts as an antagonist to Yudhishthira."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After deceiving Yudhishthira, they refused to return the kingdom to him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shakuni",
+        "Kauravas (implied)",
+        "Yudhishthira"
+      ],
+      "action": "Refusal to return kingdom",
+      "relationships": "Conflict between Kauravas and Pandavas over kingdom."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna advises Sanjaya to explain the situation to Dhritarashtra to shake the morale of the Kaurava army and gain support from Vidura, Bhishma, Drona, and Kripa.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Sanjaya",
+        "Dhritarashtra",
+        "Vidura",
+        "Bhishma",
+        "Drona",
+        "Kripa"
+      ],
+      "action": "Strategic advice for diplomacy",
+      "relationships": "Krishna guides Sanjaya; Sanjaya is to influence Dhritarashtra and key Kaurava elders."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna suggests that by causing internal division among the Kauravas, the Pandavas can focus on organizing their army and supplies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Pandavas",
+        "Kauravas"
+      ],
+      "action": "Strategy to weaken enemy",
+      "relationships": "Krishna supports Pandavas against Kauravas."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna instructs Sanjaya to appeal to Dhritarashtra with righteous arguments, recount the sufferings of the Pandavas, and use traditional laws to sway the elders.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Sanjaya",
+        "Dhritarashtra",
+        "Pandavas"
+      ],
+      "action": "Diplomatic mission preparation",
+      "relationships": "Sanjaya acts as envoy for Krishna/Pandavas to Dhritarashtra."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna assures Sanjaya not to fear, as he is a Veda-knowing Brahmin and elder on a messenger's mission, and sends him to Hastinapura at an auspicious time.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Sanjaya"
+      ],
+      "action": "Encouragement and dispatch",
+      "supernatural_elements": "Auspicious timing (moon in Punarvasu nakshatra)."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Following the command of the noble Drupada, his family priest (Sanjaya) goes to Hastinapura.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drupada",
+        "Sanjaya"
+      ],
+      "action": "Mission execution",
+      "relationships": "Drupada orders Sanjaya; Sanjaya obeys as priest."
+    },
+    "_token_interval": null
+  }
+]

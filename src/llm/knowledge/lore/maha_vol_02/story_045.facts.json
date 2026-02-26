@@ -1,0 +1,1515 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战王（Yudhishthira）带领弟兄们和黑公主（Draupadi）朝拜海边圣地，在普拉沙斯达河沐浴并敬拜祖先和众天神。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战王（Yudhishthira）",
+        "黑公主（Draupadi）",
+        "般度之子们（Pandavas）"
+      ],
+      "type": "朝圣与苦行",
+      "relationships": [
+        "兄弟",
+        "夫妻"
+      ],
+      "supernatural_elements": [
+        "敬拜祖先和众天神"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战王在达罗毗荼人聚居地听到阿周那（Arjuna）的业绩，感到欣慰。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战王（Yudhishthira）",
+        "阿周那（Arjuna）"
+      ],
+      "type": "回忆与赞颂",
+      "relationships": [
+        "兄弟"
+      ],
+      "key_plot_points": [
+        "提及阿周那的功绩"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战王在森林中看到利吉迦之子（Rishyashringa）的祭坛，并朝拜众天神的圣地。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战王（Yudhishthira）",
+        "利吉迦之子（Rishyashringa）"
+      ],
+      "type": "朝圣",
+      "supernatural_elements": [
+        "众婆薮（Vasus）",
+        "众摩录多（Maruts）",
+        "双马童（Ashvins）",
+        "阎摩（Yama）",
+        "阿提迭（Adityas）",
+        "财神俱比罗（Kubera）",
+        "因陀罗（Indra）",
+        "毗湿奴（Vishnu）",
+        "萨毗多（Savitr）",
+        "湿婆（Shiva）",
+        "薄伽（Bhaga）",
+        "月神（Chandra）",
+        "太阳神（Surya）",
+        "水神（Varuna）",
+        "众沙提耶（Sādhyas）",
+        "维持之神（Vishvakarma）",
+        "祖先（Pitris）",
+        "楼陀罗（Rudras）",
+        "娑罗私婆蒂（Sarasvati）",
+        "众悉陀（Siddhas）",
+        "普善（Pushan）"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战王在波罗跋沙圣地修炼苦行十二天，餐风饮水，早晚沐浴。",
+    "char_interval": {
+      "start_pos": 848,
+      "end_pos": 871
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战王（Yudhishthira）",
+        "黑公主（Draupadi）",
+        "毛密仙人（Moumi）"
+      ],
+      "type": "苦行修炼",
+      "relationships": [
+        "夫妻",
+        "导师与弟子"
+      ],
+      "key_plot_points": [
+        "坚战王进行严厉的苦行"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 203,
+      "end_index": 212
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "大力罗摩（Balarama）和黑天（Krishna）听说坚战王在修炼苦行，带着军队前来看望。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大力罗摩（Balarama）",
+        "黑天（Krishna）",
+        "坚战王（Yudhishthira）"
+      ],
+      "type": "探望与同情",
+      "relationships": [
+        "表兄弟",
+        "盟友"
+      ],
+      "key_plot_points": [
+        "絆湿尼族（Vrishni）英雄们对般度之子的处境感到悲伤"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "大力罗摩和黑天看到般度之子们睡在地上，满身污垢，黑公主受苦，不禁悲从中来。",
+    "char_interval": {
+      "start_pos": 942,
+      "end_pos": 972
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大力罗摩（Balarama）",
+        "黑天（Krishna）",
+        "坚战王（Yudhishthira）",
+        "黑公主（Draupadi）",
+        "般度之子们（Pandavas）"
+      ],
+      "type": "情感反应",
+      "relationships": [
+        "表兄弟",
+        "夫妻",
+        "兄弟"
+      ],
+      "key_plot_points": [
+        "突显般度之子的苦难处境"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 223,
+      "end_index": 232
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira welcomed Balarama, Krishna, Krishna's son Pradyumna, Samba, Satyaki, and other Vrishni clan members with proper etiquette.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Balarama",
+        "Krishna",
+        "Pradyumna",
+        "Samba",
+        "Satyaki",
+        "Vrishni clan members"
+      ],
+      "type": "Reception/Gathering",
+      "relationships": "Yudhishthira (Pandava) hosts Vrishni relatives (allies/family)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Vrishni heroes were warmly received and returned the greetings to the Pandavas, then seated around Yudhishthira like gods around Indra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vrishni heroes",
+        "Pandavas",
+        "Yudhishthira"
+      ],
+      "type": "Assembly",
+      "relationships": "Mutual respect between Pandavas and Vrishni clan"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira joyfully told Krishna about the enemies' actions, their forest life, and Arjuna's journey to Indra to obtain divine weapons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Krishna",
+        "Arjuna",
+        "Indra"
+      ],
+      "type": "Narration/Update",
+      "relationships": "Yudhishthira confides in Krishna; Arjuna seeks help from Indra (divine intervention)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Vrishni heroes were happy to hear Yudhishthira's words but shed tears seeing the Pandavas emaciated.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vrishni heroes",
+        "Pandavas"
+      ],
+      "type": "Emotional Reaction",
+      "relationships": "Sympathy and concern from Vrishni allies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "At the sacred site of Prabhasa, the Vrishni descendants served and attended to the heroic Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vrishni descendants",
+        "Pandavas"
+      ],
+      "type": "Service/Support",
+      "relationships": "Vrishni clan supports Pandavas in exile"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Balarama, described as fair like milk, jasmine, moon, and lotus root, wearing a wildflower garland, spoke to lotus-eyed Krishna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Balarama",
+        "Krishna"
+      ],
+      "type": "Dialogue Initiation",
+      "relationships": "Brothers discussing moral dilemma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Balarama lamented that Yudhishthira, born of Dharma, upholds righteousness but suffers in exile, while Duryodhana, who violates dharma, prospers, causing confusion among people.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Balarama",
+        "Yudhishthira",
+        "Duryodhana"
+      ],
+      "type": "Moral Critique",
+      "relationships": "Contrast between Yudhishthira's righteousness and Duryodhana's injustice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Balarama condemned Bhishma, Drona, Kripa, and blind King Dhritarashtra for allowing the exile of the innocent Pandavas and enjoying happiness despite their evil actions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Balarama",
+        "Bhishma",
+        "Drona",
+        "Kripa",
+        "Dhritarashtra",
+        "Pandavas"
+      ],
+      "type": "Condemnation",
+      "relationships": "Criticism of Kuru elders for complicity in injustice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Balarama noted that Dhritarashtra, blind by nature, exiled the skilled Yudhishthira and his brothers after consulting with broad-shouldered, red-eyed advisors (implying Duryodhana and allies).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Balarama",
+        "Dhritarashtra",
+        "Yudhishthira",
+        "Pandavas",
+        "Duryodhana"
+      ],
+      "type": "Accusation",
+      "relationships": "Dhritarashtra's culpability in exiling Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Balarama described Bhima as mighty enough to destroy enemy armies with bare hands and terrify foes with his voice, though now weakened by hunger, thirst, and fatigue.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Balarama",
+        "Bhima"
+      ],
+      "type": "Character Description",
+      "relationships": "Acknowledgment of Bhima's strength despite hardships"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki (Sātiki) addresses Rama (Rama) about the current situation of the Pandavas in exile.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Rama"
+      ],
+      "action": "Dialogue/Exhortation",
+      "context": "Satyaki expresses frustration that the Pandavas are suffering in the forest despite having powerful protectors."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki describes the past glory and current suffering of Bhima (Bhīma).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "action": "Description/Contrast",
+      "details": "Bhima once conquered eastern kings in battle but now lives ascetically in the forest, wearing bark and suffering."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki describes the past glory and current suffering of Nakula (Nakula).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula"
+      ],
+      "action": "Description/Contrast",
+      "details": "Nakula once conquered southern kings but now lives as an ascetic in the forest."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki describes the past glory and current suffering of Sahadeva (Sahadeva).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sahadeva"
+      ],
+      "action": "Description/Contrast",
+      "details": "Sahadeva once conquered western kings but now lives ascetically in the forest, surviving on roots and fruits."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki laments the suffering of Draupadi (Draupadi) in the forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi"
+      ],
+      "action": "Lamentation",
+      "details": "Draupadi, born from a sacrificial fire and daughter of a king, should enjoy prosperity but instead endures hardship in the forest."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki laments that the sons of gods (the Pandavas) are suffering in exile while Duryodhana (Duryodhana) prospers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Duryodhana"
+      ],
+      "action": "Lamentation/Question",
+      "details": "Satyaki questions how the earth does not collapse when the righteous Yudhishthira (son of Dharma), Bhima (son of Vayu), Arjuna (son of Indra), and the twins (sons of the Ashvins) suffer in exile while Duryodhana thrives."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki urges Rama that it is time for action, not lamentation, to protect Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Rama",
+        "Yudhishthira"
+      ],
+      "action": "Exhortation to Action",
+      "details": "Satyaki argues that those with protectors (like Yudhishthira has Rama, Krishna, etc.) should not suffer, and they should act now."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki proposes military action against Duryodhana and the Kauravas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Rama",
+        "Krishna",
+        "Duryodhana",
+        "Kauravas"
+      ],
+      "action": "War Proposal",
+      "details": "Satyaki suggests their army should march, defeat Duryodhana and his allies, and send them to Yama's abode. He references Krishna's and Indra's power."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki declares his personal vow to kill Duryodhana in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Duryodhana",
+        "Kauravas"
+      ],
+      "action": "Personal Vow/Threat",
+      "details": "Satyaki vows to use his sharp weapons to defeat Duryodhana, cut off his head, and kill him and all his followers in battle."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker describes how various warriors will perform in battle against the Kuru army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The speaker (addressed as 'son of Rohini')"
+      ],
+      "action": "Battle prophecy/boasting",
+      "targets": [
+        "Kuru warriors"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker claims that warriors like Shalya, Drona, Vikarna, and Karna cannot withstand Arjuna's arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Superior combat skill",
+      "targets": [
+        "Shalya",
+        "Drona",
+        "Vikarna",
+        "Karna"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker says Samba will conquer Duhshasana and destroy his chariot and charioteer.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Samba"
+      ],
+      "action": "Conquest in battle",
+      "targets": [
+        "Duhshasana"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker recounts how young Samba previously defeated demon armies and killed the demon Malla.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Samba"
+      ],
+      "action": "Past victories",
+      "supernatural_elements": "Defeating demon armies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker says Krishna will burn Bhishma, Drona, Shalya, and all armies with his arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "action": "Divine destruction in battle",
+      "targets": [
+        "Bhishma",
+        "Drona",
+        "Shalya"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker says Aniruddha will make Dhritarashtra's sons unconscious and decapitate them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Aniruddha"
+      ],
+      "action": "Battle slaughter",
+      "targets": [
+        "Dhritarashtra's sons"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker mentions several other warriors (Gada, Vrishaka, Bahuka, Vanudeva, Nishatha, Sarana, Mesha) who will perform deeds worthy of their family.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gada",
+        "Vrishaka",
+        "Bahuka",
+        "Vanudeva",
+        "Nishatha",
+        "Sarana",
+        "Mesha"
+      ],
+      "action": "Expected battle performance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker says the Vrishni, Bhoja, and Andhaka warriors will kill Dhritarashtra's sons and gain fame.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vrishni warriors",
+        "Bhoja warriors",
+        "Andhaka warriors"
+      ],
+      "action": "Collective battle victory",
+      "targets": [
+        "Dhritarashtra's sons"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker states that after victory, Abhimanyu should rule the earth and Yudhishthira can fulfill his vow from the dice game.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Abhimanyu",
+        "Yudhishthira"
+      ],
+      "action": "Succession planning",
+      "relationship_change": "Abhimanyu would become ruler"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna responds that Yudhishthira would never accept land not conquered by his own arms, and that he and his brothers will fight according to dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Draupadi"
+      ],
+      "action": "Declaration of principles",
+      "moral_position": "Fighting according to dharma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna states that with allies like Drupada, the Kekaya king, and the Chedi king, Duryodhana should leave this world.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Drupada",
+        "Kekaya king",
+        "Chedi king"
+      ],
+      "action": "Alliance strength",
+      "target": [
+        "Duryodhana"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira responds that he values truth more than kingdom, and that only Krishna truly understands him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Krishna"
+      ],
+      "action": "Declaration of values",
+      "relationship": "Deep mutual understanding"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna and Yudhishthira are assured they will defeat Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira",
+        "Duryodhana"
+      ],
+      "action": "Assurance of victory",
+      "relationships": [
+        "Allies (Krishna and Yudhishthira)",
+        "Enemies (vs. Duryodhana)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Vrishni heroes are asked to return home.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vrishni heroes"
+      ],
+      "action": "Departure",
+      "relationships": [
+        "Allies of the Pandavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The heroes bid farewell, honor elders, embrace the young, and the Yadava heroes return to their homeland.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vrishni heroes",
+        "Yadava heroes"
+      ],
+      "action": "Farewell and departure",
+      "relationships": [
+        "Parting of allies"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira continues touring sacred sites after seeing off Krishna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Pilgrimage continuation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira settles by the Payoshni River, where the water is mixed with Soma juice, at a sacred site established by King Vidarbha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "King Vidarbha"
+      ],
+      "location": "Payoshni River",
+      "supernatural_elements": [
+        "Water mixed with Soma juice"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Maitreya narrates that King Nriga performed a sacrifice here to please Indra with Soma juice, making Indra drunk and satisfied.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Nriga",
+        "Indra"
+      ],
+      "action": "Sacrifice performance",
+      "supernatural_elements": [
+        "Divine intervention (Indra's satisfaction)",
+        "Soma juice ritual"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gods and kings, including Indra, performed many sacrifices with generous gifts here.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Various gods and kings"
+      ],
+      "action": "Collective sacrifices",
+      "relationships": [
+        "Divine and royal participants"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Gaya, son of Amurtarayas, performed seven horse sacrifices here to please Indra with Soma juice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Gaya",
+        "Indra"
+      ],
+      "action": "Seven horse sacrifices",
+      "supernatural_elements": [
+        "Ritual to please Indra"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In his seven sacrifices, King Gaya used gold vessels instead of wood or clay, with golden sacrificial posts set up by gods including Indra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Gaya",
+        "Indra"
+      ],
+      "action": "Use of gold in sacrifices",
+      "supernatural_elements": [
+        "Divine assistance (gods setting up posts)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Gaya gave immeasurable wealth and golden cows made by Vishvakarma to Brahmins in his sacrifices, filling the earth with temples.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Gaya",
+        "Vishvakarma",
+        "Brahmins"
+      ],
+      "action": "Generous donations",
+      "supernatural_elements": [
+        "Divine craftsmanship (Vishvakarma)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Due to his merits, King Gaya attained Indra's world; bathing in the Payoshni River grants the same merit.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Gaya",
+        "Indra"
+      ],
+      "action": "Attainment of divine world",
+      "supernatural_elements": [
+        "Divine reward",
+        "Sacred river power"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira and his brothers bathe in the Payoshni River to cleanse sins, then proceed to the Vaidiurya Mountain and Narmada River.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Pandava brothers"
+      ],
+      "action": "Ritual bathing and travel",
+      "supernatural_elements": [
+        "Sin cleansing"
+      ],
+      "relationships": [
+        "Brothers (Pandavas)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Maitreya describes all the lovely sacred sites to Yudhishthira, who continues his pilgrimage, giving thousands in donations to Brahmins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Maitreya",
+        "Yudhishthira",
+        "Brahmins"
+      ],
+      "action": "Pilgrimage guidance and donations"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "行落仙人（婆利古后裔）在湖泊水滨修炼苦行，采用英雄立地站桩姿势，站立了漫长岁月，身体被藤萝覆盖、蚂蚁撒土掩埋，最终形成蚁垤，但他仍持续苦行。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "行落仙人"
+      ],
+      "action": "苦行修炼",
+      "supernatural_elements": "苦行产生神采光芒",
+      "relationships": "行落仙人是婆利古的儿子"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "国王芦箭（沙利耶提王）携后宫四千佳丽和唯一女儿美娘来到湖泊游玩遣怀。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "芦箭",
+        "美娘"
+      ],
+      "action": "游玩",
+      "relationships": "芦箭是国王，美娘是芦箭的女儿"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "美娘在湖畔游玩时，独自离开女伴，被行落仙人看见，仙人觉得她像游动的闪电，非常高兴，但因喉咙干渴低声呼唤她未果。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "美娘",
+        "行落仙人"
+      ],
+      "action": "相遇",
+      "relationships": "初次相遇"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "美娘来到蚁垤前，发现其中有两个闪亮的东西（行落仙人的眼睛），出于好奇和头脑不清，用荆棘刺破了仙人的眼睛。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "美娘",
+        "行落仙人"
+      ],
+      "action": "伤害",
+      "relationships": "美娘意外伤害行落仙人"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "行落仙人眼睛被刺瞎后，怒火冲天。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "行落仙人"
+      ],
+      "action": "愤怒反应",
+      "relationships": "冲突引发"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "行落仙人施展法力，封闭住了芦箭王扈从们的大小便。",
+    "char_interval": {
+      "start_pos": 5909,
+      "end_pos": 5930
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "行落仙人",
+        "芦箭王扈从们"
+      ],
+      "action": "Supernatural punishment",
+      "reason": "Offense to the sage"
+    },
+    "_token_interval": {
+      "start_index": 1438,
+      "end_index": 1442
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "军士们因大小便不通而痛苦难忍，芦箭王询问众人谁冒犯了行落仙人。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "芦箭王",
+        "军士们",
+        "行落仙人"
+      ],
+      "action": "Investigation",
+      "relationship": "King and subjects"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "美娘向芦箭王坦白自己用荆棘刺伤了蚁垤中闪光的东西，以为是萤火虫。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "美娘",
+        "芦箭王",
+        "行落仙人"
+      ],
+      "action": "Confession",
+      "relationship": "Father and daughter"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "芦箭王找到行落仙人，合掌敬礼并为军士们求情，请求饶恕美娘的罪过。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "芦箭王",
+        "行落仙人",
+        "美娘"
+      ],
+      "action": "Apology and plea",
+      "relationship": "King and sage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "行落仙人提出要娶美娘为妻才能平息怒气，芦箭王立即应允并将女儿送给他。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "行落仙人",
+        "芦箭王",
+        "美娘"
+      ],
+      "action": "Marriage proposal and agreement",
+      "relationship_change": "美娘 becomes wife of 行落仙人"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "行落仙人娶美娘为妻后心中喜悦，芦箭王得到仙人恩典后率领军士回京城。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "行落仙人",
+        "美娘",
+        "芦箭王"
+      ],
+      "action": "Marriage and resolution",
+      "relationship": "Husband and wife"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "美娘修炼苦行，克己自制，虔诚侍奉圣火，热情款待客人，温柔体贴丈夫行落仙人。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "美娘",
+        "行落仙人"
+      ],
+      "action": "Devoted wife duties",
+      "relationship": "Loyal wife and husband"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "美娘沐浴时未着衣裳，被双马童看见，双马童上前询问她的身份。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "美娘",
+        "双马童"
+      ],
+      "action": "Divine encounter",
+      "supernatural_element": "Gods appearing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "美娘裹上衣裙回答双马童，说明自己是芦箭王的女儿、行落仙人的妻子。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "美娘",
+        "双马童",
+        "芦箭王",
+        "行落仙人"
+      ],
+      "action": "Identity declaration",
+      "relationship": "Wife of sage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "双马童闻听美娘身份后莞尔一笑，继续与她对话。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "双马童",
+        "美娘"
+      ],
+      "action": "Divine reaction",
+      "supernatural_element": "Gods' response"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "双马童 (Ashvins) encounter 美娘 (Maid) in the forest and are captivated by her beauty.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "双马童 (Ashvins)",
+        "美娘 (Maid)"
+      ],
+      "action": "Encounter and proposition",
+      "relationships": [
+        "Strangers",
+        "Proposers to Target"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "双马童 criticize 美娘's elderly husband 行落 (Chyavana) and propose she choose one of them as a new husband.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "双马童 (Ashvins)",
+        "美娘 (Maid)",
+        "行落 (Chyavana)"
+      ],
+      "action": "Criticism and marriage proposal",
+      "relationships": [
+        "Husband (行落) and Wife (美娘)",
+        "Proposers (双马童) to Wife"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "美娘 rejects 双马童's initial proposal, declaring her love for her husband 行落.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "美娘 (Maid)",
+        "双马童 (Ashvins)",
+        "行落 (Chyavana)"
+      ],
+      "action": "Rejection and declaration of loyalty",
+      "relationships": [
+        "Loyal Wife to Husband"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "双马童 reveal they are divine physicians and offer to restore 行落's youth and beauty, after which 美娘 can choose a husband from the three.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "双马童 (Ashvins)",
+        "美娘 (Maid)",
+        "行落 (Chyavana)"
+      ],
+      "action": "Divine offer of restoration",
+      "supernatural_elements": [
+        "Divine physicians (Ashvins)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "美娘 consults 行落, who agrees to the plan.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "美娘 (Maid)",
+        "行落 (Chyavana)"
+      ],
+      "action": "Consultation and consent",
+      "relationships": [
+        "Mutual agreement between spouses"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "行落 and 双马童 enter a lake; all three emerge identical, youthful, and god-like in appearance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "行落 (Chyavana)",
+        "双马童 (Ashvins)"
+      ],
+      "action": "Transformation in lake",
+      "supernatural_elements": [
+        "Magical restoration of youth",
+        "Identical transformation"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "美娘 uses her wisdom to correctly identify her true husband 行落 among the three identical men.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "美娘 (Maid)",
+        "行落 (Chyavana)"
+      ],
+      "action": "Recognition and selection",
+      "relationships": [
+        "Wife's faithful recognition"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "行落, restored to youth and with his wife, grants 双马童 the boon of becoming drinkers of Soma in the presence of the King of Gods (Indra).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "行落 (Chyavana)",
+        "双马童 (Ashvins)"
+      ],
+      "action": "Granting of divine boon",
+      "supernatural_elements": [
+        "Bestowal of divine status"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "双马童 return to heaven pleased; 行落 and 美娘 live happily together.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "双马童 (Ashvins)",
+        "行落 (Chyavana)",
+        "美娘 (Maid)"
+      ],
+      "action": "Departure and happy union",
+      "relationships": [
+        "Grateful beneficiaries (双马童)",
+        "Restored happy couple"
+      ]
+    },
+    "_token_interval": null
+  }
+]

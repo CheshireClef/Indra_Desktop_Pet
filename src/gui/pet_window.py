@@ -1,266 +1,25 @@
 # src/gui/pet_window.py
+"""
+主窗口模块
+定义了 PetWindow 类，即桌宠的实体窗口。
+包含窗口初始化、动画驱动、交互事件处理 (点击、拖拽)、以及与其他模块 (聊天、设置、视觉) 的集成。
+"""
 import os
 from PySide6.QtWidgets import QWidget, QLabel, QMenu, QVBoxLayout
 from PySide6.QtGui import QPixmap, QGuiApplication
-from PySide6.QtCore import Qt, QPoint, QTimer, Signal, QThread, QPropertyAnimation, QRect
-from sklearn.preprocessing import scale
+from PySide6.QtCore import Qt, QPoint, QTimer, Signal, QThread, QPropertyAnimation, QRect, QSize
 from gui.animation import BASE_SIZE, EMOJI_SIZE
-from vision.screen_observer import ScreenObserver
-from vision.qwen_vision import QwenVisionClient
 from utils import resource_path
-
-
-class ScreenObserveWorker(QThread):
-    finished = Signal(str, str)
-    error = Signal(str)
-
-    def __init__(self, observer, vision_client, chat_manager):
-        super().__init__()
-        self.observer = observer
-        self.vision_client = vision_client
-        self.chat_manager = chat_manager
-
-    def run(self):
-        try:
-            # 1. 截图校验
-            screenshot_path = self.observer.observe_once()
-            if not screenshot_path or not screenshot_path.exists():
-                raise Exception("截图失败：未生成有效文件")
-            
-            # 2. 视觉模型描述
-            description = self.vision_client.describe_image(screenshot_path)
-            if not description.strip():
-                raise Exception("视觉模型返回空描述")
-            
-            # 3. 生成评论
-            reply, emotion_tag = self.chat_manager.send_screen_observation_with_tag(description)
-            if not reply.strip():
-                raise Exception("未生成有效评论")
-
-            self.finished.emit(reply, emotion_tag)  # 传递情绪标签
-        except Exception as e:
-            error_msg = f"屏幕观察出错：{str(e)}"
-            print(f"[ScreenObserveWorker] {error_msg}")
-            self.error.emit(error_msg)
-
-
-class TempBubble(QWidget):
-    BUBBLE_PADDING = 25  # 文本与气泡边界的留白(可自由修改)
-    GOLDEN_RATIO = 0.618  # 黄金比例
-    """优化后的临时聊天气泡（修复重绘/内存泄漏）"""
-    def __init__(self, text: str, max_width: int, parent=None):
-        super().__init__(parent)
-
-        # 优化窗口标志(跨平台兼容)
-        self.setWindowFlags(
-            Qt.FramelessWindowHint |
-            Qt.WindowStaysOnTopHint |
-            Qt.Window |
-            Qt.WindowDoesNotAcceptFocus |
-            Qt.WindowTransparentForInput
-        )
-        self.setAttribute(Qt.WA_TransparentForMouseEvents, True)
-        self.setAttribute(Qt.WA_ShowWithoutActivating, True)
-        self.setAttribute(Qt.WA_TranslucentBackground, True)  # 透明背景
-
-        # 加载背景图片
-        import os
-        self.bg_image_path = resource_path("assets/images/ui/temp_bubble.png")
-        
-        # 检查背景图片是否存在并加载
-        self.bg_pixmap = None
-        if os.path.exists(self.bg_image_path):
-            self.bg_pixmap = QPixmap(self.bg_image_path)
-            if self.bg_pixmap.isNull():
-                print(f"[TempBubble] 背景图片加载失败：{self.bg_image_path}")
-                self.bg_pixmap = None
-            else:
-                print(f"[TempBubble] 背景图片加载成功：{self.bg_image_path}")
-        else:
-            print(f"[TempBubble] 背景图片不存在：{self.bg_image_path}")
-
-        # 背景层（如果有背景图片）
-        if self.bg_pixmap:
-            self.bg_label = QLabel(self)
-            self.bg_label.setScaledContents(True)
-            # 不使用布局，直接用绝对定位
-        
-        # 文本层（使用绝对定位，不添加到布局）
-        self.text_label = QLabel(text, self)
-        self.text_label.setWordWrap(True)
-        self.text_label.setAlignment(Qt.AlignLeft | Qt.AlignVCenter)
-        
-        # 根据是否有背景图片设置不同样式
-        if self.bg_pixmap:
-            # 有背景图：文本层透明，只显示文字
-            self.text_label.setStyleSheet(f"""
-                background: transparent;
-                color: white;
-                padding: {self.BUBBLE_PADDING}px;
-            """)
-        else:
-            # 无背景图：纯色背景
-            self.text_label.setStyleSheet(f"""
-                background: rgba(40, 40, 40, 210);
-                color: white;
-                padding: {self.BUBBLE_PADDING}px;
-                border-radius: 8px;
-            """)
-        
-        # 计算并应用黄金比例尺寸
-        self._calculate_golden_size(text, max_width)
-
-        # 淡出动画(优化销毁逻辑)
-        self._fade_anim = QPropertyAnimation(self, b"windowOpacity", self)
-        self._fade_anim.setDuration(400)
-        self._fade_anim.setStartValue(1.0)
-        self._fade_anim.setEndValue(0.0)
-        self._fade_anim.finished.connect(self._on_fade_finished)
-
-        self._life_timer = QTimer(self)
-        self._life_timer.setSingleShot(True)
-        self._life_timer.timeout.connect(self._fade_anim.start)
-
-    def _calculate_golden_size(self, text: str, max_width: int):
-        """
-        计算符合黄金比例的气泡尺寸（终极修复版）
-        核心改进：
-        1. 使用实际 QLabel 测量真实渲染尺寸（而非 QFontMetrics 理论值）
-        2. CSS padding 已包含在测量中，确保文本完整显示
-        3. 主动搜索最接近黄金比例的宽度
-        """
-        # 创建临时测量标签（应用相同样式）
-        temp_label = QLabel(text)
-        temp_label.setWordWrap(True)
-        temp_label.setAlignment(Qt.AlignLeft | Qt.AlignVCenter)
-        
-        # 应用相同的样式
-        if self.bg_pixmap:
-            temp_label.setStyleSheet(f"""
-                background: transparent;
-                color: white;
-                padding: {self.BUBBLE_PADDING}px;
-            """)
-        else:
-            temp_label.setStyleSheet(f"""
-                background: rgba(40, 40, 40, 210);
-                color: white;
-                padding: {self.BUBBLE_PADDING}px;
-                border-radius: 8px;
-            """)
-        
-        # 定义搜索范围（注意：这里是包含 padding 的总宽度）
-        min_bubble_width = 150
-        max_bubble_width = max_width
-        
-        # 存储最优方案
-        best_width = max_bubble_width
-        best_height = 0
-        best_ratio_diff = float('inf')
-        
-        # 阶段1：粗搜索（步长 25px）
-        step = 25
-        for test_width in range(min_bubble_width, max_bubble_width + 1, step):
-            # 设置测试宽度并让 QLabel 自适应高度
-            temp_label.setFixedWidth(test_width)
-            temp_label.adjustSize()
-            
-            # 获取实际渲染后的高度（包含 padding）
-            test_height = temp_label.height()
-            
-            # 计算当前高宽比
-            current_ratio = test_height / test_width if test_width > 0 else 0
-            ratio_diff = abs(current_ratio - self.GOLDEN_RATIO)
-            
-            # 记录最接近黄金比例的配置
-            if ratio_diff < best_ratio_diff:
-                best_ratio_diff = ratio_diff
-                best_width = test_width
-                best_height = test_height
-        
-        # 阶段2：精细搜索（在最优宽度附近 ±50px，步长 5px）
-        fine_search_start = max(min_bubble_width, best_width - 50)
-        fine_search_end = min(max_bubble_width, best_width + 50)
-        
-        for test_width in range(fine_search_start, fine_search_end + 1, 5):
-            temp_label.setFixedWidth(test_width)
-            temp_label.adjustSize()
-            test_height = temp_label.height()
-            
-            current_ratio = test_height / test_width if test_width > 0 else 0
-            ratio_diff = abs(current_ratio - self.GOLDEN_RATIO)
-            
-            if ratio_diff < best_ratio_diff:
-                best_ratio_diff = ratio_diff
-                best_width = test_width
-                best_height = test_height
-        
-        # 最终验证：使用最优宽度再次测量，确保准确
-        temp_label.setFixedWidth(best_width)
-        temp_label.adjustSize()
-        final_width = best_width
-        final_height = temp_label.height()
-        
-        # 安全边界检查
-        final_width = max(150, min(final_width, max_width))
-        final_height = max(50, final_height)
-        
-        # 设置整体窗口尺寸
-        self.setFixedSize(final_width, final_height)
-        
-        # 如果有背景图片，缩放并应用到背景层（绝对定位）
-        if self.bg_pixmap:
-            scaled_bg = self.bg_pixmap.scaled(
-                final_width, final_height,
-                Qt.IgnoreAspectRatio,  # 拉伸填充
-                Qt.SmoothTransformation
-            )
-            self.bg_label.setPixmap(scaled_bg)
-            # 背景层完全覆盖整个窗口
-            self.bg_label.setGeometry(0, 0, final_width, final_height)
-            # 确保背景在底层
-            self.bg_label.lower()
-        
-        # 文本层也使用绝对定位，完全覆盖整个窗口
-        self.text_label.setGeometry(0, 0, final_width, final_height)
-        
-        # 如果有背景，确保文本层在上方
-        if self.bg_pixmap:
-            self.text_label.raise_()
-        
-        # 清理临时对象
-        temp_label.deleteLater()
-
-    def _on_fade_finished(self):
-        """淡出后销毁，避免内存泄漏"""
-        self.hide()
-        self.deleteLater()
-
-    def set_lifetime(self, seconds: int):
-        self._life_timer.setInterval(max(1, int(seconds)) * 1000)
-
-    def _clamp_to_screen(self):
-        """修正位置，确保气泡在屏幕内"""
-        geo = self.frameGeometry()
-        screen = QGuiApplication.screenAt(geo.center()) or QGuiApplication.primaryScreen()
-        avail = screen.availableGeometry()
-
-        # 修正坐标
-        geo.moveLeft(max(avail.left() + 10, min(geo.left(), avail.right() - geo.width() - 10)))
-        geo.moveTop(max(avail.top() + 10, min(geo.top(), avail.bottom() - geo.height() - 10)))
-        self.setGeometry(geo)
-        self.update()  # 触发重绘
-
-    def popup(self, x: int, y: int):
-        self.move(x, y)
-        self._clamp_to_screen()
-        self.setWindowOpacity(1.0)
-        self.show()
-        self.raise_()
-        self._life_timer.start()
+from .chat_bubble import TempBubble
+from workers.screen_observer_worker import ScreenObserveWorker
 
 
 class PetWindow(QWidget):
+    """
+    桌宠主窗口类
+    继承自 QWidget，设置为无边框、透明背景、置顶显示。
+    """
+    # 窗口可见性切换信号
     toggled_visibility = Signal(bool)
 
     def __init__(self, settings_manager=None, icon_path: str = None, image_path: str = ""):
@@ -275,7 +34,18 @@ class PetWindow(QWidget):
         # 路径处理
         self.image_path = resource_path(image_path) if image_path else ""
         self.icon_path = resource_path(icon_path) if icon_path else ""
-        self.settings = settings_manager
+        
+        # 优化：使用单例模式获取 SettingsManager（如果未传入）
+        if settings_manager:
+            self.settings = settings_manager
+        else:
+            from settings_manager import SettingsManager
+            self.settings = SettingsManager.get_instance()
+
+        if self.settings:
+            # 绑定配置变更信号，实现实时刷新
+            self.settings.settings_changed.connect(self._on_settings_changed)
+
         self._context_menu = None
 
         # 截图用临时属性（主线程存储，避免跨线程访问）
@@ -296,21 +66,32 @@ class PetWindow(QWidget):
         # 新增：初始化表情Label
         self._setup_emoji_label()
         self._setup_animation()
-        self._load_image()
-        self._setup_chat()
-        self._setup_screen_watch()
+        self._load_image(reset_pos=True)
+
+        # 优化启动速度：延迟初始化重型组件
+        QTimer.singleShot(200, self._setup_chat)
+        QTimer.singleShot(500, self._setup_screen_watch)
 
         # 单击/双击区分
         self._click_timer = QTimer(self)
         self._click_timer.setSingleShot(True)
         self._click_timer.timeout.connect(self._trigger_poke)
 
-        # 屏幕观察器初始化
-        self.screen_observer = ScreenObserver(self, self.settings)
+        # 屏幕观察器延迟初始化，此处仅占位
+        self.screen_observer = None
+        
+        # 记录当前显示的临时气泡，用于防止重叠
+        self.current_temp_bubble = None
+
+        # 缩放设置防抖定时器
+        self._save_settings_timer = QTimer(self)
+        self._save_settings_timer.setSingleShot(True)
+        self._save_settings_timer.timeout.connect(lambda: self.settings.save() if self.settings else None)
 
     def _setup_emoji_label(self):
         """初始化表情显示Label（九宫格右上角）"""
         self.emoji_label = QLabel(self)
+        # 鼠标穿透：确保表情不会阻挡对宠物的点击
         self.emoji_label.setAttribute(Qt.WA_TransparentForMouseEvents, True)
         self.emoji_label.setAttribute(Qt.WA_TranslucentBackground, True)
         self.emoji_label.setScaledContents(True)
@@ -318,7 +99,7 @@ class PetWindow(QWidget):
 
     # ---------------- 新增：截图专用UI操作（主线程执行） ----------------
     def _hide_for_screenshot(self):
-        """隐藏桌宠（主线程）"""
+        """隐藏桌宠（主线程），用于在截图前将自己隐身"""
         self._old_opacity = self.windowOpacity()
         self._old_mouse_transparent = self.testAttribute(Qt.WA_TransparentForMouseEvents)
         self.setWindowOpacity(0.0)
@@ -326,13 +107,18 @@ class PetWindow(QWidget):
         self.update()  # 替代repaint，高效重绘
 
     def _restore_after_screenshot(self):
-        """恢复桌宠（主线程）"""
+        """恢复桌宠（主线程），截图完成后现身"""
         self.setWindowOpacity(self._old_opacity)
         self.setAttribute(Qt.WA_TransparentForMouseEvents, self._old_mouse_transparent)
         self.update()
 
     # ---------------- 屏幕观察定时器 ----------------
     def _setup_screen_watch(self):
+        # 懒加载 ScreenObserver
+        if self.screen_observer is None:
+            from vision.screen_observer import ScreenObserver
+            self.screen_observer = ScreenObserver(self, self.settings)
+
         self.screen_watch_timer = QTimer(self)
         self.screen_watch_timer.timeout.connect(self._on_screen_watch_timeout)
         self._apply_screen_watch_settings()
@@ -381,7 +167,7 @@ class PetWindow(QWidget):
         self.hide()  # 初始隐藏，等动画加载
 
     # ---------------- 图片加载 ----------------
-    def _load_image(self):
+    def _load_image(self, reset_pos=False):
         """加载动画帧或透明占位图"""
         idle_first_frame = self.animation.get_idle_first_frame()
         pix = idle_first_frame if idle_first_frame else QPixmap(BASE_SIZE, BASE_SIZE)
@@ -422,11 +208,12 @@ class PetWindow(QWidget):
         # 唯一一次设置位置（后续永不修改）
         self.emoji_label.setGeometry(emoji_x, emoji_y, emoji_width, emoji_height)
 
-        screen = self.screen().availableGeometry()
-        self.move(
-            screen.right() - pix.width() - 30,
-            screen.bottom() - pix.height() - 30
-        )
+        if reset_pos:
+            screen = self.screen().availableGeometry()
+            self.move(
+                screen.right() - pix.width() - 30,
+                screen.bottom() - pix.height() - 30
+            )
         self.update()  # 确保图片显示完整
 
     # ---------------- 动画初始化 ----------------
@@ -467,8 +254,44 @@ class PetWindow(QWidget):
     def _setup_chat(self):
         persona_path = resource_path("src/llm/persona.txt")
         self.chat_manager = self._ChatManager(self.settings, persona_path)
-        self.chat_bubble = self._ChatBubble()
+        
+        if hasattr(self.chat_manager, 'knowledge_base'):
+            self.chat_manager.knowledge_base.indices_loaded.connect(self._on_indices_loaded)
+            self.chat_manager.knowledge_base.model_loaded_to_cpu.connect(self._on_model_loaded_to_cpu)
+            self.chat_manager.knowledge_base.load_failed.connect(self._on_load_failed)
+            try:
+                self.chat_manager.knowledge_base.rebuild_started.connect(self._on_rebuild_started)
+            except Exception:
+                pass
+            
+            # 启动加载（确保信号连接后再启动，避免竞态条件）
+            self.chat_manager.knowledge_base.start_loading()
+
+        # 初始化聊天气泡，传入字体大小
+        font_size = 13
+        if self.settings:
+            font_size = self.settings.get("pet", "font_size", default=13)
+        self.chat_bubble = self._ChatBubble(font_size=font_size)
         self.chat_bubble.send_message.connect(self._on_user_message)
+
+    def _on_model_loaded_to_cpu(self):
+        """模型加载到CPU后的回调"""
+        print("[PetWindow] 收到模型加载完成信号")
+        self._show_temp_bubble("数据库加载中，请稍候...加载期间可以进行无数据库支持的简单聊天")
+
+    def _on_indices_loaded(self):
+        """知识库索引加载完成后的回调"""
+        print("[PetWindow] 收到索引加载完成信号")
+        self._show_temp_bubble("数据库加载完成")
+
+    def _on_rebuild_started(self, name: str):
+        print(f"[PetWindow] 检测到{name}索引开始重建")
+        self._show_temp_bubble("检测到知识库数据更新，正在重建索引，这可能需要一段时间")
+
+    def _on_load_failed(self, msg: str):
+        """知识库加载失败的回调"""
+        print(f"[PetWindow] 收到加载失败信号：{msg}")
+        self._show_temp_bubble(f"数据库加载失败：{msg}")
 
     def _on_user_message(self, text: str):
         # 调用修改后的chat方法，获取纯回复 + 情绪标签
@@ -487,6 +310,75 @@ class PetWindow(QWidget):
             self._context_menu.exec(event.globalPos())
         else:
             event.ignore()
+
+    # ---------------- 鼠标滚轮缩放 ----------------
+    def wheelEvent(self, event):
+        """鼠标滚轮事件：调整缩放比例"""
+        # 计算缩放增量
+        delta = event.angleDelta().y()
+        if delta == 0:
+            return
+            
+        current_scale = 1.0
+        if self.settings:
+            try:
+                current_scale = float(self.settings.get("pet", "scale", default=1.0))
+            except Exception:
+                current_scale = 1.0
+            
+        # 滚轮向上(delta > 0) -> 放大，向下 -> 缩小
+        step = 0.1
+        if delta > 0:
+            new_scale = current_scale + step
+        else:
+            new_scale = current_scale - step
+            
+        # 限制范围 (0.5 - 3.0)
+        new_scale = max(0.5, min(3.0, new_scale))
+        
+        # 保留两位小数，避免精度问题
+        new_scale = round(new_scale, 2)
+        
+        if new_scale != current_scale:
+            # 1. 更新UI尺寸
+            self._update_ui_size(new_scale)
+            
+            # 2. 更新设置（不立即保存，防止频繁IO）
+            if self.settings:
+                self.settings.set("pet", "scale", value=new_scale, save_now=False)
+                # 重置防抖定时器 (1秒后保存)
+                self._save_settings_timer.start(1000)
+                
+            # 3. 显示临时气泡提示当前比例
+            self._show_temp_bubble(f"缩放比例: {int(new_scale * 100)}%")
+            
+        event.accept()
+
+    def _update_ui_size(self, scale: float):
+        """根据缩放比例更新窗口和控件尺寸"""
+        # 1. 更新窗口和 Label 尺寸
+        # 使用 BASE_SIZE 计算目标尺寸
+        new_width = int(BASE_SIZE * scale)
+        new_height = int(BASE_SIZE * scale)
+        new_size = QSize(new_width, new_height)
+        
+        self.resize(new_size)
+        self.label.resize(new_size)
+        
+        # 2. 更新表情 Label 位置和尺寸
+        # 计算逻辑需与 _load_image 保持一致
+        base_emoji_x = BASE_SIZE - EMOJI_SIZE
+        base_emoji_y = 0
+        offset_left = int(30 * scale)
+        
+        emoji_x = int(base_emoji_x * scale) - offset_left
+        emoji_y = int(base_emoji_y * scale)
+        emoji_width = int(EMOJI_SIZE * scale)
+        emoji_height = int(EMOJI_SIZE * scale)
+        
+        self.emoji_label.setGeometry(emoji_x, emoji_y, emoji_width, emoji_height)
+        # 触发重绘
+        self.update()
 
     # ---------------- 鼠标事件 ----------------
     def mousePressEvent(self, event):
@@ -544,25 +436,59 @@ class PetWindow(QWidget):
         else:
             self.hide_window()
 
+    def _on_settings_changed(self):
+        """配置变更时的自动刷新逻辑"""
+        print("[PetWindow] 检测到配置变更，正在刷新...")
+        
+        # 1. 刷新外观（缩放/图片），不重置位置
+        self._load_image(reset_pos=False)
+        
+        # 1.1 刷新字体大小
+        if hasattr(self, 'chat_bubble') and self.chat_bubble:
+            try:
+                font_size = int(self.settings.get("pet", "font_size", default=13))
+                self.chat_bubble.set_font_size(font_size)
+            except Exception:
+                pass
+
+        # 2. 刷新定时器间隔
+        try:
+            idle_s = int(self.settings.get("behavior", "idle_interval_s", default=7))
+            current_interval = self.idle_timer.interval()
+            new_interval = max(1, idle_s) * 1000
+            if current_interval != new_interval:
+                self.idle_timer.setInterval(new_interval)
+        except Exception:
+            pass
+            
+        # 3. 刷新屏幕观察设置
+        self._apply_screen_watch_settings()
+        
+        # 4. 刷新视觉模型配置（如果在运行时修改了API Key）
+        if self.vision_client:
+             # 如果需要支持热更新 Vision Client，可以在这里重新初始化
+             # 目前暂且保留现有实例，下次调用 _ensure_vision_client 时若为None会重建
+             pass
+             
+        self.update()
+
     # ---------------- 设置窗口 ----------------
     def open_settings_window(self):
         if not self.settings:
             return
+        # 设置窗口只需负责修改 SettingsManager，保存时会自动触发 settings_changed 信号
+        # 从而调用上面的 _on_settings_changed 方法
         dlg = self._SettingsDialog(self.settings, parent=self)
-        if dlg.exec():
-            self._load_image()
-            try:
-                idle_s = int(self.settings.get("behavior", "idle_interval_s", default=7))
-                self.idle_timer.setInterval(max(1, idle_s) * 1000)
-            except Exception:
-                pass
-            self._apply_screen_watch_settings()
-            self.update()
+        dlg.exec()
 
     # ---------------- 视觉功能 ----------------
     def _ensure_vision_client(self):
         if self.vision_client or not self.settings:
             return
+        
+        # 懒加载 QwenVisionClient
+        from vision.qwen_vision import QwenVisionClient
+
         api_url = self.settings.get("vision", "api_url", default="https://api.siliconflow.cn/v1/chat/completions")
         api_key = self.settings.get("vision", "api_key", default="")
         model = self.settings.get("vision", "model", default="Qwen/Qwen3-VL-32B-Instruct")
@@ -602,17 +528,45 @@ class PetWindow(QWidget):
 
         pet_geo = self.geometry()
         max_width = int(pet_geo.width() * 1.8)
-        bubble = TempBubble(text, max_width, parent=self)
 
-        # 读取显示时长
+        # 读取配置
         duration_s = 10
+        font_size = 13
         if self.settings:
             try:
                 duration_s = int(self.settings.get("behavior", "temp_bubble_duration_s", default=10))
+                font_size = int(self.settings.get("pet", "font_size", default=13))
             except Exception:
                 pass
 
-        bubble.set_lifetime(duration_s)
+        # 尝试复用现有气泡
+        bubble = None
+        if self.current_temp_bubble and self.current_temp_bubble.isVisible():
+            try:
+                self.current_temp_bubble.set_font_size(font_size)
+                self.current_temp_bubble.update_content(text, max_width)
+                self.current_temp_bubble.set_lifetime(duration_s)
+                bubble = self.current_temp_bubble
+            except RuntimeError:
+                self.current_temp_bubble = None
+        
+        if not bubble:
+            # 如果旧气泡存在但不可用/不可见，先清理
+            if self.current_temp_bubble:
+                try:
+                    self.current_temp_bubble.close()
+                    self.current_temp_bubble.deleteLater()
+                except Exception:
+                    pass
+                self.current_temp_bubble = None
+
+            # 创建新气泡
+            bubble = TempBubble(text, max_width, parent=self, font_size=font_size)
+            self.current_temp_bubble = bubble
+            # 当气泡销毁时清理引用
+            bubble.destroyed.connect(lambda: setattr(self, "current_temp_bubble", None) if self.current_temp_bubble == bubble else None)
+            bubble.set_lifetime(duration_s)
+
         bubble.adjustSize()
         # 气泡位置：桌宠头顶居中
         x = pet_geo.center().x() - bubble.width() // 2

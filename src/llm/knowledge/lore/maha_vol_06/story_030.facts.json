@@ -1,0 +1,261 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Bhishma about the most deserving recipients of charity among three types of people: newcomers, long-absent acquaintances, and travelers from afar.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Question",
+      "relationships": "Grandson (Yudhishthira) seeks wisdom from grandfather (Bhishma)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma responds that the most excellent recipients are those who silently uphold vows, and that givers should generously give whatever is asked without harming dependents.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Teaching",
+      "principles": [
+        "Silent vow-keepers are best",
+        "Give without harming dependents",
+        "Avoid disgrace by not harming recipients"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma states that newcomers, long-absent acquaintances, and travelers from afar should all receive charity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Clarification",
+      "recipients": [
+        "Newcomers",
+        "Long-absent acquaintances",
+        "Travelers from afar"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira emphasizes that according to dharma (non-violence), one should not harm dependents and should carefully choose recipients to avoid regret.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "type": "Response",
+      "principles": [
+        "Non-violence to dependents",
+        "Careful selection of recipients"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma lists categories of people who deserve respect and worship: learned and virtuous sacrificers, royal priests, teachers, students, in-laws, and relatives.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Elaboration",
+      "deserving_categories": [
+        "Learned/virtuous sacrificers",
+        "Royal priests",
+        "Teachers",
+        "Students",
+        "In-laws",
+        "Relatives"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma warns that if these categories lack learning and virtue, they don't deserve respect, emphasizing the need to carefully examine all potential recipients.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Qualification",
+      "key_principle": "Examine recipients carefully"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma describes the qualities of a well-behaved person worthy of respect and charity: not angry, truthful, non-violent, self-controlled, honest, not deceitful, not proud, modest, shame-conscious, tolerant, practicing austerity, and calm.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Character Definition",
+      "virtuous_qualities": [
+        "Not angry",
+        "Truthful",
+        "Non-violent",
+        "Self-controlled",
+        "Honest",
+        "Not deceitful",
+        "Not proud",
+        "Modest",
+        "Shame-conscious",
+        "Tolerant",
+        "Practicing austerity",
+        "Calm"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma states that anyone with these qualities—whether returning acquaintances, newcomers, previously known or unknown—deserves respect and charity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Application",
+      "scope": "All people with virtuous qualities regardless of relationship status"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma condemns those who oppose Vedic authority, ignore dharma texts, or have no faith as self-destructive.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Warning",
+      "condemned_behaviors": [
+        "Oppose Vedic authority",
+        "Ignore dharma texts",
+        "Have no faith"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma criticizes various types of unworthy people: those who disparage Vedas, engage in useless speculation, provoke debates among elders, seek to defeat others in arguments, frequently blame or insult Brahmins, distrust everything, are foolish, childishly ignorant, or rude—comparing them to dogs in human form.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Criticism",
+      "unworthy_types": [
+        "Disparage Vedas",
+        "Useless speculation",
+        "Provoke debates",
+        "Seek argument victory",
+        "Blame/insult Brahmins",
+        "Distrustful",
+        "Foolish",
+        "Childishly ignorant",
+        "Rude"
+      ],
+      "metaphor": "Dogs in human form"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma contrasts these with true scholars who know Vedic and traditional texts, Puranas, and Aranyakas, and follow genuinely learned scholars.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Contrast",
+      "true_scholars": [
+        "Know Vedic/traditional texts",
+        "Know Puranas and Aranyakas",
+        "Follow genuinely learned scholars"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma concludes that attention to daily life, personal dharma, and one's own welfare ensures good living for anyone.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Conclusion",
+      "key_elements": [
+        "Daily life",
+        "Personal dharma",
+        "Personal welfare"
+      ]
+    },
+    "_token_interval": null
+  }
+]

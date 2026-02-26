@@ -1,0 +1,847 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Bhishma why someone who hasn't killed a Brahmin might still be considered guilty of Brahminicide.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Question",
+      "relationship": "Grandson asking grandfather for wisdom"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma explains that he previously asked Vyasa the same question and will now relay Vyasa's answer.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Vyasa"
+      ],
+      "type": "Narration setup",
+      "relationship": "Bhishma learned from Vyasa, who is the son of Parashara and great-grandson of Vasishtha"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa provides seven scenarios equivalent to Brahminicide: 1) Inviting a poor Brahmin then refusing charity, 2) Depriving a learned Brahmin of livelihood, 3) Blocking thirsty cows from water, 4) Criticizing scriptures without knowledge, 5) Refusing to marry a suitable daughter, 6) Tormenting twice-born people, 7) Robbing disabled people's property.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa"
+      ],
+      "type": "Moral teaching",
+      "action": "Listing moral offenses"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Bhishma about holy rivers that grant merit through pilgrimage, bathing, or hearing about them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Question",
+      "relationship": "Student-teacher dialogue continues"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma promises to recount what Angiras said about holy rivers that bring supreme merit.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Angiras"
+      ],
+      "type": "Transition",
+      "action": "Introducing next teaching"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The narrator visits the hermitage of a great sage to meet the wise ascetic.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator",
+        "Great Sage"
+      ],
+      "action": "Visit/Meeting",
+      "location": "Hermitage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gautama, known for strict vows, asks questions to Sage Angiras.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gautama",
+        "Sage Angiras"
+      ],
+      "action": "Questioning/Dialogue",
+      "topic": "Merits of bathing in sacred rivers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gautama expresses doubt about the benefits of sacred rivers and requests detailed explanations.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gautama"
+      ],
+      "action": "Expression of doubt/Request",
+      "specific_query": "What merits come from bathing in sacred rivers and what afterlife rewards are promised?"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Angiras provides detailed descriptions of specific sacred rivers and the merits gained from bathing in them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Angiras"
+      ],
+      "action": "Teaching/Explanation",
+      "rivers_mentioned": [
+        "Chandrabhaga River",
+        "Vitasta River",
+        "Sindhu River (Indus)",
+        "Pushkara",
+        "Prabhasa",
+        "Naimisha",
+        "Diviga",
+        "Indramalaka",
+        "Svaronabindu",
+        "Golden-spotted Mountain River",
+        "Kusheshaya",
+        "Indradoya near Gandhamadana Mountain",
+        "Karadoya in Kulinga",
+        "Ganga's Gate",
+        "Kushevarata",
+        "Bhilavaka",
+        "Chakraparvata",
+        "Kanakala",
+        "Bhagirathi-Ganga"
+      ],
+      "merits_described": [
+        "Becoming pure like a sage",
+        "Going to heaven after death",
+        "Gaining enlightenment and riding celestial chariots",
+        "Receiving praise from celestial maidens",
+        "Washing away sins",
+        "Gaining merit equal to performing a horse sacrifice",
+        "Seeing the gods",
+        "Drinking celestial nectar",
+        "Achieving any desired goal"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Angiras explains that a person living a celibate life, controlling anger, keeping promises, and not harming creatures gains merit equal to performing a Vajapeya sacrifice after bathing in lakes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Angiras"
+      ],
+      "action": "Teaching/Explanation",
+      "condition": "Living a virtuous life (celibacy, anger control, truthfulness, non-violence)",
+      "result": "Merit equal to Vajapeya sacrifice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Angiras describes specific rituals including fasting, making offerings to ancestors, and performing fire rituals at sacred bathing sites.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Angiras"
+      ],
+      "action": "Teaching/Explanation",
+      "rituals_described": [
+        "Fasting for specific periods",
+        "Bathing with sacred water",
+        "Making offerings to ancestors",
+        "Performing fire rituals",
+        "Maintaining purity of body and mind"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person who has overcome desires and fasted for three days can cleanse even the sin of killing a Brahmin by bathing in the great lake at the Parigut peak.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Person"
+      ],
+      "action": "Bathing at Parigut peak",
+      "result": "Cleansing of sins, including Brahminicide"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person who bathes in the Daughter's Pool and follows proper rituals at Prabhaga gains fame among gods and radiant beauty.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Person"
+      ],
+      "action": "Bathing at Daughter's Pool and Prabhaga",
+      "result": "Fame among gods, radiant beauty"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person who bathes at Sundarika Lake at the right time and place, or at the Ashvin sacred site, gains exceptional beauty.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Person"
+      ],
+      "action": "Bathing at Sundarika Lake or Ashvin",
+      "result": "Exceptional beauty"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A pure person who fasts for half a month and bathes in the Great Ganga or Jitigangaralaka ascends to heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Person"
+      ],
+      "action": "Fasting and bathing at Great Ganga or Jitigangaralaka",
+      "result": "Ascension to heaven"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person who bathes at Vimanika or Jinginika hermitage gains success and supreme honor in the realm of celestial nymphs.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Person"
+      ],
+      "action": "Bathing at Vimanika or Jinginika",
+      "result": "Success, honor among celestial nymphs"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person who controls anger, practices celibacy for three days at Galika hermitage, and bathes in the Duan River gains liberation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Person"
+      ],
+      "action": "Controlling anger, celibacy, bathing at Galika and Duan River",
+      "result": "Liberation (moksha)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person who bathes in the Jitika hermitage, offers water to ancestors, and pleases the great god becomes pure and ascends to heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Person"
+      ],
+      "action": "Bathing at Jitika, ancestral offerings, pleasing the great god",
+      "result": "Purity, ascension to heaven"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person who fasts for three days and bathes at Mahapura loses fear of all creatures.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Person"
+      ],
+      "action": "Fasting, bathing at Mahapura",
+      "result": "Freedom from fear of all beings"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person who bathes at Devadaru forest, resides there for seven days with a pure body, and offers water to ancestors removes sins and reaches the realm of gods.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Person"
+      ],
+      "action": "Bathing at Devadaru forest, residing, ancestral offerings",
+      "result": "Sin removal, ascension to godly realm"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person who bathes at waterfalls of Koshita, Kushasitana, or Dronasharamapada ascends to heaven and is served by celestial nymphs.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Person"
+      ],
+      "action": "Bathing at specified waterfalls",
+      "result": "Ascension to heaven, service by celestial nymphs"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person who bathes at Chitrakuta, Janasitana, or Mendagini waters and fasts becomes as fortunate and wealthy as a king.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Person"
+      ],
+      "action": "Bathing at specified sites, fasting",
+      "result": "King-like fortune and wealth"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person who resides for three days at Shayama's hermitage and bathes there goes to and lives in the happy Gandharva city.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Person"
+      ],
+      "action": "Residing, bathing at Shayama's hermitage",
+      "result": "Life in Gandharva city"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person who bathes at beautiful Gandharikalika and fasts for a month gains the ability to become invisible at will.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Person"
+      ],
+      "action": "Bathing at Gandharikalika, fasting",
+      "result": "Ability to become invisible"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person who bathes at Koshikimen, overcomes greed, and lives on air for twenty-one days ascends to heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Person"
+      ],
+      "action": "Bathing at Koshikimen, overcoming greed, air diet",
+      "result": "Ascension to heaven"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person who bathes at Matanga Lake achieves desired results before nightfall.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Person"
+      ],
+      "action": "Bathing at Matanga Lake",
+      "result": "Fulfillment of desires"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person who controls senses, bathes at sacred sites like Analampa, Andaka, Naimisha, or Svaraka, and offers water to ancestors gains rewards equivalent to a human sacrifice after one month.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Person"
+      ],
+      "action": "Controlling senses, bathing at sacred sites, ancestral offerings",
+      "result": "Rewards equal to human sacrifice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person bathes in the Ganga pond or Udapalavana forest and offers libations to ancestors for a month.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "A person"
+      ],
+      "action": "Bathing and offering libations",
+      "result": "Obtains merit equal to performing the Ashvamedha sacrifice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person bathes at the confluence of the Ganga and Yamuna rivers, at Kalanjara mountain, or at Shashthi lake.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "A person"
+      ],
+      "action": "Bathing at sacred sites",
+      "result": "Obtains merit unsurpassed by any charity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A self-restrained person observing strict vows bathes at Prayaga during the month of Magha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "A self-restrained person"
+      ],
+      "action": "Bathing at Prayaga",
+      "result": "Washes away past sins and ascends to heaven"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person bathes at the sacred site of Vayu, at ancestors' hermitages, or at Yama's sacred site.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "A person"
+      ],
+      "action": "Bathing at various sacred sites",
+      "result": "Becomes pure and sacred like revered pilgrimage sites"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person goes to Brahmasiras or Bhagirathi sacred site, offers libations to ancestors, and fasts for a month.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "A person"
+      ],
+      "action": "Offering libations and fasting",
+      "result": "Enters the world of the moon god"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person bathes at Kapota or Ashtavakra sacred site, offers libations to ancestors, and fasts for twelve days.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "A person"
+      ],
+      "action": "Bathing, offering libations, and fasting",
+      "result": "Obtains merit equal to performing the Purushamedha sacrifice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person goes to Munjaprastha, Nirriti mountain, or Kalunjapadi and offers libations to ancestors.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "A person"
+      ],
+      "action": "Offering libations at sacred sites",
+      "result": "Cleanses the sin of killing a Brahmin"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person bathes in Kalasha lake, in the waters of Agni's city, offers libations at Vishala, or bathes in divine lakes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "A person"
+      ],
+      "action": "Bathing and offering libations",
+      "result": "Obtains abundant water, unites with Brahman, and shines with glory"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A self-controlled, non-violent person bathes at Pulapavaratna, Nanda, or Mahananda.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "A self-controlled person"
+      ],
+      "action": "Bathing at specific sites",
+      "result": "Resides in Nandana garden served by celestial nymphs"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A devoted person bathes at Urvashi's site in Rohitaka during the conjunction of the Pleiades.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "A devoted person"
+      ],
+      "action": "Bathing with concentration",
+      "result": "Obtains merit equal to performing the Padma sacrifice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person bathes in Rama lake, offers libations at Vishala, and fasts for twelve days.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "A person"
+      ],
+      "action": "Bathing, offering libations, and fasting",
+      "result": "Washes away past sins"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A pure-hearted person bathes in the great lake and fasts for a month.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "A pure-hearted person"
+      ],
+      "action": "Bathing and fasting",
+      "result": "Attains the status of the sage Agastya"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A truthful, non-violent person endures scorching heat in the Vindhya mountains for six months and stands on one foot for a month.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "A truthful person"
+      ],
+      "action": "Enduring austerities",
+      "result": "Becomes supremely pure"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person goes to the Narmada river or Suraparaka.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "A person"
+      ],
+      "action": "Going to sacred rivers",
+      "result": "Incomplete in provided text"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The great ascetic Angiras narrated everything that came before to Gautama.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Angiras",
+        "Gautama"
+      ],
+      "action": "Narration/Teaching",
+      "relationship": "Teacher to listener/recipient"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Angiras himself learned from the wise and intelligent Kashyapa and other teachers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Angiras",
+        "Kashyapa"
+      ],
+      "action": "Learning/Receiving instruction",
+      "relationship": "Student to teacher(s)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The great sages consider the preceding words to have a sublime purifying power, worthy of repeated recitation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The great sages (general)"
+      ],
+      "action": "Evaluation/Endorsement",
+      "supernatural_element": "Words with purifying power"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Whoever persists in regularly reciting it will become flawless and will later ascend to heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Any reciter"
+      ],
+      "action": "Recitation leading to reward",
+      "supernatural_element": "Promise of becoming flawless and ascending to heaven"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The words transmitted by Angiras are a great mystery. Whoever hears them will be born into an excellent family in the next life and will be able to remember past lives.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Any hearer"
+      ],
+      "action": "Hearing leading to reward",
+      "supernatural_element": "Promise of excellent rebirth and memory of past lives"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "This concludes Chapter 26 of the 'Upaparva' (Instructional Section) of the auspicious Mahabharata.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator (implied)"
+      ],
+      "action": "Chapter conclusion",
+      "context": "Structural note within the Mahabharata"
+    },
+    "_token_interval": null
+  }
+]

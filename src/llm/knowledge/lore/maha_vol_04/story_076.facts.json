@@ -1,0 +1,1766 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "瓶首飞速冲向迦尔纳的战车，意图在战斗中杀死迦尔纳。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "瓶首",
+        "迦尔纳"
+      ],
+      "action": "Attack/Charge",
+      "intent": "Kill"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌命令难降率领一支大军去保护迦尔纳，截住瓶首。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌",
+        "难降",
+        "迦尔纳",
+        "瓶首"
+      ],
+      "action": "Order/Command",
+      "relationship": "难敌命令难降"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "足力（辫发阿修罗之子）向难敌请求出战，要为被般度五子杀害的父亲辫发阿修罗报仇。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "足力",
+        "难敌",
+        "辫发阿修罗",
+        "般度五子"
+      ],
+      "action": "Request/Volunteer",
+      "motive": "Revenge for father's death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌命令足力前去战斗，消灭瓶首。",
+    "char_interval": {
+      "start_pos": 379,
+      "end_pos": 395
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌",
+        "足力",
+        "瓶首"
+      ],
+      "action": "Order/Command"
+    },
+    "_token_interval": {
+      "start_index": 110,
+      "end_index": 114
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "足力向瓶首挑战，泼洒各种武器。",
+    "char_interval": {
+      "start_pos": 418,
+      "end_pos": 438
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "足力",
+        "瓶首"
+      ],
+      "action": "Challenge/Attack"
+    },
+    "_token_interval": {
+      "start_index": 124,
+      "end_index": 128
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "瓶首独自打击足力、迦尔纳和俱卢族军队，驱散他们。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "瓶首",
+        "足力",
+        "迦尔纳",
+        "俱卢族军队"
+      ],
+      "action": "Combat/Attack",
+      "effect": "Disperse enemy forces"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "足力击溃般度族军队，瓶首击溃俱卢族军队，双方军队混乱自相残杀。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "足力",
+        "瓶首",
+        "般度族军队",
+        "俱卢族军队"
+      ],
+      "action": "Combat/Chaos",
+      "result": "Mutual destruction among armies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "足力失去战车，车夫阵亡，用拳头猛击瓶首。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "足力",
+        "瓶首"
+      ],
+      "action": "Hand-to-hand combat",
+      "condition": "足力失去战车"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "瓶首反击，用拳头猛击足力，将他摔到地上按住。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "瓶首",
+        "足力"
+      ],
+      "action": "Counterattack/Subdue"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "足力挣脱后，在交战中也将罗刹瓶首举起摔倒在地，继而怒冲冲地使劲按住他。",
+    "char_interval": {
+      "start_pos": 967,
+      "end_pos": 1004
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "足力",
+        "瓶首"
+      ],
+      "action": "Physical combat involving lifting, throwing, and pinning",
+      "relationship": "Combatants in battle",
+      "supernatural_elements": "None explicitly mentioned"
+    },
+    "_token_interval": {
+      "start_index": 272,
+      "end_index": 278
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "瓶首和足力两人身材魁梧，咆哮不已，展开了一场令人汗毛直竖的恶战。",
+    "char_interval": {
+      "start_pos": 1008,
+      "end_pos": 1040
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "瓶首",
+        "足力"
+      ],
+      "action": "Intense and terrifying battle",
+      "relationship": "Combatants in battle",
+      "supernatural_elements": "None explicitly mentioned"
+    },
+    "_token_interval": {
+      "start_index": 281,
+      "end_index": 287
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "他俩法力广大，英勇绝伦，力图运用幻术压倒对方，俨若因陀罗与毗娄遮那之子（钵利）捉对厮杀。",
+    "char_interval": {
+      "start_pos": 1044,
+      "end_pos": 1088
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "瓶首",
+        "足力"
+      ],
+      "action": "Use of illusionary magic (māyā) in combat",
+      "relationship": "Combatants in battle",
+      "supernatural_elements": "Illusionary magic, comparison to divine beings (Indra and Virochana's son Bali)"
+    },
+    "_token_interval": {
+      "start_index": 290,
+      "end_index": 302
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "两人先是变作火与海洋，后又变成大鹏金翅鸟与多刹迦，接着又依次变为云与风暴、雷与大山、象与虎、罗睺与太阳。",
+    "char_interval": {
+      "start_pos": 1092,
+      "end_pos": 1144
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "瓶首",
+        "足力"
+      ],
+      "action": "Transformation into various elemental and mythical forms",
+      "relationship": "Combatants in battle",
+      "supernatural_elements": "Shape-shifting into fire, ocean, Garuda, Takshaka, cloud, storm, thunder, mountain, elephant, tiger, Rahu, and sun"
+    },
+    "_token_interval": {
+      "start_index": 305,
+      "end_index": 317
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "就这样，足力与瓶首造出百种幻象，恨不得即刻杀死对方，战斗神奇美妙。",
+    "char_interval": {
+      "start_pos": 1148,
+      "end_pos": 1181
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "足力",
+        "瓶首"
+      ],
+      "action": "Creation of hundreds of illusions in combat",
+      "relationship": "Combatants in battle",
+      "supernatural_elements": "Illusionary magic"
+    },
+    "_token_interval": {
+      "start_index": 320,
+      "end_index": 328
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "他俩都用铁闩、棒槌、飞镖、铁锤、梭镖、铁杵以及山峰打击对方。",
+    "char_interval": {
+      "start_pos": 1185,
+      "end_pos": 1215
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "瓶首",
+        "足力"
+      ],
+      "action": "Use of various weapons including iron bars, maces, darts, hammers, javelins, clubs, and mountains",
+      "relationship": "Combatants in battle",
+      "supernatural_elements": "Use of mountains as weapons"
+    },
+    "_token_interval": {
+      "start_index": 331,
+      "end_index": 343
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "在战斗中，两位具有大法力的罗刹魁首忽而骑马，忽而骑象，忽而乘车，忽而步行。",
+    "char_interval": {
+      "start_pos": 1219,
+      "end_pos": 1256
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "瓶首",
+        "足力"
+      ],
+      "action": "Changing modes of transportation during battle (horse, elephant, chariot, on foot)",
+      "relationship": "Combatants in battle",
+      "supernatural_elements": "Possession of great magical power"
+    },
+    "_token_interval": {
+      "start_index": 346,
+      "end_index": 356
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "瓶首急于杀死足力，愤怒地一跃而起，鹰隼般猛扑下来。",
+    "char_interval": {
+      "start_pos": 1268,
+      "end_pos": 1293
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "瓶首"
+      ],
+      "action": "Aggressive leap and pounce like a hawk",
+      "relationship": "Combatant attempting to kill opponent",
+      "supernatural_elements": "None explicitly mentioned"
+    },
+    "_token_interval": {
+      "start_index": 363,
+      "end_index": 369
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "他抓住身躯庞大的罗刹王足力，举起后抛到地上，好似毗湿奴在战斗中对待摩耶。",
+    "char_interval": {
+      "start_pos": 1297,
+      "end_pos": 1333
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "瓶首",
+        "足力"
+      ],
+      "action": "Lifting and throwing opponent to the ground",
+      "relationship": "Combatant defeating opponent",
+      "supernatural_elements": "Comparison to Vishnu's treatment of Maya"
+    },
+    "_token_interval": {
+      "start_index": 372,
+      "end_index": 378
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "接着，瓶首举起一把样式奇异的宝剑，从足力身上砍下面目狰狞的头颅。",
+    "char_interval": {
+      "start_pos": 1337,
+      "end_pos": 1369
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "瓶首",
+        "足力"
+      ],
+      "action": "Decapitation with a strange sword",
+      "relationship": "Combatant killing opponent",
+      "supernatural_elements": "Unusual sword"
+    },
+    "_token_interval": {
+      "start_index": 381,
+      "end_index": 387
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "罗刹瓶首揪住头发，提着血淋淋的头颅，飞速朝难敌的战车奔来。",
+    "char_interval": {
+      "start_pos": 1373,
+      "end_pos": 1402
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "瓶首",
+        "难敌"
+      ],
+      "action": "Carrying severed head to Duryodhana's chariot",
+      "relationship": "Combatant presenting trophy to ally",
+      "supernatural_elements": "None explicitly mentioned"
+    },
+    "_token_interval": {
+      "start_index": 390,
+      "end_index": 396
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "来到面前，大臂罗刹大笑着，将那面目狰狞、头发凌乱的头颅扔到车上，发出雨季云中雷鸣般的可怕吼声。",
+    "char_interval": {
+      "start_pos": 1406,
+      "end_pos": 1453
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "瓶首",
+        "难敌"
+      ],
+      "action": "Throwing head onto chariot with thunderous roar",
+      "relationship": "Combatant presenting trophy to ally",
+      "supernatural_elements": "Thunder-like roar"
+    },
+    "_token_interval": {
+      "start_index": 399,
+      "end_index": 409
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "然后，他对难敌说道：“在此，你的朋友已被杀死，他的英勇你亲眼见过。你还会目睹迦尔纳和你自己的同样下场。”",
+    "char_interval": {
+      "start_pos": 1457,
+      "end_pos": 1460
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "瓶首",
+        "难敌",
+        "迦尔纳"
+      ],
+      "action": "Declaration of victory and threat to remaining enemies",
+      "relationship": "Combatant threatening enemy leader and his allies",
+      "supernatural_elements": "None explicitly mentioned"
+    },
+    "_token_interval": {
+      "start_index": 412,
+      "end_index": 414
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "言毕，他即向迦尔纳冲去，冲着迦尔纳劈头盖脸放出数百支利箭。",
+    "char_interval": {
+      "start_pos": 1517,
+      "end_pos": 1529
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "瓶首",
+        "迦尔纳"
+      ],
+      "action": "Charging at Karna and showering him with hundreds of arrows",
+      "relationship": "Combatant engaging new enemy",
+      "supernatural_elements": "None explicitly mentioned"
+    },
+    "_token_interval": {
+      "start_index": 431,
+      "end_index": 435
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "于是，在战场上，人与罗刹之间，爆发了一场令人惊恐的血腥大战。",
+    "char_interval": {
+      "start_pos": 1556,
+      "end_pos": 1571
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "瓶首",
+        "迦尔纳"
+      ],
+      "action": "Beginning of new bloody battle between human and rakshasa",
+      "relationship": "Combatants in new battle",
+      "supernatural_elements": "Battle between human and supernatural being"
+    },
+    "_token_interval": {
+      "start_index": 442,
+      "end_index": 448
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国询问全胜关于深夜战斗中瓶首与迦尔纳的战斗细节，包括瓶首的 appearance, weapons, and equipment.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国",
+        "全胜",
+        "瓶首",
+        "迦尔纳"
+      ],
+      "action": "Inquiry about battle details",
+      "relationship": "King inquiring, narrator describing",
+      "supernatural_elements": "None explicitly mentioned"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "全胜 describes 瓶首's fearsome physical appearance: copper-colored face, huge body, green beard, arrow-like ears, large jaw, mouth from ear to ear, sharp fangs, copper-colored lips and tongue, drooping eyebrows, heavy nose, blue body, red neck, mountain-like height, rough skin, ugly strong calves, large hips, deep navel.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "全胜",
+        "瓶首"
+      ],
+      "action": "Description of rakshasa's terrifying appearance",
+      "relationship": "Narrator describing character",
+      "supernatural_elements": "Supernatural physical characteristics of rakshasa"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima's son Ghatotkacha (Bottle-born) rides into battle on a magnificent chariot with terrifying features.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha"
+      ],
+      "action": "Entering battle",
+      "supernatural_elements": [
+        "Chariot with eight wheels that thunders like clouds",
+        "Horses that change color at will",
+        "Blood-red flesh-eating vulture on banner"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha advances toward Karna, covering all directions with arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Karna"
+      ],
+      "action": "Initiating attack",
+      "relationships": [
+        "Enemies in battle"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna rushes forward to intercept Ghatotkacha's attack.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Ghatotkacha"
+      ],
+      "action": "Counter-attack",
+      "relationships": [
+        "Direct combatants"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna and Ghatotkacha engage in fierce battle, wounding each other with arrows and weapons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Ghatotkacha"
+      ],
+      "action": "Intense combat",
+      "details": [
+        "They cover each other with arrows",
+        "Pierce each other's armor",
+        "Become covered in wounds and blood",
+        "Fight evenly for a long time"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha's bow twangs terrify both armies, but Karna cannot overcome him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Karna"
+      ],
+      "action": "Stalemate in battle",
+      "details": [
+        "Ghatotkacha's attacks frighten all soldiers",
+        "Karna is unable to gain advantage"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna, skilled in weapons, prepares to use a divine weapon.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "action": "Preparing supernatural attack",
+      "supernatural_elements": [
+        "Divine weapon"
+      ],
+      "relationships": [
+        "Last resort against formidable opponent"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna used a divine weapon, and Bhima's son Ghatotkacha immediately employed a great illusion.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Ghatotkacha"
+      ],
+      "action": "Illusion creation",
+      "supernatural_elements": "Divine weapon, illusion"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A terrifying army of Rakshasas, armed with iron spears, hammers, trees, and stones, surrounded Ghatotkacha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha"
+      ],
+      "action": "Summoning Rakshasa army",
+      "supernatural_elements": "Rakshasa army"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha roared like a lion, causing elephants to defecate and people to flee in terror.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha"
+      ],
+      "action": "Intimidation roar",
+      "supernatural_elements": "Fear-inducing roar"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "At midnight, the Rakshasa army grew stronger and unleashed a dense, fierce rain of stones in all directions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha"
+      ],
+      "action": "Enhanced attack",
+      "supernatural_elements": "Nighttime power boost, stone rain"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kings, your sons, and warriors fled in panic at the sight of the fierce and terrifying battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kings",
+        "Duryodhana (implied as 'your sons')",
+        "Warriors"
+      ],
+      "action": "Retreat",
+      "relationships": "Duryodhana leading the Kaurava side"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna alone remained unafraid, proud of his weapons and strength, and dispelled Ghatotkacha's illusions with arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Ghatotkacha"
+      ],
+      "action": "Illusion dispelling",
+      "relationships": "Opponents in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Enraged that his illusions were broken, Ghatotkacha shot terrible arrows into Karna's body.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Karna"
+      ],
+      "action": "Arrow attack",
+      "relationships": "Hostile exchange"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna became furious and swiftly overpowered Ghatotkacha, hitting him with ten arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Ghatotkacha"
+      ],
+      "action": "Counterattack",
+      "relationships": "Intensified conflict"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha, in great pain from being hit in vital spots, grabbed a magical thousand-spoked flying discus.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha"
+      ],
+      "action": "Weapon retrieval",
+      "supernatural_elements": "Magical flying discus"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha hurled the discus at Karna with the intent to kill him immediately.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Karna"
+      ],
+      "action": "Discus attack",
+      "relationships": "Attempted lethal strike"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna intercepted the flying discus with his arrows, causing it to fall to the ground.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Ghatotkacha"
+      ],
+      "action": "Defense",
+      "relationships": "Successful defense"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Enraged at seeing his discus knocked down, Ghatotkacha covered Karna with arrows like Rahu covering the sun.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Karna"
+      ],
+      "action": "Arrow barrage",
+      "supernatural_elements": "Comparison to Rahu eclipsing the sun"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna, unafraid and possessing the courage of Rudra, Upendra (Vishnu), and Indra, swiftly covered Ghatotkacha's chariot with feathered arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Ghatotkacha"
+      ],
+      "action": "Counter barrage",
+      "supernatural_elements": "Divine courage attributes"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha, furious, threw a gold-encrusted iron club, which Karna shot down with arrows while it was in flight.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Karna"
+      ],
+      "action": "Club attack and defense",
+      "relationships": "Continued weapon exchange"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The massive Ghatotkacha leaped into the air like a cloud, roared, and rained down a shower of trees from the sky.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha"
+      ],
+      "action": "Aerial attack",
+      "supernatural_elements": "Tree rain from sky"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna shot the illusion-expert Ghatotkacha in the air with sharp arrows, like the sun piercing clouds with its rays.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Ghatotkacha"
+      ],
+      "action": "Aerial targeting",
+      "supernatural_elements": "Comparison to sun piercing clouds"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna killed all of Ghatotkacha's horses, shattered his chariot into a hundred pieces, and showered him with arrows like a cloud raining.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Ghatotkacha"
+      ],
+      "action": "Destruction of chariot and horses",
+      "relationships": "Overwhelming attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha's body was so covered with arrows that there wasn't a two-finger wide gap, making him look like a porcupine.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha"
+      ],
+      "action": "Sustained injury",
+      "relationships": "Severe damage from Karna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The illusion-knower Ghatotkacha, hidden in a web of arrows in the sky, skillfully used illusions to fight Karna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Karna"
+      ],
+      "action": "Continued illusion combat",
+      "supernatural_elements": "Illusion warfare"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The fierce Rakshasa (Ghatotkacha) creates a great illusion to confuse Karna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Karna"
+      ],
+      "action": "Illusion creation",
+      "supernatural_elements": "Maya (illusion)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha creates many ugly mouths that devour Karna's divine weapons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Karna"
+      ],
+      "action": "Weapon destruction",
+      "supernatural_elements": "Illusionary mouths"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha appears to be killed after being wounded in many places and falling from the sky, causing the Kuru warriors to rejoice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Kuru warriors"
+      ],
+      "action": "Feigned death",
+      "supernatural_elements": "Illusion of death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha reappears in various new forms, then transforms into a giant with a hundred heads and a hundred bellies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha"
+      ],
+      "action": "Shape-shifting",
+      "supernatural_elements": "Multiple transformations"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha changes size dramatically - from mountain-sized to thumb-sized - and moves erratically through earth, water, and air before returning to his chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha"
+      ],
+      "action": "Size manipulation and movement",
+      "supernatural_elements": "Size-changing ability"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha confronts Karna directly, declaring he will destroy Karna's fighting spirit and prevent his escape.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Karna"
+      ],
+      "action": "Direct confrontation",
+      "relationship": "Combatants in the Kurukshetra War"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha attacks Karna with a torrent of arrows, which Karna destroys from a distance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Karna"
+      ],
+      "action": "Archery exchange",
+      "supernatural_elements": "Massive arrow attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After Karna destroys his illusions, Ghatotkacha creates another illusion of a massive mountain spewing weapons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Karna"
+      ],
+      "action": "Mountain illusion",
+      "supernatural_elements": "Illusionary terrain"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna destroys the mountain illusion with a divine weapon.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Ghatotkacha"
+      ],
+      "action": "Illusion destruction",
+      "supernatural_elements": "Divine weapon (astra)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha transforms into a rain cloud with a rainbow that showers stones on Karna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Karna"
+      ],
+      "action": "Weather manipulation",
+      "supernatural_elements": "Cloud transformation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna uses the Vayuastra (wind god weapon) to disperse the cloud illusion.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Ghatotkacha"
+      ],
+      "action": "Weapon counter",
+      "supernatural_elements": "Vayuastra (wind weapon)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna destroys all of Ghatotkacha's weapons with countless arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Ghatotkacha"
+      ],
+      "action": "Weapon destruction",
+      "relationship": "Karna as superior archer"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha (son of Bhima) smiles and creates another great illusion against the great warrior Karna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Karna"
+      ],
+      "action": "Final illusion attempt",
+      "relationship": "Ghatotkacha as Bhima's son"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna sees Ghatotkacha approaching fearlessly with many Rakshasas in various vehicles and mounts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Karna",
+        "Rakshasa army"
+      ],
+      "action": "Army approach",
+      "comparison": "Like Indra surrounded by Maruts"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna begins fighting the Rakshasas as they attack with various weapons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Ghatotkacha",
+        "Rakshasa army"
+      ],
+      "action": "Battle commencement",
+      "relationship": "Karna as Pandava ally fighting Rakshasas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha shot five arrows at Karna and emitted a terrifying roar to intimidate the kings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Karna"
+      ],
+      "action": "Attack and intimidation",
+      "relationship": "Opponents in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha swiftly broke Karna's great bow and many arrows with a single arrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Karna"
+      ],
+      "action": "Weapon destruction",
+      "supernatural_elements": "Supernatural strength/skill"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna took another powerful bow and shot many golden-feathered arrows at the Rakshasa army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "action": "Counterattack",
+      "target": "Rakshasa army"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna destroyed the Rakshasa army along with their horses, charioteers, and elephants with his arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "action": "Mass destruction",
+      "comparison": "Like the fire god at world's end"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After annihilating the Rakshasa army, Karna shone brilliantly, compared to Shiva destroying the three cities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "action": "Victory display",
+      "divine_comparison": "Shiva"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "None of the thousands of Pandava kings dared to look at Karna except Ghatotkacha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Pandava army",
+        "Ghatotkacha"
+      ],
+      "action": "Intimidation effect",
+      "relationship": "Ghatotkacha as sole challenger"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha, filled with rage and with eyes emitting fire, returned to his chariot and created illusions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha"
+      ],
+      "action": "Supernatural transformation",
+      "supernatural_elements": "Fire eyes, illusion creation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha rode his terrifying chariot drawn by donkey-like creatures to engage Karna in single combat.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Karna"
+      ],
+      "action": "Challenge for duel",
+      "supernatural_elements": "Magical chariot and creatures"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha threw an eight-wheeled discus weapon made by Rudra at Karna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Karna"
+      ],
+      "action": "Divine weapon attack",
+      "divine_intervention": "Weapon created by Rudra (Shiva)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna jumped from his chariot, caught the discus, and threw it back, while Ghatotkacha also jumped down.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Ghatotkacha"
+      ],
+      "action": "Weapon catch and return",
+      "supernatural_elements": "Superhuman feat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The discus destroyed Ghatotkacha's chariot with horses, charioteer, and banners, then drilled into the earth, amazing the gods.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha"
+      ],
+      "action": "Chariot destruction",
+      "divine_intervention": "Gods witness and are amazed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna's feat of catching the divine discus was praised by all beings, then he returned to his chariot and shot iron arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "action": "Divine feat recognition",
+      "relationship": "Universal praise"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha, struck by iron arrows, became invisible like a Gandharva city.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha"
+      ],
+      "action": "Disappearance/illusion",
+      "supernatural_elements": "Invisibility power"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha used his magic to swiftly destroy Karna's magical weapons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Karna"
+      ],
+      "action": "Weapon destruction through illusion",
+      "supernatural_elements": "Illusion magic"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna remained calm and counterattacked despite his weapons being destroyed by illusion.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "action": "Calm response and counterattack",
+      "character_trait": "Composure under pressure"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha (son of Bhima), in great rage, transformed himself into countless forms to terrify the kings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha"
+      ],
+      "action": "Mass transformation",
+      "relationship": "Son of Bhima",
+      "supernatural_elements": "Shape-shifting ability"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "From all directions came lions, tigers, hyenas, fire-breathing snakes, and iron-beaked birds (Ghatotkacha's illusions).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha"
+      ],
+      "action": "Illusion army creation",
+      "supernatural_elements": "Creation of magical creatures"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳用利箭打击瓶首，瓶首消失不见。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "瓶首"
+      ],
+      "action": "战斗/攻击",
+      "supernatural_elements": "瓶首消失（可能为幻术或隐身）"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "众罗刹、毕舍遮、亚杜达那和豺狼从各个方向冲向迦尔纳，想要吃掉他，发出尖利叫声威吓。",
+    "char_interval": {
+      "start_pos": 5918,
+      "end_pos": 5926
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳",
+        "众罗刹",
+        "毕舍遮",
+        "亚杜达那",
+        "豺狼"
+      ],
+      "action": "围攻/威胁",
+      "relationships": "敌对关系"
+    },
+    "_token_interval": {
+      "start_index": 1700,
+      "end_index": 1704
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳用各种可怕的武器和利箭将它们一一击中，武器沾满鲜血。",
+    "char_interval": {
+      "start_pos": 5971,
+      "end_pos": 5992
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳"
+      ],
+      "action": "反击/杀戮",
+      "result": "击败围攻的怪物"
+    },
+    "_token_interval": {
+      "start_index": 1715,
+      "end_index": 1716
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迦尔纳以一件神奇武器破除罗刹的幻象，并用数支笔直的箭杀死他的那些马匹。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迦尔纳"
+      ],
+      "action": "破除幻术/攻击坐骑",
+      "supernatural_elements": "神奇武器破除幻象"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "那罗刹眼睁睁地看着它们被利箭射得肢体破碎，后背断裂，倒地毙命。",
+    "char_interval": {
+      "start_pos": 6048,
+      "end_pos": 6081
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "那罗刹"
+      ],
+      "action": "目睹同伴死亡",
+      "emotional_state": "无助/愤怒"
+    },
+    "_token_interval": {
+      "start_index": 1729,
+      "end_index": 1735
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "看到幻术尽被破除，希丁芭之子对日神之子迦尔纳说：“我这就送你去死！”说毕，又隐身不见。",
+    "char_interval": {
+      "start_pos": 6086,
+      "end_pos": 6129
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "希丁芭之子（瓶首）",
+        "迦尔纳"
+      ],
+      "action": "威胁/隐身",
+      "relationships": "敌对关系",
+      "character_identities": {
+        "希丁芭之子": "瓶首",
+        "日神之子": "迦尔纳"
+      },
+      "supernatural_elements": "隐身能力"
+    },
+    "_token_interval": {
+      "start_index": 1738,
+      "end_index": 1750
+    }
+  }
+]

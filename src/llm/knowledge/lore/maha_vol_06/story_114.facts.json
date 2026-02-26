@@ -1,0 +1,918 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna (Vasudeva) returns to Dvaraka after visiting the Kuru and Pandava courts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna",
+        "Bhima",
+        "Yudhishthira",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "type": "Departure",
+      "relationships": [
+        "Krishna is cousin and friend to the Pandavas",
+        "Arjuna and Krishna share a deep bond"
+      ],
+      "supernatural_elements": [
+        "Favorable winds clear Krishna's path",
+        "Indra showers fragrant rain and celestial flowers"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna meets the sage Uttanka on his journey.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Uttanka"
+      ],
+      "type": "Encounter",
+      "relationships": [
+        "Uttanka respects Krishna",
+        "Krishna shows reverence to the sage"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttanka asks Krishna if he succeeded in reconciling the Kauravas and Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttanka",
+        "Krishna"
+      ],
+      "type": "Inquiry",
+      "relationships": [
+        "Uttanka is concerned about the Kuru family peace"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna explains his failed peace mission and the resulting Kurukshetra war.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Duryodhana",
+        "Bhishma",
+        "Vidura",
+        "Yudhishthira",
+        "Arjuna",
+        "Bhima",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "type": "Revelation",
+      "action": "Krishna describes the war's outcome",
+      "relationships": [
+        "Krishna tried to mediate between cousins",
+        "Kauravas rejected peace despite advice from Bhishma and Vidura"
+      ],
+      "key_plot_points": [
+        "All Kauravas and their allies died",
+        "The five Pandavas survived but lost their sons and friends",
+        "Krishna attributes this to destiny and the Kauravas' adherence to adharma (unrighteousness)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttanka becomes angry and threatens to curse Krishna for not preventing the war.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttanka",
+        "Krishna"
+      ],
+      "type": "Conflict",
+      "action": "Uttanka prepares to curse Krishna",
+      "relationships": [
+        "Uttanka's respect turns to anger",
+        "He blames Krishna for not using his power to save the Kauravas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna asks Uttanka to listen to an explanation before cursing him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Uttanka"
+      ],
+      "type": "Dialogue",
+      "action": "Krishna requests a hearing",
+      "relationships": [
+        "Krishna appeals to Uttanka as a fellow spiritual seeker"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "优腾迦请求黑天如实讲述灵魂的本质，并威胁根据讲述内容表示祝福或发出诅咒。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "优腾迦",
+        "黑天"
+      ],
+      "action": "请求与威胁",
+      "relationship": "婆罗门与神祇的对话"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天宣称暗性、忧性和善性都依靠他，众楼陀罗和众婆薮由他产生。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天"
+      ],
+      "action": "神性宣称",
+      "supernatural_elements": [
+        "创造属性"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天宣称一切众生在他之中，他也在一切众生之中。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天"
+      ],
+      "action": "泛神论宣称",
+      "philosophical_aspect": "宇宙一体性"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天宣称提迭、药叉、罗刹、蛇、健达缚和天女全都由他产生。",
+    "char_interval": {
+      "start_pos": 1325,
+      "end_pos": 1391
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天"
+      ],
+      "action": "创造宣称",
+      "supernatural_elements": [
+        "创造各类超自然生物"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 412,
+      "end_index": 434
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天宣称存在、不存在、显现者、未显者、可灭者和不灭者都以他为灵魂。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天"
+      ],
+      "action": "本体论宣称",
+      "philosophical_aspect": "终极实在"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天宣称所有生活阶段职责和供奉礼仪都以他为灵魂。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天"
+      ],
+      "action": "宗教宣称",
+      "relationship": "神作为仪式与职责的核心"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天宣称没有比他这位永恒的神中之神更高者。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天"
+      ],
+      "action": "至高宣称",
+      "supernatural_elements": [
+        "最高神性"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天宣称他是由唵产生的吠陀，是众天神的仪式。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天"
+      ],
+      "action": "神圣宣称",
+      "supernatural_elements": [
+        "吠陀与仪式的起源"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天宣称他是祭司、祭品、供品和赞美诗。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天"
+      ],
+      "action": "祭祀宣称",
+      "relationship": "神作为祭祀的各个方面"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天宣称正法是他的长子，从心中产生，实质是怜悯一切众生。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天",
+        "正法"
+      ],
+      "action": "亲子关系宣称",
+      "relationship": "神与正法的父子关系"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天宣称他不断活动，采取各种人体投胎转生。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天"
+      ],
+      "action": "化身宣称",
+      "supernatural_elements": [
+        "转世与化身"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天宣称为了保护正法，他在三界中采取各种形体和容貌。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天"
+      ],
+      "action": "保护宣称",
+      "relationship": "神作为正法的保护者"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天宣称他是毗湿奴、梵天、帝释天、生和死，创造并收回万物。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天",
+        "毗湿奴",
+        "梵天",
+        "帝释天"
+      ],
+      "action": "神格合一宣称",
+      "supernatural_elements": [
+        "多神合一",
+        "创造与毁灭"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天宣称在动荡时代，他架起正法之桥，为众生利益投生各种子宫。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天"
+      ],
+      "action": "救世宣称",
+      "relationship": "神作为救世主"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天宣称他投胎天神、健达缚、蛇、药叉、罗刹和人，行为像他们那样。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天"
+      ],
+      "action": "化身多样性宣称",
+      "supernatural_elements": [
+        "跨物种化身"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天宣称他恳求人类慈悲为怀，但他们陷入愚痴，不接受忠告。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天",
+        "人类"
+      ],
+      "action": "劝诫与拒绝",
+      "relationship": "神与人类的互动"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttanka acknowledges Krishna as the world's creator and expresses his anger has subsided.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttanka",
+        "Krishna"
+      ],
+      "action": "Acknowledgement and reconciliation",
+      "relationships": [
+        "Uttanka recognizes Krishna's divinity"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttanka requests to see Krishna's cosmic form.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttanka",
+        "Krishna"
+      ],
+      "action": "Request for divine vision",
+      "relationships": [
+        "Uttanka seeks deeper understanding of Krishna"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna displays his eternal Vishnu form, the same cosmic form shown to Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Uttanka"
+      ],
+      "action": "Divine revelation",
+      "supernatural_elements": [
+        "Krishna reveals his cosmic Vishnu form"
+      ],
+      "relationships": [
+        "Krishna grants Uttanka's request"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttanka sees Krishna's cosmic form covering the universe and offers homage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttanka",
+        "Krishna"
+      ],
+      "action": "Witnessing and worship",
+      "supernatural_elements": [
+        "Cosmic form covering earth, sky, and all directions"
+      ],
+      "relationships": [
+        "Uttanka worships Krishna's divine form"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttanka asks Krishna to resume his normal form.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttanka",
+        "Krishna"
+      ],
+      "action": "Request to restore normal appearance",
+      "relationships": [
+        "Uttanka prefers Krishna's familiar form"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna offers Uttanka a boon.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Uttanka"
+      ],
+      "action": "Boon offering",
+      "relationships": [
+        "Krishna rewards Uttanka for his devotion"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttanka requests the ability to obtain water whenever desired, as water is scarce in the wilderness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttanka",
+        "Krishna"
+      ],
+      "action": "Boon request",
+      "relationships": [
+        "Uttanka asks for practical help from Krishna"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna grants the boon, instructing Uttanka to think of him when needing water, then departs for Dvaraka.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Uttanka"
+      ],
+      "action": "Boon granting and departure",
+      "supernatural_elements": [
+        "Divine boon granted"
+      ],
+      "relationships": [
+        "Krishna fulfills Uttanka's request"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Later, while thirsty in the wilderness, Uttanka remembers Krishna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttanka",
+        "Krishna"
+      ],
+      "action": "Invocation of boon",
+      "relationships": [
+        "Uttanka uses Krishna's granted method"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A naked, muddy Chandala (outcaste) appears, surrounded by dogs, with water flowing from his body.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Chandala",
+        "Uttanka"
+      ],
+      "action": "Divine manifestation",
+      "supernatural_elements": [
+        "Mysterious appearance of water-providing Chandala"
+      ],
+      "relationships": [
+        "Chandala offers water to Uttanka"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Chandala offers water to thirsty Uttanka, revealing he appears due to Uttanka thinking of Krishna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Chandala",
+        "Uttanka",
+        "Krishna"
+      ],
+      "action": "Divine test",
+      "supernatural_elements": [
+        "Chandala knows Uttanka invoked Krishna"
+      ],
+      "relationships": [
+        "Chandala represents Krishna's boon manifestation"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttanka refuses the water, rebuking Krishna for this form of help.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttanka",
+        "Krishna",
+        "Chandala"
+      ],
+      "action": "Rejection and complaint",
+      "relationships": [
+        "Uttanka rejects Krishna's provision through Chandala"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Utanka endured thirst and felt anger after being refused water.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Utanka"
+      ],
+      "action": "Endurance and emotional reaction",
+      "context": "Initial situation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Matanga, accompanied by dogs, disappeared after being firmly refused by Utanka.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Matanga",
+        "Utanka"
+      ],
+      "action": "Disappearance after refusal",
+      "relationships": "Matanga approaches Utanka but is refused"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Utanka felt ashamed and believed he had been deceived by Krishna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Utanka",
+        "Krishna"
+      ],
+      "action": "Feeling of shame and deception",
+      "relationships": "Utanka suspects Krishna's intentions"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna (also called Janardana) appeared carrying his conch, discus, and mace.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "action": "Divine appearance",
+      "supernatural_elements": "Krishna's divine attributes"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Utanka confronted Krishna about giving water that came from Matanga's urine.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Utanka",
+        "Krishna"
+      ],
+      "action": "Confrontation and accusation",
+      "relationships": "Utanka challenges Krishna's actions"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna explained that he had arranged for Indra to give Utanka amrita (nectar of immortality) disguised as water.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Indra",
+        "Utanka"
+      ],
+      "action": "Explanation of divine arrangement",
+      "supernatural_elements": "Transformation of amrita into water, divine intervention"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra initially refused because mortals cannot obtain immortality, but Krishna insisted.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Krishna"
+      ],
+      "action": "Divine negotiation",
+      "relationships": "Krishna persuades Indra"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra transformed into Matanga to offer the amrita, with the condition that Utanka must accept it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Utanka"
+      ],
+      "action": "Divine disguise and test",
+      "supernatural_elements": "Indra's transformation into Matanga"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Utanka refused the water from Matanga, thus missing the opportunity to receive amrita.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Utanka",
+        "Indra (as Matanga)"
+      ],
+      "action": "Refusal leading to missed blessing",
+      "relationships": "Utanka's refusal prevents receiving immortality"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna granted Utanka a boon: clouds would appear in the wilderness to provide water whenever needed, to be known as 'Utanka clouds'.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Utanka"
+      ],
+      "action": "Granting of compensatory boon",
+      "supernatural_elements": "Creation of Utanka clouds",
+      "relationships": "Krishna compensates Utanka for the missed amrita"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Utanka was pleased with Krishna's explanation and boon.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Utanka",
+        "Krishna"
+      ],
+      "action": "Resolution of conflict",
+      "relationships": "Utanka's anger is appeased"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Utanka clouds continue to rain in the wilderness to this day.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Lasting supernatural phenomenon",
+      "supernatural_elements": "Permanent meteorological effect"
+    },
+    "_token_interval": null
+  }
+]

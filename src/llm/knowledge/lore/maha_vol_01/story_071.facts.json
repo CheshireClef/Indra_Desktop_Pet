@@ -1,0 +1,1614 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna asked Gandharva to recommend a suitable priest who is proficient in the Vedas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Gandharva"
+      ],
+      "type": "Request",
+      "relationships": [
+        "Pandava brother",
+        "Divine being"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gandharva recommended Sage Dhaumya (Yajnavalkya) who was performing austerities at Uddalaka forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandharva",
+        "Sage Dhaumya"
+      ],
+      "type": "Recommendation",
+      "location": "Uddalaka forest"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna gifted the Agneyastra (fire weapon) to Gandharva and arranged to retrieve the horses later.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Gandharva"
+      ],
+      "action": "Gift exchange",
+      "items": [
+        "Agneyastra",
+        "Horses"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas traveled to Uddalaka forest and requested Sage Dhaumya to be their priest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Sage Dhaumya"
+      ],
+      "type": "Appointment",
+      "relationship_change": "Sage Dhaumya becomes Pandavas' priest"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Dhaumya accepted the position, treated the Pandavas with hospitality, and became their spiritual teacher.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Dhaumya",
+        "Pandavas"
+      ],
+      "action": "Acceptance of priest role",
+      "relationships": [
+        "Teacher-disciples",
+        "Priest-patrons"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "With Sage Dhaumya as their priest, the Pandavas felt confident about winning the swayamvara and regaining their kingdom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Sage Dhaumya"
+      ],
+      "type": "Psychological boost",
+      "outlook": "Renewed hope for kingdom restoration"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas decided to attend Princess Draupadi's swayamvara in Panchala.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas"
+      ],
+      "type": "Decision",
+      "destination": "Panchala kingdom",
+      "purpose": "Attend Draupadi's swayamvara"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas traveled with their mother Kunti toward Panchala, meeting groups of Brahmins along the way.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Kunti",
+        "Brahmins"
+      ],
+      "type": "Journey",
+      "relationships": [
+        "Mother-sons",
+        "Travel companions"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira told the Brahmins they were traveling to see the divine assembly and came from Ekachakra city.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Brahmins"
+      ],
+      "type": "Conversation",
+      "information": [
+        "Origin: Ekachakra",
+        "Destination: Divine assembly"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmins informed the Pandavas about King Drupada's grand swayamvara for his daughter Draupadi.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmins",
+        "Pandavas"
+      ],
+      "type": "Information sharing",
+      "key_details": [
+        "Event: Draupadi's swayamvara",
+        "Host: King Drupada",
+        "Location: Panchala palace"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmins described Draupadi's divine origin from the sacrificial fire and her exceptional beauty.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi"
+      ],
+      "type": "Description",
+      "supernatural_elements": [
+        "Born from sacrificial fire"
+      ],
+      "attributes": [
+        "Exceptional beauty",
+        "Flawless form"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A group of Brahmins describes Draupadi's swayamvara and encourages others to attend.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi (Daughter of King Drupada)",
+        "Shikhandin (Brother of Draupadi)",
+        "King Drupada"
+      ],
+      "action": "Description of the swayamvara event",
+      "relationships": "Draupadi is the daughter of King Drupada. Shikhandin is her brother and rival of Drona.",
+      "supernatural_elements": "Shikhandin was born from sacrificial fire with weapons."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira agrees to attend Draupadi's swayamvara with the Brahmins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Brahmins"
+      ],
+      "action": "Decision to travel",
+      "relationships": "Yudhishthira is the eldest Pandava brother."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas travel to the southern Panchala kingdom ruled by King Drupada.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas (Yudhishthira, Bhima, Arjuna, Nakula, Sahadeva)",
+        "King Drupada"
+      ],
+      "action": "Journey to Panchala",
+      "relationships": "The Pandavas are traveling to attend Draupadi's swayamvara in her father's kingdom."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas meet the sage Lomasha (Island-born sage) on their journey and pay respects to him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Lomasha (Island-born sage)"
+      ],
+      "action": "Meeting and respectful interaction",
+      "relationships": "The Pandavas show reverence to the sage as disciples."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas arrive in Panchala and secretly stay in a potter's house, living as Brahmins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas"
+      ],
+      "action": "Secret arrival and disguise",
+      "relationships": "The Pandavas are in hiding to avoid detection.",
+      "plot_points": "They maintain secrecy about their true identities as Kuru princes."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drupada's secret wish was to marry Draupadi to one of Pandu's crowned sons (Arjuna), but he never told anyone.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drupada",
+        "Draupadi",
+        "Arjuna"
+      ],
+      "type": "Secret intention",
+      "relationship": "Drupada wants Draupadi to marry Arjuna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "To find the sons of Kunti, Drupada prepared an exceptionally stiff bow that others could not string.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drupada",
+        "Kunti",
+        "Pandavas"
+      ],
+      "type": "Preparation for contest",
+      "purpose": "Find the Pandavas through contest"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drupada created a mechanical device suspended in air with a golden target.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drupada"
+      ],
+      "type": "Contest setup",
+      "element": "Supernatural/mechanical device"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drupada announced that whoever could string the bow and hit the target would win his daughter.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drupada",
+        "Draupadi"
+      ],
+      "type": "Contest announcement",
+      "prize": "Draupadi's hand in marriage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drupada announced this decision to all directions, and kings from everywhere gathered in his country.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drupada",
+        "Various kings"
+      ],
+      "type": "Royal gathering",
+      "scale": "International gathering"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Many ascetic sages came to witness the svayamvara, along with Karna and the Kauravas led by Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sages",
+        "Karna",
+        "Duryodhana",
+        "Kauravas"
+      ],
+      "type": "Witness gathering",
+      "notable_attendees": [
+        "Karna",
+        "Duryodhana"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Brahmins and kings from many countries received hospitality from the noble Drupada.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drupada",
+        "Brahmins",
+        "Various kings"
+      ],
+      "type": "Hospitality",
+      "relationship": "Drupada as host"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kings and townspeople flooded into Kampilya, creating a roaring sound like the ocean.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Various kings",
+        "Townspeople"
+      ],
+      "type": "Mass gathering",
+      "location": "Kampilya"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The svayamvara venue was established on level ground northeast of the city, shining with surrounding towers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Venue preparation",
+      "location": "Northeast of Kampilya"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The venue was protected by high walls and deep moats, with gates and arches, covered with colorful canopies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Venue description",
+      "features": [
+        "Fortified",
+        "Ornate"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Hundreds of instruments played melodious music, with incense burning and fragrant waters sprinkled.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Atmosphere",
+      "elements": [
+        "Music",
+        "Incense",
+        "Fragrance"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Luxurious palaces and pavilions were built around the venue, resembling Kailasa mountain peaks.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Accommodation",
+      "comparison": "Like Kailasa mountain"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The palaces were decorated with gold, gem-studded floors, comfortable stairs, and furnished with thrones and couches.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Palace description",
+      "luxury_level": "Extreme opulence"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "All the kings entered these various palaces, each carefully adorned to outdo the others.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Various kings"
+      ],
+      "type": "Royal competition",
+      "behavior": "Competitive display"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "People saw the powerful, heroic, and fortunate kings sitting there, anointed with sandalwood paste.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Various kings"
+      ],
+      "type": "Royal appearance",
+      "qualities": [
+        "Powerful",
+        "Heroic",
+        "Fortunate"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Townspeople came from all directions to see Draupadi's beauty, sitting on the splendid seats.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "Townspeople"
+      ],
+      "type": "Public interest",
+      "attraction": "Draupadi's beauty"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The five Pandava brothers sat with the Brahmins, watching Drupada's incomparably splendid arrangements.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas",
+        "Brahmins",
+        "Drupada"
+      ],
+      "type": "Observation",
+      "relationship": "Pandavas disguised among Brahmins"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The assembly continued for many days with drama, acrobatics, dance performances, and distribution of pearls and wealth as charity.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drupada"
+      ],
+      "type": "Festival activities",
+      "duration": "Many days",
+      "activities": [
+        "Entertainment",
+        "Charity"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "On the sixteenth day, in the splendid assembly hall, Draupadi (daughter of King Drupada) completed her ritual bath, dressed in magnificent clothes and various ornaments, took the golden garland for her chosen husband, and ascended the bride-choosing platform.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "King Drupada"
+      ],
+      "type": "Ceremony Preparation",
+      "relationships": [
+        "Father-Daughter"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin priest of the Somaka clan, who was well-versed in scriptures and pure in body and mind, arranged the sacred fire, spread sacred grass, and poured clarified butter into the fire according to ritual.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin Priest (Somaka clan)"
+      ],
+      "type": "Ritual Preparation",
+      "supernatural_elements": [
+        "Sacred Fire Ritual"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After the sacred fire had fully consumed the clarified butter, the Brahmins shouted 'Auspiciousness!' and all musical instruments stopped playing.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmins"
+      ],
+      "type": "Ritual Completion"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "When the assembly hall became quiet, Dhrishtadyumna (son of King Drupada) came to the center of the bride-choosing platform and spoke in a thunderous, high-pitched, and serious voice, delivering important and heart-stirring words.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "King Drupada"
+      ],
+      "type": "Announcement",
+      "relationships": [
+        "Father-Son"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhrishtadyumna announced the challenge: 'Listen, O kings! Here are a bow and a target. You must shoot five arrows that, after being shot into the air, must pass through the hole of the high-hanging mechanism and then hit the target. If any handsome, strong, and noble-born man accomplishes this difficult task, my sister Draupadi will become his wife today. I speak truthfully and will not go back on my word!'",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "Draupadi"
+      ],
+      "type": "Challenge Announcement",
+      "relationships": [
+        "Brother-Sister"
+      ],
+      "conditions": [
+        "Must shoot five arrows through mechanism hole and hit target",
+        "Must be handsome, strong, and noble-born"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After speaking these words, Dhrishtadyumna began announcing to Draupadi the names, lineages, and achievements of the assembled kings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "Draupadi"
+      ],
+      "type": "Introduction of Suitors"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhrishtadyumna listed the suitors present: Duryodhana, Duhshasana, Duhsaha, Durmukha, Vivimshati, Vikarna, Saha, Duhsala, Sam, Jalasandha, Soma, Rishyasringa, Bhurishrava, Shala, Shalya, Vinda, Anuvinda, Durdhara, Suvahu, Nandi, Upanandaka, Chitrasena, Shrutasena, Purumitra, and many other sons of Dhritarashtra who came with Karna hoping to win Draupadi.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "Duryodhana",
+        "Duhshasana",
+        "Duhsaha",
+        "Durmukha",
+        "Vivimshati",
+        "Vikarna",
+        "Saha",
+        "Duhsala",
+        "Sam",
+        "Jalasandha",
+        "Soma",
+        "Rishyasringa",
+        "Bhurishrava",
+        "Shala",
+        "Shalya",
+        "Vinda",
+        "Anuvinda",
+        "Durdhara",
+        "Suvahu",
+        "Nandi",
+        "Upanandaka",
+        "Chitrasena",
+        "Shrutasena",
+        "Purumitra",
+        "Dhritarashtra",
+        "Karna",
+        "Draupadi"
+      ],
+      "type": "Suitors Listing",
+      "relationships": [
+        "Father-Sons (Dhritarashtra and his sons)",
+        "Rivalry (Karna and others seeking Draupadi)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhrishtadyumna continued listing other suitors: Shakuni, Pra, Bishaka, and other sons of Gandhara kings; and the foremost warriors Ashvatthama and Bhagadatta, who came adorned in fine attire hoping to win Draupadi.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhrishtadyumna",
+        "Shakuni",
+        "Pra",
+        "Bishaka",
+        "Ashvatthama",
+        "Bhagadatta",
+        "Draupadi"
+      ],
+      "type": "Additional Suitors",
+      "relationships": [
+        "Competition for Draupadi's hand"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Numerous kings and warriors from various kingdoms gather for Draupadi's swayamvara (self-choice ceremony).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "King Drupada (Mentioned as '木柱王')",
+        "Multiple Kings and Princes (Listed in text)"
+      ],
+      "type": "Gathering/Ceremony",
+      "location": "Swayamvara venue"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The assembled heroes are eager and competitive, each believing themselves to be the most skilled and powerful, and each declaring 'Draupadi will be mine!'.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Assembled Kings and Princes"
+      ],
+      "action": "Declaration of intent",
+      "mood": "Competitive, proud, desirous"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The heroes enter the swayamvara arena, surrounding Draupadi, compared to gods surrounding Uma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Assembled Kings and Princes",
+        "Draupadi"
+      ],
+      "action": "Entering arena",
+      "simile": "Like gods surrounding Uma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The kings, wounded by the arrows of the god of love (Kama), view even their friends as enemies in their desire to win Draupadi.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Assembled Kings and Princes"
+      ],
+      "action": "Shift in perception",
+      "supernatural_element": "Influence of Kama (god of love)",
+      "relationship_change": "Friends become rivals"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Many gods, including the Rudras, Adityas, Vasus, Ashvins, Sadhyas, Maruts, Yama, and Kubera, arrived in celestial chariots.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rudras",
+        "Adityas",
+        "Vasus",
+        "Ashvins",
+        "Sadhyas",
+        "Maruts",
+        "Yama",
+        "Kubera"
+      ],
+      "type": "Divine Assembly"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Daityas, Garudas, Nagas, Rishis, Kinnaras, Charanas, Gandharva king Vishvavasu, sages Narada and Parvata, Gandharva chiefs, and Apsaras also arrived.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Daityas",
+        "Garudas",
+        "Nagas",
+        "Rishis",
+        "Kinnaras",
+        "Charanas",
+        "Vishvavasu",
+        "Narada",
+        "Parvata",
+        "Gandharva chiefs",
+        "Apsaras"
+      ],
+      "type": "Divine Assembly"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rama (Balarama) with the plow, Krishna, and chiefs of the Vrishni, Andhaka, and Yadava clans stood watching.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Balarama",
+        "Krishna",
+        "Vrishni chiefs",
+        "Andhaka chiefs",
+        "Yadava chiefs"
+      ],
+      "type": "Observation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna, the foremost hero of the Yadava clan, saw the five Pandava brothers approaching and recognized them as Yudhishthira, Bhima, Arjuna, and the twin heroes Nakula and Sahadeva.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "action": "Recognition",
+      "relationships": "Krishna recognizes his cousins, the Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna informed Balarama of his recognition, and Balarama also examined the five brothers with delight.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Balarama",
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "action": "Confirmation",
+      "relationships": "Krishna and Balarama confirm the identity of the Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Other princes and kings focused their attention on Draupadi as she arrived, becoming infatuated with her.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Various princes and kings",
+        "Draupadi"
+      ],
+      "action": "Infatuation",
+      "type": "Romantic Interest"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The five Pandava brothers and the twin heroes Nakula and Sahadeva also gazed at Draupadi and were struck by the arrows of the god of love (Kama).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Draupadi"
+      ],
+      "action": "Infatuation",
+      "type": "Romantic Interest",
+      "relationships": "Pandavas become infatuated with Draupadi"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The venue was filled with gods, sages, Gandharvas, Garudas, Nagas, Asuras, and Siddhas, with celestial fragrances and flowers everywhere.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gods",
+        "Sages",
+        "Gandharvas",
+        "Garudas",
+        "Nagas",
+        "Asuras",
+        "Siddhas"
+      ],
+      "type": "Divine Atmosphere"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Loud music from drums, lutes, flutes, and cymbals filled the air, and celestial chariots crowded the sky.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Celebration",
+      "type": "Festive Atmosphere"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kings attempted to string a mighty bow to win Draupadi's hand in marriage but failed, becoming dejected.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Various kings",
+        "Draupadi"
+      ],
+      "action": "Failed Attempt",
+      "type": "Swayamvara Challenge"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "When the assembled people became agitated and kings stopped boasting, Arjuna, the heroic son of Kunti, stepped forward to string the bow and shoot an arrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Kunti",
+        "Draupadi"
+      ],
+      "action": "Challenge Acceptance",
+      "type": "Swayamvara Challenge",
+      "relationships": "Arjuna attempts to win Draupadi"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "As kings failed to string the bow, the wise and extraordinary Arjuna rose from among the Brahmins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Various kings"
+      ],
+      "action": "Intervention",
+      "type": "Swayamvara Challenge"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing Arjuna stand up, Brahmin elders made a loud noise and waved their deer-skin garments, with some worried and some delighted.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Brahmin elders"
+      ],
+      "action": "Reaction",
+      "type": "Public Response"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Wise and experienced Brahmins discussed how even famous kings like Karna and Shalya, known for their strength and archery skills, could not string the bow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmins",
+        "Karna",
+        "Shalya"
+      ],
+      "action": "Discussion",
+      "type": "Commentary"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A young Brahmin (later revealed as Arjuna) approaches the bow to attempt the archery challenge.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Approaching the challenge",
+      "relationships": "Arjuna is disguised as a Brahmin",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Some Brahmins express doubt about the young Brahmin's ability, fearing failure will bring ridicule to all Brahmins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Doubtful Brahmins"
+      ],
+      "action": "Expressing skepticism",
+      "relationships": "Brahmins concerned about community reputation",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Other Brahmins defend the young Brahmin, citing his impressive physique, calm demeanor, and the inherent power of Brahmin asceticism.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Supportive Brahmins"
+      ],
+      "action": "Defending the challenger",
+      "relationships": "Brahmins showing faith in Brahmin capabilities",
+      "supernatural_elements": "Mention of Brahmin ascetic power (tapas)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna successfully strings the bow, shoots five arrows through the target's hole, and knocks the target down with immense force.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Completing the archery challenge",
+      "relationships": "Arjuna proves his exceptional skill",
+      "supernatural_elements": "Superhuman feat of strength and precision"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gods in heaven cheer and shower divine flowers on Arjuna; celestial music plays and praises are sung.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gods",
+        "Arjuna"
+      ],
+      "action": "Divine celebration",
+      "relationships": "Gods acknowledge Arjuna's achievement",
+      "supernatural_elements": "Divine intervention, celestial phenomena"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Drupada, seeing Arjuna's success, becomes overjoyed and decides to support him with his army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Drupada",
+        "Arjuna"
+      ],
+      "action": "Pledge of military support",
+      "relationships": "King Drupada becomes an ally to Arjuna",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira, along with Nakula and Sahadeva, leaves the venue quietly during the commotion.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "action": "Departing the scene",
+      "relationships": "Brothers (Pandavas) maintaining discretion",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi approaches Arjuna with a white garland, smiling, and chooses him as her husband.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "Arjuna"
+      ],
+      "action": "Swayamvara (marriage choice)",
+      "relationships": "Draupadi becomes Arjuna's wife",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna, honored by the Brahmins, leaves the competition ground with Draupadi following him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Draupadi"
+      ],
+      "action": "Departure as victor",
+      "relationships": "Newly married couple",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The kings attending the svayamvara become angry when they see King Drupada intends to give his daughter Draupadi in marriage to a Brahmin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Drupada",
+        "The assembled kings"
+      ],
+      "action": "Anger and protest",
+      "reason": "Violation of kshatriya tradition for svayamvara"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The kings declare they will kill King Drupada and his sons for this insult.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The assembled kings",
+        "King Drupada"
+      ],
+      "action": "Threat of violence",
+      "reason": "Perceived dishonor to the kshatriya class"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The kings decide not to harm the Brahmin suitor, acknowledging the supremacy of Brahmins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The assembled kings"
+      ],
+      "action": "Decision to spare the Brahmin",
+      "reason": "Respect for dharma and Brahminical authority"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The angry kings arm themselves and charge toward King Drupada to kill him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The assembled kings",
+        "King Drupada"
+      ],
+      "action": "Armed charge",
+      "weapons": "Bows and arrows"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Drupada, terrified, seeks protection from the Brahmins present.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Drupada",
+        "The Brahmins"
+      ],
+      "action": "Seeking refuge",
+      "emotional_state": "Fear"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima and Arjuna (the Pandava princes) step forward to confront the charging kings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Arjuna",
+        "The assembled kings"
+      ],
+      "action": "Confrontation",
+      "relationship": "Pandava brothers protecting the ceremony"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The kings turn their weapons toward Bhima and Arjuna, intending to kill them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The assembled kings",
+        "Bhima",
+        "Arjuna"
+      ],
+      "action": "Attack redirected",
+      "target": "Pandava brothers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima uproots a tree, strips its leaves, and stands ready to fight alongside Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Arjuna"
+      ],
+      "action": "Preparation for battle",
+      "weapon": "Uprooted tree",
+      "description": "Bhima appears like Yama (the god of death) with his staff"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna observes Bhima and Arjuna's actions and identifies Arjuna to his elder brother Balarama.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Balarama",
+        "Arjuna",
+        "Bhima"
+      ],
+      "action": "Recognition",
+      "observation": "Krishna recognizes Arjuna by his bowmanship and bearing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person uproots a large tree and charges forward to confront the kings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima (Wolf-bellied)"
+      ],
+      "action": "Uprooting tree and charging",
+      "reason": "To confront the kings",
+      "supernatural_element": "Exceptional strength (only Bhima among mortals could uproot such a large tree)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A person with lotus-like eyes, lion-like gait, fair skin, and handsome nose leaves earlier.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira (Dharmaraja)"
+      ],
+      "description": "Identified by physical characteristics and noble bearing",
+      "relationship": "Eldest of the Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Two youth resembling the Ashvins are identified.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Sahadeva"
+      ],
+      "description": "Identified as sons of the Ashvins (divine twins)",
+      "relationship": "Youngest Pandava brothers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Recognition that the Pandavas and Kunti have escaped from the lacquer house fire.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas (Yudhishthira, Bhima, Nakula, Sahadeva)",
+        "Kunti"
+      ],
+      "action": "Escape from lacquer house",
+      "relationship": "Kunti is mother of the Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Balarama expresses joy and relief upon recognizing his relatives have survived.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Balarama (Plow-bearing)"
+      ],
+      "action": "Expressing happiness and relief",
+      "relationship": "Cousin of the Pandavas (Kunti is his aunt)",
+      "divine_element": "Attributed survival to divine protection"
+    },
+    "_token_interval": null
+  }
+]

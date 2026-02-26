@@ -1,0 +1,980 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gautama enters the splendid palace of the Rakshasa king after being announced and is respectfully seated on a fine seat.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gautama",
+        "Rakshasa King Virochana"
+      ],
+      "action": "Entry and reception",
+      "relationships": [
+        "Host-guest"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rakshasa King Virochana questions Gautama about his lineage, Vedic study, and celibacy, but Gautama only answers about his lineage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rakshasa King Virochana",
+        "Gautama"
+      ],
+      "action": "Interrogation and partial response",
+      "details": "Gautama lacks Vedic brilliance, dislikes Vedic recitation, and can only state his lineage."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rakshasa King Virochana further asks about Gautama's residence and his wife's lineage, assuring him to speak truthfully without fear.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rakshasa King Virochana",
+        "Gautama"
+      ],
+      "action": "Further questioning with reassurance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gautama reveals he was born in the central region, lives in a barbarian village, and his wife is a Shudra woman.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gautama"
+      ],
+      "action": "Self-disclosure",
+      "details": "States his origins and marital status truthfully."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rakshasa King Virochana deliberates on how to act rightly, considering Gautama's Brahmin birth and his connection to Kashyapa's son.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rakshasa King Virochana"
+      ],
+      "action": "Internal deliberation",
+      "relationships": [
+        "Gautama is a friend of Kashyapa's son, who sent him to the king"
+      ],
+      "motivation": "To please Kashyapa's son, who is like a brother, relative, and close friend to the king"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rakshasa King Virochana decides to host a feast for a thousand excellent Brahmins and Gautama on the full moon day of Karttika month, granting them wealth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rakshasa King Virochana"
+      ],
+      "action": "Decision to host and gift",
+      "timing": "Full moon day of Karttika month"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A thousand learned Brahmins arrive, bathed, adorned, and wearing new linen garments, and are received with prescribed rites by Virochana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rakshasa King Virochana",
+        "Thousand Brahmins"
+      ],
+      "action": "Arrival and formal reception",
+      "details": "Brahmins are seated on cushions with woolen carpets spread on the ground."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rakshasa King Virochana offers the Brahmins food and ghee in clean, bright golden bowls with diamond handles.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rakshasa King Virochana",
+        "Thousand Brahmins"
+      ],
+      "action": "Offering of food",
+      "items": [
+        "Golden bowls with diamond handles",
+        "Food",
+        "Ghee"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "On the full moon day of Karttika month at autumn's end, the king gives various treasures to the Brahmins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rakshasa King Virochana",
+        "Thousand Brahmins"
+      ],
+      "action": "Distribution of treasures",
+      "items": [
+        "Gold",
+        "Silver",
+        "Pearls",
+        "Precious diamonds",
+        "Lapis lazuli",
+        "Deer skins",
+        "Woolen fabrics"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rakshasa King Virochana tells the Brahmins to take as much treasure as they wish, enjoy the food, and return home with it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rakshasa King Virochana",
+        "Thousand Brahmins"
+      ],
+      "action": "Permission to take treasures"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmins take the treasures according to their wishes, are pleased, and the king drives away Rakshasas from various regions, assuring the Brahmins of safety.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rakshasa King Virochana",
+        "Thousand Brahmins"
+      ],
+      "action": "Treasure collection and protection",
+      "supernatural_elements": [
+        "Rakshasas driven away"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "All Brahmins immediately depart on their paths, and Gautama quickly leaves carrying heavy gold.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Thousand Brahmins",
+        "Gautama"
+      ],
+      "action": "Departure",
+      "details": "Gautama departs with a burden of gold."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "乔答摩背着金子来到榕树下休息，鸟王王法热情欢迎并照顾他。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "乔答摩",
+        "王法"
+      ],
+      "action": "相遇与款待",
+      "relationships": "王法对乔答摩友善"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "乔答摩进食后，因贪婪金子沉重且担心路途无食，产生杀死王法作为食物的念头。",
+    "char_interval": {
+      "start_pos": 1094,
+      "end_pos": 1101
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "乔答摩"
+      ],
+      "action": "内心冲突与邪恶计划",
+      "relationships": "乔答摩背叛王法的信任"
+    },
+    "_token_interval": {
+      "start_index": 319,
+      "end_index": 321
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "鸟王王法点燃火堆保护乔答摩并睡在他身旁，乔答摩趁夜用火杀死王法，烤熟后带走。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "乔答摩",
+        "王法"
+      ],
+      "action": "谋杀与背叛",
+      "relationships": "乔答摩杀害恩人王法"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "毗卢波刹（罗刹王）因王法未归而担忧，派儿子和罗刹们寻找，发现王法残骸并捉拿乔答摩。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "毗卢波刹",
+        "王子",
+        "罗刹们",
+        "乔答摩",
+        "王法"
+      ],
+      "action": "搜寻与逮捕",
+      "relationships": "毗卢波刹关心王法，罗刹们执行命令"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "罗刹们将乔答摩和王法残躯带回弥卢金刚城，国王毗卢波刹与众人悲痛，下令处死乔答摩。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "毗卢波刹",
+        "乔答摩",
+        "王子",
+        "罗刹们",
+        "大臣",
+        "祭司"
+      ],
+      "action": "审判与谴责",
+      "relationships": "毗卢波刹愤怒于乔答摩的忘恩负义"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "罗刹们拒绝吃乔答摩的肉，表示不愿接触邪恶之人。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "罗刹们"
+      ],
+      "action": "道德拒绝",
+      "relationships": "罗刹们鄙视乔答摩的行为"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rakshasas advise Rakshasa King to give the ungrateful man to the Dasius.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rakshasas",
+        "Rakshasa King"
+      ],
+      "action": "Advice",
+      "relationships": "Rakshasas serve Rakshasa King"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rakshasa King orders the ungrateful man to be given to the Dasius.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rakshasa King",
+        "Dasius"
+      ],
+      "action": "Order",
+      "relationships": "Rakshasa King commands Dasius"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Servants dismember the sinner and offer him to the Dasius.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Servants",
+        "Dasius",
+        "Ungrateful Man"
+      ],
+      "action": "Dismemberment",
+      "relationships": "Servants obey Rakshasa King"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dasius refuse to eat the ungrateful man.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dasius",
+        "Ungrateful Man"
+      ],
+      "action": "Refusal",
+      "relationships": "Dasius reject the offering"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rakshasa King orders a funeral for Heron King with jewels and perfumes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rakshasa King",
+        "Heron King"
+      ],
+      "action": "Funeral arrangement",
+      "relationships": "Rakshasa King honors Heron King"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Survi, daughter of Daksha, appears in the sky and sprinkles milk and saliva on Heron King's pyre.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Survi",
+        "Heron King"
+      ],
+      "action": "Divine intervention",
+      "supernatural": "Milk and saliva revive Heron King"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Heron King revives and goes to Virupaksha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Heron King",
+        "Virupaksha"
+      ],
+      "action": "Revival and movement",
+      "relationships": "Heron King seeks Virupaksha"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra arrives at Virupaksha's castle and explains Brahma's curse on Heron King.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Virupaksha",
+        "Heron King",
+        "Brahma"
+      ],
+      "action": "Explanation of curse",
+      "supernatural": "Brahma's curse caused Heron King's death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Heron King requests Indra to revive his friend Gautama.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Heron King",
+        "Indra",
+        "Gautama"
+      ],
+      "action": "Request for revival",
+      "relationships": "Heron King and Gautama are friends"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra revives Gautama and gives him to Heron King.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Gautama",
+        "Heron King"
+      ],
+      "action": "Divine revival",
+      "supernatural": "Indra brings Gautama back to life"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Heron King embraces Gautama and returns to his abode.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Heron King",
+        "Gautama"
+      ],
+      "action": "Farewell",
+      "relationships": "Friends part ways"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Heron King attends Brahma's assembly and is honored.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Heron King",
+        "Brahma"
+      ],
+      "action": "Attendance and honor",
+      "relationships": "Brahma respects Heron King"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gautama returns to the barbarian village and has sons with a Shudra woman.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gautama",
+        "Shudra Woman"
+      ],
+      "action": "Procreation",
+      "relationships": "Gautama and Shudra Woman have children"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gods curse Gautama to hell for his ingratitude.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gods",
+        "Gautama"
+      ],
+      "action": "Curse",
+      "supernatural": "Divine punishment for ingratitude"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Narada told the narrator the entire story, which the narrator remembers and now recounts in detail to the listener.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narada",
+        "Narrator (implied to be Vaisampayana or Sauti)",
+        "Listener (implied to be Janamejaya or Saunaka)"
+      ],
+      "action": "Recounting/Narration"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The narrator delivers a moral discourse on the evils of ingratitude and the importance of friendship, loyalty, and repaying debts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator"
+      ],
+      "action": "Moral Teaching",
+      "themes": [
+        "Ingratitude",
+        "Friendship",
+        "Dharma"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The narrator concludes the story of an ungrateful sinner who harmed a friend.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narrator"
+      ],
+      "action": "Conclusion of a Tale"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vaisampayana (the narrator within the frame) states that after hearing these words from the noble-souled Bhishma, Yudhishthira was filled with joy.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vaisampayana",
+        "Bhishma",
+        "Yudhishthira"
+      ],
+      "action": "Reaction to Teaching",
+      "relationship_change": "Yudhishthira is pleased with Bhishma's instruction."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "This concludes the 'Rajadharmanusasana Parva' (The Book of the Laws for Kings) within the Shanti Parva (Book of Peace) of the Mahabharata.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Structural Note",
+      "context": "End of a major section"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Bhishma to now explain the supreme dharma pertaining to the stages of life (Ashramas), having just heard about the dharma for kings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "action": "Request for Further Teaching",
+      "topic": "Ashrama Dharma"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma begins his response, stating that the dharma of all stages of life leads to heaven, that asceticism yields results, and that dharma has many paths, all fruitful if followed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "action": "Initiating Instruction",
+      "themes": [
+        "Ashrama Dharma",
+        "Asceticism",
+        "Paths to Liberation"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A Brahmin addresses King Janaka (also called '胜军' or 'Sage King') who is grieving over the loss of his son.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin",
+        "King Janaka"
+      ],
+      "action": "Philosophical discourse",
+      "type": "Dialogue/Teaching"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin questions King Janaka's sorrow, pointing out that everyone, including the king and his attendants, will eventually return to their origin.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin",
+        "King Janaka"
+      ],
+      "action": "Questioning attachment",
+      "type": "Philosophical inquiry"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Janaka asks the Brahmin about wisdom, austerity, meditation, knowledge, and learning as means to overcome sorrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Janaka",
+        "Brahmin"
+      ],
+      "action": "Seeking wisdom",
+      "type": "Question"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin explains that all beings are subject to suffering, and nothing truly belongs to anyone, including oneself and the world.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin"
+      ],
+      "action": "Teaching detachment",
+      "type": "Philosophical explanation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin uses the metaphor of two logs meeting and parting in the ocean to describe the transient nature of relationships, including with sons, grandsons, and relatives.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin"
+      ],
+      "action": "Illustrating impermanence",
+      "type": "Metaphorical teaching"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin states that sorrow and happiness alternate, and one does not experience either permanently.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin"
+      ],
+      "action": "Describing the cycle of emotions",
+      "type": "Philosophical insight"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin discusses that conventional sources like friends, enemies, wisdom, wealth, intelligence, or strength do not guarantee happiness or sorrow, and that luck plays a role.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin"
+      ],
+      "action": "Challenging conventional beliefs",
+      "type": "Philosophical discourse"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmin concludes that those who transcend dualities, abandon envy, and attain wisdom find happiness regardless of wealth or poverty, while others experience mixed states.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Brahmin"
+      ],
+      "action": "Advocating for wisdom and detachment",
+      "type": "Conclusion"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text presents philosophical teachings about overcoming desires, emotions, and attachments to achieve spiritual peace and wisdom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Philosophical Discourse",
+      "key_points": [
+        "An invincible person faces all experiences with strong will",
+        "Wise people are not affected by sorrows and joys that affect fools",
+        "Sorrow doesn't touch those who are wise, humble, harmonious, non-envious, and controlled in senses",
+        "One should abandon anything that causes sorrow, fear, pain or fatigue",
+        "Eliminating desires brings happiness while pursuing desires leads to destruction"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The teachings reference the effects of past karma on all beings regardless of their nature.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Karmic Principle",
+      "key_points": [
+        "Past good or bad deeds affect wise, foolish, and brave people alike",
+        "This explains why pleasant/unpleasant, happy/painful experiences appear in life"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The story of Pingala is introduced as an example of someone who achieved wisdom despite difficult circumstances.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pingala"
+      ],
+      "type": "Exemplary Story",
+      "key_points": [
+        "Pingala was a courtesan who was abandoned by her lover in distress",
+        "Despite her difficult situation, she attained peaceful wisdom",
+        "Her story is presented as an example of overcoming desires"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Pingala recounts her transformation from being controlled by desires to achieving liberation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pingala"
+      ],
+      "type": "Personal Revelation",
+      "key_points": [
+        "She was long obsessed with following her passionate lover",
+        "She couldn't see the lovely existence right before her",
+        "She decides to close her 'house with one pillar and nine gates' (metaphor for the body)",
+        "She realizes that lovers disguised in love are like hell and can't deceive a desireless woman",
+        "She has awakened and is no longer controlled by senses or attachments",
+        "She declares that desireless people sleep peacefully and that desirelessness is supreme happiness"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma concludes the chapter by noting that the Brahmin spoke these and other meaningful words.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma"
+      ],
+      "type": "Narrative Conclusion",
+      "key_points": [
+        "Bhishma reports that the Brahmin spoke these teachings",
+        "The teachings increased courage and brought satisfaction to the listener (presumably Yudhishthira, though not named here)",
+        "This is identified as Chapter 168 of the Shanti Parva (Book of Peace) of the Mahabharata"
+      ]
+    },
+    "_token_interval": null
+  }
+]

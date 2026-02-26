@@ -1,0 +1,659 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna leaves the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "action": "Departure from battle",
+      "type": "Military movement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana leads his generals and armies in an attack on the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Pandavas"
+      ],
+      "action": "Military assault",
+      "type": "Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttara, son of Virata, offers to be Arjuna's charioteer and asks for direction.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttara",
+        "Arjuna"
+      ],
+      "action": "Offer of service",
+      "type": "Dialogue/Strategy",
+      "relationship": "Charioteer and warrior"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna identifies Kripa by his red eyes, tiger skin, and blue banner, and instructs Uttara to drive toward him first.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Kripa",
+        "Uttara"
+      ],
+      "action": "Target identification and movement order",
+      "type": "Battle strategy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna identifies Drona by his golden water pot banner and instructs Uttara to circle him respectfully without direct confrontation, citing ancient dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Drona",
+        "Uttara"
+      ],
+      "action": "Respectful avoidance strategy",
+      "type": "Battle strategy",
+      "relationship": "Student and teacher (Arjuna respects Drona)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna identifies Ashvatthaman, Drona's son, by his bow-topped banner and instructs Uttara to rein in the horses at his chariot out of respect.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Ashvatthaman",
+        "Uttara"
+      ],
+      "action": "Order to show respect",
+      "type": "Battle strategy",
+      "relationship": "Arjuna respects Ashvatthaman"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna identifies Duryodhana by his elephant-topped banner and golden armor, noting his fierce nature and skill, and vows to match his archery.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Duryodhana"
+      ],
+      "action": "Target identification and vow",
+      "type": "Battle strategy",
+      "relationship": "Rivals in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna identifies Karna by his beautiful elephant-girth banner, warns Uttara to be careful near him, and notes Karna's constant rivalry with him on the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Karna",
+        "Uttara"
+      ],
+      "action": "Warning and rivalry acknowledgment",
+      "type": "Battle strategy",
+      "relationship": "Intense rivals"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna identifies Bhishma by his blue five-star banner, describes his majestic appearance, acknowledges him as their grandfather who upholds the kingdom's prosperity under Duryodhana's will, and plans to confront him last if unopposed, instructing Uttara to hold the horses firmly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Bhishma",
+        "Uttara"
+      ],
+      "action": "Identification, acknowledgment, and deferred confrontation plan",
+      "type": "Battle strategy",
+      "relationship": "Grandfather and grandson (Arjuna respects Bhishma but is prepared to fight)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttara carefully drives Arjuna toward Kripa, who is preparing to fight.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttara",
+        "Arjuna",
+        "Kripa"
+      ],
+      "action": "Movement toward enemy",
+      "type": "Battle engagement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Kuru army advanced with sharp bows and arrows, resembling rain clouds at summer's end moving slowly with gentle winds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kuru Army"
+      ],
+      "type": "Military Movement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra (Sakra) arrived riding Airavata, accompanied by groups of gods including Vishvedevas, Ashvins, and Maruts.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Vishvedevas",
+        "Ashvins",
+        "Maruts"
+      ],
+      "type": "Divine Arrival",
+      "supernatural_elements": "Gods arriving to witness the battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sky filled with gods, yakshas, gandharvas, and nagas to watch the terrible battle between Bhishma and Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Arjuna"
+      ],
+      "type": "Divine Observation",
+      "relationships": "Bhishma and Arjuna as opposing warriors in the Kurukshetra War"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Indra's magical flying chariot appeared, supported by golden and jeweled pillars, shining with all gems.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra"
+      ],
+      "type": "Divine Display",
+      "supernatural_elements": "Magical flying chariot"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Various gods and legendary kings gathered on Indra's chariot, including Vasumana, Prahlada, Supradarshana, Shibi, Yayati, and others.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Indra",
+        "Vasumana",
+        "Prahlada",
+        "Supradarshana",
+        "Shibi",
+        "Yayati"
+      ],
+      "type": "Divine Assembly"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "All gods, siddhas, and supreme sages came to watch Arjuna fight the Kurus.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Kurus"
+      ],
+      "type": "Divine Spectacle",
+      "relationships": "Arjuna as Pandava warrior fighting against the Kuru army"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The great warrior Kripa came forward, eager to fight Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripa",
+        "Arjuna"
+      ],
+      "type": "Duel Initiation",
+      "relationships": "Kripa as Kuru warrior challenging Arjuna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna (son of Pritha) drew his famous Gandiva bow and shot many deadly iron arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "type": "Combat Action",
+      "supernatural_elements": "Gandiva divine bow"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kripa shattered Arjuna's arrows with hundreds and thousands of his own sharp arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripa",
+        "Arjuna"
+      ],
+      "type": "Combat Exchange"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna angrily displayed various martial arts, covering all directions with arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "type": "Combat Display"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kripa, tormented by flame-like arrows, angrily shot a thousand arrows at Arjuna while roaring in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripa",
+        "Arjuna"
+      ],
+      "type": "Combat Escalation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna shot four golden flat-tipped arrows from his Gandiva bow, hitting Kripacharya's four horses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Kripacharya"
+      ],
+      "action": "Archery attack",
+      "relationship": "Opponents in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The horses, struck by the fiery arrows, reared up violently, throwing Kripacharya from his chariot seat.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripacharya"
+      ],
+      "action": "Disarmed/Unseated",
+      "result": "Vulnerable position"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna saw Kripacharya fall but spared him to maintain his honor.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Kripacharya"
+      ],
+      "action": "Mercy/Compassion",
+      "relationship": "Respectful opponents"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kripacharya returned to his seat and shot ten heron-feathered arrows at Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripacharya",
+        "Arjuna"
+      ],
+      "action": "Counterattack",
+      "relationship": "Battle exchange"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna cut Kripacharya's bow with a crescent-headed arrow and knocked it from his hand.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Kripacharya"
+      ],
+      "action": "Disarming",
+      "result": "Kripacharya weaponless"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna shot Kripacharya's armor with deadly arrows without harming his body, causing the armor to fall off.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Kripacharya"
+      ],
+      "action": "Precise attack",
+      "result": "Kripacharya exposed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kripacharya took another bow, but Arjuna repeatedly cut his bows with flat arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripacharya",
+        "Arjuna"
+      ],
+      "action": "Persistent disarming",
+      "result": "Kripacharya repeatedly weaponless"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kripacharya threw a golden spear at Arjuna, who shattered it into ten pieces with ten arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripacharya",
+        "Arjuna"
+      ],
+      "action": "Spear attack and defense",
+      "result": "Weapon destroyed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kripacharya shot ten sharp crescent arrows from between the chariot poles at Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripacharya",
+        "Arjuna"
+      ],
+      "action": "Desperate attack",
+      "relationship": "Intense combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna angrily shot thirteen fire-like, stone-sharpened arrows, systematically destroying Kripacharya's chariot, horses, charioteer, and equipment.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Kripacharya"
+      ],
+      "action": "Comprehensive destruction",
+      "result": "Kripacharya's chariot completely disabled"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna shot the thirteenth arrow, like Indra's thunderbolt, into Kripacharya's chest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Kripacharya"
+      ],
+      "action": "Final strike",
+      "result": "Kripacharya severely wounded"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kripacharya, now without bow, chariot, horses, or charioteer, jumped down and threw a heavy club, which Arjuna deflected with an arrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripacharya",
+        "Arjuna"
+      ],
+      "action": "Last-resort attack",
+      "result": "Attack neutralized"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Soldiers tried to rescue the furious Kripacharya by showering arrows at Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Soldiers",
+        "Arjuna",
+        "Kripacharya"
+      ],
+      "action": "Rescue attempt",
+      "relationship": "Allies protecting Kripacharya"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Uttara, son of Virata, turned his horses left in double circles to block the soldiers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Uttara",
+        "Soldiers"
+      ],
+      "action": "Defensive maneuver",
+      "relationship": "Uttara as Arjuna's charioteer"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The soldiers, moving swiftly, rescued the chariotless Kripacharya from Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Soldiers",
+        "Kripacharya",
+        "Arjuna"
+      ],
+      "action": "Successful rescue",
+      "result": "Kripacharya saved from further harm"
+    },
+    "_token_interval": null
+  }
+]

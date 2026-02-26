@@ -1,0 +1,943 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战王 (Yudhishthira) 在广给布施后，来到投山仙人 (Agastya) 的净修林，住进难胜小城堡，并向毛密仙人 (Moudgalya) 询问投山仙人杀死婆陀毗 (Vatapi) 的原因。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战王 (Yudhishthira)",
+        "投山仙人 (Agastya)",
+        "毛密仙人 (Moudgalya)",
+        "婆陀毗 (Vatapi)"
+      ],
+      "type": "Inquiry/Questioning",
+      "relationships": [
+        "坚战王询问毛密仙人关于投山仙人的事迹"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "提迭伊婆罗 (Ilvala) 请求一个修苦行的婆罗门赐予他一个像因陀罗 (Indra) 一般的儿子，但未获应允，因此对婆罗门怀恨在心。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "伊婆罗 (Ilvala)",
+        "修苦行的婆罗门",
+        "因陀罗 (Indra)"
+      ],
+      "type": "Request/Curse",
+      "supernatural_elements": [
+        "伊婆罗拥有呼唤死者复活的能力"
+      ],
+      "relationships": [
+        "伊婆罗因未得子而怨恨婆罗门"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "伊婆罗将弟弟婆陀毗变成一只羊，烹煮后请婆罗门食用，待食用完毕再呼唤婆陀毗，使其破腹而出，导致许多婆罗门丧命。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "伊婆罗 (Ilvala)",
+        "婆陀毗 (Vatapi)",
+        "婆罗门们"
+      ],
+      "type": "Deception/Killing",
+      "supernatural_elements": [
+        "伊婆罗的复活能力",
+        "婆陀毗变形为羊"
+      ],
+      "relationships": [
+        "伊婆罗利用弟弟婆陀毗杀害婆罗门"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "投山仙人看见祖先倒悬在深坑中，祖先们解释因无后嗣而受此苦，请求投山仙人生子以解救他们。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "投山仙人 (Agastya)",
+        "祖先们"
+      ],
+      "type": "Vision/Plea",
+      "supernatural_elements": [
+        "祖先显灵",
+        "地狱般的惩罚"
+      ],
+      "relationships": [
+        "祖先请求投山仙人传宗接代以解脱苦难"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "投山仙人决定创造一位完美女子，赐给渴望生子的毗陀婆国王 (Vidarbha)，女子降生后取名罗芭慕德拉 (Lopamudra)。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "投山仙人 (Agastya)",
+        "毗陀婆国王 (Vidarbha)",
+        "罗芭慕德拉 (Lopamudra)"
+      ],
+      "type": "Creation/Birth",
+      "supernatural_elements": [
+        "投山仙人创造完美女子"
+      ],
+      "relationships": [
+        "投山仙人创造罗芭慕德拉作为未来妻子"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Princess Lopamudra grows into a beautiful young woman with many attendants, but no suitors dare approach her due to fear of Sage Agastya.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Lopamudra",
+        "Sage Agastya"
+      ],
+      "type": "Introduction/Setting",
+      "relationships": [
+        "Princess Lopamudra is the daughter of King Vidarbha",
+        "Sage Agastya is a powerful sage feared by potential suitors"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Vidarbha worries about finding a suitable husband for his daughter Lopamudra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Vidarbha",
+        "Lopamudra"
+      ],
+      "type": "Parental Concern",
+      "relationships": [
+        "Father-daughter relationship"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Agastya approaches King Vidarbha to request Lopamudra's hand in marriage, stating his desire to have children.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Agastya",
+        "King Vidarbha"
+      ],
+      "type": "Marriage Proposal",
+      "relationships": [
+        "Sage Agastya seeks marriage with Lopamudra",
+        "King Vidarbha is fearful of refusing the powerful sage"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Vidarbha and his queen are distressed by the marriage proposal but fear Agastya's curse if they refuse.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Vidarbha",
+        "Queen of Vidarbha",
+        "Sage Agastya"
+      ],
+      "type": "Conflict/Concern",
+      "relationships": [
+        "Royal couple fears the sage's power",
+        "Parental concern for daughter's welfare"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Lopamudra volunteers to marry Sage Agastya to protect her father and kingdom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Lopamudra",
+        "King Vidarbha"
+      ],
+      "type": "Sacrifice/Resolution",
+      "relationships": [
+        "Daughter's self-sacrifice for father's safety",
+        "Lopamudra accepts the marriage arrangement"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Vidarbha marries Lopamudra to Sage Agastya according to proper rituals.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Vidarbha",
+        "Lopamudra",
+        "Sage Agastya"
+      ],
+      "type": "Marriage Ceremony",
+      "relationships": [
+        "Marriage established between Lopamudra and Sage Agastya",
+        "King gives daughter in marriage"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Agastya commands Lopamudra to discard her royal ornaments and fine clothes, which she obediently does.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Agastya",
+        "Lopamudra"
+      ],
+      "type": "Lifestyle Change",
+      "relationships": [
+        "Husband-wife relationship",
+        "Lopamudra submits to her husband's demands"
+      ],
+      "supernatural_elements": [
+        "Transition from royal luxury to ascetic life"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Lopamudra adopts simple clothing of bark and animal skins and lives with Agastya at the source of the Ganges, practicing severe austerities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Lopamudra",
+        "Sage Agastya"
+      ],
+      "type": "Ascetic Life",
+      "relationships": [
+        "Companions in spiritual practice",
+        "Shared vows and lifestyle"
+      ],
+      "supernatural_elements": [
+        "Living at sacred location (Ganges source)",
+        "Practice of severe penances"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Lopamudra serves her husband devotedly, and Agastya is pleased with her, showing her affection in return.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Lopamudra",
+        "Sage Agastya"
+      ],
+      "type": "Marital Harmony",
+      "relationships": [
+        "Mutual affection develops",
+        "Wife's devoted service to husband"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After a long time, Sage Agastya observes Lopamudra during her menstrual period, radiant from austerities, and desires to engage in marital relations with her.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Agastya",
+        "Lopamudra"
+      ],
+      "type": "Marital Intimacy",
+      "relationships": [
+        "Husband expresses desire for procreation",
+        "Wife's physical and spiritual purity noted"
+      ],
+      "supernatural_elements": [
+        "Radiance from practicing austerities"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "罗芭慕德拉向投山仙人提出三个要求：要有锦绣床榻、投山要戴花环珠宝、她也要戴精美首饰，才能与他合欢。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "罗芭慕德拉",
+        "投山仙人"
+      ],
+      "action": "提出条件",
+      "relationship": "夫妻",
+      "context": "罗芭慕德拉希望改善生活条件"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "投山仙人表示自己没有罗芭慕德拉父亲那么多钱财，无法满足她的要求。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "投山仙人",
+        "罗芭慕德拉"
+      ],
+      "action": "拒绝请求",
+      "reason": "缺乏财富"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "罗芭慕德拉指出投山仙人可以通过苦行的威力获得财富，但投山担心这会破坏苦行。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "罗芭慕德拉",
+        "投山仙人"
+      ],
+      "action": "建议使用苦行力量",
+      "conflict": "苦行与财富的取舍"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "罗芭慕德拉强调自己经期将过，时间不多，要求投山想个两全之法满足她的心愿。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "罗芭慕德拉",
+        "投山仙人"
+      ],
+      "action": "施加时间压力",
+      "condition": "必须在经期结束前"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "投山仙人同意想办法满足罗芭慕德拉的愿望，让她在原地等待。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "投山仙人",
+        "罗芭慕德拉"
+      ],
+      "action": "承诺解决问题",
+      "resolution": "决定寻找办法"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "投山仙人外出寻找钱财，找到最有钱的国王须多厘瓦。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "投山仙人",
+        "须多厘瓦"
+      ],
+      "action": "寻求财富",
+      "method": "直接向国王请求"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "须多厘瓦王带领大臣到边境恭敬迎接投山仙人，询问来访原因。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "须多厘瓦",
+        "投山仙人"
+      ],
+      "action": "隆重接待",
+      "relationship": "国王对仙人的尊敬"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "投山仙人向须多厘瓦王要钱，要求在对别人没有损害的情况下尽量多给。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "投山仙人",
+        "须多厘瓦"
+      ],
+      "action": "提出请求",
+      "condition": "不损害他人"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "须多厘瓦王拿出收支账目让投山仙人自己决定拿多少。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "须多厘瓦",
+        "投山仙人"
+      ],
+      "action": "提供账目",
+      "态度": "慷慨但谨慎"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "投山仙人仔细查看账目后，认为拿任何数量都会使百姓受苦，于是带上须多厘瓦去找国王婆陀罗湿婆。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "投山仙人",
+        "须多厘瓦",
+        "婆陀罗湿婆"
+      ],
+      "action": "转移求助对象",
+      "reason": "避免损害百姓",
+      "道德考量": "不愿因自己需求伤害他人"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "婆陀罗湿婆亲自到边境迎接投山仙人和须多厘瓦王，询问他们来访的原因。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "婆陀罗湿婆",
+        "投山仙人",
+        "须多厘瓦"
+      ],
+      "action": "接待客人",
+      "礼仪": "献上洗脚水和达哩薄草"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "投山仙人向婆陀罗湿婆要钱，再次强调要在对别人没有损害的情况下尽量多给。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "投山仙人",
+        "婆陀罗湿婆"
+      ],
+      "action": "重复请求",
+      "原则": "不损害他人"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Vatrasrava presented his accounts to Sage Agastya and King Sudarśana, offering them any surplus funds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Vatrasrava",
+        "Sage Agastya",
+        "King Sudarśana"
+      ],
+      "type": "Financial Request",
+      "relationships": [
+        "King Vatrasrava is a king",
+        "Sage Agastya is a sage",
+        "King Sudarśana is a king"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Agastya examined the accounts and concluded taking any money would harm the people, so they went to King Dharasatasyu.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Agastya",
+        "King Vatrasrava",
+        "King Sudarśana",
+        "King Dharasatasyu"
+      ],
+      "action": "Decision to seek alternative funding",
+      "reason": "Avoid harming citizens"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dharasatasyu welcomed them at his border, presented his accounts, but Sage Agastya again found taking money would harm people.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dharasatasyu",
+        "Sage Agastya",
+        "King Vatrasrava",
+        "King Sudarśana"
+      ],
+      "type": "Failed Financial Request",
+      "relationships": [
+        "King Dharasatasyu is a king of the Ikshvaku dynasty"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The three kings suggested seeking money from the demon Ivala, the wealthiest being, and all agreed to approach him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Vatrasrava",
+        "King Sudarśana",
+        "King Dharasatasyu",
+        "Sage Agastya",
+        "Ivala"
+      ],
+      "action": "Decision to visit Ivala",
+      "reason": "Ivala is known as the wealthiest"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ivala welcomed Sage Agastya and the kings at his border and served them a feast that included his brother Vatapi as mutton.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ivala",
+        "Sage Agastya",
+        "King Vatrasrava",
+        "King Sudarśana",
+        "King Dharasatasyu",
+        "Vatapi"
+      ],
+      "type": "Supernatural Hospitality",
+      "relationships": [
+        "Ivala is a demon king",
+        "Vatapi is Ivala's brother"
+      ],
+      "supernatural_elements": [
+        "Vatapi served as food"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The king-sages were terrified upon realizing they were eating Vatapi, but Sage Agastya remained calm and ate all the meat.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Agastya",
+        "King Vatrasrava",
+        "King Sudarśana",
+        "King Dharasatasyu",
+        "Vatapi"
+      ],
+      "action": "Consumption of Vatapi",
+      "reaction": [
+        "Kings are frightened",
+        "Sage Agastya is fearless"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After eating, Ivala called for Vatapi, but only Sage Agastya's flatulence emerged, revealing Vatapi had been digested, causing Ivala grief.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ivala",
+        "Sage Agastya",
+        "Vatapi"
+      ],
+      "type": "Supernatural Revelation",
+      "action": "Digestion of demon",
+      "consequence": "Ivala becomes sorrowful",
+      "supernatural_elements": [
+        "Complete digestion of a demon"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ivala inquired about their purpose, and Sage Agastya explained they needed money for a sacrifice, requesting as much as possible without harming others.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ivala",
+        "Sage Agastya"
+      ],
+      "type": "Financial Request",
+      "reason": "Fund a sacrifice",
+      "condition": "No harm to others"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ivala honored Sage Agastya and began to state his intended contribution.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ivala",
+        "Sage Agastya"
+      ],
+      "action": "Response to request",
+      "relationships": [
+        "Ivala shows respect to Sage Agastya"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "投山仙人（Agastya）准确说出了阿修罗伊婆罗（Ivala）打算给几位国王的报酬，以及给自己的更多报酬，包括一辆金车。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "投山仙人（Agastya）",
+        "阿修罗伊婆罗（Ivala）",
+        "几位国王"
+      ],
+      "action": "预言/索要报酬",
+      "supernatural_elements": "投山仙人拥有预知能力"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "伊婆罗心痛地交出了黄金铸成的车、毗罗婆和苏罗婆两匹骏马，以及许多钱财。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿修罗伊婆罗（Ivala）",
+        "投山仙人（Agastya）"
+      ],
+      "action": "交付报酬"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "金车载着投山仙人、所有国王和黄金，立刻飞奔到了投山仙人的净修林。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "投山仙人（Agastya）",
+        "几位国王"
+      ],
+      "action": "快速旅行",
+      "supernatural_elements": "骏马快如思想，金车瞬间到达"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "几位王仙辞别而去。投山仙人用钱财满足了妻子罗芭慕德拉（Lopamudra）的一切愿望。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "几位国王",
+        "投山仙人（Agastya）",
+        "罗芭慕德拉（Lopamudra）"
+      ],
+      "action": "辞别与满足愿望",
+      "relationships": "投山仙人与罗芭慕德拉是夫妻"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "罗芭慕德拉表示愿意为投山仙人生一个英勇无比的儿子。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "罗芭慕德拉（Lopamudra）",
+        "投山仙人（Agastya）"
+      ],
+      "action": "表达生子意愿",
+      "relationships": "夫妻讨论生子"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "投山仙人让罗芭慕德拉在生多个普通儿子或一个杰出儿子之间选择，她选择了后者。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "投山仙人（Agastya）",
+        "罗芭慕德拉（Lopamudra）"
+      ],
+      "action": "选择生子类型"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "投山仙人与罗芭慕德拉在适当时候同房，使她怀孕，然后投山仙人前往森林。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "投山仙人（Agastya）",
+        "罗芭慕德拉（Lopamudra）"
+      ],
+      "action": "受孕与分离"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "罗芭慕德拉怀孕七年，生下了儿子提吒私裕（Dridhasyu），又名载薪。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "罗芭慕德拉（Lopamudra）",
+        "提吒私裕（Dridhasyu）"
+      ],
+      "action": "分娩",
+      "supernatural_elements": "七年孕期，儿子生来聪慧，仿佛通晓吠陀",
+      "relationships": "提吒私裕是投山仙人与罗芭慕德拉的儿子"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "投山仙人见到好儿子非常高兴，他的祖先得到解脱。投山仙人的净修林从此出名，四季花开，他还消灭了妖魔婆陀毗（Vatapi）。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "投山仙人（Agastya）",
+        "提吒私裕（Dridhasyu）",
+        "妖魔婆陀毗（Vatapi）"
+      ],
+      "action": "喜悦、解脱祖先、消灭妖魔",
+      "supernatural_elements": "净修林变得繁荣，妖魔被消灭"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "叙述者（毛密/Vyasa）向听者（大王）指出这就是投山仙人的净修林，建议其可在恒河沐浴。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "毛密（Vyasa）",
+        "大王（听众）"
+      ],
+      "action": "叙述结束与建议",
+      "relationships": "叙述者与听者的对话框架"
+    },
+    "_token_interval": null
+  }
+]

@@ -1,0 +1,985 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国 (Dhritarashtra) requests a detailed account of the battle between Arjuna and the suicide squad, as well as other warriors fighting the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国 (Dhritarashtra)",
+        "全胜 (Sanjaya)"
+      ],
+      "type": "Narrative Request",
+      "relationship": "King and his charioteer/narrator"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "全胜 (Sanjaya) begins describing the battle, focusing on Arjuna's fierce assault on the suicide squad.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "全胜 (Sanjaya)",
+        "阿周那 (Arjuna)"
+      ],
+      "action": "Narration of battle",
+      "supernatural_elements": "None"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那 (Arjuna) decapitates many warriors with crescent-headed arrows, scattering heads like lotus flowers.",
+    "char_interval": {
+      "start_pos": 159,
+      "end_pos": 162
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那 (Arjuna)"
+      ],
+      "action": "Mass decapitation",
+      "target": "Suicide squad warriors"
+    },
+    "_token_interval": {
+      "start_index": 37,
+      "end_index": 38
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那 (Arjuna) severs arms of opponents with razor-edged arrows, described as resembling five-headed serpents.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那 (Arjuna)"
+      ],
+      "action": "Dismemberment",
+      "weapons": "Razor-edged arrows"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那 (Arjuna) continuously shoots crescent-headed arrows, felling horses, riders, charioteers, and destroying flags, bows, arrows, hands, and arms.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那 (Arjuna)"
+      ],
+      "action": "Continuous assault",
+      "destruction": "Widespread carnage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那 (Arjuna) sends thousands of arrows, dispatching elephants, horses, charioteers, and riders to Yama's abode.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那 (Arjuna)"
+      ],
+      "action": "Mass slaughter",
+      "supernatural_elements": "Reference to Yama (god of death)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Warriors angrily charge at Arjuna like bulls chasing a cow, shooting arrows at him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那 (Arjuna)",
+        "Suicide squad warriors"
+      ],
+      "action": "Counterattack",
+      "comparison": "Like bulls chasing a cow"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The intense battle between Arjuna and the warriors is compared to Indra's war against the Daityas during the conquest of the three worlds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那 (Arjuna)",
+        "Suicide squad warriors"
+      ],
+      "type": "Epic battle",
+      "supernatural_elements": "Comparison to divine war (Indra vs. Daityas)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那 (Arjuna) defends against weapons from all directions, roaring and shooting arrows rapidly to take lives.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那 (Arjuna)"
+      ],
+      "action": "Defensive assault",
+      "tactics": "Rapid shooting and roaring"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Battlefield described with broken chariot parts, dead warriors, horses, charioteers, scattered weapons, quivers, and shattered flags.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Aftermath description",
+      "scene": "Carnage and destruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那 (Arjuna) smashes chariots like wind dispersing clouds, with broken harnesses, yokes, and wheels.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那 (Arjuna)"
+      ],
+      "action": "Chariot destruction",
+      "comparison": "Like wind dispersing clouds"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那 (Arjuna)'s slaughter is described as terrifying and equal to a thousand great warriors fighting together.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那 (Arjuna)"
+      ],
+      "action": "Massive destruction",
+      "scale": "Equal to a thousand warriors"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Siddhas, gods, and celestial musicians cheer; divine drums sound, flower showers fall on Krishna and Arjuna; a voice from heaven praises them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天 (Krishna)",
+        "阿周那 (Arjuna)"
+      ],
+      "action": "Divine approval",
+      "supernatural_elements": "Celestial beings, divine drums, flower showers, heavenly voice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Heavenly voice declares Krishna and Arjuna possess moon's beauty, sun's brilliance, wind's strength, fire's splendor; invincible together like Brahma and Ishana (Shiva); they are Nara and Narayana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天 (Krishna)",
+        "阿周那 (Arjuna)"
+      ],
+      "type": "Divine proclamation",
+      "supernatural_elements": "Heavenly voice, divine comparisons (Brahma, Shiva), identification as Nara and Narayana"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After witnessing these marvels, Ashvatthama (马嘶) gathers courage and charges at the two dark princes (Krishna and Arjuna).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "马嘶 (Ashvatthama)",
+        "黑天 (Krishna)",
+        "阿周那 (Arjuna)"
+      ],
+      "action": "Charge",
+      "relationship": "Drona's son vs. Krishna and Arjuna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "德罗纳之子 (Ashvatthama) addresses Arjuna with an arrow in hand, smiling, and requests a worthy battle as a guest.",
+    "char_interval": {
+      "start_pos": 900,
+      "end_pos": 905
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "马嘶 (Ashvatthama)",
+        "阿周那 (Arjuna)"
+      ],
+      "action": "Challenge",
+      "dialogue": "Requests battle as a guest"
+    },
+    "_token_interval": {
+      "start_index": 246,
+      "end_index": 247
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama challenged Arjuna to a duel.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Arjuna"
+      ],
+      "action": "Challenge",
+      "relationship": "Opponents in battle; Ashwatthama is the son of Drona, who was Arjuna's teacher."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna asked Krishna for guidance on whether to accept the duel or focus on destroying the enemy's 'Samsaptakas' (suicide squad).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna"
+      ],
+      "action": "Seeking counsel",
+      "relationship": "Arjuna is the warrior, Krishna is his charioteer and divine guide."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna brought Arjuna to face Ashwatthama, comparing it to the wind god bringing Indra to a sacrifice.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna",
+        "Ashwatthama"
+      ],
+      "action": "Divine intervention/guidance",
+      "supernatural_element": "Comparison to divine beings (Vayu, Indra)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna addressed Ashwatthama, urging him to fight with determination and explaining the gravity of a Kshatriya's battle compared to a Brahmin's dispute.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Ashwatthama"
+      ],
+      "action": "Exhortation",
+      "relationship": "Krishna is a divine figure advising the warrior."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama accepted the challenge and initiated the attack, shooting sixty iron arrows at Krishna and three at Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Krishna",
+        "Arjuna"
+      ],
+      "action": "Combat initiation",
+      "relationship": "Direct confrontation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna angrily broke Ashwatthama's bow with three crescent-headed arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Ashwatthama"
+      ],
+      "action": "Combat",
+      "relationship": "Arjuna demonstrates superior archery."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama took another more powerful bow and unleashed a massive barrage of arrows, creating a net of arrows that trapped Arjuna and Krishna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Arjuna",
+        "Krishna"
+      ],
+      "action": "Supernatural combat feat",
+      "supernatural_element": "Creation of an arrow net from various parts of his body and chariot"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna told Krishna he would use his skills and strength to break Ashwatthama's illusion of victory.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna"
+      ],
+      "action": "Declaration of intent",
+      "relationship": "Arjuna reaffirms his resolve with Krishna's support."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna shattered every arrow shot by Ashwatthama into three pieces and proceeded to annihilate the enemy's suicide squad, including their horses, charioteers, elephants, and infantry.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Mass destruction",
+      "supernatural_element": "Arjuna's divine archery skills with the Gandiva bow"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna destroyed giant elephants and their riders, comparing them to mountains destroyed by Indra's thunderbolt.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Combat/Destruction",
+      "supernatural_elements": "Comparison to Indra's power"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna shattered well-made chariots and killed cavalry and infantry with arrow showers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Combat/Destruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna dried up the sea of suicide squads with his arrows, compared to the sun at the end of an era.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Combat/Destruction",
+      "supernatural_elements": "Apocalyptic comparison"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna shot iron arrows at Ashwatthama, comparing the attack to Indra striking a mountain.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Ashwatthama"
+      ],
+      "action": "Combat",
+      "relationships": "Enemies in battle",
+      "supernatural_elements": "Comparison to Indra's power"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama angrily shot arrows at Arjuna, his horses, and charioteer, but Arjuna broke all the arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Arjuna"
+      ],
+      "action": "Combat/Defense",
+      "relationships": "Enemies in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna poured out arrows at Ashwatthama like hosting a guest with all his possessions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Ashwatthama"
+      ],
+      "action": "Combat",
+      "relationships": "Enemies in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna left the suicide squads and charged at Ashwatthama, compared to a donor ignoring beggars for a worthy recipient.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Ashwatthama"
+      ],
+      "action": "Strategic movement",
+      "relationships": "Primary combatants"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna and Ashwatthama fought fiercely, compared to Venus and Jupiter shining together in the same constellation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Ashwatthama"
+      ],
+      "action": "Intense combat",
+      "relationships": "Equal opponents",
+      "supernatural_elements": "Astrological comparison"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The two warriors tormented each other with shining arrows, like two planets off their orbits.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Ashwatthama"
+      ],
+      "action": "Mutual combat",
+      "supernatural_elements": "Celestial comparison"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna struck Ashwatthama's forehead with an iron arrow, making him shine like the rising sun.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Ashwatthama"
+      ],
+      "action": "Combat strike",
+      "supernatural_elements": "Divine appearance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama struck the two Black Princes (Nakula and Sahadeva) with hundreds of arrows, like two suns at the end of an era.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "action": "Combat strike",
+      "relationships": "Enemies in battle",
+      "supernatural_elements": "Apocalyptic comparison"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna used a weapon that flew in all directions to protect Krishna, then shot countless arrows at Ashwatthama.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna",
+        "Ashwatthama"
+      ],
+      "action": "Protection and attack",
+      "relationships": "Arjuna protects Krishna, attacks Ashwatthama",
+      "supernatural_elements": "Magical weapon"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashwatthama shot arrows at Krishna and Arjuna's vital spots, arrows so sharp they would pain even Death himself.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashwatthama",
+        "Krishna",
+        "Arjuna"
+      ],
+      "action": "Combat attack",
+      "supernatural_elements": "Comparison to affecting Death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna blocked Ashwatthama's arrows, intercepted his horses, charioteer, and banner with double the arrows, then attacked the suicide squads.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Ashwatthama"
+      ],
+      "action": "Defense and counterattack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna shot and broke enemies' bows, arrows, quivers, bowstrings, hands, arms, weapons, and destroyed their equipment and ornaments.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Combat destruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna's arrow showers caused chariots, horses, elephants and heroes to fall together.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Mass destruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Heads cut off by Arjuna's arrows fell like lotuses, suns, and full moons, adorned with crowns and necklaces.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Decapitation",
+      "supernatural_elements": "Poetic description of death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Heroes from Kalinga, Vanga, Anga, and Nishadha, riding war elephants like Indra's Airavata, charged at the son of Pandu (Arjuna) with Asura-like anger and arrogance, intending to kill him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "opponents": [
+        "Heroes from Kalinga, Vanga, Anga, Nishadha"
+      ],
+      "action": "Mass elephant charge",
+      "supernatural_elements": [
+        "Elephants compared to Indra's Airavata",
+        "Anger compared to Asuras"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna shot and killed the elephants, their armor, vital spots, trunks, riders, and banners, causing them to fall like thunderstruck mountains.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Elephant army destruction",
+      "supernatural_elements": [
+        "Elephants falling like thunderstruck mountains"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After routing the elephant army, Arjuna shot numerous arrows at Ashvatthama, covering him like wind with thick clouds covers the sun.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Ashvatthama"
+      ],
+      "action": "Arrow barrage",
+      "relationships": [
+        "Teacher's son (Ashvatthama) vs. Student (Arjuna)"
+      ],
+      "supernatural_elements": [
+        "Arrows compared to morning sun",
+        "Covering like clouds"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama blocked Arjuna's arrows with his own, then covered both Arjuna and Krishna with arrows, roaring like thunderclouds covering the sun/moon.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Arjuna",
+        "Krishna"
+      ],
+      "action": "Counter-attack and arrow exchange",
+      "relationships": [
+        "Ashvatthama attacks both Arjuna and Krishna"
+      ],
+      "supernatural_elements": [
+        "Roaring like thunderclouds",
+        "Covering celestial bodies"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna, troubled, used an invincible weapon to create darkness with arrow rain, shooting beautiful feathered arrows at Ashvatthama and the entire army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Ashvatthama"
+      ],
+      "action": "Divine weapon deployment",
+      "supernatural_elements": [
+        "Invincible weapon",
+        "Creating darkness with arrows",
+        "Mass arrow attack"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama shot ten sharp iron arrows simultaneously - five hitting Arjuna and five hitting Krishna - making them bleed like wounded deities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Arjuna",
+        "Krishna"
+      ],
+      "action": "Precise arrow strike",
+      "relationships": [
+        "Ashvatthama wounds both heroes"
+      ],
+      "supernatural_elements": [
+        "Simultaneous ten-arrow shot",
+        "Compared to Kubera and Indra"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna urged Arjuna to kill Ashvatthama without negligence, warning that carelessness would be disastrous like untreated disease.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna",
+        "Ashvatthama"
+      ],
+      "action": "Strategic advice",
+      "relationships": [
+        "Krishna as charioteer/advisor to Arjuna"
+      ],
+      "type": "Dialogue/Instruction"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna agreed and fought diligently, shooting countless arrows at Ashvatthama, cutting his reins and forcing his horses to carry him away from battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Ashvatthama"
+      ],
+      "action": "Forced retreat",
+      "relationships": [
+        "Arjuna drives Ashvatthama from battlefield"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama returned and concluded victory would always belong to Krishna and Arjuna, deciding not to fight Arjuna again.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama",
+        "Krishna",
+        "Arjuna"
+      ],
+      "action": "Strategic withdrawal decision",
+      "relationships": [
+        "Ashvatthama acknowledges superiority of Krishna-Arjuna alliance"
+      ],
+      "type": "Realization/Decision"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "With Ashvatthama gone like disease removed by spells/medicine, Krishna and Arjuna attacked the suicide squad with banners flying and chariot wheels roaring.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna"
+      ],
+      "action": "Continued assault",
+      "relationships": [
+        "Krishna and Arjuna as battle partners"
+      ],
+      "supernatural_elements": [
+        "Chariot wheels roaring like floodwaters"
+      ]
+    },
+    "_token_interval": null
+  }
+]

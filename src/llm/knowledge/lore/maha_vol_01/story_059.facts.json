@@ -1,0 +1,653 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti and her sons (the Pandavas) wake up and see Hidimba's stunning appearance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Hidimba"
+      ],
+      "type": "Discovery/Introduction",
+      "relationships": [
+        "Mother and sons (Pandavas)",
+        "Hidimba as stranger"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti questions Hidimba about her identity and purpose.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Hidimba"
+      ],
+      "type": "Interrogation",
+      "dialogue_initiator": "Kunti"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Hidimba reveals she is the sister of the Rakshasa king Hidimba, sent to kill Kunti and her sons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hidimba",
+        "Hidimba (Rakshasa king)",
+        "Kunti",
+        "Pandavas"
+      ],
+      "type": "Revelation/Conflict Setup",
+      "relationships": [
+        "Siblings (Hidimba and Hidimba)",
+        "Enemies (Rakshasas vs. Pandavas)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Hidimba explains she fell in love with Bhima due to Kamadeva's influence and chose him as her husband.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hidimba",
+        "Bhima",
+        "Kamadeva"
+      ],
+      "type": "Romance/Supernatural Intervention",
+      "relationships": [
+        "Hidimba desires Bhima",
+        "Divine influence (Kamadeva)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Hidimba failed to take Bhima away, prompting her brother to personally attack.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hidimba",
+        "Bhima",
+        "Hidimba (Rakshasa king)"
+      ],
+      "type": "Conflict Escalation",
+      "action": "Failed abduction leading to direct attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima and Hidimba (Rakshasa king) engage in a fierce physical battle, dragging and wrestling each other.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Hidimba (Rakshasa king)"
+      ],
+      "type": "Combat",
+      "description": "Intense hand-to-hand combat with roaring and dust clouds"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira, Arjuna, Nakula, and Sahadeva wake up and witness the battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Bhima",
+        "Hidimba (Rakshasa king)"
+      ],
+      "type": "Observation/Reinforcement",
+      "relationships": [
+        "Brothers (Pandavas) united"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna offers to help Bhima fight the Rakshasa, while Nakula and Sahadeva protect Kunti.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Bhima",
+        "Nakula",
+        "Sahadeva",
+        "Kunti",
+        "Hidimba (Rakshasa king)"
+      ],
+      "type": "Strategic Planning",
+      "action": "Arjuna intervenes, others guard mother"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima refuses help, confident he can kill the Rakshasa alone.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Arjuna"
+      ],
+      "type": "Dialogue/Confidence",
+      "relationships": [
+        "Brotherly interaction"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna urges Bhima to finish the fight quickly due to approaching dawn and increased Rakshasa power.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Bhima",
+        "Hidimba (Rakshasa king)"
+      ],
+      "type": "Warning/Time Pressure",
+      "supernatural_element": "Rakshasas gain strength at dawn (Rudra's hour)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna urged Bhima to kill the fearsome Rakshasa quickly before he could use his illusions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Bhima",
+        "Rakshasa (Hidimba)"
+      ],
+      "type": "Urging to Action"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima lifted the Rakshasa's body, spun it over a hundred times, and taunted him before killing him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Rakshasa (Hidimba)"
+      ],
+      "action": "Physical Combat and Taunting"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna offered to help or kill the Rakshasa himself, which angered Bhima.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Bhima"
+      ],
+      "type": "Provocation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Enraged, Bhima threw the Rakshasa to the ground and killed him, breaking his body in half.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Rakshasa (Hidimba)"
+      ],
+      "action": "Killing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandava brothers rejoiced and honored Bhima after Hidimba was killed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Arjuna",
+        "Yudhishthira",
+        "Nakula",
+        "Sahadeva",
+        "Kunti"
+      ],
+      "type": "Celebration"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna suggested they leave the forest for a nearby city to avoid detection by Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Bhima",
+        "Yudhishthira",
+        "Nakula",
+        "Sahadeva",
+        "Kunti",
+        "Hidimbi"
+      ],
+      "type": "Strategic Planning"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima told Hidimbi to follow her brother's path, but Yudhishthira intervened, advocating for dharma and not harming a woman.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Hidimbi",
+        "Yudhishthira"
+      ],
+      "type": "Moral Intervention"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Hidimbi expressed her love-induced suffering caused by Bhima to Kunti and Yudhishthira.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hidimbi",
+        "Kunti",
+        "Yudhishthira",
+        "Bhima"
+      ],
+      "type": "Confession of Love"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A female speaker (later identified as Hidimba) expresses her determination to marry Bhima, son of the speaker's interlocutor, despite having been rejected by her own beloved.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hidimba",
+        "Bhima"
+      ],
+      "action": "Marriage proposal/declaration of intent",
+      "relationships": [
+        "Proposed marriage between Hidimba and Bhima"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The female speaker (Hidimba) argues that overcoming disaster requires upholding dharma (righteous duty), and that marrying Bhima is a righteous means to preserve life.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hidimba"
+      ],
+      "type": "Philosophical argument",
+      "theme": "Dharma in adversity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira agrees to Hidimba's proposal on the condition that she uphold dharma as promised, and that she return with Bhima each night.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Hidimba",
+        "Bhima"
+      ],
+      "action": "Conditional approval of marriage",
+      "conditions": [
+        "Hidimba must uphold dharma",
+        "She must return with Bhima every night",
+        "Marital union allowed only from sunrise to sunset"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Hidimba agrees and takes Bhima away into the sky.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hidimba",
+        "Bhima"
+      ],
+      "action": "Departure",
+      "supernatural_elements": [
+        "Flight/levitation"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Hidimba, assuming a beautiful form, delights Bhima in various idyllic and divine locations including mountain peaks, lakes, forests, and celestial groves.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hidimba",
+        "Bhima"
+      ],
+      "action": "Travel and enjoyment",
+      "supernatural_elements": [
+        "Shape-shifting/assumption of beautiful form",
+        "Travel to divine and mythical locations"
+      ],
+      "locations": [
+        "Mountain peaks",
+        "Lakes (e.g., Manasa Lake)",
+        "Forests",
+        "Celestial groves",
+        "Seashores"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A Rakshasi (female demon) with agile thoughts pleased Bhima everywhere, and she gave birth to a son of extraordinary strength with Bhima.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Rakshasi (Hidimba)",
+        "Son (Ghatotkacha)"
+      ],
+      "type": "Birth",
+      "relationships": [
+        "Bhima and Hidimba are parents",
+        "Ghatotkacha is their son"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The son was born with terrifying features: squint eyes, huge mouth, upright ears, crimson lips, sharp teeth, fierce appearance, immense strength, great archer, brave, skilled, strong arms, agile, large body, skilled in illusions, a hero who subdues enemies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha"
+      ],
+      "description": "Physical and supernatural attributes",
+      "supernatural_elements": [
+        "Non-human but of mortal seed",
+        "Surpasses Pisacha demons and humans",
+        "Skilled in illusions"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Though an infant, he grew like a human youth, exceptionally skilled in various martial arts to perfection.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha"
+      ],
+      "action": "Rapid growth and mastery",
+      "supernatural_elements": [
+        "Rakshasa females give birth immediately after conception",
+        "Can change forms at will"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The bald-headed child bowed to touch the feet of his father and mother, and they named him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Bhima",
+        "Hidimba"
+      ],
+      "action": "Naming ceremony",
+      "relationships": [
+        "Parents name their son"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Father Bhima told mother Hidimba: 'He is bald-headed like a pot.' Thus, 'Ghatotkacha' (Pot-head) became his name.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Hidimba",
+        "Ghatotkacha"
+      ],
+      "reason": "Name origin from physical appearance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha remained loyal to the Pandavas, always beloved by them, becoming their confidant.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Pandavas"
+      ],
+      "relationships": [
+        "Ghatotkacha is loyal to Pandavas",
+        "Beloved confidant"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Hidimba told Bhima: 'Our time of living together has passed.' After agreeing with Bhima, she set out alone.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Hidimba",
+        "Bhima"
+      ],
+      "action": "Separation",
+      "relationships": [
+        "End of cohabitation"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha told his fathers (Pandavas): 'I will come when needed.' Then the excellent Rakshasa went north.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Pandavas"
+      ],
+      "action": "Departure",
+      "relationships": [
+        "Promise to return when summoned"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "He was created by the great-souled Mahadeva (Indra) to use his skills to destroy the valiant and noble Karna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Mahadeva (Indra)",
+        "Karna"
+      ],
+      "divine_intervention": [
+        "Created by Indra for a purpose"
+      ],
+      "purpose": "To destroy Karna"
+    },
+    "_token_interval": null
+  }
+]

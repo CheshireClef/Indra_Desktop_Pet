@@ -1,0 +1,2145 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "妙力之子沙恭尼冲向般度族军队",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "沙恭尼"
+      ],
+      "action": "冲锋",
+      "target": "般度族军队"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "诃利迪迦之子成铠冲向般度族军队",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "成铠"
+      ],
+      "action": "冲锋",
+      "target": "般度族军队"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那的儿子宴丰驾着装饰金子的马匹冲向敌军",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "宴丰"
+      ],
+      "action": "冲锋",
+      "equipment": "披戴铠甲、装饰金子的马匹"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "介绍宴丰的身世：他是阿周那与蛇王爱罗婆多的女儿所生",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "宴丰",
+        "阿周那",
+        "爱罗婆多"
+      ],
+      "relationships": {
+        "parents": [
+          "阿周那",
+          "蛇王女儿"
+        ],
+        "maternal_grandfather": "爱罗婆多"
+      },
+      "background": "母亲前夫被金翅鸟杀死，无儿无女，被爱罗婆多许配给阿周那"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "宴丰被邪恶的叔父抛弃，在蛇族中由母亲抚育长大",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "宴丰"
+      ],
+      "action": "被抛弃",
+      "caretaker": "母亲",
+      "location": "蛇族"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "宴丰听说阿周那在因陀罗的天国，立即前往那里认父",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "宴丰",
+        "阿周那"
+      ],
+      "action": "认父",
+      "location": "因陀罗的天国",
+      "relationship_established": "父子相认"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那拥抱宴丰，让他住在天王宫中",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "宴丰"
+      ],
+      "action": "接纳",
+      "location": "天王宫",
+      "relationship": "父子团聚"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那交给宴丰任务：一旦战争爆发，要支援般度族",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "宴丰"
+      ],
+      "action": "下达任务",
+      "task": "战争爆发时支援般度族",
+      "response": "宴丰承诺遵命"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "战争爆发，宴丰带着许多色泽漂亮、速度飞快的马匹来到战场",
+    "char_interval": {
+      "start_pos": 635,
+      "end_pos": 640
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "宴丰"
+      ],
+      "action": "参战",
+      "equipment": "许多马匹"
+    },
+    "_token_interval": {
+      "start_index": 207,
+      "end_index": 209
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "宴丰的马群与敌军的马群互相撞击，双方马匹摔倒在地",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "宴丰"
+      ],
+      "action": "马战",
+      "result": "双方马群互相撞击摔倒",
+      "comparison": "犹如大鹏金翅鸟坠地"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "马兵们互相交锋残杀，双方马群遭到严重摧残",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "双方马兵"
+      ],
+      "action": "混战",
+      "result": "马群严重摧残，勇士们疲惫不堪互相砍杀"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "沙恭尼的六个儿子出现在阵地前沿",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "伽阇",
+        "伽瓦刹",
+        "婆利舍迦",
+        "遮尔摩凡",
+        "阿尔伽婆",
+        "苏迦"
+      ],
+      "action": "登场",
+      "relationships": {
+        "father": "沙恭尼"
+      },
+      "equipment": "年龄合适、训练有素、速度和力量如同暴风的骏马"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gandhara warriors, protected by Shakuni and his own warriors, charged through the enemy army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandhara Warriors",
+        "Shakuni"
+      ],
+      "action": "Military Charge",
+      "relationships": [
+        "Shakuni leads Gandhara warriors"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yuyutsu (son of Dhritarashtra) ordered his warriors to kill all Kaurava soldiers, horses, and followers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yuyutsu"
+      ],
+      "action": "Battle Command",
+      "relationships": [
+        "Yuyutsu commands his warriors"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yuyutsu's warriors began slaughtering the Kaurava army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yuyutsu's Warriors"
+      ],
+      "action": "Mass Killing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shakuni's sons, unable to bear their army being slaughtered, charged forward and surrounded Yuyutsu from all sides.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shakuni's Sons",
+        "Yuyutsu"
+      ],
+      "action": "Counter-Attack",
+      "relationships": [
+        "Shakuni's sons defend their army"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yuyutsu was struck by sharp spears from noble warriors but continued fighting calmly without retreating.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yuyutsu"
+      ],
+      "action": "Heroic Endurance",
+      "supernatural_elements": [
+        "Compared to elephant struck by goad"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yuyutsu, filled with rage, shot arrows at Shakuni's sons, stunning them in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yuyutsu",
+        "Shakuni's Sons"
+      ],
+      "action": "Archery Attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yuyutsu pulled all spears from his body and used them to attack Shakuni's sons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yuyutsu",
+        "Shakuni's Sons"
+      ],
+      "action": "Improvised Weapon Use"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yuyutsu drew his sword, took up his shield, and charged on foot toward Shakuni's sons to kill them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yuyutsu",
+        "Shakuni's Sons"
+      ],
+      "action": "Sword Charge"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shakuni's sons recovered and charged at Yuyutsu again with anger.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shakuni's Sons",
+        "Yuyutsu"
+      ],
+      "action": "Renewed Attack"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yuyutsu, confident in his strength, charged at them with his sword using skillful techniques.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yuyutsu",
+        "Shakuni's Sons"
+      ],
+      "action": "Sword Combat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shakuni's sons tried to capture Yuyutsu alive but he cut their limbs with his sword as they approached.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yuyutsu",
+        "Shakuni's Sons"
+      ],
+      "action": "Defensive Slaughter",
+      "relationships": [
+        "Yuyutsu kills Shakuni's sons"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Only Vrishaka survived the massacre, though severely wounded.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vrishaka"
+      ],
+      "action": "Survival"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana, seeing his forces fall, spoke angrily to a fierce Rakshasa.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Rakshasa"
+      ],
+      "action": "Command to Supernatural Being",
+      "relationships": [
+        "Duryodhana commands Rakshasa"
+      ],
+      "supernatural_elements": [
+        "Rakshasa (demon)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana identified the Rakshasa as son of Rishyashringa, master of illusions and archery, who had a grudge against Bhima because Bhima killed Baka.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rakshasa",
+        "Rishyashringa",
+        "Bhima",
+        "Baka"
+      ],
+      "action": "Character Identification",
+      "relationships": [
+        "Rakshasa is son of Rishyashringa",
+        "Rakshasa has grudge against Bhima"
+      ],
+      "supernatural_elements": [
+        "Master of illusions"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana ordered the Rakshasa to kill Yuyutsu (son of Arjuna) in battle, citing the Rakshasa's ability to fly and mastery of magical weapons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Rakshasa",
+        "Yuyutsu",
+        "Arjuna"
+      ],
+      "action": "Assassination Order",
+      "relationships": [
+        "Yuyutsu is son of Arjuna"
+      ],
+      "supernatural_elements": [
+        "Ability to fly",
+        "Magical weapons"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Rakshasa roared like a lion and charged at Yuyutsu with his army to kill him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Rakshasa",
+        "Yuyutsu"
+      ],
+      "action": "Supernatural Attack",
+      "supernatural_elements": [
+        "Lion's roar"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yuyutsu, filled with rage, quickly intercepted the Rakshasa to kill him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yuyutsu",
+        "Rakshasa"
+      ],
+      "action": "Interception",
+      "relationships": [
+        "Yuyutsu confronts Rakshasa"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "大力士罗刹看到宴丰冲了过来，迅速施展幻术，幻变出众多骑着马的罗刹战士，手持铁叉和长矛。",
+    "char_interval": {
+      "start_pos": 1999,
+      "end_pos": 2040
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大力士罗刹",
+        "宴丰"
+      ],
+      "action": "施展幻术",
+      "type": "战斗/超自然"
+    },
+    "_token_interval": {
+      "start_index": 616,
+      "end_index": 628
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "两千个战士相遇，互相杀戮，双方军队奋勇作战，互相杀戮。",
+    "char_interval": {
+      "start_pos": 2044,
+      "end_pos": 2052
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大力士罗刹的军队",
+        "宴丰的军队"
+      ],
+      "action": "激烈战斗",
+      "type": "战争"
+    },
+    "_token_interval": {
+      "start_index": 631,
+      "end_index": 633
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "宴丰满腔愤怒，冲向罗刹，举剑击碎了罗刹的弓和箭袋。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "宴丰",
+        "大力士罗刹"
+      ],
+      "action": "攻击/破坏武器",
+      "type": "战斗"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "罗刹腾入空中，用幻术迷惑宴丰；宴丰也腾入空中，用幻术迷惑罗刹，用箭射碎他的肢体。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大力士罗刹",
+        "宴丰"
+      ],
+      "action": "空中幻术战斗",
+      "type": "战斗/超自然"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "罗刹被箭射碎后，一次又一次恢复青春，因为这种幻术是天生的，能随意选择年龄和形象。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大力士罗刹"
+      ],
+      "action": "恢复青春",
+      "type": "超自然/再生"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "宴丰满腔愤怒，又一再用利斧劈砍大力士罗刹，罗刹被砍伤，血流如注，怒不可遏，猛冲猛打。",
+    "char_interval": {
+      "start_pos": 2337,
+      "end_pos": 2357
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "宴丰",
+        "大力士罗刹"
+      ],
+      "action": "斧砍/受伤反击",
+      "type": "战斗"
+    },
+    "_token_interval": {
+      "start_index": 713,
+      "end_index": 716
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "鹿角仙人之子（宴丰）幻变成可怕的巨人，想要抓住罗刹；罗刹施展幻术，宴丰也施展幻术对抗。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "宴丰",
+        "大力士罗刹"
+      ],
+      "action": "幻术变形对抗",
+      "type": "战斗/超自然"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "宴丰的一位母系亲属呈现巨大形状，如同无限大蛇，与许多蛇一起覆盖罗刹。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "宴丰的母系亲属",
+        "大力士罗刹"
+      ],
+      "action": "蛇形覆盖攻击",
+      "type": "超自然/家族援助"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "罗刹幻化成金翅鸟，吞噬这些蛇；宴丰眼看母系亲属被幻术吞噬，昏厥过去。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大力士罗刹",
+        "宴丰的母系亲属",
+        "宴丰"
+      ],
+      "action": "幻术吞噬/昏厥",
+      "type": "超自然/情感冲击"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "罗刹乘宴丰昏厥之机，用剑杀死宴丰，砍下他的头颅，头颅坠落地面。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "大力士罗刹",
+        "宴丰"
+      ],
+      "action": "致命攻击/斩首",
+      "type": "战斗/死亡"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那的英雄儿子（宴丰）被罗刹杀死，持国族军队和国王们消除忧虑。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "宴丰",
+        "大力士罗刹",
+        "持国族军队",
+        "国王们"
+      ],
+      "action": "死亡/士气变化",
+      "type": "战争结果"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "双方军队又挤成一团，激烈混战，马匹、大象、步兵、战车互相攻击，场面可怕。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "双方军队"
+      ],
+      "action": "混战",
+      "type": "战争"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿周那不知道亲生儿子（宴丰）被杀，在战斗中杀死那些保护毗湿摩的勇士。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿周那",
+        "毗湿摩",
+        "保护毗湿摩的勇士"
+      ],
+      "action": "战斗/无知杀戮",
+      "type": "战争/父子关系"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "双方大力士在战斗中奉献生命，互相杀戮，发髻披散，铠甲失落，战车失灵，弓断裂，徒手搏斗。",
+    "char_interval": {
+      "start_pos": 2098,
+      "end_pos": 2934
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "双方大力士"
+      ],
+      "action": "徒手搏斗",
+      "type": "战争"
+    },
+    "_token_interval": {
+      "start_index": 645,
+      "end_index": 885
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "大力士毗湿摩用致人死命的箭杀戮大勇士，般度族军队在战斗中惊恐发抖。",
+    "char_interval": {
+      "start_pos": 2939,
+      "end_pos": 2972
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "毗湿摩",
+        "般度族军队"
+      ],
+      "action": "杀戮/恐惧",
+      "type": "战争/士气影响"
+    },
+    "_token_interval": {
+      "start_index": 888,
+      "end_index": 892
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "宴丰在战斗中被杀",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "宴丰"
+      ],
+      "action": "死亡",
+      "context": "战斗中被杀"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "瓶首（怖军之子）看到宴丰被杀后发出巨大吼叫，震撼大地山岳森林四海天空",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "瓶首",
+        "宴丰"
+      ],
+      "action": "愤怒吼叫",
+      "supernatural_elements": "吼声震撼自然万物",
+      "relationships": "瓶首是怖军之子"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国军队听到瓶首吼声后两腿发软心慌冒汗情绪低落",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "瓶首",
+        "持国军队"
+      ],
+      "action": "恐惧反应",
+      "effect": "军队士气低落"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "瓶首高举铁叉在罗刹们围护下冲向持国军队",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "瓶首",
+        "罗刹们",
+        "持国军队"
+      ],
+      "action": "进攻冲锋",
+      "description": "形象恐怖如世界末日的阎摩"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌王手持大弓像狮子般吼叫冲向瓶首",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌",
+        "瓶首"
+      ],
+      "action": "反击冲锋",
+      "description": "英勇对抗"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "梵伽王率领一万头大象紧随难敌",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "梵伽王",
+        "难敌"
+      ],
+      "action": "支援进攻",
+      "forces": "一万头大象军队"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "瓶首看到难敌在象军围护下冲来更加愤怒",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "瓶首",
+        "难敌"
+      ],
+      "action": "情绪激化",
+      "relationship": "敌对对抗"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "罗刹们与难敌军队展开激战",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "罗刹们",
+        "难敌军队"
+      ],
+      "action": "激烈战斗",
+      "description": "令人毛发直竖"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "罗刹们用各种武器杀戮象兵和大象",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "罗刹们",
+        "象兵",
+        "大象"
+      ],
+      "action": "大规模杀戮",
+      "weapons": "箭、标枪、剑、铁箭、长矛、铁叉、锤子、斧子、山峰、大树",
+      "result": "大象颞颥破裂肢体破碎鲜血流淌"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "象兵溃不成军锐气消失",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "象兵"
+      ],
+      "action": "溃败",
+      "context": "遭受罗刹攻击后"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "难敌奋不顾身向罗刹们发射利箭",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "难敌",
+        "罗刹们"
+      ],
+      "action": "英勇反击",
+      "description": "义愤填膺奋不顾身"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana, filled with anger, killed the murderous Rakshasas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Killing Rakshasas",
+      "targets": [
+        "Rakshasas (demons)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana killed four Rakshasas named Suvira, Mahahanu, Vidyujjihva, and Dirgharoma with four arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Killing specific Rakshasas",
+      "targets": [
+        "Suvira",
+        "Mahahanu",
+        "Vidyujjihva",
+        "Dirgharoma"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana showered the army of night-wanderers (Rakshasas) with an irresistible rain of arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Attacking Rakshasa army",
+      "targets": [
+        "Rakshasa army"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha, son of Bhima, saw Duryodhana's prowess and became furious.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Duryodhana"
+      ],
+      "relationship": "Enemies (Ghatotkacha is Bhima's son, Duryodhana is enemy of Pandavas)",
+      "emotional_state": "Ghatotkacha becomes angry"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha charged at Duryodhana, drawing his bow that sounded like thunder.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Duryodhana"
+      ],
+      "action": "Charging attack",
+      "weapon": "Thunderous bow"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana saw Ghatotkacha charging like Death sent by Time and did not flinch.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Ghatotkacha"
+      ],
+      "emotional_state": "Duryodhana remains unafraid"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha, furious and red-eyed, confronted Duryodhana about his past wrongdoings against the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Duryodhana"
+      ],
+      "accusations": [
+        "Cheating in dice game",
+        "Exiling Pandavas",
+        "Humiliating Draupadi",
+        "Jayadratha's assault on Draupadi"
+      ],
+      "relationship": "Long-standing enmity between families"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha vowed to settle these insults if Duryodhana didn't abandon the battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Duryodhana"
+      ],
+      "action": "Threat/vow",
+      "intent": "Settle scores for past wrongs"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha drew his bow, bit his lower lip, licked the corners of his mouth, and showered Duryodhana with a torrent of arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Duryodhana"
+      ],
+      "action": "Arrow attack",
+      "intensity": "Torrential rain of arrows"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana endured the arrow rain that even Danavas couldn't bear, like an elephant enduring a downpour.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Enduring attack",
+      "comparison": "Like elephant in rain"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana, furious and panting like a snake, fired twenty-five sharp iron arrows that struck Ghatotkacha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Ghatotkacha"
+      ],
+      "action": "Counter-attack",
+      "weapon": "Twenty-five iron arrows"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha, bleeding from the arrows, resolved to kill Duryodhana and grasped a massive spear capable of shattering mountains.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Duryodhana"
+      ],
+      "action": "Preparing fatal attack",
+      "weapon": "Mountain-shattering spear",
+      "intent": "Kill Duryodhana"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha raised the spear that shone like a great comet, like Indra raising his thunderbolt, aiming to kill Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Duryodhana"
+      ],
+      "action": "Aiming fatal blow",
+      "comparison": "Like Indra with thunderbolt"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Vanga, seeing the raised spear, quickly drove his mountain-like elephant to charge at Ghatotkacha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Vanga",
+        "Ghatotkacha"
+      ],
+      "action": "Intervention with war elephant",
+      "relationship": "King Vanga supports Duryodhana"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Vanga placed his powerful elephant in front of Duryodhana's chariot to block the path.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Vanga",
+        "Duryodhana"
+      ],
+      "action": "Blocking path with elephant",
+      "tactic": "Protecting Duryodhana"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha, angered by King Vanga blocking the path, redirected his raised spear and threw it at the elephant.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "King Vanga"
+      ],
+      "action": "Redirecting attack",
+      "target_change": "From Duryodhana to elephant"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The elephant was struck by Ghatotkacha's spear, bled profusely, and fell dead.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha"
+      ],
+      "action": "Killing war elephant",
+      "result": "Elephant dies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Vanga quickly jumped down from the falling elephant and reached the ground.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Vanga"
+      ],
+      "action": "Escaping falling mount"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana saw the elephant fall and his army scattering, becoming anxious.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 19,
+    "group_index": 18,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "emotional_state": "Anxious",
+      "situation": "Army scattering, ally's mount killed"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana, upholding Kshatriya dharma and his own dignity, remained standing firm despite the setback.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 20,
+    "group_index": 19,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana"
+      ],
+      "action": "Maintaining composure",
+      "principle": "Kshatriya dharma and dignity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A warrior shot a powerful arrow at the fearsome Rakshasa (night-wanderer).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unnamed Warrior",
+        "Ghatotkacha"
+      ],
+      "action": "Attack",
+      "supernatural_element": "Arrow with power like apocalyptic fire"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha, the son of Hidimba, dodged the arrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha"
+      ],
+      "action": "Evasion",
+      "description": "Dodged arrow compared to Indra's thunderbolt"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha roared terrifyingly, frightening all creatures.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha"
+      ],
+      "action": "Roar",
+      "supernatural_element": "Roar like apocalyptic clouds"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma, son of King Shantanu, heard the roar and approached Drona.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Drona"
+      ],
+      "action": "Communication",
+      "relationship": "Bhishma addresses Drona as 'teacher'"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma identified the roar as Ghatotkacha fighting King Duryodhana and urged warriors to protect the king.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Ghatotkacha",
+        "Duryodhana"
+      ],
+      "action": "Identification and command",
+      "relationship": "Bhishma refers to Duryodhana as 'king' and 'your son' (addressing Dhritarashtra)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Warriors including Drona, Kripa, Ashvatthama, and others rushed to protect Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Kripa",
+        "Ashvatthama",
+        "Duryodhana",
+        "Multiple other warriors"
+      ],
+      "action": "Reinforcement",
+      "relationship": "Warriors allied with Duryodhana"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha stood firm against the approaching army.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha"
+      ],
+      "action": "Defiance",
+      "description": "Unmoved like Mount Mainaka"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A fierce battle erupted between Rakshasas and Duryodhana's reinforcements.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha's Rakshasa allies",
+        "Duryodhana's warriors"
+      ],
+      "action": "Battle",
+      "description": "Hair-raising combat with various weapons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha angrily broke Drona's bow with a crescent-headed arrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Drona"
+      ],
+      "action": "Attack",
+      "result": "Destroyed Drona's bow"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha cut down the flag of Shalya with a crescent-headed arrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Shalya"
+      ],
+      "action": "Attack",
+      "result": "Destroyed Shalya's flag"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha struck multiple warriors including Kripa, Uttamaujas, and Vikarna with arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Kripa",
+        "Uttamaujas",
+        "Vikarna"
+      ],
+      "action": "Multiple attacks",
+      "result": "Various injuries to warriors"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha shot fifteen iron arrows through Shrutakirti's armor.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Shrutakirti"
+      ],
+      "action": "Attack",
+      "result": "Arrows penetrated armor and embedded in ground"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha attacked the charioteers of Vivimshati and Ashvatthama.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Vivimshati",
+        "Ashvatthama"
+      ],
+      "action": "Attack",
+      "result": "Charioteers fell from their seats"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha destroyed King Jayadratha's golden boar flag and bow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Jayadratha"
+      ],
+      "action": "Attack",
+      "result": "Destroyed flag and bow"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha killed the four horses of King Vinda with four iron arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Vinda"
+      ],
+      "action": "Attack",
+      "result": "Killed horses"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha severely wounded Prince Anuvinda with a yellow arrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Anuvinda"
+      ],
+      "action": "Attack",
+      "result": "Anuvinda fell wounded in his chariot"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Rakshasa king Ghatotkacha, filled with rage, shot many snake-like arrows at Shalya.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Shalya"
+      ],
+      "action": "Attack",
+      "type": "Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha repelled all of Dhritarashtra's army and charged toward Duryodhana, intending to kill him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Duryodhana"
+      ],
+      "action": "Charge/Attack",
+      "type": "Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Warriors from Dhritarashtra's side charged at Ghatotkacha to kill him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha",
+        "Dhritarashtra's warriors"
+      ],
+      "action": "Counter-attack",
+      "type": "Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ghatotkacha, severely wounded, soared into the air like Garuda.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ghatotkacha"
+      ],
+      "action": "Retreat/Supernatural flight",
+      "type": "Supernatural"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yudhishthira, hearing Ghatotkacha's roar, instructed Bhima to protect him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Ghatotkacha"
+      ],
+      "action": "Order/Protection",
+      "type": "Strategy",
+      "relationships": [
+        "Brothers (Yudhishthira & Bhima)",
+        "Bhima's son (Ghatotkacha)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima, along with warriors including Satyaki, Shikhandi, Uttamaujas, and others, rushed to protect Ghatotkacha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Satyaki",
+        "Shikhandi",
+        "Uttamaujas",
+        "Abhimanyu",
+        "Draupadi's sons",
+        "Shatrunjaya",
+        "Shatradharman",
+        "Nila"
+      ],
+      "action": "Reinforcement/Protection",
+      "type": "Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra's army, terrified of Bhima, retreated, abandoning Ghatotkacha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra's army",
+        "Bhima",
+        "Ghatotkacha"
+      ],
+      "action": "Retreat",
+      "type": "Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A fierce and chaotic battle ensued between both sides, with warriors unable to distinguish friend from foe.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra's warriors",
+        "Pandava allies"
+      ],
+      "action": "Chaotic combat",
+      "type": "Battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A river flows with waves of blood and entrails from elephants, horses, and men, and with hair as water plants.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Supernatural/Descriptive",
+      "setting": "Battlefield",
+      "supernatural_elements": "River of blood and entrails"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Heads fall from bodies on the battlefield with sounds like falling stones.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Violence",
+      "setting": "Battlefield"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The battlefield is covered with headless human bodies, mutilated elephants, and ruptured horses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Carnage",
+      "setting": "Battlefield"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Great warriors hurl various weapons, charge, and attack each other.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Great warriors"
+      ],
+      "type": "Combat",
+      "setting": "Battlefield"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Horses clash under cavalry command, collide, lose lives, and fall on the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Cavalry combat",
+      "setting": "Battlefield"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Men fight with reddened eyes, chest to chest, embracing tightly to kill each other.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Hand-to-hand combat",
+      "setting": "Battlefield"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Elephants under mahout command kill each other with tusks in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Elephant combat",
+      "setting": "Battlefield"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Elephants decorated with flags cluster together, bleed painfully, resembling clouds with lightning.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Descriptive",
+      "setting": "Battlefield"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Some elephants are pierced by tusks or temples by spears, roaring as they run forward like thundering clouds.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Elephant injuries",
+      "setting": "Battlefield"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Some elephants with broken tusks or mutilated limbs fall like mountains with wings cut off.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Elephant deaths",
+      "setting": "Battlefield"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Some elephants pierced in flanks bleed profusely like mines yielding minerals.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Elephant injuries",
+      "setting": "Battlefield"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Some elephants hit by iron arrows or spears lose their mahouts like mountains losing peaks.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Elephant and mahout deaths",
+      "setting": "Battlefield"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Some enraged, maddened elephants run uncontrolled, trampling hundreds of chariots, horses, and infantry.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Rampage",
+      "setting": "Battlefield"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Cavalry attack horses with javelins and spears, causing them to run wildly in all directions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "type": "Cavalry attack",
+      "setting": "Battlefield"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "High-born charioteers fight each other, sacrificing lives with full effort and no fear.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "High-born charioteers"
+      ],
+      "type": "Chariot combat",
+      "setting": "Battlefield"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Warriors skilled in martial arts, seeking honor and heaven, wrestle like in a bridegroom contest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Warriors skilled in martial arts"
+      ],
+      "type": "Combat for honor",
+      "setting": "Battlefield"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "In this hair-raising battle, the Kaurava army is gradually defeated.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kaurava army"
+      ],
+      "type": "Battle outcome",
+      "setting": "Battlefield",
+      "result": "Kaurava defeat"
+    },
+    "_token_interval": null
+  }
+]

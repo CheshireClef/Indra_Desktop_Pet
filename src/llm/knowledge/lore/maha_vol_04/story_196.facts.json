@@ -1,0 +1,1577 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "护民子讲述维杜罗的话后，持国因丧子之痛昏倒在地。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "护民子",
+        "维杜罗",
+        "持国"
+      ],
+      "action": "叙述导致昏厥",
+      "relationships": [
+        "持国是维杜罗的兄长",
+        "护民子是叙述者"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑天、毗耶娑、维杜罗、全胜等人用冷水喷洒、扇风、按摩使持国恢复知觉。",
+    "char_interval": {
+      "start_pos": 81,
+      "end_pos": 84
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑天",
+        "毗耶娑",
+        "维杜罗",
+        "全胜",
+        "持国"
+      ],
+      "action": "急救恢复",
+      "relationships": [
+        "毗耶娑是持国的父亲",
+        "维杜罗是持国的弟弟",
+        "黑天是持国的亲友"
+      ]
+    },
+    "_token_interval": {
+      "start_index": 27,
+      "end_index": 29
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国恢复后悲叹失去儿子、财富和亲友的痛苦，表达求死意愿。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国"
+      ],
+      "action": "哀悼与绝望",
+      "emotional_state": "极度忧伤"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "毗耶娑安慰持国，讲述人生无常、俱卢族战乱不可避免，勇士已得归宿。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "毗耶娑",
+        "持国"
+      ],
+      "action": "哲理安慰",
+      "relationships": [
+        "毗耶娑是持国的父亲"
+      ],
+      "key_points": [
+        "命运不可控",
+        "战乱是命定"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "毗耶娑回忆曾在天神会堂见大地女神请求兑现承诺，毗湿奴预言持国之子难敌将引发战争减轻大地负担。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "毗耶娑",
+        "大地女神",
+        "毗湿奴",
+        "持国",
+        "难敌"
+      ],
+      "action": "神谕揭示",
+      "supernatural_elements": [
+        "天神集会",
+        "毗湿奴预言"
+      ],
+      "relationships": [
+        "难敌是持国的儿子"
+      ],
+      "plot_points": [
+        "战争是神圣安排",
+        "难敌是关键人物"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa explains to Dhritarashtra that the war and the destruction of his sons were preordained by divine will.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Dhritarashtra"
+      ],
+      "action": "Explanation/Revelation",
+      "supernatural_elements": [
+        "Divine will (Daiva)",
+        "Kali (the evil spirit) as a partial incarnation"
+      ],
+      "relationships": [
+        "Vyasa (sage) advises Dhritarashtra (king)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa reveals that Duryodhana was born as a partial incarnation of the evil spirit Kali to bring about the destruction of the world.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Dhritarashtra",
+        "Duryodhana",
+        "Kali"
+      ],
+      "action": "Revelation of origin",
+      "supernatural_elements": [
+        "Partial incarnation"
+      ],
+      "relationships": [
+        "Duryodhana is Dhritarashtra's son",
+        "Duryodhana is an incarnation of Kali"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa states that Duryodhana's brothers, Shakuni, Karna, and other kings were also born for the purpose of destruction.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Duryodhana's brothers",
+        "Shakuni",
+        "Karna"
+      ],
+      "action": "Revelation of purpose",
+      "relationships": [
+        "Shakuni is Duryodhana's maternal uncle",
+        "Karna is Duryodhana's close friend",
+        "Duryodhana's brothers share his nature"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa explains that Narada knew all this and had previously informed Yudhishthira at the Rajasuya sacrifice that the Pandavas and Kauravas would destroy each other in war.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Narada",
+        "Yudhishthira",
+        "Pandavas",
+        "Kauravas"
+      ],
+      "action": "Revelation of prior knowledge",
+      "relationships": [
+        "Narada (sage) informed Yudhishthira (king)",
+        "Yudhishthira is the eldest Pandava",
+        "Pandavas and Kauravas are rival cousins"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa tells Dhritarashtra that the Pandavas are blameless and that his own sons were destroyed due to their evil nature, which caused the earth's destruction.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Dhritarashtra",
+        "Pandavas",
+        "Dhritarashtra's sons (Kauravas)"
+      ],
+      "action": "Moral judgment",
+      "relationships": [
+        "Dhritarashtra's sons are the Kauravas",
+        "Pandavas and Kauravas are rival families"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa urges Dhritarashtra to overcome his grief, care for the Pandavas, and maintain his life, as Yudhishthira would be distressed to see him suffering.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa",
+        "Dhritarashtra",
+        "Yudhishthira"
+      ],
+      "action": "Exhortation/Advice",
+      "relationships": [
+        "Vyasa advises Dhritarashtra",
+        "Dhritarashtra is the paternal uncle of Yudhishthira"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After hearing Vyasa's words, Dhritarashtra reflects and decides to maintain his life and cease grieving, acknowledging the divine arrangement.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Vyasa"
+      ],
+      "action": "Decision/Resolution",
+      "relationships": [
+        "Dhritarashtra accepts Vyasa's counsel"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa disappears after Dhritarashtra speaks.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vyasa"
+      ],
+      "action": "Supernatural departure",
+      "supernatural_elements": [
+        "Disappearance"
+      ],
+      "relationships": []
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Janamejaya asks Vaisampayana what Dhritarashtra did after Vyasa left.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Janamejaya",
+        "Vaisampayana"
+      ],
+      "action": "Inquiry",
+      "relationships": [
+        "Janamejaya (king) questions Vaisampayana (sage/narrator)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vaisampayana begins to describe Dhritarashtra's actions after hearing Vyasa's counsel, indicating he reflected for a long time.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vaisampayana",
+        "Dhritarashtra"
+      ],
+      "action": "Narrative transition",
+      "relationships": [
+        "Vaisampayana narrates to Janamejaya"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra, distressed, ordered Sanjaya to yoke his chariot and instructed Vidura to bring Gandhari, Kunti, and all the women of the Bharata clan.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra",
+        "Sanjaya",
+        "Vidura",
+        "Gandhari",
+        "Kunti"
+      ],
+      "action": "Order/Instruction",
+      "relationships": [
+        "King Dhritarashtra is husband to Gandhari",
+        "Vidura is advisor to King Dhritarashtra",
+        "Kunti is mother of the Pandavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gandhari, filled with sorrow, along with Kunti and other women, rushed to King Dhritarashtra as commanded.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandhari",
+        "Kunti",
+        "King Dhritarashtra"
+      ],
+      "action": "Gathering/Assembly",
+      "relationships": [
+        "Gandhari is wife of King Dhritarashtra",
+        "Kunti is sister-in-law to Gandhari"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The women met the king, exchanged sorrowful greetings, and burst into loud weeping.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandhari",
+        "Kunti",
+        "Other Bharata Women",
+        "King Dhritarashtra"
+      ],
+      "action": "Mourning/Lamentation",
+      "relationships": [
+        "Collective grief over the destruction of the Kuru clan"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vidura comforted the women, though more distressed himself, and helped the weeping, choked-voiced women board chariots to leave the city.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vidura",
+        "Gandhari",
+        "Kunti",
+        "Other Bharata Women"
+      ],
+      "action": "Comfort/Departure",
+      "relationships": [
+        "Vidura as caretaker and guide for the grieving women"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Wailing arose from all Kuru houses, and the entire city, including children, was plunged into sorrow and distress.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Citizens of Hastinapura"
+      ],
+      "action": "City-wide Mourning",
+      "relationships": [
+        "Collective mourning for the fallen Kuru warriors"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The women, having lost their lords, emerged from palaces, disheveled and minimally clothed, wailing for sons, brothers, and fathers, creating a scene like the end of an era.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bharata Women"
+      ],
+      "action": "Public Lamentation",
+      "relationships": [
+        "Women mourning their lost male relatives (sons, brothers, fathers)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Thousands of weeping women surrounded the pitiable king, and they swiftly left the city for the battlefield, followed by artisans, merchants, Vaishyas, and people of all trades.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bharata Women",
+        "King Dhritarashtra",
+        "Citizens of Hastinapura"
+      ],
+      "action": "Procession to Battlefield",
+      "relationships": [
+        "Collective journey to witness the aftermath of the Kurukshetra War"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After traveling ten yojanas, they met the great warriors Kripa (son of Sharadvan), Ashwatthama (son of Drona), and Kritavarma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra",
+        "Gandhari",
+        "Kripa",
+        "Ashwatthama",
+        "Kritavarma"
+      ],
+      "action": "Encounter with Survivors",
+      "relationships": [
+        "Kripa, Ashwatthama, and Kritavarma are surviving warriors from Duryodhana's army"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kripa, Ashwatthama, and Kritavarma, with choked voices, comforted the weeping king, informing him that his sons achieved difficult feats and went to Indra's world, and that they three alone survived from Duryodhana's army while all other warriors perished.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripa",
+        "Ashwatthama",
+        "Kritavarma",
+        "King Dhritarashtra"
+      ],
+      "action": "Report/Consolation",
+      "relationships": [
+        "Kripa as messenger of the war's outcome to King Dhritarashtra",
+        "Survivors reporting the death of Duryodhana and Kuru warriors"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kripa then addressed Gandhari, filled with grief for her sons, stating that her sons fought fearlessly, killed many enemies, performed heroic deeds, and met their death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripa",
+        "Gandhari"
+      ],
+      "action": "Address to Gandhari",
+      "relationships": [
+        "Kripa conveying the valor and fate of Gandhari's sons (the Kauravas)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kripa, Kripacharya, and Ashvatthaman inform King Dhritarashtra about the night raid on the Pandava camp.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripa",
+        "Kripacharya",
+        "Ashvatthaman",
+        "King Dhritarashtra"
+      ],
+      "action": "Report/Explanation",
+      "details": "They explain that they attacked the sleeping Pandava camp to avenge Duryodhana's death, killing many including Shikhandin and Draupadi's sons. They then fled, fearing retaliation from the Pandavas."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kripa, Kripacharya, and Ashvatthaman pay respects to King Dhritarashtra and depart.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripa",
+        "Kripacharya",
+        "Ashvatthaman",
+        "King Dhritarashtra"
+      ],
+      "action": "Departure",
+      "details": "After speaking, they circumambulate the king and leave for the Ganges."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The three warriors separate and go their own ways.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripa",
+        "Kripacharya",
+        "Ashvatthaman"
+      ],
+      "action": "Separation",
+      "details": "Kripa goes to Hastinapura, Kripacharya returns to his own country, and Ashvatthaman goes to Vyasa's hermitage, all fearful of the Pandavas' wrath."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira, grieving the loss of his sons, hears that his uncle Dhritarashtra has left Hastinapura.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Dhritarashtra"
+      ],
+      "action": "Decision to Meet",
+      "details": "Yudhishthira, filled with sorrow, decides to go see his equally grieving uncle."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira and his brothers, along with Krishna, Satyaki, and others, go to meet Dhritarashtra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Krishna",
+        "Satyaki",
+        "Dhritarashtra",
+        "Draupadi"
+      ],
+      "action": "Journey",
+      "details": "They are accompanied by Draupadi and other Panchala women, all in a state of grief and distress."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira arrives at the Ganges and is surrounded by grieving women who accuse him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Grieving Women (collective)"
+      ],
+      "action": "Confrontation/Accusation",
+      "details": "The women lament and accuse Yudhishthira of having killed fathers, brothers, teachers, sons, and friends, questioning his understanding of dharma and compassion."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira and the Pandavas approach Dhritarashtra to pay respects after the war.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Pandavas",
+        "Dhritarashtra"
+      ],
+      "action": "Paying respects",
+      "relationships": "Yudhishthira and Pandavas are Dhritarashtra's nephews; Dhritarashtra's sons (Kauravas) were killed by Pandavas in war",
+      "emotional_state": "Dhritarashtra is grieving his sons' deaths; conflicted about embracing Yudhishthira"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra, filled with rage and grief, seeks to kill Bhima.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Bhima"
+      ],
+      "action": "Attempted revenge",
+      "motivation": "Dhritarashtra blames Bhima for killing his sons (particularly Duryodhana)",
+      "supernatural_element": "Krishna anticipates Dhritarashtra's violent intent"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna substitutes Bhima with an iron statue of Bhima.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Bhima",
+        "Dhritarashtra"
+      ],
+      "action": "Divine intervention/protection",
+      "method": "Krishna pulls Bhima away and replaces him with an iron statue",
+      "purpose": "To save Bhima from Dhritarashtra's deadly embrace"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra crushes the iron statue, thinking it is Bhima.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra"
+      ],
+      "action": "Violent embrace",
+      "result": "Dhritarashtra destroys the statue but injures himself (chest wounds, bleeding)",
+      "emotional_state": "Rage followed by collapse and grief"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya comforts Dhritarashtra and helps him regain composure.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Dhritarashtra"
+      ],
+      "action": "Comfort and counsel",
+      "relationship": "Sanjaya is Dhritarashtra's charioteer and advisor",
+      "outcome": "Dhritarashtra calms down but continues grieving"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna reveals the truth to Dhritarashtra about the iron statue.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Dhritarashtra"
+      ],
+      "action": "Revelation/explanation",
+      "content": "Krishna explains he saved Bhima because Dhritarashtra's embrace would have been fatal; the statue was made by Dhritarashtra's own son (likely Duryodhana)",
+      "moral_lesson": "Krishna advises Dhritarashtra to accept what has happened and focus on righteous actions rather than revenge"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna counsels Dhritarashtra to accept the war's outcome and pursue righteousness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Dhritarashtra"
+      ],
+      "action": "Spiritual/political counsel",
+      "key_points": [
+        "Dhritarashtra's grief clouded his judgment",
+        "Killing Bhima wouldn't bring his sons back",
+        "Dhritarashtra should support the Pandavas' righteous rule"
+      ],
+      "relationship_change": "Dhritarashtra is urged to reconcile with the Pandavas despite his loss"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna spoke truthfully to King Dhritarashtra, who acknowledged his own error in judgment and desire for revenge.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "King Dhritarashtra"
+      ],
+      "action": "Admonition and Acknowledgement",
+      "relationships": [
+        "Krishna advises Dhritarashtra",
+        "Dhritarashtra acknowledges Krishna's protection and his own folly"
+      ],
+      "key_plot_points": [
+        "Dhritarashtra admits his anger was misguided and that his safety now depends on the Pandavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra embraced Bhima, Arjuna, and the twin sons of Madri (Nakula and Sahadeva), comforting and blessing them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "action": "Reconciliation",
+      "relationships": [
+        "Dhritarashtra shows affection to his nephews (the Pandavas)",
+        "Symbolic end of hostility"
+      ],
+      "key_plot_points": [
+        "Dhritarashtra overcomes his anger and grief to accept the Pandavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Kuru bulls (the Pandavas) and Krishna went to Gandhari with Dhritarashtra's permission.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Pandavas (Yudhishthira, Bhima, Arjuna, Nakula, Sahadeva)",
+        "Krishna",
+        "Gandhari",
+        "King Dhritarashtra"
+      ],
+      "action": "Movement/Visit",
+      "relationships": [
+        "The Pandavas seek Gandhari",
+        "Dhritarashtra permits the visit"
+      ],
+      "key_plot_points": [
+        "Transition to confrontation with Gandhari"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gandhari, upon learning it was Yudhishthira, filled with grief for her slain sons, intended to curse him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandhari",
+        "Yudhishthira"
+      ],
+      "action": "Intent to Curse",
+      "relationships": [
+        "Mother of the Kauravas versus leader of the Pandavas",
+        "Grief-driven hostility"
+      ],
+      "supernatural_elements": [
+        "Potential curse"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The sage Vyasa, knowing Gandhari's malicious intent, arrived swiftly and used his divine sight to perceive everything.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Vyasa",
+        "Gandhari"
+      ],
+      "action": "Intervention",
+      "relationships": [
+        "Vyasa (father of Dhritarashtra and Pandu) intervenes as a sage",
+        "He addresses Gandhari as his daughter-in-law"
+      ],
+      "supernatural_elements": [
+        "Divine sight (clairvoyance)",
+        "Swift travel"
+      ],
+      "key_plot_points": [
+        "Vyasa prevents a curse"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vyasa urged Gandhari to abandon her curse, remain calm, and remember her adherence to dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Vyasa",
+        "Gandhari"
+      ],
+      "action": "Admonition/Advice",
+      "relationships": [
+        "Vyasa counsels Gandhari",
+        "Reminds her of her past words"
+      ],
+      "key_plot_points": [
+        "Vyasa recalls that Gandhari always told her son Duryodhana victory lies with dharma, not falsehood"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gandhari stated she bore no hatred or wish for destruction, but was confused by grief, and promised to protect the Pandavas like Kunti and Dhritarashtra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandhari",
+        "The Pandavas",
+        "Kunti",
+        "King Dhritarashtra"
+      ],
+      "action": "Promise/Reconciliation",
+      "relationships": [
+        "Gandhari pledges protection to her nephews (the Pandavas)",
+        "Compares her duty to that of Kunti (their mother) and Dhritarashtra"
+      ],
+      "key_plot_points": [
+        "Gandhari overcomes her immediate anger and commits to supporting the Pandavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gandhari expressed anger about the Kurukshhetra war and specifically criticized Bhima's actions against Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandhari",
+        "Bhima",
+        "Duryodhana"
+      ],
+      "action": "Criticism/Accusation",
+      "relationships": [
+        "Mother of Duryodhana",
+        "Enemies in war"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gandhari stated that the destruction of the Kuru clan was caused by Duryodhana, Shakuni, Karna, and Dushasana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandhari",
+        "Duryodhana",
+        "Shakuni",
+        "Karna",
+        "Dushasana"
+      ],
+      "action": "Attribution of blame",
+      "relationships": [
+        "Mother-son",
+        "Allies in war"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gandhari mentioned that the Pandavas (Arjuna, Bhima, Nakula, Sahadeva, Yudhishthira) were not at fault for the war.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandhari",
+        "Arjuna",
+        "Bhima",
+        "Nakula",
+        "Sahadeva",
+        "Yudhishthira"
+      ],
+      "action": "Exoneration",
+      "relationships": [
+        "Family relations",
+        "Opponents in war"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gandhari expressed particular anger about Bhima striking Duryodhana below the waist during their mace duel, which violated the rules of honorable combat.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandhari",
+        "Bhima",
+        "Duryodhana",
+        "Krishna"
+      ],
+      "action": "Violation of combat rules",
+      "relationships": [
+        "Mother defending son",
+        "Witness to violation"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima responded to Gandhari, explaining his actions against Duryodhana were motivated by fear and past wrongs.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Gandhari",
+        "Duryodhana"
+      ],
+      "action": "Justification/Defense",
+      "relationships": [
+        "Accuser-accused",
+        "Past enemies"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima listed Duryodhana's wrongdoings including insulting Draupadi during her menstruation, exposing his thigh in the assembly hall, and causing the Pandavas' suffering in exile.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Duryodhana",
+        "Draupadi",
+        "Yudhishthira"
+      ],
+      "action": "Recounting grievances",
+      "relationships": [
+        "Brother defending sister-in-law",
+        "King-subject conflict"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima explained he killed Duryodhana to avenge past wrongs, secure the kingdom for Yudhishthira, and end their suffering.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Duryodhana",
+        "Yudhishthira"
+      ],
+      "action": "Revenge killing",
+      "relationships": [
+        "Brothers",
+        "Rival claimants to throne"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gandhari criticized Bhima for drinking Dushasana's blood, calling it a barbaric act condemned by good people.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandhari",
+        "Bhima",
+        "Dushasana"
+      ],
+      "action": "Moral condemnation",
+      "relationships": [
+        "Mother of victim",
+        "Killer-victim"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima defended himself against the blood-drinking accusation, stating he only got blood on his hands and didn't actually drink it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Gandhari",
+        "Karna"
+      ],
+      "action": "Denial/Clarification",
+      "relationships": [
+        "Accuser-accused",
+        "Witness to event"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima mentioned that Karna knew the truth about the blood-drinking incident.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Karna"
+      ],
+      "action": "Reference to witness",
+      "relationships": [
+        "Former allies/enemies"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima recalled his angry vow made when Draupadi's hair was pulled during the dice game, which still resonated in his heart.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Draupadi"
+      ],
+      "action": "Recollection of vow",
+      "relationships": [
+        "Brother-in-law protecting honor"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gandhari confronts Yudhishthira about killing all her sons and not sparing even one.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandhari",
+        "Yudhishthira"
+      ],
+      "action": "Confrontation/Accusation",
+      "relationship": "Mother-in-law vs. Son-in-law (Yudhishthira married Gandhari's daughter Duhshala in some versions, but here the relationship is primarily as the mother of his slain cousins/rivals)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira approaches Gandhari, identifies himself as the killer of her sons, and asks for her curse.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Gandhari"
+      ],
+      "action": "Confession/Request for Punishment",
+      "emotional_state": "Remorse, Fear"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gandhari remains silent, breathing heavily with anger and grief.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandhari"
+      ],
+      "action": "Silent Anger",
+      "emotional_state": "Grief, Rage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "As Yudhishthira is about to kneel, Gandhari glimpses his toes through her blindfold, causing his toenails to become deformed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandhari",
+        "Yudhishthira"
+      ],
+      "action": "Divine Curse/Effect",
+      "supernatural_element": "Gandhari's gaze through blindfold causes physical deformity",
+      "result": "Yudhishthira's toenails become misshapen"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna, seeing this, hides behind Krishna (Vasudeva).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna (Vasudeva)"
+      ],
+      "action": "Seeking Protection",
+      "relationship": "Close friends/Allies"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gandhari overcomes her anger and comforts Yudhishthira and the others like a mother.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandhari",
+        "Yudhishthira",
+        "Pandavas (implied)"
+      ],
+      "action": "Forgiveness/Comfort",
+      "relationship_change": "From accuser to compassionate elder"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "With Gandhari's permission, the Pandavas go to see their mother Kunti (Pritha).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas (Yudhishthira, Bhima, Arjuna, Nakula, Sahadeva)",
+        "Kunti (Pritha)"
+      ],
+      "action": "Family Reunion",
+      "relationship": "Mother and sons"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti, who had long worried for her sons, sees them, covers her face, and weeps.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti (Pritha)",
+        "Pandavas"
+      ],
+      "action": "Emotional Reunion",
+      "emotional_state": "Relief, Sorrow"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti and her sons dry their tears; she sees their many weapon scars.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti (Pritha)",
+        "Pandavas"
+      ],
+      "action": "Observation of Wounds",
+      "significance": "Physical evidence of the war's brutality"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti repeatedly embraces her sons in sorrow, then sees Draupadi (daughter of Drupada) weeping on the ground, having lost her sons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti (Pritha)",
+        "Pandavas",
+        "Draupadi"
+      ],
+      "action": "Comforting",
+      "relationship": "Mother-in-law and daughter-in-law (Draupadi is wife to the Pandavas)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi laments to Kunti about losing all her sons and grandsons, including Abhimanyu (son of Subhadra), asking what use the kingdom is to her now.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi",
+        "Kunti (Pritha)"
+      ],
+      "action": "Lamentation",
+      "losses": "Sons, Abhimanyu (referred to as 'son of Subhadra' but here as 'grandson' in context)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti lifts up the grieving, emaciated Draupadi and comforts her.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti (Pritha)",
+        "Draupadi"
+      ],
+      "action": "Consolation",
+      "relationship": "Mother-in-law comforts daughter-in-law"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti, with Draupadi and her sons, goes to see the grieving Gandhari, even though Kunti herself is in greater sorrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti (Pritha)",
+        "Draupadi",
+        "Pandavas",
+        "Gandhari"
+      ],
+      "action": "Mutual Consolation",
+      "significance": "Shared grief between mothers who lost children in the war"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Gandhari tells Kunti and Draupadi not to grieve so much, noting that she suffers similarly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Gandhari",
+        "Kunti (Pritha)",
+        "Draupadi"
+      ],
+      "action": "Sharing Grief",
+      "theme": "Common loss and suffering among women after war"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker reflects that the destruction of the world was caused by a reversal of fortune (time's turn) and was an unavoidable terror that descended automatically.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Speaker (implied to be a survivor, likely Dhritarashtra or Gandhari)"
+      ],
+      "type": "Reflection/Philosophical Realization",
+      "action": "Attributing the cause of the great war's destruction to fate/time."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker states that the destruction fulfilled the prophecy spoken by the great sage Vidura after Krishna's peace mission failed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vidura",
+        "Krishna"
+      ],
+      "type": "Fulfillment of Prophecy",
+      "relationship": "Vidura, a wise counselor, had foretold the doom. Krishna attempted to prevent it through diplomacy."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker advises against grieving for what is irreparable, especially since it is past, and notes that all have died in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Speaker",
+        "The Listener (implied to be Sanjaya or another)"
+      ],
+      "type": "Counsel/Philosophical Advice",
+      "action": "Advising acceptance and cessation of grief."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The speaker expresses their own need for consolation, stating that due to their own fault, this excellent family (the Kuru dynasty) has been destroyed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "The Speaker"
+      ],
+      "type": "Confession/Lament",
+      "action": "Taking personal responsibility for the war's catastrophic outcome.",
+      "relationship": "The speaker's 'fault' implies a failed duty as a patriarch/king (Dhritarashtra) or queen (Gandhari), leading to the annihilation of their lineage."
+    },
+    "_token_interval": null
+  }
+]

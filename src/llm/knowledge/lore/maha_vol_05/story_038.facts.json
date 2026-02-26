@@ -1,0 +1,491 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira asks Bhishma about a righteous king who faces opposition from ministers, loses control of treasury and punishment rod, and seeks advice on how to act for happiness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhishma"
+      ],
+      "type": "Philosophical Inquiry",
+      "relationships": [
+        "Grandson-Grandfather",
+        "Student-Teacher"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhishma responds by telling the story of Prince Anjana (安见) who lost his power and wealth, and was visited by the sage Krishna Dvaipayana (黑树, also known as Vyasa).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhishma",
+        "Yudhishthira",
+        "Prince Anjana",
+        "Krishna Dvaipayana (Vyasa)"
+      ],
+      "type": "Narrative Introduction",
+      "relationships": [
+        "Storyteller-Listener",
+        "Sage-Seeker"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Prince Anjana, in distress, asks Krishna Dvaipayana how he should act since he cannot obtain the kingdom he desires, without resorting to suicide, theft, dependence on others, or other base actions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Prince Anjana",
+        "Krishna Dvaipayana (Vyasa)"
+      ],
+      "type": "Seeking Guidance",
+      "relationships": [
+        "Seeker-Guide"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna Dvaipayana teaches Anjana about the impermanence of all things, including wealth, existence, and relationships, advising him to use wisdom to see that nothing is permanent and thus avoid sorrow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna Dvaipayana (Vyasa)",
+        "Prince Anjana"
+      ],
+      "type": "Spiritual Teaching",
+      "relationships": [
+        "Teacher-Student"
+      ],
+      "supernatural_elements": [
+        "Philosophical discourse on fate and impermanence"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna Dvaipayana concludes by encouraging Anjana to learn from others who have lost wealth but continue to rule without sorrow, and to not grieve.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna Dvaipayana (Vyasa)",
+        "Prince Anjana"
+      ],
+      "type": "Moral Conclusion",
+      "relationships": [
+        "Advisor-Recipient"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Prince expresses that he obtained his kingdom by chance and that the great Time God has taken everything away.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Prince",
+        "Brahmin"
+      ],
+      "action": "Philosophical reflection on loss",
+      "relationships": "Prince is speaking to a Brahmin sage",
+      "supernatural_elements": "Reference to Time God (Kala)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Sage advises the Prince not to grieve for the future or afterlife, to pursue what is obtainable, and to accept what appears without worrying about future things.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage",
+        "Prince"
+      ],
+      "action": "Spiritual guidance on detachment",
+      "relationships": "Sage is counseling the Prince",
+      "key_advice": "Focus on present, accept loss, avoid envy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Sage praises the Prince as not being envious like foolish people who condemn the Creator and obsess over lost wealth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage",
+        "Prince"
+      ],
+      "action": "Character assessment and encouragement",
+      "relationships": "Sage recognizes Prince's noble qualities",
+      "moral_lesson": "Avoid jealousy and attachment to material wealth"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Sage describes how righteous people willingly renounce wealth, children, and even themselves, while others renounce after seeing wealth's impermanence.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage"
+      ],
+      "action": "Teaching about renunciation",
+      "examples_given": "Different approaches to detachment from worldly possessions"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Sage criticizes those who destroy themselves pursuing wealth, noting how wealth ultimately leads to destruction just as life leads to death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage"
+      ],
+      "action": "Warning about attachment to wealth",
+      "key_metaphors": "Wealth ends in destruction, life ends in death, meetings end in separation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Sage concludes by praising the Prince's wisdom and courage, stating that someone like him should not grieve over losses or difficulties.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage",
+        "Prince"
+      ],
+      "action": "Final encouragement",
+      "qualities_praised": "Non-greedy, steady, gentle, self-controlled, firm in spiritual practice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "An unnamed muni (sage) advises an unnamed kshatriya (prince/king) on how to reclaim his lost kingdom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unnamed Muni",
+        "Unnamed Kshatriya"
+      ],
+      "type": "Advice/Strategy",
+      "context": "The kshatriya has lost his wealth and servants."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The kshatriya agrees to listen to the strategy, not wanting to miss the opportunity of meeting the muni.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unnamed Kshatriya"
+      ],
+      "action": "Acceptance of advice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The muni outlines a detailed strategy involving servitude, diplomacy, and subterfuge against the enemy king, specifically King Janaka of Videha (Videha Raja).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unnamed Muni",
+        "Unnamed Kshatriya",
+        "King Janaka"
+      ],
+      "action": "Strategic instruction",
+      "key_points": [
+        "Serve King Janaka humbly",
+        "Gain allies and divide enemies from within",
+        "Use luxury and religious rites to drain enemy resources",
+        "Ultimately control or destroy the enemy's power"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The muni emphasizes that strength and wealth are fundamental, whether gained through righteous (dharma) or unrighteous (adharma) means, and should be used to please then uproot the enemy.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Unnamed Muni"
+      ],
+      "philosophical_point": "Pragmatism in statecraft"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Prince declares he does not wish to live by deceit or illegal means to acquire wealth, and that he can only accept advice that is completely beneficial and in accordance with righteous law (dharma).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Prince"
+      ],
+      "action": "Declaration of principles",
+      "type": "Dialogue/Character stance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Sage (Muni) praises the Prince's character, wisdom, and adherence to proper conduct even in hardship, and states his intention to work for the benefit of both the Prince and King Videha, ensuring their cooperation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage (Muni)",
+        "Prince",
+        "King Videha"
+      ],
+      "action": "Praise and declaration of intent",
+      "type": "Dialogue/Mediation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Sage summons King Videha and advises him to reconcile with the Prince, trust him, and appoint him as a minister, citing the Prince's purity, wisdom, and adherence to dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage (Muni)",
+        "King Videha",
+        "Prince"
+      ],
+      "action": "Summoning and counsel",
+      "type": "Dialogue/Advice"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Sage advises King Videha to avoid battle with the Prince, control him instead, adhere to dharma, avoid greed and hatred, and recognize that victory and defeat are not permanent.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage (Muni)",
+        "King Videha",
+        "Prince"
+      ],
+      "action": "Strategic and moral advice",
+      "type": "Dialogue/Conflict resolution"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Videha respectfully acknowledges the Sage's wisdom and concern for both parties, accepting his counsel.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Videha",
+        "Sage (Muni)"
+      ],
+      "action": "Acceptance of advice",
+      "type": "Dialogue/Agreement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Videha King addresses Kosala King, acknowledging his victory through righteousness and strategy.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Videha King",
+        "Kosala King"
+      ],
+      "action": "Acknowledgment of victory",
+      "relationship": "Rival kings, with Videha King showing respect to Kosala King"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Videha King invites Kosala King to live in his palace with honor.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Videha King",
+        "Kosala King"
+      ],
+      "action": "Invitation to palace",
+      "relationship": "Host-guest relationship established"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Both kings pay respects to the Brahmin and proceed to the palace with mutual trust.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Videha King",
+        "Kosala King",
+        "Brahmin"
+      ],
+      "action": "Mutual respect and trust building",
+      "relationship": "Kings united in trust, honoring Brahmin"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Videha King welcomes Kosala King into the palace, offering foot-washing water, honeyed food, and proper hospitality.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Videha King",
+        "Kosala King"
+      ],
+      "action": "Royal hospitality",
+      "relationship": "Host formally receives guest with traditional honors"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Videha King gives his daughter and various jewels to Kosala King.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Videha King",
+        "Kosala King",
+        "Videha King's daughter"
+      ],
+      "action": "Gift of daughter and jewels",
+      "relationship": "Potential marriage alliance, strengthening political bonds"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The narrative concludes by describing this as the supreme dharma of kings, where victory and defeat are balanced.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Moral conclusion",
+      "theme": "Dharma, balance between victory and defeat"
+    },
+    "_token_interval": null
+  }
+]

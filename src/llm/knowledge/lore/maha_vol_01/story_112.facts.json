@@ -1,0 +1,1262 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国王的侍者奉持国王之命，赶去向途中的坚战转达掷骰子赌博的邀请。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "持国王",
+        "坚战"
+      ],
+      "action": "邀请赌博",
+      "relationships": "伯父与侄子"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战明知赌博会带来毁灭，但为了恪守正法、不违抗长辈，同意返回会堂再次赌博。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战"
+      ],
+      "action": "接受赌博邀请",
+      "reason": "恪守正法、不违抗长辈"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战与兄弟们返回会堂，在命运的逼迫下，明知沙恭尼诡计多端，仍开始赌博。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "沙恭尼"
+      ],
+      "action": "开始赌博",
+      "relationships": "对手"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "沙恭尼提出新的赌博条件：输方需穿羚羊皮到森林居住十二年，第十三年隐居一年，若被发现则再住十二年；赢方重新得到王国。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "沙恭尼",
+        "坚战"
+      ],
+      "action": "提出赌博条件",
+      "stakes": "森林流放与王国归属"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战在羞愧和恪守正法的矛盾中，再次同意赌博，担心这可能导致俱卢族毁灭。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战"
+      ],
+      "action": "同意赌博",
+      "conflict": "正法与毁灭的内心挣扎"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "沙恭尼将所有财产押在森林流放的赌注上，提议一次掷骰子决定胜负。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "沙恭尼",
+        "坚战"
+      ],
+      "action": "押注财产与流放",
+      "stakes": "所有财产与森林流放"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战同意沙恭尼的赌法，沙恭尼掷骰子后宣布获胜。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "沙恭尼",
+        "坚战"
+      ],
+      "action": "掷骰子并宣布胜利",
+      "outcome": "沙恭尼获胜"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas (sons of Kunti) lost their kingdom in a dice game and decided to live in the forest, wearing animal skins as required.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas (Yudhishthira, Bhima, Arjuna, Nakula, Sahadeva)",
+        "Kunti"
+      ],
+      "action": "Loss of kingdom and exile to forest",
+      "reason": "Lost in dice game",
+      "relationships": "Pandavas are sons of Kunti; they are exiled due to gambling loss"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duhshasana mocked the Pandavas for losing their kingdom, wearing animal skins, and going to live in the forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duhshasana",
+        "Pandavas",
+        "Draupadi"
+      ],
+      "action": "Mockery and insults",
+      "content": "Duhshasana taunted the Pandavas for their downfall, called them powerless, and insulted Draupadi, suggesting she choose another husband",
+      "relationships": "Duhshasana is brother of Duryodhana; Pandavas are cousins of Duhshasana; Draupadi is wife of Pandavas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima became furious upon hearing Duhshasana's words, grabbed him, and threatened him with future vengeance in war.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Duhshasana"
+      ],
+      "action": "Physical confrontation and threat",
+      "content": "Bhima threatened to kill Duhshasana and his supporters in future battle, remembering his insults",
+      "relationships": "Bhima is brother of Pandavas; Duhshasana is their cousin and enemy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duhshasana danced around Bhima mockingly, calling him 'stupid ox' while Bhima endured the humiliation, bound by duty.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duhshasana",
+        "Bhima"
+      ],
+      "action": "Further mockery and humiliation",
+      "content": "Duhshasana danced and insulted Bhima, who had to tolerate it due to his commitment to righteousness",
+      "relationships": "Deepening enmity between Pandavas and Kauravas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima (also called Vrikodara or Wolf-belly) swears an oath that if he does not tear open Duryodhana's chest and drink his blood in battle, he will not enter heaven after death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Duryodhana"
+      ],
+      "action": "Oath/Swearing",
+      "relationship": "Enmity (Pandava vs. Kaurava)",
+      "supernatural_element": "Condition for entering heaven"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima vows to kill Duryodhana's sons (the Kauravas) in battle to achieve peace.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Duryodhana's sons (Kauravas)"
+      ],
+      "action": "Vow to kill",
+      "relationship": "Pandava vs. Kaurava conflict"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "As the Pandavas leave the assembly hall, foolish King Duryodhana imitates Bhima's lion-like gait, swaying as he walks.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Bhima"
+      ],
+      "action": "Mockery/Imitation",
+      "relationship": "Insult and provocation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima turns halfway and tells Duryodhana he will soon kill him and his relatives, reminding him of this imitation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Duryodhana"
+      ],
+      "action": "Threat/Response to mockery",
+      "relationship": "Escalating enmity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima, suppressing his anger, declares specific killings: he will kill Duryodhana, Arjuna will kill Karna, and Nakula will kill Shakuni.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Duryodhana",
+        "Karna",
+        "Shakuni"
+      ],
+      "action": "Declaration of war assignments",
+      "relationship": "Pandava brothers coordinating against key Kauravas"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima reiterates his oath in the assembly hall, promising to kill Duryodhana with a mace and step on his head, and to drink Dushasana's blood like a lion.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Duryodhana",
+        "Dushasana"
+      ],
+      "action": "Reiteration of violent oath",
+      "relationship": "Deep-seated vengeance"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna states that good people's resolve is shown not just in words and that by the fourteenth year, what will happen will be seen.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Comment on resolve and timing",
+      "relationship": "Support for Bhima's oath"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna lists Duryodhana, Karna, Shakuni, and Dushasana as those whose blood the earth will drink.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Duryodhana",
+        "Karna",
+        "Shakuni",
+        "Dushasana"
+      ],
+      "action": "Prophetic declaration",
+      "relationship": "Targeting key adversaries"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna swears to kill Karna and his followers in battle with arrows to please Bhima.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Karna",
+        "Bhima"
+      ],
+      "action": "Oath to kill",
+      "relationship": "Brotherly support and specific enmity (Arjuna vs. Karna)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna vows to kill other kings who fight against him with hundreds of thousands of arrows, sending them to Yama's abode.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "General vow against opponents",
+      "supernatural_element": "Reference to Yama (god of death)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna swears that if his oath is not fulfilled, the Himalayas will move, the sun will lose its radiance, and the moon will lose its coolness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Oath with cosmic consequences",
+      "supernatural_element": "Divine/supernatural stakes for the oath"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna declares that if Duryodhana does not return their kingdom respectfully by the fourteenth year, his oath will certainly be fulfilled.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Duryodhana"
+      ],
+      "action": "Ultimatum",
+      "relationship": "Condition for war or peace"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sahadeva, enraged and with red eyes, vows to kill Shakuni in battle, stating that the dice Shakuni used are actually arrows chosen for war.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sahadeva",
+        "Shakuni"
+      ],
+      "action": "Vow to kill",
+      "relationship": "Vengeance for deceit in dice game",
+      "supernatural_element": "Metaphorical transformation of dice to arrows"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sahadeva declares he will fulfill Bhima's task of killing Shakuni and his relatives, challenging Shakuni to fight according to Kshatriya rules.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sahadeva",
+        "Shakuni",
+        "Bhima"
+      ],
+      "action": "Acceptance of assignment and challenge",
+      "relationship": "Pandava brother targeting specific Kaurava ally"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Nakula speaks after hearing Sahadeva, noting that in the gambling match, Duryodhana's sons insulted Draupadi to please Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Nakula",
+        "Duryodhana's sons (Kauravas)",
+        "Draupadi",
+        "Duryodhana"
+      ],
+      "action": "Recollection of insult",
+      "relationship": "Motivation for vengeance (insult to Draupadi)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhishthira bids farewell to various individuals and announces his departure to the forest.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira"
+      ],
+      "action": "Farewell and departure announcement",
+      "relationships": [
+        "Leader of Pandavas",
+        "Son of Kunti"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vidura offers to care for Kunti, stating she should not go to the forest due to her age and delicate condition.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vidura",
+        "Kunti"
+      ],
+      "action": "Care offering",
+      "relationships": [
+        "Half-brother to Dhritarashtra and Pandu",
+        "Mother of Pandavas"
+      ],
+      "type": "Protection/Support"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vidura counsels Yudhishthira, reminding him of his and his brothers' strengths and past teachings from various sages.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vidura",
+        "Yudhishthira"
+      ],
+      "action": "Counsel and encouragement",
+      "relationships": [
+        "Mentor to Yudhishthira",
+        "Wise advisor"
+      ],
+      "mentions": [
+        "Arjuna",
+        "Bhima",
+        "Nakula",
+        "Sahadeva",
+        "Draupadi",
+        "Sage Markandeya",
+        "Narada",
+        "Sage Vyasa",
+        "Parashurama",
+        "Sage Shambhu",
+        "Sage Asita",
+        "Pururavas",
+        "Indra",
+        "Yama",
+        "Kubera",
+        "Varuna"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vidura blesses Yudhishthira and the Pandavas, wishing them health, safety, and a victorious return.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vidura",
+        "Yudhishthira"
+      ],
+      "action": "Blessing and farewell",
+      "relationships": [
+        "Advisor blessing the leader"
+      ],
+      "type": "Divine blessing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "坚战向毗湿摩和德罗纳行礼后动身上路。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "坚战",
+        "毗湿摩",
+        "德罗纳"
+      ],
+      "action": "Departure",
+      "relationships": [
+        "坚战是般度族长子",
+        "毗湿摩是坚战的曾伯祖父",
+        "德罗纳是坚战的老师"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑公主向普利塔和其他女眷告别，般度族后宫响起哀号声。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑公主",
+        "普利塔",
+        "般度族女眷"
+      ],
+      "action": "Farewell",
+      "relationships": [
+        "黑公主是般度五子的共同妻子",
+        "普利塔（贡蒂）是坚战、怖军、阿周那的母亲",
+        "普利塔是黑公主的婆婆"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "贡蒂（普利塔）安慰黑公主，教导她保持坚强并照看偕天。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "贡蒂（普利塔）",
+        "黑公主",
+        "偕天"
+      ],
+      "action": "Advice and Comfort",
+      "relationships": [
+        "贡蒂是偕天的母亲",
+        "偕天是般度五子之一",
+        "黑公主是偕天的嫂子"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "黑公主泪流满面，穿着染污的衣服，披散头发走出。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "黑公主"
+      ],
+      "action": "Departure in Distress",
+      "symbolism": "Humiliation and Sorrow"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "普利塔看到儿子们被夺走首饰和衣服，披着羚羊皮，被敌人和朋友包围。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "普利塔",
+        "坚战",
+        "怖军",
+        "阿周那",
+        "偕天",
+        "无种",
+        "敌人",
+        "朋友们"
+      ],
+      "action": "Witnessing Humiliation",
+      "relationships": [
+        "普利塔是般度五子的母亲",
+        "敌人指俱卢族人",
+        "朋友指般度族支持者"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "普利塔哭诉儿子们的不幸，质疑命运，表达自责和痛苦。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "普利塔",
+        "般度五子"
+      ],
+      "action": "Lamentation",
+      "emotional_state": "Grief, Guilt, Despair"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "普利塔回忆般度和玛德利，认为他们幸运地早逝避免了痛苦。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "普利塔",
+        "般度",
+        "玛德利"
+      ],
+      "action": "Reflection on Past",
+      "relationships": [
+        "般度是普利塔的丈夫",
+        "玛德利是般度的第二任妻子",
+        "玛德利是无种和偕天的母亲"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti grieves over her misfortune, bound by love, thoughts, and future prospects, and clinging to life.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti"
+      ],
+      "action": "Lamentation",
+      "emotional_state": "Grief, self-reproach"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas (Yudhishthira, Bhima, Arjuna, Nakula, Sahadeva) comfort the grieving Kunti, pay respects to her, and then depart for the forest with melancholy.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Kunti"
+      ],
+      "action": "Departure",
+      "destination": "Forest",
+      "emotional_state": "Melancholy, sorrow",
+      "relationships": [
+        "Mother and sons"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vidura and others, though also distressed, find various excuses to comfort the sorrowful Kunti and slowly lead her into Vidura's house.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vidura",
+        "Kunti"
+      ],
+      "action": "Consolation and relocation",
+      "destination": "Vidura's house",
+      "relationships": [
+        "Kinsman (Vidura is Kunti's brother-in-law)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra, filled with anxiety, sends for Vidura to come quickly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Vidura"
+      ],
+      "action": "Summons",
+      "emotional_state": "Anxiety",
+      "relationships": [
+        "Brothers"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vidura goes to Dhritarashtra's palace, and Dhritarashtra urgently questions him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vidura",
+        "Dhritarashtra"
+      ],
+      "action": "Inquiry",
+      "location": "Dhritarashtra's palace"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra asks Vidura how the Pandavas (Yudhishthira, Bhima, Arjuna, Nakula, Sahadeva), the sage Yajnavalkya, and the pitiable Draupadi departed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Vidura",
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Yajnavalkya",
+        "Draupadi"
+      ],
+      "action": "Question about departure",
+      "relationships": [
+        "Uncle and nephews (Dhritarashtra to Pandavas)",
+        "Father-in-law and daughter-in-law (Dhritarashtra to Draupadi)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vidura describes the manner of departure: Yudhishthira covered his face with cloth, Bhima swung his strong arms, Arjuna scattered sand, Sahadeva wiped his face, Nakula smeared his body with mud, Draupadi covered her face with disheveled hair and wept, and Yajnavalkya held kusha grass and sang hymns to Yama and Rudra.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vidura",
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Nakula",
+        "Sahadeva",
+        "Draupadi",
+        "Yajnavalkya"
+      ],
+      "action": "Description of symbolic departures",
+      "symbolic_actions": [
+        "Covering face",
+        "Swinging arms",
+        "Scattering sand",
+        "Wiping face",
+        "Smearing mud",
+        "Covering face with hair and weeping",
+        "Holding grass and singing hymns"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra asks why the Pandavas departed in such different manners.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Vidura"
+      ],
+      "action": "Question about symbolism"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vidura explains the reasons: Yudhishthira covers his face because, though deceived and robbed of his kingdom by Dhritarashtra's sons, his intellect remains aligned with dharma; he is angry but fears his gaze might burn people. Bhima swings his arms to show his unmatched strength and intent to take revenge with his arms. Arjuna scatters sand to symbolize his future shower of arrows upon enemies. Sahadeva wipes his face so no one recognizes him. Nakula smears mud so his handsome form does not attract women's hearts on the road.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vidura",
+        "Yudhishthira",
+        "Bhima",
+        "Arjuna",
+        "Sahadeva",
+        "Nakula",
+        "Duryodhana (implied as Dhritarashtra's son)"
+      ],
+      "action": "Explanation of symbolic actions",
+      "reasons": [
+        "Anger and dharma preservation",
+        "Display of strength and revenge intent",
+        "Symbol of future arrow showers",
+        "Desire for anonymity",
+        "Avoidance of attraction"
+      ],
+      "relationships": [
+        "Conflict between Pandavas and Kauravas (sons of Dhritarashtra)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Draupadi menstruates, wears blood-stained clothes, dishevels her hair, and curses while crying.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Draupadi"
+      ],
+      "action": "Curse",
+      "details": "She curses that those who caused her suffering will lose their husbands, sons, relatives, and loved ones in 14 years, and their wives will mourn similarly."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Priest Yajnavalkya leads with kusha grass for Nirriti, singing Yama hymns.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yajnavalkya"
+      ],
+      "action": "Ritual",
+      "details": "He predicts these hymns will be sung when the Bharata clan is slaughtered in a great war."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Citizens of Hastinapura mourn as their masters depart.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Citizens of Hastinapura"
+      ],
+      "action": "Mourning",
+      "details": "They lament the departure of the Pandavas."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Pandavas leave Hastinapura for the forest with different expressions and intentions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Pandavas"
+      ],
+      "action": "Departure",
+      "details": "They go to the forest following their gambling loss."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Supernatural omens occur as the Pandavas leave: thunder without clouds, earthquakes, Rahu swallowing the sun, meteors falling, and carnivorous birds and animals howling.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [],
+      "action": "Supernatural Omens",
+      "details": "These signs foretell the destruction of the Bharata clan."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Narada, accompanied by great sages, appears in the Kuru assembly hall and delivers a dire prophecy.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narada"
+      ],
+      "action": "Prophecy",
+      "details": "He declares that due to Duryodhana's sins, the Kuru clan will be destroyed by Bhima and Arjuna's might within 14 years."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Narada ascends to the sky and disappears.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Narada"
+      ],
+      "action": "Divine Departure",
+      "details": "He vanishes after delivering his prophecy."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Duryodhana, Karna, and Shakuni take refuge with Drona and entrust the kingdom to him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Duryodhana",
+        "Karna",
+        "Shakuni",
+        "Drona"
+      ],
+      "action": "Seeking Protection",
+      "details": "They rely on Drona for support and governance."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona addresses the angry Duryodhana, Duhshasana, Karna, and all Bharatas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Duryodhana",
+        "Duhshasana",
+        "Karna"
+      ],
+      "action": "Address",
+      "details": "He acknowledges the Pandavas as sons of gods and invincible, but promises to protect those who seek his refuge, though the outcome depends on fate."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona explains that the Pandavas, having lost the gamble, will live in the forest for 12 years, practice celibacy, suppress anger, and eventually seek revenge.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Pandavas"
+      ],
+      "action": "Explanation",
+      "details": "He expresses pain over their future vengeance."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona recounts his past quarrel with Drupada, which led Drupada to perform a sacrifice for a son to kill him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Drupada"
+      ],
+      "action": "Backstory",
+      "details": "Due to the ascetic power of sages Yaja and Upayaja, Drupada obtained Dhrishtadyumna and Draupadi from the sacrificial fire."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Drona expresses fear of Dhrishtadyumna, who was born with fiery complexion, bow, and armor from the gods.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Dhrishtadyumna"
+      ],
+      "action": "Fear",
+      "details": "Drona, as a mortal, fears Dhrishtadyumna, destined to kill him."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "猛光 (Bhima) declares his allegiance to the Pandavas and vows to fight to the death against their enemies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima"
+      ],
+      "action": "Declaration of allegiance and vow",
+      "relationships": [
+        "Bhima is aligned with the Pandavas"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "德罗纳 (Drona) warns 难敌 (Duryodhana) that his fortunes will reverse and advises him to perform sacrifices, enjoy life, and be generous.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Duryodhana"
+      ],
+      "action": "Warning and advice",
+      "relationships": [
+        "Drona is a teacher to Duryodhana"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "德罗纳 (Drona) predicts a great calamity will befall them within fourteen years and suggests reconciliation with the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Drona",
+        "Duryodhana"
+      ],
+      "action": "Prediction and suggestion",
+      "supernatural_elements": [
+        "Prophecy of future calamity"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国王 (Dhritarashtra) agrees with Drona's words and instructs 维杜罗 (Vidura) to recall the Pandavas.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Vidura"
+      ],
+      "action": "Instruction to recall Pandavas",
+      "relationships": [
+        "Dhritarashtra is king, Vidura is his minister"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "持国王 (Dhritarashtra) orders that if the Pandavas refuse to return, they should be allowed to leave peacefully with their weapons, vehicles, and provisions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra"
+      ],
+      "action": "Order for peaceful departure",
+      "relationships": [
+        "Dhritarashtra is uncle to the Pandavas"
+      ]
+    },
+    "_token_interval": null
+  }
+]

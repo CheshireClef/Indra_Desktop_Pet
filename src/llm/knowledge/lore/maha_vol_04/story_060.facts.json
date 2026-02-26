@@ -1,0 +1,1043 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra asks Sanjaya what his warriors did after King Shalya was killed by Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Dhritarashtra",
+        "Sanjaya"
+      ],
+      "type": "Inquiry"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya reports that after witnessing King Shalya's death, Kripa became enraged and showered Arjuna with arrows, while Ashvatthama also attacked Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Kripa",
+        "Ashvatthama",
+        "Arjuna"
+      ],
+      "action": "Attack/Retaliation",
+      "relationships": [
+        "Kripa and Ashvatthama jointly attack Arjuna"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna, not wanting to kill his teacher Kripa or teacher's son Ashvatthama, defends himself while holding back his attacks.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Kripa",
+        "Ashvatthama"
+      ],
+      "action": "Restrained Defense",
+      "relationships": [
+        "Arjuna shows respect for his teacher and teacher's son"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kripa is overwhelmed by Arjuna's arrows and faints on his chariot, causing his charioteer to retreat from battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kripa",
+        "Arjuna"
+      ],
+      "action": "Injury/Retreat",
+      "relationships": [
+        "Teacher-student conflict"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Ashvatthama also retreats after Kripa falls unconscious.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Ashvatthama"
+      ],
+      "action": "Retreat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna laments to Krishna about having injured his teacher Kripa, expressing deep remorse and recalling Vidura's warning about Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna",
+        "Kripa",
+        "Vidura",
+        "Duryodhana"
+      ],
+      "type": "Lamentation/Reflection",
+      "relationships": [
+        "Arjuna's guilt over attacking his teacher",
+        "Reference to Vidura's prophecy about Duryodhana"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna recalls Kripa's teaching that one should never strike a teacher, and fears he will go to hell for his actions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Kripa"
+      ],
+      "type": "Moral Conflict",
+      "relationships": [
+        "Student violating teacher's teaching"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna laments attacking his teacher Kripacharya in battle, expressing regret for violating his teachings.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Kripacharya"
+      ],
+      "type": "Lamentation/Remorse",
+      "relationship": "Student (Arjuna) regrets attacking his teacher (Kripacharya)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna, seeing King Jayadratha killed, rushes forward in battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Jayadratha"
+      ],
+      "type": "Battle Reaction",
+      "relationship": "Karna reacts to ally Jayadratha's death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna observes Karna rushing toward Satyaki and urges Krishna to intervene to protect Satyaki.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna",
+        "Karna",
+        "Satyaki"
+      ],
+      "type": "Strategic Command",
+      "relationship": "Arjuna (ally) requests Krishna (charioteer/advisor) to protect Satyaki (ally) from Karna (enemy)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna advises Arjuna not to engage Karna yet, explaining that Karna possesses a powerful divine spear from Indra and that Satyaki can handle him with help from the sons of Drupada.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna",
+        "Karna",
+        "Satyaki",
+        "Indra",
+        "Sons of Drupada"
+      ],
+      "type": "Divine Intervention/Strategy",
+      "relationship": "Krishna (divine advisor) warns Arjuna about Karna's divine weapon and reassures him about Satyaki's capability"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra asks Sanjaya to describe how Karna fought Satyaki after the deaths of Bhurishravas and Jayadratha, and how Satyaki got a new chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Sanjaya",
+        "Karna",
+        "Satyaki",
+        "Bhurishravas",
+        "Jayadratha"
+      ],
+      "type": "Narrative Inquiry",
+      "relationship": "Dhritarashtra (king) requests battle details from Sanjaya (narrator)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya explains that Krishna, knowing the future, had already prepared his chariot and charioteer Daruka for Satyaki's need.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Krishna",
+        "Satyaki",
+        "Daruka"
+      ],
+      "type": "Divine Foresight/Preparation",
+      "relationship": "Krishna (divine) preemptively arranges support for Satyaki (ally)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing Satyaki without a chariot, Karna raises his weapon, and Krishna blows his conch to signal Daruka, who brings Krishna's chariot to Satyaki.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Satyaki",
+        "Krishna",
+        "Daruka"
+      ],
+      "type": "Battle Intervention",
+      "relationship": "Krishna intervenes to provide Satyaki with a chariot as Karna attacks"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki, with Krishna's permission, ascends the chariot brought by Daruka.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Krishna",
+        "Daruka"
+      ],
+      "type": "Resumption of Battle",
+      "relationship": "Satyaki (warrior) is re-equipped for battle with Krishna's (ally) support"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki (Sātyaki) mounted his chariot drawn by four horses and charged toward Karna (Karṇa), firing many arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Karna"
+      ],
+      "action": "Chariot charge and arrow attack",
+      "type": "Combat initiation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yudhāmanyu and Uttamaujas left Arjuna's chariot and attacked Karna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yudhāmanyu",
+        "Uttamaujas",
+        "Karna"
+      ],
+      "action": "Joint attack",
+      "type": "Combat support"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna, filled with rage, charged toward Satyaki in battle, showering him with arrows.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Satyaki"
+      ],
+      "action": "Counter-charge and arrow attack",
+      "type": "Combat engagement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "All beings, including gods and demons, watched this unprecedented battle between Karna and Satyaki.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Satyaki"
+      ],
+      "action": "Spectacle watched by celestial beings",
+      "type": "Supernatural observation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Daruka's charioteering skills were praised as he maneuvered Karna's chariot with exceptional skill.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Daruka",
+        "Karna"
+      ],
+      "action": "Chariot maneuvering",
+      "type": "Combat support"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna fought with grief over the deaths of Ghatotkacha and Bhūriśravas, attacking Satyaki fiercely.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Satyaki"
+      ],
+      "action": "Emotion-driven combat",
+      "type": "Combat intensity"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki wounded Karna with iron arrows, killed his charioteer, and killed his four white horses.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Karna"
+      ],
+      "action": "Critical attacks on chariot and crew",
+      "type": "Combat advantage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki destroyed Karna's banner with a hundred arrows, rendering Karna chariotless.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Karna"
+      ],
+      "action": "Destruction of chariot and banner",
+      "type": "Combat victory"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Vṛṣasena, Śalya, and Aśvatthāman surrounded Satyaki to protect Karna, creating chaos.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Vṛṣasena",
+        "Śalya",
+        "Aśvatthāman",
+        "Satyaki"
+      ],
+      "action": "Protective encirclement",
+      "type": "Combat intervention"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna, distressed by Satyaki's arrows, boarded Duryodhana's chariot while lamenting.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Duryodhana"
+      ],
+      "action": "Retreat to ally's chariot",
+      "type": "Combat retreat"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna remained committed to his childhood friendship with Duryodhana and his vow to secure the kingdom for him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Duryodhana"
+      ],
+      "action": "Reaffirmation of loyalty",
+      "type": "Relationship reaffirmation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After Karna lost his chariot, Satyaki restrained himself and did not kill your brave sons led by Duryodhana.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Duryodhana",
+        "Karna"
+      ],
+      "action": "Restraint from killing",
+      "reason": "To uphold Bhima's vow"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki only deprived them of their chariots, causing panic, without taking their lives.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Duryodhana"
+      ],
+      "action": "Disarming chariots"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima vowed to kill your sons, and Arjuna vowed to kill Karna during the second dice game.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Arjuna",
+        "Duryodhana",
+        "Karna"
+      ],
+      "type": "Vow/Declaration"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Despite efforts by Karna and other chariot warriors, they could not kill Satyaki.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna",
+        "Satyaki"
+      ],
+      "action": "Failed assassination attempt"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki defeated Ashvatthama, Shalya, and hundreds of Kshatriya heroes with just one bow to please Yudhishthira and ascend to heaven.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Ashvatthama",
+        "Shalya",
+        "Yudhishthira"
+      ],
+      "action": "Military victory",
+      "supernatural_element": "Quest for heavenly ascension"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki is praised as one of three supreme heroes alongside Krishna and Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Krishna",
+        "Arjuna"
+      ],
+      "type": "Character praise"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Dhritarashtra asks about Satyaki's actions after making Karna lose his chariot while on Krishna's invincible chariot.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Satyaki",
+        "Krishna",
+        "Karna"
+      ],
+      "type": "Inquiry"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya explains that Daruka's noble-minded brother brought another fully-equipped chariot for Satyaki.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Satyaki",
+        "Daruka"
+      ],
+      "action": "Chariot replacement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Satyaki boarded this new chariot and advanced toward your army while Daruka went to Krishna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Satyaki",
+        "Daruka",
+        "Krishna"
+      ],
+      "action": "Movement in battle"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Karna also received a new chariot and charged toward the enemy again.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Karna"
+      ],
+      "action": "Chariot replacement and re-engagement"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya reports that thirty-one of Dhritarashtra's sons were killed by Bhima, and hundreds of heroes were killed by Satyaki and Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Dhritarashtra",
+        "Bhima",
+        "Satyaki",
+        "Arjuna",
+        "Bhishma",
+        "Bhagadatta"
+      ],
+      "action": "Casualty report",
+      "casualties": [
+        "Dhritarashtra's thirty-one sons",
+        "Hundreds of heroes including Bhishma and Bhagadatta"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya attributes these losses to Dhritarashtra's misjudgments.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Dhritarashtra"
+      ],
+      "type": "Attribution of blame"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Dhritarashtra asked Sanjaya to describe what Bhima was doing in the battle.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Dhritarashtra",
+        "Sanjaya"
+      ],
+      "type": "Inquiry",
+      "relationship": "King and charioteer/narrator"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya reported that Bhima, having lost his chariot and been verbally attacked by Karna, angrily spoke to Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sanjaya",
+        "Bhima",
+        "Karna",
+        "Arjuna"
+      ],
+      "action": "Report of verbal conflict",
+      "relationship": "Bhima and Arjuna are Pandava brothers; Karna is their enemy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Bhima reminded Arjuna of their shared oath to kill anyone who insulted Bhima, specifically citing Karna's insults.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Bhima",
+        "Arjuna",
+        "Karna"
+      ],
+      "action": "Invocation of oath",
+      "relationship": "Bhima demands Arjuna fulfill their mutual vow against Karna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna, enraged, confronted Karna in battle, condemning his insults to Bhima and his role in Abhimanyu's death.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Karna",
+        "Bhima",
+        "Abhimanyu"
+      ],
+      "action": "Confrontation and accusation",
+      "relationship": "Arjuna is Abhimanyu's father; Karna is implicated in Abhimanyu's killing"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna vowed to kill Karna's son Vrishasena and destroy Karna's forces in retaliation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Karna",
+        "Vrishasena"
+      ],
+      "action": "Vow of vengeance",
+      "relationship": "Arjuna targets Karna's son as part of his revenge"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "A great uproar arose among the warriors as Arjuna made his vow, and the sun set amidst fierce fighting.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Warriors"
+      ],
+      "action": "Climactic battle moment",
+      "type": "Supernatural element: sunset symbolism"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna, having declared his oath, stood at the front of the battlefield.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "action": "Positioning for battle",
+      "relationship": "Sets stage for impending conflict with Karna"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna embraces Arjuna and praises him for fulfilling his great vow.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna"
+      ],
+      "action": "Praise/Encouragement",
+      "relationship": "Divine guide (Krishna) and warrior disciple (Arjuna)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna states that Arjuna has destroyed the sinners Jayadratha and his son.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Jayadratha"
+      ],
+      "action": "Defeat/Killing",
+      "context": "Fulfillment of Arjuna's vow to avenge Abhimanyu's death"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna declares that even an army of gods would be disheartened facing the Kaurava army, but Arjuna alone could fight them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna"
+      ],
+      "supernatural_element": "Divine perspective on cosmic warfare",
+      "significance": "Establishes Arjuna's supreme martial capability"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna compares Arjuna's valor to deities like Rudra, Indra, and Yama.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna"
+      ],
+      "divine_comparison": [
+        "Rudra",
+        "Indra",
+        "Yama"
+      ],
+      "significance": "Elevates Arjuna's status to near-divine level"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna promises to celebrate again after Arjuna destroys the evil-souled Karna and his followers.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Karna"
+      ],
+      "foreshadowing": "Future conflict between Arjuna and Karna",
+      "relationship": "Rival warriors (half-brothers unknown to Arjuna at this point)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna responds that he accomplished this god-difficult vow only through Krishna's grace.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna"
+      ],
+      "relationship_dynamic": "Disciple acknowledging divine assistance",
+      "theme": "Divine-human collaboration"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Arjuna declares that with Krishna's favor, Yudhishthira will gain the entire earth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Arjuna",
+        "Krishna",
+        "Yudhishthira"
+      ],
+      "prophecy": "Pandava victory in Kurukshetra War",
+      "relationship": "Brothers (Arjuna and Yudhishthira) with divine support"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna smiles and drives the chariot slowly, showing Arjuna the horrifying battlefield scene.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna"
+      ],
+      "action": "Revealing aftermath of battle",
+      "purpose": "Moral/visual lesson about war's consequences"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna describes the battlefield with dead and dying kings, scattered weapons, destroyed animals/vehicles, and glittering ornaments.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna"
+      ],
+      "imagery": "Carnage and opulence mixed",
+      "theme": "Transience of life and glory in war"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sanjaya narrates that Krishna showed the battlefield to Arjuna, then joyfully blew his conch Panchajanya with his allies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Arjuna",
+        "Sanjaya"
+      ],
+      "action": "Conch-blowing",
+      "significance": "Victory celebration and divine proclamation",
+      "narrative_frame": "Sanjaya reporting to Dhritarashtra"
+    },
+    "_token_interval": null
+  }
+]

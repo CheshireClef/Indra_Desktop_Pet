@@ -1,0 +1,484 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "A mother advises a king (referred to as 'son' and 'king') on how to behave during times of crisis, emphasizing that he must not show fear to prevent the collapse of his kingdom and the desertion of his allies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mother",
+        "King (Son)"
+      ],
+      "type": "Advice/Counsel",
+      "relationships": [
+        "Mother-Son",
+        "Ruler-Advisor"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The mother reveals she possesses a secret, immense treasury unknown to the king or anyone else, which she will give to him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mother",
+        "King (Son)"
+      ],
+      "type": "Revelation/Promise of Aid",
+      "relationships": [
+        "Mother-Son",
+        "Benefactor-Recipient"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The mother promises the king that he will gain hundreds of loyal friends who will share his joys and sorrows and fight valiantly for him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Mother",
+        "King (Son)"
+      ],
+      "type": "Promise/Encouragement",
+      "relationships": [
+        "Mother-Son",
+        "Ruler-Supporters"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The son responds, stating that his mother's wise and beautiful words have dispelled his ignorance and that, with her as his guide, he will strive to overcome his difficulties and defeat his enemies.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King (Son)",
+        "Mother"
+      ],
+      "type": "Acceptance/Declaration of Resolve",
+      "relationships": [
+        "Son-Mother",
+        "Disciple-Guide"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti narrates that a king who is tormented by enemies and despondent should be told such uplifting and heroic stories to revive his spirit, and that listening to this 'Victory' story leads to conquering the earth and destroying foes.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti"
+      ],
+      "type": "Narration/Moral",
+      "relationships": [
+        "Narrator-Audience"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti states that the story fosters heroes, and that pregnant women who listen to it will give birth to heroic sons characterized by truth, courage, and righteousness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti"
+      ],
+      "type": "Narration/Prophecy",
+      "relationships": [
+        "Narrator-Audience"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The text transitions to the next chapter where Kunti addresses Kesava (Krishna), telling him to speak to Arjuna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Kesava (Krishna)",
+        "Arjuna"
+      ],
+      "type": "Dialogue Transition",
+      "relationships": [
+        "Kunti-Krishna (Advisor)",
+        "Krishna-Arjuna (Close Friend/Guide)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti recalls a celestial voice that spoke at Arjuna's birth, prophesying his future victories.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Arjuna"
+      ],
+      "action": "Recollection of prophecy",
+      "supernatural_elements": [
+        "Celestial voice prophecy"
+      ],
+      "relationships": [
+        "Mother-son"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti asks Krishna to ensure the prophecy's fulfillment and to support her sons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Krishna"
+      ],
+      "action": "Request for divine assistance",
+      "relationships": [
+        "Krishna as family ally and divine guide"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti instructs Krishna to convey messages to Arjuna and Bhima, urging them to fight.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Krishna",
+        "Arjuna",
+        "Bhima"
+      ],
+      "action": "Message relay for motivation",
+      "relationships": [
+        "Mother to sons via Krishna"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti asks Krishna to speak to Draupadi, acknowledging her virtue and suffering.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Krishna",
+        "Draupadi"
+      ],
+      "action": "Message of support and acknowledgment",
+      "relationships": [
+        "Mother-in-law to daughter-in-law"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti asks Krishna to motivate Nakula and Sahadeva by reminding them of Draupadi's humiliation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Krishna",
+        "Nakula",
+        "Sahadeva"
+      ],
+      "action": "Message to incite action",
+      "relationships": [
+        "Mother to sons via Krishna"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti emphasizes that Draupadi's public humiliation was her greatest pain, more than exile or lost kingdom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Draupadi"
+      ],
+      "action": "Expression of maternal anguish",
+      "relationships": [
+        "Shared suffering as women in the Kuru court"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti tells Krishna to remind Arjuna of Duhshasana's insults to Bhima and Draupadi in the assembly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Krishna",
+        "Arjuna",
+        "Bhima",
+        "Duhshasana",
+        "Draupadi"
+      ],
+      "action": "Memory trigger for revenge",
+      "relationships": [
+        "Insult to family honor"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Kunti asks Krishna to convey her well-being to her sons, Draupadi, and their children, and to protect them.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kunti",
+        "Krishna",
+        "Pandavas",
+        "Draupadi",
+        "Pandavas' children"
+      ],
+      "action": "Farewell and blessing",
+      "relationships": [
+        "Maternal concern and protection"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna pays respects to Kunti, circumambulates her, and departs with lion-like gait.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Kunti"
+      ],
+      "action": "Departure",
+      "relationships": [
+        "Mutual respect and divine mission"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna (also referred to as Kesava, Ten-Powered One, Scion of the Yadus, Wielder of the Horned Bow) dismissed Bhishma and other Kuru bulls, then had Karna (also referred to as Son of Radha) mount his chariot and departed with Satyaki.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Bhishma",
+        "Karna",
+        "Satyaki"
+      ],
+      "action": "Departure from the Kuru assembly",
+      "relationships": [
+        "Krishna and Karna travel together",
+        "Krishna and Satyaki travel together",
+        "Krishna dismisses Bhishma and other Kurus"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After Krishna left, the Kuru clan members gathered and discussed the supreme, great miracle that had appeared in Krishna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kuru clan members"
+      ],
+      "action": "Discussion and reflection",
+      "supernatural_elements": [
+        "Supreme great miracle appearing in Krishna"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Kuru members declared that the entire deluded world was bound by the noose of death and that due to Duryodhana's folly, everything would cease to exist.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Kuru clan members"
+      ],
+      "action": "Prophecy/lamentation",
+      "relationships": [
+        "Blame placed on Duryodhana for impending destruction"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna (referred to as Bull among Men) departed from the city and conversed at length with Karna.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Karna"
+      ],
+      "action": "Extended conversation during travel",
+      "relationships": [
+        "Private dialogue between Krishna and Karna"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Krishna (referred to as Scion of the Yadus) sent Karna (referred to as Son of Radha) back and urged his horses to advance swiftly.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Karna"
+      ],
+      "action": "Separation and accelerated travel",
+      "relationships": [
+        "Krishna sends Karna away"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Driven by Daruka, Krishna's horses flew as if drinking the sky, moving with the speed of thought and wind.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna",
+        "Daruka"
+      ],
+      "action": "Supernatural travel",
+      "supernatural_elements": [
+        "Horses moving with speed of thought and wind",
+        "Horses flying as if drinking the sky"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The horses, flying like vultures and carrying Krishna (referred to as Wielder of the Horned Bow), reached Dvaraka (referred to as Water-Surrounded City) as the sun rose high.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Krishna"
+      ],
+      "action": "Arrival at destination",
+      "location": "Dvaraka",
+      "supernatural_elements": [
+        "Horses flying like vultures"
+      ]
+    },
+    "_token_interval": null
+  }
+]

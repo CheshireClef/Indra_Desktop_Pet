@@ -1,0 +1,1957 @@
+[
+  {
+    "extraction_class": "event",
+    "extraction_text": "天乘 (Sharmishtha) and her companions, including her servant 多福 (Devayani), went to a forest area for recreation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "天乘 (Sharmishtha)",
+        "多福 (Devayani)"
+      ],
+      "action": "Recreation/Play",
+      "location": "Forest area"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迅行王 (Yayati) arrived at the same location while hunting deer and seeking water.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迅行王 (Yayati)"
+      ],
+      "action": "Hunting/Arrival",
+      "reason": "Hunt deer and find water"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迅行王 (Yayati) saw 天乘 (Sharmishtha) and 多福 (Devayani) with their companions and inquired about their identities.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迅行王 (Yayati)",
+        "天乘 (Sharmishtha)",
+        "多福 (Devayani)"
+      ],
+      "action": "Introduction/Inquiry",
+      "relationship": "First encounter"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "天乘 (Sharmishtha) revealed she is the daughter of 太白 (Shukracharya), the teacher of the Asuras, and identified 多福 (Devayani) as the daughter of the Asura king 牛节 (Vrishaparvan), who serves as her personal maid.",
+    "char_interval": {
+      "start_pos": 819,
+      "end_pos": 821
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "天乘 (Sharmishtha)",
+        "多福 (Devayani)",
+        "太白 (Shukracharya)",
+        "牛节 (Vrishaparvan)"
+      ],
+      "action": "Identity revelation",
+      "relationships": {
+        "天乘 (Sharmishtha)": "Daughter of 太白 (Shukracharya)",
+        "多福 (Devayani)": "Daughter of 牛节 (Vrishaparvan), servant of 天乘 (Sharmishtha)"
+      }
+    },
+    "_token_interval": {
+      "start_index": 240,
+      "end_index": 241
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迅行王 (Yayati) expressed surprise that 多福 (Devayani), an Asura princess, serves as a maid, but 天乘 (Sharmishtha) attributed it to fate.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迅行王 (Yayati)",
+        "天乘 (Sharmishtha)",
+        "多福 (Devayani)"
+      ],
+      "action": "Questioning fate",
+      "theme": "Destiny"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "天乘 (Sharmishtha) asked 迅行王 (Yayati) about his identity, and he revealed he is King 迅行 (Yayati), son of 友邻王 (Nahusha), and a learned king.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迅行王 (Yayati)",
+        "友邻王 (Nahusha)"
+      ],
+      "action": "Identity revelation",
+      "relationships": {
+        "迅行王 (Yayati)": "Son of 友邻王 (Nahusha), King"
+      }
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "天乘 (Sharmishtha) proposed marriage to 迅行王 (Yayati), offering herself, her companions, and 多福 (Devayani) to him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "天乘 (Sharmishtha)",
+        "迅行王 (Yayati)",
+        "多福 (Devayani)"
+      ],
+      "action": "Marriage proposal",
+      "relationship_change": "Proposal of union"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迅行王 (Yayati) declined, citing that kings should not marry her due to her father's status as an Asura teacher.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迅行王 (Yayati)",
+        "天乘 (Sharmishtha)",
+        "太白 (Shukracharya)"
+      ],
+      "action": "Rejection",
+      "reason": "Social/class incompatibility"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "天乘 (Sharmishtha) argued that Kshatriyas (warrior class) are connected to Brahma and urged him to marry her, but 迅行王 (Yayati) emphasized the distinct duties and purity of the four castes, with Brahmins being superior.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "天乘 (Sharmishtha)",
+        "迅行王 (Yayati)"
+      ],
+      "action": "Debate on caste and marriage",
+      "theme": "Social hierarchy"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "天乘 (Sharmishtha) insisted that 迅行王 (Yayati) should marry her because he had previously taken her hand in a ritual (implied earlier context), and she had chosen him as her husband.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "天乘 (Sharmishtha)",
+        "迅行王 (Yayati)"
+      ],
+      "action": "Insistence on marriage",
+      "reason": "Prior ritual connection",
+      "relationship_change": "Claim of existing bond"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sharmishtha (天乘) declares that her hand, once touched by a wise woman, cannot be touched by another man, and since Yayati (迅行), the son of a sage, has already touched it, she implies he must marry her.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sharmishtha",
+        "Yayati"
+      ],
+      "type": "Marriage Proposal/Declaration",
+      "relationships": [
+        "Sharmishtha is in love with Yayati"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yayati explains that an angry Brahmin is more dangerous than a venomous snake or spreading fire because a snake kills one person, a sword kills one person, but an angry Brahmin can destroy cities, towns, and entire kingdoms.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yayati"
+      ],
+      "type": "Philosophical Argument",
+      "reasoning": "Yayati fears the consequences of angering a Brahmin, specifically Sharmishtha's father, Shukracharya (太白仙人)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sharmishtha questions Yayati's statement and insists that if her father gives permission, Yayati should marry her because she has chosen him, and a person who receives a gift without begging has nothing to fear.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sharmishtha",
+        "Yayati"
+      ],
+      "type": "Persuasion",
+      "relationships": [
+        "Sharmishtha is determined to marry Yayati"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sharmishtha quickly sends a messenger to inform her father, Shukracharya, who comes to see King Yayati upon hearing the news.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sharmishtha",
+        "Shukracharya",
+        "Yayati"
+      ],
+      "type": "Summoning",
+      "action": "Sharmishtha seeks her father's intervention for marriage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yayati sees Shukracharya arrive, greets him respectfully with folded hands, and stands by his side.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yayati",
+        "Shukracharya"
+      ],
+      "type": "Respectful Greeting",
+      "relationships": [
+        "Yayati shows deference to Shukracharya as a Brahmin sage"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sharmishtha tells her father Shukracharya that King Yayati, the son of Nahusha (友邻), took her hand when she was in danger, and she requests her father to give her in marriage to Yayati, as she will choose no other husband in the world.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sharmishtha",
+        "Shukracharya",
+        "Yayati"
+      ],
+      "type": "Formal Marriage Request",
+      "relationships": [
+        "Sharmishtha is Shukracharya's daughter",
+        "Yayati is the son of Nahusha"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shukracharya tells Yayati that his beloved daughter has chosen him as her husband, and he gives her to Yayati to marry as his queen.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shukracharya",
+        "Yayati",
+        "Sharmishtha"
+      ],
+      "type": "Parental Consent",
+      "action": "Shukracharya approves the marriage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yayati expresses concern to Shukracharya about the severe sin of mixing castes that might befall him and requests this boon to avoid it.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yayati",
+        "Shukracharya"
+      ],
+      "type": "Appeal for Protection",
+      "reason": "Yayati fears the consequences of inter-caste marriage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shukracharya grants Yayati the boon, freeing him from sin, and advises him not to hesitate in this marriage, as Shukracharya will remove the sin for him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shukracharya",
+        "Yayati"
+      ],
+      "type": "Divine Intervention/Boon",
+      "action": "Shukracharya absolves Yayati of potential sin from the marriage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shukracharya instructs Yayati to marry Sharmishtha according to dharma (righteousness) and enjoy great happiness with her, but warns him never to call Devayani (多福), the daughter of King Vrishaparva (牛节王), to his bed, though she will always respect him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shukracharya",
+        "Yayati",
+        "Sharmishtha",
+        "Devayani"
+      ],
+      "type": "Marriage Instruction/Warning",
+      "relationships": [
+        "Devayani is the daughter of King Vrishaparva",
+        "Shukracharya sets conditions for the marriage"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yayati, after hearing this, circumambulates Shukracharya to the right as a mark of respect and, with the noble sage's permission, returns happily to his capital.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yayati",
+        "Shukracharya"
+      ],
+      "type": "Departure",
+      "action": "Yayati leaves with approval for the marriage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yayati arrives at his capital, which resembles the great city of Indra, enters the inner apartments, and places Sharmishtha there.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yayati",
+        "Sharmishtha"
+      ],
+      "type": "Settlement",
+      "action": "Yayati brings Sharmishtha to his palace"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "With Sharmishtha's consent, Yayati builds a house near the Ashoka grove and places Devayani, the daughter of King Vrishaparva, there, treating her well with attendants, clothing, food, and drink.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yayati",
+        "Sharmishtha",
+        "Devayani"
+      ],
+      "type": "Arrangement",
+      "relationships": [
+        "Devayani is accommodated separately with Yayati's support"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yayati, the son of Nahusha, spends a long time with Sharmishtha and lives happily like a god.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yayati",
+        "Sharmishtha"
+      ],
+      "type": "Marital Life",
+      "relationships": [
+        "Yayati and Sharmishtha are married and content"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "天乘经期来到，首次怀胎，生下了一个儿子。",
+    "char_interval": {
+      "start_pos": 1986,
+      "end_pos": 2009
+    },
+    "alignment_status": "match_fuzzy",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "天乘",
+        "迅行王"
+      ],
+      "action": "Birth of a son",
+      "relationships": [
+        "Husband and wife"
+      ],
+      "supernatural_elements": null
+    },
+    "_token_interval": {
+      "start_index": 578,
+      "end_index": 584
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "一千年后，牛节王之女多福月经来潮，思虑自己尚未选到丈夫，决定选择迅行王做丈夫。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "多福",
+        "迅行王"
+      ],
+      "action": "Decision to choose a husband",
+      "relationships": [
+        "Potential romantic interest"
+      ],
+      "supernatural_elements": null
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迅行王外出漫步时，无意间走到靠近多福的无忧树林，多福发现国王独自一人，上前合掌致敬并请求赐予一个经期的宠幸。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "多福",
+        "迅行王"
+      ],
+      "action": "Request for intimacy",
+      "relationships": [
+        "Proposer and recipient"
+      ],
+      "supernatural_elements": null
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迅行王称赞多福的品行和容貌，但拒绝她的请求，因为太白仙人曾告诫他不要将牛节王之女召到床上。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迅行王",
+        "多福",
+        "太白仙人"
+      ],
+      "action": "Refusal based on prior warning",
+      "relationships": [
+        "King and subject",
+        "Advisor and king"
+      ],
+      "supernatural_elements": null
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "多福引用五种假话不伤人的说法（戏谑时、女人们之间、新婚燕婉之时、生命危险之际、全部财产遭劫夺时），试图说服迅行王。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "多福"
+      ],
+      "action": "Argument using moral principles",
+      "relationships": null,
+      "supernatural_elements": null
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迅行王坚持国王作为子民的标准，不能口出谎言，即使遭遇艰难困苦也不能弄虚作假。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迅行王"
+      ],
+      "action": "Upholding truth and duty",
+      "relationships": null,
+      "supernatural_elements": null
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "多福提出自己的丈夫和朋友的丈夫是一样的，并引用'朋友结婚如同自己结婚'，选择朋友的丈夫（迅行王）做丈夫。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "多福",
+        "天乘",
+        "迅行王"
+      ],
+      "action": "Justification based on friendship",
+      "relationships": [
+        "Friends",
+        "Husband and wife"
+      ],
+      "supernatural_elements": null
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "迅行王表示自己有誓愿要给求乞者以馈赠，询问多福的心愿。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "迅行王",
+        "多福"
+      ],
+      "action": "Offering to fulfill a request",
+      "relationships": [
+        "King and subject"
+      ],
+      "supernatural_elements": null
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "多福请求迅行王拯救她脱离不法，导向正法，并解释妻子、奴隶、儿子没有财产，她归天乘所有，而天乘是迅行王的奴隶，因此她也要靠迅行王养活，请求国王享受她。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "多福",
+        "迅行王",
+        "天乘"
+      ],
+      "action": "Final plea for intimacy",
+      "relationships": [
+        "Wife and husband",
+        "Owner and property"
+      ],
+      "supernatural_elements": null
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yayati (迅行王) heard the words of Devayani (天乘) and agreed with her reasoning. He then respectfully greeted Sharmishtha (多福) and guided her toward righteousness.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yayati",
+        "Devayani",
+        "Sharmishtha"
+      ],
+      "type": "Agreement and Guidance",
+      "relationships": [
+        "King Yayati is Devayani's husband",
+        "Sharmishtha is Devayani's friend/companion"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yayati and Sharmishtha engaged in a union that brought them great pleasure. Afterwards, they respectfully parted ways.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yayati",
+        "Sharmishtha"
+      ],
+      "type": "Union/Sexual Encounter",
+      "relationships": [
+        "Secret relationship between King Yayati and Sharmishtha"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "From that union, Sharmishtha became pregnant with King Yayati's child.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sharmishtha",
+        "King Yayati"
+      ],
+      "type": "Pregnancy",
+      "relationships": [
+        "Sharmishtha carrying King Yayati's child"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sharmishtha gave birth to a beautiful boy who resembled a divine child.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sharmishtha",
+        "Unnamed Son"
+      ],
+      "type": "Birth",
+      "relationships": [
+        "Sharmishtha is mother of the boy",
+        "King Yayati is biological father"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Devayani heard about Sharmishtha giving birth to a son and became troubled and displeased with Sharmishtha.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Devayani",
+        "Sharmishtha"
+      ],
+      "type": "Conflict Initiation",
+      "relationships": [
+        "Growing tension between Devayani and Sharmishtha"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Devayani confronted Sharmishtha, accusing her of wrongdoing due to lust.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Devayani",
+        "Sharmishtha"
+      ],
+      "type": "Confrontation",
+      "relationships": [
+        "Direct confrontation between the two women"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sharmishtha defended herself by claiming a sage (Brahmin) of great virtue and knowledge of the Vedas had granted her a boon and that she had a son with him through righteous means.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sharmishtha",
+        "Unnamed Sage"
+      ],
+      "type": "Explanation/Defense",
+      "relationships": [
+        "Sharmishtha claims the child is from a sage, not King Yayati"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Devayani questioned whether Sharmishtha truly knew the sage's lineage, name, and origins.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Devayani",
+        "Sharmishtha"
+      ],
+      "type": "Interrogation",
+      "relationships": [
+        "Devayani doubts Sharmishtha's story"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sharmishtha admitted she was too awestruck by the sage's divine appearance to ask about his background.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sharmishtha"
+      ],
+      "type": "Admission",
+      "relationships": [
+        "Sharmishtha reveals incomplete knowledge about the sage"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Devayani stated she wouldn't be angry if the child was truly from a venerable Brahmin sage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Devayani",
+        "Sharmishtha"
+      ],
+      "type": "Conditional Acceptance",
+      "relationships": [
+        "Devayani sets condition for accepting the situation"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The two women concluded their conversation, smiled at each other, and Devayani returned to the palace after learning the situation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Devayani",
+        "Sharmishtha"
+      ],
+      "type": "Resolution",
+      "relationships": [
+        "Temporary resolution of conflict between Devayani and Sharmishtha"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yayati and Devayani had two sons: Yadu (雅度) and Turvasu (杜尔婆薮), who were compared to Indra and Vishnu.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 12,
+    "group_index": 11,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yayati",
+        "Devayani",
+        "Yadu",
+        "Turvasu"
+      ],
+      "type": "Family Expansion",
+      "relationships": [
+        "King Yayati and Devayani are parents of Yadu and Turvasu"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sharmishtha also had three sons with King Yayati: Druhyu (德卢修), Anu (阿奴), and Puru (补卢).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 13,
+    "group_index": 12,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sharmishtha",
+        "King Yayati",
+        "Druhyu",
+        "Anu",
+        "Puru"
+      ],
+      "type": "Family Expansion",
+      "relationships": [
+        "Sharmishtha and King Yayati are parents of Druhyu, Anu, and Puru"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "One day, Devayani accompanied by King Yayati went to a large forest where she saw several divine-looking boys playing happily.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 14,
+    "group_index": 13,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Devayani",
+        "King Yayati",
+        "Sharmishtha's Sons"
+      ],
+      "type": "Discovery",
+      "relationships": [
+        "Devayani encounters unknown children in the forest"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Devayani asked King Yayati who these beautiful, divine-looking children were, noting they resembled him in spirit and appearance.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 15,
+    "group_index": 14,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Devayani",
+        "King Yayati"
+      ],
+      "type": "Inquiry",
+      "relationships": [
+        "Devayani questions King Yayati about the children's identity"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Devayani asked the boys directly about their Brahmin father's name and lineage.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 16,
+    "group_index": 15,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Devayani",
+        "Sharmishtha's Sons"
+      ],
+      "type": "Direct Questioning",
+      "relationships": [
+        "Devayani interrogates the children about their parentage"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The boys pointed to King Yayati and told Devayani that Sharmishtha was their mother.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 17,
+    "group_index": 16,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sharmishtha's Sons",
+        "King Yayati",
+        "Sharmishtha",
+        "Devayani"
+      ],
+      "type": "Revelation",
+      "relationships": [
+        "Children reveal King Yayati as their father and Sharmishtha as their mother",
+        "Devayani discovers the truth about the children's parentage"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The boys ran to King Yayati, but in Devayani's presence, the king did not show them affection.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 18,
+    "group_index": 17,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yayati",
+        "Sharmishtha's Sons",
+        "Devayani"
+      ],
+      "type": "Tension",
+      "relationships": [
+        "King Yayati avoids showing affection to his sons with Sharmishtha in front of Devayani"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Several children cried out looking for Yayati.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Several children",
+        "Yayati"
+      ],
+      "action": "Searching",
+      "relationships": [
+        "Children of Yayati"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Seeing the children's affection for the king, the queen realized the truth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Devayani",
+        "Yayati"
+      ],
+      "action": "Realization",
+      "relationships": [
+        "Wife (Devayani) and Husband (Yayati)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Devayani confronted Sharmishtha, accusing her of disobedience.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Devayani",
+        "Sharmishtha"
+      ],
+      "action": "Confrontation",
+      "relationships": [
+        "Mistress (Devayani) and Slave (Sharmishtha)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sharmishtha defended herself, stating she acted according to dharma and that Yayati was also her husband by law.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sharmishtha",
+        "Yayati",
+        "Devayani"
+      ],
+      "action": "Defense/Explanation",
+      "relationships": [
+        "Sharmishtha claims Yayati as husband",
+        "Conflict with Devayani"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Devayani declared she would leave, accusing Yayati of wrongdoing.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Devayani",
+        "Yayati"
+      ],
+      "action": "Departure/Accusation",
+      "relationships": [
+        "Marital conflict"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yayati followed Devayani, trying to console her, but she remained angry and went to her father.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yayati",
+        "Devayani",
+        "Shukracharya"
+      ],
+      "action": "Pursuit and departure",
+      "relationships": [
+        "Husband trying to reconcile",
+        "Daughter seeking father"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Devayani complained to Shukracharya that Sharmishtha had borne three sons with Yayati while she had only two, accusing Yayati of violating dharma.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Devayani",
+        "Shukracharya",
+        "Yayati",
+        "Sharmishtha"
+      ],
+      "action": "Complaint/Accusation",
+      "relationships": [
+        "Daughter (Devayani) to father (Shukracharya)",
+        "Accusation against husband (Yayati)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shukracharya cursed Yayati to become old immediately for his unlawful actions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shukracharya",
+        "Yayati"
+      ],
+      "action": "Curse",
+      "relationships": [
+        "Father-in-law curses son-in-law"
+      ],
+      "supernatural_elements": [
+        "Curse causing instant aging"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yayati defended himself, saying he acted according to dharma when Sharmishtha requested him during her fertile period.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yayati",
+        "Sharmishtha",
+        "Shukracharya"
+      ],
+      "action": "Defense",
+      "relationships": [
+        "Justification of actions to father-in-law"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Shukracharya rebuked Yayati for not consulting him first, as Yayati was under his protection.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Shukracharya",
+        "Yayati"
+      ],
+      "action": "Rebuke",
+      "relationships": [
+        "Protector (Shukracharya) and dependent (Yayati)"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yayati, cursed and aged, begged Shukracharya for a boon, as his youth was not yet satisfied with Devayani.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yayati",
+        "Shukracharya"
+      ],
+      "action": "Plea for boon",
+      "relationships": [
+        "Cursed king seeks mercy from sage"
+      ]
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Shukra (also known as Ushanas or Kavi) cursed King Yayati to become old immediately.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yayati",
+        "Sage Shukra"
+      ],
+      "action": "Curse",
+      "reason": "King Yayati expressed a desperate wish to avoid aging, which prompted the curse.",
+      "supernatural_element": "Divine curse causing instant aging"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Sage Shukra offered King Yayati a way to transfer his old age to one of his sons, under specific conditions.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Sage Shukra",
+        "King Yayati"
+      ],
+      "condition": "The son who accepts the old age will become king, live long, be famous, and have many descendants. King Yayati must think of Sage Shukra to avoid sin.",
+      "relationship": "Sage Shukra acts as a divine advisor/curse-giver to King Yayati"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yayati, now old, returned to his capital and asked his eldest and most excellent son Yadu to accept his old age in exchange for Yadu's youth for one thousand years.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yayati",
+        "Yadu"
+      ],
+      "action": "Request for age transfer",
+      "relationship": "Father-son; King Yayati is the father, Yadu is the eldest son"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Yadu refused to accept his father's old age, describing it as undesirable.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yadu"
+      ],
+      "action": "Refusal",
+      "reason": "Yadu finds old age repulsive and debilitating"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yayati cursed Yadu, declaring that Yadu's descendants would not inherit the kingdom.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yayati",
+        "Yadu"
+      ],
+      "action": "Curse",
+      "consequence": "Yadu's lineage will be excluded from kingship",
+      "relationship_change": "Father curses son due to refusal"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yayati asked his son Turvasu to accept his old age in exchange for youth for one thousand years.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yayati",
+        "Turvasu"
+      ],
+      "action": "Request for age transfer",
+      "relationship": "Father-son; King Yayati is the father, Turvasu is another son"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Turvasu refused to accept his father's old age, stating it destroys desires, pleasure, strength, beauty, wisdom, and breath.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Turvasu"
+      ],
+      "action": "Refusal",
+      "reason": "Turvasu views old age as destructive to all good qualities"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yayati cursed Turvasu, prophesying that Turvasu would rule over degraded, sinful outcastes and his descendants would be destroyed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yayati",
+        "Turvasu"
+      ],
+      "action": "Curse/Prophecy",
+      "consequence": "Turvasu will become king of the lowest, meat-eating, sinful Mlecchas (foreigners/barbarians), and his lineage will face destruction",
+      "relationship_change": "Father curses another son due to refusal"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yayati asked his son Druhyu, son of Anu, to accept his old age for one thousand years in exchange for youth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yayati",
+        "Druhyu"
+      ],
+      "action": "Request for age transfer",
+      "relationship": "Father-son; King Yayati is the father, Druhyu is another son (son of Anu)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yayati (迅行) asks his son Druhyu (德卢修) to exchange his youth for Yayati's old age.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yayati",
+        "Druhyu"
+      ],
+      "action": "Request for exchange",
+      "relationship": "Father and son",
+      "supernatural_elements": "Reference to a curse by Sage Shukra (迦毗之子太白仙人)"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Druhyu refuses his father's request.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Druhyu"
+      ],
+      "action": "Refusal",
+      "reason": "Does not want the infirmities of old age"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yayati curses Druhyu for his refusal.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yayati",
+        "Druhyu"
+      ],
+      "action": "Curse",
+      "consequences": "Druhyu and his descendants will not become kings and will live in a land dependent on rafts and boats (安乐国)."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yayati asks his son Anu (阿奴) to exchange his youth for Yayati's old age.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yayati",
+        "Anu"
+      ],
+      "action": "Request for exchange",
+      "relationship": "Father and son"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Anu refuses his father's request.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Anu"
+      ],
+      "action": "Refusal",
+      "reason": "Does not want the unclean and impious aspects of old age"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yayati curses Anu for his refusal.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yayati",
+        "Anu"
+      ],
+      "action": "Curse",
+      "consequences": "Anu's descendants will die young, and Anu himself will be punished by fire."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yayati asks his beloved son Puru (补卢) to exchange his youth for Yayati's old age for one thousand years.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yayati",
+        "Puru"
+      ],
+      "action": "Request for exchange",
+      "relationship": "Father and beloved son",
+      "terms": "Exchange for one thousand years, after which Yayati promises to return the youth."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "Puru accepts his father's request without hesitation.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Puru"
+      ],
+      "action": "Acceptance",
+      "statement": "Agrees to take on his father's old age and give his youth as commanded."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yayati, pleased with Puru, blesses him.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yayati",
+        "Puru"
+      ],
+      "action": "Blessing",
+      "consequences": "Puru's descendants will prosper and rule a kingdom."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The youth exchange between King Yayati and Puru is completed.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yayati",
+        "Puru"
+      ],
+      "action": "Supernatural exchange",
+      "result": "Yayati gains Puru's youth, and Puru takes on Yayati's old age and appearance."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yayati, now youthful, rules righteously and enjoys sensory pleasures for one thousand years.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 11,
+    "group_index": 10,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yayati"
+      ],
+      "action": "Rule and enjoyment",
+      "description": "He satisfies gods, ancestors, the unfortunate, Brahmins, guests, and all classes of people through sacrifices, gifts, and righteous protection, becoming like a mortal Indra."
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yayati (also called Yayāti or Yayāti, the king mentioned in the text) enjoyed sensual pleasures in his youth without violating dharma, but eventually grew old and weak.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yayati"
+      ],
+      "action": "Enjoyment of pleasures followed by aging",
+      "type": "Personal transformation"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yayati calculated that his time of enjoyment was complete and addressed his youngest son Puru, telling him to take back his youth and accept the kingship.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yayati",
+        "Puru"
+      ],
+      "action": "Transfer of youth and kingship",
+      "relationship": "Father and youngest son"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yayati transferred his old age to himself and restored Puru's youth.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yayati",
+        "Puru"
+      ],
+      "action": "Exchange of ages",
+      "supernatural_element": "Age transfer"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yayati wanted to perform the coronation ceremony for Puru, but the four varnas (classes) led by Brahmins questioned why he was bypassing his older sons.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yayati",
+        "Puru",
+        "Yadu",
+        "Turvasu",
+        "Druhyu",
+        "Anu",
+        "Brahmins"
+      ],
+      "action": "Questioning of succession",
+      "relationship": "Father and sons, king and subjects"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The Brahmins listed the older sons in order: Yadu (eldest, son of Devayani), Turvasu, Druhyu (son of Sharmishtha), Anu, and then Puru (youngest).",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Yadu",
+        "Turvasu",
+        "Druhyu",
+        "Anu",
+        "Puru",
+        "Devayani",
+        "Sharmishtha"
+      ],
+      "action": "Listing of succession order",
+      "relationship": "Brothers with different mothers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yayati explained that he wouldn't give the kingdom to Yadu because Yadu disobeyed him, and similarly Turvasu, Druhyu, and Anu showed contempt, while Puru alone obeyed him and supported him in his old age.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yayati",
+        "Yadu",
+        "Turvasu",
+        "Druhyu",
+        "Anu",
+        "Puru"
+      ],
+      "action": "Justification for choosing Puru",
+      "relationship_change": "Puru favored over older brothers"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yayati revealed that Sage Shukracharya (also called Kavi, son of Bhrigu) had granted him a boon that the son who obeyed him would become king.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 7,
+    "group_index": 6,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yayati",
+        "Sage Shukracharya"
+      ],
+      "action": "Revelation of divine boon",
+      "supernatural_element": "Boon from sage"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "The citizens agreed that Puru, being virtuous and pleasing to his father, deserved the kingdom, especially with Shukracharya's boon.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 8,
+    "group_index": 7,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "Citizens",
+        "Puru",
+        "King Yayati"
+      ],
+      "action": "Acceptance of Puru as heir",
+      "relationship": "Subjects supporting king's decision"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "King Yayati performed the coronation ceremony for Puru, making him king.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 9,
+    "group_index": 8,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yayati",
+        "Puru"
+      ],
+      "action": "Coronation",
+      "type": "Succession"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "After handing over the kingdom to Puru, King Yayati left for forest life (vanaprastha), accompanied by some Brahmins and ascetics.",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 10,
+    "group_index": 9,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "King Yayati",
+        "Brahmins",
+        "Ascetics"
+      ],
+      "action": "Retirement to forest",
+      "type": "Life stage transition"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "雅度生出了雅度族。",
+    "char_interval": {
+      "start_pos": 7884,
+      "end_pos": 7892
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 1,
+    "group_index": 0,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "雅度"
+      ],
+      "action": "繁衍后代",
+      "descendants": "雅度族"
+    },
+    "_token_interval": {
+      "start_index": 2269,
+      "end_index": 2270
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "杜尔婆薮的儿子是耶婆那族。",
+    "char_interval": {
+      "start_pos": 7893,
+      "end_pos": 7905
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 2,
+    "group_index": 1,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "杜尔婆薮"
+      ],
+      "action": "繁衍后代",
+      "descendants": "耶婆那族"
+    },
+    "_token_interval": {
+      "start_index": 2271,
+      "end_index": 2272
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "德卢修的儿子是安乐族。",
+    "char_interval": {
+      "start_pos": 7906,
+      "end_pos": 7916
+    },
+    "alignment_status": "match_lesser",
+    "extraction_index": 3,
+    "group_index": 2,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "德卢修"
+      ],
+      "action": "繁衍后代",
+      "descendants": "安乐族"
+    },
+    "_token_interval": {
+      "start_index": 2273,
+      "end_index": 2274
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "阿奴的儿子是弥戾车蛮人。",
+    "char_interval": {
+      "start_pos": 7917,
+      "end_pos": 7929
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 4,
+    "group_index": 3,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "阿奴"
+      ],
+      "action": "繁衍后代",
+      "descendants": "弥戾车蛮人"
+    },
+    "_token_interval": {
+      "start_index": 2275,
+      "end_index": 2277
+    }
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "补卢诞生了补卢族世系。",
+    "char_interval": null,
+    "alignment_status": null,
+    "extraction_index": 5,
+    "group_index": 4,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "补卢"
+      ],
+      "action": "繁衍后代",
+      "descendants": "补卢族"
+    },
+    "_token_interval": null
+  },
+  {
+    "extraction_class": "event",
+    "extraction_text": "国王啊！你就是出生于这一宗族，你要统治这王国直至千年！",
+    "char_interval": {
+      "start_pos": 7946,
+      "end_pos": 7973
+    },
+    "alignment_status": "match_exact",
+    "extraction_index": 6,
+    "group_index": 5,
+    "description": null,
+    "attributes": {
+      "characters": [
+        "国王（补卢族后裔）"
+      ],
+      "action": "宣告统治",
+      "descendants": "补卢族后裔",
+      "duration": "千年"
+    },
+    "_token_interval": {
+      "start_index": 2282,
+      "end_index": 2288
+    }
+  }
+]
