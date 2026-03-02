@@ -35,6 +35,7 @@
 | `screen_watch_enabled` | boolean | 是否开启屏幕观察 | `false` |
 | `screen_watch_interval_s` | number | 屏幕观察触发间隔（秒） | `60` |
 | `temp_bubble_duration_s` | number | 临时气泡显示时长（秒） | `8` |
+| `long_term_memory_enabled` | boolean | 是否开启长期记忆（检索注入与有条件写入） | `false` |
 
 ### 1.4 user
 
@@ -119,10 +120,46 @@
 
 ---
 
-## 3. 与进度/实现的对应关系
+## 3. 长期记忆库（user_memory.db）
+
+长期记忆仅存储与用户对话相关的重要信息与用户偏好，不替代 RAG（lore/style）与人设。
+
+### 3.1 存储路径
+
+- **路径**：`config/user_memory.db`（与 `config/settings.json` 同目录，由程序在首次使用时创建）
+- 无需用户配置，开箱即用；关闭长期记忆开关后不读写，已有数据不删除。
+
+### 3.2 表结构：memories
+
+| 列名 | 类型 | 说明 |
+|------|------|------|
+| `id` | INTEGER PRIMARY KEY AUTOINCREMENT | 主键 |
+| `content` | TEXT | 记忆正文 |
+| `embedding` | BLOB | 向量（float32 数组），用于相似度检索与去重 |
+| `created_at` | TEXT | 创建时间（ISO 格式） |
+| `updated_at` | TEXT | 更新时间（ISO 格式） |
+| `topic` | TEXT | 主题词（可选），与 memory_topic 对应，用于同主题聚类 |
+| `topic_embedding` | BLOB | 主题的向量，用于按主题相似度聚类（相近主题视为同一 topic） |
+
+- 写入时由 `LongTermMemory` 通过 `KnowledgeBase.get_embedding` 获取 content 与 topic 的向量，与 RAG 共用 `gte-multilingual-base`。
+- 检索：对当前用户消息做向量相似度检索（按 content embedding），取 top-k 条注入 system prompt「【关于该用户的已知信息】」。
+- 去重：新记忆与已有记录 **content** 相似度超过阈值则更新该条，否则插入新记录。
+- **同主题合并**：按 **topic 向量相似度** 聚类（阈值见 `TOPIC_SIMILARITY_THRESHOLD`）；当同一簇内条数达到 **5 的倍数**（5、10、15…）时，将该簇所有记忆交给 LLM 合并为若干条精简句（每条≤50 字），输出 JSON 且需用 Markdown 代码块包裹，写回后删除原簇行。合并失败则不删原数据。
+
+### 3.3 与 ChatManager 的调用关系
+
+- `ChatManager` 在初始化时创建 `LongTermMemory(knowledge_base, merge_llm_caller=...)`，合并时通过 `merge_llm_caller` 调用 LLM（JSON 结构化输出 + Markdown 包裹）。
+- 在 `_build_chat_messages` 中若 `long_term_memory_enabled` 为真则调用 `search(query)` 并注入 system。
+- 在解析 LLM 返回的 JSON 后若 `memory_to_save` 非空则调用 `add_or_update(memory_to_save, topic=memory_topic)`；`memory_topic` 由 LLM 在 JSON 中可选返回，用于主题聚类与合并触发。
+- 设置页「记忆管理」标签通过 `ChatManager.get_long_term_memory()` 获取实例，提供列表（含 topic 展示）、单条删除、清空全部（含二次确认）。
+
+---
+
+## 4. 与进度/实现的对应关系
 
 - 配置的增删改以 `SettingsManager` 与设置对话框为准；新增配置项时建议同步更新本文档 schema。
 - 知识库新增卷/目录或变更 `.facts.json` 格式时，需考虑索引重建（程序会根据文件变更自动或按策略重建，见 `knowledge_base.py`）。
+- 长期记忆表结构或路径变更时需同步更新本文档 3 节。
 
 ---
 

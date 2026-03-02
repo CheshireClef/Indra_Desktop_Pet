@@ -40,12 +40,26 @@ class KnowledgeBase(QObject):
         self.lore_index = None
         self.style_index = None
         self.style_sample_history = []  # 记录近期抽取的style内容，降低重复频率
+        # 供长期记忆模块复用的嵌入模型，在 _init_indices_async 中赋值
+        self._embed_model = None
         
     def start_loading(self):
         """启动异步加载线程"""
         index_thread = threading.Thread(target=self._init_indices_async)
         index_thread.daemon = True
         index_thread.start()
+
+    def get_embedding(self, text: str) -> List[float] | None:
+        """
+        获取文本的向量表示，供长期记忆等模块复用。未加载完成时返回 None。
+        """
+        if not text or not self._embed_model:
+            return None
+        try:
+            return self._embed_model.get_query_embedding(text.strip())
+        except Exception as e:
+            print(f"[KnowledgeBase] get_embedding 失败: {e}")
+            return None
 
     def _init_indices_async(self):
         """异步初始化索引，强制使用本地gte-multilingual-base离线模型"""
@@ -95,7 +109,8 @@ class KnowledgeBase(QObject):
             import torch
             embed_model._model = embed_model._model.to("cpu")
             print(f"[KnowledgeBase] 模型已手动移动到CPU设备")
-            
+            # 保存引用供长期记忆模块复用，避免重复加载
+            self._embed_model = embed_model
             # 发送模型加载完成信号
             self.model_loaded_to_cpu.emit()
         except Exception as e:

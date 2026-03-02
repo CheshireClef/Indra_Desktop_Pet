@@ -294,11 +294,12 @@ class PetWindow(QWidget):
         self._show_temp_bubble(f"数据库加载失败：{msg}")
 
     def _on_user_message(self, text: str):
-        # 调用修改后的chat方法，获取纯回复 + 情绪标签
-        reply, emotion_tag = self.chat_manager.chat_with_tag(text)
+        reply, emotion_tag, error_message = self.chat_manager.chat_with_tag(text)
+        if error_message:
+            self._show_temp_bubble(error_message)
+            return
         if reply:
             self.chat_bubble.append_pet(reply)
-            # 显示对应情绪表情
             self._show_emotion_emoji(emotion_tag)
 
     # ---------------- 右键菜单 ----------------
@@ -478,7 +479,11 @@ class PetWindow(QWidget):
             return
         # 设置窗口只需负责修改 SettingsManager，保存时会自动触发 settings_changed 信号
         # 从而调用上面的 _on_settings_changed 方法
-        dlg = self._SettingsDialog(self.settings, parent=self)
+        dlg = self._SettingsDialog(
+            self.settings,
+            parent=self,
+            long_term_memory=self.chat_manager.get_long_term_memory() if hasattr(self, "chat_manager") else None,
+        )
         dlg.exec()
 
     # ---------------- 视觉功能 ----------------
@@ -522,8 +527,8 @@ class PetWindow(QWidget):
 
     # ---------------- 临时气泡显示 ----------------
     def _show_temp_bubble(self, text: str):
-        # 错误信息标红
-        if text.startswith(("屏幕观察出错：", "定时屏幕观察出错：", "屏幕观察功能未启用：")):
+        # 错误信息标红（含 LLM 空回复、通用错误前缀）
+        if text.startswith(("屏幕观察出错：", "定时屏幕观察出错：", "屏幕观察功能未启用：", "LLM 返回了空回复", "错误：")):
             text = f"<font color='#ff4444'>{text}</font>"
 
         pet_geo = self.geometry()

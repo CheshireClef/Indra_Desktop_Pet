@@ -3,18 +3,18 @@
 负责处理与 LLM 的交互，包括：
 1. 构建 Prompt (System Persona + User Input)
 2. 调用 RAG 检索知识库 (KnowledgeBase)
-3. 提取和处理情绪标签 (Emotion Tag)
+3. 提取和处理情绪标签 (Emotion Tag) / JSON 结构化输出
 4. 管理对话历史 (History)
 """
-from ast import pattern
-from pydoc import text
-from pyexpat.errors import messages
+import json
+import re
 import requests
 import os
 import threading
 from pathlib import Path
 from utils import resource_path
 from .knowledge_base import KnowledgeBase
+from .long_term_memory import LongTermMemory
 
 class ChatManager:
     """
@@ -24,11 +24,10 @@ class ChatManager:
     VALID_EMOTION_TAGS = ["喜爱", "开心", "干杯", "疑问", "伤心", "无聊", "尴尬", "生气", "平常"]
     EMOTION_TAG_FORMAT = "【{}】"  # 标签固定包裹格式
     
-    # 新增：通用情绪标签 Prompt 生成方法（唯一标准）
+    # 通用情绪标签 Prompt（用于屏幕观察等非 JSON 场景）
     def _get_emotion_tag_prompt(self) -> str:
         """
-        生成统一的情绪标签输出要求 Prompt，所有场景共用这一套规则
-        规则优先级：完整的5条细则（以屏幕观察场景的规则为准）
+        生成统一的情绪标签输出要求 Prompt，屏幕观察等场景使用。
         """
         return (
             "\n\n【情绪标签输出要求】"
@@ -38,6 +37,25 @@ class ChatManager:
             "4. 若回复的内容适合【平常】标签，但包含饮酒的情节，请优先选择【干杯】标签；"
             "5. 标签仅用于后台统计，不要体现在对话内容中。"
         ).format(','.join(self.VALID_EMOTION_TAGS))
+
+    # ---------- JSON 结构化输出（聊天场景） ----------
+    def _get_json_output_instruction(self) -> str:
+        """
+        生成「只输出一个 JSON 对象」的说明，含 reply、emotion、memory_to_save、favorability_delta。
+        memory_to_save 由 LLM 根据用户本轮（及对话上下文）发言判断是否值得写入长期记忆。
+        """
+        tags = "、".join(self.VALID_EMOTION_TAGS)
+        return (
+            "\n\n【输出格式】你必须只输出一个 JSON 对象，不要输出 JSON 以外的任何文字。"
+            "输出 JSON 结果时一定要用 Markdown 代码块包裹，例如：\n```json\n{\"reply\":\"……\",\"emotion\":\"开心\",\"memory_to_save\":null,\"memory_topic\":null,\"favorability_delta\":null}\n```"
+            "\n字段说明："
+            "\n- reply（必填）：你作为角色对用户说的正文。"
+            f"\n- emotion（必填）：从以下列表选一个情绪标签：{tags}。请根据回复内容的情绪倾向选择，仅当完全无情绪时选「平常」；若涉及饮酒情节优先选「干杯」。"
+            "\n- memory_to_save（可选）：仅当用户本轮或对话中提到了值得长期记住的信息（如偏好、习惯、重要事项）时，填写一条简短概括句；否则填 null。由你根据用户发言判断。"
+            "\n- memory_topic（可选）：若填写了 memory_to_save，可同时填写简短主题词便于归类（如「饮酒」「偏好」「工作」），否则填 null。"
+            "\n- favorability_delta（可选）：整数或 null，预留字段。"
+            '\n示例：{"reply":"……","emotion":"开心","memory_to_save":null,"memory_topic":null,"favorability_delta":null}'
+        )
     
     def __init__(self, settings_manager=None, persona_path: str = ""):
         if settings_manager:
@@ -52,10 +70,14 @@ class ChatManager:
         self._load_persona()
 
         # ========== 知识库初始化 ==========
-        # 委托给 KnowledgeBase 处理
         self.knowledge_base = KnowledgeBase()
+        # 长期记忆模块（SQLite+向量），合并时通过 merge_llm_caller 调用 LLM 做同主题精简
+        self._long_term_memory = LongTermMemory(
+            self.knowledge_base,
+            merge_llm_caller=lambda msgs: self._request_llm(msgs, response_format_json=True),
+        )
 
-        # ========== 新增：提取并剥离情绪标签 ==========
+        # ========== 提取并剥离情绪标签 ==========
     def _extract_and_strip_emotion_tag(self, reply: str) -> tuple[str, str]:
         """
         从LLM回复中提取情绪标签，并返回「剥离标签后的纯回复」+「情绪标签」
@@ -93,6 +115,60 @@ class ChatManager:
             emotion_tag = "平常"
     
         return pure_reply, emotion_tag
+
+    def _parse_llm_response(self, content: str) -> tuple[str | None, str, str | None, str | None, int | None, bool]:
+        """
+        优先将 LLM 返回内容解析为 JSON；失败则回退到情绪标签剥离+幻觉剔除。
+        返回 (reply, emotion, memory_to_save, memory_topic, favorability_delta, json_ok)。
+        """
+        if not (content or "").strip():
+            return "", "平常", None, None, None, False
+        raw = content.strip()
+        # 尝试去掉可选的 ```json ... ``` 包裹
+        if raw.startswith("```"):
+            for prefix in ("```json", "```"):
+                if raw.startswith(prefix):
+                    raw = raw[len(prefix):].strip()
+                    break
+            if raw.endswith("```"):
+                raw = raw[:-3].strip()
+        try:
+            obj = json.loads(raw)
+            if not isinstance(obj, dict):
+                raise ValueError("not a dict")
+            reply = (obj.get("reply") or "").strip() if obj.get("reply") is not None else ""
+            emotion = (obj.get("emotion") or "").strip() or "平常"
+            if emotion not in self.VALID_EMOTION_TAGS:
+                emotion = "平常"
+            memory_to_save = obj.get("memory_to_save")
+            if memory_to_save is not None and isinstance(memory_to_save, str):
+                memory_to_save = memory_to_save.strip() or None
+            else:
+                memory_to_save = None
+            memory_topic = obj.get("memory_topic")
+            if memory_topic is not None and isinstance(memory_topic, str):
+                memory_topic = memory_topic.strip() or None
+            else:
+                memory_topic = None
+            favorability_delta = obj.get("favorability_delta")
+            if favorability_delta is not None and not isinstance(favorability_delta, int):
+                favorability_delta = None
+            print(f"[LLM-JSON] 解析成功 | emotion={emotion} | reply_len={len(reply)} | memory_to_save={memory_to_save!r} | memory_topic={memory_topic!r} | favorability_delta={favorability_delta}")
+            return reply, emotion, memory_to_save, memory_topic, favorability_delta, True
+        except Exception:
+            pass
+        # 回退：幻觉截断 + 情绪标签剥离
+        hallucination_marker = "【刚刚对屏幕的评论】"
+        if hallucination_marker in raw:
+            pos = raw.find(hallucination_marker)
+            raw = raw[:pos].strip()
+        clean_reply, emotion_tag = self._extract_and_strip_emotion_tag(raw)
+        print(f"[LLM-JSON] 回退到标签解析 | emotion={emotion_tag} | reply_len={len(clean_reply)}")
+        return clean_reply, emotion_tag, None, None, None, False
+
+    def get_long_term_memory(self) -> LongTermMemory | None:
+        """供设置页记忆管理 UI 使用"""
+        return getattr(self, "_long_term_memory", None)
     
     # ---------- Persona（原有逻辑，无改动） ----------
     def _load_persona(self):
@@ -115,46 +191,91 @@ class ChatManager:
         """检索知识库，返回相关片段"""
         return self.knowledge_base.retrieve(query)
     
-    # 新增：带情绪标签返回的聊天方法
-    def chat_with_tag(self, user_text: str) -> tuple[str | None, str]:
+    # 带情绪标签返回的聊天方法；返回 (reply, emotion_tag, error_message)，error_message 非空时仅展示红色气泡
+    def chat_with_tag(self, user_text: str) -> tuple[str | None, str, str | None]:
         self._append_user(user_text)
         messages = self._build_chat_messages()
-        reply = self._request_llm(messages)
-        if reply:
-            import re
-            
-            # ========== 关键修复：剔除从第一个【刚刚对屏幕的评论】开始的所有内容 ==========
-            # 策略：找到第一个【刚刚对屏幕的评论】的位置，直接截断后面所有内容
-            hallucination_marker = '【刚刚对屏幕的评论】'
-            
-            if hallucination_marker in reply:
-                # 找到第一个标记的位置，保留之前的内容
-                first_marker_pos = reply.find(hallucination_marker)
-                reply_without_hallucination = reply[:first_marker_pos].strip()
-                print(f"[过滤LLM幻觉] 检测到幻觉标记，已截断")
-                print(f"  原始长度: {len(reply)} | 清理后长度: {len(reply_without_hallucination)}")
-            else:
-                reply_without_hallucination = reply
-            
-            # 从清理后的内容中提取情绪标签
-            clean_reply, emotion_tag = self._extract_and_strip_emotion_tag(reply_without_hallucination)
-        
-            # 保存清理后的内容到聊天历史
-            self._append_assistant(clean_reply)
-        
-            print(f"[LLM-聊天回复] 情绪标签：{emotion_tag} | 内容预览：{clean_reply[:50]}...")
-            return clean_reply, emotion_tag
-        return None, "平常"
+        reply_raw = self._request_llm(messages, response_format_json=True)
+        if not (reply_raw or "").strip():
+            print("[LLM-聊天] API 返回空")
+            return None, "平常", "LLM 返回了空回复"
+        reply, emotion, memory_to_save, memory_topic, favorability_delta, json_ok = self._parse_llm_response(reply_raw)
+        # 解析成功但 reply 为空
+        if json_ok and not (reply or "").strip():
+            print("[LLM-聊天] JSON 中 reply 为空")
+            return None, "平常", "LLM 返回了空回复"
+        self._append_assistant(reply or "")
+        # 长期记忆写入：若开关开启且 LLM 返回了 memory_to_save 则写入（带 topic 便于同主题合并）
+        if json_ok and (memory_to_save or "").strip() and self.sm.get("behavior", "long_term_memory_enabled", default=False) and self._long_term_memory:
+            try:
+                self._long_term_memory.add_or_update(
+                    (memory_to_save or "").strip(),
+                    topic=(memory_topic or "").strip() or None,
+                )
+            except Exception as e:
+                print(f"[ChatManager] 长期记忆写入失败: {e}")
+        if json_ok:
+            print(f"[LLM-聊天回复] 情绪：{emotion} | 内容预览：{(reply or '')[:50]}...")
+            return reply, emotion, None
+        print(f"[LLM-聊天回复] 回退解析 情绪：{emotion} | 内容预览：{(reply or '')[:50]}...")
+        return reply, emotion, None
 
-    # ---------- 以下所有方法完全保留原有逻辑，无改动 ----------
     def chat(self, user_text: str) -> str | None:
-        pure_reply, _ = self.chat_with_tag(user_text)
+        pure_reply, _, _ = self.chat_with_tag(user_text)
         return pure_reply
 
-    # 新增：带情绪标签返回的屏幕观察方法
+    def _extract_memory_from_screen_description(self, description: str) -> None:
+        """
+        从屏幕截图的描述中抽取长期记忆，规则与聊天一致：非每次必抽、半结构化（topic+content）。
+        仅当长期记忆开关开启且描述非空时调用；抽取结果若有 memory_to_save 则写入记忆库。
+        """
+        if not (description or "").strip() or not self._long_term_memory:
+            return
+        prompt = (
+            "下面是对用户电脑屏幕内容的客观描述。\n"
+            "若其中包含与**用户本人**相关的、值得长期记住的信息（如用户偏好、习惯、正在做的重要事项、工作/学习内容等），"
+            "请输出 JSON：{\"memory_to_save\":\"一条简短概括句\",\"memory_topic\":\"主题词（如饮酒、偏好、工作）\"}；"
+            "若无则输出 {\"memory_to_save\":null,\"memory_topic\":null}。\n"
+            "只输出 JSON，且用 Markdown 代码块包裹，例如：\n```json\n{\"memory_to_save\":\"……\",\"memory_topic\":\"……\"}\n```"
+        )
+        messages = [
+            {"role": "system", "content": "你只输出一个 JSON 对象，包含 memory_to_save 和 memory_topic；无值得记忆的内容时二者为 null。输出时用 Markdown 代码块包裹：```json\n{...}\n```"},
+            {"role": "user", "content": prompt + "\n\n屏幕描述：\n" + (description or "").strip()[:2000]},
+        ]
+        raw = self._request_llm(messages, response_format_json=True)
+        if not (raw or "").strip():
+            return
+        raw = raw.strip()
+        if raw.startswith("```"):
+            for prefix in ("```json", "```"):
+                if raw.startswith(prefix):
+                    raw = raw[len(prefix):].strip()
+                    break
+            if raw.endswith("```"):
+                raw = raw[:-3].strip()
+        try:
+            obj = json.loads(raw)
+            if not isinstance(obj, dict):
+                return
+            memory_to_save = obj.get("memory_to_save")
+            if memory_to_save is not None and isinstance(memory_to_save, str):
+                memory_to_save = memory_to_save.strip()
+            else:
+                memory_to_save = ""
+            memory_topic = obj.get("memory_topic")
+            if memory_topic is not None and isinstance(memory_topic, str):
+                memory_topic = memory_topic.strip() or None
+            else:
+                memory_topic = None
+            if memory_to_save:
+                self._long_term_memory.add_or_update(memory_to_save, topic=memory_topic)
+                print(f"[长期记忆-屏幕] 抽取写入 | topic={memory_topic!r} | content={memory_to_save[:50]}...")
+        except Exception as e:
+            print(f"[ChatManager] 屏幕描述记忆抽取解析失败: {e}")
+
+    # 带情绪标签返回的屏幕观察方法；可选从屏幕描述中抽取长期记忆（规则与聊天一致）
     def send_screen_observation_with_tag(self, description: str) -> tuple[str | None, str]:
         knowledge_context = self._retrieve_knowledge(description)
-        # 替换：删除原有重复的 Prompt，调用通用方法
         emotion_instruction = self._get_emotion_tag_prompt()
         system_content = self._build_persona() + knowledge_context + emotion_instruction
         messages = [
@@ -172,11 +293,7 @@ class ChatManager:
         ]
         reply = self._request_llm(messages)
         if reply:
-            # ========== 第一步：先提取情绪标签（原始reply） ==========
             pure_reply, emotion_tag = self._extract_and_strip_emotion_tag(reply)
-        
-            # ========== 第二步：剔除幻觉内容（仅针对非屏幕观察场景） ==========
-            # 注意：屏幕观察场景本身需要保留【刚刚对屏幕的评论】前缀，所以跳过剔除
             if not pure_reply.startswith("【刚刚对屏幕的评论】"):
                 import re
                 screen_comment_pattern = r'\s*【刚刚对屏幕的评论】.*'
@@ -186,14 +303,22 @@ class ChatManager:
                     pure_reply,
                     flags=re.DOTALL
                 ).strip()
-        
-            # ========== 第三步：拼接前缀并保存历史 ==========
             assistant_msg = f"【刚刚对屏幕的评论】\n{pure_reply}" if pure_reply else ""
             self._append_assistant(assistant_msg)
-        
             print(f"[LLM-屏幕观察] 情绪标签：{emotion_tag} | 内容预览：{pure_reply[:50]}...")
+            # 长期记忆：从屏幕描述中抽取（与聊天规则一致，非每次必抽、半结构化）
+            if self.sm.get("behavior", "long_term_memory_enabled", default=False) and self._long_term_memory and (description or "").strip():
+                try:
+                    self._extract_memory_from_screen_description(description)
+                except Exception as e:
+                    print(f"[ChatManager] 屏幕观察长期记忆抽取失败: {e}")
             return pure_reply, emotion_tag
-    
+        # 即使评论失败也尝试从描述抽取记忆（若开启长期记忆）
+        if self.sm.get("behavior", "long_term_memory_enabled", default=False) and self._long_term_memory and (description or "").strip():
+            try:
+                self._extract_memory_from_screen_description(description)
+            except Exception as e:
+                print(f"[ChatManager] 屏幕观察长期记忆抽取失败: {e}")
         return None, "平常"
 
     # 原有screen_observation方法兼容
@@ -246,15 +371,27 @@ class ChatManager:
     def _build_chat_messages(self):
         query = self.chat_history[-1]["content"].split("\n", 1)[0].strip() if (self.chat_history and self.chat_history[-1]["role"] == "user") else ""
         knowledge_context = self._retrieve_knowledge(query)
-        # 替换：删除原有简化版 Prompt，调用通用方法
-        emotion_instruction = self._get_emotion_tag_prompt()
-        system_content = self._build_persona() + knowledge_context + emotion_instruction
+        # 长期记忆：若开关开启则检索并注入「关于该用户的已知信息」
+        memory_block = ""
+        if self.sm.get("behavior", "long_term_memory_enabled", default=False) and self._long_term_memory:
+            try:
+                hits = self._long_term_memory.search(query, top_k=5)
+                if hits:
+                    memory_block = "\n\n【关于该用户的已知信息】\n" + "\n".join(hits) + "\n（仅作参考，回答须符合角色人设。）"
+            except Exception as e:
+                print(f"[ChatManager] 长期记忆检索失败: {e}")
+        json_instruction = self._get_json_output_instruction()
+        system_content = self._build_persona() + knowledge_context + memory_block + json_instruction
         return [
             {"role": "system", "content": system_content},
             *self.chat_history,
         ]
 
-    def _request_llm(self, messages: list[dict]) -> str | None:
+    def _request_llm(self, messages: list[dict], response_format_json: bool = False) -> str | None:
+        """
+        发起 LLM 请求。response_format_json 为 True 时（仅聊天场景）才在 payload 中加入
+        response_format: json_object；屏幕观察使用情绪标签格式，不传此参数，避免 400。
+        """
         provider = self.sm.get("llm", "provider", default="deepseek")
         api_key = self.sm.get("llm", "api_key", default="")
         base_url = self.sm.get("llm", "base_url", default="")
@@ -288,6 +425,9 @@ class ChatManager:
             "max_tokens": max_tokens,
             "stream": False,
         }
+        # 仅聊天场景要求 JSON 输出；屏幕观察使用【情绪标签】格式，不设 response_format 避免接口 400
+        if response_format_json:
+            payload["response_format"] = {"type": "json_object"}
 
         try:
             resp = requests.post(

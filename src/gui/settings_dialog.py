@@ -8,19 +8,49 @@ from PySide6.QtWidgets import (
     QDialog, QVBoxLayout, QFormLayout, QHBoxLayout,
     QLabel, QDoubleSpinBox, QSpinBox, QCheckBox,
     QPushButton, QLineEdit, QGroupBox, QComboBox,
-    QTabWidget, QWidget, QSizePolicy  # ✅ 新增导入 QSizePolicy
+    QTabWidget, QWidget, QSizePolicy,
+    QListWidget, QListWidgetItem, QMessageBox, QAbstractItemView,
+    QTextEdit, QDialogButtonBox,
 )
 from PySide6.QtCore import Qt
 from utils import resource_path
+
+
+class _MemoryContentEditDialog(QDialog):
+    """仅编辑记忆正文的对话框；主题（topic）以只读形式展示，不可编辑。"""
+
+    def __init__(self, content: str, topic: str, parent=None):
+        super().__init__(parent)
+        self.setWindowTitle("编辑记忆内容")
+        layout = QVBoxLayout(self)
+        if topic:
+            layout.addWidget(QLabel(f"当前主题（不可编辑）：{topic}"))
+        else:
+            layout.addWidget(QLabel("当前主题（不可编辑）：无"))
+        layout.addWidget(QLabel("记忆内容："))
+        self._text = QTextEdit()
+        self._text.setPlainText(content)
+        self._text.setMinimumHeight(120)
+        layout.addWidget(self._text)
+        btns = QDialogButtonBox(QDialogButtonBox.StandardButton.Ok | QDialogButtonBox.StandardButton.Cancel)
+        btns.accepted.connect(self.accept)
+        btns.rejected.connect(self.reject)
+        layout.addWidget(btns)
+
+    def get_content(self) -> str:
+        return self._text.toPlainText()
+
 
 class SettingsDialog(QDialog):
     """
     桌宠设置对话框类（模态窗口）
     使用 QTabWidget 组织不同类型的设置项。
     """
-    def __init__(self, settings_manager, parent=None):
+    def __init__(self, settings_manager, parent=None, long_term_memory=None):
         super().__init__(parent)
         self.sm = settings_manager
+        # 长期记忆模块引用，由打开设置的一方传入（如 PetWindow/Tray），用于记忆管理标签页
+        self._long_term_memory = long_term_memory
 
         self.setWindowTitle("桌宠设置")
         self.setWindowModality(Qt.ApplicationModal)
@@ -55,6 +85,11 @@ class SettingsDialog(QDialog):
         self.model_tab = QWidget()
         self._build_model_tab()
         self.tab_widget.addTab(self.model_tab, "模型设置")
+
+        # 1.3 第三个标签：记忆管理（长期记忆列表、删除、清空）
+        self.memory_tab = QWidget()
+        self._build_memory_tab()
+        self.tab_widget.addTab(self.memory_tab, "记忆管理")
 
         # 将标签页添加到主布局
         main_layout.addWidget(self.tab_widget)
@@ -101,6 +136,9 @@ class SettingsDialog(QDialog):
         self.temp_bubble_duration = QSpinBox()
         self.temp_bubble_duration.setRange(1, 60)
         form.addRow("临时聊天气泡显示时长 (秒)", self.temp_bubble_duration)
+
+        self.long_term_memory_cb = QCheckBox("启用长期记忆")
+        form.addRow("长期记忆", self.long_term_memory_cb)
 
         self.user_name = QLineEdit()
         form.addRow("桌宠称呼用户为", self.user_name)
@@ -159,6 +197,123 @@ class SettingsDialog(QDialog):
         self.provider_combo.currentTextChanged.connect(self._on_provider_changed)
 
         return group
+
+    # ---------- 记忆管理标签页 ----------
+    def _build_memory_tab(self):
+        layout = QVBoxLayout(self.memory_tab)
+        self.memory_list = QListWidget()
+        self.memory_list.setSelectionMode(QAbstractItemView.SingleSelection)
+        self.memory_list.setMinimumHeight(200)
+        layout.addWidget(QLabel("已存储的长期记忆（与用户相关的重要信息）："))
+        layout.addWidget(self.memory_list)
+        btn_row = QHBoxLayout()
+        self.memory_refresh_btn = QPushButton("刷新列表")
+        self.memory_edit_btn = QPushButton("编辑内容")
+        self.memory_delete_btn = QPushButton("删除选中")
+        self.memory_clear_btn = QPushButton("清空全部")
+        self.memory_refresh_btn.clicked.connect(self._on_memory_refresh)
+        self.memory_edit_btn.clicked.connect(self._on_memory_edit_content)
+        self.memory_delete_btn.clicked.connect(self._on_memory_delete_one)
+        self.memory_clear_btn.clicked.connect(self._on_memory_clear_all)
+        btn_row.addWidget(self.memory_refresh_btn)
+        btn_row.addWidget(self.memory_edit_btn)
+        btn_row.addWidget(self.memory_delete_btn)
+        btn_row.addWidget(self.memory_clear_btn)
+        layout.addLayout(btn_row)
+        layout.addStretch()
+        # 初次加载列表
+        self._on_memory_refresh()
+
+    def _on_memory_refresh(self):
+        """从长期记忆模块拉取列表并显示"""
+        self.memory_list.clear()
+        if not self._long_term_memory:
+            self.memory_list.addItem(QListWidgetItem("（未连接长期记忆模块，请从主窗口打开设置）"))
+            return
+        try:
+            items = self._long_term_memory.list_all()
+            for it in items:
+                topic_part = f"[{it.get('topic', '')}] " if it.get('topic') else ""
+                text = f"#{it['id']} {topic_part}{it['content'][:80]}{'…' if len(it.get('content', '')) > 80 else ''}"
+                row = QListWidgetItem(text)
+                row.setData(Qt.UserRole, it["id"])
+                self.memory_list.addItem(row)
+            if not items:
+                self.memory_list.addItem(QListWidgetItem("（暂无记忆）"))
+        except Exception as e:
+            self.memory_list.addItem(QListWidgetItem(f"（加载失败: {e}）"))
+
+    def _on_memory_edit_content(self):
+        """编辑选中记忆的文本内容（不编辑 topic）"""
+        if not self._long_term_memory:
+            return
+        cur = self.memory_list.currentItem()
+        if not cur:
+            QMessageBox.information(self, "提示", "请先选中一条记忆")
+            return
+        id_val = cur.data(Qt.UserRole)
+        if id_val is None:
+            return
+        id_int = int(id_val)
+        mem = self._long_term_memory.get_by_id(id_int)
+        if not mem:
+            QMessageBox.warning(self, "错误", "该记忆不存在或已被删除")
+            return
+        dlg = _MemoryContentEditDialog(
+            content=mem["content"],
+            topic=mem.get("topic") or "",
+            parent=self,
+        )
+        if dlg.exec() != QDialog.DialogCode.Accepted:
+            return
+        new_content = dlg.get_content()
+        if not (new_content or "").strip():
+            QMessageBox.warning(self, "提示", "内容不能为空")
+            return
+        try:
+            ok = self._long_term_memory.update_content_by_id(id_int, new_content.strip())
+            if ok:
+                self._on_memory_refresh()
+                QMessageBox.information(self, "提示", "已保存")
+            else:
+                QMessageBox.warning(self, "错误", "更新失败（可能 embedding 未就绪）")
+        except Exception as e:
+            QMessageBox.warning(self, "错误", f"更新失败: {e}")
+
+    def _on_memory_delete_one(self):
+        """删除选中的一条记忆"""
+        if not self._long_term_memory:
+            return
+        cur = self.memory_list.currentItem()
+        if not cur:
+            QMessageBox.information(self, "提示", "请先选中一条记忆")
+            return
+        id_val = cur.data(Qt.UserRole)
+        if id_val is None:
+            return
+        if QMessageBox.Yes != QMessageBox.question(
+            self, "确认", "确定要删除这条记忆吗？", QMessageBox.Yes | QMessageBox.No, QMessageBox.No
+        ):
+            return
+        try:
+            self._long_term_memory.delete_by_id(int(id_val))
+            self._on_memory_refresh()
+        except Exception as e:
+            QMessageBox.warning(self, "错误", f"删除失败: {e}")
+
+    def _on_memory_clear_all(self):
+        """清空全部记忆（二次确认）"""
+        if not self._long_term_memory:
+            return
+        if QMessageBox.Yes != QMessageBox.question(
+            self, "确认", "确定要清空全部长期记忆吗？此操作不可恢复。", QMessageBox.Yes | QMessageBox.No, QMessageBox.No
+        ):
+            return
+        try:
+            self._long_term_memory.clear_all()
+            self._on_memory_refresh()
+        except Exception as e:
+            QMessageBox.warning(self, "错误", f"清空失败: {e}")
     
     # ---------- 视觉模型组构建方法 ----------
     def _build_vision_group(self):
@@ -194,6 +349,9 @@ class SettingsDialog(QDialog):
         self.temp_bubble_duration.setValue(
             self.sm.get("behavior", "temp_bubble_duration_s", default=10)
         )
+        self.long_term_memory_cb.setChecked(
+            self.sm.get("behavior", "long_term_memory_enabled", default=False)
+        )
         self.user_name.setText(
             self.sm.get("user", "display_name", default="主人") or ""
         )
@@ -226,6 +384,9 @@ class SettingsDialog(QDialog):
         )
         self.sm.set(
             "behavior", "temp_bubble_duration_s", value=int(self.temp_bubble_duration.value()), save_now=False
+        )
+        self.sm.set(
+            "behavior", "long_term_memory_enabled", value=self.long_term_memory_cb.isChecked(), save_now=False
         )
         self.sm.set("user", "display_name", value=self.user_name.text().strip(), save_now=False)
 

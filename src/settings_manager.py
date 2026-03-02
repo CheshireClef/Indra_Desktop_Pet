@@ -20,7 +20,8 @@ DEFAULTS = {
         "idle_interval_s": 7,
         "screen_watch_enabled": False,
         "screen_watch_interval_s": 60,
-        "temp_bubble_duration_s": 8  # 新增：临时气泡默认时长10秒
+        "temp_bubble_duration_s": 8,
+        "long_term_memory_enabled": False  # 长期记忆开关，默认关闭
     },
     "user": {
         "display_name": "主人"

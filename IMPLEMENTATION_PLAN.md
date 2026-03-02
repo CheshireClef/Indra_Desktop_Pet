@@ -66,22 +66,33 @@
 
 ---
 
-## 阶段七：可选后续（按 PRD/Todo 迭代）
+## 阶段七：LLM JSON 结构化输出与长期记忆升级
 
 | 步骤 | 内容 | 主要涉及 | 说明 |
 |------|------|----------|------|
-| 7.1 | 戳一戳互动动画 | `src/gui/pet_window.py`, `src/gui/animation.py` | 点击/戳动事件触发专用动画 |
-| 7.2 | 闲置待机动画 | `src/gui/animation.py`, `src/gui/pet_window.py` | 打瞌睡、随机漫游等，与 idle_interval_s 配合 |
-| 7.3 | 长期记忆优化 | `src/llm/`（新或扩展现有） | 跨会话或长对话记忆与引用，设计待定 |
-| 7.4 | 好感度等游戏性 | 待定 | 与互动行为挂钩的数值/成就，见 PRD 未来想法 |
-| 7.5 | 可选持久化 | 新模块 + config 或本地 DB/文件 | 聊天记录、截图/评论是否保存及格式，见 PRD 可选持久化需求 |
+| 7.1 | LLM JSON 结构化输出 | `src/llm/chat_manager.py` | prompt 中要求只输出 JSON（reply、emotion、memory_to_save、favorability_delta）；OpenAI/DeepSeek 等厂商 response_format；解析成功取 reply/emotion，失败走现有情绪标签剥离+幻觉剔除；空回复红色 TempBubble |
+| 7.2 | 长期记忆模块（SQLite+向量） | `src/llm/long_term_memory.py`（新建）, `src/llm/knowledge_base.py` | 单库 user_memory.db、memories 表；KnowledgeBase 暴露 _embed_model 与 get_embedding；记忆模块 add_or_update/search/delete_by_id/clear_all/list_all；去重与冲突更新 |
+| 7.3 | 设置页长期记忆开关与记忆管理 UI | `src/gui/settings_dialog.py`, `src/settings_manager.py` | behavior.long_term_memory_enabled 开关；记忆管理标签页：列表、单条删除、清空+二次确认 |
+| 7.4 | 记忆闭环（检索注入+写入） | `src/llm/chat_manager.py` | _build_chat_messages 中若开关开启则 search 并注入「【关于该用户的已知信息】」；解析 JSON 后若 memory_to_save 非空则 add_or_update |
+| 7.5 | 文档同步 | BACKEND_STRUCTURE.md, IMPLEMENTATION_PLAN.md, PRD.md, progress.txt, TECH_STACK.md | 根据实际实现更新，使描述与代码一致 |
+
+---
+
+## 阶段八：可选后续（按 PRD/Todo 迭代）
+
+| 步骤 | 内容 | 主要涉及 | 说明 |
+|------|------|----------|------|
+| 8.1 | 戳一戳互动动画 | `src/gui/pet_window.py`, `src/gui/animation.py` | 点击/戳动事件触发专用动画 |
+| 8.2 | 闲置待机动画 | `src/gui/animation.py`, `src/gui/pet_window.py` | 打瞌睡、随机漫游等，与 idle_interval_s 配合 |
+| 8.3 | 好感度等游戏性 | 待定 | 与互动行为挂钩的数值/成就，见 PRD 未来想法；可复用 JSON 中 favorability_delta |
+| 8.4 | 可选持久化 | 新模块 + config 或本地 DB/文件 | 聊天记录、截图/评论是否保存及格式，见 PRD 可选持久化需求 |
 
 ---
 
 ## 文档与进度维护
 
 - 实现过程中重要节点可在 `progress.txt` 的「已完成」中补充日期或备注。
-- 新功能或想法先更新 PRD（含「未来想法」/「可选持久化」），再在本文档阶段七或新阶段中增加对应步骤，并在 progress.txt「接下来」中体现。
+- 新功能或想法先更新 PRD（含「未来想法」/「可选持久化」），再在本文档阶段八或新阶段中增加对应步骤，并在 progress.txt「接下来」中体现。
 
 ---
 

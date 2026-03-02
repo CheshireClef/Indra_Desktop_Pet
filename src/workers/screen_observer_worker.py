@@ -35,9 +35,9 @@ class ScreenObserveWorker(QThread):
             if not description.strip():
                 raise Exception("视觉模型返回空描述")
             
-            # 3. 生成评论
+            # 3. 生成评论（reply 可能为 None，如 LLM 请求失败时）
             reply, emotion_tag = self.chat_manager.send_screen_observation_with_tag(description)
-            if not reply.strip():
+            if not reply or not reply.strip():
                 raise Exception("未生成有效评论")
 
             self.finished.emit(reply, emotion_tag)  # 传递情绪标签

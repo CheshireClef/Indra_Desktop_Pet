@@ -38,7 +38,7 @@
 
 ### 2.3 标准库（无额外安装）
 
-- `json`, `os`, `sys`, `copy`, `threading`, `hashlib`, `pathlib`, `typing`, `webbrowser`, `ast`, `pydoc`, `pyexpat` 等（部分为未使用或误用导入，不影响运行）。
+- `json`, `os`, `sys`, `copy`, `threading`, `hashlib`, `pathlib`, `typing`, `webbrowser`, `struct`, `sqlite3` 等。其中 **sqlite3** 用于长期记忆模块（`src/llm/long_term_memory.py`）的 SQLite 存储与向量 BLOB 读写。
 
 ---
 
@@ -67,6 +67,7 @@
 | **models/gte-multilingual-base** | 本地嵌入模型目录，须含 `config.json`, `modeling.py`, `configuration.py` 及权重（`.bin` 或 `.safetensors`），离线 RAG 检索用 |
 | **assets/** | 立绘、图标等 UI 资源 |
 | **config/** | 用户配置目录，主文件为 `config/settings.json` |
+| **config/user_memory.db** | 长期记忆 SQLite 库（开启长期记忆时由程序创建），表 `memories` 存 content + embedding BLOB |
 | **src/llm/knowledge/** | 知识库源数据：`lore/`（设定与剧情）、`style/`（语气风格） |
 | **src/llm/knowledge_db/** | LlamaIndex 持久化索引（由程序按需生成/重建，一般不手改） |
 | **screenshots/** | 屏幕观察产生的截图临时目录，保留数量由 `vision.keep_last_n_screenshots` 控制 |
