@@ -78,6 +78,15 @@
 
 ---
 
+## 阶段七（续）：长期记忆混合评分与合并时间戳
+
+| 步骤 | 内容 | 主要涉及 | 说明 |
+|------|------|----------|------|
+| 7.6 | 长期记忆混合评分检索 | `src/llm/long_term_memory.py` | 增加混合评分常量（W_SEM、W_TIME、半衰期 30 天）；基于 updated_at 的艾宾浩斯时间衰减；实现 search_with_scores() 返回 (content, score)，search() 委托至 search_with_scores 并仅返回 content 列表 |
+| 7.7 | 合并时保留最早 created_at | `src/llm/long_term_memory.py` | _get_cluster_by_topic_embedding 查询并写入 cluster 的 created_at；_merge_cluster 插入时 created_at 取簇内最小值，updated_at 仍为 now |
+
+---
+
 ## 阶段八：可选后续（按 PRD/Todo 迭代）
 
 | 步骤 | 内容 | 主要涉及 | 说明 |

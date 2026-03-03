@@ -375,11 +375,12 @@ class ChatManager:
         memory_block = ""
         if self.sm.get("behavior", "long_term_memory_enabled", default=False) and self._long_term_memory:
             try:
-                hits = self._long_term_memory.search(query, top_k=5)
+                hits_with_scores = self._long_term_memory.search_with_scores(query, top_k=5)
+                hits = [c for c, _ in hits_with_scores]
                 if hits:
                     memory_block = "\n\n【关于该用户的已知信息】\n" + "\n".join(hits) + "\n（仅作参考，回答须符合角色人设。）"
-                    # 调试：将匹配到的长期记忆打印到终端
-                    print("[ChatManager] 长期记忆注入（参考）:", hits)
+                    # 调试：打印匹配到的长期记忆及综合得分
+                    print("[ChatManager] 长期记忆注入（参考）:", [(c[:50] + ("…" if len(c) > 50 else ""), round(s, 4)) for c, s in hits_with_scores])
             except Exception as e:
                 print(f"[ChatManager] 长期记忆检索失败: {e}")
         json_instruction = self._get_json_output_instruction()

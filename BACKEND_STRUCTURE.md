@@ -142,14 +142,14 @@
 | `topic_embedding` | BLOB | 主题的向量，用于按主题相似度聚类（相近主题视为同一 topic） |
 
 - 写入时由 `LongTermMemory` 通过 `KnowledgeBase.get_embedding` 获取 content 与 topic 的向量，与 RAG 共用 `gte-multilingual-base`。
-- 检索：对当前用户消息做向量相似度检索（按 content embedding），取 top-k 条注入 system prompt「【关于该用户的已知信息】」。
+- **检索（混合评分）**：对当前用户消息按 **score = 1.2×语义相似度 + 0.3×时间衰减** 排序，取 top-k 条注入 system prompt「【关于该用户的已知信息】」。语义相似度为 content embedding 与查询向量的余弦相似度；时间衰减基于艾宾浩斯遗忘曲线，半衰期 30 天，由 `updated_at` 距今天数计算。接口 `search_with_scores(query, top_k)` 返回 `(content, score)` 列表供调试，`search(query, top_k)` 仅返回 content 列表。
 - 去重：新记忆与已有记录 **content** 相似度超过阈值则更新该条，否则插入新记录。
-- **同主题合并**：按 **topic 向量相似度** 聚类（阈值见 `TOPIC_SIMILARITY_THRESHOLD`）；当同一簇内条数达到 **5 的倍数**（5、10、15…）时，将该簇所有记忆交给 LLM 合并为若干条精简句（每条≤50 字），输出 JSON 且需用 Markdown 代码块包裹，写回后删除原簇行。合并失败则不删原数据。
+- **同主题合并**：按 **topic 向量相似度** 聚类（阈值见 `TOPIC_SIMILARITY_THRESHOLD`）；当同一簇内条数达到 **5 的倍数**（5、10、15…）时，将该簇所有记忆交给 LLM 合并为若干条精简句（每条≤50 字），输出 JSON 且需用 Markdown 代码块包裹，写回后删除原簇行。合并后新记忆的 **created_at** 取簇内**最早的** `created_at`，**updated_at** 为合并发生时间（合并视为复习/巩固）。合并失败则不删原数据。
 
 ### 3.3 与 ChatManager 的调用关系
 
 - `ChatManager` 在初始化时创建 `LongTermMemory(knowledge_base, merge_llm_caller=...)`，合并时通过 `merge_llm_caller` 调用 LLM（JSON 结构化输出 + Markdown 包裹）。
-- 在 `_build_chat_messages` 中若 `long_term_memory_enabled` 为真则调用 `search(query)` 并注入 system。
+- 在 `_build_chat_messages` 中若 `long_term_memory_enabled` 为真则调用 `search_with_scores(query, top_k=5)` 取得带分列表，用 content 拼 memory_block 注入 system，调试时打印综合得分。
 - 在解析 LLM 返回的 JSON 后若 `memory_to_save` 非空则调用 `add_or_update(memory_to_save, topic=memory_topic)`；`memory_topic` 由 LLM 在 JSON 中可选返回，用于主题聚类与合并触发。
 - 设置页「记忆管理」标签通过 `ChatManager.get_long_term_memory()` 获取实例，提供列表（含 topic 展示）、单条删除、清空全部（含二次确认）。
 

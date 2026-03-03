@@ -128,6 +128,9 @@ class SettingsDialog(QDialog):
         self.screen_watch_cb = QCheckBox("启用屏幕监视")
         form.addRow(self.screen_watch_cb)
 
+        self.long_term_memory_cb = QCheckBox("启用长期记忆")
+        form.addRow(self.long_term_memory_cb)
+
         self.screen_watch_interval = QSpinBox()
         self.screen_watch_interval.setRange(5, 10800)
         form.addRow("屏幕监视间隔 (秒)", self.screen_watch_interval)
@@ -136,9 +139,6 @@ class SettingsDialog(QDialog):
         self.temp_bubble_duration = QSpinBox()
         self.temp_bubble_duration.setRange(1, 60)
         form.addRow("临时聊天气泡显示时长 (秒)", self.temp_bubble_duration)
-
-        self.long_term_memory_cb = QCheckBox("启用长期记忆")
-        form.addRow("长期记忆", self.long_term_memory_cb)
 
         self.user_name = QLineEdit()
         form.addRow("桌宠称呼用户为", self.user_name)

@@ -4,12 +4,15 @@
 向量用于检索「与当前对话最相关的记忆」，embedding 复用 KnowledgeBase 的 gte-multilingual-base。
 支持半结构化：topic（主题）+ content（自由描述）；同主题按 topic 向量相似度聚类，
 当同一主题下条数达到 5 的倍数时触发合并，由 LLM 输出精简合并句（每条≤50 字，可多条）并写回。
+检索采用混合评分：语义相似度 + 时间衰减（艾宾浩斯曲线）。
 """
 import json
+import math
 import sqlite3
 import struct
+from datetime import datetime, timezone
 from pathlib import Path
-from typing import List, Optional, Any, Callable
+from typing import List, Optional, Any, Callable, Tuple
 
 from utils import resource_path
 
@@ -24,6 +27,12 @@ MERGE_COUNT_MULTIPLE = 5
 MERGE_MAX_CHARS_PER_ITEM = 50
 # 检索时返回的最大条数
 DEFAULT_TOP_K = 5
+
+# 混合评分：时间衰减（艾宾浩斯遗忘曲线）
+HALF_LIFE_DAYS = 30  # 半衰期（天）
+LAMBDA = math.log(2) / HALF_LIFE_DAYS  # 衰减系数
+W_SEM = 1.2   # 语义相似度权重
+W_TIME = 0.3  # 时间衰减权重
 
 
 def _embedding_to_blob(vec: List[float]) -> bytes:
@@ -42,6 +51,28 @@ def _cosine_similarity(a: List[float], b: List[float]) -> float:
     if not a or len(a) != len(b):
         return 0.0
     return sum(x * y for x, y in zip(a, b))
+
+
+def _time_decay_from_updated_at(updated_at: Optional[str]) -> float:
+    """
+    基于艾宾浩斯遗忘曲线，根据 updated_at 计算时间衰减因子。
+    半衰期 HALF_LIFE_DAYS 天：越新的记忆 time_decay 越接近 1，越旧越接近 0。
+    若 updated_at 缺失或解析失败则返回 0.5（折中）。
+    """
+    if not (updated_at or "").strip():
+        return 0.5
+    try:
+        s = (updated_at or "").strip().replace("Z", "+00:00")
+        dt = datetime.fromisoformat(s)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        now = datetime.now(timezone.utc)
+        delta_days = (now - dt).total_seconds() / 86400.0
+        if delta_days < 0:
+            delta_days = 0.0
+        return math.exp(-LAMBDA * delta_days)
+    except Exception:
+        return 0.5
 
 
 class LongTermMemory:
@@ -100,21 +131,25 @@ class LongTermMemory:
     def _get_cluster_by_topic_embedding(
         self, conn: sqlite3.Connection, topic_embedding: List[float]
     ) -> List[dict]:
-        """按 topic 向量相似度聚类，返回与该 topic 同簇的所有行（含 id、content、topic、topic_embedding）"""
-        topic_blob = _embedding_to_blob(topic_embedding)
+        """按 topic 向量相似度聚类，返回与该 topic 同簇的所有行（含 id、content、topic、created_at）"""
         rows = conn.execute(
-            "SELECT id, content, topic, topic_embedding FROM memories WHERE topic_embedding IS NOT NULL"
+            "SELECT id, content, topic, topic_embedding, created_at FROM memories WHERE topic_embedding IS NOT NULL"
         ).fetchall()
         cluster = []
         for row in rows:
-            rid, content, topic, te_blob = row
+            rid, content, topic, te_blob, created_at = row
             if not te_blob:
                 continue
             try:
                 te = _blob_to_embedding(te_blob)
                 sim = _cosine_similarity(topic_embedding, te)
                 if sim >= TOPIC_SIMILARITY_THRESHOLD:
-                    cluster.append({"id": rid, "content": content or "", "topic": topic})
+                    cluster.append({
+                        "id": rid,
+                        "content": content or "",
+                        "topic": topic,
+                        "created_at": created_at or "",
+                    })
             except Exception:
                 continue
         return cluster
@@ -158,8 +193,13 @@ class LongTermMemory:
             memories = obj.get("memories")
             if not isinstance(memories, list) or not memories:
                 return False
-            from datetime import datetime
             now = datetime.utcnow().isoformat() + "Z"
+            # 合并时保留簇内最早的 created_at（思路 A：合并=复习，updated_at 为 now）
+            created_at_min = min(
+                (c.get("created_at") or "").strip() or now for c in cluster
+            )
+            if not created_at_min:
+                created_at_min = now
             topic_embedding = self._get_embedding(topic)
             if not topic_embedding:
                 return False
@@ -177,7 +217,7 @@ class LongTermMemory:
                 conn.execute(
                     """INSERT INTO memories (content, embedding, created_at, updated_at, topic, topic_embedding)
                        VALUES (?,?,?,?,?,?)""",
-                    (text, _embedding_to_blob(vec), now, now, topic, topic_blob),
+                    (text, _embedding_to_blob(vec), created_at_min, now, topic, topic_blob),
                 )
             conn.commit()
             print(f"[长期记忆] 合并完成：{len(ids)} 条 → {len(memories)} 条 | topic={topic}")
@@ -255,31 +295,41 @@ class LongTermMemory:
         finally:
             conn.close()
 
-    def search(self, query: str, top_k: int = DEFAULT_TOP_K) -> List[str]:
-        """按向量相似度检索，返回 content 列表"""
+    def search_with_scores(self, query: str, top_k: int = DEFAULT_TOP_K) -> List[Tuple[str, float]]:
+        """
+        混合评分检索：score = W_SEM×语义相似度 + W_TIME×时间衰减。
+        时间衰减基于艾宾浩斯曲线，以 updated_at 距今天数计算。
+        返回 [(content, score), ...]，按 score 降序。
+        """
         vec = self._get_embedding(query)
         if vec is None:
             return []
         conn = sqlite3.connect(str(self.db_path))
         try:
             rows = conn.execute(
-                "SELECT id, content, embedding FROM memories"
+                "SELECT id, content, embedding, updated_at FROM memories"
             ).fetchall()
             scored = []
             for row in rows:
-                rid, content, emb_blob = row
+                rid, content, emb_blob, updated_at = row
                 if not emb_blob or not content:
                     continue
                 try:
                     ev = _blob_to_embedding(emb_blob)
                     sim = _cosine_similarity(vec, ev)
-                    scored.append((sim, content))
+                    time_decay = _time_decay_from_updated_at(updated_at)
+                    score = W_SEM * sim + W_TIME * time_decay
+                    scored.append((content, score))
                 except Exception:
                     continue
-            scored.sort(key=lambda x: -x[0])
-            return [c for _, c in scored[:top_k]]
+            scored.sort(key=lambda x: -x[1])
+            return scored[:top_k]
         finally:
             conn.close()
+
+    def search(self, query: str, top_k: int = DEFAULT_TOP_K) -> List[str]:
+        """按混合评分检索，仅返回 content 列表（委托至 search_with_scores）"""
+        return [c for c, _ in self.search_with_scores(query, top_k)]
 
     def get_by_id(self, id: int) -> Optional[dict]:
         """按 id 查询一条记忆，返回 dict（id, content, topic, created_at, updated_at），不存在返回 None"""

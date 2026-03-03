@@ -38,7 +38,7 @@
 
 ### 2.3 标准库（无额外安装）
 
-- `json`, `os`, `sys`, `copy`, `threading`, `hashlib`, `pathlib`, `typing`, `webbrowser`, `struct`, `sqlite3` 等。其中 **sqlite3** 用于长期记忆模块（`src/llm/long_term_memory.py`）的 SQLite 存储与向量 BLOB 读写。
+- `json`, `os`, `sys`, `copy`, `threading`, `hashlib`, `pathlib`, `typing`, `webbrowser`, `struct`, `sqlite3`, `math`, `datetime` 等。其中 **sqlite3** 用于长期记忆模块的 SQLite 存储与向量 BLOB 读写；**math**、**datetime** 用于长期记忆检索的混合评分（时间衰减计算）。无新增第三方依赖。
 
 ---
 

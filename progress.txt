@@ -13,6 +13,7 @@
 - RAG 知识库：lore（摩诃婆罗多分卷、FGO 剧情与角色）+ style（语气风格）双索引
 - 本地向量嵌入：gte-multilingual-base，离线
 - 长期记忆（SQLite+向量）：config/user_memory.db，开关默认关；检索注入 system、memory_to_save 有条件写入；去重与冲突更新；设置页记忆管理（列表、单条删除、清空+二次确认）
+- 长期记忆混合评分检索（语义相似度 + 时间衰减，半衰期 30 天）、合并时保留最早 created_at
 - 屏幕观察：定时截图 → 视觉模型描述 → LLM 带情绪标签评论 → 临时气泡展示
 - 根据回复情绪自动切换表情/Emoji
 - 配置持久化：config/settings.json，SettingsManager 热更新
