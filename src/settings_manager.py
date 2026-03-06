@@ -2,12 +2,53 @@
 """
 设置管理器模块
 负责加载、保存和管理应用程序的配置信息 (settings.json)，支持默认配置回退和热更新信号。
+
+开发环境安全说明：
+  - 未打包（开发环境）时，程序会优先从项目根目录的 .env 文件读取 LLM/视觉 API 密钥等敏感配置。
+  - .env 文件已加入 .gitignore，不会上传到 GitHub，避免密钥泄漏。
+  - 打包后的程序（sys.frozen=True）不读取 .env，所有配置均来自 settings.json，行为与现有版本完全一致。
 """
 import json
 import os
+import sys
 import copy
 from typing import Any, Dict
 from PySide6.QtCore import QObject, Signal
+
+# ========== 开发环境检测 ==========
+# getattr 兼容未打包时 sys 没有 frozen 属性的情况
+_IS_DEV = not getattr(sys, "frozen", False)
+
+if _IS_DEV:
+    # 开发环境下尝试加载项目根目录的 .env 文件
+    try:
+        from dotenv import load_dotenv
+        # 计算项目根目录（src/ 的上一级）
+        _root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        _env_path = os.path.join(_root_dir, ".env")
+        if os.path.exists(_env_path):
+            load_dotenv(_env_path)
+            print(f"[SettingsManager] 开发环境：已从 {_env_path} 加载 .env 配置")
+        else:
+            print("[SettingsManager] 开发环境：未找到 .env 文件，将使用 settings.json 中的配置")
+    except ImportError:
+        # 未安装 python-dotenv 时静默跳过，不影响打包版运行
+        print("[SettingsManager] 开发环境：未安装 python-dotenv，跳过 .env 加载")
+
+# ========== 环境变量 → settings 键路径 的映射 ==========
+# 格式：环境变量名 -> (settings 顶层键, 子键)
+# 只映射敏感/常变的字段；非敏感配置（如 model、temperature）仍从 settings.json 读取
+_ENV_KEY_MAP: Dict[str, tuple] = {
+    # LLM 相关
+    "LLM_PROVIDER":   ("llm", "provider"),
+    "LLM_API_KEY":    ("llm", "api_key"),
+    "LLM_BASE_URL":   ("llm", "base_url"),
+    "LLM_MODEL":      ("llm", "model"),
+    # 视觉 API 相关
+    "VISION_API_URL": ("vision", "api_url"),
+    "VISION_API_KEY": ("vision", "api_key"),
+    "VISION_MODEL":   ("vision", "model"),
+}
 
 DEFAULTS = {
     "pet": {
@@ -109,7 +150,24 @@ class SettingsManager(QObject):
         """
         安全的获取配置项
         用法: sm.get("llm", "api_key", default="")
+
+        优先级（开发环境）：
+          1. 环境变量（来自 .env 文件，仅开发环境生效）
+          2. settings.json 中的值
+          3. default 参数
+
+        打包环境下直接走 settings.json，行为与原版本一致。
         """
+        # 开发环境：先查环境变量映射表，有值则优先返回
+        if _IS_DEV and len(keys) == 2:
+            for env_var, mapped_keys in _ENV_KEY_MAP.items():
+                if mapped_keys == keys:
+                    env_val = os.environ.get(env_var)
+                    if env_val:  # 非空才覆盖，空字符串视为"未配置"
+                        return env_val
+                    break
+
+        # 从 settings.json 数据中读取
         d = self._data
         for k in keys:
             if isinstance(d, dict) and k in d:
