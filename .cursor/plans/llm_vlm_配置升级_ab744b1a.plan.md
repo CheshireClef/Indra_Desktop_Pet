@@ -4,25 +4,25 @@ overview: 分 6 个可独立验收的阶段，引入「预置 vendor + 动态 mo
 todos:
   - id: phase-0-hotfix
     content: Phase 0：screen_observer 空值防护 + response_format 400 单次重试 + extract_message_content
-    status: pending
+    status: completed
   - id: phase-1-infra
     content: Phase 1：registry.json、OpenAICompatibleClient、ModelService、settings v2 迁移与 chat_manager 接入
-    status: pending
+    status: completed
   - id: phase-2-capabilities
     content: Phase 2：catalog 拉模型、capabilities 探测、capabilities_cache、ModelListWorker/ProbeWorker
-    status: pending
+    status: completed
   - id: phase-3-output-modes
     content: Phase 3：output_modes 策略链，chat/memory/screen 分流，_build_chat_messages 按 output_mode 切换 prompt
-    status: pending
+    status: completed
   - id: phase-4-settings-ui
     content: Phase 4：settings_dialog 三区块 UI、刷新/测试连接/测试识图、识图不支持警告
-    status: pending
+    status: completed
   - id: phase-5-wireup
     content: Phase 5：pet_window 热更新、统一 vision 路径、废弃 qwen_vision 重复逻辑
-    status: pending
+    status: completed
   - id: phase-6-docs
     content: Phase 6：更新 docs/02、03、04、05、07、08 与 .env.example
-    status: pending
+    status: completed
 isProject: false
 ---
 

@@ -74,7 +74,7 @@ class ChatManager:
         # 长期记忆模块（SQLite+向量），合并时通过 merge_llm_caller 调用 LLM 做同主题精简
         self._long_term_memory = LongTermMemory(
             self.knowledge_base,
-            merge_llm_caller=lambda msgs: self._request_llm(msgs, response_format_json=True),
+            merge_llm_caller=lambda msgs: self._request_llm_json_light(msgs),
         )
 
         # ========== 提取并剥离情绪标签 ==========
@@ -194,8 +194,25 @@ class ChatManager:
     # 带情绪标签返回的聊天方法；返回 (reply, emotion_tag, error_message)，error_message 非空时仅展示红色气泡
     def chat_with_tag(self, user_text: str) -> tuple[str | None, str, str | None]:
         self._append_user(user_text)
-        messages = self._build_chat_messages()
-        reply_raw = self._request_llm(messages, response_format_json=True)
+        messages = self._build_chat_messages(use_json=True)
+        binding = self.sm.get_chat_binding()
+        cache = self.sm.get_capability_cache(
+            binding.get("connection_id", "default"),
+            binding.get("model", ""),
+        ) or {}
+        from llm.output_modes import chat_with_output_policy
+
+        reply_raw, _strategy = chat_with_output_policy(
+            messages=messages,
+            output_mode=binding.get("output_mode", "auto"),
+            cached_json_mode=cache.get("json_mode"),
+            llm_caller=lambda m: self._request_llm(m, response_format_json=False),
+            llm_caller_json_rf=lambda m: self._request_llm(m, response_format_json=True),
+            use_json_system=True,
+            use_natural_system=True,
+            rebuild_messages_json=lambda _m: self._build_chat_messages(use_json=True),
+            rebuild_messages_natural=lambda _m: self._build_chat_messages(use_json=False),
+        )
         if not (reply_raw or "").strip():
             print("[LLM-聊天] API 返回空")
             return None, "平常", "LLM 返回了空回复"
@@ -242,7 +259,7 @@ class ChatManager:
             {"role": "system", "content": "你只输出一个 JSON 对象，包含 memory_to_save 和 memory_topic；无值得记忆的内容时二者为 null。输出时用 Markdown 代码块包裹：```json\n{...}\n```"},
             {"role": "user", "content": prompt + "\n\n屏幕描述：\n" + (description or "").strip()[:2000]},
         ]
-        raw = self._request_llm(messages, response_format_json=True)
+        raw = self._request_llm_json_light(messages)
         if not (raw or "").strip():
             return
         raw = raw.strip()
@@ -368,7 +385,7 @@ class ChatManager:
         if len(self.chat_history) > max_msgs:
             self.chat_history = self.chat_history[-max_msgs:]
 
-    def _build_chat_messages(self):
+    def _build_chat_messages(self, *, use_json: bool = True):
         query = self.chat_history[-1]["content"].split("\n", 1)[0].strip() if (self.chat_history and self.chat_history[-1]["role"] == "user") else ""
         knowledge_context = self._retrieve_knowledge(query)
         # 长期记忆：若开关开启则检索并注入「关于该用户的已知信息」
@@ -383,68 +400,49 @@ class ChatManager:
                     print("[ChatManager] 长期记忆注入（参考）:", [(c[:50] + ("…" if len(c) > 50 else ""), round(s, 4)) for c, s in hits_with_scores])
             except Exception as e:
                 print(f"[ChatManager] 长期记忆检索失败: {e}")
-        json_instruction = self._get_json_output_instruction()
-        system_content = self._build_persona() + knowledge_context + memory_block + json_instruction
+        suffix = (
+            self._get_json_output_instruction()
+            if use_json
+            else self._get_emotion_tag_prompt()
+        )
+        system_content = self._build_persona() + knowledge_context + memory_block + suffix
         return [
             {"role": "system", "content": system_content},
             *self.chat_history,
         ]
 
+    def _request_llm_json_light(self, messages: list[dict]) -> str | None:
+        """记忆合并/抽取：JSON response_format 失败则 prompt-only。"""
+        from llm.output_modes import json_only_policy
+
+        return json_only_policy(
+            messages,
+            llm_caller_json_rf=lambda m: self._request_llm(m, response_format_json=True),
+            llm_caller_plain=lambda m: self._request_llm(m, response_format_json=False),
+        )
+
     def _request_llm(self, messages: list[dict], response_format_json: bool = False) -> str | None:
         """
-        发起 LLM 请求。response_format_json 为 True 时（仅聊天场景）才在 payload 中加入
-        response_format: json_object；屏幕观察使用情绪标签格式，不传此参数，避免 400。
+        发起 LLM 请求。经 ModelService 统一 OpenAI 兼容客户端；
+        response_format_json 为 True 时尝试 json_object，不支持时客户端内降级重试。
         """
-        provider = self.sm.get("llm", "provider", default="deepseek")
-        api_key = self.sm.get("llm", "api_key", default="")
-        base_url = self.sm.get("llm", "base_url", default="")
-        model = self.sm.get("llm", "model", default="")
-        temperature = float(self.sm.get("llm", "temperature", default=1.0))
-        max_tokens = int(self.sm.get("llm", "max_tokens", default=512))
+        from llm.model_service import ModelService
 
-        if not api_key or not base_url or not model:
+        binding = self.sm.get_chat_binding()
+        if not binding.get("model") or not binding.get("base_url"):
             print("[ChatManager] LLM 配置不完整")
             return None
+        api_key = binding.get("api_key") or ""
+        from llm.providers.registry import requires_api_key
 
-        base_url = base_url.rstrip("/")
-
-        if provider == "custom":
-            url = base_url
-        else:
-            if base_url.endswith("/v1/chat/completions"):
-                url = base_url
-            else:
-                url = f"{base_url}/v1/chat/completions"
-
-        headers = {
-            "Authorization": f"Bearer {api_key}",
-            "Content-Type": "application/json",
-        }
-
-        payload = {
-            "model": model,
-            "messages": messages,
-            "temperature": temperature,
-            "max_tokens": max_tokens,
-            "stream": False,
-        }
-        # 仅聊天场景要求 JSON 输出；屏幕观察使用【情绪标签】格式，不设 response_format 避免接口 400
-        if response_format_json:
-            payload["response_format"] = {"type": "json_object"}
-
-        try:
-            resp = requests.post(
-                url, headers=headers, json=payload, timeout=120
-            )
-            resp.raise_for_status()
-            data = resp.json()
-            return (
-                data.get("choices", [{}])[0]
-                .get("message", {})
-                .get("content", "")
-                .strip()
-            )
-        except Exception as e:
-            print("[ChatManager] LLM 请求失败：", e)
-            print("[ChatManager] 请求 URL：", url)
+        if requires_api_key(binding.get("vendor", "")) and not api_key:
+            print("[ChatManager] LLM API 密钥为空")
             return None
+
+        ms = ModelService.get_instance(self.sm)
+        return ms.chat_completions(
+            messages,
+            temperature=float(binding.get("temperature", 1.0)),
+            max_tokens=int(binding.get("max_tokens", 512)),
+            response_format_json=response_format_json,
+        )

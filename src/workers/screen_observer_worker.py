@@ -30,10 +30,13 @@ class ScreenObserveWorker(QThread):
             if not screenshot_path or not screenshot_path.exists():
                 raise Exception("截图失败：未生成有效文件")
             
-            # 2. 视觉模型描述
+            # 2. 视觉模型描述（describe_image 可能返回 None）
             description = self.vision_client.describe_image(screenshot_path)
-            if not description.strip():
-                raise Exception("视觉模型返回空描述")
+            if description is None or not str(description).strip():
+                raise Exception(
+                    "视觉模型返回空描述，请检查是否选择了支持识图的多模态模型"
+                )
+            description = str(description).strip()
             
             # 3. 生成评论（reply 可能为 None，如 LLM 请求失败时）
             reply, emotion_tag = self.chat_manager.send_screen_observation_with_tag(description)

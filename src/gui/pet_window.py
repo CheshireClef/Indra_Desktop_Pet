@@ -465,12 +465,14 @@ class PetWindow(QWidget):
         # 3. 刷新屏幕观察设置
         self._apply_screen_watch_settings()
         
-        # 4. 刷新视觉模型配置（如果在运行时修改了API Key）
-        if self.vision_client:
-             # 如果需要支持热更新 Vision Client，可以在这里重新初始化
-             # 目前暂且保留现有实例，下次调用 _ensure_vision_client 时若为None会重建
-             pass
-             
+        # 4. 视觉/模型配置热更新：清空懒加载客户端，下次观察时按新配置重建
+        self.vision_client = None
+        try:
+            from llm.model_service import ModelService
+            ModelService.reset_cache()
+        except Exception:
+            pass
+
         self.update()
 
     # ---------------- 设置窗口 ----------------
@@ -490,18 +492,23 @@ class PetWindow(QWidget):
     def _ensure_vision_client(self):
         if self.vision_client or not self.settings:
             return
-        
-        # 懒加载 QwenVisionClient
-        from vision.qwen_vision import QwenVisionClient
 
-        api_url = self.settings.get("vision", "api_url", default="https://api.siliconflow.cn/v1/chat/completions")
-        api_key = self.settings.get("vision", "api_key", default="")
-        model = self.settings.get("vision", "model", default="Qwen/Qwen3-VL-32B-Instruct")
+        from llm.model_service import ModelService
+        from llm.providers.registry import requires_api_key
 
-        if not api_key:
-            print("[Vision] API密钥为空，视觉功能禁用")
+        binding = self.settings.get_vision_binding()
+        vendor = binding.get("vendor", "custom_openai")
+        api_key = binding.get("api_key") or ""
+        if requires_api_key(vendor) and not api_key:
+            print("[Vision] API 密钥为空，视觉功能禁用")
             return
-        self.vision_client = QwenVisionClient(api_url=api_url, api_key=api_key, model=model)
+        ms = ModelService.get_instance(self.settings)
+        client = ms.get_vision_client()
+        if not client:
+            print("[Vision] 视觉客户端初始化失败，请检查识图模型配置")
+            return
+        # 兼容 ScreenObserveWorker：保留 describe_image 接口
+        self.vision_client = client
 
     def observe_screen_and_comment(self):
         self._ensure_vision_client()

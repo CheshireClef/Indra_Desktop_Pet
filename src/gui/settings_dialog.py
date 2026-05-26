@@ -13,7 +13,12 @@ from PySide6.QtWidgets import (
     QTextEdit, QDialogButtonBox,
 )
 from PySide6.QtCore import Qt
-from utils import resource_path
+
+from llm.clients.url_utils import normalize_base_url
+from llm.providers.catalog import filter_vision_candidates
+from llm.providers.registry import default_base_url, list_vendor_ids, vendor_label
+from workers.capability_probe_worker import CapabilityProbeWorker, VisionProbeWorker
+from workers.model_list_worker import ModelListWorker
 
 
 class _MemoryContentEditDialog(QDialog):
@@ -59,6 +64,12 @@ class SettingsDialog(QDialog):
         self.resize(500, 400)  # 设置初始大小
         self.setSizeGripEnabled(True)  # 右下角显示大小调整手柄
         
+        self._model_list_worker = None
+        self._capability_probe_worker = None
+        self._vision_probe_worker = None
+        self._chat_cached_model_ids: list[str] = []
+        self._vision_cached_model_ids: list[str] = []
+
         self._build_ui()
         self._load_values()
 
@@ -146,57 +157,126 @@ class SettingsDialog(QDialog):
         layout.addLayout(form)
         layout.addStretch()
 
-    # ---------- 构建模型设置标签页（LLM + 视觉模型） ----------
+    def _append_api_connection_form(self, form: QFormLayout, *, prefix: str):
+        """向表单追加一组 API 连接控件（chat / vision）。"""
+        vendor_combo = QComboBox()
+        for vid in list_vendor_ids():
+            vendor_combo.addItem(vendor_label(vid), vid)
+        base_url_edit = QLineEdit()
+        api_key_edit = QLineEdit()
+        api_key_edit.setEchoMode(QLineEdit.Password)
+        btn_test = QPushButton("测试连接")
+        btn_refresh = QPushButton("刷新模型列表")
+        status_label = QLabel("状态：未连接")
+        status_label.setWordWrap(True)
+
+        if prefix == "chat":
+            vendor_combo.currentIndexChanged.connect(
+                lambda: self._on_vendor_changed(vendor_combo, base_url_edit)
+            )
+            btn_test.clicked.connect(self._on_test_connection)
+            btn_refresh.clicked.connect(self._on_refresh_chat_models)
+            self.chat_vendor_combo = vendor_combo
+            self.chat_base_url_edit = base_url_edit
+            self.chat_api_key_edit = api_key_edit
+            self.chat_btn_test_connection = btn_test
+            self.chat_btn_refresh_models = btn_refresh
+            self.chat_connection_status_label = status_label
+        else:
+            vendor_combo.currentIndexChanged.connect(
+                lambda: self._on_vendor_changed(vendor_combo, base_url_edit)
+            )
+            btn_test.clicked.connect(self._on_test_vision_connection)
+            btn_refresh.clicked.connect(self._on_refresh_vision_models)
+            self.vision_vendor_combo = vendor_combo
+            self.vision_base_url_edit = base_url_edit
+            self.vision_api_key_edit = api_key_edit
+            self.vision_btn_test_connection = btn_test
+            self.vision_btn_refresh_models = btn_refresh
+            self.vision_connection_status_label = status_label
+            self._vision_api_widgets = [
+                vendor_combo,
+                base_url_edit,
+                api_key_edit,
+                btn_test,
+                btn_refresh,
+            ]
+
+        form.addRow("服务商", vendor_combo)
+        form.addRow("Base URL", base_url_edit)
+        form.addRow("API Key", api_key_edit)
+        btn_row = QHBoxLayout()
+        btn_row.addWidget(btn_test)
+        btn_row.addWidget(btn_refresh)
+        form.addRow(btn_row)
+        form.addRow(status_label)
+
+    # ---------- 构建模型设置标签页（对话/识图各自含 API 连接，识图可共用对话连接） ----------
     def _build_model_tab(self):
         layout = QVBoxLayout(self.model_tab)
 
-        # LLM 设置组
-        llm_group = self._build_llm_group()
-        layout.addWidget(llm_group)
+        chat_group = QGroupBox("对话模型")
+        chat_form = QFormLayout(chat_group)
+        self._append_api_connection_form(chat_form, prefix="chat")
 
-        # 视觉模型设置组
-        vision_group = self._build_vision_group()
-        layout.addWidget(vision_group)
+        self.chat_model_combo = QComboBox()
+        self.chat_model_combo.setEditable(True)
+        chat_form.addRow("模型", self.chat_model_combo)
 
-        layout.addStretch()
+        self.output_mode_combo = QComboBox()
+        self.output_mode_combo.addItem("自动（推荐）", "auto")
+        self.output_mode_combo.addItem("优先 JSON 结构化", "json_preferred")
+        self.output_mode_combo.addItem("仅自然语言", "natural_only")
+        chat_form.addRow("回复格式", self.output_mode_combo)
 
-    # ---------- LLM 组构建方法 ----------
-    def _build_llm_group(self):
-        group = QGroupBox("对话语言模型（LLM）")
-        layout = QFormLayout(group)
-
-        self.provider_combo = QComboBox()
-        self.provider_combo.addItems(["deepseek", "openai", "custom"])
-        layout.addRow("模型提供方", self.provider_combo)
-
-        self.llm_key = QLineEdit()
-        self.llm_key.setEchoMode(QLineEdit.Password)
-        layout.addRow("API Key", self.llm_key)
-
-        self.base_url_edit = QLineEdit()
-        layout.addRow("Base URL", self.base_url_edit)
-
-        self.model_edit = QLineEdit()
-        layout.addRow("模型名", self.model_edit)
-
-        self.max_tokens = QSpinBox()
-        self.max_tokens.setRange(16, 8192)
-        layout.addRow("Max Tokens", self.max_tokens)
-
-        self.history_spin = QSpinBox()
-        self.history_spin.setRange(1, 100)
-        layout.addRow("保留对话轮数", self.history_spin)
-
-        # Temperature 控制
         self.temperature_spinbox = QDoubleSpinBox(self)
         self.temperature_spinbox.setRange(0.0, 1.5)
         self.temperature_spinbox.setSingleStep(0.1)
-        self.temperature_spinbox.setValue(self.sm.get("llm", "temperature", default=1.0))
-        layout.addRow("对话Temperature参数", self.temperature_spinbox)
+        chat_form.addRow("Temperature", self.temperature_spinbox)
 
-        self.provider_combo.currentTextChanged.connect(self._on_provider_changed)
+        self.max_tokens = QSpinBox()
+        self.max_tokens.setRange(16, 8192)
+        chat_form.addRow("Max Tokens", self.max_tokens)
 
-        return group
+        self.history_spin = QSpinBox()
+        self.history_spin.setRange(1, 100)
+        chat_form.addRow("保留对话轮数", self.history_spin)
+
+        layout.addWidget(chat_group)
+
+        vision_group = QGroupBox("屏幕识图模型")
+        vision_form = QFormLayout(vision_group)
+
+        self.same_connection_cb = QCheckBox("与上方使用同一 API 连接")
+        self.same_connection_cb.setChecked(True)
+        self.same_connection_cb.stateChanged.connect(self._on_same_connection_changed)
+        vision_form.addRow(self.same_connection_cb)
+
+        self._append_api_connection_form(vision_form, prefix="vision")
+
+        self.vision_model_combo = QComboBox()
+        self.vision_model_combo.setEditable(True)
+        vision_form.addRow("模型", self.vision_model_combo)
+
+        self.vision_show_all_cb = QCheckBox("显示全部模型（不过滤多模态）")
+        self.vision_show_all_cb.stateChanged.connect(self._refill_vision_combo)
+        vision_form.addRow(self.vision_show_all_cb)
+
+        self.btn_test_vision = QPushButton("测试识图")
+        self.btn_test_vision.clicked.connect(self._on_test_vision)
+        vision_form.addRow(self.btn_test_vision)
+
+        self.vision_status_label = QLabel("")
+        self.vision_status_label.setWordWrap(True)
+        vision_form.addRow(self.vision_status_label)
+
+        layout.addWidget(vision_group)
+        layout.addStretch()
+
+        # 共用连接时，对话侧 API 变更实时镜像到识图侧（识图区灰显）
+        self.chat_vendor_combo.currentIndexChanged.connect(self._maybe_sync_vision_from_chat)
+        self.chat_base_url_edit.textChanged.connect(self._maybe_sync_vision_from_chat)
+        self.chat_api_key_edit.textChanged.connect(self._maybe_sync_vision_from_chat)
 
     # ---------- 记忆管理标签页 ----------
     def _build_memory_tab(self):
@@ -315,24 +395,256 @@ class SettingsDialog(QDialog):
         except Exception as e:
             QMessageBox.warning(self, "错误", f"清空失败: {e}")
     
-    # ---------- 视觉模型组构建方法 ----------
-    def _build_vision_group(self):
-        group = QGroupBox("视觉模型（用于解析屏幕截图）")
-        layout = QFormLayout(group)
+    def _vendor_id_from_combo(self, combo: QComboBox) -> str:
+        vid = combo.currentData()
+        return vid if vid else "custom_openai"
 
-        self.vision_api_url = QLineEdit(self)
-        self.vision_api_url.setText(self.sm.get("vision", "api_url", default=""))
-        layout.addRow("视觉模型 API URL", self.vision_api_url)
+    def _chat_connection_fields(self) -> tuple[str, str, str]:
+        return (
+            self.chat_base_url_edit.text().strip(),
+            self.chat_api_key_edit.text().strip(),
+            self._vendor_id_from_combo(self.chat_vendor_combo),
+        )
 
-        self.vision_api_key = QLineEdit(self)
-        self.vision_api_key.setText(self.sm.get("vision", "api_key", default=""))
-        layout.addRow("视觉模型 API Key", self.vision_api_key)
+    def _vision_connection_fields(self) -> tuple[str, str, str]:
+        """识图所用连接：勾选共用对话时取对话侧字段。"""
+        if self.same_connection_cb.isChecked():
+            return self._chat_connection_fields()
+        return (
+            self.vision_base_url_edit.text().strip(),
+            self.vision_api_key_edit.text().strip(),
+            self._vendor_id_from_combo(self.vision_vendor_combo),
+        )
 
-        self.vision_model = QLineEdit(self)
-        self.vision_model.setText(self.sm.get("vision", "model", default="Qwen/Qwen3-VL-32B-Instruct"))
-        layout.addRow("视觉模型名称", self.vision_model)
-        
-        return group
+    def _on_vendor_changed(self, vendor_combo: QComboBox, base_url_edit: QLineEdit):
+        vid = self._vendor_id_from_combo(vendor_combo)
+        if vid != "custom_openai":
+            base_url_edit.setText(default_base_url(vid))
+
+    def _maybe_sync_vision_from_chat(self):
+        if self.same_connection_cb.isChecked():
+            self._sync_vision_api_from_chat()
+
+    def _on_same_connection_changed(self):
+        same = self.same_connection_cb.isChecked()
+        self._set_vision_api_enabled(not same)
+        if same:
+            self._sync_vision_api_from_chat()
+
+    def _set_vision_api_enabled(self, enabled: bool):
+        for w in getattr(self, "_vision_api_widgets", []):
+            w.setEnabled(enabled)
+
+    def _sync_vision_api_from_chat(self):
+        """将对话侧 API 连接同步到识图侧（共用连接时展示为灰显只读镜像）。"""
+        self.vision_vendor_combo.blockSignals(True)
+        self.vision_base_url_edit.blockSignals(True)
+        self.vision_api_key_edit.blockSignals(True)
+        self.vision_vendor_combo.setCurrentIndex(self.chat_vendor_combo.currentIndex())
+        self.vision_base_url_edit.setText(self.chat_base_url_edit.text())
+        self.vision_api_key_edit.setText(self.chat_api_key_edit.text())
+        self.vision_vendor_combo.blockSignals(False)
+        self.vision_base_url_edit.blockSignals(False)
+        self.vision_api_key_edit.blockSignals(False)
+
+    def _fill_model_combo(self, combo: QComboBox, model_id: str, ids: list[str]):
+        combo.blockSignals(True)
+        combo.clear()
+        for mid in ids:
+            combo.addItem(mid)
+        if model_id:
+            idx = combo.findText(model_id)
+            if idx >= 0:
+                combo.setCurrentIndex(idx)
+            else:
+                combo.addItem(model_id)
+                combo.setCurrentText(model_id)
+        combo.blockSignals(False)
+
+    def _refill_vision_combo(self):
+        ids = getattr(self, "_vision_cached_model_ids", None) or getattr(
+            self, "_chat_cached_model_ids", []
+        )
+        current = self.vision_model_combo.currentText()
+        self._refill_vision_combo_from_ids(ids, current)
+
+    def _on_refresh_chat_models(self):
+        base, key, _vid = self._chat_connection_fields()
+        base = normalize_base_url(base)
+        if not base:
+            QMessageBox.warning(self, "提示", "请先填写 Base URL")
+            return
+        self.chat_connection_status_label.setText("状态：正在拉取模型列表…")
+        self.chat_btn_refresh_models.setEnabled(False)
+        self._chat_model_list_worker = ModelListWorker(base, key)
+        self._chat_model_list_worker.finished.connect(self._on_chat_model_list_finished)
+        self._chat_model_list_worker.error.connect(self._on_chat_model_list_error)
+        self._chat_model_list_worker.start()
+
+    def _on_chat_model_list_finished(self, ids: list):
+        self.chat_btn_refresh_models.setEnabled(True)
+        self._chat_cached_model_ids = ids
+        chat_model = self.chat_model_combo.currentText()
+        self._fill_model_combo(self.chat_model_combo, chat_model, ids)
+        if self.same_connection_cb.isChecked():
+            self._vision_cached_model_ids = ids
+            self._refill_vision_combo()
+        self.chat_connection_status_label.setText(f"状态：已获取 {len(ids)} 个模型")
+
+    def _on_chat_model_list_error(self, msg: str):
+        self.chat_btn_refresh_models.setEnabled(True)
+        self.chat_connection_status_label.setText(f"状态：{msg}")
+
+    def _on_refresh_vision_models(self):
+        base, key, _vid = self._vision_connection_fields()
+        base = normalize_base_url(base)
+        if not base:
+            QMessageBox.warning(self, "提示", "请先填写 Base URL")
+            return
+        self.vision_connection_status_label.setText("状态：正在拉取模型列表…")
+        self.vision_btn_refresh_models.setEnabled(False)
+        self._vision_model_list_worker = ModelListWorker(base, key)
+        self._vision_model_list_worker.finished.connect(self._on_vision_model_list_finished)
+        self._vision_model_list_worker.error.connect(self._on_vision_model_list_error)
+        self._vision_model_list_worker.start()
+
+    def _on_vision_model_list_finished(self, ids: list):
+        self.vision_btn_refresh_models.setEnabled(True)
+        self._vision_cached_model_ids = ids
+        vision_model = self.vision_model_combo.currentText()
+        self._refill_vision_combo_from_ids(ids, vision_model)
+        self.vision_connection_status_label.setText(f"状态：已获取 {len(ids)} 个模型")
+
+    def _on_vision_model_list_error(self, msg: str):
+        self.vision_btn_refresh_models.setEnabled(True)
+        self.vision_connection_status_label.setText(f"状态：{msg}")
+
+    def _refill_vision_combo_from_ids(self, ids: list, current: str):
+        if ids and not self.vision_show_all_cb.isChecked():
+            ids = filter_vision_candidates(ids)
+        self._fill_model_combo(self.vision_model_combo, current, ids)
+
+    def _on_test_connection(self):
+        base, key, vid = self._chat_connection_fields()
+        base = normalize_base_url(base)
+        model = self.chat_model_combo.currentText().strip()
+        if not base:
+            QMessageBox.warning(self, "提示", "请先填写 Base URL")
+            return
+        if not model:
+            QMessageBox.warning(self, "提示", "请先选择或填写对话模型名")
+            return
+        self.chat_connection_status_label.setText("状态：正在测试连接并探测能力…")
+        self.chat_btn_test_connection.setEnabled(False)
+        self._capability_probe_worker = CapabilityProbeWorker(base, key, model)
+        self._capability_probe_worker.finished.connect(self._on_chat_probe_finished)
+        self._capability_probe_worker.error.connect(self._on_chat_probe_error)
+        self._capability_probe_worker.start()
+
+    def _on_chat_probe_finished(self, result: dict):
+        self.chat_btn_test_connection.setEnabled(True)
+        model = self.chat_model_combo.currentText().strip()
+        conn_id = "default"
+        self.sm.set_capability_cache(conn_id, model, result, save_now=False)
+        jm = result.get("json_mode", "?")
+        sv = "支持" if result.get("supports_vision") else "不支持"
+        self.chat_connection_status_label.setText(
+            f"状态：连接成功 | JSON 模式={jm} | 该模型识图探测={sv}"
+        )
+        QMessageBox.information(
+            self,
+            "测试连接",
+            f"对话模型探测完成。\nJSON 输出：{jm}\n识图（该模型）：{sv}",
+        )
+
+    def _on_chat_probe_error(self, msg: str):
+        self.chat_btn_test_connection.setEnabled(True)
+        self.chat_connection_status_label.setText(f"状态：失败 - {msg}")
+        QMessageBox.warning(self, "探测失败", msg)
+
+    def _on_test_vision_connection(self):
+        base, key, _vid = self._vision_connection_fields()
+        base = normalize_base_url(base)
+        model = self.vision_model_combo.currentText().strip()
+        if not base:
+            QMessageBox.warning(self, "提示", "请先填写 Base URL")
+            return
+        if not model:
+            QMessageBox.warning(self, "提示", "请先选择或填写识图模型名")
+            return
+        self.vision_connection_status_label.setText("状态：正在测试连接…")
+        self.vision_btn_test_connection.setEnabled(False)
+        self._vision_conn_probe_worker = VisionProbeWorker(base, key, model)
+        self._vision_conn_probe_worker.finished.connect(self._on_vision_conn_probe_finished)
+        self._vision_conn_probe_worker.error.connect(self._on_vision_conn_probe_error)
+        self._vision_conn_probe_worker.start()
+
+    def _on_vision_conn_probe_finished(self, ok: bool, meta: dict):
+        self.vision_btn_test_connection.setEnabled(True)
+        conn_id = "vision" if not self.same_connection_cb.isChecked() else "default"
+        model = self.vision_model_combo.currentText().strip()
+        existing = self.sm.get_capability_cache(conn_id, model) or {}
+        existing.update(meta)
+        existing["supports_vision"] = ok
+        self.sm.set_capability_cache(conn_id, model, existing, save_now=False)
+        if ok:
+            self.vision_connection_status_label.setText("状态：连接成功，识图可用。")
+            QMessageBox.information(self, "测试连接", "识图 API 连接测试通过。")
+        else:
+            self.vision_connection_status_label.setText("状态：连接成功，但识图探测未通过。")
+            QMessageBox.warning(
+                self,
+                "测试连接",
+                "已连通 API，但当前模型可能不支持多模态识图，请更换 VL 类模型。",
+            )
+
+    def _on_vision_conn_probe_error(self, msg: str):
+        self.vision_btn_test_connection.setEnabled(True)
+        self.vision_connection_status_label.setText(f"状态：失败 - {msg}")
+        QMessageBox.warning(self, "探测失败", msg)
+
+    def _on_test_vision(self):
+        base, key, _ = self._vision_connection_fields()
+        base = normalize_base_url(base)
+        model = self.vision_model_combo.currentText().strip()
+        if not base:
+            QMessageBox.warning(self, "提示", "请先填写 Base URL")
+            return
+        if not model:
+            QMessageBox.warning(self, "提示", "请先选择或填写识图模型名")
+            return
+        self.vision_status_label.setText("正在测试识图…")
+        self.btn_test_vision.setEnabled(False)
+        self._vision_probe_worker = VisionProbeWorker(base, key, model)
+        self._vision_probe_worker.finished.connect(self._on_vision_probe_finished)
+        self._vision_probe_worker.error.connect(self._on_vision_probe_error)
+        self._vision_probe_worker.start()
+
+    def _on_vision_probe_finished(self, ok: bool, meta: dict):
+        self.btn_test_vision.setEnabled(True)
+        conn_id = "vision" if not self.same_connection_cb.isChecked() else "default"
+        model = self.vision_model_combo.currentText().strip()
+        existing = self.sm.get_capability_cache(conn_id, model) or {}
+        existing.update(meta)
+        existing["supports_vision"] = ok
+        self.sm.set_capability_cache(conn_id, model, existing, save_now=False)
+        if ok:
+            self.vision_status_label.setText("识图测试通过，可使用屏幕监视功能。")
+            QMessageBox.information(self, "测试识图", "识图测试通过。")
+        else:
+            self.vision_status_label.setText(
+                "识图测试未通过：当前模型可能不支持多模态识图，请更换 VL 类模型。"
+            )
+            QMessageBox.warning(
+                self,
+                "测试识图",
+                "当前模型不支持或无法完成识图请求。\n请选用名称含 VL/Vision 等多模态模型。",
+            )
+
+    def _on_vision_probe_error(self, msg: str):
+        self.btn_test_vision.setEnabled(True)
+        self.vision_status_label.setText(f"测试失败：{msg}")
+        QMessageBox.warning(self, "测试识图", msg)
 
     # ---------- 加载配置 ----------
     def _load_values(self):
@@ -356,21 +668,50 @@ class SettingsDialog(QDialog):
             self.sm.get("user", "display_name", default="主人") or ""
         )
 
-        # 加载LLM设置
-        self.provider_combo.setCurrentText(
-            self.sm.get("llm", "provider", default="deepseek")
-        )
-        self.llm_key.setText(self.sm.get("llm", "api_key", default="") or "")
-        self.base_url_edit.setText(self.sm.get("llm", "base_url", default="") or "")
-        self.model_edit.setText(self.sm.get("llm", "model", default="") or "")
-        self.max_tokens.setValue(self.sm.get("llm", "max_tokens", default=512))
-        self.history_spin.setValue(self.sm.get("llm", "history_rounds", default=6))
-        self.temperature_spinbox.setValue(self.sm.get("llm", "temperature", default=1.0))
+        chat_b = self.sm.get_chat_binding()
+        models = self.sm.get_models_block()
+        vision_cfg = models.get("vision") or {}
+        same_conn = vision_cfg.get("same_connection_as_chat", True)
+        self.same_connection_cb.setChecked(same_conn)
 
-        # 加载视觉模型设置
-        self.vision_api_url.setText(self.sm.get("vision", "api_url", default=""))
-        self.vision_api_key.setText(self.sm.get("vision", "api_key", default=""))
-        self.vision_model.setText(self.sm.get("vision", "model", default="Qwen/Qwen3-VL-32B-Instruct"))
+        chat_vendor = chat_b.get("vendor", "siliconflow")
+        cidx = self.chat_vendor_combo.findData(chat_vendor)
+        if cidx >= 0:
+            self.chat_vendor_combo.setCurrentIndex(cidx)
+        self.chat_base_url_edit.setText(chat_b.get("base_url") or "")
+        self.chat_api_key_edit.setText(chat_b.get("api_key") or "")
+        self._fill_model_combo(self.chat_model_combo, chat_b.get("model") or "", [])
+
+        if same_conn:
+            self._sync_vision_api_from_chat()
+        else:
+            conn_id = vision_cfg.get("connection_id", "vision")
+            conn = next(
+                (c for c in (models.get("connections") or []) if c.get("id") == conn_id),
+                {},
+            )
+            v_vendor = conn.get("vendor", "siliconflow")
+            vidx = self.vision_vendor_combo.findData(v_vendor)
+            if vidx >= 0:
+                self.vision_vendor_combo.setCurrentIndex(vidx)
+            self.vision_base_url_edit.setText(conn.get("base_url") or "")
+            self.vision_api_key_edit.setText(conn.get("api_key") or "")
+
+        vision_b = self.sm.get_vision_binding()
+        self._fill_model_combo(
+            self.vision_model_combo,
+            vision_b.get("model") or "Qwen/Qwen3-VL-32B-Instruct",
+            [],
+        )
+        self._set_vision_api_enabled(not same_conn)
+
+        om = chat_b.get("output_mode", "auto")
+        oidx = self.output_mode_combo.findData(om)
+        if oidx >= 0:
+            self.output_mode_combo.setCurrentIndex(oidx)
+        self.temperature_spinbox.setValue(float(chat_b.get("temperature", 1.0)))
+        self.max_tokens.setValue(int(chat_b.get("max_tokens", 512)))
+        self.history_spin.setValue(int(chat_b.get("history_rounds", 10)))
 
     # ---------- 保存配置 ----------
     def _on_save(self):
@@ -390,39 +731,77 @@ class SettingsDialog(QDialog):
         )
         self.sm.set("user", "display_name", value=self.user_name.text().strip(), save_now=False)
 
-        # 保存LLM设置
-        self.sm.set("llm", "provider", value=self.provider_combo.currentText(), save_now=False)
-        self.sm.set("llm", "api_key", value=self.llm_key.text().strip(), save_now=False)
-        self.sm.set("llm", "base_url", value=self.base_url_edit.text().strip(), save_now=False)
-        self.sm.set("llm", "model", value=self.model_edit.text().strip(), save_now=False)
-        self.sm.set("llm", "max_tokens", value=int(self.max_tokens.value()), save_now=False)
-        self.sm.set("llm", "history_rounds", value=int(self.history_spin.value()), save_now=False)
-        self.sm.set("llm", "temperature", value=self.temperature_spinbox.value(), save_now=False)
+        # 屏幕监视 + 识图能力警告
+        vision_model = self.vision_model_combo.currentText().strip()
+        vision_conn_id = (
+            "default" if self.same_connection_cb.isChecked() else "vision"
+        )
+        cache = self.sm.get_capability_cache(vision_conn_id, vision_model) or {}
+        if self.screen_watch_cb.isChecked() and cache.get("supports_vision") is False:
+            if QMessageBox.Yes != QMessageBox.question(
+                self,
+                "识图模型可能不可用",
+                "当前识图模型探测为不支持多模态，屏幕监视可能失败。\n是否仍要保存并启用屏幕监视？",
+                QMessageBox.Yes | QMessageBox.No,
+                QMessageBox.No,
+            ):
+                return
 
-        # 保存视觉模型设置
-        vision_api_url = self.vision_api_url.text().strip().rstrip("/")
-        # 补全 /v1/chat/completions 端点（兼容 openai 格式）
-        if vision_api_url and not vision_api_url.endswith("/v1/chat/completions"):
-            if vision_api_url.endswith("/v1"):
-                vision_api_url = f"{vision_api_url}/chat/completions"
-            else:
-                vision_api_url = f"{vision_api_url}/v1/chat/completions"
-        # 保存处理后的 URL
-        self.sm.set("vision", "api_url", value=vision_api_url, save_now=False)
-        self.sm.set("vision", "api_key", value=self.vision_api_key.text(), save_now=False)
-        self.sm.set("vision", "model", value=self.vision_model.text(), save_now=False)
+        self._save_models_to_settings(save_now=False)
+        from llm.model_service import ModelService
 
+        ModelService.reset_cache()
         self.sm.save()
         self.accept()
 
-    # ---------- 提供方切换 ----------
-    def _on_provider_changed(self, provider: str):
-        if provider == "deepseek":
-            self.base_url_edit.setText("https://api.deepseek.com")
-            self.model_edit.setText("deepseek-chat")
-        elif provider == "openai":
-            self.base_url_edit.setText("https://api.openai.com")
-            self.model_edit.setText("gpt-4o-mini")
-        elif provider == "custom":
-            self.base_url_edit.setText("")
-            self.model_edit.setText("")
+    def _save_models_to_settings(self, save_now: bool = True):
+        """写入 models v2，并同步 legacy llm/vision 投影。"""
+        models = self.sm.get_models_block()
+        chat_vendor = self._vendor_id_from_combo(self.chat_vendor_combo)
+        chat_base = normalize_base_url(self.chat_base_url_edit.text().strip())
+        chat_key = self.chat_api_key_edit.text().strip()
+        chat_model = self.chat_model_combo.currentText().strip()
+        vision_model = self.vision_model_combo.currentText().strip()
+        same_conn = self.same_connection_cb.isChecked()
+
+        chat_conn = {
+            "id": "default",
+            "vendor": chat_vendor,
+            "protocol": "openai_compatible",
+            "base_url": chat_base,
+            "api_key": chat_key,
+        }
+        connections = [chat_conn]
+        vision_conn_id = "default"
+        if not same_conn:
+            vision_vendor = self._vendor_id_from_combo(self.vision_vendor_combo)
+            vision_conn = {
+                "id": "vision",
+                "vendor": vision_vendor,
+                "protocol": "openai_compatible",
+                "base_url": normalize_base_url(self.vision_base_url_edit.text().strip()),
+                "api_key": self.vision_api_key_edit.text().strip(),
+            }
+            connections.append(vision_conn)
+            vision_conn_id = "vision"
+
+        models["schema_version"] = 2
+        models["connections"] = connections
+        models["chat"] = {
+            "connection_id": "default",
+            "model": chat_model,
+            "temperature": float(self.temperature_spinbox.value()),
+            "max_tokens": int(self.max_tokens.value()),
+            "history_rounds": int(self.history_spin.value()),
+            "output_mode": self.output_mode_combo.currentData() or "auto",
+        }
+        models["vision"] = {
+            "same_connection_as_chat": same_conn,
+            "connection_id": vision_conn_id,
+            "model": vision_model or "Qwen/Qwen3-VL-32B-Instruct",
+        }
+        self.sm._sync_legacy_from_models()
+        if save_now:
+            from llm.model_service import ModelService
+            ModelService.reset_cache()
+            self.sm.save()
