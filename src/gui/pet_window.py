@@ -277,7 +277,9 @@ class PetWindow(QWidget):
     def _on_model_loaded_to_cpu(self):
         """模型加载到CPU后的回调"""
         print("[PetWindow] 收到模型加载完成信号")
-        self._show_temp_bubble("数据库加载中，请稍候...加载期间可以进行无数据库支持的简单聊天")
+        self._show_temp_bubble(
+            "剧情库加载中，请稍候…加载完成前不会检索剧情库，可正常聊天"
+        )
 
     def _on_indices_loaded(self):
         """知识库索引加载完成后的回调"""

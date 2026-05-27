@@ -188,8 +188,12 @@ class ChatManager:
         )
     
     def _retrieve_knowledge(self, query: str) -> str:
-        """检索知识库，返回相关片段"""
-        return self.knowledge_base.retrieve(query)
+        """检索知识库，返回相关片段；失败时降级为空上下文，不中断聊天。"""
+        try:
+            return self.knowledge_base.retrieve(query) or ""
+        except Exception as e:
+            print(f"[ChatManager] 知识库检索失败，已跳过 RAG: {e}")
+            return ""
     
     # 带情绪标签返回的聊天方法；返回 (reply, emotion_tag, error_message)，error_message 非空时仅展示红色气泡
     def chat_with_tag(self, user_text: str) -> tuple[str | None, str, str | None]:
