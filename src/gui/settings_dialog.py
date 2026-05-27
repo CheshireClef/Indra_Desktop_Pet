@@ -19,6 +19,8 @@ from llm.providers.catalog import filter_vision_candidates
 from llm.providers.registry import default_base_url, list_vendor_ids, vendor_label
 from workers.capability_probe_worker import CapabilityProbeWorker, VisionProbeWorker
 from workers.model_list_worker import ModelListWorker
+from workers.memory_organize_worker import MemoryOrganizeWorker
+from .memory_organize_dialog import MemoryOrganizePreviewDialog
 
 
 class _MemoryContentEditDialog(QDialog):
@@ -56,6 +58,8 @@ class SettingsDialog(QDialog):
         self.sm = settings_manager
         # 长期记忆模块引用，由打开设置的一方传入（如 PetWindow/Tray），用于记忆管理标签页
         self._long_term_memory = long_term_memory
+        self._memory_organize_worker = None
+        self._memory_list_refreshing = False
 
         self.setWindowTitle("桌宠设置")
         self.setWindowModality(Qt.ApplicationModal)
@@ -281,47 +285,170 @@ class SettingsDialog(QDialog):
     # ---------- 记忆管理标签页 ----------
     def _build_memory_tab(self):
         layout = QVBoxLayout(self.memory_tab)
+        layout.addWidget(
+            QLabel(
+                "已存储的长期记忆。勾选左侧框表示「永久保留」，整理时不会删除该条。"
+            )
+        )
         self.memory_list = QListWidget()
         self.memory_list.setSelectionMode(QAbstractItemView.SingleSelection)
         self.memory_list.setMinimumHeight(200)
-        layout.addWidget(QLabel("已存储的长期记忆（与用户相关的重要信息）："))
+        self.memory_list.itemChanged.connect(self._on_memory_item_pin_changed)
         layout.addWidget(self.memory_list)
         btn_row = QHBoxLayout()
         self.memory_refresh_btn = QPushButton("刷新列表")
         self.memory_edit_btn = QPushButton("编辑内容")
         self.memory_delete_btn = QPushButton("删除选中")
         self.memory_clear_btn = QPushButton("清空全部")
+        self.memory_organize_btn = QPushButton("整理全部记忆")
+        self.memory_organize_status = QLabel("")
         self.memory_refresh_btn.clicked.connect(self._on_memory_refresh)
         self.memory_edit_btn.clicked.connect(self._on_memory_edit_content)
         self.memory_delete_btn.clicked.connect(self._on_memory_delete_one)
         self.memory_clear_btn.clicked.connect(self._on_memory_clear_all)
+        self.memory_organize_btn.clicked.connect(self._on_memory_organize)
         btn_row.addWidget(self.memory_refresh_btn)
         btn_row.addWidget(self.memory_edit_btn)
         btn_row.addWidget(self.memory_delete_btn)
         btn_row.addWidget(self.memory_clear_btn)
+        btn_row.addWidget(self.memory_organize_btn)
         layout.addLayout(btn_row)
+        layout.addWidget(self.memory_organize_status)
         layout.addStretch()
-        # 初次加载列表
         self._on_memory_refresh()
 
     def _on_memory_refresh(self):
         """从长期记忆模块拉取列表并显示"""
+        self._memory_list_refreshing = True
         self.memory_list.clear()
         if not self._long_term_memory:
             self.memory_list.addItem(QListWidgetItem("（未连接长期记忆模块，请从主窗口打开设置）"))
+            self._memory_list_refreshing = False
             return
         try:
             items = self._long_term_memory.list_all()
             for it in items:
                 topic_part = f"[{it.get('topic', '')}] " if it.get('topic') else ""
-                text = f"#{it['id']} {topic_part}{it['content'][:80]}{'…' if len(it.get('content', '')) > 80 else ''}"
+                rc = it.get("ref_count")
+                rc_tag = "遗留" if rc is None else f"引用{rc}"
+                pin_tag = "[保留] " if it.get("pinned") else ""
+                text = (
+                    f"{pin_tag}#{it['id']} ({rc_tag}) {topic_part}"
+                    f"{it['content'][:72]}{'…' if len(it.get('content', '')) > 72 else ''}"
+                )
                 row = QListWidgetItem(text)
                 row.setData(Qt.UserRole, it["id"])
+                row.setFlags(row.flags() | Qt.ItemFlag.ItemIsUserCheckable)
+                row.setCheckState(
+                    Qt.CheckState.Checked if it.get("pinned") else Qt.CheckState.Unchecked
+                )
                 self.memory_list.addItem(row)
             if not items:
                 self.memory_list.addItem(QListWidgetItem("（暂无记忆）"))
         except Exception as e:
             self.memory_list.addItem(QListWidgetItem(f"（加载失败: {e}）"))
+        finally:
+            self._memory_list_refreshing = False
+
+    def _on_memory_item_pin_changed(self, item: QListWidgetItem):
+        """勾选变更 → 写入 pinned"""
+        if self._memory_list_refreshing or not self._long_term_memory:
+            return
+        id_val = item.data(Qt.UserRole)
+        if id_val is None:
+            return
+        pinned = item.checkState() == Qt.CheckState.Checked
+        try:
+            ok = self._long_term_memory.set_pinned(int(id_val), pinned)
+            if not ok:
+                raise RuntimeError("更新失败")
+        except Exception as e:
+            self._memory_list_refreshing = True
+            item.setCheckState(
+                Qt.CheckState.Checked if pinned else Qt.CheckState.Unchecked
+            )
+            self._memory_list_refreshing = False
+            QMessageBox.warning(self, "错误", f"永久保留标记保存失败: {e}")
+
+    def _can_run_memory_organize(self) -> tuple[bool, str]:
+        if not self._long_term_memory:
+            return False, "未连接长期记忆模块"
+        if not self._long_term_memory.is_merge_llm_available():
+            return False, "长期记忆未配置 LLM 合并能力"
+        binding = self.sm.get_chat_binding()
+        if not binding.get("model") or not binding.get("base_url"):
+            return False, "请先在「模型设置」中配置与聊天相同的 API（模型与 Base URL）"
+        return True, ""
+
+    def _set_memory_tab_busy(self, busy: bool):
+        for w in (
+            self.memory_refresh_btn,
+            self.memory_edit_btn,
+            self.memory_delete_btn,
+            self.memory_clear_btn,
+            self.memory_organize_btn,
+            self.memory_list,
+        ):
+            w.setEnabled(not busy)
+        self.memory_organize_status.setText("整理中，请稍候…" if busy else "")
+
+    def _on_memory_organize(self):
+        """预览后确认，后台执行整理"""
+        ok, msg = self._can_run_memory_organize()
+        if not ok:
+            QMessageBox.information(self, "无法整理", msg)
+            return
+        if self._memory_organize_worker and self._memory_organize_worker.isRunning():
+            QMessageBox.information(self, "提示", "整理正在进行中")
+            return
+        try:
+            preview = self._long_term_memory.preview_organize(include_legacy=False)
+        except Exception as e:
+            QMessageBox.warning(self, "错误", f"生成预览失败: {e}")
+            return
+        dlg = MemoryOrganizePreviewDialog(preview, parent=self)
+
+        def on_legacy_toggled(_state):
+            try:
+                p2 = self._long_term_memory.preview_organize(
+                    include_legacy=dlg._include_legacy_cb.isChecked()
+                )
+                dlg.refresh_preview(p2)
+            except Exception as ex:
+                QMessageBox.warning(self, "错误", f"刷新预览失败: {ex}")
+
+        dlg._include_legacy_cb.stateChanged.connect(on_legacy_toggled)
+        if dlg.exec() != QDialog.DialogCode.Accepted:
+            return
+        merge_ids, delete_ids = dlg.get_plan()
+        if not merge_ids and not delete_ids:
+            return
+        self._set_memory_tab_busy(True)
+        self._memory_organize_worker = MemoryOrganizeWorker(
+            self._long_term_memory,
+            merge_group_ids=merge_ids,
+            delete_ids=delete_ids,
+        )
+        self._memory_organize_worker.finished.connect(self._on_memory_organize_finished)
+        self._memory_organize_worker.error.connect(self._on_memory_organize_error)
+        self._memory_organize_worker.start()
+
+    def _on_memory_organize_finished(self, stats: dict):
+        self._set_memory_tab_busy(False)
+        self._on_memory_refresh()
+        err = stats.get("errors") or []
+        err_txt = "\n".join(err[:5]) if err else ""
+        QMessageBox.information(
+            self,
+            "整理完成",
+            f"合并 {stats.get('merged_groups', 0)} 组（共 {stats.get('merged_from_rows', 0)} 条并入），"
+            f"删除 {stats.get('deleted_count', 0)} 条。"
+            + (f"\n\n部分提示：\n{err_txt}" if err_txt else ""),
+        )
+
+    def _on_memory_organize_error(self, msg: str):
+        self._set_memory_tab_busy(False)
+        QMessageBox.warning(self, "整理失败", msg)
 
     def _on_memory_edit_content(self):
         """编辑选中记忆的文本内容（不编辑 topic）"""
@@ -591,11 +718,16 @@ class SettingsDialog(QDialog):
             self.vision_connection_status_label.setText("状态：连接成功，识图可用。")
             QMessageBox.information(self, "测试连接", "识图 API 连接测试通过。")
         else:
-            self.vision_connection_status_label.setText("状态：连接成功，但识图探测未通过。")
+            note = (meta.get("probe_note") or "").strip()
+            self.vision_connection_status_label.setText(
+                "状态：连接成功，但识图探测未通过。"
+                + (f" ({note[:60]}…)" if note else "")
+            )
             QMessageBox.warning(
                 self,
                 "测试连接",
-                "已连通 API，但当前模型可能不支持多模态识图，请更换 VL 类模型。",
+                "已连通 API，但识图探测未通过（已自动尝试多种参数）。"
+                + (f"\n\n{note}" if note else ""),
             )
 
     def _on_vision_conn_probe_error(self, msg: str):
@@ -632,13 +764,17 @@ class SettingsDialog(QDialog):
             self.vision_status_label.setText("识图测试通过，可使用屏幕监视功能。")
             QMessageBox.information(self, "测试识图", "识图测试通过。")
         else:
+            note = (meta.get("probe_note") or "").strip()
+            hint = f"\n\n详情：{note}" if note else ""
             self.vision_status_label.setText(
-                "识图测试未通过：当前模型可能不支持多模态识图，请更换 VL 类模型。"
+                "识图测试未通过：请查看终端 [VisionAdapter] 日志或更换 VL 类模型。"
             )
             QMessageBox.warning(
                 self,
                 "测试识图",
-                "当前模型不支持或无法完成识图请求。\n请选用名称含 VL/Vision 等多模态模型。",
+                "当前模型未完成识图探测（已自动尝试多种请求参数）。"
+                "请选用名称含 VL/Vision 的多模态模型，或查看终端日志。"
+                f"{hint}",
             )
 
     def _on_vision_probe_error(self, msg: str):

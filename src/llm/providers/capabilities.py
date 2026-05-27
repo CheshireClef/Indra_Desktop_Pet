@@ -9,11 +9,7 @@ from typing import Any
 
 from llm.clients.openai_compatible import OpenAICompatibleClient
 from llm.clients.url_utils import normalize_base_url
-
-# 1x1 透明 PNG
-_TINY_PNG_B64 = (
-    "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAEhQGAhKmMIQAAAABJRU5ErkJggg=="
-)
+from llm.clients.vision_adapter import adaptive_probe_vision
 
 
 def probe_json_mode(client: OpenAICompatibleClient) -> str:
@@ -56,46 +52,19 @@ def probe_json_mode(client: OpenAICompatibleClient) -> str:
     return "natural_only"
 
 
-def probe_vision(client: OpenAICompatibleClient) -> bool:
-    """发送极小 PNG 多模态请求，判断是否支持识图。"""
-    if not client.chat_url or not client.model:
-        return False
-    payload = {
-        "model": client.model,
-        "messages": [
-            {
-                "role": "user",
-                "content": [
-                    {"type": "text", "text": "描述这张图，一个字即可。"},
-                    {
-                        "type": "image_url",
-                        "image_url": {"url": f"data:image/png;base64,{_TINY_PNG_B64}"},
-                    },
-                ],
-            }
-        ],
-        "max_tokens": 16,
-        "temperature": 0,
-        "stream": False,
-    }
-    try:
-        import requests
-
-        resp = requests.post(
-            client.chat_url,
-            headers=client._headers(),
-            json=payload,
-            timeout=60,
-        )
-        if resp.status_code >= 400:
-            return False
-        from llm.clients.response_utils import extract_message_content
-
-        text = extract_message_content(resp.json())
-        return bool(text and text.strip())
-    except Exception as e:
-        print(f"[Capabilities] 识图探测失败: {e}")
-        return False
+def probe_vision(
+    client: OpenAICompatibleClient,
+    *,
+    vendor_id: str | None = None,
+    cached_hints: dict[str, Any] | None = None,
+) -> tuple[bool, dict[str, Any]]:
+    """自适应识图探测，返回 (是否支持, 元数据含 vision_hints / probe_note)。"""
+    ok, meta = adaptive_probe_vision(
+        client,
+        vendor_id=vendor_id,
+        cached_hints=cached_hints,
+    )
+    return ok, meta
 
 
 def run_full_probe(
@@ -107,9 +76,11 @@ def run_full_probe(
     base = normalize_base_url(base_url)
     client = OpenAICompatibleClient(base, api_key, model)
     json_mode = probe_json_mode(client)
-    supports_vision = probe_vision(client)
-    return {
+    supports_vision, vision_meta = probe_vision(client)
+    result: dict[str, Any] = {
         "json_mode": json_mode,
         "supports_vision": supports_vision,
         "probed_at": datetime.now(timezone.utc).isoformat(),
     }
+    result.update(vision_meta)
+    return result

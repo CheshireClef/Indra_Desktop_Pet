@@ -51,8 +51,12 @@ class VisionProbeWorker(QThread):
 
             base = normalize_base_url(self.base_url)
             client = OpenAICompatibleClient(base, self.api_key, self.model)
-            ok = probe_vision(client)
-            meta = {"supports_vision": ok, "probed_at": datetime.now(timezone.utc).isoformat()}
+            from llm.clients.vision_adapter import match_vendor_id
+
+            vendor_id = match_vendor_id(base)
+            ok, meta = probe_vision(client, vendor_id=vendor_id)
+            meta.setdefault("supports_vision", ok)
+            meta["probed_at"] = datetime.now(timezone.utc).isoformat()
             self.finished.emit(ok, meta)
         except Exception as e:
             self.error.emit(str(e))

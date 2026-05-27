@@ -4,7 +4,12 @@
     "protocol": "openai_compatible",
     "base_url": "https://api.siliconflow.cn/v1",
     "list_models_path": "/models",
-    "requires_api_key": true
+    "requires_api_key": true,
+    "vision_defaults": {
+      "probe_side": 64,
+      "enable_thinking": false,
+      "detail": "low"
+    }
   },
   "deepseek": {
     "label": "DeepSeek",
@@ -25,14 +30,22 @@
     "protocol": "openai_compatible",
     "base_url": "https://openrouter.ai/api/v1",
     "list_models_path": "/models",
-    "requires_api_key": true
+    "requires_api_key": true,
+    "vision_defaults": {
+      "probe_side": 64,
+      "detail": "low"
+    }
   },
   "zhipu": {
     "label": "智谱 AI",
     "protocol": "openai_compatible",
     "base_url": "https://open.bigmodel.cn/api/paas/v4",
     "list_models_path": "/models",
-    "requires_api_key": true
+    "requires_api_key": true,
+    "vision_defaults": {
+      "probe_side": 64,
+      "enable_thinking": false
+    }
   },
   "qwen": {
     "label": "通义千问",
@@ -67,7 +80,11 @@
     "protocol": "openai_compatible",
     "base_url": "https://api.minimaxi.com/v1",
     "list_models_path": "/models",
-    "requires_api_key": true
+    "requires_api_key": true,
+    "vision_defaults": {
+      "probe_side": 64,
+      "enable_thinking": false
+    }
   },
   "ollama": {
     "label": "Ollama（本地）",

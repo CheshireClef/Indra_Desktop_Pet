@@ -13,7 +13,7 @@ from llm.clients.url_utils import models_list_url
 
 # 识图模型 id 启发式（软过滤，非硬拒绝）
 _VISION_HINT = re.compile(
-    r"(vl|vision|gpt-4o|gpt-4\.1|gemini-.*-(pro|flash)|glm-4v|internvl|qwen.*vl)",
+    r"(vl|vision|gpt-4o|gpt-4\.1|gemini-.*-(pro|flash)|glm-4v|internvl|qwen.*vl|qwen3\.[56]|qwen3-omni|omni)",
     re.IGNORECASE,
 )
 

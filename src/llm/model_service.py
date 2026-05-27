@@ -71,7 +71,26 @@ class ModelService:
         vendor = binding.get("vendor", "custom_openai")
         if requires_api_key(vendor) and not api_key:
             return None
-        return self._client_for_binding(binding)
+        client = self._client_for_binding(binding)
+        if client:
+            client.vision_hints = self.get_vision_hints(binding)
+        return client
+
+    def get_vision_hints(self, binding: dict[str, Any] | None = None) -> dict[str, Any] | None:
+        """读取当前识图模型在 capabilities_cache 中探测成功的请求参数。"""
+        binding = binding or self.sm.get_vision_binding()
+        models = self.sm.get_models_block()
+        vision = models.get("vision") or {}
+        if vision.get("same_connection_as_chat", True):
+            conn_id = (models.get("chat") or {}).get("connection_id", "default")
+        else:
+            conn_id = vision.get("connection_id", "default")
+        model = binding.get("model") or ""
+        if not model:
+            return None
+        cache = self.sm.get_capability_cache(conn_id, model) or {}
+        hints = cache.get("vision_hints")
+        return hints if isinstance(hints, dict) else None
 
     def _client_for_binding(self, binding: dict[str, Any]) -> OpenAICompatibleClient:
         base = normalize_base_url(binding.get("base_url") or "")

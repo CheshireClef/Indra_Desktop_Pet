@@ -10,8 +10,14 @@ from typing import Any
 
 import requests
 
-from llm.clients.response_utils import extract_message_content
+from llm.clients.response_utils import extract_message_content, extract_vision_message_content
 from llm.clients.url_utils import chat_completions_url
+from llm.clients.vision_adapter import VisionHints, merge_vision_hints
+from llm.clients.vision_request import (
+    build_vision_chat_payload,
+    build_vision_user_message_with_hints,
+    guess_image_mime,
+)
 from utils import resource_path
 
 _SCREEN_DESCRIBE_PROMPT = (
@@ -37,6 +43,8 @@ class OpenAICompatibleClient:
         self.model = model
         self.timeout = timeout
         self.chat_url = chat_completions_url(base_url)
+        # 由 ModelService 注入：capabilities_cache 中探测成功的 vision_hints
+        self.vision_hints: dict[str, Any] | None = None
 
     def _headers(self) -> dict[str, str]:
         h = {"Content-Type": "application/json"}
@@ -96,24 +104,30 @@ class OpenAICompatibleClient:
         abs_path = Path(resource_path(str(image_path)))
         with open(abs_path, "rb") as f:
             image_b64 = base64.b64encode(f.read()).decode("utf-8")
-        payload = {
-            "model": self.model,
-            "messages": [
-                {
-                    "role": "user",
-                    "content": [
-                        {"type": "text", "text": _SCREEN_DESCRIBE_PROMPT},
-                        {
-                            "type": "image_url",
-                            "image_url": {"url": f"data:image/png;base64,{image_b64}"},
-                        },
-                    ],
-                }
-            ],
-            "stream": False,
-            "max_tokens": 512,
-            "temperature": 0.2,
-        }
+        mime = guess_image_mime(abs_path)
+        hints = merge_vision_hints(
+            self.base_url,
+            self.model,
+            cached=self.vision_hints,
+        )
+        # 正式截图用较高细节；探测阶段用 low 省 token
+        screen_hints = VisionHints.from_dict(
+            {**hints.to_dict(), "detail": "high"}
+        )
+        user_msg = build_vision_user_message_with_hints(
+            _SCREEN_DESCRIBE_PROMPT,
+            image_b64,
+            screen_hints,
+            mime=mime,
+        )
+        payload = build_vision_chat_payload(
+            self.model,
+            user_msg,
+            base_url=self.base_url,
+            max_tokens=512,
+            temperature=0.2,
+            vision_hints=screen_hints.to_dict(),
+        )
         try:
             resp = requests.post(
                 self.chat_url,
@@ -121,8 +135,16 @@ class OpenAICompatibleClient:
                 json=payload,
                 timeout=self.timeout,
             )
+            if resp.status_code >= 400:
+                print(
+                    f"[OpenAICompatibleClient] describe_image HTTP {resp.status_code}: "
+                    f"{(resp.text or '')[:400]}"
+                )
+                return None
             resp.raise_for_status()
-            text = extract_message_content(resp.json())
+            text = extract_vision_message_content(resp.json())
+            if not text:
+                print("[OpenAICompatibleClient] describe_image 返回空正文（请确认模型支持多模态）")
             return text if text else None
         except Exception as e:
             print(f"[OpenAICompatibleClient] describe_image 失败: {e}")

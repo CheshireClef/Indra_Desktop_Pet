@@ -15,6 +15,7 @@ from pathlib import Path
 from utils import resource_path
 from .knowledge_base import KnowledgeBase
 from .long_term_memory import LongTermMemory
+from llm.clients.text_sanitize import extract_json_payload, strip_reasoning_artifacts
 
 class ChatManager:
     """
@@ -35,7 +36,8 @@ class ChatManager:
             "2. 仅当回复内容完全无任何情绪倾向（纯客观陈述、无主观情感）时，才能选择【平常】；"
             "3. 标签必须从以下列表中选择：{}，格式为【标签名】，必须放在回复最后一行，仅含标签无其他内容；"
             "4. 若回复的内容适合【平常】标签，但包含饮酒的情节，请优先选择【干杯】标签；"
-            "5. 标签仅用于后台统计，不要体现在对话内容中。"
+            "5. 标签仅用于后台统计，不要体现在对话内容中；"
+            "6. 禁止输出思考过程、think 围栏或 chain-of-thought，只输出角色对用户说的评论正文与末尾情绪标签。"
         ).format(','.join(self.VALID_EMOTION_TAGS))
 
     # ---------- JSON 结构化输出（聊天场景） ----------
@@ -47,6 +49,7 @@ class ChatManager:
         tags = "、".join(self.VALID_EMOTION_TAGS)
         return (
             "\n\n【输出格式】你必须只输出一个 JSON 对象，不要输出 JSON 以外的任何文字。"
+            "禁止输出思考过程、chain-of-thought 或 think 围栏/内部推理标签。"
             "输出 JSON 结果时一定要用 Markdown 代码块包裹，例如：\n```json\n{\"reply\":\"……\",\"emotion\":\"开心\",\"memory_to_save\":null,\"memory_topic\":null,\"favorability_delta\":null}\n```"
             "\n字段说明："
             "\n- reply（必填）：你作为角色对用户说的正文。"
@@ -88,9 +91,10 @@ class ChatManager:
         """
         if not reply.strip():
             return "", "平常"
-        
-        # 去除回复末尾的空白字符（避免LLM加换行/空格导致匹配失败）
-        reply_processed = reply.strip()
+
+        reply_processed = strip_reasoning_artifacts(reply)
+        if not reply_processed:
+            return "", "平常"
         
         # 正则匹配：所有位置的【标签】，标签内容在VALID_EMOTION_TAGS中
         import re
@@ -123,15 +127,9 @@ class ChatManager:
         """
         if not (content or "").strip():
             return "", "平常", None, None, None, False
-        raw = content.strip()
-        # 尝试去掉可选的 ```json ... ``` 包裹
-        if raw.startswith("```"):
-            for prefix in ("```json", "```"):
-                if raw.startswith(prefix):
-                    raw = raw[len(prefix):].strip()
-                    break
-            if raw.endswith("```"):
-                raw = raw[:-3].strip()
+        raw = extract_json_payload(content)
+        if not raw:
+            raw = strip_reasoning_artifacts(content)
         try:
             obj = json.loads(raw)
             if not isinstance(obj, dict):
@@ -157,7 +155,8 @@ class ChatManager:
             return reply, emotion, memory_to_save, memory_topic, favorability_delta, True
         except Exception:
             pass
-        # 回退：幻觉截断 + 情绪标签剥离
+        # 回退：剥离思考痕迹 + 幻觉截断 + 情绪标签剥离
+        raw = strip_reasoning_artifacts(content)
         hallucination_marker = "【刚刚对屏幕的评论】"
         if hallucination_marker in raw:
             pos = raw.find(hallucination_marker)
@@ -266,14 +265,9 @@ class ChatManager:
         raw = self._request_llm_json_light(messages)
         if not (raw or "").strip():
             return
-        raw = raw.strip()
-        if raw.startswith("```"):
-            for prefix in ("```json", "```"):
-                if raw.startswith(prefix):
-                    raw = raw[len(prefix):].strip()
-                    break
-            if raw.endswith("```"):
-                raw = raw[:-3].strip()
+        raw = extract_json_payload(raw)
+        if not raw:
+            return
         try:
             obj = json.loads(raw)
             if not isinstance(obj, dict):
