@@ -130,11 +130,14 @@ class ChatManager:
             self.base_persona = ""
 
     def _build_persona(self) -> str:
-        """构建完整的 System Prompt，包含用户昵称"""
+        """构建完整的 System Prompt，包含用户昵称与语言约束"""
         user_name = self.sm.get("user", "display_name", default="主人")
         return (
             f"{self.base_persona}\n\n"
-            f"你必须始终称呼用户为「{user_name}」，不要使用其他称呼。"
+            f"你必须始终称呼用户为「{user_name}」，不要使用其他称呼。\n"
+            "【语言要求】无论用户输入何种语言，你回复的正文必须使用简体中文。"
+            "禁止用日文、英文或其他语言作答（角色名、游戏专有名词可保留原文）。"
+            "人设资料与语音参考中的日文仅用于理解语气，不得照搬日文句式或整段日文回复。"
         )
     
     def _retrieve_knowledge(self, query: str) -> str:

@@ -52,7 +52,7 @@ def main():
     _splash_message(splash, app, "正在加载系统托盘…")
     menu = AppTray.create_main_menu(app, pet)
     pet.set_context_menu(menu)
-    tray_icon_path = "assets/images/icon.ico"
+    tray_icon_path = "assets/images/bolt-eye.png"
     tray = AppTray(app, pet_window=pet, icon_path=tray_icon_path, menu=menu)
 
     print(f"[Startup] 启动完成，总耗时 {time.perf_counter() - t0:.2f}s")

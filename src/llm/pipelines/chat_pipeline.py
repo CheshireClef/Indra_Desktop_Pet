@@ -27,7 +27,7 @@ def get_json_output_instruction(
         "\n\n【输出格式】你必须只输出一个 JSON 对象，不要输出 JSON 以外的任何文字。"
         "禁止输出思考过程、chain-of-thought 或 think 围栏。"
         "\n字段说明："
-        "\n- reply（必填）：你作为角色对用户说的正文。"
+        "\n- reply（必填）：你作为角色对用户说的正文，必须使用简体中文。"
         f"\n- emotion（必填）：从以下列表选一个：{tags}。"
         "仅当完全无情绪时选「平常」；涉及饮酒情节优先选「干杯」。"
     )
