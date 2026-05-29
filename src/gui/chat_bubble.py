@@ -106,11 +106,38 @@ class ChatBubble(QWidget):
         self._ensure_visible()
         self.chat_view.append(f"<b>你：</b>{text}<br>")
 
-    def append_pet(self, text: str):
-        """显示桌宠消息，并确保窗口可见"""
-        # ⭐ 关键优化：桌宠说话时自动浮现
+    def append_pet(self, text: str, reasoning: str | None = None):
+        """显示桌宠消息；reasoning 为 API 思考链（可选，灰色折叠区）。"""
         self._ensure_visible()
-        self.chat_view.append(f"<b>因陀罗：</b>{text}<br>")
+        if reasoning and self._should_show_reasoning():
+            safe = self._html_escape(reasoning).replace("\n", "<br>")
+            self.chat_view.append(
+                f'<details style="color:#aaa;font-size:0.9em;margin:4px 0;">'
+                f"<summary>思考过程</summary>{safe}</details>"
+            )
+        safe_text = self._html_escape(text)
+        self.chat_view.append(f"<b>因陀罗：</b>{safe_text}<br>")
+
+    @staticmethod
+    def _html_escape(s: str) -> str:
+        return (
+            (s or "")
+            .replace("&", "&amp;")
+            .replace("<", "&lt;")
+            .replace(">", "&gt;")
+        )
+
+    def _should_show_reasoning(self) -> bool:
+        try:
+            from settings_manager import SettingsManager
+
+            return bool(
+                SettingsManager.get_instance().get(
+                    "behavior", "show_reasoning_in_chat", default=True
+                )
+            )
+        except Exception:
+            return True
 
     # ---------- 可见性与位置 ----------
     def _ensure_visible(self):
@@ -121,7 +148,7 @@ class ChatBubble(QWidget):
             self.show()
 
         self.raise_()
-        self.activateWindow()
+        # 勿 activateWindow：父级 PetWindow 含 WindowDoesNotAcceptFocus，会触发 Qt 警告
         self.setWindowOpacity(1.0)
         self._hide_timer.stop()
         self._fade_anim.stop()

@@ -175,12 +175,11 @@ def vision_payload_extras(
     model: str,
     hints: VisionHints | None = None,
 ) -> dict[str, Any]:
-    """合并服务商/模型/hints 的扩展字段（如 enable_thinking）。"""
+    """合并服务商/模型/hints 的扩展字段（委托 reasoning_extras，保持旧 import 路径）。"""
+    from llm.clients.reasoning_extras import vision_payload_extras as _extras
+
     h = hints or merge_vision_hints(base_url, model)
-    extras: dict[str, Any] = {}
-    if h.enable_thinking is not None:
-        extras["enable_thinking"] = h.enable_thinking
-    return extras
+    return _extras(base_url, model, hints=h)
 
 
 def _attempt_from_hints(hints: VisionHints, label: str) -> VisionProbeAttempt:

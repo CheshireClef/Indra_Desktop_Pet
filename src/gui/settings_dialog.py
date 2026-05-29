@@ -17,7 +17,11 @@ from PySide6.QtCore import Qt
 from llm.clients.url_utils import normalize_base_url
 from llm.providers.catalog import filter_vision_candidates
 from llm.providers.registry import default_base_url, list_vendor_ids, vendor_label
-from workers.capability_probe_worker import CapabilityProbeWorker, VisionProbeWorker
+from workers.capability_probe_worker import (
+    CapabilityProbeWorker,
+    MemoryCapabilityProbeWorker,
+    VisionProbeWorker,
+)
 from workers.model_list_worker import ModelListWorker
 from workers.memory_organize_worker import MemoryOrganizeWorker
 from .memory_organize_dialog import MemoryOrganizePreviewDialog
@@ -71,8 +75,10 @@ class SettingsDialog(QDialog):
         self._model_list_worker = None
         self._capability_probe_worker = None
         self._vision_probe_worker = None
+        self._memory_json_probe_worker = None
         self._chat_cached_model_ids: list[str] = []
         self._vision_cached_model_ids: list[str] = []
+        self._memory_cached_model_ids: list[str] = []
 
         self._build_ui()
         self._load_values()
@@ -146,6 +152,13 @@ class SettingsDialog(QDialog):
         self.long_term_memory_cb = QCheckBox("启用长期记忆")
         form.addRow(self.long_term_memory_cb)
 
+        self.show_reasoning_cb = QCheckBox("聊天窗口显示模型思考过程（可折叠）")
+        self.show_reasoning_cb.setToolTip(
+            "需模型/API 返回 reasoning_content 或 thinking 块；"
+            "与正式回复分离展示，不会替代气泡正文。"
+        )
+        form.addRow(self.show_reasoning_cb)
+
         self.screen_watch_interval = QSpinBox()
         self.screen_watch_interval.setRange(5, 10800)
         form.addRow("屏幕监视间隔 (秒)", self.screen_watch_interval)
@@ -186,6 +199,23 @@ class SettingsDialog(QDialog):
             self.chat_btn_test_connection = btn_test
             self.chat_btn_refresh_models = btn_refresh
             self.chat_connection_status_label = status_label
+        elif prefix == "memory":
+            vendor_combo.currentIndexChanged.connect(
+                lambda: self._on_vendor_changed(vendor_combo, base_url_edit)
+            )
+            btn_test.clicked.connect(self._on_test_memory_json)
+            btn_refresh.clicked.connect(self._on_refresh_memory_models)
+            self.memory_vendor_combo = vendor_combo
+            self.memory_base_url_edit = base_url_edit
+            self.memory_api_key_edit = api_key_edit
+            self.memory_btn_refresh_models = btn_refresh
+            self.memory_connection_status_label = status_label
+            self._memory_api_widgets = [
+                vendor_combo,
+                base_url_edit,
+                api_key_edit,
+                btn_refresh,
+            ]
         else:
             vendor_combo.currentIndexChanged.connect(
                 lambda: self._on_vendor_changed(vendor_combo, base_url_edit)
@@ -285,6 +315,52 @@ class SettingsDialog(QDialog):
     # ---------- 记忆管理标签页 ----------
     def _build_memory_tab(self):
         layout = QVBoxLayout(self.memory_tab)
+
+        mem_api_group = QGroupBox("记忆录入 / 整理模型")
+        mem_api_form = QFormLayout(mem_api_group)
+        self.memory_same_connection_cb = QCheckBox("与对话模型使用同一 API 连接")
+        self.memory_same_connection_cb.setChecked(True)
+        self.memory_same_connection_cb.stateChanged.connect(self._on_memory_same_connection_changed)
+        mem_api_form.addRow(self.memory_same_connection_cb)
+        self._append_api_connection_form(mem_api_form, prefix="memory")
+
+        self.memory_model_combo = QComboBox()
+        self.memory_model_combo.setEditable(True)
+        mem_api_form.addRow("模型", self.memory_model_combo)
+
+        self.memory_context_rounds_spin = QSpinBox()
+        self.memory_context_rounds_spin.setRange(1, 5)
+        self.memory_context_rounds_spin.setValue(1)
+        self.memory_context_rounds_spin.setToolTip(
+            "1：每轮对话结束后抽取，仅分析本轮。\n"
+            "2–5：每累计 N 轮对话抽取一次，并附带最近 N 轮完整对话。"
+        )
+        mem_api_form.addRow("附带对话轮数 N", self.memory_context_rounds_spin)
+
+        self.memory_temperature_spin = QDoubleSpinBox()
+        self.memory_temperature_spin.setRange(0.0, 1.5)
+        self.memory_temperature_spin.setSingleStep(0.1)
+        self.memory_temperature_spin.setValue(0.2)
+        mem_api_form.addRow("Temperature", self.memory_temperature_spin)
+
+        self.memory_max_tokens_spin = QSpinBox()
+        self.memory_max_tokens_spin.setRange(64, 4096)
+        self.memory_max_tokens_spin.setValue(512)
+        mem_api_form.addRow("Max Tokens", self.memory_max_tokens_spin)
+
+        self.memory_btn_test_json = QPushButton("测试记忆抽取")
+        self.memory_btn_test_json.clicked.connect(self._on_test_memory_json)
+        self.memory_json_status_label = QLabel("")
+        self.memory_json_status_label.setWordWrap(True)
+        mem_api_form.addRow(self.memory_btn_test_json)
+        mem_api_form.addRow(self.memory_json_status_label)
+
+        layout.addWidget(mem_api_group)
+
+        self.chat_vendor_combo.currentIndexChanged.connect(self._maybe_sync_memory_from_chat)
+        self.chat_base_url_edit.textChanged.connect(self._maybe_sync_memory_from_chat)
+        self.chat_api_key_edit.textChanged.connect(self._maybe_sync_memory_from_chat)
+
         layout.addWidget(
             QLabel(
                 "已存储的长期记忆。勾选左侧框表示「永久保留」，整理时不会删除该条。"
@@ -375,9 +451,13 @@ class SettingsDialog(QDialog):
             return False, "未连接长期记忆模块"
         if not self._long_term_memory.is_merge_llm_available():
             return False, "长期记忆未配置 LLM 合并能力"
-        binding = self.sm.get_chat_binding()
+        binding = self.sm.get_memory_binding()
         if not binding.get("model") or not binding.get("base_url"):
-            return False, "请先在「模型设置」中配置与聊天相同的 API（模型与 Base URL）"
+            return False, "请先在下方配置记忆录入/整理模型（模型名与 Base URL）"
+        from llm.model_service import ModelService
+
+        if not ModelService.get_instance(self.sm).get_memory_client():
+            return False, "记忆模型 API 未配置完整（请填写 Key 或检查连接）"
         return True, ""
 
     def _set_memory_tab_busy(self, busy: bool):
@@ -543,6 +623,40 @@ class SettingsDialog(QDialog):
             self._vendor_id_from_combo(self.vision_vendor_combo),
         )
 
+    def _memory_connection_fields(self) -> tuple[str, str, str]:
+        if self.memory_same_connection_cb.isChecked():
+            return self._chat_connection_fields()
+        return (
+            self.memory_base_url_edit.text().strip(),
+            self.memory_api_key_edit.text().strip(),
+            self._vendor_id_from_combo(self.memory_vendor_combo),
+        )
+
+    def _maybe_sync_memory_from_chat(self):
+        if self.memory_same_connection_cb.isChecked():
+            self._sync_memory_api_from_chat()
+
+    def _on_memory_same_connection_changed(self):
+        same = self.memory_same_connection_cb.isChecked()
+        self._set_memory_api_enabled(not same)
+        if same:
+            self._sync_memory_api_from_chat()
+
+    def _set_memory_api_enabled(self, enabled: bool):
+        for w in getattr(self, "_memory_api_widgets", []):
+            w.setEnabled(enabled)
+
+    def _sync_memory_api_from_chat(self):
+        self.memory_vendor_combo.blockSignals(True)
+        self.memory_base_url_edit.blockSignals(True)
+        self.memory_api_key_edit.blockSignals(True)
+        self.memory_vendor_combo.setCurrentIndex(self.chat_vendor_combo.currentIndex())
+        self.memory_base_url_edit.setText(self.chat_base_url_edit.text())
+        self.memory_api_key_edit.setText(self.chat_api_key_edit.text())
+        self.memory_vendor_combo.blockSignals(False)
+        self.memory_base_url_edit.blockSignals(False)
+        self.memory_api_key_edit.blockSignals(False)
+
     def _on_vendor_changed(self, vendor_combo: QComboBox, base_url_edit: QLineEdit):
         vid = self._vendor_id_from_combo(vendor_combo)
         if vid != "custom_openai":
@@ -616,6 +730,11 @@ class SettingsDialog(QDialog):
         if self.same_connection_cb.isChecked():
             self._vision_cached_model_ids = ids
             self._refill_vision_combo()
+        if self.memory_same_connection_cb.isChecked():
+            self._memory_cached_model_ids = ids
+            self._fill_model_combo(
+                self.memory_model_combo, self.memory_model_combo.currentText(), ids
+            )
         self.chat_connection_status_label.setText(f"状态：已获取 {len(ids)} 个模型")
 
     def _on_chat_model_list_error(self, msg: str):
@@ -645,6 +764,79 @@ class SettingsDialog(QDialog):
     def _on_vision_model_list_error(self, msg: str):
         self.vision_btn_refresh_models.setEnabled(True)
         self.vision_connection_status_label.setText(f"状态：{msg}")
+
+    def _on_refresh_memory_models(self):
+        base, key, _vid = self._memory_connection_fields()
+        base = normalize_base_url(base)
+        if not base:
+            QMessageBox.warning(self, "提示", "请先填写 Base URL")
+            return
+        self.memory_connection_status_label.setText("状态：正在拉取模型列表…")
+        self.memory_btn_refresh_models.setEnabled(False)
+        self._memory_model_list_worker = ModelListWorker(base, key)
+        self._memory_model_list_worker.finished.connect(self._on_memory_model_list_finished)
+        self._memory_model_list_worker.error.connect(self._on_memory_model_list_error)
+        self._memory_model_list_worker.start()
+
+    def _on_memory_model_list_finished(self, ids: list):
+        self.memory_btn_refresh_models.setEnabled(True)
+        self._memory_cached_model_ids = ids
+        current = self.memory_model_combo.currentText()
+        self._fill_model_combo(self.memory_model_combo, current, ids)
+        self.memory_connection_status_label.setText(f"状态：已获取 {len(ids)} 个模型")
+
+    def _on_memory_model_list_error(self, msg: str):
+        self.memory_btn_refresh_models.setEnabled(True)
+        self.memory_connection_status_label.setText(f"状态：{msg}")
+
+    def _on_test_memory_json(self):
+        base, key, _vid = self._memory_connection_fields()
+        base = normalize_base_url(base)
+        model = self.memory_model_combo.currentText().strip()
+        if not base:
+            QMessageBox.warning(self, "提示", "请先填写 Base URL")
+            return
+        if not model:
+            QMessageBox.warning(self, "提示", "请先选择或填写记忆模型名")
+            return
+        self.memory_json_status_label.setText("正在测试记忆模型（JSON + 抽取试运行）…")
+        self.memory_btn_test_json.setEnabled(False)
+        conn_id = "default" if self.memory_same_connection_cb.isChecked() else "memory"
+        self._memory_json_probe_worker = MemoryCapabilityProbeWorker(base, key, model)
+        self._memory_json_probe_worker.finished.connect(
+            lambda r: self._on_memory_json_probe_finished(r, conn_id, model)
+        )
+        self._memory_json_probe_worker.error.connect(self._on_memory_json_probe_error)
+        self._memory_json_probe_worker.start()
+
+    def _on_memory_json_probe_finished(self, result: dict, conn_id: str, model: str):
+        self.memory_btn_test_json.setEnabled(True)
+        existing = self.sm.get_capability_cache(conn_id, model) or {}
+        existing.update(result)
+        self.sm.set_capability_cache(conn_id, model, existing, save_now=False)
+        jm = result.get("json_mode", "?")
+        extract_ok = result.get("memory_extract_ok", False)
+        extract_note = result.get("memory_extract_note", "")
+        status = f"JSON 模式：{jm}；抽取试运行：{'通过' if extract_ok else '未通过'}"
+        self.memory_json_status_label.setText(status)
+        if extract_ok:
+            QMessageBox.information(
+                self,
+                "测试记忆抽取",
+                f"记忆模型可用。\n\nJSON 输出：{jm}\n{extract_note}",
+            )
+        else:
+            QMessageBox.warning(
+                self,
+                "测试记忆抽取",
+                f"记忆模型抽取试运行未通过。\n\nJSON 输出：{jm}\n原因：{extract_note}\n\n"
+                "请检查模型是否支持 JSON、API Key/Base URL，或更换模型后重试。",
+            )
+
+    def _on_memory_json_probe_error(self, msg: str):
+        self.memory_btn_test_json.setEnabled(True)
+        self.memory_json_status_label.setText(f"测试失败：{msg}")
+        QMessageBox.warning(self, "测试记忆抽取", msg)
 
     def _refill_vision_combo_from_ids(self, ids: list, current: str):
         if ids and not self.vision_show_all_cb.isChecked():
@@ -797,6 +989,9 @@ class SettingsDialog(QDialog):
         self.temp_bubble_duration.setValue(
             self.sm.get("behavior", "temp_bubble_duration_s", default=10)
         )
+        self.show_reasoning_cb.setChecked(
+            self.sm.get("behavior", "show_reasoning_in_chat", default=True)
+        )
         self.long_term_memory_cb.setChecked(
             self.sm.get("behavior", "long_term_memory_enabled", default=False)
         )
@@ -841,6 +1036,32 @@ class SettingsDialog(QDialog):
         )
         self._set_vision_api_enabled(not same_conn)
 
+        memory_cfg = models.get("memory") or {}
+        mem_same = memory_cfg.get("same_connection_as_chat", True)
+        self.memory_same_connection_cb.setChecked(mem_same)
+        memory_b = self.sm.get_memory_binding()
+        if mem_same:
+            self._sync_memory_api_from_chat()
+        else:
+            conn_id = memory_cfg.get("connection_id", "memory")
+            conn = next(
+                (c for c in (models.get("connections") or []) if c.get("id") == conn_id),
+                {},
+            )
+            m_vendor = conn.get("vendor", "siliconflow")
+            midx = self.memory_vendor_combo.findData(m_vendor)
+            if midx >= 0:
+                self.memory_vendor_combo.setCurrentIndex(midx)
+            self.memory_base_url_edit.setText(conn.get("base_url") or "")
+            self.memory_api_key_edit.setText(conn.get("api_key") or "")
+        self._fill_model_combo(self.memory_model_combo, memory_b.get("model") or "", [])
+        self._set_memory_api_enabled(not mem_same)
+        self.memory_context_rounds_spin.setValue(
+            int(memory_cfg.get("extract_context_rounds", 1))
+        )
+        self.memory_temperature_spin.setValue(float(memory_b.get("temperature", 0.2)))
+        self.memory_max_tokens_spin.setValue(int(memory_b.get("max_tokens", 512)))
+
         om = chat_b.get("output_mode", "auto")
         oidx = self.output_mode_combo.findData(om)
         if oidx >= 0:
@@ -864,6 +1085,12 @@ class SettingsDialog(QDialog):
         )
         self.sm.set(
             "behavior", "long_term_memory_enabled", value=self.long_term_memory_cb.isChecked(), save_now=False
+        )
+        self.sm.set(
+            "behavior",
+            "show_reasoning_in_chat",
+            value=self.show_reasoning_cb.isChecked(),
+            save_now=False,
         )
         self.sm.set("user", "display_name", value=self.user_name.text().strip(), save_now=False)
 
@@ -898,7 +1125,9 @@ class SettingsDialog(QDialog):
         chat_key = self.chat_api_key_edit.text().strip()
         chat_model = self.chat_model_combo.currentText().strip()
         vision_model = self.vision_model_combo.currentText().strip()
+        memory_model = self.memory_model_combo.currentText().strip()
         same_conn = self.same_connection_cb.isChecked()
+        memory_same = self.memory_same_connection_cb.isChecked()
 
         chat_conn = {
             "id": "default",
@@ -921,6 +1150,20 @@ class SettingsDialog(QDialog):
             connections.append(vision_conn)
             vision_conn_id = "vision"
 
+        memory_conn_id = "default"
+        if not memory_same:
+            memory_vendor = self._vendor_id_from_combo(self.memory_vendor_combo)
+            memory_conn = {
+                "id": "memory",
+                "vendor": memory_vendor,
+                "protocol": "openai_compatible",
+                "base_url": normalize_base_url(self.memory_base_url_edit.text().strip()),
+                "api_key": self.memory_api_key_edit.text().strip(),
+            }
+            connections = [c for c in connections if c.get("id") != "memory"]
+            connections.append(memory_conn)
+            memory_conn_id = "memory"
+
         models["schema_version"] = 2
         models["connections"] = connections
         models["chat"] = {
@@ -935,6 +1178,14 @@ class SettingsDialog(QDialog):
             "same_connection_as_chat": same_conn,
             "connection_id": vision_conn_id,
             "model": vision_model or "Qwen/Qwen3-VL-32B-Instruct",
+        }
+        models["memory"] = {
+            "same_connection_as_chat": memory_same,
+            "connection_id": memory_conn_id,
+            "model": memory_model,
+            "temperature": float(self.memory_temperature_spin.value()),
+            "max_tokens": int(self.memory_max_tokens_spin.value()),
+            "extract_context_rounds": int(self.memory_context_rounds_spin.value()),
         }
         self.sm._sync_legacy_from_models()
         if save_now:

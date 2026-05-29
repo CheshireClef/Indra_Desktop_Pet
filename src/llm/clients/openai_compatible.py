@@ -10,7 +10,12 @@ from typing import Any
 
 import requests
 
-from llm.clients.response_utils import extract_message_content, extract_vision_message_content
+from llm.clients.llm_response import LLMChatResult
+from llm.clients.response_utils import (
+    extract_message_content,
+    extract_vision_message_content,
+    parse_chat_completion,
+)
 from llm.clients.url_utils import chat_completions_url
 from llm.clients.vision_adapter import VisionHints, merge_vision_hints
 from llm.clients.vision_request import (
@@ -59,7 +64,30 @@ class OpenAICompatibleClient:
         temperature: float = 1.0,
         max_tokens: int = 512,
         response_format_json: bool = False,
+        extra_payload: dict[str, Any] | None = None,
+        log_prefix: str = "",
     ) -> str | None:
+        """返回助手正文；思考链见 chat_completions_result()。"""
+        parsed = self.chat_completions_result(
+            messages,
+            temperature=temperature,
+            max_tokens=max_tokens,
+            response_format_json=response_format_json,
+            extra_payload=extra_payload,
+            log_prefix=log_prefix,
+        )
+        return parsed.content_or_none() if parsed else None
+
+    def chat_completions_result(
+        self,
+        messages: list[dict[str, Any]],
+        *,
+        temperature: float = 1.0,
+        max_tokens: int = 512,
+        response_format_json: bool = False,
+        extra_payload: dict[str, Any] | None = None,
+        log_prefix: str = "",
+    ) -> LLMChatResult | None:
         if not self.chat_url or not self.model:
             return None
         payload: dict[str, Any] = {
@@ -71,14 +99,28 @@ class OpenAICompatibleClient:
         }
         if response_format_json:
             payload["response_format"] = {"type": "json_object"}
+        if extra_payload:
+            payload.update(extra_payload)
 
         try:
-            return self._post_chat(payload, allow_format_retry=response_format_json)
+            return self._post_chat(
+                payload,
+                allow_format_retry=response_format_json,
+                log_prefix=log_prefix,
+            )
         except Exception as e:
-            print(f"[OpenAICompatibleClient] chat 失败: {e} url={self.chat_url}")
+            tag = f"{log_prefix} " if log_prefix else ""
+            print(f"[OpenAICompatibleClient] {tag}chat 失败: {e} url={self.chat_url}")
             return None
 
-    def _post_chat(self, payload: dict[str, Any], *, allow_format_retry: bool) -> str | None:
+    def _post_chat(
+        self,
+        payload: dict[str, Any],
+        *,
+        allow_format_retry: bool,
+        log_prefix: str = "",
+    ) -> LLMChatResult | None:
+        tag = f"{log_prefix} " if log_prefix else ""
         resp = requests.post(
             self.chat_url,
             headers=self._headers(),
@@ -87,16 +129,31 @@ class OpenAICompatibleClient:
         )
         if allow_format_retry and "response_format" in payload and resp.status_code >= 400:
             payload = {k: v for k, v in payload.items() if k != "response_format"}
-            print("[OpenAICompatibleClient] response_format 失败，降级重试")
+            print(f"[OpenAICompatibleClient] {tag}response_format 失败，降级重试")
             resp = requests.post(
                 self.chat_url,
                 headers=self._headers(),
                 json=payload,
                 timeout=self.timeout,
             )
-        resp.raise_for_status()
-        text = extract_message_content(resp.json())
-        return text if text else None
+        if resp.status_code >= 400:
+            print(
+                f"[OpenAICompatibleClient] {tag}HTTP {resp.status_code}: "
+                f"{(resp.text or '')[:300]}"
+            )
+            resp.raise_for_status()
+        data = resp.json()
+        parsed = parse_chat_completion(data)
+        if not parsed.content:
+            fallback = extract_vision_message_content(data)
+            if fallback:
+                parsed = LLMChatResult(content=fallback, reasoning=parsed.reasoning)
+        if not parsed.content and not parsed.reasoning:
+            print(
+                f"[OpenAICompatibleClient] {tag}HTTP 成功但正文为空 "
+                f"model={payload.get('model')}"
+            )
+        return parsed
 
     def describe_image(self, image_path: Path) -> str | None:
         if not self.chat_url or not self.model:

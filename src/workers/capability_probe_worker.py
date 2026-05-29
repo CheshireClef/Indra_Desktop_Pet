@@ -30,6 +30,33 @@ class CapabilityProbeWorker(QThread):
             self.error.emit(str(e))
 
 
+class MemoryCapabilityProbeWorker(QThread):
+    """记忆模型专用：JSON 能力 + 抽取试运行（不跑识图探测）。"""
+
+    finished = Signal(dict)
+    error = Signal(str)
+
+    def __init__(self, base_url: str, api_key: str, model: str):
+        super().__init__()
+        self.base_url = base_url
+        self.api_key = api_key
+        self.model = model
+
+    def run(self):
+        try:
+            from llm.providers.capabilities import run_memory_capability_probe
+
+            if not (self.model or "").strip():
+                self.error.emit("请先选择或填写记忆模型名")
+                return
+            result = run_memory_capability_probe(
+                self.base_url, self.api_key, self.model
+            )
+            self.finished.emit(result)
+        except Exception as e:
+            self.error.emit(str(e))
+
+
 class VisionProbeWorker(QThread):
     """仅探测识图能力。"""
 

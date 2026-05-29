@@ -6,16 +6,20 @@
 3. 提取和处理情绪标签 (Emotion Tag) / JSON 结构化输出
 4. 管理对话历史 (History)
 """
-import json
+import copy
 import re
-import requests
-import os
-import threading
-from pathlib import Path
 from utils import resource_path
 from .knowledge_base import KnowledgeBase
 from .long_term_memory import LongTermMemory
-from llm.clients.text_sanitize import extract_json_payload, strip_reasoning_artifacts
+from llm.clients.text_sanitize import strip_reasoning_artifacts
+from llm.pipelines.chat_pipeline import (
+    append_json_retry_to_messages,
+    get_json_output_instruction,
+    invoke_chat_with_policy,
+    parse_chat_raw,
+    should_use_markdown_json_instruction,
+)
+from llm.pipelines.chat_output_strategy import is_deepseek_chat_model
 
 class ChatManager:
     """
@@ -40,26 +44,6 @@ class ChatManager:
             "6. 禁止输出思考过程、think 围栏或 chain-of-thought，只输出角色对用户说的评论正文与末尾情绪标签。"
         ).format(','.join(self.VALID_EMOTION_TAGS))
 
-    # ---------- JSON 结构化输出（聊天场景） ----------
-    def _get_json_output_instruction(self) -> str:
-        """
-        生成「只输出一个 JSON 对象」的说明，含 reply、emotion、memory_to_save、favorability_delta。
-        memory_to_save 由 LLM 根据用户本轮（及对话上下文）发言判断是否值得写入长期记忆。
-        """
-        tags = "、".join(self.VALID_EMOTION_TAGS)
-        return (
-            "\n\n【输出格式】你必须只输出一个 JSON 对象，不要输出 JSON 以外的任何文字。"
-            "禁止输出思考过程、chain-of-thought 或 think 围栏/内部推理标签。"
-            "输出 JSON 结果时一定要用 Markdown 代码块包裹，例如：\n```json\n{\"reply\":\"……\",\"emotion\":\"开心\",\"memory_to_save\":null,\"memory_topic\":null,\"favorability_delta\":null}\n```"
-            "\n字段说明："
-            "\n- reply（必填）：你作为角色对用户说的正文。"
-            f"\n- emotion（必填）：从以下列表选一个情绪标签：{tags}。请根据回复内容的情绪倾向选择，仅当完全无情绪时选「平常」；若涉及饮酒情节优先选「干杯」。"
-            "\n- memory_to_save（可选）：仅当用户本轮或对话中提到了值得长期记住的信息（如偏好、习惯、重要事项）时，填写一条简短概括句；否则填 null。由你根据用户发言判断。"
-            "\n- memory_topic（可选）：若填写了 memory_to_save，可同时填写简短主题词便于归类（如「饮酒」「偏好」「工作」），否则填 null。"
-            "\n- favorability_delta（可选）：整数或 null，预留字段。"
-            '\n示例：{"reply":"……","emotion":"开心","memory_to_save":null,"memory_topic":null,"favorability_delta":null}'
-        )
-    
     def __init__(self, settings_manager=None, persona_path: str = ""):
         if settings_manager:
             self.sm = settings_manager
@@ -72,12 +56,21 @@ class ChatManager:
         self.chat_history = []
         self._load_persona()
 
+        # 聊天记忆后台抽取：轮次计数与 Worker 代际（防并发乱序写库）
+        self._completed_chat_rounds = 0
+        self._memory_extract_generation = 0
+        self._memory_extract_worker = None
+        # 最近一次 LLM 调用的 API 级思考链（与正文分离，供 UI 展示）
+        self._last_llm_reasoning: str | None = None
+
         # ========== 知识库初始化 ==========
         self.knowledge_base = KnowledgeBase()
-        # 长期记忆模块（SQLite+向量），合并时通过 merge_llm_caller 调用 LLM 做同主题精简
+        # 长期记忆：整理合并走记忆专用模型 API
+        from llm.memory_extract import request_memory_llm_json
+
         self._long_term_memory = LongTermMemory(
             self.knowledge_base,
-            merge_llm_caller=lambda msgs: self._request_llm_json_light(msgs),
+            merge_llm_caller=lambda msgs: request_memory_llm_json(self.sm, msgs),
         )
 
         # ========== 提取并剥离情绪标签 ==========
@@ -120,50 +113,8 @@ class ChatManager:
     
         return pure_reply, emotion_tag
 
-    def _parse_llm_response(self, content: str) -> tuple[str | None, str, str | None, str | None, int | None, bool]:
-        """
-        优先将 LLM 返回内容解析为 JSON；失败则回退到情绪标签剥离+幻觉剔除。
-        返回 (reply, emotion, memory_to_save, memory_topic, favorability_delta, json_ok)。
-        """
-        if not (content or "").strip():
-            return "", "平常", None, None, None, False
-        raw = extract_json_payload(content)
-        if not raw:
-            raw = strip_reasoning_artifacts(content)
-        try:
-            obj = json.loads(raw)
-            if not isinstance(obj, dict):
-                raise ValueError("not a dict")
-            reply = (obj.get("reply") or "").strip() if obj.get("reply") is not None else ""
-            emotion = (obj.get("emotion") or "").strip() or "平常"
-            if emotion not in self.VALID_EMOTION_TAGS:
-                emotion = "平常"
-            memory_to_save = obj.get("memory_to_save")
-            if memory_to_save is not None and isinstance(memory_to_save, str):
-                memory_to_save = memory_to_save.strip() or None
-            else:
-                memory_to_save = None
-            memory_topic = obj.get("memory_topic")
-            if memory_topic is not None and isinstance(memory_topic, str):
-                memory_topic = memory_topic.strip() or None
-            else:
-                memory_topic = None
-            favorability_delta = obj.get("favorability_delta")
-            if favorability_delta is not None and not isinstance(favorability_delta, int):
-                favorability_delta = None
-            print(f"[LLM-JSON] 解析成功 | emotion={emotion} | reply_len={len(reply)} | memory_to_save={memory_to_save!r} | memory_topic={memory_topic!r} | favorability_delta={favorability_delta}")
-            return reply, emotion, memory_to_save, memory_topic, favorability_delta, True
-        except Exception:
-            pass
-        # 回退：剥离思考痕迹 + 幻觉截断 + 情绪标签剥离
-        raw = strip_reasoning_artifacts(content)
-        hallucination_marker = "【刚刚对屏幕的评论】"
-        if hallucination_marker in raw:
-            pos = raw.find(hallucination_marker)
-            raw = raw[:pos].strip()
-        clean_reply, emotion_tag = self._extract_and_strip_emotion_tag(raw)
-        print(f"[LLM-JSON] 回退到标签解析 | emotion={emotion_tag} | reply_len={len(clean_reply)}")
-        return clean_reply, emotion_tag, None, None, None, False
+    def _max_reply_chars(self) -> int:
+        return int(self.sm.get("llm", "max_reply_chars", default=800))
 
     def get_long_term_memory(self) -> LongTermMemory | None:
         """供设置页记忆管理 UI 使用"""
@@ -194,99 +145,138 @@ class ChatManager:
             print(f"[ChatManager] 知识库检索失败，已跳过 RAG: {e}")
             return ""
     
-    # 带情绪标签返回的聊天方法；返回 (reply, emotion_tag, error_message)，error_message 非空时仅展示红色气泡
-    def chat_with_tag(self, user_text: str) -> tuple[str | None, str, str | None]:
+    # 带情绪标签返回的聊天方法；返回 (reply, emotion, error_message, reasoning)
+    def chat_with_tag(
+        self, user_text: str
+    ) -> tuple[str | None, str, str | None, str | None]:
+        self._last_llm_reasoning = None
         self._append_user(user_text)
-        messages = self._build_chat_messages(use_json=True)
         binding = self.sm.get_chat_binding()
         cache = self.sm.get_capability_cache(
             binding.get("connection_id", "default"),
             binding.get("model", ""),
         ) or {}
-        from llm.output_modes import chat_with_output_policy
+        max_chars = self._max_reply_chars()
 
-        reply_raw, _strategy = chat_with_output_policy(
+        def _call(msgs: list[dict], *, rf: bool) -> str | None:
+            return self._request_llm(msgs, response_format_json=rf)
+
+        base_url = binding.get("base_url") or ""
+        model = binding.get("model") or ""
+        vendor = binding.get("vendor")
+        use_json_system = not is_deepseek_chat_model(base_url, model, vendor=vendor)
+
+        messages = self._build_chat_messages(use_json=use_json_system)
+        reply_raw, strategy = invoke_chat_with_policy(
             messages=messages,
             output_mode=binding.get("output_mode", "auto"),
             cached_json_mode=cache.get("json_mode"),
-            llm_caller=lambda m: self._request_llm(m, response_format_json=False),
-            llm_caller_json_rf=lambda m: self._request_llm(m, response_format_json=True),
-            use_json_system=True,
-            use_natural_system=True,
+            llm_caller=lambda m: _call(m, rf=False),
+            llm_caller_json_rf=lambda m: _call(m, rf=True),
             rebuild_messages_json=lambda _m: self._build_chat_messages(use_json=True),
             rebuild_messages_natural=lambda _m: self._build_chat_messages(use_json=False),
+            base_url=base_url,
+            model=model,
+            vendor=vendor,
         )
         if not (reply_raw or "").strip():
             print("[LLM-聊天] API 返回空")
-            return None, "平常", "LLM 返回了空回复"
-        reply, emotion, memory_to_save, memory_topic, favorability_delta, json_ok = self._parse_llm_response(reply_raw)
-        # 解析成功但 reply 为空
-        if json_ok and not (reply or "").strip():
-            print("[LLM-聊天] JSON 中 reply 为空")
-            return None, "平常", "LLM 返回了空回复"
-        self._append_assistant(reply or "")
-        # 长期记忆写入：若开关开启且 LLM 返回了 memory_to_save 则写入（带 topic 便于同主题合并）
-        if json_ok and (memory_to_save or "").strip() and self.sm.get("behavior", "long_term_memory_enabled", default=False) and self._long_term_memory:
-            try:
-                self._long_term_memory.add_or_update(
-                    (memory_to_save or "").strip(),
-                    topic=(memory_topic or "").strip() or None,
+            return None, "平常", "LLM 返回了空回复", None
+
+        parsed = parse_chat_raw(reply_raw, strategy=strategy, max_reply_chars=max_chars)
+        reasoning = self._last_llm_reasoning
+
+        # JSON 模式解析失败：自动重试 1 次（DeepSeek 改走自然语言，不再重试 JSON）
+        if not parsed.ok and strategy != "natural":
+            print(f"[LLM-聊天] 解析失败 ({parsed.parse_mode})，重试 1 次…")
+            if is_deepseek_chat_model(base_url, model, vendor=vendor):
+                retry_msgs = self._build_chat_messages(use_json=False)
+                reply_raw2, strategy2 = invoke_chat_with_policy(
+                    messages=retry_msgs,
+                    output_mode="natural_only",
+                    cached_json_mode="natural_only",
+                    llm_caller=lambda m: _call(m, rf=False),
+                    llm_caller_json_rf=lambda m: _call(m, rf=True),
+                    rebuild_messages_json=lambda _m: self._build_chat_messages(use_json=True),
+                    rebuild_messages_natural=lambda _m: self._build_chat_messages(
+                        use_json=False
+                    ),
+                    base_url=base_url,
+                    model=model,
+                    vendor=vendor,
                 )
-            except Exception as e:
-                print(f"[ChatManager] 长期记忆写入失败: {e}")
-        if json_ok:
-            print(f"[LLM-聊天回复] 情绪：{emotion} | 内容预览：{(reply or '')[:50]}...")
-            return reply, emotion, None
-        print(f"[LLM-聊天回复] 回退解析 情绪：{emotion} | 内容预览：{(reply or '')[:50]}...")
-        return reply, emotion, None
+            else:
+                retry_msgs = append_json_retry_to_messages(messages)
+                reply_raw2, strategy2 = invoke_chat_with_policy(
+                    messages=retry_msgs,
+                    output_mode="json_preferred",
+                    cached_json_mode=cache.get("json_mode") or "response_format",
+                    llm_caller=lambda m: _call(m, rf=False),
+                    llm_caller_json_rf=lambda m: _call(m, rf=True),
+                    rebuild_messages_json=lambda _m: append_json_retry_to_messages(
+                        self._build_chat_messages(use_json=True)
+                    ),
+                    rebuild_messages_natural=lambda _m: self._build_chat_messages(
+                        use_json=False
+                    ),
+                    base_url=base_url,
+                    model=model,
+                    vendor=vendor,
+                )
+            if (reply_raw2 or "").strip():
+                parsed = parse_chat_raw(
+                    reply_raw2, strategy=strategy2, max_reply_chars=max_chars
+                )
+                strategy = strategy2
+
+        if not parsed.ok or not (parsed.reply or "").strip():
+            err = (
+                "模型回复格式异常（可能含残缺 JSON 或过长幻觉），本轮未记入对话上下文。"
+                "请重试或缩短对话轮数。"
+            )
+            print(f"[LLM-聊天] 最终解析失败 | mode={parsed.parse_mode}")
+            return None, "平常", err, reasoning
+
+        self._append_assistant(parsed.reply)
+        self._schedule_memory_extract()
+        print(
+            f"[LLM-聊天回复] mode={parsed.parse_mode} | 情绪：{parsed.emotion} | "
+            f"预览：{parsed.reply[:50]}..."
+        )
+        return parsed.reply, parsed.emotion, None, reasoning
 
     def chat(self, user_text: str) -> str | None:
-        pure_reply, _, _ = self.chat_with_tag(user_text)
+        pure_reply, _, _, _ = self.chat_with_tag(user_text)
         return pure_reply
 
     def _extract_memory_from_screen_description(self, description: str) -> None:
-        """
-        从屏幕截图的描述中抽取长期记忆，规则与聊天一致：非每次必抽、半结构化（topic+content）。
-        仅当长期记忆开关开启且描述非空时调用；抽取结果若有 memory_to_save 则写入记忆库。
-        """
+        """屏幕描述走记忆专用模型与 memory_extract 通道（与聊天 JSON 分离）。"""
         if not (description or "").strip() or not self._long_term_memory:
             return
-        prompt = (
-            "下面是对用户电脑屏幕内容的客观描述。\n"
-            "若其中包含与**用户本人**相关的、值得长期记住的信息（如用户偏好、习惯、正在做的重要事项、工作/学习内容等），"
-            "请输出 JSON：{\"memory_to_save\":\"一条简短概括句\",\"memory_topic\":\"主题词（如饮酒、偏好、工作）\"}；"
-            "若无则输出 {\"memory_to_save\":null,\"memory_topic\":null}。\n"
-            "只输出 JSON，且用 Markdown 代码块包裹，例如：\n```json\n{\"memory_to_save\":\"……\",\"memory_topic\":\"……\"}\n```"
-        )
-        messages = [
-            {"role": "system", "content": "你只输出一个 JSON 对象，包含 memory_to_save 和 memory_topic；无值得记忆的内容时二者为 null。输出时用 Markdown 代码块包裹：```json\n{...}\n```"},
-            {"role": "user", "content": prompt + "\n\n屏幕描述：\n" + (description or "").strip()[:2000]},
+        from llm.memory_extract import run_memory_extract
+
+        screen_slice = [
+            {
+                "role": "user",
+                "content": (
+                    "【屏幕观察】以下是对用户电脑屏幕的客观描述。"
+                    "请判断是否有关于用户本人的、值得长期记录的信息。\n"
+                    + (description or "").strip()[:2000]
+                ),
+            },
+            {
+                "role": "assistant",
+                "content": "好的，我会根据屏幕描述判断是否需要记录长期记忆。",
+            },
         ]
-        raw = self._request_llm_json_light(messages)
-        if not (raw or "").strip():
-            return
-        raw = extract_json_payload(raw)
-        if not raw:
-            return
         try:
-            obj = json.loads(raw)
-            if not isinstance(obj, dict):
-                return
-            memory_to_save = obj.get("memory_to_save")
-            if memory_to_save is not None and isinstance(memory_to_save, str):
-                memory_to_save = memory_to_save.strip()
-            else:
-                memory_to_save = ""
-            memory_topic = obj.get("memory_topic")
-            if memory_topic is not None and isinstance(memory_topic, str):
-                memory_topic = memory_topic.strip() or None
-            else:
-                memory_topic = None
-            if memory_to_save:
-                self._long_term_memory.add_or_update(memory_to_save, topic=memory_topic)
-                print(f"[长期记忆-屏幕] 抽取写入 | topic={memory_topic!r} | content={memory_to_save[:50]}...")
+            items = run_memory_extract(screen_slice, self.sm)
+            for content, topic in items:
+                self._long_term_memory.add_or_update(content, topic=topic)
+            if items:
+                print(f"[长期记忆-屏幕] 写入 {len(items)} 条")
         except Exception as e:
-            print(f"[ChatManager] 屏幕描述记忆抽取解析失败: {e}")
+            print(f"[ChatManager] 屏幕描述记忆抽取失败: {e}")
 
     # 带情绪标签返回的屏幕观察方法；可选从屏幕描述中抽取长期记忆（规则与聊天一致）
     def send_screen_observation_with_tag(self, description: str) -> tuple[str | None, str]:
@@ -398,28 +388,90 @@ class ChatManager:
                     print("[ChatManager] 长期记忆注入（参考）:", [(c[:50] + ("…" if len(c) > 50 else ""), round(s, 4)) for c, s in hits_with_scores])
             except Exception as e:
                 print(f"[ChatManager] 长期记忆检索失败: {e}")
-        suffix = (
-            self._get_json_output_instruction()
-            if use_json
-            else self._get_emotion_tag_prompt()
-        )
+        if use_json:
+            conn_id = (self.sm.get_chat_binding() or {}).get("connection_id", "default")
+            model = (self.sm.get_chat_binding() or {}).get("model", "")
+            cache = self.sm.get_capability_cache(conn_id, model) or {}
+            use_fence = should_use_markdown_json_instruction(cache.get("json_mode"))
+            suffix = get_json_output_instruction(
+                self.VALID_EMOTION_TAGS,
+                use_markdown_fence=use_fence,
+            )
+        else:
+            suffix = self._get_emotion_tag_prompt()
         system_content = self._build_persona() + knowledge_context + memory_block + suffix
         return [
             {"role": "system", "content": system_content},
             *self.chat_history,
         ]
 
-    def _request_llm_json_light(self, messages: list[dict]) -> str | None:
-        """记忆合并/抽取：JSON response_format 失败则 prompt-only。"""
-        from llm.output_modes import json_only_policy
+    def _schedule_memory_extract(self) -> None:
+        """
+        每完成一轮对话（user+assistant）后，按 extract_context_rounds 触发后台记忆抽取。
+        N=1：每轮抽取，payload 仅本轮；N>1：每 N 轮抽取一次，payload 为最近 N 轮。
+        """
+        if not self.sm.get("behavior", "long_term_memory_enabled", default=False):
+            return
+        if not self._long_term_memory:
+            return
 
-        return json_only_policy(
-            messages,
-            llm_caller_json_rf=lambda m: self._request_llm(m, response_format_json=True),
-            llm_caller_plain=lambda m: self._request_llm(m, response_format_json=False),
+        n = self.sm.get_memory_extract_context_rounds()
+        self._completed_chat_rounds += 1
+        if n > 1 and self._completed_chat_rounds % n != 0:
+            print(
+                f"[MemoryExtract] 本轮跳过（附带轮数 N={n}，"
+                f"已完成 {self._completed_chat_rounds} 轮，每 N 轮抽取一次）"
+            )
+            return
+
+        max_msgs = 2 * n
+        if len(self.chat_history) < 2:
+            return
+        history_slice = copy.deepcopy(self.chat_history[-max_msgs:])
+        print(
+            f"[MemoryExtract] 已调度后台抽取（最近 {len(history_slice) // 2} 轮对话，"
+            f"共 {len(history_slice)} 条消息）"
         )
 
+        # 取消进行中的旧任务，仅采纳最新代际结果
+        prev = self._memory_extract_worker
+        if prev is not None and prev.isRunning():
+            prev.requestInterruption()
+
+        self._memory_extract_generation += 1
+        gen = self._memory_extract_generation
+
+        from workers.memory_extract_worker import MemoryExtractWorker
+
+        worker = MemoryExtractWorker(
+            settings_manager=self.sm,
+            long_term_memory=self._long_term_memory,
+            history_slice=history_slice,
+            generation_id=gen,
+        )
+        worker.finished.connect(self._on_memory_extract_finished)
+        worker.error.connect(self._on_memory_extract_error)
+        self._memory_extract_worker = worker
+        worker.start()
+
+    def _on_memory_extract_finished(self, written_count: int, generation_id: int) -> None:
+        if generation_id != self._memory_extract_generation:
+            return
+        if written_count:
+            print(f"[ChatManager] 后台记忆抽取完成，写入 {written_count} 条")
+
+    def _on_memory_extract_error(self, msg: str, generation_id: int) -> None:
+        if generation_id != self._memory_extract_generation:
+            return
+        print(f"[ChatManager] 后台记忆抽取失败: {msg}")
+
     def _request_llm(self, messages: list[dict], response_format_json: bool = False) -> str | None:
+        result = self._request_llm_result(messages, response_format_json=response_format_json)
+        return result.content_or_none() if result else None
+
+    def _request_llm_result(
+        self, messages: list[dict], response_format_json: bool = False
+    ):
         """
         发起 LLM 请求。经 ModelService 统一 OpenAI 兼容客户端；
         response_format_json 为 True 时尝试 json_object，不支持时客户端内降级重试。
@@ -438,9 +490,12 @@ class ChatManager:
             return None
 
         ms = ModelService.get_instance(self.sm)
-        return ms.chat_completions(
+        parsed = ms.chat_completions(
             messages,
             temperature=float(binding.get("temperature", 1.0)),
             max_tokens=int(binding.get("max_tokens", 512)),
             response_format_json=response_format_json,
         )
+        if parsed and parsed.has_reasoning:
+            self._last_llm_reasoning = parsed.reasoning
+        return parsed

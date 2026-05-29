@@ -32,10 +32,10 @@
 ### 3.2 智能对话与知识
 
 - LLM 对话：支持 OpenAI 兼容 API（如 DeepSeek、SiliconFlow 等），可配置 base_url、api_key、model、temperature、max_tokens、history_rounds。
-- **LLM 回复 JSON 结构化**：聊天时优先要求模型只输出一个 JSON 对象（reply、emotion、memory_to_save、favorability_delta）；解析失败时回退到原有情绪标签剥离与幻觉剔除；空回复时以红色临时气泡提示。
+- **LLM 回复 JSON 结构化**：聊天时只输出 `{reply, emotion}`；长期记忆由后台记忆模型抽取。解析失败自动重试一次，仍失败则红色临时气泡且不写入对话历史（避免幻觉污染上下文）。
 - RAG 知识库：内置 lore（摩诃婆罗多分卷、FGO 剧情与角色资料）与 style（语气/风格文本）双索引，对话与屏幕评论均会检索相关知识以增强口吻与设定一致性。
 - 本地向量嵌入：使用 `gte-multilingual-base` 离线运行，无需联网即可完成检索。
-- **长期记忆（可选）**：设置页可开启「长期记忆」；开启后对话前按**双路检索**（向量混合分 + 近 7 日新近）注入 system，命中条累计 `ref_count`；LLM 可在 JSON 中返回 `memory_to_save` 写入；记忆存于 SQLite（`config/user_memory.db`）。设置页「记忆管理」：列表、勾选**永久保留**、编辑、单条删除、清空、「**整理全部记忆**」（预览合并/删除清单后确认，使用与聊天相同的 API 做合并，无后台自动整理）。
+- **长期记忆（可选）**：设置页可开启「长期记忆」；开启后对话前按**双路检索**（向量混合分 + 近 7 日新近）注入 system，命中条累计 `ref_count`；**聊天记忆**在助手回复完成后由 `MemoryExtractWorker` 调用**记忆专用模型**（`config/prompts/memory_extract.md`）从最近 N 轮对话抽取写入；**屏幕观察**仍单独二次抽取。记忆存于 SQLite（`config/user_memory.db`）。设置页「记忆管理」：配置记忆 API（可共用对话连接）、附带轮数 N、列表、**永久保留**、整理（预览合并/删除，走记忆模型 API）。
 
 ### 3.3 屏幕观察与评论
 

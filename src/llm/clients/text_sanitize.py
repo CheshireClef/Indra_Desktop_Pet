@@ -21,6 +21,25 @@ _THINK_OPEN_RE = re.compile(
     re.IGNORECASE,
 )
 
+# 角色扮演模型偶发：把「内心独白」写在全角/半角括号里并当作正文（非 API reasoning 字段）
+_PAREN_MONOLOGUE_RE = re.compile(
+    r"^[（(]([^）)]{20,})[）)]\s*",
+)
+
+
+def strip_paren_roleplay_monologue(text: str) -> str:
+    """
+    去掉开头连续的长括号独白块（≥20 字），保留后续实际对白。
+    仅剥离开头，避免误伤句中短括号动作描写。
+    """
+    s = (text or "").strip()
+    while True:
+        m = _PAREN_MONOLOGUE_RE.match(s)
+        if not m:
+            break
+        s = s[m.end() :].strip()
+    return s
+
 
 def strip_reasoning_artifacts(text: str) -> str:
     """
@@ -40,19 +59,13 @@ def strip_reasoning_artifacts(text: str) -> str:
     m = _THINK_OPEN_RE.search(s)
     if m:
         s = s[: m.start()].strip()
+    s = strip_paren_roleplay_monologue(s)
     return s
 
 
 def extract_json_payload(text: str) -> str:
-    """从可能夹杂思考文字的回复中提取 JSON 字符串。"""
-    s = strip_reasoning_artifacts(text)
-    if not s:
-        return ""
-    block = re.search(r"```(?:json)?\s*(\{[\s\S]*?\})\s*```", s, re.IGNORECASE)
-    if block:
-        return block.group(1).strip()
-    start = s.find("{")
-    end = s.rfind("}")
-    if start >= 0 and end > start:
-        return s[start : end + 1].strip()
-    return s
+    """从可能夹杂思考文字的回复中提取 JSON 字符串（安全，无闭合时不退回全文）。"""
+    from llm.parsers.json_extract import extract_json_object
+
+    result = extract_json_object(text)
+    return result.payload or ""

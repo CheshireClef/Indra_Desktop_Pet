@@ -53,6 +53,10 @@ _ENV_KEY_MAP: Dict[str, tuple] = {
     "VISION_API_URL": ("vision", "api_url"),
     "VISION_API_KEY": ("vision", "api_key"),
     "VISION_MODEL":   ("vision", "model"),
+    # 记忆录入/整理 API（与 VISION_* 类似，仅经 models v2 注入）
+    "MEMORY_API_URL": ("models", "_env_memory_base_url"),
+    "MEMORY_API_KEY": ("models", "_env_memory_api_key"),
+    "MEMORY_MODEL":   ("models", "_env_memory_model"),
     # 新 schema（开发环境可选）
     "MODELS_VENDOR":   ("models", "_env_vendor"),
     "MODELS_API_KEY":  ("models", "_env_api_key"),
@@ -63,6 +67,11 @@ _ENV_KEY_MAP: Dict[str, tuple] = {
     "MODELS_VISION_API_KEY": ("models", "_env_vision_api_key"),
     "MODELS_VISION_BASE_URL": ("models", "_env_vision_base_url"),
     "MODELS_SAME_CONNECTION_AS_CHAT": ("models", "_env_same_connection"),
+    "MODELS_MEMORY_MODEL": ("models", "_env_memory_model"),
+    "MODELS_MEMORY_VENDOR": ("models", "_env_memory_vendor"),
+    "MODELS_MEMORY_API_KEY": ("models", "_env_memory_api_key"),
+    "MODELS_MEMORY_BASE_URL": ("models", "_env_memory_base_url"),
+    "MODELS_MEMORY_SAME_CONNECTION_AS_CHAT": ("models", "_env_memory_same_connection"),
 }
 
 # models v2 默认块（单一真相源）
@@ -90,6 +99,14 @@ MODELS_DEFAULTS: Dict[str, Any] = {
         "connection_id": "default",
         "model": "Qwen/Qwen3-VL-32B-Instruct",
     },
+    "memory": {
+        "same_connection_as_chat": True,
+        "connection_id": "default",
+        "model": "",
+        "temperature": 0.2,
+        "max_tokens": 512,
+        "extract_context_rounds": 1,
+    },
     "capabilities_cache": {},
 }
 
@@ -101,6 +118,7 @@ DEFAULTS = {
         "font_size": 13  # 新增：字体大小
     },
     "behavior": {
+        "show_reasoning_in_chat": True,
         "idle_interval_s": 7,
         "screen_watch_enabled": False,
         "screen_watch_interval_s": 60,
@@ -115,7 +133,9 @@ DEFAULTS = {
         "api_key": "",
         "model": "gpt-4o-mini",
         "temperature": 1.0,  # 默认 temperature
-        "max_tokens": 512
+        "max_tokens": 512,
+        "history_rounds": 6,
+        "max_reply_chars": 800,
     },
     "vision": {
         "api_url": "https://api.siliconflow.cn/v1/chat/completions",
@@ -174,10 +194,13 @@ class SettingsManager(QObject):
             return
 
         # 确保加载的配置包含所有默认字段（应对版本升级新增配置项的情况）
+        before = json.dumps(self._data, sort_keys=True, ensure_ascii=False)
         self._merge_defaults(DEFAULTS, self._data)
         self._migrate_models_v2()
         self._sync_legacy_from_models()
-        self.save()
+        after = json.dumps(self._data, sort_keys=True, ensure_ascii=False)
+        if before != after:
+            self.save()
 
     def _merge_defaults(self, defaults, target):
         """递归合并默认配置到目标配置中，补充缺失的键"""
@@ -187,10 +210,48 @@ class SettingsManager(QObject):
             elif isinstance(v, dict) and isinstance(target.get(k), dict):
                 self._merge_defaults(v, target[k])
 
+    def _env_api_key_for_connection(self, conn_id: str) -> Optional[str]:
+        """若 .env 为某连接提供了 Key，保存时应脱敏不落盘。"""
+        if conn_id == "default":
+            return self._env_get("MODELS_API_KEY") or self._env_get("LLM_API_KEY")
+        if conn_id == "vision":
+            return self._env_get("MODELS_VISION_API_KEY") or self._env_get("VISION_API_KEY")
+        if conn_id == "memory":
+            return self._env_get("MODELS_MEMORY_API_KEY") or self._env_get("MEMORY_API_KEY")
+        return None
+
+    def _sanitize_secrets_for_disk(self, data: Dict[str, Any]) -> None:
+        """
+        开发环境：凡由 .env 提供的 API Key，写入 settings.json 时置空，避免误提交 GitHub。
+        运行时仍通过 _apply_env_to_models() 注入内存。
+        """
+        if not _IS_DEV:
+            return
+        models = data.get("models")
+        if isinstance(models, dict):
+            for conn in models.get("connections") or []:
+                if not isinstance(conn, dict):
+                    continue
+                cid = conn.get("id") or ""
+                if self._env_api_key_for_connection(str(cid)):
+                    conn["api_key"] = ""
+        llm = data.get("llm")
+        if isinstance(llm, dict) and (
+            self._env_get("LLM_API_KEY") or self._env_get("MODELS_API_KEY")
+        ):
+            llm["api_key"] = ""
+        vision = data.get("vision")
+        if isinstance(vision, dict) and (
+            self._env_get("VISION_API_KEY") or self._env_get("MODELS_VISION_API_KEY")
+        ):
+            vision["api_key"] = ""
+
     def save(self):
         """保存配置到文件，并发送变更信号"""
+        payload = copy.deepcopy(self._data)
+        self._sanitize_secrets_for_disk(payload)
         with open(self.path, "w", encoding="utf-8") as f:
-            json.dump(self._data, f, ensure_ascii=False, indent=2)
+            json.dump(payload, f, ensure_ascii=False, indent=2)
         self.settings_changed.emit()
 
     def get_models_block(self) -> Dict[str, Any]:
@@ -285,6 +346,7 @@ class SettingsManager(QObject):
             "connection_id": vision_conn_id,
             "model": vision.get("model") or "Qwen/Qwen3-VL-32B-Instruct",
         }
+        models.setdefault("memory", copy.deepcopy(MODELS_DEFAULTS["memory"]))
         if "capabilities_cache" not in models:
             models["capabilities_cache"] = {}
         models["_migrated_from_v1"] = True
@@ -373,6 +435,11 @@ class SettingsManager(QObject):
         vision_key_env = self._env_get("MODELS_VISION_API_KEY") or self._env_get("VISION_API_KEY")
         vision_base_env = self._env_get("MODELS_VISION_BASE_URL") or self._env_get("VISION_API_URL")
         same_conn_env = self._env_bool_optional("MODELS_SAME_CONNECTION_AS_CHAT")
+        memory_model_env = self._env_get("MODELS_MEMORY_MODEL") or self._env_get("MEMORY_MODEL")
+        memory_vendor_env = self._env_get("MODELS_MEMORY_VENDOR")
+        memory_key_env = self._env_get("MODELS_MEMORY_API_KEY") or self._env_get("MEMORY_API_KEY")
+        memory_base_env = self._env_get("MODELS_MEMORY_BASE_URL") or self._env_get("MEMORY_API_URL")
+        memory_same_conn_env = self._env_bool_optional("MODELS_MEMORY_SAME_CONNECTION_AS_CHAT")
 
         has_any = any(
             (
@@ -385,6 +452,11 @@ class SettingsManager(QObject):
                 vision_key_env,
                 vision_base_env,
                 same_conn_env is not None,
+                memory_model_env,
+                memory_vendor_env,
+                memory_key_env,
+                memory_base_env,
+                memory_same_conn_env is not None,
             )
         )
         if not has_any:
@@ -457,6 +529,54 @@ class SettingsManager(QObject):
                 vision_cfg["connection_id"] = "vision"
                 touched = True
 
+        memory_cfg = models.setdefault("memory", copy.deepcopy(MODELS_DEFAULTS["memory"]))
+        if memory_model_env:
+            memory_cfg["model"] = memory_model_env
+            touched = True
+
+        has_memory_conn_env = any((memory_vendor_env, memory_key_env, memory_base_env))
+        memory_same_conn = memory_same_conn_env
+        if memory_same_conn is None and has_memory_conn_env:
+            chat_base = normalize_base_url(chat_conn.get("base_url") or "")
+            memory_base = normalize_base_url(memory_base_env) if memory_base_env else chat_base
+            chat_key_val = chat_conn.get("api_key") or ""
+            differs = False
+            if memory_key_env is not None and memory_key_env != chat_key_val:
+                differs = True
+            if memory_base_env and memory_base != chat_base:
+                differs = True
+            if memory_vendor_env:
+                mv = self._resolve_vendor_id(
+                    memory_vendor_env, memory_base_env or chat_conn.get("base_url") or ""
+                )
+                if mv != (chat_conn.get("vendor") or "custom_openai"):
+                    differs = True
+            memory_same_conn = not differs
+
+        if memory_same_conn is True:
+            memory_cfg["same_connection_as_chat"] = True
+            memory_cfg["connection_id"] = "default"
+            touched = True
+        elif memory_same_conn is False or has_memory_conn_env:
+            memory_conn = self._find_or_create_connection(models, "memory")
+            if memory_vendor_env:
+                memory_conn["vendor"] = self._resolve_vendor_id(
+                    memory_vendor_env, memory_conn.get("base_url") or ""
+                )
+                touched = True
+            if memory_key_env is not None:
+                memory_conn["api_key"] = memory_key_env
+                touched = True
+            if memory_base_env:
+                memory_conn["base_url"] = normalize_base_url(memory_base_env)
+                touched = True
+                if not memory_vendor_env:
+                    memory_conn["vendor"] = self._infer_vendor_from_url(memory_base_env)
+            if memory_same_conn is False or has_memory_conn_env:
+                memory_cfg["same_connection_as_chat"] = False
+                memory_cfg["connection_id"] = "memory"
+                touched = True
+
         return touched
 
     def get_chat_binding(self) -> Dict[str, Any]:
@@ -501,6 +621,47 @@ class SettingsManager(QObject):
             "model": vision.get("model") or "Qwen/Qwen3-VL-32B-Instruct",
             "same_connection_as_chat": False,
         }
+
+    def get_memory_binding(self) -> Dict[str, Any]:
+        """记忆录入/整理专用模型绑定；model 为空时回退对话模型名。"""
+        self._apply_env_to_models()
+        models = self.get_models_block()
+        memory = models.get("memory") or copy.deepcopy(MODELS_DEFAULTS["memory"])
+        chat = self.get_chat_binding()
+        fallback_model = chat.get("model") or ""
+
+        if memory.get("same_connection_as_chat", True):
+            b = dict(chat)
+            b["model"] = (memory.get("model") or "").strip() or fallback_model
+            b["temperature"] = float(memory.get("temperature", 0.2))
+            b["max_tokens"] = int(memory.get("max_tokens", 512))
+            b["extract_context_rounds"] = int(memory.get("extract_context_rounds", 1))
+            b["same_connection_as_chat"] = True
+            return b
+
+        conn_id = memory.get("connection_id", "memory")
+        conn = next(
+            (c for c in (models.get("connections") or []) if c.get("id") == conn_id),
+            {},
+        )
+        return {
+            "connection_id": conn_id,
+            "vendor": conn.get("vendor", "custom_openai"),
+            "base_url": conn.get("base_url") or "",
+            "api_key": conn.get("api_key") or "",
+            "model": (memory.get("model") or "").strip() or fallback_model,
+            "temperature": float(memory.get("temperature", 0.2)),
+            "max_tokens": int(memory.get("max_tokens", 512)),
+            "extract_context_rounds": int(memory.get("extract_context_rounds", 1)),
+            "same_connection_as_chat": False,
+        }
+
+    def get_memory_extract_context_rounds(self) -> int:
+        """聊天记忆抽取：附带轮数 N（1=每轮仅本轮；>1=每 N 轮触发并附带最近 N 轮）。"""
+        self._apply_env_to_models()
+        memory = self.get_models_block().get("memory") or {}
+        n = int(memory.get("extract_context_rounds", 1))
+        return max(1, min(5, n))
 
     def get_capability_cache(self, connection_id: str, model_id: str) -> Optional[Dict[str, Any]]:
         key = f"{connection_id}:{model_id}"

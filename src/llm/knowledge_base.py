@@ -98,6 +98,7 @@ class KnowledgeBase(QObject):
 
     def start_loading(self):
         """启动异步加载线程"""
+        print("[KnowledgeBase] 后台开始加载嵌入模型与索引（不阻塞桌宠显示）…")
         index_thread = threading.Thread(target=self._init_indices_async)
         index_thread.daemon = True
         index_thread.start()
