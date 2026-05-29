@@ -8,7 +8,6 @@ set "PROJECT_ROOT=%~dp0"
 cd /d "%PROJECT_ROOT%"
 
 set "PYTHON=%PROJECT_ROOT%venv\Scripts\python.exe"
-set "PYINSTALLER=%PROJECT_ROOT%venv\Scripts\pyinstaller.exe"
 
 if not exist "%PYTHON%" (
     echo [错误] 未找到虚拟环境：%PYTHON%
@@ -38,9 +37,16 @@ REM =============================
 REM PyInstaller 打包（onedir）
 REM =============================
 echo [3/4] PyInstaller 打包中（体积较大，请耐心等待）…
-"%PYINSTALLER%" FGO因陀罗桌宠.spec
+REM 勿用变量名 PYINSTALLER：cmd 会把 %%PYINSTALLER%% 误拆成 %%PYINSTAL%%+LER
+set "PYI_EXE=%PROJECT_ROOT%venv\Scripts\pyinstaller.exe"
+if exist "%PYI_EXE%" (
+    "%PYI_EXE%" "FGO因陀罗桌宠.spec"
+) else (
+    "%PYTHON%" -m PyInstaller "FGO因陀罗桌宠.spec"
+)
 if errorlevel 1 (
     echo [错误] PyInstaller 打包失败
+    echo 若提示找不到 PyInstaller，请执行："%PYTHON%" -m pip install pyinstaller
     pause
     exit /b 1
 )
