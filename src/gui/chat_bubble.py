@@ -53,6 +53,9 @@ class ChatBubble(QWidget):
 
         self.input_edit.returnPressed.connect(self._on_enter)
 
+        # 等待模型回复期间禁止重复发送，但不影响聊天记录区滚动与关闭
+        self._waiting = False
+
         # ===== 自动隐藏逻辑 =====
         self._hide_timer = QTimer(self)
         self._hide_timer.setSingleShot(True)
@@ -90,9 +93,20 @@ class ChatBubble(QWidget):
         if not was_visible:
             self.hide()
             
+    def set_waiting(self, waiting: bool):
+        """模型回复等待中：禁用输入框，聊天记录区仍可滚动。"""
+        self._waiting = bool(waiting)
+        self.input_edit.setEnabled(not self._waiting)
+        if self._waiting:
+            self.input_edit.setPlaceholderText("等待回复中…")
+        else:
+            self.input_edit.setPlaceholderText("想和桌宠因陀罗说些什么？")
+
     # ---------- 对话 ----------
     def _on_enter(self):
         """用户输入回车处理"""
+        if self._waiting:
+            return
         text = self.input_edit.text().strip()
         if not text:
             return

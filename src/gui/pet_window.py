@@ -12,6 +12,7 @@ from gui.animation import BASE_SIZE, EMOJI_SIZE
 from utils import resource_path
 from .chat_bubble import TempBubble
 from workers.screen_observer_worker import ScreenObserveWorker
+from workers.chat_worker import ChatWorker
 
 
 class PetWindow(QWidget):
@@ -61,6 +62,7 @@ class PetWindow(QWidget):
 
         self.vision_client = None
         self._observe_worker = None
+        self._chat_worker = None
 
         # 保存类引用
         self._AnimationDriver = AnimationDriver
@@ -309,13 +311,30 @@ class PetWindow(QWidget):
         self._show_temp_bubble(f"数据库加载失败：{msg}")
 
     def _on_user_message(self, text: str):
-        reply, emotion_tag, error_message, reasoning = self.chat_manager.chat_with_tag(text)
-        if error_message:
-            self._show_temp_bubble(error_message)
+        """用户消息已在 ChatBubble 内即时显示；LLM 请求放后台线程。"""
+        if self._chat_worker and self._chat_worker.isRunning():
             return
-        if reply:
-            self.chat_bubble.append_pet(reply, reasoning=reasoning)
-            self._show_emotion_emoji(emotion_tag)
+        if not hasattr(self, "chat_manager") or not self.chat_manager:
+            self._show_temp_bubble("聊天功能尚未就绪，请稍候")
+            return
+
+        self.chat_bubble.set_waiting(True)
+        self._chat_worker = ChatWorker(self.chat_manager, text)
+        self._chat_worker.success.connect(self._on_chat_worker_success)
+        self._chat_worker.failed.connect(self._on_chat_worker_failed)
+        self._chat_worker.finished.connect(self._on_chat_worker_finished)
+        self._chat_worker.start()
+
+    def _on_chat_worker_success(self, reply: str, emotion_tag: str, reasoning):
+        self.chat_bubble.append_pet(reply, reasoning=reasoning)
+        self._show_emotion_emoji(emotion_tag)
+
+    def _on_chat_worker_failed(self, error_message: str):
+        self._show_temp_bubble(error_message)
+
+    def _on_chat_worker_finished(self):
+        self.chat_bubble.set_waiting(False)
+        self._chat_worker = None
 
     # ---------------- 右键菜单 ----------------
     def set_context_menu(self, menu):
