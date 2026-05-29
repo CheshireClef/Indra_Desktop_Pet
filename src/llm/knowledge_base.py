@@ -18,7 +18,7 @@ from llama_index.core.schema import Document
 from llama_index.core.node_parser import SentenceSplitter
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 
-from utils import resource_path
+from utils import resource_path, is_frozen
 
 try:
     import tiktoken_ext.openai_public  # noqa: F401
@@ -349,7 +349,7 @@ class KnowledgeBase(QObject):
         return documents
 
     def _get_persist_dir(self, subdir: str) -> Path:
-        if getattr(sys, "frozen", False) and hasattr(sys, "_MEIPASS"):
+        if is_frozen():
             return Path(resource_path(f"src/llm/knowledge_db/{subdir}"))
         else:
             base = self.knowledge_db_dir

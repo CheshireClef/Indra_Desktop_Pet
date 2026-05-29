@@ -12,7 +12,7 @@ from PySide6.QtCore import Qt
 from gui.pet_window import PetWindow
 from gui.tray import AppTray
 from settings_manager import SettingsManager
-from utils import resource_path, ResourceManager
+from utils import ensure_user_settings, ResourceManager
 
 
 def _splash_message(splash: QSplashScreen | None, app: QApplication, text: str) -> None:
@@ -40,7 +40,7 @@ def main():
 
     _splash_message(splash, app, "正在加载配置…")
     t_cfg = time.perf_counter()
-    settings_path = resource_path("config/settings.json")
+    settings_path = ensure_user_settings()
     sm = SettingsManager(settings_path)
     print(f"[Startup] 配置加载 {time.perf_counter() - t_cfg:.2f}s")
 

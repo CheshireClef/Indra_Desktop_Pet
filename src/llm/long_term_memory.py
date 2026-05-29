@@ -15,7 +15,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import List, Optional, Any, Callable, Tuple, Dict, Set
 
-from utils import resource_path
+from utils import user_data_path
 from llm.clients.text_sanitize import extract_json_payload
 
 
@@ -124,7 +124,7 @@ class LongTermMemory:
         merge_llm_caller: Optional[Callable[[list], Optional[str]]] = None,
     ):
         if db_path is None:
-            config_dir = Path(resource_path("config"))
+            config_dir = Path(user_data_path("config"))
             config_dir.mkdir(parents=True, exist_ok=True)
             db_path = config_dir / "user_memory.db"
         self.db_path = Path(db_path)

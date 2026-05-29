@@ -8,7 +8,7 @@ from pathlib import Path
 import mss
 from PIL import Image
 from PySide6.QtCore import Qt, QObject, Signal, QThread  # 新增依赖
-from utils import resource_path
+from utils import user_data_path
 
 class ScreenObserver(QObject):
     """
@@ -36,8 +36,8 @@ class ScreenObserver(QObject):
             from settings_manager import SettingsManager
             self.sm = SettingsManager.get_instance()
         
-        # 调整：统一使用resource_path处理截图保存目录
-        self.output_dir = Path(resource_path("screenshots"))
+        # 截图写入 exe 旁可写目录（打包版勿写入 _internal）
+        self.output_dir = Path(user_data_path("screenshots"))
         self.output_dir.mkdir(parents=True, exist_ok=True)
         # 信号绑定主线程槽函数
         self.hide_pet.connect(self.pet_window._hide_for_screenshot)
