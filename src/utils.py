@@ -2,10 +2,15 @@
 """
 工具函数和通用类模块
 包含资源路径处理 (兼容开发环境和 PyInstaller 打包环境) 以及资源管理器单例 (ResourceManager)。
+
+打包约定：随包分发的只读文件一律用 resource_path()；用户可写数据用 user_data_path()。
+禁止用 Path(__file__).parent 定位 datas（frozen 下 .py 在 llm/…，资源在 src/llm/…）。
 """
 import os
 import shutil
 import sys
+from pathlib import Path
+
 from PySide6.QtGui import QPixmap, QIcon
 
 
@@ -45,6 +50,18 @@ def user_data_path(rel_path: str) -> str:
     - 打包环境：exe 同级目录下相对路径（勿写入 _internal）
     """
     return os.path.join(app_root(), rel_path)
+
+
+def resolve_file_path(path: str | os.PathLike) -> str:
+    """
+    解析待读取的本地文件路径。
+    - 绝对路径（如 exe 旁 screenshots/）：原样返回
+    - 相对路径：走 resource_path（只读打包资源）
+    """
+    p = Path(path)
+    if p.is_absolute():
+        return str(p)
+    return resource_path(str(p))
 
 
 def ensure_user_settings() -> str:

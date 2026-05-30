@@ -67,6 +67,8 @@ class SettingsDialog(QDialog):
 
         self.setWindowTitle("桌宠设置")
         self.setWindowModality(Qt.ApplicationModal)
+        # 独立顶层窗口，避免受桌宠 WindowDoesNotAcceptFocus 影响
+        self.setWindowFlags(Qt.WindowType.Window | Qt.WindowType.WindowCloseButtonHint)
         
         # ========== 核心修改：启用窗口大小调整 ==========
         self.resize(500, 400)  # 设置初始大小

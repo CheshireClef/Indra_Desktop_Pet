@@ -8,14 +8,21 @@ import json
 from pathlib import Path
 from typing import Any
 
+from utils import resource_path
+
 _REGISTRY_CACHE: dict[str, dict[str, Any]] | None = None
+
+
+def _registry_json_path() -> Path:
+    """registry.json 随 datas 打包在 src/llm/providers/，勿用 __file__（frozen 下与 .py 路径不一致）。"""
+    return Path(resource_path("src/llm/providers/registry.json"))
 
 
 def load_registry() -> dict[str, dict[str, Any]]:
     global _REGISTRY_CACHE
     if _REGISTRY_CACHE is not None:
         return _REGISTRY_CACHE
-    path = Path(__file__).resolve().parent / "registry.json"
+    path = _registry_json_path()
     with open(path, "r", encoding="utf-8") as f:
         _REGISTRY_CACHE = json.load(f)
     return _REGISTRY_CACHE

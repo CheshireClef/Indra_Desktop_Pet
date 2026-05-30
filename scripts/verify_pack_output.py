@@ -22,6 +22,11 @@ def _internal_root(dist_dir: Path) -> Path | None:
 
 REQUIRED_IN_INTERNAL = [
     "assets/images/pet.png",
+    "assets/images/bolt-eye.png",
+    "assets/images/bolt-eye.ico",
+    "assets/images/ui/temp_bubble.png",
+    "assets/images/idle",
+    "assets/images/emoji",
     "models/gte-multilingual-base/model.safetensors",
     "src/llm/knowledge_db/lore/default__vector_store.json",
     "src/llm/knowledge_db/style/default__vector_store.json",
@@ -30,6 +35,7 @@ REQUIRED_IN_INTERNAL = [
     "config/settings.json",
     "config/prompts/memory_extract.md",
     "src/llm/providers/registry.json",
+    "用户手册.html",
 ]
 
 

@@ -513,14 +513,25 @@ class PetWindow(QWidget):
     def open_settings_window(self):
         if not self.settings:
             return
-        # 设置窗口只需负责修改 SettingsManager，保存时会自动触发 settings_changed 信号
-        # 从而调用上面的 _on_settings_changed 方法
-        dlg = self._SettingsDialog(
-            self.settings,
-            parent=self,
-            long_term_memory=self.chat_manager.get_long_term_memory() if hasattr(self, "chat_manager") else None,
-        )
-        dlg.exec()
+        try:
+            ltm = None
+            if getattr(self, "chat_manager", None):
+                ltm = self.chat_manager.get_long_term_memory()
+            # 勿以 PetWindow 为父窗口：其含 WindowDoesNotAcceptFocus，打包后模态设置框可能无法显示
+            dlg = self._SettingsDialog(
+                self.settings,
+                parent=None,
+                long_term_memory=ltm,
+            )
+            dlg.setWindowFlags(
+                Qt.WindowType.Window | Qt.WindowType.WindowCloseButtonHint
+            )
+            dlg.exec()
+        except Exception as e:
+            print(f"[PetWindow] 打开设置失败: {e}")
+            import traceback
+            traceback.print_exc()
+            self._show_temp_bubble(f"打开设置失败：{e}")
 
     # ---------------- 视觉功能 ----------------
     def _ensure_vision_client(self):

@@ -26,7 +26,8 @@ REQUIRED_FILES = [
   "config/prompts/memory_extract.md",
   "src/llm/providers/registry.json",
   "assets/images/pet.png",
-  "assets/images/icon.ico",
+  "assets/images/bolt-eye.png",
+  "assets/images/bolt-eye.ico",
   "FGO因陀罗桌宠.spec",
 ]
 

@@ -60,6 +60,12 @@ if errorlevel 1 (
     pause
     exit /b 1
 )
+"%PYTHON%" scripts\audit_frozen_paths.py
+if errorlevel 1 (
+    echo [警告]  frozen 路径审计发现问题，请查看上方输出
+    pause
+    exit /b 1
+)
 
 echo.
 echo =============================

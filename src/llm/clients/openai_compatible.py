@@ -23,7 +23,7 @@ from llm.clients.vision_request import (
     build_vision_user_message_with_hints,
     guess_image_mime,
 )
-from utils import resource_path
+from utils import resolve_file_path
 
 _SCREEN_DESCRIBE_PROMPT = (
     "请客观、简要地描述这张屏幕截图的内容，描述用户此时可能在做什么，"
@@ -158,7 +158,7 @@ class OpenAICompatibleClient:
     def describe_image(self, image_path: Path) -> str | None:
         if not self.chat_url or not self.model:
             return None
-        abs_path = Path(resource_path(str(image_path)))
+        abs_path = Path(resolve_file_path(image_path))
         with open(abs_path, "rb") as f:
             image_b64 = base64.b64encode(f.read()).decode("utf-8")
         mime = guess_image_mime(abs_path)
