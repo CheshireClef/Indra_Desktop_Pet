@@ -1,12 +1,24 @@
 # -*- mode: python ; coding: utf-8 -*-
-from PyInstaller.utils.hooks import collect_all
+from PyInstaller.utils.hooks import collect_all, collect_data_files
 
-datas = [('assets', 'assets'), ('config', 'config'), ('manual_images', 'manual_images'), ('models', 'models'), ('screenshots', 'screenshots'), ('src', 'src'), ('用户手册.html', '.'), ('requirements.txt', '.')]
+datas = [
+    ('assets', 'assets'),
+    ('config', 'config'),
+    ('manual_images', 'manual_images'),
+    ('models', 'models'),
+    ('screenshots', 'screenshots'),
+    ('src', 'src'),
+    ('用户手册.html', '.'),
+    ('requirements.txt', '.'),
+]
 binaries = []
 hiddenimports = [
     'transformers',
     'sentence_transformers',
     'huggingface_hub',
+    'llama_index.core',
+    'llama_index.core.node_parser',
+    'llama_index.core.ingestion',
     'llama_index.embeddings.huggingface',
     'torch',
     'tiktoken',
@@ -16,17 +28,19 @@ hiddenimports = [
     'numpy',
     'scipy',
     'sklearn',
+    'PIL',
+    'mss',
 ]
 
-# Collect all resources for transformers and sentence_transformers
-tmp_ret = collect_all('transformers')
-datas += tmp_ret[0]; binaries += tmp_ret[1]; hiddenimports += tmp_ret[2]
+# PySide6 平台插件（避免打包后 Qt 平台无法加载）
+datas += collect_data_files('PySide6')
 
-tmp_ret = collect_all('sentence_transformers')
-datas += tmp_ret[0]; binaries += tmp_ret[1]; hiddenimports += tmp_ret[2]
-
-tmp_ret = collect_all('huggingface_hub')
-datas += tmp_ret[0]; binaries += tmp_ret[1]; hiddenimports += tmp_ret[2]
+# transformers / sentence_transformers / huggingface_hub / torch
+for pkg in ('transformers', 'sentence_transformers', 'huggingface_hub', 'torch'):
+    tmp_ret = collect_all(pkg)
+    datas += tmp_ret[0]
+    binaries += tmp_ret[1]
+    hiddenimports += tmp_ret[2]
 
 a = Analysis(
     ['src\\main.py'],
@@ -59,7 +73,7 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['assets\\images\\icon.ico'],
+    icon=['assets\\images\\bolt-eye.ico'],
 )
 coll = COLLECT(
     exe,

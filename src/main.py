@@ -4,54 +4,58 @@
 负责初始化 QApplication，加载启动画面，配置全局设置，并启动主窗口 (PetWindow) 和系统托盘 (AppTray)。
 """
 import sys
-import os
+import time
+
 from PySide6.QtWidgets import QApplication, QSplashScreen
-from PySide6.QtGui import QPixmap
 from PySide6.QtCore import Qt
+
 from gui.pet_window import PetWindow
 from gui.tray import AppTray
 from settings_manager import SettingsManager
-from utils import resource_path, ResourceManager
+from utils import ensure_user_settings, ResourceManager
+
+
+def _splash_message(splash: QSplashScreen | None, app: QApplication, text: str) -> None:
+    if not splash:
+        return
+    splash.showMessage(
+        text,
+        Qt.AlignmentFlag.AlignBottom | Qt.AlignmentFlag.AlignHCenter,
+        Qt.GlobalColor.white,
+    )
+    app.processEvents()
+
 
 def main():
-    # 初始化 Qt 应用程序对象，它是所有 GUI 程序的控制中心
+    t0 = time.perf_counter()
     app = QApplication(sys.argv)
 
-    # 显示启动画面
-    # 使用 ResourceManager 加载资源
     splash_pix = ResourceManager.get_instance().get_image("assets/images/pet.png")
     if not splash_pix.isNull():
-        # 稍微放大一点启动图，或者保持原样
-        # WindowStaysOnTopHint 确保启动画面始终在最上层
-        splash = QSplashScreen(splash_pix, Qt.WindowStaysOnTopHint)
+        splash = QSplashScreen(splash_pix, Qt.WindowType.WindowStaysOnTopHint)
         splash.show()
-        app.processEvents()  # 确保启动画面渲染，避免白屏
+        app.processEvents()
     else:
         splash = None
 
-    # 优化点：复用resource_path，统一路径逻辑（功能和原来完全一致）
-    # 配置文件路径：在开发环境和打包环境中都能正确定位
-    settings_path = resource_path("config/settings.json")
+    _splash_message(splash, app, "正在加载配置…")
+    t_cfg = time.perf_counter()
+    settings_path = ensure_user_settings()
     sm = SettingsManager(settings_path)
+    print(f"[Startup] 配置加载 {time.perf_counter() - t_cfg:.2f}s")
 
-    # 初始化主窗口（桌宠）
-    pet = PetWindow(settings_manager=sm)
-    pet.show()
+    _splash_message(splash, app, "正在初始化桌宠…")
+    t_pet = time.perf_counter()
+    pet = PetWindow(settings_manager=sm, splash=splash)
+    print(f"[Startup] 桌宠窗口 {time.perf_counter() - t_pet:.2f}s")
 
-    # 关闭启动画面
-    # 当主窗口初始化完成并显示后，关闭启动画面
-    if splash:
-        splash.finish(pet)
-
-    # 创建并设置系统托盘菜单
+    _splash_message(splash, app, "正在加载系统托盘…")
     menu = AppTray.create_main_menu(app, pet)
     pet.set_context_menu(menu)
-    # 传递相对路径给 AppTray，由内部 ResourceManager 处理
-    tray_icon_path = "assets/images/icon.ico"
-    # 初始化系统托盘图标
+    tray_icon_path = "assets/images/bolt-eye.png"
     tray = AppTray(app, pet_window=pet, icon_path=tray_icon_path, menu=menu)
-    
-    # 进入应用程序的主事件循环
+
+    print(f"[Startup] 启动完成，总耗时 {time.perf_counter() - t0:.2f}s")
     sys.exit(app.exec())
 if __name__ == "__main__":
     main()

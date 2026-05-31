@@ -7,6 +7,7 @@ from PySide6.QtCore import QTimer, QObject, Signal  # 新增 Signal 导入
 from PySide6.QtGui import QPixmap
 from PySide6.QtCore import Qt
 import os
+import time
 from utils import resource_path, ResourceManager
 
 BASE_SIZE = 256  # ⭐ 逻辑基准尺寸（与你原来的 pet.png 一致）
@@ -37,20 +38,61 @@ class AnimationDriver(QObject):
         self.timer = QTimer(self)
         self.timer.timeout.connect(self._next_frame)
 
-        # 预加载 idle 动画
-        self._load_idle_frames()
-        # 触发加载完成信号
-        self.idle_frames_loaded.emit()
-        # 新增：预加载所有情绪表情
-        self.emoji_cache: dict[str, QPixmap] = {}
-        self._load_all_emojis()
+        # 启动：仅加载首帧，其余 idle 帧与表情延后；由 PetWindow 连接信号后再触发显示
+        self._load_boot_frame()
+        QTimer.singleShot(0, self._deferred_load_assets)
         
         # 新增：表情显示定时器
         self.emoji_timer = QTimer(self)
         self.emoji_timer.setSingleShot(True)
         self.emoji_timer.timeout.connect(self.hide_emoji)
 
-        # 新增：获取 idle 动画第一帧
+    def _load_boot_frame(self):
+        """启动阶段只加载 idle 第一帧（或 pet.png），尽快结束阻塞。"""
+        self.emoji_cache: dict[str, QPixmap] = {}
+        folder = resource_path("assets/images/idle")
+        frames: list[QPixmap] = []
+        if os.path.isdir(folder):
+            files = sorted(f for f in os.listdir(folder) if f.lower().endswith(".png"))
+            if files:
+                pix = ResourceManager.get_instance().get_image(
+                    f"assets/images/idle/{files[0]}"
+                )
+                if not pix.isNull():
+                    pix = pix.scaled(
+                        BASE_SIZE,
+                        BASE_SIZE,
+                        Qt.AspectRatioMode.KeepAspectRatio,
+                        Qt.TransformationMode.SmoothTransformation,
+                    )
+                    frames.append(pix)
+        if not frames:
+            pix = ResourceManager.get_instance().get_image("assets/images/pet.png")
+            if not pix.isNull():
+                pix = pix.scaled(
+                    BASE_SIZE,
+                    BASE_SIZE,
+                    Qt.AspectRatioMode.KeepAspectRatio,
+                    Qt.TransformationMode.SmoothTransformation,
+                )
+                frames.append(pix)
+        if frames:
+            self.animations["idle"] = frames
+
+    def _deferred_load_assets(self):
+        """事件循环开始后加载完整 idle 动画与表情（不阻塞 splash）。"""
+        t0 = time.perf_counter()
+        self._load_idle_frames()
+        self._load_all_emojis()
+        if self.state == "idle" and self.animations.get("idle"):
+            self.frames = self.animations["idle"]
+            self.frame_index = 0
+            if self.frames:
+                self.target.setPixmap(self.frames[0])
+        print(
+            f"[AnimationDriver] 延后资源加载完成 {time.perf_counter() - t0:.2f}s "
+            f"(idle={len(self.animations.get('idle', []))} 帧)"
+        )
     def get_idle_first_frame(self):
         """获取idle动画的第一帧（用于初始显示）"""
         idle_frames = self.animations.get("idle")

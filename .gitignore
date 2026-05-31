@@ -13,3 +13,19 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
+
+# 开发环境密钥文件（不上传，防止 API 密钥泄漏）
+# 使用 .env.example 作为模板，复制并重命名为 .env 后填入真实密钥
+.env
+.env.local
+.env.*.local
+
+# LlamaIndex 向量索引缓存（本地生成，体积较大）
+src/llm/knowledge_db/lore/default__vector_store.json
+src/llm/knowledge_db/lore/docstore.json
+
+screenshots/
+config/user_memory.db
+dist/FGO因陀罗桌宠.zip
+/dist
+/build

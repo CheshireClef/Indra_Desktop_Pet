@@ -1,0 +1,78 @@
+---
+description: Indra Desktop Pet Python/PySide6 代码规范（src/ 目录）
+globs: src/**/*.py
+alwaysApply: false
+---
+
+# Python 代码规范
+
+## 文件与模块
+
+```
+src/
+  main.py              # 入口，只做组装
+  settings_manager.py  # 配置单例
+  utils.py             # resource_path、ResourceManager
+  gui/                 # UI，不直接发 LLM 请求
+  llm/                 # 对话、RAG、长期记忆
+  vision/              # 截图与视觉 API
+  workers/             # QThread 后台任务
+```
+
+- 新功能放入对应层，避免 `pet_window.py` 继续膨胀
+- GUI 模块通过 `ChatManager`、`SettingsManager` 等与业务层交互
+
+## 命名与类型
+
+- 类名：`PascalCase`（`PetWindow`、`ChatManager`）
+- 私有方法/属性：`_leading_underscore`
+- 模块级常量：`UPPER_SNAKE_CASE`
+- 新代码优先加类型注解（`str | None`、`list[dict]`）
+
+## 配置
+
+```python
+# ✅ 读取配置
+api_key = self.sm.get("llm", "api_key", default="")
+
+# ✅ 写入并持久化
+self.sm.set("behavior", "screen_watch_enabled", value=True, save_now=True)
+```
+
+- 新增 settings 键：同步 `DEFAULTS`、设置 UI（`settings_dialog.py`）、`docs/07-数据结构.md`
+- 敏感字段映射到 `.env` 时，更新 `_ENV_KEY_MAP` 与 `.env.example`
+
+## Qt / 线程
+
+- UI 更新仅在主线程；Worker 用 `Signal` 回传结果
+- 长操作示例：`ScreenObserveWorker`（截图 → 视觉 → LLM）
+- 绑定 `settings_changed` 实现热更新，避免要求用户重启
+
+## LLM / RAG / 记忆
+
+- LLM HTTP 调用集中在 `chat_manager.py`
+- RAG 索引与检索在 `knowledge_base.py`，不在 GUI 中构建索引
+- 长期记忆读写经 `LongTermMemory`，embedding 复用 `KnowledgeBase.get_embedding`
+- 聊天场景可用 `response_format_json=True`；屏幕观察用情绪标签，勿强加 JSON format（避免 400）
+
+## 日志与错误
+
+```python
+print(f"[ChatManager] LLM 请求失败：{e}")  # 模块名前缀，便于控制台过滤
+```
+
+- 用户可见错误用临时气泡或对话框；内部细节打 `print` 或保留异常链
+- 配置文件损坏时备份为 `.broken` 再回退默认（见 `SettingsManager.load`）
+
+## 注释示例
+
+```python
+# ✅ 说明非显而易见的业务规则
+# 仅聊天场景要求 JSON 输出；屏幕观察使用【情绪标签】格式，不设 response_format
+if response_format_json:
+    payload["response_format"] = {"type": "json_object"}
+
+# ❌ 避免废话注释
+# 获取 api_key
+api_key = self.sm.get("llm", "api_key")
+```

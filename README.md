@@ -24,15 +24,19 @@
 ```
 Indra_Desktop_Pet/
 ├── assets/             # 资源文件夹（立绘、图标、UI素材）
-├── config/             # 配置文件（用户设置、API密钥等）
+├── config/             # 配置文件（用户设置等）
+├── docs/               # 开发文档（架构、进度、环境配置等）
 ├── models/             # 本地离线模型（目前包含 gte-multilingual-base 向量模型）
 ├── src/                # 源代码目录
 │   ├── gui/            # 图形界面逻辑 (PySide6)
 │   ├── llm/            # LLM 交互与 RAG 核心逻辑 (LlamaIndex)
 │   ├── vision/         # 视觉模块 (屏幕截图与图像识别)
 │   └── main.py         # 程序启动入口
+├── .env.example        # 开发环境 API 配置模板
 └── README.md           # 项目说明文档
 ```
+
+> 开发者文档见 **[docs/README.md](docs/README.md)**（项目概况、技术要点、架构、进度、`.env` 配置说明等）。
 
 ---
 
@@ -74,8 +78,9 @@ Indra_Desktop_Pet/
    git clone https://github.com/YourUsername/Indra_Desktop_Pet.git
    ```
 2. 安装依赖库：
-   请确保安装了 `PySide6`, `llama-index`, `openai` 等核心依赖。
-3. 运行程序：
+   请确保安装了 `PySide6`, `llama-index`, `openai` 等核心依赖（完整列表见 [docs/02-技术要点.md](docs/02-技术要点.md)）。
+3. **（开发环境）** 复制 `.env.example` 为 `.env` 并填入 LLM / 视觉 API 密钥（详见 [docs/05-开发环境配置.md](docs/05-开发环境配置.md)）。
+4. 运行程序：
    ```bash
    python src/main.py
    ```

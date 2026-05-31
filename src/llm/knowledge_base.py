@@ -4,6 +4,7 @@ import random
 import threading
 import sys
 import hashlib
+from contextlib import contextmanager
 from typing import List
 from pathlib import Path
 from PySide6.QtCore import QObject, Signal
@@ -17,12 +18,16 @@ from llama_index.core.schema import Document
 from llama_index.core.node_parser import SentenceSplitter
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 
-from utils import resource_path
+from utils import resource_path, is_frozen
 
 try:
     import tiktoken_ext.openai_public  # noqa: F401
 except Exception:
     pass
+
+# RAG 检索 query 最大长度（与 HuggingFaceEmbedding 默认 max_length 对齐）
+RAG_QUERY_MAX_LEN = 512
+
 
 class KnowledgeBase(QObject):
     indices_loaded = Signal()
@@ -40,12 +45,81 @@ class KnowledgeBase(QObject):
         self.lore_index = None
         self.style_index = None
         self.style_sample_history = []  # 记录近期抽取的style内容，降低重复频率
-        
+        # 供长期记忆模块复用的嵌入模型，在 _init_indices_async 中赋值
+        self._embed_model = None
+        # 嵌入模型与索引构建/检索互斥，避免多线程并发 encode 导致 IndexError
+        self._embed_lock = threading.Lock()
+        self._embed_ready = False
+        self._indices_ready = False
+        self._rebuild_in_progress = False
+        self._rebuild_depth = 0
+
+    @contextmanager
+    def _embed_lock_ctx(self):
+        self._embed_lock.acquire()
+        try:
+            yield
+        finally:
+            self._embed_lock.release()
+
+    def _begin_rebuild(self, name: str) -> None:
+        """索引重建开始（可嵌套 lore/style）。"""
+        self._rebuild_depth += 1
+        self._rebuild_in_progress = True
+        if self._rebuild_depth == 1:
+            try:
+                self.rebuild_started.emit(name)
+            except Exception:
+                pass
+
+    def _end_rebuild(self) -> None:
+        self._rebuild_depth = max(0, self._rebuild_depth - 1)
+        self._rebuild_in_progress = self._rebuild_depth > 0
+
+    def _normalize_rag_query(self, query: str) -> str:
+        """截断 RAG 检索用 query，避免超长文本进入嵌入模型。"""
+        q = (query or "").strip()
+        if len(q) > RAG_QUERY_MAX_LEN:
+            print(
+                f"[KnowledgeBase] RAG query 过长（{len(q)} 字符），已截断至 {RAG_QUERY_MAX_LEN} 字符"
+            )
+            return q[:RAG_QUERY_MAX_LEN]
+        return q
+
+    def _rag_skip_reason(self) -> str | None:
+        """未满足检索条件时返回原因文案，否则 None。"""
+        if not self._embed_ready:
+            return "嵌入模型未就绪"
+        if self._rebuild_in_progress:
+            return "知识库索引重建中"
+        if not self._indices_ready:
+            return "知识库索引未加载完成"
+        return None
+
     def start_loading(self):
         """启动异步加载线程"""
+        print("[KnowledgeBase] 后台开始加载嵌入模型与索引（不阻塞桌宠显示）…")
         index_thread = threading.Thread(target=self._init_indices_async)
         index_thread.daemon = True
         index_thread.start()
+
+    def get_embedding(self, text: str) -> List[float] | None:
+        """
+        获取文本的向量表示，供长期记忆等模块复用。未加载完成时返回 None。
+        """
+        if not text or not self._embed_ready:
+            return None
+        normalized = self._normalize_rag_query(text)
+        if not normalized:
+            return None
+        with self._embed_lock_ctx():
+            if not self._embed_model:
+                return None
+            try:
+                return self._embed_model.get_query_embedding(normalized)
+            except Exception as e:
+                print(f"[KnowledgeBase] get_embedding 失败: {e}")
+                return None
 
     def _init_indices_async(self):
         """异步初始化索引，强制使用本地gte-multilingual-base离线模型"""
@@ -95,29 +169,34 @@ class KnowledgeBase(QObject):
             import torch
             embed_model._model = embed_model._model.to("cpu")
             print(f"[KnowledgeBase] 模型已手动移动到CPU设备")
-            
-            # 发送模型加载完成信号
-            self.model_loaded_to_cpu.emit()
+            with self._embed_lock_ctx():
+                # 保存引用供长期记忆模块复用，避免重复加载
+                self._embed_model = embed_model
+                self._embed_ready = True
         except Exception as e:
             msg = f"模型加载失败：{e}"
             print(f"[KnowledgeBase] {msg}")
             self.load_failed.emit(msg)
             return
+        # 模型就绪信号在锁外发送，避免持锁期间触发 UI 回调
+        self.model_loaded_to_cpu.emit()
         try:
-            self.lore_index = self._load_or_build_index(
-                data_dir=Path(resource_path("src/llm/knowledge/lore")),
-                persist_dir=self._get_persist_dir("lore"),
-                embed_model=embed_model,
-                name="Lore",
-                is_lore=True
-            )
-            self.style_index = self._load_or_build_index(
-                data_dir=Path(resource_path("src/llm/knowledge/style")),
-                persist_dir=self._get_persist_dir("style"),
-                embed_model=embed_model,
-                name="Style",
-                is_lore=False
-            )
+            with self._embed_lock_ctx():
+                self.lore_index = self._load_or_build_index(
+                    data_dir=Path(resource_path("src/llm/knowledge/lore")),
+                    persist_dir=self._get_persist_dir("lore"),
+                    embed_model=embed_model,
+                    name="Lore",
+                    is_lore=True,
+                )
+                self.style_index = self._load_or_build_index(
+                    data_dir=Path(resource_path("src/llm/knowledge/style")),
+                    persist_dir=self._get_persist_dir("style"),
+                    embed_model=embed_model,
+                    name="Style",
+                    is_lore=False,
+                )
+            self._indices_ready = True
             print("[KnowledgeBase] 索引加载完成，发送信号...")
             self.indices_loaded.emit()
         except Exception as e:
@@ -270,7 +349,7 @@ class KnowledgeBase(QObject):
         return documents
 
     def _get_persist_dir(self, subdir: str) -> Path:
-        if getattr(sys, "frozen", False) and hasattr(sys, "_MEIPASS"):
+        if is_frozen():
             return Path(resource_path(f"src/llm/knowledge_db/{subdir}"))
         else:
             base = self.knowledge_db_dir
@@ -334,13 +413,10 @@ class KnowledgeBase(QObject):
                 has_changes = True
 
         if persist_dir.exists() and has_changes:
+            self._begin_rebuild(name)
             try:
                 storage = StorageContext.from_defaults(persist_dir=str(persist_dir))
                 index = load_index_from_storage(storage, embed_model=embed_model)
-                try:
-                    self.rebuild_started.emit(name)
-                except Exception:
-                    pass
                 to_delete = deleted + changed
                 for rel_path in to_delete:
                     try:
@@ -377,53 +453,68 @@ class KnowledgeBase(QObject):
                 return index
             except Exception as e:
                 print(f"[KnowledgeBase] 增量更新{name} Index失败：{e}，将重建")
+            finally:
+                self._end_rebuild()
 
+        self._begin_rebuild(name)
         try:
-            self.rebuild_started.emit(name)
-        except Exception:
-            pass
+            all_files = [
+                self._get_rel_path(data_dir, p)
+                for p in data_dir.rglob("*")
+                if p.is_file() and not p.name.startswith(".")
+            ]
+            documents = self._build_documents_from_files(data_dir, all_files, is_lore)
+            if not documents:
+                print(f"[KnowledgeBase] {name} 目录为空")
+                return None
 
-        all_files = [self._get_rel_path(data_dir, p) for p in data_dir.rglob("*") if p.is_file() and not p.name.startswith(".")]
-        documents = self._build_documents_from_files(data_dir, all_files, is_lore)
-        if not documents:
-            print(f"[KnowledgeBase] {name} 目录为空")
-            return None
+            for doc in documents:
+                try:
+                    doc.id_ = doc.id_ or doc.metadata.get("source_path")
+                except Exception:
+                    pass
 
-        for doc in documents:
+            index = VectorStoreIndex.from_documents(
+                documents,
+                embed_model=embed_model,
+                transformations=[node_parser],
+                show_progress=True,
+            )
+
+            index.storage_context.persist(persist_dir=str(persist_dir))
+            persist_dir.mkdir(parents=True, exist_ok=True)
+            current_mtime = self._get_data_dir_mtime(data_dir)
+            with open(mtime_file, "w", encoding="utf-8") as f:
+                json.dump({"total_mtime": current_mtime}, f, ensure_ascii=False)
             try:
-                doc.id_ = doc.id_ or doc.metadata.get("source_path")
+                data_hash = self._get_manifest_hash(current_manifest)
+                with open(data_hash_file, "w", encoding="utf-8") as f:
+                    json.dump({"data_hash": data_hash}, f, ensure_ascii=False)
             except Exception:
                 pass
+            self._save_file_manifest(persist_dir, current_manifest)
 
-        index = VectorStoreIndex.from_documents(
-            documents,
-            embed_model=embed_model,
-            transformations=[node_parser],
-            show_progress=True
-        )
-
-        index.storage_context.persist(persist_dir=str(persist_dir))
-        persist_dir.mkdir(parents=True, exist_ok=True)
-        current_mtime = self._get_data_dir_mtime(data_dir)
-        with open(mtime_file, "w", encoding="utf-8") as f:
-            json.dump({"total_mtime": current_mtime}, f, ensure_ascii=False)
-        try:
-            data_hash = self._get_manifest_hash(current_manifest)
-            with open(data_hash_file, "w", encoding="utf-8") as f:
-                json.dump({"data_hash": data_hash}, f, ensure_ascii=False)
-        except Exception:
-            pass
-        self._save_file_manifest(persist_dir, current_manifest)
-        
-        print(f"[KnowledgeBase] 构建 {name} Index，文档数 {len(documents)}")
-        return index
+            print(f"[KnowledgeBase] 构建 {name} Index，文档数 {len(documents)}")
+            return index
+        finally:
+            self._end_rebuild()
 
     def retrieve(self, query: str) -> str:
-        if not query.strip():
+        """检索知识库片段；未就绪或重建中时返回空字符串。"""
+        query = self._normalize_rag_query(query)
+        if not query:
             return ""
+        skip = self._rag_skip_reason()
+        if skip:
+            print(f"[KnowledgeBase] 跳过 RAG 检索：{skip}")
+            return ""
+        with self._embed_lock_ctx():
+            return self._retrieve_locked(query)
 
+    def _retrieve_locked(self, query: str) -> str:
+        """在嵌入锁内执行向量检索与 style 采样。"""
         contexts = []
-        
+
         # 1. Lore：混合检索策略
         if self.lore_index:
             lore_engine = self.lore_index.as_retriever(

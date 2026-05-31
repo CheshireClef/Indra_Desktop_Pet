@@ -12,6 +12,7 @@ from gui.animation import BASE_SIZE, EMOJI_SIZE
 from utils import resource_path
 from .chat_bubble import TempBubble
 from workers.screen_observer_worker import ScreenObserveWorker
+from workers.chat_worker import ChatWorker
 
 
 class PetWindow(QWidget):
@@ -22,14 +23,21 @@ class PetWindow(QWidget):
     # 窗口可见性切换信号
     toggled_visibility = Signal(bool)
 
-    def __init__(self, settings_manager=None, icon_path: str = None, image_path: str = ""):
+    def __init__(
+        self,
+        settings_manager=None,
+        icon_path: str = None,
+        image_path: str = "",
+        splash=None,
+    ):
         super().__init__(None, Qt.Window)
 
-        # 延迟导入避免循环依赖
+        self._splash = splash
+
+        # 延迟导入避免循环依赖（ChatManager 会拉取 llama_index/torch，勿在 __init__ 导入）
         from .animation import AnimationDriver
         from .chat_bubble import ChatBubble
         from .settings_dialog import SettingsDialog
-        from llm.chat_manager import ChatManager
 
         # 路径处理
         self.image_path = resource_path(image_path) if image_path else ""
@@ -54,10 +62,10 @@ class PetWindow(QWidget):
 
         self.vision_client = None
         self._observe_worker = None
+        self._chat_worker = None
 
         # 保存类引用
         self._AnimationDriver = AnimationDriver
-        self._ChatManager = ChatManager
         self._ChatBubble = ChatBubble
         self._SettingsDialog = SettingsDialog
 
@@ -67,6 +75,9 @@ class PetWindow(QWidget):
         self._setup_emoji_label()
         self._setup_animation()
         self._load_image(reset_pos=True)
+        # 首帧与缩放就绪后再显示桌宠、关闭 splash（信号须在连接后手动触发）
+        if self.animation.get_idle_first_frame():
+            self._on_idle_frames_loaded()
 
         # 优化启动速度：延迟初始化重型组件
         QTimer.singleShot(200, self._setup_chat)
@@ -219,7 +230,6 @@ class PetWindow(QWidget):
     # ---------------- 动画初始化 ----------------
     def _setup_animation(self):
         self.animation = self._AnimationDriver(self.label)
-        # 绑定表情Label到动画驱动
         self.animation.emoji_label = self.emoji_label
         self.animation.idle_frames_loaded.connect(self._on_idle_frames_loaded)
         self.animation.on_idle()
@@ -245,15 +255,20 @@ class PetWindow(QWidget):
         self.animation.show_emoji(emotion_tag, duration_s)
 
     def _on_idle_frames_loaded(self):
-        """动画帧加载完成后显示窗口并重绘"""
+        """动画首帧就绪后显示桌宠并关闭启动画面。"""
         self.show()
         self.raise_()
         self.update()
+        if self._splash is not None:
+            self._splash.finish(self)
+            self._splash = None
 
     # ---------------- 聊天功能 ----------------
     def _setup_chat(self):
+        from llm.chat_manager import ChatManager
+
         persona_path = resource_path("src/llm/persona.txt")
-        self.chat_manager = self._ChatManager(self.settings, persona_path)
+        self.chat_manager = ChatManager(self.settings, persona_path)
         
         if hasattr(self.chat_manager, 'knowledge_base'):
             self.chat_manager.knowledge_base.indices_loaded.connect(self._on_indices_loaded)
@@ -277,7 +292,9 @@ class PetWindow(QWidget):
     def _on_model_loaded_to_cpu(self):
         """模型加载到CPU后的回调"""
         print("[PetWindow] 收到模型加载完成信号")
-        self._show_temp_bubble("数据库加载中，请稍候...加载期间可以进行无数据库支持的简单聊天")
+        self._show_temp_bubble(
+            "剧情库加载中，请稍候…加载完成前不会检索剧情库，可正常聊天"
+        )
 
     def _on_indices_loaded(self):
         """知识库索引加载完成后的回调"""
@@ -294,12 +311,30 @@ class PetWindow(QWidget):
         self._show_temp_bubble(f"数据库加载失败：{msg}")
 
     def _on_user_message(self, text: str):
-        # 调用修改后的chat方法，获取纯回复 + 情绪标签
-        reply, emotion_tag = self.chat_manager.chat_with_tag(text)
-        if reply:
-            self.chat_bubble.append_pet(reply)
-            # 显示对应情绪表情
-            self._show_emotion_emoji(emotion_tag)
+        """用户消息已在 ChatBubble 内即时显示；LLM 请求放后台线程。"""
+        if self._chat_worker and self._chat_worker.isRunning():
+            return
+        if not hasattr(self, "chat_manager") or not self.chat_manager:
+            self._show_temp_bubble("聊天功能尚未就绪，请稍候")
+            return
+
+        self.chat_bubble.set_waiting(True)
+        self._chat_worker = ChatWorker(self.chat_manager, text)
+        self._chat_worker.success.connect(self._on_chat_worker_success)
+        self._chat_worker.failed.connect(self._on_chat_worker_failed)
+        self._chat_worker.finished.connect(self._on_chat_worker_finished)
+        self._chat_worker.start()
+
+    def _on_chat_worker_success(self, reply: str, emotion_tag: str, reasoning):
+        self.chat_bubble.append_pet(reply, reasoning=reasoning)
+        self._show_emotion_emoji(emotion_tag)
+
+    def _on_chat_worker_failed(self, error_message: str):
+        self._show_temp_bubble(error_message)
+
+    def _on_chat_worker_finished(self):
+        self.chat_bubble.set_waiting(False)
+        self._chat_worker = None
 
     # ---------------- 右键菜单 ----------------
     def set_context_menu(self, menu):
@@ -464,39 +499,61 @@ class PetWindow(QWidget):
         # 3. 刷新屏幕观察设置
         self._apply_screen_watch_settings()
         
-        # 4. 刷新视觉模型配置（如果在运行时修改了API Key）
-        if self.vision_client:
-             # 如果需要支持热更新 Vision Client，可以在这里重新初始化
-             # 目前暂且保留现有实例，下次调用 _ensure_vision_client 时若为None会重建
-             pass
-             
+        # 4. 视觉/模型配置热更新：清空懒加载客户端，下次观察时按新配置重建
+        self.vision_client = None
+        try:
+            from llm.model_service import ModelService
+            ModelService.reset_cache()
+        except Exception:
+            pass
+
         self.update()
 
     # ---------------- 设置窗口 ----------------
     def open_settings_window(self):
         if not self.settings:
             return
-        # 设置窗口只需负责修改 SettingsManager，保存时会自动触发 settings_changed 信号
-        # 从而调用上面的 _on_settings_changed 方法
-        dlg = self._SettingsDialog(self.settings, parent=self)
-        dlg.exec()
+        try:
+            ltm = None
+            if getattr(self, "chat_manager", None):
+                ltm = self.chat_manager.get_long_term_memory()
+            # 勿以 PetWindow 为父窗口：其含 WindowDoesNotAcceptFocus，打包后模态设置框可能无法显示
+            dlg = self._SettingsDialog(
+                self.settings,
+                parent=None,
+                long_term_memory=ltm,
+            )
+            dlg.setWindowFlags(
+                Qt.WindowType.Window | Qt.WindowType.WindowCloseButtonHint
+            )
+            dlg.exec()
+        except Exception as e:
+            print(f"[PetWindow] 打开设置失败: {e}")
+            import traceback
+            traceback.print_exc()
+            self._show_temp_bubble(f"打开设置失败：{e}")
 
     # ---------------- 视觉功能 ----------------
     def _ensure_vision_client(self):
         if self.vision_client or not self.settings:
             return
-        
-        # 懒加载 QwenVisionClient
-        from vision.qwen_vision import QwenVisionClient
 
-        api_url = self.settings.get("vision", "api_url", default="https://api.siliconflow.cn/v1/chat/completions")
-        api_key = self.settings.get("vision", "api_key", default="")
-        model = self.settings.get("vision", "model", default="Qwen/Qwen3-VL-32B-Instruct")
+        from llm.model_service import ModelService
+        from llm.providers.registry import requires_api_key
 
-        if not api_key:
-            print("[Vision] API密钥为空，视觉功能禁用")
+        binding = self.settings.get_vision_binding()
+        vendor = binding.get("vendor", "custom_openai")
+        api_key = binding.get("api_key") or ""
+        if requires_api_key(vendor) and not api_key:
+            print("[Vision] API 密钥为空，视觉功能禁用")
             return
-        self.vision_client = QwenVisionClient(api_url=api_url, api_key=api_key, model=model)
+        ms = ModelService.get_instance(self.settings)
+        client = ms.get_vision_client()
+        if not client:
+            print("[Vision] 视觉客户端初始化失败，请检查识图模型配置")
+            return
+        # 兼容 ScreenObserveWorker：保留 describe_image 接口
+        self.vision_client = client
 
     def observe_screen_and_comment(self):
         self._ensure_vision_client()
@@ -522,8 +579,8 @@ class PetWindow(QWidget):
 
     # ---------------- 临时气泡显示 ----------------
     def _show_temp_bubble(self, text: str):
-        # 错误信息标红
-        if text.startswith(("屏幕观察出错：", "定时屏幕观察出错：", "屏幕观察功能未启用：")):
+        # 错误信息标红（含 LLM 空回复、通用错误前缀）
+        if text.startswith(("屏幕观察出错：", "定时屏幕观察出错：", "屏幕观察功能未启用：", "LLM 返回了空回复", "错误：")):
             text = f"<font color='#ff4444'>{text}</font>"
 
         pet_geo = self.geometry()

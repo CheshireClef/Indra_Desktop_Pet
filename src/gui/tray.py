@@ -47,14 +47,17 @@ class AppTray:
             self.sm.settings_changed.connect(self._update_menu_status)
 
     def _update_menu_status(self):
-        """配置变更时刷新菜单项文本 (如：屏幕监视开启/关闭状态)"""
-        if not self.menu or "screen_watch" not in self.menu._actions_refs:
+        """配置变更时刷新菜单项文本 (如：屏幕监视、长期记忆的开启/关闭状态)"""
+        if not self.menu:
             return
-        
+        refs = getattr(self.menu, "_actions_refs", None) or {}
         try:
-            enabled = self.sm.get("behavior", "screen_watch_enabled", default=False)
-            action = self.menu._actions_refs["screen_watch"]
-            action.setText("屏幕监视：开启" if enabled else "屏幕监视：关闭")
+            if "screen_watch" in refs:
+                enabled = self.sm.get("behavior", "screen_watch_enabled", default=False)
+                refs["screen_watch"].setText("屏幕监视：开启" if enabled else "屏幕监视：关闭")
+            if "long_term_memory" in refs:
+                enabled = self.sm.get("behavior", "long_term_memory_enabled", default=False)
+                refs["long_term_memory"].setText("长期记忆：开启" if enabled else "长期记忆：关闭")
         except Exception:
             pass
 
@@ -139,6 +142,34 @@ class AppTray:
         screen_watch_action.triggered.connect(toggle_screen_watch)
         menu.addAction(screen_watch_action)
         menu._actions_refs["screen_watch"] = screen_watch_action
+
+        # ---- 长期记忆 开 / 关 ----
+        ltm_enabled = False
+        try:
+            if hasattr(pet_window, "settings") and pet_window.settings:
+                ltm_enabled = bool(
+                    pet_window.settings.get(
+                        "behavior", "long_term_memory_enabled", default=False
+                    )
+                )
+        except Exception:
+            ltm_enabled = False
+        ltm_text = "长期记忆：开启" if ltm_enabled else "长期记忆：关闭"
+        long_term_memory_action = QAction(ltm_text, menu)
+
+        def toggle_long_term_memory():
+            try:
+                sm = getattr(pet_window, "settings", None)
+                if not sm:
+                    return
+                current = bool(sm.get("behavior", "long_term_memory_enabled", default=False))
+                sm.set("behavior", "long_term_memory_enabled", value=not current)
+            except Exception as e:
+                print("[Tray] toggle_long_term_memory error:", e)
+
+        long_term_memory_action.triggered.connect(toggle_long_term_memory)
+        menu.addAction(long_term_memory_action)
+        menu._actions_refs["long_term_memory"] = long_term_memory_action
 
         menu.addSeparator()
 

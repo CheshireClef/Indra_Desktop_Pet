@@ -2,26 +2,84 @@
 """
 工具函数和通用类模块
 包含资源路径处理 (兼容开发环境和 PyInstaller 打包环境) 以及资源管理器单例 (ResourceManager)。
+
+打包约定：随包分发的只读文件一律用 resource_path()；用户可写数据用 user_data_path()。
+禁止用 Path(__file__).parent 定位 datas（frozen 下 .py 在 llm/…，资源在 src/llm/…）。
 """
 import os
+import shutil
 import sys
+from pathlib import Path
+
 from PySide6.QtGui import QPixmap, QIcon
+
+
+def is_frozen() -> bool:
+    """是否为 PyInstaller 打包后的运行环境。"""
+    return getattr(sys, "frozen", False) and hasattr(sys, "_MEIPASS")
+
+
+def app_root() -> str:
+    """
+    用户可写数据根目录：
+    - 开发环境：项目根目录
+    - 打包环境：exe 所在目录（与 _internal 只读资源分离）
+    """
+    if is_frozen():
+        return os.path.dirname(os.path.abspath(sys.executable))
+    return os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+
 
 def resource_path(rel_path: str) -> str:
     """
-    统一资源路径处理：
+    只读资源路径（随包分发、位于 _internal）：
     - 开发环境：以工程根目录为基准
     - PyInstaller：以 _internal (sys._MEIPASS) 为基准
     """
-    # sys.frozen 是 PyInstaller 打包后的标志
-    # sys._MEIPASS 是打包后的临时解压目录
-    if getattr(sys, "frozen", False) and hasattr(sys, "_MEIPASS"):
+    if is_frozen():
         base = sys._MEIPASS
     else:
-        # 开发环境下，定位到当前文件 (src/utils.py) 的上一级目录 (即项目根目录)
-        base = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-
+        base = app_root()
     return os.path.join(base, rel_path)
+
+
+def user_data_path(rel_path: str) -> str:
+    """
+    可写用户数据路径（配置、记忆库、截图等）：
+    - 开发环境：项目根目录下相对路径
+    - 打包环境：exe 同级目录下相对路径（勿写入 _internal）
+    """
+    return os.path.join(app_root(), rel_path)
+
+
+def resolve_file_path(path: str | os.PathLike) -> str:
+    """
+    解析待读取的本地文件路径。
+    - 绝对路径（如 exe 旁 screenshots/）：原样返回
+    - 相对路径：走 resource_path（只读打包资源）
+    """
+    p = Path(path)
+    if p.is_absolute():
+        return str(p)
+    return resource_path(str(p))
+
+
+def ensure_user_settings() -> str:
+    """
+    返回可写的 settings.json 路径。
+    打包版首次运行从包内默认配置复制到 exe 旁 config/。
+    """
+    target = user_data_path("config/settings.json")
+    if os.path.exists(target):
+        return target
+    os.makedirs(os.path.dirname(target), exist_ok=True)
+    bundled = resource_path("config/settings.json")
+    if (
+        os.path.exists(bundled)
+        and os.path.abspath(bundled) != os.path.abspath(target)
+    ):
+        shutil.copy2(bundled, target)
+    return target
 
 class ResourceManager:
     """

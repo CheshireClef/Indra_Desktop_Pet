@@ -53,6 +53,9 @@ class ChatBubble(QWidget):
 
         self.input_edit.returnPressed.connect(self._on_enter)
 
+        # 等待模型回复期间禁止重复发送，但不影响聊天记录区滚动与关闭
+        self._waiting = False
+
         # ===== 自动隐藏逻辑 =====
         self._hide_timer = QTimer(self)
         self._hide_timer.setSingleShot(True)
@@ -90,9 +93,20 @@ class ChatBubble(QWidget):
         if not was_visible:
             self.hide()
             
+    def set_waiting(self, waiting: bool):
+        """模型回复等待中：禁用输入框，聊天记录区仍可滚动。"""
+        self._waiting = bool(waiting)
+        self.input_edit.setEnabled(not self._waiting)
+        if self._waiting:
+            self.input_edit.setPlaceholderText("等待回复中…")
+        else:
+            self.input_edit.setPlaceholderText("想和桌宠因陀罗说些什么？")
+
     # ---------- 对话 ----------
     def _on_enter(self):
         """用户输入回车处理"""
+        if self._waiting:
+            return
         text = self.input_edit.text().strip()
         if not text:
             return
@@ -106,11 +120,38 @@ class ChatBubble(QWidget):
         self._ensure_visible()
         self.chat_view.append(f"<b>你：</b>{text}<br>")
 
-    def append_pet(self, text: str):
-        """显示桌宠消息，并确保窗口可见"""
-        # ⭐ 关键优化：桌宠说话时自动浮现
+    def append_pet(self, text: str, reasoning: str | None = None):
+        """显示桌宠消息；reasoning 为 API 思考链（可选，灰色折叠区）。"""
         self._ensure_visible()
-        self.chat_view.append(f"<b>因陀罗：</b>{text}<br>")
+        if reasoning and self._should_show_reasoning():
+            safe = self._html_escape(reasoning).replace("\n", "<br>")
+            self.chat_view.append(
+                f'<details style="color:#aaa;font-size:0.9em;margin:4px 0;">'
+                f"<summary>思考过程</summary>{safe}</details>"
+            )
+        safe_text = self._html_escape(text)
+        self.chat_view.append(f"<b>因陀罗：</b>{safe_text}<br>")
+
+    @staticmethod
+    def _html_escape(s: str) -> str:
+        return (
+            (s or "")
+            .replace("&", "&amp;")
+            .replace("<", "&lt;")
+            .replace(">", "&gt;")
+        )
+
+    def _should_show_reasoning(self) -> bool:
+        try:
+            from settings_manager import SettingsManager
+
+            return bool(
+                SettingsManager.get_instance().get(
+                    "behavior", "show_reasoning_in_chat", default=True
+                )
+            )
+        except Exception:
+            return True
 
     # ---------- 可见性与位置 ----------
     def _ensure_visible(self):
@@ -121,7 +162,7 @@ class ChatBubble(QWidget):
             self.show()
 
         self.raise_()
-        self.activateWindow()
+        # 勿 activateWindow：父级 PetWindow 含 WindowDoesNotAcceptFocus，会触发 Qt 警告
         self.setWindowOpacity(1.0)
         self._hide_timer.stop()
         self._fade_anim.stop()

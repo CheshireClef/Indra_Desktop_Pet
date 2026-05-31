@@ -8,20 +8,23 @@
   "behavior": {
     "idle_interval_s": 7,
     "screen_watch_enabled": true,
-    "screen_watch_interval_s": 300,
-    "temp_bubble_duration_s": 7
+    "screen_watch_interval_s": 480,
+    "temp_bubble_duration_s": 9,
+    "long_term_memory_enabled": true,
+    "show_reasoning_in_chat": true
   },
   "user": {
     "display_name": "御主"
   },
   "llm": {
-    "provider": "deepseek",
+    "provider": "custom",
     "api_key": "",
-    "model": "deepseek-chat",
+    "model": "deepseek-ai/DeepSeek-V4-Pro",
     "max_tokens": 512,
-    "base_url": "https://api.deepseek.com",
+    "base_url": "https://api.siliconflow.cn/v1",
     "history_rounds": 10,
-    "temperature": 1.3
+    "temperature": 1.3,
+    "max_reply_chars": 800
   },
   "vision": {
     "api_url": "https://api.siliconflow.cn/v1/chat/completions",
@@ -29,6 +32,112 @@
     "enabled": false,
     "auto_interval": 0,
     "keep_last_n_screenshots": 3,
-    "model": "Qwen/Qwen3-VL-32B-Instruct"
+    "model": "Qwen/Qwen3.6-27B"
+  },
+  "models": {
+    "schema_version": 2,
+    "connections": [
+      {
+        "id": "default",
+        "vendor": "siliconflow",
+        "protocol": "openai_compatible",
+        "base_url": "https://api.siliconflow.cn/v1",
+        "api_key": ""
+      }
+    ],
+    "chat": {
+      "connection_id": "default",
+      "model": "deepseek-ai/DeepSeek-V4-Pro",
+      "temperature": 1.3,
+      "max_tokens": 512,
+      "history_rounds": 10,
+      "output_mode": "auto"
+    },
+    "vision": {
+      "same_connection_as_chat": true,
+      "connection_id": "default",
+      "model": "Qwen/Qwen3.6-27B"
+    },
+    "capabilities_cache": {
+      "vision:Qwen/Qwen3.6-27B": {
+        "probed_at": "2026-05-27T14:02:45.727841+00:00",
+        "supports_vision": true,
+        "vision_hints": {
+          "content_order": "image_first",
+          "detail": "low",
+          "enable_thinking": false,
+          "probe_side": 64
+        }
+      },
+      "vision:MiniMax-M2.7-highspeed": {
+        "probed_at": "2026-05-27T13:08:26.174635+00:00",
+        "supports_vision": false
+      },
+      "vision:MiniMax-M2.7": {
+        "probed_at": "2026-05-27T13:08:39.490367+00:00",
+        "supports_vision": false
+      },
+      "vision:Qwen/Qwen3.5-9B": {
+        "probed_at": "2026-05-27T13:09:13.203543+00:00",
+        "supports_vision": true
+      },
+      "vision:zai-org/GLM-4.5V": {
+        "probed_at": "2026-05-27T14:01:14.644764+00:00",
+        "supports_vision": true,
+        "vision_hints": {
+          "content_order": "image_first",
+          "detail": "low",
+          "enable_thinking": false,
+          "probe_side": 64
+        }
+      },
+      "vision:Pro/moonshotai/Kimi-K2.5": {
+        "probed_at": "2026-05-27T14:01:29.996179+00:00",
+        "supports_vision": true,
+        "vision_hints": {
+          "content_order": "image_first",
+          "detail": "low",
+          "enable_thinking": false,
+          "probe_side": 64
+        }
+      },
+      "memory:MiniMax-M2.7-highspeed": {
+        "json_mode": "natural_only",
+        "probe_note": "HTTP 400: {\"code\":20012,\"message\":\"Model does not exist. Please check it carefully.\",\"data\":null}",
+        "probed_at": "2026-05-28T00:45:19.286101+00:00",
+        "supports_vision": false
+      },
+      "memory:Qwen/Qwen3.5-4B": {
+        "json_mode": "natural_only",
+        "probed_at": "2026-05-28T00:45:37.761203+00:00",
+        "supports_vision": true,
+        "vision_hints": {
+          "content_order": "image_first",
+          "detail": "low",
+          "enable_thinking": false,
+          "probe_side": 64
+        }
+      },
+      "default:Pro/moonshotai/Kimi-K2.6": {
+        "json_mode": "response_format",
+        "probed_at": "2026-05-29T08:13:40.082756+00:00",
+        "supports_vision": true,
+        "vision_hints": {
+          "content_order": "image_first",
+          "detail": "low",
+          "enable_thinking": false,
+          "probe_side": 64
+        }
+      }
+    },
+    "_migrated_from_v1": true,
+    "memory": {
+      "same_connection_as_chat": true,
+      "connection_id": "default",
+      "model": "Qwen/Qwen3.5-9B",
+      "temperature": 0.2,
+      "max_tokens": 512,
+      "extract_context_rounds": 2
+    }
   }
 }

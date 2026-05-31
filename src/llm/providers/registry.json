@@ -1,0 +1,159 @@
+{
+  "siliconflow": {
+    "label": "硅基流动",
+    "protocol": "openai_compatible",
+    "base_url": "https://api.siliconflow.cn/v1",
+    "list_models_path": "/models",
+    "requires_api_key": true,
+    "reasoning_defaults": {
+      "enable_thinking": false
+    },
+    "vision_defaults": {
+      "probe_side": 64,
+      "enable_thinking": false,
+      "detail": "low"
+    }
+  },
+  "deepseek": {
+    "label": "DeepSeek",
+    "protocol": "openai_compatible",
+    "base_url": "https://api.deepseek.com/v1",
+    "list_models_path": "/models",
+    "requires_api_key": true,
+    "reasoning_defaults": {
+      "thinking": {
+        "type": "disabled"
+      }
+    }
+  },
+  "openai": {
+    "label": "OpenAI",
+    "protocol": "openai_compatible",
+    "base_url": "https://api.openai.com/v1",
+    "list_models_path": "/models",
+    "requires_api_key": true,
+    "reasoning_defaults": {
+      "reasoning_effort": "none"
+    }
+  },
+  "openrouter": {
+    "label": "OpenRouter",
+    "protocol": "openai_compatible",
+    "base_url": "https://openrouter.ai/api/v1",
+    "list_models_path": "/models",
+    "requires_api_key": true,
+    "reasoning_defaults": {
+      "reasoning": {
+        "effort": "none"
+      }
+    },
+    "vision_defaults": {
+      "probe_side": 64,
+      "detail": "low"
+    }
+  },
+  "zhipu": {
+    "label": "智谱 AI",
+    "protocol": "openai_compatible",
+    "base_url": "https://open.bigmodel.cn/api/paas/v4",
+    "list_models_path": "/models",
+    "requires_api_key": true,
+    "reasoning_defaults": {
+      "enable_thinking": false
+    },
+    "vision_defaults": {
+      "probe_side": 64,
+      "enable_thinking": false
+    }
+  },
+  "qwen": {
+    "label": "通义千问",
+    "protocol": "openai_compatible",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "list_models_path": "/models",
+    "requires_api_key": true,
+    "reasoning_defaults": {
+      "enable_thinking": false
+    }
+  },
+  "moonshot": {
+    "label": "Moonshot",
+    "protocol": "openai_compatible",
+    "base_url": "https://api.moonshot.cn/v1",
+    "list_models_path": "/models",
+    "requires_api_key": true,
+    "reasoning_defaults": {
+      "enable_thinking": false
+    }
+  },
+  "mistral": {
+    "label": "Mistral",
+    "protocol": "openai_compatible",
+    "base_url": "https://api.mistral.ai/v1",
+    "list_models_path": "/models",
+    "requires_api_key": true,
+    "reasoning_defaults": {}
+  },
+  "groq": {
+    "label": "Groq",
+    "protocol": "openai_compatible",
+    "base_url": "https://api.groq.com/openai/v1",
+    "list_models_path": "/models",
+    "requires_api_key": true,
+    "reasoning_defaults": {}
+  },
+  "minimax": {
+    "label": "MiniMax",
+    "protocol": "openai_compatible",
+    "base_url": "https://api.minimaxi.com/v1",
+    "list_models_path": "/models",
+    "requires_api_key": true,
+    "reasoning_defaults": {
+      "enable_thinking": false
+    },
+    "vision_defaults": {
+      "probe_side": 64,
+      "enable_thinking": false
+    }
+  },
+  "ollama": {
+    "label": "Ollama（本地）",
+    "protocol": "openai_compatible",
+    "base_url": "http://127.0.0.1:11434/v1",
+    "list_models_path": "/models",
+    "requires_api_key": false,
+    "reasoning_defaults": {
+      "think": false
+    }
+  },
+  "lmstudio": {
+    "label": "LM Studio（本地）",
+    "protocol": "openai_compatible",
+    "base_url": "http://127.0.0.1:1234/v1",
+    "list_models_path": "/models",
+    "requires_api_key": false,
+    "reasoning_defaults": {
+      "think": false
+    }
+  },
+  "vllm": {
+    "label": "vLLM（本地）",
+    "protocol": "openai_compatible",
+    "base_url": "http://127.0.0.1:8000/v1",
+    "list_models_path": "/models",
+    "requires_api_key": false,
+    "reasoning_defaults": {
+      "chat_template_kwargs": {
+        "enable_thinking": false
+      }
+    }
+  },
+  "custom_openai": {
+    "label": "自定义 OpenAI 兼容",
+    "protocol": "openai_compatible",
+    "base_url": "",
+    "list_models_path": "/models",
+    "requires_api_key": false,
+    "reasoning_defaults": {}
+  }
+}
