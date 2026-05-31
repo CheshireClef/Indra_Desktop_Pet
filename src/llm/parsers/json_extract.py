@@ -6,13 +6,13 @@ from __future__ import annotations
 
 import re
 from dataclasses import dataclass
+from typing import Literal
 
 from llm.clients.text_sanitize import strip_reasoning_artifacts
 
-_JSON_FENCE_RE = re.compile(
-    r"```(?:json)?\s*(\{[\s\S]*?\})\s*```",
-    re.IGNORECASE,
-)
+BracePreference = Literal["first", "last"]
+
+_FENCE_OPEN_RE = re.compile(r"```(?:json)?\s*", re.IGNORECASE)
 
 
 @dataclass(frozen=True)
@@ -54,10 +54,66 @@ def _balanced_object_from(text: str, start: int) -> str | None:
     return None
 
 
-def extract_json_object(raw: str) -> ExtractJsonResult:
+def _try_fenced_balanced(s: str) -> tuple[str | None, bool, bool]:
+    """
+    从 Markdown 围栏中提取完整 JSON 对象（从围栏内第一个 `{` 平衡扫描）。
+    返回 (payload, had_prose_before_json, incomplete_fence)。
+    """
+    m = _FENCE_OPEN_RE.search(s)
+    if not m:
+        return None, False, False
+
+    had_prose = m.start() > 0
+    inner = s[m.end() :]
+    close = inner.find("```")
+    if close < 0:
+        return None, had_prose, True
+
+    body = inner[:close].strip()
+    first_brace = body.find("{")
+    if first_brace < 0:
+        return None, had_prose, False
+
+    balanced = _balanced_object_from(body, first_brace)
+    if balanced:
+        return balanced, had_prose, False
+    return None, had_prose, False
+
+
+def _extract_by_brace(s: str, preference: BracePreference) -> tuple[str | None, bool]:
+    """按 first/last 策略从文本中提取平衡 JSON 对象。"""
+    if preference == "first":
+        indices = [i for i in (s.find("{"), s.rfind("{")) if i >= 0]
+        # first 优先；若 first 失败再试 last（兼容 think 块后仅有尾部 JSON 的少数情况）
+        order = sorted(set(indices))
+    else:
+        indices = [i for i in (s.rfind("{"), s.find("{")) if i >= 0]
+        order = []
+        seen: set[int] = set()
+        for i in indices:
+            if i not in seen:
+                order.append(i)
+                seen.add(i)
+
+    for idx in order:
+        balanced = _balanced_object_from(s, idx)
+        if balanced:
+            return balanced, idx > 0
+    return None, bool(s)
+
+
+def extract_json_object(
+    raw: str,
+    *,
+    brace_preference: BracePreference = "last",
+) -> ExtractJsonResult:
     """
     安全提取单个 JSON 对象字符串。
     禁止在无法得到平衡 `{}` 时返回整段原文。
+
+    brace_preference:
+    - last：聊天场景，JSON 常在末尾（默认）
+    - first：嵌套 schema（如 memories 数组内含对象），须取根对象
     """
     s = strip_reasoning_artifacts((raw or "").strip())
     if not s:
@@ -77,25 +133,18 @@ def extract_json_object(raw: str) -> ExtractJsonResult:
                 had_prose_before_json=fence_start > 0,
             )
 
-    # 完整 fenced 块
-    block = _JSON_FENCE_RE.search(s)
-    if block:
-        candidate = block.group(1).strip()
-        had_prose = block.start() > 0
-        if _balanced_object_from(candidate, 0) == candidate:
-            return ExtractJsonResult(
-                payload=candidate,
-                had_prose_before_json=had_prose,
-            )
+    payload, had_prose, incomplete = _try_fenced_balanced(s)
+    if incomplete:
+        return ExtractJsonResult(
+            payload=None,
+            incomplete_fence=True,
+            had_prose_before_json=had_prose,
+        )
+    if payload:
+        return ExtractJsonResult(payload=payload, had_prose_before_json=had_prose)
 
-    # 从最后一个 `{` 起平衡扫描（优先靠近末尾的 JSON）
-    last_brace = s.rfind("{")
-    if last_brace >= 0:
-        balanced = _balanced_object_from(s, last_brace)
-        if balanced:
-            return ExtractJsonResult(
-                payload=balanced,
-                had_prose_before_json=last_brace > 0,
-            )
+    balanced, had_prose = _extract_by_brace(s, brace_preference)
+    if balanced:
+        return ExtractJsonResult(payload=balanced, had_prose_before_json=had_prose)
 
     return ExtractJsonResult(payload=None, had_prose_before_json=bool(s))

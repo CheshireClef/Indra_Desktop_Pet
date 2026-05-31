@@ -347,7 +347,7 @@ class LongTermMemory:
             raw = self._merge_llm_caller(messages)
             if not (raw or "").strip():
                 return False
-            raw = extract_json_payload(raw.strip())
+            raw = extract_json_payload(raw.strip(), brace_preference="first")
             if not raw:
                 return False
             obj = json.loads(raw)
@@ -406,18 +406,19 @@ class LongTermMemory:
             )
         conn.commit()
 
-    def add_or_update(self, content: str, topic: Optional[str] = None) -> None:
+    def add_or_update(self, content: str, topic: Optional[str] = None) -> bool:
         """
         若新记忆与已有某条内容语义高度相似则更新该条，否则新增。
         topic 可选；若提供则存为主题并用于聚类，当同主题（按 topic 向量相似度）条数达到 5 的倍数时触发合并。
-        若 embedding 不可用则跳过写入。
+        若 embedding 不可用则跳过写入，返回 False。
         """
         content = (content or "").strip()
         if not content:
-            return
+            return False
         vec = self._get_embedding(content)
         if vec is None:
-            return
+            print("[MemoryExtract] 向量未就绪，跳过写入")
+            return False
         blob = _embedding_to_blob(vec)
         topic_blob = None
         topic_vec: Optional[List[float]] = None
@@ -475,6 +476,7 @@ class LongTermMemory:
                     self._merge_cluster(conn, cluster, force=False)
         finally:
             conn.close()
+        return True
 
     def search_with_scores(self, query: str, top_k: int = DEFAULT_TOP_K) -> List[Tuple[str, float]]:
         """

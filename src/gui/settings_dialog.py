@@ -334,8 +334,9 @@ class SettingsDialog(QDialog):
         self.memory_context_rounds_spin.setRange(1, 5)
         self.memory_context_rounds_spin.setValue(1)
         self.memory_context_rounds_spin.setToolTip(
-            "1：每轮对话结束后抽取，仅分析本轮。\n"
-            "2–5：每累计 N 轮对话抽取一次，并附带最近 N 轮完整对话。"
+            "每 N 轮用户聊天结束后，将连续 N 轮一并送记忆模型；\n"
+            "不含屏幕评论；样本不重叠、不遗漏。\n"
+            "1：每轮用户聊天后立即提交 1 轮；2–5：每累计 N 轮提交连续 N 轮。"
         )
         mem_api_form.addRow("附带对话轮数 N", self.memory_context_rounds_spin)
 

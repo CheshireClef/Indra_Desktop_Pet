@@ -63,9 +63,13 @@ def strip_reasoning_artifacts(text: str) -> str:
     return s
 
 
-def extract_json_payload(text: str) -> str:
+def extract_json_payload(
+    text: str,
+    *,
+    brace_preference: str = "last",
+) -> str:
     """从可能夹杂思考文字的回复中提取 JSON 字符串（安全，无闭合时不退回全文）。"""
     from llm.parsers.json_extract import extract_json_object
 
-    result = extract_json_object(text)
+    result = extract_json_object(text, brace_preference=brace_preference)  # type: ignore[arg-type]
     return result.payload or ""

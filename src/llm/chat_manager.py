@@ -8,10 +8,15 @@
 """
 import copy
 import re
+from collections import deque
+
+from PySide6.QtCore import QObject, QTimer
+
 from utils import resource_path
 from .knowledge_base import KnowledgeBase
 from .long_term_memory import LongTermMemory
 from llm.clients.text_sanitize import strip_reasoning_artifacts
+from llm.memory_extract_sampling import MemoryRoundBuffer
 from llm.pipelines.chat_pipeline import (
     append_json_retry_to_messages,
     get_json_output_instruction,
@@ -56,10 +61,14 @@ class ChatManager:
         self.chat_history = []
         self._load_persona()
 
-        # 聊天记忆后台抽取：轮次计数与 Worker 代际（防并发乱序写库）
-        self._completed_chat_rounds = 0
-        self._memory_extract_generation = 0
+        # 聊天记忆后台抽取：用户聊天轮缓冲 + FIFO 队列（不含屏幕评论）
+        self._memory_round_buffer = MemoryRoundBuffer()
+        self._memory_extract_queue: deque[tuple[list[dict], int, int, int]] = deque()
+        self._memory_extract_batch_seq = 0
+        self._memory_chat_round_serial = 0
         self._memory_extract_worker = None
+        # 主线程调度桥（ChatWorker 子线程入队时经 QTimer 投递到此对象所在线程）
+        self._extract_ui_bridge = QObject()
         # 最近一次 LLM 调用的 API 级思考链（与正文分离，供 UI 展示）
         self._last_llm_reasoning: str | None = None
 
@@ -274,10 +283,12 @@ class ChatManager:
         ]
         try:
             items = run_memory_extract(screen_slice, self.sm)
+            written = 0
             for content, topic in items:
-                self._long_term_memory.add_or_update(content, topic=topic)
-            if items:
-                print(f"[长期记忆-屏幕] 写入 {len(items)} 条")
+                if self._long_term_memory.add_or_update(content, topic=topic):
+                    written += 1
+            if written:
+                print(f"[长期记忆-屏幕] 写入 {written} 条")
         except Exception as e:
             print(f"[ChatManager] 屏幕描述记忆抽取失败: {e}")
 
@@ -410,63 +421,96 @@ class ChatManager:
 
     def _schedule_memory_extract(self) -> None:
         """
-        每完成一轮对话（user+assistant）后，按 extract_context_rounds 触发后台记忆抽取。
-        N=1：每轮抽取，payload 仅本轮；N>1：每 N 轮抽取一次，payload 为最近 N 轮。
+        用户聊天成功后：向 buffer 追加本轮，按 N 轮连续批次入队，主线程顺序执行 Worker。
         """
+        QTimer.singleShot(0, self._extract_ui_bridge, self._schedule_memory_extract_on_main)
+
+    def _schedule_memory_extract_on_main(self) -> None:
         if not self.sm.get("behavior", "long_term_memory_enabled", default=False):
             return
         if not self._long_term_memory:
             return
-
-        n = self.sm.get_memory_extract_context_rounds()
-        self._completed_chat_rounds += 1
-        if n > 1 and self._completed_chat_rounds % n != 0:
-            print(
-                f"[MemoryExtract] 本轮跳过（附带轮数 N={n}，"
-                f"已完成 {self._completed_chat_rounds} 轮，每 N 轮抽取一次）"
-            )
-            return
-
-        max_msgs = 2 * n
         if len(self.chat_history) < 2:
             return
-        history_slice = copy.deepcopy(self.chat_history[-max_msgs:])
-        print(
-            f"[MemoryExtract] 已调度后台抽取（最近 {len(history_slice) // 2} 轮对话，"
-            f"共 {len(history_slice)} 条消息）"
+
+        user_msg = self.chat_history[-2]
+        assistant_msg = self.chat_history[-1]
+        if user_msg.get("role") != "user" or assistant_msg.get("role") != "assistant":
+            return
+
+        self._memory_round_buffer.append_round(user_msg, assistant_msg)
+        self._memory_chat_round_serial += 1
+
+        n = self.sm.get_memory_extract_context_rounds()
+        while self._memory_round_buffer.pending_count() >= n:
+            history_slice = self._memory_round_buffer.pending_slice(n)
+            if not history_slice:
+                break
+            pending_before = self._memory_round_buffer.pending_count()
+            round_end = self._memory_chat_round_serial - pending_before + n
+            round_start = round_end - n + 1
+            self._memory_extract_batch_seq += 1
+            batch_id = self._memory_extract_batch_seq
+            self._memory_extract_queue.append(
+                (history_slice, batch_id, round_start, round_end)
+            )
+            self._memory_round_buffer.commit(n)
+            print(
+                f"[MemoryExtract] 入队批次 #{batch_id}（第 {round_start}–{round_end} 轮用户对话，"
+                f"共 {len(history_slice)} 条，不含屏幕评论）"
+            )
+
+        self._process_memory_extract_queue()
+
+    def _enqueue_memory_extract(
+        self,
+        history_slice: list[dict],
+        batch_id: int,
+        round_start: int,
+        round_end: int,
+    ) -> None:
+        """入队并在主线程唤醒 queue processor（供测试或扩展）。"""
+        self._memory_extract_queue.append(
+            (copy.deepcopy(history_slice), batch_id, round_start, round_end)
         )
+        self._process_memory_extract_queue()
 
-        # 取消进行中的旧任务，仅采纳最新代际结果
-        prev = self._memory_extract_worker
-        if prev is not None and prev.isRunning():
-            prev.requestInterruption()
+    def _process_memory_extract_queue(self) -> None:
+        """FIFO：当前无 Worker 运行时取下一批启动。"""
+        if self._memory_extract_worker is not None and self._memory_extract_worker.isRunning():
+            return
+        if not self._memory_extract_queue:
+            return
 
-        self._memory_extract_generation += 1
-        gen = self._memory_extract_generation
-
+        history_slice, batch_id, round_start, round_end = self._memory_extract_queue.popleft()
         from workers.memory_extract_worker import MemoryExtractWorker
 
         worker = MemoryExtractWorker(
             settings_manager=self.sm,
             long_term_memory=self._long_term_memory,
             history_slice=history_slice,
-            generation_id=gen,
+            batch_id=batch_id,
         )
         worker.finished.connect(self._on_memory_extract_finished)
         worker.error.connect(self._on_memory_extract_error)
         self._memory_extract_worker = worker
+        print(
+            f"[MemoryExtract] 开始抽取批次 #{batch_id}（第 {round_start}–{round_end} 轮）"
+        )
         worker.start()
 
-    def _on_memory_extract_finished(self, written_count: int, generation_id: int) -> None:
-        if generation_id != self._memory_extract_generation:
-            return
+    def _on_memory_extract_finished(self, written_count: int, batch_id: int) -> None:
         if written_count:
-            print(f"[ChatManager] 后台记忆抽取完成，写入 {written_count} 条")
+            print(
+                f"[ChatManager] 后台记忆抽取批次 #{batch_id} 完成，写入 {written_count} 条"
+            )
+        else:
+            print(f"[ChatManager] 后台记忆抽取批次 #{batch_id} 完成，无新写入")
+        self._process_memory_extract_queue()
 
-    def _on_memory_extract_error(self, msg: str, generation_id: int) -> None:
-        if generation_id != self._memory_extract_generation:
-            return
-        print(f"[ChatManager] 后台记忆抽取失败: {msg}")
+    def _on_memory_extract_error(self, msg: str, batch_id: int) -> None:
+        print(f"[ChatManager] 后台记忆抽取批次 #{batch_id} 失败: {msg}")
+        self._process_memory_extract_queue()
 
     def _request_llm(self, messages: list[dict], response_format_json: bool = False) -> str | None:
         result = self._request_llm_result(messages, response_format_json=response_format_json)

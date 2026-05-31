@@ -5,14 +5,14 @@
 from __future__ import annotations
 
 import json
-import re
 from typing import Any
 
 from llm.clients.text_sanitize import extract_json_payload
+from llm.memory_extract_sampling import SCREEN_COMMENT_PREFIX
 from llm.output_modes import json_only_policy
 from utils import resource_path
 
-_SCREEN_COMMENT_PREFIX = "【刚刚对屏幕的评论】"
+_SCREEN_COMMENT_PREFIX = SCREEN_COMMENT_PREFIX
 
 
 def load_extract_system_prompt() -> str:
@@ -28,23 +28,24 @@ def load_extract_system_prompt() -> str:
         )
 
 
-def _normalize_role_content(content: str) -> str:
-    s = (content or "").strip()
-    if s.startswith(_SCREEN_COMMENT_PREFIX):
-        s = re.sub(r"^【刚刚对屏幕的评论】\s*", "", s).strip()
-    return s
-
-
 def build_extract_user_payload(history_slice: list[dict[str, Any]]) -> str:
     """将最近 N 轮对话格式化为抽取用 user 载荷。"""
-    lines: list[str] = ["以下是刚完成的对话片段，请判断是否有值得写入长期记忆的内容。\n"]
+    from llm.memory_extract_sampling import is_screen_comment_message
+
+    lines: list[str] = [
+        "以下为用户与助手的日常对话，忽略角色扮演中的虚构情节，"
+        "只提取关于用户本人的事实。\n",
+        "以下是刚完成的对话片段，请判断是否有值得写入长期记忆的内容。\n",
+    ]
     for msg in history_slice:
         if not isinstance(msg, dict):
+            continue
+        if is_screen_comment_message(msg):
             continue
         role = msg.get("role")
         if role not in ("user", "assistant"):
             continue
-        text = _normalize_role_content(str(msg.get("content") or ""))
+        text = (str(msg.get("content") or "")).strip()
         if not text:
             continue
         label = "用户" if role == "user" else "助手"
@@ -59,7 +60,7 @@ def parse_extract_response(raw: str | None) -> list[tuple[str, str | None]]:
     """
     if not (raw or "").strip():
         return []
-    payload = extract_json_payload(raw.strip())
+    payload = extract_json_payload(raw.strip(), brace_preference="first")
     if not payload:
         print("[MemoryExtract] 解析失败：无 JSON 载荷")
         return []
@@ -69,6 +70,7 @@ def parse_extract_response(raw: str | None) -> list[tuple[str, str | None]]:
         print(f"[MemoryExtract] 解析失败：{e}")
         return []
     if not isinstance(obj, dict):
+        print("[MemoryExtract] 解析失败：根节点非 JSON 对象")
         return []
     memories = obj.get("memories")
     if memories is None:
@@ -78,6 +80,10 @@ def parse_extract_response(raw: str | None) -> list[tuple[str, str | None]]:
             topic = obj.get("memory_topic")
             t = topic.strip() if isinstance(topic, str) and topic.strip() else None
             return [(single.strip(), t)]
+        print(
+            "[MemoryExtract] 解析失败：JSON 中缺少 memories 数组"
+            f"（已提取载荷预览：{payload[:120]}…）"
+        )
         return []
     if not isinstance(memories, list):
         return []
@@ -159,7 +165,7 @@ def run_memory_extract(
         print(f"[MemoryExtract] 抽取到 {len(items)} 条候选记忆")
     else:
         if raw and (raw or "").strip():
-            print("[MemoryExtract] 记忆模型已响应，但判定无需录入（memories 为空）")
+            print("[MemoryExtract] 记忆模型已响应，但解析后无有效记忆条目")
             preview = raw.strip().replace("\n", " ")[:160]
             print(f"[MemoryExtract] 响应预览：{preview}…")
         else:
